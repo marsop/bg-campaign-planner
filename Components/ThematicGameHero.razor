@@ -1,0 +1,120 @@
+@using bg_campaign_planner.Models
+@using bg_campaign_planner.Services
+@inject ILocalizationService Loc
+
+<div class="thematic-hero-wrapper mb-4">
+    <div class="thematic-hero-card @(Game.Id == GameId.Gloomhaven ? "hero-gloomhaven" : "hero-pandemic")">
+        <div class="hero-texture-overlay"></div>
+        <div class="hero-content">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="hero-badge-strip mb-2">
+                        <span class="hero-badge">@Game.Theme.BadgeCategory</span>
+                        <span class="hero-badge-sub">@Game.Designers • @Game.ReleaseYear</span>
+                        <span class="hero-badge-tagline">@Game.Theme.Tagline</span>
+                    </div>
+
+                    <h1 class="hero-main-title">@Game.Title</h1>
+                    <p class="hero-main-subtitle">@Game.Subtitle</p>
+
+                    <div class="hero-lore-box mb-3">
+                        <div class="lore-icon">
+                            @if (Game.Id == GameId.Gloomhaven)
+                            {
+                                <span>📜</span>
+                            }
+                            else
+                            {
+                                <span>🔒</span>
+                            }
+                        </div>
+                        <div class="lore-text">
+                            @Game.Theme.LoreSummary
+                        </div>
+                    </div>
+
+                    <div class="hero-stats-row">
+                        <div class="hero-stat-pill">
+                            <span class="stat-icon">📦</span>
+                            <div>
+                                <div class="stat-label">@Loc["Hero.BoxContents"]</div>
+                                <div class="stat-val">@Game.TotalBoxContentSummary</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3 mt-lg-0">
+                    <div class="hero-side-panel">
+                        <div class="panel-header">
+                            <i class="bi bi-info-circle me-1"></i> @Loc["Hero.PublicDataRef"]
+                        </div>
+                        <div class="panel-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="text-muted-light">@Loc["Hero.BggRating"]</span>
+                                @if (!string.IsNullOrEmpty(Game.BggUrl))
+                                {
+                                    <a href="@Game.BggUrl" target="_blank" rel="noopener noreferrer" class="fw-bold text-highlight bgg-link-highlight" title="Open @Game.Title on BoardGameGeek">
+                                        ⭐ @Game.BggRating / 10 <i class="bi bi-box-arrow-up-right ms-1" style="font-size: 0.75rem;"></i>
+                                    </a>
+                                }
+                                else
+                                {
+                                    <span class="fw-bold text-highlight">⭐ @Game.BggRating / 10</span>
+                                }
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <span class="text-muted-light">@Loc["Hero.ComplexityRating"]</span>
+                                <span class="fw-bold text-highlight">🧠 @Game.BggWeight / 5.0</span>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <span class="text-muted-light">@Loc["Hero.AvgPlay"]</span>
+                                <span class="fw-bold text-highlight">⏱️ ~@Game.BaseScenarioMinutes @Loc["Hero.Mins"]</span>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <span class="text-muted-light">@Loc["Hero.SetupTeardown"]</span>
+                                <span class="fw-bold text-highlight">🛠️ ~@Game.SetupTeardownMinutes @Loc["Hero.Mins"]</span>
+                            </div>
+
+                            <hr class="panel-divider" />
+
+                            <div class="source-references">
+                                <div class="sources-title">@Loc["Hero.VerifiedSources"]</div>
+                                <ul class="sources-list">
+                                    @foreach (var src in Game.PublicSourceReferences)
+                                    {
+                                        @if (src.StartsWith("BoardGameGeek") && !string.IsNullOrEmpty(Game.BggUrl))
+                                        {
+                                            <li>
+                                                <a href="@Game.BggUrl" target="_blank" rel="noopener noreferrer" class="bgg-source-link" title="Open @Game.Title on BoardGameGeek">
+                                                    @src <i class="bi bi-box-arrow-up-right ms-1" style="font-size: 0.7rem;"></i>
+                                                </a>
+                                            </li>
+                                        }
+                                        else
+                                        {
+                                            <li>@src</li>
+                                        }
+                                    }
+                                </ul>
+                                @if (!string.IsNullOrEmpty(Game.BggUrl))
+                                {
+                                    <div class="mt-3">
+                                        <a href="@Game.BggUrl" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-light w-100 bgg-hero-btn">
+                                            <i class="bi bi-box-arrow-up-right me-1"></i> View on BoardGameGeek
+                                        </a>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public BoardGame Game { get; set; } = null!;
+}

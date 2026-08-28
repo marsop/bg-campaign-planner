@@ -1,0 +1,157 @@
+@page "/"
+@using bg_campaign_planner.Models
+@using bg_campaign_planner.Services
+@using bg_campaign_planner.Components
+@inject CampaignDataService DataService
+@inject PlannerCalculatorService CalculatorService
+@inject ILocalizationService Loc
+@implements IDisposable
+
+<PageTitle>@Loc["App.Title"] | Gloomhaven & Pandemic Season 0</PageTitle>
+
+<div class="planner-app-container @ThemeClass">
+    <!-- Top Header -->
+    <header class="app-hero-header py-3 py-md-4">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+                <div class="brand-badge">
+                    <span class="badge-dot"></span> @Loc["App.Title"]
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <LanguageSelector />
+                    <ThemeToggle />
+                </div>
+            </div>
+            <div class="text-center">
+                <h1 class="display-5 fw-bold brand-title">@Loc["App.Subtitle"]</h1>
+                <p class="lead text-muted-light mx-auto" style="max-width: 720px;">
+                    @((MarkupString)Loc.Get("App.HeroLead", "<strong>Gloomhaven</strong>", "<strong>Pandemic Legacy: Season 0</strong>"))
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container main-content-container pb-5">
+        <!-- 1. GAME SELECTION -->
+        <section class="section-block">
+            <div class="section-badge-title mb-3">
+                <span class="step-badge">Step 1</span> @Loc["App.Step1Title"]
+            </div>
+            <GameSelector Games="@AllGames"
+                          SelectedGameId="@CurrentGame.Id"
+                          OnGameSelected="HandleGameSelected" />
+        </section>
+
+        <!-- 2. THEMATIC GAME HERO & PUBLIC SOURCE DATA -->
+        <section class="section-block">
+            <ThematicGameHero Game="@CurrentGame" />
+        </section>
+
+        <!-- 3. CONFIGURATION & SCHEDULE FORM -->
+        <section class="section-block">
+            <div class="section-badge-title mb-3">
+                <span class="step-badge">Step 2</span> @Loc["App.Step2Title"]
+            </div>
+            <PlannerForm Game="@CurrentGame"
+                         Input="@PlannerInput"
+                         OnInputChanged="Recalculate" />
+        </section>
+
+        <!-- 4. RESULTS DASHBOARD (CARDS & PROGRESS) -->
+        <section class="section-block">
+            <div class="section-badge-title mb-3">
+                <span class="step-badge">Step 3</span> @Loc["App.Step3Title"]
+            </div>
+            @if (CurrentResult != null)
+            {
+                <CalculationSummaryCards Result="@CurrentResult" />
+            }
+        </section>
+
+        <!-- 5. THEMATIC ROADMAP PROGRESSION -->
+        <section class="section-block">
+            @if (CurrentResult != null)
+            {
+                <ThematicRoadmap Game="@CurrentGame" Result="@CurrentResult" />
+            }
+        </section>
+
+        <!-- 6. CALENDAR TIMELINE & EXPORT -->
+        <section class="section-block">
+            @if (CurrentResult != null)
+            {
+                <SessionsTimeline Result="@CurrentResult" />
+            }
+        </section>
+    </div>
+
+    <footer class="app-footer py-4 text-center border-top">
+        <div class="container">
+            <div class="small text-muted mb-1">
+                @Loc["App.FooterText"]
+            </div>
+            <div class="small text-muted-light">
+                @Loc["App.FooterSources"]
+            </div>
+        </div>
+    </footer>
+</div>
+
+@code {
+    private IReadOnlyList<BoardGame> AllGames = new List<BoardGame>();
+    private BoardGame CurrentGame = null!;
+    private PlannerInputModel PlannerInput = new();
+    private CalculationResult? CurrentResult;
+
+    private string ThemeClass => CurrentGame.Id == GameId.Gloomhaven ? "theme-gloomhaven-active" : "theme-pandemic-active";
+
+    protected override async Task OnInitializedAsync()
+    {
+        Loc.OnLanguageChanged += HandleLanguageChanged;
+        await Loc.InitializeAsync();
+        LoadGameData();
+    }
+
+    private void LoadGameData()
+    {
+        AllGames = DataService.GetAllGames(Loc.CurrentLanguage);
+        CurrentGame = DataService.GetGame(PlannerInput.SelectedGameId, Loc.CurrentLanguage);
+        
+        PlannerInput.SelectedGameId = CurrentGame.Id;
+        if (string.IsNullOrEmpty(PlannerInput.SelectedScopeId) || !CurrentGame.Scopes.Any(s => s.Id == PlannerInput.SelectedScopeId))
+        {
+            var recScope = CurrentGame.Scopes.FirstOrDefault(s => s.IsRecommended) ?? CurrentGame.Scopes.First();
+            PlannerInput.SelectedScopeId = recScope.Id;
+        }
+
+        Recalculate();
+    }
+
+    private void HandleLanguageChanged()
+    {
+        LoadGameData();
+        InvokeAsync(StateHasChanged);
+    }
+
+    private void HandleGameSelected(GameId gameId)
+    {
+        if (CurrentGame.Id != gameId)
+        {
+            CurrentGame = DataService.GetGame(gameId, Loc.CurrentLanguage);
+            PlannerInput.SelectedGameId = gameId;
+            var recScope = CurrentGame.Scopes.FirstOrDefault(s => s.IsRecommended) ?? CurrentGame.Scopes.First();
+            PlannerInput.SelectedScopeId = recScope.Id;
+            Recalculate();
+        }
+    }
+
+    private void Recalculate()
+    {
+        CurrentResult = CalculatorService.Calculate(PlannerInput, CurrentGame);
+    }
+
+    public void Dispose()
+    {
+        Loc.OnLanguageChanged -= HandleLanguageChanged;
+    }
+}

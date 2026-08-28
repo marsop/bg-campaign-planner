@@ -1,0 +1,467 @@
+@using bg_campaign_planner.Models
+@using bg_campaign_planner.Services
+@inject ILocalizationService Loc
+
+<div class="planner-form-card mb-4">
+    <div class="form-section-header d-flex justify-content-between align-items-center">
+        <div>
+            <h3 class="section-title"><i class="bi bi-sliders me-2"></i> @Loc["Form.SettingsTitle"]</h3>
+            <p class="section-subtitle">@Loc["Form.SettingsSubtitle"]</p>
+        </div>
+        <button class="btn btn-outline-secondary btn-sm" @onclick="ResetToDefaults">
+            <i class="bi bi-arrow-counterclockwise me-1"></i> @Loc["Form.ResetBtn"]
+        </button>
+    </div>
+
+    <div class="form-body">
+        <!-- 1. CAMPAIGN SCOPE SELECTION -->
+        <div class="mb-4">
+            <label class="form-label-custom">@Loc["Form.Step1Scope"]</label>
+            <div class="row g-2">
+                @foreach (var scope in Game.Scopes)
+                {
+                    var isSelected = Input.SelectedScopeId == scope.Id || (string.IsNullOrEmpty(Input.SelectedScopeId) && scope.IsRecommended);
+                    <div class="col-12 col-md-6">
+                        <div class="scope-card @(isSelected ? "selected" : "")"
+                             @onclick="() => SelectScope(scope.Id)"
+                             role="button">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="scope-name">@scope.Name</span>
+                                @if (scope.IsRecommended)
+                                {
+                                    <span class="badge bg-warning text-dark">@Loc["Form.Recommended"]</span>
+                                }
+                            </div>
+                            <div class="scope-scenarios">
+                                <span class="fw-bold">@scope.BaseScenarioCount</span> @(Game.Id == GameId.Gloomhaven ? Loc["Form.Scenarios"] : Loc["Form.GamesMonths"])
+                                <span class="text-muted ms-2">• @Loc.Get("Form.ReplayBuffer", scope.EstimatedFailRatePercent.ToString("F0"))</span>
+                            </div>
+                            <div class="scope-desc">@scope.Description</div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- 2. FREQUENCY & PLAY PATTERN -->
+        <div class="mb-4">
+            <label class="form-label-custom">@Loc["Form.Step2Frequency"]</label>
+            <div class="frequency-button-group mb-3">
+                <button type="button" class="btn-freq-tab @(Input.Frequency == FrequencyMode.TimesPerWeek ? "active" : "")"
+                        @onclick="() => SetFrequencyMode(FrequencyMode.TimesPerWeek)">
+                    @Loc["Form.FreqWeekly"]
+                </button>
+                <button type="button" class="btn-freq-tab @(Input.Frequency == FrequencyMode.BiWeekly ? "active" : "")"
+                        @onclick="() => SetFrequencyMode(FrequencyMode.BiWeekly)">
+                    @Loc["Form.FreqBiWeekly"]
+                </button>
+                <button type="button" class="btn-freq-tab @(Input.Frequency == FrequencyMode.TimesPerMonth ? "active" : "")"
+                        @onclick="() => SetFrequencyMode(FrequencyMode.TimesPerMonth)">
+                    @Loc["Form.FreqMonthly"]
+                </button>
+                <button type="button" class="btn-freq-tab @(Input.Frequency == FrequencyMode.CustomDaysInterval ? "active" : "")"
+                        @onclick="() => SetFrequencyMode(FrequencyMode.CustomDaysInterval)">
+                    @Loc["Form.FreqCustom"]
+                </button>
+            </div>
+
+            <!-- Frequency specific controls -->
+            <div class="freq-subcontrols-box p-3 rounded">
+                @if (Input.Frequency == FrequencyMode.TimesPerWeek)
+                {
+                    <div class="row align-items-center g-3">
+                        <div class="col-sm-6">
+                            <label class="small text-muted-light mb-1">@Loc["Form.TimesPerWeek"]</label>
+                            <div class="d-flex align-items-center gap-2">
+                                @for (int i = 1; i <= 4; i++)
+                                {
+                                    var count = i;
+                                    <button type="button"
+                                            class="btn btn-sm btn-counter @(Input.TimesPerWeekCount == count ? "btn-counter-active" : "")"
+                                            @onclick="() => SetTimesPerWeek(count)">
+                                        @Loc.Get("Form.TimesPerWeekVal", count)
+                                    </button>
+                                }
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <label class="small text-muted-light mb-1">@Loc["Form.PreferredDays"]</label>
+                            <div class="d-flex flex-wrap gap-1">
+                                @foreach (DayOfWeek day in Enum.GetValues(typeof(DayOfWeek)))
+                                {
+                                    var isDaySelected = Input.PreferredDaysOfWeek.Contains(day);
+                                    var dayName = Loc.CurrentCulture.DateTimeFormat.GetAbbreviatedDayName(day);
+                                    <button type="button"
+                                            class="btn btn-sm day-pill @(isDaySelected ? "day-pill-selected" : "")"
+                                            @onclick="() => ToggleDayOfWeek(day)">
+                                        @dayName
+                                    </button>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+                else if (Input.Frequency == FrequencyMode.BiWeekly)
+                {
+                    <div class="row align-items-center g-3">
+                        <div class="col-sm-6">
+                            <label class="small text-muted-light mb-1">@Loc["Form.PreferredDay"]</label>
+                            <div class="d-flex flex-wrap gap-1">
+                                @foreach (DayOfWeek day in Enum.GetValues(typeof(DayOfWeek)))
+                                {
+                                    var isDaySelected = Input.PreferredDaysOfWeek.Contains(day);
+                                    var dayName = Loc.CurrentCulture.DateTimeFormat.GetAbbreviatedDayName(day);
+                                    <button type="button"
+                                            class="btn btn-sm day-pill @(isDaySelected ? "day-pill-selected" : "")"
+                                            @onclick="() => SetSingleDayOfWeek(day)">
+                                        @dayName
+                                    </button>
+                                }
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="small text-muted">
+                                @Loc["Form.BiWeeklyHint"]
+                            </div>
+                        </div>
+                    </div>
+                }
+                else if (Input.Frequency == FrequencyMode.TimesPerMonth)
+                {
+                    <div class="row align-items-center g-3">
+                        <div class="col-sm-6">
+                            <label class="small text-muted-light mb-1">@Loc["Form.TimesPerMonth"]</label>
+                            <div class="d-flex align-items-center gap-2">
+                                @for (int i = 1; i <= 4; i++)
+                                {
+                                    var count = i;
+                                    <button type="button"
+                                            class="btn btn-sm btn-counter @(Input.TimesPerMonthCount == count ? "btn-counter-active" : "")"
+                                            @onclick="() => SetTimesPerMonth(count)">
+                                        @Loc.Get("Form.TimesPerMonthVal", count)
+                                    </button>
+                                }
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <label class="small text-muted-light mb-1">@Loc["Form.PreferredDay"]</label>
+                            <div class="d-flex flex-wrap gap-1">
+                                @foreach (DayOfWeek day in Enum.GetValues(typeof(DayOfWeek)))
+                                {
+                                    var isDaySelected = Input.PreferredDaysOfWeek.Contains(day);
+                                    var dayName = Loc.CurrentCulture.DateTimeFormat.GetAbbreviatedDayName(day);
+                                    <button type="button"
+                                            class="btn btn-sm day-pill @(isDaySelected ? "day-pill-selected" : "")"
+                                            @onclick="() => SetSingleDayOfWeek(day)">
+                                        @dayName
+                                    </button>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+                else if (Input.Frequency == FrequencyMode.CustomDaysInterval)
+                {
+                    <div class="row align-items-center g-3">
+                        <div class="col-sm-6">
+                            <label class="small text-muted-light mb-1">@Loc.Get("Form.EveryNDays", Input.CustomDaysInterval)</label>
+                            <input type="range" class="form-range" min="2" max="30" step="1"
+                                   value="@Input.CustomDaysInterval"
+                                   @oninput="OnCustomDaysChanged" />
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex flex-wrap gap-1">
+                                @foreach (var preset in new[] { 3, 5, 7, 10, 14, 21, 30 })
+                                {
+                                    <button type="button"
+                                            class="btn btn-sm btn-counter @(Input.CustomDaysInterval == preset ? "btn-counter-active" : "")"
+                                            @onclick="() => SetCustomDays(preset)">
+                                        @Loc.Get("Form.DaysUnit", preset)
+                                    </button>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- 3. SESSION STRUCTURE & DURATION -->
+        <div class="row g-3 mb-4">
+            <div class="col-md-4">
+                <label class="form-label-custom">@Loc["Form.Step3MeetupStructure"]</label>
+                <div class="d-flex gap-2">
+                    <button type="button" class="btn btn-session-len @(Input.ScenariosPerMeetup == 1 ? "active" : "")"
+                            @onclick="() => SetScenariosPerMeetup(1)">
+                        <div class="fs-5 fw-bold">1</div>
+                        <div class="small text-muted-light">@Loc["Form.Scenario1"]</div>
+                    </button>
+                    <button type="button" class="btn btn-session-len @(Input.ScenariosPerMeetup == 2 ? "active" : "")"
+                            @onclick="() => SetScenariosPerMeetup(2)">
+                        <div class="fs-5 fw-bold">2</div>
+                        <div class="small text-muted-light">@Loc["Form.Scenario2"]</div>
+                    </button>
+                    <button type="button" class="btn btn-session-len @(Input.ScenariosPerMeetup == 3 ? "active" : "")"
+                            @onclick="() => SetScenariosPerMeetup(3)">
+                        <div class="fs-5 fw-bold">3</div>
+                        <div class="small text-muted-light">@Loc["Form.Scenario3"]</div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-label-custom">@Loc["Form.Step4StartDate"]</label>
+                <input type="date" class="form-control form-control-custom mb-1"
+                       value="@Input.StartDate.ToString("yyyy-MM-dd")"
+                       @onchange="OnStartDateChanged" />
+                <div class="d-flex gap-1">
+                    <button type="button" class="btn btn-xs btn-outline-secondary" @onclick="SetStartToday">@Loc["Form.DateToday"]</button>
+                    <button type="button" class="btn btn-xs btn-outline-secondary" @onclick="SetStartNextWeekend">@Loc["Form.DateNextWeekend"]</button>
+                    <button type="button" class="btn btn-xs btn-outline-secondary" @onclick="SetStartNextMonth">@Loc["Form.DateNextMonth"]</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-label-custom">@Loc["Form.Step5Vacation"]</label>
+                <div class="d-flex align-items-center gap-2">
+                    <select class="form-select form-select-custom" value="@Input.VacationWeeksBuffer" @onchange="OnVacationChanged">
+                        <option value="0">@Loc["Form.Vacation0"]</option>
+                        <option value="1">@Loc["Form.Vacation1"]</option>
+                        <option value="2">@Loc["Form.Vacation2"]</option>
+                        <option value="4">@Loc["Form.Vacation4"]</option>
+                        <option value="6">@Loc["Form.Vacation6"]</option>
+                    </select>
+                </div>
+                <div class="small text-muted mt-1">@Loc["Form.VacationHint"]</div>
+            </div>
+        </div>
+
+        <!-- 4. GROUP EXPERIENCE & OPTIONS -->
+        <div class="row g-3">
+            <div class="col-md-4">
+                <label class="form-label-custom">@Loc["Form.Step6PlayerCount"]</label>
+                <div class="d-flex gap-2">
+                    @for (int p = Game.PlayersMin; p <= Game.PlayersMax; p++)
+                    {
+                        var count = p;
+                        <button type="button" class="btn btn-sm btn-counter flex-fill @(Input.PlayerCount == count ? "btn-counter-active" : "")"
+                                @onclick="() => SetPlayerCount(count)">
+                            👥 @count
+                        </button>
+                    }
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-label-custom">@Loc["Form.Step7Experience"]</label>
+                <select class="form-select form-select-custom" value="@Input.Experience" @onchange="OnExperienceChanged">
+                    <option value="@ExperienceLevel.Beginner">@Loc["Form.ExpBeginner"]</option>
+                    <option value="@ExperienceLevel.Regular">@Loc["Form.ExpRegular"]</option>
+                    <option value="@ExperienceLevel.Veteran">@Loc["Form.ExpVeteran"]</option>
+                </select>
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-label-custom">@Loc["Form.Step8Factors"]</label>
+                <div class="form-check form-switch mb-1">
+                    <input class="form-check-input" type="checkbox" id="chkSetup"
+                           checked="@Input.IncludeSetupTeardown"
+                           @onchange="ToggleSetupTeardown" />
+                    <label class="form-check-label small" for="chkSetup">
+                        @Loc.Get("Form.FactorSetup", Game.SetupTeardownMinutes)
+                    </label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="chkFail"
+                           checked="@Input.EnableFailureBuffer"
+                           @onchange="ToggleFailureBuffer" />
+                    <label class="form-check-label small" for="chkFail">
+                        @Loc["Form.FactorFailure"]
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public BoardGame Game { get; set; } = null!;
+
+    [Parameter, EditorRequired]
+    public PlannerInputModel Input { get; set; } = null!;
+
+    [Parameter]
+    public EventCallback OnInputChanged { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        if (string.IsNullOrEmpty(Input.SelectedScopeId) && Game.Scopes.Any())
+        {
+            var rec = Game.Scopes.FirstOrDefault(s => s.IsRecommended) ?? Game.Scopes.First();
+            Input.SelectedScopeId = rec.Id;
+        }
+    }
+
+    private async Task SelectScope(string scopeId)
+    {
+        Input.SelectedScopeId = scopeId;
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task SetFrequencyMode(FrequencyMode mode)
+    {
+        Input.Frequency = mode;
+        if (mode == FrequencyMode.TimesPerWeek && !Input.PreferredDaysOfWeek.Any())
+        {
+            Input.PreferredDaysOfWeek = new List<DayOfWeek> { DayOfWeek.Friday };
+        }
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task SetTimesPerWeek(int count)
+    {
+        Input.TimesPerWeekCount = count;
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task SetTimesPerMonth(int count)
+    {
+        Input.TimesPerMonthCount = count;
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task SetCustomDays(int days)
+    {
+        Input.CustomDaysInterval = days;
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task OnCustomDaysChanged(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value?.ToString(), out int val))
+        {
+            Input.CustomDaysInterval = val;
+            await OnInputChanged.InvokeAsync();
+        }
+    }
+
+    private async Task ToggleDayOfWeek(DayOfWeek day)
+    {
+        if (Input.PreferredDaysOfWeek.Contains(day))
+        {
+            if (Input.PreferredDaysOfWeek.Count > 1)
+            {
+                Input.PreferredDaysOfWeek.Remove(day);
+            }
+        }
+        else
+        {
+            Input.PreferredDaysOfWeek.Add(day);
+        }
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task SetSingleDayOfWeek(DayOfWeek day)
+    {
+        Input.PreferredDaysOfWeek = new List<DayOfWeek> { day };
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task SetScenariosPerMeetup(int count)
+    {
+        Input.ScenariosPerMeetup = count;
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task SetPlayerCount(int count)
+    {
+        Input.PlayerCount = count;
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task OnStartDateChanged(ChangeEventArgs e)
+    {
+        if (DateTime.TryParse(e.Value?.ToString(), out var dt))
+        {
+            Input.StartDate = dt;
+            await OnInputChanged.InvokeAsync();
+        }
+    }
+
+    private async Task SetStartToday()
+    {
+        Input.StartDate = DateTime.Today;
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task SetStartNextWeekend()
+    {
+        DateTime nextSat = DateTime.Today;
+        while (nextSat.DayOfWeek != DayOfWeek.Saturday)
+        {
+            nextSat = nextSat.AddDays(1);
+        }
+        Input.StartDate = nextSat;
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task SetStartNextMonth()
+    {
+        DateTime today = DateTime.Today;
+        DateTime nextMonth = new DateTime(today.Year, today.Month, 1).AddMonths(1);
+        Input.StartDate = nextMonth;
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task OnVacationChanged(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value?.ToString(), out int weeks))
+        {
+            Input.VacationWeeksBuffer = weeks;
+            await OnInputChanged.InvokeAsync();
+        }
+    }
+
+    private async Task OnExperienceChanged(ChangeEventArgs e)
+    {
+        if (Enum.TryParse<ExperienceLevel>(e.Value?.ToString(), out var exp))
+        {
+            Input.Experience = exp;
+            await OnInputChanged.InvokeAsync();
+        }
+    }
+
+    private async Task ToggleSetupTeardown(ChangeEventArgs e)
+    {
+        Input.IncludeSetupTeardown = e.Value is bool b && b;
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task ToggleFailureBuffer(ChangeEventArgs e)
+    {
+        Input.EnableFailureBuffer = e.Value is bool b && b;
+        await OnInputChanged.InvokeAsync();
+    }
+
+    private async Task ResetToDefaults()
+    {
+        Input.Frequency = FrequencyMode.TimesPerWeek;
+        Input.TimesPerWeekCount = 1;
+        Input.TimesPerMonthCount = 2;
+        Input.CustomDaysInterval = 7;
+        Input.PreferredDaysOfWeek = new List<DayOfWeek> { DayOfWeek.Friday };
+        Input.StartDate = DateTime.Today;
+        Input.VacationWeeksBuffer = 0;
+        Input.ScenariosPerMeetup = 1;
+        Input.PlayerCount = 3;
+        Input.Experience = ExperienceLevel.Regular;
+        Input.IncludeSetupTeardown = true;
+        Input.EnableFailureBuffer = true;
+        
+        var rec = Game.Scopes.FirstOrDefault(s => s.IsRecommended) ?? Game.Scopes.First();
+        Input.SelectedScopeId = rec.Id;
+
+        await OnInputChanged.InvokeAsync();
+    }
+}

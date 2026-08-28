@@ -1,0 +1,70 @@
+@using bg_campaign_planner.Services
+@inject ILocalizationService Loc
+@implements IDisposable
+
+<div class="language-selector-wrapper d-inline-block position-relative">
+    <button class="btn btn-sm btn-language-toggle d-flex align-items-center gap-1 @(isOpen ? "show" : "")"
+            type="button"
+            @onclick="ToggleDropdown"
+            title="@Loc["Language.Select"]">
+        <span class="lang-flag">@CurrentLanguageInfo?.Flag</span>
+        <span class="lang-name d-none d-md-inline ms-1 small">@CurrentLanguageInfo?.Name</span>
+        <span class="lang-code text-uppercase fw-semibold d-inline d-md-none">@Loc.CurrentLanguage</span>
+        <i class="bi bi-chevron-down ms-1 small opacity-75"></i>
+    </button>
+    
+    @if (isOpen)
+    {
+        <div class="language-dropdown-menu shadow-lg" @onclick:stopPropagation>
+            <div class="dropdown-header small text-muted text-uppercase px-3 py-1">@Loc["Language.Select"]</div>
+            @foreach (var lang in Loc.SupportedLanguages)
+            {
+                var isSelected = lang.Code.Equals(Loc.CurrentLanguage, StringComparison.OrdinalIgnoreCase);
+                <button class="language-option-item d-flex align-items-center justify-content-between w-100 @(isSelected ? "active" : "")"
+                        @onclick="() => SelectLanguage(lang.Code)">
+                    <span class="d-flex align-items-center gap-2">
+                        <span class="lang-item-flag">@lang.Flag</span>
+                        <span class="lang-item-name">@lang.Name</span>
+                    </span>
+                    @if (isSelected)
+                    {
+                        <i class="bi bi-check-circle-fill text-warning"></i>
+                    }
+                </button>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private bool isOpen = false;
+
+    private LanguageInfo? CurrentLanguageInfo =>
+        Loc.SupportedLanguages.FirstOrDefault(l => l.Code.Equals(Loc.CurrentLanguage, StringComparison.OrdinalIgnoreCase));
+
+    protected override void OnInitialized()
+    {
+        Loc.OnLanguageChanged += HandleLanguageChanged;
+    }
+
+    private void HandleLanguageChanged()
+    {
+        InvokeAsync(StateHasChanged);
+    }
+
+    private void ToggleDropdown()
+    {
+        isOpen = !isOpen;
+    }
+
+    private async Task SelectLanguage(string code)
+    {
+        isOpen = false;
+        await Loc.SetLanguageAsync(code);
+    }
+
+    public void Dispose()
+    {
+        Loc.OnLanguageChanged -= HandleLanguageChanged;
+    }
+}

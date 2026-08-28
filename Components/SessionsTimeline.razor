@@ -1,0 +1,176 @@
+@using bg_campaign_planner.Models
+@using bg_campaign_planner.Services
+@inject PlannerCalculatorService CalculatorService
+@inject ILocalizationService Loc
+@inject IJSRuntime JS
+
+<div class="sessions-timeline-card mb-5">
+    <div class="timeline-header d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+        <div>
+            <h4 class="timeline-title"><i class="bi bi-calendar3 me-2"></i> @Loc["Timeline.Title"]</h4>
+            <div class="timeline-subtitle">@Loc.Get("Timeline.Subtitle", Result.Sessions.Count)</div>
+        </div>
+
+        <div class="d-flex flex-wrap gap-2">
+            <button class="btn btn-outline-info btn-sm" @onclick="CopySummaryToClipboard">
+                <i class="bi bi-clipboard me-1"></i> @Loc["Timeline.CopyBtn"]
+            </button>
+            <button class="btn btn-primary btn-sm btn-export" @onclick="ExportCalendarIcs">
+                <i class="bi bi-download me-1"></i> @Loc["Timeline.ExportBtn"]
+            </button>
+        </div>
+    </div>
+
+    @if (!string.IsNullOrEmpty(ToastMessage))
+    {
+        <div class="alert alert-success alert-dismissible py-2 small mb-3">
+            @ToastMessage
+            <button type="button" class="btn-close btn-close-white small p-2" @onclick="() => ToastMessage = null"></button>
+        </div>
+    }
+
+    <!-- FILTER / SEARCH & VIEW TOGGLE -->
+    <div class="timeline-controls d-flex justify-content-between align-items-center mb-3">
+        <div class="d-flex align-items-center gap-2">
+            <span class="small text-muted">@Loc["Timeline.Showing"]</span>
+            <button class="btn btn-xs @(ShowOnlyMilestones ? "btn-secondary" : "btn-primary")"
+                    @onclick="() => ShowOnlyMilestones = false">
+                @Loc.Get("Timeline.AllSessions", Result.Sessions.Count)
+            </button>
+            <button class="btn btn-xs @(ShowOnlyMilestones ? "btn-primary" : "btn-secondary")"
+                    @onclick="() => ShowOnlyMilestones = true">
+                @Loc.Get("Timeline.MilestoneSessions", Result.Sessions.Count(s => s.IsMilestoneSession))
+            </button>
+        </div>
+
+        <div class="small text-muted">
+            @Loc.Get("Timeline.PageOf", CurrentPage, TotalPages)
+        </div>
+    </div>
+
+    <!-- SESSIONS TABLE / LIST -->
+    <div class="table-responsive sessions-table-wrapper">
+        <table class="table table-hover table-dark-custom align-middle">
+            <thead>
+                <tr>
+                    <th style="width: 70px;">@Loc["Timeline.ColNumber"]</th>
+                    <th style="width: 160px;">@Loc["Timeline.ColDateDay"]</th>
+                    <th style="width: 140px;">@(Result.Game.Id == GameId.Gloomhaven ? Loc["Timeline.ColScenarios"] : Loc["Timeline.ColGames"])</th>
+                    <th style="width: 110px;">@Loc["Timeline.ColHours"]</th>
+                    <th>@Loc["Timeline.ColMilestoneNote"]</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var session in DisplayedSessions)
+                {
+                    <tr class="@(session.IsMilestoneSession ? "table-row-milestone" : "")">
+                        <td>
+                            <span class="badge @(session.IsMilestoneSession ? "bg-warning text-dark" : "bg-secondary")">
+                                #@session.SessionNumber
+                            </span>
+                        </td>
+                        <td>
+                            <div class="fw-bold">@session.Date.ToString("ddd, MMM d, yyyy", Loc.CurrentCulture)</div>
+                            <div class="small text-muted">7:00 PM - @session.Date.Date.AddHours(19).AddHours(session.EstimatedSessionHours).ToString("t", Loc.CurrentCulture)</div>
+                        </td>
+                        <td>
+                            <span class="badge scenario-range-badge border">
+                                @(session.StartScenarioIndex == session.EndScenarioIndex 
+                                    ? $"{session.StartScenarioIndex}" 
+                                    : $"{session.StartScenarioIndex} – {session.EndScenarioIndex}")
+                            </span>
+                            <span class="small text-muted ms-1">(@session.ScenariosPlayedInSession)</span>
+                        </td>
+                        <td>
+                            <span class="text-info fw-semibold">@session.EstimatedSessionHours.ToString("F1", Loc.CurrentCulture)h</span>
+                        </td>
+                        <td>
+                            @if (session.IsMilestoneSession)
+                            {
+                                <div class="milestone-table-tag">
+                                    <span class="badge bg-warning text-dark me-1">@Loc["Timeline.MilestoneBadge"]</span>
+                                    <strong class="milestone-note-text">@session.MilestoneNote</strong>
+                                    <span class="small text-muted ms-1">(@session.MilestonePhase)</span>
+                                </div>
+                            }
+                            else
+                            {
+                                <span class="text-muted small">@Loc["Timeline.StandardSession"]</span>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- PAGINATION -->
+    @if (TotalPages > 1)
+    {
+        <div class="d-flex justify-content-between align-items-center mt-3">
+            <button class="btn btn-sm btn-outline-secondary"
+                    disabled="@(CurrentPage <= 1)"
+                    @onclick="() => CurrentPage--">
+                @Loc["Timeline.PrevBtn"]
+            </button>
+            <div class="d-flex gap-1">
+                @for (int i = 1; i <= TotalPages; i++)
+                {
+                    var pageNum = i;
+                    <button class="btn btn-xs @(CurrentPage == pageNum ? "btn-primary" : "btn-outline-secondary")"
+                            @onclick="() => CurrentPage = pageNum">
+                        @pageNum
+                    </button>
+                }
+            </div>
+            <button class="btn btn-sm btn-outline-secondary"
+                    disabled="@(CurrentPage >= TotalPages)"
+                    @onclick="() => CurrentPage++">
+                @Loc["Timeline.NextBtn"]
+            </button>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public CalculationResult Result { get; set; } = null!;
+
+    private bool ShowOnlyMilestones = false;
+    private int CurrentPage = 1;
+    private const int PageSize = 10;
+    private string? ToastMessage;
+
+    private IEnumerable<ScheduledSession> FilteredSessions =>
+        ShowOnlyMilestones ? Result.Sessions.Where(s => s.IsMilestoneSession) : Result.Sessions;
+
+    private int TotalPages => Math.Max(1, (int)Math.Ceiling((double)FilteredSessions.Count() / PageSize));
+
+    private IEnumerable<ScheduledSession> DisplayedSessions =>
+        FilteredSessions.Skip((CurrentPage - 1) * PageSize).Take(PageSize);
+
+    protected override void OnParametersSet()
+    {
+        CurrentPage = 1;
+    }
+
+    private async Task ExportCalendarIcs()
+    {
+        var icsContent = CalculatorService.GenerateIcsFile(Result);
+        var filename = $"{Result.Game.Id}-Campaign-Schedule.ics";
+        await JS.InvokeVoidAsync("campaignPlanner.downloadFile", filename, "text/calendar", icsContent);
+        ToastMessage = Loc.Get("Timeline.IcsToast", filename);
+    }
+
+    private async Task CopySummaryToClipboard()
+    {
+        var summaryText = $"🎲 {Result.Game.Title} {Loc["Timeline.SummaryTitle"]} ({Result.Scope.Name})\n" +
+                          $"📅 {Loc["Timeline.SummarySchedule"]}: {Result.StartDate.ToString("MMM d, yyyy", Loc.CurrentCulture)} ➔ {Result.ProjectedFinishDate.ToString("MMM d, yyyy", Loc.CurrentCulture)} ({Result.TotalCalendarMonths.ToString("F1", Loc.CurrentCulture)} {Loc["Kpi.DurationSubtext"]})\n" +
+                          $"🎯 {Loc["Timeline.SummaryMeetups"]}: {Result.TotalMeetupsRequired} (~{Result.AverageSessionHours.ToString("F1", Loc.CurrentCulture)} h)\n" +
+                          $"⏳ {Loc["Timeline.SummaryPlayTime"]}: ~{Result.TotalTableHours.ToString("F0", Loc.CurrentCulture)} h\n" +
+                          $"{Loc["Timeline.SummaryGeneratedVia"]}";
+
+        await JS.InvokeVoidAsync("campaignPlanner.copyToClipboard", summaryText);
+        ToastMessage = Loc["Timeline.CopyToast"];
+    }
+}

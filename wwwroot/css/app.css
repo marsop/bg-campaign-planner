@@ -1,0 +1,1181 @@
+/* Board Game Campaign Planner - Modern Themed CSS */
+
+/* ==========================================================================
+   1. COLOR SCHEMES & CSS VARIABLES (LIGHT / DARK THEMES)
+   ========================================================================== */
+
+:root,
+:root[data-theme="dark"],
+[data-bs-theme="dark"] {
+    --bg-body: #0d1117;
+    --bg-card: rgba(22, 27, 34, 0.92);
+    --bg-card-subtle: rgba(13, 17, 23, 0.7);
+    --bg-card-solid: #161b22;
+    --border-color: rgba(255, 255, 255, 0.12);
+    --border-color-subtle: rgba(255, 255, 255, 0.08);
+    --border-color-focus: rgba(245, 158, 11, 0.5);
+    --text-main: #f0f6fc;
+    --text-muted: #8b949e;
+    --text-muted-light: #c9d1d9;
+    --accent-gold: #f59e0b;
+    --accent-gold-text: #fbbf24;
+    --accent-blue: #38bdf8;
+    --accent-blue-text: #38bdf8;
+    --accent-red: #f43f5e;
+    --accent-green: #10b981;
+    --input-bg: rgba(0, 0, 0, 0.45);
+    --input-bg-focus: rgba(0, 0, 0, 0.65);
+    --panel-bg: rgba(0, 0, 0, 0.35);
+    --panel-bg-alt: rgba(0, 0, 0, 0.5);
+    --badge-bg: rgba(255, 255, 255, 0.08);
+    --pill-bg: rgba(255, 255, 255, 0.05);
+    --card-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    --card-hover-shadow: 0 16px 36px rgba(0, 0, 0, 0.55);
+    --hero-gloom-bg: radial-gradient(circle at top right, #3c2a1a 0%, #1c1512 60%, #120e0d 100%);
+    --hero-gloom-border: rgba(245, 158, 11, 0.4);
+    --hero-pandemic-bg: radial-gradient(circle at top right, #0c2840 0%, #0c1829 60%, #060d17 100%);
+    --hero-pandemic-border: rgba(56, 189, 248, 0.4);
+    --table-milestone-gloom: rgba(245, 158, 11, 0.12);
+    --table-milestone-pandemic: rgba(56, 189, 248, 0.12);
+    --table-hover-bg: rgba(255, 255, 255, 0.04);
+    --brand-title-gradient: linear-gradient(135deg, #ffffff 30%, #94a3b8 100%);
+    --toggle-bg: rgba(255, 255, 255, 0.08);
+    --toggle-border: rgba(255, 255, 255, 0.15);
+    --toggle-active-bg: rgba(255, 255, 255, 0.22);
+    --toggle-active-text: #ffffff;
+    --font-cinzel: 'Cinzel', serif;
+    --font-special: 'Special Elite', monospace;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+:root[data-theme="light"],
+[data-bs-theme="light"] {
+    --bg-body: #f8fafc;
+    --bg-card: #ffffff;
+    --bg-card-subtle: #f1f5f9;
+    --bg-card-solid: #ffffff;
+    --border-color: rgba(15, 23, 42, 0.12);
+    --border-color-subtle: rgba(15, 23, 42, 0.06);
+    --border-color-focus: rgba(217, 119, 6, 0.5);
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --text-muted-light: #334155;
+    --accent-gold: #d97706;
+    --accent-gold-text: #b45309;
+    --accent-blue: #0284c7;
+    --accent-blue-text: #0369a1;
+    --accent-red: #e11d48;
+    --accent-green: #059669;
+    --input-bg: #ffffff;
+    --input-bg-focus: #ffffff;
+    --panel-bg: #f8fafc;
+    --panel-bg-alt: #f1f5f9;
+    --badge-bg: rgba(15, 23, 42, 0.06);
+    --pill-bg: rgba(15, 23, 42, 0.04);
+    --card-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.08), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
+    --card-hover-shadow: 0 12px 28px -4px rgba(15, 23, 42, 0.14), 0 4px 10px -2px rgba(15, 23, 42, 0.06);
+    --hero-gloom-bg: linear-gradient(135deg, #fffbeb 0%, #fef3c7 50%, #fde68a 100%);
+    --hero-gloom-border: rgba(217, 119, 6, 0.4);
+    --hero-pandemic-bg: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #bae6fd 100%);
+    --hero-pandemic-border: rgba(2, 132, 199, 0.4);
+    --table-milestone-gloom: rgba(217, 119, 6, 0.09);
+    --table-milestone-pandemic: rgba(2, 132, 199, 0.09);
+    --table-hover-bg: rgba(15, 23, 42, 0.03);
+    --brand-title-gradient: linear-gradient(135deg, #0f172a 30%, #334155 100%);
+    --toggle-bg: rgba(15, 23, 42, 0.07);
+    --toggle-border: rgba(15, 23, 42, 0.15);
+    --toggle-active-bg: #ffffff;
+    --toggle-active-text: #0f172a;
+}
+
+/* ==========================================================================
+   2. GLOBAL BODY & TRANSITIONS
+   ========================================================================== */
+
+body {
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    font-family: var(--font-body);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.planner-app-container {
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Base Loader */
+.initial-loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.loader-emblem {
+    font-size: 3.5rem;
+    animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+}
+
+.loading-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-muted-light);
+    margin-top: 1rem;
+}
+
+/* ==========================================================================
+   3. APP HERO HEADER & THEME TOGGLE
+   ========================================================================== */
+
+.app-hero-header {
+    background: radial-gradient(circle at top, rgba(56, 189, 248, 0.12) 0%, transparent 70%);
+    border-bottom: 1px solid var(--border-color);
+    transition: border-color 0.25s ease;
+}
+
+:root[data-theme="light"] .app-hero-header {
+    background: radial-gradient(circle at top, rgba(2, 132, 199, 0.08) 0%, transparent 70%);
+}
+
+.brand-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: 9999px;
+    background: var(--badge-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.badge-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--accent-gold);
+    box-shadow: 0 0 8px var(--accent-gold);
+}
+
+.brand-title {
+    letter-spacing: -0.02em;
+    background: var(--brand-title-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.25s ease;
+}
+
+/* Theme Toggle Widget */
+.theme-toggle-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.theme-toggle-pill-group {
+    background: var(--toggle-bg);
+    border: 1px solid var(--toggle-border);
+    border-radius: 9999px;
+    padding: 3px;
+    display: inline-flex;
+    gap: 2px;
+    backdrop-filter: blur(8px);
+    transition: all 0.2s ease;
+}
+
+.theme-toggle-btn {
+    border: none;
+    background: transparent;
+    border-radius: 9999px;
+    padding: 0.28rem 0.65rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.theme-toggle-btn:hover:not(.active) {
+    color: var(--text-main);
+}
+
+.theme-toggle-btn.active {
+    background: var(--toggle-active-bg);
+    color: var(--toggle-active-text);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    font-weight: 700;
+}
+
+:root[data-theme="dark"] .theme-toggle-btn.active {
+    background: rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+}
+
+/* Section styling */
+.section-block {
+    margin-top: 2rem;
+}
+
+.section-badge-title {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-muted-light);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.step-badge {
+    background: var(--accent-gold);
+    color: #000;
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 0.2rem 0.55rem;
+    border-radius: 4px;
+}
+
+/* ==========================================================================
+   4. GAME SELECTION CARDS
+   ========================================================================== */
+
+.game-selection-card {
+    background: var(--bg-card);
+    border: 2px solid var(--border-color);
+    border-radius: 14px;
+    padding: 1.5rem;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: var(--card-shadow);
+}
+
+.game-selection-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--border-color-focus);
+    box-shadow: var(--card-hover-shadow);
+}
+
+.game-selection-card.selected {
+    transform: translateY(-2px);
+}
+
+:root[data-theme="dark"] .theme-gloomhaven.selected {
+    border-color: var(--accent-gold);
+    box-shadow: 0 0 24px rgba(245, 158, 11, 0.35);
+    background: radial-gradient(circle at top left, rgba(245, 158, 11, 0.12), var(--bg-card));
+}
+
+:root[data-theme="light"] .theme-gloomhaven.selected {
+    border-color: var(--accent-gold);
+    box-shadow: 0 6px 20px rgba(217, 119, 6, 0.25);
+    background: radial-gradient(circle at top left, rgba(254, 243, 199, 0.65), var(--bg-card));
+}
+
+:root[data-theme="dark"] .theme-pandemic.selected {
+    border-color: var(--accent-blue);
+    box-shadow: 0 0 24px rgba(56, 189, 248, 0.35);
+    background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.12), var(--bg-card));
+}
+
+:root[data-theme="light"] .theme-pandemic.selected {
+    border-color: var(--accent-blue);
+    box-shadow: 0 6px 20px rgba(2, 132, 199, 0.25);
+    background: radial-gradient(circle at top left, rgba(224, 242, 254, 0.65), var(--bg-card));
+}
+
+.card-header-badge .badge-category {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.25rem 0.65rem;
+    border-radius: 4px;
+    background: var(--badge-bg);
+    color: var(--text-muted-light);
+    font-weight: 600;
+}
+
+.selected-indicator {
+    color: var(--accent-green);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.select-prompt {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+.game-card-emblem {
+    font-size: 2.2rem;
+}
+
+.game-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+}
+
+.theme-gloomhaven .game-title {
+    font-family: var(--font-cinzel);
+    color: var(--accent-gold-text);
+}
+
+.theme-pandemic .game-title {
+    font-family: var(--font-special);
+    color: var(--accent-blue-text);
+}
+
+.game-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    min-height: 2.6rem;
+}
+
+.game-meta-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.meta-pill {
+    background: var(--pill-bg);
+    border: 1px solid var(--border-color);
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    color: var(--text-muted-light);
+    font-weight: 500;
+}
+
+.game-lore-snippet {
+    font-size: 0.85rem;
+    color: var(--text-muted-light);
+    border-left: 2px solid var(--border-color);
+    padding-left: 0.65rem;
+    margin-bottom: 1rem;
+}
+
+.key-features-list .feature-item {
+    font-size: 0.8rem;
+    color: var(--text-muted-light);
+    margin-bottom: 0.35rem;
+}
+
+.key-features-list .bullet {
+    color: var(--accent-gold);
+    margin-right: 0.3rem;
+}
+
+.btn-select-game {
+    background: var(--badge-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    font-weight: 600;
+    padding: 0.6rem;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.theme-gloomhaven .btn-select-game.btn-active {
+    background: var(--accent-gold);
+    color: #000;
+    border-color: var(--accent-gold);
+    font-weight: 700;
+}
+
+.theme-pandemic .btn-select-game.btn-active {
+    background: var(--accent-blue);
+    color: #000;
+    border-color: var(--accent-blue);
+    font-weight: 700;
+}
+
+/* ==========================================================================
+   5. THEMATIC GAME HERO
+   ========================================================================== */
+
+.thematic-hero-card {
+    border-radius: 16px;
+    padding: 2rem;
+    position: relative;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    transition: all 0.25s ease;
+}
+
+.hero-gloomhaven {
+    background: var(--hero-gloom-bg);
+    border-color: var(--hero-gloom-border);
+}
+
+.hero-pandemic {
+    background: var(--hero-pandemic-bg);
+    border-color: var(--hero-pandemic-border);
+}
+
+.hero-badge-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hero-badge {
+    background: var(--badge-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.hero-badge-sub {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.hero-badge-tagline {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--accent-gold-text);
+    letter-spacing: 0.05em;
+}
+
+.hero-gloomhaven .hero-main-title {
+    font-family: var(--font-cinzel);
+    color: var(--accent-gold-text);
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+
+.hero-pandemic .hero-main-title {
+    font-family: var(--font-special);
+    color: var(--accent-blue-text);
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+
+.hero-main-subtitle {
+    color: var(--text-muted-light);
+    font-size: 1.05rem;
+    margin-bottom: 1.25rem;
+}
+
+.hero-lore-box {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color-subtle);
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    backdrop-filter: blur(6px);
+}
+
+.lore-icon {
+    font-size: 1.3rem;
+}
+
+.lore-text {
+    font-size: 0.9rem;
+    color: var(--text-main);
+    line-height: 1.5;
+}
+
+.hero-stat-pill {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: var(--pill-bg);
+    border: 1px solid var(--border-color-subtle);
+    border-radius: 8px;
+    padding: 0.6rem 0.9rem;
+}
+
+.stat-icon {
+    font-size: 1.4rem;
+}
+
+.stat-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.stat-val {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+.hero-side-panel {
+    background: var(--panel-bg-alt);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.25rem;
+    backdrop-filter: blur(8px);
+}
+
+.panel-header {
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--text-muted-light);
+    letter-spacing: 0.05em;
+    margin-bottom: 0.85rem;
+}
+
+.panel-divider {
+    border-color: var(--border-color-subtle);
+    margin: 0.75rem 0;
+}
+
+.text-highlight {
+    color: var(--text-main);
+}
+
+.sources-title {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 0.35rem;
+}
+
+.sources-list {
+    margin: 0;
+    padding-left: 1.2rem;
+    font-size: 0.75rem;
+    color: var(--text-muted-light);
+}
+
+/* ==========================================================================
+   6. PLANNER FORM
+   ========================================================================== */
+
+.planner-form-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 1.75rem;
+    box-shadow: var(--card-shadow);
+    transition: all 0.25s ease;
+}
+
+.form-section-header .section-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 0.2rem;
+}
+
+.form-section-header .section-subtitle {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.form-label-custom {
+    display: block;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--text-muted-light);
+    margin-bottom: 0.5rem;
+}
+
+/* Scope card */
+.scope-card {
+    background: var(--pill-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    height: 100%;
+}
+
+.scope-card:hover {
+    background: var(--badge-bg);
+    border-color: var(--border-color-focus);
+}
+
+.scope-card.selected {
+    background: rgba(245, 158, 11, 0.12);
+    border-color: var(--accent-gold);
+}
+
+.theme-pandemic-active .scope-card.selected {
+    background: rgba(56, 189, 248, 0.12);
+    border-color: var(--accent-blue);
+}
+
+.scope-name {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--text-main);
+}
+
+.scope-scenarios {
+    font-size: 0.85rem;
+    color: var(--accent-gold-text);
+    margin-bottom: 0.25rem;
+}
+
+.theme-pandemic-active .scope-scenarios {
+    color: var(--accent-blue-text);
+}
+
+.scope-desc {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* Frequency tabs */
+.frequency-button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.btn-freq-tab {
+    background: var(--badge-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted-light);
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.5rem 0.9rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-freq-tab:hover {
+    background: var(--toggle-active-bg);
+    color: var(--text-main);
+}
+
+.btn-freq-tab.active {
+    background: var(--accent-gold);
+    color: #000;
+    border-color: var(--accent-gold);
+    font-weight: 700;
+}
+
+.theme-pandemic-active .btn-freq-tab.active {
+    background: var(--accent-blue);
+    color: #000;
+    border-color: var(--accent-blue);
+    font-weight: 700;
+}
+
+.freq-subcontrols-box {
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    transition: all 0.25s ease;
+}
+
+.btn-counter {
+    background: var(--badge-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted-light);
+    font-weight: 600;
+}
+
+.btn-counter:hover {
+    background: var(--toggle-active-bg);
+    color: var(--text-main);
+}
+
+.btn-counter.btn-counter-active {
+    background: var(--accent-gold);
+    color: #000;
+    border-color: var(--accent-gold);
+    font-weight: 700;
+}
+
+.theme-pandemic-active .btn-counter.btn-counter-active {
+    background: var(--accent-blue);
+    color: #000;
+    border-color: var(--accent-blue);
+    font-weight: 700;
+}
+
+.day-pill {
+    background: var(--pill-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.25rem 0.55rem;
+    border-radius: 6px;
+    transition: all 0.15s ease;
+}
+
+.day-pill:hover {
+    color: var(--text-main);
+}
+
+.day-pill-selected {
+    background: var(--accent-green);
+    color: #fff;
+    border-color: var(--accent-green);
+}
+
+.btn-session-len {
+    flex: 1;
+    background: var(--pill-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted-light);
+    border-radius: 10px;
+    padding: 0.6rem;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.btn-session-len:hover {
+    background: var(--badge-bg);
+}
+
+.btn-session-len.active {
+    border-color: var(--accent-gold);
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--text-main);
+    font-weight: 700;
+}
+
+.theme-pandemic-active .btn-session-len.active {
+    border-color: var(--accent-blue);
+    background: rgba(56, 189, 248, 0.15);
+    color: var(--text-main);
+    font-weight: 700;
+}
+
+.form-control-custom, .form-select-custom {
+    background-color: var(--input-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    transition: all 0.2s ease;
+}
+
+.form-control-custom:focus, .form-select-custom:focus {
+    background-color: var(--input-bg-focus);
+    border-color: var(--accent-gold);
+    color: var(--text-main);
+    box-shadow: 0 0 0 0.25rem rgba(245, 158, 11, 0.2);
+}
+
+.btn-xs {
+    padding: 0.15rem 0.45rem;
+    font-size: 0.75rem;
+}
+
+/* ==========================================================================
+   7. KPI SUMMARY CARDS
+   ========================================================================== */
+
+.kpi-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    padding: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: var(--card-shadow);
+    transition: all 0.25s ease;
+}
+
+.kpi-icon {
+    font-size: 1.6rem;
+    margin-bottom: 0.4rem;
+}
+
+.kpi-value {
+    font-size: 1.9rem;
+    font-weight: 800;
+    color: var(--text-main);
+    line-height: 1.1;
+    margin-bottom: 0.2rem;
+}
+
+.kpi-date {
+    font-size: 1.35rem;
+}
+
+.kpi-unit {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-muted);
+}
+
+.kpi-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-muted-light);
+    margin-bottom: 0.35rem;
+}
+
+.kpi-subtext {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.kpi-card-primary {
+    border-left: 4px solid var(--accent-gold);
+}
+
+.theme-pandemic-active .kpi-card-primary {
+    border-left: 4px solid var(--accent-blue);
+}
+
+.kpi-card-success {
+    border-left: 4px solid var(--accent-green);
+}
+
+.kpi-card-warning {
+    border-left: 4px solid #f97316;
+}
+
+.kpi-card-info {
+    border-left: 4px solid #06b6d4;
+}
+
+.progress-breakdown-card {
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    transition: all 0.25s ease;
+}
+
+.custom-progress {
+    background-color: var(--badge-bg);
+    border-radius: 6px;
+}
+
+/* ==========================================================================
+   8. THEMATIC ROADMAP
+   ========================================================================== */
+
+.roadmap-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 1.75rem;
+    box-shadow: var(--card-shadow);
+    transition: all 0.25s ease;
+}
+
+.roadmap-gloomhaven {
+    border-color: rgba(245, 158, 11, 0.3);
+}
+
+.roadmap-pandemic {
+    border-color: rgba(56, 189, 248, 0.3);
+}
+
+.roadmap-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.roadmap-gloomhaven .roadmap-title {
+    font-family: var(--font-cinzel);
+    color: var(--accent-gold-text);
+}
+
+.roadmap-pandemic .roadmap-title {
+    font-family: var(--font-special);
+    color: var(--accent-blue-text);
+}
+
+.roadmap-subtitle {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.badge-roadmap-style {
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 0.3rem 0.65rem;
+    border-radius: 4px;
+    background: var(--badge-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted-light);
+}
+
+.milestone-step-card {
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s, border-color 0.2s, background-color 0.2s;
+}
+
+.milestone-step-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--border-color-focus);
+}
+
+.step-num {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+.badge-step {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.15rem 0.45rem;
+    border-radius: 4px;
+    background: rgba(245, 158, 11, 0.2);
+    color: var(--accent-gold-text);
+}
+
+.theme-pandemic-active .badge-step {
+    background: rgba(56, 189, 248, 0.2);
+    color: var(--accent-blue-text);
+}
+
+.milestone-icon-circle {
+    font-size: 1.8rem;
+}
+
+.milestone-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 0.25rem;
+}
+
+.milestone-phase {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--accent-gold-text);
+    margin-bottom: 0.5rem;
+}
+
+.theme-pandemic-active .milestone-phase {
+    color: var(--accent-blue-text);
+}
+
+.milestone-desc {
+    font-size: 0.8rem;
+    color: var(--text-muted-light);
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+}
+
+.milestone-divider {
+    border-color: var(--border-color-subtle);
+    margin: 0.5rem 0;
+}
+
+.forecast-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    margin-bottom: 0.2rem;
+}
+
+.forecast-label {
+    color: var(--text-muted);
+}
+
+.forecast-val {
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+/* ==========================================================================
+   9. SESSIONS TIMELINE & CALENDAR TABLE
+   ========================================================================== */
+
+.sessions-timeline-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 1.75rem;
+    box-shadow: var(--card-shadow);
+    transition: all 0.25s ease;
+}
+
+.timeline-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 0.2rem;
+}
+
+.timeline-subtitle {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.table-dark-custom {
+    --bs-table-bg: transparent;
+    --bs-table-color: var(--text-main);
+    --bs-table-border-color: var(--border-color-subtle);
+    --bs-table-hover-bg: var(--table-hover-bg);
+}
+
+.table-dark-custom thead th {
+    color: var(--text-muted-light);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.table-row-milestone {
+    background: var(--table-milestone-gloom) !important;
+    border-left: 3px solid var(--accent-gold);
+}
+
+.theme-pandemic-active .table-row-milestone {
+    background: var(--table-milestone-pandemic) !important;
+    border-left: 3px solid var(--accent-blue);
+}
+
+.date-range-badge {
+    background: var(--badge-bg);
+    color: var(--text-main);
+    border-color: var(--border-color) !important;
+}
+
+.scenario-range-badge {
+    background: var(--badge-bg);
+    color: var(--text-main);
+    border-color: var(--border-color) !important;
+}
+
+.milestone-note-text {
+    color: var(--accent-gold-text);
+}
+
+.theme-pandemic-active .milestone-note-text {
+    color: var(--accent-blue-text);
+}
+
+/* ==========================================================================
+   10. APP FOOTER
+   ========================================================================== */
+
+.app-footer {
+    border-color: var(--border-color) !important;
+    background: var(--panel-bg);
+    transition: all 0.25s ease;
+}
+
+/* ==========================================================================
+   11. LANGUAGE SELECTOR
+   ========================================================================== */
+
+.language-selector-wrapper {
+    z-index: 1050;
+}
+
+.btn-language-toggle {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    padding: 0.35rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(8px);
+}
+
+.btn-language-toggle:hover,
+.btn-language-toggle:focus,
+.btn-language-toggle.show {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: var(--border-color-focus);
+    color: var(--text-main);
+    box-shadow: 0 0 12px var(--glow-primary);
+}
+
+.language-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    min-width: 180px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 0.4rem 0;
+    backdrop-filter: blur(16px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+    z-index: 1060;
+    animation: fadeInDropdown 0.15s ease-out;
+}
+
+@keyframes fadeInDropdown {
+    from {
+        opacity: 0;
+        transform: translateY(-6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.language-option-item {
+    background: transparent;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: var(--text-main);
+    font-size: 0.88rem;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+    text-align: left;
+}
+
+.language-option-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+}
+
+.language-option-item.active {
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
+.theme-pandemic-active .language-option-item.active {
+    background: rgba(56, 189, 248, 0.15);
+    color: var(--accent-blue);
+}

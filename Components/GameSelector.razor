@@ -1,0 +1,123 @@
+@using bg_campaign_planner.Models
+@using bg_campaign_planner.Services
+@inject ILocalizationService Loc
+
+<div class="game-selector-container mb-4">
+    <div class="row g-3 justify-content-center">
+        @foreach (var game in Games)
+        {
+            var isSelected = SelectedGameId == game.Id;
+            var isGloomhaven = game.Id == GameId.Gloomhaven;
+
+            <div class="col-12 col-md-6">
+                <div class="game-selection-card @(isSelected ? "selected" : "") @(isGloomhaven ? "theme-gloomhaven" : "theme-pandemic")"
+                     @onclick="() => OnGameSelected.InvokeAsync(game.Id)"
+                     role="button"
+                     tabindex="0"
+                     aria-pressed="@(isSelected ? "true" : "false")">
+                    
+                    <div class="card-glow"></div>
+                    
+                    <div class="card-header-badge d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="badge-category">@game.Theme.BadgeCategory</span>
+                            @if (!string.IsNullOrEmpty(game.BggUrl))
+                            {
+                                <a href="@game.BggUrl" target="_blank" rel="noopener noreferrer" class="badge-bgg-link" title="View @game.Title on BoardGameGeek" @onclick:stopPropagation="true">
+                                    <i class="bi bi-box-arrow-up-right me-1"></i>BGG
+                                </a>
+                            }
+                        </div>
+                        <span class="badge-status">
+                            @if (isSelected)
+                            {
+                                <span class="selected-indicator"><i class="bi bi-check-circle-fill me-1"></i> @Loc["GameSelector.ActiveGame"]</span>
+                            }
+                            else
+                            {
+                                <span class="select-prompt">@Loc["GameSelector.ClickToSelect"]</span>
+                            }
+                        </span>
+                    </div>
+
+                    <div class="game-card-body">
+                        <div class="game-card-emblem mb-2">
+                            @if (isGloomhaven)
+                            {
+                                <span class="emblem-icon">⚔️🛡️</span>
+                            }
+                            else
+                            {
+                                <span class="emblem-icon">🕵️📁</span>
+                            }
+                        </div>
+
+                        <h3 class="game-title">@game.Title</h3>
+                        <p class="game-subtitle">@game.Subtitle</p>
+
+                        <div class="game-meta-pills mb-3">
+                            @if (!string.IsNullOrEmpty(game.BggUrl))
+                            {
+                                <a href="@game.BggUrl" target="_blank" rel="noopener noreferrer" class="meta-pill meta-pill-link" title="View @game.Title on BoardGameGeek" @onclick:stopPropagation="true">
+                                    ⭐ <strong>@game.BggRating.ToString("F1")</strong> / 10 <i class="bi bi-box-arrow-up-right ms-1"></i>
+                                </a>
+                            }
+                            else
+                            {
+                                <span class="meta-pill" title="BoardGameGeek Rating">
+                                    ⭐ <strong>@game.BggRating.ToString("F1")</strong> / 10
+                                </span>
+                            }
+                            <span class="meta-pill" title="@Loc["GameSelector.Weight"] (1-5)">
+                                🧠 @Loc["GameSelector.Weight"]: <strong>@game.BggWeight.ToString("F2")</strong>
+                            </span>
+                            <span class="meta-pill" title="@Loc["GameSelector.Players"]">
+                                👥 <strong>@(game.PlayersMin)-@(game.PlayersMax)</strong> @Loc["GameSelector.Players"]
+                            </span>
+                            <span class="meta-pill" title="@Loc["GameSelector.Year"]">
+                                📅 <strong>@game.ReleaseYear</strong>
+                            </span>
+                        </div>
+
+                        <p class="game-lore-snippet">
+                            <em>"@game.Theme.LoreSummary"</em>
+                        </p>
+
+                        <div class="key-features-list">
+                            @foreach (var feature in game.KeyFeatures.Take(2))
+                            {
+                                <div class="feature-item">
+                                    <span class="bullet">✦</span> @feature
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="card-footer-action">
+                        <button class="btn btn-select-game w-100 @(isSelected ? "btn-active" : "")">
+                            @if (isSelected)
+                            {
+                                <span><i class="bi bi-check-lg me-1"></i> @Loc["GameSelector.SelectedBtn"]</span>
+                            }
+                            else
+                            {
+                                <span>@Loc.Get("GameSelector.SwitchBtn", game.Title)</span>
+                            }
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public IReadOnlyList<BoardGame> Games { get; set; } = new List<BoardGame>();
+
+    [Parameter]
+    public GameId SelectedGameId { get; set; }
+
+    [Parameter]
+    public EventCallback<GameId> OnGameSelected { get; set; }
+}

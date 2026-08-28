@@ -1,0 +1,60 @@
+@using bg_campaign_planner.Services
+@inject ThemeService ThemeService
+@implements IDisposable
+
+<div class="theme-toggle-container" role="group" aria-label="Theme selection">
+    <div class="theme-toggle-pill-group">
+        <button type="button"
+                class="theme-toggle-btn @(ThemeService.CurrentTheme == ThemeMode.Light ? "active" : "")"
+                @onclick="() => SetTheme(ThemeMode.Light)"
+                title="Light Mode"
+                aria-label="Switch to Light theme"
+                aria-pressed="@(ThemeService.CurrentTheme == ThemeMode.Light ? "true" : "false")">
+            <i class="bi bi-sun-fill me-1"></i>
+            <span class="d-none d-sm-inline">Light</span>
+        </button>
+
+        <button type="button"
+                class="theme-toggle-btn @(ThemeService.CurrentTheme == ThemeMode.Dark ? "active" : "")"
+                @onclick="() => SetTheme(ThemeMode.Dark)"
+                title="Dark Mode"
+                aria-label="Switch to Dark theme"
+                aria-pressed="@(ThemeService.CurrentTheme == ThemeMode.Dark ? "true" : "false")">
+            <i class="bi bi-moon-stars-fill me-1"></i>
+            <span class="d-none d-sm-inline">Dark</span>
+        </button>
+
+        <button type="button"
+                class="theme-toggle-btn @(ThemeService.CurrentTheme == ThemeMode.System ? "active" : "")"
+                @onclick="() => SetTheme(ThemeMode.System)"
+                title="System Auto"
+                aria-label="Follow System theme"
+                aria-pressed="@(ThemeService.CurrentTheme == ThemeMode.System ? "true" : "false")">
+            <i class="bi bi-display me-1"></i>
+            <span class="d-none d-sm-inline">Auto</span>
+        </button>
+    </div>
+</div>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        ThemeService.OnThemeChanged += HandleThemeChanged;
+        await ThemeService.InitializeAsync();
+    }
+
+    private async Task SetTheme(ThemeMode mode)
+    {
+        await ThemeService.SetThemeAsync(mode);
+    }
+
+    private void HandleThemeChanged()
+    {
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        ThemeService.OnThemeChanged -= HandleThemeChanged;
+    }
+}

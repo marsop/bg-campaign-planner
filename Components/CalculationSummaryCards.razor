@@ -1,0 +1,99 @@
+@using bg_campaign_planner.Models
+@using bg_campaign_planner.Services
+@inject ILocalizationService Loc
+
+<div class="results-dashboard mb-4">
+    <div class="dashboard-header d-flex justify-content-between align-items-center mb-3">
+        <div>
+            <h3 class="dashboard-title"><i class="bi bi-graph-up me-2"></i> @Loc["Kpi.ProjectionTitle"]</h3>
+            <div class="dashboard-subtitle">
+                @((MarkupString)Loc.Get("Kpi.ProjectionSubtitle", $"<strong>{Result.Scope.Name}</strong>", $"<strong>{Result.Game.Title}</strong>"))
+            </div>
+        </div>
+        <div class="badge date-range-badge border p-2 px-3">
+            <i class="bi bi-calendar-event me-1"></i>
+            @Result.StartDate.ToString("MMM d, yyyy", Loc.CurrentCulture) ➔ @Result.ProjectedFinishDate.ToString("MMM d, yyyy", Loc.CurrentCulture)
+        </div>
+    </div>
+
+    <!-- 4 KEY KPI CARDS -->
+    <div class="row g-3 mb-4">
+        <!-- 1. Total Meetups -->
+        <div class="col-6 col-lg-3">
+            <div class="kpi-card kpi-card-primary">
+                <div class="kpi-icon">🎲</div>
+                <div class="kpi-value">@Result.TotalMeetupsRequired</div>
+                <div class="kpi-label">@Loc["Kpi.MeetupsRequired"]</div>
+                <div class="kpi-subtext">
+                    @(Result.Game.Id == GameId.Gloomhaven 
+                        ? Loc.Get("Kpi.TotalScenarios", Result.TotalEstimatedPlays) 
+                        : Loc.Get("Kpi.TotalGames", Result.TotalEstimatedPlays))
+                    @if (Result.BufferPlaysForFailures > 0)
+                    {
+                        <span class="badge bg-danger-subtle text-danger ms-1">@Loc.Get("Kpi.RetriesBadge", Result.BufferPlaysForFailures)</span>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Projected Finish Date -->
+        <div class="col-6 col-lg-3">
+            <div class="kpi-card kpi-card-success">
+                <div class="kpi-icon">🏁</div>
+                <div class="kpi-value kpi-date">@Result.ProjectedFinishDate.ToString("MMM d, yyyy", Loc.CurrentCulture)</div>
+                <div class="kpi-label">@Loc["Kpi.ProjectedFinishDate"]</div>
+                <div class="kpi-subtext">
+                    @Loc.Get("Kpi.DurationSubtext", Result.TotalCalendarMonths.ToString("F1", Loc.CurrentCulture), Result.TotalCalendarWeeks.ToString("F0", Loc.CurrentCulture))
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Total Table Hours -->
+        <div class="col-6 col-lg-3">
+            <div class="kpi-card kpi-card-warning">
+                <div class="kpi-icon">⏳</div>
+                <div class="kpi-value">@Result.TotalTableHours.ToString("F0", Loc.CurrentCulture) <span class="kpi-unit">@Loc["Kpi.HoursUnit"]</span></div>
+                <div class="kpi-label">@Loc["Kpi.TotalTableTime"]</div>
+                <div class="kpi-subtext">
+                    @Loc.Get("Kpi.TotalTableTimeSubtext", Result.TotalGameplayHours.ToString("F0", Loc.CurrentCulture), Result.TotalSetupHours.ToString("F0", Loc.CurrentCulture))
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. Per-Session Investment -->
+        <div class="col-6 col-lg-3">
+            <div class="kpi-card kpi-card-info">
+                <div class="kpi-icon">☕</div>
+                <div class="kpi-value">@Result.AverageSessionHours.ToString("F1", Loc.CurrentCulture) <span class="kpi-unit">@Loc["Kpi.HoursUnit"]</span></div>
+                <div class="kpi-label">@Loc["Kpi.AvgHoursMeetup"]</div>
+                <div class="kpi-subtext">
+                    @Loc.Get("Kpi.AvgHoursSubtext", Result.Sessions.FirstOrDefault()?.ScenariosPlayedInSession ?? 1)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SUMMARY PROGRESS BAR -->
+    <div class="progress-breakdown-card p-3 rounded mb-2">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+            <span class="fw-bold small text-uppercase text-muted-light">@Loc["Kpi.VelocityTitle"]</span>
+            <span class="small text-muted">@Loc.Get("Kpi.MilestonesTracked", Result.MilestoneProjections.Count)</span>
+        </div>
+        <div class="progress custom-progress" style="height: 12px;">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 20%" title="Phase 1"></div>
+            <div class="progress-bar bg-info" role="progressbar" style="width: 25%" title="Phase 2"></div>
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 30%" title="Phase 3"></div>
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" title="Finale"></div>
+        </div>
+        <div class="d-flex justify-content-between mt-1 text-muted small">
+            <span>@Loc["Kpi.Start"]: @Result.StartDate.ToString("MMM yyyy", Loc.CurrentCulture)</span>
+            <span>@Loc["Kpi.Midpoint"]: ~@Result.StartDate.AddDays(Result.TotalCalendarDays / 2).ToString("MMM yyyy", Loc.CurrentCulture)</span>
+            <span>@Loc["Kpi.Finale"]: @Result.ProjectedFinishDate.ToString("MMM yyyy", Loc.CurrentCulture)</span>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public CalculationResult Result { get; set; } = null!;
+}
