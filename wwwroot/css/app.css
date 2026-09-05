@@ -892,6 +892,15 @@ body {
     transition: all 0.25s ease;
 }
 
+
+.roadmap-frosthaven {
+    border-color: rgba(79, 209, 197, 0.3);
+}
+.roadmap-frosthaven .roadmap-title {
+    font-family: var(--font-cinzel);
+    color: var(--theme-frosthaven-primary);
+}
+
 .roadmap-gloomhaven {
     border-color: rgba(245, 158, 11, 0.3);
 }

@@ -8,9 +8,10 @@
         {
             var isSelected = SelectedGameId == game.Id;
             var isGloomhaven = game.Id == GameId.Gloomhaven;
+            var isFrosthaven = game.Id == GameId.Frosthaven;
 
             <div class="col-12 col-md-6">
-                <div class="game-selection-card @(isSelected ? "selected" : "") @(isGloomhaven ? "theme-gloomhaven" : "theme-pandemic")"
+                <div class="game-selection-card @(isSelected ? "selected" : "") @(isGloomhaven ? "theme-gloomhaven" : isFrosthaven ? "theme-frosthaven" : "theme-pandemic")"
                      @onclick="() => OnGameSelected.InvokeAsync(game.Id)"
                      role="button"
                      tabindex="0"
@@ -45,6 +46,10 @@
                             @if (isGloomhaven)
                             {
                                 <span class="emblem-icon">⚔️🛡️</span>
+                            }
+                            else if (isFrosthaven)
+                            {
+                                <span class="emblem-icon">❄️🛡️</span>
                             }
                             else
                             {

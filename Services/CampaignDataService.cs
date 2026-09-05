@@ -329,6 +329,133 @@ public class CampaignDataService
             }
         };
 
+
+        dict[GameId.Frosthaven] = new BoardGame
+        {
+            Id = GameId.Frosthaven,
+            Title = "Frosthaven",
+            Subtitle = "Epic cooperative adventure and settlement building in the frozen north",
+            ReleaseYear = 2022,
+            Designers = "Isaac Childres",
+            PlayersMin = 1,
+            PlayersMax = 4,
+            BggRating = 8.8,
+            BggWeight = 4.40,
+            BggUrl = "https://boardgamegeek.com/boardgame/295770/frosthaven",
+            BaseScenarioMinutes = 120,
+            SetupTeardownMinutes = 30,
+            TotalBoxContentSummary = "138 Scenario campaign book, 18 playable classes, extensive crafting and settlement building systems, evolving world.",
+            Theme = new GameTheming
+            {
+                PrimaryColor = "#4fd1c5",
+                SecondaryColor = "#1a202c",
+                AccentColor = "#90cdf4",
+                BackgroundGradient = "radial-gradient(ellipse at top, #2c3e50 0%, #1a252f 60%, #0f171e 100%)",
+                CardBackground = "rgba(26, 32, 44, 0.90)",
+                BorderColor = "rgba(79, 209, 197, 0.35)",
+                GlowColor = "rgba(79, 209, 197, 0.25)",
+                HeaderFont = "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+                BodyFont = "'Inter', system-ui, sans-serif",
+                Tagline = "Brave the freezing wastes and rebuild the northern outpost",
+                LoreSummary = "You are a group of mercenaries at the edge of the world, struggling to protect a small outpost from the harsh elements and monstrous threats of the frozen north.",
+                BadgeCategory = "Fantasy RPG & City Building"
+            },
+            KeyFeatures = new List<string>
+            {
+                "Complex card-driven combat and class progression",
+                "Deep settlement building and defense phases",
+                "Extensive crafting system and resource management",
+                "Sprawling branching narrative with seasonal events"
+            },
+            PublicSourceReferences = new List<string>
+            {
+                "BoardGameGeek (Top 100 Overall)",
+                "Cephalofair Games Official Frosthaven Rulebook"
+            },
+            Scopes = new List<CampaignScopeOption>
+            {
+                new()
+                {
+                    Id = "fh_core",
+                    Name = "Standard Core Campaign",
+                    Description = "The main storyline arcs and essential settlement progression.",
+                    BaseScenarioCount = 70,
+                    EstimatedFailRatePercent = 15.0,
+                    IsRecommended = true
+                },
+                new()
+                {
+                    Id = "fh_extended",
+                    Name = "Extended Campaign Experience",
+                    Description = "Main story, significant side quests, and most character unlocks.",
+                    BaseScenarioCount = 100,
+                    EstimatedFailRatePercent = 18.0,
+                    IsRecommended = false
+                },
+                new()
+                {
+                    Id = "fh_completionist",
+                    Name = "Full Completionist",
+                    Description = "Attempting every accessible scenario and maxing out the settlement.",
+                    BaseScenarioCount = 138,
+                    EstimatedFailRatePercent = 20.0,
+                    IsRecommended = false
+                }
+            },
+            Milestones = new List<GameMilestone>
+            {
+                new()
+                {
+                    Order = 1,
+                    Title = "Arrival at Frosthaven",
+                    Phase = "Act I - The Frozen Outpost",
+                    Description = "First steps into the northern wastes and initial settlement defense.",
+                    AtScenarioOrGameIndex = 5,
+                    BadgeText = "Arrival",
+                    IconEmoji = "❄️"
+                },
+                new()
+                {
+                    Order = 2,
+                    Title = "First Winter",
+                    Phase = "Act I - Seasonal Shift",
+                    Description = "Surviving the first harsh winter and unlocking advanced buildings.",
+                    AtScenarioOrGameIndex = 20,
+                    BadgeText = "Winter Is Here",
+                    IconEmoji = "🌨️"
+                },
+                new()
+                {
+                    Order = 3,
+                    Title = "The Algox Threat",
+                    Phase = "Act II - Escalation",
+                    Description = "Delving into the mountains to deal with the Algox tribes.",
+                    AtScenarioOrGameIndex = 40,
+                    BadgeText = "Major Faction",
+                    IconEmoji = "🏔️"
+                },
+                new()
+                {
+                    Order = 4,
+                    Title = "Secrets of the Lurkers",
+                    Phase = "Act III - Deep Dive",
+                    Description = "Exploring the depths and confronting ancient mysteries.",
+                    AtScenarioOrGameIndex = 60,
+                    BadgeText = "Endgame Prep",
+                    IconEmoji = "🌊"
+                },
+                new()
+                {
+                    Order = 5,
+                    Title = "The Final Confrontation",
+                    Phase = "Finale - Fate of the North",
+                    Description = "The ultimate battle that will decide the future of Frosthaven.",
+                    AtScenarioOrGameIndex = 70,
+                    BadgeText = "Grand Finale",
+                    IconEmoji = "👑"
+                }
+            }
+        };
         return dict;
     }
 
@@ -421,6 +548,48 @@ public class CampaignDataService
         pan.Milestones[4].Phase = "Final - Operación Endgame";
         pan.Milestones[4].Description = "La operación encubierta final que decidirá el desenlace de la Guerra Fría.";
         pan.Milestones[4].BadgeText = "Informe Final";
+
+
+        // Frosthaven ES
+        var fh = dict[GameId.Frosthaven];
+        fh.Subtitle = "Aventura cooperativa épica y construcción de asentamientos en el gélido norte";
+        fh.TotalBoxContentSummary = "Libro de campaña con 138 escenarios, 18 clases jugables, extensos sistemas de artesanía y construcción, mundo en evolución.";
+        fh.Theme.Tagline = "Desafía los páramos helados y reconstruye el puesto fronterizo";
+        fh.Theme.LoreSummary = "Sois un grupo de mercenarios en el fin del mundo, luchando para proteger un pequeño asentamiento de los elementos y las bestias del norte helado.";
+        fh.Theme.BadgeCategory = "RPG de Fantasía y Construcción de Ciudades";
+        fh.KeyFeatures = new List<string>
+        {
+            "Combate complejo con cartas y progresión de clases",
+            "Profunda construcción y defensa del asentamiento",
+            "Extenso sistema de artesanía y gestión de recursos",
+            "Narrativa ramificada con eventos estacionales"
+        };
+        fh.Scopes[0].Name = "Campaña Principal Estándar";
+        fh.Scopes[0].Description = "Arcos argumentales principales y progresión esencial del asentamiento.";
+        fh.Scopes[1].Name = "Experiencia de Campaña Extendida";
+        fh.Scopes[1].Description = "Historia principal, misiones secundarias importantes y mayoría de desbloqueos.";
+        fh.Scopes[2].Name = "Completista Total";
+        fh.Scopes[2].Description = "Jugar todos los escenarios accesibles y mejorar al máximo el asentamiento.";
+        fh.Milestones[0].Title = "Llegada a Frosthaven";
+        fh.Milestones[0].Phase = "Acto I - El Puesto Helado";
+        fh.Milestones[0].Description = "Primeros pasos en los páramos y defensa inicial del asentamiento.";
+        fh.Milestones[0].BadgeText = "Llegada";
+        fh.Milestones[1].Title = "Primer Invierno";
+        fh.Milestones[1].Phase = "Acto I - Cambio Estacional";
+        fh.Milestones[1].Description = "Sobrevivir al primer invierno duro y desbloquear edificios avanzados.";
+        fh.Milestones[1].BadgeText = "Llega el Invierno";
+        fh.Milestones[2].Title = "La Amenaza Algox";
+        fh.Milestones[2].Phase = "Acto II - Escalada";
+        fh.Milestones[2].Description = "Adentrarse en las montañas para lidiar con las tribus Algox.";
+        fh.Milestones[2].BadgeText = "Facción Principal";
+        fh.Milestones[3].Title = "Secretos de los Acechadores";
+        fh.Milestones[3].Phase = "Acto III - Inmersión Profunda";
+        fh.Milestones[3].Description = "Explorar las profundidades y confrontar misterios antiguos.";
+        fh.Milestones[3].BadgeText = "Prep. Final";
+        fh.Milestones[4].Title = "La Confrontación Final";
+        fh.Milestones[4].Phase = "Final - El Destino del Norte";
+        fh.Milestones[4].Description = "La batalla definitiva que decidirá el futuro de Frosthaven.";
+        fh.Milestones[4].BadgeText = "Gran Final";
 
         return dict;
     }
@@ -515,6 +684,48 @@ public class CampaignDataService
         pan.Milestones[4].Description = "Die finale Geheimoperation, die über das Schicksal des Kalten Krieges entscheidet.";
         pan.Milestones[4].BadgeText = "Abschlussbericht";
 
+
+        // Frosthaven DE
+        var fh = dict[GameId.Frosthaven];
+        fh.Subtitle = "Episches kooperatives Abenteuer und Siedlungsbau im eisigen Norden";
+        fh.TotalBoxContentSummary = "Kampagnenbuch mit 138 Szenarien, 18 spielbare Klassen, umfangreiches Crafting- und Siedlungssystem, sich entwickelnde Welt.";
+        fh.Theme.Tagline = "Trotze der eisigen Ödnis und baue den nördlichen Außenposten wieder auf";
+        fh.Theme.LoreSummary = "Ihr seid Söldner am Ende der Welt, die kämpfen, um einen kleinen Außenposten vor den harten Elementen und monströsen Bedrohungen zu schützen.";
+        fh.Theme.BadgeCategory = "Fantasy-RPG & Städtebau";
+        fh.KeyFeatures = new List<string>
+        {
+            "Komplexes kartengesteuertes Kampfsystem und Klassenprogression",
+            "Tiefgehender Siedlungsbau und Verteidigungsphasen",
+            "Umfangreiches Crafting-System und Ressourcenmanagement",
+            "Verzweigte Handlung mit saisonalen Ereignissen"
+        };
+        fh.Scopes[0].Name = "Standard-Hauptkampagne";
+        fh.Scopes[0].Description = "Die Hauptstory-Bögen und grundlegender Siedlungsfortschritt.";
+        fh.Scopes[1].Name = "Erweiterte Kampagnen-Erfahrung";
+        fh.Scopes[1].Description = "Hauptgeschichte, wichtige Nebenquests und meiste Freischaltungen.";
+        fh.Scopes[2].Name = "Vollständiger Komplettierer";
+        fh.Scopes[2].Description = "Absolvieren aller erreichbaren Szenarien und maximaler Ausbau der Siedlung.";
+        fh.Milestones[0].Title = "Ankunft in Frosthaven";
+        fh.Milestones[0].Phase = "Akt I - Der eisige Außenposten";
+        fh.Milestones[0].Description = "Erste Schritte in der Ödnis und anfängliche Siedlungsverteidigung.";
+        fh.Milestones[0].BadgeText = "Ankunft";
+        fh.Milestones[1].Title = "Erster Winter";
+        fh.Milestones[1].Phase = "Akt I - Saisonwechsel";
+        fh.Milestones[1].Description = "Überleben des ersten harten Winters und Freischaltung erweiterter Gebäude.";
+        fh.Milestones[1].BadgeText = "Der Winter naht";
+        fh.Milestones[2].Title = "Die Algox-Bedrohung";
+        fh.Milestones[2].Phase = "Akt II - Eskalation";
+        fh.Milestones[2].Description = "Vorstoß in die Berge, um mit den Algox-Stämmen fertig zu werden.";
+        fh.Milestones[2].BadgeText = "Hauptfraktion";
+        fh.Milestones[3].Title = "Geheimnisse der Lauerer";
+        fh.Milestones[3].Phase = "Akt III - Tiefer Vorstoß";
+        fh.Milestones[3].Description = "Erkundung der Tiefen und Konfrontation mit alten Geheimnissen.";
+        fh.Milestones[3].BadgeText = "Endspiel-Vorbereitung";
+        fh.Milestones[4].Title = "Die finale Konfrontation";
+        fh.Milestones[4].Phase = "Finale - Schicksal des Nordens";
+        fh.Milestones[4].Description = "Der letzte Kampf, der über die Zukunft von Frosthaven entscheidet.";
+        fh.Milestones[4].BadgeText = "Großes Finale";
+
         return dict;
     }
 
@@ -608,6 +819,48 @@ public class CampaignDataService
         pan.Milestones[4].Description = "L'opération finale qui décidera de l'issue de la Guerre Froide.";
         pan.Milestones[4].BadgeText = "Rapport Final";
 
+
+        // Frosthaven FR
+        var fh = dict[GameId.Frosthaven];
+        fh.Subtitle = "Aventure coopérative épique et construction de colonie dans le nord glacé";
+        fh.TotalBoxContentSummary = "Livre de campagne de 138 scénarios, 18 classes jouables, systèmes complets d'artisanat et de colonie, monde évolutif.";
+        fh.Theme.Tagline = "Brave les terres gelées et reconstruis l'avant-poste du nord";
+        fh.Theme.LoreSummary = "Vous êtes un groupe de mercenaires au bout du monde, luttant pour protéger un avant-poste des éléments rudes et des monstres du nord.";
+        fh.Theme.BadgeCategory = "RPG Fantasy & Construction de Ville";
+        fh.KeyFeatures = new List<string>
+        {
+            "Combat complexe basé sur des cartes et progression des classes",
+            "Construction et défense approfondies de la colonie",
+            "Système d'artisanat complet et gestion des ressources",
+            "Scénario à embranchements avec événements saisonniers"
+        };
+        fh.Scopes[0].Name = "Campagne Principale Standard";
+        fh.Scopes[0].Description = "Arcs narratifs principaux et progression essentielle de la colonie.";
+        fh.Scopes[1].Name = "Expérience de Campagne Étendue";
+        fh.Scopes[1].Description = "Histoire principale, quêtes secondaires importantes et la plupart des déblocages.";
+        fh.Scopes[2].Name = "Complétiste Intégral";
+        fh.Scopes[2].Description = "Jouer tous les scénarios accessibles et maximiser la colonie.";
+        fh.Milestones[0].Title = "Arrivée à Frosthaven";
+        fh.Milestones[0].Phase = "Acte I - L'Avant-poste Gelé";
+        fh.Milestones[0].Description = "Premiers pas dans les terres désolées et défense initiale.";
+        fh.Milestones[0].BadgeText = "Arrivée";
+        fh.Milestones[1].Title = "Premier Hiver";
+        fh.Milestones[1].Phase = "Acte I - Changement de Saison";
+        fh.Milestones[1].Description = "Survivre au premier hiver rude et débloquer des bâtiments avancés.";
+        fh.Milestones[1].BadgeText = "L'Hiver est Là";
+        fh.Milestones[2].Title = "La Menace Algox";
+        fh.Milestones[2].Phase = "Acte II - Escalade";
+        fh.Milestones[2].Description = "Plongée dans les montagnes pour affronter les tribus Algox.";
+        fh.Milestones[2].BadgeText = "Faction Majeure";
+        fh.Milestones[3].Title = "Secrets des Rôdeurs";
+        fh.Milestones[3].Phase = "Acte III - Plongée Profonde";
+        fh.Milestones[3].Description = "Explorer les profondeurs et confronter d'anciens mystères.";
+        fh.Milestones[3].BadgeText = "Préparation Finale";
+        fh.Milestones[4].Title = "L'Affrontement Final";
+        fh.Milestones[4].Phase = "Final - Le Destin du Nord";
+        fh.Milestones[4].Description = "La bataille ultime qui décidera de l'avenir de Frosthaven.";
+        fh.Milestones[4].BadgeText = "Grand Final";
+
         return dict;
     }
 
@@ -700,6 +953,48 @@ public class CampaignDataService
         pan.Milestones[4].Phase = "Finale - Operazione Endgame";
         pan.Milestones[4].Description = "L'operazione conclusiva che deciderà le sorti della Guerra Fredda.";
         pan.Milestones[4].BadgeText = "Rapporto Finale";
+
+
+        // Frosthaven IT
+        var fh = dict[GameId.Frosthaven];
+        fh.Subtitle = "Epica avventura cooperativa e costruzione di un insediamento nel nord gelido";
+        fh.TotalBoxContentSummary = "Libro della campagna con 138 scenari, 18 classi giocabili, ampio sistema di creazione e costruzione, mondo in evoluzione.";
+        fh.Theme.Tagline = "Affronta le lande gelate e ricostruisci l'avamposto del nord";
+        fh.Theme.LoreSummary = "Siete un gruppo di mercenari ai confini del mondo, che lottano per proteggere un avamposto dalle intemperie e dalle mostruosità del nord.";
+        fh.Theme.BadgeCategory = "GDR Fantasy & Costruzione Città";
+        fh.KeyFeatures = new List<string>
+        {
+            "Complesso combattimento con carte e progressione di classe",
+            "Fasi profonde di costruzione e difesa dell'insediamento",
+            "Ampio sistema di creazione e gestione delle risorse",
+            "Narrativa a bivi con eventi stagionali"
+        };
+        fh.Scopes[0].Name = "Campagna Base Standard";
+        fh.Scopes[0].Description = "Gli archi narrativi principali e la progressione essenziale dell'insediamento.";
+        fh.Scopes[1].Name = "Esperienza di Campagna Estesa";
+        fh.Scopes[1].Description = "Storia principale, missioni secondarie importanti e gran parte degli sblocchi.";
+        fh.Scopes[2].Name = "Completista Totale";
+        fh.Scopes[2].Description = "Affrontare tutti gli scenari accessibili e massimizzare l'insediamento.";
+        fh.Milestones[0].Title = "Arrivo a Frosthaven";
+        fh.Milestones[0].Phase = "Atto I - L'Avamposto Gelato";
+        fh.Milestones[0].Description = "Primi passi nelle lande e difesa iniziale dell'insediamento.";
+        fh.Milestones[0].BadgeText = "Arrivo";
+        fh.Milestones[1].Title = "Primo Inverno";
+        fh.Milestones[1].Phase = "Atto I - Cambio Stagionale";
+        fh.Milestones[1].Description = "Sopravvivere al primo duro inverno e sbloccare edifici avanzati.";
+        fh.Milestones[1].BadgeText = "L'Inverno è Qui";
+        fh.Milestones[2].Title = "La Minaccia Algox";
+        fh.Milestones[2].Phase = "Atto II - Escalation";
+        fh.Milestones[2].Description = "Spingersi nelle montagne per affrontare le tribù Algox.";
+        fh.Milestones[2].BadgeText = "Fazione Principale";
+        fh.Milestones[3].Title = "Segreti degli Inseguitori";
+        fh.Milestones[3].Phase = "Atto III - Immersione Profonda";
+        fh.Milestones[3].Description = "Esplorare le profondità e confrontarsi con antichi misteri.";
+        fh.Milestones[3].BadgeText = "Preparazione Finale";
+        fh.Milestones[4].Title = "Lo Scontro Finale";
+        fh.Milestones[4].Phase = "Finale - Il Destino del Nord";
+        fh.Milestones[4].Description = "La battaglia definitiva che deciderà il futuro di Frosthaven.";
+        fh.Milestones[4].BadgeText = "Gran Finale";
 
         return dict;
     }

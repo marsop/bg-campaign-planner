@@ -3,13 +3,17 @@
 @inject ILocalizationService Loc
 
 <div class="thematic-roadmap-wrapper mb-4">
-    <div class="roadmap-card @(Game.Id == GameId.Gloomhaven ? "roadmap-gloomhaven" : "roadmap-pandemic")">
+    <div class="roadmap-card @(Game.Id == GameId.Gloomhaven ? "roadmap-gloomhaven" : Game.Id == GameId.Frosthaven ? "roadmap-frosthaven" : "roadmap-pandemic")">
         <div class="roadmap-header d-flex justify-content-between align-items-center mb-3">
             <div>
                 <h4 class="roadmap-title">
                     @if (Game.Id == GameId.Gloomhaven)
                     {
                         <span>@Loc["Roadmap.GloomhavenTitle"]</span>
+                    }
+                    else if (Game.Id == GameId.Frosthaven)
+                    {
+                        <span>@Loc["Roadmap.FrosthavenTitle"]</span>
                     }
                     else
                     {
@@ -24,6 +28,10 @@
                 @if (Game.Id == GameId.Gloomhaven)
                 {
                     <span>@Loc["Roadmap.GloomhavenBadge"]</span>
+                }
+                else if (Game.Id == GameId.Frosthaven)
+                {
+                    <span>@Loc["Roadmap.FrosthavenBadge"]</span>
                 }
                 else
                 {

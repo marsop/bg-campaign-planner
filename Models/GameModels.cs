@@ -6,7 +6,8 @@ namespace bg_campaign_planner.Models;
 public enum GameId
 {
     Gloomhaven,
-    PandemicSeason0
+    PandemicSeason0,
+    Frosthaven
 }
 
 public class CampaignScopeOption
