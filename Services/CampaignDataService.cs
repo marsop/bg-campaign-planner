@@ -192,6 +192,34 @@ public class CampaignDataService
             }
         };
 
+        dict[GameId.SleepingGods] = new BoardGame
+        {
+            Id = GameId.SleepingGods,
+            Title = "Sleeping Gods",
+            Subtitle = "You are Captain Sofi Odessa and her crew lost at sea in a strange world. Aboard the steamship Manticore, you must work together to survive by exploring mysterious islands, battling creatures, and meeting the world's inhabitants. Along the way, seek out the totems of the gods.",
+            Designers = "Ryan Laukat",
+            BggUrl = "https://boardgamegeek.com/boardgame/255984/sleeping-gods",
+            ImageUrl = "https://cf.geekdo-images.com/nS3N3B75f4h_7vXWzVvTww__imagepage/img/Lh9D_Jk2xS4eG5UqQ2sD3w5n_wM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4223169.jpg",
+            BaseScenarioMinutes = 60,
+            SetupTeardownMinutes = 15,
+            Theme = new GameTheming(),
+            KeyFeatures = new List<string>(),
+            PublicSourceReferences = new List<string>(),
+            Scopes = new List<CampaignScopeOption>
+            {
+                new()
+                {
+                    Id = "sg_standard",
+                    Name = "Standard Campaign",
+                    Description = "A single full campaign through the Wandering Seas.",
+                    BaseScenarioCount = 15, // Approx 15 hours / 1 hour chunks
+                    EstimatedFailRatePercent = 0.0,
+                    IsRecommended = true
+                }
+            },
+            Milestones = new List<GameMilestone>()
+        };
+
         dict[GameId.PandemicSeason0] = new BoardGame
         {
             Id = GameId.PandemicSeason0,
