@@ -7,6 +7,7 @@ public enum GameId
 {
     Gloomhaven,
     PandemicSeason0,
+    Frosthaven
     SleepingGods
 }
 

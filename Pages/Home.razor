@@ -103,7 +103,9 @@
     private PlannerInputModel PlannerInput = new();
     private CalculationResult? CurrentResult;
 
-    private string ThemeClass => CurrentGame.Id == GameId.Gloomhaven ? "theme-gloomhaven-active" : "theme-pandemic-active";
+    private string ThemeClass => CurrentGame.Id == GameId.Gloomhaven ? "theme-gloomhaven-active" :
+                                 CurrentGame.Id == GameId.Frosthaven ? "theme-frosthaven-active" :
+                                 "theme-pandemic-active";
 
     protected override async Task OnInitializedAsync()
     {
