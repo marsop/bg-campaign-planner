@@ -329,6 +329,21 @@ public class CampaignDataService
             }
         };
 
+        dict[GameId.ArkhamHorrorLcg] = new BoardGame
+        {
+            Id = GameId.ArkhamHorrorLcg,
+            Title = "Arkham Horror: The Card Game",
+            ReleaseYear = 2016,
+            Designers = "Nate French, MJ Newman",
+            PlayersMin = 1,
+            PlayersMax = 4,
+            BggRating = 8.13,
+            BggWeight = 3.55,
+            BggUrl = "https://boardgamegeek.com/boardgame/205637/arkham-horror-the-card-game",
+            BaseScenarioMinutes = 90,
+            SetupTeardownMinutes = 15
+        };
+
         return dict;
     }
 
@@ -421,6 +436,10 @@ public class CampaignDataService
         pan.Milestones[4].Phase = "Final - Operación Endgame";
         pan.Milestones[4].Description = "La operación encubierta final que decidirá el desenlace de la Guerra Fría.";
         pan.Milestones[4].BadgeText = "Informe Final";
+
+        // Arkham Horror LCG ES
+        var ah = dict[GameId.ArkhamHorrorLcg];
+        ah.Title = "Arkham Horror: El juego de cartas";
 
         return dict;
     }
@@ -515,6 +534,10 @@ public class CampaignDataService
         pan.Milestones[4].Description = "Die finale Geheimoperation, die über das Schicksal des Kalten Krieges entscheidet.";
         pan.Milestones[4].BadgeText = "Abschlussbericht";
 
+        // Arkham Horror LCG DE
+        var ah = dict[GameId.ArkhamHorrorLcg];
+        ah.Title = "Arkham Horror: Das Kartenspiel";
+
         return dict;
     }
 
@@ -608,6 +631,10 @@ public class CampaignDataService
         pan.Milestones[4].Description = "L'opération finale qui décidera de l'issue de la Guerre Froide.";
         pan.Milestones[4].BadgeText = "Rapport Final";
 
+        // Arkham Horror LCG FR
+        var ah = dict[GameId.ArkhamHorrorLcg];
+        ah.Title = "Horreur à Arkham : Le Jeu de Cartes";
+
         return dict;
     }
 
@@ -700,6 +727,10 @@ public class CampaignDataService
         pan.Milestones[4].Phase = "Finale - Operazione Endgame";
         pan.Milestones[4].Description = "L'operazione conclusiva che deciderà le sorti della Guerra Fredda.";
         pan.Milestones[4].BadgeText = "Rapporto Finale";
+
+        // Arkham Horror LCG IT
+        var ah = dict[GameId.ArkhamHorrorLcg];
+        ah.Title = "Arkham Horror: Il Gioco di Carte";
 
         return dict;
     }
