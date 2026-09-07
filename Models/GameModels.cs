@@ -6,6 +6,7 @@ namespace bg_campaign_planner.Models;
 public enum GameId
 {
     Gloomhaven,
+    Frosthaven,
     PandemicSeason0,
     SleepingGods
 }
