@@ -358,6 +358,115 @@ public class CampaignDataService
         };
 
 
+        dict[GameId.Oathsworn] = new BoardGame
+        {
+            Id = GameId.Oathsworn,
+            Title = "Oathsworn: Into the Deepwood",
+            Subtitle = "Dark fantasy cooperative boss battler and mystery campaign",
+            ReleaseYear = 2022,
+            Designers = "Jamie Jolly",
+            PlayersMin = 1,
+            PlayersMax = 4,
+            BggRating = 8.7,
+            BggWeight = 3.79,
+            BggUrl = "https://boardgamegeek.com/boardgame/251661/oathsworn-into-the-deepwood",
+            ImageUrl = "https://cf.geekdo-images.com/gK1303HhYx1_E-9Fw0r4Mw__imagepage/img/Khyf_j5Xh9Z1bX-Jp0g5X4w7gQc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4654922.jpg",
+            BaseScenarioMinutes = 120,
+            SetupTeardownMinutes = 30,
+            TotalBoxContentSummary = "21 Chapters, 15+ Boss encounters, modular game boards, interactive app.",
+            Theme = new GameTheming
+            {
+                PrimaryColor = "#4a5568",
+                SecondaryColor = "#1a202c",
+                AccentColor = "#a0aec0",
+                BackgroundGradient = "radial-gradient(ellipse at top, #2d3748 0%, #1a202c 60%, #000000 100%)",
+                CardBackground = "rgba(26, 32, 44, 0.90)",
+                BorderColor = "rgba(160, 174, 192, 0.35)",
+                GlowColor = "rgba(160, 174, 192, 0.25)",
+                HeaderFont = "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+                BodyFont = "'Inter', system-ui, sans-serif",
+                Tagline = "Venture into the Deepwood and face the horrors within",
+                LoreSummary = "In a world consumed by the Deepwood, the last bastion of humanity relies on the Oathsworn, a company of hardened mercenaries, to fight back the encroaching darkness and monstrous entities.",
+                BadgeCategory = "Dark Fantasy Boss Battler"
+            },
+            KeyFeatures = new List<string>
+            {
+                "Unique combat system with cards or dice",
+                "Two-phase gameplay: Story and Encounter",
+                "Branching narrative with meaningful choices",
+                "Deep character customization and progression"
+            },
+            PublicSourceReferences = new List<string>
+            {
+                "BoardGameGeek",
+                "Shadowborne Games Official Rulebook"
+            },
+            Scopes = new List<CampaignScopeOption>
+            {
+                new()
+                {
+                    Id = "os_core",
+                    Name = "Standard Core Campaign",
+                    Description = "The main 21-chapter storyline.",
+                    BaseScenarioCount = 21,
+                    EstimatedFailRatePercent = 10.0,
+                    IsRecommended = true
+                },
+                new()
+                {
+                    Id = "os_extended",
+                    Name = "Extended Campaign (All Encounters)",
+                    Description = "Main story and all optional boss encounters.",
+                    BaseScenarioCount = 25,
+                    EstimatedFailRatePercent = 15.0,
+                    IsRecommended = false
+                }
+            },
+            Milestones = new List<GameMilestone>
+            {
+                new()
+                {
+                    Order = 1,
+                    Title = "The First Contract",
+                    Phase = "Act I - The Deepwood Beckons",
+                    Description = "First foray into the Deepwood and initial boss encounter.",
+                    AtScenarioOrGameIndex = 1,
+                    BadgeText = "Initiation",
+                    IconEmoji = "🌲"
+                },
+                new()
+                {
+                    Order = 2,
+                    Title = "The Broodmother",
+                    Phase = "Act I - Infestation",
+                    Description = "Confronting the source of the recent attacks.",
+                    AtScenarioOrGameIndex = 5,
+                    BadgeText = "Swarm Slayer",
+                    IconEmoji = "🕷️"
+                },
+                new()
+                {
+                    Order = 3,
+                    Title = "The Warden's Secret",
+                    Phase = "Act II - Deeper Mysteries",
+                    Description = "Uncovering the truth about the Deepwood's origins.",
+                    AtScenarioOrGameIndex = 11,
+                    BadgeText = "Revelation",
+                    IconEmoji = "👁️"
+                },
+                new()
+                {
+                    Order = 4,
+                    Title = "The Final Oath",
+                    Phase = "Finale - Heart of Darkness",
+                    Description = "The ultimate battle against the primeval horror.",
+                    AtScenarioOrGameIndex = 21,
+                    BadgeText = "Grand Finale",
+                    IconEmoji = "⚔️"
+                }
+            }
+        };
+
         dict[GameId.Frosthaven] = new BoardGame
         {
             Id = GameId.Frosthaven,
@@ -578,6 +687,41 @@ public class CampaignDataService
         pan.Milestones[4].BadgeText = "Informe Final";
 
 
+        // Oathsworn ES
+        var os = dict[GameId.Oathsworn];
+        os.Subtitle = "Campaña de misterio y combate cooperativo contra jefes de fantasía oscura";
+        os.TotalBoxContentSummary = "21 Capítulos, más de 15 encuentros con jefes, tableros modulares, aplicación interactiva.";
+        os.Theme.Tagline = "Adéntrate en Deepwood y enfréntate a los horrores que alberga";
+        os.Theme.LoreSummary = "En un mundo consumido por Deepwood, el último bastión de la humanidad confía en los Oathsworn, una compañía de mercenarios curtidos, para luchar contra la oscuridad invasora y las entidades monstruosas.";
+        os.Theme.BadgeCategory = "Combate contra Jefes de Fantasía Oscura";
+        os.KeyFeatures = new List<string>
+        {
+            "Sistema de combate único con cartas o dados",
+            "Juego en dos fases: Historia y Encuentro",
+            "Narrativa ramificada con decisiones significativas",
+            "Profunda personalización y progresión de personajes"
+        };
+        os.Scopes[0].Name = "Campaña Principal Estándar";
+        os.Scopes[0].Description = "La historia principal de 21 capítulos.";
+        os.Scopes[1].Name = "Campaña Extendida (Todos los Encuentros)";
+        os.Scopes[1].Description = "Historia principal y todos los encuentros opcionales con jefes.";
+        os.Milestones[0].Title = "El Primer Contrato";
+        os.Milestones[0].Phase = "Acto I - Deepwood Llama";
+        os.Milestones[0].Description = "Primera incursión en Deepwood y encuentro inicial con un jefe.";
+        os.Milestones[0].BadgeText = "Iniciación";
+        os.Milestones[1].Title = "La Madre de la Progenie";
+        os.Milestones[1].Phase = "Acto I - Infestación";
+        os.Milestones[1].Description = "Enfrentando el origen de los recientes ataques.";
+        os.Milestones[1].BadgeText = "Matador de Enjambres";
+        os.Milestones[2].Title = "El Secreto del Guardián";
+        os.Milestones[2].Phase = "Acto II - Misterios Más Profundos";
+        os.Milestones[2].Description = "Descubriendo la verdad sobre los orígenes de Deepwood.";
+        os.Milestones[2].BadgeText = "Revelación";
+        os.Milestones[3].Title = "El Juramento Final";
+        os.Milestones[3].Phase = "Final - El Corazón de las Tinieblas";
+        os.Milestones[3].Description = "La batalla definitiva contra el horror primigenio.";
+        os.Milestones[3].BadgeText = "Gran Final";
+
         // Frosthaven ES
         var fh = dict[GameId.Frosthaven];
         fh.Subtitle = "Aventura cooperativa épica y construcción de asentamientos en el gélido norte";
@@ -712,6 +856,41 @@ public class CampaignDataService
         pan.Milestones[4].Description = "Die finale Geheimoperation, die über das Schicksal des Kalten Krieges entscheidet.";
         pan.Milestones[4].BadgeText = "Abschlussbericht";
 
+
+        // Oathsworn DE
+        var os = dict[GameId.Oathsworn];
+        os.Subtitle = "Dark Fantasy kooperativer Boss-Battler und Mystery-Kampagne";
+        os.TotalBoxContentSummary = "21 Kapitel, über 15 Boss-Begegnungen, modulare Spielpläne, interaktive App.";
+        os.Theme.Tagline = "Wage dich in den Deepwood und stelle dich den Schrecken darin";
+        os.Theme.LoreSummary = "In einer vom Deepwood verschlungenen Welt verlässt sich die letzte Bastion der Menschheit auf die Oathsworn, eine Kompanie abgehärteter Söldner, um die vordringende Dunkelheit und monströsen Wesen zu bekämpfen.";
+        os.Theme.BadgeCategory = "Dark Fantasy Boss-Battler";
+        os.KeyFeatures = new List<string>
+        {
+            "Einzigartiges Kampfsystem mit Karten oder Würfeln",
+            "Zweiphasiges Gameplay: Geschichte und Begegnung",
+            "Verzweigte Handlung mit bedeutungsvollen Entscheidungen",
+            "Tiefe Charakteranpassung und Progression"
+        };
+        os.Scopes[0].Name = "Standard-Hauptkampagne";
+        os.Scopes[0].Description = "Die 21 Kapitel umfassende Hauptgeschichte.";
+        os.Scopes[1].Name = "Erweiterte Kampagne (Alle Begegnungen)";
+        os.Scopes[1].Description = "Hauptgeschichte und alle optionalen Boss-Begegnungen.";
+        os.Milestones[0].Title = "Der Erste Vertrag";
+        os.Milestones[0].Phase = "Akt I - Der Deepwood ruft";
+        os.Milestones[0].Description = "Erster Vorstoß in den Deepwood und anfängliche Boss-Begegnung.";
+        os.Milestones[0].BadgeText = "Initiation";
+        os.Milestones[1].Title = "Die Brutmutter";
+        os.Milestones[1].Phase = "Akt I - Befall";
+        os.Milestones[1].Description = "Konfrontation mit dem Ursprung der jüngsten Angriffe.";
+        os.Milestones[1].BadgeText = "Schwarmtöter";
+        os.Milestones[2].Title = "Das Geheimnis des Wächters";
+        os.Milestones[2].Phase = "Akt II - Tiefere Mysterien";
+        os.Milestones[2].Description = "Aufdeckung der Wahrheit über die Ursprünge des Deepwood.";
+        os.Milestones[2].BadgeText = "Offenbarung";
+        os.Milestones[3].Title = "Der Letzte Eid";
+        os.Milestones[3].Phase = "Finale - Herz der Finsternis";
+        os.Milestones[3].Description = "Die ultimative Schlacht gegen den urzeitlichen Schrecken.";
+        os.Milestones[3].BadgeText = "Großes Finale";
 
         // Frosthaven DE
         var fh = dict[GameId.Frosthaven];
@@ -848,6 +1027,41 @@ public class CampaignDataService
         pan.Milestones[4].BadgeText = "Rapport Final";
 
 
+        // Oathsworn FR
+        var os = dict[GameId.Oathsworn];
+        os.Subtitle = "Campagne de mystère et de combat coopératif contre des boss de dark fantasy";
+        os.TotalBoxContentSummary = "21 Chapitres, plus de 15 affrontements de boss, plateaux modulaires, application interactive.";
+        os.Theme.Tagline = "Aventurez-vous dans le Deepwood et affrontez les horreurs qu'il renferme";
+        os.Theme.LoreSummary = "Dans un monde consumé par le Deepwood, le dernier bastion de l'humanité s'en remet aux Oathsworn, une compagnie de mercenaires endurcis, pour repousser les ténèbres envahissantes et les entités monstrueuses.";
+        os.Theme.BadgeCategory = "Combat de Boss Dark Fantasy";
+        os.KeyFeatures = new List<string>
+        {
+            "Système de combat unique avec cartes ou dés",
+            "Gameplay en deux phases : Histoire et Rencontre",
+            "Narrative à embranchements avec des choix significatifs",
+            "Personnalisation et progression approfondies des personnages"
+        };
+        os.Scopes[0].Name = "Campagne Principale Standard";
+        os.Scopes[0].Description = "L'histoire principale de 21 chapitres.";
+        os.Scopes[1].Name = "Campagne Étendue (Toutes les Rencontres)";
+        os.Scopes[1].Description = "L'histoire principale et tous les affrontements de boss optionnels.";
+        os.Milestones[0].Title = "Le Premier Contrat";
+        os.Milestones[0].Phase = "Acte I - L'Appel du Deepwood";
+        os.Milestones[0].Description = "Première incursion dans le Deepwood et premier affrontement de boss.";
+        os.Milestones[0].BadgeText = "Initiation";
+        os.Milestones[1].Title = "La Mère de la Couvée";
+        os.Milestones[1].Phase = "Acte I - Infestation";
+        os.Milestones[1].Description = "Affrontement contre l'origine des récentes attaques.";
+        os.Milestones[1].BadgeText = "Tueur d'Essaim";
+        os.Milestones[2].Title = "Le Secret du Gardien";
+        os.Milestones[2].Phase = "Acte II - Mystères Profonds";
+        os.Milestones[2].Description = "Découverte de la vérité sur les origines du Deepwood.";
+        os.Milestones[2].BadgeText = "Révélation";
+        os.Milestones[3].Title = "Le Serment Final";
+        os.Milestones[3].Phase = "Final - Le Cœur des Ténèbres";
+        os.Milestones[3].Description = "L'ultime bataille contre l'horreur primitive.";
+        os.Milestones[3].BadgeText = "Grand Final";
+
         // Frosthaven FR
         var fh = dict[GameId.Frosthaven];
         fh.Subtitle = "Aventure coopérative épique et construction de colonie dans le nord glacé";
@@ -982,6 +1196,41 @@ public class CampaignDataService
         pan.Milestones[4].Description = "L'operazione conclusiva che deciderà le sorti della Guerra Fredda.";
         pan.Milestones[4].BadgeText = "Rapporto Finale";
 
+
+        // Oathsworn IT
+        var os = dict[GameId.Oathsworn];
+        os.Subtitle = "Campagna di mistero e combattimento cooperativo contro boss di dark fantasy";
+        os.TotalBoxContentSummary = "21 Capitoli, oltre 15 scontri con boss, tabelloni modulari, app interattiva.";
+        os.Theme.Tagline = "Avventurati nel Deepwood e affronta gli orrori che vi si celano";
+        os.Theme.LoreSummary = "In un mondo consumato dal Deepwood, l'ultimo baluardo dell'umanità si affida agli Oathsworn, una compagnia di mercenari temprati, per combattere l'oscurità invadente e le entità mostruose.";
+        os.Theme.BadgeCategory = "Combattimento contro Boss Dark Fantasy";
+        os.KeyFeatures = new List<string>
+        {
+            "Sistema di combattimento unico con carte o dadi",
+            "Gameplay in due fasi: Storia e Incontro",
+            "Narrativa a bivi con scelte significative",
+            "Profonda personalizzazione e progressione dei personaggi"
+        };
+        os.Scopes[0].Name = "Campagna Principale Standard";
+        os.Scopes[0].Description = "La trama principale di 21 capitoli.";
+        os.Scopes[1].Name = "Campagna Estesa (Tutti gli Incontri)";
+        os.Scopes[1].Description = "Storia principale e tutti gli scontri opzionali con i boss.";
+        os.Milestones[0].Title = "Il Primo Contratto";
+        os.Milestones[0].Phase = "Atto I - Il Deepwood Chiama";
+        os.Milestones[0].Description = "Prima incursione nel Deepwood e scontro iniziale con un boss.";
+        os.Milestones[0].BadgeText = "Iniziazione";
+        os.Milestones[1].Title = "La Madre della Covata";
+        os.Milestones[1].Phase = "Atto I - Infestazione";
+        os.Milestones[1].Description = "Affrontare la fonte dei recenti attacchi.";
+        os.Milestones[1].BadgeText = "Sterminatore di Sciami";
+        os.Milestones[2].Title = "Il Segreto del Guardiano";
+        os.Milestones[2].Phase = "Atto II - Misteri Più Profondi";
+        os.Milestones[2].Description = "Scoprire la verità sulle origini del Deepwood.";
+        os.Milestones[2].BadgeText = "Rivelazione";
+        os.Milestones[3].Title = "Il Giuramento Finale";
+        os.Milestones[3].Phase = "Finale - Il Cuore di Tenebra";
+        os.Milestones[3].Description = "La battaglia finale contro l'orrore primigenio.";
+        os.Milestones[3].BadgeText = "Gran Finale";
 
         // Frosthaven IT
         var fh = dict[GameId.Frosthaven];

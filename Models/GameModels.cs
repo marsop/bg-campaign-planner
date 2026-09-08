@@ -7,8 +7,9 @@ public enum GameId
 {
     Gloomhaven,
     PandemicSeason0,
-    Frosthaven
-    SleepingGods
+    Frosthaven,
+    SleepingGods,
+    Oathsworn
 }
 
 public class CampaignScopeOption
