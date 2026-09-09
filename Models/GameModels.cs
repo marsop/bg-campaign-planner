@@ -10,6 +10,7 @@ public enum GameId
     Frosthaven,
     SleepingGods,
     Oathsworn
+    TaintedGrailFallOfAvalon
 }
 
 public class CampaignScopeOption
