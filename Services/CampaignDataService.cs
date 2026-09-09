@@ -220,109 +220,6 @@ public class CampaignDataService
             Milestones = new List<GameMilestone>()
         };
 
-
-        dict[GameId.Frosthaven] = new BoardGame
-        {
-            Id = GameId.Frosthaven,
-            Title = "Frosthaven",
-            Subtitle = "A cooperative, campaign-driven tactical dungeon crawler in a frozen world",
-            ReleaseYear = 2022,
-            Designers = "Isaac Childres",
-            PlayersMin = 1,
-            PlayersMax = 4,
-            BggRating = 8.9,
-            BggWeight = 4.41,
-            BggUrl = "https://boardgamegeek.com/boardgame/295770/frosthaven",
-            BaseScenarioMinutes = 120,
-            SetupTeardownMinutes = 30,
-            TotalBoxContentSummary = "Massive campaign book with 138 scenarios, 18 playable classes, dozens of monsters, town building components, and over 1000 cards.",
-            ImageUrl = "https://cf.geekdo-images.com/nS3N3B75f4h_7vXWzVvTww__imagepage/img/Lh9D_Jk2xS4eG5UqQ2sD3w5n_wM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4223169.jpg",
-            Theme = new GameTheming
-            {
-                PrimaryColor = "#4a90e2",
-                SecondaryColor = "#1a2a3a",
-                AccentColor = "#a0aec0",
-                BackgroundGradient = "linear-gradient(135deg, #1a2a3a, #2a4365)",
-                CardBackground = "rgba(26, 42, 58, 0.85)",
-                BorderColor = "rgba(160, 174, 192, 0.3)",
-                GlowColor = "rgba(160, 174, 192, 0.25)",
-                HeaderFont = "'Cinzel', serif",
-                BodyFont = "'Inter', sans-serif",
-                Tagline = "Build and defend your frozen outpost",
-                LoreSummary = "You are mercenaries traveling to the frigid North to the small outpost of Frosthaven. You will deal with harsh weather, dangerous enemies, and build up your town over time.",
-                BadgeCategory = "Dark Fantasy Tactical RPG"
-            },
-            KeyFeatures = new List<string>
-            {
-                "Tactical card-based combat with zero dice (pure strategy)",
-                "Town building and resource management mechanics",
-                "Retiring and unlocking new character classes",
-                "Dynamic scaling difficulty for 1-4 players"
-            },
-            Scopes = new List<CampaignScopeOption>
-            {
-                new CampaignScopeOption
-                {
-                    Id = "core",
-                    Name = "Standard Core Campaign",
-                    Description = "The main narrative arc through the final boss with key side quests.",
-                    BaseScenarioCount = 65,
-                    IsRecommended = true
-                },
-                new CampaignScopeOption
-                {
-                    Id = "completionist",
-                    Name = "Full Completionist",
-                    Description = "Completing every unlockable scenario, max prosperity, and all retirements.",
-                    BaseScenarioCount = 138,
-                    IsRecommended = false
-                }
-            },
-            Milestones = new List<GameMilestone>
-            {
-                new GameMilestone
-                {
-                    Order = 1,
-                    Title = "Arrival at Frosthaven",
-                    Phase = "Act I - The Outpost",
-                    Description = "First exploration and establishing the basics of your town.",
-                    AtScenarioOrGameIndex = 5,
-                    BadgeText = "Initial Quest",
-                    IconEmoji = "❄️"
-                },
-                new GameMilestone
-                {
-                    Order = 2,
-                    Title = "First Mercenary Retirement",
-                    Phase = "Mid Act I - Rebirth",
-                    Description = "An initial mercenary completes their Personal Quest and retires, unlocking new classes.",
-                    AtScenarioOrGameIndex = 15,
-                    BadgeText = "Unlock",
-                    IconEmoji = "🔓"
-                },
-                new GameMilestone
-                {
-                    Order = 3,
-                    Title = "The Northern Threat",
-                    Phase = "Act II - Factions",
-                    Description = "Interacting with the Algox, Lurkers, and Unfettered.",
-                    AtScenarioOrGameIndex = 35,
-                    BadgeText = "Narrative Branch",
-                    IconEmoji = "⚔️"
-                },
-                new GameMilestone
-                {
-                    Order = 4,
-                    Title = "The Final Confrontation",
-                    Phase = "Finale - The Fate of the North",
-                    Description = "The ultimate clash that will decide the fate of Frosthaven.",
-                    AtScenarioOrGameIndex = 65,
-                    BadgeText = "Grand Finale",
-                    IconEmoji = "👑"
-                }
-            }
-        };
-
         dict[GameId.PandemicSeason0] = new BoardGame
         {
             Id = GameId.PandemicSeason0,
@@ -857,42 +754,6 @@ public class CampaignDataService
         gh.Milestones[4].Description = "El enfrentamiento definitivo que sella el destino de Gloomhaven y completa el legado.";
         gh.Milestones[4].BadgeText = "Gran Final";
 
-
-        // Frosthaven ES
-        var fh = dict[GameId.Frosthaven];
-        fh.Subtitle = "Un juego cooperativo de exploración táctica en un mundo helado";
-        fh.TotalBoxContentSummary = "Libro de campaña masivo con 138 escenarios, 18 clases jugables, docenas de monstruos, componentes de construcción de la ciudad y más de 1000 cartas.";
-        fh.Theme.Tagline = "Construye y defiende tu puesto de avanzada helado";
-        fh.Theme.LoreSummary = "Sois mercenarios que viajan al gélido norte hasta el pequeño puesto de avanzada de Frosthaven. Tendréis que lidiar con un clima duro, enemigos peligrosos y desarrollar vuestra ciudad con el tiempo.";
-        fh.Theme.BadgeCategory = "RPG Táctico de Fantasía Oscura";
-        fh.KeyFeatures = new List<string>
-        {
-            "Combate táctico con cartas sin dados (pura estrategia)",
-            "Mecánicas de construcción de ciudad y gestión de recursos",
-            "Retirada y desbloqueo de nuevas clases de personajes",
-            "Dificultad adaptable dinámicamente para 1-4 jugadores"
-        };
-        fh.Scopes[0].Name = "Campaña Base Estándar";
-        fh.Scopes[0].Description = "El arco narrativo principal hasta el jefe final con misiones secundarias clave.";
-        fh.Scopes[1].Name = "Completista Total";
-        fh.Scopes[1].Description = "Completar todos los escenarios desbloqueables, prosperidad máxima y todas las retiradas.";
-        fh.Milestones[0].Title = "Llegada a Frosthaven";
-        fh.Milestones[0].Phase = "Acto I - El Puesto Avanzado";
-        fh.Milestones[0].Description = "Primera exploración y establecimiento de las bases de tu ciudad.";
-        fh.Milestones[0].BadgeText = "Misión Inicial";
-        fh.Milestones[1].Title = "Primera Retirada de Mercenario";
-        fh.Milestones[1].Phase = "Mitad del Acto I - Renacimiento";
-        fh.Milestones[1].Description = "Un mercenario inicial completa su Misión Personal y se retira, desbloqueando nuevas clases.";
-        fh.Milestones[1].BadgeText = "Desbloqueo";
-        fh.Milestones[2].Title = "La Amenaza del Norte";
-        fh.Milestones[2].Phase = "Acto II - Facciones";
-        fh.Milestones[2].Description = "Interactuando con los Algox, Lurkers y Unfettered.";
-        fh.Milestones[2].BadgeText = "Rama Narrativa";
-        fh.Milestones[3].Title = "La Confrontación Final";
-        fh.Milestones[3].Phase = "Final - El Destino del Norte";
-        fh.Milestones[3].Description = "El enfrentamiento definitivo que decidirá el destino de Frosthaven.";
-        fh.Milestones[3].BadgeText = "Gran Final";
-
         // Pandemic Season 0 ES
         var pan = dict[GameId.PandemicSeason0];
         pan.Subtitle = "Thriller de espionaje en plena Guerra Fría (1962) y operaciones encubiertas de la CIA";
@@ -1100,42 +961,6 @@ public class CampaignDataService
         gh.Milestones[4].Phase = "Finale - Legende des Schlafenden Löwen";
         gh.Milestones[4].Description = "Die ultimative Konfrontation, die über das Schicksal von Gloomhaven entscheidet.";
         gh.Milestones[4].BadgeText = "Großes Finale";
-
-
-        // Frosthaven DE
-        var fh = dict[GameId.Frosthaven];
-        fh.Subtitle = "Ein kooperatives, kampagnengesteuertes taktisches Dungeon-Crawler-Spiel in einer eisigen Welt";
-        fh.TotalBoxContentSummary = "Massives Kampagnenbuch mit 138 Szenarien, 18 spielbaren Klassen, dutzenden Monstern, Stadtbau-Komponenten und über 1000 Karten.";
-        fh.Theme.Tagline = "Baue und verteidige deinen eisigen Außenposten";
-        fh.Theme.LoreSummary = "Ihr seid Söldner, die in den eisigen Norden zum kleinen Außenposten Frosthaven reisen. Ihr müsst mit rauem Wetter und gefährlichen Feinden umgehen und eure Stadt mit der Zeit aufbauen.";
-        fh.Theme.BadgeCategory = "Dark Fantasy Taktik-RPG";
-        fh.KeyFeatures = new List<string>
-        {
-            "Taktischer kartenbasierter Kampf ohne Würfel (reine Strategie)",
-            "Stadtbau- und Ressourcenmanagement-Mechaniken",
-            "Ruhestand und Freischalten neuer Charakterklassen",
-            "Dynamisch skalierbare Schwierigkeit für 1-4 Spieler"
-        };
-        fh.Scopes[0].Name = "Standard-Kernkampagne";
-        fh.Scopes[0].Description = "Der Hauptgeschichtsbogen bis zum Endboss mit wichtigen Nebenquests.";
-        fh.Scopes[1].Name = "Vollständiger Komplettist";
-        fh.Scopes[1].Description = "Abschluss jedes freischaltbaren Szenarios, maximale Wohlstand und alle Ruhestand.";
-        fh.Milestones[0].Title = "Ankunft in Frosthaven";
-        fh.Milestones[0].Phase = "Akt I - Der Außenposten";
-        fh.Milestones[0].Description = "Erste Erkundung und Aufbau der Grundlagen deiner Stadt.";
-        fh.Milestones[0].BadgeText = "Startquest";
-        fh.Milestones[1].Title = "Erster Söldner-Ruhestand";
-        fh.Milestones[1].Phase = "Mitte Akt I - Wiedergeburt";
-        fh.Milestones[1].Description = "Ein Anfangssöldner schließt seine persönliche Quest ab und geht in den Ruhestand, wodurch neue Klassen freigeschaltet werden.";
-        fh.Milestones[1].BadgeText = "Freischaltung";
-        fh.Milestones[2].Title = "Die nördliche Bedrohung";
-        fh.Milestones[2].Phase = "Akt II - Fraktionen";
-        fh.Milestones[2].Description = "Interaktion mit den Algox, Lurkers und Unfettered.";
-        fh.Milestones[2].BadgeText = "Narrativer Zweig";
-        fh.Milestones[3].Title = "Die finale Konfrontation";
-        fh.Milestones[3].Phase = "Finale - Das Schicksal des Nordens";
-        fh.Milestones[3].Description = "Der ultimative Zusammenstoß, der das Schicksal von Frosthaven entscheiden wird.";
-        fh.Milestones[3].BadgeText = "Großes Finale";
 
         // Pandemic Season 0 DE
         var pan = dict[GameId.PandemicSeason0];
@@ -1345,42 +1170,6 @@ public class CampaignDataService
         gh.Milestones[4].Description = "La confrontation ultime qui scelle le destin de Havrenuit et parachève la campagne.";
         gh.Milestones[4].BadgeText = "Grand Final";
 
-
-        // Frosthaven FR
-        var fh = dict[GameId.Frosthaven];
-        fh.Subtitle = "Un jeu d'exploration tactique coopératif basé sur une campagne dans un monde glacial";
-        fh.TotalBoxContentSummary = "Livre de campagne massif avec 138 scénarios, 18 classes jouables, des dizaines de monstres, des composants de construction de ville et plus de 1000 cartes.";
-        fh.Theme.Tagline = "Construisez et défendez votre avant-poste glacial";
-        fh.Theme.LoreSummary = "Vous êtes des mercenaires voyageant vers le nord glacial jusqu'au petit avant-poste de Frosthaven. Vous devrez faire face à des conditions météorologiques difficiles, à des ennemis dangereux et développer votre ville au fil du temps.";
-        fh.Theme.BadgeCategory = "RPG Tactique Dark Fantasy";
-        fh.KeyFeatures = new List<string>
-        {
-            "Combat tactique par cartes sans dés (pure stratégie)",
-            "Mécaniques de construction de ville et de gestion des ressources",
-            "Retraite et déblocage de nouvelles classes de personnages",
-            "Difficulté évolutive dynamiquement pour 1-4 joueurs"
-        };
-        fh.Scopes[0].Name = "Campagne de base standard";
-        fh.Scopes[0].Description = "L'arc narratif principal jusqu'au boss final avec des quêtes secondaires clés.";
-        fh.Scopes[1].Name = "Complétionniste total";
-        fh.Scopes[1].Description = "Terminer tous les scénarios déblocables, prospérité maximale et toutes les retraites.";
-        fh.Milestones[0].Title = "Arrivée à Frosthaven";
-        fh.Milestones[0].Phase = "Acte I - L'avant-poste";
-        fh.Milestones[0].Description = "Première exploration et établissement des bases de votre ville.";
-        fh.Milestones[0].BadgeText = "Quête initiale";
-        fh.Milestones[1].Title = "Première retraite de mercenaire";
-        fh.Milestones[1].Phase = "Milieu de l'Acte I - Renaissance";
-        fh.Milestones[1].Description = "Un mercenaire de départ termine sa quête personnelle et prend sa retraite, débloquant de nouvelles classes.";
-        fh.Milestones[1].BadgeText = "Déblocage";
-        fh.Milestones[2].Title = "La menace du Nord";
-        fh.Milestones[2].Phase = "Acte II - Factions";
-        fh.Milestones[2].Description = "Interaction avec les Algox, les Lurkers et les Unfettered.";
-        fh.Milestones[2].BadgeText = "Branche narrative";
-        fh.Milestones[3].Title = "La confrontation finale";
-        fh.Milestones[3].Phase = "Final - Le destin du Nord";
-        fh.Milestones[3].Description = "L'affrontement ultime qui décidera du sort de Frosthaven.";
-        fh.Milestones[3].BadgeText = "Grand Final";
-
         // Pandemic Season 0 FR
         var pan = dict[GameId.PandemicSeason0];
         pan.Subtitle = "Thriller d'espionnage pendant la Guerre Froide (1962) et opérations secrètes de la CIA";
@@ -1588,42 +1377,6 @@ public class CampaignDataService
         gh.Milestones[4].Phase = "Finale - La Leggenda del Leone Addormentato";
         gh.Milestones[4].Description = "Lo scontro definitivo che deciderà il destino di Gloomhaven.";
         gh.Milestones[4].BadgeText = "Gran Finale";
-
-
-        // Frosthaven IT
-        var fh = dict[GameId.Frosthaven];
-        fh.Subtitle = "Un gioco di esplorazione tattica cooperativo a campagna in un mondo di ghiaccio";
-        fh.TotalBoxContentSummary = "Libro della campagna enorme con 138 scenari, 18 classi giocabili, dozzine di mostri, componenti per la costruzione della città e oltre 1000 carte.";
-        fh.Theme.Tagline = "Costruisci e difendi il tuo avamposto di ghiaccio";
-        fh.Theme.LoreSummary = "Siete mercenari in viaggio verso il gelido Nord, nel piccolo avamposto di Frosthaven. Dovrete affrontare un clima ostile, nemici pericolosi e sviluppare la vostra città nel tempo.";
-        fh.Theme.BadgeCategory = "GDR Tattico Dark Fantasy";
-        fh.KeyFeatures = new List<string>
-        {
-            "Combattimento tattico con carte senza dadi (pura strategia)",
-            "Meccaniche di costruzione della città e gestione delle risorse",
-            "Pensionamento e sblocco di nuove classi di personaggi",
-            "Difficoltà scalabile dinamicamente per 1-4 giocatori"
-        };
-        fh.Scopes[0].Name = "Campagna Base Standard";
-        fh.Scopes[0].Description = "L'arco narrativo principale fino al boss finale con missioni secondarie chiave.";
-        fh.Scopes[1].Name = "Completista Totale";
-        fh.Scopes[1].Description = "Completamento di ogni scenario sbloccabile, massima prosperità e tutti i pensionamenti.";
-        fh.Milestones[0].Title = "Arrivo a Frosthaven";
-        fh.Milestones[0].Phase = "Atto I - L'Avamposto";
-        fh.Milestones[0].Description = "Prima esplorazione e fondazione delle basi della tua città.";
-        fh.Milestones[0].BadgeText = "Missione Iniziale";
-        fh.Milestones[1].Title = "Primo Pensionamento del Mercenario";
-        fh.Milestones[1].Phase = "Metà Atto I - Rinascita";
-        fh.Milestones[1].Description = "Un mercenario iniziale completa il suo Obiettivo Personale e si ritira, sbloccando nuove classi.";
-        fh.Milestones[1].BadgeText = "Sblocco";
-        fh.Milestones[2].Title = "La Minaccia del Nord";
-        fh.Milestones[2].Phase = "Atto II - Fazioni";
-        fh.Milestones[2].Description = "Interazione con Algox, Lurkers e Unfettered.";
-        fh.Milestones[2].BadgeText = "Ramo Narrativo";
-        fh.Milestones[3].Title = "Il Confronto Finale";
-        fh.Milestones[3].Phase = "Finale - Il Destino del Nord";
-        fh.Milestones[3].Description = "Lo scontro definitivo che deciderà il destino di Frosthaven.";
-        fh.Milestones[3].BadgeText = "Gran Finale";
 
         // Pandemic Season 0 IT
         var pan = dict[GameId.PandemicSeason0];
