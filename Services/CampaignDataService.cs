@@ -484,6 +484,117 @@ public class CampaignDataService
                 }
             }
         };
+
+        dict[GameId.TaintedGrailFallOfAvalon] = new BoardGame
+        {
+            Id = GameId.TaintedGrailFallOfAvalon,
+            Title = "Tainted Grail: The Fall of Avalon",
+            Subtitle = "A dark, cooperative survival adventure set in a dying Arthurian world",
+            ReleaseYear = 2019,
+            Designers = "Krzysztof Piskorski, Marcin Świerkot",
+            PlayersMin = 1,
+            PlayersMax = 4,
+            BggRating = 8.0,
+            BggWeight = 3.28,
+            BggUrl = "https://boardgamegeek.com/boardgame/264220/tainted-grail-the-fall-of-avalon",
+            BaseScenarioMinutes = 120,
+            SetupTeardownMinutes = 20,
+            TotalBoxContentSummary = "A branching 15-chapter campaign, oversized location cards, detailed miniatures, and a deep narrative exploration journal.",
+            Theme = new GameTheming
+            {
+                PrimaryColor = "#593c7a",
+                SecondaryColor = "#1a1a1a",
+                AccentColor = "#b2904b",
+                BackgroundGradient = "radial-gradient(ellipse at top, #2b1d3d 0%, #151111 60%, #0c0a0a 100%)",
+                CardBackground = "rgba(26, 26, 26, 0.90)",
+                BorderColor = "rgba(178, 144, 75, 0.35)",
+                GlowColor = "rgba(178, 144, 75, 0.25)",
+                HeaderFont = "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+                BodyFont = "'Inter', system-ui, sans-serif",
+                Tagline = "Light the Menhirs and survive the Wyrdness",
+                LoreSummary = "The legendary King Arthur is dead, the Menhirs that protect Avalon are fading, and the Wyrdness is consuming the land. You are not the chosen heroes, but you are all that is left.",
+                BadgeCategory = "Dark Fantasy Survival RPG"
+            },
+            KeyFeatures = new List<string>
+            {
+                "Rich, branching narrative exploration with the Exploration Journal",
+                "Resource management and survival elements (Food, Magic, Health, Terror)",
+                "Card-driven combat and diplomacy encounters with deck-building",
+                "Evolving open-world map using oversized location cards"
+            },
+            PublicSourceReferences = new List<string>
+            {
+                "BoardGameGeek (Top 100 Thematic)",
+                "Awaken Realms Official Rulebook and Campaign Log"
+            },
+            ImageUrl = "https://cf.geekdo-images.com/S-K-P0Z81Dk4F_d_s3k80Q__imagepage/img/KjZgYhC0k-rY4aZ5y4H9b-N7L_A=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4473767.jpg",
+            Scopes = new List<CampaignScopeOption>
+            {
+                new()
+                {
+                    Id = "tg_core",
+                    Name = "The Fall of Avalon (Core Campaign)",
+                    Description = "The complete main story arc through Avalon to discover the fate of the original heroes.",
+                    BaseScenarioCount = 15,
+                    EstimatedFailRatePercent = 20.0,
+                    IsRecommended = true
+                }
+            },
+            Milestones = new List<GameMilestone>
+            {
+                new()
+                {
+                    Order = 1,
+                    Title = "Leaving Cuanacht",
+                    Phase = "Chapter 1 - The Journey Begins",
+                    Description = "Gathering supplies and leaving your dying hometown as the Menhir fades.",
+                    AtScenarioOrGameIndex = 1,
+                    BadgeText = "First Steps",
+                    IconEmoji = "🕯️"
+                },
+                new()
+                {
+                    Order = 2,
+                    Title = "The Secret of the Menhirs",
+                    Phase = "Chapter 4 - Deep in the Wyrdness",
+                    Description = "Discovering the rituals required to keep the protective Menhirs lit across Avalon.",
+                    AtScenarioOrGameIndex = 4,
+                    BadgeText = "Survival",
+                    IconEmoji = "🗿"
+                },
+                new()
+                {
+                    Order = 3,
+                    Title = "The Knights of the Round Table",
+                    Phase = "Chapter 8 - Echoes of the Past",
+                    Description = "Uncovering the truth about Arthur's knights and their fateful expedition.",
+                    AtScenarioOrGameIndex = 8,
+                    BadgeText = "Revelation",
+                    IconEmoji = "🛡️"
+                },
+                new()
+                {
+                    Order = 4,
+                    Title = "The Heart of Avalon",
+                    Phase = "Chapter 12 - Point of No Return",
+                    Description = "Navigating the most dangerous regions of the Wyrdness to reach the core of the mystery.",
+                    AtScenarioOrGameIndex = 12,
+                    BadgeText = "Endgame Prep",
+                    IconEmoji = "⚔️"
+                },
+                new()
+                {
+                    Order = 5,
+                    Title = "The Fate of the Isle",
+                    Phase = "Chapter 15 - The Final Choice",
+                    Description = "The ultimate confrontation that determines the future of Avalon and its people.",
+                    AtScenarioOrGameIndex = 15,
+                    BadgeText = "Grand Finale",
+                    IconEmoji = "👑"
+                }
+            }
+        };
+
         return dict;
     }
 
@@ -618,6 +729,44 @@ public class CampaignDataService
         fh.Milestones[4].Phase = "Final - El Destino del Norte";
         fh.Milestones[4].Description = "La batalla definitiva que decidirá el futuro de Frosthaven.";
         fh.Milestones[4].BadgeText = "Gran Final";
+
+
+        // Tainted Grail ES
+        var tg = dict[GameId.TaintedGrailFallOfAvalon];
+        tg.Subtitle = "Una oscura aventura cooperativa de supervivencia en un mundo artúrico agonizante";
+        tg.TotalBoxContentSummary = "Campaña ramificada de 15 capítulos, cartas de localización gigantes, miniaturas detalladas y un profundo diario de exploración.";
+        tg.Theme.Tagline = "Enciende los Menhires y sobrevive a la Rareza";
+        tg.Theme.LoreSummary = "El legendario Rey Arturo ha muerto, los Menhires que protegen Avalon se desvanecen y la Rareza está consumiendo la tierra. No sois los héroes elegidos, pero sois todo lo que queda.";
+        tg.Theme.BadgeCategory = "RPG de Supervivencia y Fantasía Oscura";
+        tg.KeyFeatures = new List<string>
+        {
+            "Rica exploración narrativa ramificada con el Diario de Exploración",
+            "Gestión de recursos y elementos de supervivencia (Comida, Magia, Salud, Terror)",
+            "Combate con cartas y encuentros de diplomacia con construcción de mazos",
+            "Mapa de mundo abierto en evolución con cartas de localización gigantes"
+        };
+        tg.Scopes[0].Name = "La Caída de Avalon (Campaña Principal)";
+        tg.Scopes[0].Description = "El arco argumental completo a través de Avalon para descubrir el destino de los héroes originales.";
+        tg.Milestones[0].Title = "Saliendo de Cuanacht";
+        tg.Milestones[0].Phase = "Capítulo 1 - El Viaje Comienza";
+        tg.Milestones[0].Description = "Reuniendo suministros y dejando atrás tu pueblo agonizante mientras el Menhir se apaga.";
+        tg.Milestones[0].BadgeText = "Primeros Pasos";
+        tg.Milestones[1].Title = "El Secreto de los Menhires";
+        tg.Milestones[1].Phase = "Capítulo 4 - En lo Profundo de la Rareza";
+        tg.Milestones[1].Description = "Descubriendo los rituales necesarios para mantener encendidos los Menhires protectores por todo Avalon.";
+        tg.Milestones[1].BadgeText = "Supervivencia";
+        tg.Milestones[2].Title = "Los Caballeros de la Mesa Redonda";
+        tg.Milestones[2].Phase = "Capítulo 8 - Ecos del Pasado";
+        tg.Milestones[2].Description = "Descubriendo la verdad sobre los caballeros de Arturo y su fatídica expedición.";
+        tg.Milestones[2].BadgeText = "Revelación";
+        tg.Milestones[3].Title = "El Corazón de Avalon";
+        tg.Milestones[3].Phase = "Capítulo 12 - Punto de No Retorno";
+        tg.Milestones[3].Description = "Navegando por las regiones más peligrosas de la Rareza para alcanzar el núcleo del misterio.";
+        tg.Milestones[3].BadgeText = "Prep. Final";
+        tg.Milestones[4].Title = "El Destino de la Isla";
+        tg.Milestones[4].Phase = "Capítulo 15 - La Elección Final";
+        tg.Milestones[4].Description = "El enfrentamiento definitivo que determina el futuro de Avalon y su gente.";
+        tg.Milestones[4].BadgeText = "Gran Final";
 
         return dict;
     }
@@ -754,6 +903,44 @@ public class CampaignDataService
         fh.Milestones[4].Description = "Der letzte Kampf, der über die Zukunft von Frosthaven entscheidet.";
         fh.Milestones[4].BadgeText = "Großes Finale";
 
+
+        // Tainted Grail DE
+        var tg = dict[GameId.TaintedGrailFallOfAvalon];
+        tg.Subtitle = "Ein düsteres, kooperatives Survival-Abenteuer in einer sterbenden Artus-Welt";
+        tg.TotalBoxContentSummary = "Eine verzweigte Kampagne mit 15 Kapiteln, übergroße Ortskarten, detaillierte Miniaturen und ein tiefgründiges Erkundungstagebuch.";
+        tg.Theme.Tagline = "Entzünde die Menhire und überlebe die Wyrdnis";
+        tg.Theme.LoreSummary = "Der legendäre König Artus ist tot, die Menhire, die Avalon schützen, verblassen und die Wyrdnis verschlingt das Land. Ihr seid nicht die auserwählten Helden, aber ihr seid alles, was noch übrig ist.";
+        tg.Theme.BadgeCategory = "Dark Fantasy Survival RPG";
+        tg.KeyFeatures = new List<string>
+        {
+            "Reichhaltige, verzweigte Erkundung der Geschichte mit dem Erkundungstagebuch",
+            "Ressourcenmanagement und Überlebenselemente (Nahrung, Magie, Gesundheit, Terror)",
+            "Kartengesteuerte Kampf- und Diplomatiebegegnungen mit Deckbau",
+            "Sich entwickelnde offene Weltkarte mit übergroßen Ortskarten"
+        };
+        tg.Scopes[0].Name = "Der Niedergang Avalons (Hauptkampagne)";
+        tg.Scopes[0].Description = "Der gesamte Hauptstory-Bogen durch Avalon, um das Schicksal der ursprünglichen Helden zu entdecken.";
+        tg.Milestones[0].Title = "Abschied von Cuanacht";
+        tg.Milestones[0].Phase = "Kapitel 1 - Die Reise beginnt";
+        tg.Milestones[0].Description = "Vorräte sammeln und das sterbende Heimatdorf verlassen, während der Menhir verblasst.";
+        tg.Milestones[0].BadgeText = "Erste Schritte";
+        tg.Milestones[1].Title = "Das Geheimnis der Menhire";
+        tg.Milestones[1].Phase = "Kapitel 4 - Tief in der Wyrdnis";
+        tg.Milestones[1].Description = "Entdeckung der Rituale, die notwendig sind, um die schützenden Menhire in ganz Avalon am Leuchten zu halten.";
+        tg.Milestones[1].BadgeText = "Überleben";
+        tg.Milestones[2].Title = "Die Ritter der Tafelrunde";
+        tg.Milestones[2].Phase = "Kapitel 8 - Echos der Vergangenheit";
+        tg.Milestones[2].Description = "Die Wahrheit über Artus' Ritter und ihre schicksalhafte Expedition ans Licht bringen.";
+        tg.Milestones[2].BadgeText = "Offenbarung";
+        tg.Milestones[3].Title = "Das Herz von Avalon";
+        tg.Milestones[3].Phase = "Kapitel 12 - Punkt ohne Wiederkehr";
+        tg.Milestones[3].Description = "Navigation durch die gefährlichsten Regionen der Wyrdnis, um den Kern des Mysteriums zu erreichen.";
+        tg.Milestones[3].BadgeText = "Endspiel-Vorb.";
+        tg.Milestones[4].Title = "Das Schicksal der Insel";
+        tg.Milestones[4].Phase = "Kapitel 15 - Die finale Entscheidung";
+        tg.Milestones[4].Description = "Die ultimative Konfrontation, die die Zukunft von Avalon und seiner Bewohner bestimmt.";
+        tg.Milestones[4].BadgeText = "Großes Finale";
+
         return dict;
     }
 
@@ -889,6 +1076,44 @@ public class CampaignDataService
         fh.Milestones[4].Description = "La bataille ultime qui décidera de l'avenir de Frosthaven.";
         fh.Milestones[4].BadgeText = "Grand Final";
 
+
+        // Tainted Grail FR
+        var tg = dict[GameId.TaintedGrailFallOfAvalon];
+        tg.Subtitle = "Une sombre aventure de survie coopérative dans un monde arthurien mourant";
+        tg.TotalBoxContentSummary = "Une campagne à embranchements de 15 chapitres, des cartes de lieux surdimensionnées, des figurines détaillées et un journal d'exploration profond.";
+        tg.Theme.Tagline = "Allumez les Menhirs et survivez à la Wyrd";
+        tg.Theme.LoreSummary = "Le légendaire roi Arthur est mort, les Menhirs qui protègent Avalon s'éteignent, et la Wyrd consume la terre. Vous n'êtes pas les héros élus, mais vous êtes tout ce qu'il reste.";
+        tg.Theme.BadgeCategory = "RPG de Survie Dark Fantasy";
+        tg.KeyFeatures = new List<string>
+        {
+            "Exploration narrative riche et à embranchements avec le Journal d'Exploration",
+            "Gestion des ressources et éléments de survie (Nourriture, Magie, Santé, Terreur)",
+            "Combats et rencontres diplomatiques par cartes avec deck-building",
+            "Carte du monde ouvert évolutive utilisant des cartes de lieux géantes"
+        };
+        tg.Scopes[0].Name = "La Chute d'Avalon (Campagne Principale)";
+        tg.Scopes[0].Description = "L'arc narratif principal à travers Avalon pour découvrir le destin des héros originaux.";
+        tg.Milestones[0].Title = "Quitter Cuanacht";
+        tg.Milestones[0].Phase = "Chapitre 1 - Le Voyage Commence";
+        tg.Milestones[0].Description = "Rassemblement de fournitures et départ de votre village natal mourant alors que le Menhir s'éteint.";
+        tg.Milestones[0].BadgeText = "Premiers Pas";
+        tg.Milestones[1].Title = "Le Secret des Menhirs";
+        tg.Milestones[1].Phase = "Chapitre 4 - Profondément dans la Wyrd";
+        tg.Milestones[1].Description = "Découverte des rituels nécessaires pour maintenir les Menhirs protecteurs allumés à travers Avalon.";
+        tg.Milestones[1].BadgeText = "Survie";
+        tg.Milestones[2].Title = "Les Chevaliers de la Table Ronde";
+        tg.Milestones[2].Phase = "Chapitre 8 - Échos du Passé";
+        tg.Milestones[2].Description = "Découverte de la vérité sur les chevaliers d'Arthur et leur expédition fatidique.";
+        tg.Milestones[2].BadgeText = "Révélation";
+        tg.Milestones[3].Title = "Le Cœur d'Avalon";
+        tg.Milestones[3].Phase = "Chapitre 12 - Point de Non-Retour";
+        tg.Milestones[3].Description = "Navigation dans les régions les plus dangereuses de la Wyrd pour atteindre le cœur du mystère.";
+        tg.Milestones[3].BadgeText = "Préparation Finale";
+        tg.Milestones[4].Title = "Le Destin de l'Île";
+        tg.Milestones[4].Phase = "Chapitre 15 - Le Choix Final";
+        tg.Milestones[4].Description = "L'affrontement ultime qui détermine l'avenir d'Avalon et de son peuple.";
+        tg.Milestones[4].BadgeText = "Grand Final";
+
         return dict;
     }
 
@@ -1023,6 +1248,44 @@ public class CampaignDataService
         fh.Milestones[4].Phase = "Finale - Il Destino del Nord";
         fh.Milestones[4].Description = "La battaglia definitiva che deciderà il futuro di Frosthaven.";
         fh.Milestones[4].BadgeText = "Gran Finale";
+
+
+        // Tainted Grail IT
+        var tg = dict[GameId.TaintedGrailFallOfAvalon];
+        tg.Subtitle = "Un'oscura avventura cooperativa di sopravvivenza in un mondo arturiano morente";
+        tg.TotalBoxContentSummary = "Una campagna a bivi di 15 capitoli, carte luogo giganti, miniature dettagliate e un profondo diario di esplorazione.";
+        tg.Theme.Tagline = "Accendi i Menhir e sopravvivi all'Anomalia";
+        tg.Theme.LoreSummary = "Il leggendario Re Artù è morto, i Menhir che proteggono Avalon si stanno spegnendo e l'Anomalia sta consumando la terra. Non siete gli eroi prescelti, ma siete tutto ciò che resta.";
+        tg.Theme.BadgeCategory = "GDR di Sopravvivenza Dark Fantasy";
+        tg.KeyFeatures = new List<string>
+        {
+            "Ricca esplorazione narrativa a bivi con il Diario di Esplorazione",
+            "Gestione delle risorse ed elementi di sopravvivenza (Cibo, Magia, Salute, Terrore)",
+            "Combattimenti con carte e incontri diplomatici con deck-building",
+            "Mappa del mondo aperto in evoluzione utilizzando carte luogo giganti"
+        };
+        tg.Scopes[0].Name = "La Caduta di Avalon (Campagna Base)";
+        tg.Scopes[0].Description = "L'arco narrativo principale attraverso Avalon per scoprire il destino degli eroi originali.";
+        tg.Milestones[0].Title = "Lasciare Cuanacht";
+        tg.Milestones[0].Phase = "Capitolo 1 - Il Viaggio Inizia";
+        tg.Milestones[0].Description = "Raccogliere provviste e lasciare il villaggio natale morente mentre il Menhir si spegne.";
+        tg.Milestones[0].BadgeText = "Primi Passi";
+        tg.Milestones[1].Title = "Il Segreto dei Menhir";
+        tg.Milestones[1].Phase = "Capitolo 4 - Nel Profondo dell'Anomalia";
+        tg.Milestones[1].Description = "Scoprire i rituali necessari per mantenere accesi i Menhir protettivi in tutta Avalon.";
+        tg.Milestones[1].BadgeText = "Sopravvivenza";
+        tg.Milestones[2].Title = "I Cavalieri della Tavola Rotonda";
+        tg.Milestones[2].Phase = "Capitolo 8 - Echi del Passato";
+        tg.Milestones[2].Description = "Scoprire la verità sui cavalieri di Artù e sulla loro fatidica spedizione.";
+        tg.Milestones[2].BadgeText = "Rivelazione";
+        tg.Milestones[3].Title = "Il Cuore di Avalon";
+        tg.Milestones[3].Phase = "Capitolo 12 - Punto di Non Ritorno";
+        tg.Milestones[3].Description = "Navigare attraverso le regioni più pericolose dell'Anomalia per raggiungere il cuore del mistero.";
+        tg.Milestones[3].BadgeText = "Prep. Finale";
+        tg.Milestones[4].Title = "Il Destino dell'Isola";
+        tg.Milestones[4].Phase = "Capitolo 15 - La Scelta Finale";
+        tg.Milestones[4].Description = "Lo scontro definitivo che determina il futuro di Avalon e del suo popolo.";
+        tg.Milestones[4].BadgeText = "Gran Finale";
 
         return dict;
     }
