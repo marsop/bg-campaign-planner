@@ -9,6 +9,7 @@ public enum GameId
     PandemicSeason0,
     Frosthaven,
     SleepingGods,
+    Oathsworn
     TaintedGrailFallOfAvalon
 }
 
