@@ -34,6 +34,13 @@ bg-campaign-planner/
 │   └── PlannerInput.cs             # PlannerInputModel, ScheduledSession, MilestoneProjection, CalculationResult
 ├── Pages/
 │   └── Home.razor                  # Main orchestrator component integrating all features
+├── Resources/                      # Standard .resx resource files & AppResources marker class
+│   ├── AppResources.cs
+│   ├── AppResources.resx           # Default (English)
+│   ├── AppResources.es.resx        # Spanish
+│   ├── AppResources.de.resx        # German
+│   ├── AppResources.fr.resx        # French
+│   └── AppResources.it.resx        # Italian
 ├── Services/
 │   ├── CampaignDataService.cs      # Curated public domain campaign data & metadata
 │   └── PlannerCalculatorService.cs # Calculation math, date generator, milestone mapping, ICS generator

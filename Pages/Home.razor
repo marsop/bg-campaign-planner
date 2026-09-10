@@ -4,7 +4,8 @@
 @using bg_campaign_planner.Components
 @inject CampaignDataService DataService
 @inject PlannerCalculatorService CalculatorService
-@inject ILocalizationService Loc
+@inject IStringLocalizer<AppResources> Loc
+@inject ILocalizationService LocService
 @implements IDisposable
 
 <PageTitle>@Loc["App.Title"] | Gloomhaven & Pandemic Season 0</PageTitle>
@@ -117,15 +118,16 @@
 
     protected override async Task OnInitializedAsync()
     {
-        Loc.OnLanguageChanged += HandleLanguageChanged;
-        await Loc.InitializeAsync();
+        LocService.OnLanguageChanged += HandleLanguageChanged;
+        await LocService.InitializeAsync();
         LoadGameData();
     }
 
     private void LoadGameData()
     {
-        AllGames = DataService.GetAllGames(Loc.CurrentLanguage);
-        CurrentGame = DataService.GetGame(PlannerInput.SelectedGameId, Loc.CurrentLanguage);
+        var currentLang = LocService.CurrentLanguage;
+        AllGames = DataService.GetAllGames(currentLang);
+        CurrentGame = DataService.GetGame(PlannerInput.SelectedGameId, currentLang);
         
         PlannerInput.SelectedGameId = CurrentGame.Id;
         if (string.IsNullOrEmpty(PlannerInput.SelectedScopeId) || !CurrentGame.Scopes.Any(s => s.Id == PlannerInput.SelectedScopeId))
@@ -147,7 +149,7 @@
     {
         if (CurrentGame.Id != gameId)
         {
-            CurrentGame = DataService.GetGame(gameId, Loc.CurrentLanguage);
+            CurrentGame = DataService.GetGame(gameId, LocService.CurrentLanguage);
             PlannerInput.SelectedGameId = gameId;
             var recScope = CurrentGame.Scopes.FirstOrDefault(s => s.IsRecommended) ?? CurrentGame.Scopes.First();
             PlannerInput.SelectedScopeId = recScope.Id;
@@ -162,6 +164,6 @@
 
     public void Dispose()
     {
-        Loc.OnLanguageChanged -= HandleLanguageChanged;
+        LocService.OnLanguageChanged -= HandleLanguageChanged;
     }
 }

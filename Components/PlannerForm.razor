@@ -1,6 +1,6 @@
 @using bg_campaign_planner.Models
 @using bg_campaign_planner.Services
-@inject ILocalizationService Loc
+@inject IStringLocalizer<AppResources> Loc
 
 <div class="planner-form-card mb-4">
     <div class="form-section-header d-flex justify-content-between align-items-center">
@@ -90,7 +90,7 @@
                                 @foreach (DayOfWeek day in Enum.GetValues(typeof(DayOfWeek)))
                                 {
                                     var isDaySelected = Input.PreferredDaysOfWeek.Contains(day);
-                                    var dayName = Loc.CurrentCulture.DateTimeFormat.GetAbbreviatedDayName(day);
+                                    var dayName = CultureInfo.CurrentCulture.DateTimeFormat.GetAbbreviatedDayName(day);
                                     <button type="button"
                                             class="btn btn-sm day-pill @(isDaySelected ? "day-pill-selected" : "")"
                                             @onclick="() => ToggleDayOfWeek(day)">
@@ -110,7 +110,7 @@
                                 @foreach (DayOfWeek day in Enum.GetValues(typeof(DayOfWeek)))
                                 {
                                     var isDaySelected = Input.PreferredDaysOfWeek.Contains(day);
-                                    var dayName = Loc.CurrentCulture.DateTimeFormat.GetAbbreviatedDayName(day);
+                                    var dayName = CultureInfo.CurrentCulture.DateTimeFormat.GetAbbreviatedDayName(day);
                                     <button type="button"
                                             class="btn btn-sm day-pill @(isDaySelected ? "day-pill-selected" : "")"
                                             @onclick="() => SetSingleDayOfWeek(day)">
@@ -149,7 +149,7 @@
                                 @foreach (DayOfWeek day in Enum.GetValues(typeof(DayOfWeek)))
                                 {
                                     var isDaySelected = Input.PreferredDaysOfWeek.Contains(day);
-                                    var dayName = Loc.CurrentCulture.DateTimeFormat.GetAbbreviatedDayName(day);
+                                    var dayName = CultureInfo.CurrentCulture.DateTimeFormat.GetAbbreviatedDayName(day);
                                     <button type="button"
                                             class="btn btn-sm day-pill @(isDaySelected ? "day-pill-selected" : "")"
                                             @onclick="() => SetSingleDayOfWeek(day)">

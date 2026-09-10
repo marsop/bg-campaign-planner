@@ -1,7 +1,7 @@
 @using bg_campaign_planner.Models
 @using bg_campaign_planner.Services
 @inject PlannerCalculatorService CalculatorService
-@inject ILocalizationService Loc
+@inject IStringLocalizer<AppResources> Loc
 @inject IJSRuntime JS
 
 <div class="sessions-timeline-card mb-5">
@@ -70,8 +70,8 @@
                             </span>
                         </td>
                         <td>
-                            <div class="fw-bold">@session.Date.ToString("ddd, MMM d, yyyy", Loc.CurrentCulture)</div>
-                            <div class="small text-muted">7:00 PM - @session.Date.Date.AddHours(19).AddHours(session.EstimatedSessionHours).ToString("t", Loc.CurrentCulture)</div>
+                            <div class="fw-bold">@session.Date.ToString("ddd, MMM d, yyyy", CultureInfo.CurrentCulture)</div>
+                            <div class="small text-muted">7:00 PM - @session.Date.Date.AddHours(19).AddHours(session.EstimatedSessionHours).ToString("t", CultureInfo.CurrentCulture)</div>
                         </td>
                         <td>
                             <span class="badge scenario-range-badge border">
@@ -82,7 +82,7 @@
                             <span class="small text-muted ms-1">(@session.ScenariosPlayedInSession)</span>
                         </td>
                         <td>
-                            <span class="text-info fw-semibold">@session.EstimatedSessionHours.ToString("F1", Loc.CurrentCulture)h</span>
+                            <span class="text-info fw-semibold">@session.EstimatedSessionHours.ToString("F1", CultureInfo.CurrentCulture)h</span>
                         </td>
                         <td>
                             @if (session.IsMilestoneSession)
@@ -165,9 +165,9 @@
     private async Task CopySummaryToClipboard()
     {
         var summaryText = $"🎲 {Result.Game.Title} {Loc["Timeline.SummaryTitle"]} ({Result.Scope.Name})\n" +
-                          $"📅 {Loc["Timeline.SummarySchedule"]}: {Result.StartDate.ToString("MMM d, yyyy", Loc.CurrentCulture)} ➔ {Result.ProjectedFinishDate.ToString("MMM d, yyyy", Loc.CurrentCulture)} ({Result.TotalCalendarMonths.ToString("F1", Loc.CurrentCulture)} {Loc["Kpi.DurationSubtext"]})\n" +
-                          $"🎯 {Loc["Timeline.SummaryMeetups"]}: {Result.TotalMeetupsRequired} (~{Result.AverageSessionHours.ToString("F1", Loc.CurrentCulture)} h)\n" +
-                          $"⏳ {Loc["Timeline.SummaryPlayTime"]}: ~{Result.TotalTableHours.ToString("F0", Loc.CurrentCulture)} h\n" +
+                          $"📅 {Loc["Timeline.SummarySchedule"]}: {Result.StartDate.ToString("MMM d, yyyy", CultureInfo.CurrentCulture)} ➔ {Result.ProjectedFinishDate.ToString("MMM d, yyyy", CultureInfo.CurrentCulture)} ({Result.TotalCalendarMonths.ToString("F1", CultureInfo.CurrentCulture)} {Loc["Kpi.DurationSubtext"]})\n" +
+                          $"🎯 {Loc["Timeline.SummaryMeetups"]}: {Result.TotalMeetupsRequired} (~{Result.AverageSessionHours.ToString("F1", CultureInfo.CurrentCulture)} h)\n" +
+                          $"⏳ {Loc["Timeline.SummaryPlayTime"]}: ~{Result.TotalTableHours.ToString("F0", CultureInfo.CurrentCulture)} h\n" +
                           $"{Loc["Timeline.SummaryGeneratedVia"]}";
 
         await JS.InvokeVoidAsync("campaignPlanner.copyToClipboard", summaryText);

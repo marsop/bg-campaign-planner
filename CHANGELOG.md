@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changed
+- **Migrated Localization to Standard Blazor (.resx) Architecture**:
+  - Replaced custom in-memory dictionary (`TranslationDictionary.cs`) with standard XML `.resx` resource files (`AppResources.resx`, `AppResources.en.resx`, `AppResources.es.resx`, `AppResources.de.resx`, `AppResources.fr.resx`, `AppResources.it.resx`).
+  - Integrated `Microsoft.Extensions.Localization` and `IStringLocalizer<AppResources>` across all Razor components.
+  - Enabled `<BlazorWebAssemblyLoadAllGlobalizationData>` for full client-side ICU globalization and satellite assembly resolution.
+  - Added `StringLocalizerExtensions.Get(...)` helper for ergonomic and backwards-compatible parameterized string formatting.
+  - Standardized culture management and date/time formatting using native `System.Globalization.CultureInfo`.
+
 ## [0.3.0] - 2026-08-28
 
 ### Added

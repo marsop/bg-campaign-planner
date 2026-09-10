@@ -1,5 +1,5 @@
-@using bg_campaign_planner.Services
-@inject ILocalizationService Loc
+@inject IStringLocalizer<AppResources> Loc
+@inject ILocalizationService LocService
 @implements IDisposable
 
 <div class="language-selector-wrapper d-inline-block position-relative">
@@ -9,7 +9,7 @@
             title="@Loc["Language.Select"]">
         <span class="lang-flag">@CurrentLanguageInfo?.Flag</span>
         <span class="lang-name d-none d-md-inline ms-1 small">@CurrentLanguageInfo?.Name</span>
-        <span class="lang-code text-uppercase fw-semibold d-inline d-md-none">@Loc.CurrentLanguage</span>
+        <span class="lang-code text-uppercase fw-semibold d-inline d-md-none">@LocService.CurrentLanguage</span>
         <i class="bi bi-chevron-down ms-1 small opacity-75"></i>
     </button>
     
@@ -17,9 +17,9 @@
     {
         <div class="language-dropdown-menu shadow-lg" @onclick:stopPropagation>
             <div class="dropdown-header small text-muted text-uppercase px-3 py-1">@Loc["Language.Select"]</div>
-            @foreach (var lang in Loc.SupportedLanguages)
+            @foreach (var lang in LocService.SupportedLanguages)
             {
-                var isSelected = lang.Code.Equals(Loc.CurrentLanguage, StringComparison.OrdinalIgnoreCase);
+                var isSelected = lang.Code.Equals(LocService.CurrentLanguage, StringComparison.OrdinalIgnoreCase);
                 <button class="language-option-item d-flex align-items-center justify-content-between w-100 @(isSelected ? "active" : "")"
                         @onclick="() => SelectLanguage(lang.Code)">
                     <span class="d-flex align-items-center gap-2">
@@ -40,11 +40,11 @@
     private bool isOpen = false;
 
     private LanguageInfo? CurrentLanguageInfo =>
-        Loc.SupportedLanguages.FirstOrDefault(l => l.Code.Equals(Loc.CurrentLanguage, StringComparison.OrdinalIgnoreCase));
+        LocService.SupportedLanguages.FirstOrDefault(l => l.Code.Equals(LocService.CurrentLanguage, StringComparison.OrdinalIgnoreCase));
 
     protected override void OnInitialized()
     {
-        Loc.OnLanguageChanged += HandleLanguageChanged;
+        LocService.OnLanguageChanged += HandleLanguageChanged;
     }
 
     private void HandleLanguageChanged()
@@ -60,11 +60,11 @@
     private async Task SelectLanguage(string code)
     {
         isOpen = false;
-        await Loc.SetLanguageAsync(code);
+        await LocService.SetLanguageAsync(code);
     }
 
     public void Dispose()
     {
-        Loc.OnLanguageChanged -= HandleLanguageChanged;
+        LocService.OnLanguageChanged -= HandleLanguageChanged;
     }
 }

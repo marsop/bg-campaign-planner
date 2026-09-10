@@ -1,6 +1,6 @@
 @using bg_campaign_planner.Models
 @using bg_campaign_planner.Services
-@inject ILocalizationService Loc
+@inject IStringLocalizer<AppResources> Loc
 
 <div class="thematic-roadmap-wrapper mb-4">
     <div class="roadmap-card @GetRoadmapClass(Game.Id)">
@@ -49,11 +49,11 @@
                                 </div>
                                 <div class="forecast-item">
                                     <span class="forecast-label">@Loc["Roadmap.Date"]</span>
-                                    <span class="forecast-val">@proj.EstimatedDate.ToString("MMM d, yyyy", Loc.CurrentCulture)</span>
+                                    <span class="forecast-val">@proj.EstimatedDate.ToString("MMM d, yyyy", CultureInfo.CurrentCulture)</span>
                                 </div>
                                 <div class="forecast-item">
                                     <span class="forecast-label">@Loc["Roadmap.TableTime"]</span>
-                                    <span class="forecast-val">@Loc.Get("Roadmap.HoursSpent", proj.HoursSpentUntilMilestone.ToString("F0", Loc.CurrentCulture))</span>
+                                    <span class="forecast-val">@Loc.Get("Roadmap.HoursSpent", proj.HoursSpentUntilMilestone.ToString("F0", CultureInfo.CurrentCulture))</span>
                                 </div>
                             </div>
                         </div>
@@ -87,9 +87,9 @@
         GameId.Gloomhaven => Loc["Roadmap.GloomhavenTitle"],
         GameId.Frosthaven => Loc["Roadmap.FrosthavenTitle"],
         GameId.PandemicSeason0 => Loc["Roadmap.PandemicTitle"],
-        GameId.SleepingGods => Loc.Get("Roadmap.SleepingGodsTitle", "🧭 Wandering Sea Log & Divine Totem Timeline"),
-        GameId.Oathsworn => Loc.Get("Roadmap.OathswornTitle", "🌲 Deepwood Contract & Boss Hunt Timeline"),
-        GameId.TaintedGrailFallOfAvalon => Loc.Get("Roadmap.TaintedGrailTitle", "🕯️ Avalon Menhir & Wyrdness Chronicle"),
+        GameId.SleepingGods => Loc["Roadmap.SleepingGodsTitle"],
+        GameId.Oathsworn => Loc["Roadmap.OathswornTitle"],
+        GameId.TaintedGrailFallOfAvalon => Loc["Roadmap.TaintedGrailTitle"],
         _ => Loc["Roadmap.GloomhavenTitle"]
     };
 
@@ -98,9 +98,9 @@
         GameId.Gloomhaven => Loc["Roadmap.GloomhavenBadge"],
         GameId.Frosthaven => Loc["Roadmap.FrosthavenBadge"],
         GameId.PandemicSeason0 => Loc["Roadmap.PandemicBadge"],
-        GameId.SleepingGods => Loc.Get("Roadmap.SleepingGodsBadge", "OCEAN EXPEDITION"),
-        GameId.Oathsworn => Loc.Get("Roadmap.OathswornBadge", "DEEPWOOD HUNT"),
-        GameId.TaintedGrailFallOfAvalon => Loc.Get("Roadmap.TaintedGrailBadge", "AVALON SURVIVAL"),
+        GameId.SleepingGods => Loc["Roadmap.SleepingGodsBadge"],
+        GameId.Oathsworn => Loc["Roadmap.OathswornBadge"],
+        GameId.TaintedGrailFallOfAvalon => Loc["Roadmap.TaintedGrailBadge"],
         _ => Loc["Roadmap.GloomhavenBadge"]
     };
 }

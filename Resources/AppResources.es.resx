@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="App.FooterSources" xml:space="preserve">
+    <value>Datos públicos recopilados de BoardGameGeek y manuales oficiales de Cephalofair Games y Z-Man Games.</value>
+  </data>
+  <data name="App.FooterText" xml:space="preserve">
+    <value>Planificador de Campañas • Creado con Blazor WebAssembly (.NET 10) para GitHub Pages</value>
+  </data>
+  <data name="App.HeroLead" xml:space="preserve">
+    <value>Planifica tus campañas de {0} y {1}. Calcula los encuentros necesarios, el total de horas de juego y las fechas estimadas de finalización.</value>
+  </data>
+  <data name="App.Step1Title" xml:space="preserve">
+    <value>Elige tu Juego de Campaña</value>
+  </data>
+  <data name="App.Step2Title" xml:space="preserve">
+    <value>Configura la Frecuencia y Hábitos de Juego</value>
+  </data>
+  <data name="App.Step3Title" xml:space="preserve">
+    <value>Resultados y Proyecciones</value>
+  </data>
+  <data name="App.Subtitle" xml:space="preserve">
+    <value>Calculadora Épica de Sesiones y Encuentros</value>
+  </data>
+  <data name="App.Title" xml:space="preserve">
+    <value>Planificador de Campañas de Juegos de Mesa</value>
+  </data>
+  <data name="Form.BiWeeklyHint" xml:space="preserve">
+    <value>💡 Programado una vez cada 14 días en el día seleccionado.</value>
+  </data>
+  <data name="Form.DateNextMonth" xml:space="preserve">
+    <value>1º del Próximo Mes</value>
+  </data>
+  <data name="Form.DateNextWeekend" xml:space="preserve">
+    <value>Próximo Finde</value>
+  </data>
+  <data name="Form.DateToday" xml:space="preserve">
+    <value>Hoy</value>
+  </data>
+  <data name="Form.DaysUnit" xml:space="preserve">
+    <value>{0} días</value>
+  </data>
+  <data name="Form.EveryNDays" xml:space="preserve">
+    <value>Cada N días: {0} días</value>
+  </data>
+  <data name="Form.ExpBeginner" xml:space="preserve">
+    <value>Principiante (+20% tiempo, más reintentos)</value>
+  </data>
+  <data name="Form.ExpRegular" xml:space="preserve">
+    <value>Habitual (Ritmo estándar)</value>
+  </data>
+  <data name="Form.ExpVeteran" xml:space="preserve">
+    <value>Veterano (-15% tiempo, preparación rápida)</value>
+  </data>
+  <data name="Form.FactorFailure" xml:space="preserve">
+    <value>Incluir margen de reintentos por derrota</value>
+  </data>
+  <data name="Form.FactorSetup" xml:space="preserve">
+    <value>Incluir Montaje y Recogida (~{0} min)</value>
+  </data>
+  <data name="Form.FreqBiWeekly" xml:space="preserve">
+    <value>🗓️ Cada 2 semanas (Quincenal)</value>
+  </data>
+  <data name="Form.FreqCustom" xml:space="preserve">
+    <value>⚙️ Intervalo personalizado (Cada N días)</value>
+  </data>
+  <data name="Form.FreqMonthly" xml:space="preserve">
+    <value>🌙 Mensual (X veces/mes)</value>
+  </data>
+  <data name="Form.FreqWeekly" xml:space="preserve">
+    <value>📅 Semanal (X veces/semana)</value>
+  </data>
+  <data name="Form.GamesMonths" xml:space="preserve">
+    <value>Partidas / Meses</value>
+  </data>
+  <data name="Form.PreferredDay" xml:space="preserve">
+    <value>Día preferido de la semana:</value>
+  </data>
+  <data name="Form.PreferredDays" xml:space="preserve">
+    <value>Día(s) preferido(s) de la semana:</value>
+  </data>
+  <data name="Form.Recommended" xml:space="preserve">
+    <value>Recomendado</value>
+  </data>
+  <data name="Form.ReplayBuffer" xml:space="preserve">
+    <value>~{0}% margen de reintentos</value>
+  </data>
+  <data name="Form.ResetBtn" xml:space="preserve">
+    <value>Restablecer</value>
+  </data>
+  <data name="Form.Scenario1" xml:space="preserve">
+    <value>Escenario (~2 hrs)</value>
+  </data>
+  <data name="Form.Scenario2" xml:space="preserve">
+    <value>Escenarios (~4 hrs)</value>
+  </data>
+  <data name="Form.Scenario3" xml:space="preserve">
+    <value>Maratón (~6 hrs)</value>
+  </data>
+  <data name="Form.Scenarios" xml:space="preserve">
+    <value>Escenarios</value>
+  </data>
+  <data name="Form.SettingsSubtitle" xml:space="preserve">
+    <value>Ajusta la frecuencia y dinámica de tu grupo para calcular los requisitos exactos.</value>
+  </data>
+  <data name="Form.SettingsTitle" xml:space="preserve">
+    <value>Configuración de Campaña y Calendario</value>
+  </data>
+  <data name="Form.Step1Scope" xml:space="preserve">
+    <value>1. Selecciona el Alcance de la Campaña</value>
+  </data>
+  <data name="Form.Step2Frequency" xml:space="preserve">
+    <value>2. ¿Con qué frecuencia jugarán?</value>
+  </data>
+  <data name="Form.Step3MeetupStructure" xml:space="preserve">
+    <value>3. Escenarios por Sesión</value>
+  </data>
+  <data name="Form.Step4StartDate" xml:space="preserve">
+    <value>4. Fecha de Inicio</value>
+  </data>
+  <data name="Form.Step5Vacation" xml:space="preserve">
+    <value>5. Margen de Vacaciones / Festivos</value>
+  </data>
+  <data name="Form.Step6PlayerCount" xml:space="preserve">
+    <value>6. Número de Jugadores</value>
+  </data>
+  <data name="Form.Step7Experience" xml:space="preserve">
+    <value>7. Experiencia del Grupo</value>
+  </data>
+  <data name="Form.Step8Factors" xml:space="preserve">
+    <value>8. Factores de Cálculo</value>
+  </data>
+  <data name="Form.TimesPerMonth" xml:space="preserve">
+    <value>Encuentros por mes:</value>
+  </data>
+  <data name="Form.TimesPerMonthVal" xml:space="preserve">
+    <value>{0}x / mes</value>
+  </data>
+  <data name="Form.TimesPerWeek" xml:space="preserve">
+    <value>Veces por semana:</value>
+  </data>
+  <data name="Form.TimesPerWeekVal" xml:space="preserve">
+    <value>{0}x / semana</value>
+  </data>
+  <data name="Form.Vacation0" xml:space="preserve">
+    <value>0 semanas (Sin pausa)</value>
+  </data>
+  <data name="Form.Vacation1" xml:space="preserve">
+    <value>1 semana de pausa</value>
+  </data>
+  <data name="Form.Vacation2" xml:space="preserve">
+    <value>2 semanas (Vacaciones / viajes)</value>
+  </data>
+  <data name="Form.Vacation4" xml:space="preserve">
+    <value>4 semanas (Verano / Navidad)</value>
+  </data>
+  <data name="Form.Vacation6" xml:space="preserve">
+    <value>6 semanas de pausa</value>
+  </data>
+  <data name="Form.VacationHint" xml:space="preserve">
+    <value>Semanas adicionales añadidas a la fecha estimada de finalización.</value>
+  </data>
+  <data name="GameSelector.ActiveGame" xml:space="preserve">
+    <value>Juego Activo</value>
+  </data>
+  <data name="GameSelector.ClickToSelect" xml:space="preserve">
+    <value>Haz clic para seleccionar</value>
+  </data>
+  <data name="GameSelector.Players" xml:space="preserve">
+    <value>Jugadores</value>
+  </data>
+  <data name="GameSelector.Rating" xml:space="preserve">
+    <value>Puntuación</value>
+  </data>
+  <data name="GameSelector.SelectedBtn" xml:space="preserve">
+    <value>Seleccionado para Planificar</value>
+  </data>
+  <data name="GameSelector.SwitchBtn" xml:space="preserve">
+    <value>Cambiar a {0}</value>
+  </data>
+  <data name="GameSelector.Weight" xml:space="preserve">
+    <value>Complejidad</value>
+  </data>
+  <data name="GameSelector.Year" xml:space="preserve">
+    <value>Lanzamiento</value>
+  </data>
+  <data name="Hero.AvgPlay" xml:space="preserve">
+    <value>Tiempo Medio / Escenario</value>
+  </data>
+  <data name="Hero.BggRating" xml:space="preserve">
+    <value>Nota BGG</value>
+  </data>
+  <data name="Hero.BoxContents" xml:space="preserve">
+    <value>Contenido de la Caja</value>
+  </data>
+  <data name="Hero.ComplexityRating" xml:space="preserve">
+    <value>Complejidad BGG</value>
+  </data>
+  <data name="Hero.Mins" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="Hero.PublicDataRef" xml:space="preserve">
+    <value>Referencia de Datos Públicos</value>
+  </data>
+  <data name="Hero.SetupTeardown" xml:space="preserve">
+    <value>Montaje y Recogida</value>
+  </data>
+  <data name="Hero.VerifiedSources" xml:space="preserve">
+    <value>Fuentes Públicas Verificadas:</value>
+  </data>
+  <data name="Kpi.AvgHoursMeetup" xml:space="preserve">
+    <value>Horas Medias / Sesión</value>
+  </data>
+  <data name="Kpi.AvgHoursSubtext" xml:space="preserve">
+    <value>{0} escenario(s) por sesión</value>
+  </data>
+  <data name="Kpi.DurationSubtext" xml:space="preserve">
+    <value>⏱️ {0} meses ({1} semanas)</value>
+  </data>
+  <data name="Kpi.Finale" xml:space="preserve">
+    <value>Final</value>
+  </data>
+  <data name="Kpi.HoursUnit" xml:space="preserve">
+    <value>hrs</value>
+  </data>
+  <data name="Kpi.MeetupsRequired" xml:space="preserve">
+    <value>Sesiones Necesarias</value>
+  </data>
+  <data name="Kpi.Midpoint" xml:space="preserve">
+    <value>Mitad</value>
+  </data>
+  <data name="Kpi.MilestonesTracked" xml:space="preserve">
+    <value>{0} hitos clave monitorizados</value>
+  </data>
+  <data name="Kpi.ProjectedFinishDate" xml:space="preserve">
+    <value>Fecha Estimada de Fin</value>
+  </data>
+  <data name="Kpi.ProjectionSubtitle" xml:space="preserve">
+    <value>Objetivo: {0} para {1}</value>
+  </data>
+  <data name="Kpi.ProjectionTitle" xml:space="preserve">
+    <value>Proyección de Finalización de Campaña</value>
+  </data>
+  <data name="Kpi.RetriesBadge" xml:space="preserve">
+    <value>+{0} reintentos</value>
+  </data>
+  <data name="Kpi.Start" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="Kpi.TotalGames" xml:space="preserve">
+    <value>{0} partidas en total</value>
+  </data>
+  <data name="Kpi.TotalScenarios" xml:space="preserve">
+    <value>{0} escenarios en total</value>
+  </data>
+  <data name="Kpi.TotalTableTime" xml:space="preserve">
+    <value>Tiempo Total en Mesa</value>
+  </data>
+  <data name="Kpi.TotalTableTimeSubtext" xml:space="preserve">
+    <value>🎮 {0}h juego + 🛠️ {1}h montaje</value>
+  </data>
+  <data name="Kpi.VelocityTitle" xml:space="preserve">
+    <value>Ritmo de Hitos de Campaña</value>
+  </data>
+  <data name="Language.Select" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="Roadmap.Date" xml:space="preserve">
+    <value>📅 Fecha:</value>
+  </data>
+  <data name="Roadmap.FrosthavenBadge" xml:space="preserve">
+    <value>SUPERVIVENCIA ÁRTICA</value>
+  </data>
+  <data name="Roadmap.FrosthavenTitle" xml:space="preserve">
+    <value>❄️ Expansión Norteña y Progreso del Asentamiento</value>
+  </data>
+  <data name="Roadmap.GloomhavenBadge" xml:space="preserve">
+    <value>HOJA DE RUTA FANTASÍA</value>
+  </data>
+  <data name="Roadmap.GloomhavenTitle" xml:space="preserve">
+    <value>🗺️ Crónica de Mazmorras y Progreso de Historia</value>
+  </data>
+  <data name="Roadmap.HoursSpent" xml:space="preserve">
+    <value>~{0} hrs</value>
+  </data>
+  <data name="Roadmap.MeetupTarget" xml:space="preserve">
+    <value>🎯 Sesión:</value>
+  </data>
+  <data name="Roadmap.OathswornBadge" xml:space="preserve">
+    <value>CAZA EN EL BOSQUE PROFUNDO</value>
+  </data>
+  <data name="Roadmap.OathswornTitle" xml:space="preserve">
+    <value>🌲 Contrato de Deepwood y Cronología de Caza de Jefes</value>
+  </data>
+  <data name="Roadmap.PandemicBadge" xml:space="preserve">
+    <value>CLASIFICADO 1962</value>
+  </data>
+  <data name="Roadmap.PandemicTitle" xml:space="preserve">
+    <value>🕵️ Expediente de Operaciones Encubiertas CIA y Cronología</value>
+  </data>
+  <data name="Roadmap.SleepingGodsBadge" xml:space="preserve">
+    <value>EXPEDICIÓN OCEÁNICA</value>
+  </data>
+  <data name="Roadmap.SleepingGodsTitle" xml:space="preserve">
+    <value>🧭 Cuaderno del Mar Errante y Cronología de Tótems Divinos</value>
+  </data>
+  <data name="Roadmap.Step" xml:space="preserve">
+    <value>Paso {0}</value>
+  </data>
+  <data name="Roadmap.Subtitle" xml:space="preserve">
+    <value>Fechas y sesiones estimadas para actos narrativos y desbloqueos clave.</value>
+  </data>
+  <data name="Roadmap.TableTime" xml:space="preserve">
+    <value>⏳ Tiempo en mesa:</value>
+  </data>
+  <data name="Roadmap.TaintedGrailBadge" xml:space="preserve">
+    <value>SUPERVIVENCIA EN ÁVALON</value>
+  </data>
+  <data name="Roadmap.TaintedGrailTitle" xml:space="preserve">
+    <value>🕯️ Menhires de Ávalon y Crónica de la Oscuridad</value>
+  </data>
+  <data name="Timeline.AllSessions" xml:space="preserve">
+    <value>Todas las sesiones ({0})</value>
+  </data>
+  <data name="Timeline.ColDateDay" xml:space="preserve">
+    <value>Fecha y Día</value>
+  </data>
+  <data name="Timeline.ColGames" xml:space="preserve">
+    <value>Partidas / Mes</value>
+  </data>
+  <data name="Timeline.ColHours" xml:space="preserve">
+    <value>Horas Est.</value>
+  </data>
+  <data name="Timeline.ColMilestoneNote" xml:space="preserve">
+    <value>Hito / Nota Narrativa</value>
+  </data>
+  <data name="Timeline.ColNumber" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Timeline.ColScenarios" xml:space="preserve">
+    <value>Escenarios</value>
+  </data>
+  <data name="Timeline.CopyBtn" xml:space="preserve">
+    <value>Copiar Resumen</value>
+  </data>
+  <data name="Timeline.CopyToast" xml:space="preserve">
+    <value>¡Resumen de la campaña copiado al portapapeles!</value>
+  </data>
+  <data name="Timeline.ExportBtn" xml:space="preserve">
+    <value>Exportar a Calendario (.ics)</value>
+  </data>
+  <data name="Timeline.IcsToast" xml:space="preserve">
+    <value>Se ha descargado '{0}'. ¡Puedes importarlo en Google Calendar, Apple Calendar u Outlook!</value>
+  </data>
+  <data name="Timeline.MilestoneBadge" xml:space="preserve">
+    <value>HITO</value>
+  </data>
+  <data name="Timeline.MilestoneSessions" xml:space="preserve">
+    <value>Solo sesiones con hitos ({0})</value>
+  </data>
+  <data name="Timeline.NextBtn" xml:space="preserve">
+    <value>Siguiente »</value>
+  </data>
+  <data name="Timeline.PageOf" xml:space="preserve">
+    <value>Página {0} de {1}</value>
+  </data>
+  <data name="Timeline.PrevBtn" xml:space="preserve">
+    <value>« Anterior</value>
+  </data>
+  <data name="Timeline.Showing" xml:space="preserve">
+    <value>Mostrando:</value>
+  </data>
+  <data name="Timeline.StandardSession" xml:space="preserve">
+    <value>Sesión Estándar de Campaña</value>
+  </data>
+  <data name="Timeline.Subtitle" xml:space="preserve">
+    <value>Programación cronológica de las {0} sesiones</value>
+  </data>
+  <data name="Timeline.SummaryGeneratedVia" xml:space="preserve">
+    <value>Generado con Board Game Campaign Planner</value>
+  </data>
+  <data name="Timeline.SummaryMeetups" xml:space="preserve">
+    <value>Sesiones Totales</value>
+  </data>
+  <data name="Timeline.SummaryPlayTime" xml:space="preserve">
+    <value>Tiempo Total de Juego</value>
+  </data>
+  <data name="Timeline.SummarySchedule" xml:space="preserve">
+    <value>Calendario</value>
+  </data>
+  <data name="Timeline.SummaryTitle" xml:space="preserve">
+    <value>Plan de Campaña</value>
+  </data>
+  <data name="Timeline.Title" xml:space="preserve">
+    <value>Calendario de Sesiones y Cronograma</value>
+  </data>
+</root>

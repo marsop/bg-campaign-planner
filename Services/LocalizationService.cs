@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Components;
+using Microsoft.Extensions.Localization;
 using Microsoft.JSInterop;
-using bg_campaign_planner.Services.Translations;
+using bg_campaign_planner.Resources;
 
 namespace bg_campaign_planner.Services;
 
 public class LocalizationService : ILocalizationService
 {
+    private readonly IStringLocalizer<AppResources> _localizer;
     private readonly IJSRuntime _js;
-    private string _currentLanguage = "en";
-    private CultureInfo _currentCulture = new("en-US");
+    private readonly NavigationManager _navigation;
 
     public event Action? OnLanguageChanged;
 
@@ -25,121 +27,49 @@ public class LocalizationService : ILocalizationService
         new("it", "Italiano", "🇮🇹", "it-IT")
     };
 
-    public LocalizationService(IJSRuntime js)
+    public LocalizationService(IStringLocalizer<AppResources> localizer, IJSRuntime js, NavigationManager navigation)
     {
+        _localizer = localizer;
         _js = js;
-        ApplyCulture("en-US");
+        _navigation = navigation;
     }
 
-    public string CurrentLanguage => _currentLanguage;
-    public CultureInfo CurrentCulture => _currentCulture;
+    public string CurrentLanguage => CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
+    public CultureInfo CurrentCulture => CultureInfo.CurrentCulture;
 
-    public string this[string key]
+    public string this[string key] => _localizer[key].Value;
+
+    public string Get(string key, params object[] args) => _localizer[key, args].Value;
+
+    public Task InitializeAsync()
     {
-        get
-        {
-            if (TranslationDictionary.Translations.TryGetValue(_currentLanguage, out var dict) &&
-                dict.TryGetValue(key, out var val))
-            {
-                return val;
-            }
-
-            // Fallback to English
-            if (TranslationDictionary.Translations.TryGetValue("en", out var enDict) &&
-                enDict.TryGetValue(key, out var enVal))
-            {
-                return enVal;
-            }
-
-            return key;
-        }
-    }
-
-    public string Get(string key, params object[] args)
-    {
-        var template = this[key];
-        try
-        {
-            return string.Format(_currentCulture, template, args);
-        }
-        catch
-        {
-            return template;
-        }
-    }
-
-    public async Task InitializeAsync()
-    {
-        try
-        {
-            var savedLang = await _js.InvokeAsync<string?>("campaignPlanner.getSavedLanguage");
-            if (!string.IsNullOrEmpty(savedLang) && SupportedLanguages.Any(l => l.Code.Equals(savedLang, StringComparison.OrdinalIgnoreCase)))
-            {
-                await SetLanguageInternalAsync(savedLang.ToLowerInvariant(), savePreference: false);
-                return;
-            }
-
-            var browserLang = await _js.InvokeAsync<string?>("campaignPlanner.getBrowserLanguage");
-            if (!string.IsNullOrEmpty(browserLang))
-            {
-                var matched = SupportedLanguages.FirstOrDefault(l =>
-                    browserLang.StartsWith(l.Code, StringComparison.OrdinalIgnoreCase));
-                if (matched != null)
-                {
-                    await SetLanguageInternalAsync(matched.Code, savePreference: false);
-                    return;
-                }
-            }
-        }
-        catch
-        {
-            // Fallback to English if JS is not available at pre-render or during tests
-        }
-
-        await SetLanguageInternalAsync("en", savePreference: false);
+        // Thread culture is initialized on startup in Program.cs
+        return Task.CompletedTask;
     }
 
     public async Task SetLanguageAsync(string langCode)
     {
-        await SetLanguageInternalAsync(langCode, savePreference: true);
-    }
-
-    private async Task SetLanguageInternalAsync(string langCode, bool savePreference)
-    {
         var langInfo = SupportedLanguages.FirstOrDefault(l => l.Code.Equals(langCode, StringComparison.OrdinalIgnoreCase))
                        ?? SupportedLanguages.First();
 
-        _currentLanguage = langInfo.Code;
-        ApplyCulture(langInfo.CultureName);
-
-        if (savePreference)
-        {
-            try
-            {
-                await _js.InvokeVoidAsync("campaignPlanner.setSavedLanguage", _currentLanguage);
-            }
-            catch
-            {
-                // Silently handle if JS unavailable
-            }
-        }
-
-        OnLanguageChanged?.Invoke();
-    }
-
-    private void ApplyCulture(string cultureName)
-    {
         try
         {
-            _currentCulture = new CultureInfo(cultureName);
-            CultureInfo.DefaultThreadCurrentCulture = _currentCulture;
-            CultureInfo.DefaultThreadCurrentUICulture = _currentCulture;
-            CultureInfo.CurrentCulture = _currentCulture;
-            CultureInfo.CurrentUICulture = _currentCulture;
+            await _js.InvokeVoidAsync("campaignPlanner.setSavedLanguage", langInfo.Code);
         }
         catch
         {
-            _currentCulture = new CultureInfo("en-US");
+            // Silently handle if JS is not available
         }
+
+        var culture = new CultureInfo(langInfo.CultureName);
+        CultureInfo.DefaultThreadCurrentCulture = culture;
+        CultureInfo.DefaultThreadCurrentUICulture = culture;
+        CultureInfo.CurrentCulture = culture;
+        CultureInfo.CurrentUICulture = culture;
+
+        OnLanguageChanged?.Invoke();
+
+        // Reload so that Blazor WebAssembly runtime loads the corresponding satellite assembly
+        _navigation.NavigateTo(_navigation.Uri, forceLoad: true);
     }
 }
