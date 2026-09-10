@@ -110,6 +110,7 @@ public class CampaignDataService
                 SetupTeardownMinutes = baseDto.SetupTeardownMinutes,
                 UnitType = baseDto.UnitType,
                 ImageUrl = $"games/{baseDto.Id}/cover.webp",
+                BackgroundImageUrl = !string.IsNullOrEmpty(baseDto.BackgroundImage) ? $"games/{baseDto.Id}/{baseDto.BackgroundImage}" : null,
                 PublicSourceReferences = new List<string>(baseDto.PublicSourceReferences),
                 KeyFeatures = trans?.KeyFeatures != null ? new List<string>(trans.KeyFeatures) : new List<string>(),
                 Theme = new GameTheming
@@ -278,6 +279,7 @@ public class CampaignDataService
         public int BaseScenarioMinutes { get; set; } = 100;
         public int SetupTeardownMinutes { get; set; } = 25;
         public string UnitType { get; set; } = "scenarios";
+        public string? BackgroundImage { get; set; } = "background.webp";
         public GameTheming Theme { get; set; } = new();
         public List<string> PublicSourceReferences { get; set; } = new();
         public List<ScopeDto> Scopes { get; set; } = new();

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Dynamic Thematic Game Backgrounds**:
+  - Added support for game-specific atmospheric background illustrations displayed behind the application when a game is selected.
+  - Provided widescreen WebP background artwork for all six games: *Gloomhaven*, *Frosthaven*, *Pandemic Legacy: Season 0*, *Sleeping Gods*, *Oathsworn: Into the Deepwood*, and *Tainted Grail: The Fall of Avalon*.
+  - Implemented `.app-game-backdrop` with fixed positioning, theme-aware opacity (`0.20` in dark mode, `0.12` in light mode), subtle radial vignette fading, and smooth fade transitions when switching games.
+  - Preserved complete UI usability and readability by layering cards and interactive components above the background backdrop.
+  - Documented the `background.webp` convention in `AGENTS.md` for all future board games.
 - **Configurable Session Start Time**:
   - Added session start time configuration to the planner form with a default of `17:00` (5:00 PM), applicable to all games.
   - Added quick preset buttons (`14:00`, `17:00`, `19:00`, `20:00`) and standard HTML5 `<input type="time">`.

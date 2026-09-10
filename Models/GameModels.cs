@@ -79,4 +79,5 @@ public class BoardGame
     public List<string> KeyFeatures { get; set; } = new();
     public List<string> PublicSourceReferences { get; set; } = new();
     public string ImageUrl { get; set; } = string.Empty;
+    public string? BackgroundImageUrl { get; set; }
 }

@@ -85,10 +85,11 @@ To add support for a new board game (e.g. *Frosthaven*, *Oathsworn*, or *Pandemi
 
 1. Create a dedicated folder under `games/{game-id}/` where `{game-id}` is the unique identifier of the game (lowercase, alphanumeric, with hyphens).
 2. Inside `games/{game-id}/`:
-   - `game.json`: Invariant configuration (id, title, releaseYear, designers, player counts, BGG stats, scenario timings, unitType, theme colors/fonts/emblem, public sources, and scope options).
+   - `game.json`: Invariant configuration (id, title, releaseYear, designers, player counts, BGG stats, scenario timings, unitType, theme colors/fonts/emblem, public sources, and scope options). Note: omit `"backgroundImage"` or let it default to `"background.webp"` (unless intentionally disabled via `"backgroundImage": null`).
    - `cover.webp`: Photo of the front box cover (cropped 1:1 square WebP format).
+   - `background.webp`: Themed background illustration/artwork for the application (widescreen ~16:9 WebP format). Every game has this background image. It renders as a fixed, subtle atmospheric backdrop behind the app when the game is selected, styled with theme-aware opacity to ensure content remains visible and readable.
    - `translations/`: Directory with localized strings (`en.json`, `es.json`, `de.json`, `fr.json`, `it.json`). Each translation file provides localized `subtitle`, `tagline`, `loreSummary`, `badgeCategory`, `roadmapTitle`, `roadmapBadge`, `keyFeatures`, and scope names/descriptions.
-3. That's it! The application automatically discovers all games and translations at build time via embedded resources and serves images through `games/{game-id}/cover.webp`. Zero C# code changes or switch statements required.
+3. That's it! The application automatically discovers all games and translations at build time via embedded resources and serves images through `games/{game-id}/cover.webp` and `games/{game-id}/background.webp`. Zero C# code changes or switch statements required.
    - Note on Zero-Spoilers: Do NOT add future scenario names, boss encounters, secret unlocks, or plot key events. Campaign progression milestones are generated dynamically as spoiler-free progress checkpoints (25%, 50%, 75%, 100%).
 
 ### Modifying Calculation Logic

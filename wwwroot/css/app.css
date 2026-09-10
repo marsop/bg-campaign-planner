@@ -43,6 +43,8 @@
     --toggle-border: rgba(255, 255, 255, 0.15);
     --toggle-active-bg: rgba(255, 255, 255, 0.22);
     --toggle-active-text: #ffffff;
+    --game-bg-opacity: 0.20;
+    --game-bg-filter: saturate(1.1) brightness(0.9);
     --font-cinzel: 'Cinzel', serif;
     --font-cinzel-decorative: 'Cinzel Decorative', 'Cinzel', serif;
     --font-special: 'Special Elite', monospace;
@@ -90,6 +92,8 @@
     --toggle-border: rgba(15, 23, 42, 0.15);
     --toggle-active-bg: #ffffff;
     --toggle-active-text: #0f172a;
+    --game-bg-opacity: 0.12;
+    --game-bg-filter: saturate(1.05) brightness(1.05);
 }
 
 /* ==========================================================================
@@ -107,7 +111,46 @@ body {
 }
 
 .planner-app-container {
+    position: relative;
+    min-height: 100vh;
     transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.app-game-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    pointer-events: none;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    opacity: 0;
+    filter: var(--game-bg-filter);
+    transition: opacity 0.5s ease-in-out, background-image 0.5s ease-in-out;
+}
+
+.app-game-backdrop.has-image {
+    opacity: var(--game-bg-opacity);
+}
+
+.app-game-backdrop::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 30%, transparent 40%, var(--bg-body) 95%);
+    pointer-events: none;
+}
+
+.app-hero-header,
+.main-content-container,
+.app-footer {
+    position: relative;
+    z-index: 1;
 }
 
 /* Base Loader */

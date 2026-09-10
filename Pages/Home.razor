@@ -11,6 +11,10 @@
 <PageTitle>@Loc.Get("App.BrowserTitle", CurrentGame?.Title ?? Loc["App.Title"])</PageTitle>
 
 <div class="planner-app-container @ThemeClass">
+    <div class="app-game-backdrop @(HasBackgroundImage ? "has-image" : "")" 
+         style="@BackgroundImageStyle" 
+         aria-hidden="true"></div>
+
     <!-- Top Header -->
     <header class="app-hero-header py-3 py-md-4">
         <div class="container">
@@ -117,6 +121,10 @@
     private CalculationResult? CurrentResult;
 
     private string ThemeClass => CurrentGame?.Theme.ActiveThemeClass ?? "theme-gloomhaven-active";
+    private bool HasBackgroundImage => !string.IsNullOrEmpty(CurrentGame?.BackgroundImageUrl);
+    private string BackgroundImageStyle => HasBackgroundImage
+        ? $"background-image: url('{CurrentGame!.BackgroundImageUrl}');"
+        : string.Empty;
 
     protected override void OnInitialized()
     {
