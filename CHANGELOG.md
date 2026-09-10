@@ -21,6 +21,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Updated timeline and `.ics` calendar exports to tag checkpoints cleanly without story spoilers.
 
 ### Removed
+- **Unused Blazor Template Components & Assets**:
+  - Removed `Weather.razor` component and `sample-data/weather.json` dataset.
+  - Removed `Counter.razor` component.
+  - Removed `NavMenu.razor` and scoped `NavMenu.razor.css` navigation component.
+  - Removed unused template-default styles in `MainLayout.razor.css`.
+  - Cleaned up obsolete localization keys (`Weather.*`, `Counter.*`, `NavMenu.*`) across all 6 `.resx` resource files (en, es, de, fr, it, and default).
 - **Narrative Story Spoilers in Game Catalogs**:
   - Removed over 750 lines of hardcoded scenario names and narrative event descriptions across all 6 games in `CampaignDataService` in all 5 languages.
 

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:schema id="root">
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -466,12 +466,6 @@
   <data name="Ics.EventDescription" xml:space="preserve">
     <value>Sesión de campaña #{0} para {1} ({2}). Tiempo estimado de juego: {3} hrs.</value>
   </data>
-  <data name="NavMenu.ToggleNav" xml:space="preserve">
-    <value>Menú de navegación</value>
-  </data>
-  <data name="Weather.TempF" xml:space="preserve">
-    <value>Temp. (°F)</value>
-  </data>
   <data name="App.BrowserTitle" xml:space="preserve">
     <value>{0} | Planificador de Campañas de Juegos de Mesa</value>
   </data>
@@ -480,9 +474,6 @@
   </data>
   <data name="GameSelector.ViewOnBgg" xml:space="preserve">
     <value>Ver {0} en BoardGameGeek</value>
-  </data>
-  <data name="Weather.Loading" xml:space="preserve">
-    <value>Cargando...</value>
   </data>
   <data name="Kpi.PhaseFinale" xml:space="preserve">
     <value>Clímax de la Campaña</value>
@@ -493,9 +484,6 @@
   <data name="GameSelector.BggRatingTooltip" xml:space="preserve">
     <value>Puntuación en BoardGameGeek</value>
   </data>
-  <data name="NavMenu.Home" xml:space="preserve">
-    <value>Inicio</value>
-  </data>
   <data name="Kpi.Phase" xml:space="preserve">
     <value>Fase {0}</value>
   </data>
@@ -505,44 +493,17 @@
   <data name="Theme.AutoTitle" xml:space="preserve">
     <value>Automático del Sistema</value>
   </data>
-  <data name="Counter.Title" xml:space="preserve">
-    <value>Contador</value>
-  </data>
-  <data name="Weather.Summary" xml:space="preserve">
-    <value>Resumen</value>
-  </data>
   <data name="App.LogoAlt" xml:space="preserve">
     <value>Logotipo del Planificador de Campañas de Juegos de Mesa</value>
   </data>
   <data name="Theme.Light" xml:space="preserve">
     <value>Claro</value>
   </data>
-  <data name="Counter.ClickMe" xml:space="preserve">
-    <value>Haz clic aquí</value>
-  </data>
   <data name="Theme.Auto" xml:space="preserve">
     <value>Auto</value>
   </data>
-  <data name="Weather.Date" xml:space="preserve">
-    <value>Fecha</value>
-  </data>
-  <data name="NavMenu.Counter" xml:space="preserve">
-    <value>Contador</value>
-  </data>
-  <data name="Weather.Description" xml:space="preserve">
-    <value>Este componente demuestra cómo obtener datos del servidor.</value>
-  </data>
-  <data name="Weather.TempC" xml:space="preserve">
-    <value>Temp. (°C)</value>
-  </data>
   <data name="Ics.EventMilestone" xml:space="preserve">
     <value>\n🎯 PUNTO DE CONTROL: {0} ({1})</value>
-  </data>
-  <data name="Weather.Title" xml:space="preserve">
-    <value>El Tiempo</value>
-  </data>
-  <data name="Counter.CurrentCount" xml:space="preserve">
-    <value>Conteo actual: {0}</value>
   </data>
   <data name="Theme.Dark" xml:space="preserve">
     <value>Oscuro</value>
@@ -571,13 +532,58 @@
   <data name="NotFound.Title" xml:space="preserve">
     <value>Página No Encontrada</value>
   </data>
-  <data name="NavMenu.Weather" xml:space="preserve">
-    <value>El Tiempo</value>
-  </data>
   <data name="Ics.CalName" xml:space="preserve">
     <value>Calendario de Campaña de {0}</value>
   </data>
   <data name="NotFound.HomeBtn" xml:space="preserve">
     <value>Volver al Planificador de Campañas</value>
   </data>
-<data name="Checkpoint.QuarterBadge" xml:space="preserve"><value>25%</value></data><data name="Checkpoint.QuarterTitle" xml:space="preserve"><value>Primer Cuarto de Campaña (25%)</value></data><data name="Checkpoint.QuarterPhase" xml:space="preserve"><value>Fase I - Tramo Inicial</value></data><data name="Checkpoint.QuarterDesc" xml:space="preserve"><value>Finalización estimada del primer 25% de los escenarios de la campaña ({0} escenarios jugados).</value></data><data name="Checkpoint.MidpointBadge" xml:space="preserve"><value>50%</value></data><data name="Checkpoint.MidpointTitle" xml:space="preserve"><value>Ecuador de la Campaña (50%)</value></data><data name="Checkpoint.MidpointPhase" xml:space="preserve"><value>Fase II - Punto Medio</value></data><data name="Checkpoint.MidpointDesc" xml:space="preserve"><value>El hito del ecuador de la campaña ({0} escenarios jugados).</value></data><data name="Checkpoint.PenultimateBadge" xml:space="preserve"><value>75%</value></data><data name="Checkpoint.PenultimateTitle" xml:space="preserve"><value>Tres Cuartos de Campaña (75%)</value></data><data name="Checkpoint.PenultimatePhase" xml:space="preserve"><value>Fase III - Recta Final</value></data><data name="Checkpoint.PenultimateDesc" xml:space="preserve"><value>Acercándose al tramo final de la campaña ({0} escenarios jugados).</value></data><data name="Checkpoint.FinaleBadge" xml:space="preserve"><value>100%</value></data><data name="Checkpoint.FinaleTitle" xml:space="preserve"><value>Gran Final de Campaña (100%)</value></data><data name="Checkpoint.FinalePhase" xml:space="preserve"><value>Fase IV - Finalización de Campaña</value></data><data name="Checkpoint.FinaleDesc" xml:space="preserve"><value>Quedada final para completar todos los {0} escenarios de la campaña.</value></data></root>
+  <data name="Checkpoint.QuarterBadge" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="Checkpoint.QuarterTitle" xml:space="preserve">
+    <value>Primer Cuarto de Campaña (25%)</value>
+  </data>
+  <data name="Checkpoint.QuarterPhase" xml:space="preserve">
+    <value>Fase I - Tramo Inicial</value>
+  </data>
+  <data name="Checkpoint.QuarterDesc" xml:space="preserve">
+    <value>Finalización estimada del primer 25% de los escenarios de la campaña ({0} escenarios jugados).</value>
+  </data>
+  <data name="Checkpoint.MidpointBadge" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="Checkpoint.MidpointTitle" xml:space="preserve">
+    <value>Ecuador de la Campaña (50%)</value>
+  </data>
+  <data name="Checkpoint.MidpointPhase" xml:space="preserve">
+    <value>Fase II - Punto Medio</value>
+  </data>
+  <data name="Checkpoint.MidpointDesc" xml:space="preserve">
+    <value>El hito del ecuador de la campaña ({0} escenarios jugados).</value>
+  </data>
+  <data name="Checkpoint.PenultimateBadge" xml:space="preserve">
+    <value>75%</value>
+  </data>
+  <data name="Checkpoint.PenultimateTitle" xml:space="preserve">
+    <value>Tres Cuartos de Campaña (75%)</value>
+  </data>
+  <data name="Checkpoint.PenultimatePhase" xml:space="preserve">
+    <value>Fase III - Recta Final</value>
+  </data>
+  <data name="Checkpoint.PenultimateDesc" xml:space="preserve">
+    <value>Acercándose al tramo final de la campaña ({0} escenarios jugados).</value>
+  </data>
+  <data name="Checkpoint.FinaleBadge" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="Checkpoint.FinaleTitle" xml:space="preserve">
+    <value>Gran Final de Campaña (100%)</value>
+  </data>
+  <data name="Checkpoint.FinalePhase" xml:space="preserve">
+    <value>Fase IV - Finalización de Campaña</value>
+  </data>
+  <data name="Checkpoint.FinaleDesc" xml:space="preserve">
+    <value>Quedada final para completar todos los {0} escenarios de la campaña.</value>
+  </data>
+</root>
