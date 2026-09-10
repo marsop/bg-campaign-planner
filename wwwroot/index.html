@@ -169,6 +169,14 @@
             },
             getBrowserLanguage: function () {
                 return navigator.language || navigator.userLanguage || '';
+            },
+            scrollToTop: function () {
+                var el = document.querySelector('.wizard-step-indicator');
+                if (el) {
+                    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                } else {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
             }
         };
     </script>

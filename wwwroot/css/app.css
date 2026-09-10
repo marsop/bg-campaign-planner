@@ -201,30 +201,6 @@ body {
     background: radial-gradient(circle at top, rgba(2, 132, 199, 0.08) 0%, transparent 70%);
 }
 
-.brand-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.35rem 0.85rem;
-    border-radius: 9999px;
-    background: var(--badge-bg);
-    border: 1px solid var(--border-color);
-    color: var(--text-main);
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    transition: all 0.2s ease;
-}
-
-.brand-logo-img {
-    width: 22px;
-    height: 22px;
-    border-radius: 5px;
-    display: inline-block;
-    box-shadow: 0 0 8px rgba(234, 179, 8, 0.35);
-    flex-shrink: 0;
-}
 
 .badge-dot {
     width: 8px;
