@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Spoiler-Free Campaign Progress Checkpoint Architecture**:
+  - Replaced all specific scenario names, boss names, narrative secrets, and plot key events with dynamic, spoiler-free campaign progression checkpoints (Quarter Mark 25%, Midpoint 50%, Three-Quarter Stretch 75%, Finale 100%).
+  - Checkpoints are dynamically generated based on the selected scope's actual scenario count and failure buffer.
+  - Added full multilingual checkpoint localizations across English, Spanish, German, French, and Italian `.resx` files.
+  - Updated timeline and `.ics` calendar exports to tag checkpoints cleanly without story spoilers.
+
+### Removed
+- **Narrative Story Spoilers in Game Catalogs**:
+  - Removed over 750 lines of hardcoded scenario names and narrative event descriptions across all 6 games in `CampaignDataService` in all 5 languages.
+
 - **Full Localization Coverage & Zero Hardcoded Text Policy**:
   - Replaced all remaining hardcoded strings with resource keys across Razor components:
     - `Home.razor`: Dynamic page title (`App.BrowserTitle`), logo alt text (`App.LogoAlt`), step badges (`App.StepBadge`).

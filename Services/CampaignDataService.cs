@@ -148,61 +148,7 @@ public class CampaignDataService
                     EstimatedFailRatePercent = 20.0,
                     IsRecommended = false
                 }
-            },
-            Milestones = new List<GameMilestone>
-            {
-                new()
-                {
-                    Order = 1,
-                    Title = "The Black Barrow & Bandit Lair",
-                    Phase = "Act I - The Mercenary Contracts",
-                    Description = "First dungeon dive, encountering the Bandit Commander and unraveling the Necromancer's plot.",
-                    AtScenarioOrGameIndex = 4,
-                    BadgeText = "Intro Quest",
-                    IconEmoji = "⚔️"
-                },
-                new()
-                {
-                    Order = 2,
-                    Title = "First Mercenary Retirement",
-                    Phase = "Mid Act I - Character Rebirth",
-                    Description = "A starting mercenary completes their Personal Goal and retires, opening new class boxes and town prosperity.",
-                    AtScenarioOrGameIndex = 14,
-                    BadgeText = "Class Unlock",
-                    IconEmoji = "📜"
-                },
-                new()
-                {
-                    Order = 3,
-                    Title = "The Merchant's Secret & Demon Invasions",
-                    Phase = "Act II - Branching Factions",
-                    Description = "Diving into the elemental planes, dealing with the Rift and choosing alliances with the Voice or Drake.",
-                    AtScenarioOrGameIndex = 28,
-                    BadgeText = "Major Story Branch",
-                    IconEmoji = "🔥"
-                },
-                new()
-                {
-                    Order = 4,
-                    Title = "The Gloom Rift & Crypts of the Ancient",
-                    Phase = "Act III - Endgame Ascent",
-                    Description = "Gathering artifacts, reaching Sanctuary of the Great Oak, and pushing into the heart of darkness.",
-                    AtScenarioOrGameIndex = 42,
-                    BadgeText = "Endgame Prep",
-                    IconEmoji = "🔮"
-                },
-                new()
-                {
-                    Order = 5,
-                    Title = "The Final Boss & Campaign Climax",
-                    Phase = "Finale - The Sleeping Lion Legend",
-                    Description = "The ultimate confrontation deciding the fate of Gloomhaven and legacy completion.",
-                    AtScenarioOrGameIndex = 52,
-                    BadgeText = "Grand Finale",
-                    IconEmoji = "👑"
-                }
-            }
-        };
+            },        };
 
         dict[GameId.SleepingGods] = new BoardGame
         {
@@ -268,51 +214,7 @@ public class CampaignDataService
                     EstimatedFailRatePercent = 5.0,
                     IsRecommended = false
                 }
-            },
-            Milestones = new List<GameMilestone>
-            {
-                new()
-                {
-                    Order = 1,
-                    Title = "Setting Sail on the Manticore",
-                    Phase = "Act I - The Uncharted Seas",
-                    Description = "First island landing, repairing the steamship, and encountering the strange locals.",
-                    AtScenarioOrGameIndex = 3,
-                    BadgeText = "Voyage Begins",
-                    IconEmoji = "⛵"
-                },
-                new()
-                {
-                    Order = 2,
-                    Title = "The First Divine Totem",
-                    Phase = "Act I - Relic Discovery",
-                    Description = "Overcoming ancient perils to recover the first totem of the slumbering gods.",
-                    AtScenarioOrGameIndex = 6,
-                    BadgeText = "Totem Found",
-                    IconEmoji = "🗿"
-                },
-                new()
-                {
-                    Order = 3,
-                    Title = "Dangers of the Wandering Sea",
-                    Phase = "Act II - Perilous Waters",
-                    Description = "Confronting sea monstrosities, surviving treacherous weather, and upgrading crew skills.",
-                    AtScenarioOrGameIndex = 11,
-                    BadgeText = "Sea Peril",
-                    IconEmoji = "🌊"
-                },
-                new()
-                {
-                    Order = 4,
-                    Title = "The Awakening of the Gods",
-                    Phase = "Finale - Awakening the Gods",
-                    Description = "Reaching the heart of the realm and performing the awakening ritual to find the passage home.",
-                    AtScenarioOrGameIndex = 16,
-                    BadgeText = "Grand Finale",
-                    IconEmoji = "👑"
-                }
-            }
-        };
+            },        };
 
         dict[GameId.PandemicSeason0] = new BoardGame
         {
@@ -395,61 +297,7 @@ public class CampaignDataService
                     EstimatedFailRatePercent = 50.0,
                     IsRecommended = false
                 }
-            },
-            Milestones = new List<GameMilestone>
-            {
-                new()
-                {
-                    Order = 1,
-                    Title = "Prologue & Training Debrief",
-                    Phase = "Phase 0 - CIA Langley Induction",
-                    Description = "Creating operative passports, forging aliases, and mastering undercover surveillance mechanisms.",
-                    AtScenarioOrGameIndex = 1,
-                    BadgeText = "Induction",
-                    IconEmoji = "🕵️"
-                },
-                new()
-                {
-                    Order = 2,
-                    Title = "Q1: Project MEDUSA Emergence (Jan - Mar)",
-                    Phase = "Phase I - The Soviet Threat",
-                    Description = "First contact with Soviet saboteurs, establishing allied safehouses across Europe and Asia.",
-                    AtScenarioOrGameIndex = 4,
-                    BadgeText = "Dossier Unlocked",
-                    IconEmoji = "🗂️"
-                },
-                new()
-                {
-                    Order = 3,
-                    Title = "Q2: Infiltration & The Double Agent (Apr - Jun)",
-                    Phase = "Phase II - Covert Infiltration",
-                    Description = "High-stakes spy operations, acquiring Soviet lab blueprints, managing compromised aliases.",
-                    AtScenarioOrGameIndex = 8,
-                    BadgeText = "Midpoint Climax",
-                    IconEmoji = "🌐"
-                },
-                new()
-                {
-                    Order = 4,
-                    Title = "Q3: The Biological Arms Race (Jul - Sep)",
-                    Phase = "Phase III - Escalation",
-                    Description = "Tracking weaponized pathogen vectors, neutralising KGB teams, and dismantling bio-laboratories.",
-                    AtScenarioOrGameIndex = 12,
-                    BadgeText = "Crisis Point",
-                    IconEmoji = "🧪"
-                },
-                new()
-                {
-                    Order = 5,
-                    Title = "Q4 & December Climax (Oct - Dec)",
-                    Phase = "Finale - Operation Endgame",
-                    Description = "The final covert operation deciding whether the Cold War descends into catastrophic biological disaster.",
-                    AtScenarioOrGameIndex = 16,
-                    BadgeText = "Final Debrief",
-                    IconEmoji = "🏆"
-                }
-            }
-        };
+            },        };
 
 
         dict[GameId.Oathsworn] = new BoardGame
@@ -515,51 +363,7 @@ public class CampaignDataService
                     EstimatedFailRatePercent = 15.0,
                     IsRecommended = false
                 }
-            },
-            Milestones = new List<GameMilestone>
-            {
-                new()
-                {
-                    Order = 1,
-                    Title = "The First Contract",
-                    Phase = "Act I - The Deepwood Beckons",
-                    Description = "First foray into the Deepwood and initial boss encounter.",
-                    AtScenarioOrGameIndex = 1,
-                    BadgeText = "Initiation",
-                    IconEmoji = "🌲"
-                },
-                new()
-                {
-                    Order = 2,
-                    Title = "The Broodmother",
-                    Phase = "Act I - Infestation",
-                    Description = "Confronting the source of the recent attacks.",
-                    AtScenarioOrGameIndex = 5,
-                    BadgeText = "Swarm Slayer",
-                    IconEmoji = "🕷️"
-                },
-                new()
-                {
-                    Order = 3,
-                    Title = "The Warden's Secret",
-                    Phase = "Act II - Deeper Mysteries",
-                    Description = "Uncovering the truth about the Deepwood's origins.",
-                    AtScenarioOrGameIndex = 11,
-                    BadgeText = "Revelation",
-                    IconEmoji = "👁️"
-                },
-                new()
-                {
-                    Order = 4,
-                    Title = "The Final Oath",
-                    Phase = "Finale - Heart of Darkness",
-                    Description = "The ultimate battle against the primeval horror.",
-                    AtScenarioOrGameIndex = 21,
-                    BadgeText = "Grand Finale",
-                    IconEmoji = "⚔️"
-                }
-            }
-        };
+            },        };
 
         dict[GameId.Frosthaven] = new BoardGame
         {
@@ -632,61 +436,7 @@ public class CampaignDataService
                     EstimatedFailRatePercent = 20.0,
                     IsRecommended = false
                 }
-            },
-            Milestones = new List<GameMilestone>
-            {
-                new()
-                {
-                    Order = 1,
-                    Title = "Arrival at Frosthaven",
-                    Phase = "Act I - The Frozen Outpost",
-                    Description = "First steps into the northern wastes and initial settlement defense.",
-                    AtScenarioOrGameIndex = 5,
-                    BadgeText = "Arrival",
-                    IconEmoji = "❄️"
-                },
-                new()
-                {
-                    Order = 2,
-                    Title = "First Winter",
-                    Phase = "Act I - Seasonal Shift",
-                    Description = "Surviving the first harsh winter and unlocking advanced buildings.",
-                    AtScenarioOrGameIndex = 20,
-                    BadgeText = "Winter Is Here",
-                    IconEmoji = "🌨️"
-                },
-                new()
-                {
-                    Order = 3,
-                    Title = "The Algox Threat",
-                    Phase = "Act II - Escalation",
-                    Description = "Delving into the mountains to deal with the Algox tribes.",
-                    AtScenarioOrGameIndex = 40,
-                    BadgeText = "Major Faction",
-                    IconEmoji = "🏔️"
-                },
-                new()
-                {
-                    Order = 4,
-                    Title = "Secrets of the Lurkers",
-                    Phase = "Act III - Deep Dive",
-                    Description = "Exploring the depths and confronting ancient mysteries.",
-                    AtScenarioOrGameIndex = 60,
-                    BadgeText = "Endgame Prep",
-                    IconEmoji = "🌊"
-                },
-                new()
-                {
-                    Order = 5,
-                    Title = "The Final Confrontation",
-                    Phase = "Finale - Fate of the North",
-                    Description = "The ultimate battle that will decide the future of Frosthaven.",
-                    AtScenarioOrGameIndex = 70,
-                    BadgeText = "Grand Finale",
-                    IconEmoji = "👑"
-                }
-            }
-        };
+            },        };
 
         dict[GameId.TaintedGrailFallOfAvalon] = new BoardGame
         {
@@ -742,61 +492,7 @@ public class CampaignDataService
                     EstimatedFailRatePercent = 20.0,
                     IsRecommended = true
                 }
-            },
-            Milestones = new List<GameMilestone>
-            {
-                new()
-                {
-                    Order = 1,
-                    Title = "Leaving Cuanacht",
-                    Phase = "Chapter 1 - The Journey Begins",
-                    Description = "Gathering supplies and leaving your dying hometown as the Menhir fades.",
-                    AtScenarioOrGameIndex = 1,
-                    BadgeText = "First Steps",
-                    IconEmoji = "🕯️"
-                },
-                new()
-                {
-                    Order = 2,
-                    Title = "The Secret of the Menhirs",
-                    Phase = "Chapter 4 - Deep in the Wyrdness",
-                    Description = "Discovering the rituals required to keep the protective Menhirs lit across Avalon.",
-                    AtScenarioOrGameIndex = 4,
-                    BadgeText = "Survival",
-                    IconEmoji = "🗿"
-                },
-                new()
-                {
-                    Order = 3,
-                    Title = "The Knights of the Round Table",
-                    Phase = "Chapter 8 - Echoes of the Past",
-                    Description = "Uncovering the truth about Arthur's knights and their fateful expedition.",
-                    AtScenarioOrGameIndex = 8,
-                    BadgeText = "Revelation",
-                    IconEmoji = "🛡️"
-                },
-                new()
-                {
-                    Order = 4,
-                    Title = "The Heart of Avalon",
-                    Phase = "Chapter 12 - Point of No Return",
-                    Description = "Navigating the most dangerous regions of the Wyrdness to reach the core of the mystery.",
-                    AtScenarioOrGameIndex = 12,
-                    BadgeText = "Endgame Prep",
-                    IconEmoji = "⚔️"
-                },
-                new()
-                {
-                    Order = 5,
-                    Title = "The Fate of the Isle",
-                    Phase = "Chapter 15 - The Final Choice",
-                    Description = "The ultimate confrontation that determines the future of Avalon and its people.",
-                    AtScenarioOrGameIndex = 15,
-                    BadgeText = "Grand Finale",
-                    IconEmoji = "👑"
-                }
-            }
-        };
+            },        };
 
         return dict;
     }
@@ -827,26 +523,6 @@ public class CampaignDataService
         gh.Scopes[2].Description = "Historia principal, numerosos desbloqueos de personajes, archivos de la ciudad y cadenas secundarias.";
         gh.Scopes[3].Name = "Completista Total (Todo Accesible)";
         gh.Scopes[3].Description = "Jugar todos los escenarios desbloqueables, máxima prosperidad, todos los retiros y mazmorras avanzadas.";
-        gh.Milestones[0].Title = "El Túmulo Negro y Guarida de Bandidos";
-        gh.Milestones[0].Phase = "Acto I - Contratos de Mercenarios";
-        gh.Milestones[0].Description = "Primera incursión en la mazmorra, enfrentando al Comandante Bandido y descubriendo la trama del Nigromante.";
-        gh.Milestones[0].BadgeText = "Misión Inicial";
-        gh.Milestones[1].Title = "Primer Retiro de Mercenario";
-        gh.Milestones[1].Phase = "Mitad Acto I - Renacimiento";
-        gh.Milestones[1].Description = "Un mercenario inicial cumple su Objetivo Personal y se retira, desbloqueando nuevas clases y prosperidad.";
-        gh.Milestones[1].BadgeText = "Desbloqueo";
-        gh.Milestones[2].Title = "El Secreto del Mercader e Invasión Demoníaca";
-        gh.Milestones[2].Phase = "Acto II - Facciones";
-        gh.Milestones[2].Description = "Exploración de planos elementales, enfrentando la Grieta y eligiendo alianzas cruciales.";
-        gh.Milestones[2].BadgeText = "Ramificación";
-        gh.Milestones[3].Title = "La Grieta del Gloom y Criptas Ancestrales";
-        gh.Milestones[3].Phase = "Acto III - Ascenso Final";
-        gh.Milestones[3].Description = "Reunir artefactos, alcanzar el Santuario del Gran Roble y adentrarse en las sombras.";
-        gh.Milestones[3].BadgeText = "Preparación Final";
-        gh.Milestones[4].Title = "Jefe Final y Clímax de la Campaña";
-        gh.Milestones[4].Phase = "Final - Leyenda del León Durmiente";
-        gh.Milestones[4].Description = "El enfrentamiento definitivo que sella el destino de Gloomhaven y completa el legado.";
-        gh.Milestones[4].BadgeText = "Gran Final";
 
         // Pandemic Season 0 ES
         var pan = dict[GameId.PandemicSeason0];
@@ -870,26 +546,6 @@ public class CampaignDataService
         pan.Scopes[2].Description = "Gran interferencia soviética; varios meses requieren segundas tentativas (21 partidas).";
         pan.Scopes[3].Name = "Capacidad Máxima de la Caja (24 Partidas + 2 Prólogos)";
         pan.Scopes[3].Description = "Cada mes jugado dos veces (Temprano + Tardío) más ambos prólogos (26 partidas).";
-        pan.Milestones[0].Title = "Prólogo y Sesión de Entrenamiento";
-        pan.Milestones[0].Phase = "Fase 0 - Inducción CIA";
-        pan.Milestones[0].Description = "Creación de pasaportes operativos, alias encubiertos y dominio de mecanismos de vigilancia.";
-        pan.Milestones[0].BadgeText = "Inducción";
-        pan.Milestones[1].Title = "T1: Aparición del Proyecto MEDUSA (Ene - Mar)";
-        pan.Milestones[1].Phase = "Fase I - La Amenaza Soviética";
-        pan.Milestones[1].Description = "Primer contacto con saboteadores soviéticos y establecimiento de casas francas en Europa y Asia.";
-        pan.Milestones[1].BadgeText = "Dossier";
-        pan.Milestones[2].Title = "T2: Infiltración y el Agente Doble (Abr - Jun)";
-        pan.Milestones[2].Phase = "Fase II - Infiltración Encubierta";
-        pan.Milestones[2].Description = "Operaciones de alto riesgo, planos de laboratorios soviéticos y gestión de identidades comprometidas.";
-        pan.Milestones[2].BadgeText = "Clímax Medio";
-        pan.Milestones[3].Title = "T3: Carrera Armamentística Biológica (Jul - Sep)";
-        pan.Milestones[3].Phase = "Fase III - Escalada";
-        pan.Milestones[3].Description = "Rastreo de patógenos, neutralización de equipos del KGB y desmantelamiento de laboratorios.";
-        pan.Milestones[3].BadgeText = "Crisis";
-        pan.Milestones[4].Title = "T4 y Clímax de Diciembre (Oct - Dic)";
-        pan.Milestones[4].Phase = "Final - Operación Endgame";
-        pan.Milestones[4].Description = "La operación encubierta final que decidirá el desenlace de la Guerra Fría.";
-        pan.Milestones[4].BadgeText = "Informe Final";
 
 
         // Oathsworn ES
@@ -910,22 +566,6 @@ public class CampaignDataService
         os.Scopes[0].Description = "La historia principal de 21 capítulos.";
         os.Scopes[1].Name = "Campaña Extendida (Todos los Encuentros)";
         os.Scopes[1].Description = "Historia principal y todos los encuentros opcionales con jefes.";
-        os.Milestones[0].Title = "El Primer Contrato";
-        os.Milestones[0].Phase = "Acto I - Deepwood Llama";
-        os.Milestones[0].Description = "Primera incursión en Deepwood y encuentro inicial con un jefe.";
-        os.Milestones[0].BadgeText = "Iniciación";
-        os.Milestones[1].Title = "La Madre de la Progenie";
-        os.Milestones[1].Phase = "Acto I - Infestación";
-        os.Milestones[1].Description = "Enfrentando el origen de los recientes ataques.";
-        os.Milestones[1].BadgeText = "Matador de Enjambres";
-        os.Milestones[2].Title = "El Secreto del Guardián";
-        os.Milestones[2].Phase = "Acto II - Misterios Más Profundos";
-        os.Milestones[2].Description = "Descubriendo la verdad sobre los orígenes de Deepwood.";
-        os.Milestones[2].BadgeText = "Revelación";
-        os.Milestones[3].Title = "El Juramento Final";
-        os.Milestones[3].Phase = "Final - El Corazón de las Tinieblas";
-        os.Milestones[3].Description = "La batalla definitiva contra el horror primigenio.";
-        os.Milestones[3].BadgeText = "Gran Final";
 
         // Frosthaven ES
         var fh = dict[GameId.Frosthaven];
@@ -947,26 +587,6 @@ public class CampaignDataService
         fh.Scopes[1].Description = "Historia principal, misiones secundarias importantes y mayoría de desbloqueos.";
         fh.Scopes[2].Name = "Completista Total";
         fh.Scopes[2].Description = "Jugar todos los escenarios accesibles y mejorar al máximo el asentamiento.";
-        fh.Milestones[0].Title = "Llegada a Frosthaven";
-        fh.Milestones[0].Phase = "Acto I - El Puesto Helado";
-        fh.Milestones[0].Description = "Primeros pasos en los páramos y defensa inicial del asentamiento.";
-        fh.Milestones[0].BadgeText = "Llegada";
-        fh.Milestones[1].Title = "Primer Invierno";
-        fh.Milestones[1].Phase = "Acto I - Cambio Estacional";
-        fh.Milestones[1].Description = "Sobrevivir al primer invierno duro y desbloquear edificios avanzados.";
-        fh.Milestones[1].BadgeText = "Llega el Invierno";
-        fh.Milestones[2].Title = "La Amenaza Algox";
-        fh.Milestones[2].Phase = "Acto II - Escalada";
-        fh.Milestones[2].Description = "Adentrarse en las montañas para lidiar con las tribus Algox.";
-        fh.Milestones[2].BadgeText = "Facción Principal";
-        fh.Milestones[3].Title = "Secretos de los Acechadores";
-        fh.Milestones[3].Phase = "Acto III - Inmersión Profunda";
-        fh.Milestones[3].Description = "Explorar las profundidades y confrontar misterios antiguos.";
-        fh.Milestones[3].BadgeText = "Prep. Final";
-        fh.Milestones[4].Title = "La Confrontación Final";
-        fh.Milestones[4].Phase = "Final - El Destino del Norte";
-        fh.Milestones[4].Description = "La batalla definitiva que decidirá el futuro de Frosthaven.";
-        fh.Milestones[4].BadgeText = "Gran Final";
 
 
         // Tainted Grail ES
@@ -985,26 +605,6 @@ public class CampaignDataService
         };
         tg.Scopes[0].Name = "La Caída de Avalon (Campaña Principal)";
         tg.Scopes[0].Description = "El arco argumental completo a través de Avalon para descubrir el destino de los héroes originales.";
-        tg.Milestones[0].Title = "Saliendo de Cuanacht";
-        tg.Milestones[0].Phase = "Capítulo 1 - El Viaje Comienza";
-        tg.Milestones[0].Description = "Reuniendo suministros y dejando atrás tu pueblo agonizante mientras el Menhir se apaga.";
-        tg.Milestones[0].BadgeText = "Primeros Pasos";
-        tg.Milestones[1].Title = "El Secreto de los Menhires";
-        tg.Milestones[1].Phase = "Capítulo 4 - En lo Profundo de la Rareza";
-        tg.Milestones[1].Description = "Descubriendo los rituales necesarios para mantener encendidos los Menhires protectores por todo Avalon.";
-        tg.Milestones[1].BadgeText = "Supervivencia";
-        tg.Milestones[2].Title = "Los Caballeros de la Mesa Redonda";
-        tg.Milestones[2].Phase = "Capítulo 8 - Ecos del Pasado";
-        tg.Milestones[2].Description = "Descubriendo la verdad sobre los caballeros de Arturo y su fatídica expedición.";
-        tg.Milestones[2].BadgeText = "Revelación";
-        tg.Milestones[3].Title = "El Corazón de Avalon";
-        tg.Milestones[3].Phase = "Capítulo 12 - Punto de No Retorno";
-        tg.Milestones[3].Description = "Navegando por las regiones más peligrosas de la Rareza para alcanzar el núcleo del misterio.";
-        tg.Milestones[3].BadgeText = "Prep. Final";
-        tg.Milestones[4].Title = "El Destino de la Isla";
-        tg.Milestones[4].Phase = "Capítulo 15 - La Elección Final";
-        tg.Milestones[4].Description = "El enfrentamiento definitivo que determina el futuro de Avalon y su gente.";
-        tg.Milestones[4].BadgeText = "Gran Final";
 
         // Sleeping Gods ES
         var sg = dict[GameId.SleepingGods];
@@ -1024,22 +624,6 @@ public class CampaignDataService
         sg.Scopes[0].Description = "Un viaje completo por el Mar Errante completando misiones principales y reuniendo tótems divinos.";
         sg.Scopes[1].Name = "Expedición Exploratoria Breve";
         sg.Scopes[1].Description = "Una expedición náutica ágil explorando archipiélagos cercanos y resolviendo misiones introductorias.";
-        sg.Milestones[0].Title = "Zarpando en el Manticore";
-        sg.Milestones[0].Phase = "Acto I - Mares Inexplorados";
-        sg.Milestones[0].Description = "Primer desembarco en una isla, reparación del vapor y encuentro con los extraños lugareños.";
-        sg.Milestones[0].BadgeText = "Comienza el Viaje";
-        sg.Milestones[1].Title = "El Primer Tótem Divino";
-        sg.Milestones[1].Phase = "Acto I - Descubrimiento de Reliquias";
-        sg.Milestones[1].Description = "Superando antiguos peligros para recuperar el primer tótem de los dioses dormidos.";
-        sg.Milestones[1].BadgeText = "Tótem Hallado";
-        sg.Milestones[2].Title = "Peligros del Mar Errante";
-        sg.Milestones[2].Phase = "Acto II - Aguas Peligrosas";
-        sg.Milestones[2].Description = "Enfrentando monstruosidades marinas, sobreviviendo a climas traicioneros y mejorando a la tripulación.";
-        sg.Milestones[2].BadgeText = "Peligro Marino";
-        sg.Milestones[3].Title = "El Despertar de los Dioses";
-        sg.Milestones[3].Phase = "Final - Despertar a los Dioses";
-        sg.Milestones[3].Description = "Alcanzando el corazón del reino y realizando el ritual de despertar para hallar el paso a casa.";
-        sg.Milestones[3].BadgeText = "Gran Final";
 
         return dict;
     }
@@ -1070,26 +654,6 @@ public class CampaignDataService
         gh.Scopes[2].Description = "Hauptgeschichte, zahlreiche Charakter-Freischaltungen, Fortschritt der Stadtchronik und Questreihen.";
         gh.Scopes[3].Name = "Vollständiger Komplettierer (Alles)";
         gh.Scopes[3].Description = "Absolvieren aller erreichbaren Szenarien, höchste Wohlstandsstufe, alle Ruhestände und High-Level-Dungeons.";
-        gh.Milestones[0].Title = "Das Schwarze Hünengrab & Räuberversteck";
-        gh.Milestones[0].Phase = "Akt I - Die Söldneraufträge";
-        gh.Milestones[0].Description = "Erster Dungeon-Vorstoß, Konfrontation mit dem Räuberhauptmann und Aufdeckung des Nekromanten-Komplotts.";
-        gh.Milestones[0].BadgeText = "Einführungsquest";
-        gh.Milestones[1].Title = "Erster Söldner-Ruhestand";
-        gh.Milestones[1].Phase = "Mitte Akt I - Charakterwandel";
-        gh.Milestones[1].Description = "Ein Startsöldner erfüllt sein persönliches Ziel und geht in den Ruhestand; schaltet neue Klassen frei.";
-        gh.Milestones[1].BadgeText = "Klassenfreischaltung";
-        gh.Milestones[2].Title = "Das Geheimnis des Händlers & Dämoneninvasion";
-        gh.Milestones[2].Phase = "Akt II - Fraktionsspaltung";
-        gh.Milestones[2].Description = "Vorstoß in die Elementarebenen, Konfrontation mit dem Riss und Wahl der Allianzen.";
-        gh.Milestones[2].BadgeText = "Story-Verzweigung";
-        gh.Milestones[3].Title = "Der Schattenriss & Gruften der Uralten";
-        gh.Milestones[3].Phase = "Akt III - Vorbereitung Finale";
-        gh.Milestones[3].Description = "Artefakte sammeln, Zuflucht der Großen Eiche erreichen und ins Herz der Finsternis vorstoßen.";
-        gh.Milestones[3].BadgeText = "Endspiel-Vorbereitung";
-        gh.Milestones[4].Title = "Der Endboss & Kampagnen-Höhepunkt";
-        gh.Milestones[4].Phase = "Finale - Legende des Schlafenden Löwen";
-        gh.Milestones[4].Description = "Die ultimative Konfrontation, die über das Schicksal von Gloomhaven entscheidet.";
-        gh.Milestones[4].BadgeText = "Großes Finale";
 
         // Pandemic Season 0 DE
         var pan = dict[GameId.PandemicSeason0];
@@ -1113,26 +677,6 @@ public class CampaignDataService
         pan.Scopes[2].Description = "Starke sowjetische Einmischung; mehrere Monate erfordern Nachbesprechungen (21 Partien).";
         pan.Scopes[3].Name = "Maximale Schachtelkapazität (24 Partien + 2 Prologe)";
         pan.Scopes[3].Description = "Jeder Kalendermonat doppelt gespielt (Früh + Spät) plus beide Prologe (26 Partien).";
-        pan.Milestones[0].Title = "Prolog & Trainings-Debriefing";
-        pan.Milestones[0].Phase = "Phase 0 - CIA-Einführung";
-        pan.Milestones[0].Description = "Erstellung von Agentenpässen, Tarnidentitäten und Beherrschung der Überwachung.";
-        pan.Milestones[0].BadgeText = "Einführung";
-        pan.Milestones[1].Title = "Q1: Projekt MEDUSA taucht auf (Jan - Mär)";
-        pan.Milestones[1].Phase = "Phase I - Die sowjetische Bedrohung";
-        pan.Milestones[1].Description = "Erster Kontakt mit Saboteuren, Errichtung von Unterschlüpfen in Europa und Asien.";
-        pan.Milestones[1].BadgeText = "Dossier";
-        pan.Milestones[2].Title = "Q2: Infiltration & der Doppelagent (Apr - Jun)";
-        pan.Milestones[2].Phase = "Phase II - Verdeckte Operation";
-        pan.Milestones[2].Description = "Gefährliche Spionageakte, sowjetische Laborpläne und kompromittierte Identitäten.";
-        pan.Milestones[2].BadgeText = "Halbzeit";
-        pan.Milestones[3].Title = "Q3: Das biologische Wettrüsten (Jul - Sep)";
-        pan.Milestones[3].Phase = "Phase III - Eskalation";
-        pan.Milestones[3].Description = "Verfolgung von Erregern, Neutralisierung von KGB-Teams und Zerschlagung von Laboren.";
-        pan.Milestones[3].BadgeText = "Krisenpunkt";
-        pan.Milestones[4].Title = "Q4 & Dezember-Höhepunkt (Okt - Dez)";
-        pan.Milestones[4].Phase = "Finale - Operation Endspiel";
-        pan.Milestones[4].Description = "Die finale Geheimoperation, die über das Schicksal des Kalten Krieges entscheidet.";
-        pan.Milestones[4].BadgeText = "Abschlussbericht";
 
 
         // Oathsworn DE
@@ -1153,22 +697,6 @@ public class CampaignDataService
         os.Scopes[0].Description = "Die 21 Kapitel umfassende Hauptgeschichte.";
         os.Scopes[1].Name = "Erweiterte Kampagne (Alle Begegnungen)";
         os.Scopes[1].Description = "Hauptgeschichte und alle optionalen Boss-Begegnungen.";
-        os.Milestones[0].Title = "Der Erste Vertrag";
-        os.Milestones[0].Phase = "Akt I - Der Deepwood ruft";
-        os.Milestones[0].Description = "Erster Vorstoß in den Deepwood und anfängliche Boss-Begegnung.";
-        os.Milestones[0].BadgeText = "Initiation";
-        os.Milestones[1].Title = "Die Brutmutter";
-        os.Milestones[1].Phase = "Akt I - Befall";
-        os.Milestones[1].Description = "Konfrontation mit dem Ursprung der jüngsten Angriffe.";
-        os.Milestones[1].BadgeText = "Schwarmtöter";
-        os.Milestones[2].Title = "Das Geheimnis des Wächters";
-        os.Milestones[2].Phase = "Akt II - Tiefere Mysterien";
-        os.Milestones[2].Description = "Aufdeckung der Wahrheit über die Ursprünge des Deepwood.";
-        os.Milestones[2].BadgeText = "Offenbarung";
-        os.Milestones[3].Title = "Der Letzte Eid";
-        os.Milestones[3].Phase = "Finale - Herz der Finsternis";
-        os.Milestones[3].Description = "Die ultimative Schlacht gegen den urzeitlichen Schrecken.";
-        os.Milestones[3].BadgeText = "Großes Finale";
 
         // Frosthaven DE
         var fh = dict[GameId.Frosthaven];
@@ -1190,26 +718,6 @@ public class CampaignDataService
         fh.Scopes[1].Description = "Hauptgeschichte, wichtige Nebenquests und meiste Freischaltungen.";
         fh.Scopes[2].Name = "Vollständiger Komplettierer";
         fh.Scopes[2].Description = "Absolvieren aller erreichbaren Szenarien und maximaler Ausbau der Siedlung.";
-        fh.Milestones[0].Title = "Ankunft in Frosthaven";
-        fh.Milestones[0].Phase = "Akt I - Der eisige Außenposten";
-        fh.Milestones[0].Description = "Erste Schritte in der Ödnis und anfängliche Siedlungsverteidigung.";
-        fh.Milestones[0].BadgeText = "Ankunft";
-        fh.Milestones[1].Title = "Erster Winter";
-        fh.Milestones[1].Phase = "Akt I - Saisonwechsel";
-        fh.Milestones[1].Description = "Überleben des ersten harten Winters und Freischaltung erweiterter Gebäude.";
-        fh.Milestones[1].BadgeText = "Der Winter naht";
-        fh.Milestones[2].Title = "Die Algox-Bedrohung";
-        fh.Milestones[2].Phase = "Akt II - Eskalation";
-        fh.Milestones[2].Description = "Vorstoß in die Berge, um mit den Algox-Stämmen fertig zu werden.";
-        fh.Milestones[2].BadgeText = "Hauptfraktion";
-        fh.Milestones[3].Title = "Geheimnisse der Lauerer";
-        fh.Milestones[3].Phase = "Akt III - Tiefer Vorstoß";
-        fh.Milestones[3].Description = "Erkundung der Tiefen und Konfrontation mit alten Geheimnissen.";
-        fh.Milestones[3].BadgeText = "Endspiel-Vorbereitung";
-        fh.Milestones[4].Title = "Die finale Konfrontation";
-        fh.Milestones[4].Phase = "Finale - Schicksal des Nordens";
-        fh.Milestones[4].Description = "Der letzte Kampf, der über die Zukunft von Frosthaven entscheidet.";
-        fh.Milestones[4].BadgeText = "Großes Finale";
 
 
         // Tainted Grail DE
@@ -1228,26 +736,6 @@ public class CampaignDataService
         };
         tg.Scopes[0].Name = "Der Niedergang Avalons (Hauptkampagne)";
         tg.Scopes[0].Description = "Der gesamte Hauptstory-Bogen durch Avalon, um das Schicksal der ursprünglichen Helden zu entdecken.";
-        tg.Milestones[0].Title = "Abschied von Cuanacht";
-        tg.Milestones[0].Phase = "Kapitel 1 - Die Reise beginnt";
-        tg.Milestones[0].Description = "Vorräte sammeln und das sterbende Heimatdorf verlassen, während der Menhir verblasst.";
-        tg.Milestones[0].BadgeText = "Erste Schritte";
-        tg.Milestones[1].Title = "Das Geheimnis der Menhire";
-        tg.Milestones[1].Phase = "Kapitel 4 - Tief in der Wyrdnis";
-        tg.Milestones[1].Description = "Entdeckung der Rituale, die notwendig sind, um die schützenden Menhire in ganz Avalon am Leuchten zu halten.";
-        tg.Milestones[1].BadgeText = "Überleben";
-        tg.Milestones[2].Title = "Die Ritter der Tafelrunde";
-        tg.Milestones[2].Phase = "Kapitel 8 - Echos der Vergangenheit";
-        tg.Milestones[2].Description = "Die Wahrheit über Artus' Ritter und ihre schicksalhafte Expedition ans Licht bringen.";
-        tg.Milestones[2].BadgeText = "Offenbarung";
-        tg.Milestones[3].Title = "Das Herz von Avalon";
-        tg.Milestones[3].Phase = "Kapitel 12 - Punkt ohne Wiederkehr";
-        tg.Milestones[3].Description = "Navigation durch die gefährlichsten Regionen der Wyrdnis, um den Kern des Mysteriums zu erreichen.";
-        tg.Milestones[3].BadgeText = "Endspiel-Vorb.";
-        tg.Milestones[4].Title = "Das Schicksal der Insel";
-        tg.Milestones[4].Phase = "Kapitel 15 - Die finale Entscheidung";
-        tg.Milestones[4].Description = "Die ultimative Konfrontation, die die Zukunft von Avalon und seiner Bewohner bestimmt.";
-        tg.Milestones[4].BadgeText = "Großes Finale";
 
         // Sleeping Gods DE
         var sg = dict[GameId.SleepingGods];
@@ -1267,22 +755,6 @@ public class CampaignDataService
         sg.Scopes[0].Description = "Eine komplette Reise über die Wandernde See mit allen Hauptquests und dem Sammeln göttlicher Totems.";
         sg.Scopes[1].Name = "Kurze Erkundungsexpedition";
         sg.Scopes[1].Description = "Eine gestraffte nautische Expedition zur Erkundung nahegelegener Inseln und Einführung in die Quests.";
-        sg.Milestones[0].Title = "Die Manticore sticht in See";
-        sg.Milestones[0].Phase = "Akt I - Die unerforschten Meere";
-        sg.Milestones[0].Description = "Erste Landung auf einer Insel, Reparatur des Dampfschiffs und Begegnung mit fremdartigen Einheimischen.";
-        sg.Milestones[0].BadgeText = "Reisebeginn";
-        sg.Milestones[1].Title = "Das erste göttliche Totem";
-        sg.Milestones[1].Phase = "Akt I - Relikten-Entdeckung";
-        sg.Milestones[1].Description = "Uralte Gefahren überwinden, um das erste Totem der schlafenden Götter zu bergen.";
-        sg.Milestones[1].BadgeText = "Totem gefunden";
-        sg.Milestones[2].Title = "Gefahren der Wandernden See";
-        sg.Milestones[2].Phase = "Akt II - Gefährliche Gewässer";
-        sg.Milestones[2].Description = "Meeresungeheuern trotzen, tückisches Wetter überstehen und Fähigkeiten der Crew verbessern.";
-        sg.Milestones[2].BadgeText = "Meeresgefahr";
-        sg.Milestones[3].Title = "Das Erwachen der Götter";
-        sg.Milestones[3].Phase = "Finale - Das Erwecken der Götter";
-        sg.Milestones[3].Description = "Das Herz des Reiches erreichen und das Erweckungsritual durchführen, um den Heimweg zu öffnen.";
-        sg.Milestones[3].BadgeText = "Großes Finale";
 
         return dict;
     }
@@ -1313,26 +785,6 @@ public class CampaignDataService
         gh.Scopes[2].Description = "Histoire principale, nombreux déblocages de classes, archives de la cité et séries de quêtes.";
         gh.Scopes[3].Name = "Complétiste Intégral (Tout Accessible)";
         gh.Scopes[3].Description = "Tous les scénarios déblocables, prospérité maximale, retraites de toutes les classes et donjons ultimes.";
-        gh.Milestones[0].Title = "Le Tertre Noir & Repaire des Bandits";
-        gh.Milestones[0].Phase = "Acte I - Les Contrats";
-        gh.Milestones[0].Description = "Première incursion en donjon, affrontement du Chef des Bandits et découverte du complot.";
-        gh.Milestones[0].BadgeText = "Quête Initiale";
-        gh.Milestones[1].Title = "Première Retraite de Mercenaire";
-        gh.Milestones[1].Phase = "Mi-Acte I - Renaissance";
-        gh.Milestones[1].Description = "Un mercenaire de départ accomplit sa quête personnelle et prend sa retraite, débloquant une nouvelle classe.";
-        gh.Milestones[1].BadgeText = "Déblocage";
-        gh.Milestones[2].Title = "Le Secret du Marchand & Invasions Démoniaques";
-        gh.Milestones[2].Phase = "Acte II - Factions";
-        gh.Milestones[2].Description = "Plongée dans les plans élémentaires, gestion de la Faille et alliances cruciales.";
-        gh.Milestones[2].BadgeText = "Embranchement";
-        gh.Milestones[3].Title = "La Faille du Gloom & Cryptes des Anciens";
-        gh.Milestones[3].Phase = "Acte III - Ascension Finale";
-        gh.Milestones[3].Description = "Collecte d'artefacts, sanctuaire du Grand Chêne et progression au cœur des ténèbres.";
-        gh.Milestones[3].BadgeText = "Préparation Finale";
-        gh.Milestones[4].Title = "Le Boss Final & Climax de la Campagne";
-        gh.Milestones[4].Phase = "Final - La Légende du Lion Assoupi";
-        gh.Milestones[4].Description = "La confrontation ultime qui scelle le destin de Havrenuit et parachève la campagne.";
-        gh.Milestones[4].BadgeText = "Grand Final";
 
         // Pandemic Season 0 FR
         var pan = dict[GameId.PandemicSeason0];
@@ -1356,26 +808,6 @@ public class CampaignDataService
         pan.Scopes[2].Description = "Forte résistance soviétique ; plusieurs mois nécessitent un débriefing tardif (21 parties).";
         pan.Scopes[3].Name = "Capacité Maximale de la Boîte (24 Parties + 2 Prologues)";
         pan.Scopes[3].Description = "Chaque mois joué deux fois (Début + Fin) plus les deux prologues (26 parties).";
-        pan.Milestones[0].Title = "Prologue & Entraînement";
-        pan.Milestones[0].Phase = "Phase 0 - Intégration CIA";
-        pan.Milestones[0].Description = "Création de passeports, alias d'espions et maîtrise des mécanismes de surveillance.";
-        pan.Milestones[0].BadgeText = "Intégration";
-        pan.Milestones[1].Title = "T1 : Émergence du Projet MÉDUSE (Jan - Mar)";
-        pan.Milestones[1].Phase = "Phase I - La Menace Soviétique";
-        pan.Milestones[1].Description = "Premier contact avec des saboteurs, établissement de planques en Europe et Asie.";
-        pan.Milestones[1].BadgeText = "Dossier";
-        pan.Milestones[2].Title = "T2 : Infiltration & l'Agent Double (Avr - Juin)";
-        pan.Milestones[2].Phase = "Phase II - Infiltration Secrète";
-        pan.Milestones[2].Description = "Opérations d'espionnage à haut risque, plans de labos soviétiques et fausses identités.";
-        pan.Milestones[2].BadgeText = "Climax Médian";
-        pan.Milestones[3].Title = "T3 : Course aux Armes Biologiques (Juil - Sep)";
-        pan.Milestones[3].Phase = "Phase III - Escalade";
-        pan.Milestones[3].Description = "Traque de pathogènes, neutralisation d'équipes du KGB et démantèlement de labos.";
-        pan.Milestones[3].BadgeText = "Point Critique";
-        pan.Milestones[4].Title = "T4 & Climax de Décembre (Oct - Déc)";
-        pan.Milestones[4].Phase = "Final - Opération Endgame";
-        pan.Milestones[4].Description = "L'opération finale qui décidera de l'issue de la Guerre Froide.";
-        pan.Milestones[4].BadgeText = "Rapport Final";
 
 
         // Oathsworn FR
@@ -1396,22 +828,6 @@ public class CampaignDataService
         os.Scopes[0].Description = "L'histoire principale de 21 chapitres.";
         os.Scopes[1].Name = "Campagne Étendue (Toutes les Rencontres)";
         os.Scopes[1].Description = "L'histoire principale et tous les affrontements de boss optionnels.";
-        os.Milestones[0].Title = "Le Premier Contrat";
-        os.Milestones[0].Phase = "Acte I - L'Appel du Deepwood";
-        os.Milestones[0].Description = "Première incursion dans le Deepwood et premier affrontement de boss.";
-        os.Milestones[0].BadgeText = "Initiation";
-        os.Milestones[1].Title = "La Mère de la Couvée";
-        os.Milestones[1].Phase = "Acte I - Infestation";
-        os.Milestones[1].Description = "Affrontement contre l'origine des récentes attaques.";
-        os.Milestones[1].BadgeText = "Tueur d'Essaim";
-        os.Milestones[2].Title = "Le Secret du Gardien";
-        os.Milestones[2].Phase = "Acte II - Mystères Profonds";
-        os.Milestones[2].Description = "Découverte de la vérité sur les origines du Deepwood.";
-        os.Milestones[2].BadgeText = "Révélation";
-        os.Milestones[3].Title = "Le Serment Final";
-        os.Milestones[3].Phase = "Final - Le Cœur des Ténèbres";
-        os.Milestones[3].Description = "L'ultime bataille contre l'horreur primitive.";
-        os.Milestones[3].BadgeText = "Grand Final";
 
         // Frosthaven FR
         var fh = dict[GameId.Frosthaven];
@@ -1433,26 +849,6 @@ public class CampaignDataService
         fh.Scopes[1].Description = "Histoire principale, quêtes secondaires importantes et la plupart des déblocages.";
         fh.Scopes[2].Name = "Complétiste Intégral";
         fh.Scopes[2].Description = "Jouer tous les scénarios accessibles et maximiser la colonie.";
-        fh.Milestones[0].Title = "Arrivée à Frosthaven";
-        fh.Milestones[0].Phase = "Acte I - L'Avant-poste Gelé";
-        fh.Milestones[0].Description = "Premiers pas dans les terres désolées et défense initiale.";
-        fh.Milestones[0].BadgeText = "Arrivée";
-        fh.Milestones[1].Title = "Premier Hiver";
-        fh.Milestones[1].Phase = "Acte I - Changement de Saison";
-        fh.Milestones[1].Description = "Survivre au premier hiver rude et débloquer des bâtiments avancés.";
-        fh.Milestones[1].BadgeText = "L'Hiver est Là";
-        fh.Milestones[2].Title = "La Menace Algox";
-        fh.Milestones[2].Phase = "Acte II - Escalade";
-        fh.Milestones[2].Description = "Plongée dans les montagnes pour affronter les tribus Algox.";
-        fh.Milestones[2].BadgeText = "Faction Majeure";
-        fh.Milestones[3].Title = "Secrets des Rôdeurs";
-        fh.Milestones[3].Phase = "Acte III - Plongée Profonde";
-        fh.Milestones[3].Description = "Explorer les profondeurs et confronter d'anciens mystères.";
-        fh.Milestones[3].BadgeText = "Préparation Finale";
-        fh.Milestones[4].Title = "L'Affrontement Final";
-        fh.Milestones[4].Phase = "Final - Le Destin du Nord";
-        fh.Milestones[4].Description = "La bataille ultime qui décidera de l'avenir de Frosthaven.";
-        fh.Milestones[4].BadgeText = "Grand Final";
 
 
         // Tainted Grail FR
@@ -1471,26 +867,6 @@ public class CampaignDataService
         };
         tg.Scopes[0].Name = "La Chute d'Avalon (Campagne Principale)";
         tg.Scopes[0].Description = "L'arc narratif principal à travers Avalon pour découvrir le destin des héros originaux.";
-        tg.Milestones[0].Title = "Quitter Cuanacht";
-        tg.Milestones[0].Phase = "Chapitre 1 - Le Voyage Commence";
-        tg.Milestones[0].Description = "Rassemblement de fournitures et départ de votre village natal mourant alors que le Menhir s'éteint.";
-        tg.Milestones[0].BadgeText = "Premiers Pas";
-        tg.Milestones[1].Title = "Le Secret des Menhirs";
-        tg.Milestones[1].Phase = "Chapitre 4 - Profondément dans la Wyrd";
-        tg.Milestones[1].Description = "Découverte des rituels nécessaires pour maintenir les Menhirs protecteurs allumés à travers Avalon.";
-        tg.Milestones[1].BadgeText = "Survie";
-        tg.Milestones[2].Title = "Les Chevaliers de la Table Ronde";
-        tg.Milestones[2].Phase = "Chapitre 8 - Échos du Passé";
-        tg.Milestones[2].Description = "Découverte de la vérité sur les chevaliers d'Arthur et leur expédition fatidique.";
-        tg.Milestones[2].BadgeText = "Révélation";
-        tg.Milestones[3].Title = "Le Cœur d'Avalon";
-        tg.Milestones[3].Phase = "Chapitre 12 - Point de Non-Retour";
-        tg.Milestones[3].Description = "Navigation dans les régions les plus dangereuses de la Wyrd pour atteindre le cœur du mystère.";
-        tg.Milestones[3].BadgeText = "Préparation Finale";
-        tg.Milestones[4].Title = "Le Destin de l'Île";
-        tg.Milestones[4].Phase = "Chapitre 15 - Le Choix Final";
-        tg.Milestones[4].Description = "L'affrontement ultime qui détermine l'avenir d'Avalon et de son peuple.";
-        tg.Milestones[4].BadgeText = "Grand Final";
 
         // Sleeping Gods FR
         var sg = dict[GameId.SleepingGods];
@@ -1510,22 +886,6 @@ public class CampaignDataService
         sg.Scopes[0].Description = "Un périple complet à travers la Mer Errange pour accomplir les quêtes majeures et récupérer les totems divins.";
         sg.Scopes[1].Name = "Courte Expédition d'Exploration";
         sg.Scopes[1].Description = "Une expédition maritime rapide pour explorer les archipels voisins et s'initier aux premières quêtes.";
-        sg.Milestones[0].Title = "Larguer les Amarres sur le Manticore";
-        sg.Milestones[0].Phase = "Acte I - Les Mers Inexplorées";
-        sg.Milestones[0].Description = "Premier débarquement sur une île, réparation du vapeur et rencontre avec les étranges autochtones.";
-        sg.Milestones[0].BadgeText = "Début du Voyage";
-        sg.Milestones[1].Title = "Le Premier Totem Divin";
-        sg.Milestones[1].Phase = "Acte I - Découverte de Reliques";
-        sg.Milestones[1].Description = "Surmonter des périls anciens pour récupérer le premier totem des dieux assoupis.";
-        sg.Milestones[1].BadgeText = "Totem Trouvé";
-        sg.Milestones[2].Title = "Périls de la Mer Errange";
-        sg.Milestones[2].Phase = "Acte II - Eaux Dangereuses";
-        sg.Milestones[2].Description = "Affronter des monstres marins, survivre aux tempêtes et améliorer les compétences de l'équipage.";
-        sg.Milestones[2].BadgeText = "Danger Marin";
-        sg.Milestones[3].Title = "Le Réveil des Dieux";
-        sg.Milestones[3].Phase = "Final - Le Réveil des Dieux";
-        sg.Milestones[3].Description = "Atteindre le cœur du royaume et accomplir le rituel d'éveil pour trouver le passage vers le retour.";
-        sg.Milestones[3].BadgeText = "Grand Final";
 
         return dict;
     }
@@ -1556,26 +916,6 @@ public class CampaignDataService
         gh.Scopes[2].Description = "Storia principale, numerosi sblocchi di personaggi, progressione dell'archivio e catene secondarie.";
         gh.Scopes[3].Name = "Completista Totale (Tutto Accessibile)";
         gh.Scopes[3].Description = "Completamento di ogni scenario sbloccabile, massima prosperità, tutti i pensionamenti e dungeon avanzati.";
-        gh.Milestones[0].Title = "Il Tumulo Nero e il Covo dei Banditi";
-        gh.Milestones[0].Phase = "Atto I - I Contratti";
-        gh.Milestones[0].Description = "Prima esplorazione, scontro con il Comandante dei Banditi e scoperta della trama del Negromante.";
-        gh.Milestones[0].BadgeText = "Missione Iniziale";
-        gh.Milestones[1].Title = "Primo Pensionamento del Mercenario";
-        gh.Milestones[1].Phase = "Metà Atto I - Rinascita";
-        gh.Milestones[1].Description = "Un mercenario iniziale completa il suo Obiettivo Personale e si ritira, sbloccando nuove classi.";
-        gh.Milestones[1].BadgeText = "Sblocco";
-        gh.Milestones[2].Title = "Il Segreto del Mercante e Invasione dei Demoni";
-        gh.Milestones[2].Phase = "Atto II - Fazioni";
-        gh.Milestones[2].Description = "Esplorazione dei piani elementali, gestione della Fenditura e alleanze strategiche.";
-        gh.Milestones[2].BadgeText = "Bivio Narrativo";
-        gh.Milestones[3].Title = "La Fenditura del Gloom e Cripte degli Antichi";
-        gh.Milestones[3].Phase = "Atto III - Ascesa Finale";
-        gh.Milestones[3].Description = "Raccolta di manufatti, raggiungimento del Santuario della Grande Quercia e discesa nell'oscurità.";
-        gh.Milestones[3].BadgeText = "Preparazione Finale";
-        gh.Milestones[4].Title = "Boss Finale e Climax della Campagna";
-        gh.Milestones[4].Phase = "Finale - La Leggenda del Leone Addormentato";
-        gh.Milestones[4].Description = "Lo scontro definitivo che deciderà il destino di Gloomhaven.";
-        gh.Milestones[4].BadgeText = "Gran Finale";
 
         // Pandemic Season 0 IT
         var pan = dict[GameId.PandemicSeason0];
@@ -1599,26 +939,6 @@ public class CampaignDataService
         pan.Scopes[2].Description = "Forte contrasto sovietico; diversi mesi richiedono debriefing di fine mese (21 partite).";
         pan.Scopes[3].Name = "Capienza Massima della Scatola (24 Partite + 2 Prologhi)";
         pan.Scopes[3].Description = "Ogni mese giocato due volte (Inizio + Fine) più entrambi i prologhi (26 partite).";
-        pan.Milestones[0].Title = "Prologo e Addestramento";
-        pan.Milestones[0].Phase = "Fase 0 - Reclutamento CIA";
-        pan.Milestones[0].Description = "Creazione di passaporti, alias di copertura e padronanza della sorveglianza.";
-        pan.Milestones[0].BadgeText = "Reclutamento";
-        pan.Milestones[1].Title = "Q1: Emersione del Progetto MEDUSA (Gen - Mar)";
-        pan.Milestones[1].Phase = "Fase I - La Minaccia Sovietica";
-        pan.Milestones[1].Description = "Primo contatto con i sabotatori sovietici e allestimento di rifugi in Europa e Asia.";
-        pan.Milestones[1].BadgeText = "Dossier";
-        pan.Milestones[2].Title = "Q2: Infiltrazione e il Doppio Gioco (Apr - Giu)";
-        pan.Milestones[2].Phase = "Fase II - Infiltrazione Segreta";
-        pan.Milestones[2].Description = "Operazioni di spionaggio ad alto rischio, piani di laboratori sovietici e identità compromesse.";
-        pan.Milestones[2].BadgeText = "Climax Mediano";
-        pan.Milestones[3].Title = "T3: Corsa agli Armamenti Biologici (Lug - Set)";
-        pan.Milestones[3].Phase = "Fase III - Escalation";
-        pan.Milestones[3].Description = "Tracciamento di agenti patogeni, neutralizzazione di squadre KGB e laboratori.";
-        pan.Milestones[3].BadgeText = "Punto Critico";
-        pan.Milestones[4].Title = "Q4 e Climax di Dicembre (Ott - Dic)";
-        pan.Milestones[4].Phase = "Finale - Operazione Endgame";
-        pan.Milestones[4].Description = "L'operazione conclusiva che deciderà le sorti della Guerra Fredda.";
-        pan.Milestones[4].BadgeText = "Rapporto Finale";
 
 
         // Oathsworn IT
@@ -1639,22 +959,6 @@ public class CampaignDataService
         os.Scopes[0].Description = "La trama principale di 21 capitoli.";
         os.Scopes[1].Name = "Campagna Estesa (Tutti gli Incontri)";
         os.Scopes[1].Description = "Storia principale e tutti gli scontri opzionali con i boss.";
-        os.Milestones[0].Title = "Il Primo Contratto";
-        os.Milestones[0].Phase = "Atto I - Il Deepwood Chiama";
-        os.Milestones[0].Description = "Prima incursione nel Deepwood e scontro iniziale con un boss.";
-        os.Milestones[0].BadgeText = "Iniziazione";
-        os.Milestones[1].Title = "La Madre della Covata";
-        os.Milestones[1].Phase = "Atto I - Infestazione";
-        os.Milestones[1].Description = "Affrontare la fonte dei recenti attacchi.";
-        os.Milestones[1].BadgeText = "Sterminatore di Sciami";
-        os.Milestones[2].Title = "Il Segreto del Guardiano";
-        os.Milestones[2].Phase = "Atto II - Misteri Più Profondi";
-        os.Milestones[2].Description = "Scoprire la verità sulle origini del Deepwood.";
-        os.Milestones[2].BadgeText = "Rivelazione";
-        os.Milestones[3].Title = "Il Giuramento Finale";
-        os.Milestones[3].Phase = "Finale - Il Cuore di Tenebra";
-        os.Milestones[3].Description = "La battaglia finale contro l'orrore primigenio.";
-        os.Milestones[3].BadgeText = "Gran Finale";
 
         // Frosthaven IT
         var fh = dict[GameId.Frosthaven];
@@ -1676,26 +980,6 @@ public class CampaignDataService
         fh.Scopes[1].Description = "Storia principale, missioni secondarie importanti e gran parte degli sblocchi.";
         fh.Scopes[2].Name = "Completista Totale";
         fh.Scopes[2].Description = "Affrontare tutti gli scenari accessibili e massimizzare l'insediamento.";
-        fh.Milestones[0].Title = "Arrivo a Frosthaven";
-        fh.Milestones[0].Phase = "Atto I - L'Avamposto Gelato";
-        fh.Milestones[0].Description = "Primi passi nelle lande e difesa iniziale dell'insediamento.";
-        fh.Milestones[0].BadgeText = "Arrivo";
-        fh.Milestones[1].Title = "Primo Inverno";
-        fh.Milestones[1].Phase = "Atto I - Cambio Stagionale";
-        fh.Milestones[1].Description = "Sopravvivere al primo duro inverno e sbloccare edifici avanzati.";
-        fh.Milestones[1].BadgeText = "L'Inverno è Qui";
-        fh.Milestones[2].Title = "La Minaccia Algox";
-        fh.Milestones[2].Phase = "Atto II - Escalation";
-        fh.Milestones[2].Description = "Spingersi nelle montagne per affrontare le tribù Algox.";
-        fh.Milestones[2].BadgeText = "Fazione Principale";
-        fh.Milestones[3].Title = "Segreti degli Inseguitori";
-        fh.Milestones[3].Phase = "Atto III - Immersione Profonda";
-        fh.Milestones[3].Description = "Esplorare le profondità e confrontarsi con antichi misteri.";
-        fh.Milestones[3].BadgeText = "Preparazione Finale";
-        fh.Milestones[4].Title = "Lo Scontro Finale";
-        fh.Milestones[4].Phase = "Finale - Il Destino del Nord";
-        fh.Milestones[4].Description = "La battaglia definitiva che deciderà il futuro di Frosthaven.";
-        fh.Milestones[4].BadgeText = "Gran Finale";
 
 
         // Tainted Grail IT
@@ -1714,26 +998,6 @@ public class CampaignDataService
         };
         tg.Scopes[0].Name = "La Caduta di Avalon (Campagna Base)";
         tg.Scopes[0].Description = "L'arco narrativo principale attraverso Avalon per scoprire il destino degli eroi originali.";
-        tg.Milestones[0].Title = "Lasciare Cuanacht";
-        tg.Milestones[0].Phase = "Capitolo 1 - Il Viaggio Inizia";
-        tg.Milestones[0].Description = "Raccogliere provviste e lasciare il villaggio natale morente mentre il Menhir si spegne.";
-        tg.Milestones[0].BadgeText = "Primi Passi";
-        tg.Milestones[1].Title = "Il Segreto dei Menhir";
-        tg.Milestones[1].Phase = "Capitolo 4 - Nel Profondo dell'Anomalia";
-        tg.Milestones[1].Description = "Scoprire i rituali necessari per mantenere accesi i Menhir protettivi in tutta Avalon.";
-        tg.Milestones[1].BadgeText = "Sopravvivenza";
-        tg.Milestones[2].Title = "I Cavalieri della Tavola Rotonda";
-        tg.Milestones[2].Phase = "Capitolo 8 - Echi del Passato";
-        tg.Milestones[2].Description = "Scoprire la verità sui cavalieri di Artù e sulla loro fatidica spedizione.";
-        tg.Milestones[2].BadgeText = "Rivelazione";
-        tg.Milestones[3].Title = "Il Cuore di Avalon";
-        tg.Milestones[3].Phase = "Capitolo 12 - Punto di Non Ritorno";
-        tg.Milestones[3].Description = "Navigare attraverso le regioni più pericolose dell'Anomalia per raggiungere il cuore del mistero.";
-        tg.Milestones[3].BadgeText = "Prep. Finale";
-        tg.Milestones[4].Title = "Il Destino dell'Isola";
-        tg.Milestones[4].Phase = "Capitolo 15 - La Scelta Finale";
-        tg.Milestones[4].Description = "Lo scontro definitivo che determina il futuro di Avalon e del suo popolo.";
-        tg.Milestones[4].BadgeText = "Gran Finale";
 
         // Sleeping Gods IT
         var sg = dict[GameId.SleepingGods];
@@ -1753,22 +1017,6 @@ public class CampaignDataService
         sg.Scopes[0].Description = "Un viaggio completo attraverso il Mare Errante completando le missioni principali e raccogliendo i totem divini.";
         sg.Scopes[1].Name = "Breve Spedizione Esplorativa";
         sg.Scopes[1].Description = "Una spedizione marittima agile per esplorare gli arcipelaghi vicini e affrontare le prime missioni.";
-        sg.Milestones[0].Title = "Salpare a Bordo della Manticore";
-        sg.Milestones[0].Phase = "Atto I - Mari Inesplorati";
-        sg.Milestones[0].Description = "Primo sbarco sull'isola, riparazione del piroscafo e incontro con i bizzarri abitanti locali.";
-        sg.Milestones[0].BadgeText = "Inizio Viaggio";
-        sg.Milestones[1].Title = "Il Primo Totem Divino";
-        sg.Milestones[1].Phase = "Atto I - Scoperta delle Reliquie";
-        sg.Milestones[1].Description = "Superare antichi pericoli per recuperare il primo totem degli dei sopiti.";
-        sg.Milestones[1].BadgeText = "Totem Trovato";
-        sg.Milestones[2].Title = "I Pericoli del Mare Errante";
-        sg.Milestones[2].Phase = "Atto II - Acque Pericolose";
-        sg.Milestones[2].Description = "Affrontare mostruosità marine, sopravvivere a tempeste e potenziare le abilità dell'equipaggio.";
-        sg.Milestones[2].BadgeText = "Pericolo Marino";
-        sg.Milestones[3].Title = "Il Risveglio degli Dei";
-        sg.Milestones[3].Phase = "Finale - Il Risveglio degli Dei";
-        sg.Milestones[3].Description = "Raggiungere il cuore del regno e compiere il rituale del risveglio per trovare la via del ritorno.";
-        sg.Milestones[3].BadgeText = "Gran Finale";
 
         return dict;
     }

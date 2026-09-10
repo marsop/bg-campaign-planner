@@ -8,7 +8,10 @@ namespace bg_campaign_planner.Services;
 
 public class PlannerCalculatorService
 {
-    public CalculationResult Calculate(PlannerInputModel input, BoardGame game)
+    public CalculationResult Calculate(
+        PlannerInputModel input,
+        BoardGame game,
+        Microsoft.Extensions.Localization.IStringLocalizer<bg_campaign_planner.Resources.AppResources>? loc = null)
     {
         var scope = game.Scopes.FirstOrDefault(s => s.Id == input.SelectedScopeId)
                     ?? game.Scopes.FirstOrDefault(s => s.IsRecommended)
@@ -59,8 +62,9 @@ public class PlannerCalculatorService
         double totalTableHours = Math.Round(totalTableMinutes / 60.0, 1);
         double averageSessionHours = Math.Round((scenarioMinutes * scenariosPerMeetup + setupMinutes) / 60.0, 1);
 
-        // 4. Session schedule generation
-        var sessions = GenerateSessions(input, totalEstimatedPlays, scenariosPerMeetup, averageSessionHours, game.Milestones);
+        // 4. Session schedule generation with dynamic progress checkpoints
+        var progressCheckpoints = CreateProgressCheckpoints(totalEstimatedPlays, loc);
+        var sessions = GenerateSessions(input, totalEstimatedPlays, scenariosPerMeetup, averageSessionHours, progressCheckpoints);
 
         DateTime startDate = input.StartDate;
         DateTime projectedFinishDate = sessions.Count > 0 ? sessions[^1].Date : startDate;
@@ -74,15 +78,12 @@ public class PlannerCalculatorService
         double totalCalendarWeeks = Math.Round(totalCalendarDays / 7.0, 1);
         double totalCalendarMonths = Math.Round(totalCalendarDays / 30.4375, 1);
 
-        // 5. Milestone projections
+        // 5. Milestone projections (calculated cleanly from progress checkpoints)
         var milestoneProjections = new List<MilestoneProjection>();
-        double scaledMilestoneRatio = (double)totalEstimatedPlays / Math.Max(1, scope.BaseScenarioCount);
 
-        foreach (var milestone in game.Milestones.OrderBy(m => m.Order))
+        foreach (var milestone in progressCheckpoints.OrderBy(m => m.Order))
         {
-            int targetPlayIndex = (int)Math.Round(milestone.AtScenarioOrGameIndex * scaledMilestoneRatio);
-            targetPlayIndex = Math.Min(targetPlayIndex, totalEstimatedPlays);
-
+            int targetPlayIndex = milestone.AtScenarioOrGameIndex;
             var matchingSession = sessions.FirstOrDefault(s => s.EndScenarioIndex >= targetPlayIndex) ?? sessions.LastOrDefault();
             int meetupNum = matchingSession?.SessionNumber ?? totalMeetups;
             DateTime milestoneDate = matchingSession?.Date ?? projectedFinishDate;
@@ -121,6 +122,76 @@ public class PlannerCalculatorService
         };
     }
 
+    public List<GameMilestone> CreateProgressCheckpoints(
+        int totalPlays,
+        Microsoft.Extensions.Localization.IStringLocalizer<bg_campaign_planner.Resources.AppResources>? loc = null)
+    {
+        int safeTotal = Math.Max(1, totalPlays);
+
+        int q1 = Math.Max(1, (int)Math.Round(safeTotal * 0.25));
+        int q2 = Math.Max(q1, (int)Math.Round(safeTotal * 0.50));
+        int q3 = Math.Max(q2, (int)Math.Round(safeTotal * 0.75));
+        int q4 = safeTotal;
+
+        if (safeTotal >= 4)
+        {
+            if (q2 <= q1) q2 = q1 + 1;
+            if (q3 <= q2) q3 = q2 + 1;
+            if (q4 <= q3) q4 = q3 + 1;
+            if (q4 > safeTotal)
+            {
+                q4 = safeTotal;
+                if (q3 >= q4) q3 = Math.Max(1, q4 - 1);
+                if (q2 >= q3) q2 = Math.Max(1, q3 - 1);
+                if (q1 >= q2) q1 = Math.Max(1, q2 - 1);
+            }
+        }
+
+        return new List<GameMilestone>
+        {
+            new()
+            {
+                Order = 1,
+                Title = loc != null ? loc["Checkpoint.QuarterTitle"] : "Campaign Quarter Mark (25%)",
+                Phase = loc != null ? loc["Checkpoint.QuarterPhase"] : "Phase I - Opening Stretch",
+                Description = loc != null ? loc["Checkpoint.QuarterDesc", q1] : $"Estimated completion of the first 25% of campaign scenarios ({q1} scenarios played).",
+                AtScenarioOrGameIndex = q1,
+                BadgeText = loc != null ? loc["Checkpoint.QuarterBadge"] : "25%",
+                IconEmoji = "🚩"
+            },
+            new()
+            {
+                Order = 2,
+                Title = loc != null ? loc["Checkpoint.MidpointTitle"] : "Campaign Midpoint (50%)",
+                Phase = loc != null ? loc["Checkpoint.MidpointPhase"] : "Phase II - Campaign Midpoint",
+                Description = loc != null ? loc["Checkpoint.MidpointDesc", q2] : $"The halfway milestone of the campaign ({q2} scenarios played).",
+                AtScenarioOrGameIndex = q2,
+                BadgeText = loc != null ? loc["Checkpoint.MidpointBadge"] : "50%",
+                IconEmoji = "⚡"
+            },
+            new()
+            {
+                Order = 3,
+                Title = loc != null ? loc["Checkpoint.PenultimateTitle"] : "Three-Quarter Stretch (75%)",
+                Phase = loc != null ? loc["Checkpoint.PenultimatePhase"] : "Phase III - Final Approach",
+                Description = loc != null ? loc["Checkpoint.PenultimateDesc", q3] : $"Approaching the final stretch of the campaign ({q3} scenarios played).",
+                AtScenarioOrGameIndex = q3,
+                BadgeText = loc != null ? loc["Checkpoint.PenultimateBadge"] : "75%",
+                IconEmoji = "🧭"
+            },
+            new()
+            {
+                Order = 4,
+                Title = loc != null ? loc["Checkpoint.FinaleTitle"] : "Campaign Finale (100%)",
+                Phase = loc != null ? loc["Checkpoint.FinalePhase"] : "Phase IV - Campaign Completion",
+                Description = loc != null ? loc["Checkpoint.FinaleDesc", q4] : $"Final meetup to complete all {q4} campaign scenarios.",
+                AtScenarioOrGameIndex = q4,
+                BadgeText = loc != null ? loc["Checkpoint.FinaleBadge"] : "100%",
+                IconEmoji = "🏁"
+            }
+        };
+    }
+
     private List<ScheduledSession> GenerateSessions(
         PlannerInputModel input,
         int totalPlays,
@@ -152,9 +223,9 @@ public class PlannerCalculatorService
             int startIdx = currentScenario;
             int endIdx = currentScenario + sessionPlayCount - 1;
 
-            // Find if any milestone is reached in this session
+            // Find if any milestone is reached in this session (prefer highest milestone reached in this session)
             var milestoneHit = milestones
-                .OrderBy(m => m.Order)
+                .OrderByDescending(m => m.Order)
                 .FirstOrDefault(m => m.AtScenarioOrGameIndex >= startIdx && m.AtScenarioOrGameIndex <= endIdx);
 
             sessions.Add(new ScheduledSession
@@ -263,7 +334,7 @@ public class PlannerCalculatorService
             {
                 description += loc != null
                     ? loc["Ics.EventMilestone", session.MilestoneNote, session.MilestonePhase ?? string.Empty]
-                    : $"\\n🎯 MILESTONE: {session.MilestoneNote} ({session.MilestonePhase})";
+                    : $"\\n🎯 CHECKPOINT: {session.MilestoneNote} ({session.MilestonePhase})";
             }
 
             sb.AppendLine("BEGIN:VEVENT");

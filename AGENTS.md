@@ -10,7 +10,7 @@ This document provides operational context, architectural principles, codebase s
 - **Framework**: Blazor WebAssembly (.NET 10)
 - **Runtime**: Client-side execution in the browser via WebAssembly (No server backend)
 - **Deployment**: Static hosting on GitHub Pages via GitHub Actions workflow
-- **Purpose**: Calculate and visualize meetups, table hours, calendar finish dates, and narrative milestones for long-form campaign board games (**Gloomhaven**, **Pandemic Legacy: Season 0**, and future games).
+- **Purpose**: Calculate and visualize meetups, table hours, calendar finish dates, and spoiler-free progress checkpoints for long-form campaign board games (**Gloomhaven**, **Pandemic Legacy: Season 0**, and future games).
 
 ---
 
@@ -88,8 +88,8 @@ To add support for a new board game (e.g. *Frosthaven*, *Oathsworn*, or *Pandemi
    - Provide title, subtitle, designer, player ranges, BGG rating, weight, base scenario duration, and setup duration.
    - Define custom `GameTheming` (primary/secondary colors, background gradients, font families, tagline, lore).
    - Add realistic `CampaignScopeOption` entries (e.g. Core, Story Speedrun, Completionist).
-   - Add narrative `GameMilestone` entries with sequence order and target scenario index.
-   - Register it in `_games` dictionary in `InitializeData()`.
+   - Note on Zero-Spoilers: Do NOT add future scenario names, boss encounters, secret unlocks, or plot key events. Campaign progression milestones are generated dynamically as spoiler-free progress checkpoints (25%, 50%, 75%, 100%).
+   - Register it in `_localizedGames` dictionaries in `InitializeData()`.
 3. Add any custom icon or emblem representation in `Components/GameSelector.razor` and `Components/ThematicRoadmap.razor`.
 
 ### Modifying Calculation Logic

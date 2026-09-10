@@ -1,51 +1,51 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
   <resheader name="resmimetype">
     <value>text/microsoft-resx</value>
   </resheader>
@@ -287,7 +287,7 @@
     <value>Metà</value>
   </data>
   <data name="Kpi.MilestonesTracked" xml:space="preserve">
-    <value>{0} tappe fondamentali monitorate</value>
+    <value>{0} Punti di controllo della campagna tracciati</value>
   </data>
   <data name="Kpi.ProjectedFinishDate" xml:space="preserve">
     <value>Data Stimata di Fine</value>
@@ -365,7 +365,7 @@
     <value>Passo {0}</value>
   </data>
   <data name="Roadmap.Subtitle" xml:space="preserve">
-    <value>Date e incontri stimati per atti narrativi e sblocchi chiave.</value>
+    <value>Date e sessioni stimate per le tappe di avanzamento della campagna (senza spoiler).</value>
   </data>
   <data name="Roadmap.TableTime" xml:space="preserve">
     <value>⏳ Tempo al tavolo:</value>
@@ -389,7 +389,7 @@
     <value>Ore Stimate</value>
   </data>
   <data name="Timeline.ColMilestoneNote" xml:space="preserve">
-    <value>Tappa / Nota Narrativa</value>
+    <value>Punto di controllo / Nota di progresso</value>
   </data>
   <data name="Timeline.ColNumber" xml:space="preserve">
     <value>#</value>
@@ -410,10 +410,10 @@
     <value>Scaricato '{0}'. Puoi importarlo in Google Calendar, Apple Calendar o Outlook!</value>
   </data>
   <data name="Timeline.MilestoneBadge" xml:space="preserve">
-    <value>TAPPA</value>
+    <value>CHECKPOINT</value>
   </data>
   <data name="Timeline.MilestoneSessions" xml:space="preserve">
-    <value>Solo incontri con tappe ({0})</value>
+    <value>Solo Sessioni di Controllo ({0})</value>
   </data>
   <data name="Timeline.NextBtn" xml:space="preserve">
     <value>Successivo »</value>
@@ -530,7 +530,7 @@
     <value>Temp. (°C)</value>
   </data>
   <data name="Ics.EventMilestone" xml:space="preserve">
-    <value>\n🎯 TAPPA FONDAMENTALE: {0} ({1})</value>
+    <value>\n🎯 PUNTO DI CONTROLLO: {0} ({1})</value>
   </data>
   <data name="Weather.Title" xml:space="preserve">
     <value>Meteo</value>
@@ -574,4 +574,4 @@
   <data name="NotFound.HomeBtn" xml:space="preserve">
     <value>Torna al Pianificatore di Campagne</value>
   </data>
-</root>
+<data name="Checkpoint.QuarterBadge" xml:space="preserve"><value>25%</value></data><data name="Checkpoint.QuarterTitle" xml:space="preserve"><value>Primo quarto di campagna (25%)</value></data><data name="Checkpoint.QuarterPhase" xml:space="preserve"><value>Fase I - Tratto iniziale</value></data><data name="Checkpoint.QuarterDesc" xml:space="preserve"><value>Completamento stimato del primo 25% degli scenari della campagna ({0} scenari giocati).</value></data><data name="Checkpoint.MidpointBadge" xml:space="preserve"><value>50%</value></data><data name="Checkpoint.MidpointTitle" xml:space="preserve"><value>Giro di boa della campagna (50%)</value></data><data name="Checkpoint.MidpointPhase" xml:space="preserve"><value>Fase II - Punto intermedio</value></data><data name="Checkpoint.MidpointDesc" xml:space="preserve"><value>Il traguardo di metà percorso della campagna ({0} scenari giocati).</value></data><data name="Checkpoint.PenultimateBadge" xml:space="preserve"><value>75%</value></data><data name="Checkpoint.PenultimateTitle" xml:space="preserve"><value>Tre quarti di campagna (75%)</value></data><data name="Checkpoint.PenultimatePhase" xml:space="preserve"><value>Fase III - Verso il finale</value></data><data name="Checkpoint.PenultimateDesc" xml:space="preserve"><value>Avvicinamento alla dirittura d'arrivo della campagna ({0} scenari giocati).</value></data><data name="Checkpoint.FinaleBadge" xml:space="preserve"><value>100%</value></data><data name="Checkpoint.FinaleTitle" xml:space="preserve"><value>Gran Finale di Campagna (100%)</value></data><data name="Checkpoint.FinalePhase" xml:space="preserve"><value>Fase IV - Conclusione della campagna</value></data><data name="Checkpoint.FinaleDesc" xml:space="preserve"><value>Incontro finale per completare tutti i {0} scenari della campagna.</value></data></root>
