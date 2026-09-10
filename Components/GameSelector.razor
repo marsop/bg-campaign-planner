@@ -3,7 +3,7 @@
 @inject IStringLocalizer<AppResources> Loc
 
 <div class="game-selector-container mb-4">
-    <div class="row g-3 justify-content-center">
+    <div class="row g-3 g-md-4 justify-content-center">
         @foreach (var game in Games)
         {
             var isSelected = SelectedGameId == game.Id;

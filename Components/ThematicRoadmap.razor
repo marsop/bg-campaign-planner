@@ -21,18 +21,18 @@
         <div class="milestones-timeline-container">
             <div class="milestones-track-line"></div>
 
-            <div class="row g-3">
+            <div class="row g-3 g-md-4">
                 @foreach (var proj in Result.MilestoneProjections)
                 {
                     var m = proj.Milestone;
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="milestone-step-card">
-                            <div class="milestone-step-top d-flex justify-content-between align-items-center mb-2">
+                            <div class="milestone-step-top d-flex justify-content-between align-items-center mb-3">
                                 <span class="step-num">@Loc.Get("Roadmap.Step", m.Order)</span>
                                 <span class="badge-step">@m.BadgeText</span>
                             </div>
 
-                            <div class="milestone-icon-circle mb-2">
+                            <div class="milestone-icon-circle mb-3">
                                 <span class="milestone-emoji">@m.IconEmoji</span>
                             </div>
 

@@ -17,7 +17,7 @@
     </div>
 
     <!-- 4 KEY KPI CARDS -->
-    <div class="row g-3 mb-4">
+    <div class="row g-3 g-md-4 mb-4">
         <!-- 1. Total Meetups -->
         <div class="col-6 col-lg-3">
             <div class="kpi-card kpi-card-primary">
@@ -74,8 +74,8 @@
     </div>
 
     <!-- SUMMARY PROGRESS BAR -->
-    <div class="progress-breakdown-card p-3 rounded mb-2">
-        <div class="d-flex justify-content-between align-items-center mb-2">
+    <div class="progress-breakdown-card p-3 p-md-4 rounded mb-2">
+        <div class="d-flex justify-content-between align-items-center mb-3">
             <span class="fw-bold small text-uppercase text-muted-light">@Loc["Kpi.VelocityTitle"]</span>
             <span class="small text-muted">@Loc.Get("Kpi.MilestonesTracked", Result.MilestoneProjections.Count)</span>
         </div>
@@ -85,7 +85,7 @@
             <div class="progress-bar bg-warning" role="progressbar" style="width: 30%" title="@Loc.Get("Kpi.Phase", 3)"></div>
             <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" title="@Loc["Kpi.PhaseFinale"]"></div>
         </div>
-        <div class="d-flex justify-content-between mt-1 text-muted small">
+        <div class="d-flex justify-content-between mt-2 text-muted small">
             <span>@Loc["Kpi.Start"]: @Result.StartDate.ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
             <span>@Loc["Kpi.Midpoint"]: ~@Result.StartDate.AddDays(Result.TotalCalendarDays / 2).ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
             <span>@Loc["Kpi.Finale"]: @Result.ProjectedFinishDate.ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
