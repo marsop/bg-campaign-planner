@@ -1,0 +1,25 @@
+﻿{
+  "title": "Oathsworn: Into the Deepwood",
+  "subtitle": "Campaña de misterio y combate cooperativo contra jefes de fantasía oscura",
+  "tagline": "Adéntrate en Deepwood y enfréntate a los horrores que alberga",
+  "loreSummary": "En un mundo consumido por Deepwood, el último bastión de la humanidad confía en los Oathsworn, una compañía de mercenarios curtidos, para luchar contra la oscuridad invasora y las entidades monstruosas.",
+  "badgeCategory": "Combate contra Jefes de Fantasía Oscura",
+  "roadmapTitle": "🌲 Contrato de Deepwood y Cronología de Caza de Jefes",
+  "roadmapBadge": "CAZA EN EL BOSQUE PROFUNDO",
+  "keyFeatures": [
+    "Sistema de combate único con cartas o dados",
+    "Juego en dos fases: Historia y Encuentro",
+    "Narrativa ramificada con decisiones significativas",
+    "Profunda personalización y progresión de personajes"
+  ],
+  "scopes": {
+    "os_core": {
+      "name": "Campaña Principal Estándar",
+      "description": "La historia principal de 21 capítulos."
+    },
+    "os_extended": {
+      "name": "Campaña Extendida (Todos los Encuentros)",
+      "description": "Historia principal y todos los encuentros opcionales con jefes."
+    }
+  }
+}

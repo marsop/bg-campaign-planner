@@ -1,0 +1,25 @@
+﻿{
+  "title": "Sleeping Gods",
+  "subtitle": "Esplorazione nautica cooperativa e sopravvivenza narrativa attraverso il Mare Errante",
+  "tagline": "Esplora il Mare Errante e risveglia gli dei assopiti",
+  "loreSummary": "È l'anno 1929. Il piroscafo Manticore si è perso in un mondo strano e inesplorato. Tu e il tuo equipaggio dovete esplorare isole misteriose, sopravvivere a pericoli insidiosi e scoprire i totem degli dei per ritrovare la rotta verso casa.",
+  "badgeCategory": "Avventura Narrativa Cooperativa",
+  "roadmapTitle": "🧭 Diario del Mare Errante & Cronologia dei Totem Divini",
+  "roadmapBadge": "SPEDIZIONE OCEANICA",
+  "keyFeatures": [
+    "Ricca esplorazione guidata da un libro narrativo con centinaia di missioni ramificate",
+    "Combattimento tattico con abilità d'arma e danni da condizioni",
+    "Navigazione su atlante a bordo del piroscafo Manticore",
+    "Sblocchi persistenti della campagna con totem, ricette e carte missione"
+  ],
+  "scopes": {
+    "sg_standard": {
+      "name": "Campagna Standard (Viaggio Completo)",
+      "description": "Un viaggio completo attraverso il Mare Errante completando le missioni principali e raccogliendo i totem divini."
+    },
+    "sg_quick": {
+      "name": "Breve Spedizione Esplorativa",
+      "description": "Una spedizione marittima agile per esplorare gli arcipelaghi vicini e affrontare le prime missioni."
+    }
+  }
+}

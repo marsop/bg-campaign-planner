@@ -1,0 +1,29 @@
+﻿{
+  "title": "Frosthaven",
+  "subtitle": "Aventure coopérative épique et construction de colonie dans le nord glacé",
+  "tagline": "Brave les terres gelées et reconstruis l'avant-poste du nord",
+  "loreSummary": "Vous êtes un groupe de mercenaires au bout du monde, luttant pour protéger un avant-poste des éléments rudes et des monstres du nord.",
+  "badgeCategory": "RPG Fantasy & Construction de Ville",
+  "roadmapTitle": "❄️ Expansion Nordique & Progrès de la Colonie",
+  "roadmapBadge": "SURVIE ARCTIQUE",
+  "keyFeatures": [
+    "Combat complexe basé sur des cartes et progression des classes",
+    "Construction et défense approfondies de la colonie",
+    "Système d'artisanat complet et gestion des ressources",
+    "Scénario à embranchements avec événements saisonniers"
+  ],
+  "scopes": {
+    "fh_core": {
+      "name": "Campagne Principale Standard",
+      "description": "Arcs narratifs principaux et progression essentielle de la colonie."
+    },
+    "fh_extended": {
+      "name": "Expérience de Campagne Étendue",
+      "description": "Histoire principale, quêtes secondaires importantes et la plupart des déblocages."
+    },
+    "fh_completionist": {
+      "name": "Complétiste Intégral",
+      "description": "Jouer tous les scénarios accessibles et maximiser la colonie."
+    }
+  }
+}

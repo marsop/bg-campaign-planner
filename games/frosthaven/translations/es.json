@@ -1,0 +1,29 @@
+﻿{
+  "title": "Frosthaven",
+  "subtitle": "Aventura cooperativa épica y construcción de asentamientos en el gélido norte",
+  "tagline": "Desafía los páramos helados y reconstruye el puesto fronterizo",
+  "loreSummary": "Sois un grupo de mercenarios en el fin del mundo, luchando para proteger un pequeño asentamiento de los elementos y las bestias del norte helado.",
+  "badgeCategory": "RPG de Fantasía y Construcción de Ciudades",
+  "roadmapTitle": "❄️ Expansión Norteña y Progreso del Asentamiento",
+  "roadmapBadge": "SUPERVIVENCIA ÁRTICA",
+  "keyFeatures": [
+    "Combate complejo con cartas y progresión de clases",
+    "Profunda construcción y defensa del asentamiento",
+    "Extenso sistema de artesanía y gestión de recursos",
+    "Narrativa ramificada con eventos estacionales"
+  ],
+  "scopes": {
+    "fh_core": {
+      "name": "Campaña Principal Estándar",
+      "description": "Arcos argumentales principales y progresión esencial del asentamiento."
+    },
+    "fh_extended": {
+      "name": "Experiencia de Campaña Extendida",
+      "description": "Historia principal, misiones secundarias importantes y mayoría de desbloqueos."
+    },
+    "fh_completionist": {
+      "name": "Completista Total",
+      "description": "Jugar todos los escenarios accesibles y mejorar al máximo el asentamiento."
+    }
+  }
+}

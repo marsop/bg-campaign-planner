@@ -1,0 +1,25 @@
+﻿{
+  "title": "Oathsworn: Into the Deepwood",
+  "subtitle": "Dark Fantasy kooperativer Boss-Battler und Mystery-Kampagne",
+  "tagline": "Wage dich in den Deepwood und stelle dich den Schrecken darin",
+  "loreSummary": "In einer vom Deepwood verschlungenen Welt verlässt sich die letzte Bastion der Menschheit auf die Oathsworn, eine Kompanie abgehärteter Söldner, um die vordringende Dunkelheit und monströsen Wesen zu bekämpfen.",
+  "badgeCategory": "Dark Fantasy Boss-Battler",
+  "roadmapTitle": "🌲 Tiefwald-Vertrag & Bossjagd-Zeitstrahl",
+  "roadmapBadge": "TIEFWALD-JAGD",
+  "keyFeatures": [
+    "Einzigartiges Kampfsystem mit Karten oder Würfeln",
+    "Zweiphasiges Gameplay: Geschichte und Begegnung",
+    "Verzweigte Handlung mit bedeutungsvollen Entscheidungen",
+    "Tiefe Charakteranpassung und Progression"
+  ],
+  "scopes": {
+    "os_core": {
+      "name": "Standard-Hauptkampagne",
+      "description": "Die 21 Kapitel umfassende Hauptgeschichte."
+    },
+    "os_extended": {
+      "name": "Erweiterte Kampagne (Alle Begegnungen)",
+      "description": "Hauptgeschichte und alle optionalen Boss-Begegnungen."
+    }
+  }
+}

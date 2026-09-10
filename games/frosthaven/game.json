@@ -1,0 +1,55 @@
+﻿{
+  "id": "frosthaven",
+  "title": "Frosthaven",
+  "releaseYear": 2022,
+  "designers": "Isaac Childres",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.8,
+  "bggWeight": 4.4,
+  "bggUrl": "https://boardgamegeek.com/boardgame/295770/frosthaven",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 30,
+  "unitType": "scenarios",
+  "theme": {
+    "primaryColor": "#4fd1c5",
+    "secondaryColor": "#1a202c",
+    "accentColor": "#90cdf4",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2c3e50 0%, #1a252f 60%, #0f171e 100%)",
+    "cardBackground": "rgba(26, 32, 44, 0.90)",
+    "borderColor": "rgba(79, 209, 197, 0.35)",
+    "glowColor": "rgba(79, 209, 197, 0.25)",
+    "headerFont": "'Cinzel Decorative', 'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "❄️",
+    "emblem": "❄️🛡️",
+    "themeClass": "theme-frosthaven",
+    "activeThemeClass": "theme-frosthaven-active",
+    "roadmapClass": "roadmap-frosthaven",
+    "heroClass": "hero-frosthaven"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (Top 100 Overall)",
+    "Cephalofair Games Official Frosthaven Rulebook"
+  ],
+  "scopes": [
+    {
+      "id": "fh_core",
+      "baseScenarioCount": 70,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "fh_extended",
+      "baseScenarioCount": 100,
+      "estimatedFailRatePercent": 18.0,
+      "isRecommended": false
+    },
+    {
+      "id": "fh_completionist",
+      "baseScenarioCount": 138,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ]
+}

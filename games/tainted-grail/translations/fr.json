@@ -1,0 +1,21 @@
+﻿{
+  "title": "Tainted Grail: The Fall of Avalon",
+  "subtitle": "Une sombre aventure de survie coopérative dans un monde arthurien mourant",
+  "tagline": "Allumez les Menhirs et survivez à la Wyrd",
+  "loreSummary": "Le légendaire roi Arthur est mort, les Menhirs qui protègent Avalon s'éteignent, et la Wyrd consume la terre. Vous n'êtes pas les héros élus, mais vous êtes tout ce qu'il reste.",
+  "badgeCategory": "RPG de Survie Dark Fantasy",
+  "roadmapTitle": "🕯️ Menhir d'Avalon & Chronique de la Souillure",
+  "roadmapBadge": "SURVIE D'AVALON",
+  "keyFeatures": [
+    "Exploration narrative riche et à embranchements avec le Journal d'Exploration",
+    "Gestion des ressources et éléments de survie (Nourriture, Magie, Santé, Terreur)",
+    "Combats et rencontres diplomatiques par cartes avec deck-building",
+    "Carte du monde ouvert évolutive utilisant des cartes de lieux géantes"
+  ],
+  "scopes": {
+    "tg_core": {
+      "name": "La Chute d'Avalon (Campagne Principale)",
+      "description": "L'arc narratif principal à travers Avalon pour découvrir le destin des héros originaux."
+    }
+  }
+}

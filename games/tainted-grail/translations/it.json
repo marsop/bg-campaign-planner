@@ -1,0 +1,21 @@
+﻿{
+  "title": "Tainted Grail: The Fall of Avalon",
+  "subtitle": "Un'oscura avventura cooperativa di sopravvivenza in un mondo arturiano morente",
+  "tagline": "Accendi i Menhir e sopravvivi all'Anomalia",
+  "loreSummary": "Il leggendario Re Artù è morto, i Menhir che proteggono Avalon si stanno spegnendo e l'Anomalia sta consumando la terra. Non siete gli eroi prescelti, ma siete tutto ciò che resta.",
+  "badgeCategory": "GDR di Sopravvivenza Dark Fantasy",
+  "roadmapTitle": "🕯️ Menhir di Avalon & Cronaca della Notte Arcana",
+  "roadmapBadge": "SOPRAVVIVENZA AD AVALON",
+  "keyFeatures": [
+    "Ricca esplorazione narrativa a bivi con il Diario di Esplorazione",
+    "Gestione delle risorse ed elementi di sopravvivenza (Cibo, Magia, Salute, Terrore)",
+    "Combattimenti con carte e incontri diplomatici con deck-building",
+    "Mappa del mondo aperto in evoluzione utilizzando carte luogo giganti"
+  ],
+  "scopes": {
+    "tg_core": {
+      "name": "La Caduta di Avalon (Campagna Base)",
+      "description": "L'arco narrativo principale attraverso Avalon per scoprire il destino degli eroi originali."
+    }
+  }
+}

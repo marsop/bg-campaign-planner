@@ -9,7 +9,7 @@
             var isSelected = SelectedGameId == game.Id;
 
             <div class="col-12 col-md-6">
-                <div class="game-selection-card @(isSelected ? "selected" : "") @GetGameThemeClass(game.Id)"
+                <div class="game-selection-card @(isSelected ? "selected" : "") @game.Theme.ThemeClass"
                      @onclick="() => OnGameSelected.InvokeAsync(game.Id)"
                      role="button"
                      tabindex="0"
@@ -48,7 +48,7 @@
                                 }
                                 else
                                 {
-                                    <span class="emblem-icon">@GetGameEmblem(game.Id)</span>
+                                    <span class="emblem-icon">@game.Theme.Emblem</span>
                                 }
                             </div>
                             <div class="game-identity-text flex-grow-1 min-w-0">
@@ -109,30 +109,8 @@
     public IReadOnlyList<BoardGame> Games { get; set; } = new List<BoardGame>();
 
     [Parameter]
-    public GameId SelectedGameId { get; set; }
+    public string SelectedGameId { get; set; } = string.Empty;
 
     [Parameter]
-    public EventCallback<GameId> OnGameSelected { get; set; }
-
-    private string GetGameThemeClass(GameId gameId) => gameId switch
-    {
-        GameId.Gloomhaven => "theme-gloomhaven",
-        GameId.Frosthaven => "theme-frosthaven",
-        GameId.PandemicSeason0 => "theme-pandemic",
-        GameId.SleepingGods => "theme-sleepinggods",
-        GameId.Oathsworn => "theme-oathsworn",
-        GameId.TaintedGrailFallOfAvalon => "theme-taintedgrail",
-        _ => "theme-gloomhaven"
-    };
-
-    private string GetGameEmblem(GameId gameId) => gameId switch
-    {
-        GameId.Gloomhaven => "⚔️🛡️",
-        GameId.Frosthaven => "❄️🛡️",
-        GameId.PandemicSeason0 => "🕵️📁",
-        GameId.SleepingGods => "🚢🌊",
-        GameId.Oathsworn => "🌲🐺",
-        GameId.TaintedGrailFallOfAvalon => "🗡️🕯️",
-        _ => "🎲⚔️"
-    };
+    public EventCallback<string> OnGameSelected { get; set; }
 }

@@ -1,0 +1,62 @@
+﻿{
+  "id": "gloomhaven",
+  "title": "Gloomhaven",
+  "releaseYear": 2017,
+  "designers": "Isaac Childres",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.6,
+  "bggWeight": 3.9,
+  "bggUrl": "https://boardgamegeek.com/boardgame/174430/gloomhaven",
+  "baseScenarioMinutes": 100,
+  "setupTeardownMinutes": 25,
+  "unitType": "scenarios",
+  "theme": {
+    "primaryColor": "#e5a93b",
+    "secondaryColor": "#1e1b18",
+    "accentColor": "#d9534f",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2b1f1d 0%, #151111 60%, #0c0a0a 100%)",
+    "cardBackground": "rgba(28, 22, 20, 0.90)",
+    "borderColor": "rgba(229, 169, 59, 0.35)",
+    "glowColor": "rgba(229, 169, 59, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "📜",
+    "emblem": "⚔️🛡️",
+    "themeClass": "theme-gloomhaven",
+    "activeThemeClass": "theme-gloomhaven-active",
+    "roadmapClass": "roadmap-gloomhaven",
+    "heroClass": "hero-gloomhaven"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #3 Overall / #1 Thematic)",
+    "Cephalofair Games Official Scenario Book & Rulebook",
+    "Community Playthrough Survey Statistics (r/Gloomhaven & BGG Campaign Logs)"
+  ],
+  "scopes": [
+    {
+      "id": "core_campaign",
+      "baseScenarioCount": 52,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "story_speedrun",
+      "baseScenarioCount": 42,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "extended_campaign",
+      "baseScenarioCount": 68,
+      "estimatedFailRatePercent": 18.0,
+      "isRecommended": false
+    },
+    {
+      "id": "completionist",
+      "baseScenarioCount": 88,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ]
+}

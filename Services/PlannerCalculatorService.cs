@@ -313,7 +313,7 @@ public class PlannerCalculatorService
         sb.AppendLine("METHOD:PUBLISH");
 
         string location = loc != null ? loc["Ics.Location"] : "Game Table";
-        string scenarioUnit = (result.Game.Id != GameId.PandemicSeason0)
+        string scenarioUnit = (result.Game.UnitType != "games_months")
             ? (loc != null ? loc["Timeline.ColScenarios"] : "Scenarios")
             : (loc != null ? loc["Timeline.ColGames"] : "Games");
 

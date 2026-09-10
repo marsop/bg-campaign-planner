@@ -83,15 +83,13 @@ bg-campaign-planner/
 ### Adding a New Board Game
 To add support for a new board game (e.g. *Frosthaven*, *Oathsworn*, or *Pandemic Legacy Season 1*):
 
-1. Open `Models/GameModels.cs` and add a new enum value to `GameId` if applicable.
-2. Open `Services/CampaignDataService.cs` and construct a new `BoardGame` instance:
-   - Provide title, subtitle, designer, player ranges, BGG rating, weight, base scenario duration, and setup duration.
-   - **Front Box Cover Image**: Every game must include a photo of the board game front cover (from the box) collected from the internet or BoardGameGeek. Format and crop it to a square (1:1 aspect ratio, e.g. 512x512 WebP) under `wwwroot/images/games/{game-id}.webp` and set `ImageUrl = "images/games/{game-id}.webp"`.
-   - Define custom `GameTheming` (primary/secondary colors, background gradients, font families, tagline, lore).
-   - Add realistic `CampaignScopeOption` entries (e.g. Core, Story Speedrun, Completionist).
+1. Create a dedicated folder under `games/{game-id}/` where `{game-id}` is the unique identifier of the game (lowercase, alphanumeric, with hyphens).
+2. Inside `games/{game-id}/`:
+   - `game.json`: Invariant configuration (id, title, releaseYear, designers, player counts, BGG stats, scenario timings, unitType, theme colors/fonts/emblem, public sources, and scope options).
+   - `cover.webp`: Photo of the front box cover (cropped 1:1 square WebP format).
+   - `translations/`: Directory with localized strings (`en.json`, `es.json`, `de.json`, `fr.json`, `it.json`). Each translation file provides localized `subtitle`, `tagline`, `loreSummary`, `badgeCategory`, `roadmapTitle`, `roadmapBadge`, `keyFeatures`, and scope names/descriptions.
+3. That's it! The application automatically discovers all games and translations at build time via embedded resources and serves images through `games/{game-id}/cover.webp`. Zero C# code changes or switch statements required.
    - Note on Zero-Spoilers: Do NOT add future scenario names, boss encounters, secret unlocks, or plot key events. Campaign progression milestones are generated dynamically as spoiler-free progress checkpoints (25%, 50%, 75%, 100%).
-   - Register it in `_localizedGames` dictionaries in `InitializeData()`.
-3. Add any custom icon or emblem representation in `Components/GameSelector.razor` and `Components/ThematicRoadmap.razor`. The box front cover image will automatically render next to the game title with uniform square dimensions and rounded corners.
 
 ### Modifying Calculation Logic
 - All math and scheduling rules reside in `Services/PlannerCalculatorService.cs`.

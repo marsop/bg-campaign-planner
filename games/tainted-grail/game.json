@@ -1,0 +1,43 @@
+﻿{
+  "id": "tainted-grail",
+  "title": "Tainted Grail: The Fall of Avalon",
+  "releaseYear": 2019,
+  "designers": "Krzysztof Piskorski, Marcin Świerkot",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.0,
+  "bggWeight": 3.28,
+  "bggUrl": "https://boardgamegeek.com/boardgame/264220/tainted-grail-the-fall-of-avalon",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 20,
+  "unitType": "scenarios",
+  "theme": {
+    "primaryColor": "#593c7a",
+    "secondaryColor": "#1a1a1a",
+    "accentColor": "#b2904b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2b1d3d 0%, #151111 60%, #0c0a0a 100%)",
+    "cardBackground": "rgba(26, 26, 26, 0.90)",
+    "borderColor": "rgba(178, 144, 75, 0.35)",
+    "glowColor": "rgba(178, 144, 75, 0.25)",
+    "headerFont": "'Uncial Antiqua', 'Cinzel', cursive, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🕯️",
+    "emblem": "🗡️🕯️",
+    "themeClass": "theme-taintedgrail",
+    "activeThemeClass": "theme-taintedgrail-active",
+    "roadmapClass": "roadmap-taintedgrail",
+    "heroClass": "hero-taintedgrail"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (Top 100 Thematic)",
+    "Awaken Realms Official Rulebook and Campaign Log"
+  ],
+  "scopes": [
+    {
+      "id": "tg_core",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": true
+    }
+  ]
+}

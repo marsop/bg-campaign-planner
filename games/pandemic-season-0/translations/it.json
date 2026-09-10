@@ -1,0 +1,33 @@
+﻿{
+  "title": "Pandemic Legacy: Season 0",
+  "subtitle": "Thriller di spionaggio durante la Guerra Fredda (1962) e operazioni segrete della CIA",
+  "tagline": "TOP SECRET // BRIEFING CLASSIFICATO CIA // 1962",
+  "loreSummary": "Nel 1962, al culmine della Guerra Fredda, tu e la tua squadra della CIA dovete indagare sul Progetto MEDUSA, una pericolosa arma biologica sovietica.",
+  "badgeCategory": "Campagna Cooperativa di Spionaggio",
+  "roadmapTitle": "🕵️ Dossier Operazioni Segrete CIA & Cronologia Missioni",
+  "roadmapBadge": "CLASSIFICATO 1962",
+  "keyFeatures": [
+    "Passaporti operativi con identità contraffatte e travestimenti",
+    "Due tentativi al mese: vittoria o tentativo di fine mese ('Late Month')",
+    "Mappe di sorveglianza da grattare e rifugi segreti della CIA",
+    "Tensione narrativa che si sviluppa lungo un calendario di 12 mesi"
+  ],
+  "scopes": {
+    "pandemic_standard": {
+      "name": "Campagna Standard Prevista (1-2 Prologhi + ~4 Ripetizioni)",
+      "description": "1 prologo di addestramento più 12 mesi con normale tasso di sconfitte. Totale 16-17 partite."
+    },
+    "pandemic_optimistic": {
+      "name": "Operazione Pulita (1 Prologo + 1 Ripetizione)",
+      "description": "Alta percentuale di vittorie: 1 prologo e quasi tutti i mesi vinti al 1° tentativo (14 partite)."
+    },
+    "pandemic_grind": {
+      "name": "Sorveglianza Intensa (2 Prologhi + 7 Ripetizioni)",
+      "description": "Forte contrasto sovietico; diversi mesi richiedono debriefing di fine mese (21 partite)."
+    },
+    "pandemic_max": {
+      "name": "Capienza Massima della Scatola (24 Partite + 2 Prologhi)",
+      "description": "Ogni mese giocato due volte (Inizio + Fine) più entrambi i prologhi (26 partite)."
+    }
+  }
+}

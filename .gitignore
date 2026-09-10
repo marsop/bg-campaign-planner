@@ -21,6 +21,7 @@ artifacts/
 publish/
 publish-test/
 /dist/
+wwwroot/games/
 
 # Scoped CSS generated files & Blazor temp files
 *.razor.css.bundle

@@ -1,0 +1,29 @@
+﻿{
+  "title": "Frosthaven",
+  "subtitle": "Epica avventura cooperativa e costruzione di un insediamento nel nord gelido",
+  "tagline": "Affronta le lande gelate e ricostruisci l'avamposto del nord",
+  "loreSummary": "Siete un gruppo di mercenari ai confini del mondo, che lottano per proteggere un avamposto dalle intemperie e dalle mostruosità del nord.",
+  "badgeCategory": "GDR Fantasy & Costruzione Città",
+  "roadmapTitle": "❄️ Espansione a Nord e Progresso dell'Insediamento",
+  "roadmapBadge": "SOPRAVVIVENZA ARTICA",
+  "keyFeatures": [
+    "Complesso combattimento con carte e progressione di classe",
+    "Fasi profonde di costruzione e difesa dell'insediamento",
+    "Ampio sistema di creazione e gestione delle risorse",
+    "Narrativa a bivi con eventi stagionali"
+  ],
+  "scopes": {
+    "fh_core": {
+      "name": "Campagna Base Standard",
+      "description": "Gli archi narrativi principali e la progressione essenziale dell'insediamento."
+    },
+    "fh_extended": {
+      "name": "Esperienza di Campagna Estesa",
+      "description": "Storia principale, missioni secondarie importanti e gran parte degli sblocchi."
+    },
+    "fh_completionist": {
+      "name": "Completista Totale",
+      "description": "Affrontare tutti gli scenari accessibili e massimizzare l'insediamento."
+    }
+  }
+}

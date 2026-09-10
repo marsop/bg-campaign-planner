@@ -1,0 +1,49 @@
+﻿{
+  "id": "oathsworn",
+  "title": "Oathsworn: Into the Deepwood",
+  "releaseYear": 2022,
+  "designers": "Jamie Jolly",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.7,
+  "bggWeight": 3.79,
+  "bggUrl": "https://boardgamegeek.com/boardgame/251661/oathsworn-into-the-deepwood",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 30,
+  "unitType": "scenarios",
+  "theme": {
+    "primaryColor": "#4a5568",
+    "secondaryColor": "#1a202c",
+    "accentColor": "#a0aec0",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2d3748 0%, #1a202c 60%, #000000 100%)",
+    "cardBackground": "rgba(26, 32, 44, 0.90)",
+    "borderColor": "rgba(160, 174, 192, 0.35)",
+    "glowColor": "rgba(160, 174, 192, 0.25)",
+    "headerFont": "'MedievalSharp', 'Cinzel', cursive, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🌲",
+    "emblem": "🌲🐺",
+    "themeClass": "theme-oathsworn",
+    "activeThemeClass": "theme-oathsworn-active",
+    "roadmapClass": "roadmap-oathsworn",
+    "heroClass": "hero-oathsworn"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek",
+    "Shadowborne Games Official Rulebook"
+  ],
+  "scopes": [
+    {
+      "id": "os_core",
+      "baseScenarioCount": 21,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "os_extended",
+      "baseScenarioCount": 25,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ]
+}

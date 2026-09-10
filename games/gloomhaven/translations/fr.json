@@ -1,0 +1,33 @@
+﻿{
+  "title": "Gloomhaven",
+  "subtitle": "Combat tactique d'inspiration européenne dans un monde persistant et évolutif de dark fantasy",
+  "tagline": "Aventurez-vous dans les ombres impitoyables du Lion Assoupi",
+  "loreSummary": "Vous êtes des mercenaires itinérants aux compétences uniques. Dans les terres sauvages aux confins de la civilisation, chaque choix transforme le monde.",
+  "badgeCategory": "RPG Tactique Dark Fantasy",
+  "roadmapTitle": "🗺️ Chronique du Donjon & Progression de l'Histoire",
+  "roadmapBadge": "FEUILLE DE ROUTE FANTASY",
+  "keyFeatures": [
+    "Combat tactique basé sur les cartes sans dés (stratégie pure)",
+    "Départs à la retraite et déblocage de nouvelles classes",
+    "Scénario à embranchements avec événements de ville et de route",
+    "Équilibrage de difficulté dynamique de 1 à 4 joueurs"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campagne Principale Standard",
+      "description": "L'arc narratif principal jusqu'au boss final avec les quêtes secondaires clés et 2-3 départs à la retraite."
+    },
+    "story_speedrun": {
+      "name": "Focus Histoire Principale (Speedrun)",
+      "description": "Chemin direct à travers les quêtes majeures jusqu'au boss final avec un minimum de détours."
+    },
+    "extended_campaign": {
+      "name": "Expérience de Campagne Étendue",
+      "description": "Histoire principale, nombreux déblocages de classes, archives de la cité et séries de quêtes."
+    },
+    "completionist": {
+      "name": "Complétiste Intégral (Tout Accessible)",
+      "description": "Tous les scénarios déblocables, prospérité maximale, retraites de toutes les classes et donjons ultimes."
+    }
+  }
+}

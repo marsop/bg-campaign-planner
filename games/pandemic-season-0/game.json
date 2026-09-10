@@ -1,0 +1,62 @@
+﻿{
+  "id": "pandemic-season-0",
+  "title": "Pandemic Legacy: Season 0",
+  "releaseYear": 2020,
+  "designers": "Matt Leacock, Rob Daviau",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 8.3,
+  "bggWeight": 3.18,
+  "bggUrl": "https://boardgamegeek.com/boardgame/314040/pandemic-legacy-season-0",
+  "baseScenarioMinutes": 65,
+  "setupTeardownMinutes": 18,
+  "unitType": "games_months",
+  "theme": {
+    "primaryColor": "#38bdf8",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#f43f5e",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e293b 0%, #0f172a 60%, #020617 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.90)",
+    "borderColor": "rgba(56, 189, 248, 0.35)",
+    "glowColor": "rgba(56, 189, 248, 0.25)",
+    "headerFont": "'Special Elite', 'Courier New', monospace",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🔒",
+    "emblem": "🕵️📁",
+    "themeClass": "theme-pandemic",
+    "activeThemeClass": "theme-pandemic-active",
+    "roadmapClass": "roadmap-pandemic",
+    "heroClass": "hero-pandemic"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #107 Overall / #22 Thematic)",
+    "Z-Man Games Official Briefing & Debriefing Dossiers",
+    "Community Completion Metrics & Win/Loss Averages across 12-month runs"
+  ],
+  "scopes": [
+    {
+      "id": "pandemic_standard",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "pandemic_optimistic",
+      "baseScenarioCount": 14,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    },
+    {
+      "id": "pandemic_grind",
+      "baseScenarioCount": 21,
+      "estimatedFailRatePercent": 40.0,
+      "isRecommended": false
+    },
+    {
+      "id": "pandemic_max",
+      "baseScenarioCount": 26,
+      "estimatedFailRatePercent": 50.0,
+      "isRecommended": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿{
+  "title": "Sleeping Gods",
+  "subtitle": "Kooperative nautische Erkundung und Storybuch-Überleben auf der Wandernden See",
+  "tagline": "Erkunde die Wandernde See und erwecke die schlummernden Götter",
+  "loreSummary": "Wir schreiben das Jahr 1929. Das Dampfschiff Manticore ist in einer seltsamen, unbekannten Welt verschollen. Du und deine Crew müsst geheimnisvolle Inseln erkunden, gefährliche Begegnungen überstehen und die Totems der Götter finden, um den Weg nach Hause zu entdecken.",
+  "badgeCategory": "Kooperatives Erzählabenteuer",
+  "roadmapTitle": "🧭 Logbuch des Irrenden Meeres & Totem-Zeitstrahl",
+  "roadmapBadge": "OZEAN-EXPEDITION",
+  "keyFeatures": [
+    "Reichhaltige, buchgestützte Erkundung mit Hunderten von verzweigten Quests",
+    "Taktisches Kampfsystem mit Waffenfertigkeiten und Zustandsschaden",
+    "Umfassende Atlas-Navigation an Bord des Dampfschiffs Manticore",
+    "Permanente Kampagnen-Freischaltungen mit Totems, Rezepten und Questkarten"
+  ],
+  "scopes": {
+    "sg_standard": {
+      "name": "Standard-Kampagne (Vollständige Reise)",
+      "description": "Eine komplette Reise über die Wandernde See mit allen Hauptquests und dem Sammeln göttlicher Totems."
+    },
+    "sg_quick": {
+      "name": "Kurze Erkundungsexpedition",
+      "description": "Eine gestraffte nautische Expedition zur Erkundung nahegelegener Inseln und Einführung in die Quests."
+    }
+  }
+}

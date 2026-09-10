@@ -1,0 +1,33 @@
+﻿{
+  "title": "Gloomhaven",
+  "subtitle": "Euro-inspiriertes taktisches Kampfsystem in einer persistenten, sich entwickelnden Fantasy-Welt",
+  "tagline": "Wage dich in die unbarmherzigen Schatten des Schlafenden Löwen",
+  "loreSummary": "Ihr seid wandernde Söldner mit besonderen Talenten. In der rauen Wildnis am Rande der Zivilisation verändert jede Entscheidung die Welt dauerhaft.",
+  "badgeCategory": "Dark-Fantasy Taktik-RPG",
+  "roadmapTitle": "🗺️ Dungeon-Chronik & Story-Fortschritt",
+  "roadmapBadge": "FANTASY-FAHRPLAN",
+  "keyFeatures": [
+    "Kartengesteuertes deterministisches Kampfsystem (keine Würfel)",
+    "Ruhestand & Klassenfreischaltungen durch persönliche Ziele",
+    "Verzweigte Handlung mit Stadt- und Wegereignissen",
+    "Hohe Schwierigkeitsskalierung für 1-4 Spieler"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Standard-Hauptkampagne",
+      "description": "Der Haupthandlungsbogen bis zum Endboss plus wichtige Nebenquests und 2-3 Charakter-Ruhestandsreihen."
+    },
+    "story_speedrun": {
+      "name": "Hauptstory-Fokus (Speedrun)",
+      "description": "Direkter Weg durch die Hauptquests zum Endboss mit minimalen optionalen Abstechern."
+    },
+    "extended_campaign": {
+      "name": "Erweiterte Kampagnen-Erfahrung",
+      "description": "Hauptgeschichte, zahlreiche Charakter-Freischaltungen, Fortschritt der Stadtchronik und Questreihen."
+    },
+    "completionist": {
+      "name": "Vollständiger Komplettierer (Alles)",
+      "description": "Absolvieren aller erreichbaren Szenarien, höchste Wohlstandsstufe, alle Ruhestände und High-Level-Dungeons."
+    }
+  }
+}

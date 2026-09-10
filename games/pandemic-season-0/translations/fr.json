@@ -1,0 +1,33 @@
+﻿{
+  "title": "Pandemic Legacy: Season 0",
+  "subtitle": "Thriller d'espionnage pendant la Guerre Froide (1962) et opérations secrètes de la CIA",
+  "tagline": "TOP SECRET // BRIEFING CLASSIFIÉ CIA // 1962",
+  "loreSummary": "En 1962, au paroxysme de la Guerre Froide, vous enquêtez sur le Projet MÉDUSE, une redoutable menace biologique soviétique.",
+  "badgeCategory": "Campagne Coopérative d'Espionnage",
+  "roadmapTitle": "🕵️ Dossier d'Opérations Secrètes CIA & Chronologie",
+  "roadmapBadge": "CLASSIFIÉ 1962",
+  "keyFeatures": [
+    "Passeports d'agents avec fausses identités et déguisements",
+    "Deux chances par mois : victoire directe ou tentative 'Fin de Mois'",
+    "Cartes de surveillance à gratter et planques de la CIA",
+    "Intrigue à haute tension répartie sur 12 mois de calendrier"
+  ],
+  "scopes": {
+    "pandemic_standard": {
+      "name": "Campagne Standard Attendue (1-2 Prologues + ~4 Rejeux)",
+      "description": "1 prologue d'entraînement plus 12 mois avec taux d'échec typique. Total 16-17 parties."
+    },
+    "pandemic_optimistic": {
+      "name": "Opération Efficace (1 Prologue + 1 Rejeu)",
+      "description": "Taux de victoire élevé : 1 prologue et quasi tous les mois remportés au 1er essai (14 parties)."
+    },
+    "pandemic_grind": {
+      "name": "Surveillance Lourde (2 Prologues + 7 Rejeux)",
+      "description": "Forte résistance soviétique ; plusieurs mois nécessitent un débriefing tardif (21 parties)."
+    },
+    "pandemic_max": {
+      "name": "Capacité Maximale de la Boîte (24 Parties + 2 Prologues)",
+      "description": "Chaque mois joué deux fois (Début + Fin) plus les deux prologues (26 parties)."
+    }
+  }
+}

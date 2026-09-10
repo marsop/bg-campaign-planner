@@ -3,18 +3,18 @@
 @inject IStringLocalizer<AppResources> Loc
 
 <div class="thematic-roadmap-wrapper mb-4">
-    <div class="roadmap-card @GetRoadmapClass(Game.Id)">
+    <div class="roadmap-card @Game.Theme.RoadmapClass">
         <div class="roadmap-header d-flex justify-content-between align-items-center mb-3">
             <div>
                 <h4 class="roadmap-title">
-                    <span>@GetRoadmapTitle(Game.Id)</span>
+                    <span>@Game.Theme.RoadmapTitle</span>
                 </h4>
                 <div class="roadmap-subtitle">
                     @Loc["Roadmap.Subtitle"]
                 </div>
             </div>
             <div class="badge-roadmap-style">
-                <span>@GetRoadmapBadge(Game.Id)</span>
+                <span>@Game.Theme.RoadmapBadge</span>
             </div>
         </div>
 
@@ -70,37 +70,4 @@
 
     [Parameter, EditorRequired]
     public CalculationResult Result { get; set; } = null!;
-
-    private string GetRoadmapClass(GameId id) => id switch
-    {
-        GameId.Gloomhaven => "roadmap-gloomhaven",
-        GameId.Frosthaven => "roadmap-frosthaven",
-        GameId.PandemicSeason0 => "roadmap-pandemic",
-        GameId.SleepingGods => "roadmap-sleepinggods",
-        GameId.Oathsworn => "roadmap-oathsworn",
-        GameId.TaintedGrailFallOfAvalon => "roadmap-taintedgrail",
-        _ => "roadmap-gloomhaven"
-    };
-
-    private string GetRoadmapTitle(GameId id) => id switch
-    {
-        GameId.Gloomhaven => Loc["Roadmap.GloomhavenTitle"],
-        GameId.Frosthaven => Loc["Roadmap.FrosthavenTitle"],
-        GameId.PandemicSeason0 => Loc["Roadmap.PandemicTitle"],
-        GameId.SleepingGods => Loc["Roadmap.SleepingGodsTitle"],
-        GameId.Oathsworn => Loc["Roadmap.OathswornTitle"],
-        GameId.TaintedGrailFallOfAvalon => Loc["Roadmap.TaintedGrailTitle"],
-        _ => Loc["Roadmap.GloomhavenTitle"]
-    };
-
-    private string GetRoadmapBadge(GameId id) => id switch
-    {
-        GameId.Gloomhaven => Loc["Roadmap.GloomhavenBadge"],
-        GameId.Frosthaven => Loc["Roadmap.FrosthavenBadge"],
-        GameId.PandemicSeason0 => Loc["Roadmap.PandemicBadge"],
-        GameId.SleepingGods => Loc["Roadmap.SleepingGodsBadge"],
-        GameId.Oathsworn => Loc["Roadmap.OathswornBadge"],
-        GameId.TaintedGrailFallOfAvalon => Loc["Roadmap.TaintedGrailBadge"],
-        _ => Loc["Roadmap.GloomhavenBadge"]
-    };
 }

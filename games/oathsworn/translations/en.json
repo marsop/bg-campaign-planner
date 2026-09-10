@@ -1,0 +1,25 @@
+﻿{
+  "title": "Oathsworn: Into the Deepwood",
+  "subtitle": "Dark fantasy cooperative boss battler and mystery campaign",
+  "tagline": "Venture into the Deepwood and face the horrors within",
+  "loreSummary": "In a world consumed by the Deepwood, the last bastion of humanity relies on the Oathsworn, a company of hardened mercenaries, to fight back the encroaching darkness and monstrous entities.",
+  "badgeCategory": "Dark Fantasy Boss Battler",
+  "roadmapTitle": "🌲 Deepwood Contract & Boss Hunt Timeline",
+  "roadmapBadge": "DEEPWOOD HUNT",
+  "keyFeatures": [
+    "Unique combat system with cards or dice",
+    "Two-phase gameplay: Story and Encounter",
+    "Branching narrative with meaningful choices",
+    "Deep character customization and progression"
+  ],
+  "scopes": {
+    "os_core": {
+      "name": "Standard Core Campaign",
+      "description": "The main 21-chapter storyline."
+    },
+    "os_extended": {
+      "name": "Extended Campaign (All Encounters)",
+      "description": "Main story and all optional boss encounters."
+    }
+  }
+}

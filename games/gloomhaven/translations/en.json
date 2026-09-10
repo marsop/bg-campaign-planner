@@ -1,0 +1,33 @@
+﻿{
+  "title": "Gloomhaven",
+  "subtitle": "Euro-inspired tactical combat in a persistent, evolving world of high fantasy",
+  "tagline": "Venture into the unforgiving shadows of the Sleeping Lion",
+  "loreSummary": "You are wandering mercenaries with your own special set of skills. In the harsh wilderness on the edge of civilization, every choice permanently alters the world around you.",
+  "badgeCategory": "Dark Fantasy Tactical RPG",
+  "roadmapTitle": "🗺️ Dungeon Chronicle & Story Progression",
+  "roadmapBadge": "FANTASY ROADMAP",
+  "keyFeatures": [
+    "Card-driven deterministic combat (No dice, pure tactical strategy)",
+    "Retirement & Class Unlocking (Personal Quests drive new character growth)",
+    "Branching Narrative (Town & Road events, world stickers, prosperity tracker)",
+    "High difficulty scaling across 1-4 players"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Standard Core Campaign",
+      "description": "The main storyline arc to the final boss plus key side-quests and 2-3 character retirement chains."
+    },
+    "story_speedrun": {
+      "name": "Main Story Focus (Speedrun)",
+      "description": "Direct path through the primary questlines to the final boss with minimal optional side dungeon diversions."
+    },
+    "extended_campaign": {
+      "name": "Extended Campaign Experience",
+      "description": "Main story, numerous character unlocks, town records progression, and side quest chains."
+    },
+    "completionist": {
+      "name": "Full Completionist (All Accessible)",
+      "description": "Attempting every unlockable scenario, high prosperity, all class retirements, and high-level side dungeons."
+    }
+  }
+}

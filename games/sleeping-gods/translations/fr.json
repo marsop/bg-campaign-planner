@@ -1,0 +1,25 @@
+﻿{
+  "title": "Sleeping Gods",
+  "subtitle": "Exploration nautique coopérative et survie narrative à travers la Mer Errange",
+  "tagline": "Explorez la Mer Errange et réveillez les dieux endormis",
+  "loreSummary": "Nous sommes en 1929. Le bateau à vapeur Manticore est perdu dans un monde étrange et inexploré. Vous et votre équipage devez explorer des îles mystérieuses, survivre à de périlleuses rencontres et trouver les totems des dieux pour rentrer chez vous.",
+  "badgeCategory": "Aventure Narrative Coopérative",
+  "roadmapTitle": "🧭 Journal de la Mer Errante & Chronologie des Totems Divins",
+  "roadmapBadge": "EXPÉDITION OCÉANIQUE",
+  "keyFeatures": [
+    "Exploration riche guidée par un livre d'histoires aux centaines de quêtes ramifiées",
+    "Système de combat tactique avec compétences d'armes et dégâts d'états",
+    "Navigation sur atlas à bord du navire à vapeur Manticore",
+    "Déblocages permanents avec totems, recettes et cartes de quêtes"
+  ],
+  "scopes": {
+    "sg_standard": {
+      "name": "Campagne Standard (Voyage Complet)",
+      "description": "Un périple complet à travers la Mer Errange pour accomplir les quêtes majeures et récupérer les totems divins."
+    },
+    "sg_quick": {
+      "name": "Courte Expédition d'Exploration",
+      "description": "Une expédition maritime rapide pour explorer les archipels voisins et s'initier aux premières quêtes."
+    }
+  }
+}

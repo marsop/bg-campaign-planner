@@ -1,0 +1,33 @@
+﻿{
+  "title": "Gloomhaven",
+  "subtitle": "Combattimento tattico di stampo euro in un mondo persistente ed evolutivo di dark fantasy",
+  "tagline": "Avventurati nelle ombre implacabili del Leone Addormentato",
+  "loreSummary": "Siete mercenari erranti dotati di abilità speciali. Nelle aspre terre selvagge ai margini della civiltà, ogni scelta altera permanentemente il mondo circostante.",
+  "badgeCategory": "GDR Tattico Dark Fantasy",
+  "roadmapTitle": "🗺️ Cronaca del Dungeon & Progressione della Storia",
+  "roadmapBadge": "ROADMAP FANTASY",
+  "keyFeatures": [
+    "Combattimento tattico con carte senza dadi (pura strategia)",
+    "Pensionamento e sblocco di nuove classi di personaggi",
+    "Narrativa a bivi con eventi di città e di strada",
+    "Difficoltà scalabile dinamicamente per 1-4 giocatori"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campagna Base Standard",
+      "description": "L'arco narrativo principale fino al boss finale con missioni secondarie chiave e 2-3 pensionamenti."
+    },
+    "story_speedrun": {
+      "name": "Focus Storia Principale (Speedrun)",
+      "description": "Percorso diretto attraverso le missioni primarie fino al boss finale con minime deviazioni."
+    },
+    "extended_campaign": {
+      "name": "Esperienza di Campagna Estesa",
+      "description": "Storia principale, numerosi sblocchi di personaggi, progressione dell'archivio e catene secondarie."
+    },
+    "completionist": {
+      "name": "Completista Totale (Tutto Accessibile)",
+      "description": "Completamento di ogni scenario sbloccabile, massima prosperità, tutti i pensionamenti e dungeon avanzati."
+    }
+  }
+}

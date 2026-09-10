@@ -25,7 +25,7 @@
                 <div class="kpi-value">@Result.TotalMeetupsRequired</div>
                 <div class="kpi-label">@Loc["Kpi.MeetupsRequired"]</div>
                 <div class="kpi-subtext">
-                    @(Result.Game.Id != GameId.PandemicSeason0 
+                    @(Result.Game.UnitType != "games_months" 
                         ? Loc.Get("Kpi.TotalScenarios", Result.TotalEstimatedPlays) 
                         : Loc.Get("Kpi.TotalGames", Result.TotalEstimatedPlays))
                     @if (Result.BufferPlaysForFailures > 0)

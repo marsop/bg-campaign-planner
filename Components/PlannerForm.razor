@@ -33,7 +33,7 @@
                                 }
                             </div>
                             <div class="scope-scenarios">
-                                <span class="fw-bold">@scope.BaseScenarioCount</span> @(Game.Id != GameId.PandemicSeason0 ? Loc["Form.Scenarios"] : Loc["Form.GamesMonths"])
+                                <span class="fw-bold">@scope.BaseScenarioCount</span> @(Game.UnitType != "games_months" ? Loc["Form.Scenarios"] : Loc["Form.GamesMonths"])
                                 <span class="text-muted ms-2">• @Loc.Get("Form.ReplayBuffer", scope.EstimatedFailRatePercent.ToString("F0"))</span>
                             </div>
                             <div class="scope-desc">@scope.Description</div>

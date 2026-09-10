@@ -18,4 +18,15 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Include="games\**\*.json" />
+  </ItemGroup>
+
+  <Target Name="CopyGamesToWwwroot" BeforeTargets="ResolveStaticWebAssetsInputs;BeforeBuild">
+    <ItemGroup>
+      <GameAssets Include="games\**\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(GameAssets)" DestinationFiles="@(GameAssets->'wwwroot\games\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+
 </Project>

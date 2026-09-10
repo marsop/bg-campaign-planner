@@ -1,0 +1,50 @@
+﻿{
+  "id": "sleeping-gods",
+  "title": "Sleeping Gods",
+  "releaseYear": 2021,
+  "designers": "Ryan Laukat",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.4,
+  "bggWeight": 3.28,
+  "bggUrl": "https://boardgamegeek.com/boardgame/255984/sleeping-gods",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "theme": {
+    "primaryColor": "#0284c7",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e3a5f 0%, #0f172a 60%, #020617 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.90)",
+    "borderColor": "rgba(2, 132, 199, 0.35)",
+    "glowColor": "rgba(2, 132, 199, 0.25)",
+    "headerFont": "'Cormorant SC', 'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🧭",
+    "emblem": "🚢🌊",
+    "themeClass": "theme-sleepinggods",
+    "activeThemeClass": "theme-sleepinggods-active",
+    "roadmapClass": "roadmap-sleepinggods",
+    "heroClass": "hero-sleepinggods"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (Top 100 Overall / Top 20 Thematic)",
+    "Red Raven Games Official Rulebook & Storybook",
+    "Community Campaign Logs and Session Averages"
+  ],
+  "scopes": [
+    {
+      "id": "sg_standard",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": true
+    },
+    {
+      "id": "sg_quick",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": false
+    }
+  ]
+}

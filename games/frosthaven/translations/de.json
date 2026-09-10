@@ -1,0 +1,29 @@
+﻿{
+  "title": "Frosthaven",
+  "subtitle": "Episches kooperatives Abenteuer und Siedlungsbau im eisigen Norden",
+  "tagline": "Trotze der eisigen Ödnis und baue den nördlichen Außenposten wieder auf",
+  "loreSummary": "Ihr seid Söldner am Ende der Welt, die kämpfen, um einen kleinen Außenposten vor den harten Elementen und monströsen Bedrohungen zu schützen.",
+  "badgeCategory": "Fantasy-RPG & Städtebau",
+  "roadmapTitle": "❄️ Nord-Erweiterung & Siedlungsfortschritt",
+  "roadmapBadge": "ARKTIS-ÜBERLEBEN",
+  "keyFeatures": [
+    "Komplexes kartengesteuertes Kampfsystem und Klassenprogression",
+    "Tiefgehender Siedlungsbau und Verteidigungsphasen",
+    "Umfangreiches Crafting-System und Ressourcenmanagement",
+    "Verzweigte Handlung mit saisonalen Ereignissen"
+  ],
+  "scopes": {
+    "fh_core": {
+      "name": "Standard-Hauptkampagne",
+      "description": "Die Hauptstory-Bögen und grundlegender Siedlungsfortschritt."
+    },
+    "fh_extended": {
+      "name": "Erweiterte Kampagnen-Erfahrung",
+      "description": "Hauptgeschichte, wichtige Nebenquests und meiste Freischaltungen."
+    },
+    "fh_completionist": {
+      "name": "Vollständiger Komplettierer",
+      "description": "Absolvieren aller erreichbaren Szenarien und maximaler Ausbau der Siedlung."
+    }
+  }
+}

@@ -20,7 +20,7 @@ public enum ExperienceLevel
 
 public class PlannerInputModel
 {
-    public GameId SelectedGameId { get; set; } = GameId.Gloomhaven;
+    public string SelectedGameId { get; set; } = KnownGameIds.Gloomhaven;
     public string SelectedScopeId { get; set; } = string.Empty;
     
     // Frequency

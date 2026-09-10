@@ -1,0 +1,33 @@
+﻿{
+  "title": "Pandemic Legacy: Season 0",
+  "subtitle": "Thriller de espionaje en plena Guerra Fría (1962) y operaciones encubiertas de la CIA",
+  "tagline": "ALTO SECRETO // INFORME CLASIFICADO DE LA CIA // 1962",
+  "loreSummary": "Es el año 1962. La Guerra Fría está en su punto álgido. Tú y tu equipo de la CIA debéis investigar el Proyecto MEDUSA, un programa soviético de armas biológicas.",
+  "badgeCategory": "Campaña Cooperativa de Espionaje",
+  "roadmapTitle": "🕵️ Expediente de Operaciones Encubiertas CIA y Cronología",
+  "roadmapBadge": "CLASIFICADO 1962",
+  "keyFeatures": [
+    "Pasaportes de operativos con identidades falsas y disfraces",
+    "Dos intentos por mes: victoria o intento tardío ('Late Month')",
+    "Mapas de vigilancia para rascar y casas francas de la CIA",
+    "Tensión narrativa a lo largo de un calendario de 12 meses"
+  ],
+  "scopes": {
+    "pandemic_standard": {
+      "name": "Campaña Estándar Esperada (1-2 Prólogos + ~4 Reintentos)",
+      "description": "1 prólogo de entrenamiento más 12 meses con tasa típica de reintentos. Total 16-17 partidas."
+    },
+    "pandemic_optimistic": {
+      "name": "Operación Limpia (1 Prólogo + 1 Reintento)",
+      "description": "Alta tasa de victorias: 1 prólogo y casi todos los meses ganados a la primera (14 partidas)."
+    },
+    "pandemic_grind": {
+      "name": "Vigilancia Extrema (2 Prólogos + 7 Reintentos)",
+      "description": "Gran interferencia soviética; varios meses requieren segundas tentativas (21 partidas)."
+    },
+    "pandemic_max": {
+      "name": "Capacidad Máxima de la Caja (24 Partidas + 2 Prólogos)",
+      "description": "Cada mes jugado dos veces (Temprano + Tardío) más ambos prólogos (26 partidas)."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+﻿{
+  "title": "Pandemic Legacy: Season 0",
+  "subtitle": "Spionage-Thriller zur Zeit des Kalten Krieges (1962) und geheime CIA-Operationen",
+  "tagline": "STRENG GEHEIM // CIA-BRIEFING // 1962",
+  "loreSummary": "Wir schreiben das Jahr 1962. Der Kalte Krieg erreicht seinen Höhepunkt. Ihr untersucht Projekt MEDUSA, ein sowjetisches Biowaffenprogramm.",
+  "badgeCategory": "Kooperative Spionage-Kampagne",
+  "roadmapTitle": "🕵️ CIA-Geheimakten & Missions-Zeitstrahl",
+  "roadmapBadge": "GEHEIM 1962",
+  "keyFeatures": [
+    "Agentenpässe mit Tarnungen und gefälschten Dokumenten",
+    "Zwei Chancen pro Monat: Gewinnen oder Spätmonat versuchen",
+    "Rubbel-Überwachungskarten und geheime CIA-Unterschlüpfe",
+    "Spannungsgeladene Story über einen 12-monatigen Kalender"
+  ],
+  "scopes": {
+    "pandemic_standard": {
+      "name": "Standard-Kampagne (1-2 Prologe + ~4 Wiederholungen)",
+      "description": "1 Trainingsprolog plus 12 Monate mit typischer Wiederholungsrate. Insgesamt 16-17 Partien."
+    },
+    "pandemic_optimistic": {
+      "name": "Optimale Agenten-Mission (1 Prolog + 1 Wiederholung)",
+      "description": "Hohe Erfolgsquote: 1 Prolog und fast alle Monate im ersten Anlauf gewonnen (14 Partien)."
+    },
+    "pandemic_grind": {
+      "name": "Intensive Überwachung (2 Prologe + 7 Wiederholungen)",
+      "description": "Starke sowjetische Einmischung; mehrere Monate erfordern Nachbesprechungen (21 Partien)."
+    },
+    "pandemic_max": {
+      "name": "Maximale Schachtelkapazität (24 Partien + 2 Prologe)",
+      "description": "Jeder Kalendermonat doppelt gespielt (Früh + Spät) plus beide Prologe (26 Partien)."
+    }
+  }
+}

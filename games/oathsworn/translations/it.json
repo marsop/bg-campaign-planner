@@ -1,0 +1,25 @@
+﻿{
+  "title": "Oathsworn: Into the Deepwood",
+  "subtitle": "Campagna di mistero e combattimento cooperativo contro boss di dark fantasy",
+  "tagline": "Avventurati nel Deepwood e affronta gli orrori che vi si celano",
+  "loreSummary": "In un mondo consumato dal Deepwood, l'ultimo baluardo dell'umanità si affida agli Oathsworn, una compagnia di mercenari temprati, per combattere l'oscurità invadente e le entità mostruose.",
+  "badgeCategory": "Combattimento contro Boss Dark Fantasy",
+  "roadmapTitle": "🌲 Contratto di Deepwood & Cronologia Caccia ai Boss",
+  "roadmapBadge": "CACCIA A DEEPWOOD",
+  "keyFeatures": [
+    "Sistema di combattimento unico con carte o dadi",
+    "Gameplay in due fasi: Storia e Incontro",
+    "Narrativa a bivi con scelte significative",
+    "Profonda personalizzazione e progressione dei personaggi"
+  ],
+  "scopes": {
+    "os_core": {
+      "name": "Campagna Principale Standard",
+      "description": "La trama principale di 21 capitoli."
+    },
+    "os_extended": {
+      "name": "Campagna Estesa (Tutti gli Incontri)",
+      "description": "Storia principale e tutti gli scontri opzionali con i boss."
+    }
+  }
+}

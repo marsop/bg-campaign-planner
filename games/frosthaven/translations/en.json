@@ -1,0 +1,29 @@
+﻿{
+  "title": "Frosthaven",
+  "subtitle": "Epic cooperative adventure and settlement building in the frozen north",
+  "tagline": "Brave the freezing wastes and rebuild the northern outpost",
+  "loreSummary": "You are a group of mercenaries at the edge of the world, struggling to protect a small outpost from the harsh elements and monstrous threats of the frozen north.",
+  "badgeCategory": "Fantasy RPG & City Building",
+  "roadmapTitle": "❄️ Northern Expansion & Settlement Progress",
+  "roadmapBadge": "ARCTIC SURVIVAL",
+  "keyFeatures": [
+    "Complex card-driven combat and class progression",
+    "Deep settlement building and defense phases",
+    "Extensive crafting system and resource management",
+    "Sprawling branching narrative with seasonal events"
+  ],
+  "scopes": {
+    "fh_core": {
+      "name": "Standard Core Campaign",
+      "description": "The main storyline arcs and essential settlement progression."
+    },
+    "fh_extended": {
+      "name": "Extended Campaign Experience",
+      "description": "Main story, significant side quests, and most character unlocks."
+    },
+    "fh_completionist": {
+      "name": "Full Completionist",
+      "description": "Attempting every accessible scenario and maxing out the settlement."
+    }
+  }
+}

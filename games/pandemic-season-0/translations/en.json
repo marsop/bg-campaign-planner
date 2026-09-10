@@ -1,0 +1,33 @@
+﻿{
+  "title": "Pandemic Legacy: Season 0",
+  "subtitle": "Cold War 1962 espionage thriller and covert CIA operations against Soviet bioweapons",
+  "tagline": "TOP SECRET // CLASSIFIED CIA BRIEFING // 1962",
+  "loreSummary": "The year is 1962. The Cold War is at its peak. You and your fellow CIA operatives have been recruited to investigate Project MEDUSA, a dangerous Soviet bioweapons program.",
+  "badgeCategory": "Espionage Cooperative Campaign",
+  "roadmapTitle": "🕵️ CIA Covert Operations Dossier & Mission Timeline",
+  "roadmapBadge": "CLASSIFIED 1962",
+  "keyFeatures": [
+    "Operative Passports with customizable aliases, disguises, and forged documents",
+    "Two chances per month: Win and advance, or fail and attempt 'Late Month'",
+    "Scratch-off surveillance maps, covert CIA safehouses, and KGB tracker tokens",
+    "High-tension story unfolding across a 12-month calendar (plus Prologues)"
+  ],
+  "scopes": {
+    "pandemic_standard": {
+      "name": "Standard Expected Campaign (1-2 Prologues + ~4 Retries)",
+      "description": "1 training prologue plus 12 months with typical failure rate (~3-4 months requiring a 2nd attempt). Total 16-17 game plays."
+    },
+    "pandemic_optimistic": {
+      "name": "Clean Operative Run (1 Prologue + 1 Retry)",
+      "description": "High win rate run: 1 prologue and almost all months won on the first attempt (14 total games)."
+    },
+    "pandemic_grind": {
+      "name": "Hardcore Surveillance (2 Prologues + 7 Retries)",
+      "description": "Struggling against heavy Soviet interference; several months go to 'Late [Month]' debriefings (21 total games)."
+    },
+    "pandemic_max": {
+      "name": "Maximum Legacy Box Capacity (24 Games + 2 Prologues)",
+      "description": "Every single calendar month played twice (Early + Late) plus both prologue missions (26 total games)."
+    }
+  }
+}

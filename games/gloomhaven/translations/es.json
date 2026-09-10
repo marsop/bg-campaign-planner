@@ -1,0 +1,33 @@
+﻿{
+  "title": "Gloomhaven",
+  "subtitle": "Combate táctico de estilo europeo en un mundo persistente y evolutivo de alta fantasía",
+  "tagline": "Adéntrate en las implacables sombras del León Durmiente",
+  "loreSummary": "Sois mercenarios errantes con habilidades únicas. En la inhóspita frontera de la civilización, cada decisión altera permanentemente el mundo que os rodea.",
+  "badgeCategory": "RPG Táctico de Fantasía Oscura",
+  "roadmapTitle": "🗺️ Crónica de Mazmorras y Progreso de Historia",
+  "roadmapBadge": "HOJA DE RUTA FANTASÍA",
+  "keyFeatures": [
+    "Combate táctico con cartas sin dados (estrategia pura)",
+    "Retiro y desbloqueo de nuevas clases de personajes",
+    "Narrativa ramificada con eventos de ciudad y camino",
+    "Dificultad escalable de 1 a 4 jugadores"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campaña Principal Estándar",
+      "description": "Arco narrativo principal hasta el jefe final más misiones secundarias clave y 2-3 retiros de personajes."
+    },
+    "story_speedrun": {
+      "name": "Enfoque en Historia Principal (Rápida)",
+      "description": "Ruta directa a través de las misiones primarias hasta el jefe final minimizando desvíos secundarios."
+    },
+    "extended_campaign": {
+      "name": "Experiencia de Campaña Extendida",
+      "description": "Historia principal, numerosos desbloqueos de personajes, archivos de la ciudad y cadenas secundarias."
+    },
+    "completionist": {
+      "name": "Completista Total (Todo Accesible)",
+      "description": "Jugar todos los escenarios desbloqueables, máxima prosperidad, todos los retiros y mazmorras avanzadas."
+    }
+  }
+}

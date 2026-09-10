@@ -1,0 +1,21 @@
+﻿{
+  "title": "Tainted Grail: The Fall of Avalon",
+  "subtitle": "Ein düsteres, kooperatives Survival-Abenteuer in einer sterbenden Artus-Welt",
+  "tagline": "Entzünde die Menhire und überlebe die Wyrdnis",
+  "loreSummary": "Der legendäre König Artus ist tot, die Menhire, die Avalon schützen, verblassen und die Wyrdnis verschlingt das Land. Ihr seid nicht die auserwählten Helden, aber ihr seid alles, was noch übrig ist.",
+  "badgeCategory": "Dark Fantasy Survival RPG",
+  "roadmapTitle": "🕯️ Avalon-Menhir & Wyrdnis-Chronik",
+  "roadmapBadge": "AVALON-ÜBERLEBEN",
+  "keyFeatures": [
+    "Reichhaltige, verzweigte Erkundung der Geschichte mit dem Erkundungstagebuch",
+    "Ressourcenmanagement und Überlebenselemente (Nahrung, Magie, Gesundheit, Terror)",
+    "Kartengesteuerte Kampf- und Diplomatiebegegnungen mit Deckbau",
+    "Sich entwickelnde offene Weltkarte mit übergroßen Ortskarten"
+  ],
+  "scopes": {
+    "tg_core": {
+      "name": "Der Niedergang Avalons (Hauptkampagne)",
+      "description": "Der gesamte Hauptstory-Bogen durch Avalon, um das Schicksal der ursprünglichen Helden zu entdecken."
+    }
+  }
+}

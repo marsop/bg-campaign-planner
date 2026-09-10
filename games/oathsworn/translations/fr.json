@@ -1,0 +1,25 @@
+﻿{
+  "title": "Oathsworn: Into the Deepwood",
+  "subtitle": "Campagne de mystère et de combat coopératif contre des boss de dark fantasy",
+  "tagline": "Aventurez-vous dans le Deepwood et affrontez les horreurs qu'il renferme",
+  "loreSummary": "Dans un monde consumé par le Deepwood, le dernier bastion de l'humanité s'en remet aux Oathsworn, une compagnie de mercenaires endurcis, pour repousser les ténèbres envahissantes et les entités monstrueuses.",
+  "badgeCategory": "Combat de Boss Dark Fantasy",
+  "roadmapTitle": "🌲 Contrat du Bois Profond & Chronologie des Chasses",
+  "roadmapBadge": "CHASSE DU BOIS PROFOND",
+  "keyFeatures": [
+    "Système de combat unique avec cartes ou dés",
+    "Gameplay en deux phases : Histoire et Rencontre",
+    "Narrative à embranchements avec des choix significatifs",
+    "Personnalisation et progression approfondies des personnages"
+  ],
+  "scopes": {
+    "os_core": {
+      "name": "Campagne Principale Standard",
+      "description": "L'histoire principale de 21 chapitres."
+    },
+    "os_extended": {
+      "name": "Campagne Étendue (Toutes les Rencontres)",
+      "description": "L'histoire principale et tous les affrontements de boss optionnels."
+    }
+  }
+}

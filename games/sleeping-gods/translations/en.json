@@ -1,0 +1,25 @@
+﻿{
+  "title": "Sleeping Gods",
+  "subtitle": "Cooperative nautical exploration and storybook survival across the Wandering Sea",
+  "tagline": "Explore the Wandering Sea and awaken the slumbering gods",
+  "loreSummary": "The year is 1929. The steamship Manticore is lost in a strange, uncharted world. You and your crew must explore mysterious islands, survive perilous encounters, and discover the totems of the gods to find your way home.",
+  "badgeCategory": "Cooperative Narrative Adventure",
+  "roadmapTitle": "🧭 Wandering Sea Log & Divine Totem Timeline",
+  "roadmapBadge": "OCEAN EXPEDITION",
+  "keyFeatures": [
+    "Rich storybook-driven exploration with hundreds of branching quests",
+    "Tactical combat synergy system with weapon skills and condition damage",
+    "Expansive atlas navigation aboard the steamship Manticore",
+    "Persistent campaign unlocks with totems, recipes, and quest cards"
+  ],
+  "scopes": {
+    "sg_standard": {
+      "name": "Standard Campaign (Full Journey)",
+      "description": "A complete voyage through the Wandering Sea completing major quests and collecting divine totems."
+    },
+    "sg_quick": {
+      "name": "Short Exploratory Expedition",
+      "description": "A streamlined nautical expedition exploring nearby archipelagos and solving introductory quests."
+    }
+  }
+}
