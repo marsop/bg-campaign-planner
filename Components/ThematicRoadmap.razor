@@ -3,40 +3,18 @@
 @inject ILocalizationService Loc
 
 <div class="thematic-roadmap-wrapper mb-4">
-    <div class="roadmap-card @(Game.Id == GameId.Gloomhaven ? "roadmap-gloomhaven" : Game.Id == GameId.Frosthaven ? "roadmap-frosthaven" : "roadmap-pandemic")">
+    <div class="roadmap-card @GetRoadmapClass(Game.Id)">
         <div class="roadmap-header d-flex justify-content-between align-items-center mb-3">
             <div>
                 <h4 class="roadmap-title">
-                    @if (Game.Id == GameId.Gloomhaven)
-                    {
-                        <span>@Loc["Roadmap.GloomhavenTitle"]</span>
-                    }
-                    else if (Game.Id == GameId.Frosthaven)
-                    {
-                        <span>@Loc["Roadmap.FrosthavenTitle"]</span>
-                    }
-                    else
-                    {
-                        <span>@Loc["Roadmap.PandemicTitle"]</span>
-                    }
+                    <span>@GetRoadmapTitle(Game.Id)</span>
                 </h4>
                 <div class="roadmap-subtitle">
                     @Loc["Roadmap.Subtitle"]
                 </div>
             </div>
             <div class="badge-roadmap-style">
-                @if (Game.Id == GameId.Gloomhaven)
-                {
-                    <span>@Loc["Roadmap.GloomhavenBadge"]</span>
-                }
-                else if (Game.Id == GameId.Frosthaven)
-                {
-                    <span>@Loc["Roadmap.FrosthavenBadge"]</span>
-                }
-                else
-                {
-                    <span>@Loc["Roadmap.PandemicBadge"]</span>
-                }
+                <span>@GetRoadmapBadge(Game.Id)</span>
             </div>
         </div>
 
@@ -92,4 +70,37 @@
 
     [Parameter, EditorRequired]
     public CalculationResult Result { get; set; } = null!;
+
+    private string GetRoadmapClass(GameId id) => id switch
+    {
+        GameId.Gloomhaven => "roadmap-gloomhaven",
+        GameId.Frosthaven => "roadmap-frosthaven",
+        GameId.PandemicSeason0 => "roadmap-pandemic",
+        GameId.SleepingGods => "roadmap-sleepinggods",
+        GameId.Oathsworn => "roadmap-oathsworn",
+        GameId.TaintedGrailFallOfAvalon => "roadmap-taintedgrail",
+        _ => "roadmap-gloomhaven"
+    };
+
+    private string GetRoadmapTitle(GameId id) => id switch
+    {
+        GameId.Gloomhaven => Loc["Roadmap.GloomhavenTitle"],
+        GameId.Frosthaven => Loc["Roadmap.FrosthavenTitle"],
+        GameId.PandemicSeason0 => Loc["Roadmap.PandemicTitle"],
+        GameId.SleepingGods => Loc.Get("Roadmap.SleepingGodsTitle", "🧭 Wandering Sea Log & Divine Totem Timeline"),
+        GameId.Oathsworn => Loc.Get("Roadmap.OathswornTitle", "🌲 Deepwood Contract & Boss Hunt Timeline"),
+        GameId.TaintedGrailFallOfAvalon => Loc.Get("Roadmap.TaintedGrailTitle", "🕯️ Avalon Menhir & Wyrdness Chronicle"),
+        _ => Loc["Roadmap.GloomhavenTitle"]
+    };
+
+    private string GetRoadmapBadge(GameId id) => id switch
+    {
+        GameId.Gloomhaven => Loc["Roadmap.GloomhavenBadge"],
+        GameId.Frosthaven => Loc["Roadmap.FrosthavenBadge"],
+        GameId.PandemicSeason0 => Loc["Roadmap.PandemicBadge"],
+        GameId.SleepingGods => Loc.Get("Roadmap.SleepingGodsBadge", "OCEAN EXPEDITION"),
+        GameId.Oathsworn => Loc.Get("Roadmap.OathswornBadge", "DEEPWOOD HUNT"),
+        GameId.TaintedGrailFallOfAvalon => Loc.Get("Roadmap.TaintedGrailBadge", "AVALON SURVIVAL"),
+        _ => Loc["Roadmap.GloomhavenBadge"]
+    };
 }

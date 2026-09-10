@@ -55,7 +55,7 @@
                 <tr>
                     <th style="width: 70px;">@Loc["Timeline.ColNumber"]</th>
                     <th style="width: 160px;">@Loc["Timeline.ColDateDay"]</th>
-                    <th style="width: 140px;">@(Result.Game.Id == GameId.Gloomhaven ? Loc["Timeline.ColScenarios"] : Loc["Timeline.ColGames"])</th>
+                    <th style="width: 140px;">@(Result.Game.Id != GameId.PandemicSeason0 ? Loc["Timeline.ColScenarios"] : Loc["Timeline.ColGames"])</th>
                     <th style="width: 110px;">@Loc["Timeline.ColHours"]</th>
                     <th>@Loc["Timeline.ColMilestoneNote"]</th>
                 </tr>

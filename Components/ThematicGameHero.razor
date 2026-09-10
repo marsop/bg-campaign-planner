@@ -3,7 +3,7 @@
 @inject ILocalizationService Loc
 
 <div class="thematic-hero-wrapper mb-4">
-    <div class="thematic-hero-card @(Game.Id == GameId.Gloomhaven ? "hero-gloomhaven" : "hero-pandemic")">
+    <div class="thematic-hero-card @GetHeroClass(Game.Id)">
         <div class="hero-texture-overlay"></div>
         <div class="hero-content">
             <div class="row align-items-center">
@@ -19,14 +19,7 @@
 
                     <div class="hero-lore-box mb-3">
                         <div class="lore-icon">
-                            @if (Game.Id == GameId.Gloomhaven)
-                            {
-                                <span>📜</span>
-                            }
-                            else
-                            {
-                                <span>🔒</span>
-                            }
+                            <span>@GetLoreIcon(Game.Id)</span>
                         </div>
                         <div class="lore-text">
                             @Game.Theme.LoreSummary
@@ -117,4 +110,26 @@
 @code {
     [Parameter, EditorRequired]
     public BoardGame Game { get; set; } = null!;
+
+    private string GetHeroClass(GameId id) => id switch
+    {
+        GameId.Gloomhaven => "hero-gloomhaven",
+        GameId.Frosthaven => "hero-frosthaven",
+        GameId.PandemicSeason0 => "hero-pandemic",
+        GameId.SleepingGods => "hero-sleepinggods",
+        GameId.Oathsworn => "hero-oathsworn",
+        GameId.TaintedGrailFallOfAvalon => "hero-taintedgrail",
+        _ => "hero-gloomhaven"
+    };
+
+    private string GetLoreIcon(GameId id) => id switch
+    {
+        GameId.Gloomhaven => "📜",
+        GameId.Frosthaven => "❄️",
+        GameId.PandemicSeason0 => "🔒",
+        GameId.SleepingGods => "🧭",
+        GameId.Oathsworn => "🌲",
+        GameId.TaintedGrailFallOfAvalon => "🕯️",
+        _ => "📜"
+    };
 }

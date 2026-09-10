@@ -104,9 +104,16 @@
     private PlannerInputModel PlannerInput = new();
     private CalculationResult? CurrentResult;
 
-    private string ThemeClass => CurrentGame.Id == GameId.Gloomhaven ? "theme-gloomhaven-active" :
-                                 CurrentGame.Id == GameId.Frosthaven ? "theme-frosthaven-active" :
-                                 "theme-pandemic-active";
+    private string ThemeClass => CurrentGame.Id switch
+    {
+        GameId.Gloomhaven => "theme-gloomhaven-active",
+        GameId.Frosthaven => "theme-frosthaven-active",
+        GameId.PandemicSeason0 => "theme-pandemic-active",
+        GameId.SleepingGods => "theme-sleepinggods-active",
+        GameId.Oathsworn => "theme-oathsworn-active",
+        GameId.TaintedGrailFallOfAvalon => "theme-taintedgrail-active",
+        _ => "theme-gloomhaven-active"
+    };
 
     protected override async Task OnInitializedAsync()
     {

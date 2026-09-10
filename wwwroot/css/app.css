@@ -311,6 +311,18 @@ body {
     background: radial-gradient(circle at top left, rgba(254, 243, 199, 0.65), var(--bg-card));
 }
 
+:root[data-theme="dark"] .theme-frosthaven.selected {
+    border-color: #4fd1c5;
+    box-shadow: 0 0 24px rgba(79, 209, 197, 0.35);
+    background: radial-gradient(circle at top left, rgba(79, 209, 197, 0.12), var(--bg-card));
+}
+
+:root[data-theme="light"] .theme-frosthaven.selected {
+    border-color: #0d9488;
+    box-shadow: 0 6px 20px rgba(13, 148, 136, 0.25);
+    background: radial-gradient(circle at top left, rgba(204, 251, 241, 0.65), var(--bg-card));
+}
+
 :root[data-theme="dark"] .theme-pandemic.selected {
     border-color: var(--accent-blue);
     box-shadow: 0 0 24px rgba(56, 189, 248, 0.35);
@@ -321,6 +333,42 @@ body {
     border-color: var(--accent-blue);
     box-shadow: 0 6px 20px rgba(2, 132, 199, 0.25);
     background: radial-gradient(circle at top left, rgba(224, 242, 254, 0.65), var(--bg-card));
+}
+
+:root[data-theme="dark"] .theme-sleepinggods.selected {
+    border-color: #38bdf8;
+    box-shadow: 0 0 24px rgba(56, 189, 248, 0.35);
+    background: radial-gradient(circle at top left, rgba(14, 165, 233, 0.12), var(--bg-card));
+}
+
+:root[data-theme="light"] .theme-sleepinggods.selected {
+    border-color: #0284c7;
+    box-shadow: 0 6px 20px rgba(2, 132, 199, 0.25);
+    background: radial-gradient(circle at top left, rgba(224, 242, 254, 0.65), var(--bg-card));
+}
+
+:root[data-theme="dark"] .theme-oathsworn.selected {
+    border-color: #94a3b8;
+    box-shadow: 0 0 24px rgba(148, 163, 184, 0.35);
+    background: radial-gradient(circle at top left, rgba(148, 163, 184, 0.12), var(--bg-card));
+}
+
+:root[data-theme="light"] .theme-oathsworn.selected {
+    border-color: #475569;
+    box-shadow: 0 6px 20px rgba(71, 85, 105, 0.25);
+    background: radial-gradient(circle at top left, rgba(241, 245, 249, 0.65), var(--bg-card));
+}
+
+:root[data-theme="dark"] .theme-taintedgrail.selected {
+    border-color: #a855f7;
+    box-shadow: 0 0 24px rgba(168, 85, 247, 0.35);
+    background: radial-gradient(circle at top left, rgba(168, 85, 247, 0.12), var(--bg-card));
+}
+
+:root[data-theme="light"] .theme-taintedgrail.selected {
+    border-color: #7e22ce;
+    box-shadow: 0 6px 20px rgba(126, 34, 206, 0.25);
+    background: radial-gradient(circle at top left, rgba(243, 232, 255, 0.65), var(--bg-card));
 }
 
 .card-header-badge .badge-category {
@@ -353,6 +401,8 @@ body {
     font-size: 1.6rem;
     font-weight: 800;
     margin-bottom: 0.25rem;
+    font-family: var(--font-cinzel);
+    letter-spacing: 0.01em;
 }
 
 .theme-gloomhaven .game-title {
@@ -360,15 +410,52 @@ body {
     color: var(--accent-gold-text);
 }
 
+.theme-frosthaven .game-title {
+    font-family: var(--font-cinzel);
+    color: #4fd1c5;
+}
+
+:root[data-theme="light"] .theme-frosthaven .game-title {
+    color: #0f766e;
+}
+
 .theme-pandemic .game-title {
     font-family: var(--font-special);
     color: var(--accent-blue-text);
 }
 
+.theme-sleepinggods .game-title {
+    font-family: var(--font-cinzel);
+    color: #38bdf8;
+}
+
+:root[data-theme="light"] .theme-sleepinggods .game-title {
+    color: #0284c7;
+}
+
+.theme-oathsworn .game-title {
+    font-family: var(--font-cinzel);
+    color: #cbd5e1;
+}
+
+:root[data-theme="light"] .theme-oathsworn .game-title {
+    color: #334155;
+}
+
+.theme-taintedgrail .game-title {
+    font-family: var(--font-cinzel);
+    color: #c084fc;
+}
+
+:root[data-theme="light"] .theme-taintedgrail .game-title {
+    color: #6b21a8;
+}
+
 .game-subtitle {
     font-size: 0.9rem;
     color: var(--text-muted);
-    min-height: 2.6rem;
+    min-height: 2.8rem;
+    line-height: 1.4;
 }
 
 .game-meta-pills {
@@ -393,6 +480,11 @@ body {
     border-left: 2px solid var(--border-color);
     padding-left: 0.65rem;
     margin-bottom: 1rem;
+    min-height: 3.6rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .key-features-list .feature-item {
@@ -423,10 +515,38 @@ body {
     font-weight: 700;
 }
 
+.theme-frosthaven .btn-select-game.btn-active {
+    background: #4fd1c5;
+    color: #000;
+    border-color: #4fd1c5;
+    font-weight: 700;
+}
+
 .theme-pandemic .btn-select-game.btn-active {
     background: var(--accent-blue);
     color: #000;
     border-color: var(--accent-blue);
+    font-weight: 700;
+}
+
+.theme-sleepinggods .btn-select-game.btn-active {
+    background: #0ea5e9;
+    color: #000;
+    border-color: #0ea5e9;
+    font-weight: 700;
+}
+
+.theme-oathsworn .btn-select-game.btn-active {
+    background: #94a3b8;
+    color: #000;
+    border-color: #94a3b8;
+    font-weight: 700;
+}
+
+.theme-taintedgrail .btn-select-game.btn-active {
+    background: #a855f7;
+    color: #fff;
+    border-color: #a855f7;
     font-weight: 700;
 }
 
@@ -449,9 +569,45 @@ body {
     border-color: var(--hero-gloom-border);
 }
 
+.hero-frosthaven {
+    background: radial-gradient(circle at top right, #134e4a 0%, #0f2d2e 60%, #041416 100%);
+    border-color: rgba(79, 209, 197, 0.4);
+}
+:root[data-theme="light"] .hero-frosthaven {
+    background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 50%, #99f6e4 100%);
+    border-color: rgba(13, 148, 136, 0.4);
+}
+
 .hero-pandemic {
     background: var(--hero-pandemic-bg);
     border-color: var(--hero-pandemic-border);
+}
+
+.hero-sleepinggods {
+    background: radial-gradient(circle at top right, #0c2d48 0%, #0c1b2a 60%, #050d14 100%);
+    border-color: rgba(56, 189, 248, 0.4);
+}
+:root[data-theme="light"] .hero-sleepinggods {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #bae6fd 100%);
+    border-color: rgba(2, 132, 199, 0.4);
+}
+
+.hero-oathsworn {
+    background: radial-gradient(circle at top right, #1e293b 0%, #141c27 60%, #0a0e14 100%);
+    border-color: rgba(148, 163, 184, 0.4);
+}
+:root[data-theme="light"] .hero-oathsworn {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%);
+    border-color: rgba(71, 85, 105, 0.4);
+}
+
+.hero-taintedgrail {
+    background: radial-gradient(circle at top right, #3b0764 0%, #220738 60%, #120320 100%);
+    border-color: rgba(168, 85, 247, 0.4);
+}
+:root[data-theme="light"] .hero-taintedgrail {
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 50%, #e9d5ff 100%);
+    border-color: rgba(126, 34, 206, 0.4);
 }
 
 .hero-badge-strip {
@@ -491,11 +647,51 @@ body {
     font-weight: 900;
 }
 
+.hero-frosthaven .hero-main-title {
+    font-family: var(--font-cinzel);
+    color: #4fd1c5;
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+:root[data-theme="light"] .hero-frosthaven .hero-main-title {
+    color: #0f766e;
+}
+
 .hero-pandemic .hero-main-title {
     font-family: var(--font-special);
     color: var(--accent-blue-text);
     font-size: 2.4rem;
     font-weight: 900;
+}
+
+.hero-sleepinggods .hero-main-title {
+    font-family: var(--font-cinzel);
+    color: #38bdf8;
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+:root[data-theme="light"] .hero-sleepinggods .hero-main-title {
+    color: #0284c7;
+}
+
+.hero-oathsworn .hero-main-title {
+    font-family: var(--font-cinzel);
+    color: #cbd5e1;
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+:root[data-theme="light"] .hero-oathsworn .hero-main-title {
+    color: #334155;
+}
+
+.hero-taintedgrail .hero-main-title {
+    font-family: var(--font-cinzel);
+    color: #c084fc;
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+:root[data-theme="light"] .hero-taintedgrail .hero-main-title {
+    color: #6b21a8;
 }
 
 .hero-main-subtitle {
@@ -915,31 +1111,53 @@ body {
 }
 .roadmap-frosthaven .roadmap-title {
     font-family: var(--font-cinzel);
-    color: var(--theme-frosthaven-primary);
+    color: #4fd1c5;
 }
 
 .roadmap-gloomhaven {
     border-color: rgba(245, 158, 11, 0.3);
 }
+.roadmap-gloomhaven .roadmap-title {
+    font-family: var(--font-cinzel);
+    color: var(--accent-gold-text);
+}
 
 .roadmap-pandemic {
     border-color: rgba(56, 189, 248, 0.3);
+}
+.roadmap-pandemic .roadmap-title {
+    font-family: var(--font-special);
+    color: var(--accent-blue-text);
+}
+
+.roadmap-sleepinggods {
+    border-color: rgba(56, 189, 248, 0.3);
+}
+.roadmap-sleepinggods .roadmap-title {
+    font-family: var(--font-cinzel);
+    color: #38bdf8;
+}
+
+.roadmap-oathsworn {
+    border-color: rgba(148, 163, 184, 0.3);
+}
+.roadmap-oathsworn .roadmap-title {
+    font-family: var(--font-cinzel);
+    color: #cbd5e1;
+}
+
+.roadmap-taintedgrail {
+    border-color: rgba(168, 85, 247, 0.3);
+}
+.roadmap-taintedgrail .roadmap-title {
+    font-family: var(--font-cinzel);
+    color: #c084fc;
 }
 
 .roadmap-title {
     font-size: 1.25rem;
     font-weight: 700;
     margin-bottom: 0.2rem;
-}
-
-.roadmap-gloomhaven .roadmap-title {
-    font-family: var(--font-cinzel);
-    color: var(--accent-gold-text);
-}
-
-.roadmap-pandemic .roadmap-title {
-    font-family: var(--font-special);
-    color: var(--accent-blue-text);
 }
 
 .roadmap-subtitle {

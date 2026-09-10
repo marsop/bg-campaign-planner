@@ -7,11 +7,9 @@
         @foreach (var game in Games)
         {
             var isSelected = SelectedGameId == game.Id;
-            var isGloomhaven = game.Id == GameId.Gloomhaven;
-            var isFrosthaven = game.Id == GameId.Frosthaven;
 
             <div class="col-12 col-md-6">
-                <div class="game-selection-card @(isSelected ? "selected" : "") @(isGloomhaven ? "theme-gloomhaven" : isFrosthaven ? "theme-frosthaven" : "theme-pandemic")"
+                <div class="game-selection-card @(isSelected ? "selected" : "") @GetGameThemeClass(game.Id)"
                      @onclick="() => OnGameSelected.InvokeAsync(game.Id)"
                      role="button"
                      tabindex="0"
@@ -43,18 +41,7 @@
 
                     <div class="game-card-body">
                         <div class="game-card-emblem mb-2">
-                            @if (isGloomhaven)
-                            {
-                                <span class="emblem-icon">⚔️🛡️</span>
-                            }
-                            else if (isFrosthaven)
-                            {
-                                <span class="emblem-icon">❄️🛡️</span>
-                            }
-                            else
-                            {
-                                <span class="emblem-icon">🕵️📁</span>
-                            }
+                            <span class="emblem-icon">@GetGameEmblem(game.Id)</span>
                         </div>
 
                         <h3 class="game-title">@game.Title</h3>
@@ -125,4 +112,26 @@
 
     [Parameter]
     public EventCallback<GameId> OnGameSelected { get; set; }
+
+    private string GetGameThemeClass(GameId gameId) => gameId switch
+    {
+        GameId.Gloomhaven => "theme-gloomhaven",
+        GameId.Frosthaven => "theme-frosthaven",
+        GameId.PandemicSeason0 => "theme-pandemic",
+        GameId.SleepingGods => "theme-sleepinggods",
+        GameId.Oathsworn => "theme-oathsworn",
+        GameId.TaintedGrailFallOfAvalon => "theme-taintedgrail",
+        _ => "theme-gloomhaven"
+    };
+
+    private string GetGameEmblem(GameId gameId) => gameId switch
+    {
+        GameId.Gloomhaven => "⚔️🛡️",
+        GameId.Frosthaven => "❄️🛡️",
+        GameId.PandemicSeason0 => "🕵️📁",
+        GameId.SleepingGods => "🚢🌊",
+        GameId.Oathsworn => "🌲🐺",
+        GameId.TaintedGrailFallOfAvalon => "🗡️🕯️",
+        _ => "🎲⚔️"
+    };
 }

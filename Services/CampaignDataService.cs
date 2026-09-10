@@ -196,28 +196,110 @@ public class CampaignDataService
         {
             Id = GameId.SleepingGods,
             Title = "Sleeping Gods",
-            Subtitle = "You are Captain Sofi Odessa and her crew lost at sea in a strange world. Aboard the steamship Manticore, you must work together to survive by exploring mysterious islands, battling creatures, and meeting the world's inhabitants. Along the way, seek out the totems of the gods.",
+            Subtitle = "Cooperative nautical exploration and storybook survival across the Wandering Sea",
+            ReleaseYear = 2021,
             Designers = "Ryan Laukat",
+            PlayersMin = 1,
+            PlayersMax = 4,
+            BggRating = 8.4,
+            BggWeight = 3.28,
             BggUrl = "https://boardgamegeek.com/boardgame/255984/sleeping-gods",
             ImageUrl = "https://cf.geekdo-images.com/nS3N3B75f4h_7vXWzVvTww__imagepage/img/Lh9D_Jk2xS4eG5UqQ2sD3w5n_wM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4223169.jpg",
             BaseScenarioMinutes = 60,
             SetupTeardownMinutes = 15,
-            Theme = new GameTheming(),
-            KeyFeatures = new List<string>(),
-            PublicSourceReferences = new List<string>(),
+            TotalBoxContentSummary = "Spiral-bound atlas of the Wandering Sea, 172-page storybook, 8 playable crew members, event deck, quest cards, and secret adventure envelopes.",
+            Theme = new GameTheming
+            {
+                PrimaryColor = "#0284c7",
+                SecondaryColor = "#0f172a",
+                AccentColor = "#f59e0b",
+                BackgroundGradient = "radial-gradient(ellipse at top, #1e3a5f 0%, #0f172a 60%, #020617 100%)",
+                CardBackground = "rgba(15, 23, 42, 0.90)",
+                BorderColor = "rgba(2, 132, 199, 0.35)",
+                GlowColor = "rgba(2, 132, 199, 0.25)",
+                HeaderFont = "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+                BodyFont = "'Inter', system-ui, sans-serif",
+                Tagline = "Explore the Wandering Sea and awaken the slumbering gods",
+                LoreSummary = "The year is 1929. The steamship Manticore is lost in a strange, uncharted world. You and your crew must explore mysterious islands, survive perilous encounters, and discover the totems of the gods to find your way home.",
+                BadgeCategory = "Cooperative Narrative Adventure"
+            },
+            KeyFeatures = new List<string>
+            {
+                "Rich storybook-driven exploration with hundreds of branching quests",
+                "Tactical combat synergy system with weapon skills and condition damage",
+                "Expansive atlas navigation aboard the steamship Manticore",
+                "Persistent campaign unlocks with totems, recipes, and quest cards"
+            },
+            PublicSourceReferences = new List<string>
+            {
+                "BoardGameGeek (Top 100 Overall / Top 20 Thematic)",
+                "Red Raven Games Official Rulebook & Storybook",
+                "Community Campaign Logs and Session Averages"
+            },
             Scopes = new List<CampaignScopeOption>
             {
                 new()
                 {
                     Id = "sg_standard",
-                    Name = "Standard Campaign",
-                    Description = "A single full campaign through the Wandering Seas.",
-                    BaseScenarioCount = 15, // Approx 15 hours / 1 hour chunks
-                    EstimatedFailRatePercent = 0.0,
+                    Name = "Standard Campaign (Full Journey)",
+                    Description = "A complete voyage through the Wandering Sea completing major quests and collecting divine totems.",
+                    BaseScenarioCount = 16,
+                    EstimatedFailRatePercent = 5.0,
                     IsRecommended = true
+                },
+                new()
+                {
+                    Id = "sg_quick",
+                    Name = "Short Exploratory Expedition",
+                    Description = "A streamlined nautical expedition exploring nearby archipelagos and solving introductory quests.",
+                    BaseScenarioCount = 10,
+                    EstimatedFailRatePercent = 5.0,
+                    IsRecommended = false
                 }
             },
-            Milestones = new List<GameMilestone>()
+            Milestones = new List<GameMilestone>
+            {
+                new()
+                {
+                    Order = 1,
+                    Title = "Setting Sail on the Manticore",
+                    Phase = "Act I - The Uncharted Seas",
+                    Description = "First island landing, repairing the steamship, and encountering the strange locals.",
+                    AtScenarioOrGameIndex = 3,
+                    BadgeText = "Voyage Begins",
+                    IconEmoji = "⛵"
+                },
+                new()
+                {
+                    Order = 2,
+                    Title = "The First Divine Totem",
+                    Phase = "Act I - Relic Discovery",
+                    Description = "Overcoming ancient perils to recover the first totem of the slumbering gods.",
+                    AtScenarioOrGameIndex = 6,
+                    BadgeText = "Totem Found",
+                    IconEmoji = "🗿"
+                },
+                new()
+                {
+                    Order = 3,
+                    Title = "Dangers of the Wandering Sea",
+                    Phase = "Act II - Perilous Waters",
+                    Description = "Confronting sea monstrosities, surviving treacherous weather, and upgrading crew skills.",
+                    AtScenarioOrGameIndex = 11,
+                    BadgeText = "Sea Peril",
+                    IconEmoji = "🌊"
+                },
+                new()
+                {
+                    Order = 4,
+                    Title = "The Awakening of the Gods",
+                    Phase = "Finale - Awakening the Gods",
+                    Description = "Reaching the heart of the realm and performing the awakening ritual to find the passage home.",
+                    AtScenarioOrGameIndex = 16,
+                    BadgeText = "Grand Finale",
+                    IconEmoji = "👑"
+                }
+            }
         };
 
         dict[GameId.PandemicSeason0] = new BoardGame
