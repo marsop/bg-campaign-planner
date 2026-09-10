@@ -232,6 +232,7 @@ public class PlannerCalculatorService
             {
                 SessionNumber = sessionNum,
                 Date = currentDate,
+                StartTime = input.StartTime,
                 StartScenarioIndex = startIdx,
                 EndScenarioIndex = endIdx,
                 ScenariosPlayedInSession = sessionPlayCount,
@@ -318,8 +319,8 @@ public class PlannerCalculatorService
 
         foreach (var session in result.Sessions)
         {
-            DateTime start = session.Date.Date.AddHours(19); // Default evening start
-            DateTime end = start.AddHours(session.EstimatedSessionHours);
+            DateTime start = session.StartDateTime;
+            DateTime end = session.EndDateTime;
 
             string uid = $"bg-session-{result.Game.Id}-{session.SessionNumber}-{session.Date:yyyyMMdd}@campaignplanner";
             string summary = loc != null

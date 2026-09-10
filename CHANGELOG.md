@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Configurable Session Start Time**:
+  - Added session start time configuration to the planner form with a default of `17:00` (5:00 PM), applicable to all games.
+  - Added quick preset buttons (`14:00`, `17:00`, `19:00`, `20:00`) and standard HTML5 `<input type="time">`.
+  - Updated calendar timeline to display start and end times dynamically based on the configured start time and estimated duration.
+  - Updated RFC 5545 `.ics` export to generate event start and end timestamps reflecting the configured time.
+  - Added multilingual resource localization for the session start time across English, Spanish, German, French, and Italian.
 - **Spoiler-Free Campaign Progress Checkpoint Architecture**:
   - Replaced all specific scenario names, boss names, narrative secrets, and plot key events with dynamic, spoiler-free campaign progression checkpoints (Quarter Mark 25%, Midpoint 50%, Three-Quarter Stretch 75%, Finale 100%).
   - Checkpoints are dynamically generated based on the selected scope's actual scenario count and failure buffer.
@@ -41,7 +47,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Clipboard Summary Formatting**:
   - Fixed summary text generation in `SessionsTimeline.razor` to correctly invoke parameterized `Kpi.DurationSubtext` with calendar month and week values.
 
-### Changed
+- **Updated Hero Explanation Text Across All Languages**:
+  - Generalized `App.HeroLead` to showcase the broader catalog of available board games instead of restricting only to Gloomhaven and Pandemic Legacy: Season 0.
+  - Updated translations in English, Spanish, German, French, and Italian `.resx` files and streamlined rendering in `Home.razor`.
 - **Migrated Localization to Standard Blazor (.resx) Architecture**:
   - Replaced custom in-memory dictionary (`TranslationDictionary.cs`) with standard XML `.resx` resource files (`AppResources.resx`, `AppResources.en.resx`, `AppResources.es.resx`, `AppResources.de.resx`, `AppResources.fr.resx`, `AppResources.it.resx`).
   - Integrated `Microsoft.Extensions.Localization` and `IStringLocalizer<AppResources>` across all Razor components.

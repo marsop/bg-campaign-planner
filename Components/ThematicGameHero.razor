@@ -14,8 +14,18 @@
                         <span class="hero-badge-tagline">@Game.Theme.Tagline</span>
                     </div>
 
-                    <h1 class="hero-main-title">@Game.Title</h1>
-                    <p class="hero-main-subtitle">@Game.Subtitle</p>
+                    <div class="hero-identity-header d-flex align-items-center gap-3 gap-md-4 mb-3">
+                        @if (!string.IsNullOrEmpty(Game.ImageUrl))
+                        {
+                            <div class="hero-cover-box flex-shrink-0">
+                                <img src="@Game.ImageUrl" alt="@Game.Title" class="hero-cover-img" />
+                            </div>
+                        }
+                        <div class="hero-identity-text flex-grow-1 min-w-0">
+                            <h1 class="hero-main-title mb-1">@Game.Title</h1>
+                            <p class="hero-main-subtitle mb-0">@Game.Subtitle</p>
+                        </div>
+                    </div>
 
                     <div class="hero-lore-box mb-3">
                         <div class="lore-icon">
@@ -26,15 +36,6 @@
                         </div>
                     </div>
 
-                    <div class="hero-stats-row">
-                        <div class="hero-stat-pill">
-                            <span class="stat-icon">📦</span>
-                            <div>
-                                <div class="stat-label">@Loc["Hero.BoxContents"]</div>
-                                <div class="stat-val">@Game.TotalBoxContentSummary</div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="col-lg-4 mt-3 mt-lg-0">
@@ -61,12 +62,20 @@
                                 <span class="fw-bold text-highlight">🧠 @Game.BggWeight.ToString("F2", CultureInfo.CurrentCulture) / 5.0</span>
                             </div>
                             <div class="d-flex justify-content-between mb-2">
+                                <span class="text-muted-light">@Loc["Hero.Players"]</span>
+                                <span class="fw-bold text-highlight">👥 @(Game.PlayersMin == Game.PlayersMax ? $"{Game.PlayersMin}" : $"{Game.PlayersMin}–{Game.PlayersMax}")</span>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
                                 <span class="text-muted-light">@Loc["Hero.AvgPlay"]</span>
                                 <span class="fw-bold text-highlight">⏱️ ~@Game.BaseScenarioMinutes @Loc["Hero.Mins"]</span>
                             </div>
                             <div class="d-flex justify-content-between mb-2">
                                 <span class="text-muted-light">@Loc["Hero.SetupTeardown"]</span>
                                 <span class="fw-bold text-highlight">🛠️ ~@Game.SetupTeardownMinutes @Loc["Hero.Mins"]</span>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <span class="text-muted-light">@Loc["Hero.Release"]</span>
+                                <span class="fw-bold text-highlight">📅 @Game.ReleaseYear</span>
                             </div>
 
                             <hr class="panel-divider" />

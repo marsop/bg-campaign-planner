@@ -64,7 +64,6 @@ public class BoardGame
     public string BggUrl { get; set; } = string.Empty;
     public int BaseScenarioMinutes { get; set; } = 105;
     public int SetupTeardownMinutes { get; set; } = 25;
-    public string TotalBoxContentSummary { get; set; } = string.Empty;
     public List<CampaignScopeOption> Scopes { get; set; } = new();
     public List<GameMilestone> Milestones { get; set; } = new();
     public GameTheming Theme { get; set; } = new();

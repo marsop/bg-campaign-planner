@@ -79,9 +79,9 @@ public class CampaignDataService
             BggRating = 8.6,
             BggWeight = 3.90,
             BggUrl = "https://boardgamegeek.com/boardgame/174430/gloomhaven",
+            ImageUrl = "images/games/gloomhaven.webp",
             BaseScenarioMinutes = 100,
             SetupTeardownMinutes = 25,
-            TotalBoxContentSummary = "95 Scenario campaign book, 17 playable mercenary classes, 47 monster types, 300+ items, evolving city stickers and town records.",
             Theme = new GameTheming
             {
                 PrimaryColor = "#e5a93b",
@@ -162,10 +162,9 @@ public class CampaignDataService
             BggRating = 8.4,
             BggWeight = 3.28,
             BggUrl = "https://boardgamegeek.com/boardgame/255984/sleeping-gods",
-            ImageUrl = "https://cf.geekdo-images.com/nS3N3B75f4h_7vXWzVvTww__imagepage/img/Lh9D_Jk2xS4eG5UqQ2sD3w5n_wM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4223169.jpg",
+            ImageUrl = "images/games/sleeping-gods.webp",
             BaseScenarioMinutes = 60,
             SetupTeardownMinutes = 15,
-            TotalBoxContentSummary = "Spiral-bound atlas of the Wandering Sea, 172-page storybook, 8 playable crew members, event deck, quest cards, and secret adventure envelopes.",
             Theme = new GameTheming
             {
                 PrimaryColor = "#0284c7",
@@ -228,9 +227,9 @@ public class CampaignDataService
             BggRating = 8.3,
             BggWeight = 3.18,
             BggUrl = "https://boardgamegeek.com/boardgame/314040/pandemic-legacy-season-0",
+            ImageUrl = "images/games/pandemic-season-0.webp",
             BaseScenarioMinutes = 65,
             SetupTeardownMinutes = 18,
-            TotalBoxContentSummary = "12 Campaign Month dossiers, customizable spy passports with fake aliases, scratch-off cards, surveillance tokens, locked mystery boxes.",
             Theme = new GameTheming
             {
                 PrimaryColor = "#38bdf8",
@@ -312,10 +311,9 @@ public class CampaignDataService
             BggRating = 8.7,
             BggWeight = 3.79,
             BggUrl = "https://boardgamegeek.com/boardgame/251661/oathsworn-into-the-deepwood",
-            ImageUrl = "https://cf.geekdo-images.com/gK1303HhYx1_E-9Fw0r4Mw__imagepage/img/Khyf_j5Xh9Z1bX-Jp0g5X4w7gQc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4654922.jpg",
+            ImageUrl = "images/games/oathsworn.webp",
             BaseScenarioMinutes = 120,
             SetupTeardownMinutes = 30,
-            TotalBoxContentSummary = "21 Chapters, 15+ Boss encounters, modular game boards, interactive app.",
             Theme = new GameTheming
             {
                 PrimaryColor = "#4a5568",
@@ -377,9 +375,9 @@ public class CampaignDataService
             BggRating = 8.8,
             BggWeight = 4.40,
             BggUrl = "https://boardgamegeek.com/boardgame/295770/frosthaven",
+            ImageUrl = "images/games/frosthaven.webp",
             BaseScenarioMinutes = 120,
             SetupTeardownMinutes = 30,
-            TotalBoxContentSummary = "138 Scenario campaign book, 18 playable classes, extensive crafting and settlement building systems, evolving world.",
             Theme = new GameTheming
             {
                 PrimaryColor = "#4fd1c5",
@@ -450,9 +448,9 @@ public class CampaignDataService
             BggRating = 8.0,
             BggWeight = 3.28,
             BggUrl = "https://boardgamegeek.com/boardgame/264220/tainted-grail-the-fall-of-avalon",
+            ImageUrl = "images/games/tainted-grail.webp",
             BaseScenarioMinutes = 120,
             SetupTeardownMinutes = 20,
-            TotalBoxContentSummary = "A branching 15-chapter campaign, oversized location cards, detailed miniatures, and a deep narrative exploration journal.",
             Theme = new GameTheming
             {
                 PrimaryColor = "#593c7a",
@@ -480,7 +478,6 @@ public class CampaignDataService
                 "BoardGameGeek (Top 100 Thematic)",
                 "Awaken Realms Official Rulebook and Campaign Log"
             },
-            ImageUrl = "https://cf.geekdo-images.com/S-K-P0Z81Dk4F_d_s3k80Q__imagepage/img/KjZgYhC0k-rY4aZ5y4H9b-N7L_A=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4473767.jpg",
             Scopes = new List<CampaignScopeOption>
             {
                 new()
@@ -504,7 +501,6 @@ public class CampaignDataService
         // Gloomhaven ES
         var gh = dict[GameId.Gloomhaven];
         gh.Subtitle = "Combate táctico de estilo europeo en un mundo persistente y evolutivo de alta fantasía";
-        gh.TotalBoxContentSummary = "Libro de campaña con 95 escenarios, 17 clases de mercenarios, 47 tipos de monstruos, más de 300 objetos, pegatinas y registros de la ciudad.";
         gh.Theme.Tagline = "Adéntrate en las implacables sombras del León Durmiente";
         gh.Theme.LoreSummary = "Sois mercenarios errantes con habilidades únicas. En la inhóspita frontera de la civilización, cada decisión altera permanentemente el mundo que os rodea.";
         gh.Theme.BadgeCategory = "RPG Táctico de Fantasía Oscura";
@@ -527,7 +523,6 @@ public class CampaignDataService
         // Pandemic Season 0 ES
         var pan = dict[GameId.PandemicSeason0];
         pan.Subtitle = "Thriller de espionaje en plena Guerra Fría (1962) y operaciones encubiertas de la CIA";
-        pan.TotalBoxContentSummary = "12 dossiers mensuales de campaña, pasaportes de espías personalizables con identidades falsas, mapas 'rasca', fichas de vigilancia.";
         pan.Theme.Tagline = "ALTO SECRETO // INFORME CLASIFICADO DE LA CIA // 1962";
         pan.Theme.LoreSummary = "Es el año 1962. La Guerra Fría está en su punto álgido. Tú y tu equipo de la CIA debéis investigar el Proyecto MEDUSA, un programa soviético de armas biológicas.";
         pan.Theme.BadgeCategory = "Campaña Cooperativa de Espionaje";
@@ -551,7 +546,6 @@ public class CampaignDataService
         // Oathsworn ES
         var os = dict[GameId.Oathsworn];
         os.Subtitle = "Campaña de misterio y combate cooperativo contra jefes de fantasía oscura";
-        os.TotalBoxContentSummary = "21 Capítulos, más de 15 encuentros con jefes, tableros modulares, aplicación interactiva.";
         os.Theme.Tagline = "Adéntrate en Deepwood y enfréntate a los horrores que alberga";
         os.Theme.LoreSummary = "En un mundo consumido por Deepwood, el último bastión de la humanidad confía en los Oathsworn, una compañía de mercenarios curtidos, para luchar contra la oscuridad invasora y las entidades monstruosas.";
         os.Theme.BadgeCategory = "Combate contra Jefes de Fantasía Oscura";
@@ -570,7 +564,6 @@ public class CampaignDataService
         // Frosthaven ES
         var fh = dict[GameId.Frosthaven];
         fh.Subtitle = "Aventura cooperativa épica y construcción de asentamientos en el gélido norte";
-        fh.TotalBoxContentSummary = "Libro de campaña con 138 escenarios, 18 clases jugables, extensos sistemas de artesanía y construcción, mundo en evolución.";
         fh.Theme.Tagline = "Desafía los páramos helados y reconstruye el puesto fronterizo";
         fh.Theme.LoreSummary = "Sois un grupo de mercenarios en el fin del mundo, luchando para proteger un pequeño asentamiento de los elementos y las bestias del norte helado.";
         fh.Theme.BadgeCategory = "RPG de Fantasía y Construcción de Ciudades";
@@ -592,7 +585,6 @@ public class CampaignDataService
         // Tainted Grail ES
         var tg = dict[GameId.TaintedGrailFallOfAvalon];
         tg.Subtitle = "Una oscura aventura cooperativa de supervivencia en un mundo artúrico agonizante";
-        tg.TotalBoxContentSummary = "Campaña ramificada de 15 capítulos, cartas de localización gigantes, miniaturas detalladas y un profundo diario de exploración.";
         tg.Theme.Tagline = "Enciende los Menhires y sobrevive a la Rareza";
         tg.Theme.LoreSummary = "El legendario Rey Arturo ha muerto, los Menhires que protegen Avalon se desvanecen y la Rareza está consumiendo la tierra. No sois los héroes elegidos, pero sois todo lo que queda.";
         tg.Theme.BadgeCategory = "RPG de Supervivencia y Fantasía Oscura";
@@ -609,7 +601,6 @@ public class CampaignDataService
         // Sleeping Gods ES
         var sg = dict[GameId.SleepingGods];
         sg.Subtitle = "Exploración náutica cooperativa y supervivencia con libro de historias a través del Mar Errante";
-        sg.TotalBoxContentSummary = "Atlas encuadernado en espiral del Mar Errante, libro de historias de 172 páginas, 8 miembros de tripulación jugables, mazo de eventos, cartas de misión y sobres secretos.";
         sg.Theme.Tagline = "Explora el Mar Errante y despierta a los dioses dormidos";
         sg.Theme.LoreSummary = "Es el año 1929. El barco de vapor Manticore se pierde en un mundo extraño y desconocido. Tú y tu tripulación debéis explorar islas misteriosas, sobrevivir a encuentros peligrosos y descubrir los tótems de los dioses para encontrar el camino de regreso a casa.";
         sg.Theme.BadgeCategory = "Aventura Narrativa Cooperativa";
@@ -635,7 +626,6 @@ public class CampaignDataService
         // Gloomhaven DE
         var gh = dict[GameId.Gloomhaven];
         gh.Subtitle = "Euro-inspiriertes taktisches Kampfsystem in einer persistenten, sich entwickelnden Fantasy-Welt";
-        gh.TotalBoxContentSummary = "Kampagnenbuch mit 95 Szenarien, 17 spielbare Söldnerklassen, 47 Monstertypen, 300+ Gegenstände, Stadt-Sticker und Stadtchronik.";
         gh.Theme.Tagline = "Wage dich in die unbarmherzigen Schatten des Schlafenden Löwen";
         gh.Theme.LoreSummary = "Ihr seid wandernde Söldner mit besonderen Talenten. In der rauen Wildnis am Rande der Zivilisation verändert jede Entscheidung die Welt dauerhaft.";
         gh.Theme.BadgeCategory = "Dark-Fantasy Taktik-RPG";
@@ -658,7 +648,6 @@ public class CampaignDataService
         // Pandemic Season 0 DE
         var pan = dict[GameId.PandemicSeason0];
         pan.Subtitle = "Spionage-Thriller zur Zeit des Kalten Krieges (1962) und geheime CIA-Operationen";
-        pan.TotalBoxContentSummary = "12 Kampagnen-Monatsdossiers, anpassbare Spionagepässe mit Tarnidentitäten, Rubbelkarten, Überwachungsmarker.";
         pan.Theme.Tagline = "STRENG GEHEIM // CIA-BRIEFING // 1962";
         pan.Theme.LoreSummary = "Wir schreiben das Jahr 1962. Der Kalte Krieg erreicht seinen Höhepunkt. Ihr untersucht Projekt MEDUSA, ein sowjetisches Biowaffenprogramm.";
         pan.Theme.BadgeCategory = "Kooperative Spionage-Kampagne";
@@ -682,7 +671,6 @@ public class CampaignDataService
         // Oathsworn DE
         var os = dict[GameId.Oathsworn];
         os.Subtitle = "Dark Fantasy kooperativer Boss-Battler und Mystery-Kampagne";
-        os.TotalBoxContentSummary = "21 Kapitel, über 15 Boss-Begegnungen, modulare Spielpläne, interaktive App.";
         os.Theme.Tagline = "Wage dich in den Deepwood und stelle dich den Schrecken darin";
         os.Theme.LoreSummary = "In einer vom Deepwood verschlungenen Welt verlässt sich die letzte Bastion der Menschheit auf die Oathsworn, eine Kompanie abgehärteter Söldner, um die vordringende Dunkelheit und monströsen Wesen zu bekämpfen.";
         os.Theme.BadgeCategory = "Dark Fantasy Boss-Battler";
@@ -701,7 +689,6 @@ public class CampaignDataService
         // Frosthaven DE
         var fh = dict[GameId.Frosthaven];
         fh.Subtitle = "Episches kooperatives Abenteuer und Siedlungsbau im eisigen Norden";
-        fh.TotalBoxContentSummary = "Kampagnenbuch mit 138 Szenarien, 18 spielbare Klassen, umfangreiches Crafting- und Siedlungssystem, sich entwickelnde Welt.";
         fh.Theme.Tagline = "Trotze der eisigen Ödnis und baue den nördlichen Außenposten wieder auf";
         fh.Theme.LoreSummary = "Ihr seid Söldner am Ende der Welt, die kämpfen, um einen kleinen Außenposten vor den harten Elementen und monströsen Bedrohungen zu schützen.";
         fh.Theme.BadgeCategory = "Fantasy-RPG & Städtebau";
@@ -723,7 +710,6 @@ public class CampaignDataService
         // Tainted Grail DE
         var tg = dict[GameId.TaintedGrailFallOfAvalon];
         tg.Subtitle = "Ein düsteres, kooperatives Survival-Abenteuer in einer sterbenden Artus-Welt";
-        tg.TotalBoxContentSummary = "Eine verzweigte Kampagne mit 15 Kapiteln, übergroße Ortskarten, detaillierte Miniaturen und ein tiefgründiges Erkundungstagebuch.";
         tg.Theme.Tagline = "Entzünde die Menhire und überlebe die Wyrdnis";
         tg.Theme.LoreSummary = "Der legendäre König Artus ist tot, die Menhire, die Avalon schützen, verblassen und die Wyrdnis verschlingt das Land. Ihr seid nicht die auserwählten Helden, aber ihr seid alles, was noch übrig ist.";
         tg.Theme.BadgeCategory = "Dark Fantasy Survival RPG";
@@ -740,7 +726,6 @@ public class CampaignDataService
         // Sleeping Gods DE
         var sg = dict[GameId.SleepingGods];
         sg.Subtitle = "Kooperative nautische Erkundung und Storybuch-Überleben auf der Wandernden See";
-        sg.TotalBoxContentSummary = "Spiralgebundener Atlas der Wandernden See, 172-seitiges Storybuch, 8 spielbare Besatzungsmitglieder, Ereignisdeck, Questkarten und geheime Abenteuerumschläge.";
         sg.Theme.Tagline = "Erkunde die Wandernde See und erwecke die schlummernden Götter";
         sg.Theme.LoreSummary = "Wir schreiben das Jahr 1929. Das Dampfschiff Manticore ist in einer seltsamen, unbekannten Welt verschollen. Du und deine Crew müsst geheimnisvolle Inseln erkunden, gefährliche Begegnungen überstehen und die Totems der Götter finden, um den Weg nach Hause zu entdecken.";
         sg.Theme.BadgeCategory = "Kooperatives Erzählabenteuer";
@@ -766,7 +751,6 @@ public class CampaignDataService
         // Gloomhaven FR
         var gh = dict[GameId.Gloomhaven];
         gh.Subtitle = "Combat tactique d'inspiration européenne dans un monde persistant et évolutif de dark fantasy";
-        gh.TotalBoxContentSummary = "Livre de campagne de 95 scénarios, 17 classes de mercenaires, 47 types de monstres, plus de 300 objets, autocollants et archives de la ville.";
         gh.Theme.Tagline = "Aventurez-vous dans les ombres impitoyables du Lion Assoupi";
         gh.Theme.LoreSummary = "Vous êtes des mercenaires itinérants aux compétences uniques. Dans les terres sauvages aux confins de la civilisation, chaque choix transforme le monde.";
         gh.Theme.BadgeCategory = "RPG Tactique Dark Fantasy";
@@ -789,7 +773,6 @@ public class CampaignDataService
         // Pandemic Season 0 FR
         var pan = dict[GameId.PandemicSeason0];
         pan.Subtitle = "Thriller d'espionnage pendant la Guerre Froide (1962) et opérations secrètes de la CIA";
-        pan.TotalBoxContentSummary = "12 dossiers de mois de campagne, passeports d'espions avec faux alias, cartes à gratter, jetons de surveillance.";
         pan.Theme.Tagline = "TOP SECRET // BRIEFING CLASSIFIÉ CIA // 1962";
         pan.Theme.LoreSummary = "En 1962, au paroxysme de la Guerre Froide, vous enquêtez sur le Projet MÉDUSE, une redoutable menace biologique soviétique.";
         pan.Theme.BadgeCategory = "Campagne Coopérative d'Espionnage";
@@ -813,7 +796,6 @@ public class CampaignDataService
         // Oathsworn FR
         var os = dict[GameId.Oathsworn];
         os.Subtitle = "Campagne de mystère et de combat coopératif contre des boss de dark fantasy";
-        os.TotalBoxContentSummary = "21 Chapitres, plus de 15 affrontements de boss, plateaux modulaires, application interactive.";
         os.Theme.Tagline = "Aventurez-vous dans le Deepwood et affrontez les horreurs qu'il renferme";
         os.Theme.LoreSummary = "Dans un monde consumé par le Deepwood, le dernier bastion de l'humanité s'en remet aux Oathsworn, une compagnie de mercenaires endurcis, pour repousser les ténèbres envahissantes et les entités monstrueuses.";
         os.Theme.BadgeCategory = "Combat de Boss Dark Fantasy";
@@ -832,7 +814,6 @@ public class CampaignDataService
         // Frosthaven FR
         var fh = dict[GameId.Frosthaven];
         fh.Subtitle = "Aventure coopérative épique et construction de colonie dans le nord glacé";
-        fh.TotalBoxContentSummary = "Livre de campagne de 138 scénarios, 18 classes jouables, systèmes complets d'artisanat et de colonie, monde évolutif.";
         fh.Theme.Tagline = "Brave les terres gelées et reconstruis l'avant-poste du nord";
         fh.Theme.LoreSummary = "Vous êtes un groupe de mercenaires au bout du monde, luttant pour protéger un avant-poste des éléments rudes et des monstres du nord.";
         fh.Theme.BadgeCategory = "RPG Fantasy & Construction de Ville";
@@ -854,7 +835,6 @@ public class CampaignDataService
         // Tainted Grail FR
         var tg = dict[GameId.TaintedGrailFallOfAvalon];
         tg.Subtitle = "Une sombre aventure de survie coopérative dans un monde arthurien mourant";
-        tg.TotalBoxContentSummary = "Une campagne à embranchements de 15 chapitres, des cartes de lieux surdimensionnées, des figurines détaillées et un journal d'exploration profond.";
         tg.Theme.Tagline = "Allumez les Menhirs et survivez à la Wyrd";
         tg.Theme.LoreSummary = "Le légendaire roi Arthur est mort, les Menhirs qui protègent Avalon s'éteignent, et la Wyrd consume la terre. Vous n'êtes pas les héros élus, mais vous êtes tout ce qu'il reste.";
         tg.Theme.BadgeCategory = "RPG de Survie Dark Fantasy";
@@ -871,7 +851,6 @@ public class CampaignDataService
         // Sleeping Gods FR
         var sg = dict[GameId.SleepingGods];
         sg.Subtitle = "Exploration nautique coopérative et survie narrative à travers la Mer Errange";
-        sg.TotalBoxContentSummary = "Atlas à spirales de la Mer Errange, livre d'aventures de 172 pages, 8 membres d'équipage jouables, deck d'événements, cartes de quête et enveloppes secrètes.";
         sg.Theme.Tagline = "Explorez la Mer Errange et réveillez les dieux endormis";
         sg.Theme.LoreSummary = "Nous sommes en 1929. Le bateau à vapeur Manticore est perdu dans un monde étrange et inexploré. Vous et votre équipage devez explorer des îles mystérieuses, survivre à de périlleuses rencontres et trouver les totems des dieux pour rentrer chez vous.";
         sg.Theme.BadgeCategory = "Aventure Narrative Coopérative";
@@ -897,7 +876,6 @@ public class CampaignDataService
         // Gloomhaven IT
         var gh = dict[GameId.Gloomhaven];
         gh.Subtitle = "Combattimento tattico di stampo euro in un mondo persistente ed evolutivo di dark fantasy";
-        gh.TotalBoxContentSummary = "Libro di campagna con 95 scenari, 17 classi di mercenari, 47 tipi di mostri, oltre 300 oggetti, adesivi ed archivio cittadino.";
         gh.Theme.Tagline = "Avventurati nelle ombre implacabili del Leone Addormentato";
         gh.Theme.LoreSummary = "Siete mercenari erranti dotati di abilità speciali. Nelle aspre terre selvagge ai margini della civiltà, ogni scelta altera permanentemente il mondo circostante.";
         gh.Theme.BadgeCategory = "GDR Tattico Dark Fantasy";
@@ -920,7 +898,6 @@ public class CampaignDataService
         // Pandemic Season 0 IT
         var pan = dict[GameId.PandemicSeason0];
         pan.Subtitle = "Thriller di spionaggio durante la Guerra Fredda (1962) e operazioni segrete della CIA";
-        pan.TotalBoxContentSummary = "12 dossier mensili di campagna, passaporti di spie personalizzabili con false identità, mappe gratta-e-scopri, segnalini sorveglianza.";
         pan.Theme.Tagline = "TOP SECRET // BRIEFING CLASSIFICATO CIA // 1962";
         pan.Theme.LoreSummary = "Nel 1962, al culmine della Guerra Fredda, tu e la tua squadra della CIA dovete indagare sul Progetto MEDUSA, una pericolosa arma biologica sovietica.";
         pan.Theme.BadgeCategory = "Campagna Cooperativa di Spionaggio";
@@ -944,7 +921,6 @@ public class CampaignDataService
         // Oathsworn IT
         var os = dict[GameId.Oathsworn];
         os.Subtitle = "Campagna di mistero e combattimento cooperativo contro boss di dark fantasy";
-        os.TotalBoxContentSummary = "21 Capitoli, oltre 15 scontri con boss, tabelloni modulari, app interattiva.";
         os.Theme.Tagline = "Avventurati nel Deepwood e affronta gli orrori che vi si celano";
         os.Theme.LoreSummary = "In un mondo consumato dal Deepwood, l'ultimo baluardo dell'umanità si affida agli Oathsworn, una compagnia di mercenari temprati, per combattere l'oscurità invadente e le entità mostruose.";
         os.Theme.BadgeCategory = "Combattimento contro Boss Dark Fantasy";
@@ -963,7 +939,6 @@ public class CampaignDataService
         // Frosthaven IT
         var fh = dict[GameId.Frosthaven];
         fh.Subtitle = "Epica avventura cooperativa e costruzione di un insediamento nel nord gelido";
-        fh.TotalBoxContentSummary = "Libro della campagna con 138 scenari, 18 classi giocabili, ampio sistema di creazione e costruzione, mondo in evoluzione.";
         fh.Theme.Tagline = "Affronta le lande gelate e ricostruisci l'avamposto del nord";
         fh.Theme.LoreSummary = "Siete un gruppo di mercenari ai confini del mondo, che lottano per proteggere un avamposto dalle intemperie e dalle mostruosità del nord.";
         fh.Theme.BadgeCategory = "GDR Fantasy & Costruzione Città";
@@ -985,7 +960,6 @@ public class CampaignDataService
         // Tainted Grail IT
         var tg = dict[GameId.TaintedGrailFallOfAvalon];
         tg.Subtitle = "Un'oscura avventura cooperativa di sopravvivenza in un mondo arturiano morente";
-        tg.TotalBoxContentSummary = "Una campagna a bivi di 15 capitoli, carte luogo giganti, miniature dettagliate e un profondo diario di esplorazione.";
         tg.Theme.Tagline = "Accendi i Menhir e sopravvivi all'Anomalia";
         tg.Theme.LoreSummary = "Il leggendario Re Artù è morto, i Menhir che proteggono Avalon si stanno spegnendo e l'Anomalia sta consumando la terra. Non siete gli eroi prescelti, ma siete tutto ciò che resta.";
         tg.Theme.BadgeCategory = "GDR di Sopravvivenza Dark Fantasy";
@@ -1002,7 +976,6 @@ public class CampaignDataService
         // Sleeping Gods IT
         var sg = dict[GameId.SleepingGods];
         sg.Subtitle = "Esplorazione nautica cooperativa e sopravvivenza narrativa attraverso il Mare Errante";
-        sg.TotalBoxContentSummary = "Atlante a spirale del Mare Errante, libro di storie di 172 pagine, 8 membri dell'equipaggio giocabili, mazzo eventi, carte missione e buste segrete.";
         sg.Theme.Tagline = "Esplora il Mare Errante e risveglia gli dei assopiti";
         sg.Theme.LoreSummary = "È l'anno 1929. Il piroscafo Manticore si è perso in un mondo strano e inesplorato. Tu e il tuo equipaggio dovete esplorare isole misteriose, sopravvivere a pericoli insidiosi e scoprire i totem degli dei per ritrovare la rotta verso casa.";
         sg.Theme.BadgeCategory = "Avventura Narrativa Cooperativa";

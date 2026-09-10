@@ -65,7 +65,7 @@
     <value>Brettspiel-Kampagnenplaner • Entwickelt mit Blazor WebAssembly (.NET 10) für GitHub Pages</value>
   </data>
   <data name="App.HeroLead" xml:space="preserve">
-    <value>Plane deine Kampagnen für {0} und {1}. Berechne Treffen, Spielzeit am Tisch und das voraussichtliche Abschlussdatum.</value>
+    <value>Plane deine Kampagnen mit einer großen Auswahl an epischen Brettspielen. Berechne Treffen, Spielzeit am Tisch und das voraussichtliche Abschlussdatum.</value>
   </data>
   <data name="App.Step1Title" xml:space="preserve">
     <value>Wähle dein Kampagnenspiel</value>
@@ -77,7 +77,7 @@
     <value>Berechnungsergebnisse &amp; Prognose</value>
   </data>
   <data name="App.Subtitle" xml:space="preserve">
-    <value>Epischer Kampagnen- &amp; Treffen-Rechner</value>
+    <value>Brettspiel-Kampagnenplaner</value>
   </data>
   <data name="App.Title" xml:space="preserve">
     <value>Brettspiel-Kampagnenplaner</value>
@@ -175,6 +175,9 @@
   <data name="Form.Step4StartDate" xml:space="preserve">
     <value>4. Startdatum</value>
   </data>
+  <data name="Form.SessionStartTime" xml:space="preserve">
+    <value>Startzeit der Sitzung</value>
+  </data>
   <data name="Form.Step5Vacation" xml:space="preserve">
     <value>5. Urlaubs- &amp; Feiertagspuffer</value>
   </data>
@@ -247,17 +250,20 @@
   <data name="Hero.BggRating" xml:space="preserve">
     <value>BGG-Wertung</value>
   </data>
-  <data name="Hero.BoxContents" xml:space="preserve">
-    <value>Schachtelinhalt</value>
-  </data>
   <data name="Hero.ComplexityRating" xml:space="preserve">
     <value>BGG-Komplexität</value>
   </data>
   <data name="Hero.Mins" xml:space="preserve">
     <value>Min.</value>
   </data>
+  <data name="Hero.Players" xml:space="preserve">
+    <value>Spieleranzahl</value>
+  </data>
   <data name="Hero.PublicDataRef" xml:space="preserve">
     <value>Öffentliche Datenreferenz</value>
+  </data>
+  <data name="Hero.Release" xml:space="preserve">
+    <value>Erscheinung</value>
   </data>
   <data name="Hero.SetupTeardown" xml:space="preserve">
     <value>Auf- &amp; Abbau</value>

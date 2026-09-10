@@ -71,7 +71,7 @@
                         </td>
                         <td>
                             <div class="fw-bold">@session.Date.ToString("ddd, MMM d, yyyy", CultureInfo.CurrentCulture)</div>
-                            <div class="small text-muted">@session.Date.Date.AddHours(19).ToString("t", CultureInfo.CurrentCulture) - @session.Date.Date.AddHours(19).AddHours(session.EstimatedSessionHours).ToString("t", CultureInfo.CurrentCulture)</div>
+                            <div class="small text-muted">@session.StartDateTime.ToString("t", CultureInfo.CurrentCulture) - @session.EndDateTime.ToString("t", CultureInfo.CurrentCulture)</div>
                         </td>
                         <td>
                             <span class="badge scenario-range-badge border">

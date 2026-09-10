@@ -40,26 +40,27 @@
                     </div>
 
                     <div class="game-card-body">
-                        <div class="game-card-emblem mb-2">
-                            <span class="emblem-icon">@GetGameEmblem(game.Id)</span>
+                        <div class="game-identity-header d-flex align-items-center gap-3 mb-3">
+                            <div class="game-cover-box flex-shrink-0">
+                                @if (!string.IsNullOrEmpty(game.ImageUrl))
+                                {
+                                    <img src="@game.ImageUrl" alt="@game.Title" class="game-cover-img" loading="lazy" />
+                                }
+                                else
+                                {
+                                    <span class="emblem-icon">@GetGameEmblem(game.Id)</span>
+                                }
+                            </div>
+                            <div class="game-identity-text flex-grow-1 min-w-0">
+                                <h3 class="game-title mb-1">@game.Title</h3>
+                                <p class="game-subtitle mb-0">@game.Subtitle</p>
+                            </div>
                         </div>
 
-                        <h3 class="game-title">@game.Title</h3>
-                        <p class="game-subtitle">@game.Subtitle</p>
-
                         <div class="game-meta-pills mb-3">
-                            @if (!string.IsNullOrEmpty(game.BggUrl))
-                            {
-                                <a href="@game.BggUrl" target="_blank" rel="noopener noreferrer" class="meta-pill meta-pill-link" title="@Loc.Get("GameSelector.ViewOnBgg", game.Title)" @onclick:stopPropagation="true">
-                                    ⭐ <strong>@game.BggRating.ToString("F1", CultureInfo.CurrentCulture)</strong> / 10 <i class="bi bi-box-arrow-up-right ms-1"></i>
-                                </a>
-                            }
-                            else
-                            {
-                                <span class="meta-pill" title="@Loc["GameSelector.BggRatingTooltip"]">
-                                    ⭐ <strong>@game.BggRating.ToString("F1", CultureInfo.CurrentCulture)</strong> / 10
-                                </span>
-                            }
+                            <span class="meta-pill" title="@Loc["GameSelector.BggRatingTooltip"]">
+                                ⭐ <strong>@game.BggRating.ToString("F1", CultureInfo.CurrentCulture)</strong> / 10
+                            </span>
                             <span class="meta-pill" title="@Loc["GameSelector.Weight"] (1-5)">
                                 🧠 @Loc["GameSelector.Weight"]: <strong>@game.BggWeight.ToString("F2", CultureInfo.CurrentCulture)</strong>
                             </span>

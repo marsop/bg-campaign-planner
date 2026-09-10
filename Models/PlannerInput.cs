@@ -32,6 +32,7 @@ public class PlannerInputModel
 
     // Calendar
     public DateTime StartDate { get; set; } = DateTime.Today;
+    public TimeOnly StartTime { get; set; } = new TimeOnly(17, 0);
     public int VacationWeeksBuffer { get; set; } = 0;
     
     // Session setup
@@ -47,6 +48,9 @@ public class ScheduledSession
     public int SessionNumber { get; set; }
     public DateTime Date { get; set; }
     public DayOfWeek DayOfWeek => Date.DayOfWeek;
+    public TimeOnly StartTime { get; set; } = new TimeOnly(17, 0);
+    public DateTime StartDateTime => Date.Date.Add(StartTime.ToTimeSpan());
+    public DateTime EndDateTime => StartDateTime.AddHours(EstimatedSessionHours);
     public int StartScenarioIndex { get; set; }
     public int EndScenarioIndex { get; set; }
     public int ScenariosPlayedInSession { get; set; }

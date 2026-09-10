@@ -10,7 +10,7 @@ This document provides operational context, architectural principles, codebase s
 - **Framework**: Blazor WebAssembly (.NET 10)
 - **Runtime**: Client-side execution in the browser via WebAssembly (No server backend)
 - **Deployment**: Static hosting on GitHub Pages via GitHub Actions workflow
-- **Purpose**: Calculate and visualize meetups, table hours, calendar finish dates, and spoiler-free progress checkpoints for long-form campaign board games (**Gloomhaven**, **Pandemic Legacy: Season 0**, and future games).
+- **Purpose**: Calculate and visualize meetups, table hours, calendar finish dates, and spoiler-free progress checkpoints for long-form campaign board games (**Gloomhaven**, **Frosthaven**, **Pandemic Legacy: Season 0**, **Sleeping Gods**, **Oathsworn**, **Tainted Grail**, and future games).
 
 ---
 
@@ -86,11 +86,12 @@ To add support for a new board game (e.g. *Frosthaven*, *Oathsworn*, or *Pandemi
 1. Open `Models/GameModels.cs` and add a new enum value to `GameId` if applicable.
 2. Open `Services/CampaignDataService.cs` and construct a new `BoardGame` instance:
    - Provide title, subtitle, designer, player ranges, BGG rating, weight, base scenario duration, and setup duration.
+   - **Front Box Cover Image**: Every game must include a photo of the board game front cover (from the box) collected from the internet or BoardGameGeek. Format and crop it to a square (1:1 aspect ratio, e.g. 512x512 WebP) under `wwwroot/images/games/{game-id}.webp` and set `ImageUrl = "images/games/{game-id}.webp"`.
    - Define custom `GameTheming` (primary/secondary colors, background gradients, font families, tagline, lore).
    - Add realistic `CampaignScopeOption` entries (e.g. Core, Story Speedrun, Completionist).
    - Note on Zero-Spoilers: Do NOT add future scenario names, boss encounters, secret unlocks, or plot key events. Campaign progression milestones are generated dynamically as spoiler-free progress checkpoints (25%, 50%, 75%, 100%).
    - Register it in `_localizedGames` dictionaries in `InitializeData()`.
-3. Add any custom icon or emblem representation in `Components/GameSelector.razor` and `Components/ThematicRoadmap.razor`.
+3. Add any custom icon or emblem representation in `Components/GameSelector.razor` and `Components/ThematicRoadmap.razor`. The box front cover image will automatically render next to the game title with uniform square dimensions and rounded corners.
 
 ### Modifying Calculation Logic
 - All math and scheduling rules reside in `Services/PlannerCalculatorService.cs`.

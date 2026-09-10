@@ -9,8 +9,8 @@ Hosted and deployed serverless on **GitHub Pages**.
 ## ✨ Features
 
 - **🎮 Game Selector & Theming**:
-  - **Gloomhaven**: High fantasy dark-themed UI, dungeon crawl milestone progression, scenario breakdown, class retirement milestones.
-  - **Pandemic Legacy: Season 0**: Cold War 1962 spy thriller aesthetic, CIA briefing dossier, monthly covert operations timeline.
+  - Wide curated catalog of epic campaign games: **Gloomhaven**, **Frosthaven**, **Pandemic Legacy: Season 0**, **Sleeping Gods**, **Oathsworn: Into the Deepwood**, and **Tainted Grail: The Fall of Avalon**.
+  - Dynamic game-specific theming, color palettes, custom typography, and atmospheric lore for each title.
 - **⏱️ Campaign Meetup Calculator**:
   - Choose between **Weekly** (1x, 2x, 3x, 4x per week), **Bi-weekly** (every 2 weeks), **Monthly** (1x to 4x per month), or **Custom intervals** (every N days).
   - Select preferred days of the week (e.g., Fridays & Sundays).

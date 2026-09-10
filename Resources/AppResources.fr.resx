@@ -65,7 +65,7 @@
     <value>Planificateur de Campagnes • Conçu avec Blazor WebAssembly (.NET 10) pour GitHub Pages</value>
   </data>
   <data name="App.HeroLead" xml:space="preserve">
-    <value>Planifiez vos campagnes pour {0} et {1}. Calculez les sessions requises, le temps de jeu total et la date prévisionnelle de fin.</value>
+    <value>Planifiez vos campagnes grâce à une vaste sélection de jeux de plateau épiques. Calculez les sessions requises, le temps de jeu total et la date prévisionnelle de fin.</value>
   </data>
   <data name="App.Step1Title" xml:space="preserve">
     <value>Choisissez votre jeu de campagne</value>
@@ -77,7 +77,7 @@
     <value>Résultats du calcul &amp; Projections</value>
   </data>
   <data name="App.Subtitle" xml:space="preserve">
-    <value>Calculateur Épique de Sessions et Rencontres</value>
+    <value>Planificateur de Campagne de Jeux de Société</value>
   </data>
   <data name="App.Title" xml:space="preserve">
     <value>Planificateur de Campagne de Jeux de Société</value>
@@ -175,6 +175,9 @@
   <data name="Form.Step4StartDate" xml:space="preserve">
     <value>4. Date de début</value>
   </data>
+  <data name="Form.SessionStartTime" xml:space="preserve">
+    <value>Heure de début</value>
+  </data>
   <data name="Form.Step5Vacation" xml:space="preserve">
     <value>5. Marge Vacances &amp; Jours Fériés</value>
   </data>
@@ -247,17 +250,20 @@
   <data name="Hero.BggRating" xml:space="preserve">
     <value>Note BGG</value>
   </data>
-  <data name="Hero.BoxContents" xml:space="preserve">
-    <value>Contenu de la Boîte</value>
-  </data>
   <data name="Hero.ComplexityRating" xml:space="preserve">
     <value>Complexité BGG</value>
   </data>
   <data name="Hero.Mins" xml:space="preserve">
     <value>min</value>
   </data>
+  <data name="Hero.Players" xml:space="preserve">
+    <value>Nombre de joueurs</value>
+  </data>
   <data name="Hero.PublicDataRef" xml:space="preserve">
     <value>Références Publiques</value>
+  </data>
+  <data name="Hero.Release" xml:space="preserve">
+    <value>Sortie</value>
   </data>
   <data name="Hero.SetupTeardown" xml:space="preserve">
     <value>Mise en place &amp; Rangement</value>
