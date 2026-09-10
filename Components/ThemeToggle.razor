@@ -1,37 +1,38 @@
 @using bg_campaign_planner.Services
 @inject ThemeService ThemeService
+@inject IStringLocalizer<AppResources> Loc
 @implements IDisposable
 
-<div class="theme-toggle-container" role="group" aria-label="Theme selection">
+<div class="theme-toggle-container" role="group" aria-label="@Loc["Theme.AriaLabel"]">
     <div class="theme-toggle-pill-group">
         <button type="button"
                 class="theme-toggle-btn @(ThemeService.CurrentTheme == ThemeMode.Light ? "active" : "")"
                 @onclick="() => SetTheme(ThemeMode.Light)"
-                title="Light Mode"
-                aria-label="Switch to Light theme"
+                title="@Loc["Theme.LightTitle"]"
+                aria-label="@Loc["Theme.LightAria"]"
                 aria-pressed="@(ThemeService.CurrentTheme == ThemeMode.Light ? "true" : "false")">
             <i class="bi bi-sun-fill me-1"></i>
-            <span class="d-none d-sm-inline">Light</span>
+            <span class="d-none d-sm-inline">@Loc["Theme.Light"]</span>
         </button>
 
         <button type="button"
                 class="theme-toggle-btn @(ThemeService.CurrentTheme == ThemeMode.Dark ? "active" : "")"
                 @onclick="() => SetTheme(ThemeMode.Dark)"
-                title="Dark Mode"
-                aria-label="Switch to Dark theme"
+                title="@Loc["Theme.DarkTitle"]"
+                aria-label="@Loc["Theme.DarkAria"]"
                 aria-pressed="@(ThemeService.CurrentTheme == ThemeMode.Dark ? "true" : "false")">
             <i class="bi bi-moon-stars-fill me-1"></i>
-            <span class="d-none d-sm-inline">Dark</span>
+            <span class="d-none d-sm-inline">@Loc["Theme.Dark"]</span>
         </button>
 
         <button type="button"
                 class="theme-toggle-btn @(ThemeService.CurrentTheme == ThemeMode.System ? "active" : "")"
                 @onclick="() => SetTheme(ThemeMode.System)"
-                title="System Auto"
-                aria-label="Follow System theme"
+                title="@Loc["Theme.AutoTitle"]"
+                aria-label="@Loc["Theme.AutoAria"]"
                 aria-pressed="@(ThemeService.CurrentTheme == ThemeMode.System ? "true" : "false")">
             <i class="bi bi-display me-1"></i>
-            <span class="d-none d-sm-inline">Auto</span>
+            <span class="d-none d-sm-inline">@Loc["Theme.Auto"]</span>
         </button>
     </div>
 </div>

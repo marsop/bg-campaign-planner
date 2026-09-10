@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -450,5 +450,128 @@
   </data>
   <data name="Timeline.Title" xml:space="preserve">
     <value>Meetup Calendar &amp; Schedule Details</value>
+  </data>
+  <data name="NotFound.Message" xml:space="preserve">
+    <value>Sorry, the content you are looking for does not exist.</value>
+  </data>
+  <data name="Theme.AriaLabel" xml:space="preserve">
+    <value>Theme selection</value>
+  </data>
+  <data name="Ics.EventDescription" xml:space="preserve">
+    <value>Campaign session #{0} for {1} ({2}). Estimated play time: {3} hrs.</value>
+  </data>
+  <data name="NavMenu.ToggleNav" xml:space="preserve">
+    <value>Navigation menu</value>
+  </data>
+  <data name="Weather.TempF" xml:space="preserve">
+    <value>Temp. (F)</value>
+  </data>
+  <data name="App.BrowserTitle" xml:space="preserve">
+    <value>{0} | Board Game Campaign Planner</value>
+  </data>
+  <data name="Theme.DarkAria" xml:space="preserve">
+    <value>Switch to Dark theme</value>
+  </data>
+  <data name="GameSelector.ViewOnBgg" xml:space="preserve">
+    <value>View {0} on BoardGameGeek</value>
+  </data>
+  <data name="Weather.Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="Kpi.PhaseFinale" xml:space="preserve">
+    <value>Campaign Finale</value>
+  </data>
+  <data name="Theme.LightTitle" xml:space="preserve">
+    <value>Light Mode</value>
+  </data>
+  <data name="GameSelector.BggRatingTooltip" xml:space="preserve">
+    <value>BoardGameGeek Rating</value>
+  </data>
+  <data name="NavMenu.Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Kpi.Phase" xml:space="preserve">
+    <value>Phase {0}</value>
+  </data>
+  <data name="App.StepBadge" xml:space="preserve">
+    <value>Step {0}</value>
+  </data>
+  <data name="Theme.AutoTitle" xml:space="preserve">
+    <value>System Auto</value>
+  </data>
+  <data name="Counter.Title" xml:space="preserve">
+    <value>Counter</value>
+  </data>
+  <data name="Weather.Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="App.LogoAlt" xml:space="preserve">
+    <value>Board Game Campaign Planner Logo</value>
+  </data>
+  <data name="Theme.Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Counter.ClickMe" xml:space="preserve">
+    <value>Click me</value>
+  </data>
+  <data name="Theme.Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Weather.Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="NavMenu.Counter" xml:space="preserve">
+    <value>Counter</value>
+  </data>
+  <data name="Weather.Description" xml:space="preserve">
+    <value>This component demonstrates fetching data from the server.</value>
+  </data>
+  <data name="Weather.TempC" xml:space="preserve">
+    <value>Temp. (C)</value>
+  </data>
+  <data name="Ics.EventMilestone" xml:space="preserve">
+    <value>\n🎯 MILESTONE: {0} ({1})</value>
+  </data>
+  <data name="Weather.Title" xml:space="preserve">
+    <value>Weather</value>
+  </data>
+  <data name="Counter.CurrentCount" xml:space="preserve">
+    <value>Current count: {0}</value>
+  </data>
+  <data name="Theme.Dark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="Theme.DarkTitle" xml:space="preserve">
+    <value>Dark Mode</value>
+  </data>
+  <data name="Hero.OpenOnBgg" xml:space="preserve">
+    <value>Open {0} on BoardGameGeek</value>
+  </data>
+  <data name="Ics.Location" xml:space="preserve">
+    <value>Game Table</value>
+  </data>
+  <data name="Ics.EventSummary" xml:space="preserve">
+    <value>{0} - Meetup #{1} ({2} {3}-{4})</value>
+  </data>
+  <data name="Theme.LightAria" xml:space="preserve">
+    <value>Switch to Light theme</value>
+  </data>
+  <data name="Hero.ViewOnBgg" xml:space="preserve">
+    <value>View on BoardGameGeek</value>
+  </data>
+  <data name="Theme.AutoAria" xml:space="preserve">
+    <value>Follow System theme</value>
+  </data>
+  <data name="NotFound.Title" xml:space="preserve">
+    <value>Page Not Found</value>
+  </data>
+  <data name="NavMenu.Weather" xml:space="preserve">
+    <value>Weather</value>
+  </data>
+  <data name="Ics.CalName" xml:space="preserve">
+    <value>{0} Campaign Schedule</value>
+  </data>
+  <data name="NotFound.HomeBtn" xml:space="preserve">
+    <value>Back to Campaign Planner</value>
   </data>
 </root>

@@ -229,28 +229,41 @@ public class PlannerCalculatorService
         }
     }
 
-    public string GenerateIcsFile(CalculationResult result)
+    public string GenerateIcsFile(CalculationResult result, Microsoft.Extensions.Localization.IStringLocalizer<bg_campaign_planner.Resources.AppResources>? loc = null)
     {
         var sb = new StringBuilder();
         sb.AppendLine("BEGIN:VCALENDAR");
         sb.AppendLine("VERSION:2.0");
         sb.AppendLine("PRODID:-//BoardGameCampaignPlanner//EN");
-        sb.AppendLine($"X-WR-CALNAME:{result.Game.Title} Campaign Schedule");
+        string calName = loc != null ? loc["Ics.CalName", result.Game.Title] : $"{result.Game.Title} Campaign Schedule";
+        sb.AppendLine($"X-WR-CALNAME:{EscapeIcs(calName)}");
         sb.AppendLine("CALSCALE:GREGORIAN");
         sb.AppendLine("METHOD:PUBLISH");
 
+        string location = loc != null ? loc["Ics.Location"] : "Game Table";
+        string scenarioUnit = (result.Game.Id != GameId.PandemicSeason0)
+            ? (loc != null ? loc["Timeline.ColScenarios"] : "Scenarios")
+            : (loc != null ? loc["Timeline.ColGames"] : "Games");
+
         foreach (var session in result.Sessions)
         {
-            DateTime start = session.Date.Date.AddHours(19); // 7:00 PM default start
+            DateTime start = session.Date.Date.AddHours(19); // Default evening start
             DateTime end = start.AddHours(session.EstimatedSessionHours);
 
             string uid = $"bg-session-{result.Game.Id}-{session.SessionNumber}-{session.Date:yyyyMMdd}@campaignplanner";
-            string summary = $"{result.Game.Title} - Meetup #{session.SessionNumber} (Scenarios {session.StartScenarioIndex}-{session.EndScenarioIndex})";
-            
-            string description = $"Campaign session #{session.SessionNumber} for {result.Game.Title} ({result.Scope.Name}). Estimated play time: {session.EstimatedSessionHours:F1} hrs.";
+            string summary = loc != null
+                ? loc["Ics.EventSummary", result.Game.Title, session.SessionNumber, scenarioUnit, session.StartScenarioIndex, session.EndScenarioIndex]
+                : $"{result.Game.Title} - Meetup #{session.SessionNumber} ({scenarioUnit} {session.StartScenarioIndex}-{session.EndScenarioIndex})";
+
+            string description = loc != null
+                ? loc["Ics.EventDescription", session.SessionNumber, result.Game.Title, result.Scope.Name, session.EstimatedSessionHours.ToString("F1")]
+                : $"Campaign session #{session.SessionNumber} for {result.Game.Title} ({result.Scope.Name}). Estimated play time: {session.EstimatedSessionHours:F1} hrs.";
+
             if (!string.IsNullOrEmpty(session.MilestoneNote))
             {
-                description += $"\\n🎯 MILESTONE: {session.MilestoneNote} ({session.MilestonePhase})";
+                description += loc != null
+                    ? loc["Ics.EventMilestone", session.MilestoneNote, session.MilestonePhase ?? string.Empty]
+                    : $"\\n🎯 MILESTONE: {session.MilestoneNote} ({session.MilestonePhase})";
             }
 
             sb.AppendLine("BEGIN:VEVENT");
@@ -260,7 +273,7 @@ public class PlannerCalculatorService
             sb.AppendLine($"DTEND:{end:yyyyMMddTHHmmss}");
             sb.AppendLine($"SUMMARY:{EscapeIcs(summary)}");
             sb.AppendLine($"DESCRIPTION:{EscapeIcs(description)}");
-            sb.AppendLine($"LOCATION:Game Table");
+            sb.AppendLine($"LOCATION:{EscapeIcs(location)}");
             sb.AppendLine("STATUS:CONFIRMED");
             sb.AppendLine("END:VEVENT");
         }

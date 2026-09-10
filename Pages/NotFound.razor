@@ -1,5 +1,13 @@
-﻿@page "/not-found"
+@page "/not-found"
 @layout MainLayout
+@inject IStringLocalizer<AppResources> Loc
 
-<h3>Not Found</h3>
-<p>Sorry, the content you are looking for does not exist.</p>
+<PageTitle>@Loc["NotFound.Title"]</PageTitle>
+
+<div class="container py-5 text-center">
+    <h3 class="mb-3">@Loc["NotFound.Title"]</h3>
+    <p class="text-muted mb-4">@Loc["NotFound.Message"]</p>
+    <a href="" class="btn btn-primary">
+        <i class="bi bi-house-door me-1"></i> @Loc["NotFound.HomeBtn"]
+    </a>
+</div>

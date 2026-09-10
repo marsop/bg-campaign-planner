@@ -28,7 +28,12 @@ public class CampaignDataService
         }
 
         // Fallback to English
-        return _localizedGames["en"][id];
+        if (_localizedGames.TryGetValue("en", out var enDict) && enDict.TryGetValue(id, out var enGame))
+        {
+            return enGame;
+        }
+
+        return _localizedGames["en"].Values.First();
     }
 
     private Dictionary<GameId, BoardGame> GetDictionaryForLang(string lang)
@@ -39,6 +44,13 @@ public class CampaignDataService
         {
             return dict;
         }
+
+        var prefix = lang.Split('-')[0];
+        if (_localizedGames.TryGetValue(prefix, out var prefixDict))
+        {
+            return prefixDict;
+        }
+
         return _localizedGames["en"];
     }
 
@@ -994,6 +1006,41 @@ public class CampaignDataService
         tg.Milestones[4].Description = "El enfrentamiento definitivo que determina el futuro de Avalon y su gente.";
         tg.Milestones[4].BadgeText = "Gran Final";
 
+        // Sleeping Gods ES
+        var sg = dict[GameId.SleepingGods];
+        sg.Subtitle = "Exploración náutica cooperativa y supervivencia con libro de historias a través del Mar Errante";
+        sg.TotalBoxContentSummary = "Atlas encuadernado en espiral del Mar Errante, libro de historias de 172 páginas, 8 miembros de tripulación jugables, mazo de eventos, cartas de misión y sobres secretos.";
+        sg.Theme.Tagline = "Explora el Mar Errante y despierta a los dioses dormidos";
+        sg.Theme.LoreSummary = "Es el año 1929. El barco de vapor Manticore se pierde en un mundo extraño y desconocido. Tú y tu tripulación debéis explorar islas misteriosas, sobrevivir a encuentros peligrosos y descubrir los tótems de los dioses para encontrar el camino de regreso a casa.";
+        sg.Theme.BadgeCategory = "Aventura Narrativa Cooperativa";
+        sg.KeyFeatures = new List<string>
+        {
+            "Rica exploración guiada por libro de historias con cientos de misiones ramificadas",
+            "Sistema de combate táctico con habilidades de armas y daño por condiciones",
+            "Navegación mediante atlas a bordo del barco de vapor Manticore",
+            "Desbloqueos persistentes de campaña con tótems, recetas y cartas de misión"
+        };
+        sg.Scopes[0].Name = "Campaña Estándar (Viaje Completo)";
+        sg.Scopes[0].Description = "Un viaje completo por el Mar Errante completando misiones principales y reuniendo tótems divinos.";
+        sg.Scopes[1].Name = "Expedición Exploratoria Breve";
+        sg.Scopes[1].Description = "Una expedición náutica ágil explorando archipiélagos cercanos y resolviendo misiones introductorias.";
+        sg.Milestones[0].Title = "Zarpando en el Manticore";
+        sg.Milestones[0].Phase = "Acto I - Mares Inexplorados";
+        sg.Milestones[0].Description = "Primer desembarco en una isla, reparación del vapor y encuentro con los extraños lugareños.";
+        sg.Milestones[0].BadgeText = "Comienza el Viaje";
+        sg.Milestones[1].Title = "El Primer Tótem Divino";
+        sg.Milestones[1].Phase = "Acto I - Descubrimiento de Reliquias";
+        sg.Milestones[1].Description = "Superando antiguos peligros para recuperar el primer tótem de los dioses dormidos.";
+        sg.Milestones[1].BadgeText = "Tótem Hallado";
+        sg.Milestones[2].Title = "Peligros del Mar Errante";
+        sg.Milestones[2].Phase = "Acto II - Aguas Peligrosas";
+        sg.Milestones[2].Description = "Enfrentando monstruosidades marinas, sobreviviendo a climas traicioneros y mejorando a la tripulación.";
+        sg.Milestones[2].BadgeText = "Peligro Marino";
+        sg.Milestones[3].Title = "El Despertar de los Dioses";
+        sg.Milestones[3].Phase = "Final - Despertar a los Dioses";
+        sg.Milestones[3].Description = "Alcanzando el corazón del reino y realizando el ritual de despertar para hallar el paso a casa.";
+        sg.Milestones[3].BadgeText = "Gran Final";
+
         return dict;
     }
 
@@ -1201,6 +1248,41 @@ public class CampaignDataService
         tg.Milestones[4].Phase = "Kapitel 15 - Die finale Entscheidung";
         tg.Milestones[4].Description = "Die ultimative Konfrontation, die die Zukunft von Avalon und seiner Bewohner bestimmt.";
         tg.Milestones[4].BadgeText = "Großes Finale";
+
+        // Sleeping Gods DE
+        var sg = dict[GameId.SleepingGods];
+        sg.Subtitle = "Kooperative nautische Erkundung und Storybuch-Überleben auf der Wandernden See";
+        sg.TotalBoxContentSummary = "Spiralgebundener Atlas der Wandernden See, 172-seitiges Storybuch, 8 spielbare Besatzungsmitglieder, Ereignisdeck, Questkarten und geheime Abenteuerumschläge.";
+        sg.Theme.Tagline = "Erkunde die Wandernde See und erwecke die schlummernden Götter";
+        sg.Theme.LoreSummary = "Wir schreiben das Jahr 1929. Das Dampfschiff Manticore ist in einer seltsamen, unbekannten Welt verschollen. Du und deine Crew müsst geheimnisvolle Inseln erkunden, gefährliche Begegnungen überstehen und die Totems der Götter finden, um den Weg nach Hause zu entdecken.";
+        sg.Theme.BadgeCategory = "Kooperatives Erzählabenteuer";
+        sg.KeyFeatures = new List<string>
+        {
+            "Reichhaltige, buchgestützte Erkundung mit Hunderten von verzweigten Quests",
+            "Taktisches Kampfsystem mit Waffenfertigkeiten und Zustandsschaden",
+            "Umfassende Atlas-Navigation an Bord des Dampfschiffs Manticore",
+            "Permanente Kampagnen-Freischaltungen mit Totems, Rezepten und Questkarten"
+        };
+        sg.Scopes[0].Name = "Standard-Kampagne (Vollständige Reise)";
+        sg.Scopes[0].Description = "Eine komplette Reise über die Wandernde See mit allen Hauptquests und dem Sammeln göttlicher Totems.";
+        sg.Scopes[1].Name = "Kurze Erkundungsexpedition";
+        sg.Scopes[1].Description = "Eine gestraffte nautische Expedition zur Erkundung nahegelegener Inseln und Einführung in die Quests.";
+        sg.Milestones[0].Title = "Die Manticore sticht in See";
+        sg.Milestones[0].Phase = "Akt I - Die unerforschten Meere";
+        sg.Milestones[0].Description = "Erste Landung auf einer Insel, Reparatur des Dampfschiffs und Begegnung mit fremdartigen Einheimischen.";
+        sg.Milestones[0].BadgeText = "Reisebeginn";
+        sg.Milestones[1].Title = "Das erste göttliche Totem";
+        sg.Milestones[1].Phase = "Akt I - Relikten-Entdeckung";
+        sg.Milestones[1].Description = "Uralte Gefahren überwinden, um das erste Totem der schlafenden Götter zu bergen.";
+        sg.Milestones[1].BadgeText = "Totem gefunden";
+        sg.Milestones[2].Title = "Gefahren der Wandernden See";
+        sg.Milestones[2].Phase = "Akt II - Gefährliche Gewässer";
+        sg.Milestones[2].Description = "Meeresungeheuern trotzen, tückisches Wetter überstehen und Fähigkeiten der Crew verbessern.";
+        sg.Milestones[2].BadgeText = "Meeresgefahr";
+        sg.Milestones[3].Title = "Das Erwachen der Götter";
+        sg.Milestones[3].Phase = "Finale - Das Erwecken der Götter";
+        sg.Milestones[3].Description = "Das Herz des Reiches erreichen und das Erweckungsritual durchführen, um den Heimweg zu öffnen.";
+        sg.Milestones[3].BadgeText = "Großes Finale";
 
         return dict;
     }
@@ -1410,6 +1492,41 @@ public class CampaignDataService
         tg.Milestones[4].Description = "L'affrontement ultime qui détermine l'avenir d'Avalon et de son peuple.";
         tg.Milestones[4].BadgeText = "Grand Final";
 
+        // Sleeping Gods FR
+        var sg = dict[GameId.SleepingGods];
+        sg.Subtitle = "Exploration nautique coopérative et survie narrative à travers la Mer Errange";
+        sg.TotalBoxContentSummary = "Atlas à spirales de la Mer Errange, livre d'aventures de 172 pages, 8 membres d'équipage jouables, deck d'événements, cartes de quête et enveloppes secrètes.";
+        sg.Theme.Tagline = "Explorez la Mer Errange et réveillez les dieux endormis";
+        sg.Theme.LoreSummary = "Nous sommes en 1929. Le bateau à vapeur Manticore est perdu dans un monde étrange et inexploré. Vous et votre équipage devez explorer des îles mystérieuses, survivre à de périlleuses rencontres et trouver les totems des dieux pour rentrer chez vous.";
+        sg.Theme.BadgeCategory = "Aventure Narrative Coopérative";
+        sg.KeyFeatures = new List<string>
+        {
+            "Exploration riche guidée par un livre d'histoires aux centaines de quêtes ramifiées",
+            "Système de combat tactique avec compétences d'armes et dégâts d'états",
+            "Navigation sur atlas à bord du navire à vapeur Manticore",
+            "Déblocages permanents avec totems, recettes et cartes de quêtes"
+        };
+        sg.Scopes[0].Name = "Campagne Standard (Voyage Complet)";
+        sg.Scopes[0].Description = "Un périple complet à travers la Mer Errange pour accomplir les quêtes majeures et récupérer les totems divins.";
+        sg.Scopes[1].Name = "Courte Expédition d'Exploration";
+        sg.Scopes[1].Description = "Une expédition maritime rapide pour explorer les archipels voisins et s'initier aux premières quêtes.";
+        sg.Milestones[0].Title = "Larguer les Amarres sur le Manticore";
+        sg.Milestones[0].Phase = "Acte I - Les Mers Inexplorées";
+        sg.Milestones[0].Description = "Premier débarquement sur une île, réparation du vapeur et rencontre avec les étranges autochtones.";
+        sg.Milestones[0].BadgeText = "Début du Voyage";
+        sg.Milestones[1].Title = "Le Premier Totem Divin";
+        sg.Milestones[1].Phase = "Acte I - Découverte de Reliques";
+        sg.Milestones[1].Description = "Surmonter des périls anciens pour récupérer le premier totem des dieux assoupis.";
+        sg.Milestones[1].BadgeText = "Totem Trouvé";
+        sg.Milestones[2].Title = "Périls de la Mer Errange";
+        sg.Milestones[2].Phase = "Acte II - Eaux Dangereuses";
+        sg.Milestones[2].Description = "Affronter des monstres marins, survivre aux tempêtes et améliorer les compétences de l'équipage.";
+        sg.Milestones[2].BadgeText = "Danger Marin";
+        sg.Milestones[3].Title = "Le Réveil des Dieux";
+        sg.Milestones[3].Phase = "Final - Le Réveil des Dieux";
+        sg.Milestones[3].Description = "Atteindre le cœur du royaume et accomplir le rituel d'éveil pour trouver le passage vers le retour.";
+        sg.Milestones[3].BadgeText = "Grand Final";
+
         return dict;
     }
 
@@ -1617,6 +1734,41 @@ public class CampaignDataService
         tg.Milestones[4].Phase = "Capitolo 15 - La Scelta Finale";
         tg.Milestones[4].Description = "Lo scontro definitivo che determina il futuro di Avalon e del suo popolo.";
         tg.Milestones[4].BadgeText = "Gran Finale";
+
+        // Sleeping Gods IT
+        var sg = dict[GameId.SleepingGods];
+        sg.Subtitle = "Esplorazione nautica cooperativa e sopravvivenza narrativa attraverso il Mare Errante";
+        sg.TotalBoxContentSummary = "Atlante a spirale del Mare Errante, libro di storie di 172 pagine, 8 membri dell'equipaggio giocabili, mazzo eventi, carte missione e buste segrete.";
+        sg.Theme.Tagline = "Esplora il Mare Errante e risveglia gli dei assopiti";
+        sg.Theme.LoreSummary = "È l'anno 1929. Il piroscafo Manticore si è perso in un mondo strano e inesplorato. Tu e il tuo equipaggio dovete esplorare isole misteriose, sopravvivere a pericoli insidiosi e scoprire i totem degli dei per ritrovare la rotta verso casa.";
+        sg.Theme.BadgeCategory = "Avventura Narrativa Cooperativa";
+        sg.KeyFeatures = new List<string>
+        {
+            "Ricca esplorazione guidata da un libro narrativo con centinaia di missioni ramificate",
+            "Combattimento tattico con abilità d'arma e danni da condizioni",
+            "Navigazione su atlante a bordo del piroscafo Manticore",
+            "Sblocchi persistenti della campagna con totem, ricette e carte missione"
+        };
+        sg.Scopes[0].Name = "Campagna Standard (Viaggio Completo)";
+        sg.Scopes[0].Description = "Un viaggio completo attraverso il Mare Errante completando le missioni principali e raccogliendo i totem divini.";
+        sg.Scopes[1].Name = "Breve Spedizione Esplorativa";
+        sg.Scopes[1].Description = "Una spedizione marittima agile per esplorare gli arcipelaghi vicini e affrontare le prime missioni.";
+        sg.Milestones[0].Title = "Salpare a Bordo della Manticore";
+        sg.Milestones[0].Phase = "Atto I - Mari Inesplorati";
+        sg.Milestones[0].Description = "Primo sbarco sull'isola, riparazione del piroscafo e incontro con i bizzarri abitanti locali.";
+        sg.Milestones[0].BadgeText = "Inizio Viaggio";
+        sg.Milestones[1].Title = "Il Primo Totem Divino";
+        sg.Milestones[1].Phase = "Atto I - Scoperta delle Reliquie";
+        sg.Milestones[1].Description = "Superare antichi pericoli per recuperare il primo totem degli dei sopiti.";
+        sg.Milestones[1].BadgeText = "Totem Trovato";
+        sg.Milestones[2].Title = "I Pericoli del Mare Errante";
+        sg.Milestones[2].Phase = "Atto II - Acque Pericolose";
+        sg.Milestones[2].Description = "Affrontare mostruosità marine, sopravvivere a tempeste e potenziare le abilità dell'equipaggio.";
+        sg.Milestones[2].BadgeText = "Pericolo Marino";
+        sg.Milestones[3].Title = "Il Risveglio degli Dei";
+        sg.Milestones[3].Phase = "Finale - Il Risveglio degli Dei";
+        sg.Milestones[3].Description = "Raggiungere il cuore del regno e compiere il rituale del risveglio per trovare la via del ritorno.";
+        sg.Milestones[3].BadgeText = "Gran Finale";
 
         return dict;
     }

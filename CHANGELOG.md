@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **Full Localization Coverage & Zero Hardcoded Text Policy**:
+  - Replaced all remaining hardcoded strings with resource keys across Razor components:
+    - `Home.razor`: Dynamic page title (`App.BrowserTitle`), logo alt text (`App.LogoAlt`), step badges (`App.StepBadge`).
+    - `CalculationSummaryCards.razor`: Progress bar milestone phases (`Kpi.Phase`, `Kpi.PhaseFinale`).
+    - `GameSelector.razor`: BoardGameGeek tooltips (`GameSelector.ViewOnBgg`, `GameSelector.BggRatingTooltip`).
+    - `ThematicGameHero.razor`: BoardGameGeek links and buttons (`Hero.OpenOnBgg`, `Hero.ViewOnBgg`).
+    - `ThemeToggle.razor`: Complete theme mode localization (`Theme.Light`, `Theme.Dark`, `Theme.Auto` and ARIA attributes).
+    - `SessionsTimeline.razor`: Culture-aware meeting time ranges (24h/12h formatting), unit formatting, and clipboard summary generator.
+    - `NotFound.razor`: Localized 404 error page and return navigation button.
+    - `Counter.razor`, `Weather.razor`, and `NavMenu.razor`: Standardized localizer injection and translation coverage across all routes.
+  - Added localized Sleeping Gods catalog data to Spanish, German, French, and Italian dictionaries in `CampaignDataService`.
+  - Added optional `IStringLocalizer<AppResources>` parameter to `GenerateIcsFile(...)` in `PlannerCalculatorService` for localized calendar exports.
+  - Synchronized 41 new keys across all 6 `.resx` resource files (`AppResources.resx`, `.en`, `.es`, `.de`, `.fr`, `.it`).
+
+### Fixed
+- **NullReferenceException on Startup in `Home.razor`**:
+  - Made `ThemeClass` null-safe using null-conditional access (`CurrentGame?.Id switch`) with default fallback.
+  - Initialized game data synchronously in `OnInitialized` instead of awaiting an asynchronous task in `OnInitializedAsync`, preventing premature render passes with uninitialized state.
+  - Added template null-guard `@if (CurrentGame != null)` with a loading spinner fallback.
+  - Added robust culture prefix resolution and fallback guarantees in `CampaignDataService.GetGame(...)` and `GetDictionaryForLang(...)`.
+- **Clipboard Summary Formatting**:
+  - Fixed summary text generation in `SessionsTimeline.razor` to correctly invoke parameterized `Kpi.DurationSubtext` with calendar month and week values.
+
 ### Changed
 - **Migrated Localization to Standard Blazor (.resx) Architecture**:
   - Replaced custom in-memory dictionary (`TranslationDictionary.cs`) with standard XML `.resx` resource files (`AppResources.resx`, `AppResources.en.resx`, `AppResources.es.resx`, `AppResources.de.resx`, `AppResources.fr.resx`, `AppResources.it.resx`).
