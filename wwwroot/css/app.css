@@ -44,7 +44,11 @@
     --toggle-active-bg: rgba(255, 255, 255, 0.22);
     --toggle-active-text: #ffffff;
     --font-cinzel: 'Cinzel', serif;
+    --font-cinzel-decorative: 'Cinzel Decorative', 'Cinzel', serif;
     --font-special: 'Special Elite', monospace;
+    --font-cormorant: 'Cormorant SC', 'Cinzel', serif;
+    --font-medieval: 'MedievalSharp', 'Cinzel', cursive, serif;
+    --font-uncial: 'Uncial Antiqua', 'Cinzel', cursive, serif;
     --font-body: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
@@ -411,7 +415,7 @@ body {
 }
 
 .theme-frosthaven .game-title {
-    font-family: var(--font-cinzel);
+    font-family: var(--font-cinzel-decorative);
     color: #4fd1c5;
 }
 
@@ -425,7 +429,7 @@ body {
 }
 
 .theme-sleepinggods .game-title {
-    font-family: var(--font-cinzel);
+    font-family: var(--font-cormorant);
     color: #38bdf8;
 }
 
@@ -434,7 +438,7 @@ body {
 }
 
 .theme-oathsworn .game-title {
-    font-family: var(--font-cinzel);
+    font-family: var(--font-medieval);
     color: #cbd5e1;
 }
 
@@ -443,7 +447,7 @@ body {
 }
 
 .theme-taintedgrail .game-title {
-    font-family: var(--font-cinzel);
+    font-family: var(--font-uncial);
     color: #c084fc;
 }
 
@@ -648,7 +652,7 @@ body {
 }
 
 .hero-frosthaven .hero-main-title {
-    font-family: var(--font-cinzel);
+    font-family: var(--font-cinzel-decorative);
     color: #4fd1c5;
     font-size: 2.4rem;
     font-weight: 900;
@@ -665,30 +669,30 @@ body {
 }
 
 .hero-sleepinggods .hero-main-title {
-    font-family: var(--font-cinzel);
+    font-family: var(--font-cormorant);
     color: #38bdf8;
     font-size: 2.4rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 :root[data-theme="light"] .hero-sleepinggods .hero-main-title {
     color: #0284c7;
 }
 
 .hero-oathsworn .hero-main-title {
-    font-family: var(--font-cinzel);
+    font-family: var(--font-medieval);
     color: #cbd5e1;
     font-size: 2.4rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 :root[data-theme="light"] .hero-oathsworn .hero-main-title {
     color: #334155;
 }
 
 .hero-taintedgrail .hero-main-title {
-    font-family: var(--font-cinzel);
+    font-family: var(--font-uncial);
     color: #c084fc;
     font-size: 2.4rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 :root[data-theme="light"] .hero-taintedgrail .hero-main-title {
     color: #6b21a8;
@@ -1110,7 +1114,7 @@ body {
     border-color: rgba(79, 209, 197, 0.3);
 }
 .roadmap-frosthaven .roadmap-title {
-    font-family: var(--font-cinzel);
+    font-family: var(--font-cinzel-decorative);
     color: #4fd1c5;
 }
 
@@ -1134,7 +1138,7 @@ body {
     border-color: rgba(56, 189, 248, 0.3);
 }
 .roadmap-sleepinggods .roadmap-title {
-    font-family: var(--font-cinzel);
+    font-family: var(--font-cormorant);
     color: #38bdf8;
 }
 
@@ -1142,7 +1146,7 @@ body {
     border-color: rgba(148, 163, 184, 0.3);
 }
 .roadmap-oathsworn .roadmap-title {
-    font-family: var(--font-cinzel);
+    font-family: var(--font-medieval);
     color: #cbd5e1;
 }
 
@@ -1150,7 +1154,7 @@ body {
     border-color: rgba(168, 85, 247, 0.3);
 }
 .roadmap-taintedgrail .roadmap-title {
-    font-family: var(--font-cinzel);
+    font-family: var(--font-uncial);
     color: #c084fc;
 }
 
