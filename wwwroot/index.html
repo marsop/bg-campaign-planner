@@ -177,12 +177,16 @@
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 }
             },
-            scrollToElement: function (elementId) {
-                var el = document.getElementById(elementId);
-                if (el) {
-                    var top = el.getBoundingClientRect().top + window.scrollY - 100;
-                    window.scrollTo({ top: top, behavior: 'smooth' });
-                }
+            scrollToElement: function (elementId, offset) {
+                setTimeout(function () {
+                    var el = document.getElementById(elementId);
+                    if (el) {
+                        var off = (typeof offset === 'number') ? offset : 20;
+                        var scrollY = window.scrollY || window.pageYOffset || 0;
+                        var top = el.getBoundingClientRect().top + scrollY - off;
+                        window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+                    }
+                }, 50);
             }
         };
     </script>

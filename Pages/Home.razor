@@ -54,7 +54,7 @@
                                   OnGameSelected="HandleGameSelected" />
 
                     <!-- Thematic hero shown in Step 1 so you can read about the game before confirming -->
-                    <div class="mt-4">
+                    <div class="mt-4" id="selected-game-hero">
                         <ThematicGameHero Game="@CurrentGame" />
                     </div>
 
@@ -205,7 +205,7 @@
         InvokeAsync(StateHasChanged);
     }
 
-    private void HandleGameSelected(string gameId)
+    private async Task HandleGameSelected(string gameId)
     {
         if (CurrentGame?.Id != gameId)
         {
@@ -220,9 +220,10 @@
                 }
             }
             Recalculate();
+            StateHasChanged();
         }
-        // Always scroll the selected card into view, even if it was already selected
-        _ = JS.InvokeVoidAsync("campaignPlanner.scrollToElement", $"game-card-{gameId}");
+        // Scroll the selected game details into view so the user can review and confirm
+        await JS.InvokeVoidAsync("campaignPlanner.scrollToElement", "selected-game-hero");
     }
 
     private async Task ConfirmGame()

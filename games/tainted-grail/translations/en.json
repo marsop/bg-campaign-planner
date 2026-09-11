@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Tainted Grail: The Fall of Avalon",
   "subtitle": "A dark, cooperative survival adventure set in a dying Arthurian world",
   "tagline": "Light the Menhirs and survive the Wyrdness",
@@ -15,7 +15,15 @@
   "scopes": {
     "tg_core": {
       "name": "The Fall of Avalon (Core Campaign)",
-      "description": "The complete main story arc through Avalon to discover the fate of the original heroes."
+      "description": "The complete main story arc through Avalon balancing primary chapter goals with essential exploration and survival."
+    },
+    "tg_story": {
+      "name": "Main Story Arc (Streamlined Focus)",
+      "description": "Direct progression along the central questlines to discover Arthur's legacy with minimal optional diversions."
+    },
+    "tg_completionist": {
+      "name": "Full Avalon Exploration (All Secrets)",
+      "description": "Exhaustive exploration across every territory, lighting all distant Menhirs, solving secret character dream quests, and uncovering ancient relics."
     }
   }
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "id": "tainted-grail",
   "title": "Tainted Grail: The Fall of Avalon",
   "releaseYear": 2019,
@@ -30,7 +30,8 @@
   },
   "publicSourceReferences": [
     "BoardGameGeek (Top 100 Thematic)",
-    "Awaken Realms Official Rulebook and Campaign Log"
+    "Awaken Realms Official Rulebook and Campaign Exploration Log",
+    "Community Playthrough Survey Statistics & Chapter Averages"
   ],
   "scopes": [
     {
@@ -38,6 +39,18 @@
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": true
+    },
+    {
+      "id": "tg_story",
+      "baseScenarioCount": 13,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    },
+    {
+      "id": "tg_completionist",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": false
     }
   ]
 }

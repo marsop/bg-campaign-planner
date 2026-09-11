@@ -1,24 +1,33 @@
 {
   "title": "Pandemic Legacy: Season 2",
-  "subtitle": "A Legacy of Hope",
-  "tagline": "El mundo está al borde del colapso.",
-  "loreSummary": "Sois un pequeño grupo de supervivientes que intentan salvar el mundo.",
-  "badgeCategory": "Tipo de Campaña",
-  "roadmapTitle": "Hoja de Ruta de la Campaña",
-  "roadmapBadge": "Progreso de la Historia",
+  "subtitle": "Una campaña cooperativa postapocalíptica para restaurar la civilización desde el mar",
+  "tagline": "Setenta y un años tras la caída, explora la red y devuelve la esperanza a la humanidad",
+  "loreSummary": "Sois los descendientes de los pocos supervivientes refugiados en estaciones oceánicas flotantes conocidas como Refugios. Con los suministros agotándose, debéis aventuraros en el devastado continente y cartografiar el mundo olvidado antes de que se pierda toda esperanza.",
+  "badgeCategory": "Cooperativo Legacy Postapocalíptico",
+  "roadmapTitle": "🗺️ Reconocimiento del Refugio y Cronología de Exploración Continental",
+  "roadmapBadge": "HOJA DE RUTA POST-PLAGA",
   "keyFeatures": [
-    "Juego cooperativo legacy",
-    "Tablero y reglas en evolución",
-    "Campaña narrativa"
+    "Cartas de mapa rascables que revelan ciudades inexploradas y rutas marítimas secretas",
+    "Sistema logístico de cubos de suministros para mantener con vida las ciudades supervivientes",
+    "Mecanismo de mazo de búsqueda que descubre equipo, refugios ocultos y secretos narrativos",
+    "Progresión de personajes con seguimiento de paquetes, habilidades y cicatrices por exposición"
   ],
   "scopes": {
-    "standard": {
-      "name": "Estándar (Algunos fallos)",
-      "description": "Una campaña estándar con algunos meses perdidos y rejugados."
+    "pandemic2_standard": {
+      "name": "Campaña Estándar (Prólogo + ~4 Reintentos)",
+      "description": "1 prólogo de entrenamiento más 12 meses con tasa de fallos típica (~3-4 meses requieren segundo intento). Total 16-17 partidas."
     },
-    "perfect": {
-      "name": "Perfecto (Sin fallos)",
-      "description": "Una campaña perfecta sin meses perdidos."
+    "pandemic2_optimistic": {
+      "name": "Expedición Impecable (Prólogo + 1-2 Reintentos)",
+      "description": "Expedición con alta tasa de victorias: 1 prólogo y casi todos los meses ganados al primer intento (14 partidas totales)."
+    },
+    "pandemic2_grind": {
+      "name": "Lucha en el Yermo (Prólogo + ~8 Reintentos)",
+      "description": "Lucha contra líneas de suministro al borde del colapso y brotes de plaga; varios meses requieren segundas tentativas (21 partidas totales)."
+    },
+    "pandemic2_max": {
+      "name": "Capacidad Máxima de la Caja (24 Partidas + Prólogo)",
+      "description": "Cada mes del calendario jugado dos veces (Principio + Final) más misiones de prólogo para la experiencia más completa (26 partidas totales)."
     }
   }
 }

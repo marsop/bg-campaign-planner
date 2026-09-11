@@ -4,18 +4,30 @@
   "tagline": "Cada mes trae nuevos desafíos y cambios permanentes",
   "loreSummary": "Ustedes son un equipo de expertos en control de enfermedades que trabajan juntos para mantener a raya cuatro enfermedades mortales durante todo un año. Cada decisión que tomen y cada ciudad que caiga dará forma permanentemente a su mundo.",
   "badgeCategory": "Cooperativo Legado",
-  "roadmapTitle": "🗺️ Progresión de la Campaña",
-  "roadmapBadge": "HOJA DE RUTA LEGADO",
+  "roadmapTitle": "🗺️ Respuesta Global a Brotes del CDC y Cronología de Contención",
+  "roadmapBadge": "PROTOCOLO DE CONTENCIÓN",
   "keyFeatures": [
-    "Mecánicas cooperativas de control de enfermedades",
-    "Cambios permanentes en el mundo con pegatinas y cartas destruidas",
-    "Reglas y objetivos en evolución cada mes",
-    "Progresión de personajes y cicatrices permanentes"
+    "Mecánicas cooperativas de control de enfermedades contra cuatro cepas patógenas letales",
+    "Cambios permanentes en el mundo con pegatinas de dossier y cartas de infección destruidas",
+    "Reglas en evolución, expedientes secretos y nuevos objetivos que se desbloquean cada mes",
+    "Progresión de personajes con relaciones especializadas y cicatrices permanentes"
   ],
   "scopes": {
     "pandemic1_standard": {
-      "name": "Campaña Estándar",
-      "description": "Un año completo de juego, asumiendo que algunos meses se pierden y se vuelven a jugar."
+      "name": "Campaña Estándar (12 Meses + ~4 Reintentos)",
+      "description": "Un año completo de control epidemiológico con tasa de fallos típica (~3-4 meses requieren segundo intento). Total 16-17 partidas."
+    },
+    "pandemic1_optimistic": {
+      "name": "Contención Impecable (12 Meses + 1-2 Reintentos)",
+      "description": "Campaña del CDC con alta tasa de victorias, brotes mínimos y casi todos los meses ganados al primer intento (14 partidas)."
+    },
+    "pandemic1_grind": {
+      "name": "Crisis Crítica de Brotes (12 Meses + ~8 Reintentos)",
+      "description": "Lucha desesperada ante ciudades colapsadas y poblaciones en pánico; varios meses requieren segundas tentativas (21 partidas)."
+    },
+    "pandemic1_max": {
+      "name": "Capacidad Máxima de la Caja (24 Partidas Totales)",
+      "description": "Cada mes del calendario jugado dos veces (Principio + Final) para la experiencia más extensa posible (24-26 partidas)."
     }
   }
 }

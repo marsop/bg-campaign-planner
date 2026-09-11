@@ -1,24 +1,33 @@
 {
   "title": "Pandemic Legacy: Season 2",
-  "subtitle": "A Legacy of Hope",
-  "tagline": "The world is on the brink of collapse.",
-  "loreSummary": "You are a small group of survivors trying to save the world.",
-  "badgeCategory": "Campaign Type",
-  "roadmapTitle": "Campaign Roadmap",
-  "roadmapBadge": "Story Progress",
+  "subtitle": "A post-apocalyptic cooperative campaign to restore civilization from the sea",
+  "tagline": "Seventy-one years after the fall, explore the grid and bring hope to humanity",
+  "loreSummary": "You are the descendants of the few survivors sheltered in floating ocean stations known as Havens. With supplies dwindling, you must venture onto the shattered mainland and chart the forgotten world before all hope is lost.",
+  "badgeCategory": "Post-Apocalyptic Legacy Cooperative",
+  "roadmapTitle": "🗺️ Haven Recon & Mainland Exploration Timeline",
+  "roadmapBadge": "POST-PLAGUE ROADMAP",
   "keyFeatures": [
-    "Cooperative legacy gameplay",
-    "Evolving board and rules",
-    "Narrative-driven campaign"
+    "Scratch-off mainland map cards reveal unmapped cities and secret sea routes",
+    "Supply cube logistics system to keep surviving cities alive across the grid",
+    "Search deck mechanism uncovering equipment, hidden havens, and narrative secrets",
+    "Character progression with package tracking, abilities, and exposure scars"
   ],
   "scopes": {
-    "standard": {
-      "name": "Standard (Some Failures)",
-      "description": "A standard campaign with some lost and replayed months."
+    "pandemic2_standard": {
+      "name": "Standard Campaign (Prologue + ~4 Retries)",
+      "description": "1 training prologue plus 12 months with typical failure rate (~3-4 months requiring a 2nd attempt). Total 16-17 games."
     },
-    "perfect": {
-      "name": "Perfect (No Failures)",
-      "description": "A perfect campaign with no lost months."
+    "pandemic2_optimistic": {
+      "name": "Flawless Haven Run (Prologue + 1-2 Retries)",
+      "description": "High win-rate expedition: 1 prologue and almost all months won on the first attempt (14 total games)."
+    },
+    "pandemic2_grind": {
+      "name": "Wasteland Struggle (Prologue + ~8 Retries)",
+      "description": "Struggling against collapsing supply lines and plague outbreaks; multiple months require late debriefings (21 total games)."
+    },
+    "pandemic2_max": {
+      "name": "Maximum Box Capacity (24 Games + Prologue)",
+      "description": "Every single calendar month played twice (Early + Late) plus prologue missions for the fullest possible experience (26 total games)."
     }
   }
 }

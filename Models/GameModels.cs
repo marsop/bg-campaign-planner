@@ -8,6 +8,8 @@ public static class KnownGameIds
     public const string Gloomhaven = "gloomhaven";
     public const string Frosthaven = "frosthaven";
     public const string PandemicSeason0 = "pandemic-season-0";
+    public const string PandemicSeason1 = "pandemic-season-1";
+    public const string PandemicSeason2 = "pandemic-season-2";
     public const string SleepingGods = "sleeping-gods";
     public const string Oathsworn = "oathsworn";
     public const string TaintedGrail = "tainted-grail";

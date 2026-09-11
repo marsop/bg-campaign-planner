@@ -4,18 +4,30 @@
   "tagline": "Chaque mois apporte de nouveaux défis et des changements permanents",
   "loreSummary": "Vous êtes une équipe d'experts en contrôle des maladies travaillant ensemble pour tenir à distance quatre maladies mortelles pendant une année entière. Chaque décision que vous prenez et chaque ville qui tombe façonnera définitivement votre monde.",
   "badgeCategory": "Coopératif Legacy",
-  "roadmapTitle": "🗺️ Progression de la Campagne",
-  "roadmapBadge": "FEUILLE DE ROUTE LEGACY",
+  "roadmapTitle": "🗺️ Réponse Globale aux Épidémies du CDC & Chronologie de Confinement",
+  "roadmapBadge": "PROTOCOLE DE CONFINEMENT",
   "keyFeatures": [
-    "Mécaniques coopératives de contrôle des maladies",
-    "Changements permanents dans le monde avec des autocollants et des cartes détruites",
-    "Des règles et des objectifs qui évoluent chaque mois",
-    "Progression des personnages et cicatrices permanentes"
+    "Mécaniques coopératives de contrôle des maladies contre quatre souches pathogènes mortelles",
+    "Changements permanents du monde avec des autocollants de dossiers et des cartes d'infection détruites",
+    "Règles évolutives, dossiers secrets et nouveaux objectifs débloqués chaque mois",
+    "Progression des personnages avec améliorations relationnelles spécialisées et cicatrices permanentes"
   ],
   "scopes": {
     "pandemic1_standard": {
-      "name": "Campagne Standard",
-      "description": "Une année complète de jeu, en supposant que certains mois sont perdus et rejoués."
+      "name": "Campagne Standard (12 Mois + ~4 Nouvelles Tentatives)",
+      "description": "Une année complète de lutte épidémiologique avec taux d'échec typique (~3-4 mois nécessitent une 2e tentative). Total 16-17 parties."
+    },
+    "pandemic1_optimistic": {
+      "name": "Confinement Exemplaire (12 Mois + 1-2 Nouvelles Tentatives)",
+      "description": "Opération CDC à fort taux de victoire, épidémies minimes et quasi tous les mois réussis dès le premier essai (14 parties)."
+    },
+    "pandemic1_grind": {
+      "name": "Crise Épidémique Critique (12 Mois + ~8 Nouvelles Tentatives)",
+      "description": "Lutte acharnée face aux métropoles en perdition et aux populations paniquées ; plusieurs mois nécessitent de rejouer (21 parties)."
+    },
+    "pandemic1_max": {
+      "name": "Capacité Maximale de la Boîte (24 Parties au Total)",
+      "description": "Chaque mois calendaire joué deux fois (Début + Fin) pour la durée de campagne maximale possible (24-26 parties)."
     }
   }
 }

@@ -191,12 +191,14 @@ public class CampaignDataService
             }
         }
 
-        // Establish stable catalog order: Gloomhaven, Frosthaven, Pandemic, Sleeping Gods, Oathsworn, Tainted Grail
+        // Establish stable catalog order: Gloomhaven, Frosthaven, Pandemic series, Sleeping Gods, Oathsworn, Tainted Grail
         var defaultOrder = new[]
         {
             KnownGameIds.Gloomhaven,
             KnownGameIds.Frosthaven,
             KnownGameIds.PandemicSeason0,
+            KnownGameIds.PandemicSeason1,
+            KnownGameIds.PandemicSeason2,
             KnownGameIds.SleepingGods,
             KnownGameIds.Oathsworn,
             KnownGameIds.TaintedGrail
@@ -273,6 +275,8 @@ public class CampaignDataService
         public string Designers { get; set; } = string.Empty;
         public int PlayersMin { get; set; } = 1;
         public int PlayersMax { get; set; } = 4;
+        public int MinPlayers { set => PlayersMin = value; }
+        public int MaxPlayers { set => PlayersMax = value; }
         public double BggRating { get; set; }
         public double BggWeight { get; set; }
         public string BggUrl { get; set; } = string.Empty;

@@ -1,24 +1,33 @@
 {
   "title": "Pandemic Legacy: Season 2",
-  "subtitle": "A Legacy of Hope",
-  "tagline": "Die Welt steht am Abgrund.",
-  "loreSummary": "Ihr seid eine kleine Gruppe von Überlebenden, die versuchen, die Welt zu retten.",
-  "badgeCategory": "Kampagnentyp",
-  "roadmapTitle": "Kampagnen-Roadmap",
-  "roadmapBadge": "Story-Fortschritt",
+  "subtitle": "Eine postapokalyptische kooperative Kampagne zur Wiederherstellung der Zivilisation vom Meer aus",
+  "tagline": "Einundsiebzig Jahre nach dem Zusammenbruch: Erkundet das Raster und bringt der Menschheit Hoffnung",
+  "loreSummary": "Ihr seid die Nachkommen der wenigen Überlebenden, die auf schwimmenden Meeresstationen, den Zufluchten, Zuflucht fanden. Da die Vorräte schwinden, müsst ihr euch auf das zerstörte Festland wagen und die vergessene Welt kartieren, bevor jede Hoffnung verloren ist.",
+  "badgeCategory": "Postapokalyptisches Legacy-Kooperationsspiel",
+  "roadmapTitle": "🗺️ Zuflucht-Aufklärung & Zeitstrahl der Festland-Erkundung",
+  "roadmapBadge": "POST-PLAGEN-ZEITSTRAHL",
   "keyFeatures": [
-    "Kooperatives Legacy-Gameplay",
-    "Sich entwickelndes Spielbrett und Regeln",
-    "Narrativ gesteuerte Kampagne"
+    "Rubbel-Kartenkarten enthüllen unentdeckte Städte und geheime Seerouten",
+    "Versorgungswürfel-Logistiksystem, um überlebende Städte im Raster am Leben zu halten",
+    "Suchdeck-Mechanismus zur Entdeckung von Ausrüstung, verborgenen Zufluchten und narrativen Geheimnissen",
+    "Charakterentwicklung mit Paketverfolgung, Fertigkeiten und Expositionsnarben"
   ],
   "scopes": {
-    "standard": {
-      "name": "Standard (Einige Fehlschläge)",
-      "description": "Eine Standardkampagne mit einigen verlorenen und wiederholten Monaten."
+    "pandemic2_standard": {
+      "name": "Standard-Kampagne (Prolog + ~4 Wiederholungen)",
+      "description": "1 Trainingsprolog plus 12 Monate mit typischer Verlustrate (~3-4 Monate erfordern einen 2. Versuch). Insgesamt 16-17 Partien."
     },
-    "perfect": {
-      "name": "Perfekt (Keine Fehlschläge)",
-      "description": "Eine perfekte Kampagne ohne verlorene Monate."
+    "pandemic2_optimistic": {
+      "name": "Makelloser Zuflucht-Lauf (Prolog + 1-2 Wiederholungen)",
+      "description": "Expedition mit hoher Siegquote: 1 Prolog und fast alle Monate im ersten Anlauf gewonnen (14 Partien insgesamt)."
+    },
+    "pandemic2_grind": {
+      "name": "Ödland-Überlebenskampf (Prolog + ~8 Wiederholungen)",
+      "description": "Schwere Not durch zusammenbrechende Nachschublinien und Seuchenausbrüche; mehrere Monate erfordern zweite Versuche (21 Partien insgesamt)."
+    },
+    "pandemic2_max": {
+      "name": "Maximale Box-Kapazität (24 Partien + Prolog)",
+      "description": "Jeder einzelne Kalendermonat wird zweimal gespielt (Anfang + Ende) plus Prologmissionen für die maximal mögliche Kampagnenlänge (26 Partien)."
     }
   }
 }

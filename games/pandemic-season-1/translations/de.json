@@ -4,18 +4,30 @@
   "tagline": "Jeder Monat bringt neue Herausforderungen und dauerhafte Veränderungen",
   "loreSummary": "Ihr seid ein Team von Experten für Seuchenkontrolle, die zusammenarbeiten, um ein ganzes Jahr lang vier tödliche Krankheiten in Schach zu halten. Jede Entscheidung, die ihr trefft, und jede Stadt, die fällt, wird eure Welt dauerhaft prägen.",
   "badgeCategory": "Kooperativ Legacy",
-  "roadmapTitle": "🗺️ Kampagnenfortschritt",
-  "roadmapBadge": "LEGACY-FAHRPLAN",
+  "roadmapTitle": "🗺️ CDC Globale Ausbruchsreaktion & Eindämmungszeitstrahl",
+  "roadmapBadge": "EINDÄMMUNGSPROTOKOLL",
   "keyFeatures": [
-    "Kooperative Seuchenkontrollmechaniken",
-    "Dauerhafte Veränderungen in der Welt durch Aufkleber und zerstörte Karten",
-    "Sich jeden Monat entwickelnde Regeln und Ziele",
-    "Charakterentwicklung und dauerhafte Narben"
+    "Kooperative Seuchenkontrollmechaniken im Kampf gegen vier tödliche Erregerstämme",
+    "Dauerhafte Veränderungen der Welt durch Dossier-Aufkleber und zerstörte Infektionskarten",
+    "Sich monatlich entwickelnde Regeln, Geheimdossiers und neue Einsatzziele",
+    "Charakterentwicklung mit spezialisierten Beziehungs-Upgrades und bleibenden Narben"
   ],
   "scopes": {
     "pandemic1_standard": {
-      "name": "Standardkampagne",
-      "description": "Ein volles Jahr Spielzeit, unter der Annahme, dass einige Monate verloren gehen und erneut gespielt werden."
+      "name": "Standard-Kampagne (12 Monate + ~4 Wiederholungen)",
+      "description": "Ein volles Jahr Seuchenbekämpfung mit typischer Verlustrate (~3-4 Monate erfordern einen 2. Versuch). Insgesamt 16-17 Partien."
+    },
+    "pandemic1_optimistic": {
+      "name": "Makellose Eindämmung (12 Monate + 1-2 Wiederholungen)",
+      "description": "CDC-Einsatz mit hoher Siegquote, minimalen Ausbrüchen und fast allen Monaten im ersten Anlauf gewonnen (14 Partien)."
+    },
+    "pandemic1_grind": {
+      "name": "Kritische Ausbruchskrise (12 Monate + ~8 Wiederholungen)",
+      "description": "Verzweifelter Kampf gegen kollabierende Metropolen und Panik in der Bevölkerung; mehrere Monate erfordern zweite Versuche (21 Partien)."
+    },
+    "pandemic1_max": {
+      "name": "Maximale Box-Kapazität (24 Partien insgesamt)",
+      "description": "Jeder einzelne Kalendermonat wird zweimal gespielt (Anfang + Ende) für die maximal mögliche Kampagnenerfahrung (24-26 Partien)."
     }
   }
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Tainted Grail: The Fall of Avalon",
   "subtitle": "Una oscura aventura cooperativa de supervivencia en un mundo artúrico agonizante",
   "tagline": "Enciende los Menhires y sobrevive a la Rareza",
@@ -14,8 +14,16 @@
   ],
   "scopes": {
     "tg_core": {
-      "name": "La Caída de Avalon (Campaña Principal)",
-      "description": "El arco argumental completo a través de Avalon para descubrir el destino de los héroes originales."
+      "name": "La Caída de Ávalon (Campaña Principal)",
+      "description": "El arco argumental completo a través de Ávalon equilibrando los objetivos principales con la exploración y supervivencia indispensables."
+    },
+    "tg_story": {
+      "name": "Arco Argumental Principal (Ruta Directa)",
+      "description": "Progresión directa a lo largo de las misiones centrales para descubrir el legado de Arturo con mínimas desviaciones opcionales."
+    },
+    "tg_completionist": {
+      "name": "Exploración Total de Ávalon (Todos los Secretos)",
+      "description": "Exploración exhaustiva de cada territorio, encendiendo todos los Menhires lejanos, resolviendo misiones de sueños de personajes y hallando reliquias antiguas."
     }
   }
 }

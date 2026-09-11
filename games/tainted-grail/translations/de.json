@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Tainted Grail: The Fall of Avalon",
   "subtitle": "Ein düsteres, kooperatives Survival-Abenteuer in einer sterbenden Artus-Welt",
   "tagline": "Entzünde die Menhire und überlebe die Wyrdnis",
@@ -15,7 +15,15 @@
   "scopes": {
     "tg_core": {
       "name": "Der Niedergang Avalons (Hauptkampagne)",
-      "description": "Der gesamte Hauptstory-Bogen durch Avalon, um das Schicksal der ursprünglichen Helden zu entdecken."
+      "description": "Der vollständige Hauptstory-Bogen durch Avalon in ausgewogener Balance zwischen Hauptzielen, Erkundung und Überleben."
+    },
+    "tg_story": {
+      "name": "Hauptgeschichte (Fokussierter Pfad)",
+      "description": "Direkter Fortschritt entlang der zentralen Handlungslinien auf den Spuren von König Artus mit minimalen Abstechern."
+    },
+    "tg_completionist": {
+      "name": "Vollständige Avalon-Erkundung (Alle Geheimnisse)",
+      "description": "Umfassende Erforschung aller Gebiete, Entzünden aller fernen Menhire, Lösen der Traumquests der Charaktere und Aufspüren uralter Relikte."
     }
   }
 }

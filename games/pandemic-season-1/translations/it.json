@@ -4,18 +4,30 @@
   "tagline": "Ogni mese porta nuove sfide e cambiamenti permanenti",
   "loreSummary": "Siete un team di esperti in controllo delle malattie che collaborano per tenere a bada quattro malattie mortali per un anno intero. Ogni decisione che prendete e ogni città che cade plasmeranno permanentemente il vostro mondo.",
   "badgeCategory": "Cooperativo Legacy",
-  "roadmapTitle": "🗺️ Progressione della Campagna",
-  "roadmapBadge": "TABELLA DI MARCIA LEGACY",
+  "roadmapTitle": "🗺️ Risposta Globale ai Focolai del CDC & Cronologia di Contenimento",
+  "roadmapBadge": "PROTOCOLLO DI CONTENIMENTO",
   "keyFeatures": [
-    "Meccaniche cooperative di controllo delle malattie",
-    "Cambiamenti permanenti nel mondo con adesivi e carte distrutte",
-    "Regole e obiettivi in evoluzione ogni mese",
-    "Progressione del personaggio e cicatrici permanenti"
+    "Meccaniche cooperative di controllo delle malattie contro quattro ceppi patogeni letali",
+    "Cambiamenti permanenti nel mondo con adesivi per dossier e carte infezione distrutte",
+    "Regole in continua evoluzione, dossier segreti e nuovi obiettivi sbloccati ogni mese",
+    "Progressione dei personaggi con relazioni specializzate e cicatrici permanenti"
   ],
   "scopes": {
     "pandemic1_standard": {
-      "name": "Campagna Standard",
-      "description": "Un anno intero di gioco, supponendo che alcuni mesi vengano persi e rigiocati."
+      "name": "Campagna Standard (12 Mesi + ~4 Ritentativi)",
+      "description": "Un anno intero di controllo epidemiologico con percentuale di sconfitta tipica (~3-4 mesi richiedono un 2° tentativo). Totale 16-17 partite."
+    },
+    "pandemic1_optimistic": {
+      "name": "Contenimento Impeccabile (12 Mesi + 1-2 Ritentativi)",
+      "description": "Missione CDC con alta percentuale di vittorie, focolai minimi e quasi tutti i mesi vinti al primo tentativo (14 partite)."
+    },
+    "pandemic1_grind": {
+      "name": "Crisi Epidemiologica Critica (12 Mesi + ~8 Ritentativi)",
+      "description": "Lotta disperata contro metropoli al collasso e popolazioni in preda al panico; diversi mesi richiedono una seconda missione (21 partite)."
+    },
+    "pandemic1_max": {
+      "name": "Capienza Massima della Scatola (24 Partite Totali)",
+      "description": "Ogni singolo mese del calendario giocato due volte (Inizio + Fine) per l'esperienza di campagna più lunga possibile (24-26 partite)."
     }
   }
 }

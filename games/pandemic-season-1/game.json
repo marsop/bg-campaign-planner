@@ -19,7 +19,7 @@
     "cardBackground": "rgba(26, 26, 26, 0.90)",
     "borderColor": "rgba(193, 39, 45, 0.35)",
     "glowColor": "rgba(193, 39, 45, 0.25)",
-    "headerFont": "'Inter', system-ui, sans-serif",
+    "headerFont": "'Special Elite', 'Courier New', monospace",
     "bodyFont": "'Inter', system-ui, sans-serif",
     "loreIcon": "🦠",
     "emblem": "🌍☣️",
@@ -29,15 +29,34 @@
     "heroClass": "hero-pandemic1"
   },
   "publicSourceReferences": [
-    "BoardGameGeek",
-    "Publisher Official Rulebook"
+    "BoardGameGeek (BGG #2 Overall / #1 Thematic)",
+    "Z-Man Games Official Season 1 Rulebook & Field Dossiers",
+    "Community Playthrough Statistics & 12-Month Campaign Logs"
   ],
   "scopes": [
     {
       "id": "pandemic1_standard",
       "baseScenarioCount": 16,
-      "estimatedFailRatePercent": 25,
+      "estimatedFailRatePercent": 25.0,
       "isRecommended": true
+    },
+    {
+      "id": "pandemic1_optimistic",
+      "baseScenarioCount": 14,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    },
+    {
+      "id": "pandemic1_grind",
+      "baseScenarioCount": 21,
+      "estimatedFailRatePercent": 40.0,
+      "isRecommended": false
+    },
+    {
+      "id": "pandemic1_max",
+      "baseScenarioCount": 26,
+      "estimatedFailRatePercent": 50.0,
+      "isRecommended": false
     }
   ]
 }

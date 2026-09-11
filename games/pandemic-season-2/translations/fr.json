@@ -1,24 +1,33 @@
 {
   "title": "Pandemic Legacy: Season 2",
-  "subtitle": "A Legacy of Hope",
-  "tagline": "Le monde est au bord de l'effondrement.",
-  "loreSummary": "Vous êtes un petit groupe de survivants essayant de sauver le monde.",
-  "badgeCategory": "Type de Campagne",
-  "roadmapTitle": "Feuille de Route de la Campagne",
-  "roadmapBadge": "Progression de l'Histoire",
+  "subtitle": "Une campagne coopérative post-apocalyptique pour restaurer la civilisation depuis la mer",
+  "tagline": "Soixante-et-onze ans après la chute, explorez le réseau et redonnez espoir à l'humanité",
+  "loreSummary": "Vous êtes les descendants des rares survivants réfugiés sur des stations océaniques flottantes appelées les Havres. Les ressources s'épuisant, vous devez vous aventurer sur le continent dévasté et cartographier le monde oublié avant que tout espoir ne s'éteigne.",
+  "badgeCategory": "Coopératif Legacy Post-Apocalyptique",
+  "roadmapTitle": "🗺️ Reconnaissance des Havres & Chronologie d'Exploration du Continent",
+  "roadmapBadge": "FEUILLE DE ROUTE POST-FLÉAU",
   "keyFeatures": [
-    "Jeu coopératif legacy",
-    "Plateau et règles évolutifs",
-    "Campagne narrative"
+    "Cartes de carte à gratter révélant des villes inexplorées et des routes maritimes secrètes",
+    "Système logistique de cubes de ravitaillement pour maintenir les villes en vie à travers le réseau",
+    "Mécanique de deck de fouille dévoilant équipement, havres cachés et secrets narratifs",
+    "Progression des personnages avec suivi des colis, capacités et cicatrices d'exposition"
   ],
   "scopes": {
-    "standard": {
-      "name": "Standard (Quelques échecs)",
-      "description": "Une campagne standard avec quelques mois perdus et rejoués."
+    "pandemic2_standard": {
+      "name": "Campagne Standard (Prologue + ~4 Nouvelles Tentatives)",
+      "description": "1 prologue d'entraînement plus 12 mois avec taux d'échec typique (~3-4 mois nécessitent une 2e tentative). Total 16-17 parties."
     },
-    "perfect": {
-      "name": "Parfait (Aucun échec)",
-      "description": "Une campagne parfaite sans mois perdus."
+    "pandemic2_optimistic": {
+      "name": "Parcours Sans Faute (Prologue + 1-2 Nouvelles Tentatives)",
+      "description": "Expédition à fort taux de victoire : 1 prologue et quasi tous les mois réussis dès le premier essai (14 parties au total)."
+    },
+    "pandemic2_grind": {
+      "name": "Lutte dans les Terres Dévastées (Prologue + ~8 Nouvelles Tentatives)",
+      "description": "Difficultés face aux lignes de ravitaillement chancelantes et aux épidémies ; plusieurs mois nécessitent de rejouer (21 parties au total)."
+    },
+    "pandemic2_max": {
+      "name": "Capacité Maximale de la Boîte (24 Parties + Prologue)",
+      "description": "Chaque mois calendaire joué deux fois (Début + Fin) plus les missions de prologue pour l'expérience la plus complète (26 parties)."
     }
   }
 }

@@ -604,4 +604,43 @@
   <data name="Wizard.Step3Short" xml:space="preserve">
     <value>Ergebnisse</value>
   </data>
+  <data name="GameSelector.FilterPlayers" xml:space="preserve">
+    <value>Spieler</value>
+  </data>
+  <data name="GameSelector.FilterWeight" xml:space="preserve">
+    <value>Komplexität</value>
+  </data>
+  <data name="GameSelector.FilterAll" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="GameSelector.PlayerSolo" xml:space="preserve">
+    <value>1 (Solo)</value>
+  </data>
+  <data name="GameSelector.PlayerCount" xml:space="preserve">
+    <value>{0} Spieler</value>
+  </data>
+  <data name="GameSelector.WeightLight" xml:space="preserve">
+    <value>Leicht (&lt; 3.0)</value>
+  </data>
+  <data name="GameSelector.WeightMedium" xml:space="preserve">
+    <value>Mittel (3.0–3.5)</value>
+  </data>
+  <data name="GameSelector.WeightMediumHeavy" xml:space="preserve">
+    <value>Mittel-Schwer (3.5–4.0)</value>
+  </data>
+  <data name="GameSelector.WeightHeavy" xml:space="preserve">
+    <value>Schwer (4.0+)</value>
+  </data>
+  <data name="GameSelector.ShowingGamesCount" xml:space="preserve">
+    <value>{0} von {1} Spielen angezeigt</value>
+  </data>
+  <data name="GameSelector.ClearFilters" xml:space="preserve">
+    <value>Filter zurücksetzen</value>
+  </data>
+  <data name="GameSelector.NoMatchesTitle" xml:space="preserve">
+    <value>Keine Spiele gefunden</value>
+  </data>
+  <data name="GameSelector.NoMatchesDesc" xml:space="preserve">
+    <value>Versuche, die Spieler- oder Komplexitätsfilter anzupassen oder zurückzusetzen.</value>
+  </data>
 </root>

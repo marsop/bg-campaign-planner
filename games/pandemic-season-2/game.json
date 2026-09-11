@@ -1,28 +1,61 @@
 {
   "id": "pandemic-season-2",
-  "unitType": "games_months",
-  "baseScenarioCount": 12,
-  "estimatedFailRatePercent": 0.5,
-  "bggId": 221107,
-  "minPlayers": 2,
-  "maxPlayers": 4,
+  "title": "Pandemic Legacy: Season 2",
+  "releaseYear": 2017,
+  "designers": "Rob Daviau, Matt Leacock",
+  "playersMin": 2,
+  "playersMax": 4,
   "bggRating": 8.1,
   "bggWeight": 3.25,
-  "averageSessionMinutes": 60,
-  "setupMinutes": 10,
-  "teardownMinutes": 10,
-  "themeClass": "theme-pandemic2",
-  "activeThemeClass": "theme-pandemic2-active",
-  "roadmapClass": "roadmap-pandemic2",
-  "heroClass": "hero-pandemic2",
-  "backgroundImage": "bg.webp",
+  "bggUrl": "https://boardgamegeek.com/boardgame/221107/pandemic-legacy-season-2",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 15,
+  "unitType": "games_months",
+  "theme": {
+    "primaryColor": "#0ea5e9",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e293b 0%, #0f172a 60%, #020617 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.90)",
+    "borderColor": "rgba(14, 165, 233, 0.35)",
+    "glowColor": "rgba(14, 165, 233, 0.25)",
+    "headerFont": "'Special Elite', 'Courier New', monospace",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "📻",
+    "emblem": "🌊📻",
+    "themeClass": "theme-pandemic2",
+    "activeThemeClass": "theme-pandemic2-active",
+    "roadmapClass": "roadmap-pandemic2",
+    "heroClass": "hero-pandemic2"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (Top 100 Overall / #30 Thematic)",
+    "Z-Man Games Official Havens Briefing & Rulebook",
+    "Community Playthrough Statistics & 12-Month Campaign Logs"
+  ],
   "scopes": [
     {
-      "id": "standard",
+      "id": "pandemic2_standard",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
-      "id": "perfect",
+      "id": "pandemic2_optimistic",
+      "baseScenarioCount": 14,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    },
+    {
+      "id": "pandemic2_grind",
+      "baseScenarioCount": 21,
+      "estimatedFailRatePercent": 40.0,
+      "isRecommended": false
+    },
+    {
+      "id": "pandemic2_max",
+      "baseScenarioCount": 26,
+      "estimatedFailRatePercent": 50.0,
       "isRecommended": false
     }
   ]

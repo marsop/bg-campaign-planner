@@ -1,4 +1,4 @@
-﻿{
+{
   "id": "oathsworn",
   "title": "Oathsworn: Into the Deepwood",
   "releaseYear": 2022,
@@ -29,8 +29,9 @@
     "heroClass": "hero-oathsworn"
   },
   "publicSourceReferences": [
-    "BoardGameGeek",
-    "Shadowborne Games Official Rulebook"
+    "BoardGameGeek (BGG #25 Overall / #7 Thematic)",
+    "Shadowborne Games Official Rulebook & Story Encounter Log",
+    "Community Campaign Playthrough Survey Statistics"
   ],
   "scopes": [
     {

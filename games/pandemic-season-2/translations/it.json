@@ -1,24 +1,33 @@
 {
   "title": "Pandemic Legacy: Season 2",
-  "subtitle": "A Legacy of Hope",
-  "tagline": "Il mondo è sull'orlo del collasso.",
-  "loreSummary": "Siete un piccolo gruppo di sopravvissuti che cercano di salvare il mondo.",
-  "badgeCategory": "Tipo di Campagna",
-  "roadmapTitle": "Tabella di Marcia della Campagna",
-  "roadmapBadge": "Progresso della Storia",
+  "subtitle": "Una campagna cooperativa post-apocalittica per ricostruire la civiltà dal mare",
+  "tagline": "Settantuno anni dopo la caduta, esplora la rete e restituisci la speranza all'umanità",
+  "loreSummary": "Siete i discendenti dei pochi sopravvissuti rifugiati nelle stazioni oceaniche galleggianti note come Rifugi. Con le scorte agli sgoccioli, dovete avventurarvi sulla terraferma devastata e mappare il mondo dimenticato prima che ogni speranza svanisca.",
+  "badgeCategory": "Cooperativo Legacy Post-Apocalittico",
+  "roadmapTitle": "🗺️ Ricognizione dei Rifugi & Cronologia di Esplorazione Continentale",
+  "roadmapBadge": "CRONOLOGIA POST-PIAGA",
   "keyFeatures": [
-    "Gioco cooperativo legacy",
-    "Tabellone e regole in evoluzione",
-    "Campagna narrativa"
+    "Carte mappa da grattare che rivelano città inesplorate e percorsi marittimi segreti",
+    "Sistema logistico di cubi rifornimento per mantenere in vita le città superstiti nella rete",
+    "Meccanica del mazzo di ricerca che svela equipaggiamento, rifugi nascosti e segreti narrativi",
+    "Progressione dei personaggi con tracciamento dei pacchi, abilità e cicatrici da esposizione"
   ],
   "scopes": {
-    "standard": {
-      "name": "Standard (Alcuni fallimenti)",
-      "description": "Una campagna standard con alcuni mesi persi e rigiocati."
+    "pandemic2_standard": {
+      "name": "Campagna Standard (Prologo + ~4 Ritentativi)",
+      "description": "1 prologo di addestramento più 12 mesi con percentuale di sconfitta tipica (~3-4 mesi richiedono un 2° tentativo). Totale 16-17 partite."
     },
-    "perfect": {
-      "name": "Perfetto (Nessun fallimento)",
-      "description": "Una campagna perfetta senza mesi persi."
+    "pandemic2_optimistic": {
+      "name": "Spedizione Impeccabile (Prologo + 1-2 Ritentativi)",
+      "description": "Spedizione con alta percentuale di vittorie: 1 prologo e quasi tutti i mesi vinti al primo tentativo (14 partite totali)."
+    },
+    "pandemic2_grind": {
+      "name": "Lotta nella Zona Contaminata (Prologo + ~8 Ritentativi)",
+      "description": "Difficoltà contro linee di rifornimento al collasso e focolai della piaga; diversi mesi richiedono una seconda missione (21 partite totali)."
+    },
+    "pandemic2_max": {
+      "name": "Capienza Massima della Scatola (24 Partite + Prologo)",
+      "description": "Ogni singolo mese del calendario giocato due volte (Inizio + Fine) più le missioni di prologo per l'esperienza più completa possibile (26 partite totali)."
     }
   }
 }

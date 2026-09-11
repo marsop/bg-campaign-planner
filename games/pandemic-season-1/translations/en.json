@@ -4,18 +4,30 @@
   "tagline": "Every month brings new challenges and permanent changes",
   "loreSummary": "You are a team of disease control experts working together to keep four deadly diseases at bay for a full year. Every decision you make and every city that falls will permanently shape your world.",
   "badgeCategory": "Legacy Cooperative",
-  "roadmapTitle": "🗺️ Campaign Progression",
-  "roadmapBadge": "LEGACY ROADMAP",
+  "roadmapTitle": "🗺️ CDC Global Outbreak Response & Containment Timeline",
+  "roadmapBadge": "CONTAINMENT PROTOCOL",
   "keyFeatures": [
-    "Cooperative disease control mechanics",
-    "Permanent world changes with stickers and destroyed cards",
-    "Evolving rules and objectives each month",
-    "Character progression and permanent scars"
+    "Cooperative disease control mechanics fighting four lethal pathogen strains",
+    "Permanent world changes with dossier stickers and destroyed infection cards",
+    "Evolving rules, secret dossiers, and new objectives opening each month",
+    "Character progression with specialized relationship upgrades and permanent scars"
   ],
   "scopes": {
     "pandemic1_standard": {
-      "name": "Standard Campaign",
-      "description": "A full year of play, assuming some months are lost and replayed."
+      "name": "Standard Campaign (12 Months + ~4 Retries)",
+      "description": "A full year of disease control with typical failure rate (~3-4 months requiring a second attempt). Total 16-17 games."
+    },
+    "pandemic1_optimistic": {
+      "name": "Flawless Containment (12 Months + 1-2 Retries)",
+      "description": "High win-rate CDC run with minimal outbreaks and almost every month won on the first attempt (14 total games)."
+    },
+    "pandemic1_grind": {
+      "name": "Critical Outbreak Crisis (12 Months + ~8 Retries)",
+      "description": "Desperate struggle against collapsing cities and panicked populations; multiple months require late debriefings (21 total games)."
+    },
+    "pandemic1_max": {
+      "name": "Maximum Box Capacity (24 Games Total)",
+      "description": "Every single calendar month played twice (Early + Late) for the longest possible campaign experience (24-26 total games)."
     }
   }
 }
