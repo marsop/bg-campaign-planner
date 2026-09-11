@@ -9,7 +9,7 @@
             aria-label="@Loc["App.Version"] @AppVersion.DisplayVersion">
         <span class="app-version-indicator-dot" aria-hidden="true"></span>
         <i class="bi bi-tag-fill me-1 text-warning"></i>
-        <span class="version-label">v@AppVersion.DisplayVersion</span>
+        <span class="version-label">v@(AppVersion.DisplayVersion)</span>
         @if (!string.IsNullOrEmpty(AppVersion.CommitShortHash))
         {
             <span class="version-hash-tag">@AppVersion.CommitShortHash</span>
@@ -31,7 +31,7 @@
                                 @Loc["App.Title"]
                             </h5>
                             <span class="badge bg-warning text-dark fw-semibold mt-1">
-                                v@AppVersion.DisplayVersion
+                                v@(AppVersion.DisplayVersion)
                             </span>
                         </div>
                     </div>

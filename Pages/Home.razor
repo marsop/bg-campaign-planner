@@ -34,7 +34,7 @@
                             @onclick="() => versionBadgeRef?.OpenModal()" 
                             title="@Loc["App.Version"] @AppVersion.InformationalVersion"
                             aria-label="@Loc["App.Version"] @AppVersion.DisplayVersion">
-                        v@AppVersion.DisplayVersion
+                        v@(AppVersion.DisplayVersion)
                     </button>
                 </div>
                 <p class="lead text-muted-light mx-auto" style="max-width: 720px;">
@@ -172,7 +172,7 @@
                         class="btn btn-link p-0 small text-decoration-none text-muted fw-semibold" 
                         @onclick="() => versionBadgeRef?.OpenModal()"
                         title="@Loc["App.Version"]: @AppVersion.InformationalVersion">
-                    v@AppVersion.DisplayVersion@(!string.IsNullOrEmpty(AppVersion.CommitShortHash) ? $" ({AppVersion.CommitShortHash})" : "")
+                    v@(AppVersion.DisplayVersion)@(!string.IsNullOrEmpty(AppVersion.CommitShortHash) ? $" ({AppVersion.CommitShortHash})" : "")
                 </button>
                 <span>&bull;</span>
                 <span>Made with ❤️ by <a href="https://albertogregorio.com" target="_blank" rel="noopener noreferrer">Alberto Gregorio</a></span>

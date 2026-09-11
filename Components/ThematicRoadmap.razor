@@ -4,7 +4,7 @@
 
 <div class="thematic-roadmap-wrapper mb-4">
     <div class="roadmap-card @Game.Theme.RoadmapClass">
-        <div class="roadmap-header d-flex justify-content-between align-items-center mb-3">
+        <div class="roadmap-header d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
             <div>
                 <h4 class="roadmap-title">
                     <span>@Game.Theme.RoadmapTitle</span>
@@ -13,8 +13,18 @@
                     @Loc["Roadmap.Subtitle"]
                 </div>
             </div>
-            <div class="badge-roadmap-style">
-                <span>@Game.Theme.RoadmapBadge</span>
+            <div class="d-flex align-items-center gap-3">
+                <div class="form-check form-switch spoiler-toggle-switch d-flex align-items-center gap-2 mb-0">
+                    <input class="form-check-input mt-0" type="checkbox" id="roadmapSpoilers"
+                           checked="@ShowSpoilers"
+                           @onchange="ToggleSpoilers" />
+                    <label class="form-check-label small user-select-none" for="roadmapSpoilers">
+                        @Loc["Roadmap.ShowSpoilers"]
+                    </label>
+                </div>
+                <div class="badge-roadmap-style">
+                    <span>@Game.Theme.RoadmapBadge</span>
+                </div>
             </div>
         </div>
 
@@ -26,19 +36,31 @@
                 {
                     var m = proj.Milestone;
                     <div class="col-12 col-md-6 col-lg-3">
-                        <div class="milestone-step-card">
+                        <div class="milestone-step-card @(!ShowSpoilers ? "milestone-spoiler-protected" : "")">
                             <div class="milestone-step-top d-flex justify-content-between align-items-center mb-3">
                                 <span class="step-num">@Loc.Get("Roadmap.Step", m.Order)</span>
-                                <span class="badge-step">@m.BadgeText</span>
+                                <span class="badge-step">@(ShowSpoilers ? m.BadgeText : Loc["Roadmap.MilestoneBadge"])</span>
                             </div>
 
                             <div class="milestone-icon-circle mb-3">
-                                <span class="milestone-emoji">@m.IconEmoji</span>
+                                <span class="milestone-emoji">@(ShowSpoilers ? m.IconEmoji : "🔒")</span>
                             </div>
 
-                            <h5 class="milestone-title">@m.Title</h5>
-                            <div class="milestone-phase">@m.Phase</div>
-                            <p class="milestone-desc">@m.Description</p>
+                            @if (ShowSpoilers)
+                            {
+                                <h5 class="milestone-title">@m.Title</h5>
+                                <div class="milestone-phase">@m.Phase</div>
+                                <p class="milestone-desc">@m.Description</p>
+                            }
+                            else
+                            {
+                                <h5 class="milestone-title spoiler-masked">
+                                    <span>@Loc.Get("Roadmap.HiddenTitle", m.Order)</span>
+                                    <span class="badge bg-secondary opacity-75">@Loc["Roadmap.SpoilerTag"]</span>
+                                </h5>
+                                <div class="milestone-phase">@Loc.Get("Roadmap.HiddenPhase", m.Order)</div>
+                                <p class="milestone-desc spoiler-masked-desc">@Loc["Roadmap.HiddenDesc"]</p>
+                            }
 
                             <hr class="milestone-divider" />
 
@@ -70,4 +92,20 @@
 
     [Parameter, EditorRequired]
     public CalculationResult Result { get; set; } = null!;
+
+    [Parameter]
+    public bool ShowSpoilers { get; set; } = false;
+
+    [Parameter]
+    public EventCallback<bool> OnToggleSpoilers { get; set; }
+
+    private async Task ToggleSpoilers(ChangeEventArgs e)
+    {
+        bool show = e.Value is bool b && b;
+        ShowSpoilers = show;
+        if (OnToggleSpoilers.HasDelegate)
+        {
+            await OnToggleSpoilers.InvokeAsync(show);
+        }
+    }
 }
