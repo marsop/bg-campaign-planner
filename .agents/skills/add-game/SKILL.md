@@ -166,7 +166,7 @@ See the annotated reference: [translations-reference.md](./references/translatio
 - `title` is usually the original game title (not translated).
 - `subtitle`, `tagline`, `loreSummary`, `badgeCategory`,
   `roadmapTitle`, `roadmapBadge`, and `keyFeatures` must all be
-  genuinely localized — not machine-translated word-for-word without review.
+  genuinely localized into the respective languages (Spanish, German, French, Italian) — not machine-translated word-for-word without review, and NOT left in English.
 - Each scope key in `scopes` must exactly match the `id` values in
   `game.json`.
 - `keyFeatures` is an array of 3–5 short strings highlighting what makes
@@ -199,10 +199,10 @@ should be investigated.
 - [ ] games/{game-id}/cover.webp — 1:1 square WebP image exists
 - [ ] games/{game-id}/background.webp — 16:9 widescreen WebP image exists
 - [ ] games/{game-id}/translations/en.json — complete
-- [ ] games/{game-id}/translations/es.json — complete
-- [ ] games/{game-id}/translations/de.json — complete
-- [ ] games/{game-id}/translations/fr.json — complete
-- [ ] games/{game-id}/translations/it.json — complete
+- [ ] games/{game-id}/translations/es.json — translated into Spanish
+- [ ] games/{game-id}/translations/de.json — translated into German
+- [ ] games/{game-id}/translations/fr.json — translated into French
+- [ ] games/{game-id}/translations/it.json — translated into Italian
 - [ ] Scope IDs in game.json match keys in all translation files
 - [ ] themeClass, activeThemeClass, roadmapClass, heroClass are unique across all games
 - [ ] Zero-spoilers policy respected — no secret unlocks, boss names, or plot reveals

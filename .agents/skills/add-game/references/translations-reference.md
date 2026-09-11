@@ -85,6 +85,7 @@ Each game requires **five** translation files in
 
 - Translate meaning, not words. A fluent native-speaker tone is preferred over
   a literal translation.
+- Ensure all non-English translation files (es.json, de.json, fr.json, it.json) are correctly translated into their respective languages and not simply copied in English.
 - Keep `keyFeatures` concise — each bullet should be skimmable.
 - `loreSummary` sets the emotional mood — make it feel immersive, not like a
   rulebook description.
