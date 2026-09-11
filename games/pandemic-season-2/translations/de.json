@@ -1,24 +1,24 @@
 {
   "title": "Pandemic Legacy: Season 2",
   "subtitle": "A Legacy of Hope",
-  "tagline": "The world is on the brink of collapse.",
-  "loreSummary": "You are a small group of survivors trying to save the world.",
-  "badgeCategory": "Campaign Type",
-  "roadmapTitle": "Campaign Roadmap",
-  "roadmapBadge": "Story Progress",
+  "tagline": "Die Welt steht am Abgrund.",
+  "loreSummary": "Ihr seid eine kleine Gruppe von Überlebenden, die versuchen, die Welt zu retten.",
+  "badgeCategory": "Kampagnentyp",
+  "roadmapTitle": "Kampagnen-Roadmap",
+  "roadmapBadge": "Story-Fortschritt",
   "keyFeatures": [
-    "Cooperative legacy gameplay",
-    "Evolving board and rules",
-    "Narrative-driven campaign"
+    "Kooperatives Legacy-Gameplay",
+    "Sich entwickelndes Spielbrett und Regeln",
+    "Narrativ gesteuerte Kampagne"
   ],
   "scopes": {
     "standard": {
-      "name": "Standard (Some Failures)",
-      "description": "Standard standard"
+      "name": "Standard (Einige Fehlschläge)",
+      "description": "Eine Standardkampagne mit einigen verlorenen und wiederholten Monaten."
     },
     "perfect": {
-      "name": "Perfect (No Failures)",
-      "description": "Perfect perfect"
+      "name": "Perfekt (Keine Fehlschläge)",
+      "description": "Eine perfekte Kampagne ohne verlorene Monate."
     }
   }
 }
