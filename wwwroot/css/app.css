@@ -1886,21 +1886,3 @@ body {
 .theme-pandemic1-active .language-option-item.active {
     color: var(--color-primary);
 }
-.theme-pandemic2 {
-    --brand-color: #6a95b3; /* Pandemic light blue/teal vibe */
-    --brand-dark: #2a3f54;
-    --brand-light: #9bc2de;
-}
-
-.theme-pandemic2-active {
-    border-color: var(--brand-color) !important;
-    box-shadow: 0 0 0 2px var(--brand-color) !important;
-}
-
-.roadmap-pandemic2 {
-    border-left-color: var(--brand-color) !important;
-}
-
-.hero-pandemic2 {
-    background: linear-gradient(to right, var(--brand-dark), var(--brand-color)) !important;
-}
