@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Gloomhaven",
   "subtitle": "Combattimento tattico di stampo euro in un mondo persistente ed evolutivo di dark fantasy",
   "tagline": "Avventurati nelle ombre implacabili del Leone Addormentato",
@@ -29,5 +29,35 @@
       "name": "Completista Totale (Tutto Accessibile)",
       "description": "Completamento di ogni scenario sbloccabile, massima prosperità, tutti i pensionamenti e dungeon avanzati."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "L'ambizione della mercante",
+      "phase": "Fase I - Il Tumulo Nero e le Cripte",
+      "description": "Svelare le trame negromantiche di Jekserah nelle cripte della città e sopravvivere al comandante dei banditi.",
+      "badgeText": "Atto I"
+    },
+    {
+      "order": 2,
+      "title": "La fenditura demoniaca",
+      "phase": "Fase II - Incursioni elementali",
+      "description": "Sigillare la fenditura planare sotto Gloomhaven e affrontare i demoni elementali nell'abisso infuocato.",
+      "badgeText": "Atto II"
+    },
+    {
+      "order": 3,
+      "title": "La Voce scatenata",
+      "phase": "Fase III - Sussurri e draghi",
+      "description": "Scalare le montagne Copperneck per localizzare antichi manufatti e decidere la sorte della Voce.",
+      "badgeText": "Atto III"
+    },
+    {
+      "order": 4,
+      "title": "L'Oscurità di Gloomhaven",
+      "phase": "Fase IV - Il Nucleo Primordiale",
+      "description": "Scendere nel santuario cittadino per affrontare l'eterna corruzione che minaccia l'intera Gloomhaven.",
+      "badgeText": "Finale"
+    }
+  ]
 }

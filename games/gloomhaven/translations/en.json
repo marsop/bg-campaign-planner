@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Gloomhaven",
   "subtitle": "Euro-inspired tactical combat in a persistent, evolving world of high fantasy",
   "tagline": "Venture into the unforgiving shadows of the Sleeping Lion",
@@ -29,5 +29,35 @@
       "name": "Full Completionist (All Accessible)",
       "description": "Attempting every unlockable scenario, high prosperity, all class retirements, and high-level side dungeons."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "The Merchant's Ambition",
+      "phase": "Phase I - The Black Barrow & Crypts",
+      "description": "Uncovering Jekserah's necromantic schemes in the city crypts and surviving the bandit commander.",
+      "badgeText": "Act I"
+    },
+    {
+      "order": 2,
+      "title": "The Demon Rift",
+      "phase": "Phase II - Elemental Incursions",
+      "description": "Sealing the planar rift beneath Gloomhaven and confronting elemental demons in the searing chasm.",
+      "badgeText": "Act II"
+    },
+    {
+      "order": 3,
+      "title": "The Voice Unchained",
+      "phase": "Phase III - Whispers & Dragons",
+      "description": "Scaling the Copperneck Mountains to locate the ancient artifacts and deciding the fate of the Voice.",
+      "badgeText": "Act III"
+    },
+    {
+      "order": 4,
+      "title": "The Gloom of Gloomhaven",
+      "phase": "Phase IV - The Primeval Core",
+      "description": "Descending into the city sanctuary to confront the eternal corruption threatening all of Gloomhaven.",
+      "badgeText": "Finale"
+    }
+  ]
 }

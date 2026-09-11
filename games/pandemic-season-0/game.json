@@ -1,4 +1,4 @@
-﻿{
+{
   "id": "pandemic-season-0",
   "title": "Pandemic Legacy: Season 0",
   "releaseYear": 2020,
@@ -57,6 +57,44 @@
       "baseScenarioCount": 26,
       "estimatedFailRatePercent": 50.0,
       "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🕵️",
+      "badgeText": "March",
+      "title": "Project MEDUSA Unveiled",
+      "phase": "Operation Phase I - Intelligence Gathering",
+      "description": "CIA operatives discover Soviet biochemical laboratories developing the weaponized MEDUSA pathogen."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "💼",
+      "badgeText": "June",
+      "title": "The Defector Protocol",
+      "phase": "Operation Phase II - Safehouse Network",
+      "description": "Extracting key Soviet research personnel across the Iron Curtain and establishing permanent surveillance safehouses."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "⚠️",
+      "badgeText": "September",
+      "title": "Sleeper Contagion",
+      "phase": "Operation Phase III - Global Containment",
+      "description": "Countering widespread sleeper cell infiltration and suppressing targeted biological incidents across Allied capitals."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "🎯",
+      "badgeText": "December",
+      "title": "Operation Final Dawn",
+      "phase": "Operation Phase IV - The Central Hive",
+      "description": "Infiltrating the central Soviet fortress to permanently dismantle the MEDUSA apparatus before New Year's Eve."
     }
   ]
 }

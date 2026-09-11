@@ -58,5 +58,43 @@
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false
     }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "💀",
+      "badgeText": "Act I",
+      "title": "The Merchant's Ambition",
+      "phase": "Phase I - The Black Barrow & Crypts",
+      "description": "Uncovering Jekserah's necromantic schemes in the city crypts and surviving the bandit commander."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 21,
+      "iconEmoji": "🌀",
+      "badgeText": "Act II",
+      "title": "The Demon Rift",
+      "phase": "Phase II - Elemental Incursions",
+      "description": "Sealing the planar rift beneath Gloomhaven and confronting elemental demons in the searing chasm."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 38,
+      "iconEmoji": "📜",
+      "badgeText": "Act III",
+      "title": "The Voice Unchained",
+      "phase": "Phase III - Whispers & Dragons",
+      "description": "Scaling the Copperneck Mountains to locate the ancient artifacts and deciding the fate of the Voice."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 51,
+      "iconEmoji": "⚔️",
+      "badgeText": "Finale",
+      "title": "The Gloom of Gloomhaven",
+      "phase": "Phase IV - The Primeval Core",
+      "description": "Descending into the city sanctuary to confront the eternal corruption threatening all of Gloomhaven."
+    }
   ]
 }

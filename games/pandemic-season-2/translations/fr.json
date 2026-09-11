@@ -29,5 +29,35 @@
       "name": "Capacité Maximale de la Boîte (24 Parties + Prologue)",
       "description": "Chaque mois calendaire joué deux fois (Début + Fin) plus les missions de prologue pour l'expérience la plus complète (26 parties)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Reconnaissance du continent",
+      "phase": "Phase de Refuge I - Débarquement sur la côte",
+      "description": "Exploration au départ des refuges maritimes flottants vers les ruines désertes du continent abandonné.",
+      "badgeText": "Avril"
+    },
+    {
+      "order": 2,
+      "title": "Reconnexion du réseau",
+      "phase": "Phase de Refuge II - Tours radio et rescapés",
+      "description": "Construction de relais de communication à travers les terres dévastées et sécurisation des routes de ravitaillement.",
+      "badgeText": "Juillet"
+    },
+    {
+      "order": 3,
+      "title": "Les coordonnées d'Utopia",
+      "phase": "Phase de Refuge III - Expédition du lac Baïkal",
+      "description": "Élucidation du mystère des premiers chercheurs médicaux et découverte du légendaire sanctuaire d'Utopia.",
+      "badgeText": "Octobre"
+    },
+    {
+      "order": 4,
+      "title": "Renaissance du Point Zéro",
+      "phase": "Phase de Refuge IV - Le générateur central",
+      "description": "Activation du relais énergétique planétaire pour amorcer la renaissance de la civilisation humaine.",
+      "badgeText": "Décembre"
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Gloomhaven",
   "subtitle": "Combate táctico de estilo europeo en un mundo persistente y evolutivo de alta fantasía",
   "tagline": "Adéntrate en las implacables sombras del León Durmiente",
@@ -29,5 +29,35 @@
       "name": "Completista Total (Todo Accesible)",
       "description": "Jugar todos los escenarios desbloqueables, máxima prosperidad, todos los retiros y mazmorras avanzadas."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "La ambición de la comerciante",
+      "phase": "Fase I - El Túmulo Negro y las Criptas",
+      "description": "Descubriendo los planes nigrománticos de Jekserah en las criptas de la ciudad y sobreviviendo al comandante bandido.",
+      "badgeText": "Acto I"
+    },
+    {
+      "order": 2,
+      "title": "La falla demoníaca",
+      "phase": "Fase II - Incursiones elementales",
+      "description": "Sellando la falla planar bajo Gloomhaven y enfrentando a demonios elementales en el abismo ardiente.",
+      "badgeText": "Acto II"
+    },
+    {
+      "order": 3,
+      "title": "La Voz desencadenada",
+      "phase": "Fase III - Susurros y dragones",
+      "description": "Escalando las montañas Copperneck para encontrar artefactos antiguos y decidir el destino de la Voz.",
+      "badgeText": "Acto III"
+    },
+    {
+      "order": 4,
+      "title": "La Oscuridad de Gloomhaven",
+      "phase": "Fase IV - El Núcleo Primigenio",
+      "description": "Descendiendo al santuario urbano para confrontar la corrupción eterna que amenaza a toda Gloomhaven.",
+      "badgeText": "Final"
+    }
+  ]
 }

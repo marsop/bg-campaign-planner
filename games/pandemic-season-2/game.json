@@ -58,5 +58,43 @@
       "estimatedFailRatePercent": 50.0,
       "isRecommended": false
     }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🌊",
+      "badgeText": "April",
+      "title": "The Mainland Reconnaissance",
+      "phase": "Haven Phase I - Landing on the Coast",
+      "description": "Venturing from the floating Haven sanctuaries into the hollow ruins of the forsaken continent."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "📡",
+      "badgeText": "July",
+      "title": "Reconnecting the Grid",
+      "phase": "Haven Phase II - Radio Towers & Survivors",
+      "description": "Constructing communication relays across the wasteland and establishing supply lines to isolated enclaves."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🗺️",
+      "badgeText": "October",
+      "title": "The Utopia Coordinates",
+      "phase": "Haven Phase III - Lake Baikal Expedition",
+      "description": "Unraveling the mystery of the original medical researchers and locating the rumored sanctuary of Utopia."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "⚡",
+      "badgeText": "December",
+      "title": "Zero Point Rebirth",
+      "phase": "Haven Phase IV - The Central Generator",
+      "description": "Activating the global power relay to ignite humanity's rebirth and restore the world."
+    }
   ]
 }

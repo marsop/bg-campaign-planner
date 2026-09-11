@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Pandemic Legacy: Season 0",
   "subtitle": "Spionage-Thriller zur Zeit des Kalten Krieges (1962) und geheime CIA-Operationen",
   "tagline": "STRENG GEHEIM // CIA-BRIEFING // 1962",
@@ -29,5 +29,35 @@
       "name": "Maximale Schachtelkapazität (24 Partien + 2 Prologe)",
       "description": "Jeder Kalendermonat doppelt gespielt (Früh + Spät) plus beide Prologe (26 Partien)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Projekt MEDUSA enthüllt",
+      "phase": "Operationsphase I - Aufklärung",
+      "description": "CIA-Ermittler entdecken sowjetische biochemische Labore, die das Biowaffen-Pathogen MEDUSA entwickeln.",
+      "badgeText": "März"
+    },
+    {
+      "order": 2,
+      "title": "Das Überläufer-Protokoll",
+      "phase": "Operationsphase II - Netzwerk sicherer Häuser",
+      "description": "Evakuierung wichtiger sowjetischer Forscher über den Eisernen Vorhang und Errichtung dauerhafter Stützpunkte.",
+      "badgeText": "Juni"
+    },
+    {
+      "order": 3,
+      "title": "Schläfer-Kontamination",
+      "phase": "Operationsphase III - Globale Eindämmung",
+      "description": "Abwehr feindlicher Schläferzellen und Eindämmung gezielter biologischer Zwischenfälle in Hauptstädten der Alliierten.",
+      "badgeText": "September"
+    },
+    {
+      "order": 4,
+      "title": "Operation Letzte Dämmerung",
+      "phase": "Operationsphase IV - Die Zentrale Festung",
+      "description": "Infiltration der sowjetischen Zentrale zur dauerhaften Zerstörung des MEDUSA-Programms vor Jahresende.",
+      "badgeText": "Dezember"
+    }
+  ]
 }

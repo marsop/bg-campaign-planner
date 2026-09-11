@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Frosthaven",
   "subtitle": "Aventura cooperativa épica y construcción de asentamientos en el gélido norte",
   "tagline": "Desafía los páramos helados y reconstruye el puesto fronterizo",
@@ -25,5 +25,35 @@
       "name": "Completista Total",
       "description": "Jugar todos los escenarios accesibles y mejorar al máximo el asentamiento."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Supervivencia al primer invierno",
+      "phase": "Fase I - El Puesto Avanzado establecido",
+      "description": "Soportando el brutal primer invierno en el norte helado y fortificando los muros del incipiente asentamiento.",
+      "badgeText": "Año 1"
+    },
+    {
+      "order": 2,
+      "title": "El cisma de los Algox",
+      "phase": "Fase II - Linajes de la montaña",
+      "description": "Resolviendo el violento conflicto civil entre la facción de los sacerdotes Algox y los clanes de la guardia en los riscos nevados.",
+      "badgeText": "Acto II"
+    },
+    {
+      "order": 3,
+      "title": "Los autómatas despiertos",
+      "phase": "Fase III - Las profundidades de los Desatados",
+      "description": "Adentrándose en ruinas subterráneas inundadas para descifrar la red de máquinas sintientes.",
+      "badgeText": "Acto III"
+    },
+    {
+      "order": 4,
+      "title": "El Corazón de la Escarcha",
+      "phase": "Fase IV - Calamidad norteña",
+      "description": "Confrontando el antiguo poder primordial que duerme bajo el permafrost para asegurar el futuro del Puesto Avanzado.",
+      "badgeText": "Final"
+    }
+  ]
 }

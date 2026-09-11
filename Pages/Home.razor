@@ -120,18 +120,22 @@
                 </section>
 
                 <!-- Thematic Roadmap -->
-                <section class="section-block">
-                    @if (CurrentResult != null)
-                    {
-                        <ThematicRoadmap Game="@CurrentGame" Result="@CurrentResult" />
-                    }
-                </section>
+                @if (CurrentResult != null && CurrentResult.MilestoneProjections.Any())
+                {
+                    <section class="section-block">
+                        <ThematicRoadmap Game="@CurrentGame"
+                                         Result="@CurrentResult"
+                                         ShowSpoilers="@PlannerInput.ShowSpoilers"
+                                         OnToggleSpoilers="HandleToggleSpoilers" />
+                    </section>
+                }
 
                 <!-- Calendar Timeline & Export -->
                 <section class="section-block">
                     @if (CurrentResult != null)
                     {
-                        <SessionsTimeline Result="@CurrentResult" />
+                        <SessionsTimeline Result="@CurrentResult"
+                                          ShowSpoilers="@PlannerInput.ShowSpoilers" />
                     }
                 </section>
             }
@@ -267,6 +271,12 @@
         {
             CurrentResult = CalculatorService.Calculate(PlannerInput, CurrentGame, Loc);
         }
+    }
+
+    private void HandleToggleSpoilers(bool show)
+    {
+        PlannerInput.ShowSpoilers = show;
+        StateHasChanged();
     }
 
     public void Dispose()

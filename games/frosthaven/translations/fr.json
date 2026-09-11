@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Frosthaven",
   "subtitle": "Aventure coopérative épique et construction de colonie dans le nord glacé",
   "tagline": "Brave les terres gelées et reconstruis l'avant-poste du nord",
@@ -25,5 +25,35 @@
       "name": "Complétiste Intégral",
       "description": "Jouer tous les scénarios accessibles et maximiser la colonie."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Survie au premier hiver",
+      "phase": "Phase I - L'Avant-poste établi",
+      "description": "Braver le premier hiver brutal dans le grand nord et fortifier les défenses de la jeune colonie.",
+      "badgeText": "An 1"
+    },
+    {
+      "order": 2,
+      "title": "Le schisme des Algox",
+      "phase": "Phase II - Lignées des montagnes",
+      "description": "Résolution de la guerre fratricide entre la faction des prêtres Algox et les clans de la garde sur les crêtes gelées.",
+      "badgeText": "Acte II"
+    },
+    {
+      "order": 3,
+      "title": "L'éveil des automates",
+      "phase": "Phase III - Les profondeurs des Émancipés",
+      "description": "Exploration de ruines submergées pour décrypter le réseau mécanique des machines douées de conscience.",
+      "badgeText": "Acte III"
+    },
+    {
+      "order": 4,
+      "title": "Le Cœur du Givre",
+      "phase": "Phase IV - Calamité septentrionale",
+      "description": "Face-à-face avec la puissance primordiale enfouie sous le pergélisol pour pérenniser l'avenir de l'Avant-poste.",
+      "badgeText": "Finale"
+    }
+  ]
 }

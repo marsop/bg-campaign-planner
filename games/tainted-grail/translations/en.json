@@ -25,5 +25,35 @@
       "name": "Full Avalon Exploration (All Secrets)",
       "description": "Exhaustive exploration across every territory, lighting all distant Menhirs, solving secret character dream quests, and uncovering ancient relics."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ch. 4",
+      "title": "The Fading of Cuanacht",
+      "phase": "Avalon Phase I - Extinguished Menhirs",
+      "description": "Escaping the dying homeland as the protective guardian stones collapse into darkness."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ch. 8",
+      "title": "The Ruins of Kamelot",
+      "phase": "Avalon Phase II - Echoes of King Arthur",
+      "description": "Exploring the decaying corridors of the legendary citadel and discovering the betrayal that doomed the Round Table."
+    },
+    {
+      "order": 3,
+      "badgeText": "Ch. 11",
+      "title": "The Red Death's Legacy",
+      "phase": "Avalon Phase III - The Wyrdness Frontier",
+      "description": "Traversing the deepest chaotic mists to recover Merlin's forbidden relics from the Far Sanctuary."
+    },
+    {
+      "order": 4,
+      "badgeText": "Ch. 15",
+      "title": "The Rebirth or Doom of Avalon",
+      "phase": "Avalon Phase IV - The Final Beacon",
+      "description": "Making the ultimate moral sacrifice to either restore the light of the Menhirs or surrender Avalon to the wild powers."
+    }
+  ]
 }

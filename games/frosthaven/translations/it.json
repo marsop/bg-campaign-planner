@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Frosthaven",
   "subtitle": "Epica avventura cooperativa e costruzione di un insediamento nel nord gelido",
   "tagline": "Affronta le lande gelate e ricostruisci l'avamposto del nord",
@@ -25,5 +25,35 @@
       "name": "Completista Totale",
       "description": "Affrontare tutti gli scenari accessibili e massimizzare l'insediamento."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Sopravvivenza al primo inverno",
+      "phase": "Fase I - L'Avamposto fondato",
+      "description": "Resistere al brutale primo inverno nel gelido nord e fortificare le mura del giovane insediamento.",
+      "badgeText": "Anno 1"
+    },
+    {
+      "order": 2,
+      "title": "Lo scisma degli Algox",
+      "phase": "Fase II - Stirpi della montagna",
+      "description": "Risolvere il violento conflitto civile tra la fazione dei sacerdoti Algox e i clan della guardia sui dirupi innevati.",
+      "badgeText": "Atto II"
+    },
+    {
+      "order": 3,
+      "title": "Gli automi risvegliati",
+      "phase": "Fase III - Le profondità degli Svincolati",
+      "description": "Esplorare rovine sotterranee allagate per decifrare la rete di macchine senzienti.",
+      "badgeText": "Atto III"
+    },
+    {
+      "order": 4,
+      "title": "Il Cuore del Gelo",
+      "phase": "Fase IV - Calamità del Nord",
+      "description": "Affrontare l'antico potere primordiale che dorme sotto il permafrost per garantire il futuro dell'Avamposto.",
+      "badgeText": "Finale"
+    }
+  ]
 }

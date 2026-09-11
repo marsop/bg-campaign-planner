@@ -1767,6 +1767,45 @@ body {
     margin-bottom: 0.95rem;
 }
 
+.spoiler-toggle-switch {
+    background: var(--pill-bg);
+    border: 1px solid var(--border-color);
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.spoiler-toggle-switch:hover {
+    border-color: var(--border-color-focus);
+    background: var(--badge-bg);
+}
+
+.spoiler-toggle-switch .form-check-input {
+    cursor: pointer;
+}
+
+.milestone-spoiler-protected {
+    background: var(--panel-bg);
+}
+
+.milestone-title.spoiler-masked {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+.milestone-desc.spoiler-masked-desc {
+    font-style: italic;
+    opacity: 0.75;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 0.5rem 0.65rem;
+    border-radius: 6px;
+    border-left: 2px solid var(--border-color);
+}
+
 .milestone-divider {
     border-color: var(--border-color-subtle);
     margin: 0.5rem 0;

@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Frosthaven",
   "subtitle": "Episches kooperatives Abenteuer und Siedlungsbau im eisigen Norden",
   "tagline": "Trotze der eisigen Ödnis und baue den nördlichen Außenposten wieder auf",
@@ -25,5 +25,35 @@
       "name": "Vollständiger Komplettierer",
       "description": "Absolvieren aller erreichbaren Szenarien und maximaler Ausbau der Siedlung."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Überleben des ersten Winters",
+      "phase": "Phase I - Der Außenposten entsteht",
+      "description": "Überstehen des brutalen ersten Winters im eisigen Norden und Befestigung der Mauern der jungen Siedlung.",
+      "badgeText": "Jahr 1"
+    },
+    {
+      "order": 2,
+      "title": "Das Algox-Schisma",
+      "phase": "Phase II - Blutlinien der Berge",
+      "description": "Lösung des gewaltsamen Konflikts zwischen der Algox-Priesterfraktion und den Wächterclans in den eisigen Klippen.",
+      "badgeText": "Akt II"
+    },
+    {
+      "order": 3,
+      "title": "Erwachen der Automaten",
+      "phase": "Phase III - Die Tiefe der Entfesselten",
+      "description": "Vorstoß in überflutete Ruinen, um das Netzwerk der empfindungsfähigen Maschinen zu entschlüsseln.",
+      "badgeText": "Akt III"
+    },
+    {
+      "order": 4,
+      "title": "Das Herz des Frosts",
+      "phase": "Phase IV - Die Katastrophe des Nordens",
+      "description": "Konfrontation mit der uralten Urkraft unter dem Permafrost, um die Zukunft des Außenpostens zu sichern.",
+      "badgeText": "Finale"
+    }
+  ]
 }

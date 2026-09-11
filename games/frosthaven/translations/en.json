@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Frosthaven",
   "subtitle": "Epic cooperative adventure and settlement building in the frozen north",
   "tagline": "Brave the freezing wastes and rebuild the northern outpost",
@@ -25,5 +25,35 @@
       "name": "Full Completionist",
       "description": "Attempting every accessible scenario and maxing out the settlement."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "First Winter's Survival",
+      "phase": "Phase I - The Outpost Established",
+      "description": "Enduring the brutal first winter in the frozen north and fortifying the fledgling settlement's walls.",
+      "badgeText": "Year 1"
+    },
+    {
+      "order": 2,
+      "title": "The Algox Schism",
+      "phase": "Phase II - Mountain Bloodlines",
+      "description": "Resolving the violent civil conflict between the Algox Priest faction and the Guard clans in the snowy crags.",
+      "badgeText": "Act II"
+    },
+    {
+      "order": 3,
+      "title": "The Automata Awakened",
+      "phase": "Phase III - The Unfettered Deep",
+      "description": "Venturing into flooded subterranean ruins to decipher the sentient machine network.",
+      "badgeText": "Act III"
+    },
+    {
+      "order": 4,
+      "title": "The Heart of the Frost",
+      "phase": "Phase IV - Northern Calamity",
+      "description": "Confronting the ancient primordial power slumbering beneath the permafrost to secure the Outpost's future.",
+      "badgeText": "Finale"
+    }
+  ]
 }

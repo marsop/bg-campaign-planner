@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Oathsworn: Into the Deepwood",
   "subtitle": "Dark fantasy cooperative boss battler and mystery campaign",
   "tagline": "Venture into the Deepwood and face the horrors within",
@@ -21,5 +21,35 @@
       "name": "Extended Campaign (All Encounters)",
       "description": "Main story and all optional boss encounters."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Beyond the City Bastion",
+      "phase": "Deepwood Phase I - The Forest Verge",
+      "description": "Leaving the protective wards of Bastone behind to confront the brood horrors infesting the outer woodlands.",
+      "badgeText": "Ch. 5"
+    },
+    {
+      "order": 2,
+      "title": "The Broodmother's Lair",
+      "phase": "Deepwood Phase II - The Fungal Depths",
+      "description": "Surviving the claustrophobic labyrinth beneath the trees and discovering who is feeding the Deepwood.",
+      "badgeText": "Ch. 10"
+    },
+    {
+      "order": 3,
+      "title": "The Heart of Darkness",
+      "phase": "Deepwood Phase III - The Colossal Behemoths",
+      "description": "Fighting through apex monstrosities guarding the primordial grove as the company's sanity frays.",
+      "badgeText": "Ch. 16"
+    },
+    {
+      "order": 4,
+      "title": "The Final Stand for Bastone",
+      "phase": "Deepwood Phase IV - The Climax of the War",
+      "description": "The decisive siege determining whether humanity's last stronghold endures or is consumed by the Deepwood.",
+      "badgeText": "Ch. 21"
+    }
+  ]
 }

@@ -16,10 +16,11 @@ application. The app auto-discovers games from the `games/` directory — **zero
 C# code changes are needed**. All you must do is create the correct folder
 structure with the correct content.
 
-> **Zero-Spoilers Policy**: Do NOT include future scenario names, boss
-> encounter details, secret unlocks, or plot-critical events. Campaign
-> milestones are generated automatically as spoiler-free progress checkpoints
-> (25%, 50%, 75%, 100%).
+> **Campaign Milestones & Spoiler Policy**:
+> - Research and define campaign-specific milestones in `game.json` and localize them in all translation files (`en`, `es`, `de`, `fr`, `it`).
+> - Milestones should represent meaningful narrative acts, chapters, or pivotal campaign turning points (not just arbitrary 25%, 50%, 75%, 100% percentages).
+> - The application includes a "Show Spoilers" toggle which is **deactivated by default** (hiding titles, phase names, and descriptions under spoiler masks while retaining schedule dates and meetup metrics). When enabled by the user, full narrative details are displayed.
+> - **If no clear campaign milestones can be found for a game, omit the `milestones` array entirely.** When omitted, the app will gracefully skip milestone tracking and hide the roadmap and timeline milestone filters for that game.
 
 ---
 
@@ -59,6 +60,7 @@ official rulebook. You need:
 | Unit type (scenarios, games_months, chapters, expeditions, etc.) | How the game itself labels individual sessions |
 | Number of scenarios per scope (see Step 3) | Official rulebook, BGG wiki |
 | Estimated fail/retry rate per scope | Community statistics, BGG forums |
+| Campaign-specific milestones (optional) | Rulebook narrative acts, chapter breaks, or campaign arcs |
 
 Cross-reference at least two sources. All data must be verifiable and from
 public domain (BGG pages, official rulebooks, community surveys).
@@ -102,6 +104,7 @@ See the full annotated reference: [game-json-reference.md](./references/game-jso
   padding. The calculator applies `estimatedFailRatePercent` on top.
 - Scope `id` strings must be unique within the game and referenced
   identically in all translation files.
+- **Milestones (Optional)**: Include a `milestones` array representing campaign narrative checkpoints (e.g., Act or Chapter completions) with `order`, `atScenarioOrGameIndex`, `iconEmoji`, `badgeText`, `title`, `phase`, and `description`. If the game doesn't have clear narrative milestones or none can be identified, omit the `milestones` property completely.
 - Theme colors should reflect the game's visual identity. Use CSS hex colors.
   `themeClass` / `activeThemeClass` / `roadmapClass` / `heroClass`
   must all be unique strings not used by any other game.
@@ -173,6 +176,7 @@ See the annotated reference: [translations-reference.md](./references/translatio
   this game's campaign special.
 - `loreSummary` is 1–2 sentences of evocative, spoiler-free flavour text
   describing the premise. Write in second person ("You are…") where natural.
+- If `milestones` are defined in `game.json`, translate each milestone's `badgeText`, `title`, `phase`, and `description` in all 5 locale files (`en.json`, `es.json`, `de.json`, `fr.json`, `it.json`).
 
 ---
 
@@ -204,11 +208,12 @@ should be investigated.
 - [ ] games/{game-id}/translations/fr.json — translated into French
 - [ ] games/{game-id}/translations/it.json — translated into Italian
 - [ ] Scope IDs in game.json match keys in all translation files
+- [ ] If milestones are included, milestone definitions in game.json match milestones arrays in all 5 translation files (or milestones are completely omitted if no campaign checkpoints exist)
 - [ ] themeClass, activeThemeClass, roadmapClass, heroClass are unique across all games
-- [ ] Zero-spoilers policy respected — no secret unlocks, boss names, or plot reveals
 - [ ] dotnet build --no-restore passes with exit code 0
 - [ ] dotnet publish -c Release -o ./publish-test passes with exit code 0
 - [ ] Game appears in the game selector when running dotnet watch
+- [ ] Increment minor version in version.json (e.g. 0.2 -> 0.3) as per AGENTS.md versioning rules
 - [ ] Backlog updated — game removed from game-backlog.md (Step 8)
 
 ---

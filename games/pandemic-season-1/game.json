@@ -58,5 +58,43 @@
       "estimatedFailRatePercent": 50.0,
       "isRecommended": false
     }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "☣️",
+      "badgeText": "April",
+      "title": "The Faded Mutation",
+      "phase": "Outbreak Phase I - The Incurable Strain",
+      "description": "The COdA-403a pathogen mutates into an incurable strain, creating the terrifying Faded and collapsing city quarantines."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🔍",
+      "badgeText": "August",
+      "title": "The Elusive Virologist",
+      "phase": "Outbreak Phase II - Search for Patient Zero",
+      "description": "Tracking the lost immunology research across crumbling borders while military roadblocks divide the globe."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🛡️",
+      "badgeText": "October",
+      "title": "The Zodiac Conspiracy",
+      "phase": "Outbreak Phase III - Internal Sabotage",
+      "description": "Uncovering the shadowy military cabal responsible for weaponizing the disease from within the global response network."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "💉",
+      "badgeText": "December",
+      "title": "Stockpile & Salvation",
+      "phase": "Outbreak Phase IV - The Global Vaccine",
+      "description": "Synthesizing the experimental immunization dose and inoculating surviving metropolitan hubs across the world."
+    }
   ]
 }

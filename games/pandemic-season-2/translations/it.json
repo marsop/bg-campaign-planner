@@ -29,5 +29,35 @@
       "name": "Capienza Massima della Scatola (24 Partite + Prologo)",
       "description": "Ogni singolo mese del calendario giocato due volte (Inizio + Fine) più le missioni di prologo per l'esperienza più completa possibile (26 partite totali)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Ricognizione della terraferma",
+      "phase": "Fase dei Rifugi I - Sbarco sulla costa",
+      "description": "Avventurarsi dai rifugi marini galleggianti verso le rovine vuote del continente abbandonato.",
+      "badgeText": "Aprile"
+    },
+    {
+      "order": 2,
+      "title": "Riconnessione della rete",
+      "phase": "Fase dei Rifugi II - Torri radio e superstiti",
+      "description": "Costruire ripetitori di comunicazione attraverso la terra desolata e garantire rotte di rifornimento agli avamposti isolati.",
+      "badgeText": "Luglio"
+    },
+    {
+      "order": 3,
+      "title": "Le coordinate di Utopia",
+      "phase": "Fase dei Rifugi III - Spedizione al Lago Baikal",
+      "description": "Svelare il mistero dei ricercatori medici delle origini e localizzare il favoleggiato santuario di Utopia.",
+      "badgeText": "Ottobre"
+    },
+    {
+      "order": 4,
+      "title": "Rinascita a Punto Zero",
+      "phase": "Fase dei Rifugi IV - Il generatore centrale",
+      "description": "Attivare il ripetitore di energia globale per dare avvio alla rinascita dell'umanità.",
+      "badgeText": "Dicembre"
+    }
+  ]
 }

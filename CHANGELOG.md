@@ -27,6 +27,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Updated timeline and `.ics` calendar exports to tag checkpoints cleanly without story spoilers.
 
 ### Removed
+- **Bi-Weekly Frequency Interval**:
+  - Removed redundant Bi-Weekly frequency mode option from the planner form and calculation engine (subsumed by the monthly interval setting).
+  - Cleaned up obsolete localization keys (`Form.BiWeeklyHint` and `Form.FreqBiWeekly`) across all 6 `.resx` resource files.
+- **"Copy Summary" Feature**:
+  - Removed "Copy Summary" button and clipboard generation logic from `SessionsTimeline.razor`.
+  - Removed unused `campaignPlanner.copyToClipboard` JavaScript helper in `wwwroot/index.html`.
+  - Cleaned up obsolete localization keys (`Timeline.CopyBtn`, `Timeline.CopyToast`, and `Timeline.Summary*`) across all 6 `.resx` resource files.
 - **Unused Blazor Template Components & Assets**:
   - Removed `Weather.razor` component and `sample-data/weather.json` dataset.
   - Removed `Counter.razor` component.

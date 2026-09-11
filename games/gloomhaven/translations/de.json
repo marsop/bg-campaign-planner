@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Gloomhaven",
   "subtitle": "Euro-inspiriertes taktisches Kampfsystem in einer persistenten, sich entwickelnden Fantasy-Welt",
   "tagline": "Wage dich in die unbarmherzigen Schatten des Schlafenden Löwen",
@@ -29,5 +29,35 @@
       "name": "Vollständiger Komplettierer (Alles)",
       "description": "Absolvieren aller erreichbaren Szenarien, höchste Wohlstandsstufe, alle Ruhestände und High-Level-Dungeons."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Der Ehrgeiz der Händlerin",
+      "phase": "Phase I - Der Schwarze Hügel & die Krypten",
+      "description": "Aufdeckung von Jekserahs nekromantischen Plänen in den Stadtkrypten und Überleben des Banditenkommandanten.",
+      "badgeText": "Akt I"
+    },
+    {
+      "order": 2,
+      "title": "Der Dämonenriss",
+      "phase": "Phase II - Elementare Übergriffe",
+      "description": "Versiegelung des dimensionalen Risses unter Gloomhaven und Kampf gegen Elementardämonen im sengenden Abgrund.",
+      "badgeText": "Akt II"
+    },
+    {
+      "order": 3,
+      "title": "Die entfesselte Stimme",
+      "phase": "Phase III - Geflüster & Drachen",
+      "description": "Erklimmen der Kupferkamm-Berge, um uralte Artefakte zu finden und über das Schicksal der Stimme zu entscheiden.",
+      "badgeText": "Akt III"
+    },
+    {
+      "order": 4,
+      "title": "Das Dunkel von Gloomhaven",
+      "phase": "Phase IV - Der urzeitliche Kern",
+      "description": "Abstieg in das Stadtheiligtum zur Konfrontation mit der ewigen Verderbnis, die ganz Gloomhaven bedroht.",
+      "badgeText": "Finale"
+    }
+  ]
 }

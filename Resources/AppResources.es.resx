@@ -82,9 +82,6 @@
   <data name="App.Title" xml:space="preserve">
     <value>Planificador de Campañas de Juegos de Mesa</value>
   </data>
-  <data name="Form.BiWeeklyHint" xml:space="preserve">
-    <value>💡 Programado una vez cada 14 días en el día seleccionado.</value>
-  </data>
   <data name="Form.DateNextMonth" xml:space="preserve">
     <value>1º del Próximo Mes</value>
   </data>
@@ -114,9 +111,6 @@
   </data>
   <data name="Form.FactorSetup" xml:space="preserve">
     <value>Incluir Montaje y Recogida (~{0} min)</value>
-  </data>
-  <data name="Form.FreqBiWeekly" xml:space="preserve">
-    <value>🗓️ Cada 2 semanas (Quincenal)</value>
   </data>
   <data name="Form.FreqCustom" xml:space="preserve">
     <value>⚙️ Intervalo personalizado (Cada N días)</value>
@@ -176,19 +170,34 @@
     <value>4. Fecha de Inicio</value>
   </data>
   <data name="Form.SessionStartTime" xml:space="preserve">
-    <value>Hora de inicio</value>
+    <value>5. Hora de Inicio</value>
+  </data>
+  <data name="Form.Step5StartTime" xml:space="preserve">
+    <value>5. Hora de Inicio</value>
   </data>
   <data name="Form.Step5Vacation" xml:space="preserve">
-    <value>5. Margen de Vacaciones / Festivos</value>
+    <value>6. Margen de Vacaciones / Festivos</value>
+  </data>
+  <data name="Form.Step6Vacation" xml:space="preserve">
+    <value>6. Margen de Vacaciones / Festivos</value>
   </data>
   <data name="Form.Step6PlayerCount" xml:space="preserve">
-    <value>6. Número de Jugadores</value>
+    <value>7. Número de Jugadores</value>
+  </data>
+  <data name="Form.Step7PlayerCount" xml:space="preserve">
+    <value>7. Número de Jugadores</value>
   </data>
   <data name="Form.Step7Experience" xml:space="preserve">
-    <value>7. Experiencia del Grupo</value>
+    <value>8. Experiencia del Grupo</value>
+  </data>
+  <data name="Form.Step8Experience" xml:space="preserve">
+    <value>8. Experiencia del Grupo</value>
   </data>
   <data name="Form.Step8Factors" xml:space="preserve">
-    <value>8. Factores de Cálculo</value>
+    <value>9. Factores de Cálculo</value>
+  </data>
+  <data name="Form.Step9Factors" xml:space="preserve">
+    <value>9. Factores de Cálculo</value>
   </data>
   <data name="Form.TimesPerMonth" xml:space="preserve">
     <value>Encuentros por mes:</value>
@@ -403,12 +412,6 @@
   <data name="Timeline.ColScenarios" xml:space="preserve">
     <value>Escenarios</value>
   </data>
-  <data name="Timeline.CopyBtn" xml:space="preserve">
-    <value>Copiar Resumen</value>
-  </data>
-  <data name="Timeline.CopyToast" xml:space="preserve">
-    <value>¡Resumen de la campaña copiado al portapapeles!</value>
-  </data>
   <data name="Timeline.ExportBtn" xml:space="preserve">
     <value>Exportar a Calendario (.ics)</value>
   </data>
@@ -438,21 +441,6 @@
   </data>
   <data name="Timeline.Subtitle" xml:space="preserve">
     <value>Programación cronológica de las {0} sesiones</value>
-  </data>
-  <data name="Timeline.SummaryGeneratedVia" xml:space="preserve">
-    <value>Generado con Board Game Campaign Planner</value>
-  </data>
-  <data name="Timeline.SummaryMeetups" xml:space="preserve">
-    <value>Sesiones Totales</value>
-  </data>
-  <data name="Timeline.SummaryPlayTime" xml:space="preserve">
-    <value>Tiempo Total de Juego</value>
-  </data>
-  <data name="Timeline.SummarySchedule" xml:space="preserve">
-    <value>Calendario</value>
-  </data>
-  <data name="Timeline.SummaryTitle" xml:space="preserve">
-    <value>Plan de Campaña</value>
   </data>
   <data name="Timeline.Title" xml:space="preserve">
     <value>Calendario de Sesiones y Cronograma</value>
@@ -642,5 +630,32 @@
   </data>
   <data name="GameSelector.NoMatchesDesc" xml:space="preserve">
     <value>Prueba a ajustar o limpiar tus filtros de jugadores o complejidad.</value>
+  </data>
+  <data name="Roadmap.ShowSpoilers" xml:space="preserve">
+    <value>Mostrar spoilers</value>
+  </data>
+  <data name="Roadmap.SpoilerTag" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="Roadmap.HiddenTitle" xml:space="preserve">
+    <value>Hito #{0}</value>
+  </data>
+  <data name="Roadmap.HiddenPhase" xml:space="preserve">
+    <value>Punto de control {0}</value>
+  </data>
+  <data name="Roadmap.HiddenDesc" xml:space="preserve">
+    <value>Detalles narrativos ocultos para evitar spoilers. Activa el interruptor 'Mostrar spoilers' para verlos.</value>
+  </data>
+  <data name="Roadmap.MilestoneBadge" xml:space="preserve">
+    <value>HITO</value>
+  </data>
+  <data name="Form.ShowSpoilers" xml:space="preserve">
+    <value>Mostrar spoilers de campaña</value>
+  </data>
+  <data name="Form.ShowSpoilersHelp" xml:space="preserve">
+    <value>Muestra los nombres de actos de historia y descripciones narrativas de los hitos</value>
+  </data>
+  <data name="Timeline.HiddenMilestoneNote" xml:space="preserve">
+    <value>Hito de campaña alcanzado</value>
   </data>
 </root>

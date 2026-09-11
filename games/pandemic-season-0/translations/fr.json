@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Pandemic Legacy: Season 0",
   "subtitle": "Thriller d'espionnage pendant la Guerre Froide (1962) et opérations secrètes de la CIA",
   "tagline": "TOP SECRET // BRIEFING CLASSIFIÉ CIA // 1962",
@@ -29,5 +29,35 @@
       "name": "Capacité Maximale de la Boîte (24 Parties + 2 Prologues)",
       "description": "Chaque mois joué deux fois (Début + Fin) plus les deux prologues (26 parties)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Le projet MÉDUSE dévoilé",
+      "phase": "Phase d'Opération I - Collecte de renseignements",
+      "description": "Les agents de la CIA découvrent des laboratoires biochimiques soviétiques développant l'arme bactériologique MÉDUSE.",
+      "badgeText": "Mars"
+    },
+    {
+      "order": 2,
+      "title": "Le protocole du défecteur",
+      "phase": "Phase d'Opération II - Réseau de planques",
+      "description": "Exfiltration de scientifiques soviétiques clés à travers le rideau de fer et mise en place de planques sécurisées.",
+      "badgeText": "Juin"
+    },
+    {
+      "order": 3,
+      "title": "Contagion dormante",
+      "phase": "Phase d'Opération III - Endiguement mondial",
+      "description": "Neutralisation des cellules dormantes infiltrées et contention des incidents biologiques dans les capitales alliées.",
+      "badgeText": "Septembre"
+    },
+    {
+      "order": 4,
+      "title": "Opération Ultime Aurore",
+      "phase": "Phase d'Opération IV - Le bastion central",
+      "description": "Infiltration de la forteresse centrale soviétique pour détruire définitivement l'arsenal MÉDUSE avant le Nouvel An.",
+      "badgeText": "Décembre"
+    }
+  ]
 }

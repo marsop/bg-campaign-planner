@@ -25,5 +25,35 @@
       "name": "Vollständige Avalon-Erkundung (Alle Geheimnisse)",
       "description": "Umfassende Erforschung aller Gebiete, Entzünden aller fernen Menhire, Lösen der Traumquests der Charaktere und Aufspüren uralter Relikte."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Kap. 4",
+      "title": "Das Schwinden von Cuanacht",
+      "phase": "Avalon-Phase I - Erloschene Menhire",
+      "description": "Die Flucht aus der sterbenden Heimat, während die schützenden Wächtersteine in der Dunkelheit versinken."
+    },
+    {
+      "order": 2,
+      "badgeText": "Kap. 8",
+      "title": "Die Ruinen von Kamelot",
+      "phase": "Avalon-Phase II - Echos von König Artus",
+      "description": "Erkundung der verfallenen Korridore der legendären Zitadelle und Entdeckung des Verrats, der die Tafelrunde besiegelte."
+    },
+    {
+      "order": 3,
+      "badgeText": "Kap. 11",
+      "title": "Das Erbe des Roten Todes",
+      "phase": "Avalon-Phase III - Die Wyrdnis-Grenze",
+      "description": "Durchquerung der tiefsten chaotischen Nebel zur Bergung von Merlins verbotenen Relikten aus dem Fernen Heiligtum."
+    },
+    {
+      "order": 4,
+      "badgeText": "Kap. 15",
+      "title": "Wiedergeburt oder Untergang Avalons",
+      "phase": "Avalon-Phase IV - Das letzte Signalfeuer",
+      "description": "Das finale moralische Opfer: Die Menhire neu entfachen oder Avalon den wilden Kräften überlassen."
+    }
+  ]
 }

@@ -82,9 +82,6 @@
   <data name="App.Title" xml:space="preserve">
     <value>Brettspiel-Kampagnenplaner</value>
   </data>
-  <data name="Form.BiWeeklyHint" xml:space="preserve">
-    <value>💡 Alle 14 Kalendertage am gewählten Wochentag.</value>
-  </data>
   <data name="Form.DateNextMonth" xml:space="preserve">
     <value>1. des nächsten Monats</value>
   </data>
@@ -114,9 +111,6 @@
   </data>
   <data name="Form.FactorSetup" xml:space="preserve">
     <value>Auf- &amp; Abbau einberechnen (~{0} Min.)</value>
-  </data>
-  <data name="Form.FreqBiWeekly" xml:space="preserve">
-    <value>🗓️ Alle 2 Wochen (Zweiwöchentlich)</value>
   </data>
   <data name="Form.FreqCustom" xml:space="preserve">
     <value>⚙️ Individuelles Intervall (Alle N Tage)</value>
@@ -176,19 +170,34 @@
     <value>4. Startdatum</value>
   </data>
   <data name="Form.SessionStartTime" xml:space="preserve">
-    <value>Startzeit der Sitzung</value>
+    <value>5. Startzeit der Sitzung</value>
+  </data>
+  <data name="Form.Step5StartTime" xml:space="preserve">
+    <value>5. Startzeit der Sitzung</value>
   </data>
   <data name="Form.Step5Vacation" xml:space="preserve">
-    <value>5. Urlaubs- &amp; Feiertagspuffer</value>
+    <value>6. Urlaubs- &amp; Feiertagspuffer</value>
+  </data>
+  <data name="Form.Step6Vacation" xml:space="preserve">
+    <value>6. Urlaubs- &amp; Feiertagspuffer</value>
   </data>
   <data name="Form.Step6PlayerCount" xml:space="preserve">
-    <value>6. Spieleranzahl</value>
+    <value>7. Spieleranzahl</value>
+  </data>
+  <data name="Form.Step7PlayerCount" xml:space="preserve">
+    <value>7. Spieleranzahl</value>
   </data>
   <data name="Form.Step7Experience" xml:space="preserve">
-    <value>7. Gruppenerfahrung</value>
+    <value>8. Gruppenerfahrung</value>
+  </data>
+  <data name="Form.Step8Experience" xml:space="preserve">
+    <value>8. Gruppenerfahrung</value>
   </data>
   <data name="Form.Step8Factors" xml:space="preserve">
-    <value>8. Berechnungsfaktoren</value>
+    <value>9. Berechnungsfaktoren</value>
+  </data>
+  <data name="Form.Step9Factors" xml:space="preserve">
+    <value>9. Berechnungsfaktoren</value>
   </data>
   <data name="Form.TimesPerMonth" xml:space="preserve">
     <value>Treffen pro Monat:</value>
@@ -403,12 +412,6 @@
   <data name="Timeline.ColScenarios" xml:space="preserve">
     <value>Szenarien</value>
   </data>
-  <data name="Timeline.CopyBtn" xml:space="preserve">
-    <value>Zusammenfassung kopieren</value>
-  </data>
-  <data name="Timeline.CopyToast" xml:space="preserve">
-    <value>Kampagnen-Zusammenfassung in die Zwischenablage kopiert!</value>
-  </data>
   <data name="Timeline.ExportBtn" xml:space="preserve">
     <value>In Kalender exportieren (.ics)</value>
   </data>
@@ -438,21 +441,6 @@
   </data>
   <data name="Timeline.Subtitle" xml:space="preserve">
     <value>Chronologischer Zeitplan für alle {0} Treffen</value>
-  </data>
-  <data name="Timeline.SummaryGeneratedVia" xml:space="preserve">
-    <value>Erstellt mit dem Brettspiel-Kampagnenplaner</value>
-  </data>
-  <data name="Timeline.SummaryMeetups" xml:space="preserve">
-    <value>Gesamte Treffen</value>
-  </data>
-  <data name="Timeline.SummaryPlayTime" xml:space="preserve">
-    <value>Gesamte Spielzeit</value>
-  </data>
-  <data name="Timeline.SummarySchedule" xml:space="preserve">
-    <value>Zeitplan</value>
-  </data>
-  <data name="Timeline.SummaryTitle" xml:space="preserve">
-    <value>Kampagnenplan</value>
   </data>
   <data name="Timeline.Title" xml:space="preserve">
     <value>Terminkalender &amp; Treffendetails</value>
@@ -642,5 +630,32 @@
   </data>
   <data name="GameSelector.NoMatchesDesc" xml:space="preserve">
     <value>Versuche, die Spieler- oder Komplexitätsfilter anzupassen oder zurückzusetzen.</value>
+  </data>
+  <data name="Roadmap.ShowSpoilers" xml:space="preserve">
+    <value>Spoiler anzeigen</value>
+  </data>
+  <data name="Roadmap.SpoilerTag" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="Roadmap.HiddenTitle" xml:space="preserve">
+    <value>Meilenstein #{0}</value>
+  </data>
+  <data name="Roadmap.HiddenPhase" xml:space="preserve">
+    <value>Kampagnen-Checkpoint {0}</value>
+  </data>
+  <data name="Roadmap.HiddenDesc" xml:space="preserve">
+    <value>Erzählerische Details ausgeblendet, um Spoiler zu vermeiden. Schalter 'Spoiler anzeigen' aktivieren.</value>
+  </data>
+  <data name="Roadmap.MilestoneBadge" xml:space="preserve">
+    <value>MEILENSTEIN</value>
+  </data>
+  <data name="Form.ShowSpoilers" xml:space="preserve">
+    <value>Kampagnen-Spoiler anzeigen</value>
+  </data>
+  <data name="Form.ShowSpoilersHelp" xml:space="preserve">
+    <value>Zeigt Namen von Handlungsakten und erzählerische Meilensteinbeschreibungen</value>
+  </data>
+  <data name="Timeline.HiddenMilestoneNote" xml:space="preserve">
+    <value>Kampagnen-Meilenstein erreicht</value>
   </data>
 </root>

@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Sleeping Gods",
   "subtitle": "Exploración náutica cooperativa y supervivencia con libro de historias a través del Mar Errante",
   "tagline": "Explora el Mar Errante y despierta a los dioses dormidos",
@@ -21,5 +21,35 @@
       "name": "Expedición Exploratoria Breve",
       "description": "Una expedición náutica ágil explorando archipiélagos cercanos y resolviendo misiones introductorias."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Primera marea del Mar Errante",
+      "phase": "Fase de Travesía I - El archipiélago ignoto",
+      "description": "Sobreviviendo a la primera pasada del mazo de eventos y estableciendo puertos de avituallamiento junto al arrecife.",
+      "badgeText": "Mazo I"
+    },
+    {
+      "order": 2,
+      "title": "Los tótems susurrantes",
+      "phase": "Fase de Travesía II - Reliquias ancestrales",
+      "description": "Recuperando los primeros tótems sagrados en ruinas selváticas y descifrando los mapas estelares de la bruja.",
+      "badgeText": "Mazo II"
+    },
+    {
+      "order": 3,
+      "title": "El vórtice abisal",
+      "phase": "Fase de Travesía III - Tormenta de los Primigenios",
+      "description": "Navegando por el último y letal ciclo de eventos mientras monstruos marinos acechan el frágil casco del Manticore.",
+      "badgeText": "Mazo III"
+    },
+    {
+      "order": 4,
+      "title": "El despertar de los dioses",
+      "phase": "Fase de Travesía IV - El regreso a casa",
+      "description": "Alcanzando el altar sagrado de la montaña para despertar a las deidades dormidas y abrir la grieta hacia Nueva York.",
+      "badgeText": "Final"
+    }
+  ]
 }

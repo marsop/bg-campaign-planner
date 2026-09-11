@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Gloomhaven",
   "subtitle": "Combat tactique d'inspiration européenne dans un monde persistant et évolutif de dark fantasy",
   "tagline": "Aventurez-vous dans les ombres impitoyables du Lion Assoupi",
@@ -29,5 +29,35 @@
       "name": "Complétiste Intégral (Tout Accessible)",
       "description": "Tous les scénarios déblocables, prospérité maximale, retraites de toutes les classes et donjons ultimes."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "L'ambition de la marchande",
+      "phase": "Phase I - Le Tertre Noir et les Cryptes",
+      "description": "Découverte des machinations nécromantiques de Jekserah dans les cryptes de la cité et survie face au commandant bandit.",
+      "badgeText": "Acte I"
+    },
+    {
+      "order": 2,
+      "title": "La faille démoniaque",
+      "phase": "Phase II - Incursions élémentaires",
+      "description": "Scellement de la faille planaire sous Havre-de-Nuit et affrontement contre des démons élémentaires dans le gouffre brûlant.",
+      "badgeText": "Acte II"
+    },
+    {
+      "order": 3,
+      "title": "La Voix libérée",
+      "phase": "Phase III - Murmures et dragons",
+      "description": "Ascension des montagnes de Copperneck pour localiser d'anciens artefacts et décider du destin de la Voix.",
+      "badgeText": "Acte III"
+    },
+    {
+      "order": 4,
+      "title": "Les Ténèbres de Havre-de-Nuit",
+      "phase": "Phase IV - Le Cœur Primordial",
+      "description": "Descente dans le sanctuaire urbain pour affronter la corruption millénaire menaçant l'existence même de la cité.",
+      "badgeText": "Finale"
+    }
+  ]
 }

@@ -29,5 +29,35 @@
       "name": "Capienza Massima della Scatola (24 Partite Totali)",
       "description": "Ogni singolo mese del calendario giocato due volte (Inizio + Fine) per l'esperienza di campagna più lunga possibile (24-26 partite)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "La mutazione degli Sbiaditi",
+      "phase": "Fase Epidemiologica I - Il ceppo incurabile",
+      "description": "L'agente patogeno COdA-403a muta in un ceppo incurabile, dando origine ai temibili Sbiaditi e facendo cadere le quarantene cittadine.",
+      "badgeText": "Aprile"
+    },
+    {
+      "order": 2,
+      "title": "La virologa sfuggente",
+      "phase": "Fase Epidemiologica II - Alla ricerca del paziente zero",
+      "description": "Rintracciare le ricerche immunologiche disperse oltre confini distrutti mentre i posti di blocco militari frammentano il globo.",
+      "badgeText": "Agosto"
+    },
+    {
+      "order": 3,
+      "title": "La cospirazione dello Zodiaco",
+      "phase": "Fase Epidemiologica III - Sabotaggio interno",
+      "description": "Scoprire la cabala militare responsabile di aver trasformato il virus in arma all'interno della rete di emergenza globale.",
+      "badgeText": "Ottobre"
+    },
+    {
+      "order": 4,
+      "title": "Scorte e salvezza",
+      "phase": "Fase Epidemiologica IV - Il vaccino globale",
+      "description": "Sintetizzare il dosaggio sperimentale di immunizzazione e vaccinare i centri metropolitani superstiti in tutto il mondo.",
+      "badgeText": "Dicembre"
+    }
+  ]
 }

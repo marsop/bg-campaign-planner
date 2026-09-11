@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Oathsworn: Into the Deepwood",
   "subtitle": "Campagne de mystère et de combat coopératif contre des boss de dark fantasy",
   "tagline": "Aventurez-vous dans le Deepwood et affrontez les horreurs qu'il renferme",
@@ -21,5 +21,35 @@
       "name": "Campagne Étendue (Toutes les Rencontres)",
       "description": "L'histoire principale et tous les affrontements de boss optionnels."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Au-delà du bastion de la cité",
+      "phase": "Phase du Bois-Profond I - L'orée de la forêt",
+      "description": "Abandon des sceaux protecteurs de Bastone pour affronter les abominations infestant les lisières sylvestres.",
+      "badgeText": "Ch. 5"
+    },
+    {
+      "order": 2,
+      "title": "Le repaire de la Mère de la Nichée",
+      "phase": "Phase du Bois-Profond II - Les gouffres fongiques",
+      "description": "Survie au labyrinthe oppressant sous les arbres et découverte de ce qui nourrit le Bois-Profond.",
+      "badgeText": "Ch. 10"
+    },
+    {
+      "order": 3,
+      "title": "Au cœur des ténèbres",
+      "phase": "Phase du Bois-Profond III - Les colosses titanesques",
+      "description": "Combat contre les bêtes colossales gardant le bosquet primordial alors que la santé mentale de la compagnie vacille.",
+      "badgeText": "Ch. 16"
+    },
+    {
+      "order": 4,
+      "title": "L'ultime résistance de Bastone",
+      "phase": "Phase du Bois-Profond IV - L'apogée de la guerre",
+      "description": "Le siège décisif scellant le destin du dernier bastion de l'humanité face à l'avancée du Bois-Profond.",
+      "badgeText": "Ch. 21"
+    }
+  ]
 }

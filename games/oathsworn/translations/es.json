@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Oathsworn: Into the Deepwood",
   "subtitle": "Campaña de misterio y combate cooperativo contra jefes de fantasía oscura",
   "tagline": "Adéntrate en Deepwood y enfréntate a los horrores que alberga",
@@ -21,5 +21,35 @@
       "name": "Campaña Extendida (Todos los Encuentros)",
       "description": "Historia principal y todos los encuentros opcionales con jefes."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Más allá del bastión de la ciudad",
+      "phase": "Fase de Deepwood I - Los confines del bosque",
+      "description": "Dejando atrás las barreras protectoras de Bastone para enfrentarse a los horrores de la progenie en los límites del bosque.",
+      "badgeText": "Cap. 5"
+    },
+    {
+      "order": 2,
+      "title": "La guarida de la Madre de la Progenie",
+      "phase": "Fase de Deepwood II - Las profundidades fúngicas",
+      "description": "Sobreviviendo al claustrofóbico laberinto subterráneo y descubriendo quién está alimentando a Deepwood.",
+      "badgeText": "Cap. 10"
+    },
+    {
+      "order": 3,
+      "title": "El corazón de las tinieblas",
+      "phase": "Fase de Deepwood III - Los colosos titánicos",
+      "description": "Combatiendo contra monstruosidades alfa que custodian la arboleda primordial mientras se resiente la cordura de la compañía.",
+      "badgeText": "Cap. 16"
+    },
+    {
+      "order": 4,
+      "title": "La última resistencia de Bastone",
+      "phase": "Fase de Deepwood IV - El clímax de la guerra",
+      "description": "El asedio decisivo que determinará si el último bastión de la humanidad perdura o es consumido por Deepwood.",
+      "badgeText": "Cap. 21"
+    }
+  ]
 }

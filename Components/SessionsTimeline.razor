@@ -12,9 +12,6 @@
         </div>
 
         <div class="d-flex flex-wrap gap-2">
-            <button class="btn btn-outline-info btn-sm" @onclick="CopySummaryToClipboard">
-                <i class="bi bi-clipboard me-1"></i> @Loc["Timeline.CopyBtn"]
-            </button>
             <button class="btn btn-primary btn-sm btn-export" @onclick="ExportCalendarIcs">
                 <i class="bi bi-download me-1"></i> @Loc["Timeline.ExportBtn"]
             </button>
@@ -31,17 +28,24 @@
 
     <!-- FILTER / SEARCH & VIEW TOGGLE -->
     <div class="timeline-controls d-flex justify-content-between align-items-center mb-3">
-        <div class="d-flex align-items-center gap-2">
-            <span class="small text-muted">@Loc["Timeline.Showing"]</span>
-            <button class="btn btn-xs @(ShowOnlyMilestones ? "btn-secondary" : "btn-primary")"
-                    @onclick="() => ShowOnlyMilestones = false">
-                @Loc.Get("Timeline.AllSessions", Result.Sessions.Count)
-            </button>
-            <button class="btn btn-xs @(ShowOnlyMilestones ? "btn-primary" : "btn-secondary")"
-                    @onclick="() => ShowOnlyMilestones = true">
-                @Loc.Get("Timeline.MilestoneSessions", Result.Sessions.Count(s => s.IsMilestoneSession))
-            </button>
-        </div>
+        @if (Result.MilestoneProjections.Any())
+        {
+            <div class="d-flex align-items-center gap-2">
+                <span class="small text-muted">@Loc["Timeline.Showing"]</span>
+                <button class="btn btn-xs @(ShowOnlyMilestones ? "btn-secondary" : "btn-primary")"
+                        @onclick="() => ShowOnlyMilestones = false">
+                    @Loc.Get("Timeline.AllSessions", Result.Sessions.Count)
+                </button>
+                <button class="btn btn-xs @(ShowOnlyMilestones ? "btn-primary" : "btn-secondary")"
+                        @onclick="() => ShowOnlyMilestones = true">
+                    @Loc.Get("Timeline.MilestoneSessions", Result.Sessions.Count(s => s.IsMilestoneSession))
+                </button>
+            </div>
+        }
+        else
+        {
+            <div></div>
+        }
 
         <div class="small text-muted">
             @Loc.Get("Timeline.PageOf", CurrentPage, TotalPages)
@@ -89,8 +93,15 @@
                             {
                                 <div class="milestone-table-tag">
                                     <span class="badge bg-warning text-dark me-1">@Loc["Timeline.MilestoneBadge"]</span>
-                                    <strong class="milestone-note-text">@session.MilestoneNote</strong>
-                                    <span class="small text-muted ms-1">(@session.MilestonePhase)</span>
+                                    @if (ShowSpoilers)
+                                    {
+                                        <strong class="milestone-note-text">@session.MilestoneNote</strong>
+                                        <span class="small text-muted ms-1">(@session.MilestonePhase)</span>
+                                    }
+                                    else
+                                    {
+                                        <strong class="milestone-note-text">@Loc["Timeline.HiddenMilestoneNote"] #@session.MilestoneOrder</strong>
+                                    }
                                 </div>
                             }
                             else
@@ -136,6 +147,9 @@
     [Parameter, EditorRequired]
     public CalculationResult Result { get; set; } = null!;
 
+    [Parameter]
+    public bool ShowSpoilers { get; set; } = false;
+
     private bool ShowOnlyMilestones = false;
     private int CurrentPage = 1;
     private const int PageSize = 10;
@@ -156,21 +170,9 @@
 
     private async Task ExportCalendarIcs()
     {
-        var icsContent = CalculatorService.GenerateIcsFile(Result, Loc);
+        var icsContent = CalculatorService.GenerateIcsFile(Result, Loc, ShowSpoilers);
         var filename = $"{Result.Game.Id}-Campaign-Schedule.ics";
         await JS.InvokeVoidAsync("campaignPlanner.downloadFile", filename, "text/calendar", icsContent);
         ToastMessage = Loc.Get("Timeline.IcsToast", filename);
-    }
-
-    private async Task CopySummaryToClipboard()
-    {
-        var summaryText = $"🎲 {Result.Game.Title} {Loc["Timeline.SummaryTitle"]} ({Result.Scope.Name})\n" +
-                          $"📅 {Loc["Timeline.SummarySchedule"]}: {Result.StartDate.ToString("MMM d, yyyy", CultureInfo.CurrentCulture)} ➔ {Result.ProjectedFinishDate.ToString("MMM d, yyyy", CultureInfo.CurrentCulture)} ({Loc.Get("Kpi.DurationSubtext", Result.TotalCalendarMonths.ToString("F1", CultureInfo.CurrentCulture), Result.TotalCalendarWeeks.ToString("F0", CultureInfo.CurrentCulture))})\n" +
-                          $"🎯 {Loc["Timeline.SummaryMeetups"]}: {Result.TotalMeetupsRequired} (~{Result.AverageSessionHours.ToString("F1", CultureInfo.CurrentCulture)} {Loc["Kpi.HoursUnit"]})\n" +
-                          $"⏳ {Loc["Timeline.SummaryPlayTime"]}: ~{Result.TotalTableHours.ToString("F0", CultureInfo.CurrentCulture)} {Loc["Kpi.HoursUnit"]}\n" +
-                          $"{Loc["Timeline.SummaryGeneratedVia"]}";
-
-        await JS.InvokeVoidAsync("campaignPlanner.copyToClipboard", summaryText);
-        ToastMessage = Loc["Timeline.CopyToast"];
     }
 }

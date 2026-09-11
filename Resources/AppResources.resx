@@ -82,9 +82,6 @@
   <data name="App.Title" xml:space="preserve">
     <value>Board Game Campaign Planner</value>
   </data>
-  <data name="Form.BiWeeklyHint" xml:space="preserve">
-    <value>💡 Scheduled once every 14 calendar days on your selected day.</value>
-  </data>
   <data name="Form.DateNextMonth" xml:space="preserve">
     <value>1st of Next Month</value>
   </data>
@@ -114,9 +111,6 @@
   </data>
   <data name="Form.FactorSetup" xml:space="preserve">
     <value>Include Setup &amp; Teardown (~{0} min)</value>
-  </data>
-  <data name="Form.FreqBiWeekly" xml:space="preserve">
-    <value>🗓️ Every 2 Weeks (Bi-weekly)</value>
   </data>
   <data name="Form.FreqCustom" xml:space="preserve">
     <value>⚙️ Custom Interval (Every N days)</value>
@@ -403,12 +397,6 @@
   <data name="Timeline.ColScenarios" xml:space="preserve">
     <value>Scenarios</value>
   </data>
-  <data name="Timeline.CopyBtn" xml:space="preserve">
-    <value>Copy Summary</value>
-  </data>
-  <data name="Timeline.CopyToast" xml:space="preserve">
-    <value>Campaign summary copied to clipboard!</value>
-  </data>
   <data name="Timeline.ExportBtn" xml:space="preserve">
     <value>Export to Calendar (.ics)</value>
   </data>
@@ -438,21 +426,6 @@
   </data>
   <data name="Timeline.Subtitle" xml:space="preserve">
     <value>Chronological schedule for all {0} meetups</value>
-  </data>
-  <data name="Timeline.SummaryGeneratedVia" xml:space="preserve">
-    <value>Generated via Board Game Campaign Planner</value>
-  </data>
-  <data name="Timeline.SummaryMeetups" xml:space="preserve">
-    <value>Total Meetups</value>
-  </data>
-  <data name="Timeline.SummaryPlayTime" xml:space="preserve">
-    <value>Total Play Time</value>
-  </data>
-  <data name="Timeline.SummarySchedule" xml:space="preserve">
-    <value>Schedule</value>
-  </data>
-  <data name="Timeline.SummaryTitle" xml:space="preserve">
-    <value>Campaign Plan</value>
   </data>
   <data name="Timeline.Title" xml:space="preserve">
     <value>Meetup Calendar &amp; Schedule Details</value>
@@ -642,5 +615,32 @@
   </data>
   <data name="GameSelector.NoMatchesDesc" xml:space="preserve">
     <value>Try adjusting or clearing your player count or weight filters.</value>
+  </data>
+  <data name="Roadmap.ShowSpoilers" xml:space="preserve">
+    <value>Show Spoilers</value>
+  </data>
+  <data name="Roadmap.SpoilerTag" xml:space="preserve">
+    <value>Spoiler</value>
+  </data>
+  <data name="Roadmap.HiddenTitle" xml:space="preserve">
+    <value>Milestone #{0}</value>
+  </data>
+  <data name="Roadmap.HiddenPhase" xml:space="preserve">
+    <value>Campaign Checkpoint {0}</value>
+  </data>
+  <data name="Roadmap.HiddenDesc" xml:space="preserve">
+    <value>Narrative details hidden to prevent spoilers. Flip the 'Show Spoilers' switch to reveal.</value>
+  </data>
+  <data name="Roadmap.MilestoneBadge" xml:space="preserve">
+    <value>MILESTONE</value>
+  </data>
+  <data name="Form.ShowSpoilers" xml:space="preserve">
+    <value>Show Campaign Spoilers</value>
+  </data>
+  <data name="Form.ShowSpoilersHelp" xml:space="preserve">
+    <value>Reveals story act names and narrative milestone descriptions</value>
+  </data>
+  <data name="Timeline.HiddenMilestoneNote" xml:space="preserve">
+    <value>Campaign Milestone Reached</value>
   </data>
 </root>

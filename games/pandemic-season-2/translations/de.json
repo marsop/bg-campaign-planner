@@ -29,5 +29,35 @@
       "name": "Maximale Box-Kapazität (24 Partien + Prolog)",
       "description": "Jeder einzelne Kalendermonat wird zweimal gespielt (Anfang + Ende) plus Prologmissionen für die maximal mögliche Kampagnenlänge (26 Partien)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Aufklärung des Festlands",
+      "phase": "Zufluchtsphase I - Landung an der Küste",
+      "description": "Vorstoß von den schwimmenden Zufluchten in die leeren Ruinen des verlassenen Kontinents.",
+      "badgeText": "April"
+    },
+    {
+      "order": 2,
+      "title": "Wiederherstellung des Netzes",
+      "phase": "Zufluchtsphase II - Funktürme & Überlebende",
+      "description": "Bau von Kommunikationsrelais durch das Ödland und Errichtung von Nachschublinien zu isolierten Enklaven.",
+      "badgeText": "Juli"
+    },
+    {
+      "order": 3,
+      "title": "Die Utopia-Koordinaten",
+      "phase": "Zufluchtsphase III - Expedition zum Baikalsee",
+      "description": "Lüftung des Geheimnisses um die ursprünglichen medizinischen Forscher und Entdeckung der legendären Zuflucht Utopia.",
+      "badgeText": "Oktober"
+    },
+    {
+      "order": 4,
+      "title": "Nullpunkt-Wiedergeburt",
+      "phase": "Zufluchtsphase IV - Der Zentralgenerator",
+      "description": "Aktivierung des weltweiten Energierelais zur Entfachung des Neuanfangs der Menschheit.",
+      "badgeText": "Dezember"
+    }
+  ]
 }

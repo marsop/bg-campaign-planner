@@ -25,5 +25,35 @@
       "name": "Exploración Total de Ávalon (Todos los Secretos)",
       "description": "Exploración exhaustiva de cada territorio, encendiendo todos los Menhires lejanos, resolviendo misiones de sueños de personajes y hallando reliquias antiguas."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Cap. 4",
+      "title": "El Ocaso de Cuanacht",
+      "phase": "Fase de Ávalon I - Menhires Extinguidos",
+      "description": "Escapando de la tierra natal agonizante mientras las piedras guardianas protectoras caen en la oscuridad."
+    },
+    {
+      "order": 2,
+      "badgeText": "Cap. 8",
+      "title": "Las Ruinas de Kamelot",
+      "phase": "Fase de Ávalon II - Ecos del Rey Arturo",
+      "description": "Explorando los corredores en ruinas de la legendaria ciudadela y descubriendo la traición que condenó a la Tabla Redonda."
+    },
+    {
+      "order": 3,
+      "badgeText": "Cap. 11",
+      "title": "El Legado de la Muerte Roja",
+      "phase": "Fase de Ávalon III - La Frontera de la Rareza",
+      "description": "Atravesando las brumas caóticas más profundas para recuperar las reliquias prohibidas de Merlín del Santuario Lejano."
+    },
+    {
+      "order": 4,
+      "badgeText": "Cap. 15",
+      "title": "El Renacimiento o la Condena de Ávalon",
+      "phase": "Fase de Ávalon IV - El Faro Final",
+      "description": "Tomando la decisión moral definitiva de restaurar la luz de los Menhires o entregar Ávalon a los poderes salvajes."
+    }
+  ]
 }

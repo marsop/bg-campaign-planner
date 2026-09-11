@@ -29,5 +29,35 @@
       "name": "Maximum Box Capacity (24 Games + Prologue)",
       "description": "Every single calendar month played twice (Early + Late) plus prologue missions for the fullest possible experience (26 total games)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "The Mainland Reconnaissance",
+      "phase": "Haven Phase I - Landing on the Coast",
+      "description": "Venturing from the floating Haven sanctuaries into the hollow ruins of the forsaken continent.",
+      "badgeText": "April"
+    },
+    {
+      "order": 2,
+      "title": "Reconnecting the Grid",
+      "phase": "Haven Phase II - Radio Towers & Survivors",
+      "description": "Constructing communication relays across the wasteland and establishing supply lines to isolated enclaves.",
+      "badgeText": "July"
+    },
+    {
+      "order": 3,
+      "title": "The Utopia Coordinates",
+      "phase": "Haven Phase III - Lake Baikal Expedition",
+      "description": "Unraveling the mystery of the original medical researchers and locating the rumored sanctuary of Utopia.",
+      "badgeText": "October"
+    },
+    {
+      "order": 4,
+      "title": "Zero Point Rebirth",
+      "phase": "Haven Phase IV - The Central Generator",
+      "description": "Activating the global power relay to ignite humanity's rebirth and restore the world.",
+      "badgeText": "December"
+    }
+  ]
 }

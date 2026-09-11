@@ -6,7 +6,6 @@ namespace bg_campaign_planner.Models;
 public enum FrequencyMode
 {
     TimesPerWeek,
-    BiWeekly,
     TimesPerMonth,
     CustomDaysInterval
 }
@@ -41,6 +40,7 @@ public class PlannerInputModel
     public ExperienceLevel Experience { get; set; } = ExperienceLevel.Regular;
     public bool IncludeSetupTeardown { get; set; } = true;
     public bool EnableFailureBuffer { get; set; } = true;
+    public bool ShowSpoilers { get; set; } = false;
 }
 
 public class ScheduledSession
@@ -55,6 +55,7 @@ public class ScheduledSession
     public int EndScenarioIndex { get; set; }
     public int ScenariosPlayedInSession { get; set; }
     public double EstimatedSessionHours { get; set; }
+    public int? MilestoneOrder { get; set; }
     public string? MilestoneNote { get; set; }
     public string? MilestonePhase { get; set; }
     public bool IsMilestoneSession => !string.IsNullOrEmpty(MilestoneNote);

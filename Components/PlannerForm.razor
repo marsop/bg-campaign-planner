@@ -51,10 +51,6 @@
                         @onclick="() => SetFrequencyMode(FrequencyMode.TimesPerWeek)">
                     @Loc["Form.FreqWeekly"]
                 </button>
-                <button type="button" class="btn-freq-tab @(Input.Frequency == FrequencyMode.BiWeekly ? "active" : "")"
-                        @onclick="() => SetFrequencyMode(FrequencyMode.BiWeekly)">
-                    @Loc["Form.FreqBiWeekly"]
-                </button>
                 <button type="button" class="btn-freq-tab @(Input.Frequency == FrequencyMode.TimesPerMonth ? "active" : "")"
                         @onclick="() => SetFrequencyMode(FrequencyMode.TimesPerMonth)">
                     @Loc["Form.FreqMonthly"]
@@ -97,31 +93,6 @@
                                         @dayName
                                     </button>
                                 }
-                            </div>
-                        </div>
-                    </div>
-                }
-                else if (Input.Frequency == FrequencyMode.BiWeekly)
-                {
-                    <div class="row align-items-center g-3">
-                        <div class="col-sm-6">
-                            <label class="small text-muted-light mb-1">@Loc["Form.PreferredDay"]</label>
-                            <div class="d-flex flex-wrap gap-1">
-                                @foreach (DayOfWeek day in Enum.GetValues(typeof(DayOfWeek)))
-                                {
-                                    var isDaySelected = Input.PreferredDaysOfWeek.Contains(day);
-                                    var dayName = CultureInfo.CurrentCulture.DateTimeFormat.GetAbbreviatedDayName(day);
-                                    <button type="button"
-                                            class="btn btn-sm day-pill @(isDaySelected ? "day-pill-selected" : "")"
-                                            @onclick="() => SetSingleDayOfWeek(day)">
-                                        @dayName
-                                    </button>
-                                }
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="small text-muted">
-                                @Loc["Form.BiWeeklyHint"]
                             </div>
                         </div>
                     </div>
@@ -222,7 +193,7 @@
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <label class="form-label-custom">@Loc["Form.SessionStartTime"]</label>
+                <label class="form-label-custom">@Loc["Form.Step5StartTime"]</label>
                 <input type="time" class="form-control form-control-custom mb-1"
                        value="@Input.StartTime.ToString("HH:mm")"
                        @onchange="OnStartTimeChanged" />
@@ -235,7 +206,7 @@
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <label class="form-label-custom">@Loc["Form.Step5Vacation"]</label>
+                <label class="form-label-custom">@Loc["Form.Step6Vacation"]</label>
                 <div class="d-flex align-items-center gap-2">
                     <select class="form-select form-select-custom" value="@Input.VacationWeeksBuffer" @onchange="OnVacationChanged">
                         <option value="0">@Loc["Form.Vacation0"]</option>
@@ -252,7 +223,7 @@
         <!-- 4. GROUP EXPERIENCE & OPTIONS -->
         <div class="row g-3">
             <div class="col-md-4">
-                <label class="form-label-custom">@Loc["Form.Step6PlayerCount"]</label>
+                <label class="form-label-custom">@Loc["Form.Step7PlayerCount"]</label>
                 <div class="d-flex gap-2">
                     @for (int p = Game.PlayersMin; p <= Game.PlayersMax; p++)
                     {
@@ -266,7 +237,7 @@
             </div>
 
             <div class="col-md-4">
-                <label class="form-label-custom">@Loc["Form.Step7Experience"]</label>
+                <label class="form-label-custom">@Loc["Form.Step8Experience"]</label>
                 <select class="form-select form-select-custom" value="@Input.Experience" @onchange="OnExperienceChanged">
                     <option value="@ExperienceLevel.Beginner">@Loc["Form.ExpBeginner"]</option>
                     <option value="@ExperienceLevel.Regular">@Loc["Form.ExpRegular"]</option>
@@ -275,7 +246,7 @@
             </div>
 
             <div class="col-md-4">
-                <label class="form-label-custom">@Loc["Form.Step8Factors"]</label>
+                <label class="form-label-custom">@Loc["Form.Step9Factors"]</label>
                 <div class="form-check form-switch mb-1">
                     <input class="form-check-input" type="checkbox" id="chkSetup"
                            checked="@Input.IncludeSetupTeardown"
@@ -284,7 +255,7 @@
                         @Loc.Get("Form.FactorSetup", Game.SetupTeardownMinutes)
                     </label>
                 </div>
-                <div class="form-check form-switch">
+                <div class="form-check form-switch mb-1">
                     <input class="form-check-input" type="checkbox" id="chkFail"
                            checked="@Input.EnableFailureBuffer"
                            @onchange="ToggleFailureBuffer" />
@@ -292,6 +263,17 @@
                         @Loc["Form.FactorFailure"]
                     </label>
                 </div>
+                @if (Game.Milestones.Any())
+                {
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="chkSpoilers"
+                               checked="@Input.ShowSpoilers"
+                               @onchange="ToggleShowSpoilers" />
+                        <label class="form-check-label small" for="chkSpoilers">
+                            @Loc["Form.ShowSpoilers"]
+                        </label>
+                    </div>
+                }
             </div>
         </div>
     </div>
@@ -472,6 +454,12 @@
         await OnInputChanged.InvokeAsync();
     }
 
+    private async Task ToggleShowSpoilers(ChangeEventArgs e)
+    {
+        Input.ShowSpoilers = e.Value is bool b && b;
+        await OnInputChanged.InvokeAsync();
+    }
+
     private async Task ResetToDefaults()
     {
         Input.Frequency = FrequencyMode.TimesPerWeek;
@@ -487,6 +475,7 @@
         Input.Experience = ExperienceLevel.Regular;
         Input.IncludeSetupTeardown = true;
         Input.EnableFailureBuffer = true;
+        Input.ShowSpoilers = false;
         
         var rec = Game.Scopes.FirstOrDefault(s => s.IsRecommended) ?? Game.Scopes.First();
         Input.SelectedScopeId = rec.Id;

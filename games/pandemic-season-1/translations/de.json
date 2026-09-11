@@ -29,5 +29,35 @@
       "name": "Maximale Box-Kapazität (24 Partien insgesamt)",
       "description": "Jeder einzelne Kalendermonat wird zweimal gespielt (Anfang + Ende) für die maximal mögliche Kampagnenerfahrung (24-26 Partien)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Die Verblassten-Mutation",
+      "phase": "Ausbruchsphase I - Der unheilbare Stamm",
+      "description": "Das COdA-403a-Pathogen mutiert zu einem unheilbaren Erreger, erschafft die furchterregenden Verblassten und lässt Quarantänen zusammenbrechen.",
+      "badgeText": "April"
+    },
+    {
+      "order": 2,
+      "title": "Die flüchtige Virologin",
+      "phase": "Ausbruchsphase II - Suche nach Patient Null",
+      "description": "Verfolgung verlorener immunologischer Forschungen über bröckelnde Grenzen hinweg, während Militärsperren die Welt spalten.",
+      "badgeText": "August"
+    },
+    {
+      "order": 3,
+      "title": "Die Zodiac-Verschwörung",
+      "phase": "Ausbruchsphase III - Sabotage von innen",
+      "description": "Entlarvung der Militär-Kabale, die für die militärische Instrumentalisierung des Virus innerhalb des Krisennetzwerks verantwortlich ist.",
+      "badgeText": "Oktober"
+    },
+    {
+      "order": 4,
+      "title": "Vorrat und Rettung",
+      "phase": "Ausbruchsphase IV - Der weltweite Impfstoff",
+      "description": "Synthetisierung der experimentellen Immunisierungsdosis und Impfung der überlebenden Ballungsräume auf der ganzen Welt.",
+      "badgeText": "Dezember"
+    }
+  ]
 }

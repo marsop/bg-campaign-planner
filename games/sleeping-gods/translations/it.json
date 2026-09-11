@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Sleeping Gods",
   "subtitle": "Esplorazione nautica cooperativa e sopravvivenza narrativa attraverso il Mare Errante",
   "tagline": "Esplora il Mare Errante e risveglia gli dei assopiti",
@@ -21,5 +21,35 @@
       "name": "Breve Spedizione Esplorativa",
       "description": "Una spedizione marittima agile per esplorare gli arcipelaghi vicini e affrontare le prime missioni."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Prima marea del Mare Errante",
+      "phase": "Fase di Viaggio I - L'arcipelago inesplorato",
+      "description": "Sopravvivere al primo passaggio del mazzo eventi e allestire porti di rifornimento lungo la barriera.",
+      "badgeText": "Mazzo I"
+    },
+    {
+      "order": 2,
+      "title": "I totem sussurranti",
+      "phase": "Fase di Viaggio II - Reliquie antiche",
+      "description": "Recuperare i primi totem sacri nelle rovine della giungla e decifrare le mappe stellari della strega.",
+      "badgeText": "Mazzo II"
+    },
+    {
+      "order": 3,
+      "title": "Il maelstrom abissale",
+      "phase": "Fase di Viaggio III - Tempesta degli Antichi",
+      "description": "Navigare attraverso il devastante ciclo finale di eventi mentre mostri marini insidiano lo scafo del Manticore.",
+      "badgeText": "Mazzo III"
+    },
+    {
+      "order": 4,
+      "title": "Il risveglio degli dei",
+      "phase": "Fase di Viaggio IV - Il ritorno a casa",
+      "description": "Raggiungere il sacro altare montano per risvegliare le divinità dormienti e aprire lo squarcio verso New York.",
+      "badgeText": "Finale"
+    }
+  ]
 }

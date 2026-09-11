@@ -209,7 +209,7 @@ public class PlannerCalculatorService
         int sessionNum = 1;
 
         // Align start date to first preferred day if needed
-        if (input.Frequency == FrequencyMode.TimesPerWeek || input.Frequency == FrequencyMode.BiWeekly)
+        if (input.Frequency == FrequencyMode.TimesPerWeek)
         {
             while (!preferredDays.Contains(currentDate.DayOfWeek))
             {
@@ -275,10 +275,6 @@ public class PlannerCalculatorService
                     return currentDate.AddDays(step);
                 }
 
-            case FrequencyMode.BiWeekly:
-                // Jump 2 weeks, ensuring same preferred day
-                return currentDate.AddDays(14);
-
             case FrequencyMode.TimesPerMonth:
                 int timesPerMonth = Math.Max(1, input.TimesPerMonthCount);
                 int daysInterval = (int)Math.Round(30.4375 / timesPerMonth);
@@ -301,7 +297,7 @@ public class PlannerCalculatorService
         }
     }
 
-    public string GenerateIcsFile(CalculationResult result, Microsoft.Extensions.Localization.IStringLocalizer<bg_campaign_planner.Resources.AppResources>? loc = null)
+    public string GenerateIcsFile(CalculationResult result, Microsoft.Extensions.Localization.IStringLocalizer<bg_campaign_planner.Resources.AppResources>? loc = null, bool showSpoilers = false)
     {
         var sb = new StringBuilder();
         sb.AppendLine("BEGIN:VCALENDAR");
@@ -333,9 +329,19 @@ public class PlannerCalculatorService
 
             if (!string.IsNullOrEmpty(session.MilestoneNote))
             {
-                description += loc != null
-                    ? loc["Ics.EventMilestone", session.MilestoneNote, session.MilestonePhase ?? string.Empty]
-                    : $"\\n🎯 CHECKPOINT: {session.MilestoneNote} ({session.MilestonePhase})";
+                if (showSpoilers)
+                {
+                    description += loc != null
+                        ? loc["Ics.EventMilestone", session.MilestoneNote, session.MilestonePhase ?? string.Empty]
+                        : $"\\n🎯 CHECKPOINT: {session.MilestoneNote} ({session.MilestonePhase})";
+                }
+                else
+                {
+                    string hiddenNote = loc != null
+                        ? loc["Timeline.HiddenMilestoneNote"]
+                        : "Campaign Milestone Reached";
+                    description += $"\\n🎯 CHECKPOINT: {hiddenNote} #{session.MilestoneOrder}";
+                }
             }
 
             sb.AppendLine("BEGIN:VEVENT");

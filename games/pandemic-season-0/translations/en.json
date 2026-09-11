@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Pandemic Legacy: Season 0",
   "subtitle": "Cold War 1962 espionage thriller and covert CIA operations against Soviet bioweapons",
   "tagline": "TOP SECRET // CLASSIFIED CIA BRIEFING // 1962",
@@ -29,5 +29,35 @@
       "name": "Maximum Legacy Box Capacity (24 Games + 2 Prologues)",
       "description": "Every single calendar month played twice (Early + Late) plus both prologue missions (26 total games)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Project MEDUSA Unveiled",
+      "phase": "Operation Phase I - Intelligence Gathering",
+      "description": "CIA operatives discover Soviet biochemical laboratories developing the weaponized MEDUSA pathogen.",
+      "badgeText": "March"
+    },
+    {
+      "order": 2,
+      "title": "The Defector Protocol",
+      "phase": "Operation Phase II - Safehouse Network",
+      "description": "Extracting key Soviet research personnel across the Iron Curtain and establishing permanent surveillance safehouses.",
+      "badgeText": "June"
+    },
+    {
+      "order": 3,
+      "title": "Sleeper Contagion",
+      "phase": "Operation Phase III - Global Containment",
+      "description": "Countering widespread sleeper cell infiltration and suppressing targeted biological incidents across Allied capitals.",
+      "badgeText": "September"
+    },
+    {
+      "order": 4,
+      "title": "Operation Final Dawn",
+      "phase": "Operation Phase IV - The Central Hive",
+      "description": "Infiltrating the central Soviet fortress to permanently dismantle the MEDUSA apparatus before New Year's Eve.",
+      "badgeText": "December"
+    }
+  ]
 }

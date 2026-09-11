@@ -29,5 +29,35 @@
       "name": "Capacité Maximale de la Boîte (24 Parties au Total)",
       "description": "Chaque mois calendaire joué deux fois (Début + Fin) pour la durée de campagne maximale possible (24-26 parties)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "La mutation des Oubliés",
+      "phase": "Phase d'Épidémie I - La souche incurable",
+      "description": "Le pathogène COdA-403a mute en une souche incurable, créant les terrifiants Oubliés et faisant s'effondrer les quarantaines.",
+      "badgeText": "Avril"
+    },
+    {
+      "order": 2,
+      "title": "La virologue insaisissable",
+      "phase": "Phase d'Épidémie II - À la recherche du patient zéro",
+      "description": "Traque des recherches immunologiques perdues à travers des frontières dévastées pendant que les barrages militaires fragmentent le monde.",
+      "badgeText": "Août"
+    },
+    {
+      "order": 3,
+      "title": "La conspiration du Zodiaque",
+      "phase": "Phase d'Épidémie III - Sabotage intérieur",
+      "description": "Révélation de la cabale militaire responsable de la militarisation du virus depuis l'intérieur même du réseau de réponse sanitaire.",
+      "badgeText": "Octobre"
+    },
+    {
+      "order": 4,
+      "title": "Stock et salut",
+      "phase": "Phase d'Épidémie IV - Le vaccin universel",
+      "description": "Synthèse de la formule d'immunisation expérimentale et inoculation des métropoles rescapées à l'échelle planétaire.",
+      "badgeText": "Décembre"
+    }
+  ]
 }

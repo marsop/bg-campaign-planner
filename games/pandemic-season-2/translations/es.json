@@ -29,5 +29,35 @@
       "name": "Capacidad Máxima de la Caja (24 Partidas + Prólogo)",
       "description": "Cada mes del calendario jugado dos veces (Principio + Final) más misiones de prólogo para la experiencia más completa (26 partidas totales)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Reconocimiento del continente",
+      "phase": "Fase de Refugio I - Desembarco en la costa",
+      "description": "Aventurándose desde los refugios flotantes hacia las ruinas vacías del continente abandonado.",
+      "badgeText": "Abril"
+    },
+    {
+      "order": 2,
+      "title": "Reconectando la red",
+      "phase": "Fase de Refugio II - Torres de radio y supervivientes",
+      "description": "Construyendo repetidores de comunicación a través del yermo y estableciendo líneas de suministro hacia enclaves aislados.",
+      "badgeText": "Julio"
+    },
+    {
+      "order": 3,
+      "title": "Las coordenadas de Utopía",
+      "phase": "Fase de Refugio III - Expedición al Lago Baikal",
+      "description": "Desentrañando el misterio de los investigadores médicos originales y localizando el rumoreado santuario de Utopía.",
+      "badgeText": "Octubre"
+    },
+    {
+      "order": 4,
+      "title": "Renacimiento en Punto Cero",
+      "phase": "Fase de Refugio IV - El generador central",
+      "description": "Activando el relé de energía global para encender el renacer de la humanidad y restaurar el mundo.",
+      "badgeText": "Diciembre"
+    }
+  ]
 }

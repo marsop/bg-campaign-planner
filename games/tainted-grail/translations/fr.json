@@ -25,5 +25,35 @@
       "name": "Exploration Totale d'Avalon (Tous les Secrets)",
       "description": "Exploration exhaustive de chaque territoire, allumant tous les Menhirs lointains, résolvant les rêves secrets des personnages et déterrant d'anciennes reliques."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ch. 4",
+      "title": "Le Déclin de Cuanacht",
+      "phase": "Phase d'Avalon I - Menhirs Éteints",
+      "description": "Fuir la terre natale mourante alors que les pierres gardiennes protectrices s'effondrent dans les ténèbres."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ch. 8",
+      "title": "Les Ruines de Kamelot",
+      "phase": "Phase d'Avalon II - Les Échos du Roi Arthur",
+      "description": "Explorer les couloirs en ruines de la citadelle légendaire et percer la trahison qui a condamné la Table Ronde."
+    },
+    {
+      "order": 3,
+      "badgeText": "Ch. 11",
+      "title": "L'Héritage de la Mort Rouge",
+      "phase": "Phase d'Avalon III - La Frontière de la Wyrd",
+      "description": "Traverser les brumes chaotiques les plus épaisses pour récupérer les reliques interdites de Merlin au Sanctuaire Lointain."
+    },
+    {
+      "order": 4,
+      "badgeText": "Ch. 15",
+      "title": "Renaissance ou Ruine d'Avalon",
+      "phase": "Phase d'Avalon IV - L'Ultime Fanal",
+      "description": "Accomplir le sacrifice moral suprême pour rallumer la flamme des Menhirs ou abandonner Avalon aux puissances sauvages."
+    }
+  ]
 }

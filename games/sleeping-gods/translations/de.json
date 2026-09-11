@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Sleeping Gods",
   "subtitle": "Kooperative nautische Erkundung und Storybuch-Überleben auf der Wandernden See",
   "tagline": "Erkunde die Wandernde See und erwecke die schlummernden Götter",
@@ -21,5 +21,35 @@
       "name": "Kurze Erkundungsexpedition",
       "description": "Eine gestraffte nautische Expedition zur Erkundung nahegelegener Inseln und Einführung in die Quests."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Erste Flut der Wandernden See",
+      "phase": "Reisephase I - Der unbekannte Archipel",
+      "description": "Überstehen des ersten Durchgangs durch das gefährliche Ereignisdeck und Aufbau von Versorgungshäfen.",
+      "badgeText": "Deck I"
+    },
+    {
+      "order": 2,
+      "title": "Die flüsternden Totems",
+      "phase": "Reisephase II - Uralte Relikte",
+      "description": "Bergung der ersten heiligen Totems aus Dschungelruinen und Entschlüsselung der Sternenkarten der Hexe.",
+      "badgeText": "Deck II"
+    },
+    {
+      "order": 3,
+      "title": "Der Tiefsee-Mahlstrom",
+      "phase": "Reisephase III - Sturm der Alten Götter",
+      "description": "Segeln durch den finalen verheerenden Ereigniszyklus, während Seemonster den Rumpf der Manticore belauern.",
+      "badgeText": "Deck III"
+    },
+    {
+      "order": 4,
+      "title": "Erwachen der Götter",
+      "phase": "Reisephase IV - Die Heimreise",
+      "description": "Erreichen des heiligen Bergaltars, um die schlafenden Gottheiten zu wecken und das Portal nach New York zu öffnen.",
+      "badgeText": "Finale"
+    }
+  ]
 }

@@ -25,5 +25,35 @@
       "name": "Esplorazione Totale di Avalon (Tutti i Segreti)",
       "description": "Esplorazione esaustiva di ogni territorio, accendendo tutti i Menhir remoti, completando le missioni oniriche dei personaggi e rinvenendo antiche reliquie."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Cap. 4",
+      "title": "Il Tramonto di Cuanacht",
+      "phase": "Fase di Avalon I - Menhir Spenti",
+      "description": "Fuggire dalla terra natale morente mentre le pietre guardiane protettrici sprofondano nell'oscurità."
+    },
+    {
+      "order": 2,
+      "badgeText": "Cap. 8",
+      "title": "Le Rovine di Kamelot",
+      "phase": "Fase di Avalon II - Echi di Re Artù",
+      "description": "Esplorare i corridoi fatiscenti della leggendaria cittadella e scoprire il tradimento che ha condannato la Tavola Rotonda."
+    },
+    {
+      "order": 3,
+      "badgeText": "Cap. 11",
+      "title": "L'Eredità della Morte Rossa",
+      "phase": "Fase di Avalon III - La Frontiera dell'Anomalia",
+      "description": "Attraversare le nebbie caotiche più oscure per recuperare le reliquie proibite di Merlino dal Santuario Lontano."
+    },
+    {
+      "order": 4,
+      "badgeText": "Cap. 15",
+      "title": "Rinascita o Rovina di Avalon",
+      "phase": "Fase di Avalon IV - L'Ultimo Faro",
+      "description": "Compiere il supremo sacrificio morale per riaccendere la luce dei Menhir o cedere Avalon alle potenze selvagge."
+    }
+  ]
 }

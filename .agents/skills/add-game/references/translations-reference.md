@@ -75,7 +75,20 @@ Each game requires **five** translation files in
       "name": "Full Completionist",
       "description": "Every unlockable scenario, all character retirements, maximum prosperity, and all side dungeons."
     }
-  }
+  },
+
+  // Optional. Localized narrative milestones corresponding to the milestones in game.json.
+  // Translate badgeText, title, phase, and description in all 5 languages (en, es, de, fr, it).
+  // Omit this entire array if the game does not define milestones.
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Act I",
+      "title": "Fall of the Citadel",
+      "phase": "Campaign Phase I - The Outskirts",
+      "description": "Securing the perimeter and penetrating the inner gate."
+    }
+  ]
 }
 ```
 

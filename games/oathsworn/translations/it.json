@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Oathsworn: Into the Deepwood",
   "subtitle": "Campagna di mistero e combattimento cooperativo contro boss di dark fantasy",
   "tagline": "Avventurati nel Deepwood e affronta gli orrori che vi si celano",
@@ -21,5 +21,35 @@
       "name": "Campagna Estesa (Tutti gli Incontri)",
       "description": "Storia principale e tutti gli scontri opzionali con i boss."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Oltre il bastione della città",
+      "phase": "Fase di Deepwood I - I margini della foresta",
+      "description": "Lasciare le barriere protettive di Bastone per affrontare gli orrori della nidiata che infestano i margini boschivi.",
+      "badgeText": "Cap. 5"
+    },
+    {
+      "order": 2,
+      "title": "La tana della Madre della Progenie",
+      "phase": "Fase di Deepwood II - Le profondità fungine",
+      "description": "Sopravvivere al claustrofobico labirinto sotterraneo e scoprire chi nutre il Deepwood.",
+      "badgeText": "Cap. 10"
+    },
+    {
+      "order": 3,
+      "title": "Il cuore di tenebra",
+      "phase": "Fase di Deepwood III - I giganti mastodontici",
+      "description": "Combattere mostruosità titaniche che sorvegliano il boschetto primordiale mentre la lucidità della compagnia vacilla.",
+      "badgeText": "Cap. 16"
+    },
+    {
+      "order": 4,
+      "title": "L'ultima difesa di Bastone",
+      "phase": "Fase di Deepwood IV - L'apice della guerra",
+      "description": "L'assedio decisivo che stabilirà se l'ultimo baluardo dell'umanità resisterà o cadrà in balia del Deepwood.",
+      "badgeText": "Cap. 21"
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Pandemic Legacy: Season 0",
   "subtitle": "Thriller di spionaggio durante la Guerra Fredda (1962) e operazioni segrete della CIA",
   "tagline": "TOP SECRET // BRIEFING CLASSIFICATO CIA // 1962",
@@ -29,5 +29,35 @@
       "name": "Capienza Massima della Scatola (24 Partite + 2 Prologhi)",
       "description": "Ogni mese giocato due volte (Inizio + Fine) più entrambi i prologhi (26 partite)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Progetto MEDUSA svelato",
+      "phase": "Fase Operativa I - Raccolta informazioni",
+      "description": "Gli operativi della CIA scoprono laboratori biochimici sovietici intenti a sviluppare l'agente patogeno MEDUSA.",
+      "badgeText": "Marzo"
+    },
+    {
+      "order": 2,
+      "title": "Il protocollo del disertore",
+      "phase": "Fase Operativa II - Rete di covi sicuri",
+      "description": "Estrarre scienziati sovietici chiave oltre la cortina di ferro e allestire rifugi permanenti di sorveglianza.",
+      "badgeText": "Giugno"
+    },
+    {
+      "order": 3,
+      "title": "Contagio dormiente",
+      "phase": "Fase Operativa III - Contenimento globale",
+      "description": "Contrastare l'infiltrazione di cellule dormienti e reprimere focolai biologici nelle capitali alleate.",
+      "badgeText": "Settembre"
+    },
+    {
+      "order": 4,
+      "title": "Operazione Aurora Finale",
+      "phase": "Fase Operativa IV - Il rifugio centrale",
+      "description": "Infiltrarsi nella fortezza sovietica centrale per smantellare l'apparato di MEDUSA prima della fine dell'anno.",
+      "badgeText": "Dicembre"
+    }
+  ]
 }

@@ -146,6 +146,27 @@ This file lives at `games/{game-id}/game.json`.
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false
     }
+  ],
+
+  // Optional. Narrative campaign milestones representing key acts, chapters, or major turning points.
+  // If no clear campaign milestones exist for the game, omit this property entirely.
+  "milestones": [
+    {
+      // Sequential index (1-based)
+      "order": 1,
+      // The scenario / game index where this milestone occurs
+      "atScenarioOrGameIndex": 10,
+      // Icon emoji displayed on the milestone roadmap card
+      "iconEmoji": "🏰",
+      // Short badge text (e.g. "Act I", "Ch. 3", "Month 4")
+      "badgeText": "Act I",
+      // Descriptive milestone title (masked when Show Spoilers is OFF)
+      "title": "Fall of the Citadel",
+      // Narrative phase header (masked when Show Spoilers is OFF)
+      "phase": "Campaign Phase I - The Outskirts",
+      // Flavour summary of the milestone (masked when Show Spoilers is OFF)
+      "description": "Securing the perimeter and penetrating the inner gate."
+    }
   ]
 }
 ```

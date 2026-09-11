@@ -12,7 +12,7 @@ Hosted and deployed serverless on **GitHub Pages**.
   - Wide curated catalog of epic campaign games: **Gloomhaven**, **Frosthaven**, **Pandemic Legacy: Season 0**, **Sleeping Gods**, **Oathsworn: Into the Deepwood**, and **Tainted Grail: The Fall of Avalon**.
   - Dynamic game-specific theming, color palettes, custom typography, and atmospheric lore for each title.
 - **⏱️ Campaign Meetup Calculator**:
-  - Choose between **Weekly** (1x, 2x, 3x, 4x per week), **Bi-weekly** (every 2 weeks), **Monthly** (1x to 4x per month), or **Custom intervals** (every N days).
+  - Choose between **Weekly** (1x, 2x, 3x, 4x per week), **Monthly** (1x to 4x per month), or **Custom intervals** (every N days).
   - Select preferred days of the week (e.g., Fridays & Sundays).
   - Configurable scenarios/games per meetup (1 scenario = ~2 hrs, 2 scenarios = ~4 hrs, marathon = ~6 hrs).
   - Group experience modifiers (Beginner, Regular, Veteran) and player count scaling (1 to 4 players).

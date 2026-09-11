@@ -1,4 +1,4 @@
-﻿{
+{
   "id": "frosthaven",
   "title": "Frosthaven",
   "releaseYear": 2022,
@@ -50,6 +50,44 @@
       "baseScenarioCount": 138,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "❄️",
+      "badgeText": "Year 1",
+      "title": "First Winter's Survival",
+      "phase": "Phase I - The Outpost Established",
+      "description": "Enduring the brutal first winter in the frozen north and fortifying the fledgling settlement's walls."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 32,
+      "iconEmoji": "🐺",
+      "badgeText": "Act II",
+      "title": "The Algox Schism",
+      "phase": "Phase II - Mountain Bloodlines",
+      "description": "Resolving the violent civil conflict between the Algox Priest faction and the Guard clans in the snowy crags."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 50,
+      "iconEmoji": "⚙️",
+      "badgeText": "Act III",
+      "title": "The Automata Awakened",
+      "phase": "Phase III - The Unfettered Deep",
+      "description": "Venturing into flooded subterranean ruins to decipher the sentient machine network."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 70,
+      "iconEmoji": "🏔️",
+      "badgeText": "Finale",
+      "title": "The Heart of the Frost",
+      "phase": "Phase IV - Northern Calamity",
+      "description": "Confronting the ancient primordial power slumbering beneath the permafrost to secure the Outpost's future."
     }
   ]
 }

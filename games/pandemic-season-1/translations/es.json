@@ -29,5 +29,35 @@
       "name": "Capacidad Máxima de la Caja (24 Partidas Totales)",
       "description": "Cada mes del calendario jugado dos veces (Principio + Final) para la experiencia más extensa posible (24-26 partidas)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "La mutación descolorida",
+      "phase": "Fase de Brote I - La cepa incurable",
+      "description": "El patógeno COdA-403a muta en una cepa incurable, creando a los aterradores Descoloridos y desmoronando las cuarentenas.",
+      "badgeText": "Abril"
+    },
+    {
+      "order": 2,
+      "title": "La viróloga esquiva",
+      "phase": "Fase de Brote II - En busca del paciente cero",
+      "description": "Rastreando investigaciones inmunológicas perdidas a través de fronteras en ruinas mientras los bloqueos militares dividen el mundo.",
+      "badgeText": "Agosto"
+    },
+    {
+      "order": 3,
+      "title": "La conspiración Zodiaco",
+      "phase": "Fase de Brote III - Sabotaje interno",
+      "description": "Descubriendo la camarilla militar clandestina responsable de convertir el virus en arma biológica desde dentro de la red global.",
+      "badgeText": "Octubre"
+    },
+    {
+      "order": 4,
+      "title": "Reserva y salvación",
+      "phase": "Fase de Brote IV - La vacuna global",
+      "description": "Sintetizando la dosis experimental de inmunización e inoculando a los centros metropolitanos supervivientes en todo el planeta.",
+      "badgeText": "Diciembre"
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "id": "sleeping-gods",
   "title": "Sleeping Gods",
   "releaseYear": 2021,
@@ -45,6 +45,44 @@
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "⛵",
+      "badgeText": "Deck I",
+      "title": "First Tide of the Wandering Sea",
+      "phase": "Voyage Phase I - The Uncharted Archipelago",
+      "description": "Surviving the first pass through the treacherous event deck and establishing supply ports along the reef."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🗿",
+      "badgeText": "Deck II",
+      "title": "The Whispering Totems",
+      "phase": "Voyage Phase II - Ancient Relics",
+      "description": "Recovering the first sacred totems from jungle ruins and deciphering the witch's cryptic star-charts."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🐙",
+      "badgeText": "Deck III",
+      "title": "The Abyssal Maelstrom",
+      "phase": "Voyage Phase III - Storm of the Old Ones",
+      "description": "Sailing through the final devastating event cycle while sea monsters hunt the fragile hull of the Manticore."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "🌅",
+      "badgeText": "Finale",
+      "title": "The Gods Awaken",
+      "phase": "Voyage Phase IV - The Journey Home",
+      "description": "Reaching the sacred mountain altar to awaken the sleeping deities and open the rift back to New York."
     }
   ]
 }

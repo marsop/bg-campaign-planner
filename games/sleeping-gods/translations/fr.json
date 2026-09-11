@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Sleeping Gods",
   "subtitle": "Exploration nautique coopérative et survie narrative à travers la Mer Errange",
   "tagline": "Explorez la Mer Errange et réveillez les dieux endormis",
@@ -21,5 +21,35 @@
       "name": "Courte Expédition d'Exploration",
       "description": "Une expédition maritime rapide pour explorer les archipels voisins et s'initier aux premières quêtes."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Première marée de la Mer Errange",
+      "phase": "Phase de Traversée I - L'archipel inexploré",
+      "description": "Survie au premier passage du paquet d'événements et établissement de ports de ravitaillement le long du récif.",
+      "badgeText": "Deck I"
+    },
+    {
+      "order": 2,
+      "title": "Les totems murmurants",
+      "phase": "Phase de Traversée II - Reliques ancestrales",
+      "description": "Récupération des premiers totems sacrés dans des ruines oubliées et déchiffrage des cartes stellaires de la sorcière.",
+      "badgeText": "Deck II"
+    },
+    {
+      "order": 3,
+      "title": "Le maelström abyssal",
+      "phase": "Phase de Traversée III - Tempête des Anciens",
+      "description": "Navigation à travers le cycle d'événements final dévastateur tandis que les bêtes sous-marines traquent le Manticore.",
+      "badgeText": "Deck III"
+    },
+    {
+      "order": 4,
+      "title": "Le réveil des dieux",
+      "phase": "Phase de Traversée IV - Le retour",
+      "description": "Atteinte du sanctuaire de la montagne sacrée pour réveiller les divinités endormies et ouvrir la brèche vers New York.",
+      "badgeText": "Finale"
+    }
+  ]
 }

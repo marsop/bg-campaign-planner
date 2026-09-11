@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Pandemic Legacy: Season 0",
   "subtitle": "Thriller de espionaje en plena Guerra Fría (1962) y operaciones encubiertas de la CIA",
   "tagline": "ALTO SECRETO // INFORME CLASIFICADO DE LA CIA // 1962",
@@ -29,5 +29,35 @@
       "name": "Capacidad Máxima de la Caja (24 Partidas + 2 Prólogos)",
       "description": "Cada mes jugado dos veces (Temprano + Tardío) más ambos prólogos (26 partidas)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Proyecto MEDUSA al descubierto",
+      "phase": "Fase de Operación I - Recopilación de inteligencia",
+      "description": "Los agentes de la CIA descubren laboratorios bioquímicos soviéticos desarrollando el patógeno armamentístico MEDUSA.",
+      "badgeText": "Marzo"
+    },
+    {
+      "order": 2,
+      "title": "El protocolo del desertor",
+      "phase": "Fase de Operación II - Red de pisos francos",
+      "description": "Extrayendo a personal científico soviético clave a través del Telón de Acero y estableciendo pisos francos permanentes.",
+      "badgeText": "Junio"
+    },
+    {
+      "order": 3,
+      "title": "Contagio durmiente",
+      "phase": "Fase de Operación III - Contención global",
+      "description": "Contrarrestando la infiltración de células durmientes y sofocando incidentes biológicos en capitales aliadas.",
+      "badgeText": "Septiembre"
+    },
+    {
+      "order": 4,
+      "title": "Operación Amanecer Final",
+      "phase": "Fase de Operación IV - El nido central",
+      "description": "Infiltrándose en la fortaleza central soviética para desmantelar definitivamente el aparato de MEDUSA antes de fin de año.",
+      "badgeText": "Diciembre"
+    }
+  ]
 }

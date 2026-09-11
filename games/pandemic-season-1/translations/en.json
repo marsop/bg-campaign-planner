@@ -29,5 +29,35 @@
       "name": "Maximum Box Capacity (24 Games Total)",
       "description": "Every single calendar month played twice (Early + Late) for the longest possible campaign experience (24-26 total games)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "The Faded Mutation",
+      "phase": "Outbreak Phase I - The Incurable Strain",
+      "description": "The COdA-403a pathogen mutates into an incurable strain, creating the terrifying Faded and collapsing city quarantines.",
+      "badgeText": "April"
+    },
+    {
+      "order": 2,
+      "title": "The Elusive Virologist",
+      "phase": "Outbreak Phase II - Search for Patient Zero",
+      "description": "Tracking the lost immunology research across crumbling borders while military roadblocks divide the globe.",
+      "badgeText": "August"
+    },
+    {
+      "order": 3,
+      "title": "The Zodiac Conspiracy",
+      "phase": "Outbreak Phase III - Internal Sabotage",
+      "description": "Uncovering the shadowy military cabal responsible for weaponizing the disease from within the global response network.",
+      "badgeText": "October"
+    },
+    {
+      "order": 4,
+      "title": "Stockpile & Salvation",
+      "phase": "Outbreak Phase IV - The Global Vaccine",
+      "description": "Synthesizing the experimental immunization dose and inoculating surviving metropolitan hubs across the world.",
+      "badgeText": "December"
+    }
+  ]
 }

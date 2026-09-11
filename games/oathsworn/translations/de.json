@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "Oathsworn: Into the Deepwood",
   "subtitle": "Dark Fantasy kooperativer Boss-Battler und Mystery-Kampagne",
   "tagline": "Wage dich in den Deepwood und stelle dich den Schrecken darin",
@@ -21,5 +21,35 @@
       "name": "Erweiterte Kampagne (Alle Begegnungen)",
       "description": "Hauptgeschichte und alle optionalen Boss-Begegnungen."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Jenseits der Stadtbastion",
+      "phase": "Tiefwald-Phase I - Der Waldrand",
+      "description": "Hinter sich Lassen der Schutzbannkreise von Bastone zur Konfrontation mit den Schrecken am Rand des Tiefwalds.",
+      "badgeText": "Kap. 5"
+    },
+    {
+      "order": 2,
+      "title": "Der Hort der Brut-Mutter",
+      "phase": "Tiefwald-Phase II - Die Pilztiefen",
+      "description": "Überleben des klaustrophobischen Labyrinths unter den Bäumen und Entdeckung, wer den Tiefwald nährt.",
+      "badgeText": "Kap. 10"
+    },
+    {
+      "order": 3,
+      "title": "Das Herz der Finsternis",
+      "phase": "Tiefwald-Phase III - Die titanischen Giganten",
+      "description": "Kampf gegen Urzeit-Monster, die den heiligen Hain bewachen, während der Verstand der Truppe schwindet.",
+      "badgeText": "Kap. 16"
+    },
+    {
+      "order": 4,
+      "title": "Das letzte Gefecht um Bastone",
+      "phase": "Tiefwald-Phase IV - Der Höhepunkt des Krieges",
+      "description": "Die entscheidende Belagerung, die darüber entscheidet, ob die letzte Bastion der Menschheit überdauert oder fällt.",
+      "badgeText": "Kap. 21"
+    }
+  ]
 }

@@ -52,5 +52,43 @@
       "estimatedFailRatePercent": 25.0,
       "isRecommended": false
     }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🕯️",
+      "badgeText": "Ch. 4",
+      "title": "The Fading of Cuanacht",
+      "phase": "Avalon Phase I - Extinguished Menhirs",
+      "description": "Escaping the dying homeland as the protective guardian stones collapse into darkness."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🏰",
+      "badgeText": "Ch. 8",
+      "title": "The Ruins of Kamelot",
+      "phase": "Avalon Phase II - Echoes of King Arthur",
+      "description": "Exploring the decaying corridors of the legendary citadel and discovering the betrayal that doomed the Round Table."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 11,
+      "iconEmoji": "💀",
+      "badgeText": "Ch. 11",
+      "title": "The Red Death's Legacy",
+      "phase": "Avalon Phase III - The Wyrdness Frontier",
+      "description": "Traversing the deepest chaotic mists to recover Merlin's forbidden relics from the Far Sanctuary."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "🔥",
+      "badgeText": "Ch. 15",
+      "title": "The Rebirth or Doom of Avalon",
+      "phase": "Avalon Phase IV - The Final Beacon",
+      "description": "Making the ultimate moral sacrifice to either restore the light of the Menhirs or surrender Avalon to the wild powers."
+    }
   ]
 }

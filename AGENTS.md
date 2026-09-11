@@ -54,6 +54,7 @@ bg-campaign-planner/
 ├── App.razor                       # Blazor router and error boundary configuration
 ├── Program.cs                      # WebAssembly host initialization and service DI registration
 ├── bg-campaign-planner.csproj      # .NET 10 project file
+├── version.json                    # Nerdbank.GitVersioning configuration (major.minor version)
 ├── CHANGELOG.md                    # Changelog adhering to Keep a Changelog standard
 ├── README.md                       # User-facing documentation and quick start
 └── AGENTS.md                       # This guide for AI coding assistants
@@ -67,7 +68,7 @@ bg-campaign-planner/
    - In-memory curated catalog of board games, scopes, timings, and milestones.
    - All data is verifiable from public domain sources (BGG, official rulebooks, community surveys).
 2. **State & Input Model (`PlannerInputModel`)**:
-   - Holds user preferences: `FrequencyMode` (Weekly, Bi-weekly, Monthly, Custom), preferred days of week, start date, session count, player count, experience level, setup toggle, and failure buffer toggle.
+   - Holds user preferences: `FrequencyMode` (Weekly, Monthly, Custom), preferred days of week, start date, session count, player count, experience level, setup toggle, and failure buffer toggle.
 3. **Calculation Engine (`PlannerCalculatorService`)**:
    - `Calculate(input, game)` produces an immutable `CalculationResult`.
    - Accounts for player count time scaling ($0.85\times$ to $1.20\times$), experience time and fail rate offsets, vacation buffer weeks, and meetup scheduling steps.
@@ -90,7 +91,7 @@ To add support for a new board game (e.g. *Frosthaven*, *Oathsworn*, or *Pandemi
    - `background.webp`: Themed background illustration/artwork for the application (widescreen ~16:9 WebP format). Every game has this background image. It renders as a fixed, subtle atmospheric backdrop behind the app when the game is selected, styled with theme-aware opacity to ensure content remains visible and readable.
    - `translations/`: Directory with localized strings (`en.json`, `es.json`, `de.json`, `fr.json`, `it.json`). Each translation file provides localized `subtitle`, `tagline`, `loreSummary`, `badgeCategory`, `roadmapTitle`, `roadmapBadge`, `keyFeatures`, and scope names/descriptions.
 3. That's it! The application automatically discovers all games and translations at build time via embedded resources and serves images through `games/{game-id}/cover.webp` and `games/{game-id}/background.webp`. Zero C# code changes or switch statements required.
-   - Note on Zero-Spoilers: Do NOT add future scenario names, boss encounters, secret unlocks, or plot key events. Campaign progression milestones are generated dynamically as spoiler-free progress checkpoints (25%, 50%, 75%, 100%).
+   - Note on Milestones & Spoilers: Campaign milestones can be defined in `game.json` and localized in `translations/*.json` as meaningful story checkpoints (Acts, Chapters, or Months). A user-facing "Show Spoilers" toggle is deactivated by default to mask milestone titles, phases, and descriptions while keeping schedule dates visible. If no milestones are found for a game, the `milestones` array can be omitted entirely, and the roadmap will not be displayed.
 
 ### Modifying Calculation Logic
 - All math and scheduling rules reside in `Services/PlannerCalculatorService.cs`.
@@ -117,3 +118,22 @@ dotnet publish -c Release -o ./publish-test
 - Keep all assets relative or compatible with subpath deployment (`/bg-campaign-planner/`).
 - Do **not** introduce server-side ASP.NET Core controllers or database dependencies; all logic must remain purely client-side WebAssembly.
 - Any new web assets or scripts should be added to `wwwroot/` and referenced in `wwwroot/index.html`.
+
+---
+
+## 🔢 Versioning Strategy (Nerdbank.GitVersioning)
+
+This repository uses [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank.GitVersioning) for semantic project and assembly versioning, driven by `version.json` at the repository root (starting at version `0.2`).
+
+### Versioning Rules:
+- **Minor Version (the second number, e.g. `0.2` → `0.3`)**:
+  - **Every major change in functionality must increase the minor version** in `version.json`.
+  - Examples of changes that require bumping the minor version:
+    - Adding support for a new campaign board game.
+    - Introducing major new features or architectural capabilities.
+    - Significant updates or redesigns to scheduling math, algorithms, or campaign planning workflows.
+- **Major Version (the first number, e.g. `0.x` → `1.0`)**:
+  - The major version **will ONLY be updated specifically when asked by the user**. Do not increment the major version autonomously.
+- **Patch and Revision Numbers (the third and fourth numbers)**:
+  - Automatically calculated and managed by Nerdbank.GitVersioning based on git commit height and git commit IDs. Never manually configure git commit counts or patch numbers in `version.json`.
+
