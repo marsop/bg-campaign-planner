@@ -1,0 +1,70 @@
+@using bg_campaign_planner.Services
+@inject IStringLocalizer<AppResources> Loc
+
+<nav class="wizard-breadcrumb" aria-label="Wizard steps">
+    <div class="wizard-steps-track">
+        @for (int i = 1; i <= 3; i++)
+        {
+            var stepNum = i;
+            var isCompleted = stepNum < CurrentStep;
+            var isActive = stepNum == CurrentStep;
+
+            var stateClass = isCompleted ? "completed" : (isActive ? "active" : "locked");
+            var label = stepNum switch
+            {
+                1 => Loc["Wizard.Step1Short"].Value,
+                2 => Loc["Wizard.Step2Short"].Value,
+                _ => Loc["Wizard.Step3Short"].Value
+            };
+
+            <div class="wizard-step-node @stateClass"
+                 role="@(isCompleted ? "button" : "presentation")"
+                 tabindex="@(isCompleted ? 0 : -1)"
+                 aria-current="@(isActive ? "step" : null)"
+                 @onclick="() => HandleStepClick(stepNum)"
+                 @onkeydown="(e) => HandleStepKeyDown(e, stepNum)">
+
+                <div class="wizard-step-circle">
+                    @if (isCompleted)
+                    {
+                        <i class="bi bi-check-lg"></i>
+                    }
+                    else
+                    {
+                        <span>@stepNum</span>
+                    }
+                </div>
+                <div class="wizard-step-label">@label</div>
+            </div>
+
+            @if (i < 3)
+            {
+                <div class="wizard-connector @(i < CurrentStep ? "completed" : "")"></div>
+            }
+        }
+    </div>
+</nav>
+
+@code {
+    [Parameter, EditorRequired]
+    public int CurrentStep { get; set; }
+
+    [Parameter]
+    public EventCallback<int> OnStepSelected { get; set; }
+
+    private async Task HandleStepClick(int step)
+    {
+        if (step < CurrentStep)
+        {
+            await OnStepSelected.InvokeAsync(step);
+        }
+    }
+
+    private async Task HandleStepKeyDown(KeyboardEventArgs e, int step)
+    {
+        if ((e.Key == "Enter" || e.Key == " ") && step < CurrentStep)
+        {
+            await OnStepSelected.InvokeAsync(step);
+        }
+    }
+}

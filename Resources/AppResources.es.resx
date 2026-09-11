@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:schema id="root">
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -584,6 +584,24 @@
     <value>Fase IV - Finalización de Campaña</value>
   </data>
   <data name="Checkpoint.FinaleDesc" xml:space="preserve">
-    <value>Quedada final para completar todos los {0} escenarios de la campaña.</value>
+    <value>Última sesión para completar los {0} escenarios de la campaña.</value>
+  </data>
+  <data name="Wizard.ConfirmGame" xml:space="preserve">
+    <value>Confirmar Juego →</value>
+  </data>
+  <data name="Wizard.ConfirmSettings" xml:space="preserve">
+    <value>Ver Mi Plan →</value>
+  </data>
+  <data name="Wizard.BackTo" xml:space="preserve">
+    <value>← Volver a {0}</value>
+  </data>
+  <data name="Wizard.Step1Short" xml:space="preserve">
+    <value>Juego</value>
+  </data>
+  <data name="Wizard.Step2Short" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="Wizard.Step3Short" xml:space="preserve">
+    <value>Resultados</value>
   </data>
 </root>

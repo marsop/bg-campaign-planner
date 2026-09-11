@@ -34,57 +34,104 @@
     @if (CurrentGame != null)
     {
         <div class="container main-content-container pb-5">
-            <!-- 1. GAME SELECTION -->
-            <section class="section-block">
-                <div class="section-badge-title mb-3">
-                    <span class="step-badge">@Loc.Get("App.StepBadge", 1)</span> @Loc["App.Step1Title"]
-                </div>
-                <GameSelector Games="@AllGames"
-                              SelectedGameId="@CurrentGame.Id"
-                              OnGameSelected="HandleGameSelected" />
-            </section>
 
-            <!-- 2. THEMATIC GAME HERO & PUBLIC SOURCE DATA -->
-            <section class="section-block">
-                <ThematicGameHero Game="@CurrentGame" />
-            </section>
+            <!-- Wizard Breadcrumb -->
+            <WizardBreadcrumb CurrentStep="@CurrentStep" OnStepSelected="GoToStep" />
 
-            <!-- 3. CONFIGURATION & SCHEDULE FORM -->
-            <section class="section-block">
-                <div class="section-badge-title mb-3">
-                    <span class="step-badge">@Loc.Get("App.StepBadge", 2)</span> @Loc["App.Step2Title"]
-                </div>
-                <PlannerForm Game="@CurrentGame"
-                             Input="@PlannerInput"
-                             OnInputChanged="Recalculate" />
-            </section>
+            <!-- ═══════════════════════════════════════
+                 STEP 1 — CHOOSE YOUR CAMPAIGN GAME
+                 ═══════════════════════════════════════ -->
+            @if (CurrentStep == 1)
+            {
+                <section class="section-block wizard-step-section">
+                    <div class="section-badge-title mb-3">
+                        <span class="step-badge">@Loc.Get("App.StepBadge", 1)</span> @Loc["App.Step1Title"]
+                    </div>
 
-            <!-- 4. RESULTS DASHBOARD (CARDS & PROGRESS) -->
-            <section class="section-block">
-                <div class="section-badge-title mb-3">
-                    <span class="step-badge">@Loc.Get("App.StepBadge", 3)</span> @Loc["App.Step3Title"]
-                </div>
-                @if (CurrentResult != null)
-                {
-                    <CalculationSummaryCards Result="@CurrentResult" />
-                }
-            </section>
+                    <GameSelector Games="@AllGames"
+                                  SelectedGameId="@CurrentGame.Id"
+                                  OnGameSelected="HandleGameSelected" />
 
-            <!-- 5. THEMATIC ROADMAP PROGRESSION -->
-            <section class="section-block">
-                @if (CurrentResult != null)
-                {
-                    <ThematicRoadmap Game="@CurrentGame" Result="@CurrentResult" />
-                }
-            </section>
+                    <!-- Thematic hero shown in Step 1 so you can read about the game before confirming -->
+                    <div class="mt-4">
+                        <ThematicGameHero Game="@CurrentGame" />
+                    </div>
 
-            <!-- 6. CALENDAR TIMELINE & EXPORT -->
-            <section class="section-block">
-                @if (CurrentResult != null)
-                {
-                    <SessionsTimeline Result="@CurrentResult" />
-                }
-            </section>
+                    <!-- Confirm CTA -->
+                    <div class="wizard-action-bar mt-4">
+                        <button class="btn btn-wizard-primary" @onclick="ConfirmGame">
+                            @Loc["Wizard.ConfirmGame"]
+                        </button>
+                    </div>
+                </section>
+            }
+
+            <!-- ═══════════════════════════════════════
+                 STEP 2 — CONFIGURE PLAY HABITS
+                 ═══════════════════════════════════════ -->
+            @if (CurrentStep == 2)
+            {
+                <section class="section-block wizard-step-section">
+                    <!-- Back link -->
+                    <button class="btn wizard-back-link mb-3" @onclick="() => GoToStep(1)">
+                        @Loc.Get("Wizard.BackTo", Loc["Wizard.Step1Short"])
+                    </button>
+
+                    <div class="section-badge-title mb-3">
+                        <span class="step-badge">@Loc.Get("App.StepBadge", 2)</span> @Loc["App.Step2Title"]
+                    </div>
+
+                    <PlannerForm Game="@CurrentGame"
+                                 Input="@PlannerInput"
+                                 OnInputChanged="Recalculate" />
+
+                    <!-- Confirm CTA -->
+                    <div class="wizard-action-bar mt-4">
+                        <button class="btn btn-wizard-primary" @onclick="ConfirmSettings">
+                            @Loc["Wizard.ConfirmSettings"]
+                        </button>
+                    </div>
+                </section>
+            }
+
+            <!-- ═══════════════════════════════════════
+                 STEP 3 — RESULTS & PROJECTION
+                 ═══════════════════════════════════════ -->
+            @if (CurrentStep == 3)
+            {
+                <!-- Back link -->
+                <button class="btn wizard-back-link mb-3" @onclick="() => GoToStep(2)">
+                    @Loc.Get("Wizard.BackTo", Loc["Wizard.Step2Short"])
+                </button>
+
+                <!-- Results Dashboard -->
+                <section class="section-block">
+                    <div class="section-badge-title mb-3">
+                        <span class="step-badge">@Loc.Get("App.StepBadge", 3)</span> @Loc["App.Step3Title"]
+                    </div>
+                    @if (CurrentResult != null)
+                    {
+                        <CalculationSummaryCards Result="@CurrentResult" />
+                    }
+                </section>
+
+                <!-- Thematic Roadmap -->
+                <section class="section-block">
+                    @if (CurrentResult != null)
+                    {
+                        <ThematicRoadmap Game="@CurrentGame" Result="@CurrentResult" />
+                    }
+                </section>
+
+                <!-- Calendar Timeline & Export -->
+                <section class="section-block">
+                    @if (CurrentResult != null)
+                    {
+                        <SessionsTimeline Result="@CurrentResult" />
+                    }
+                </section>
+            }
+
         </div>
     }
     else
@@ -113,6 +160,9 @@
     private BoardGame? CurrentGame;
     private PlannerInputModel PlannerInput = new();
     private CalculationResult? CurrentResult;
+
+    // Wizard state: 1 = Game Selection, 2 = Configuration, 3 = Results
+    private int CurrentStep = 1;
 
     private string ThemeClass => CurrentGame?.Theme.ActiveThemeClass ?? "theme-gloomhaven-active";
     private bool HasBackgroundImage => !string.IsNullOrEmpty(CurrentGame?.BackgroundImageUrl);
@@ -169,6 +219,25 @@
                 }
             }
             Recalculate();
+        }
+    }
+
+    private void ConfirmGame()
+    {
+        CurrentStep = 2;
+    }
+
+    private void ConfirmSettings()
+    {
+        CurrentStep = 3;
+    }
+
+    private void GoToStep(int step)
+    {
+        // Only allow navigating to already-completed steps
+        if (step < CurrentStep)
+        {
+            CurrentStep = step;
         }
     }
 

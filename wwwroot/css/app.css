@@ -293,6 +293,191 @@ body {
 }
 
 /* ==========================================================================
+   3b. WIZARD NAVIGATION
+   ========================================================================== */
+
+/* Breadcrumb stepper bar */
+.wizard-breadcrumb {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.wizard-steps-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    flex-wrap: nowrap;
+    padding: 0.75rem 1rem;
+    background: var(--bg-card-subtle);
+    border: 1px solid var(--border-color-subtle);
+    border-radius: 12px;
+    overflow-x: auto;
+}
+
+/* Individual step node */
+.wizard-step-node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    flex-shrink: 0;
+    min-width: 64px;
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.wizard-step-node.completed {
+    cursor: pointer;
+}
+
+.wizard-step-node.completed:hover {
+    background: var(--badge-bg);
+}
+
+.wizard-step-node.locked {
+    cursor: default;
+    opacity: 0.45;
+}
+
+/* Step circle */
+.wizard-step-circle {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: 2px solid var(--border-color);
+    background: var(--input-bg);
+    color: var(--text-muted);
+    transition: all 0.25s ease;
+    flex-shrink: 0;
+}
+
+.wizard-step-node.active .wizard-step-circle {
+    border-color: var(--accent-gold);
+    background: var(--accent-gold);
+    color: #000;
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-gold) 20%, transparent);
+}
+
+.wizard-step-node.completed .wizard-step-circle {
+    border-color: var(--accent-green);
+    background: var(--accent-green);
+    color: #fff;
+}
+
+/* Step label */
+.wizard-step-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.wizard-step-node.active .wizard-step-label {
+    color: var(--accent-gold-text);
+}
+
+.wizard-step-node.completed .wizard-step-label {
+    color: var(--accent-green);
+}
+
+/* Connector line between steps */
+.wizard-connector {
+    flex: 1;
+    height: 2px;
+    min-width: 24px;
+    max-width: 80px;
+    background: var(--border-color);
+    border-radius: 1px;
+    transition: background 0.3s;
+    align-self: flex-start;
+    margin-top: 17px; /* vertically centre with the circle */
+}
+
+.wizard-connector.completed {
+    background: var(--accent-green);
+}
+
+/* Step section — entrance animation */
+.wizard-step-section {
+    animation: wizardFadeIn 0.25s ease;
+}
+
+@keyframes wizardFadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Action bar (holds the primary CTA button) */
+.wizard-action-bar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Primary CTA button */
+.btn-wizard-primary {
+    background: var(--accent-gold);
+    color: #000;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.65rem 2rem;
+    border: none;
+    border-radius: 8px;
+    letter-spacing: 0.02em;
+    transition: all 0.2s ease;
+    min-width: 200px;
+}
+
+.btn-wizard-primary:hover {
+    filter: brightness(1.08);
+    box-shadow: 0 4px 16px color-mix(in srgb, var(--accent-gold) 35%, transparent);
+    transform: translateY(-1px);
+}
+
+.btn-wizard-primary:active {
+    transform: translateY(0);
+    filter: brightness(0.96);
+}
+
+@media (max-width: 576px) {
+    .btn-wizard-primary {
+        width: 100%;
+    }
+    .wizard-action-bar {
+        justify-content: stretch;
+    }
+}
+
+/* Back link / button */
+.wizard-back-link {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    transition: color 0.18s;
+}
+
+.wizard-back-link:hover {
+    color: var(--text-muted-light);
+    text-decoration: underline;
+    background: none;
+}
+
+/* ==========================================================================
    4. GAME SELECTION CARDS
    ========================================================================== */
 
