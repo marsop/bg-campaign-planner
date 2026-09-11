@@ -171,11 +171,18 @@
                 return navigator.language || navigator.userLanguage || '';
             },
             scrollToTop: function () {
-                var el = document.querySelector('.wizard-step-indicator');
+                var el = document.querySelector('.wizard-breadcrumb');
                 if (el) {
                     el.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 } else {
                     window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            },
+            scrollToElement: function (elementId) {
+                var el = document.getElementById(elementId);
+                if (el) {
+                    var top = el.getBoundingClientRect().top + window.scrollY - 100;
+                    window.scrollTo({ top: top, behavior: 'smooth' });
                 }
             }
         };

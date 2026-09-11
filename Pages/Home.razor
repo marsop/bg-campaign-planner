@@ -6,6 +6,7 @@
 @inject PlannerCalculatorService CalculatorService
 @inject IStringLocalizer<AppResources> Loc
 @inject ILocalizationService LocService
+@inject IJSRuntime JS
 @implements IDisposable
 
 <PageTitle>@Loc.Get("App.BrowserTitle", CurrentGame?.Title ?? Loc["App.Title"])</PageTitle>
@@ -220,24 +221,29 @@
             }
             Recalculate();
         }
+        // Always scroll the selected card into view, even if it was already selected
+        _ = JS.InvokeVoidAsync("campaignPlanner.scrollToElement", $"game-card-{gameId}");
     }
 
-    private void ConfirmGame()
+    private async Task ConfirmGame()
     {
         CurrentStep = 2;
+        await JS.InvokeVoidAsync("campaignPlanner.scrollToTop");
     }
 
-    private void ConfirmSettings()
+    private async Task ConfirmSettings()
     {
         CurrentStep = 3;
+        await JS.InvokeVoidAsync("campaignPlanner.scrollToTop");
     }
 
-    private void GoToStep(int step)
+    private async Task GoToStep(int step)
     {
         // Only allow navigating to already-completed steps
         if (step < CurrentStep)
         {
             CurrentStep = step;
+            await JS.InvokeVoidAsync("campaignPlanner.scrollToTop");
         }
     }
 

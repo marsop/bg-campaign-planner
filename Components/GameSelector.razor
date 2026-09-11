@@ -8,7 +8,7 @@
         {
             var isSelected = SelectedGameId == game.Id;
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" id="game-card-@game.Id">
                 <div class="game-selection-card @(isSelected ? "selected" : "") @game.Theme.ThemeClass"
                      @onclick="() => OnGameSelected.InvokeAsync(game.Id)"
                      role="button"
