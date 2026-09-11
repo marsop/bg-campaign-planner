@@ -1,0 +1,29 @@
+{
+  "id": "pandemic-season-2",
+  "unitType": "games_months",
+  "baseScenarioCount": 12,
+  "estimatedFailRatePercent": 0.5,
+  "bggId": 221107,
+  "minPlayers": 2,
+  "maxPlayers": 4,
+  "bggRating": 8.1,
+  "bggWeight": 3.25,
+  "averageSessionMinutes": 60,
+  "setupMinutes": 10,
+  "teardownMinutes": 10,
+  "themeClass": "theme-pandemic2",
+  "activeThemeClass": "theme-pandemic2-active",
+  "roadmapClass": "roadmap-pandemic2",
+  "heroClass": "hero-pandemic2",
+  "backgroundImage": "bg.webp",
+  "scopes": [
+    {
+      "id": "standard",
+      "isRecommended": true
+    },
+    {
+      "id": "perfect",
+      "isRecommended": false
+    }
+  ]
+}
