@@ -125,11 +125,32 @@ See the full annotated reference: [game-json-reference.md](./references/game-jso
   Ideally a landscape/scene from the game's universe.
 - **Aspect ratio**: **~16:9 widescreen**.
 - **Format**: WebP.
-- **Recommended size**: 1920x1080 px (at least 1280x720 px).
+- **Recommended size**: 1920×1080 px (at least 1280×720 px).
 - **Usage**: Rendered as a fixed, subtle atmospheric backdrop behind the app
   when this game is selected. CSS applies theme-aware opacity — the image
   does NOT need to be pre-darkened.
 - Every game **must** have a `background.webp`. Do not omit it.
+
+#### Default fallback background
+
+A pre-converted generic campaign background is stored in this skill folder:
+[default-background.webp](./default-background.webp)
+
+**Use it when:**
+- No game-specific atmospheric artwork can be found from public-domain or
+  press-kit sources.
+- The available art is not suitable (wrong aspect ratio, too busy, low
+  resolution, unclear licence).
+
+**How to use it:**
+
+```powershell
+Copy-Item ".agents\skills\add-game\default-background.webp" `
+          "games\{game-id}\background.webp"
+```
+
+Note this in a comment when creating the game, so it is easy to replace
+later with game-specific artwork if it becomes available.
 
 Place both files directly inside `games/{game-id}/`.
 
