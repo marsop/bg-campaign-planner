@@ -1,0 +1,21 @@
+{
+  "title": "Pandemic Legacy: Season 1",
+  "subtitle": "Una campagna cooperativa di controllo delle malattie e sopravvivenza",
+  "tagline": "Ogni mese porta nuove sfide e cambiamenti permanenti",
+  "loreSummary": "Siete un team di esperti in controllo delle malattie che collaborano per tenere a bada quattro malattie mortali per un anno intero. Ogni decisione che prendete e ogni città che cade plasmeranno permanentemente il vostro mondo.",
+  "badgeCategory": "Cooperativo Legacy",
+  "roadmapTitle": "🗺️ Progressione della Campagna",
+  "roadmapBadge": "ROADMAP LEGACY",
+  "keyFeatures": [
+    "Meccaniche cooperative di controllo delle malattie",
+    "Cambiamenti permanenti nel mondo con adesivi e carte distrutte",
+    "Regole e obiettivi in evoluzione ogni mese",
+    "Progressione del personaggio e cicatrici permanenti"
+  ],
+  "scopes": {
+    "pandemic1_standard": {
+      "name": "Campagna Standard",
+      "description": "Un anno intero di gioco, supponendo che alcuni mesi vengano persi e rigiocati."
+    }
+  }
+}
