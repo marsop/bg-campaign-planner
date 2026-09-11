@@ -14,11 +14,11 @@
   "scopes": {
     "standard": {
       "name": "Standard (Some Failures)",
-      "description": "Standard standard"
+      "description": "A standard campaign with some lost and replayed months."
     },
     "perfect": {
       "name": "Perfect (No Failures)",
-      "description": "Perfect perfect"
+      "description": "A perfect campaign with no lost months."
     }
   }
 }
