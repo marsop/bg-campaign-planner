@@ -82,6 +82,9 @@
   <data name="App.Title" xml:space="preserve">
     <value>Pianificatore di Campagne per Giochi da Tavolo</value>
   </data>
+  <data name="App.Version" xml:space="preserve">
+    <value>Versione</value>
+  </data>
   <data name="Form.DateNextMonth" xml:space="preserve">
     <value>1° del Prossimo Mese</value>
   </data>

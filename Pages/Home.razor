@@ -19,12 +19,24 @@
     <!-- Top Header -->
     <header class="app-hero-header py-3 py-md-4">
         <div class="container">
-            <div class="d-flex flex-wrap justify-content-end align-items-center gap-2 mb-3">
-                <LanguageSelector />
-                <ThemeToggle />
+            <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+                <AppVersionBadge @ref="versionBadgeRef" />
+                <div class="d-flex align-items-center gap-2">
+                    <LanguageSelector />
+                    <ThemeToggle />
+                </div>
             </div>
             <div class="text-center">
-                <h1 class="display-5 fw-bold brand-title">@Loc["App.Subtitle"]</h1>
+                <div class="d-inline-flex align-items-center justify-content-center gap-2 flex-wrap mb-2">
+                    <h1 class="display-5 fw-bold brand-title mb-0">@Loc["App.Subtitle"]</h1>
+                    <button type="button" 
+                            class="btn app-hero-version-pill" 
+                            @onclick="() => versionBadgeRef?.OpenModal()" 
+                            title="@Loc["App.Version"] @AppVersion.InformationalVersion"
+                            aria-label="@Loc["App.Version"] @AppVersion.DisplayVersion">
+                        v@AppVersion.DisplayVersion
+                    </button>
+                </div>
                 <p class="lead text-muted-light mx-auto" style="max-width: 720px;">
                     @Loc["App.HeroLead"]
                 </p>
@@ -153,8 +165,17 @@
 
     <footer class="app-footer py-4 text-center border-top">
         <div class="container">
-            <div class="small text-muted mb-1">
-                Board Game Campaign Planner &bull; Made with ❤️ by <a href="https://albertogregorio.com" target="_blank" rel="noopener noreferrer">Alberto Gregorio</a>
+            <div class="small text-muted mb-1 d-flex flex-wrap align-items-center justify-content-center gap-1">
+                <span>Board Game Campaign Planner</span>
+                <span>&bull;</span>
+                <button type="button" 
+                        class="btn btn-link p-0 small text-decoration-none text-muted fw-semibold" 
+                        @onclick="() => versionBadgeRef?.OpenModal()"
+                        title="@Loc["App.Version"]: @AppVersion.InformationalVersion">
+                    v@AppVersion.DisplayVersion@(!string.IsNullOrEmpty(AppVersion.CommitShortHash) ? $" ({AppVersion.CommitShortHash})" : "")
+                </button>
+                <span>&bull;</span>
+                <span>Made with ❤️ by <a href="https://albertogregorio.com" target="_blank" rel="noopener noreferrer">Alberto Gregorio</a></span>
             </div>
             <div class="small text-muted-light">
                 @Loc["App.FooterSources"]
@@ -164,6 +185,7 @@
 </div>
 
 @code {
+    private AppVersionBadge? versionBadgeRef;
     private IReadOnlyList<BoardGame> AllGames = new List<BoardGame>();
     private BoardGame? CurrentGame;
     private PlannerInputModel PlannerInput = new();

@@ -8,9 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Application Version UI Display**:
+  - Added build-time version integration powered by `Nerdbank.GitVersioning` (`AppVersion.cs`).
+  - Added interactive top-bar version pill (`AppVersionBadge.razor`) displaying the active semantic version (`vX.Y.Z`) and Git commit short hash with a live indicator dot.
+  - Added a prominent hero version badge displayed directly alongside the main brand heading in `Home.razor`.
+  - Added an interactive "About & Version Information" modal displaying full build metadata, runtime environment (.NET 10 Blazor WebAssembly), Git commit hash, build date, and links to the GitHub repository and releases.
+  - Added application version information to the page footer with direct link to the specific Git commit on GitHub.
+  - Added full multilingual translations for version strings across all 5 supported languages (EN, ES, DE, FR, IT).
+- **New Campaign Board Games**:
+  - **Pandemic Legacy: Season 1**: Complete campaign support, scopes (Standard Campaign, Story-Only), thematic styling, and localized translations across English, Spanish, German, French, and Italian.
+  - **Pandemic Legacy: Season 2**: Complete campaign support, scopes (Full Campaign, Prologue & Core), thematic styling, and localized translations across English, Spanish, German, French, and Italian.
+  - **Frosthaven**, **Sleeping Gods**, **Oathsworn: Into the Deepwood**, and **Tainted Grail: The Fall of Avalon**: Fully localized campaign catalog integrations with dedicated themes, cover/background art, and scope configurations.
 - **Dynamic Thematic Game Backgrounds**:
   - Added support for game-specific atmospheric background illustrations displayed behind the application when a game is selected.
-  - Provided widescreen WebP background artwork for all six games: *Gloomhaven*, *Frosthaven*, *Pandemic Legacy: Season 0*, *Sleeping Gods*, *Oathsworn: Into the Deepwood*, and *Tainted Grail: The Fall of Avalon*.
+  - Provided widescreen WebP background artwork for all eight games in the catalog.
   - Implemented `.app-game-backdrop` with fixed positioning, theme-aware opacity (`0.20` in dark mode, `0.12` in light mode), subtle radial vignette fading, and smooth fade transitions when switching games.
   - Preserved complete UI usability and readability by layering cards and interactive components above the background backdrop.
   - Documented the `background.webp` convention in `AGENTS.md` for all future board games.
@@ -25,6 +36,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Checkpoints are dynamically generated based on the selected scope's actual scenario count and failure buffer.
   - Added full multilingual checkpoint localizations across English, Spanish, German, French, and Italian `.resx` files.
   - Updated timeline and `.ics` calendar exports to tag checkpoints cleanly without story spoilers.
+- **Autonomous Game Discovery Skill (`find-game-candidates`)**:
+  - Added agent skill to research BGG and community sources to identify, rank, and backlog new long-form campaign games.
+
+### Changed
+- **Full Localization Coverage & Zero Hardcoded Text Policy**:
+  - Replaced all remaining hardcoded strings with resource keys across Razor components:
+    - `Home.razor`: Dynamic page title (`App.BrowserTitle`), logo alt text (`App.LogoAlt`), step badges (`App.StepBadge`).
+    - `CalculationSummaryCards.razor`: Progress bar milestone phases (`Kpi.Phase`, `Kpi.PhaseFinale`).
+    - `GameSelector.razor`: BoardGameGeek tooltips (`GameSelector.ViewOnBgg`, `GameSelector.BggRatingTooltip`).
+    - `ThematicGameHero.razor`: BoardGameGeek links and buttons (`Hero.OpenOnBgg`, `Hero.ViewOnBgg`).
+    - `ThemeToggle.razor`: Complete theme mode localization (`Theme.Light`, `Theme.Dark`, `Theme.Auto` and ARIA attributes).
+    - `SessionsTimeline.razor`: Culture-aware meeting time ranges (24h/12h formatting), unit formatting, and clipboard summary generator.
+    - `NotFound.razor`: Localized 404 error page and return navigation button.
+    - Standardized localizer injection and translation coverage across all routes.
+  - Added localized Sleeping Gods catalog data to Spanish, German, French, and Italian dictionaries in `CampaignDataService`.
+  - Added optional `IStringLocalizer<AppResources>` parameter to `GenerateIcsFile(...)` in `PlannerCalculatorService` for localized calendar exports.
+  - Synchronized 41 new keys across all 6 `.resx` resource files (`AppResources.resx`, `.en`, `.es`, `.de`, `.fr`, `.it`).
+- **Updated Hero Explanation Text Across All Languages**:
+  - Generalized `App.HeroLead` to showcase the broader catalog of available board games instead of restricting only to Gloomhaven and Pandemic Legacy: Season 0.
+  - Updated translations in English, Spanish, German, French, and Italian `.resx` files and streamlined rendering in `Home.razor`.
+- **Migrated Localization to Standard Blazor (.resx) Architecture**:
+  - Replaced custom in-memory dictionary (`TranslationDictionary.cs`) with standard XML `.resx` resource files (`AppResources.resx`, `AppResources.en.resx`, `AppResources.es.resx`, `AppResources.de.resx`, `AppResources.fr.resx`, `AppResources.it.resx`).
+  - Integrated `Microsoft.Extensions.Localization` and `IStringLocalizer<AppResources>` across all Razor components.
+  - Enabled `<BlazorWebAssemblyLoadAllGlobalizationData>` for full client-side ICU globalization and satellite assembly resolution.
+  - Added `StringLocalizerExtensions.Get(...)` helper for ergonomic and backwards-compatible parameterized string formatting.
+  - Standardized culture management and date/time formatting using native `System.Globalization.CultureInfo`.
 
 ### Removed
 - **Bi-Weekly Frequency Interval**:
@@ -43,20 +80,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Narrative Story Spoilers in Game Catalogs**:
   - Removed over 750 lines of hardcoded scenario names and narrative event descriptions across all 6 games in `CampaignDataService` in all 5 languages.
 
-- **Full Localization Coverage & Zero Hardcoded Text Policy**:
-  - Replaced all remaining hardcoded strings with resource keys across Razor components:
-    - `Home.razor`: Dynamic page title (`App.BrowserTitle`), logo alt text (`App.LogoAlt`), step badges (`App.StepBadge`).
-    - `CalculationSummaryCards.razor`: Progress bar milestone phases (`Kpi.Phase`, `Kpi.PhaseFinale`).
-    - `GameSelector.razor`: BoardGameGeek tooltips (`GameSelector.ViewOnBgg`, `GameSelector.BggRatingTooltip`).
-    - `ThematicGameHero.razor`: BoardGameGeek links and buttons (`Hero.OpenOnBgg`, `Hero.ViewOnBgg`).
-    - `ThemeToggle.razor`: Complete theme mode localization (`Theme.Light`, `Theme.Dark`, `Theme.Auto` and ARIA attributes).
-    - `SessionsTimeline.razor`: Culture-aware meeting time ranges (24h/12h formatting), unit formatting, and clipboard summary generator.
-    - `NotFound.razor`: Localized 404 error page and return navigation button.
-    - `Counter.razor`, `Weather.razor`, and `NavMenu.razor`: Standardized localizer injection and translation coverage across all routes.
-  - Added localized Sleeping Gods catalog data to Spanish, German, French, and Italian dictionaries in `CampaignDataService`.
-  - Added optional `IStringLocalizer<AppResources>` parameter to `GenerateIcsFile(...)` in `PlannerCalculatorService` for localized calendar exports.
-  - Synchronized 41 new keys across all 6 `.resx` resource files (`AppResources.resx`, `.en`, `.es`, `.de`, `.fr`, `.it`).
-
 ### Fixed
 - **NullReferenceException on Startup in `Home.razor`**:
   - Made `ThemeClass` null-safe using null-conditional access (`CurrentGame?.Id switch`) with default fallback.
@@ -65,16 +88,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Added robust culture prefix resolution and fallback guarantees in `CampaignDataService.GetGame(...)` and `GetDictionaryForLang(...)`.
 - **Clipboard Summary Formatting**:
   - Fixed summary text generation in `SessionsTimeline.razor` to correctly invoke parameterized `Kpi.DurationSubtext` with calendar month and week values.
-
-- **Updated Hero Explanation Text Across All Languages**:
-  - Generalized `App.HeroLead` to showcase the broader catalog of available board games instead of restricting only to Gloomhaven and Pandemic Legacy: Season 0.
-  - Updated translations in English, Spanish, German, French, and Italian `.resx` files and streamlined rendering in `Home.razor`.
-- **Migrated Localization to Standard Blazor (.resx) Architecture**:
-  - Replaced custom in-memory dictionary (`TranslationDictionary.cs`) with standard XML `.resx` resource files (`AppResources.resx`, `AppResources.en.resx`, `AppResources.es.resx`, `AppResources.de.resx`, `AppResources.fr.resx`, `AppResources.it.resx`).
-  - Integrated `Microsoft.Extensions.Localization` and `IStringLocalizer<AppResources>` across all Razor components.
-  - Enabled `<BlazorWebAssemblyLoadAllGlobalizationData>` for full client-side ICU globalization and satellite assembly resolution.
-  - Added `StringLocalizerExtensions.Get(...)` helper for ergonomic and backwards-compatible parameterized string formatting.
-  - Standardized culture management and date/time formatting using native `System.Globalization.CultureInfo`.
 
 ## [0.3.0] - 2026-08-28
 

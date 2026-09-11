@@ -1,0 +1,115 @@
+@using bg_campaign_planner.Services
+@inject IStringLocalizer<AppResources> Loc
+
+<div class="app-version-badge-container">
+    <button type="button"
+            class="btn app-version-chip"
+            @onclick="OpenModal"
+            title="@Loc["App.Version"]: @AppVersion.InformationalVersion"
+            aria-label="@Loc["App.Version"] @AppVersion.DisplayVersion">
+        <span class="app-version-indicator-dot" aria-hidden="true"></span>
+        <i class="bi bi-tag-fill me-1 text-warning"></i>
+        <span class="version-label">v@AppVersion.DisplayVersion</span>
+        @if (!string.IsNullOrEmpty(AppVersion.CommitShortHash))
+        {
+            <span class="version-hash-tag">@AppVersion.CommitShortHash</span>
+        }
+    </button>
+</div>
+
+@if (isModalOpen)
+{
+    <div class="modal-backdrop fade show" @onclick="CloseModal"></div>
+    <div class="modal fade show d-block" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="appVersionModalTitle" @onclick="CloseModal">
+        <div class="modal-dialog modal-dialog-centered" @onclick:stopPropagation>
+            <div class="modal-content app-version-modal-content shadow-lg border-0">
+                <div class="modal-header border-bottom border-secondary border-opacity-25 pb-3">
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="fs-4">🎲</span>
+                        <div>
+                            <h5 class="modal-title fw-bold mb-0" id="appVersionModalTitle">
+                                @Loc["App.Title"]
+                            </h5>
+                            <span class="badge bg-warning text-dark fw-semibold mt-1">
+                                v@AppVersion.DisplayVersion
+                            </span>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-close btn-close-white" @onclick="CloseModal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body py-4">
+                    <div class="version-meta-list d-flex flex-column gap-3">
+                        <div class="version-meta-item d-flex justify-content-between align-items-center py-2 border-bottom border-secondary border-opacity-10">
+                            <span class="text-muted"><i class="bi bi-tag me-2"></i>@Loc["App.Version"]</span>
+                            <span class="fw-semibold">@AppVersion.DisplayVersion</span>
+                        </div>
+
+                        <div class="version-meta-item d-flex justify-content-between align-items-center py-2 border-bottom border-secondary border-opacity-10">
+                            <span class="text-muted"><i class="bi bi-info-circle me-2"></i>SemVer / Build</span>
+                            <code class="small text-warning bg-dark px-2 py-1 rounded">@AppVersion.InformationalVersion</code>
+                        </div>
+
+                        @if (!string.IsNullOrEmpty(AppVersion.GitCommitId))
+                        {
+                            <div class="version-meta-item d-flex justify-content-between align-items-center py-2 border-bottom border-secondary border-opacity-10">
+                                <span class="text-muted"><i class="bi bi-git me-2"></i>Git Commit</span>
+                                <a href="@AppVersion.CommitUrl" target="_blank" rel="noopener noreferrer" class="small text-info text-decoration-none font-monospace">
+                                    @AppVersion.CommitShortHash <i class="bi bi-box-arrow-up-right ms-1 small"></i>
+                                </a>
+                            </div>
+                        }
+
+                        @if (AppVersion.CommitDate.HasValue)
+                        {
+                            <div class="version-meta-item d-flex justify-content-between align-items-center py-2 border-bottom border-secondary border-opacity-10">
+                                <span class="text-muted"><i class="bi bi-calendar3 me-2"></i>Build Date</span>
+                                <span class="small text-muted-light">@AppVersion.CommitDate.Value.ToString("yyyy-MM-dd HH:mm UTC")</span>
+                            </div>
+                        }
+
+                        <div class="version-meta-item d-flex justify-content-between align-items-center py-2 border-bottom border-secondary border-opacity-10">
+                            <span class="text-muted"><i class="bi bi-cpu me-2"></i>Runtime</span>
+                            <span class="badge bg-secondary">Blazor WebAssembly .NET 10</span>
+                        </div>
+
+                        <div class="version-meta-item d-flex justify-content-between align-items-center py-2">
+                            <span class="text-muted"><i class="bi bi-shield-check me-2"></i>License</span>
+                            <span class="badge bg-dark border border-secondary border-opacity-25 text-light">MIT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer border-top border-secondary border-opacity-25 d-flex justify-content-between">
+                    <div class="d-flex gap-2">
+                        <a href="@AppVersion.RepositoryUrl" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1">
+                            <i class="bi bi-github"></i>
+                            <span class="d-none d-sm-inline">GitHub</span>
+                        </a>
+                        <a href="@AppVersion.ReleasesUrl" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-warning d-inline-flex align-items-center gap-1">
+                            <i class="bi bi-journal-text"></i>
+                            <span class="d-none d-sm-inline">Releases</span>
+                        </a>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-secondary" @onclick="CloseModal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private bool isModalOpen = false;
+
+    public void OpenModal()
+    {
+        isModalOpen = true;
+        StateHasChanged();
+    }
+
+    public void CloseModal()
+    {
+        isModalOpen = false;
+        StateHasChanged();
+    }
+}

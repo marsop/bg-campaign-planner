@@ -132,8 +132,33 @@ This repository uses [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank
     - Adding support for a new campaign board game.
     - Introducing major new features or architectural capabilities.
     - Significant updates or redesigns to scheduling math, algorithms, or campaign planning workflows.
+  - **Update CHANGELOG.md**: Whenever a new minor version is created, `CHANGELOG.md` **MUST** be updated to reflect this change, using version numbers that match `version.json`.
 - **Major Version (the first number, e.g. `0.x` → `1.0`)**:
   - The major version **will ONLY be updated specifically when asked by the user**. Do not increment the major version autonomously.
+  - Whenever updated, `CHANGELOG.md` must be updated to match.
 - **Patch and Revision Numbers (the third and fourth numbers)**:
   - Automatically calculated and managed by Nerdbank.GitVersioning based on git commit height and git commit IDs. Never manually configure git commit counts or patch numbers in `version.json`.
+
+---
+
+## 📝 Changelog Management (`CHANGELOG.md`)
+
+This repository maintains [`CHANGELOG.md`](CHANGELOG.md) adhering to the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format and Semantic Versioning.
+
+### Changelog Maintenance Rules:
+- **Version Alignment**:
+  - Version numbers in `CHANGELOG.md` **must directly match those of Nerdbank.GitVersioning** (e.g., `## [0.3.0]`, `## [0.4.0]`, matching the major.minor version defined in `version.json`).
+- **When to Update**:
+  - **On every minor version increment**: Whenever a new minor version is bumped in `version.json` (such as when adding a new campaign game or a major feature), you must update `CHANGELOG.md` in the same change/commit.
+  - Promote items from `## [Unreleased]` into a new version header (e.g. `## [0.4.0] - YYYY-MM-DD`), and ensure a fresh `## [Unreleased]` section exists at the top for future work.
+  - You may also add items directly to `## [Unreleased]` during incremental development before a version bump.
+- **Categorization**:
+  - Group changes under standard Keep a Changelog categories:
+    - `Added` for new features, new games, or capabilities.
+    - `Changed` for changes in existing functionality.
+    - `Deprecated` for soon-to-be removed features.
+    - `Removed` for features or code removed.
+    - `Fixed` for bug fixes.
+    - `Security` for vulnerability fixes.
+
 

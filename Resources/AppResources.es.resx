@@ -82,6 +82,9 @@
   <data name="App.Title" xml:space="preserve">
     <value>Planificador de Campañas de Juegos de Mesa</value>
   </data>
+  <data name="App.Version" xml:space="preserve">
+    <value>Versión</value>
+  </data>
   <data name="Form.DateNextMonth" xml:space="preserve">
     <value>1º del Próximo Mes</value>
   </data>

@@ -214,6 +214,7 @@ should be investigated.
 - [ ] dotnet publish -c Release -o ./publish-test passes with exit code 0
 - [ ] Game appears in the game selector when running dotnet watch
 - [ ] Increment minor version in version.json (e.g. 0.2 -> 0.3) as per AGENTS.md versioning rules
+- [ ] Update CHANGELOG.md to record the newly added game under the new version matching version.json
 - [ ] Backlog updated — game removed from game-backlog.md (Step 8)
 
 ---
