@@ -1,0 +1,59 @@
+{
+  "title": "Kingdom Death: Monster",
+  "subtitle": "Una straziante campagna horror da incubo tra sopravvivenza ed evoluzione della civiltà",
+  "tagline": "Nell'oscurità sotto il cumulo di lanterne, la sopravvivenza è fugace",
+  "loreSummary": "Ti risvegli senza memoria su una distesa sterile di volti scolpiti nella pietra. Aggrappandoti al debole bagliore di lanterne disperse, dovrai cacciare prede mostruose, forgiare equipaggiamento dai loro resti ed erigere un fragile insediamento per preservare l'umanità.",
+  "badgeCategory": "Boss Battler Horror da Incubo",
+  "roadmapTitle": "🏮 Cronaca dell'Insediamento e Anni Lanterna",
+  "roadmapBadge": "ROADMAP LANTERNA",
+  "keyFeatures": [
+    "Ciclo a tre fasi: Caccia, Scontro e Gestione dell'insediamento",
+    "Sviluppo dinamico dell'insediamento con innovazioni, forgia e principi guida",
+    "Tabelle spietate di locazione dei colpi e ferite gravi con conseguenze permanenti",
+    "Narrazione emergente guidata dalla genetica della popolazione e dalla discendenza dei sopravvissuti"
+  ],
+  "scopes": {
+    "kdm_standard": {
+      "name": "Popolo della Lanterna (Campagna Principale)",
+      "description": "L'arco completo di 30 Anni Lanterna che culmina nel confronto supremo contro il Cavaliere del Fumo Dorato."
+    },
+    "kdm_watcher": {
+      "name": "Il Verdetto del Guardiano (Arco Classico)",
+      "description": "Una campagna mirata di 20 Anni Lanterna che segue la narrazione classica fino allo scontro con il Guardiano."
+    },
+    "kdm_extended": {
+      "name": "Cronaca Estesa dell'Insediamento",
+      "description": "Un'esaustiva saga di 35 Anni Lanterna che integra cacce a prede leggendarie, nemesi di massimo livello e innovazioni avanzate."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "AL 5",
+      "title": "La Prima Nemesi",
+      "phase": "Fase di Insediamento I - La Luce Fragile",
+      "description": "Sopravvivere alle prime battute di caccia e fronteggiare lo spietato macellaio che terrorizza il perimetro dell'insediamento."
+    },
+    {
+      "order": 2,
+      "badgeText": "AL 12",
+      "title": "Il Decreto del Re",
+      "phase": "Fase di Insediamento II - Ombre di Civiltà",
+      "description": "Stabilire innovazioni specializzate e affrontare l'enigmatico emissario corazzato giunto a saggiare la determinazione umana."
+    },
+    {
+      "order": 3,
+      "badgeText": "AL 20",
+      "title": "L'Adunata del Guardiano",
+      "phase": "Fase di Insediamento III - L'Occhio Incombente",
+      "description": "Superare gli orrori delle prede alfa e sfidare l'antica entità celestiale sospesa sul cumulo di lanterne."
+    },
+    {
+      "order": 4,
+      "badgeText": "AL 30",
+      "title": "L'Orizzonte Fumante",
+      "phase": "Fase di Insediamento IV - Il Crogiolo Finale",
+      "description": "Lo scontro decisivo contro il titano primordiale per determinare se l'insediamento umano lascerà un'eredità eterna nell'oscurità."
+    }
+  ]
+}

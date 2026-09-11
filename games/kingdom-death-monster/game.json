@@ -1,0 +1,94 @@
+{
+  "id": "kingdom-death-monster",
+  "title": "Kingdom Death: Monster",
+  "releaseYear": 2015,
+  "designers": "Adam Poots",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.7,
+  "bggWeight": 4.25,
+  "bggUrl": "https://boardgamegeek.com/boardgame/55690/kingdom-death-monster",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 25,
+  "unitType": "lantern_years",
+  "theme": {
+    "primaryColor": "#d4af37",
+    "secondaryColor": "#110e0c",
+    "accentColor": "#b83a3a",
+    "backgroundGradient": "radial-gradient(ellipse at top, #231c16 0%, #110e0c 60%, #080706 100%)",
+    "cardBackground": "rgba(18, 15, 13, 0.92)",
+    "borderColor": "rgba(212, 175, 55, 0.35)",
+    "glowColor": "rgba(212, 175, 55, 0.25)",
+    "headerFont": "'Cormorant SC', 'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏮",
+    "emblem": "🏮💀",
+    "themeClass": "theme-kingdomdeath",
+    "activeThemeClass": "theme-kingdomdeath-active",
+    "roadmapClass": "roadmap-kingdomdeath",
+    "heroClass": "hero-kingdomdeath"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #55690 - Top 100 Overall & Thematic)",
+    "Kingdom Death: Monster 1.5/1.6 Rulebook & Settlement Timeline",
+    "Community Campaign Playthrough Surveys & Survival Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "kdm_standard",
+      "baseScenarioCount": 30,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "kdm_watcher",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    },
+    {
+      "id": "kdm_extended",
+      "baseScenarioCount": 35,
+      "estimatedFailRatePercent": 30.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🏮",
+      "badgeText": "LY 5",
+      "title": "The First Nemesis",
+      "phase": "Settlement Phase I - The Fragile Light",
+      "description": "Surviving the early quarry hunts and confronting the relentless butcher terrorizing the settlement perimeter."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "👑",
+      "badgeText": "LY 12",
+      "title": "The King's Decree",
+      "phase": "Settlement Phase II - Shadows of Civilization",
+      "description": "Establishing specialized innovations and facing the enigmatic armored envoy testing human resolve."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 20,
+      "iconEmoji": "👁️",
+      "badgeText": "LY 20",
+      "title": "The Gathering of the Watcher",
+      "phase": "Settlement Phase III - The Looming Eye",
+      "description": "Surmounting apex quarry horrors and confronting the ancient celestial entity suspended above the lantern hoard."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 30,
+      "iconEmoji": "🔥",
+      "badgeText": "LY 30",
+      "title": "The Smoldering Horizon",
+      "phase": "Settlement Phase IV - The Final Crucible",
+      "description": "The climactic confrontation against the ultimate titan determining humanity's legacy in the eternal darkness."
+    }
+  ]
+}

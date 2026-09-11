@@ -1,0 +1,59 @@
+{
+  "title": "Kingdom Death: Monster",
+  "subtitle": "Une campagne poignante d'horreur cauchemardesque mêlant survie et bâtisse de civilisation",
+  "tagline": "Dans les ténèbres sous l'amas de lanternes, la survie n'est qu'éphémère",
+  "loreSummary": "Vous vous éveillez sans aucun souvenir sur une plaine stérile de visages sculptés dans la pierre. Vous accrochant à la faible lueur de lanternes éparses, vous devez chasser des proies monstrueuses, fabriquer des équipements à partir de leurs dépouilles et bâtir une colonie fragile pour préserver l'humanité.",
+  "badgeCategory": "Boss Battler d'Horreur Cauchemardesque",
+  "roadmapTitle": "🏮 Chronique de la Colonie et Années Lanterne",
+  "roadmapBadge": "FEUILLE DE ROUTE LANTERNE",
+  "keyFeatures": [
+    "Cycle à trois phases : Traque, Affrontement et Gestion de la colonie",
+    "Développement dynamique de la colonie par innovations, artisanat et principes",
+    "Tables de localisation des touches et blessures graves impitoyables aux conséquences permanentes",
+    "Narration émergente forgée par la génétique de la population et la lignée des survivants"
+  ],
+  "scopes": {
+    "kdm_standard": {
+      "name": "Le Peuple de la Lanterne (Campagne Principale)",
+      "description": "L'arc narratif complet de 30 Années Lanterne culminant dans l'ultime confrontation contre le Chevalier de Fumée Dorée."
+    },
+    "kdm_watcher": {
+      "name": "Le Jugement du Gardien (Arc Classique)",
+      "description": "Une campagne ciblée de 20 Années Lanterne suivant la trame originale jusqu'au duel contre le Gardien."
+    },
+    "kdm_extended": {
+      "name": "Chronique Étendue de la Colonie",
+      "description": "Une saga exhaustive de 35 Années Lanterne intégrant chasses de proies légendaires, némésis de haut rang et innovations maximales."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "AL 5",
+      "title": "La Première Némésis",
+      "phase": "Phase de Colonie I - La Lueur Fragile",
+      "description": "Survivre aux premières traques et affronter l'implacable boucher semant la terreur aux abords de la colonie."
+    },
+    {
+      "order": 2,
+      "badgeText": "AL 12",
+      "title": "Le Décret Royal",
+      "phase": "Phase de Colonie II - Ombres de Civilisation",
+      "description": "Établir des innovations avancées et faire face à l'énigmatique émissaire en armure venu sonder la volonté humaine."
+    },
+    {
+      "order": 3,
+      "badgeText": "AL 20",
+      "title": "L'Avènement du Gardien",
+      "phase": "Phase de Colonie III - L'Œil Menaçant",
+      "description": "Triompher des pires abominations et défier l'entité céleste ancestrale suspendue au-dessus du sanctuaire des lanternes."
+    },
+    {
+      "order": 4,
+      "badgeText": "AL 30",
+      "title": "L'Horizon Flamboyant",
+      "phase": "Phase de Colonie IV - L'Ultime Épreuve",
+      "description": "L'affrontement décisif contre le titan suprême pour déterminer si l'héritage de l'humanité perdurera dans les ténèbres éternelles."
+    }
+  ]
+}

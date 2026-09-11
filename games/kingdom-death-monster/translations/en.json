@@ -1,0 +1,59 @@
+{
+  "title": "Kingdom Death: Monster",
+  "subtitle": "A harrowing boutique nightmare horror campaign of survival and civilization building",
+  "tagline": "In the darkness beneath the lantern hoard, survival is fleeting",
+  "loreSummary": "You awaken with no memory upon a barren plain of carved stone faces. Clinging to the faint glow of scattered lanterns, you must hunt monstrous quarries, craft gear from their corpses, and build a fragile settlement to preserve humanity.",
+  "badgeCategory": "Nightmare Horror Boss Battler",
+  "roadmapTitle": "🏮 Settlement Chronicle & Lantern Years",
+  "roadmapBadge": "LANTERN ROADMAP",
+  "keyFeatures": [
+    "Three-phase cycle: Hunt, Showdown, and Settlement management",
+    "Dynamic settlement development with innovations, gear crafting, and principles",
+    "Brutal hit location and severe injury tables with permanent consequences",
+    "Emergent storytelling driven by population genetics and survivor lineage"
+  ],
+  "scopes": {
+    "kdm_standard": {
+      "name": "People of the Lantern (Core Campaign)",
+      "description": "The complete 30 Lantern Year campaign arc culminating in the ultimate confrontation against the Gold Smoke Knight."
+    },
+    "kdm_watcher": {
+      "name": "The Watcher Reckoning (Classic Arc)",
+      "description": "A focused 20 Lantern Year campaign following the original core narrative through the encounter with the Watcher."
+    },
+    "kdm_extended": {
+      "name": "Extended Settlement Chronicle",
+      "description": "An exhaustive 35 Lantern Year saga incorporating legendary quarry hunts, high-tier nemesis showdowns, and maxed innovations."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "LY 5",
+      "title": "The First Nemesis",
+      "phase": "Settlement Phase I - The Fragile Light",
+      "description": "Surviving the early quarry hunts and confronting the relentless butcher terrorizing the settlement perimeter."
+    },
+    {
+      "order": 2,
+      "badgeText": "LY 12",
+      "title": "The King's Decree",
+      "phase": "Settlement Phase II - Shadows of Civilization",
+      "description": "Establishing specialized innovations and facing the enigmatic armored envoy testing human resolve."
+    },
+    {
+      "order": 3,
+      "badgeText": "LY 20",
+      "title": "The Gathering of the Watcher",
+      "phase": "Settlement Phase III - The Looming Eye",
+      "description": "Surmounting apex quarry horrors and confronting the ancient celestial entity suspended above the lantern hoard."
+    },
+    {
+      "order": 4,
+      "badgeText": "LY 30",
+      "title": "The Smoldering Horizon",
+      "phase": "Settlement Phase IV - The Final Crucible",
+      "description": "The climactic confrontation against the ultimate titan determining humanity's legacy in the eternal darkness."
+    }
+  ]
+}

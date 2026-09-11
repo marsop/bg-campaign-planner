@@ -1,0 +1,59 @@
+{
+  "title": "Kingdom Death: Monster",
+  "subtitle": "Una sobrecogedora campaña de horror y supervivencia con construcción de civilización",
+  "tagline": "En la oscuridad bajo el cúmulo de linternas, la supervivencia es efímera",
+  "loreSummary": "Despiertas sin recuerdos sobre una llanura yerma de rostros tallados en piedra. Aferrándote al tenue fulgor de linternas dispersas, deberás cazar monstruosas presas, fabricar equipo con sus restos y erigir un frágil asentamiento para preservar a la humanidad.",
+  "badgeCategory": "Boss Battler de Horror Pesadillesco",
+  "roadmapTitle": "🏮 Crónica del Asentamiento y Años Linterna",
+  "roadmapBadge": "HOJA DE RUTA LINTERNA",
+  "keyFeatures": [
+    "Ciclo de tres fases: Caza, Enfrentamiento y Gestión del Asentamiento",
+    "Desarrollo dinámico del asentamiento con innovaciones, forja de equipo y principios",
+    "Tablas implacables de localización de impactos y heridas graves con secuelas permanentes",
+    "Narrativa emergente impulsada por la genética poblacional y el linaje de los supervivientes"
+  ],
+  "scopes": {
+    "kdm_standard": {
+      "name": "Gente de la Linterna (Campaña Principal)",
+      "description": "El arco completo de 30 Años Linterna que culmina en la confrontación definitiva contra el Caballero del Humo Dorado."
+    },
+    "kdm_watcher": {
+      "name": "El Juicio del Vigilante (Arco Clásico)",
+      "description": "Una campaña focalizada de 20 Años Linterna que sigue la narrativa clásica hasta el encuentro contra el Vigilante."
+    },
+    "kdm_extended": {
+      "name": "Crónica Extendida del Asentamiento",
+      "description": "Una exhaustiva saga de 35 Años Linterna que incorpora cacerías de presas legendarias, némesis de máximo rango e innovaciones avanzadas."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "AL 5",
+      "title": "La Primera Némesis",
+      "phase": "Fase de Asentamiento I - La Luz Frágil",
+      "description": "Sobrevivir a las cacerías iniciales y enfrentarse al implacable carnicero que aterroriza el perímetro del asentamiento."
+    },
+    {
+      "order": 2,
+      "badgeText": "AL 12",
+      "title": "El Decreto Real",
+      "phase": "Fase de Asentamiento II - Sombras de Civilización",
+      "description": "Establecer innovaciones especializadas y hacer frente al enigmático emisario acorazado que pondrá a prueba la determinación humana."
+    },
+    {
+      "order": 3,
+      "badgeText": "AL 20",
+      "title": "El Alzamiento del Vigilante",
+      "phase": "Fase de Asentamiento III - El Ojo Acechante",
+      "description": "Superar a las presas alfa más aterradoras y enfrentarse a la antigua entidad celestial suspendida sobre el cúmulo de linternas."
+    },
+    {
+      "order": 4,
+      "badgeText": "AL 30",
+      "title": "El Horizonte Humeante",
+      "phase": "Fase de Asentamiento IV - El Crisol Definitivo",
+      "description": "La batalla culminante contra el titán supremo para determinar si el asentamiento humano deja un legado eterno en la oscuridad."
+    }
+  ]
+}

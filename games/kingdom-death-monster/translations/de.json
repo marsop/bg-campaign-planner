@@ -1,0 +1,59 @@
+{
+  "title": "Kingdom Death: Monster",
+  "subtitle": "Eine düstere Boutique-Albtraum-Horrorkampagne voller Überlebenskampf und Zivilisationsaufbau",
+  "tagline": "In der Finsternis unter dem Laternenmeer ist das Überleben flüchtig",
+  "loreSummary": "Ihr erwacht ohne jede Erinnerung auf einer kargen Ebene aus gemeißelten Steingesichtern. Im schwachen Schein verstreuter Laternen müsst ihr monströse Beutetiere jagen, Ausrüstung aus ihren Überresten schmieden und eine zerbrechliche Siedlung errichten, um das Fortbestehen der Menschheit zu sichern.",
+  "badgeCategory": "Albtraum-Horror Boss-Battler",
+  "roadmapTitle": "🏮 Siedlungschronik & Laternenjahre",
+  "roadmapBadge": "LATERNEN-ROADMAP",
+  "keyFeatures": [
+    "Drei-Phasen-Zyklus: Jagd, Showdown und Siedlungsverwaltung",
+    "Dynamischer Siedlungsausbau durch Innovationen, Ausrüstungshandwerk und Grundsätze",
+    "Gnadenlose Trefferzonen und schwere Verletzungstabellen mit bleibenden Konsequenzen",
+    "Emergentes Storytelling geprägt von Populationsgenetik und Überlebenden-Blutlinien"
+  ],
+  "scopes": {
+    "kdm_standard": {
+      "name": "Volk der Laterne (Hauptkampagne)",
+      "description": "Der vollständige 30-Laternenjahre-Kampagnenbogen, der im finalen Kampf gegen den Goldrauch-Ritter gipfelt."
+    },
+    "kdm_watcher": {
+      "name": "Das Urteil des Wächters (Klassischer Handlungsbogen)",
+      "description": "Eine fokussierte Kampagne über 20 Laternenjahre, die der ursprünglichen Erzählung bis zur Konfrontation mit dem Wächter folgt."
+    },
+    "kdm_extended": {
+      "name": "Erweiterte Siedlungschronik",
+      "description": "Eine umfassende Saga über 35 Laternenjahre mit legendären Beutejagden, hochstufigen Nemesis-Kämpfen und maximalen Innovationen."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "LJ 5",
+      "title": "Die Erste Nemesis",
+      "phase": "Siedlungsphase I - Das Zerbrechliche Licht",
+      "description": "Das Überleben der ersten Beutejagden und die Konfrontation mit dem unbarmherzigen Schlächter an den Siedlungsgrenzen."
+    },
+    {
+      "order": 2,
+      "badgeText": "LJ 12",
+      "title": "Das Dekret des Königs",
+      "phase": "Siedlungsphase II - Schatten der Zivilisation",
+      "description": "Etablierung spezialisierter Innovationen und das Treffen auf den rätselhaften gepanzerten Boten, der den menschlichen Willen prüft."
+    },
+    {
+      "order": 3,
+      "badgeText": "LJ 20",
+      "title": "Das Erwachen des Wächters",
+      "phase": "Siedlungsphase III - Das Lauernde Auge",
+      "description": "Den Schrecken der Apex-Monstrositäten trotzen und der uralten Himmelsgestalt über dem Laternenhort entgegentreten."
+    },
+    {
+      "order": 4,
+      "badgeText": "LJ 30",
+      "title": "Der Glimmende Horizont",
+      "phase": "Siedlungsphase IV - Die Letzte Feuerprobe",
+      "description": "Der finale Entscheidungskampf gegen den Ur-Titanen, der bestimmt, ob das Erbe der Menschheit in der ewigen Nacht weiterlebt."
+    }
+  ]
+}

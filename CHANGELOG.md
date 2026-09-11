@@ -7,18 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-09-11
+
 ### Added
-- **Application Version UI Display**:
-  - Added build-time version integration powered by `Nerdbank.GitVersioning` (`AppVersion.cs`).
-  - Added interactive top-bar version pill (`AppVersionBadge.razor`) displaying the active semantic version (`vX.Y.Z`) and Git commit short hash with a live indicator dot.
-  - Added a prominent hero version badge displayed directly alongside the main brand heading in `Home.razor`.
-  - Added an interactive "About & Version Information" modal displaying full build metadata, runtime environment (.NET 10 Blazor WebAssembly), Git commit hash, build date, and links to the GitHub repository and releases.
-  - Added application version information to the page footer with direct link to the specific Git commit on GitHub.
-  - Added full multilingual translations for version strings across all 5 supported languages (EN, ES, DE, FR, IT).
 - **New Campaign Board Games**:
+  - **Kingdom Death: Monster**: Complete boutique nightmare horror campaign support with 3 scopes (People of the Lantern, The Watcher Reckoning, Extended Settlement Chronicle), 4 spoiler-masked narrative milestones, atmospheric lantern-darkness styling, custom cover and widescreen background artwork, and full localized translations across English, Spanish, German, French, and Italian.
   - **Pandemic Legacy: Season 1**: Complete campaign support, scopes (Standard Campaign, Story-Only), thematic styling, and localized translations across English, Spanish, German, French, and Italian.
   - **Pandemic Legacy: Season 2**: Complete campaign support, scopes (Full Campaign, Prologue & Core), thematic styling, and localized translations across English, Spanish, German, French, and Italian.
   - **Frosthaven**, **Sleeping Gods**, **Oathsworn: Into the Deepwood**, and **Tainted Grail: The Fall of Avalon**: Fully localized campaign catalog integrations with dedicated themes, cover/background art, and scope configurations.
+- **Application Version UI Display**:
 - **Dynamic Thematic Game Backgrounds**:
   - Added support for game-specific atmospheric background illustrations displayed behind the application when a game is selected.
   - Provided widescreen WebP background artwork for all eight games in the catalog.
