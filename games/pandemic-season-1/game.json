@@ -1,0 +1,43 @@
+{
+  "id": "pandemic-season-1",
+  "title": "Pandemic Legacy: Season 1",
+  "releaseYear": 2015,
+  "designers": "Rob Daviau, Matt Leacock",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 8.5,
+  "bggWeight": 2.84,
+  "bggUrl": "https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 15,
+  "unitType": "games_months",
+  "theme": {
+    "primaryColor": "#c1272d",
+    "secondaryColor": "#1a1a1a",
+    "accentColor": "#f7931e",
+    "backgroundGradient": "radial-gradient(ellipse at top, #3a1c1c 0%, #1a1a1a 60%, #0c0a0a 100%)",
+    "cardBackground": "rgba(26, 26, 26, 0.90)",
+    "borderColor": "rgba(193, 39, 45, 0.35)",
+    "glowColor": "rgba(193, 39, 45, 0.25)",
+    "headerFont": "'Inter', system-ui, sans-serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🦠",
+    "emblem": "🌍☣️",
+    "themeClass": "theme-pandemic1",
+    "activeThemeClass": "theme-pandemic1-active",
+    "roadmapClass": "roadmap-pandemic1",
+    "heroClass": "hero-pandemic1"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek",
+    "Publisher Official Rulebook"
+  ],
+  "scopes": [
+    {
+      "id": "pandemic1_standard",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 25,
+      "isRecommended": true
+    }
+  ]
+}

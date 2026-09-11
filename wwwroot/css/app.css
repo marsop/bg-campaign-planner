@@ -1844,4 +1844,45 @@ body {
         margin-bottom: 1.25rem !important;
         padding-bottom: 0.85rem;
     }
+}.theme-pandemic1 .game-title {
+    color: var(--color-primary);
+}
+.theme-pandemic1 .btn-select-game.btn-active {
+    border-color: var(--color-primary);
+}
+.theme-pandemic1-active .scope-card.selected {
+    border-color: var(--color-primary);
+}
+.theme-pandemic1-active .scope-scenarios {
+    color: var(--color-primary);
+}
+.theme-pandemic1-active .btn-freq-tab.active {
+    border-bottom: 2px solid var(--color-primary);
+    color: var(--color-primary);
+}
+.theme-pandemic1-active .btn-counter.btn-counter-active {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+.theme-pandemic1-active .btn-session-len.active {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+.theme-pandemic1-active .kpi-card-primary {
+    border-left: 4px solid var(--color-primary);
+}
+.theme-pandemic1-active .badge-step {
+    background-color: var(--color-primary);
+}
+.theme-pandemic1-active .milestone-phase {
+    color: var(--color-accent);
+}
+.theme-pandemic1-active .table-row-milestone {
+    background-color: var(--color-glow);
+}
+.theme-pandemic1-active .milestone-note-text {
+    color: var(--color-accent);
+}
+.theme-pandemic1-active .language-option-item.active {
+    color: var(--color-primary);
 }

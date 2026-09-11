@@ -9,14 +9,13 @@ The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
 **Currently in app:**
-Gloomhaven · Frosthaven · Pandemic Legacy: Season 0 · Sleeping Gods ·
+Gloomhaven · Frosthaven · Pandemic Legacy: Season 0 · Sleeping Gods · Pandemic Legacy: Season 1
 Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon
 
 ---
 
 ## 🟥 High Priority
 
-- **Pandemic Legacy: Season 1** — The definitive legacy game. 12–24 sessions (monthly structure). ~8.5 BGG. 2–4 players. Cooperative, disease control.
 - **Pandemic Legacy: Season 2** — Continuation of Season 1's story. 12–24 sessions. ~8.0 BGG. 2–4 players. Cooperative, narrative.
 - **Kingdom Death: Monster** — Boss battler + settlement management. 25 Lantern Years, 60–100+ hours. ~8.7 BGG. 1–4 players.
 - **Middara: Unintentional Malum — Act 1** — Massive anime-style RPG dungeon crawler. 70–100+ hours of content. ~8.5 BGG. 1–4 players.
