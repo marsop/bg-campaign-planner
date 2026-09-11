@@ -2,8 +2,10 @@
 @using bg_campaign_planner.Services
 @inject IStringLocalizer<AppResources> Loc
 
-<div class="thematic-hero-wrapper mb-4">
-    <div class="thematic-hero-card @Game.Theme.HeroClass">
+@if (Game != null)
+{
+    <div class="thematic-hero-wrapper mb-4">
+        <div class="thematic-hero-card @Game.Theme.HeroClass">
         <div class="hero-texture-overlay"></div>
         <div class="hero-content">
             <div class="row align-items-center">
@@ -95,6 +97,7 @@
         </div>
     </div>
 </div>
+}
 
 @code {
     [Parameter, EditorRequired]

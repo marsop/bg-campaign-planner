@@ -32,7 +32,7 @@
         </div>
     </header>
 
-    @if (CurrentGame != null)
+    @if (AllGames != null && AllGames.Count > 0)
     {
         <div class="container main-content-container pb-5">
 
@@ -50,17 +50,20 @@
                     </div>
 
                     <GameSelector Games="@AllGames"
-                                  SelectedGameId="@CurrentGame.Id"
+                                  SelectedGameId="@(CurrentGame?.Id ?? string.Empty)"
                                   OnGameSelected="HandleGameSelected" />
 
-                    <!-- Thematic hero shown in Step 1 so you can read about the game before confirming -->
-                    <div class="mt-4" id="selected-game-hero">
-                        <ThematicGameHero Game="@CurrentGame" />
-                    </div>
+                    @if (CurrentGame != null)
+                    {
+                        <!-- Thematic hero shown in Step 1 so you can read about the game before confirming -->
+                        <div class="mt-4" id="selected-game-hero">
+                            <ThematicGameHero Game="@CurrentGame" />
+                        </div>
+                    }
 
                     <!-- Confirm CTA -->
                     <div class="wizard-action-bar mt-4">
-                        <button class="btn btn-wizard-primary" @onclick="ConfirmGame">
+                        <button class="btn btn-wizard-primary" @onclick="ConfirmGame" disabled="@(CurrentGame == null)">
                             @Loc["Wizard.ConfirmGame"]
                         </button>
                     </div>
@@ -70,7 +73,7 @@
             <!-- ═══════════════════════════════════════
                  STEP 2 — CONFIGURE PLAY HABITS
                  ═══════════════════════════════════════ -->
-            @if (CurrentStep == 2)
+            @if (CurrentStep == 2 && CurrentGame != null)
             {
                 <section class="section-block wizard-step-section">
                     <!-- Back link -->
@@ -98,7 +101,7 @@
             <!-- ═══════════════════════════════════════
                  STEP 3 — RESULTS & PROJECTION
                  ═══════════════════════════════════════ -->
-            @if (CurrentStep == 3)
+            @if (CurrentStep == 3 && CurrentGame != null)
             {
                 <!-- Back link -->
                 <button class="btn wizard-back-link mb-3" @onclick="() => GoToStep(2)">
@@ -207,6 +210,15 @@
 
     private async Task HandleGameSelected(string gameId)
     {
+        if (string.IsNullOrEmpty(gameId))
+        {
+            CurrentGame = null;
+            PlannerInput.SelectedGameId = string.Empty;
+            CurrentResult = null;
+            StateHasChanged();
+            return;
+        }
+
         if (CurrentGame?.Id != gameId)
         {
             CurrentGame = DataService.GetGame(gameId, LocService.CurrentLanguage);
@@ -228,6 +240,7 @@
 
     private async Task ConfirmGame()
     {
+        if (CurrentGame == null) return;
         CurrentStep = 2;
         await JS.InvokeVoidAsync("campaignPlanner.scrollToTop");
     }

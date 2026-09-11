@@ -2,6 +2,19 @@
 
 <div class="page-wrapper">
     <main>
-        @Body
+        <ErrorBoundary>
+            <ChildContent>
+                @Body
+            </ChildContent>
+            <ErrorContent Context="ex">
+                <div class="container py-5 text-center">
+                    <div class="alert alert-danger shadow-sm d-inline-block text-start p-4" style="max-width: 600px;">
+                        <h4 class="alert-heading"><i class="bi bi-exclamation-triangle-fill me-2"></i>Something went wrong</h4>
+                        <p class="mb-3">An unexpected error occurred while rendering the page.</p>
+                        <button class="btn btn-outline-danger btn-sm" onclick="location.reload()">Reload Application</button>
+                    </div>
+                </div>
+            </ErrorContent>
+        </ErrorBoundary>
     </main>
 </div>

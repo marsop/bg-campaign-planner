@@ -2081,3 +2081,59 @@ body {
     background: radial-gradient(ellipse at top, #1e293b 0%, #0f172a 60%, #020617 100%);
     border-color: rgba(14, 165, 233, 0.35);
 }
+
+/* ==========================================================================
+   BLAZOR ERROR UI
+   ========================================================================== */
+#blazor-error-ui {
+    background-color: #fef2f2;
+    color: #991b1b;
+    border-top: 2px solid #ef4444;
+    bottom: 0;
+    box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    display: none;
+    left: 0;
+    padding: 0.75rem 1.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    font-size: 0.95rem;
+}
+
+[data-theme="dark"] #blazor-error-ui {
+    background-color: #450a0a;
+    color: #fecaca;
+    border-top: 2px solid #dc2626;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
+}
+
+#blazor-error-ui .reload {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-left: 0.5rem;
+}
+
+#blazor-error-ui .reload:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.25rem;
+    line-height: 1;
+    opacity: 0.8;
+    padding: 0.25rem 0.5rem;
+    transition: opacity 0.15s ease;
+}
+
+#blazor-error-ui .dismiss:hover {
+    opacity: 1;
+}
+

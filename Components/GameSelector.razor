@@ -288,9 +288,10 @@
     private async Task EnsureValidSelection()
     {
         var filtered = FilteredGames;
-        if (filtered.Count > 0 && !filtered.Any(g => g.Id == SelectedGameId))
+        if (!string.IsNullOrEmpty(SelectedGameId) && !filtered.Any(g => g.Id == SelectedGameId))
         {
-            await OnGameSelected.InvokeAsync(filtered[0].Id);
+            SelectedGameId = string.Empty;
+            await OnGameSelected.InvokeAsync(string.Empty);
         }
     }
 }
