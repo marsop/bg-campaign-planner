@@ -1,0 +1,87 @@
+{
+  "id": "middara",
+  "title": "Middara: Unintentional Malum \u2014 Act 1",
+  "releaseYear": 2019,
+  "designers": "Clayton Helme, Brooklynn Lundberg, Brennon Moncur, Ian Tate",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.5,
+  "bggWeight": 3.8,
+  "bggUrl": "https://boardgamegeek.com/boardgame/169904/middara-unintentional-malum-act-1",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 30,
+  "unitType": "encounters",
+  "theme": {
+    "primaryColor": "#9933cc",
+    "secondaryColor": "#1a0a24",
+    "accentColor": "#ff66cc",
+    "backgroundGradient": "radial-gradient(ellipse at top, #331144 0%, #1a0a24 60%, #0a0410 100%)",
+    "cardBackground": "rgba(26, 10, 36, 0.90)",
+    "borderColor": "rgba(153, 51, 204, 0.35)",
+    "glowColor": "rgba(153, 51, 204, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "\ud83d\udcd6",
+    "emblem": "\u2694\ufe0f",
+    "themeClass": "theme-middara",
+    "activeThemeClass": "theme-middara-active",
+    "roadmapClass": "roadmap-middara",
+    "heroClass": "hero-middara"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek",
+    "Succubus Publishing Official Rulebook"
+  ],
+  "scopes": [
+    {
+      "id": "core_campaign",
+      "baseScenarioCount": 60,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "completionist",
+      "baseScenarioCount": 70,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "\ud83c\udf00",
+      "badgeText": "Chapter 1",
+      "title": "Welcome to Middara",
+      "phase": "Phase I",
+      "description": "The journey begins."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 30,
+      "iconEmoji": "\ud83d\udee1\ufe0f",
+      "badgeText": "Chapter 2",
+      "title": "Trials and Tribulations",
+      "phase": "Phase II",
+      "description": "Facing new threats."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 45,
+      "iconEmoji": "\ud83d\udd2e",
+      "badgeText": "Chapter 3",
+      "title": "Uncovering the Truth",
+      "phase": "Phase III",
+      "description": "Deepening mysteries."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 60,
+      "iconEmoji": "\u2694\ufe0f",
+      "badgeText": "Finale",
+      "title": "The Climax",
+      "phase": "Phase IV",
+      "description": "The final battle of Act 1."
+    }
+  ]
+}
