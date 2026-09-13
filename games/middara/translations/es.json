@@ -1,0 +1,24 @@
+{
+  "subtitle": "Juego de rol de mazmorras estilo anime",
+  "tagline": "Una aventura narrativa masiva.",
+  "loreSummary": "Middara es un juego de mesa de miniaturas de fantasía ultramoderna en el que tú y hasta tres amigos asumen el papel de aventureros en una narrativa profunda y extensa.",
+  "badgeCategory": "Explorador de Mazmorras",
+  "roadmapTitle": "Hoja de ruta de la campaña",
+  "roadmapBadge": "Progreso de la historia",
+  "keyFeatures": [
+    "Arte estilo anime",
+    "Campaña narrativa profunda",
+    "Combate táctico con miniaturas",
+    "Progresión de personajes"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campaña Principal",
+      "description": "La historia estándar del Acto 1."
+    },
+    "completionist": {
+      "name": "Completista",
+      "description": "Incluye misiones secundarias y encuentros opcionales."
+    }
+  }
+}
