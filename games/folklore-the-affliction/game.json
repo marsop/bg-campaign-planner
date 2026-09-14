@@ -1,0 +1,94 @@
+{
+  "id": "folklore-the-affliction",
+  "title": "Folklore: The Affliction",
+  "releaseYear": 2017,
+  "designers": "Nick Blain, Will Donovan",
+  "playersMin": 1,
+  "playersMax": 5,
+  "bggRating": 7.7,
+  "bggWeight": 3.70,
+  "bggUrl": "https://boardgamegeek.com/boardgame/159504/folklore-the-affliction",
+  "baseScenarioMinutes": 50,
+  "setupTeardownMinutes": 25,
+  "unitType": "chapters",
+  "theme": {
+    "primaryColor": "#b5491e",
+    "secondaryColor": "#1a0e0a",
+    "accentColor": "#e8c97a",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2a1008 0%, #140907 60%, #0a0504 100%)",
+    "cardBackground": "rgba(26, 14, 10, 0.92)",
+    "borderColor": "rgba(181, 73, 30, 0.35)",
+    "glowColor": "rgba(181, 73, 30, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🕯️",
+    "emblem": "🧛🌙",
+    "themeClass": "theme-folklore",
+    "activeThemeClass": "theme-folklore-active",
+    "roadmapClass": "roadmap-folklore",
+    "heroClass": "hero-folklore"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #159504 — Folklore: The Affliction)",
+    "Greenbrier Games Official Rulebook & Story Books",
+    "BGG Community Forums & Campaign Play Logs (r/boardgames, BGG Folklore threads)"
+  ],
+  "scopes": [
+    {
+      "id": "folklore_core",
+      "baseScenarioCount": 18,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": true
+    },
+    {
+      "id": "folklore_quick",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    },
+    {
+      "id": "folklore_dark_tales",
+      "baseScenarioCount": 42,
+      "estimatedFailRatePercent": 22.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🕯️",
+      "badgeText": "Story I",
+      "title": "Shadows Gather",
+      "phase": "Phase I — First Affliction",
+      "description": "The heroes complete their first story, uncovering the dark forces seeping into the land and the nature of the affliction threatening the innocent."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🧛",
+      "badgeText": "Story III",
+      "title": "Darkness Deepens",
+      "phase": "Phase II — Spreading Horror",
+      "description": "Three stories in, the full breadth of the affliction is revealed and the heroes grow in power, facing increasingly dangerous and supernatural foes."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 14,
+      "iconEmoji": "🌙",
+      "badgeText": "Story V",
+      "title": "Edge of Despair",
+      "phase": "Phase III — The Final Threats",
+      "description": "The penultimate stories bring the heroes to the brink, as the source of the affliction prepares its final, terrible move against the realm."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 18,
+      "iconEmoji": "⚔️",
+      "badgeText": "Finale",
+      "title": "The Affliction Ends",
+      "phase": "Phase IV — Reckoning",
+      "description": "The heroes confront the ultimate evil behind the affliction in a desperate final stand to save the land from eternal darkness."
+    }
+  ]
+}

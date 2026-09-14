@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.21.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **The Lord of the Rings: Journeys in Middle-earth**, the cooperative app-supported adventure game in J.R.R. Tolkien's Middle-earth by Nathan I. Hajek & Grace Holdinghaus (Fantasy Flight Games, 2019).
+  - 4 campaign scope presets: *Bones of Arnor (Full Journey)* (14 adventures, recommended), *Bones of Arnor (Core Path)* (12 adventures), *Shadowed Paths Expansion* (13 adventures), and *Spreading War Expansion* (15 adventures).
+  - 4 narrative milestone checkpoints across the Bones of Arnor campaign with spoiler protection (*A Shadow in Eriador*, *The Skirmish of the Borderlands*, *The Ruins of Arnor*, *The Dawn over Middle-earth*).
+  - Thematic visual identity (warm gold `#d4af37`, deep forest green `#2d6a4f`, and shadowed canopy `#151b14` styling with Cinzel decorative header font, authentic 1:1 flat box cover art, and atmospheric 16:9 widescreen backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.20.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Folklore: The Affliction**, the cooperative dark fantasy RPG-adventure board game by Nick Blain & Will Donovan (Greenbrier Games, 2017).
+  - 3 campaign scope presets: *Quickstart Stories* (12 chapters), *Core Campaign — 6 Stories* (18 chapters, recommended), and *Dark Tales Expansion* (42 chapters including the Dark Tales expansion).
+  - 4 narrative milestone checkpoints covering the full story arc with spoiler protection (*Shadows Gather*, *Darkness Deepens*, *Edge of Despair*, *The Affliction Ends*).
+  - Thematic visual identity (dark crimson `#b5491e`, amber `#e8c97a`, and deep shadow `#1a0e0a` styling with Cinzel gothic header font, atmospheric 1:1 cover art featuring heroes vs. a vampire lord, and a moody cursed village 16:9 widescreen backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.19.0] - 2026-09-14
 
 ### Added

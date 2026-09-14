@@ -1,0 +1,63 @@
+{
+  "title": "The Lord of the Rings: Journeys in Middle-earth",
+  "subtitle": "App-gestütztes kooperatives Abenteuerspiel in den legendären Gefilden von Tolkiens Mittelerde",
+  "tagline": "Formiert eure Gefährten und stellt euch dem drohenden Schatten in den Weiten Mittelerdes",
+  "loreSummary": "Dunkle Vorzeichen ziehen über Eriador auf, während uralte Schrecken in zerfallenen Festungen und finsteren Wäldern erwachen. Geleitet von einer Begleit-App zieht eure Heldengruppe aus, um vergessene Lande zu erkunden, Orks und finstere Kreaturen zu bekämpfen und das drohende Unheil im Norden abzuwenden.",
+  "badgeCategory": "App-Gesteuertes Koop-Abenteuer",
+  "roadmapTitle": "💍 Eriador-Chronik & Reiseverlauf",
+  "roadmapBadge": "DIE KNOCHEN VON ARNOR",
+  "keyFeatures": [
+    "Begleit-App für dynamische Ereignisse, prozedural generierte Spielpläne und feindliche KI",
+    "Doppeltes Spielsystem mit großflächigen Reise-Hexfeldern und taktischen Kampfkarten",
+    "Eigenes Fertigkeiten-Kartendeck anstelle von Würfeln für strategische Probenabwicklung",
+    "Verzweigte Kampagnenhandlung, in der Siege und Rückschläge den weiteren Reiseverlauf prägen"
+  ],
+  "scopes": {
+    "bones_of_arnor_campaign": {
+      "name": "Die Knochen von Arnor (Vollständige Reise)",
+      "description": "Die komplette Basiskampagne über 14 Kapitel mit verzweigten Pfaden, Nachforschungen und Nebenquests."
+    },
+    "bones_of_arnor_direct": {
+      "name": "Die Knochen von Arnor (Hauptpfad)",
+      "description": "Ein zielgerichteter Durchlauf der 12 zentralen Handlungsabenteuer der Grundkampagne."
+    },
+    "shadowed_paths_campaign": {
+      "name": "Dunkle Pfade (Erweiterung)",
+      "description": "Die 13 Abenteuer umfassende Erweiterungskampagne durch das Dickicht des Düsterwalds und die Tiefen Morias."
+    },
+    "spreading_war_campaign": {
+      "name": "Krieg im Verborgenen (Erweiterung)",
+      "description": "Große Erweiterungskampagne mit 15 Abenteuern zur Verteidigung der bedrängten Reiche Gondor und Rohan."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Phase I",
+      "title": "Ein Schatten in Eriador",
+      "phase": "Akt I - Die drohende Gefahr",
+      "description": "Untersuchung von Gerüchten über Goblin-Überfälle, Diebstähle und ruhelose Geister entlang der Straßen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Phase II",
+      "title": "Scharmützel im Grenzland",
+      "phase": "Akt II - In die Wildnis",
+      "description": "Konfrontation mit Orkhäuptlingen und Durchquerung unwegsamer Wildnis auf der Spur geraubter Artefakte."
+    },
+    {
+      "order": 3,
+      "badgeText": "Phase III",
+      "title": "Die Ruinen von Arnor",
+      "phase": "Akt III - Uralte Wehrbauten",
+      "description": "Erkundung verfallener Bergfestungen, um die düstere Verschwörung hinter den Untoten aufzudecken."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Das Morgengrauen über Mittelerde",
+      "phase": "Höhepunkt - Das letzte Gefecht",
+      "description": "Entschlossener Widerstand gegen das dunkle Heer, um die Freien Völker des Nordens zu bewahren."
+    }
+  ]
+}

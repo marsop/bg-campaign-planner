@@ -1,0 +1,63 @@
+{
+  "title": "The Lord of the Rings: Journeys in Middle-earth",
+  "subtitle": "Avventura cooperativa guidata da app attraverso i leggendari territori della Terra di Mezzo di Tolkien",
+  "tagline": "Raduna la tua Compagnia e respingi l'ombra incombente attraverso le terre selvagge",
+  "loreSummary": "Oscuri presagi si addensano sull'Eriador mentre antichi mali si risvegliano in roccaforti in rovina e selve tenebrose. Guidata dall'app di supporto, la vostra compagnia di eroi esplorerà terre dimenticate, affronterà orchetti e creature crudeli e svelerà la minaccia segreta che incombe sul Nord.",
+  "badgeCategory": "Avventura Cooperativa con App",
+  "roadmapTitle": "💍 Cronache dell'Eriador & Avanzamento del Viaggio",
+  "roadmapBadge": "LE OSSA DI ARNOR",
+  "keyFeatures": [
+    "App d'accompagnamento che gestisce eventi narrativi, mappe procedurali e intelligenza artificiale nemica",
+    "Doppia modalità con ampie mappe esagonali d'esplorazione e mappe tattiche a griglia da battaglia",
+    "Sistema di risoluzione prove tramite mazzo abilità personalizzato al posto dei dadi",
+    "Campagna narrativa a bivi in cui trionfi e sconfitte plasmano dinamicamente il prosieguo del viaggio"
+  ],
+  "scopes": {
+    "bones_of_arnor_campaign": {
+      "name": "Le Ossa di Arnor (Viaggio Completo)",
+      "description": "La campagna base integrale in 14 capitoli con percorsi a bivi, indagini ed avventure secondarie."
+    },
+    "bones_of_arnor_direct": {
+      "name": "Le Ossa di Arnor (Sentiero Principale)",
+      "description": "Un percorso lineare attraverso le 12 avventure cardine della trama della campagna base."
+    },
+    "shadowed_paths_campaign": {
+      "name": "Sentieri nell'Ombra (Espansione)",
+      "description": "Campagna d'espansione in 13 avventure che attraversa l'intrico di Bosco Atro e le profondità di Moria."
+    },
+    "spreading_war_campaign": {
+      "name": "Venti di Guerra (Espansione)",
+      "description": "Grande campagna d'espansione in 15 avventure in difesa dei regni assediati di Gondor e Rohan."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Fase I",
+      "title": "Un'ombra nell'Eriador",
+      "phase": "Atto I - La minaccia incombente",
+      "description": "Indagando sulle razzie di goblin, furti inspiegabili e spiriti inquieti lungo le piste del nord."
+    },
+    {
+      "order": 2,
+      "badgeText": "Fase II",
+      "title": "Schermaglia nelle Terre di Confine",
+      "phase": "Atto II - Nelle terre selvagge",
+      "description": "Affrontando signori della guerra orchetti e attraversando terre impervie sulle tracce di reliquie sottratte."
+    },
+    {
+      "order": 3,
+      "badgeText": "Fase III",
+      "title": "Le Rovine di Arnor",
+      "phase": "Atto III - Antiche roccaforti",
+      "description": "Esplorando fortezze diroccate per sventare la sinistra cospirazione che vincola i non-morti."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "L'Alba sulla Terra di Mezzo",
+      "phase": "Climax - L'ultima resistenza",
+      "description": "Resistendo all'orda dell'Ombra in una battaglia decisiva per salvaguardare i Popoli Liberi del Nord."
+    }
+  ]
+}

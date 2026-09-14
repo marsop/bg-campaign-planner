@@ -1,0 +1,60 @@
+{
+  "title": "Folklore: The Affliction",
+  "subtitle": "Ein kooperatives Dunkel-Fantasy-RPG-Abenteuer durch verfluchte Geschichten und übernatürliche Schrecken",
+  "tagline": "In jedem Schatten lauert ein Monster — wage dich vor, wenn du dich traust",
+  "loreSummary": "Du bist Teil einer Gruppe von Helden, die das Schicksal zusammengeführt hat, um verfluchte Lande zu durchqueren, die von Vampiren, Werwölfen und dunkler Zauberei heimgesucht werden. Jede Geschichte enthüllt ein neues Kapitel der Heimsuchung, die Unschuldige bedroht — nur eure wachsende Macht steht zwischen der Dunkelheit und dem Untergang.",
+  "badgeCategory": "Kooperatives Dunkel-Fantasy-RPG",
+  "roadmapTitle": "🕯️ Chronik der Heimsuchung & Storyverlauf",
+  "roadmapBadge": "DUNKEL-FANTASY-KARTE",
+  "keyFeatures": [
+    "Kapitelbasierte Geschichten — jedes Kapitel ist eine eigenständige Spielsitzung",
+    "Kein Spielleiter nötig — vollständig kooperativ mit geskripteten Begegnungsdecks",
+    "Persistente Charakterentwicklung mit Fähigkeitenbäumen und Ausrüstung",
+    "Einzigartiger taktischer Kampf mit Begegnungskarten und speziellen Würfeln",
+    "Reiches Dunkel-Fantasy-Setting mit Vampiren, Werwölfen und uralten Übeln"
+  ],
+  "scopes": {
+    "folklore_core": {
+      "name": "Grundkampagne (6 Geschichten)",
+      "description": "Alle 6 Geschichten aus dem Grundspiel, umfasst ungefähr 18 Kapitel dunkler Fantasieabenteuer."
+    },
+    "folklore_quick": {
+      "name": "Schnellstart-Geschichten",
+      "description": "Die ersten 4 einführenden Geschichten für eine kürzere Kampagne oder einen ersten Durchlauf."
+    },
+    "folklore_dark_tales": {
+      "name": "Dark Tales Erweiterung",
+      "description": "Grundkampagne plus die Dark Tales Erweiterung, mit 9 weiteren Geschichten für eine vollständige Langkampagne."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Geschichte I",
+      "title": "Die Schatten verdichten sich",
+      "phase": "Phase I — Die erste Heimsuchung",
+      "description": "Die Helden schließen ihre erste Geschichte ab und decken die dunklen Kräfte auf, die in das Land eindringen, sowie das Wesen der Heimsuchung, die Unschuldige bedroht."
+    },
+    {
+      "order": 2,
+      "badgeText": "Geschichte III",
+      "title": "Die Dunkelheit vertieft sich",
+      "phase": "Phase II — Der sich ausbreitende Schrecken",
+      "description": "Nach drei Geschichten offenbart sich das volle Ausmaß der Heimsuchung, und die Helden gewinnen an Stärke, während sie immer gefährlichere übernatürliche Feinde bekämpfen."
+    },
+    {
+      "order": 3,
+      "badgeText": "Geschichte V",
+      "title": "Am Rand der Verzweiflung",
+      "phase": "Phase III — Die letzten Bedrohungen",
+      "description": "Die vorletzten Geschichten bringen die Helden an ihre Grenzen, während der Ursprung der Heimsuchung seinen letzten, furchtbaren Schlag gegen das Reich vorbereitet."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Das Ende der Heimsuchung",
+      "phase": "Phase IV — Die Abrechnung",
+      "description": "Die Helden stellen sich dem ultimativen Übel hinter der Heimsuchung in einem verzweifelten letzten Kampf, um das Land vor ewiger Dunkelheit zu retten."
+    }
+  ]
+}

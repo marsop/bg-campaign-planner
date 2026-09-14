@@ -1,0 +1,63 @@
+{
+  "title": "The Lord of the Rings: Journeys in Middle-earth",
+  "subtitle": "Aventura cooperativa con aplicación por los emblemáticos parajes de la Tierra Media de Tolkien",
+  "tagline": "Reúne a tu Compañía y combate la sombra creciente en las tierras salvajes de la Tierra Media",
+  "loreSummary": "Oscuros presagios se ciernen sobre Eriador mientras antiguos males despiertan en fortalezas en ruinas y densos bosques. Guiados por una aplicación digital, vuestro grupo de héroes explorará tierras olvidadas, luchará contra orcos y bestias tenebrosas y desentrañará el terror secreto que amenaza el Norte.",
+  "badgeCategory": "Aventura Cooperativa con App",
+  "roadmapTitle": "💍 Crónica de Eriador y Progresión del Viaje",
+  "roadmapBadge": "LOS HUESOS DE ARNOR",
+  "keyFeatures": [
+    "Aplicación complementaria que gestiona eventos narrativos, mapas procedimentales e IA enemiga",
+    "Doble mecánica con mapas hexagonales de exploración y tapetes tácticos cuadriculados de combate",
+    "Sistema de resolución de pruebas mediante mazo de habilidades propio en sustitución de dados",
+    "Campaña con historia ramificada donde los aciertos y reveses moldean el destino del viaje"
+  ],
+  "scopes": {
+    "bones_of_arnor_campaign": {
+      "name": "Los Huesos de Arnor (Viaje Completo)",
+      "description": "La campaña base completa a través de 14 capítulos, con rutas ramificadas, encuentros de investigación y misiones secundarias."
+    },
+    "bones_of_arnor_direct": {
+      "name": "Los Huesos de Arnor (Ruta Principal)",
+      "description": "Un recorrido directo por las 12 aventuras principales de la historia de la campaña básica."
+    },
+    "shadowed_paths_campaign": {
+      "name": "Sendas Sombrías (Expansión)",
+      "description": "Campaña de expansión de 13 aventuras a través de la densa penumbra del Bosque Negro y las profundidades de Moria."
+    },
+    "spreading_war_campaign": {
+      "name": "Vientos de Guerra (Expansión)",
+      "description": "Gran campaña de expansión de 15 aventuras defendiendo los asediados reinos de Gondor y Rohan."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Fase I",
+      "title": "Una sombra en Eriador",
+      "phase": "Acto I - La amenaza creciente",
+      "description": "Investigando incursiones de trasgos, extraños robos y espíritus inquietos por los caminos del norte."
+    },
+    {
+      "order": 2,
+      "badgeText": "Fase II",
+      "title": "Escaramuza en las Tierras Fronterizas",
+      "phase": "Acto II - En las tierras salvajes",
+      "description": "Haciendo frente a caudillos orcos y cruzando parajes inhóspitos tras reliquias de poder sustraídas."
+    },
+    {
+      "order": 3,
+      "badgeText": "Fase III",
+      "title": "Las Ruinas de Arnor",
+      "phase": "Acto III - Antiguas fortalezas",
+      "description": "Adentrándose en fortalezas derruidas para desvelar la siniestra conspiración que domina a los no-muertos."
+    },
+    {
+      "order": 4,
+      "badgeText": "Final",
+      "title": "El Amanecer sobre la Tierra Media",
+      "phase": "Clímax - La última batalla",
+      "description": "Luchando unidos contra la horda tenebrosa en una batalla decisiva para salvaguardar a los Pueblos Libres del Norte."
+    }
+  ]
+}

@@ -10,20 +10,19 @@ requested by the user.
 
 **Currently in app:**
 Gloomhaven · Frosthaven · Pandemic Legacy: Season 0 · Sleeping Gods · Pandemic Legacy: Season 1
-Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures · Chronicles of Drunagor: Age of Darkness · Tanares Adventures · The Isofarian Guard · Betrayal Legacy · Vagrantsong · Arkham Horror: The Card Game
+Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures · Chronicles of Drunagor: Age of Darkness · Tanares Adventures · The Isofarian Guard · Betrayal Legacy · Vagrantsong · Arkham Horror: The Card Game · Folklore: The Affliction · The Lord of the Rings: Journeys in Middle-earth
 
 ---
 
 ## 🟥 High Priority
 
-*(All high-priority games have been added to the app. See Medium Priority for next candidates.)*
+*(All high-priority games have been added to the app. See Lower Priority for next candidates.)*
 
 ---
 
 ## 🟧 Medium Priority
 
-- **Folklore: The Affliction** — Cooperative dark fantasy RPG-style adventure with a fixed story/chapter campaign structure. ~40+ hours. ~8.0 BGG. 1–5 players. Chapter-driven narrative, no GM required.
-- **The Lord of the Rings: Journeys in Middle-earth** — App-driven fully cooperative campaign adventure in Middle-earth. 20–30 hours per campaign (12–14 scenarios). ~7.5–7.7 BGG. 1–5 players. Fixed scenario campaigns, Fantasy Flight.
+*(All medium-priority games have been added to the app. See Lower Priority for next candidates.)*
 
 ---
 

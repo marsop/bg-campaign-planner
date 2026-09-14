@@ -1,0 +1,100 @@
+{
+  "id": "lotr-journeys-middle-earth",
+  "title": "The Lord of the Rings: Journeys in Middle-earth",
+  "releaseYear": 2019,
+  "designers": "Nathan I. Hajek, Grace Holdinghaus",
+  "playersMin": 1,
+  "playersMax": 5,
+  "bggRating": 7.6,
+  "bggWeight": 2.68,
+  "bggUrl": "https://boardgamegeek.com/boardgame/269385/the-lord-of-the-rings-journeys-in-middle-earth",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 20,
+  "unitType": "adventures",
+  "theme": {
+    "primaryColor": "#d4af37",
+    "secondaryColor": "#151b14",
+    "accentColor": "#2d6a4f",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e2d1d 0%, #111a13 60%, #080d09 100%)",
+    "cardBackground": "rgba(21, 27, 20, 0.92)",
+    "borderColor": "rgba(212, 175, 55, 0.35)",
+    "glowColor": "rgba(212, 175, 55, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "💍",
+    "emblem": "💍🌲",
+    "themeClass": "theme-lotr",
+    "activeThemeClass": "theme-lotr-active",
+    "roadmapClass": "roadmap-lotr",
+    "heroClass": "hero-lotr"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #269385)",
+    "Fantasy Flight Games Official Rules of Play & Lore Guide",
+    "The Lord of the Rings: Journeys in Middle-earth Companion Application"
+  ],
+  "scopes": [
+    {
+      "id": "bones_of_arnor_campaign",
+      "baseScenarioCount": 14,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": true
+    },
+    {
+      "id": "bones_of_arnor_direct",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "shadowed_paths_campaign",
+      "baseScenarioCount": 13,
+      "estimatedFailRatePercent": 14.0,
+      "isRecommended": false
+    },
+    {
+      "id": "spreading_war_campaign",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🌲",
+      "badgeText": "Phase I",
+      "title": "A Shadow in Eriador",
+      "phase": "Act I - The Gathering Threat",
+      "description": "Investigating rumors of goblin raiders, dark thefts, and restless spirits along the northern roads."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "⚔️",
+      "badgeText": "Phase II",
+      "title": "The Skirmish of the Borderlands",
+      "phase": "Act II - Into the Wilds",
+      "description": "Confronting warlords and navigating treacherous wilderness while pursuing stolen relics of power."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 11,
+      "iconEmoji": "🏰",
+      "badgeText": "Phase III",
+      "title": "The Ruins of Arnor",
+      "phase": "Act III - Ancient Strongholds",
+      "description": "Entering crumbling hill fortresses to uncover the sinister conspiracy binding the dead."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 14,
+      "iconEmoji": "💍",
+      "badgeText": "Finale",
+      "title": "The Dawn over Middle-earth",
+      "phase": "Climax - The Final Stand",
+      "description": "Standing against the dark host in a desperate battle to safeguard the Free Peoples of the North."
+    }
+  ]
+}

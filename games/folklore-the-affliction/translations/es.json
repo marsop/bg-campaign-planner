@@ -1,0 +1,60 @@
+{
+  "title": "Folklore: The Affliction",
+  "subtitle": "Una cooperativa de aventura RPG de fantasía oscura entre historias malditas y horrores sobrenaturales",
+  "tagline": "Cada sombra esconde un monstruo — atrévete a adentrarte si te atreves",
+  "loreSummary": "Eres un grupo de héroes unidos por el destino, enfrentando tierras malditas asoladas por vampiros, hombres lobo y oscura hechicería. Cada historia revela un nuevo capítulo de la aflicción que amenaza a los inocentes, y solo vuestro creciente poder se interpone entre las tinieblas y la ruina.",
+  "badgeCategory": "RPG Cooperativo de Fantasía Oscura",
+  "roadmapTitle": "🕯️ Crónica de la Aflicción y Progresión de la Historia",
+  "roadmapBadge": "MAPA DE FANTASÍA OSCURA",
+  "keyFeatures": [
+    "Historias narrativas por capítulos — cada capítulo es una sesión independiente",
+    "Sin director de juego — totalmente cooperativo con mazos de encuentros guionizados",
+    "Desarrollo persistente de personajes con árboles de habilidades y equipo",
+    "Combate táctico único con cartas de encuentro y dados personalizados",
+    "Rica ambientación de fantasía oscura con vampiros, hombres lobo y males ancestrales"
+  ],
+  "scopes": {
+    "folklore_core": {
+      "name": "Campaña Base (6 Historias)",
+      "description": "Las 6 historias del juego base, abarcando aproximadamente 18 capítulos de aventura de fantasía oscura."
+    },
+    "folklore_quick": {
+      "name": "Historias de Inicio Rápido",
+      "description": "Las primeras 4 historias introductorias para una campaña más corta o una primera partida."
+    },
+    "folklore_dark_tales": {
+      "name": "Expansión Cuentos Oscuros",
+      "description": "Campaña base más la expansión Dark Tales, añadiendo 9 historias más para una campaña extendida completa."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Historia I",
+      "title": "Las Sombras se Reúnen",
+      "phase": "Fase I — Primera Aflicción",
+      "description": "Los héroes completan su primera historia, descubriendo las fuerzas oscuras que se filtran en la tierra y la naturaleza de la aflicción que amenaza a los inocentes."
+    },
+    {
+      "order": 2,
+      "badgeText": "Historia III",
+      "title": "La Oscuridad se Profundiza",
+      "phase": "Fase II — El Horror se Extiende",
+      "description": "Tras tres historias, la plena extensión de la aflicción se revela y los héroes crecen en poder, enfrentando enemigos cada vez más peligrosos y sobrenaturales."
+    },
+    {
+      "order": 3,
+      "badgeText": "Historia V",
+      "title": "Al Borde de la Desesperación",
+      "phase": "Fase III — Las Amenazas Finales",
+      "description": "Las penúltimas historias llevan a los héroes al límite, mientras el origen de la aflicción prepara su último y terrible golpe contra el reino."
+    },
+    {
+      "order": 4,
+      "badgeText": "Desenlace",
+      "title": "La Aflicción Termina",
+      "phase": "Fase IV — El Desenlace Final",
+      "description": "Los héroes se enfrentan al mal supremo detrás de la aflicción en una desesperada batalla final para salvar la tierra de la oscuridad eterna."
+    }
+  ]
+}

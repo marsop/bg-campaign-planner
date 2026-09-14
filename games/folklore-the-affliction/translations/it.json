@@ -1,0 +1,60 @@
+{
+  "title": "Folklore: The Affliction",
+  "subtitle": "Un'avventura RPG cooperativa dark fantasy attraverso storie maledette e orrori soprannaturali",
+  "tagline": "Ogni ombra nasconde un mostro — avanza se ne hai il coraggio",
+  "loreSummary": "Sei parte di un gruppo di eroi riuniti dal destino, che si avventura in terre maledette infestate da vampiri, lupi mannari e oscura stregoneria. Ogni storia rivela un nuovo capitolo dell'afflizione che minaccia gli innocenti — solo il vostro crescente potere si frappone tra le tenebre e la rovina.",
+  "badgeCategory": "GDR Cooperativo Dark Fantasy",
+  "roadmapTitle": "🕯️ Cronaca dell'Afflizione & Progressione della Storia",
+  "roadmapBadge": "MAPPA DARK FANTASY",
+  "keyFeatures": [
+    "Storie narrative a capitoli — ogni capitolo è una sessione indipendente",
+    "Nessun master necessario — completamente cooperativo con mazzi di incontri scriptati",
+    "Sviluppo persistente dei personaggi con alberi di abilità e equipaggiamento",
+    "Combattimento tattico unico con carte degli incontri e dadi personalizzati",
+    "Ricca ambientazione dark fantasy con vampiri, lupi mannari e mali ancestrali"
+  ],
+  "scopes": {
+    "folklore_core": {
+      "name": "Campagna Base (6 Storie)",
+      "description": "Tutte e 6 le storie del gioco base, per circa 18 capitoli di avventura dark fantasy."
+    },
+    "folklore_quick": {
+      "name": "Storie di Avvio Rapido",
+      "description": "Le prime 4 storie introduttive per una campagna più breve o una prima partita."
+    },
+    "folklore_dark_tales": {
+      "name": "Espansione Dark Tales",
+      "description": "Campagna base più l'espansione Dark Tales, con 9 storie aggiuntive per una campagna completa estesa."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Storia I",
+      "title": "Le Ombre si Addensano",
+      "phase": "Fase I — La Prima Afflizione",
+      "description": "Gli eroi completano la prima storia, scoprendo le forze oscure che si infiltrano nella terra e la natura dell'afflizione che minaccia gli innocenti."
+    },
+    {
+      "order": 2,
+      "badgeText": "Storia III",
+      "title": "L'Oscurità si Approfondisce",
+      "phase": "Fase II — L'Orrore si Diffonde",
+      "description": "Dopo tre storie, l'intera portata dell'afflizione viene rivelata e gli eroi crescono in potere, affrontando nemici sempre più pericolosi e soprannaturali."
+    },
+    {
+      "order": 3,
+      "badgeText": "Storia V",
+      "title": "Sull'Orlo della Disperazione",
+      "phase": "Fase III — Le Minacce Finali",
+      "description": "Le ultime storie portano gli eroi al limite, mentre la fonte dell'afflizione prepara il suo ultimo e terribile colpo contro il regno."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "La Fine dell'Afflizione",
+      "phase": "Fase IV — Il Reso dei Conti",
+      "description": "Gli eroi affrontano il male supremo dietro l'afflizione in un disperato scontro finale per salvare la terra dall'oscurità eterna."
+    }
+  ]
+}

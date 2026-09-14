@@ -1,0 +1,60 @@
+{
+  "title": "Folklore: The Affliction",
+  "subtitle": "A dark fantasy cooperative RPG-adventure through cursed stories and supernatural horrors",
+  "tagline": "Every shadow hides a monster — venture forth if you dare",
+  "loreSummary": "You are a band of heroes drawn together by fate, braving the cursed lands plagued by vampires, werewolves, and dark sorcery. Each story reveals a new chapter of affliction threatening the innocent, and only your growing power stands between darkness and ruin.",
+  "badgeCategory": "Dark Fantasy Cooperative RPG",
+  "roadmapTitle": "🕯️ Affliction Chronicle & Story Progression",
+  "roadmapBadge": "DARK FANTASY ROADMAP",
+  "keyFeatures": [
+    "Chapter-based narrative stories — each chapter is a self-contained session",
+    "No GM required — fully cooperative with scripted encounter decks",
+    "Persistent character growth with skill trees and equipment across stories",
+    "Unique tactical combat using encounter cards and custom dice",
+    "Rich dark fantasy lore featuring vampires, werewolves, and ancient evils"
+  ],
+  "scopes": {
+    "folklore_core": {
+      "name": "Core Campaign (6 Stories)",
+      "description": "All 6 stories from the core game, spanning approximately 18 chapters of dark fantasy adventure."
+    },
+    "folklore_quick": {
+      "name": "Quickstart Stories",
+      "description": "The first 4 introductory stories for a focused shorter campaign or a first playthrough."
+    },
+    "folklore_dark_tales": {
+      "name": "Dark Tales Expansion",
+      "description": "Core campaign plus the Dark Tales expansion, adding 9 more stories for a full extended campaign."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Story I",
+      "title": "Shadows Gather",
+      "phase": "Phase I — First Affliction",
+      "description": "The heroes complete their first story, uncovering the dark forces seeping into the land and the nature of the affliction threatening the innocent."
+    },
+    {
+      "order": 2,
+      "badgeText": "Story III",
+      "title": "Darkness Deepens",
+      "phase": "Phase II — Spreading Horror",
+      "description": "Three stories in, the full breadth of the affliction is revealed and the heroes grow in power, facing increasingly dangerous and supernatural foes."
+    },
+    {
+      "order": 3,
+      "badgeText": "Story V",
+      "title": "Edge of Despair",
+      "phase": "Phase III — The Final Threats",
+      "description": "The penultimate stories bring the heroes to the brink, as the source of the affliction prepares its final, terrible move against the realm."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "The Affliction Ends",
+      "phase": "Phase IV — Reckoning",
+      "description": "The heroes confront the ultimate evil behind the affliction in a desperate final stand to save the land from eternal darkness."
+    }
+  ]
+}

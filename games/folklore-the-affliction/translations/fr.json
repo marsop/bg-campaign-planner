@@ -1,0 +1,60 @@
+{
+  "title": "Folklore: The Affliction",
+  "subtitle": "Une aventure RPG coopérative de dark fantasy à travers des récits maudits et des horreurs surnaturelles",
+  "tagline": "Chaque ombre dissimule un monstre — osez avancer si vous en avez le courage",
+  "loreSummary": "Vous êtes un groupe de héros réunis par le destin, parcourant des terres maudites ravagées par des vampires, des loups-garous et une sorcellerie ténébreuse. Chaque récit dévoile un nouveau chapitre de l'affliction menaçant les innocents — seule votre puissance grandissante s'interpose entre les ténèbres et la ruine.",
+  "badgeCategory": "RPG Coopératif Dark Fantasy",
+  "roadmapTitle": "🕯️ Chronique de l'Affliction & Progression du Récit",
+  "roadmapBadge": "CARTE DARK FANTASY",
+  "keyFeatures": [
+    "Récits narratifs par chapitres — chaque chapitre constitue une séance indépendante",
+    "Sans maître de jeu — entièrement coopératif avec des decks de rencontres scriptés",
+    "Développement persistant des personnages avec arbres de compétences et équipement",
+    "Combat tactique unique avec cartes de rencontre et dés personnalisés",
+    "Univers de dark fantasy riche avec vampires, loups-garous et maléfices ancestraux"
+  ],
+  "scopes": {
+    "folklore_core": {
+      "name": "Campagne de Base (6 Récits)",
+      "description": "Les 6 récits du jeu de base, couvrant environ 18 chapitres d'aventure dark fantasy."
+    },
+    "folklore_quick": {
+      "name": "Récits de Démarrage Rapide",
+      "description": "Les 4 premiers récits d'introduction pour une campagne plus courte ou une première partie."
+    },
+    "folklore_dark_tales": {
+      "name": "Extension Dark Tales",
+      "description": "Campagne de base plus l'extension Dark Tales, ajoutant 9 récits supplémentaires pour une campagne complète étendue."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Récit I",
+      "title": "Les Ombres se Rassemblent",
+      "phase": "Phase I — Première Affliction",
+      "description": "Les héros achèvent leur premier récit, découvrant les forces obscures qui s'infiltrent dans les terres et la nature de l'affliction menaçant les innocents."
+    },
+    {
+      "order": 2,
+      "badgeText": "Récit III",
+      "title": "Les Ténèbres s'Approfondissent",
+      "phase": "Phase II — L'Horreur se Propage",
+      "description": "Après trois récits, l'étendue complète de l'affliction est révélée et les héros grandissent en puissance, affrontant des ennemis de plus en plus dangereux et surnaturels."
+    },
+    {
+      "order": 3,
+      "badgeText": "Récit V",
+      "title": "Au Bord du Désespoir",
+      "phase": "Phase III — Les Dernières Menaces",
+      "description": "Les avant-derniers récits poussent les héros à leurs limites, tandis que la source de l'affliction prépare son ultime et terrible coup contre le royaume."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "La Fin de l'Affliction",
+      "phase": "Phase IV — Le Dénouement",
+      "description": "Les héros affrontent le mal ultime derrière l'affliction dans un ultime combat désespéré pour sauver les terres des ténèbres éternelles."
+    }
+  ]
+}

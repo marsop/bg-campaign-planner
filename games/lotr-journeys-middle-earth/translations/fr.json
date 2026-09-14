@@ -1,0 +1,63 @@
+{
+  "title": "The Lord of the Rings: Journeys in Middle-earth",
+  "subtitle": "Aventure coopérative assistée par application à travers les terres légendaires de la Terre du Milieu de Tolkien",
+  "tagline": "Rassemblez votre Communauté et repoussez l'ombre grandissante dans les contrées sauvages",
+  "loreSummary": "De sombres présages s'accumulent sur l'Ériador tandis que des maux anciens s'éveillent dans des forteresses en ruines et d'obscures forêts. Guidés par l'application numérique, vos héros explorent des terres oubliées, affrontent des hordes d'orques etPercent le mystère de la terreur grandissante au Nord.",
+  "badgeCategory": "Aventure Coopérative avec App",
+  "roadmapTitle": "💍 Chronique d'Ériador & Progression du Périple",
+  "roadmapBadge": "LES OSSEMENTS D'ARNOR",
+  "keyFeatures": [
+    "Application compagnon orchestrant les événements narratifs, les cartes procédurales et l'IA ennemie",
+    "Double système de jeu alternant grands plateaux d'exploration hexagonaux et cartes de combat quadrillées",
+    "Résolution des épreuves par deck de compétences personnel remplaçant les jets de dés",
+    "Campagne à embranchements où succès et revers façonnent durablement le cours du voyage"
+  ],
+  "scopes": {
+    "bones_of_arnor_campaign": {
+      "name": "Les Ossements d'Arnor (Périple Complet)",
+      "description": "La campagne de base intégrale en 14 chapitres incluant embranchements narratifs, enquêtes et quêtes secondaires."
+    },
+    "bones_of_arnor_direct": {
+      "name": "Les Ossements d'Arnor (Trame Principale)",
+      "description": "Un parcours direct à travers les 12 aventures majeures de l'histoire de la campagne de base."
+    },
+    "shadowed_paths_campaign": {
+      "name": "Sentiers Obscurs (Extension)",
+      "description": "Campagne d'extension en 13 aventures traversant la pénombre de la Forêt Noire et les profondeurs de la Moria."
+    },
+    "spreading_war_campaign": {
+      "name": "Guerre Ouverte (Extension)",
+      "description": "Grande campagne d'extension en 15 aventures au secours des royaumes assiégés du Gondor et du Rohan."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Phase I",
+      "title": "Une ombre en Ériador",
+      "phase": "Acte I - La menace grandissante",
+      "description": "Enquête sur les raids de gobelins, les pillages inexpliqués et les spectres errant le long des routes du nord."
+    },
+    {
+      "order": 2,
+      "badgeText": "Phase II",
+      "title": "Escarmouche aux Frontières",
+      "phase": "Acte II - Dans les terres sauvages",
+      "description": "Affrontement contre des chefs de guerre orques et traversée de contrées hostiles en quête de reliques dérobées."
+    },
+    {
+      "order": 3,
+      "badgeText": "Phase III",
+      "title": "Les Ruines d'Arnor",
+      "phase": "Acte III - Anciennes forteresses",
+      "description": "Exploration de bastions effondrés pour déjouer la sombre conspiration asservissant les défunts."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "L'Aube sur la Terre du Milieu",
+      "phase": "Climax - L'ultime combat",
+      "description": "Résistance désespérée contre la horde de l'Ombre pour préserver l'avenir des Peuples Libres du Nord."
+    }
+  ]
+}

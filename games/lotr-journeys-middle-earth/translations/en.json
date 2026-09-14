@@ -1,0 +1,63 @@
+{
+  "title": "The Lord of the Rings: Journeys in Middle-earth",
+  "subtitle": "App-supported cooperative adventure across the iconic landscapes of Tolkien's Middle-earth",
+  "tagline": "Form your Fellowship and fight the encroaching shadow across the wilds of Middle-earth",
+  "loreSummary": "Dark omens gather across Eriador as ancient evils stir in ruined fortresses and shadowy forests. Guided by a companion app, your band of heroes must scout forgotten lands, battle Orcs and fell beasts, and uncover the secret terror rising in the North.",
+  "badgeCategory": "App-Driven Co-op Adventure",
+  "roadmapTitle": "💍 Eriador Campaign & Journey Progression",
+  "roadmapBadge": "BONES OF ARNOR",
+  "keyFeatures": [
+    "Companion app driving narrative events, procedural maps, and reactive enemy AI",
+    "Dual-mode gameplay alternating between vast hex exploration maps and tactical grid battle mats",
+    "Deck-crafting skill test system replacing dice for streamlined, strategic resolution",
+    "Branching campaign narrative where triumphs and setbacks dynamically shape the journey"
+  ],
+  "scopes": {
+    "bones_of_arnor_campaign": {
+      "name": "Bones of Arnor (Full Journey)",
+      "description": "The complete base campaign across 14 chapters including key branching paths, investigative encounters, and side quests."
+    },
+    "bones_of_arnor_direct": {
+      "name": "Bones of Arnor (Core Path)",
+      "description": "A focused journey through the 12 primary story adventures of the core campaign."
+    },
+    "shadowed_paths_campaign": {
+      "name": "Shadowed Paths Expansion",
+      "description": "The 13-adventure expansion campaign venturing through the tangled darkness of Mirkwood and the deep halls of Moria."
+    },
+    "spreading_war_campaign": {
+      "name": "Spreading War Expansion",
+      "description": "The 15-adventure grand expansion campaign defending the besieged kingdoms of Gondor and Rohan."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Phase I",
+      "title": "A Shadow in Eriador",
+      "phase": "Act I - The Gathering Threat",
+      "description": "Investigating rumors of goblin raiders, dark thefts, and restless spirits along the northern roads."
+    },
+    {
+      "order": 2,
+      "badgeText": "Phase II",
+      "title": "The Skirmish of the Borderlands",
+      "phase": "Act II - Into the Wilds",
+      "description": "Confronting warlords and navigating treacherous wilderness while pursuing stolen relics of power."
+    },
+    {
+      "order": 3,
+      "badgeText": "Phase III",
+      "title": "The Ruins of Arnor",
+      "phase": "Act III - Ancient Strongholds",
+      "description": "Entering crumbling hill fortresses to uncover the sinister conspiracy binding the dead."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "The Dawn over Middle-earth",
+      "phase": "Climax - The Final Stand",
+      "description": "Standing against the dark host in a desperate battle to safeguard the Free Peoples of the North."
+    }
+  ]
+}
