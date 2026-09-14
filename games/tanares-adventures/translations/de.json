@@ -1,0 +1,59 @@
+{
+  "title": "Tanares Adventures",
+  "subtitle": "Monumentaler taktischer Kampagnen-Dungeon-Crawler in einem weitläufigen, halboffenen Fantasy-Kaiserreich",
+  "tagline": "Bestimme das Schicksal eines Imperiums, das von der uralten Bosheit bedroht wird",
+  "loreSummary": "Ihr seid auserwählte Champions, die das riesige Kaiserreich Tanares durchqueren. In ineinandergreifenden Stadt-, Reise- und Questphasen erkundet ihr über hundert einzigartige Missionen, koordiniert spezialisierte Kampfrollen, baut kaiserliche Bauwerke aus und stellt euch einer apokalyptischen Verderbnis namens Malice.",
+  "badgeCategory": "Episches Taktik-Kampagnen-RPG",
+  "roadmapTitle": "🗺️ Tanares-Kampagnenchronik & Fortschritt",
+  "roadmapBadge": "KAISERREICH-SAGA",
+  "keyFeatures": [
+    "Dreiphasiger Kampagnenzyklus aus Stadtverwaltung, Reisevorbereitung und taktischen Quests",
+    "Spezialisierte Kampfrollen (Tank, Berserker, Schütze, Taktiker, Kommandant) mit deterministischen, kartengesteuerten Fähigkeitskombinationen",
+    "Halboffene Weltkarte mit über 100 verzweigten Quests, Geheimräumen und moralischen Entscheidungen in drei Kampagnenbüchern",
+    "Persistente Stadtentwicklung, bei der errichtete Gebäude legendäre Ausrüstung, Verbündete und passive Boni freischalten"
+  ],
+  "scopes": {
+    "tanares_core": {
+      "name": "Hauptkampagnen-Saga",
+      "description": "Die vollständige Haupthandlung mit 24 Quests über sechs Spielwochen hinweg, gipfelnd im Großen Finale."
+    },
+    "tanares_expedited": {
+      "name": "Fokussierter Kampagnenpfad",
+      "description": "Eine zielgerichtete Route mit 18 Quests, die sich auf zentrale regionale Meilensteine und Hauptkonfrontationen konzentriert."
+    },
+    "tanares_extended": {
+      "name": "Meisterentdecker-Saga",
+      "description": "Eine weitläufige Kampagne mit 36 Quests, die regionale Geheimnisse, Nebenhandlungsstränge und Reliktquests intensiv erkundet."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Buch I",
+      "title": "Prüfungen der Grenzländereien",
+      "phase": "Kampagnenwochen 1–2 – Kaiserliches Erwachen",
+      "description": "Abschluss erster Expeditionen in den Grenzprovinzen, Errichtung erster Stadtausbauten und Entdeckung der ersten Vorboten der Malice."
+    },
+    {
+      "order": 2,
+      "badgeText": "Buch II",
+      "title": "Die sich ausbreitende Bosheit",
+      "phase": "Kampagnenwochen 3–4 – Regionale Unruhen",
+      "description": "Aufdeckung finsterer Verschwörungen in den Provinzen von Tanares und Konfrontation mit verderbten Champions in tiefen Kerkern."
+    },
+    {
+      "order": 3,
+      "badgeText": "Buch III",
+      "title": "Marsch der Vorhut",
+      "phase": "Kampagnenwoche 5 – Der aufziehende Sturm",
+      "description": "Mobilisierung der kaiserlichen Ressourcen, Erbeutung mythischer Relikte und Durchbrechen der Grenzbefestigungen der verdorbenen Domäne."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Das Große Finale",
+      "phase": "Kampagnenwoche 6 – Das Schicksal des Kaiserreichs",
+      "description": "Konfrontation mit den ultimativen Drahtziehern der Malice in einem mehrstufigen taktischen Showdown um die Zukunft von Tanares."
+    }
+  ]
+}

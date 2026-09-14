@@ -1,0 +1,94 @@
+{
+  "id": "tanares-adventures",
+  "title": "Tanares Adventures",
+  "releaseYear": 2023,
+  "designers": "Alexandre Aboud, Clayton Machado, Danilo de Alcantara, Michael Alves",
+  "playersMin": 1,
+  "playersMax": 8,
+  "bggRating": 8.4,
+  "bggWeight": 3.86,
+  "bggUrl": "https://boardgamegeek.com/boardgameexpansion/298627/arena-the-contest-tanares-adventures",
+  "baseScenarioMinutes": 110,
+  "setupTeardownMinutes": 25,
+  "unitType": "quests",
+  "theme": {
+    "primaryColor": "#dc2626",
+    "secondaryColor": "#180a0c",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2d0d12 0%, #17070a 60%, #0a0305 100%)",
+    "cardBackground": "rgba(24, 10, 13, 0.92)",
+    "borderColor": "rgba(220, 38, 38, 0.40)",
+    "glowColor": "rgba(220, 38, 38, 0.35)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🐉",
+    "emblem": "⚔️🐉",
+    "themeClass": "theme-tanares",
+    "activeThemeClass": "theme-tanares-active",
+    "roadmapClass": "roadmap-tanares",
+    "heroClass": "hero-tanares"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #298627)",
+    "Dragori Games Official Rulebooks, Quest Guides & Campaign Journals (Alexandre Aboud, Clayton Machado)",
+    "Community Campaign Playthrough Statistics & Quest Logs"
+  ],
+  "scopes": [
+    {
+      "id": "tanares_core",
+      "baseScenarioCount": 24,
+      "estimatedFailRatePercent": 14.0,
+      "isRecommended": true
+    },
+    {
+      "id": "tanares_expedited",
+      "baseScenarioCount": 18,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    },
+    {
+      "id": "tanares_extended",
+      "baseScenarioCount": 36,
+      "estimatedFailRatePercent": 18.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🛡️",
+      "badgeText": "Book I",
+      "title": "Trials of the Frontier",
+      "phase": "Campaign Weeks 1-2 - Imperial Awakening",
+      "description": "Completing initial expeditions across the frontier provinces, establishing city upgrades, and discovering the first manifestations of the Malice."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🗺️",
+      "badgeText": "Book II",
+      "title": "The Spreading Malice",
+      "phase": "Campaign Weeks 3-4 - Regional Turmoil",
+      "description": "Unraveling sinister conspiracies across the provinces of Tanares and confronting corrupted champions in deep dungeon strongholds."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 18,
+      "iconEmoji": "⚔️",
+      "badgeText": "Book III",
+      "title": "March of the Vanguard",
+      "phase": "Campaign Week 5 - The Gathering Storm",
+      "description": "Mobilizing imperial city assets, acquiring mythic relics, and breaching the perimeter of the corrupted domain."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 24,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "The Grande Finale",
+      "phase": "Campaign Week 6 - Fate of the Empire",
+      "description": "Facing the ultimate masterminds of the Malice in a multi-stage tactical showdown to decide the eternal destiny of Tanares."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Tanares Adventures",
+  "subtitle": "Inmenso 'dungeon crawler' de campaña táctica ambientado en un extenso imperio de fantasía semiabierto",
+  "tagline": "Forja el destino de un imperio amenazado por la Malicia primordial",
+  "loreSummary": "Sois campeones de élite que recorren el vasto Imperio de Tanares. A través de fases interconectadas de Ciudad, Viaje y Misión, exploraréis más de un centenar de misiones únicas, coordinaréis roles de combate especializados, mejoraréis estructuras imperiales y os enfrentaréis a una corrupción apocalíptica conocida como la Malicia.",
+  "badgeCategory": "RPG Táctico de Campaña Épica",
+  "roadmapTitle": "🗺️ Crónica de Campaña y Progresión de Tanares",
+  "roadmapBadge": "SAGA IMPERIAL",
+  "keyFeatures": [
+    "Ciclo de campaña en tres fases: gestión de Ciudad, preparación de Viaje y Misiones tácticas",
+    "Roles de combate especializados (Tanque, Coloso, Tirador, Táctico, Comandante) con combinaciones deterministas de cartas y habilidades",
+    "Mapa semiabierto con más de 100 misiones ramificadas, estancias secretas y decisiones morales a lo largo de tres diarios de campaña",
+    "Progresión persistente de la ciudad imperial donde los edificios construidos desbloquean equipo legendario, aliados y mejoras pasivas"
+  ],
+  "scopes": {
+    "tanares_core": {
+      "name": "Saga de la Campaña Principal",
+      "description": "La trama principal completa de 24 misiones que abarca seis semanas de juego y culmina en el Gran Final."
+    },
+    "tanares_expedited": {
+      "name": "Ruta de Campaña Rápida",
+      "description": "Una ruta directa y concentrada de 18 misiones que prioriza los hitos regionales clave y las confrontaciones principales."
+    },
+    "tanares_extended": {
+      "name": "Saga del Gran Explorador",
+      "description": "Una campaña expansiva de 36 misiones explorando a fondo secretos provinciales, tramas secundarias y misiones de reliquias antiguas."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Libro I",
+      "title": "Pruebas de la Frontera",
+      "phase": "Semanas 1-2 de Campaña - Despertar Imperial",
+      "description": "Completar las expediciones iniciales por las provincias fronterizas, establecer mejoras urbanas y descubrir las primeras manifestaciones de la Malicia."
+    },
+    {
+      "order": 2,
+      "badgeText": "Libro II",
+      "title": "La Malicia en Expansión",
+      "phase": "Semanas 3-4 de Campaña - Agitación Regional",
+      "description": "Desentrañar siniestras conspiraciones a través de las provincias de Tanares y enfrentarse a campeones corruptos en fortalezas subterráneas."
+    },
+    {
+      "order": 3,
+      "badgeText": "Libro III",
+      "title": "Marcha de la Vanguardia",
+      "phase": "Semana 5 de Campaña - La Tormenta Inminente",
+      "description": "Movilizar los recursos de la ciudad imperial, conseguir reliquias míticas y penetrar en el perímetro del dominio corrompido."
+    },
+    {
+      "order": 4,
+      "badgeText": "Final",
+      "title": "El Gran Final",
+      "phase": "Semana 6 de Campaña - El Destino del Imperio",
+      "description": "Enfrentarse a las mentes maestras definitivas de la Malicia en un duelo táctico multietapa para decidir el destino eterno de Tanares."
+    }
+  ]
+}

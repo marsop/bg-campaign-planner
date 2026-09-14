@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.15.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Tanares Adventures** epic tactical campaign dungeon-crawler in the semi-open fantasy Empire of Tanares.
+  - 3 campaign scope presets: *Core Campaign Saga* (24 quests), *Expedited Campaign Path* (18 quests), and *Master Explorer Saga* (36 quests).
+  - 4 narrative milestone checkpoints across Tanares with spoiler protection (*Trials of the Frontier*, *The Spreading Malice*, *March of the Vanguard*, *The Grande Finale*).
+  - Thematic visual identity (imperial crimson `#dc2626`, deep obsidian shadow `#180a0c`, and radiant gold `#f59e0b` styling with authentic 1:1 flat box cover art and 16:9 widescreen Tanares citadel backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.14.0] - 2026-09-14
 
 ### Added

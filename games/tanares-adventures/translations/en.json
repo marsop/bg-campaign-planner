@@ -1,0 +1,59 @@
+{
+  "title": "Tanares Adventures",
+  "subtitle": "Massive tactical campaign dungeon crawler set in a sprawling semi-open fantasy empire",
+  "tagline": "Shape the destiny of an empire threatened by the primordial Malice",
+  "loreSummary": "You are elite champions navigating the vast Empire of Tanares. Through interconnected City, Journey, and Quest phases, explore over a hundred unique quests, assemble specialized combat roles, upgrade imperial structures, and confront an apocalyptic corruption known as the Malice.",
+  "badgeCategory": "Epic Tactical Campaign RPG",
+  "roadmapTitle": "🗺️ Tanares Campaign Chronicle & Progression",
+  "roadmapBadge": "IMPERIAL SAGA",
+  "keyFeatures": [
+    "Three-phase campaign loop featuring City management, Journey preparations, and tactical Quests",
+    "Specialized Combat Roles (Tank, Bruiser, Shooter, Tactician, Commander) with deterministic, card-driven skill combinations",
+    "Semi-open world map with over 100 branching quests, secret rooms, and moral choices across three epic campaign journals",
+    "Persistent imperial city progression where constructed buildings unlock legendary items, assets, and passive buffs"
+  ],
+  "scopes": {
+    "tanares_core": {
+      "name": "Core Campaign Saga",
+      "description": "The complete 24-quest main storyline spanning six in-game weeks and culminating in the Grande Finale endgame."
+    },
+    "tanares_expedited": {
+      "name": "Expedited Campaign Path",
+      "description": "A focused 18-quest direct story route prioritizing key regional milestones and primary confrontations."
+    },
+    "tanares_extended": {
+      "name": "Master Explorer Saga",
+      "description": "An expansive 36-quest campaign thoroughly exploring regional secrets, secondary story branches, and ancient relic quests."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Book I",
+      "title": "Trials of the Frontier",
+      "phase": "Campaign Weeks 1-2 - Imperial Awakening",
+      "description": "Completing initial expeditions across the frontier provinces, establishing city upgrades, and discovering the first manifestations of the Malice."
+    },
+    {
+      "order": 2,
+      "badgeText": "Book II",
+      "title": "The Spreading Malice",
+      "phase": "Campaign Weeks 3-4 - Regional Turmoil",
+      "description": "Unraveling sinister conspiracies across the provinces of Tanares and confronting corrupted champions in deep dungeon strongholds."
+    },
+    {
+      "order": 3,
+      "badgeText": "Book III",
+      "title": "March of the Vanguard",
+      "phase": "Campaign Week 5 - The Gathering Storm",
+      "description": "Mobilizing imperial city assets, acquiring mythic relics, and breaching the perimeter of the corrupted domain."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "The Grande Finale",
+      "phase": "Campaign Week 6 - Fate of the Empire",
+      "description": "Facing the ultimate masterminds of the Malice in a multi-stage tactical showdown to decide the eternal destiny of Tanares."
+    }
+  ]
+}
