@@ -1,0 +1,52 @@
+{
+  "title": "Fateforge: Chronicles of Kaan",
+  "subtitle": "Une campagne d'action-aventure coopérative avec application, combats tactiques et récit fantastique à embranchements",
+  "tagline": "Déchaînez des manœuvres de dés cinétiques et forgez votre légende au royaume de Kaan",
+  "loreSummary": "Dans le monde vibrant et périlleux d'Eana, vous incarnez des héros confrontés à des intrigues politiques, des conspirations anciennes et des bêtes féroces. Guidé par un maître du jeu numérique immersif, chacun de vos choix façonne la chronique de Kaan.",
+  "badgeCategory": "Jeu de Rôle d'Action avec App",
+  "roadmapTitle": "🗺️ Chronique de Kaan et Progression de Campagne",
+  "roadmapBadge": "FEUILLE DE ROUTE DE KAAN",
+  "keyFeatures": [
+    "Rythme épisodique dynamique avec des scènes narratives et de combat de 45 à 60 minutes",
+    "Combats cinétiques et tactiques grâce au placement de dés et aux combos de manœuvres",
+    "Application compagnon faisant office de maître du jeu automatisé et conteur réactif",
+    "Trame narrative ramifiée sur plusieurs actes aux choix marquants et parcours variés"
+  ],
+  "scopes": {
+    "fateforge_standard": {
+      "name": "Chronique Principale Standard",
+      "description": "L'expérience de campagne complète en trois actes couvrant la trame centrale, les scènes secondaires clés et la progression des héros."
+    },
+    "fateforge_story": {
+      "name": "Parcours Narratif Direct",
+      "description": "Un cheminement épuré à travers les missions clés des trois actes avec un minimum de détours optionnels."
+    },
+    "fateforge_completionist": {
+      "name": "Grande Saga et Extension",
+      "description": "Exploration complète de tous les embranchements narratifs, défis secrets et du contenu de l'extension Clash of the Immortals."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acte I",
+      "title": "Infiltration des Faubourgs",
+      "phase": "Acte I - Ombres des Frontières",
+      "description": "Pénétration dans les terres troublées de Kaan, affrontement des premières escarmouches et établissement de la réputation de votre groupe."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acte II",
+      "title": "Au Cœur de l'Intrigue",
+      "phase": "Acte II - La Bastion Assiégée",
+      "description": "Démêlage des trahisons politiques au sein du bastion fortifié, combats tactiques intenses et révélation du complot menaçant Eana."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acte III",
+      "title": "Le Destin du Royaume Libre",
+      "phase": "Acte III - Apogée des Immortels",
+      "description": "Affrontement de la force adverse ultime lors d'une confrontation décisive, scellant l'équilibre des pouvoirs et la légende éternelle de Kaan."
+    }
+  ]
+}

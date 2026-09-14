@@ -10,7 +10,7 @@ requested by the user.
 
 **Currently in app:**
 Gloomhaven · Frosthaven · Pandemic Legacy: Season 0 · Sleeping Gods · Pandemic Legacy: Season 1
-Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures · Chronicles of Drunagor: Age of Darkness · Tanares Adventures · The Isofarian Guard · Betrayal Legacy · Vagrantsong · Arkham Horror: The Card Game · Folklore: The Affliction · The Lord of the Rings: Journeys in Middle-earth · Aeon's End: Legacy · Darkest Dungeon: The Board Game · Arydia: The Paths We Dare Tread
+Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures · Chronicles of Drunagor: Age of Darkness · Tanares Adventures · The Isofarian Guard · Betrayal Legacy · Vagrantsong · Arkham Horror: The Card Game · Folklore: The Affliction · The Lord of the Rings: Journeys in Middle-earth · Aeon's End: Legacy · Darkest Dungeon: The Board Game · Arydia: The Paths We Dare Tread · Fateforge: Chronicles of Kaan
 
 ---
 
@@ -28,7 +28,6 @@ Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Le
 
 ## 🟨 Lower Priority
 
-- **Fateforge: Chronicles of Kaan** — Cooperative narrative adventure (2024). Campaign TBD. ~7.8 BGG. 1–4 players.
 - **Destinies** — App-driven open-world adventure. 5–10 scenarios per campaign. ~7.5 BGG. 1–3 players.
 - **Perseverance: Castaway Chronicles** — Survival campaign game. Episodes 1+2, ~30–50 hours. ~8.1 BGG. 1–4 players.
 - **Etherfields** — Cooperative "dream-crawler" with branching persistent campaign (Awaken Realms). 40–50+ hours. ~7.8 BGG. 1–4 players. Non-standard branching structure — no fixed numbered scenarios; needs extra scope design.

@@ -1,0 +1,52 @@
+{
+  "title": "Fateforge: Chronicles of Kaan",
+  "subtitle": "Una campagna d'azione e avventura cooperativa guidata da app con combattimenti tattici e narrazione fantasy a bivi",
+  "tagline": "Scatena manovre cinetiche coi dadi e forgia la tua leggenda nel regno di Kaan",
+  "loreSummary": "Nel vibrante e pericoloso mondo di Eana, impersonate eroi alle prese con intrighi politici, antiche cospirazioni e bestie feroci. Guidati da un maestro del gioco digitale immersivo, ogni decisione plasma la cronaca di Kaan.",
+  "badgeCategory": "GDR d'Azione con App",
+  "roadmapTitle": "🗺️ Cronaca di Kaan e Progressione della Campagna",
+  "roadmapBadge": "ROADMAP DI KAAN",
+  "keyFeatures": [
+    "Ritmo episodico accessibile con scene narrative e di combattimento da 45–60 minuti",
+    "Combattimento cinetico dinamico basato sul piazzamento dadi e combo di manovre",
+    "Applicazione complementare che funge da master automatizzato e narratore reattivo",
+    "Trama a bivi suddivisa in più atti con scelte significative e percorsi multipli"
+  ],
+  "scopes": {
+    "fateforge_standard": {
+      "name": "Cronaca Principale Standard",
+      "description": "L'esperienza di campagna completa in tre atti che copre la narrazione principale, le scene secondarie chiave e i potenziamenti degli eroi."
+    },
+    "fateforge_story": {
+      "name": "Focus Narrativo (Trama Principale)",
+      "description": "Un percorso mirato attraverso le missioni essenziali dei tre atti con deviazioni secondarie minime."
+    },
+    "fateforge_completionist": {
+      "name": "Grande Saga ed Espansione",
+      "description": "Esplorazione esaustiva di tutti i rami narrativi, sfide segrete e contenuti dell'espansione Clash of the Immortals."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Atto I",
+      "title": "Infiltrazione nei Sobborghi",
+      "phase": "Atto I - Ombre delle Terre di Confine",
+      "description": "Ingresso nelle turbolente terre di Kaan, superamento delle scaramucce iniziali e consolidamento della reputazione del gruppo coi primi alleati."
+    },
+    {
+      "order": 2,
+      "badgeText": "Atto II",
+      "title": "Il Cuore dell'Intrigo",
+      "phase": "Atto II - Il Bastione Assediato",
+      "description": "Svelamento del tradimento politico nella roccaforte, battaglie tattiche sempre più serrate e scoperta della cospirazione che minaccia Eana."
+    },
+    {
+      "order": 3,
+      "badgeText": "Atto III",
+      "title": "Il Destino del Regno Libero",
+      "phase": "Atto III - Culmine degli Immortali",
+      "description": "Scontro con la forza avversaria definitiva in un epico confronto a più fasi, decidendo le sorti del regno e consacrando l'eterna cronaca di Kaan."
+    }
+  ]
+}

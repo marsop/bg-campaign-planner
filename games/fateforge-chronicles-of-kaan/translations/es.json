@@ -1,0 +1,52 @@
+{
+  "title": "Fateforge: Chronicles of Kaan",
+  "subtitle": "Una campaña cooperativa de acción y aventura con app, combate táctico y narrativa fantástica ramificada",
+  "tagline": "Desata maniobras cinéticas con dados y forja tu leyenda en las tierras de Kaan",
+  "loreSummary": "En el vibrante y peligroso mundo de Eana, encarnáis a héroes que navegan entre intrigas políticas, conspiraciones arcanas y fieras bestias. Guiados por un director de juego digital inmersivo, cada decisión moldea la crónica de Kaan.",
+  "badgeCategory": "RPG de Acción con App",
+  "roadmapTitle": "🗺️ Crónica de Kaan y Progresión de Campaña",
+  "roadmapBadge": "HOJA DE RUTA DE KAAN",
+  "keyFeatures": [
+    "Ritmo episódico ágil con escenas narrativas y de combate de 45 a 60 minutos",
+    "Combate cinético dinámico impulsado por colocación de dados y combos de maniobras",
+    "Aplicación complementaria que actúa como director de juego y narrador reactivo",
+    "Trama ramificada en varios actos con decisiones trascendentales y rutas diversas"
+  ],
+  "scopes": {
+    "fateforge_standard": {
+      "name": "Crónica Principal Estándar",
+      "description": "La experiencia de campaña completa en tres actos que abarca la trama central, escenas secundarias clave y mejoras de personajes."
+    },
+    "fateforge_story": {
+      "name": "Enfoque Narrativo (Trama Central)",
+      "description": "Una ruta directa a través de las misiones narrativas críticas de los tres actos con mínimas desviaciones opcionales."
+    },
+    "fateforge_completionist": {
+      "name": "Gran Saga y Expansión",
+      "description": "Exploración exhaustiva de todas las ramas narrativas, desafíos ocultos y el contenido de la expansión Clash of the Immortals."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acto I",
+      "title": "Infiltración en la Periferia",
+      "phase": "Acto I - Sombras de las Fronteras",
+      "description": "Llegada a las turbulentas tierras de Kaan, superando las escaramuzas iniciales y forjando la reputación del grupo ante aliados locales."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acto II",
+      "title": "El Núcleo de la Intriga",
+      "phase": "Acto II - Bastión Asediado",
+      "description": "Desentrañando la traición política en el bastión fortificado, librando intensas batallas tácticas y descubriendo la conspiración que amenaza a Eana."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acto III",
+      "title": "El Destino del Reino Libre",
+      "phase": "Acto III - Clímax de los Inmortales",
+      "description": "Enfrentamiento a la fuerza adversaria definitiva en una batalla culminante, decidiendo el destino del reino y sellando la leyenda de Kaan."
+    }
+  ]
+}

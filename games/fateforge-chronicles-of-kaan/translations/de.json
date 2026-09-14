@@ -1,0 +1,52 @@
+{
+  "title": "Fateforge: Chronicles of Kaan",
+  "subtitle": "Eine App-gestützte kooperative Action-Adventure-Kampagne mit taktischen Kämpfen und verzweigter Fantasy-Handlung",
+  "tagline": "Entfessle dynamische Würfelmanöver und schmiede deine Legende im Reich von Kaan",
+  "loreSummary": "In der lebendigen, aber gefährlichen Welt von Eana seid ihr Helden, die sich durch politische Intrigen, uralte Verschwörungen und wilde Bestien kämpfen. Geführt von einem atmosphärischen digitalen Spielleiter formt jede Entscheidung die Chronik von Kaan.",
+  "badgeCategory": "App-gestütztes Action-RPG",
+  "roadmapTitle": "🗺️ Chronik von Kaan & Kampagnenfortschritt",
+  "roadmapBadge": "KAAN-ROADMAP",
+  "keyFeatures": [
+    "Kurzweiliges episodisches Pacing mit 45–60-minütigen Kampf- und Erzählszenen",
+    "Dynamische kinetische Kämpfe durch cleveres Würfel-Placement und Manöver-Kombos",
+    "Begleit-App als vollautomatischer Spielleiter und reaktiver Geschichtenerzähler",
+    "Verzweigte Handlung über mehrere Akte mit bedeutungsvollen Entscheidungen"
+  ],
+  "scopes": {
+    "fateforge_standard": {
+      "name": "Standard-Chronik (3 Akte)",
+      "description": "Das vollständige dreiteilige Kampagnenerlebnis mit der Haupthandlung, entscheidenden Nebenszenen und Charakter-Upgrades."
+    },
+    "fateforge_story": {
+      "name": "Fokus Haupthandlung",
+      "description": "Ein zielgerichteter Durchlauf der zentralen Story-Missionen aller drei Akte mit minimalen optionalen Abstechern."
+    },
+    "fateforge_completionist": {
+      "name": "Große Saga & Erweiterung",
+      "description": "Umfassende Kampagne inklusive aller alternativen Erzählpfade, geheimer Herausforderungen und der Erweiterung Clash of the Immortals."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Akt I",
+      "title": "Infiltration der Außenbezirke",
+      "phase": "Akt I - Schatten der Grenzlande",
+      "description": "Eintritt in die unruhigen Lande von Kaan, Bewältigung erster Gefechte und Aufbau des Rufs eurer Gruppe bei lokalen Verbündeten."
+    },
+    {
+      "order": 2,
+      "badgeText": "Akt II",
+      "title": "Das Herz der Intrige",
+      "phase": "Akt II - Bastion unter Belagerung",
+      "description": "Aufdeckung politischer Verräter in der befestigten Festung, taktische Eskalation der Kämpfe und Entdeckung der Verschwörung gegen Eana."
+    },
+    {
+      "order": 3,
+      "badgeText": "Akt III",
+      "title": "Schicksal der Freien Lande",
+      "phase": "Akt III - Finale der Unsterblichen",
+      "description": "Konfrontation mit der ultimativen Bedrohung in einem mehrstufigen Showdown, Entscheidung über das Schicksal des Reiches und Vollendung der Chronik von Kaan."
+    }
+  ]
+}

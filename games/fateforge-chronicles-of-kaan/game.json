@@ -1,0 +1,85 @@
+{
+  "id": "fateforge-chronicles-of-kaan",
+  "title": "Fateforge: Chronicles of Kaan",
+  "releaseYear": 2024,
+  "designers": "Gordon Calleja",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.3,
+  "bggWeight": 2.80,
+  "bggUrl": "https://boardgamegeek.com/boardgame/363625/fateforge-chronicles-of-kaan",
+  "baseScenarioMinutes": 55,
+  "setupTeardownMinutes": 15,
+  "unitType": "episodes",
+  "theme": {
+    "primaryColor": "#d4973b",
+    "secondaryColor": "#181716",
+    "accentColor": "#d14234",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2b221a 0%, #171514 60%, #0c0b0a 100%)",
+    "cardBackground": "rgba(26, 23, 22, 0.92)",
+    "borderColor": "rgba(212, 151, 59, 0.38)",
+    "glowColor": "rgba(212, 151, 59, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🐉",
+    "emblem": "⚔️🐉",
+    "themeClass": "theme-fateforge",
+    "activeThemeClass": "theme-fateforge-active",
+    "roadmapClass": "roadmap-fateforge",
+    "heroClass": "hero-fateforge"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #363625 Overall)",
+    "Mighty Boards Official Rulebook & Campaign Architecture Guide",
+    "Studio Agate Fateforge Universe Lore & Scenario Chronicles"
+  ],
+  "scopes": [
+    {
+      "id": "fateforge_standard",
+      "baseScenarioCount": 30,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "fateforge_story",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    },
+    {
+      "id": "fateforge_completionist",
+      "baseScenarioCount": 42,
+      "estimatedFailRatePercent": 14.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🛡️",
+      "badgeText": "Act I",
+      "title": "Infiltration of the Outskirts",
+      "phase": "Act I - Shadows of the Borderlands",
+      "description": "Entering the turbulent lands of Kaan, overcoming initial perimeter skirmishes, and establishing your party's reputation with local allies."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 20,
+      "iconEmoji": "⚔️",
+      "badgeText": "Act II",
+      "title": "The Heart of the Intrigue",
+      "phase": "Act II - Citadel Under Siege",
+      "description": "Unraveling political treachery within the fortified bastion, braving escalated tactical skirmishes, and discovering the conspiracy threatening Eana."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 30,
+      "iconEmoji": "🐉",
+      "badgeText": "Act III",
+      "title": "Fate of the Free Realm",
+      "phase": "Act III - Climax of the Immortals",
+      "description": "Confronting the ultimate adversarial force in a multi-stage showdown, deciding the balance of power, and cementing the legendary chronicle of Kaan."
+    }
+  ]
+}

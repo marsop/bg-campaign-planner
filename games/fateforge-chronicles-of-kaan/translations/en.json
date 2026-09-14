@@ -1,0 +1,52 @@
+{
+  "title": "Fateforge: Chronicles of Kaan",
+  "subtitle": "An app-driven cooperative action-adventure campaign of tactical combat and branching fantasy narrative",
+  "tagline": "Unleash kinetic dice maneuvers and forge your legend across the realm of Kaan",
+  "loreSummary": "In the vibrant yet perilous world of Eana, you are heroes navigating political intrigue, ancient conspiracies, and ferocious beasts. Guided by an atmospheric digital game master, every decision shapes the unfolding chronicle of Kaan.",
+  "badgeCategory": "App-Driven Action RPG",
+  "roadmapTitle": "🗺️ Chronicle of Kaan & Campaign Progression",
+  "roadmapBadge": "CHRONICLES ROADMAP",
+  "keyFeatures": [
+    "Bite-sized episodic pacing with 45–60 minute combat and narrative scenes",
+    "Dynamic kinetic combat powered by clever dice placement and combo maneuvers",
+    "Digital companion app acting as an automated game master and reactive storyteller",
+    "Branching multi-act storyline with meaningful choices and varied campaign paths"
+  ],
+  "scopes": {
+    "fateforge_standard": {
+      "name": "Standard Core Chronicle",
+      "description": "The complete three-act campaign experience covering the central storyline, pivotal side scenes, and key character upgrades."
+    },
+    "fateforge_story": {
+      "name": "Story Focus (Main Arc)",
+      "description": "A streamlined path through the critical narrative missions of all three acts with minimal optional side diversions."
+    },
+    "fateforge_completionist": {
+      "name": "Grand Saga & Expansion",
+      "description": "Exhaustive exploration of all branching narrative branches, hidden challenges, and the Clash of the Immortals expansion content."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Act I",
+      "title": "Infiltration of the Outskirts",
+      "phase": "Act I - Shadows of the Borderlands",
+      "description": "Entering the turbulent lands of Kaan, overcoming initial perimeter skirmishes, and establishing your party's reputation with local allies."
+    },
+    {
+      "order": 2,
+      "badgeText": "Act II",
+      "title": "The Heart of the Intrigue",
+      "phase": "Act II - Citadel Under Siege",
+      "description": "Unraveling political treachery within the fortified bastion, braving escalated tactical skirmishes, and discovering the conspiracy threatening Eana."
+    },
+    {
+      "order": 3,
+      "badgeText": "Act III",
+      "title": "Fate of the Free Realm",
+      "phase": "Act III - Climax of the Immortals",
+      "description": "Confronting the ultimate adversarial force in a multi-stage showdown, deciding the balance of power, and cementing the legendary chronicle of Kaan."
+    }
+  ]
+}

@@ -52,8 +52,63 @@
         </div>
     </div>
 
-    <!-- SESSIONS TABLE / LIST -->
-    <div class="table-responsive sessions-table-wrapper">
+    <!-- SESSIONS LIST (MOBILE PHONES < 576px) -->
+    <div class="sessions-mobile-list d-block d-sm-none">
+        @foreach (var session in DisplayedSessions)
+        {
+            var isMilestone = IsSessionMilestone(session);
+            <div class="session-mobile-card p-3 rounded mb-2 @(isMilestone ? "milestone-mobile-card" : "")">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="badge @(isMilestone ? "bg-warning text-dark" : "bg-secondary") fw-bold">
+                            #@session.SessionNumber
+                        </span>
+                        <span class="fw-bold text-main small">@session.Date.ToString("ddd, MMM d, yyyy", CultureInfo.CurrentCulture)</span>
+                    </div>
+                    <span class="text-info small fw-semibold">
+                        <i class="bi bi-clock me-1"></i>@session.EstimatedSessionHours.ToString("F1", CultureInfo.CurrentCulture) @Loc["Kpi.HoursUnit"]
+                    </span>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center text-muted small mb-1">
+                    <span>
+                        <i class="bi bi-hourglass-split me-1"></i>@session.StartDateTime.ToString("t", CultureInfo.CurrentCulture) - @session.EndDateTime.ToString("t", CultureInfo.CurrentCulture)
+                    </span>
+                    <span class="badge scenario-range-badge border">
+                        @(session.StartScenarioIndex == session.EndScenarioIndex 
+                            ? $"{session.StartScenarioIndex}" 
+                            : $"{session.StartScenarioIndex} – {session.EndScenarioIndex}")
+                        <span class="ms-1 opacity-75">(@session.ScenariosPlayedInSession)</span>
+                    </span>
+                </div>
+
+                @if (isMilestone)
+                {
+                    <div class="milestone-mobile-badge mt-2 pt-2 border-top border-secondary border-opacity-25 d-flex align-items-center gap-2">
+                        <span class="badge bg-warning text-dark flex-shrink-0">@Loc["Timeline.MilestoneBadge"]</span>
+                        <div class="text-truncate">
+                            @if (ShowSpoilers && !string.IsNullOrEmpty(session.CampaignMilestoneNote ?? session.MilestoneNote))
+                            {
+                                <strong class="milestone-note-text small">@(session.CampaignMilestoneNote ?? session.MilestoneNote)</strong>
+                                var phase = session.CampaignMilestonePhase ?? session.MilestonePhase;
+                                if (!string.IsNullOrEmpty(phase))
+                                {
+                                    <span class="small text-muted ms-1">(@phase)</span>
+                                }
+                            }
+                            else
+                            {
+                                <strong class="milestone-note-text small">@Loc["Timeline.HiddenMilestoneNote"] #@(session.GenericMilestoneOrder ?? session.MilestoneOrder ?? 1)</strong>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+
+    <!-- SESSIONS TABLE (DESKTOP & TABLETS >= 576px) -->
+    <div class="table-responsive sessions-table-wrapper d-none d-sm-block">
         <table class="table table-hover table-dark-custom align-middle">
             <thead>
                 <tr>
@@ -122,7 +177,25 @@
     <!-- PAGINATION -->
     @if (TotalPages > 1)
     {
-        <div class="d-flex justify-content-between align-items-center mt-3">
+        <!-- Mobile Compact Pagination (< 576px) -->
+        <div class="d-flex d-sm-none justify-content-between align-items-center mt-3 pt-2 border-top border-secondary border-opacity-10">
+            <button class="btn btn-sm btn-outline-secondary px-3"
+                    disabled="@(CurrentPage <= 1)"
+                    @onclick="() => CurrentPage--">
+                <i class="bi bi-chevron-left me-1"></i>@Loc["Timeline.PrevBtn"]
+            </button>
+            <span class="small fw-semibold text-muted-light">
+                @CurrentPage / @TotalPages
+            </span>
+            <button class="btn btn-sm btn-outline-secondary px-3"
+                    disabled="@(CurrentPage >= TotalPages)"
+                    @onclick="() => CurrentPage++">
+                @Loc["Timeline.NextBtn"]<i class="bi bi-chevron-right ms-1"></i>
+            </button>
+        </div>
+
+        <!-- Desktop Pagination (>= 576px) -->
+        <div class="d-none d-sm-flex justify-content-between align-items-center mt-3">
             <button class="btn btn-sm btn-outline-secondary"
                     disabled="@(CurrentPage <= 1)"
                     @onclick="() => CurrentPage--">

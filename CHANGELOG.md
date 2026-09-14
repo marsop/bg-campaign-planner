@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.26.0] - 2026-09-14
+
+### Added
+- **Mobile and Small-Screen Responsive Layout**:
+  - Full optimization and layout adaptations for mobile phones (320px–576px) and tablets (577px–768px).
+  - **Dedicated Mobile Session Cards**: Replaces wide calendar tables on screens < 576px with sleek touch-friendly session cards displaying session numbers, dates, times, durations, scenario counts, and highlighted milestone indicators.
+  - **Compact Mobile Pagination**: Added stream-lined `Prev`, `Page X / Y`, and `Next` controls for mobile phones, preventing page number buttons from wrapping or clipping.
+  - **Fluid Typography & Responsive Spacing**: Scaled hero brand headers, game titles, thematic headers, and card paddings dynamically across viewports.
+  - **iOS Safari Optimization**: Guaranteed 16px minimum font size on search and filter inputs to prevent intrusive browser auto-zooming on focus.
+  - **Touch-Friendly Controls**: Distributed segmented buttons for frequency modes, 7-day selector pills, and quick date/time presets to fit mobile screen widths neatly.
+  - **Viewport Boundary Protection**: Prevented accidental horizontal scrolling across all campaign views.
+- **New Board Game Added**:
+  - Added support for **Fateforge: Chronicles of Kaan**, the app-driven cooperative action-adventure campaign game by Gordon Calleja (Mighty Boards & Studio Agate, 2024).
+  - 3 campaign scope presets: *Standard Core Chronicle* (30 episodes, recommended), *Story Focus (Main Arc)* (20 episodes), and *Grand Saga & Expansion* (42 episodes).
+  - 3 narrative milestone checkpoints spanning the three core narrative acts with spoiler protection (*Infiltration of the Outskirts*, *The Heart of the Intrigue*, and *Fate of the Free Realm*).
+  - Thematic visual identity (desert gold `#d4973b`, shadow obsidian `#181716`, and dragon-wing crimson `#d14234` styling with Cinzel decorative header font, authentic 1:1 flat front box cover art, and atmospheric backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.25.0] - 2026-09-14
 
 ### Added

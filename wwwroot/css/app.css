@@ -113,12 +113,14 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    overflow-x: hidden;
     transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 .planner-app-container {
     position: relative;
     min-height: 100vh;
+    overflow-x: hidden;
     transition: background-color 0.25s ease, color 0.25s ease;
 }
 
@@ -1882,6 +1884,27 @@ body {
     color: var(--theme-accent, var(--accent-gold-text));
 }
 
+/* Mobile Session Card styling (< 576px) */
+.session-mobile-card {
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease;
+}
+
+.session-mobile-card:hover {
+    border-color: var(--border-color-focus);
+}
+
+.session-mobile-card.milestone-mobile-card {
+    background: var(--theme-glow, rgba(245, 158, 11, 0.12)) !important;
+    border-left: 3px solid var(--theme-primary, var(--accent-gold));
+}
+
+.milestone-mobile-badge {
+    border-color: var(--border-color-subtle) !important;
+}
+
 /* ==========================================================================
    10. APP FOOTER
    ========================================================================== */
@@ -1972,6 +1995,7 @@ body {
    12. RESPONSIVE CARD SPACING (TABLETS / MOBILES)
    ========================================================================== */
 
+/* Tablets & Small Laptops (max-width: 768px) */
 @media (max-width: 768px) {
     .planner-form-card,
     .roadmap-card,
@@ -1985,7 +2009,7 @@ body {
     }
 
     .kpi-card {
-        padding: 1.35rem 1.15rem 1.15rem;
+        padding: 1.25rem 1rem 1rem;
     }
 
     .form-section-header,
@@ -1994,6 +2018,477 @@ body {
     .dashboard-header {
         margin-bottom: 1.25rem !important;
         padding-bottom: 0.85rem;
+    }
+
+    .brand-title {
+        font-size: clamp(1.6rem, 5vw, 2.4rem);
+    }
+}
+
+/* Mobile Phones (max-width: 576px) */
+@media (max-width: 576px) {
+    /* 1. Containers & Base Spacing */
+    .container {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    .section-block {
+        margin-top: 1.35rem;
+    }
+
+    .section-badge-title {
+        font-size: 1.02rem;
+        gap: 0.5rem;
+    }
+
+    .step-badge {
+        font-size: 0.7rem;
+        padding: 0.15rem 0.45rem;
+    }
+
+    .planner-form-card,
+    .roadmap-card,
+    .sessions-timeline-card,
+    .thematic-hero-card,
+    .game-selection-card {
+        padding: 1.15rem 0.85rem 0.85rem;
+        border-radius: 14px;
+    }
+
+    .form-section-header,
+    .roadmap-header,
+    .timeline-header,
+    .dashboard-header {
+        margin-bottom: 1rem !important;
+        padding-bottom: 0.65rem;
+    }
+
+    /* 2. App Hero Header */
+    .app-hero-header {
+        padding-top: 0.85rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .brand-title {
+        font-size: clamp(1.35rem, 6.5vw, 1.95rem) !important;
+        line-height: 1.2;
+    }
+
+    .app-hero-header .lead {
+        font-size: 0.88rem;
+        line-height: 1.45;
+        margin-bottom: 0.25rem;
+    }
+
+    /* 3. Wizard Breadcrumb */
+    .wizard-breadcrumb {
+        margin-top: 1.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .wizard-steps-track {
+        padding: 0.5rem 0.4rem;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+
+    .wizard-step-node {
+        min-width: 48px;
+        padding: 0.15rem 0.2rem;
+        gap: 0.2rem;
+    }
+
+    .wizard-step-circle {
+        width: 28px;
+        height: 28px;
+        font-size: 0.75rem;
+    }
+
+    .wizard-connector {
+        min-width: 10px;
+        margin-top: 14px;
+    }
+
+    .wizard-step-label {
+        font-size: 0.65rem;
+        letter-spacing: 0.02em;
+    }
+
+    /* 4. Game Filters & Search */
+    .game-filter-bar {
+        padding: 0.85rem 0.75rem;
+        border-radius: 12px;
+    }
+
+    .game-search-input {
+        font-size: 16px; /* Prevents auto-zoom in iOS Safari */
+        padding: 0.55rem 2.2rem 0.55rem 2.2rem;
+    }
+
+    .btn-advanced-toggle {
+        width: 100%;
+        padding: 0.5rem 0.85rem;
+        font-size: 0.825rem;
+    }
+
+    .filter-select-custom {
+        width: 100%;
+        font-size: 16px; /* Prevents auto-zoom in iOS Safari */
+    }
+
+    .filter-pills-group {
+        gap: 0.35rem;
+    }
+
+    .btn-filter-pill {
+        padding: 0.35rem 0.65rem;
+        font-size: 0.78rem;
+    }
+
+    .filter-status-row {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 0.6rem;
+    }
+
+    .filter-reset-link {
+        align-self: flex-end;
+    }
+
+    /* 5. Game Selection Cards */
+    .game-identity-header {
+        min-height: auto;
+        margin-bottom: 0.85rem !important;
+    }
+
+    .game-cover-box {
+        width: 58px;
+        height: 58px;
+        min-width: 58px;
+        min-height: 58px;
+        border-radius: 10px;
+    }
+
+    .game-title {
+        font-size: 1.22rem;
+    }
+
+    .game-subtitle {
+        min-height: auto;
+        font-size: 0.82rem;
+        margin-bottom: 0.35rem;
+    }
+
+    .game-author {
+        font-size: 0.75rem;
+    }
+
+    .game-meta-pills {
+        gap: 0.35rem;
+        margin-bottom: 0.85rem !important;
+    }
+
+    .meta-pill {
+        font-size: 0.74rem;
+        padding: 0.22rem 0.45rem;
+    }
+
+    .game-lore-snippet {
+        min-height: auto;
+        -webkit-line-clamp: 2;
+        font-size: 0.8rem;
+        margin-bottom: 0.75rem;
+        line-height: 1.4;
+    }
+
+    .key-features-list .feature-item {
+        font-size: 0.78rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .card-footer-action {
+        margin-top: 1rem;
+    }
+
+    .btn-select-game {
+        padding: 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    /* 6. Thematic Game Hero */
+    .hero-badge-strip {
+        gap: 0.35rem;
+        margin-bottom: 0.85rem;
+        padding-bottom: 0.55rem;
+    }
+
+    .hero-badge {
+        font-size: 0.7rem;
+    }
+
+    .hero-cover-box {
+        width: 64px;
+        height: 64px;
+        min-width: 64px;
+        min-height: 64px;
+    }
+
+    .hero-main-title {
+        font-size: 1.55rem;
+    }
+
+    .hero-main-subtitle {
+        font-size: 0.88rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .hero-lore-box {
+        padding: 0.65rem 0.75rem;
+        font-size: 0.82rem;
+    }
+
+    .lore-icon {
+        font-size: 1.1rem;
+    }
+
+    .lore-text {
+        font-size: 0.82rem;
+    }
+
+    .hero-side-panel {
+        padding: 0.95rem 0.85rem;
+    }
+
+    .bgg-hero-btn {
+        padding: 0.4rem 0.65rem;
+        font-size: 0.82rem;
+    }
+
+    /* 7. Planner Form */
+    .scope-card {
+        padding: 0.85rem 0.85rem;
+    }
+
+    .scope-name {
+        font-size: 0.95rem;
+    }
+
+    .scope-scenarios {
+        font-size: 0.8rem;
+    }
+
+    .scope-desc {
+        font-size: 0.78rem;
+    }
+
+    .frequency-button-group {
+        display: flex;
+        width: 100%;
+    }
+
+    .btn-freq-tab {
+        flex: 1 1 0;
+        text-align: center;
+        padding: 0.45rem 0.3rem;
+        font-size: 0.78rem;
+    }
+
+    .freq-subcontrols-box {
+        padding: 0.85rem 0.75rem !important;
+    }
+
+    .day-pill {
+        flex: 1 1 0;
+        min-width: 34px;
+        text-align: center;
+        padding: 0.35rem 0.15rem;
+        font-size: 0.72rem;
+    }
+
+    .btn-counter {
+        flex: 1 1 0;
+        text-align: center;
+        padding: 0.35rem 0.3rem;
+    }
+
+    .btn-session-len {
+        padding: 0.45rem 0.2rem;
+    }
+
+    .btn-session-len .fs-5 {
+        font-size: 1.15rem !important;
+    }
+
+    .btn-session-len .small {
+        font-size: 0.72rem;
+    }
+
+    .form-control-custom,
+    .form-select-custom {
+        font-size: 16px; /* Prevents auto-zoom in iOS Safari */
+    }
+
+    .date-preset-row .btn,
+    .time-preset-row .btn {
+        font-size: 0.72rem;
+        padding: 0.25rem 0.3rem;
+    }
+
+    .form-check-label {
+        font-size: 0.82rem !important;
+    }
+
+    /* 8. KPI Summary Cards */
+    .kpi-card {
+        padding: 0.85rem 0.65rem 0.75rem;
+        border-radius: 12px;
+    }
+
+    .kpi-icon {
+        font-size: 1.3rem;
+        margin-bottom: 0.35rem;
+    }
+
+    .kpi-value {
+        font-size: 1.45rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .kpi-date {
+        font-size: 1.05rem;
+    }
+
+    .kpi-unit {
+        font-size: 0.78rem;
+    }
+
+    .kpi-label {
+        font-size: 0.7rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .kpi-subtext {
+        font-size: 0.7rem;
+        line-height: 1.3;
+    }
+
+    .progress-breakdown-card {
+        padding: 0.95rem 0.75rem !important;
+    }
+
+    .velocity-milestones-container .col-6 {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .velocity-milestone-chip {
+        padding: 0.4rem 0.45rem !important;
+    }
+
+    .velocity-milestone-chip .small {
+        font-size: 0.72rem !important;
+    }
+
+    .velocity-milestone-chip .badge {
+        font-size: 0.65rem !important;
+    }
+
+    /* 9. Thematic Roadmap */
+    .roadmap-title {
+        font-size: 1.15rem;
+    }
+
+    .milestone-step-card {
+        padding: 0.95rem 0.85rem;
+        border-radius: 12px;
+    }
+
+    .milestone-title {
+        font-size: 0.95rem;
+    }
+
+    .milestone-icon-circle {
+        font-size: 1.45rem;
+        margin-bottom: 0.5rem !important;
+    }
+
+    /* 10. Sessions Timeline */
+    .timeline-title {
+        font-size: 1.15rem;
+    }
+
+    .timeline-header {
+        flex-direction: column;
+        align-items: stretch !important;
+        gap: 0.75rem;
+    }
+
+    .btn-export {
+        width: 100%;
+        padding: 0.45rem 1rem;
+    }
+
+    .timeline-controls {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 0.5rem;
+    }
+
+    /* 11. Modal Dialogs */
+    .modal-dialog {
+        margin: 0.75rem;
+    }
+
+    .app-version-modal-content {
+        border-radius: 14px;
+    }
+
+    .app-version-modal-content .modal-body {
+        padding: 1rem !important;
+    }
+
+    .version-meta-item {
+        font-size: 0.85rem;
+    }
+
+    /* 12. Footer */
+    .app-footer {
+        padding-top: 1.25rem !important;
+        padding-bottom: 1.25rem !important;
+    }
+
+    .app-footer .small {
+        font-size: 0.78rem;
+    }
+}
+
+/* Extra Small Phones (max-width: 380px) */
+@media (max-width: 380px) {
+    .wizard-steps-track {
+        padding: 0.4rem 0.25rem;
+    }
+
+    .wizard-step-node {
+        min-width: 42px;
+    }
+
+    .wizard-step-label {
+        font-size: 0.6rem;
+    }
+
+    .kpi-value {
+        font-size: 1.28rem;
+    }
+
+    .kpi-date {
+        font-size: 0.95rem;
+    }
+
+    .day-pill {
+        font-size: 0.68rem;
+        min-width: 30px;
+        padding: 0.3rem 0.1rem;
     }
 }
 
