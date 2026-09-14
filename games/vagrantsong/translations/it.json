@@ -1,0 +1,53 @@
+{
+  "title": "Vagrantsong",
+  "subtitle": "Una lugubre campagna di scontri con boss a bordo di un treno fantasma soprannaturale",
+  "tagline": "Ripristina le anime perdute o viaggia sui binari per sempre",
+  "loreSummary": "Siete vagabondi intrappolati su un treno maledetto, circondati da spiriti tormentati chiamati haints. Solo scoprendo l'umanità sepolta in ogni anima perduta potrete trovare la via d'uscita dal treno.",
+  "badgeCategory": "Campagna Horror con Scontri Boss",
+  "roadmapTitle": "🚂 Cronaca del Treno Fantasma & Viaggio di Campagna",
+  "roadmapBadge": "TRENO FANTASMA",
+  "keyFeatures": [
+    "Scontri unici con ogni boss — ogni haint ha meccaniche e narrativa speciali",
+    "Fase Accampamento tra gli scenari — cura, potenzia abilità e preparati",
+    "Economia d'azione basata su monete — spendile per muoverti, investigare e attaccare",
+    "Ripristinare l'umanità invece di sconfiggere semplicemente i boss",
+    "Atmosfera di horror gotico sudista con uno stile artistico evocativo"
+  ],
+  "scopes": {
+    "vagrantsong_core": {
+      "name": "Campagna Principale (3 Capitoli)",
+      "description": "La campagna completa del gioco base attraverso i tre capitoli, affrontando i boss di ogni vagone stregato e scoprendo il segreto oscuro del treno fantasma."
+    },
+    "vagrantsong_standard": {
+      "name": "Partita Standard con Storie Secondarie",
+      "description": "Campagna principale con carte narrative extra dell'accampamento e incontri facoltativi che arricchiscono la narrazione tra i grandi scontri con i boss."
+    },
+    "vagrantsong_encore": {
+      "name": "Espansione Encore (Viaggio Completo)",
+      "description": "L'esperienza completa che unisce la campagna del gioco base con la seconda campagna dell'espansione Encore — un'odissea soprannaturale dall'inizio alla fine."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Cap. 1",
+      "title": "La Prima Fermata",
+      "phase": "Capitolo Uno – Salire a Bordo del Treno Fantasma",
+      "description": "I vostri vagabondi sono sopravvissuti ai primi incontri sul treno maledetto, cominciando a comprendere la natura degli haints e lo strano potere dell'umanità."
+    },
+    {
+      "order": 2,
+      "badgeText": "Cap. 2",
+      "title": "Nelle Profondità dell'Oscurità",
+      "phase": "Capitolo Due – Nel Cuore del Treno",
+      "description": "I segreti del treno si fanno più oscuri mentre i vostri vagabondi avanzano, affrontando haints sempre più potenti e scoprendo la verità dietro il viaggio soprannaturale."
+    },
+    {
+      "order": 3,
+      "badgeText": "Cap. 3",
+      "title": "La Resa dei Conti Finale",
+      "phase": "Capitolo Tre – L'Ultima Stazione",
+      "description": "Tutti i percorsi convergono mentre i vostri vagabondi affrontano il confronto definitivo che determinerà se riusciranno a ripristinare abbastanza umanità per fuggire per sempre dal treno fantasma."
+    }
+  ]
+}

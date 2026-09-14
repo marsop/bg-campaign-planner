@@ -1,0 +1,53 @@
+{
+  "title": "Vagrantsong",
+  "subtitle": "Ein gruseliges Boss-Kampf-Abenteuer an Bord eines übernatürlichen Geisterzuges",
+  "tagline": "Rette verlorene Seelen oder fahre für immer auf den Schienen",
+  "loreSummary": "Du bist ein Landstreicher, gefangen in einem verfluchten Geisterzug, umgeben von gequälten Geistern namens Haints. Nur indem du die Menschlichkeit in jeder verlorenen Seele aufdeckst, kannst du den Weg aus dem Zug finden.",
+  "badgeCategory": "Horror Boss-Kampf-Kampagne",
+  "roadmapTitle": "🚂 Geisterzug-Chronik & Kampagnenreise",
+  "roadmapBadge": "GEISTERZUG",
+  "keyFeatures": [
+    "Einzigartige Bosskämpfe — jeder Haint hat besondere Mechaniken und Narration",
+    "Lagerphase zwischen Szenarien — heilen, Fähigkeiten verbessern und vorbereiten",
+    "Münzbasierte Aktionswirtschaft — Münzen für Bewegung, Erkundung und Angriff ausgeben",
+    "Menschlichkeit wiederherstellen statt Bosse einfach zu besiegen",
+    "Atmosphärisches Southern Gothic Horror-Thema mit eindrucksvollem Kunststil"
+  ],
+  "scopes": {
+    "vagrantsong_core": {
+      "name": "Kernkampagne (3 Kapitel)",
+      "description": "Die vollständige Grundspielkampagne über alle drei Kapitel, in der du die Bosse jedes verfluchten Zugwaggons bekämpfst und das dunkle Geheimnis des Geisterzuges enthüllst."
+    },
+    "vagrantsong_standard": {
+      "name": "Standarddurchlauf mit Nebengeschichten",
+      "description": "Kernkampagne plus zusätzliche Lagerkarten und optionale Begegnungen, die die Erzählung zwischen den großen Bosskämpfen bereichern."
+    },
+    "vagrantsong_encore": {
+      "name": "Encore-Erweiterung (Komplette Reise)",
+      "description": "Das vollständige Erlebnis, das die Grundspielkampagne mit der zweiten Kampagne der Encore-Erweiterung verbindet — eine komplette übernatürliche Odyssee."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Kap. 1",
+      "title": "Der Erste Halt",
+      "phase": "Kapitel Eins – Das Einsteigen in den Geisterzug",
+      "description": "Eure Landstreicher haben ihre ersten Begegnungen im verfluchten Zug überlebt und beginnen, die Natur der Haints und die seltsame Kraft der Menschlichkeit zu verstehen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Kap. 2",
+      "title": "Tief in die Dunkelheit",
+      "phase": "Kapitel Zwei – In das Herz des Zuges",
+      "description": "Die Geheimnisse des Zuges werden dunkler, während eure Landstreicher tiefer vordringen, immer mächtigeren Haints begegnen und die Wahrheit hinter der übernatürlichen Reise enthüllen."
+    },
+    {
+      "order": 3,
+      "badgeText": "Kap. 3",
+      "title": "Die Letzte Abrechnung",
+      "phase": "Kapitel Drei – Die Letzte Station",
+      "description": "Alle Wege laufen zusammen, als eure Landstreicher der ultimativen Konfrontation gegenüberstehen, die entscheiden wird, ob sie genug Menschlichkeit wiederherstellen können, um den Geisterzug für immer zu verlassen."
+    }
+  ]
+}

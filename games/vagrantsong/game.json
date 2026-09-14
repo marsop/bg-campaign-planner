@@ -1,0 +1,86 @@
+{
+  "id": "vagrantsong",
+  "title": "Vagrantsong",
+  "releaseYear": 2022,
+  "designers": "Matt Carter, Justin Gibbs, Kyle Rowan",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 7.7,
+  "bggWeight": 2.80,
+  "bggUrl": "https://boardgamegeek.com/boardgame/340325/vagrantsong",
+  "baseScenarioMinutes": 75,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "theme": {
+    "primaryColor": "#c8a850",
+    "secondaryColor": "#1a1210",
+    "accentColor": "#8b3a3a",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2a1e14 0%, #150f0a 60%, #0c0808 100%)",
+    "cardBackground": "rgba(26, 18, 16, 0.92)",
+    "borderColor": "rgba(200, 168, 80, 0.35)",
+    "glowColor": "rgba(200, 168, 80, 0.22)",
+    "headerFont": "'Special Elite', 'Courier New', monospace",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🚂",
+    "emblem": "👻🚂",
+    "themeClass": "theme-vagrantsong",
+    "activeThemeClass": "theme-vagrantsong-active",
+    "roadmapClass": "roadmap-vagrantsong",
+    "heroClass": "hero-vagrantsong"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek – Vagrantsong (BGG #340325)",
+    "Wyrd Games Official Rulebook & Publisher Description",
+    "BoardGameQuest Review – Average session 45–90 min",
+    "Community Campaign Logs & Reddit Discussions (r/boardgames)"
+  ],
+  "scopes": [
+    {
+      "id": "vagrantsong_core",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "vagrantsong_standard",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 28.0,
+      "isRecommended": false
+    },
+    {
+      "id": "vagrantsong_encore",
+      "baseScenarioCount": 35,
+      "estimatedFailRatePercent": 30.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🚂",
+      "badgeText": "Ch. 1",
+      "title": "The First Stop",
+      "phase": "Chapter One – Boarding the Ghost Train",
+      "description": "Your vagrants have survived their first encounters on the cursed train, beginning to understand the nature of the haints and the strange power of humanity."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🌫️",
+      "badgeText": "Ch. 2",
+      "title": "Deep into the Darkness",
+      "phase": "Chapter Two – Into the Heart of the Train",
+      "description": "The train's secrets grow darker as your vagrants press deeper, facing increasingly powerful haints and uncovering the truth behind the supernatural journey."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "🕯️",
+      "badgeText": "Ch. 3",
+      "title": "The Final Reckoning",
+      "phase": "Chapter Three – The Last Station",
+      "description": "All paths converge as your vagrants face the ultimate confrontation that will determine whether they can restore enough humanity to escape the ghost train forever."
+    }
+  ]
+}

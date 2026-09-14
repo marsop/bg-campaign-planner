@@ -1,0 +1,53 @@
+{
+  "title": "Vagrantsong",
+  "subtitle": "A haunting boss-battler campaign aboard a supernatural ghost train",
+  "tagline": "Restore lost souls or ride the rails forever",
+  "loreSummary": "You are vagrants trapped on a cursed ghost train, surrounded by tortured spirits called haints. Only by uncovering the humanity buried within each lost soul can you hope to find your way off the train.",
+  "badgeCategory": "Horror Boss Battler Campaign",
+  "roadmapTitle": "🚂 Ghost Train Chronicle & Campaign Journey",
+  "roadmapBadge": "GHOST TRAIN",
+  "keyFeatures": [
+    "Unique boss encounters — each haint has special mechanics and narrative",
+    "Camp Phase progression — heal, upgrade skills, and prepare between sessions",
+    "Coin-driven action economy — spend coins to move, investigate, and attack",
+    "Restore humanity instead of simply defeating bosses — a twist on the genre",
+    "Atmospheric Southern Gothic horror theme with striking art style"
+  ],
+  "scopes": {
+    "vagrantsong_core": {
+      "name": "Core Campaign (3 Chapters)",
+      "description": "The full base game campaign across all three chapters, battling each of the haunted train cars' bosses and uncovering the ghost train's dark secret."
+    },
+    "vagrantsong_standard": {
+      "name": "Standard Run with Side Stories",
+      "description": "Core campaign plus additional in-between camp story cards and optional encounters that enrich the narrative between major boss encounters."
+    },
+    "vagrantsong_encore": {
+      "name": "Encore Expansion (Full Journey)",
+      "description": "The complete experience combining the base game campaign with the Encore expansion's second campaign — a full-length supernatural odyssey from boarding to final escape."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ch. 1",
+      "title": "The First Stop",
+      "phase": "Chapter One – Boarding the Ghost Train",
+      "description": "Your vagrants have survived their first encounters on the cursed train, beginning to understand the nature of the haints and the strange power of humanity."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ch. 2",
+      "title": "Deep into the Darkness",
+      "phase": "Chapter Two – Into the Heart of the Train",
+      "description": "The train's secrets grow darker as your vagrants press deeper, facing increasingly powerful haints and uncovering the truth behind the supernatural journey."
+    },
+    {
+      "order": 3,
+      "badgeText": "Ch. 3",
+      "title": "The Final Reckoning",
+      "phase": "Chapter Three – The Last Station",
+      "description": "All paths converge as your vagrants face the ultimate confrontation that will determine whether they can restore enough humanity to escape the ghost train forever."
+    }
+  ]
+}

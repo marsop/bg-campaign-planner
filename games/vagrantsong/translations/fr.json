@@ -1,0 +1,53 @@
+{
+  "title": "Vagrantsong",
+  "subtitle": "Une terrifiante campagne de combats de boss à bord d'un train fantôme surnaturel",
+  "tagline": "Restaurez les âmes perdues ou chevauchezles rails pour l'éternité",
+  "loreSummary": "Vous êtes des vagabonds piégés dans un train maudit, entourés d'esprits tourmentés appelés haints. Seule la découverte de l'humanité enfouie en chaque âme perdue vous permettra de trouver votre chemin hors du train.",
+  "badgeCategory": "Campagne Horreur Combat de Boss",
+  "roadmapTitle": "🚂 Chronique du Train Fantôme & Progression",
+  "roadmapBadge": "TRAIN FANTÔME",
+  "keyFeatures": [
+    "Confrontations uniques avec les boss — chaque haint a ses propres mécaniques et récit",
+    "Phase de Camp entre les scénarios — soignez, améliorez et préparez-vous",
+    "Économie d'actions en pièces — dépensez pour vous déplacer, enquêter et attaquer",
+    "Restaurer l'humanité plutôt que de simplement vaincre les boss",
+    "Thème horreur gothique sudiste avec un style artistique saisissant"
+  ],
+  "scopes": {
+    "vagrantsong_core": {
+      "name": "Campagne Principale (3 Chapitres)",
+      "description": "La campagne complète du jeu de base en trois chapitres, affrontant les boss de chaque wagon hanté et découvrant le sombre secret du train fantôme."
+    },
+    "vagrantsong_standard": {
+      "name": "Parcours Standard avec Histoires Annexes",
+      "description": "Campagne principale avec des cartes narratives supplémentaires du camp et des rencontres optionnelles qui enrichissent le récit entre les grandes confrontations."
+    },
+    "vagrantsong_encore": {
+      "name": "Extension Encore (Voyage Complet)",
+      "description": "L'expérience complète combinant la campagne du jeu de base avec la deuxième campagne de l'extension Encore — une odyssée surnaturelle du début à la fin."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ch. 1",
+      "title": "Le Premier Arrêt",
+      "phase": "Chapitre Un – Montée à Bord du Train Fantôme",
+      "description": "Vos vagabonds ont survécu à leurs premières rencontres dans le train maudit, commençant à comprendre la nature des haints et l'étrange pouvoir de l'humanité."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ch. 2",
+      "title": "Plongée dans les Ténèbres",
+      "phase": "Chapitre Deux – Au Cœur du Train",
+      "description": "Les secrets du train s'assombrissent alors que vos vagabonds progressent, affrontant des haints de plus en plus puissants et dévoilant la vérité derrière ce voyage surnaturel."
+    },
+    {
+      "order": 3,
+      "badgeText": "Ch. 3",
+      "title": "Le Jugement Final",
+      "phase": "Chapitre Trois – La Dernière Gare",
+      "description": "Tous les chemins convergent alors que vos vagabonds font face à la confrontation ultime qui déterminera s'ils peuvent restaurer assez d'humanité pour quitter le train fantôme pour toujours."
+    }
+  ]
+}

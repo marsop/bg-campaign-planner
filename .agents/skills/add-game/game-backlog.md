@@ -10,7 +10,7 @@ requested by the user.
 
 **Currently in app:**
 Gloomhaven · Frosthaven · Pandemic Legacy: Season 0 · Sleeping Gods · Pandemic Legacy: Season 1
-Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures · Chronicles of Drunagor: Age of Darkness · Tanares Adventures · The Isofarian Guard · Betrayal Legacy
+Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures · Chronicles of Drunagor: Age of Darkness · Tanares Adventures · The Isofarian Guard · Betrayal Legacy · Vagrantsong
 
 ---
 
@@ -22,7 +22,7 @@ Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Le
 
 ## 🟧 Medium Priority
 
-- **Vagrantsong** — Unique boss-battler with a train theme and scenario-based campaign. 20-30 hours. ~7.7 BGG. 2-4 players. Boss battler, narrative.
+*(None currently — see Lower Priority below)*
 
 ---
 

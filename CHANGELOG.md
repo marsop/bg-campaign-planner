@@ -7,7 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.17.0] - 2026-09-14
+## [0.18.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Vagrantsong**, a cooperative Southern Gothic horror boss-battler campaign aboard a supernatural ghost train by Wyrd Games.
+  - 3 campaign scope presets: *Core Campaign (3 Chapters)* (15 scenarios), *Standard Run with Side Stories* (20 scenarios), and *Encore Expansion (Full Journey)* (35 scenarios with expansion).
+  - 3 narrative milestone checkpoints across the ghost train's chapters with spoiler protection (*The First Stop*, *Deep into the Darkness*, *The Final Reckoning*).
+  - Thematic visual identity (aged gold `#c8a850`, deep shadow `#1a1210`, and crimson `#8b3a3a` styling with Special Elite monospace header font, atmospheric 1:1 flat cover art, and Southern Gothic bayou 16:9 widescreen backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 
 ### Added
 - **New Board Game Added**:
