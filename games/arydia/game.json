@@ -1,0 +1,94 @@
+{
+  "id": "arydia",
+  "title": "Arydia: The Paths We Dare Tread",
+  "releaseYear": 2025,
+  "designers": "Cody Miller, Ira Fay",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 9.0,
+  "bggWeight": 3.31,
+  "bggUrl": "https://boardgamegeek.com/boardgame/219650/arydia-paths-we-dare-tread",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 20,
+  "unitType": "quests",
+  "theme": {
+    "primaryColor": "#2b7a78",
+    "secondaryColor": "#152220",
+    "accentColor": "#d4af37",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e3a38 0%, #11201f 60%, #091110 100%)",
+    "cardBackground": "rgba(21, 34, 32, 0.92)",
+    "borderColor": "rgba(43, 122, 120, 0.40)",
+    "glowColor": "rgba(212, 175, 55, 0.25)",
+    "headerFont": "'''Cinzel''', '''Cinzel Decorative''', Georgia, serif",
+    "bodyFont": "'''Inter''', system-ui, sans-serif",
+    "loreIcon": "🧭",
+    "emblem": "🗺️⚔️",
+    "themeClass": "theme-arydia",
+    "activeThemeClass": "theme-arydia-active",
+    "roadmapClass": "roadmap-arydia",
+    "heroClass": "hero-arydia"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #219650 Overall)",
+    "Far Off Games Official Rulebook & Exploration Guide",
+    "Far Off Games Campaign Overview & Survey Logs"
+  ],
+  "scopes": [
+    {
+      "id": "arydia_standard",
+      "baseScenarioCount": 24,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": true
+    },
+    {
+      "id": "arydia_story",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "arydia_completionist",
+      "baseScenarioCount": 36,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🏕️",
+      "badgeText": "Phase I",
+      "title": "First Footsteps in Arydia",
+      "phase": "Arrival Phase - The Exiled Shore",
+      "description": "Arriving in exile, establishing your camp, and discovering the first settlements and local factions in the untamed wilderness."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🗺️",
+      "badgeText": "Phase II",
+      "title": "The Expanding Horizon",
+      "phase": "Exploration Phase - Uncharted Frontiers",
+      "description": "Unveiling new overland map sectors, unlocking advanced Path skill cards, and uncovering ancient ruins across the wilderness."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 18,
+      "iconEmoji": "⚔️",
+      "badgeText": "Phase III",
+      "title": "The Shadow Over Arydia",
+      "phase": "Crisis Phase - Ancient Awakening",
+      "description": "Confronting rising threats across the provinces, braving perilous subterranean lairs, and forging pivotal alliances with provincial leaders."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 24,
+      "iconEmoji": "👑",
+      "badgeText": "Phase IV",
+      "title": "The Sovereign'''s Pardon",
+      "phase": "Climax Phase - Destiny of Arydia",
+      "description": "Resolving the existential crisis threatening the continent, achieving supreme mastery of your Path, and securing your pardon to seal your enduring legacy."
+    }
+  ]
+}

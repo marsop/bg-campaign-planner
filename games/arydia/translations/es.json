@@ -1,0 +1,59 @@
+{
+  "title": "Arydia: The Paths We Dare Tread",
+  "subtitle": "Una épica aventura de rol de mundo abierto con exploración, combate táctico y narrativa emergente",
+  "tagline": "Despliega un continente ignoto y forja tu destino hasta convertirte en leyenda viva",
+  "loreSummary": "Exiliados en el salvaje y peligroso continente de Arydia, tus compañeros y tú debéis adentraros en tierras ignotas, explorar ruinas olvidadas y auxiliar a los asentamientos para ganar vuestro perdón y decidir el destino del reino.",
+  "badgeCategory": "Juego de Rol de Mundo Abierto",
+  "roadmapTitle": "🧭 Crónicas de Expedición y Progresión de Campaña",
+  "roadmapBadge": "EXPEDICIÓN DE ARYDIA",
+  "keyFeatures": [
+    "Mundo abierto vivo con mapa hexagonal modular y ubicaciones que se despliegan en mesa",
+    "Diseño green legacy con mundo persistente y rejugabilidad total sin destrucción de componentes",
+    "Combate táctico tipo puzle determinista impulsado por la especialización de Sendas",
+    "Sistema de catálogo indexado de cartas para preparación ultrarrápida y guardado fluido"
+  ],
+  "scopes": {
+    "arydia_standard": {
+      "name": "Expedición Estándar",
+      "description": "La experiencia principal de campaña que abarca la trama del perdón, las misiones provinciales clave y una amplia exploración de las tierras salvajes."
+    },
+    "arydia_story": {
+      "name": "Senda del Perdón (Trama Principal)",
+      "description": "Un recorrido centrado en las misiones esenciales y los hitos narrativos clave necesarios para conseguir el perdón real."
+    },
+    "arydia_completionist": {
+      "name": "Crónicas de Arydia (Completista)",
+      "description": "Exploración exhaustiva de cada provincia, mazmorra oculta, dominio total de las Sendas y secretos arcanos del continente."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Fase I",
+      "title": "Primeros Pasos en Arydia",
+      "phase": "Fase de Llegada - La Costa del Exilio",
+      "description": "Llegada al exilio, establecimiento del campamento base y descubrimiento de los primeros asentamientos y facciones locales en tierras salvajes."
+    },
+    {
+      "order": 2,
+      "badgeText": "Fase II",
+      "title": "El Horizonte en Expansión",
+      "phase": "Fase de Exploración - Fronteras Inexploradas",
+      "description": "Apertura de nuevos sectores del mapa, desbloqueo de cartas de habilidad avanzada de Senda y descubrimiento de ruinas ancestrales."
+    },
+    {
+      "order": 3,
+      "badgeText": "Fase III",
+      "title": "La Sombra sobre Arydia",
+      "phase": "Fase de Crisis - El Despertar Arcano",
+      "description": "Enfrentamiento a amenazas crecientes en las provincias, incursiones en peligrosas guaridas subterráneas y alianzas clave con líderes provinciales."
+    },
+    {
+      "order": 4,
+      "badgeText": "Fase IV",
+      "title": "El Perdón Soberano",
+      "phase": "Fase Clímax - El Destino de Arydia",
+      "description": "Resolución de la crisis existencial que amenaza al continente, maestría suprema de vuestra Senda y obtención del perdón para sellar vuestro legado."
+    }
+  ]
+}

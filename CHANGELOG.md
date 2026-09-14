@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.25.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Arydia: The Paths We Dare Tread**, the epic open-world tabletop RPG adventure by Cody Miller & Ira Fay (Far Off Games, 2025).
+  - 3 campaign scope presets: *Standard Overland Expedition* (24 quests/sessions, recommended), *Path of Pardon (Story Focus)* (16 quests/sessions), and *Chronicles of Arydia (Completionist)* (36 quests/sessions).
+  - 4 narrative milestone checkpoints across the untamed continent with spoiler protection (*First Footsteps in Arydia*, *The Expanding Horizon*, *The Shadow Over Arydia*, *The Sovereign's Pardon*).
+  - Thematic visual identity (deep exploration teal `#2b7a78`, obsidian teal `#152220`, and embossed gold `#d4af37` styling with Cinzel decorative header font, authentic 1:1 flat box cover art, and atmospheric landscape backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.24.0] - 2026-09-14
 
 ### Added

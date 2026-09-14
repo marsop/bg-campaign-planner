@@ -1,0 +1,59 @@
+{
+  "title": "Arydia: The Paths We Dare Tread",
+  "subtitle": "Ein episches Open-World-Rollenspielabenteuer voller Erkundung, taktischer Kämpfe und packender Geschichten",
+  "tagline": "Enthülle einen unerforschten Kontinent und forme dein Schicksal zur lebendigen Legende",
+  "loreSummary": "Verbannt auf den wilden, gefährlichen Kontinent Arydia müssen du und deine Gefährten die ungezähmte Wildnis durchqueren, vergessene Ruinen erkunden und bedrängten Siedlungen beistehen, um eure Begnadigung zu erlangen und das Schicksal des Reiches zu bestimmen.",
+  "badgeCategory": "Open-World-Rollenspiel",
+  "roadmapTitle": "🧭 Expeditionschronik & Kampagnenfortschritt",
+  "roadmapBadge": "ARYDIA-EXPEDITION",
+  "keyFeatures": [
+    "Lebendige offene Welt mit modularen Hexfeldern und dynamischer Ortsentdeckung",
+    "Green-Legacy-System mit persistentem Zustand und vollständiger Wiederholbarkeit ohne Zerstörung",
+    "Taktische, puzzleartige Kämpfe basierend auf individuellen Pfad-Spezialisierungen",
+    "Strukturiertes Karten-Indexsystem für blitzschnellen Aufbau und nahtloses Speichern"
+  ],
+  "scopes": {
+    "arydia_standard": {
+      "name": "Standard-Expedition",
+      "description": "Das vollwertige Kampagnenerlebnis mit dem Hauptstrang zur Begnadigung, zentralen Provinzgeschichten und weitreichender Erkundung der Wildnis."
+    },
+    "arydia_story": {
+      "name": "Pfad der Begnadigung (Fokus Handlung)",
+      "description": "Ein zielgerichteter Durchlauf mit Priorität auf den wesentlichen Quests und Meilensteinen zur Erlangung der königlichen Begnadigung."
+    },
+    "arydia_completionist": {
+      "name": "Chroniken von Arydia (Komplettierung)",
+      "description": "Umfassende Erkundung jeder Provinz, aller geheimen Verliese, Meisterschaft sämtlicher Pfade und aller verborgenen Mysterien."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Phase I",
+      "title": "Erste Schritte in Arydia",
+      "phase": "Ankunftsphase - Das Ufer der Verbannten",
+      "description": "Ankunft in der Verbannung, Errichtung des Basislagers und Kontaktaufnahme mit ersten Siedlungen und Fraktionen in der Wildnis."
+    },
+    {
+      "order": 2,
+      "badgeText": "Phase II",
+      "title": "Der sich weitende Horizont",
+      "phase": "Erkundungsphase - Unerforschte Weiten",
+      "description": "Erschließung neuer Kartenregionen, Freischaltung fortgeschrittener Pfad-Fertigkeitskarten und Erkundung uralter Ruinen."
+    },
+    {
+      "order": 3,
+      "badgeText": "Phase III",
+      "title": "Der Schatten über Arydia",
+      "phase": "Krisenphase - Uraltes Erwachen",
+      "description": "Konfrontation mit wachsenden Gefahren in den Provinzen, Vorstöße in tückische Verliese und Schmieden entscheidender Allianzen mit Provinzführern."
+    },
+    {
+      "order": 4,
+      "badgeText": "Phase IV",
+      "title": "Die Begnadigung des Herrschers",
+      "phase": "Höhepunktphase - Das Schicksal von Arydia",
+      "description": "Lösung der existentiellen Krise des Kontinents, Vollendung der Meisterschaft auf eurem Pfad und Erlangung der Begnadigung zur Besiegelung eures Vermächtnisses."
+    }
+  ]
+}

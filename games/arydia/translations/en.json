@@ -1,0 +1,59 @@
+{
+  "title": "Arydia: The Paths We Dare Tread",
+  "subtitle": "An epic open-world tabletop RPG adventure of exploration, tactical combat, and emergent storytelling",
+  "tagline": "Unfurl an uncharted continent and carve your destiny into living legend",
+  "loreSummary": "Exiled to the wild and perilous continent of Arydia, you and your companions must brave uncharted wilderness, delve into forgotten ruins, and aid struggling settlements to earn your pardon and decide the realm'''s fate.",
+  "badgeCategory": "Open-World Tabletop RPG",
+  "roadmapTitle": "🧭 Expedition Chronicles & Campaign Progression",
+  "roadmapBadge": "ARYDIA EXPEDITION",
+  "keyFeatures": [
+    "Living open world with modular hex maps and dynamic location unfolding",
+    "Green legacy architecture with persistent world state and full replayability",
+    "Deterministic puzzle-like tactical combat powered by Path specialization",
+    "Comprehensive card catalog indexing system for rapid setup and seamless saves"
+  ],
+  "scopes": {
+    "arydia_standard": {
+      "name": "Standard Overland Expedition",
+      "description": "The core campaign experience spanning the main pardon arc, major provincial storylines, and significant wilderness exploration."
+    },
+    "arydia_story": {
+      "name": "Path of Pardon (Story Focus)",
+      "description": "A focused journey prioritizing the essential quests and narrative milestones needed to secure your royal pardon."
+    },
+    "arydia_completionist": {
+      "name": "Chronicles of Arydia (Completionist)",
+      "description": "Exhaustive exploration of every province, secret dungeon, character Path mastery, and ancient continent secret."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Phase I",
+      "title": "First Footsteps in Arydia",
+      "phase": "Arrival Phase - The Exiled Shore",
+      "description": "Arriving in exile, establishing your camp, and discovering the first settlements and local factions in the untamed wilderness."
+    },
+    {
+      "order": 2,
+      "badgeText": "Phase II",
+      "title": "The Expanding Horizon",
+      "phase": "Exploration Phase - Uncharted Frontiers",
+      "description": "Unveiling new overland map sectors, unlocking advanced Path skill cards, and uncovering ancient ruins across the wilderness."
+    },
+    {
+      "order": 3,
+      "badgeText": "Phase III",
+      "title": "The Shadow Over Arydia",
+      "phase": "Crisis Phase - Ancient Awakening",
+      "description": "Confronting rising threats across the provinces, braving perilous subterranean lairs, and forging pivotal alliances with provincial leaders."
+    },
+    {
+      "order": 4,
+      "badgeText": "Phase IV",
+      "title": "The Sovereign'''s Pardon",
+      "phase": "Climax Phase - Destiny of Arydia",
+      "description": "Resolving the existential crisis threatening the continent, achieving supreme mastery of your Path, and securing your pardon to seal your enduring legacy."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Arydia: The Paths We Dare Tread",
+  "subtitle": "Un'''epica avventura di ruolo open-world con esplorazione, combattimenti tattici e narrazione emergente",
+  "tagline": "Svela un continente inesplorato e forgia il tuo destino in una leggenda vivente",
+  "loreSummary": "Esiliati nel selvaggio e periglioso continente di Arydia, tu e i tuoi compagni dovrete sfidare terre sconosciute, esplorare rovine dimenticate e aiutare gli insediamenti in difficoltà per guadagnarvi la grazia e decidere il destino del regno.",
+  "badgeCategory": "Gioco di Ruolo Open-World",
+  "roadmapTitle": "🧭 Cronache della Spedizione e Progressione della Campagna",
+  "roadmapBadge": "SPEDIZIONE DI ARYDIA",
+  "keyFeatures": [
+    "Mondo aperto vivo con mappa esagonale modulare e luoghi che si svelano dinamicamente",
+    "Struttura green legacy con mondo persistente e piena rigiocabilità senza distruzione di componenti",
+    "Combattimento tattico deterministico a puzzle guidato dalla specializzazione dei Sentieri",
+    "Sistema di schede catalogate per un allestimento rapido e salvataggi della partita senza interruzioni"
+  ],
+  "scopes": {
+    "arydia_standard": {
+      "name": "Spedizione Standard",
+      "description": "L'''esperienza di campagna completa che include la trama principale della grazia, le vicende provinciali cruciali e un'''ampia esplorazione delle terre selvagge."
+    },
+    "arydia_story": {
+      "name": "Sentiero della Grazia (Storia Principale)",
+      "description": "Un percorso concentrato che dà priorità alle missioni essenziali e alle tappe narrative necessarie per ottenere la grazia reale."
+    },
+    "arydia_completionist": {
+      "name": "Cronache di Arydia (Completista)",
+      "description": "Esplorazione approfondita di ogni provincia, dungeon segreto, maestria di tutti i Sentieri e antichi misteri del continente."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Fase I",
+      "title": "Primi Passi in Arydia",
+      "phase": "Fase di Arrivo - La Riva degli Esiliati",
+      "description": "Arrivo in esilio, allestimento dell'''accampamento base e scoperta dei primi insediamenti e fazioni locali nelle terre selvagge."
+    },
+    {
+      "order": 2,
+      "badgeText": "Fase II",
+      "title": "L'''Orizzonte che si Espande",
+      "phase": "Fase di Esplorazione - Frontiere Inesplorate",
+      "description": "Scoperta di nuovi settori della mappa, sblocco delle carte abilità avanzate del Sentiero e ritrovamento di antiche rovine."
+    },
+    {
+      "order": 3,
+      "badgeText": "Fase III",
+      "title": "L'''Ombra su Arydia",
+      "phase": "Fase di Crisi - L'''Antico Risveglio",
+      "description": "Affronto delle crescenti minacce nelle province, spedizioni in pericolose tane sotterranee e strette alleanze decisive con i capi provinciali."
+    },
+    {
+      "order": 4,
+      "badgeText": "Fase IV",
+      "title": "La Grazia del Sovrano",
+      "phase": "Fase Culminante - Il Destino di Arydia",
+      "description": "Risoluzione della crisi esistenziale che minaccia il continente, maestria suprema del vostro Sentiero e conquista della grazia per suggellare la vostra eredità eterna."
+    }
+  ]
+}

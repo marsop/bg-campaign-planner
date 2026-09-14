@@ -1,0 +1,59 @@
+{
+  "title": "Arydia: The Paths We Dare Tread",
+  "subtitle": "Une aventure de jeu de rôle sur table en monde ouvert mêlant exploration, combat tactique et récit émergent",
+  "tagline": "Révélez un continent inexploré et forgez votre destinée en une légende vivante",
+  "loreSummary": "Exilés sur le continent sauvage et périlleux d'''Arydia, vous et vos compagnons devez affronter une nature indomptée, explorer des ruines oubliées et soutenir des colonies en détresse pour obtenir votre grâce et sceller le destin du royaume.",
+  "badgeCategory": "Jeu de Rôle en Monde Ouvert",
+  "roadmapTitle": "🧭 Chroniques d'''Expédition et Progression de Campagne",
+  "roadmapBadge": "EXPÉDITION D'''ARYDIA",
+  "keyFeatures": [
+    "Monde ouvert vivant avec cartes hexagonales modulaires et lieux se déployant dynamiquement",
+    "Conception green legacy avec monde persistant et rejouabilité intégrale sans altération du matériel",
+    "Combat tactique déterministe façon puzzle reposant sur la spécialisation des Voies",
+    "Système de catalogue de cartes indexé garantissant une mise en place rapide et des sauvegardes fluides"
+  ],
+  "scopes": {
+    "arydia_standard": {
+      "name": "Expédition Standard",
+      "description": "L'''expérience de campagne de référence couvrant l'''arc principal de la grâce, les grandes intrigues provinciales et une riche exploration sauvage."
+    },
+    "arydia_story": {
+      "name": "Voie de la Grâce (Focus Histoire)",
+      "description": "Un parcours ciblé donnant la priorité aux quêtes essentielles et aux étapes narratives indispensables pour obtenir votre grâce royale."
+    },
+    "arydia_completionist": {
+      "name": "Chroniques d'''Arydia (Complétionniste)",
+      "description": "Exploration exhaustive de chaque province, des donjons secrets, de la maîtrise totale des Voies et des mystères anciens du continent."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Phase I",
+      "title": "Premiers Pas en Arydia",
+      "phase": "Phase d'''Arrivée - Le Rivage des Exilés",
+      "description": "Arrivée en exil, établissement du camp de base et découverte des premières colonies et factions locales dans les terres sauvages."
+    },
+    {
+      "order": 2,
+      "badgeText": "Phase II",
+      "title": "L'''Horizon s'''Élargit",
+      "phase": "Phase d'''Exploration - Frontières Inexplorées",
+      "description": "Découverte de nouveaux secteurs cartographiques, déblocage de cartes de compétences avancées de Voie et exploration de ruines anciennes."
+    },
+    {
+      "order": 3,
+      "badgeText": "Phase III",
+      "title": "L'''Ombre sur Arydia",
+      "phase": "Phase de Crise - L'''Éveil Ancien",
+      "description": "Affrontement des menaces grandissantes à travers les provinces, exploration de repaires souterrains périlleux et alliances clés avec les dirigeants locaux."
+    },
+    {
+      "order": 4,
+      "badgeText": "Phase IV",
+      "title": "La Grâce du Souverain",
+      "phase": "Phase d'''Apogée - Le Destin d'''Arydia",
+      "description": "Résolution de la crise existentielle menaçant le continent, maîtrise suprême de votre Voie et obtention de votre grâce pour immortaliser votre légende."
+    }
+  ]
+}
