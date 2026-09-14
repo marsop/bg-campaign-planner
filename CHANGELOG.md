@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.23.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Darkest Dungeon: The Board Game**, the brutal cooperative tactical dungeon crawler adapting the video game by Nick Niotis & Argyris Poungouras (Mythic Games / Red Hook Studios, 2022).
+  - 3 campaign scope presets: *Full Manor Campaign (11 Quests)* (11 quests, recommended), *Apprentice & Veteran Tier (Introductory Run)* (6 quests), and *Grand Estate Purge (Full Campaign + Expansion Content)* (22 quests).
+  - 4 narrative milestone checkpoints across the estate and Darkest Dungeon tiers with spoiler protection (*The Apprentice Incursion*, *The Veteran Trial*, *The Champion Descent*, *Heart of the Darkest Dungeon*).
+  - Thematic visual identity (blood crimson `#c82a2a`, dark abyss charcoal `#0d0b0c`, and torch amber `#e08b1a` styling with Cormorant SC gothic header font, authentic 1:1 flat box cover art, and atmospheric backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.22.0] - 2026-09-14
 
 ### Added

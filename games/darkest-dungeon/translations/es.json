@@ -1,0 +1,59 @@
+{
+  "title": "Darkest Dungeon: The Board Game",
+  "subtitle": "Brutal juego táctico cooperativo de mazmorreo enfrentando el horror cósmico, el estrés y la mortalidad",
+  "tagline": "La ruina ha caído sobre nuestra familia. Templa tu temple contra la oscuridad.",
+  "loreSummary": "Lideras una desesperada cuadrilla de héroes imperfectos en las ruinas malditas bajo la mansión ancestral. Sobrevivir exige gestionar no solo heridas mortales, sino la locura invasora del abismo.",
+  "badgeCategory": "Dungeon Crawler de Fantasía Oscura",
+  "roadmapTitle": "🕯️ Expedición a la Mansión y Descenso a la Locura",
+  "roadmapBadge": "HOJA DE RUTA GÓTICA",
+  "keyFeatures": [
+    "Combate dinámico de posturas con posicionamiento táctico en filas frontal, central y trasera",
+    "Mecánicas de estrés psicológico: los héroes sufren aflicciones y revelaciones virtuosas",
+    "Gestión de la Aldea: cura heridas, trata enfermedades y mejora las instalaciones del sanatorio",
+    "Progresión de campaña implacable tipo rogue-like a través de cuatro niveles de dificultad creciente"
+  ],
+  "scopes": {
+    "dd_core": {
+      "name": "Campaña Completa de la Mansión (11 Misiones)",
+      "description": "La campaña completa de 11 misiones desde las expediciones de Aprendiz hasta las profundidades de la Mazmorra Oscura y el Ancestro."
+    },
+    "dd_intro": {
+      "name": "Nivel Aprendiz y Veterano (Iniciación)",
+      "description": "Una campaña introductoria más corta a través de los rangos Aprendiz y Veterano que culmina en los dos primeros grandes enfrentamientos contra jefes."
+    },
+    "dd_grand": {
+      "name": "Purga Total de la Finca (Campaña + Expansiones)",
+      "description": "Una extensa campaña multirregión atravesando las Ruinas, la Selva, las Madrigueras, la Ensenada y cazas de jefes adicionales antes de desafiar la Mazmorra Oscura."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Misión 3",
+      "title": "La Incursión del Aprendiz",
+      "phase": "Fase I - Rango Aprendiz",
+      "description": "Sobrevivir a los horrores iniciales de la finca y abatir a la primera abominación de rango Aprendiz."
+    },
+    {
+      "order": 2,
+      "badgeText": "Misión 6",
+      "title": "La Prueba del Veterano",
+      "phase": "Fase II - Rango Veterano",
+      "description": "Enfrentar el terror enloquecedor y salir victorioso contra la monstruosidad veterana que acecha en las catacumbas."
+    },
+    {
+      "order": 3,
+      "badgeText": "Misión 9",
+      "title": "El Descenso del Campeón",
+      "phase": "Fase III - Rango Campeón",
+      "description": "Llevar a héroes marcados por la batalla al límite psicológico para purgar el terror del Campeón."
+    },
+    {
+      "order": 4,
+      "badgeText": "Misión 11",
+      "title": "El Corazón de la Mazmorra Oscura",
+      "phase": "Fase IV - El Juicio Final",
+      "description": "Traspasar el umbral definitivo bajo la mansión para el enfrentamiento culminante contra la corrupción cósmica."
+    }
+  ]
+}

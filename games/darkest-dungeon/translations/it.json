@@ -1,0 +1,59 @@
+{
+  "title": "Darkest Dungeon: The Board Game",
+  "subtitle": "Spietato dungeon crawler tattico cooperativo contro l'orrore cosmico, lo stress e la mortalità",
+  "tagline": "La rovina si è abbattuta sulla nostra famiglia. Tempra la tua volontà contro l'oscurità.",
+  "loreSummary": "Guiderai una disperata schiera di eroi imperfetti nelle rovine maledette sotto l'ancestrale magione. Sopravvivere richiede di curare non solo ferite strazianti, ma anche l'avanzare della follia dall'abisso.",
+  "badgeCategory": "Dungeon Crawler Dark Fantasy",
+  "roadmapTitle": "🕯️ Spedizione alla Magione e Discesa nella Follia",
+  "roadmapBadge": "TABELLA DI MARCIA GOTICA",
+  "keyFeatures": [
+    "Combattimento dinamico a posizioni con schieramento su linee avanzata, mediana e retroguardia",
+    "Meccaniche di stress psicologico: gli eroi subiscono afflizioni o risvegliano virtù eroiche",
+    "Gestione del Borgo: cura ferite, guarisci malattie e potenzia le strutture del sanatorio",
+    "Inesorabile progressione di campagna rogue-like attraverso quattro livelli di minaccia crescente"
+  ],
+  "scopes": {
+    "dd_core": {
+      "name": "Campagna Completa della Magione (11 Missioni)",
+      "description": "La campagna integrale di 11 missioni, dalle spedizioni da Apprendista fino agli abissi del Darkest Dungeon e all'Antenato."
+    },
+    "dd_intro": {
+      "name": "Gradi Apprendista e Veterano (Iniziazione)",
+      "description": "Una campagna introduttiva più breve attraverso i ranghi Apprendista e Veterano che culmina nei primi due grandi scontri con i boss."
+    },
+    "dd_grand": {
+      "name": "Epurazione Totale della Tenuta (Campagna + Espansioni)",
+      "description": "Una vasta campagna multiregione attraverso Rovine, Foresta, Labirinti, Cala e ulteriori cacce ai boss prima di sfidare il Darkest Dungeon."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Missione 3",
+      "title": "L'Incursione dell'Apprendista",
+      "phase": "Fase I - Grado Apprendista",
+      "description": "Sopravvivere ai primi orrori della tenuta e abbattere la prima abominazione di livello Apprendista."
+    },
+    {
+      "order": 2,
+      "badgeText": "Missione 6",
+      "title": "La Prova del Veterano",
+      "phase": "Fase II - Grado Veterano",
+      "description": "Affrontare un terrore logorante e trionfare contro la mostruosità veterana in agguato nelle catacombe."
+    },
+    {
+      "order": 3,
+      "badgeText": "Missione 9",
+      "title": "La Discesa del Campione",
+      "phase": "Fase III - Grado Campione",
+      "description": "Spingere eroi provati dalla battaglia ai loro limiti psicologici per purificare il terrore del Campione."
+    },
+    {
+      "order": 4,
+      "badgeText": "Missione 11",
+      "title": "Il Cuore del Darkest Dungeon",
+      "phase": "Fase IV - La Resa dei Conti",
+      "description": "Varcare l'ultima soglia sotto la magione per il duello decisivo contro la corruzione cosmica."
+    }
+  ]
+}

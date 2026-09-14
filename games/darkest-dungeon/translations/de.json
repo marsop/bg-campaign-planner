@@ -1,0 +1,59 @@
+{
+  "title": "Darkest Dungeon: The Board Game",
+  "subtitle": "Gnadenloser kooperativer taktischer Dungeon-Crawler im Kampf gegen kosmischen Schrecken, Stress und Sterblichkeit",
+  "tagline": "Das Verderben hat unsere Familie heimgesucht. Stähle deinen Geist gegen die Dunkelheit.",
+  "loreSummary": "Du führst eine verzweifelte Schar gezeichneter Helden in die verfluchten Ruinen unter dem Anwesen deiner Ahnen. Überleben verlangt nicht nur das Versorgen tödlicher Wunden, sondern auch das Beherrschen des lauernden Wahnsinns.",
+  "badgeCategory": "Dark-Fantasy Dungeon Crawler",
+  "roadmapTitle": "🕯️ Anwesen-Expedition & Abstieg in den Wahnsinn",
+  "roadmapBadge": "GOTHIC-ROADMAP",
+  "keyFeatures": [
+    "Dynamischer Haltungskampf mit Front-, Mittel- und Hinterreihen-Positionierung",
+    "Psychologische Stressmechanik: Helden erleiden Heimsuchungen oder erlangen tugendhafte Entschlossenheit",
+    "Dorf-Management im Weiler: Wunden heilen, Krankheiten behandeln und Sanatoriumsanlagen ausbauen",
+    "Unerbittliche Rogue-like-Kampagnenprogression über vier ansteigende Schwierigkeitsgrade"
+  ],
+  "scopes": {
+    "dd_core": {
+      "name": "Vollständige Anwesen-Kampagne (11 Quests)",
+      "description": "Die vollständige 11-Quest-Kampagne von den Lehrlings-Expeditionen bis in die finstersten Tiefen des Darkest Dungeon und zum Ahnen."
+    },
+    "dd_intro": {
+      "name": "Lehrlings- & Veteranen-Stufe (Einführung)",
+      "description": "Eine kürzere Einführungskampagne über die Lehrlings- und Veteranen-Stufen, die in den ersten beiden großen Bosskämpfen gipfelt."
+    },
+    "dd_grand": {
+      "name": "Große Säuberung des Anwesens (Kampagne + Erweiterungen)",
+      "description": "Eine gewaltige, regionenübergreifende Kampagne durch Ruinen, Weald, Warrens, Cove und zusätzliche Bossjagden vor dem Vorstoß in das Darkest Dungeon."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Quest 3",
+      "title": "Die Lehrlings-Inkursion",
+      "phase": "Phase I - Lehrlings-Stufe",
+      "description": "Die ersten Schrecken des Anwesens überleben und die erste Abscheulichkeit der Lehrlings-Stufe bezwingen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Quest 6",
+      "title": "Die Veteranen-Prüfung",
+      "phase": "Phase II - Veteranen-Stufe",
+      "description": "Dem zermürbenden Grauen trotzen und die in den Katakomben lauernde Veteranen-Monstrosität besiegen."
+    },
+    {
+      "order": 3,
+      "badgeText": "Quest 9",
+      "title": "Der Abstieg der Champions",
+      "phase": "Phase III - Champion-Stufe",
+      "description": "Kampfgestählte Helden an ihre psychologischen Grenzen treiben, um den Champion-Schrecken zu läutern."
+    },
+    {
+      "order": 4,
+      "badgeText": "Quest 11",
+      "title": "Das Herz des Darkest Dungeon",
+      "phase": "Phase IV - Die finale Abrechnung",
+      "description": "Die tiefste Schwelle unter dem Anwesen durchbrechen für den unausweichlichen Showdown gegen die kosmische Verderbnis."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Darkest Dungeon: The Board Game",
+  "subtitle": "Dungeon crawler tactique coopératif impitoyable affrontant horreur cosmique, stress et mortalité",
+  "tagline": "La ruine a frappé notre famille. Affermissez votre volonté contre les ténèbres.",
+  "loreSummary": "Vous menez une troupe désespérée de héros brisés dans les ruines maudites sous votre manoir ancestral. Survivre exige de soigner non seulement de graves blessures, mais aussi la démence insidieuse de l'abîme.",
+  "badgeCategory": "Dungeon Crawler Dark Fantasy",
+  "roadmapTitle": "🕯️ Expédition du Manoir et Descente vers la Folie",
+  "roadmapBadge": "FEUILLE DE ROUTE GOTHIQUE",
+  "keyFeatures": [
+    "Combat de postures dynamique avec positionnement tactique sur les rangs avant, milieu et arrière",
+    "Mécaniques de stress psychologique : les héros subissent des afflictions ou révèlent des vertus héroïques",
+    "Gestion du Hameau : panser les plaies, soigner les maladies et améliorer le sanitarium",
+    "Progression de campagne rogue-like impitoyable à travers quatre niveaux de menace croissants"
+  ],
+  "scopes": {
+    "dd_core": {
+      "name": "Campagne Complète du Manoir (11 Quêtes)",
+      "description": "La campagne intégrale de 11 quêtes, depuis les expéditions d'Apprenti jusqu'aux profondeurs du Darkest Dungeon et de l'Ancêtre."
+    },
+    "dd_intro": {
+      "name": "Paliers Apprenti & Vétéran (Initiation)",
+      "description": "Une campagne d'initiation plus courte à travers les rangs Apprenti et Vétéran s'achevant sur les deux premiers affrontements majeurs de boss."
+    },
+    "dd_grand": {
+      "name": "Purge Totale du Domaine (Campagne + Extensions)",
+      "description": "Une vaste campagne multirégion explorant les Ruines, la Forêt, les Tanières, la Crique et des chasses de boss supplémentaires avant d'affronter le Darkest Dungeon."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Quête 3",
+      "title": "L'Incursion de l'Apprenti",
+      "phase": "Phase I - Rang Apprenti",
+      "description": "Survivre aux premières horreurs du domaine et terrasser la première abomination de rang Apprenti."
+    },
+    {
+      "order": 2,
+      "badgeText": "Quête 6",
+      "title": "L'Épreuve du Vétéran",
+      "phase": "Phase II - Rang Vétéran",
+      "description": "Affronter l'effroi démuni et triompher de la monstruosité vétérane tapie dans les catacombes."
+    },
+    {
+      "order": 3,
+      "badgeText": "Quête 9",
+      "title": "La Descente du Champion",
+      "phase": "Phase III - Rang Champion",
+      "description": "Pousser des héros éprouvés par les combats à leurs limites psychologiques pour purger la terreur du Champion."
+    },
+    {
+      "order": 4,
+      "badgeText": "Quête 11",
+      "title": "Le Cœur du Darkest Dungeon",
+      "phase": "Phase IV - L'Heure du Jugement",
+      "description": "Franchir l'ultime seuil sous le manoir pour l'affrontement décisif contre la corruption cosmique."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Darkest Dungeon: The Board Game",
+  "subtitle": "Brutal cooperative tactical dungeon crawler confronting cosmic horror, stress, and mortality",
+  "tagline": "Ruin has come to our family. Steel your resolve against the dark.",
+  "loreSummary": "You lead a desperate roster of flawed heroes into the cursed ruins beneath your ancestral manor. Survival demands managing not only grievous wounds, but the encroaching madness of the abyss.",
+  "badgeCategory": "Dark Fantasy Dungeon Crawler",
+  "roadmapTitle": "🕯️ Manor Expedition & Descent into Madness",
+  "roadmapBadge": "DUNGEON ROADMAP",
+  "keyFeatures": [
+    "Dynamic stance combat with front, middle, and back row positioning",
+    "Psychological stress mechanics: heroes suffer afflictions and virtuous resolves",
+    "Hamlet management: heal wounds, cure diseases, and upgrade sanitarium facilities",
+    "Punishing rogue-like campaign progression across four escalating difficulty tiers"
+  ],
+  "scopes": {
+    "dd_core": {
+      "name": "Full Manor Campaign (11 Quests)",
+      "description": "The complete 11-quest campaign from Apprentice expeditions to the depths of the Darkest Dungeon and the Ancestor."
+    },
+    "dd_intro": {
+      "name": "Apprentice & Veteran Tier (Introductory Run)",
+      "description": "A shorter introductory campaign through Apprentice and Veteran tiers culminating in the first two major boss confrontations."
+    },
+    "dd_grand": {
+      "name": "Grand Estate Purge (Full Campaign + Expansion Content)",
+      "description": "An expansive multi-region campaign venturing through the Ruins, Weald, Warrens, Cove, and additional boss hunts before braving the Darkest Dungeon."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Quest 3",
+      "title": "The Apprentice Incursion",
+      "phase": "Phase I - Apprentice Tier",
+      "description": "Surviving the initial horrors of the estate and slaying the first Apprentice-tier abomination."
+    },
+    {
+      "order": 2,
+      "badgeText": "Quest 6",
+      "title": "The Veteran Trial",
+      "phase": "Phase II - Veteran Tier",
+      "description": "Confronting maddening dread and emerging victorious against the Veteran monstrosity lurking in the catacombs."
+    },
+    {
+      "order": 3,
+      "badgeText": "Quest 9",
+      "title": "The Champion Descent",
+      "phase": "Phase III - Champion Tier",
+      "description": "Pushing battle-scarred heroes to their psychological limits to cleanse the Champion terror."
+    },
+    {
+      "order": 4,
+      "badgeText": "Quest 11",
+      "title": "Heart of the Darkest Dungeon",
+      "phase": "Phase IV - The Final Reckoning",
+      "description": "Breaching the ultimate threshold beneath the manor for the climactic standoff against cosmic corruption."
+    }
+  ]
+}

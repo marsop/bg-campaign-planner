@@ -1,0 +1,94 @@
+{
+  "id": "darkest-dungeon",
+  "title": "Darkest Dungeon: The Board Game",
+  "releaseYear": 2022,
+  "designers": "Nick Niotis, Argyris Poungouras",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 6.7,
+  "bggWeight": 3.74,
+  "bggUrl": "https://boardgamegeek.com/boardgame/317321/darkest-dungeon-the-board-game",
+  "baseScenarioMinutes": 105,
+  "setupTeardownMinutes": 25,
+  "unitType": "quests",
+  "theme": {
+    "primaryColor": "#c82a2a",
+    "secondaryColor": "#0d0b0c",
+    "accentColor": "#e08b1a",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2b1214 0%, #120b0c 60%, #080606 100%)",
+    "cardBackground": "rgba(18, 12, 13, 0.92)",
+    "borderColor": "rgba(200, 42, 42, 0.35)",
+    "glowColor": "rgba(224, 139, 26, 0.25)",
+    "headerFont": "'Cormorant SC', 'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🕯️",
+    "emblem": "🕯️💀",
+    "themeClass": "theme-darkestdungeon",
+    "activeThemeClass": "theme-darkestdungeon-active",
+    "roadmapClass": "roadmap-darkestdungeon",
+    "heroClass": "hero-darkestdungeon"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #317321)",
+    "Mythic Games & Red Hook Studios Official Darkest Dungeon Rulebook & Campaign Guide",
+    "Community Campaign Statistics & Expedition Playthrough Logs"
+  ],
+  "scopes": [
+    {
+      "id": "dd_core",
+      "baseScenarioCount": 11,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "dd_intro",
+      "baseScenarioCount": 6,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    },
+    {
+      "id": "dd_grand",
+      "baseScenarioCount": 22,
+      "estimatedFailRatePercent": 30.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "⚔️",
+      "badgeText": "Quest 3",
+      "title": "The Apprentice Incursion",
+      "phase": "Phase I - Apprentice Tier",
+      "description": "Surviving the initial horrors of the estate and slaying the first Apprentice-tier abomination."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🩸",
+      "badgeText": "Quest 6",
+      "title": "The Veteran Trial",
+      "phase": "Phase II - Veteran Tier",
+      "description": "Confronting maddening dread and emerging victorious against the Veteran monstrosity lurking in the catacombs."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "💀",
+      "badgeText": "Quest 9",
+      "title": "The Champion Descent",
+      "phase": "Phase III - Champion Tier",
+      "description": "Pushing battle-scarred heroes to their psychological limits to cleanse the Champion terror."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 11,
+      "iconEmoji": "🕯️",
+      "badgeText": "Quest 11",
+      "title": "Heart of the Darkest Dungeon",
+      "phase": "Phase IV - The Final Reckoning",
+      "description": "Breaching the ultimate threshold beneath the manor for the climactic standoff against cosmic corruption."
+    }
+  ]
+}
