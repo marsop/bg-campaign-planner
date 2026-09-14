@@ -1,0 +1,94 @@
+{
+  "id": "kinfire-chronicles",
+  "title": "Kinfire Chronicles: Night's Fall",
+  "releaseYear": 2023,
+  "designers": "Kevin Wilson, Darrell Hardy, Adela Kapuścińska, Brandon Perdue",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.3,
+  "bggWeight": 2.72,
+  "bggUrl": "https://boardgamegeek.com/boardgame/364655/kinfire-chronicles-nights-fall",
+  "baseScenarioMinutes": 55,
+  "setupTeardownMinutes": 10,
+  "unitType": "quests",
+  "theme": {
+    "primaryColor": "#06b6d4",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #152238 0%, #0c1424 60%, #060a12 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.92)",
+    "borderColor": "rgba(6, 182, 212, 0.35)",
+    "glowColor": "rgba(6, 182, 212, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏮",
+    "emblem": "🏮⚔️",
+    "themeClass": "theme-kinfire",
+    "activeThemeClass": "theme-kinfire-active",
+    "roadmapClass": "roadmap-kinfire",
+    "heroClass": "hero-kinfire"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #364655 / Thematic & Cooperative Rank)",
+    "Incredible Dream Studios Official Rulebook & Questfolios",
+    "Community Campaign Playthrough Survey Statistics & Session Logs"
+  ],
+  "scopes": [
+    {
+      "id": "kinfire_standard",
+      "baseScenarioCount": 21,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "kinfire_story",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    },
+    {
+      "id": "kinfire_completionist",
+      "baseScenarioCount": 25,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🏮",
+      "badgeText": "Quest 5",
+      "title": "Shadows Beyond Din'Lux",
+      "phase": "Atios Arc I - The First Expeditions",
+      "description": "Passing through the gates of Din'Lux into the Starless Nights and confronting the initial corrupting shadows."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "⚔️",
+      "badgeText": "Quest 10",
+      "title": "Trials of the Wilds",
+      "phase": "Atios Arc II - Deep Territory",
+      "description": "Overcoming fearsome transformed beasts and reigniting ancient kinfire lanterns across hostile wilderness paths."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "🔮",
+      "badgeText": "Quest 16",
+      "title": "The Gathering Eclipse",
+      "phase": "Atios Arc III - Shattered Boundaries",
+      "description": "Exposing conspiracies within Din'Lux and holding back the darkness as the Starless Nights threaten the heart of the realm."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 21,
+      "iconEmoji": "✨",
+      "badgeText": "Quest 21",
+      "title": "The Light of Dawn",
+      "phase": "Atios Arc IV - The Climactic Finale",
+      "description": "The ultimate showdown to penetrate the epicenter of the darkness and rekindle the sacred light across Atios."
+    }
+  ]
+}

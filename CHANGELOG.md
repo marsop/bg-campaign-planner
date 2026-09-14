@@ -7,7 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.28.0] - 2026-09-14
+## [0.29.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Kinfire Chronicles: Night's Fall**, the fast-paced cooperative fantasy adventure with dynamic chit-pull combat and radiant kinfire magic by Kevin Wilson, Darrell Hardy, Adela Kapuścińska, and Brandon Perdue (Incredible Dream Studios, 2023).
+  - 3 campaign scope presets: *Standard Campaign (21 Quests)* (21 quests, recommended), *Main Story Arc (Direct Path)* (16 quests), and *Master Seeker & Full Exploration* (25 quests).
+  - 4 narrative milestone checkpoints across the world of Atios and the Starless Nights with spoiler protection (*Shadows Beyond Din'Lux*, *Trials of the Wilds*, *The Gathering Eclipse*, and *The Light of Dawn*).
+  - Thematic visual identity (radiant cyan flame `#06b6d4`, starless night obsidian `#0f172a`, and lantern ember `#f59e0b` styling with Cinzel decorative header font, authentic 1:1 flat front box cover art, and atmospheric landscape of Din'Lux and the Great Lighthouse).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 
 ### Added
 - **New Board Game Added**:

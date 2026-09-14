@@ -1,0 +1,59 @@
+{
+  "title": "Kinfire Chronicles: Night's Fall",
+  "subtitle": "Rasantes kooperatives Abenteuer mit dynamischem Beutelzug-Kampfsystem und strahlender Kinfire-Laternenmagie",
+  "tagline": "Erleuchtet den Weg, trotzt den Sternenlosen Nächten und beschützt die Welt von Atios",
+  "loreSummary": "Ihr seid Sucher (Seekers), mutige Abenteurer, die uralte Kinfire-Laternen führen, um die herandrängenden Sternenlosen Nächte zurückzuschlagen. Jenseits der schützenden Mauern von Din'Lux liegt eine verdorbene Wildnis, die eure Klingen, euren Scharfsinn und eure leuchtende Magie herausfordert.",
+  "badgeCategory": "Kooperatives Abenteuer / Taktischer Boss-Battler",
+  "roadmapTitle": "🗺️ Atios-Kampagne & Missionsfortschritt",
+  "roadmapBadge": "SUCHER-EXPEDITION",
+  "keyFeatures": [
+    "Dynamische Zugreihenfolge per Beutelzug und kooperative Unterstützungskarten",
+    "21 miteinander verknüpfte Story-Missionsboxen ohne jegliche Aufbauverzögerung",
+    "Verzweigte narrative Entscheidungen und moralische Ausrichtungen der Charaktere",
+    "Lebendige Welterkundung von den Toren von Din'Lux bis in die finstere Wildnis"
+  ],
+  "scopes": {
+    "kinfire_standard": {
+      "name": "Standardkampagne (21 Missionen)",
+      "description": "Die vollständige 21-teilige Kampagne von den Toren von Din'Lux bis ins finstere Herz der Sternenlosen Nächte."
+    },
+    "kinfire_story": {
+      "name": "Hauptgeschichte (Direkter Pfad)",
+      "description": "Gestraffter narrativer Pfad mit direktem Fokus auf primäre Missionsziele und entscheidende Konfrontationen."
+    },
+    "kinfire_completionist": {
+      "name": "Meistersucher & Vollständige Erkundung",
+      "description": "Kompletter Kampagnendurchlauf inklusive aller optionalen Pfade, Stadtdialoge und hochgradig herausfordernder Kämpfe."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 5",
+      "title": "Schatten jenseits von Din'Lux",
+      "phase": "Atios-Zyklus I - Die ersten Expeditionen",
+      "description": "Das Durchschreiten der Tore von Din'Lux in die Sternenlosen Nächte und die Konfrontation mit den ersten Verderbnisschatten."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 10",
+      "title": "Prüfungen der Wildnis",
+      "phase": "Atios-Zyklus II - Tiefes Territorium",
+      "description": "Das Bezwingen furchterregender mutierter Bestien und das Entzünden uralter Kinfire-Laternen auf feindseligen Pfaden."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 16",
+      "title": "Die drohende Finsternis",
+      "phase": "Atios-Zyklus III - Zerbrochene Grenzen",
+      "description": "Das Aufdecken von Verschwörungen in Din'Lux und die Verteidigung des Reiches gegen die vordringenden Sternenlosen Nächte."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 21",
+      "title": "Das Licht der Morgenröte",
+      "phase": "Atios-Zyklus IV - Das Finale",
+      "description": "Der finale Showdown, um ins Zentrum der Dunkelheit vorzustoßen und das heilige Licht über ganz Atios neu zu entfachen."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Kinfire Chronicles: Night's Fall",
+  "subtitle": "Fast-paced cooperative adventure with dynamic chit-pull combat and radiant kinfire magic",
+  "tagline": "Light the way, brave the Starless Nights, and protect the world of Atios",
+  "loreSummary": "You are Seekers, courageous adventurers wielding ancient kinfire lanterns to push back the encroaching Starless Nights. Beyond the protective walls of Din'Lux lies a corrupted wilderness waiting for your party's blades, wits, and luminous magic.",
+  "badgeCategory": "Cooperative Adventure / Tactical Boss Battler",
+  "roadmapTitle": "🗺️ Atios Campaign & Quest Progress",
+  "roadmapBadge": "SEEKER EXPEDITION",
+  "keyFeatures": [
+    "Dynamic chit-pull turn order and cooperative boost card mechanics",
+    "21 interconnected story quest boxes with zero setup overhead",
+    "Branching narrative choices and character moral alignments",
+    "Rich world exploration moving from Din'Lux into the dark wilds"
+  ],
+  "scopes": {
+    "kinfire_standard": {
+      "name": "Standard Campaign (21 Quests)",
+      "description": "The complete 21-quest story campaign from the gates of Din'Lux to the heart of the Starless Nights."
+    },
+    "kinfire_story": {
+      "name": "Main Story Arc (Direct Path)",
+      "description": "Streamlined narrative progression focusing directly on primary quest objectives and key confrontations."
+    },
+    "kinfire_completionist": {
+      "name": "Master Seeker & Full Exploration",
+      "description": "Complete story playthrough including all optional branching routes, town dialogues, and high-difficulty encounters."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Quest 5",
+      "title": "Shadows Beyond Din'Lux",
+      "phase": "Atios Arc I - The First Expeditions",
+      "description": "Passing through the gates of Din'Lux into the Starless Nights and confronting the initial corrupting shadows."
+    },
+    {
+      "order": 2,
+      "badgeText": "Quest 10",
+      "title": "Trials of the Wilds",
+      "phase": "Atios Arc II - Deep Territory",
+      "description": "Overcoming fearsome transformed beasts and reigniting ancient kinfire lanterns across hostile wilderness paths."
+    },
+    {
+      "order": 3,
+      "badgeText": "Quest 16",
+      "title": "The Gathering Eclipse",
+      "phase": "Atios Arc III - Shattered Boundaries",
+      "description": "Exposing conspiracies within Din'Lux and holding back the darkness as the Starless Nights threaten the heart of the realm."
+    },
+    {
+      "order": 4,
+      "badgeText": "Quest 21",
+      "title": "The Light of Dawn",
+      "phase": "Atios Arc IV - The Climactic Finale",
+      "description": "The ultimate showdown to penetrate the epicenter of the darkness and rekindle the sacred light across Atios."
+    }
+  ]
+}

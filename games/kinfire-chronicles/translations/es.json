@@ -1,0 +1,59 @@
+{
+  "title": "Kinfire Chronicles: Night's Fall",
+  "subtitle": "Aventura cooperativa trepidante con combate dinámico por fichas y la magia radiante del fuego de linterna",
+  "tagline": "Ilumina el camino, desafía las Noches Sin Estrellas y protege el mundo de Atios",
+  "loreSummary": "Sois Buscadores (Seekers), audaces aventureros armados con ancestrales linternas de kinfire para repeler las implacables Noches Sin Estrellas. Más allá de los muros protectores de Din'Lux aguarda una naturaleza corrompida lista para poner a prueba vuestro acero, ingenio y magia luminosa.",
+  "badgeCategory": "Aventura Cooperativa / Batallas Tácticas contra Jefes",
+  "roadmapTitle": "🗺️ Campaña de Atios y Progreso de Misiones",
+  "roadmapBadge": "EXPEDICIÓN DE BUSCADORES",
+  "keyFeatures": [
+    "Orden de turno dinámico por robo de fichas y mecánicas de cartas de apoyo cooperativo",
+    "21 cajas de misiones narrativas interconectadas con preparación instantánea",
+    "Decisiones narrativas ramificadas y alineamiento moral de los personajes",
+    "Exploración de un rico mundo que se expande desde Din'Lux hacia las tierras salvajes"
+  ],
+  "scopes": {
+    "kinfire_standard": {
+      "name": "Campaña Estándar (21 Misiones)",
+      "description": "La campaña narrativa completa de 21 misiones, desde las murallas de Din'Lux hasta el corazón de las Noches Sin Estrellas."
+    },
+    "kinfire_story": {
+      "name": "Ruta Principal de la Historia (Camino Directo)",
+      "description": "Progresión narrativa optimizada centrada directamente en los objetivos de misión principales y los enfrentamientos clave."
+    },
+    "kinfire_completionist": {
+      "name": "Maestro Buscador y Exploración Total",
+      "description": "Partida narrativa completa incluyendo todas las rutas secundarias ramificadas, diálogos de ciudad y encuentros de máxima dificultad."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Misión 5",
+      "title": "Sombras más allá de Din'Lux",
+      "phase": "Arco de Atios I - Las Primeras Expediciones",
+      "description": "Cruzando las puertas de Din'Lux hacia las Noches Sin Estrellas y enfrentando las primeras sombras corruptoras."
+    },
+    {
+      "order": 2,
+      "badgeText": "Misión 10",
+      "title": "Pruebas de las Tierras Salvajes",
+      "phase": "Arco de Atios II - Territorio Profundo",
+      "description": "Superando temibles bestias transformadas y reavivando antiguas linternas de kinfire en hostiles senderos silvestres."
+    },
+    {
+      "order": 3,
+      "badgeText": "Misión 16",
+      "title": "El Eclipse Inminente",
+      "phase": "Arco de Atios III - Fronteras Quebradas",
+      "description": "Desentrañando conspiraciones en el seno de Din'Lux y conteniendo la oscuridad mientras las Noches Sin Estrellas amenazan el corazón del reino."
+    },
+    {
+      "order": 4,
+      "badgeText": "Misión 21",
+      "title": "La Luz del Amanecer",
+      "phase": "Arco de Atios IV - El Clímax Final",
+      "description": "El enfrentamiento definitivo para penetrar en el epicentro de las sombras y restaurar la luz sagrada en todo Atios."
+    }
+  ]
+}

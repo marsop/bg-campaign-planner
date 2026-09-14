@@ -1,0 +1,59 @@
+{
+  "title": "Kinfire Chronicles: Night's Fall",
+  "subtitle": "Aventure coopérative trépidante avec combat dynamique par pioche de jetons et magie radiante des lanternes de kinfire",
+  "tagline": "Éclairez la voie, affrontez les Nuits Sans Étoiles et protégez le monde d'Atios",
+  "loreSummary": "Vous êtes des Chercheurs (Seekers), de vaillants aventuriers brandissant d'antiques lanternes de kinfire pour repousser les Nuits Sans Étoiles. Au-delà des remparts protecteurs de Din'Lux s'étend une nature corrompue prête à éprouver vos lames, votre sagacité et votre magie lumineuse.",
+  "badgeCategory": "Aventure Coopérative / Combats de Boss Tactiques",
+  "roadmapTitle": "🗺️ Campagne d'Atios et Progression des Quêtes",
+  "roadmapBadge": "EXPÉDITION DES CHERCHEURS",
+  "keyFeatures": [
+    "Ordre du tour dynamique par tirage de jetons et cartes de soutien coopératif",
+    "21 boîtes de quêtes scénarisées interconnectées sans temps de mise en place",
+    "Choix narratifs à embranchements et alignements moraux des héros",
+    "Exploration d'un monde captivant depuis Din'Lux jusqu'aux contrées ténébreuses"
+  ],
+  "scopes": {
+    "kinfire_standard": {
+      "name": "Campagne Standard (21 Quêtes)",
+      "description": "La campagne scénarisée intégrale en 21 quêtes, depuis les remparts de Din'Lux jusqu'au cœur des Nuits Sans Étoiles."
+    },
+    "kinfire_story": {
+      "name": "Trame Principale (Chemin Direct)",
+      "description": "Progression narrative optimisée axée directement sur les objectifs majeurs et les affrontements clés."
+    },
+    "kinfire_completionist": {
+      "name": "Maître Chercheur & Exploration Totale",
+      "description": "Parcours narratif exhaustif comprenant toutes les voies secondaires, dialogues en ville et combats de haute difficulté."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Quête 5",
+      "title": "Ombres au-delà de Din'Lux",
+      "phase": "Arc d'Atios I - Les Premières Expéditions",
+      "description": "Franchir les portes de Din'Lux pour s'aventurer dans les Nuits Sans Étoiles et affronter les premières ombres corruptrices."
+    },
+    {
+      "order": 2,
+      "badgeText": "Quête 10",
+      "title": "Épreuves des Terres Sauvages",
+      "phase": "Arc d'Atios II - Territoire Profond",
+      "description": "Triompher de redoutables bêtes transformées et ranimer d'antiques lanternes de kinfire sur des sentiers hostiles."
+    },
+    {
+      "order": 3,
+      "badgeText": "Quête 16",
+      "title": "L'Éclipse Imminente",
+      "phase": "Arc d'Atios III - Frontières Brisées",
+      "description": "Déjouer des conspirations au cœur de Din'Lux et contenir les ténèbres tandis que les Nuits Sans Étoiles menacent le royaume."
+    },
+    {
+      "order": 4,
+      "badgeText": "Quête 21",
+      "title": "La Lumière de l'Aube",
+      "phase": "Arc d'Atios IV - Le Dénouement Final",
+      "description": "L'ultime confrontation pour percer l'épicentre des ténèbres et raviver la lumière sacrée sur tout Atios."
+    }
+  ]
+}

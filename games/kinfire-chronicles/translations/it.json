@@ -1,0 +1,59 @@
+{
+  "title": "Kinfire Chronicles: Night's Fall",
+  "subtitle": "Avventura cooperativa frenetica con combattimento dinamico tramite estrazione di segnalini e la magia radiosa delle lanterne di kinfire",
+  "tagline": "Illumina il cammino, affronta le Notti Senza Stelle e difendi il mondo di Atios",
+  "loreSummary": "Siete Cercatori (Seekers), coraggiosi avventurieri dotati di antiche lanterne di kinfire per respingere l'avanzata delle Notti Senza Stelle. Oltre le mura protettive di Din'Lux si stende una natura corrotta pronta a mettere alla prova le vostre lame, il vostro ingegno e la vostra magia luminosa.",
+  "badgeCategory": "Avventura Cooperativa / Boss Battler Tattico",
+  "roadmapTitle": "🗺️ Campagna di Atios e Avanzamento Missioni",
+  "roadmapBadge": "SPEDIZIONE DEI CERCATORI",
+  "keyFeatures": [
+    "Ordine di turno dinamico tramite estrazione da sacchetto e carte supporto cooperative",
+    "21 scatole di missioni narrative interconnesse con preparazione istantanea",
+    "Scelte narrative a bivi e allineamenti morali dei personaggi",
+    "Esplorazione coinvolgente dalle porte di Din'Lux fino alle terre oscure"
+  ],
+  "scopes": {
+    "kinfire_standard": {
+      "name": "Campagna Standard (21 Missioni)",
+      "description": "L'intera campagna narrativa in 21 missioni, dai bastioni di Din'Lux fino al cuore delle Notti Senza Stelle."
+    },
+    "kinfire_story": {
+      "name": "Trama Principale (Percorso Diretto)",
+      "description": "Progressione narrativa essenziale focalizzata direttamente sugli obiettivi primari e gli scontri chiave."
+    },
+    "kinfire_completionist": {
+      "name": "Maestro Cercatore ed Esplorazione Totale",
+      "description": "Percorso narrativo completo con tutte le missioni secondarie, dialoghi cittadini e scontri ad alta difficoltà."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Missione 5",
+      "title": "Ombre oltre Din'Lux",
+      "phase": "Arco di Atios I - Le Prime Spedizioni",
+      "description": "Varcare le porte di Din'Lux verso le Notti Senza Stelle e affrontare le prime ombre della corruzione."
+    },
+    {
+      "order": 2,
+      "badgeText": "Missione 10",
+      "title": "Prove delle Terre Selvagge",
+      "phase": "Arco di Atios II - Territorio Profondo",
+      "description": "Superare spaventose bestie trasformate e riaccendere antiche lanterne di kinfire lungo sentieri ostili."
+    },
+    {
+      "order": 3,
+      "badgeText": "Missione 16",
+      "title": "L'Eclissi Imminente",
+      "phase": "Arco di Atios III - Confini Infranti",
+      "description": "Smascherare cospirazioni all'interno di Din'Lux e contenere l'oscurità mentre le Notti Senza Stelle minacciano il cuore del regno."
+    },
+    {
+      "order": 4,
+      "badgeText": "Missione 21",
+      "title": "La Luce dell'Alba",
+      "phase": "Arco di Atios IV - Il Finale Epico",
+      "description": "La resa dei conti decisiva per penetrare nell'epicentro dell'oscurità e rinnovare la luce sacra su tutta Atios."
+    }
+  ]
+}
