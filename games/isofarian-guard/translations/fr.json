@@ -1,0 +1,66 @@
+{
+  "title": "The Isofarian Guard",
+  "subtitle": "Campagne RPG immersive en monde ouvert avec combat de bag-building et narration audio complète",
+  "tagline": "Répondez à l'appel de la Garde et bravez les étendues glacées d'Isofar",
+  "loreSummary": "Vous êtes les protecteurs d'élite jurés du royaume d'Isofar. À travers 5 campagnes entrelacées dans un vaste monde ouvert, parcourez des crêtes enneigées, maîtrisez des combats tactiques de construction de sacs, accomplissez des contrats de primes et des énigmes, et repoussez l'ombre grandissante.",
+  "badgeCategory": "RPG Narratif en Monde Ouvert",
+  "roadmapTitle": "🗺️ Chroniques de Campagne et Progression d'Isofar",
+  "roadmapBadge": "CHRONIQUES DE LA GARDE",
+  "keyFeatures": [
+    "5 campagnes complètes mettant en scène des duos de gardes distincts avec plus de 27 heures de narration audio intégrale via Forteller",
+    "Combat tactique innovant de bag-building utilisant des jetons spécialisés, des plateaux de jeu et des capacités de compagnons",
+    "Exploration en monde ouvert à travers cités, zones sauvages, caravanes marchandes et quêtes d'énigmes exigeantes",
+    "Progression riche des héros avec arbres de compétences, artisanat poussé et améliorations de prestige permanentes des bastions"
+  ],
+  "scopes": {
+    "isg_full_chronicles": {
+      "name": "Chroniques Intégrales (Les 5 Campagnes)",
+      "description": "La saga intégrale de 45 chapitres traversant les cinq grands arcs narratifs de personnages, des prémices jusqu'au grand dénouement."
+    },
+    "isg_single_campaign": {
+      "name": "Arc de Campagne Individuel",
+      "description": "Une campagne d'initiation ciblée de 18 chapitres suivant un premier duo de gardes tout au long de leur histoire."
+    },
+    "isg_master_completionist": {
+      "name": "Grand Maître Complétiste",
+      "description": "Une expédition exhaustive de 70 chapitres accomplissant toutes les primes secondaires, le prestige urbain, l'artisanat de maître et les défis optionnels."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Livre I",
+      "title": "L'Appel de la Garde",
+      "phase": "Campagne 1 - Les Sentinelles du Nord",
+      "description": "Sceller les liens de la Garde dans les étendues glacées, ériger les premières fortifications et repousser les premières incursions démoniaques."
+    },
+    {
+      "order": 2,
+      "badgeText": "Livre II",
+      "title": "Liens d'Acier et de Pierre",
+      "phase": "Campagne 2 - Ombres Naissantes",
+      "description": "S'enfoncer au cœur des crêtes escarpées d'Isofar, protéger les communautés isolées et maîtriser les synergies tactiques du combat de jetons."
+    },
+    {
+      "order": 3,
+      "badgeText": "Livre III",
+      "title": "Le Réveil de la Malice",
+      "phase": "Campagne 3 - Conspirations Anciennes",
+      "description": "Déchiffrer des sanctuaires oubliés et traquer des monstruosités corrompues à travers les terres de givre."
+    },
+    {
+      "order": 4,
+      "badgeText": "Livre IV",
+      "title": "La Frontière Brisée",
+      "phase": "Campagne 4 - La Menace Imminente",
+      "description": "Rallier les places fortes isolées des montagnes, forger des équipements de maître et triompher de chasses à prime périlleuses."
+    },
+    {
+      "order": 5,
+      "badgeText": "Livre V",
+      "title": "Le Destin d'Isofar",
+      "phase": "Campagne 5 - Le Grand Dénouement",
+      "description": "Mener les héros rescapés à travers l'affrontement décisif en plusieurs phases pour sceller le destin éternel du royaume d'Isofar."
+    }
+  ]
+}

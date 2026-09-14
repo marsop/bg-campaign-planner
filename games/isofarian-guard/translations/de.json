@@ -1,0 +1,66 @@
+{
+  "title": "The Isofarian Guard",
+  "subtitle": "Immersive Open-World-Rollenspiel-Kampagne mit Bag-Building-Kämpfen und Audio-Narration",
+  "tagline": "Folge dem Ruf der Wache und trotze der eisigen Wildnis von Isofar",
+  "loreSummary": "Ihr seid die eingeschworenen Elite-Beschützer des Reiches Isofar. In einer weitläufigen offenen Welt durchstreift ihr über 5 miteinander verwobene Kampagnen verschneite Bergklippen, meistert taktische Chip-Bag-Kämpfe, meistert Kopfgelder und Rätselquests und stellt euch einer drohenden Finsternis entgegen.",
+  "badgeCategory": "Open-World-Erzähl-RPG",
+  "roadmapTitle": "🗺️ Isofarianische Kampagnen-Chronik & Fortschritt",
+  "roadmapBadge": "WACH-CHRONIKEN",
+  "keyFeatures": [
+    "5 vollwertige Kampagnen mit unterschiedlichen Wächterpaaren und über 27 Stunden vollständiger Forteller-Audio-Narration",
+    "Innovativer taktischer Bag-Building-Kampf mit maßgeschneiderten Chips, Spielertableaus und Gefährtenfähigkeiten",
+    "Open-World-Erkundung über Städte, Wildnisknotenpunkte, Handelskarawanen und anspruchsvolle Rätselquests",
+    "Tiefgehende Charakterentwicklung mit Fähigkeitsbäumen, Handwerkssystem und dauerhaften Siedlungs-Prestige-Upgrades"
+  ],
+  "scopes": {
+    "isg_full_chronicles": {
+      "name": "Gesamte Chroniken (Alle 5 Kampagnen)",
+      "description": "Die vollständige 45-Kapitel-Saga, die alle fünf epischen Charakter-Kampagnenstränge von den Anfängen bis zum großen Finale umfasst."
+    },
+    "isg_single_campaign": {
+      "name": "Einzelner Kampagnenbogen",
+      "description": "Eine konzentrierte 18-Kapitel-Einführungskampagne, die ein erstes Wächterpaar durch ihren gesamten Handlungsstrang begleitet."
+    },
+    "isg_master_completionist": {
+      "name": "Großmeister-Komplettierer",
+      "description": "Eine erschöpfende 70-Kapitel-Expedition, die alle Kopfgeldjagden, Stadt-Prestige-Aufgaben, Meister-Handwerke und optionalen Herausforderungen meistert."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Buch I",
+      "title": "Ruf der Wache",
+      "phase": "Kampagne 1 - Die Wächter des Nordens",
+      "description": "Das Schmieden des Bandes der Wache in der gefrorenen Wildnis, Errichtung erster Befestigungen und Aufdeckung früher dämonischer Vorstöße."
+    },
+    {
+      "order": 2,
+      "badgeText": "Buch II",
+      "title": "Bande aus Stahl & Stein",
+      "phase": "Kampagne 2 - Aufziehende Schatten",
+      "description": "Tieferes Vordringen in die schroffen Felsen Isofars, Verteidigung abgelegener Siedlungen und Meistern taktischer Bag-Building-Synergien."
+    },
+    {
+      "order": 3,
+      "badgeText": "Buch III",
+      "title": "Das Erwachen der Bosheit",
+      "phase": "Kampagne 3 - Uralte Verschwörungen",
+      "description": "Entschlüsselung ursprünglicher Ruinen in vergessenen Bergschreinen und Jagd auf verdorbene Monstrositäten in den Frostlanden."
+    },
+    {
+      "order": 4,
+      "badgeText": "Buch IV",
+      "title": "Die Zersplitterte Grenze",
+      "phase": "Kampagne 4 - Die Drohende Krise",
+      "description": "Vereinigung isolierter Bergfesten, Schmieden meisterhafter Ausrüstung und Bestehen hochgefährlicher Kopfgeldjagden."
+    },
+    {
+      "order": 5,
+      "badgeText": "Buch V",
+      "title": "Das Schicksal Isofars",
+      "phase": "Kampagne 5 - Das Große Finale",
+      "description": "Führung der überlebenden Champions durch die mehrphasige Entscheidungsschlacht, um das Schicksal des Reiches Isofar zu besiegeln."
+    }
+  ]
+}

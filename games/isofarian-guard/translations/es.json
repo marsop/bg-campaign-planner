@@ -1,0 +1,66 @@
+{
+  "title": "The Isofarian Guard",
+  "subtitle": "Inmersiva campaña de rol de mundo abierto con combate de construcción de bolsas y narración con audio",
+  "tagline": "Responde a la llamada de la Guardia y desafía los páramos helados de Isofar",
+  "loreSummary": "Sois los protectores de élite juramentados del reino de Isofar. A lo largo de 5 campañas entrelazadas en un vasto mundo abierto, exploraréis riscos montañosos nevados, dominaréis el combate táctico con bolsas de fichas, resolveréis enigmas y cacerías, y contendréis una sombra ancestral.",
+  "badgeCategory": "RPG Narrativo de Mundo Abierto",
+  "roadmapTitle": "🗺️ Crónicas de Campaña y Progresión de Isofar",
+  "roadmapBadge": "CRÓNICAS DE LA GUARDIA",
+  "keyFeatures": [
+    "5 campañas completas protagonizadas por parejas de guardias con más de 27 horas de narración coral en audio vía Forteller",
+    "Innovador combate táctico de construcción de bolsas con fichas exclusivas, tableros de personaje y habilidades de compañía",
+    "Exploración de mundo abierto entre ciudades, nodos salvajes, caravanas mercantes y desafiantes misiones de puzle",
+    "Profunda progresión de personajes con árboles de habilidades, artesanía avanzada y mejoras de prestigio permanentes en asentamientos"
+  ],
+  "scopes": {
+    "isg_full_chronicles": {
+      "name": "Crónicas Completas (Las 5 Campañas)",
+      "description": "La saga completa de 45 capítulos que abarca los cinco arcos narrativos de los personajes desde el inicio hasta el clímax final."
+    },
+    "isg_single_campaign": {
+      "name": "Arco de Campaña Individual",
+      "description": "Una campaña introductoria concentrada de 18 capítulos que sigue a una pareja inicial de guardias a través de toda su historia."
+    },
+    "isg_master_completionist": {
+      "name": "Gran Maestro Completista",
+      "description": "Una expedición exhaustiva de 70 capítulos completando todas las recompensas secundarias, prestigio urbano, artesanía magistral y desafíos opcionales."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Libro I",
+      "title": "Llamada de la Guardia",
+      "phase": "Campaña 1 - Los Guardianes del Norte",
+      "description": "Forjando el vínculo de la Guardia en las tierras salvajes invernales, erigiendo fortificaciones iniciales y descubriendo incursiones demoníacas tempranas."
+    },
+    {
+      "order": 2,
+      "badgeText": "Libro II",
+      "title": "Lazos de Acero y Piedra",
+      "phase": "Campaña 2 - Sombras Crecientes",
+      "description": "Avanzando hacia el corazón de los riscos de Isofar, protegiendo asentamientos remotos y dominando las sinergias tácticas del combate."
+    },
+    {
+      "order": 3,
+      "badgeText": "Libro III",
+      "title": "La Malicia Despierta",
+      "phase": "Campaña 3 - Conspiraciones Ancestrales",
+      "description": "Descifrando ruinas primordiales en santuarios olvidados y dando caza a monstruosidades corruptas por los páramos helados."
+    },
+    {
+      "order": 4,
+      "badgeText": "Libro IV",
+      "title": "La Frontera Fragmentada",
+      "phase": "Campaña 4 - La Crisis Inminente",
+      "description": "Unificando bastiones montañosos aislados, forjando equipo legendario y superando cacerías de alto peligro."
+    },
+    {
+      "order": 5,
+      "badgeText": "Libro V",
+      "title": "El Destino de Isofar",
+      "phase": "Campaña 5 - El Gran Clímax",
+      "description": "Guiando a los héroes supervivientes a través de la batalla final en múltiples fases para decidir el destino eterno del reino de Isofar."
+    }
+  ]
+}

@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.16.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **The Isofarian Guard** narrative open-world RPG campaign with bag-building combat and full Forteller audio narration.
+  - 3 campaign scope presets: *Full Chronicles (All 5 Campaigns)* (45 chapters), *Single Campaign Arc* (18 chapters), and *Grand Master Completionist* (70 chapters).
+  - 5 narrative milestone checkpoints spanning the 5 Guard campaigns with spoiler protection (*Call of the Guard*, *Bonds of Steel & Stone*, *The Awakening Malice*, *The Shattered Frontier*, *Destiny of Isofar*).
+  - Thematic visual identity (frost sky blue `#38bdf8`, northern shadow navy `#0c1524`, and radiant amber `#f59e0b` styling with authentic 1:1 flat box cover art and atmospheric 16:9 widescreen backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.15.0] - 2026-09-14
 
 ### Added

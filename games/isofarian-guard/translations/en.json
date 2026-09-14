@@ -1,0 +1,66 @@
+{
+  "title": "The Isofarian Guard",
+  "subtitle": "Immersive narrative open-world RPG campaign with bag-building combat and audio narration",
+  "tagline": "Answer the call of the Guard and brave the frozen wilds of Isofar",
+  "loreSummary": "You are elite sworn protectors of the realm of Isofar. Navigating a vast open-world wilderness through 5 interconnected campaigns, explore snow-swept mountain crags, master tactical chip-bag combat, complete bounties and puzzle quests, and resist an encroaching shadow.",
+  "badgeCategory": "Open-World Narrative RPG",
+  "roadmapTitle": "🗺️ Isofarian Campaign Chronicles & Progression",
+  "roadmapBadge": "GUARD CHRONICLES",
+  "keyFeatures": [
+    "5 full campaigns following distinct pairs of Guards with over 27 hours of full-cast Forteller audio narration",
+    "Innovative bag-building tactical combat using specialized chips, custom player boards, and companion abilities",
+    "Open-world exploration across cities, wilderness nodes, trade caravans, and challenging puzzle quests",
+    "Deep character progression with custom skill trees, crafting mechanics, and permanent settlement prestige upgrades"
+  ],
+  "scopes": {
+    "isg_full_chronicles": {
+      "name": "Full Chronicles (All 5 Campaigns)",
+      "description": "The complete 45-chapter saga traversing all five epic character campaign arcs from beginning to endgame."
+    },
+    "isg_single_campaign": {
+      "name": "Single Campaign Arc",
+      "description": "A focused 18-chapter introductory campaign following an initial pair of Guards through their complete storyline."
+    },
+    "isg_master_completionist": {
+      "name": "Grand Master Completionist",
+      "description": "An exhaustive 70-chapter expedition completing all side bounties, city prestige tasks, master crafting, and optional challenges."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Book I",
+      "title": "Call of the Guard",
+      "phase": "Campaign 1 - The Northern Wardens",
+      "description": "Forming the bond of the Guard in the frozen wilds, establishing initial fortifications, and uncovering early demonic incursions."
+    },
+    {
+      "order": 2,
+      "badgeText": "Book II",
+      "title": "Bonds of Steel & Stone",
+      "phase": "Campaign 2 - Rising Shadows",
+      "description": "Venturing deeper across the crags of Isofar, defending isolated settlements, and mastering tactical bag-building combat synergies."
+    },
+    {
+      "order": 3,
+      "badgeText": "Book III",
+      "title": "The Awakening Malice",
+      "phase": "Campaign 3 - Ancient Conspiracies",
+      "description": "Deciphering primordial ruins across forgotten mountain shrines and hunting corrupted monstrosities across the frostlands."
+    },
+    {
+      "order": 4,
+      "badgeText": "Book IV",
+      "title": "The Shattered Frontier",
+      "phase": "Campaign 4 - The Gathering Crisis",
+      "description": "Uniting isolated mountain holdfasts, crafting masterwork gear, and braving high-danger bounty hunts."
+    },
+    {
+      "order": 5,
+      "badgeText": "Book V",
+      "title": "Destiny of Isofar",
+      "phase": "Campaign 5 - The Grand Climax",
+      "description": "Guiding the surviving champions through the final multi-stage confrontation to determine the eternal fate of Isofar."
+    }
+  ]
+}

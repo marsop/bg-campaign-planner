@@ -1,0 +1,103 @@
+{
+  "id": "isofarian-guard",
+  "title": "The Isofarian Guard",
+  "releaseYear": 2023,
+  "designers": "Eric Bittermann",
+  "playersMin": 1,
+  "playersMax": 2,
+  "bggRating": 8.5,
+  "bggWeight": 3.2,
+  "bggUrl": "https://boardgamegeek.com/boardgame/281526/isofarian-guard",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "chapters",
+  "theme": {
+    "primaryColor": "#38bdf8",
+    "secondaryColor": "#0c1524",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e293b 0%, #0c1524 60%, #050b14 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.90)",
+    "borderColor": "rgba(56, 189, 248, 0.35)",
+    "glowColor": "rgba(56, 189, 248, 0.25)",
+    "headerFont": "'Cinzel Decorative', 'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "❄️",
+    "emblem": "🛡️⚔️",
+    "themeClass": "theme-isofarian-guard",
+    "activeThemeClass": "theme-isofarian-guard-active",
+    "roadmapClass": "roadmap-isofarian-guard",
+    "heroClass": "hero-isofarian-guard"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #281526)",
+    "Sky Kingdom Games Official Rulebook & Forteller Narration Catalog",
+    "Community Campaign Playthrough Metrics & Survey Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "isg_full_chronicles",
+      "baseScenarioCount": 45,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": true
+    },
+    {
+      "id": "isg_single_campaign",
+      "baseScenarioCount": 18,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "isg_master_completionist",
+      "baseScenarioCount": 70,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🏰",
+      "badgeText": "Book I",
+      "title": "Call of the Guard",
+      "phase": "Campaign 1 - The Northern Wardens",
+      "description": "Forming the bond of the Guard in the frozen wilds, establishing initial fortifications, and uncovering early demonic incursions."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 18,
+      "iconEmoji": "⚔️",
+      "badgeText": "Book II",
+      "title": "Bonds of Steel & Stone",
+      "phase": "Campaign 2 - Rising Shadows",
+      "description": "Venturing deeper across the crags of Isofar, defending isolated settlements, and mastering tactical bag-building combat synergies."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 28,
+      "iconEmoji": "🔮",
+      "badgeText": "Book III",
+      "title": "The Awakening Malice",
+      "phase": "Campaign 3 - Ancient Conspiracies",
+      "description": "Deciphering primordial ruins across forgotten mountain shrines and hunting corrupted monstrosities across the frostlands."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 37,
+      "iconEmoji": "🛡️",
+      "badgeText": "Book IV",
+      "title": "The Shattered Frontier",
+      "phase": "Campaign 4 - The Gathering Crisis",
+      "description": "Uniting isolated mountain holdfasts, crafting masterwork gear, and braving high-danger bounty hunts."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 45,
+      "iconEmoji": "✨",
+      "badgeText": "Book V",
+      "title": "Destiny of Isofar",
+      "phase": "Campaign 5 - The Grand Climax",
+      "description": "Guiding the surviving champions through the final multi-stage confrontation to determine the eternal fate of Isofar."
+    }
+  ]
+}

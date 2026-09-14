@@ -1,0 +1,66 @@
+{
+  "title": "The Isofarian Guard",
+  "subtitle": "Campagna GDR open-world immersiva con combattimento bag-building e narrazione audio completa",
+  "tagline": "Rispondi alla chiamata della Guardia e sfida le lande ghiacciate di Isofar",
+  "loreSummary": "Siete i difensori d'élite giurati del regno di Isofar. Attraverso 5 campagne interconnesse in un vasto mondo aperto, esplorate vette innevate, dominate il combattimento tattico con sacchetti di segnalini, risolvete enigmi e contratti di taglie e arrestate un'oscurità primordiale.",
+  "badgeCategory": "GDR Narrativo Open-World",
+  "roadmapTitle": "🗺️ Cronache di Campagna e Progressione di Isofar",
+  "roadmapBadge": "CRONACHE DELLA GUARDIA",
+  "keyFeatures": [
+    "5 campagne complete con coppie distinte di Guardie e oltre 27 ore di narrazione audio corale via Forteller",
+    "Innovativo combattimento tattico di bag-building con gettoni speciali, plance giocatore e abilità dei compagni",
+    "Esplorazione open-world tra città fortificate, nodi selvaggi, carovane mercantili e impegnative missioni enigma",
+    "Profonda progressione dei personaggi con alberi delle abilità, artigianato avanzato e potenziamenti permanenti di prestigio degli avamposti"
+  ],
+  "scopes": {
+    "isg_full_chronicles": {
+      "name": "Cronache Complete (Tutte le 5 Campagne)",
+      "description": "L'intera saga di 45 capitoli che attraversa tutti e cinque gli archi narrativi dei personaggi dalle origini all'epilogo finale."
+    },
+    "isg_single_campaign": {
+      "name": "Arco di Campagna Singolo",
+      "description": "Una campagna introduttiva focalizzata di 18 capitoli che segue una coppia iniziale di Guardie lungo la loro intera storia."
+    },
+    "isg_master_completionist": {
+      "name": "Grande Maestro Completista",
+      "description": "Una spedizione esaustiva di 70 capitoli che porta a termine ogni taglia secondaria, prestigio cittadino, maestria artigianale e sfide facoltative."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Libro I",
+      "title": "La Chiamata della Guardia",
+      "phase": "Campagna 1 - I Custodi del Nord",
+      "description": "Forgiando il legame della Guardia nelle lande gelide, erigendo fortificazioni e scoprendo le prime incursioni demoniache."
+    },
+    {
+      "order": 2,
+      "badgeText": "Libro II",
+      "title": "Legami di Acciaio e Pietra",
+      "phase": "Campagna 2 - Ombre Crescenti",
+      "description": "Addentrandosi tra le vette impervie di Isofar, difendendo insediamenti isolati e padroneggiando le sinergie tattiche del combattimento."
+    },
+    {
+      "order": 3,
+      "badgeText": "Libro III",
+      "title": "Il Risveglio della Malizia",
+      "phase": "Campagna 3 - Cospirazioni Antiche",
+      "description": "Decifrando santuari dimenticati e dando la caccia a mostruosità corrotte nelle terre del gelo."
+    },
+    {
+      "order": 4,
+      "badgeText": "Libro IV",
+      "title": "La Frontiera Spezzata",
+      "phase": "Campagna 4 - La Crisi Imminente",
+      "description": "Unificando roccaforti montane isolate, forgiando equipaggiamenti leggendari e affrontando missioni di caccia ad alto rischio."
+    },
+    {
+      "order": 5,
+      "badgeText": "Libro V",
+      "title": "Il Destino di Isofar",
+      "phase": "Campagna 5 - Il Grande Epilogo",
+      "description": "Guidando i campioni superstiti attraverso lo scontro finale multi-fase per decidere le sorti eterne del regno di Isofar."
+    }
+  ]
+}

@@ -10,13 +10,13 @@ requested by the user.
 
 **Currently in app:**
 Gloomhaven · Frosthaven · Pandemic Legacy: Season 0 · Sleeping Gods · Pandemic Legacy: Season 1
-Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures · Chronicles of Drunagor: Age of Darkness · Tanares Adventures
+Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures · Chronicles of Drunagor: Age of Darkness · Tanares Adventures · The Isofarian Guard
 
 ---
 
 ## 🟥 High Priority
 
-- **Isofarian Guard** — Open-world RPG with Forteller audio narration. 5 campaigns, 100–170+ hours. ~8.0 BGG. 1–4 players.
+*(None currently — see Medium Priority below)*
 
 ---
 
