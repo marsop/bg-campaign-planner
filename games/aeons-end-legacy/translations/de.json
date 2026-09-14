@@ -1,0 +1,59 @@
+{
+  "title": "Aeon's End: Legacy",
+  "subtitle": "Kooperative Deckbau-Legacy-Kampagne zur Verteidigung der unterirdischen Bastion Feste Ruhm",
+  "tagline": "Schmiede deinen Riss-Magier. Verteidige Feste Ruhm gegen die Namenlosen.",
+  "loreSummary": "Ihr seid Riss-Magier-Lehrlinge in der unterirdischen Zuflucht Feste Ruhm. Durch harte Prüfungen und wachsende arkanische Mächte müsst ihr den verheerenden Ansturm der Namenlosen abwehren.",
+  "badgeCategory": "Deckbau-Legacy-Kampagne",
+  "roadmapTitle": "⚡ Arkane Prüfungen & Verteidigung von Feste Ruhm",
+  "roadmapBadge": "RISS-ROADMAP",
+  "keyFeatures": [
+    "Deckbau ohne Mischen: Bestimme strategisch die Reihenfolge deines Ablagestapels",
+    "Individuelle Charakterentwicklung: Entwickle einzigartige Startkarten und Risskräfte",
+    "Spannender variabler Zugreihenfolge-Stapel für unberechenbare Runden",
+    "Permanente Marktentwicklung und versiegelte Kampagnenumschläge"
+  ],
+  "scopes": {
+    "aeons_end_core": {
+      "name": "Haupt-Legacy-Kampagne (8 Kapitel)",
+      "description": "Die offizielle 8-Kapitel-Legacy-Erzählung von den Lehrlingsprüfungen bis zur entscheidenden finalen Verteidigung von Feste Ruhm."
+    },
+    "aeons_end_expedition": {
+      "name": "Kampagne & Post-Game-Expedition",
+      "description": "Die vollständige 8-Kapitel-Kampagne plus eine 4-Schlachten-Expedition im Anschluss mit euren voll ausgebildeten Riss-Magiern."
+    },
+    "aeons_end_completionist": {
+      "name": "Großer Verteidiger & Herausforderungs-Gauntlet",
+      "description": "Komplette Legacy-Kampagne, mehrere Expeditionen, Erzfeinde auf hohem Schwierigkeitsgrad und volle Marktmodularität."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Kapitel 1",
+      "title": "Die Prüfung der Lehrlinge",
+      "phase": "Phase I - Erweckung der Rissmagie",
+      "description": "Angehende Magier bestehen ihre erste Bewährungsprobe, lernen instabile Risse zu fokussieren und wehren den ersten Angriff ab."
+    },
+    {
+      "order": 2,
+      "badgeText": "Kapitel 3",
+      "title": "Der Kriechende Einfall",
+      "phase": "Phase II - Der Schwarm der Tiefe",
+      "description": "Die unterirdischen Hallen erzittern, während monströse Kreaturen die Verteidigungsringe der Festung attackieren."
+    },
+    {
+      "order": 3,
+      "badgeText": "Kapitel 6",
+      "title": "Die Belagerte Zitadelle",
+      "phase": "Phase III - Psychischer Ansturm",
+      "description": "Bösartige Mächte greifen den Verstand der Verteidiger an und zwingen die Magier zur Entfesselung verbotener Risse."
+    },
+    {
+      "order": 4,
+      "badgeText": "Kapitel 8",
+      "title": "Die Letzte Abrechnung",
+      "phase": "Phase IV - Die Letzte Zuflucht",
+      "description": "Vollendete Riss-Magier stellen sich im Epizentrum der Katastrophe dem Schicksalskampf um das Überleben der Menschheit."
+    }
+  ]
+}

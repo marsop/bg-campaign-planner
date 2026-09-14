@@ -1,0 +1,59 @@
+{
+  "title": "Aeon's End: Legacy",
+  "subtitle": "Cooperative deck-building legacy campaign defending the subterranean bastion of Gravehold",
+  "tagline": "Forge your breach mage. Defend Gravehold against the Nameless.",
+  "loreSummary": "You are apprentice breach mages in the underground haven of Gravehold. Through grueling trials and evolving arcane abilities, you must repel the terrifying onslaught of the Nameless.",
+  "badgeCategory": "Deck-Building Legacy Campaign",
+  "roadmapTitle": "⚡ Arcane Trials & Defense of Gravehold",
+  "roadmapBadge": "BREACH ROADMAP",
+  "keyFeatures": [
+    "Deck-building without shuffling: order your discard pile strategically",
+    "Custom character creation: evolve unique starting cards and breach powers",
+    "Tense variable turn order deck keeps every round unpredictable",
+    "Permanent market evolution and sealed legacy envelopes"
+  ],
+  "scopes": {
+    "aeons_end_core": {
+      "name": "Core Legacy Campaign (8 Chapters)",
+      "description": "The definitive 8-chapter legacy narrative from apprentice trials to the cataclysmic final defense of Gravehold."
+    },
+    "aeons_end_expedition": {
+      "name": "Campaign & Post-Game Expedition",
+      "description": "The full 8-chapter legacy campaign plus a 4-battle post-game expedition mode using your fully upgraded breach mages."
+    },
+    "aeons_end_completionist": {
+      "name": "Grand Defender & Challenge Gauntlet",
+      "description": "Complete legacy campaign, multiple expedition runs, increased difficulty nemesis encounters, and full market modularity."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Chapter 1",
+      "title": "The Apprentices' Ordeal",
+      "phase": "Phase I - Trial of Breach Magic",
+      "description": "Novice mages undergo their inaugural trial, learning to focus volatile breaches and defend Gravehold against the first incursion."
+    },
+    {
+      "order": 2,
+      "badgeText": "Chapter 3",
+      "title": "The Creeping Incursion",
+      "phase": "Phase II - The Hive Swarm",
+      "description": "The subterranean depths shudder as horrific subterranean entities probe the perimeter defenses of the bastion."
+    },
+    {
+      "order": 3,
+      "badgeText": "Chapter 6",
+      "title": "The Citadel Besieged",
+      "phase": "Phase III - Psychic Onslaught",
+      "description": "Malevolent forces assault the sanity of Gravehold's defenders, forcing the mages to unlock dangerous forbidden breaches."
+    },
+    {
+      "order": 4,
+      "badgeText": "Chapter 8",
+      "title": "The Final Reckoning",
+      "phase": "Phase IV - The Last Bastion",
+      "description": "The fully forged breach mages stand at the epicenter of the cataclysm in a desperate final stand to preserve humanity."
+    }
+  ]
+}

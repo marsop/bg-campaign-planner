@@ -1,0 +1,59 @@
+{
+  "title": "Aeon's End: Legacy",
+  "subtitle": "Campaña legacy cooperativa de construcción de mazos para defender el bastión subterráneo de Gravehold",
+  "tagline": "Forja a tu mago de la brecha. Defiende Gravehold de los Sin Nombre.",
+  "loreSummary": "Sois aprendices de magos de la brecha en el refugio subterráneo de Gravehold. A través de duras pruebas y poderes arcanos en evolución, deberéis repeler la aterradora embestida de los Sin Nombre.",
+  "badgeCategory": "Campaña Legacy Construcción de Mazos",
+  "roadmapTitle": "⚡ Pruebas Arcanas y Defensa de Gravehold",
+  "roadmapBadge": "HOJA DE RUTA DE BRECHAS",
+  "keyFeatures": [
+    "Construcción de mazos sin barajar: gestiona estratégicamente tu pila de descartes",
+    "Creación de personaje personalizada: desarrolla cartas iniciales y poderes de brecha únicos",
+    "Mazo de orden de turno variable que mantiene la tensión en cada ronda",
+    "Evolución permanente del mercado de suministros y sobres sellados de campaña"
+  ],
+  "scopes": {
+    "aeons_end_core": {
+      "name": "Campaña Legacy Principal (8 Capítulos)",
+      "description": "La narrativa legacy canónica de 8 capítulos, desde las pruebas de aprendiz hasta la climática defensa final de Gravehold."
+    },
+    "aeons_end_expedition": {
+      "name": "Campaña y Expedición Post-Juego",
+      "description": "La campaña legacy completa de 8 capítulos más una expedición de 4 batallas post-juego con tus magos mejorados al máximo."
+    },
+    "aeons_end_completionist": {
+      "name": "Gran Defensor y Guantelete de Desafío",
+      "description": "Campaña legacy completa, múltiples expediciones, némesis en dificultad avanzada y dominio modular del mercado."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Capítulo 1",
+      "title": "La Prueba de los Aprendices",
+      "phase": "Fase I - El Despertar de la Magia de Brecha",
+      "description": "Los jóvenes aprendices superan su primera ordalía aprendiendo a canalizar brechas inestables y repeliendo la incursión inicial."
+    },
+    {
+      "order": 2,
+      "badgeText": "Capítulo 3",
+      "title": "La Incursión Reptante",
+      "phase": "Fase II - El Enjambre Subterráneo",
+      "description": "Las profundidades retumban mientras entidades aberrantes ponen a prueba las defensas exteriores del último reducto."
+    },
+    {
+      "order": 3,
+      "badgeText": "Capítulo 6",
+      "title": "La Ciudadela Asediada",
+      "phase": "Fase III - Asalto Psíquico",
+      "description": "Fuerzas del vacío doblegan la cordura de los defensores, obligando a los magos a abrir brechas prohibidas."
+    },
+    {
+      "order": 4,
+      "badgeText": "Capítulo 8",
+      "title": "El Juicio Final",
+      "phase": "Fase IV - El Último Bastión",
+      "description": "Magos curtidos convergen en el epicentro del cataclismo en una resistencia desesperada por la supervivencia de la humanidad."
+    }
+  ]
+}

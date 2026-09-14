@@ -1,0 +1,59 @@
+{
+  "title": "Aeon's End: Legacy",
+  "subtitle": "Campagne legacy coopérative de deck-building pour défendre le bastion souterrain de Gravehold",
+  "tagline": "Façonnez votre mage de brèche. Défendez Gravehold contre les Sans-Nom.",
+  "loreSummary": "Vous incarnez des apprentis mages de brèche dans le sanctuaire souterrain de Gravehold. À travers de rudes épreuves et des pouvoirs arcaniques grandissants, repoussez l'assaut destructeur des Sans-Nom.",
+  "badgeCategory": "Campagne Legacy Deck-Building",
+  "roadmapTitle": "⚡ Épreuves Arcaniques & Défense de Gravehold",
+  "roadmapBadge": "FEUILLE DE ROUTE BRÈCHE",
+  "keyFeatures": [
+    "Deck-building sans mélange : ordonnez stratégiquement votre défausse",
+    "Création de personnage évolutive : personnalisez vos cartes de départ et pouvoirs de brèche",
+    "Ordre du tour imprévisible via le deck de tour pour une tension permanente",
+    "Évolution permanente du marché d'approvisionnement et enveloppes scellées"
+  ],
+  "scopes": {
+    "aeons_end_core": {
+      "name": "Campagne Legacy Principale (8 Chapitres)",
+      "description": "L'histoire legacy complète en 8 chapitres, de l'épreuve des novices à l'affrontement cataclysmique final pour sauver Gravehold."
+    },
+    "aeons_end_expedition": {
+      "name": "Campagne & Expédition Post-Fin",
+      "description": "La campagne des 8 chapitres suivie d'une expédition de 4 batailles avec vos mages de brèche chevronnés."
+    },
+    "aeons_end_completionist": {
+      "name": "Grand Défenseur & Défi Suprême",
+      "description": "Campagne legacy intégrale, multiples expéditions, Némésis en mode expert et maîtrise totale du marché modulaire."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Chapitre 1",
+      "title": "L'Épreuve des Apprentis",
+      "phase": "Phase I - Éveil de la Magie de Brèche",
+      "description": "Les jeunes mages affrontent leur premier rituel d'initiation en stabilisant des brèches instables face à l'incursion."
+    },
+    {
+      "order": 2,
+      "badgeText": "Chapitre 3",
+      "title": "L'Invasion Rampante",
+      "phase": "Phase II - L'Essaim des Ténèbres",
+      "description": "Les profondeurs résonnent alors que des créatures cauchemardesques menacent les avant-postes de la cité."
+    },
+    {
+      "order": 3,
+      "badgeText": "Chapitre 6",
+      "title": "La Citadelle Assiégée",
+      "phase": "Phase III - Assaut Psychique",
+      "description": "Des forces occultes attaquent l'esprit des défenseurs, poussant les mages à recourir à des brèches interdites."
+    },
+    {
+      "order": 4,
+      "badgeText": "Chapitre 8",
+      "title": "L'Ultime Jugement",
+      "phase": "Phase IV - Le Dernier Rempart",
+      "description": "Les mages accomplis se dressent au cœur du cataclysme dans une lutte désespérée pour la survie de l'humanité."
+    }
+  ]
+}

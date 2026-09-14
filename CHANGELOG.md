@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.22.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Aeon's End: Legacy**, the cooperative deck-building legacy campaign by Jenny Iglesias, Nick Little & Kevin Riley (Indie Boards & Cards, 2019).
+  - 3 campaign scope presets: *Core Legacy Campaign (8 Chapters)* (8 chapters, recommended), *Campaign & Post-Game Expedition* (12 chapters), and *Grand Defender & Challenge Gauntlet* (16 chapters).
+  - 4 narrative milestone checkpoints across the legacy campaign with spoiler protection (*The Apprentices' Ordeal*, *The Creeping Incursion*, *The Citadel Besieged*, *The Final Reckoning*).
+  - Thematic visual identity (electric cyan breach fire `#00e5ff`, deep subterranean obsidian `#0c0a1a`, and arcane violet `#a855f7` styling with Cinzel header font, authentic 1:1 flat box cover art, and atmospheric backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.21.0] - 2026-09-14
 
 ### Added

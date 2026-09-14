@@ -1,0 +1,59 @@
+{
+  "title": "Aeon's End: Legacy",
+  "subtitle": "Campagna legacy cooperativa di deck-building per difendere la fortezza sotterranea di Gravehold",
+  "tagline": "Forgia il tuo mago degli squarci. Difendi Gravehold dai Senza Nome.",
+  "loreSummary": "Siete apprendisti maghi degli squarci nel rifugio sotterraneo di Gravehold. Superando ardue prove e sviluppando poteri arcani unici, dovrete respingere il terrificante assalto dei Senza Nome.",
+  "badgeCategory": "Campagna Legacy Deck-Building",
+  "roadmapTitle": "⚡ Prove Arcane e Difesa di Gravehold",
+  "roadmapBadge": "MAPPA DEGLI SQUARCI",
+  "keyFeatures": [
+    "Deck-building senza rimescolare: gestisci strategicamente la tua pila degli scarti",
+    "Creazione del personaggio personalizzata: sviluppa carte uniche e poteri degli squarci",
+    "Mazzo dell'ordine di turno variabile per turni imprevedibili e carichi di suspense",
+    "Evoluzione permanente del mercato e buste della campagna sigillate"
+  ],
+  "scopes": {
+    "aeons_end_core": {
+      "name": "Campagna Legacy Principale (8 Capitoli)",
+      "description": "L'arco narrativo canonico in 8 capitoli, dalle prove di tirocinio alla battaglia finale decisiva per salvare Gravehold."
+    },
+    "aeons_end_expedition": {
+      "name": "Campagna e Spedizione Post-Finale",
+      "description": "L'intera campagna di 8 capitoli seguita da una spedizione di 4 battaglie usando i vostri maghi completamente potenziati."
+    },
+    "aeons_end_completionist": {
+      "name": "Gran Difensore e Sfida delle Nemesi",
+      "description": "Campagna legacy completa, spedizioni multiple, nemesi a difficoltà avanzata e piena modularità del mercato."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Capitolo 1",
+      "title": "La Prova degli Apprendisti",
+      "phase": "Fase I - Il Risveglio della Magia dello Squarcio",
+      "description": "I novizi affrontano la prima ordalia imparando a canalizzare squarci instabili contro la prima minaccia."
+    },
+    {
+      "order": 2,
+      "badgeText": "Capitolo 3",
+      "title": "L'Incursione Strisciante",
+      "phase": "Fase II - Lo Sciame Sotterraneo",
+      "description": "Le profondità sotterranee tremano mentre esseri mostruosi sondano le difese perimetrali della fortezza."
+    },
+    {
+      "order": 3,
+      "badgeText": "Capitolo 6",
+      "title": "La Cittadella Sotto Assedio",
+      "phase": "Fase III - Assalto Psichico",
+      "description": "Forze malevole corrodono la mente dei difensori, costringendo i maghi a sbloccare squarci proibiti."
+    },
+    {
+      "order": 4,
+      "badgeText": "Capitolo 8",
+      "title": "La Resa dei Conti Finale",
+      "phase": "Fase IV - L'Ultimo Baluardo",
+      "description": "I maghi ormai forgiati si radunano nell'epicentro del cataclisma per una disperata difesa dell'umanità."
+    }
+  ]
+}

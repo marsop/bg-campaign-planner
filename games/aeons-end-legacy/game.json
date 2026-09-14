@@ -1,0 +1,94 @@
+{
+  "id": "aeons-end-legacy",
+  "title": "Aeon's End: Legacy",
+  "releaseYear": 2019,
+  "designers": "Jenny Iglesias, Nick Little, Kevin Riley",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.0,
+  "bggWeight": 2.87,
+  "bggUrl": "https://boardgamegeek.com/boardgame/241451/aeons-end-legacy",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 15,
+  "unitType": "chapters",
+  "theme": {
+    "primaryColor": "#00e5ff",
+    "secondaryColor": "#0c0a1a",
+    "accentColor": "#a855f7",
+    "backgroundGradient": "radial-gradient(ellipse at top, #201138 0%, #0d091a 60%, #05030a 100%)",
+    "cardBackground": "rgba(13, 9, 26, 0.90)",
+    "borderColor": "rgba(0, 229, 255, 0.35)",
+    "glowColor": "rgba(0, 229, 255, 0.25)",
+    "headerFont": "'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "⚡",
+    "emblem": "⚡🔮",
+    "themeClass": "theme-aeons-end-legacy",
+    "activeThemeClass": "theme-aeons-end-legacy-active",
+    "roadmapClass": "roadmap-aeons-end-legacy",
+    "heroClass": "hero-aeons-end-legacy"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #241451)",
+    "Indie Boards & Cards Official Aeon's End: Legacy Rulebook & Legacy Deck",
+    "Community Campaign Statistics & Expedition Playthrough Logs"
+  ],
+  "scopes": [
+    {
+      "id": "aeons_end_core",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "aeons_end_expedition",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": false
+    },
+    {
+      "id": "aeons_end_completionist",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 30.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🔮",
+      "badgeText": "Chapter 1",
+      "title": "The Apprentices' Ordeal",
+      "phase": "Phase I - Trial of Breach Magic",
+      "description": "Novice mages undergo their inaugural trial, learning to focus volatile breaches and defend Gravehold against the first incursion."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "⚡",
+      "badgeText": "Chapter 3",
+      "title": "The Creeping Incursion",
+      "phase": "Phase II - The Hive Swarm",
+      "description": "The subterranean depths shudder as horrific subterranean entities probe the perimeter defenses of the bastion."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🌌",
+      "badgeText": "Chapter 6",
+      "title": "The Citadel Besieged",
+      "phase": "Phase III - Psychic Onslaught",
+      "description": "Malevolent forces assault the sanity of Gravehold's defenders, forcing the mages to unlock dangerous forbidden breaches."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "⏳",
+      "badgeText": "Chapter 8",
+      "title": "The Final Reckoning",
+      "phase": "Phase IV - The Last Bastion",
+      "description": "The fully forged breach mages stand at the epicenter of the cataclysm in a desperate final stand to preserve humanity."
+    }
+  ]
+}
