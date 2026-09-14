@@ -1,0 +1,63 @@
+{
+  "title": "Aeon Trespass: Odyssey",
+  "subtitle": "Colossal campaign of exploration, titan crafting, and mythic boss battles in a godless Antiquity",
+  "tagline": "Awaken the Titans, command the Argo, and defy the Primordial doom",
+  "loreSummary": "You are Argonauts aboard the giant ironclad city-ship Argo. In the wake of an apocalyptic cataclysm that slew the Olympian gods, you must pilot giant bio-mechanical Titans, discover forgotten technologies, and fight monstrous Primordials across an unraveling ancient Greece.",
+  "badgeCategory": "Mythic Boss Battler & Exploration",
+  "roadmapTitle": "🏛️ Odyssey Chronicle & Cycle Progression",
+  "roadmapBadge": "AEON ODYSSEY",
+  "keyFeatures": [
+    "Escalating tactical boss combat with dynamic AI, wound decks, and titan death-spiral mechanics",
+    "Extensive voyage phase with deep strategic map exploration, research trees, and city-ship management",
+    "Choice Matrix system where pivotal narrative decisions branch across multi-cycle campaigns",
+    "Epic campaign trilogy totaling 250+ hours across Cycles I, II, and III"
+  ],
+  "scopes": {
+    "ato_core_trilogy": {
+      "name": "Full Core Trilogy (Cycles I–III)",
+      "description": "The complete 3-cycle core saga: Truth of the Labyrinth, Abysswatchers, and Pitiless of the Sun."
+    },
+    "ato_cycle_1": {
+      "name": "Cycle I: Truth of the Labyrinth",
+      "description": "The standalone first cycle covering the voyage to Crete, labyrinth mystery, and initial Primordial clashes."
+    },
+    "ato_speedrun": {
+      "name": "Focused Critical Path",
+      "description": "Streamlined narrative progression through mandatory story milestones and Primordials with minimal side exploration."
+    },
+    "ato_completionist": {
+      "name": "Grand Chronicler (Cycles I–III + Mnestis)",
+      "description": "All 3 cycles, all optional hunts, Mnestis Theatre battle arena challenges, and complete Titan tech trees."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Cycle I",
+      "title": "The Truth of the Labyrinth",
+      "phase": "Cycle I - The Shattered Shore",
+      "description": "Uncovering the genesis of the Eschaton along the haunted coast of Crete."
+    },
+    {
+      "order": 2,
+      "badgeText": "Cycle II",
+      "title": "The Abysswatchers",
+      "phase": "Cycle II - Deep Currents",
+      "description": "Surviving the corrupted subterranean depths and ancient sunken threats."
+    },
+    {
+      "order": 3,
+      "badgeText": "Cycle III",
+      "title": "Ascent of the Titans",
+      "phase": "Cycle III - The Broken Sky",
+      "description": "Climbing toward divine remnants as Primordial escalation reaches catastrophic heights."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Pitiless of the Sun",
+      "phase": "Climax - Destiny of the Argo",
+      "description": "The final desperate stand to decide humanity's survival aboard the Argo."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Aeon Trespass: Odyssey",
+  "subtitle": "Campagne colossale d'exploration, d'artisanat de titans et de combats de boss mythiques dans une Antiquité sans dieux",
+  "tagline": "Éveillez les Titans, commandez l'Argo et défiez le destin Primordial",
+  "loreSummary": "Vous êtes des Argonautes à bord du gigantesque vaisseau-cité cuirassé Argo. Après un cataclysme apocalyptique qui a terrassé les dieux de l'Olympe, vous devez piloter des Titans biomécaniques, redécouvrir des technologies oubliées et affronter de monstrueux Primordiaux dans une Grèce antique en plein chaos.",
+  "badgeCategory": "Combat de Boss Mythique & Exploration",
+  "roadmapTitle": "🏛️ Chronique de l'Odyssée & Progression des Cycles",
+  "roadmapBadge": "ODYSSÉE D'ÉON",
+  "keyFeatures": [
+    "Combats tactiques haletants contre des boss avec IA dynamique, decks de blessures et spirale de mort des titans",
+    "Vaste phase de voyage avec exploration stratégique de cartes, arbres de recherche et gestion du vaisseau-cité",
+    "Système de Matrice de Choix où des décisions narratives cruciales se répercutent sur plusieurs cycles",
+    "Trilogie de campagne épique de plus de 250 heures à travers les Cycles I, II et III"
+  ],
+  "scopes": {
+    "ato_core_trilogy": {
+      "name": "Trilogie Principale Complète (Cycles I–III)",
+      "description": "La saga intégrale en 3 cycles : La Vérité du Labyrinthe, Les Gardiens de l'Abysse et Impitoyable comme le Soleil."
+    },
+    "ato_cycle_1": {
+      "name": "Cycle I : La Vérité du Labyrinthe",
+      "description": "Le premier cycle autonome couvrant le périple vers la Crète, le mystère du labyrinthe et les premiers affrontements primordiaux."
+    },
+    "ato_speedrun": {
+      "name": "Trame Principale Ciblée",
+      "description": "Progression narrative épurée à travers les étapes clés de l'histoire et les Primordiaux obligatoires, en limitant les détours."
+    },
+    "ato_completionist": {
+      "name": "Grand Chroniqueur (Cycles I–III + Mnestis)",
+      "description": "Les 3 cycles au grand complet, toutes les chasses optionnelles, défis de l'arène du Théâtre Mnestis et arbres technologiques de titans maximisés."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Cycle I",
+      "title": "La Vérité du Labyrinthe",
+      "phase": "Cycle I - Le Rivage Brisé",
+      "description": "Révéler la genèse de l'Eschaton le long des côtes hantées de la Crète."
+    },
+    {
+      "order": 2,
+      "badgeText": "Cycle II",
+      "title": "Les Gardiens de l'Abysse",
+      "phase": "Cycle II - Courants Profonds",
+      "description": "Survivre aux profondeurs souterraines corrompues et aux antiques périls engloutis."
+    },
+    {
+      "order": 3,
+      "badgeText": "Cycle III",
+      "title": "L'Ascension des Titans",
+      "phase": "Cycle III - Le Ciel Fracturé",
+      "description": "Gravir vers les vestiges célestes alors que l'escalade Primordiale atteint une ampleur catastrophique."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Impitoyable comme le Soleil",
+      "phase": "Climax - Le Destin de l'Argo",
+      "description": "L'ultime résistance désespérée pour sceller la survie de l'humanité à bord de l'Argo."
+    }
+  ]
+}

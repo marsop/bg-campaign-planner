@@ -1,0 +1,63 @@
+{
+  "title": "Aeon Trespass: Odyssey",
+  "subtitle": "Kolossale Kampagne voller Erkundung, Titanen-Handwerk und mythischer Bosskämpfe in einer gottlosen Antike",
+  "tagline": "Erwecke die Titanen, befehlige die Argo und trotze dem Untergang der Primordials",
+  "loreSummary": "Ihr seid Argonauten an Bord des gigantischen eisengepanzerten Stadtschiffs Argo. Nach einer apokalyptischen Katastrophe, die die olympischen Götter vernichtete, müsst ihr biomechanische Titanen steuern, vergessene Technologien erforschen und monströse Primordials in einem zerfallenden antiken Griechenland bekämpfen.",
+  "badgeCategory": "Mythischer Bosskämpfer & Erkundung",
+  "roadmapTitle": "🏛️ Odyssee-Chronik & Zyklenfortschritt",
+  "roadmapBadge": "AEON-ODYSSEE",
+  "keyFeatures": [
+    "Eskalierender taktischer Bosskampf mit dynamischer KI, Wundendecks und Titanen-Todesspiralen",
+    "Umfangreiche Reisephase mit strategischer Kartenerkundung, Forschungsbäumen und Stadtschiff-Verwaltung",
+    "Entscheidungsmatrix-System, bei dem wegweisende Erzählentscheidungen über mehrere Zyklen hinweg wirken",
+    "Epische Kampagnen-Trilogie mit über 250 Stunden Spielzeit in den Zyklen I, II und III"
+  ],
+  "scopes": {
+    "ato_core_trilogy": {
+      "name": "Vollständige Grundspiel-Trilogie (Zyklen I–III)",
+      "description": "Die gesamte Saga aus 3 Zyklen: Die Wahrheit des Labyrinths, Tiefenwächter und Erbarmungslos wie die Sonne."
+    },
+    "ato_cycle_1": {
+      "name": "Zyklus I: Die Wahrheit des Labyrinths",
+      "description": "Der eigenständige erste Zyklus rund um die Fahrt nach Kreta, das Labyrinthmysterium und erste Primordial-Kämpfe."
+    },
+    "ato_speedrun": {
+      "name": "Fokussierter Hauptpfad",
+      "description": "Geradliniger narrativer Fortschritt durch unverzichtbare Story-Meilensteine und Primordials mit minimaler Nebenerkundung."
+    },
+    "ato_completionist": {
+      "name": "Großer Chronist (Zyklen I–III + Mnestis)",
+      "description": "Alle 3 Zyklen, alle optionalen Jagden, Arena-Herausforderungen im Mnestis-Theater und vollständige Titanen-Technologiebäume."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Zyklus I",
+      "title": "Die Wahrheit des Labyrinths",
+      "phase": "Zyklus I - Die Zerklüftete Küste",
+      "description": "Enthüllung der Ursprünge des Eschaton entlang der verwunschenen Küste Kretas."
+    },
+    {
+      "order": 2,
+      "badgeText": "Zyklus II",
+      "title": "Die Tiefenwächter",
+      "phase": "Zyklus II - Dunkle Tiefenströmungen",
+      "description": "Überleben in den verseuchten unterirdischen Abgründen und uralten versunkenen Gefahren."
+    },
+    {
+      "order": 3,
+      "badgeText": "Zyklus III",
+      "title": "Aufstieg der Titanen",
+      "phase": "Zyklus III - Der Zerbrochene Himmel",
+      "description": "Aufstieg zu den göttlichen Trümmern, während die Primordial-Eskalation katastrophale Ausmaße erreicht."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Erbarmungslos wie die Sonne",
+      "phase": "Höhepunkt - Schicksal der Argo",
+      "description": "Das letzte verzweifelte Gefecht, das über das Überleben der Menschheit an Bord der Argo entscheidet."
+    }
+  ]
+}

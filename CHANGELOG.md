@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Aeon Trespass: Odyssey** colossal campaign.
+  - 4 campaign scope presets: *Full Core Trilogy (Cycles I–III)*, *Cycle I: Truth of the Labyrinth*, *Focused Critical Path*, and *Grand Chronicler (Cycles I–III + Mnestis)*.
+  - 4 narrative milestone checkpoints with spoiler protection across Cycles I, II, and III.
+  - Thematic visual identity (antique gold, obsidian void, and celestial aether cyan styling with custom 1:1 cover art and 16:9 widescreen Argo odyssey background).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.6.0] - 2026-09-14
 
 ### Added

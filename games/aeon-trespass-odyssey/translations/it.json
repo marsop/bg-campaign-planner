@@ -1,0 +1,63 @@
+{
+  "title": "Aeon Trespass: Odyssey",
+  "subtitle": "Colossale campagna di esplorazione, forgia di titani e battaglie mitiche contro boss in un'Antichità senza dei",
+  "tagline": "Risveglia i Titani, comanda l'Argo e sfida la rovina dei Primordiali",
+  "loreSummary": "Siete argonauti a bordo della gigantesca nave-città corazzata Argo. All'indomani di un cataclisma apocalittico che ha sterminato gli dei dell'Olimpo, dovrete pilotare titani biomeccanici, riscoprire tecnologie perdute e combattere mostruosi Primordiali in un'antica Grecia sull'orlo dell'annientamento.",
+  "badgeCategory": "Battaglie Mitiche contro Boss ed Esplorazione",
+  "roadmapTitle": "🏛️ Cronaca dell'Odissea & Progressione dei Cicli",
+  "roadmapBadge": "ODISSEA DELL'EONE",
+  "keyFeatures": [
+    "Combattimento tattico contro boss con IA dinamica, mazzi ferita ed effetto a spirale della morte dei titani",
+    "Ampia fase di viaggio con profonda esplorazione della mappa, alberi di ricerca e gestione della nave-città",
+    "Sistema a Matrice di Scelte dove decisioni narrative cruciali si ramificano attraverso campagne multi-ciclo",
+    "Trilogia di campagna epica con oltre 250 ore complessive nei Cicli I, II e III"
+  ],
+  "scopes": {
+    "ato_core_trilogy": {
+      "name": "Trilogia Principale Completa (Cicli I–III)",
+      "description": "L'intera saga in 3 cicli: La Verità del Labirinto, I Guardiani dell'Abisso e Spietato come il Sole."
+    },
+    "ato_cycle_1": {
+      "name": "Ciclo I: La Verità del Labirinto",
+      "description": "Il primo ciclo autonomo incentrato sul viaggio verso Creta, il mistero del labirinto e i primi scontri coi Primordiali."
+    },
+    "ato_speedrun": {
+      "name": "Percorso Critico Diretto",
+      "description": "Progressione narrativa lineare attraverso i traguardi principali della storia e i Primordiali obbligatori, riducendo le deviazioni."
+    },
+    "ato_completionist": {
+      "name": "Grande Cronista (Cicli I–III + Mnestis)",
+      "description": "Tutti e 3 i cicli completi, ogni caccia opzionale, sfide d'arena del Teatro Mnestis e alberi tecnologici dei titani al massimo."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ciclo I",
+      "title": "La Verità del Labirinto",
+      "phase": "Ciclo I - La Costa Infranta",
+      "description": "Svelare la genesi dell'Eschaton lungo le coste spettrali di Creta."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ciclo II",
+      "title": "I Guardiani dell'Abisso",
+      "phase": "Ciclo II - Correnti Profonde",
+      "description": "Sopravvivere alle profondità sotterranee corrotte e alle antiche minacce sommerse."
+    },
+    {
+      "order": 3,
+      "badgeText": "Ciclo III",
+      "title": "L'Ascesa dei Titani",
+      "phase": "Ciclo III - Il Cielo Spezzato",
+      "description": "Scalare verso i residui divini mentre l'escalation dei Primordiali raggiunge livelli catastrofici."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Spietato come il Sole",
+      "phase": "Climax - Il Destino dell'Argo",
+      "description": "L'ultima disperata resistenza per decidere la sopravvivenza dell'umanità a bordo dell'Argo."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "aeon-trespass-odyssey",
+  "title": "Aeon Trespass: Odyssey",
+  "releaseYear": 2022,
+  "designers": "Marcin Wełnicki",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.8,
+  "bggWeight": 4.73,
+  "bggUrl": "https://boardgamegeek.com/boardgame/242705/aeon-trespass-odyssey",
+  "baseScenarioMinutes": 150,
+  "setupTeardownMinutes": 30,
+  "unitType": "adventures",
+  "theme": {
+    "primaryColor": "#d4af37",
+    "secondaryColor": "#0f141c",
+    "accentColor": "#22d3ee",
+    "backgroundGradient": "radial-gradient(ellipse at top, #162032 0%, #0c121c 60%, #06090f 100%)",
+    "cardBackground": "rgba(15, 20, 28, 0.92)",
+    "borderColor": "rgba(212, 175, 55, 0.35)",
+    "glowColor": "rgba(34, 211, 238, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏺",
+    "emblem": "🏛️⚡",
+    "themeClass": "theme-aeontrespass",
+    "activeThemeClass": "theme-aeontrespass-active",
+    "roadmapClass": "roadmap-aeontrespass",
+    "heroClass": "hero-aeontrespass"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #242705 Overall)",
+    "Into the Unknown Official Rulebook & Storybooks (v1.1)",
+    "Community Campaign Completion Logs & Survey Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "ato_core_trilogy",
+      "baseScenarioCount": 85,
+      "estimatedFailRatePercent": 18.0,
+      "isRecommended": true
+    },
+    {
+      "id": "ato_cycle_1",
+      "baseScenarioCount": 28,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "ato_speedrun",
+      "baseScenarioCount": 65,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    },
+    {
+      "id": "ato_completionist",
+      "baseScenarioCount": 110,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 28,
+      "iconEmoji": "🏛️",
+      "badgeText": "Cycle I",
+      "title": "The Truth of the Labyrinth",
+      "phase": "Cycle I - The Shattered Shore",
+      "description": "Uncovering the genesis of the Eschaton along the haunted coast of Crete."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 56,
+      "iconEmoji": "🌊",
+      "badgeText": "Cycle II",
+      "title": "The Abysswatchers",
+      "phase": "Cycle II - Deep Currents",
+      "description": "Surviving the corrupted subterranean depths and ancient sunken threats."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 72,
+      "iconEmoji": "⚡",
+      "badgeText": "Cycle III",
+      "title": "Ascent of the Titans",
+      "phase": "Cycle III - The Broken Sky",
+      "description": "Climbing toward divine remnants as Primordial escalation reaches catastrophic heights."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 85,
+      "iconEmoji": "☀️",
+      "badgeText": "Finale",
+      "title": "Pitiless of the Sun",
+      "phase": "Climax - Destiny of the Argo",
+      "description": "The final desperate stand to decide humanity's survival aboard the Argo."
+    }
+  ]
+}

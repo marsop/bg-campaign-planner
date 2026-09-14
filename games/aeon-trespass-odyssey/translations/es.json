@@ -1,0 +1,63 @@
+{
+  "title": "Aeon Trespass: Odyssey",
+  "subtitle": "Campaña colosal de exploración, forja de titanes y batallas míticas contra jefes en una Antigüedad sin dioses",
+  "tagline": "Despierta a los Titanes, comanda el Argo y desafía la perdición Primordial",
+  "loreSummary": "Sois argonautas a bordo de la gigantesca nave-ciudad acorazada Argo. Tras un cataclismo apocalíptico que acabó con los dioses olímpicos, deberéis pilotar titanes biomecánicos, descubrir tecnologías olvidadas y combatir monstruosos Primordiales en una Grecia antigua al borde del abismo.",
+  "badgeCategory": "Combate Mítico contra Jefes y Exploración",
+  "roadmapTitle": "🏛️ Crónica de la Odisea y Progresión de Ciclos",
+  "roadmapBadge": "ODISEA DEL EÓN",
+  "keyFeatures": [
+    "Combates tácticos intensos con IA dinámica, mazos de heridas y mecánicas de espiral de muerte de titanes",
+    "Fase de viaje extensa con exploración estratégica de mapas, árboles de investigación y gestión de la nave-ciudad",
+    "Sistema de Matriz de Decisiones con ramificaciones narrativas a lo largo de campañas de múltiples ciclos",
+    "Trilogía de campaña épica con más de 250 horas de contenido a través de los Ciclos I, II y III"
+  ],
+  "scopes": {
+    "ato_core_trilogy": {
+      "name": "Trilogía Principal Completa (Ciclos I–III)",
+      "description": "La saga completa de 3 ciclos: La Verdad del Laberinto, Vigilantes del Abismo e Implacable como el Sol."
+    },
+    "ato_cycle_1": {
+      "name": "Ciclo I: La Verdad del Laberinto",
+      "description": "El primer ciclo independiente que cubre la travesía hacia Creta, el misterio del laberinto y los choques iniciales con los Primordiales."
+    },
+    "ato_speedrun": {
+      "name": "Ruta Crítica Concentrada",
+      "description": "Progresión narrativa directa a través de los hitos principales de la historia y los Primordiales obligatorios, minimizando la exploración secundaria."
+    },
+    "ato_completionist": {
+      "name": "Gran Cronista (Ciclos I–III + Mnestis)",
+      "description": "Los 3 ciclos completos, todas las cacerías opcionales, desafíos de arena del Teatro Mnestis y árboles tecnológicos de titanes al máximo."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ciclo I",
+      "title": "La Verdad del Laberinto",
+      "phase": "Ciclo I - La Costa Quebrada",
+      "description": "Descubriendo la génesis del Escatón a lo largo de la costa encantada de Creta."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ciclo II",
+      "title": "Los Vigilantes del Abismo",
+      "phase": "Ciclo II - Corrientes Profundas",
+      "description": "Sobreviviendo a las profundidades subterráneas corrompidas y a las antiguas amenazas abisales."
+    },
+    {
+      "order": 3,
+      "badgeText": "Ciclo III",
+      "title": "El Ascenso de los Titanes",
+      "phase": "Ciclo III - El Firmamento Quebrado",
+      "description": "Escalando hacia los restos divinos mientras la escalada Primordial alcanza cotas catastróficas."
+    },
+    {
+      "order": 4,
+      "badgeText": "Final",
+      "title": "Implacable como el Sol",
+      "phase": "Clímax - El Destino del Argo",
+      "description": "La última resistencia desesperada para decidir la supervivencia de la humanidad a bordo del Argo."
+    }
+  ]
+}
