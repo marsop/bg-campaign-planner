@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- **Campaign Milestone Velocity Dynamic Recalculation**:
+  - Dynamically recalculates the "Campaign Milestone Velocity" progress bar segments and proportions based on actual campaign milestones when "Show Spoilers" is enabled, replacing static placeholder percentages.
+  - Added interactive milestone checkpoint cards directly within the velocity summary card when spoilers are toggled on, displaying each milestone's badge, emoji, title, target date, and meetup number.
+  - Added a synchronized spoiler toggle switch directly to the Campaign Milestone Velocity card header, kept in two-way sync with the Thematic Roadmap and Planner Form controls.
+  - Added localized `Kpi.CampaignMilestonesTracked` resource string across English, Spanish, German, French, and Italian.
+
 ## [0.23.0] - 2026-09-14
 
 ### Added

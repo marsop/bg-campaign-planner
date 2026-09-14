@@ -132,7 +132,9 @@
                     </div>
                     @if (CurrentResult != null)
                     {
-                        <CalculationSummaryCards Result="@CurrentResult" />
+                        <CalculationSummaryCards Result="@CurrentResult"
+                                                 ShowSpoilers="@PlannerInput.ShowSpoilers"
+                                                 OnToggleSpoilers="HandleToggleSpoilers" />
                     }
                 </section>
 
@@ -314,6 +316,7 @@
     private void HandleToggleSpoilers(bool show)
     {
         PlannerInput.ShowSpoilers = show;
+        Recalculate();
         StateHasChanged();
     }
 

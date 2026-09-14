@@ -307,6 +307,9 @@
   <data name="Kpi.MilestonesTracked" xml:space="preserve">
     <value>{0} Kampagnen-Kontrollpunkte erfasst</value>
   </data>
+  <data name="Kpi.CampaignMilestonesTracked" xml:space="preserve">
+    <value>{0} Kampagnen-Meilensteine erfasst</value>
+  </data>
   <data name="Kpi.ProjectedFinishDate" xml:space="preserve">
     <value>Voraussichtliches Enddatum</value>
   </data>

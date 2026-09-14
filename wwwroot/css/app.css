@@ -1408,6 +1408,19 @@ body {
     border-radius: 6px;
 }
 
+.velocity-milestone-chip {
+    background: var(--bg-card, rgba(255, 255, 255, 0.04));
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease;
+}
+
+.velocity-milestone-chip:hover {
+    border-color: var(--theme-primary, var(--accent-gold));
+    box-shadow: 0 4px 12px var(--theme-glow, rgba(0, 0, 0, 0.25));
+    transform: translateY(-2px);
+}
+
 /* ==========================================================================
    8. THEMATIC ROADMAP
    ========================================================================== */

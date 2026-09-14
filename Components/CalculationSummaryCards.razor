@@ -73,27 +73,206 @@
         </div>
     </div>
 
-    <!-- SUMMARY PROGRESS BAR -->
+    <!-- SUMMARY PROGRESS BAR / CAMPAIGN MILESTONE VELOCITY -->
     <div class="progress-breakdown-card p-3 p-md-4 rounded mb-2">
-        <div class="d-flex justify-content-between align-items-center mb-3">
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
             <span class="fw-bold small text-uppercase text-muted-light">@Loc["Kpi.VelocityTitle"]</span>
-            <span class="small text-muted">@Loc.Get("Kpi.MilestonesTracked", Result.MilestoneProjections.Count)</span>
+            <div class="d-flex align-items-center gap-3">
+                @if (Result.CampaignMilestoneProjections.Any())
+                {
+                    <label class="form-check form-switch spoiler-toggle-switch d-inline-flex align-items-center gap-2 mb-0">
+                        <input class="form-check-input" type="checkbox" id="velocitySpoilers"
+                               checked="@ShowSpoilers"
+                               @onchange="ToggleSpoilers" />
+                        <span class="form-check-label small user-select-none text-muted">
+                            @Loc["Roadmap.ShowSpoilers"]
+                        </span>
+                    </label>
+                }
+                <span class="small text-muted">
+                    @(ShowSpoilers && Result.CampaignMilestoneProjections.Any()
+                        ? Loc.Get("Kpi.CampaignMilestonesTracked", Result.CampaignMilestoneProjections.Count)
+                        : Loc.Get("Kpi.MilestonesTracked", Result.MilestoneProjections.Count))
+                </span>
+            </div>
         </div>
-        <div class="progress custom-progress" style="height: 12px;">
-            <div class="progress-bar bg-success" role="progressbar" style="width: 20%" title="@Loc.Get("Kpi.Phase", 1)"></div>
-            <div class="progress-bar bg-info" role="progressbar" style="width: 25%" title="@Loc.Get("Kpi.Phase", 2)"></div>
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 30%" title="@Loc.Get("Kpi.Phase", 3)"></div>
-            <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" title="@Loc["Kpi.PhaseFinale"]"></div>
+
+        @{
+            var segments = GetVelocitySegments();
+        }
+        <div class="progress custom-progress mb-2" style="height: 14px;">
+            @foreach (var seg in segments)
+            {
+                <div class="progress-bar @seg.ColorClass" 
+                     role="progressbar" 
+                     style="width: @seg.WidthPercent.ToString("F1", CultureInfo.InvariantCulture)%" 
+                     title="@seg.Tooltip">
+                </div>
+            }
         </div>
-        <div class="d-flex justify-content-between mt-2 text-muted small">
-            <span>@Loc["Kpi.Start"]: @Result.StartDate.ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
-            <span>@Loc["Kpi.Midpoint"]: ~@Result.StartDate.AddDays(Result.TotalCalendarDays / 2).ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
-            <span>@Loc["Kpi.Finale"]: @Result.ProjectedFinishDate.ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
-        </div>
+
+        @if (ShowSpoilers && Result.CampaignMilestoneProjections.Any())
+        {
+            <div class="d-flex justify-content-between text-muted small mb-3">
+                <span><i class="bi bi-play-circle me-1"></i>@Loc["Kpi.Start"]: @Result.StartDate.ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
+                <span><i class="bi bi-flag me-1"></i>@Loc["Kpi.Finale"]: @Result.ProjectedFinishDate.ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
+            </div>
+
+            <!-- MILESTONES DISPLAY -->
+            <div class="velocity-milestones-container pt-2 border-top border-secondary border-opacity-25">
+                <div class="row g-2">
+                    @foreach (var m in Result.CampaignMilestoneProjections)
+                    {
+                        <div class="@GetMilestoneColClass(Result.CampaignMilestoneProjections.Count)">
+                            <div class="velocity-milestone-chip p-2 px-3 rounded h-100">
+                                <div class="d-flex align-items-center justify-content-between gap-1 mb-1">
+                                    <span class="badge bg-secondary-subtle text-light border border-secondary border-opacity-50" style="font-size: 0.72rem;">
+                                        @m.Milestone.BadgeText
+                                    </span>
+                                    <span class="fs-6" title="@m.Milestone.BadgeText">@m.Milestone.IconEmoji</span>
+                                </div>
+                                <div class="fw-bold small text-truncate mb-1" title="@m.Milestone.Title">
+                                    @m.Milestone.Title
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center text-muted" style="font-size: 0.75rem;">
+                                    <span><i class="bi bi-calendar3 me-1"></i>@m.EstimatedDate.ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
+                                    <span class="badge bg-dark-subtle text-muted-light border border-secondary border-opacity-25">#@m.EstimatedMeetupNumber</span>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="d-flex justify-content-between mt-2 text-muted small">
+                <span>@Loc["Kpi.Start"]: @Result.StartDate.ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
+                <span>@Loc["Kpi.Midpoint"]: ~@Result.StartDate.AddDays(Result.TotalCalendarDays / 2).ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
+                <span>@Loc["Kpi.Finale"]: @Result.ProjectedFinishDate.ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
+            </div>
+        }
     </div>
 </div>
 
 @code {
     [Parameter, EditorRequired]
     public CalculationResult Result { get; set; } = null!;
+
+    [Parameter]
+    public bool ShowSpoilers { get; set; } = false;
+
+    [Parameter]
+    public EventCallback<bool> OnToggleSpoilers { get; set; }
+
+    private IReadOnlyList<MilestoneProjection> ActiveMilestones =>
+        (ShowSpoilers && Result.CampaignMilestoneProjections.Any())
+            ? Result.CampaignMilestoneProjections
+            : Result.MilestoneProjections;
+
+    private record VelocitySegment(MilestoneProjection MilestoneProj, double WidthPercent, string ColorClass, string Tooltip);
+
+    private IReadOnlyList<VelocitySegment> GetVelocitySegments()
+    {
+        var milestones = ActiveMilestones;
+        if (milestones.Count == 0) return Array.Empty<VelocitySegment>();
+
+        int totalPlays = Math.Max(1, Result.TotalEstimatedPlays);
+        var rawPlays = new List<int>();
+        int prevScenario = 0;
+
+        for (int i = 0; i < milestones.Count; i++)
+        {
+            int currentScenario = milestones[i].TargetScenarioIndex;
+            if (i == milestones.Count - 1 && currentScenario < totalPlays)
+            {
+                currentScenario = totalPlays;
+            }
+            int playsInSegment = Math.Max(1, currentScenario - prevScenario);
+            rawPlays.Add(playsInSegment);
+            prevScenario = currentScenario;
+        }
+
+        int sumPlays = rawPlays.Sum();
+        double remainingPct = 100.0;
+        var segments = new List<VelocitySegment>();
+
+        for (int i = 0; i < milestones.Count; i++)
+        {
+            var m = milestones[i];
+            double widthPct;
+            if (i == milestones.Count - 1)
+            {
+                widthPct = Math.Max(1.0, remainingPct);
+            }
+            else
+            {
+                widthPct = Math.Round(((double)rawPlays[i] / sumPlays) * 100.0, 1);
+                remainingPct -= widthPct;
+            }
+
+            string color = GetSegmentColor(i, milestones.Count);
+            string titleText = ShowSpoilers && Result.CampaignMilestoneProjections.Any()
+                ? m.Milestone.Title
+                : Loc.Get("Roadmap.HiddenTitle", m.Milestone.Order);
+            string badgeText = m.Milestone.BadgeText;
+
+            string tooltip = $"{badgeText}: {titleText} (~{m.EstimatedDate.ToString("MMM yyyy", CultureInfo.CurrentCulture)}, #{m.EstimatedMeetupNumber}, {widthPct:F0}%)";
+
+            segments.Add(new VelocitySegment(m, widthPct, color, tooltip));
+        }
+
+        return segments;
+    }
+
+    private static string GetSegmentColor(int index, int totalCount)
+    {
+        if (totalCount == 3)
+        {
+            return index switch
+            {
+                0 => "bg-success",
+                1 => "bg-warning",
+                _ => "bg-danger"
+            };
+        }
+        if (totalCount == 4)
+        {
+            return index switch
+            {
+                0 => "bg-success",
+                1 => "bg-info",
+                2 => "bg-warning",
+                _ => "bg-danger"
+            };
+        }
+        return index switch
+        {
+            0 => "bg-success",
+            1 => "bg-info",
+            2 => "bg-primary",
+            3 => "bg-warning",
+            _ => "bg-danger"
+        };
+    }
+
+    private static string GetMilestoneColClass(int count) => count switch
+    {
+        1 => "col-12",
+        2 => "col-6",
+        3 => "col-12 col-md-4",
+        4 => "col-6 col-md-3",
+        5 => "col-6 col-md-4 col-lg",
+        _ => "col-6 col-md-4 col-lg-2"
+    };
+
+    private async Task ToggleSpoilers(ChangeEventArgs e)
+    {
+        bool show = e.Value is bool b && b;
+        ShowSpoilers = show;
+        if (OnToggleSpoilers.HasDelegate)
+        {
+            await OnToggleSpoilers.InvokeAsync(show);
+        }
+    }
 }
