@@ -16,13 +16,14 @@ Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Le
 
 ## 🟥 High Priority
 
-*(None currently — see Medium Priority below)*
+- **Arkham Horror: The Card Game** — Cooperative narrative LCG with distinct, named scenario campaigns (acts and agendas). 20–30 hours per campaign; multiple full campaigns available. ~8.5 BGG. 1–4 players. Medium-heavy complexity, huge active community, deck-building.
 
 ---
 
 ## 🟧 Medium Priority
 
-*(None currently — see Lower Priority below)*
+- **Folklore: The Affliction** — Cooperative dark fantasy RPG-style adventure with a fixed story/chapter campaign structure. ~40+ hours. ~8.0 BGG. 1–5 players. Chapter-driven narrative, no GM required.
+- **The Lord of the Rings: Journeys in Middle-earth** — App-driven fully cooperative campaign adventure in Middle-earth. 20–30 hours per campaign (12–14 scenarios). ~7.5–7.7 BGG. 1–5 players. Fixed scenario campaigns, Fantasy Flight.
 
 ---
 
@@ -34,6 +35,9 @@ Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Le
 - **Fateforge: Chronicles of Kaan** — Cooperative narrative adventure (2024). Campaign TBD. ~7.8 BGG. 1–4 players.
 - **Destinies** — App-driven open-world adventure. 5–10 scenarios per campaign. ~7.5 BGG. 1–3 players.
 - **Perseverance: Castaway Chronicles** — Survival campaign game. Episodes 1+2, ~30–50 hours. ~8.1 BGG. 1–4 players.
+- **Etherfields** — Cooperative "dream-crawler" with branching persistent campaign (Awaken Realms). 40–50+ hours. ~7.8 BGG. 1–4 players. Non-standard branching structure — no fixed numbered scenarios; needs extra scope design.
+- **The 7th Citadel** — Cooperative card-exploration game structured into Threats (~10 scenarios each, 10–25 h per Threat). BGG score uncertain (positive reception). 1–4 players. Released 2024.
+- **Cloudspire** — Strategic tower-defense with dedicated solo/coop scenario campaign. ~20–30 h (coop campaign). ~8.5 BGG. 1–4 players. Primarily a competitive game; coop campaign is optional and shorter.
 
 ---
 
@@ -44,3 +48,6 @@ Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Le
 - Some games (e.g. Kingdom Death: Monster, Aeon Trespass: Odyssey) may need special scope
   design due to unusually high session counts or non-standard structures.
 - Remember the zero-spoilers policy: no boss names, secret unlocks, or plot reveals.
+- Etherfields has a branching non-numbered campaign; scope options will need custom design to represent its open structure.
+- Cloudspire's cooperative content is a secondary mode; confirm campaign scope before adding.
+- The 7th Citadel BGG rating should be verified on BGG before use; community score was still stabilizing at time of research (Sep 2026).
