@@ -104,6 +104,7 @@
 
                 <div class="col-12 col-md-6" id="game-card-@game.Id">
                     <div class="game-selection-card @(isSelected ? "selected" : "") @game.Theme.ThemeClass"
+                         style="@GetGameCardStyles(game)"
                          @onclick="() => OnGameSelected.InvokeAsync(game.Id)"
                          role="button"
                          tabindex="0"
@@ -293,5 +294,16 @@
             SelectedGameId = string.Empty;
             await OnGameSelected.InvokeAsync(string.Empty);
         }
+    }
+
+    private static string GetGameCardStyles(BoardGame game)
+    {
+        return $"--game-primary: {game.Theme.PrimaryColor}; " +
+               $"--game-secondary: {game.Theme.SecondaryColor}; " +
+               $"--game-accent: {game.Theme.AccentColor}; " +
+               $"--game-border: {game.Theme.BorderColor}; " +
+               $"--game-glow: {game.Theme.GlowColor}; " +
+               $"--game-card-bg: {game.Theme.CardBackground}; " +
+               $"--game-header-font: {game.Theme.HeaderFont};";
     }
 }

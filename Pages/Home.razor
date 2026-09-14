@@ -11,7 +11,12 @@
 
 <PageTitle>@Loc.Get("App.BrowserTitle", CurrentGame?.Title ?? Loc["App.Title"])</PageTitle>
 
-<div class="planner-app-container @ThemeClass">
+@if (!string.IsNullOrEmpty(CurrentGame?.CustomCssUrl))
+{
+    <link rel="stylesheet" href="@CurrentGame.CustomCssUrl" />
+}
+
+<div class="planner-app-container @ThemeClass" style="@ActiveThemeVariables">
     <div class="app-game-backdrop @(HasBackgroundImage ? "has-image" : "")" 
          style="@BackgroundImageStyle" 
          aria-hidden="true"></div>
@@ -195,6 +200,17 @@
     private int CurrentStep = 1;
 
     private string ThemeClass => CurrentGame?.Theme.ActiveThemeClass ?? "theme-gloomhaven-active";
+    private string ActiveThemeVariables => CurrentGame != null
+        ? $"--theme-primary: {CurrentGame.Theme.PrimaryColor}; " +
+          $"--theme-secondary: {CurrentGame.Theme.SecondaryColor}; " +
+          $"--theme-accent: {CurrentGame.Theme.AccentColor}; " +
+          $"--theme-card-bg: {CurrentGame.Theme.CardBackground}; " +
+          $"--theme-border: {CurrentGame.Theme.BorderColor}; " +
+          $"--theme-glow: {CurrentGame.Theme.GlowColor}; " +
+          $"--theme-header-font: {CurrentGame.Theme.HeaderFont}; " +
+          $"--theme-body-font: {CurrentGame.Theme.BodyFont}; " +
+          $"--theme-bg-gradient: {CurrentGame.Theme.BackgroundGradient};"
+        : string.Empty;
     private bool HasBackgroundImage => !string.IsNullOrEmpty(CurrentGame?.BackgroundImageUrl);
     private string BackgroundImageStyle => HasBackgroundImage
         ? $"background-image: url('{CurrentGame!.BackgroundImageUrl}');"

@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="games\**\*.json" />
+    <EmbeddedResource Include="games\**\*.css" />
   </ItemGroup>
 
   <Target Name="CopyGamesToWwwroot" BeforeTargets="ResolveStaticWebAssetsInputs;BeforeBuild">

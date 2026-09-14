@@ -67,9 +67,9 @@
             <tbody>
                 @foreach (var session in DisplayedSessions)
                 {
-                    <tr class="@(session.IsMilestoneSession ? "table-row-milestone" : "")">
+                    <tr class="@(IsSessionMilestone(session) ? "table-row-milestone" : "")">
                         <td>
-                            <span class="badge @(session.IsMilestoneSession ? "bg-warning text-dark" : "bg-secondary")">
+                            <span class="badge @(IsSessionMilestone(session) ? "bg-warning text-dark" : "bg-secondary")">
                                 #@session.SessionNumber
                             </span>
                         </td>
@@ -89,18 +89,22 @@
                             <span class="text-info fw-semibold">@session.EstimatedSessionHours.ToString("F1", CultureInfo.CurrentCulture) @Loc["Kpi.HoursUnit"]</span>
                         </td>
                         <td>
-                            @if (session.IsMilestoneSession)
+                            @if (IsSessionMilestone(session))
                             {
                                 <div class="milestone-table-tag">
                                     <span class="badge bg-warning text-dark me-1">@Loc["Timeline.MilestoneBadge"]</span>
-                                    @if (ShowSpoilers)
+                                    @if (ShowSpoilers && !string.IsNullOrEmpty(session.CampaignMilestoneNote ?? session.MilestoneNote))
                                     {
-                                        <strong class="milestone-note-text">@session.MilestoneNote</strong>
-                                        <span class="small text-muted ms-1">(@session.MilestonePhase)</span>
+                                        <strong class="milestone-note-text">@(session.CampaignMilestoneNote ?? session.MilestoneNote)</strong>
+                                        var phase = session.CampaignMilestonePhase ?? session.MilestonePhase;
+                                        if (!string.IsNullOrEmpty(phase))
+                                        {
+                                            <span class="small text-muted ms-1">(@phase)</span>
+                                        }
                                     }
                                     else
                                     {
-                                        <strong class="milestone-note-text">@Loc["Timeline.HiddenMilestoneNote"] #@session.MilestoneOrder</strong>
+                                        <strong class="milestone-note-text">@Loc["Timeline.HiddenMilestoneNote"] #@(session.GenericMilestoneOrder ?? session.MilestoneOrder ?? 1)</strong>
                                     }
                                 </div>
                             }
@@ -155,8 +159,17 @@
     private const int PageSize = 10;
     private string? ToastMessage;
 
+    private bool IsSessionMilestone(ScheduledSession session)
+    {
+        if (ShowSpoilers && Result.CampaignMilestoneProjections.Any())
+        {
+            return session.CampaignMilestoneOrder != null;
+        }
+        return session.GenericMilestoneOrder != null || session.IsMilestoneSession;
+    }
+
     private IEnumerable<ScheduledSession> FilteredSessions =>
-        ShowOnlyMilestones ? Result.Sessions.Where(s => s.IsMilestoneSession) : Result.Sessions;
+        ShowOnlyMilestones ? Result.Sessions.Where(IsSessionMilestone) : Result.Sessions;
 
     private int TotalPages => Math.Max(1, (int)Math.Ceiling((double)FilteredSessions.Count() / PageSize));
 

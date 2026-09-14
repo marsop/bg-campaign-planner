@@ -31,12 +31,15 @@
     --pill-bg: rgba(255, 255, 255, 0.05);
     --card-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
     --card-hover-shadow: 0 16px 36px rgba(0, 0, 0, 0.55);
-    --hero-gloom-bg: radial-gradient(circle at top right, #3c2a1a 0%, #1c1512 60%, #120e0d 100%);
-    --hero-gloom-border: rgba(245, 158, 11, 0.4);
-    --hero-pandemic-bg: radial-gradient(circle at top right, #0c2840 0%, #0c1829 60%, #060d17 100%);
-    --hero-pandemic-border: rgba(56, 189, 248, 0.4);
-    --table-milestone-gloom: rgba(245, 158, 11, 0.12);
-    --table-milestone-pandemic: rgba(56, 189, 248, 0.12);
+    --theme-primary: var(--accent-gold);
+    --theme-secondary: #1e1b18;
+    --theme-accent: var(--accent-gold-text);
+    --theme-card-bg: var(--bg-card);
+    --theme-border: rgba(245, 158, 11, 0.35);
+    --theme-glow: rgba(245, 158, 11, 0.25);
+    --theme-header-font: var(--font-cinzel);
+    --theme-body-font: var(--font-body);
+    --theme-bg-gradient: radial-gradient(ellipse at top, #2b1f1d 0%, #151111 60%, #0c0a0a 100%);
     --table-hover-bg: rgba(255, 255, 255, 0.04);
     --brand-title-gradient: linear-gradient(135deg, #ffffff 30%, #94a3b8 100%);
     --toggle-bg: rgba(255, 255, 255, 0.08);
@@ -80,12 +83,15 @@
     --pill-bg: rgba(15, 23, 42, 0.04);
     --card-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.08), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
     --card-hover-shadow: 0 12px 28px -4px rgba(15, 23, 42, 0.14), 0 4px 10px -2px rgba(15, 23, 42, 0.06);
-    --hero-gloom-bg: linear-gradient(135deg, #fffbeb 0%, #fef3c7 50%, #fde68a 100%);
-    --hero-gloom-border: rgba(217, 119, 6, 0.4);
-    --hero-pandemic-bg: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #bae6fd 100%);
-    --hero-pandemic-border: rgba(2, 132, 199, 0.4);
-    --table-milestone-gloom: rgba(217, 119, 6, 0.09);
-    --table-milestone-pandemic: rgba(2, 132, 199, 0.09);
+    --theme-primary: var(--accent-gold);
+    --theme-secondary: #f1f5f9;
+    --theme-accent: var(--accent-gold-text);
+    --theme-card-bg: var(--bg-card);
+    --theme-border: rgba(217, 119, 6, 0.35);
+    --theme-glow: rgba(217, 119, 6, 0.2);
+    --theme-header-font: var(--font-cinzel);
+    --theme-body-font: var(--font-body);
+    --theme-bg-gradient: linear-gradient(135deg, #fffbeb 0%, #fef3c7 50%, #fde68a 100%);
     --table-hover-bg: rgba(15, 23, 42, 0.03);
     --brand-title-gradient: linear-gradient(135deg, #0f172a 30%, #334155 100%);
     --toggle-bg: rgba(15, 23, 42, 0.07);
@@ -746,100 +752,16 @@ body {
     transform: translateY(-2px);
 }
 
-:root[data-theme="dark"] .theme-gloomhaven.selected {
-    border-color: var(--accent-gold);
-    box-shadow: 0 0 24px rgba(245, 158, 11, 0.35);
-    background: radial-gradient(circle at top left, rgba(245, 158, 11, 0.12), var(--bg-card));
+:root[data-theme="dark"] .game-selection-card.selected {
+    border-color: var(--game-primary, var(--accent-gold));
+    box-shadow: 0 0 24px var(--game-glow, rgba(245, 158, 11, 0.35));
+    background: radial-gradient(circle at top left, var(--game-glow, rgba(245, 158, 11, 0.12)), var(--bg-card));
 }
 
-:root[data-theme="light"] .theme-gloomhaven.selected {
-    border-color: var(--accent-gold);
-    box-shadow: 0 6px 20px rgba(217, 119, 6, 0.25);
-    background: radial-gradient(circle at top left, rgba(254, 243, 199, 0.65), var(--bg-card));
-}
-
-:root[data-theme="dark"] .theme-frosthaven.selected {
-    border-color: #4fd1c5;
-    box-shadow: 0 0 24px rgba(79, 209, 197, 0.35);
-    background: radial-gradient(circle at top left, rgba(79, 209, 197, 0.12), var(--bg-card));
-}
-
-:root[data-theme="light"] .theme-frosthaven.selected {
-    border-color: #0d9488;
-    box-shadow: 0 6px 20px rgba(13, 148, 136, 0.25);
-    background: radial-gradient(circle at top left, rgba(204, 251, 241, 0.65), var(--bg-card));
-}
-
-:root[data-theme="dark"] .theme-pandemic.selected {
-    border-color: var(--accent-blue);
-    box-shadow: 0 0 24px rgba(56, 189, 248, 0.35);
-    background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.12), var(--bg-card));
-}
-
-:root[data-theme="light"] .theme-pandemic.selected {
-    border-color: var(--accent-blue);
-    box-shadow: 0 6px 20px rgba(2, 132, 199, 0.25);
-    background: radial-gradient(circle at top left, rgba(224, 242, 254, 0.65), var(--bg-card));
-}
-
-:root[data-theme="dark"] .theme-sleepinggods.selected {
-    border-color: #38bdf8;
-    box-shadow: 0 0 24px rgba(56, 189, 248, 0.35);
-    background: radial-gradient(circle at top left, rgba(14, 165, 233, 0.12), var(--bg-card));
-}
-
-:root[data-theme="light"] .theme-sleepinggods.selected {
-    border-color: #0284c7;
-    box-shadow: 0 6px 20px rgba(2, 132, 199, 0.25);
-    background: radial-gradient(circle at top left, rgba(224, 242, 254, 0.65), var(--bg-card));
-}
-
-:root[data-theme="dark"] .theme-oathsworn.selected {
-    border-color: #94a3b8;
-    box-shadow: 0 0 24px rgba(148, 163, 184, 0.35);
-    background: radial-gradient(circle at top left, rgba(148, 163, 184, 0.12), var(--bg-card));
-}
-
-:root[data-theme="light"] .theme-oathsworn.selected {
-    border-color: #475569;
-    box-shadow: 0 6px 20px rgba(71, 85, 105, 0.25);
-    background: radial-gradient(circle at top left, rgba(241, 245, 249, 0.65), var(--bg-card));
-}
-
-:root[data-theme="dark"] .theme-taintedgrail.selected {
-    border-color: #a855f7;
-    box-shadow: 0 0 24px rgba(168, 85, 247, 0.35);
-    background: radial-gradient(circle at top left, rgba(168, 85, 247, 0.12), var(--bg-card));
-}
-
-:root[data-theme="light"] .theme-taintedgrail.selected {
-    border-color: #7e22ce;
-    box-shadow: 0 6px 20px rgba(126, 34, 206, 0.25);
-    background: radial-gradient(circle at top left, rgba(243, 232, 255, 0.65), var(--bg-card));
-}
-
-:root[data-theme="dark"] .theme-pandemic1.selected {
-    border-color: #ef4444;
-    box-shadow: 0 0 24px rgba(239, 68, 68, 0.35);
-    background: radial-gradient(circle at top left, rgba(239, 68, 68, 0.12), var(--bg-card));
-}
-
-:root[data-theme="light"] .theme-pandemic1.selected {
-    border-color: #dc2626;
-    box-shadow: 0 6px 20px rgba(220, 38, 38, 0.25);
-    background: radial-gradient(circle at top left, rgba(254, 226, 226, 0.65), var(--bg-card));
-}
-
-:root[data-theme="dark"] .theme-pandemic2.selected {
-    border-color: #0ea5e9;
-    box-shadow: 0 0 24px rgba(14, 165, 233, 0.35);
-    background: radial-gradient(circle at top left, rgba(14, 165, 233, 0.12), var(--bg-card));
-}
-
-:root[data-theme="light"] .theme-pandemic2.selected {
-    border-color: #0284c7;
-    box-shadow: 0 6px 20px rgba(2, 132, 199, 0.25);
-    background: radial-gradient(circle at top left, rgba(224, 242, 254, 0.65), var(--bg-card));
+:root[data-theme="light"] .game-selection-card.selected {
+    border-color: var(--game-primary, var(--accent-gold));
+    box-shadow: 0 6px 20px var(--game-glow, rgba(217, 119, 6, 0.25));
+    background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.7), var(--bg-card));
 }
 
 .card-header-badge {
@@ -921,37 +843,8 @@ body {
 }
 
 .game-selection-card.selected .game-cover-box {
-    box-shadow: 0 0 14px rgba(255, 255, 255, 0.15);
-}
-
-:root[data-theme="dark"] .theme-gloomhaven.selected .game-cover-box {
-    border-color: var(--accent-gold);
-    box-shadow: 0 0 14px rgba(245, 158, 11, 0.4);
-}
-
-:root[data-theme="dark"] .theme-frosthaven.selected .game-cover-box {
-    border-color: #4fd1c5;
-    box-shadow: 0 0 14px rgba(79, 209, 197, 0.4);
-}
-
-:root[data-theme="dark"] .theme-pandemic.selected .game-cover-box {
-    border-color: var(--accent-blue);
-    box-shadow: 0 0 14px rgba(56, 189, 248, 0.4);
-}
-
-:root[data-theme="dark"] .theme-sleepinggods.selected .game-cover-box {
-    border-color: #38bdf8;
-    box-shadow: 0 0 14px rgba(56, 189, 248, 0.4);
-}
-
-:root[data-theme="dark"] .theme-oathsworn.selected .game-cover-box {
-    border-color: #cbd5e1;
-    box-shadow: 0 0 14px rgba(203, 213, 225, 0.4);
-}
-
-:root[data-theme="dark"] .theme-taintedgrail.selected .game-cover-box {
-    border-color: #a855f7;
-    box-shadow: 0 0 14px rgba(168, 85, 247, 0.4);
+    border-color: var(--game-primary, var(--accent-gold));
+    box-shadow: 0 0 14px var(--game-glow, rgba(245, 158, 11, 0.4));
 }
 
 .game-cover-img {
@@ -1015,54 +908,9 @@ body {
     font-size: 1.6rem;
     font-weight: 800;
     margin-bottom: 0.35rem;
-    font-family: var(--font-cinzel);
+    font-family: var(--game-header-font, var(--font-cinzel));
+    color: var(--game-primary, var(--text-main));
     letter-spacing: 0.01em;
-}
-
-.theme-gloomhaven .game-title {
-    font-family: var(--font-cinzel);
-    color: var(--accent-gold-text);
-}
-
-.theme-frosthaven .game-title {
-    font-family: var(--font-cinzel-decorative);
-    color: #4fd1c5;
-}
-
-:root[data-theme="light"] .theme-frosthaven .game-title {
-    color: #0f766e;
-}
-
-.theme-pandemic .game-title {
-    font-family: var(--font-special);
-    color: var(--accent-blue-text);
-}
-
-.theme-sleepinggods .game-title {
-    font-family: var(--font-cormorant);
-    color: #38bdf8;
-}
-
-:root[data-theme="light"] .theme-sleepinggods .game-title {
-    color: #0284c7;
-}
-
-.theme-oathsworn .game-title {
-    font-family: var(--font-medieval);
-    color: #cbd5e1;
-}
-
-:root[data-theme="light"] .theme-oathsworn .game-title {
-    color: #334155;
-}
-
-.theme-taintedgrail .game-title {
-    font-family: var(--font-uncial);
-    color: #c084fc;
-}
-
-:root[data-theme="light"] .theme-taintedgrail .game-title {
-    color: #6b21a8;
 }
 
 .game-subtitle {
@@ -1128,45 +976,10 @@ body {
     transition: all 0.2s;
 }
 
-.theme-gloomhaven .btn-select-game.btn-active {
-    background: var(--accent-gold);
+.btn-select-game.btn-active {
+    background: var(--game-primary, var(--accent-gold));
     color: #000;
-    border-color: var(--accent-gold);
-    font-weight: 700;
-}
-
-.theme-frosthaven .btn-select-game.btn-active {
-    background: #4fd1c5;
-    color: #000;
-    border-color: #4fd1c5;
-    font-weight: 700;
-}
-
-.theme-pandemic .btn-select-game.btn-active {
-    background: var(--accent-blue);
-    color: #000;
-    border-color: var(--accent-blue);
-    font-weight: 700;
-}
-
-.theme-sleepinggods .btn-select-game.btn-active {
-    background: #0ea5e9;
-    color: #000;
-    border-color: #0ea5e9;
-    font-weight: 700;
-}
-
-.theme-oathsworn .btn-select-game.btn-active {
-    background: #94a3b8;
-    color: #000;
-    border-color: #94a3b8;
-    font-weight: 700;
-}
-
-.theme-taintedgrail .btn-select-game.btn-active {
-    background: #a855f7;
-    color: #fff;
-    border-color: #a855f7;
+    border-color: var(--game-primary, var(--accent-gold));
     font-weight: 700;
 }
 
@@ -1178,56 +991,11 @@ body {
     border-radius: 16px;
     padding: 2.25rem;
     position: relative;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--theme-border, var(--border-color));
+    background: var(--theme-bg-gradient, radial-gradient(circle at top right, #3c2a1a 0%, #1c1512 60%, #120e0d 100%));
     overflow: hidden;
     box-shadow: var(--card-shadow);
     transition: all 0.25s ease;
-}
-
-.hero-gloomhaven {
-    background: var(--hero-gloom-bg);
-    border-color: var(--hero-gloom-border);
-}
-
-.hero-frosthaven {
-    background: radial-gradient(circle at top right, #134e4a 0%, #0f2d2e 60%, #041416 100%);
-    border-color: rgba(79, 209, 197, 0.4);
-}
-:root[data-theme="light"] .hero-frosthaven {
-    background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 50%, #99f6e4 100%);
-    border-color: rgba(13, 148, 136, 0.4);
-}
-
-.hero-pandemic {
-    background: var(--hero-pandemic-bg);
-    border-color: var(--hero-pandemic-border);
-}
-
-.hero-sleepinggods {
-    background: radial-gradient(circle at top right, #0c2d48 0%, #0c1b2a 60%, #050d14 100%);
-    border-color: rgba(56, 189, 248, 0.4);
-}
-:root[data-theme="light"] .hero-sleepinggods {
-    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #bae6fd 100%);
-    border-color: rgba(2, 132, 199, 0.4);
-}
-
-.hero-oathsworn {
-    background: radial-gradient(circle at top right, #1e293b 0%, #141c27 60%, #0a0e14 100%);
-    border-color: rgba(148, 163, 184, 0.4);
-}
-:root[data-theme="light"] .hero-oathsworn {
-    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%);
-    border-color: rgba(71, 85, 105, 0.4);
-}
-
-.hero-taintedgrail {
-    background: radial-gradient(circle at top right, #3b0764 0%, #220738 60%, #120320 100%);
-    border-color: rgba(168, 85, 247, 0.4);
-}
-:root[data-theme="light"] .hero-taintedgrail {
-    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 50%, #e9d5ff 100%);
-    border-color: rgba(126, 34, 206, 0.4);
 }
 
 .hero-badge-strip {
@@ -1259,62 +1027,15 @@ body {
 .hero-badge-tagline {
     font-size: 0.75rem;
     font-weight: 700;
-    color: var(--accent-gold-text);
+    color: var(--theme-accent, var(--accent-gold-text));
     letter-spacing: 0.05em;
 }
 
-.hero-gloomhaven .hero-main-title {
-    font-family: var(--font-cinzel);
-    color: var(--accent-gold-text);
+.hero-main-title {
+    font-family: var(--theme-header-font, var(--font-cinzel));
+    color: var(--theme-primary, var(--accent-gold-text));
     font-size: 2.4rem;
     font-weight: 900;
-}
-
-.hero-frosthaven .hero-main-title {
-    font-family: var(--font-cinzel-decorative);
-    color: #4fd1c5;
-    font-size: 2.4rem;
-    font-weight: 900;
-}
-:root[data-theme="light"] .hero-frosthaven .hero-main-title {
-    color: #0f766e;
-}
-
-.hero-pandemic .hero-main-title {
-    font-family: var(--font-special);
-    color: var(--accent-blue-text);
-    font-size: 2.4rem;
-    font-weight: 900;
-}
-
-.hero-sleepinggods .hero-main-title {
-    font-family: var(--font-cormorant);
-    color: #38bdf8;
-    font-size: 2.4rem;
-    font-weight: 700;
-}
-:root[data-theme="light"] .hero-sleepinggods .hero-main-title {
-    color: #0284c7;
-}
-
-.hero-oathsworn .hero-main-title {
-    font-family: var(--font-medieval);
-    color: #cbd5e1;
-    font-size: 2.4rem;
-    font-weight: 700;
-}
-:root[data-theme="light"] .hero-oathsworn .hero-main-title {
-    color: #334155;
-}
-
-.hero-taintedgrail .hero-main-title {
-    font-family: var(--font-uncial);
-    color: #c084fc;
-    font-size: 2.4rem;
-    font-weight: 700;
-}
-:root[data-theme="light"] .hero-taintedgrail .hero-main-title {
-    color: #6b21a8;
 }
 
 .hero-main-subtitle {
@@ -1444,13 +1165,8 @@ body {
 }
 
 .scope-card.selected {
-    background: rgba(245, 158, 11, 0.12);
-    border-color: var(--accent-gold);
-}
-
-.theme-pandemic-active .scope-card.selected {
-    background: rgba(56, 189, 248, 0.12);
-    border-color: var(--accent-blue);
+    background: var(--theme-glow, rgba(245, 158, 11, 0.12));
+    border-color: var(--theme-primary, var(--accent-gold));
 }
 
 .scope-name {
@@ -1461,13 +1177,9 @@ body {
 
 .scope-scenarios {
     font-size: 0.85rem;
-    color: var(--accent-gold-text);
+    color: var(--theme-primary, var(--accent-gold-text));
     margin-top: 0.35rem;
     margin-bottom: 0.45rem;
-}
-
-.theme-pandemic-active .scope-scenarios {
-    color: var(--accent-blue-text);
 }
 
 .scope-desc {
@@ -1501,16 +1213,9 @@ body {
 }
 
 .btn-freq-tab.active {
-    background: var(--accent-gold);
+    background: var(--theme-primary, var(--accent-gold));
     color: #000;
-    border-color: var(--accent-gold);
-    font-weight: 700;
-}
-
-.theme-pandemic-active .btn-freq-tab.active {
-    background: var(--accent-blue);
-    color: #000;
-    border-color: var(--accent-blue);
+    border-color: var(--theme-primary, var(--accent-gold));
     font-weight: 700;
 }
 
@@ -1533,16 +1238,9 @@ body {
 }
 
 .btn-counter.btn-counter-active {
-    background: var(--accent-gold);
+    background: var(--theme-primary, var(--accent-gold));
     color: #000;
-    border-color: var(--accent-gold);
-    font-weight: 700;
-}
-
-.theme-pandemic-active .btn-counter.btn-counter-active {
-    background: var(--accent-blue);
-    color: #000;
-    border-color: var(--accent-blue);
+    border-color: var(--theme-primary, var(--accent-gold));
     font-weight: 700;
 }
 
@@ -1583,15 +1281,8 @@ body {
 }
 
 .btn-session-len.active {
-    border-color: var(--accent-gold);
-    background: rgba(245, 158, 11, 0.15);
-    color: var(--text-main);
-    font-weight: 700;
-}
-
-.theme-pandemic-active .btn-session-len.active {
-    border-color: var(--accent-blue);
-    background: rgba(56, 189, 248, 0.15);
+    border-color: var(--theme-primary, var(--accent-gold));
+    background: var(--theme-glow, rgba(245, 158, 11, 0.15));
     color: var(--text-main);
     font-weight: 700;
 }
@@ -1605,9 +1296,9 @@ body {
 
 .form-control-custom:focus, .form-select-custom:focus {
     background-color: var(--input-bg-focus);
-    border-color: var(--accent-gold);
+    border-color: var(--theme-primary, var(--accent-gold));
     color: var(--text-main);
-    box-shadow: 0 0 0 0.25rem rgba(245, 158, 11, 0.2);
+    box-shadow: 0 0 0 0.25rem var(--theme-glow, rgba(245, 158, 11, 0.2));
 }
 
 .btn-xs {
@@ -1689,11 +1380,7 @@ body {
 }
 
 .kpi-card-primary {
-    border-left: 4px solid var(--accent-gold);
-}
-
-.theme-pandemic-active .kpi-card-primary {
-    border-left: 4px solid var(--accent-blue);
+    border-left: 4px solid var(--theme-primary, var(--accent-gold));
 }
 
 .kpi-card-success {
@@ -1727,60 +1414,11 @@ body {
 
 .roadmap-card {
     background: var(--bg-card);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--theme-border, var(--border-color));
     border-radius: 16px;
     padding: 2.25rem 2rem 2rem;
     box-shadow: var(--card-shadow);
     transition: all 0.25s ease;
-}
-
-
-.roadmap-frosthaven {
-    border-color: rgba(79, 209, 197, 0.3);
-}
-.roadmap-frosthaven .roadmap-title {
-    font-family: var(--font-cinzel-decorative);
-    color: #4fd1c5;
-}
-
-.roadmap-gloomhaven {
-    border-color: rgba(245, 158, 11, 0.3);
-}
-.roadmap-gloomhaven .roadmap-title {
-    font-family: var(--font-cinzel);
-    color: var(--accent-gold-text);
-}
-
-.roadmap-pandemic {
-    border-color: rgba(56, 189, 248, 0.3);
-}
-.roadmap-pandemic .roadmap-title {
-    font-family: var(--font-special);
-    color: var(--accent-blue-text);
-}
-
-.roadmap-sleepinggods {
-    border-color: rgba(56, 189, 248, 0.3);
-}
-.roadmap-sleepinggods .roadmap-title {
-    font-family: var(--font-cormorant);
-    color: #38bdf8;
-}
-
-.roadmap-oathsworn {
-    border-color: rgba(148, 163, 184, 0.3);
-}
-.roadmap-oathsworn .roadmap-title {
-    font-family: var(--font-medieval);
-    color: #cbd5e1;
-}
-
-.roadmap-taintedgrail {
-    border-color: rgba(168, 85, 247, 0.3);
-}
-.roadmap-taintedgrail .roadmap-title {
-    font-family: var(--font-uncial);
-    color: #c084fc;
 }
 
 .roadmap-header {
@@ -1790,6 +1428,8 @@ body {
 }
 
 .roadmap-title {
+    font-family: var(--theme-header-font, inherit);
+    color: var(--theme-primary, var(--text-main));
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 0.35rem;
@@ -1843,13 +1483,8 @@ body {
     font-weight: 700;
     padding: 0.15rem 0.45rem;
     border-radius: 4px;
-    background: rgba(245, 158, 11, 0.2);
-    color: var(--accent-gold-text);
-}
-
-.theme-pandemic-active .badge-step {
-    background: rgba(56, 189, 248, 0.2);
-    color: var(--accent-blue-text);
+    background: var(--theme-glow, rgba(245, 158, 11, 0.2));
+    color: var(--theme-primary, var(--accent-gold-text));
 }
 
 .milestone-icon-circle {
@@ -1867,12 +1502,8 @@ body {
 .milestone-phase {
     font-size: 0.75rem;
     font-weight: 600;
-    color: var(--accent-gold-text);
+    color: var(--theme-accent, var(--accent-gold-text));
     margin-bottom: 0.65rem;
-}
-
-.theme-pandemic-active .milestone-phase {
-    color: var(--accent-blue-text);
 }
 
 .milestone-desc {
@@ -2008,13 +1639,8 @@ body {
 }
 
 .table-row-milestone {
-    background: var(--table-milestone-gloom) !important;
-    border-left: 3px solid var(--accent-gold);
-}
-
-.theme-pandemic-active .table-row-milestone {
-    background: var(--table-milestone-pandemic) !important;
-    border-left: 3px solid var(--accent-blue);
+    background: var(--theme-glow, rgba(245, 158, 11, 0.12)) !important;
+    border-left: 3px solid var(--theme-primary, var(--accent-gold));
 }
 
 .date-range-badge {
@@ -2030,11 +1656,7 @@ body {
 }
 
 .milestone-note-text {
-    color: var(--accent-gold-text);
-}
-
-.theme-pandemic-active .milestone-note-text {
-    color: var(--accent-blue-text);
+    color: var(--theme-accent, var(--accent-gold-text));
 }
 
 /* ==========================================================================
@@ -2118,14 +1740,9 @@ body {
 }
 
 .language-option-item.active {
-    background: rgba(245, 158, 11, 0.15);
-    color: var(--accent-gold);
+    background: var(--theme-glow, rgba(245, 158, 11, 0.15));
+    color: var(--theme-primary, var(--accent-gold));
     font-weight: 600;
-}
-
-.theme-pandemic-active .language-option-item.active {
-    background: rgba(56, 189, 248, 0.15);
-    color: var(--accent-blue);
 }
 
 /* ==========================================================================
@@ -2155,101 +1772,8 @@ body {
         margin-bottom: 1.25rem !important;
         padding-bottom: 0.85rem;
     }
-}.theme-pandemic1 .game-title {
-    color: var(--color-primary);
 }
-.theme-pandemic1 .btn-select-game.btn-active {
-    border-color: var(--color-primary);
-}
-.theme-pandemic1-active .scope-card.selected {
-    border-color: var(--color-primary);
-}
-.theme-pandemic1-active .scope-scenarios {
-    color: var(--color-primary);
-}
-.theme-pandemic1-active .btn-freq-tab.active {
-    border-bottom: 2px solid var(--color-primary);
-    color: var(--color-primary);
-}
-.theme-pandemic1-active .btn-counter.btn-counter-active {
-    border-color: var(--color-primary);
-    color: var(--color-primary);
-}
-.theme-pandemic1-active .btn-session-len.active {
-    border-color: var(--color-primary);
-    color: var(--color-primary);
-}
-.theme-pandemic1-active .kpi-card-primary {
-    border-left: 4px solid var(--color-primary);
-}
-.theme-pandemic1-active .badge-step {
-    background-color: var(--color-primary);
-}
-.theme-pandemic1-active .milestone-phase {
-    color: var(--color-accent);
-}
-.theme-pandemic1-active .table-row-milestone {
-    background-color: var(--color-glow);
-}
-.theme-pandemic1-active .milestone-note-text {
-    color: var(--color-accent);
-}
-.theme-pandemic1-active .language-option-item.active {
-    color: var(--color-primary);
-}
-.theme-pandemic2 .game-title {
-    font-family: var(--font-special);
-    color: #0ea5e9;
-}
-.theme-pandemic2 .btn-select-game.btn-active {
-    background: #0ea5e9;
-    color: #000;
-    border-color: #0ea5e9;
-    font-weight: 700;
-}
-.theme-pandemic2-active .scope-card.selected {
-    border-color: #0ea5e9;
-}
-.theme-pandemic2-active .scope-scenarios {
-    color: #0ea5e9;
-}
-.theme-pandemic2-active .btn-freq-tab.active {
-    border-bottom: 2px solid #0ea5e9;
-    color: #0ea5e9;
-}
-.theme-pandemic2-active .btn-counter.btn-counter-active {
-    border-color: #0ea5e9;
-    color: #0ea5e9;
-}
-.theme-pandemic2-active .btn-session-len.active {
-    border-color: #0ea5e9;
-    color: #0ea5e9;
-}
-.theme-pandemic2-active .kpi-card-primary {
-    border-left: 4px solid #0ea5e9;
-}
-.theme-pandemic2-active .badge-step {
-    background-color: #0ea5e9;
-}
-.theme-pandemic2-active .milestone-phase {
-    color: #f59e0b;
-}
-.theme-pandemic2-active .table-row-milestone {
-    background-color: rgba(14, 165, 233, 0.12);
-}
-.theme-pandemic2-active .milestone-note-text {
-    color: #f59e0b;
-}
-.theme-pandemic2-active .language-option-item.active {
-    color: #0ea5e9;
-}
-.roadmap-pandemic2 {
-    border-left-color: #0ea5e9;
-}
-.hero-pandemic2 {
-    background: radial-gradient(ellipse at top, #1e293b 0%, #0f172a 60%, #020617 100%);
-    border-color: rgba(14, 165, 233, 0.35);
-}
+
 
 /* ==========================================================================
    BLAZOR ERROR UI
@@ -2304,38 +1828,4 @@ body {
 
 #blazor-error-ui .dismiss:hover {
     opacity: 1;
-}
-
-
-/* ==========================================================================
-   MIDDARA: UNINTENTIONAL MALUM
-   ========================================================================== */
-.theme-middara-active {
-    --theme-bg-gradient: radial-gradient(ellipse at top, #331144 0%, #1a0a24 60%, #0a0410 100%);
-    --theme-primary: #9933cc;
-    --theme-secondary: #1a0a24;
-    --theme-accent: #ff66cc;
-    --theme-text-light: #e6ccff;
-    --theme-text-muted: #b388cc;
-    --theme-border: rgba(153, 51, 204, 0.35);
-    --theme-glow: rgba(153, 51, 204, 0.25);
-    --theme-card-bg: rgba(26, 10, 36, 0.90);
-    --theme-header-font: 'Cinzel', 'Cinzel Decorative', Georgia, serif;
-    --theme-body-font: 'Inter', system-ui, sans-serif;
-    --theme-milestone-marker: var(--theme-accent);
-}
-
-.theme-middara .game-selector-card {
-    border-color: var(--theme-border);
-}
-.theme-middara .game-selector-card.selected {
-    box-shadow: 0 0 0 2px var(--theme-primary), 0 4px 20px var(--theme-glow);
-}
-.theme-middara-active .kpi-card {
-    background: var(--theme-card-bg);
-    border-color: var(--theme-border);
-}
-.theme-middara-active .kpi-card:hover {
-    border-color: var(--theme-primary);
-    box-shadow: 0 4px 15px var(--theme-glow);
 }

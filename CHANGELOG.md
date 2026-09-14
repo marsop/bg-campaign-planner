@@ -7,7 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.11.0] - 2026-09-14
+## [0.12.0] - 2026-09-14
+
+### Changed
+- **Unified Game Theming Architecture**:
+  - Removed all hardcoded game-specific CSS selectors (`.theme-gloomhaven.selected`, `.theme-frosthaven.selected`, `.theme-pandemic*`, `.hero-*`, `.roadmap-*`, `.theme-middara*`, etc.) from [`app.css`](file:///c:/Work/alberto/bg-campaign-planner/wwwroot/css/app.css).
+  - Replaced hardcoded styles with a unified, property-driven CSS Custom Property model (`--game-primary`, `--game-accent`, `--game-border`, `--game-glow`, `--game-header-font`, `--theme-primary`, `--theme-accent`, `--theme-border`, `--theme-glow`, `--theme-card-bg`, `--theme-bg-gradient`, `--theme-header-font`).
+  - Standardized `.game-selection-card` styling so that every game in the catalog automatically renders its custom primary color, title font, selection border, and glow box-shadow dynamically.
+  - Standardized `.thematic-hero-card`, `.roadmap-card`, planner controls (scope cards, frequency tabs, counters, session length), KPI cards, and calendar timeline milestone rows to inherit dynamically from the active game's theme properties.
+  - Eliminated legacy styling overrides for *Pandemic Legacy* and *Middara*.
+
+### Added
+- **Campaign Milestones & Spoiler-Aware Roadmap**:
+  - Populated game campaign milestones in `CampaignDataService` dynamically from `game.json` and multi-language translation resources (`en`, `es`, `de`, `fr`, `it`).
+  - Added 5 narrative campaign milestones for **Middara: Unintentional Malum - Act 1** (*The Trial of the MAST*, *Shadows Over Elenia*, *The Sunken Labyrinth*, *The Web of Deception*, *The Climax of Act 1*) with full localized translations across English, Spanish, German, French, and Italian.
+  - Updated `ThematicRoadmap` and `SessionsTimeline` to dynamically toggle between the standard 4 spoiler-protected progress checkpoints when spoilers are disabled, and the game's actual campaign milestones (between 2 and 6) with thematic titles, phases, descriptions, emojis, and schedule projections when spoilers are enabled.
+  - Responsive roadmap column layout adapting cleanly to campaigns featuring between 2 and 6 milestones.
+- **Per-Game Scoped Stylesheet Support**:
+  - Enabled automatic discovery and loading of optional `games/{game-id}/style.css` stylesheets if a game ever requires bespoke rules beyond standard theme properties.
+  - Embedded `games/**/*.css` assets in project configuration and auto-linked them in `Home.razor` when present.
+
 
 ### Added
 - **New Board Game Added**:

@@ -82,4 +82,5 @@ public class BoardGame
     public List<string> PublicSourceReferences { get; set; } = new();
     public string ImageUrl { get; set; } = string.Empty;
     public string? BackgroundImageUrl { get; set; }
+    public string? CustomCssUrl { get; set; }
 }

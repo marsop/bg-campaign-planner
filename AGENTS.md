@@ -75,7 +75,7 @@ bg-campaign-planner/
    - Generates RFC 5545 compliant `.ics` calendar content via `GenerateIcsFile(result)`.
 4. **Reactive UI (`Home.razor`)**:
    - Coordinates inputs and triggers `Recalculate()` on any parameter change.
-   - Switches the root CSS class (`theme-gloomhaven-active` / `theme-pandemic-active`) to dynamically change color palettes and typography.
+   - Sets dynamic CSS variables on `.planner-app-container` (`--theme-primary`, `--theme-secondary`, `--theme-accent`, `--theme-border`, `--theme-glow`, `--theme-header-font`, `--theme-bg-gradient`, etc.) based on the active game's `Theme` definition to theme the entire app consistently without hardcoded game-specific CSS rules.
 
 ---
 
@@ -90,7 +90,8 @@ To add support for a new board game (e.g. *Frosthaven*, *Oathsworn*, or *Pandemi
    - `cover.webp`: Flat 2D art of the front box cover (cropped 1:1 square WebP format). Always prefer a direct, clean "flat" image/graphic of the cover art rather than a photo, 3D render, or perspective shot of the physical box with surroundings or background.
    - `background.webp`: Themed background illustration/artwork for the application (widescreen ~16:9 WebP format). Every game has this background image. It renders as a fixed, subtle atmospheric backdrop behind the app when the game is selected, styled with theme-aware opacity to ensure content remains visible and readable.
    - `translations/`: Directory with localized strings (`en.json`, `es.json`, `de.json`, `fr.json`, `it.json`). Each translation file provides localized `subtitle`, `tagline`, `loreSummary`, `badgeCategory`, `roadmapTitle`, `roadmapBadge`, `keyFeatures`, and scope names/descriptions.
-3. That's it! The application automatically discovers all games and translations at build time via embedded resources and serves images through `games/{game-id}/cover.webp` and `games/{game-id}/background.webp`. Zero C# code changes or switch statements required.
+   - `style.css` *(optional)*: Scoped CSS for the game. If a game ever requires bespoke visual styling beyond the standard palette and font properties in `game.json`, place it directly in `games/{game-id}/style.css`. It is automatically discovered and loaded only when that game is active. **Never add game-specific CSS classes or rules to `wwwroot/css/app.css`**.
+3. That's it! The application automatically discovers all games, translations, and per-game styles at build time via embedded resources and serves images through `games/{game-id}/cover.webp` and `games/{game-id}/background.webp`. Zero C# code changes or switch statements required.
    - Note on Milestones & Spoilers: Campaign milestones can be defined in `game.json` and localized in `translations/*.json` as meaningful story checkpoints (Acts, Chapters, or Months). A user-facing "Show Spoilers" toggle is deactivated by default to mask milestone titles, phases, and descriptions while keeping schedule dates visible. If no milestones are found for a game, the `milestones` array can be omitted entirely, and the roadmap will not be displayed.
 
 ### Modifying Calculation Logic

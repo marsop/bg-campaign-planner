@@ -19,6 +19,7 @@ public class CampaignDataService
     private readonly Dictionary<string, GameJsonDto> _baseGameDtos = new(StringComparer.OrdinalIgnoreCase);
     private readonly Dictionary<string, Dictionary<string, TranslationJsonDto>> _translations = new(StringComparer.OrdinalIgnoreCase);
     private readonly Dictionary<string, Dictionary<string, BoardGame>> _localizedCache = new(StringComparer.OrdinalIgnoreCase);
+    private readonly HashSet<string> _gamesWithCustomCss = new(StringComparer.OrdinalIgnoreCase);
 
     public CampaignDataService()
     {
@@ -111,6 +112,7 @@ public class CampaignDataService
                 UnitType = baseDto.UnitType,
                 ImageUrl = $"games/{baseDto.Id}/cover.webp",
                 BackgroundImageUrl = !string.IsNullOrEmpty(baseDto.BackgroundImage) ? $"games/{baseDto.Id}/{baseDto.BackgroundImage}" : null,
+                CustomCssUrl = _gamesWithCustomCss.Contains(baseDto.Id) ? $"games/{baseDto.Id}/style.css" : null,
                 PublicSourceReferences = new List<string>(baseDto.PublicSourceReferences),
                 KeyFeatures = trans?.KeyFeatures != null ? new List<string>(trans.KeyFeatures) : new List<string>(),
                 Theme = new GameTheming
@@ -209,6 +211,20 @@ public class CampaignDataService
                 if (dto != null && !string.IsNullOrEmpty(dto.Id))
                 {
                     _baseGameDtos[dto.Id] = dto;
+                }
+            }
+            else if (resName.EndsWith(".style.css", StringComparison.OrdinalIgnoreCase))
+            {
+                // Pattern: [namespace].games.[gameId].style.css
+                var parts = resName.Split('.');
+                for (int i = 0; i < parts.Length - 2; i++)
+                {
+                    if (string.Equals(parts[i], "games", StringComparison.OrdinalIgnoreCase) && i + 1 < parts.Length)
+                    {
+                        var folderName = parts[i + 1].Replace('_', '-');
+                        _gamesWithCustomCss.Add(folderName);
+                        break;
+                    }
                 }
             }
         }
