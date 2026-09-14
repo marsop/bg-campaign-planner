@@ -1,0 +1,92 @@
+{
+  "id": "arkham-horror-lcg",
+  "title": "Arkham Horror: The Card Game",
+  "releaseYear": 2016,
+  "designers": "Nate French, MJ Newman",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.4,
+  "bggWeight": 3.55,
+  "bggUrl": "https://boardgamegeek.com/boardgame/205637/arkham-horror-the-card-game",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 20,
+  "unitType": "scenarios",
+  "theme": {
+    "primaryColor": "#7b4ea0",
+    "secondaryColor": "#0e0b14",
+    "accentColor": "#4a9e5c",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e0d2e 0%, #0e0b14 55%, #060409 100%)",
+    "cardBackground": "rgba(14, 11, 20, 0.92)",
+    "borderColor": "rgba(123, 78, 160, 0.38)",
+    "glowColor": "rgba(123, 78, 160, 0.28)",
+    "headerFont": "'Cinzel Decorative', 'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🔮",
+    "emblem": "🐙🔍",
+    "themeClass": "theme-arkhamhorrorlcg",
+    "activeThemeClass": "theme-arkhamhorrorlcg-active",
+    "roadmapClass": "roadmap-arkhamhorrorlcg",
+    "heroClass": "hero-arkhamhorrorlcg"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek – Arkham Horror: The Card Game (BGG #205637)",
+    "Fantasy Flight Games Official Rulebook & Campaign Guides",
+    "BGG Community Forums – Average scenario duration reports",
+    "Arkham Horror LCG Community Survey & Play Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "ahcg_core",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    },
+    {
+      "id": "ahcg_single_cycle",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "ahcg_multi_cycle",
+      "baseScenarioCount": 24,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": false
+    },
+    {
+      "id": "ahcg_full_collection",
+      "baseScenarioCount": 80,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🕵️",
+      "badgeText": "Act I",
+      "title": "The First Revelation",
+      "phase": "Act I – Opening the Investigation",
+      "description": "Your investigators have uncovered the initial threads of the mystery, navigating Arkham's shadowy streets and surviving the first wave of eldritch horrors."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "📜",
+      "badgeText": "Act II",
+      "title": "Deeper into the Mythos",
+      "phase": "Act II – The Conspiracy Unfolds",
+      "description": "The conspiracy runs deeper than anyone imagined. Your investigators press on, their decks honed by hard-won experience, as the Ancient One's influence grows ever stronger."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🌀",
+      "badgeText": "Finale",
+      "title": "The Final Resolution",
+      "phase": "Final Act – Confronting the Darkness",
+      "description": "All paths converge as your investigators face the culmination of the campaign cycle. The final resolution will determine the fate of Arkham and the world beyond."
+    }
+  ]
+}

@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Arkham Horror: The Card Game**, the cooperative Living Card Game of eldritch mystery and Lovecraftian dread by Fantasy Flight Games (designed by Nate French & MJ Newman, 2016).
+  - 4 campaign scope presets: *Night of the Zealot (Core)* (3 scenarios), *Single Full Cycle* (8 scenarios, recommended), *Multiple Cycles* (24 scenarios), and *Full Collection* (80 scenarios).
+  - 3 narrative milestone checkpoints for a single cycle with spoiler protection (*The First Revelation*, *Deeper into the Mythos*, *The Final Resolution*).
+  - Thematic visual identity (eldritch deep purple `#7b4ea0`, cosmic void `#0e0b14`, and eldritch green `#4a9e5c` styling with Cinzel Decorative gothic header font, atmospheric 1:1 investigator cover art, and Lovecraftian Arkham cityscape 16:9 widescreen backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.18.0] - 2026-09-14
 
 ### Added

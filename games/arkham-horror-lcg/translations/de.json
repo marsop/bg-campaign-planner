@@ -1,0 +1,57 @@
+{
+  "title": "Arkham Horror: The Card Game",
+  "subtitle": "Ein kooperatives Living-Card-Game mit eldritschem Mysterium und lovecraftschem Schrecken",
+  "tagline": "Die Wahrheit verbirgt sich in den Schatten von Arkham",
+  "loreSummary": "Du bist ein Ermittler, der in die schattigen Tiefen von Arkham, Massachusetts, hineingezogen wird, wo uralte Mächte unter der Oberfläche erwachen. Jede gespielte Karte, jeder aufgedeckte Hinweis und jede verzweifelte Entscheidung treibt dich tiefer in das sich entfaltende Mysterium.",
+  "badgeCategory": "Kooperatives Erzähl-LCG",
+  "roadmapTitle": "🔮 Zyklus-Chronik & Kampagnen-Fortschritt",
+  "roadmapBadge": "ELDRITCH-KARTE",
+  "keyFeatures": [
+    "Living-Card-Game-System — baue und entwickle das Deck deines Ermittlers über die Kampagne",
+    "Persistente Erzählkonsequenzen — Entscheidungen in einem Szenario wirken sich auf den gesamten Zyklus aus",
+    "Einzigartiges Trauma- und EP-System — jede Niederlage prägt das Schicksal deines Ermittlers",
+    "Mehrere benannte Kampagnen (Zyklen) zum Erkunden, jede ein eigenständiges eldritisches Mysterium",
+    "Solo- und Koop-Modus für 1–4 Ermittler gegen lovecraftsche Schrecken"
+  ],
+  "scopes": {
+    "ahcg_core": {
+      "name": "Die Nacht des Eiferers (Basis)",
+      "description": "Die 3-Szenario-Einführungskampagne aus dem Grundspiel. Ein konzentrierter Vorgeschmack auf die dunklen Geheimnisse von Arkham — ideal zum Erlernen des Spielsystems vor dem Beginn eines vollständigen Zyklus."
+    },
+    "ahcg_single_cycle": {
+      "name": "Einzelner Vollzyklus (~8 Szenarien)",
+      "description": "Ein vollständiger Kampagnenzyklus (z. B. Das Erbe von Dunwich, Der Weg nach Carcosa oder Das Vergessene Zeitalter) mit etwa 8 Szenarien. Der empfohlene Einstieg für ein vollständiges Arkham-Erzählerlebnis."
+    },
+    "ahcg_multi_cycle": {
+      "name": "Mehrere Zyklen (3 Zyklen, ~24 Szenarien)",
+      "description": "Drei aufeinanderfolgende Kampagnenzyklen, die nacheinander gespielt werden, mit tiefer Charakterentwicklung über mehrere benannte Handlungsstränge und einem sich stetig weiterentwickelnden Deck."
+    },
+    "ahcg_full_collection": {
+      "name": "Vollständige Sammlung (Alle Hauptzyklen, ~80 Szenarien)",
+      "description": "Alle wichtigen Kampagnenzyklen der Arkham Horror LCG-Sammlung — von der Nacht des Eiferers bis zu den neuesten Veröffentlichungen — eine vollständige Arkham-Horror-LCG-Reise über viele Spielmonate."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Akt I",
+      "title": "Die Erste Enthüllung",
+      "phase": "Akt I – Die Ermittlung beginnt",
+      "description": "Deine Ermittler haben die ersten Fäden des Mysteriums aufgedeckt, sich durch die schattigen Straßen von Arkham bewegt und die erste Welle eldritischer Schrecken überlebt."
+    },
+    {
+      "order": 2,
+      "badgeText": "Akt II",
+      "title": "Tiefer in den Mythos",
+      "phase": "Akt II – Die Verschwörung entfaltet sich",
+      "description": "Die Verschwörung reicht tiefer als je jemand ahnte. Deine Ermittler drängen weiter vor, ihre Decks durch harte Erfahrungen geschärft, während der Einfluss des Alten Wesens unaufhaltsam wächst."
+    },
+    {
+      "order": 3,
+      "badgeText": "Finale",
+      "title": "Die Letzte Auflösung",
+      "phase": "Letzter Akt – Der Dunkelheit entgegentreten",
+      "description": "Alle Wege münden in die Entscheidungsschlacht des Kampagnenzyklus. Die letzte Auflösung bestimmt das Schicksal von Arkham und der Welt dahinter."
+    }
+  ]
+}

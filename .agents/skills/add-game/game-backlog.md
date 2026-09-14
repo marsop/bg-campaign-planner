@@ -10,13 +10,13 @@ requested by the user.
 
 **Currently in app:**
 Gloomhaven · Frosthaven · Pandemic Legacy: Season 0 · Sleeping Gods · Pandemic Legacy: Season 1
-Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures · Chronicles of Drunagor: Age of Darkness · Tanares Adventures · The Isofarian Guard · Betrayal Legacy · Vagrantsong
+Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures · Chronicles of Drunagor: Age of Darkness · Tanares Adventures · The Isofarian Guard · Betrayal Legacy · Vagrantsong · Arkham Horror: The Card Game
 
 ---
 
 ## 🟥 High Priority
 
-- **Arkham Horror: The Card Game** — Cooperative narrative LCG with distinct, named scenario campaigns (acts and agendas). 20–30 hours per campaign; multiple full campaigns available. ~8.5 BGG. 1–4 players. Medium-heavy complexity, huge active community, deck-building.
+*(All high-priority games have been added to the app. See Medium Priority for next candidates.)*
 
 ---
 

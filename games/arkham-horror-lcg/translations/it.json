@@ -1,0 +1,57 @@
+{
+  "title": "Arkham Horror: The Card Game",
+  "subtitle": "Un gioco di carte cooperativo di mistero indicibile e orrore lovecraftiano",
+  "tagline": "La verità si nasconde nelle ombre di Arkham",
+  "loreSummary": "Sei un investigatore risucchiato nelle profondità oscure di Arkham, nel Massachusetts, dove antichi malefici si agitano sotto la superficie. Ogni carta giocata, ogni indizio scoperto e ogni decisione disperata ti spinge più a fondo nel mistero che si sgretola.",
+  "badgeCategory": "LCG Narrativo Cooperativo",
+  "roadmapTitle": "🔮 Cronaca del Ciclo & Progressione della Campagna",
+  "roadmapBadge": "MAPPA ELDRICA",
+  "keyFeatures": [
+    "Sistema Living Card Game — costruisci e fai evolvere il mazzo del tuo investigatore durante la campagna",
+    "Conseguenze narrative persistenti — le scelte in uno scenario si ripercuotono sull'intero ciclo",
+    "Unico sistema di trauma e PE — ogni sconfitta plasma il destino del tuo investigatore",
+    "Molteplici campagne con nome (cicli) da esplorare, ognuna un misterio lovecraftiano indipendente",
+    "Gioco in solitario e cooperativo per 1–4 investigatori contro gli orrori del Mito di Cthulhu"
+  ],
+  "scopes": {
+    "ahcg_core": {
+      "name": "La Notte dello Zelota (Base)",
+      "description": "La campagna introduttiva in 3 scenari della Scatola Base. Un assaggio concentrato dei segreti oscuri di Arkham, ideale per imparare il sistema di gioco prima di affrontare un ciclo completo."
+    },
+    "ahcg_single_cycle": {
+      "name": "Ciclo Completo (~8 Scenari)",
+      "description": "Un ciclo di campagna completo (es. L'Eredità di Dunwich, Il Sentiero verso Carcosa o L'Età Dimenticata) con circa 8 scenari. Il punto d'ingresso consigliato per un'esperienza narrativa Arkham completa."
+    },
+    "ahcg_multi_cycle": {
+      "name": "Più Cicli (3 Cicli, ~24 Scenari)",
+      "description": "Tre cicli di campagna consecutivi giocati uno dopo l'altro, con una profonda progressione dei personaggi attraverso più trame e un mazzo in costante evoluzione."
+    },
+    "ahcg_full_collection": {
+      "name": "Collezione Completa (Tutti i Cicli, ~80 Scenari)",
+      "description": "Tutti i cicli principali della collezione Arkham Horror LCG — dalla Notte dello Zelota agli ultimi titoli — un'avventura Arkham Horror LCG completa che si estende per molti mesi di gioco."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Atto I",
+      "title": "La Prima Rivelazione",
+      "phase": "Atto I – Apertura dell'Indagine",
+      "description": "I tuoi investigatori hanno scoperto i primi fili del mistero, navigando le strade buie di Arkham e sopravvivendo alla prima ondata di orrori eldrici."
+    },
+    {
+      "order": 2,
+      "badgeText": "Atto II",
+      "title": "Più in Profondità nel Mito",
+      "phase": "Atto II – La Cospirazione Si Svela",
+      "description": "La cospirazione va più a fondo di quanto chiunque immaginasse. I tuoi investigatori avanzano con i mazzi affinati dall'esperienza duramente conquistata, mentre l'influenza dell'Antico cresce senza sosta."
+    },
+    {
+      "order": 3,
+      "badgeText": "Finale",
+      "title": "La Risoluzione Finale",
+      "phase": "Atto Finale – Affrontare le Tenebre",
+      "description": "Tutti i percorsi convergono quando i tuoi investigatori affrontano il culmine del ciclo di campagna. La risoluzione finale determinerà il destino di Arkham e del mondo oltre."
+    }
+  ]
+}

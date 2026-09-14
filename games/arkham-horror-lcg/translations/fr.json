@@ -1,0 +1,57 @@
+{
+  "title": "Arkham Horror: The Card Game",
+  "subtitle": "Un jeu de cartes coopératif de mystère indicible et d'horreur lovecraftienne",
+  "tagline": "La vérité se cache dans les ombres d'Arkham",
+  "loreSummary": "Vous êtes un enquêteur aspiré dans les profondeurs obscures d'Arkham, dans le Massachusetts, où d'anciennes forces maléfiques s'agitent sous la surface. Chaque carte jouée, chaque indice découvert et chaque décision désespérée vous plonge davantage dans le mystère qui se dérobe.",
+  "badgeCategory": "JCL Narratif Coopératif",
+  "roadmapTitle": "🔮 Chronique du Cycle & Progression de la Campagne",
+  "roadmapBadge": "CARTE ELDRIQUE",
+  "keyFeatures": [
+    "Système de jeu de cartes évolutif — construisez et faites évoluer le deck de votre enquêteur au fil de la campagne",
+    "Conséquences narratives persistantes — vos choix dans un scénario se répercutent sur tout le cycle",
+    "Système unique de traumatismes et d'XP — chaque défaite façonne le destin de votre enquêteur",
+    "De nombreuses campagnes nommées (cycles) à explorer, chacune un mystère lovecraftien autonome",
+    "Mode solo et coopératif pour 1 à 4 enquêteurs face aux horreurs du mythe de Cthulhu"
+  ],
+  "scopes": {
+    "ahcg_core": {
+      "name": "La Nuit du Zélateur (Boîte de Base)",
+      "description": "La campagne d'introduction en 3 scénarios de la boîte de base. Un avant-goût concentré des sombres secrets d'Arkham, idéal pour apprendre les mécanismes avant de s'engager dans un cycle complet."
+    },
+    "ahcg_single_cycle": {
+      "name": "Cycle Complet (~8 Scénarios)",
+      "description": "Un cycle de campagne complet (par ex. L'Héritage de Dunwich, Le Chemin vers Carcosa ou L'Âge Oublié) avec environ 8 scénarios. Le point d'entrée recommandé pour une expérience narrative Arkham complète."
+    },
+    "ahcg_multi_cycle": {
+      "name": "Plusieurs Cycles (3 Cycles, ~24 Scénarios)",
+      "description": "Trois cycles de campagne consécutifs joués les uns après les autres, permettant une progression approfondie des personnages à travers plusieurs intrigues nommées et un deck en constante évolution."
+    },
+    "ahcg_full_collection": {
+      "name": "Collection Complète (Tous les Cycles, ~80 Scénarios)",
+      "description": "Tous les cycles principaux de la collection Arkham Horror LCG — de La Nuit du Zélateur aux dernières sorties — une aventure Arkham Horror LCG complète s'étendant sur de nombreux mois de jeu."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acte I",
+      "title": "La Première Révélation",
+      "phase": "Acte I – Ouverture de l'Enquête",
+      "description": "Vos enquêteurs ont déniché les premiers fils du mystère, parcourant les rues obscures d'Arkham et survivant à la première vague d'horreurs eldriques."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acte II",
+      "title": "Plus Profond dans le Mythe",
+      "phase": "Acte II – La Conspiration Se Dévoile",
+      "description": "La conspiration est plus profonde que quiconque ne l'imaginait. Vos enquêteurs avancent, leurs decks affinés par une expérience durement acquise, tandis que l'influence de l'Ancien se renforce inexorablement."
+    },
+    {
+      "order": 3,
+      "badgeText": "Final",
+      "title": "La Résolution Finale",
+      "phase": "Acte Final – Affronter les Ténèbres",
+      "description": "Tous les chemins convergent alors que vos enquêteurs affrontent le point culminant du cycle de campagne. La résolution finale déterminera le destin d'Arkham et du monde au-delà."
+    }
+  ]
+}

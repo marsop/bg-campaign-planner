@@ -1,0 +1,57 @@
+{
+  "title": "Arkham Horror: The Card Game",
+  "subtitle": "A cooperative living card game of eldritch mystery and Lovecraftian dread",
+  "tagline": "The truth lies in the shadows of Arkham",
+  "loreSummary": "You are an investigator drawn into the shadowy depths of Arkham, Massachusetts, where ancient evils stir beneath the surface. Every card played, every clue uncovered, and every desperate decision pushes you deeper into the unraveling mystery.",
+  "badgeCategory": "Cooperative Narrative LCG",
+  "roadmapTitle": "🔮 Cycle Chronicle & Campaign Progression",
+  "roadmapBadge": "ELDRITCH ROADMAP",
+  "keyFeatures": [
+    "Living Card Game system — build and evolve your investigator's deck across the campaign",
+    "Persistent narrative consequences — choices in one scenario ripple through the entire cycle",
+    "Unique trauma and XP system — every defeat shapes your investigator's fate",
+    "Multiple named campaigns (cycles) to explore, each a standalone eldritch mystery",
+    "Solo and cooperative play for 1–4 investigators tackling Lovecraftian horrors"
+  ],
+  "scopes": {
+    "ahcg_core": {
+      "name": "Night of the Zealot (Core)",
+      "description": "The 3-scenario introductory campaign from the Core Set. A focused taste of Arkham's dark secrets, perfect for learning the game systems before committing to a full cycle."
+    },
+    "ahcg_single_cycle": {
+      "name": "Single Full Cycle (~8 Scenarios)",
+      "description": "One complete campaign cycle (e.g. The Dunwich Legacy, Path to Carcosa, or The Forgotten Age) with roughly 8 scenarios. The recommended entry point for a full Arkham narrative experience."
+    },
+    "ahcg_multi_cycle": {
+      "name": "Multiple Cycles (3 Cycles, ~24 Scenarios)",
+      "description": "Three consecutive campaign cycles played back-to-back, allowing deep character progression across multiple named storylines and a rich evolving deck."
+    },
+    "ahcg_full_collection": {
+      "name": "Full Collection (All Major Cycles, ~80 Scenarios)",
+      "description": "All major campaign cycles in the Arkham Horror LCG collection — from Night of the Zealot through the latest releases — representing a complete Arkham Horror LCG journey spanning many months of play."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Act I",
+      "title": "The First Revelation",
+      "phase": "Act I – Opening the Investigation",
+      "description": "Your investigators have uncovered the initial threads of the mystery, navigating Arkham's shadowy streets and surviving the first wave of eldritch horrors."
+    },
+    {
+      "order": 2,
+      "badgeText": "Act II",
+      "title": "Deeper into the Mythos",
+      "phase": "Act II – The Conspiracy Unfolds",
+      "description": "The conspiracy runs deeper than anyone imagined. Your investigators press on, their decks honed by hard-won experience, as the Ancient One's influence grows ever stronger."
+    },
+    {
+      "order": 3,
+      "badgeText": "Finale",
+      "title": "The Final Resolution",
+      "phase": "Final Act – Confronting the Darkness",
+      "description": "All paths converge as your investigators face the culmination of the campaign cycle. The final resolution will determine the fate of Arkham and the world beyond."
+    }
+  ]
+}
