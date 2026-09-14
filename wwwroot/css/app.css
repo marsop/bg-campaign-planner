@@ -156,7 +156,6 @@ body {
 .main-content-container,
 .app-footer {
     position: relative;
-    z-index: 1;
 }
 
 /* Base Loader */
@@ -372,6 +371,14 @@ body {
 }
 
 /* Modal styling for Version Info */
+.app-version-modal-backdrop {
+    z-index: 2000;
+}
+
+.app-version-modal {
+    z-index: 2005;
+}
+
 .app-version-modal-content {
     background: var(--bg-card-solid);
     border: 1px solid var(--border-color);

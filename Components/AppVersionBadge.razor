@@ -19,8 +19,8 @@
 
 @if (isModalOpen)
 {
-    <div class="modal-backdrop fade show" @onclick="CloseModal"></div>
-    <div class="modal fade show d-block" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="appVersionModalTitle" @onclick="CloseModal">
+    <div class="modal-backdrop fade show app-version-modal-backdrop" @onclick="CloseModal"></div>
+    <div class="modal fade show d-block app-version-modal" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="appVersionModalTitle" @onclick="CloseModal">
         <div class="modal-dialog modal-dialog-centered" @onclick:stopPropagation>
             <div class="modal-content app-version-modal-content shadow-lg border-0">
                 <div class="modal-header border-bottom border-secondary border-opacity-25 pb-3">
