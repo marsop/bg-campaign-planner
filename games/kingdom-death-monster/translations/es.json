@@ -29,31 +29,38 @@
   "milestones": [
     {
       "order": 1,
-      "badgeText": "AL 5",
-      "title": "La Primera Némesis",
-      "phase": "Fase de Asentamiento I - La Luz Frágil",
-      "description": "Sobrevivir a las cacerías iniciales y enfrentarse al implacable carnicero que aterroriza el perímetro del asentamiento."
+      "badgeText": "AL 4",
+      "title": "La Furia del Carnicero",
+      "phase": "Némesis I - El Carnicero",
+      "description": "Sobrevivir a las cacerías iniciales y enfrentarse al frenético carnicero de pesados cuchillos en las puertas del asentamiento."
     },
     {
       "order": 2,
-      "badgeText": "AL 12",
-      "title": "El Decreto Real",
-      "phase": "Fase de Asentamiento II - Sombras de Civilización",
-      "description": "Establecer innovaciones especializadas y hacer frente al enigmático emisario acorazado que pondrá a prueba la determinación humana."
+      "badgeText": "AL 9",
+      "title": "El Emisario del Rey",
+      "phase": "Némesis II - El Hombre del Rey",
+      "description": "Hacer frente al campeón regio pesadamente acorazado y resistir la brutal presión de combate."
     },
     {
       "order": 3,
-      "badgeText": "AL 20",
-      "title": "El Alzamiento del Vigilante",
-      "phase": "Fase de Asentamiento III - El Ojo Acechante",
-      "description": "Superar a las presas alfa más aterradoras y enfrentarse a la antigua entidad celestial suspendida sobre el cúmulo de linternas."
+      "badgeText": "AL 13",
+      "title": "El Verdugo Real",
+      "phase": "Némesis III - La Mano",
+      "description": "Enfrentarse al enigmático verdugo regio para poner a prueba la maestría marcial y temple del asentamiento."
     },
     {
       "order": 4,
+      "badgeText": "AL 20",
+      "title": "El Alzamiento del Vigilante",
+      "phase": "Némesis IV - El Vigilante",
+      "description": "Superar presas alfa y luchar contra la antigua entidad celestial suspendida sobre el cúmulo de linternas."
+    },
+    {
+      "order": 5,
       "badgeText": "AL 30",
-      "title": "El Horizonte Humeante",
-      "phase": "Fase de Asentamiento IV - El Crisol Definitivo",
-      "description": "La batalla culminante contra el titán supremo para determinar si el asentamiento humano deja un legado eterno en la oscuridad."
+      "title": "El Caballero de Humo Dorado",
+      "phase": "Final - El Crisol Definitivo",
+      "description": "La confrontación climática definitiva contra el titán del martillo que determinará la supervivencia final de la humanidad."
     }
   ]
 }

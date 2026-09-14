@@ -39,19 +39,26 @@
       "title": "Le schisme des Algox",
       "phase": "Phase II - Lignées des montagnes",
       "description": "Résolution de la guerre fratricide entre la faction des prêtres Algox et les clans de la garde sur les crêtes gelées.",
-      "badgeText": "Acte II"
+      "badgeText": "Algox"
     },
     {
       "order": 3,
       "title": "L'éveil des automates",
       "phase": "Phase III - Les profondeurs des Émancipés",
       "description": "Exploration de ruines submergées pour décrypter le réseau mécanique des machines douées de conscience.",
-      "badgeText": "Acte III"
+      "badgeText": "Émancipés"
     },
     {
       "order": 4,
+      "title": "Secrets des Furtifs",
+      "phase": "Phase IV - La marée abyssale",
+      "description": "Percer les rituels télépathiques étranges et les bastions sous-marins des antiques Furtifs.",
+      "badgeText": "Furtifs"
+    },
+    {
+      "order": 5,
       "title": "Le Cœur du Givre",
-      "phase": "Phase IV - Calamité septentrionale",
+      "phase": "Phase V - Calamité septentrionale",
       "description": "Face-à-face avec la puissance primordiale enfouie sous le pergélisol pour pérenniser l'avenir de l'Avant-poste.",
       "badgeText": "Finale"
     }

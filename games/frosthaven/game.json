@@ -56,7 +56,7 @@
     {
       "order": 1,
       "atScenarioOrGameIndex": 15,
-      "iconEmoji": "❄️",
+      "iconEmoji": "🛡️",
       "badgeText": "Year 1",
       "title": "First Winter's Survival",
       "phase": "Phase I - The Outpost Established",
@@ -64,29 +64,38 @@
     },
     {
       "order": 2,
-      "atScenarioOrGameIndex": 32,
+      "atScenarioOrGameIndex": 30,
       "iconEmoji": "🐺",
-      "badgeText": "Act II",
+      "badgeText": "Algox",
       "title": "The Algox Schism",
       "phase": "Phase II - Mountain Bloodlines",
       "description": "Resolving the violent civil conflict between the Algox Priest faction and the Guard clans in the snowy crags."
     },
     {
       "order": 3,
-      "atScenarioOrGameIndex": 50,
+      "atScenarioOrGameIndex": 44,
       "iconEmoji": "⚙️",
-      "badgeText": "Act III",
+      "badgeText": "Unfettered",
       "title": "The Automata Awakened",
       "phase": "Phase III - The Unfettered Deep",
       "description": "Venturing into flooded subterranean ruins to decipher the sentient machine network."
     },
     {
       "order": 4,
+      "atScenarioOrGameIndex": 58,
+      "iconEmoji": "🌊",
+      "badgeText": "Lurker",
+      "title": "Secrets of the Lurkers",
+      "phase": "Phase IV - The Abyssal Tide",
+      "description": "Deciphering the alien telepathic rituals and subterranean coastal strongholds of the ancient Lurkers."
+    },
+    {
+      "order": 5,
       "atScenarioOrGameIndex": 70,
       "iconEmoji": "🏔️",
       "badgeText": "Finale",
       "title": "The Heart of the Frost",
-      "phase": "Phase IV - Northern Calamity",
+      "phase": "Phase V - Northern Calamity",
       "description": "Confronting the ancient primordial power slumbering beneath the permafrost to secure the Outpost's future."
     }
   ]

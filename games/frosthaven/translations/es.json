@@ -39,19 +39,26 @@
       "title": "El cisma de los Algox",
       "phase": "Fase II - Linajes de la montaña",
       "description": "Resolviendo el violento conflicto civil entre la facción de los sacerdotes Algox y los clanes de la guardia en los riscos nevados.",
-      "badgeText": "Acto II"
+      "badgeText": "Algox"
     },
     {
       "order": 3,
       "title": "Los autómatas despiertos",
       "phase": "Fase III - Las profundidades de los Desatados",
       "description": "Adentrándose en ruinas subterráneas inundadas para descifrar la red de máquinas sintientes.",
-      "badgeText": "Acto III"
+      "badgeText": "Desatados"
     },
     {
       "order": 4,
+      "title": "Secretos de los Acechadores",
+      "phase": "Fase IV - La marea abisal",
+      "description": "Descifrando los rituales telepáticos alienígenas y bastiones subterráneos de los ancestrales Acechadores.",
+      "badgeText": "Acechadores"
+    },
+    {
+      "order": 5,
       "title": "El Corazón de la Escarcha",
-      "phase": "Fase IV - Calamidad norteña",
+      "phase": "Fase V - Calamidad norteña",
       "description": "Confrontando el antiguo poder primordial que duerme bajo el permafrost para asegurar el futuro del Puesto Avanzado.",
       "badgeText": "Final"
     }

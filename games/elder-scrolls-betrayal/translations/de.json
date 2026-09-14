@@ -54,9 +54,16 @@
     },
     {
       "order": 4,
+      "badgeText": "Abent. 4",
+      "title": "Grenzen von Tamriel",
+      "phase": "Kampagnenakt IV - Der Wachsende Konflikt",
+      "description": "Wagt euch über Provinzgrenzen hinweg in unerforschte Gefahren, während die daedrische Bedrohung eskaliert."
+    },
+    {
+      "order": 5,
       "badgeText": "Abent. 5",
       "title": "Retter von Tamriel",
-      "phase": "Kampagnenakt IV - Die Große Krönung",
+      "phase": "Kampagnenakt V - Die Große Krönung",
       "description": "Überwindet Provinzgrenzen, um den ultimativen Verrat aufzudecken und das sterbliche Reich zu retten."
     }
   ]

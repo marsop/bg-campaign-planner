@@ -54,9 +54,16 @@
     },
     {
       "order": 4,
+      "badgeText": "Av. 4",
+      "title": "Fronteras de Tamriel",
+      "phase": "Arco de Campaña IV - El Conflicto se Extiende",
+      "description": "Aventurándose a través de las fronteras provinciales hacia peligros desconocidos mientras la amenaza daédrica escala."
+    },
+    {
+      "order": 5,
       "badgeText": "Av. 5",
       "title": "Salvador de Tamriel",
-      "phase": "Arco de Campaña IV - La Gran Culminación",
+      "phase": "Arco de Campaña V - La Gran Culminación",
       "description": "Cruzando las fronteras provinciales para encarar a la gran traidora y proteger el reino mortal."
     }
   ]

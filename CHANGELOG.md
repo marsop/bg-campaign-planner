@@ -20,7 +20,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - **Campaign Milestones & Spoiler-Aware Roadmap**:
   - Populated game campaign milestones in `CampaignDataService` dynamically from `game.json` and multi-language translation resources (`en`, `es`, `de`, `fr`, `it`).
-  - Added 5 narrative campaign milestones for **Middara: Unintentional Malum - Act 1** (*The Trial of the MAST*, *Shadows Over Elenia*, *The Sunken Labyrinth*, *The Web of Deception*, *The Climax of Act 1*) with full localized translations across English, Spanish, German, French, and Italian.
+  - Audited and updated authentic campaign milestones (between 2 and 6 each) across all 16 games in the catalog:
+    - **Middara: Unintentional Malum - Act 1**: 5 chapter milestones (*The Trial of the MAST*, *Shadows Over Elenia*, *The Sunken Labyrinth*, *The Web of Deception*, *The Climax of Act 1*).
+    - **Kingdom Death: Monster**: 5 nemesis showdown milestones (*The Butcher's Rampage*, *The King's Envoy*, *The Regal Executioner*, *The Gathering of the Watcher*, *The Gold Smoke Knight*).
+    - **The Elder Scrolls: Betrayal of the Second Era**: 5 adventure milestones spanning Adventures 1 through 5 (*First Provincial Reckoning*, *The Planemeld Deepens*, *Heart of the Province*, *Frontiers of Tamriel*, *Savior of Tamriel*).
+    - **Frosthaven**: 5 major campaign arc milestones (*First Winter's Survival*, *The Algox Schism*, *The Automata Awakened*, *Secrets of the Lurkers*, *The Heart of the Frost*).
+    - **Aeon Trespass: Odyssey**: 4 cycle and climax milestones (*The Truth of the Labyrinth*, *The Abysswatchers*, *Ascent of the Titans*, *Pitiless of the Sun*).
+    - **Descent: Legends of the Dark**: 4 Act 1 story milestones (*Shadows over Frostgate*, *The Uthuk Incursion*, *Secrets of the Catacombs*, *The Battle for Terrinoth*).
+    - **Gloomhaven**, **Sleeping Gods**, **Tainted Grail**, **Oathsworn**, **ISS Vanguard**, **Earthborne Rangers**, **Agemonia**, and **Pandemic Legacy (Seasons 0, 1, 2)**: authentic 4-phase narrative milestones.
+  - Complete localized translations for all campaign milestones across English, Spanish, German, French, and Italian.
   - Updated `ThematicRoadmap` and `SessionsTimeline` to dynamically toggle between the standard 4 spoiler-protected progress checkpoints when spoilers are disabled, and the game's actual campaign milestones (between 2 and 6) with thematic titles, phases, descriptions, emojis, and schedule projections when spoilers are enabled.
   - Responsive roadmap column layout adapting cleanly to campaigns featuring between 2 and 6 milestones.
 - **Per-Game Scoped Stylesheet Support**:

@@ -56,39 +56,48 @@
   "milestones": [
     {
       "order": 1,
-      "atScenarioOrGameIndex": 5,
+      "atScenarioOrGameIndex": 4,
       "iconEmoji": "🏮",
-      "badgeText": "LY 5",
-      "title": "The First Nemesis",
-      "phase": "Settlement Phase I - The Fragile Light",
-      "description": "Surviving the early quarry hunts and confronting the relentless butcher terrorizing the settlement perimeter."
+      "badgeText": "LY 4",
+      "title": "The Butcher's Rampage",
+      "phase": "Nemesis I - The Butcher",
+      "description": "Surviving early quarry hunts and facing the frenzied, cleaver-wielding butcher at the settlement gates."
     },
     {
       "order": 2,
-      "atScenarioOrGameIndex": 12,
+      "atScenarioOrGameIndex": 9,
       "iconEmoji": "👑",
-      "badgeText": "LY 12",
-      "title": "The King's Decree",
-      "phase": "Settlement Phase II - Shadows of Civilization",
-      "description": "Establishing specialized innovations and facing the enigmatic armored envoy testing human resolve."
+      "badgeText": "LY 9",
+      "title": "The King's Envoy",
+      "phase": "Nemesis II - The King's Man",
+      "description": "Confronting the heavily armored royal champion and enduring the brutal Battle Pressure."
     },
     {
       "order": 3,
+      "atScenarioOrGameIndex": 13,
+      "iconEmoji": "⚔️",
+      "badgeText": "LY 13",
+      "title": "The Regal Executioner",
+      "phase": "Nemesis III - The Hand",
+      "description": "Facing the enigmatic royal executioner to test settlement mastery and combat resolve."
+    },
+    {
+      "order": 4,
       "atScenarioOrGameIndex": 20,
       "iconEmoji": "👁️",
       "badgeText": "LY 20",
       "title": "The Gathering of the Watcher",
-      "phase": "Settlement Phase III - The Looming Eye",
-      "description": "Surmounting apex quarry horrors and confronting the ancient celestial entity suspended above the lantern hoard."
+      "phase": "Nemesis IV - The Watcher",
+      "description": "Surmounting apex quarry horrors and battling the ancient celestial entity suspended above the lantern hoard."
     },
     {
-      "order": 4,
+      "order": 5,
       "atScenarioOrGameIndex": 30,
       "iconEmoji": "🔥",
       "badgeText": "LY 30",
-      "title": "The Smoldering Horizon",
-      "phase": "Settlement Phase IV - The Final Crucible",
-      "description": "The climactic confrontation against the ultimate titan determining humanity's legacy in the eternal darkness."
+      "title": "The Gold Smoke Knight",
+      "phase": "Finale - The Final Crucible",
+      "description": "The climactic final confrontation against the hammer-bearing titan determining humanity's ultimate survival in the darkness."
     }
   ]
 }

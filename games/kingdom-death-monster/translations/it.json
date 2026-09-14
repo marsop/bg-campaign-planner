@@ -29,31 +29,38 @@
   "milestones": [
     {
       "order": 1,
-      "badgeText": "AL 5",
-      "title": "La Prima Nemesi",
-      "phase": "Fase di Insediamento I - La Luce Fragile",
-      "description": "Sopravvivere alle prime battute di caccia e fronteggiare lo spietato macellaio che terrorizza il perimetro dell'insediamento."
+      "badgeText": "AL 4",
+      "title": "La Furia del Macellaio",
+      "phase": "Nemesi I - Il Macellaio",
+      "description": "Sopravvivere alle prime cacce e affrontare il frenetico macellaio armato di mannaie alle porte dell'insediamento."
     },
     {
       "order": 2,
-      "badgeText": "AL 12",
-      "title": "Il Decreto del Re",
-      "phase": "Fase di Insediamento II - Ombre di Civiltà",
-      "description": "Stabilire innovazioni specializzate e affrontare l'enigmatico emissario corazzato giunto a saggiare la determinazione umana."
+      "badgeText": "AL 9",
+      "title": "L'Emissario del Re",
+      "phase": "Nemesi II - L'Uomo del Re",
+      "description": "Fronteggiare il campione regale pesantemente corazzato e resistere alla brutale pressione di combattimento."
     },
     {
       "order": 3,
-      "badgeText": "AL 20",
-      "title": "L'Adunata del Guardiano",
-      "phase": "Fase di Insediamento III - L'Occhio Incombente",
-      "description": "Superare gli orrori delle prede alfa e sfidare l'antica entità celestiale sospesa sul cumulo di lanterne."
+      "badgeText": "AL 13",
+      "title": "Il Boia Reale",
+      "phase": "Nemesi III - La Mano",
+      "description": "Affrontare l'enigmatico boia regale per saggiare la maestria bellica e il coraggio dell'insediamento."
     },
     {
       "order": 4,
+      "badgeText": "AL 20",
+      "title": "L'Adunata del Guardiano",
+      "phase": "Nemesi IV - Il Guardiano",
+      "description": "Superare prede alfa e sfidare l'antica entità celestiale sospesa sul cumulo di lanterne."
+    },
+    {
+      "order": 5,
       "badgeText": "AL 30",
-      "title": "L'Orizzonte Fumante",
-      "phase": "Fase di Insediamento IV - Il Crogiolo Finale",
-      "description": "Lo scontro decisivo contro il titano primordiale per determinare se l'insediamento umano lascerà un'eredità eterna nell'oscurità."
+      "title": "Il Cavaliere del Fumo Dorato",
+      "phase": "Finale - Il Crogiolo Finale",
+      "description": "Lo scontro apocalittico definitivo contro il titano del martello che determinerà la salvezza finale dell'umanità."
     }
   ]
 }

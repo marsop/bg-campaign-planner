@@ -39,19 +39,26 @@
       "title": "The Algox Schism",
       "phase": "Phase II - Mountain Bloodlines",
       "description": "Resolving the violent civil conflict between the Algox Priest faction and the Guard clans in the snowy crags.",
-      "badgeText": "Act II"
+      "badgeText": "Algox"
     },
     {
       "order": 3,
       "title": "The Automata Awakened",
       "phase": "Phase III - The Unfettered Deep",
       "description": "Venturing into flooded subterranean ruins to decipher the sentient machine network.",
-      "badgeText": "Act III"
+      "badgeText": "Unfettered"
     },
     {
       "order": 4,
+      "title": "Secrets of the Lurkers",
+      "phase": "Phase IV - The Abyssal Tide",
+      "description": "Deciphering the alien telepathic rituals and subterranean coastal strongholds of the ancient Lurkers.",
+      "badgeText": "Lurker"
+    },
+    {
+      "order": 5,
       "title": "The Heart of the Frost",
-      "phase": "Phase IV - Northern Calamity",
+      "phase": "Phase V - Northern Calamity",
       "description": "Confronting the ancient primordial power slumbering beneath the permafrost to secure the Outpost's future.",
       "badgeText": "Finale"
     }

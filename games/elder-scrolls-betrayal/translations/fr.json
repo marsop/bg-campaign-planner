@@ -54,9 +54,16 @@
     },
     {
       "order": 4,
+      "badgeText": "Av. 4",
+      "title": "Frontières de Tamriel",
+      "phase": "Arc de Campagne IV - L'Escalade du Conflit",
+      "description": "Franchir les frontières provinciales face à des périls inconnus alors que la menace daedrique s'intensifie."
+    },
+    {
+      "order": 5,
       "badgeText": "Av. 5",
       "title": "Sauveur de Tamriel",
-      "phase": "Arc de Campagne IV - La Grande Culmination",
+      "phase": "Arc de Campagne V - La Grande Culmination",
       "description": "Franchir les frontières provinciales pour affronter la traîtresse ultime et sauvegarder le monde des mortels."
     }
   ]

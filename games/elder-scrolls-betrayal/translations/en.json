@@ -54,10 +54,17 @@
     },
     {
       "order": 4,
+      "badgeText": "Adv. 4",
+      "title": "Frontiers of Tamriel",
+      "phase": "Campaign Arc IV - The Widening Conflict",
+      "description": "Venturing across provincial borders into uncharted perils as the Daedric threat escalates."
+    },
+    {
+      "order": 5,
       "badgeText": "Adv. 5",
       "title": "Savior of Tamriel",
-      "phase": "Campaign Arc IV - The Grand Culmination",
-      "description": "Crossing provincial frontiers to confront the ultimate betrayer and preserve the mortal realm."
+      "phase": "Campaign Arc V - The Grand Culmination",
+      "description": "Confronting the ultimate betrayer in a climactic struggle to preserve the mortal realm."
     }
   ]
 }

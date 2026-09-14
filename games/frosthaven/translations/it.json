@@ -39,19 +39,26 @@
       "title": "Lo scisma degli Algox",
       "phase": "Fase II - Stirpi della montagna",
       "description": "Risolvere il violento conflitto civile tra la fazione dei sacerdoti Algox e i clan della guardia sui dirupi innevati.",
-      "badgeText": "Atto II"
+      "badgeText": "Algox"
     },
     {
       "order": 3,
       "title": "Gli automi risvegliati",
       "phase": "Fase III - Le profondità degli Svincolati",
       "description": "Esplorare rovine sotterranee allagate per decifrare la rete di macchine senzienti.",
-      "badgeText": "Atto III"
+      "badgeText": "Svincolati"
     },
     {
       "order": 4,
+      "title": "I Segreti dei Lurker",
+      "phase": "Fase IV - La marea abissale",
+      "description": "Decifrare gli oscuri rituali telepatici e i bastioni costieri sotterranei degli antichi Lurker.",
+      "badgeText": "Lurker"
+    },
+    {
+      "order": 5,
       "title": "Il Cuore del Gelo",
-      "phase": "Fase IV - Calamità del Nord",
+      "phase": "Fase V - Calamità del Nord",
       "description": "Affrontare l'antico potere primordiale che dorme sotto il permafrost per garantire il futuro dell'Avamposto.",
       "badgeText": "Finale"
     }

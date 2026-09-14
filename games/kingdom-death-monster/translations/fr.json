@@ -29,31 +29,38 @@
   "milestones": [
     {
       "order": 1,
-      "badgeText": "AL 5",
-      "title": "La Première Némésis",
-      "phase": "Phase de Colonie I - La Lueur Fragile",
-      "description": "Survivre aux premières traques et affronter l'implacable boucher semant la terreur aux abords de la colonie."
+      "badgeText": "AL 4",
+      "title": "La Fureur du Boucher",
+      "phase": "Némésis I - Le Boucher",
+      "description": "Survivre aux premières traques et affronter l'implacable boucher armé de fendoirs aux portes de la colonie."
     },
     {
       "order": 2,
-      "badgeText": "AL 12",
-      "title": "Le Décret Royal",
-      "phase": "Phase de Colonie II - Ombres de Civilisation",
-      "description": "Établir des innovations avancées et faire face à l'énigmatique émissaire en armure venu sonder la volonté humaine."
+      "badgeText": "AL 9",
+      "title": "L'Émissaire du Roi",
+      "phase": "Némésis II - Le Chevalier du Roi",
+      "description": "Faire face au champion royal en armure lourde et endurer la terrible pression martiale."
     },
     {
       "order": 3,
-      "badgeText": "AL 20",
-      "title": "L'Avènement du Gardien",
-      "phase": "Phase de Colonie III - L'Œil Menaçant",
-      "description": "Triompher des pires abominations et défier l'entité céleste ancestrale suspendue au-dessus du sanctuaire des lanternes."
+      "badgeText": "AL 13",
+      "title": "Le Bourreau Royal",
+      "phase": "Némésis III - La Main",
+      "description": "Affronter l'énigmatique bourreau royal pour éprouver la maîtrise au combat et la bravoure de la colonie."
     },
     {
       "order": 4,
+      "badgeText": "AL 20",
+      "title": "L'Éveil du Guetteur",
+      "phase": "Némésis IV - Le Guetteur",
+      "description": "Triompher des pires abominations et défier l'entité céleste ancestrale suspendue au-dessus du tas de lanternes."
+    },
+    {
+      "order": 5,
       "badgeText": "AL 30",
-      "title": "L'Horizon Flamboyant",
-      "phase": "Phase de Colonie IV - L'Ultime Épreuve",
-      "description": "L'affrontement décisif contre le titan suprême pour déterminer si l'héritage de l'humanité perdurera dans les ténèbres éternelles."
+      "title": "Le Chevalier de Fumée Dorée",
+      "phase": "Final - L'Ultime Épreuve",
+      "description": "L'affrontement apocalyptique final contre le titan au marteau qui scellera la survie de l'humanité."
     }
   ]
 }
