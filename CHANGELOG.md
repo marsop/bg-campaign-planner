@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-09-13
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Middara: Unintentional Malum — Act 1** campaign.
+  - Complete with thematic styling (dark violet/magenta palette, cinematic styling).
+  - Localization support across all 5 languages.
+
 ## [0.4.0] - 2026-09-11
 
 ### Added

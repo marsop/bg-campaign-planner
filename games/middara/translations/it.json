@@ -1,0 +1,24 @@
+{
+  "subtitle": "Dungeon Crawler RPG in stile anime",
+  "tagline": "Un'enorme avventura narrativa.",
+  "loreSummary": "Middara è un gioco da tavolo di miniature fantasy ultra-moderno in cui tu e fino a tre amici assumete il ruolo di avventurieri in una narrazione profonda e tentacolare.",
+  "badgeCategory": "Dungeon Crawler",
+  "roadmapTitle": "Tabella di marcia della campagna",
+  "roadmapBadge": "Progresso della storia",
+  "keyFeatures": [
+    "Arte in stile anime",
+    "Profonda campagna narrativa",
+    "Combattimento tattico con miniature",
+    "Progressione del personaggio"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campagna Principale",
+      "description": "La trama standard dell'Atto 1."
+    },
+    "completionist": {
+      "name": "Completista",
+      "description": "Include missioni secondarie e incontri opzionali."
+    }
+  }
+}
