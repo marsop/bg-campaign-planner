@@ -1,0 +1,94 @@
+{
+  "id": "roll-player-adventures",
+  "title": "Roll Player Adventures",
+  "releaseYear": 2021,
+  "designers": "Keith Matejka, James Ryan, Peter Andrew Ryan",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.1,
+  "bggWeight": 2.3,
+  "bggUrl": "https://boardgamegeek.com/boardgame/254708/roll-player-adventures",
+  "baseScenarioMinutes": 105,
+  "setupTeardownMinutes": 15,
+  "unitType": "adventures",
+  "theme": {
+    "primaryColor": "#3b4cca",
+    "secondaryColor": "#0d1527",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e2947 0%, #0d1527 60%, #060a14 100%)",
+    "cardBackground": "rgba(13, 21, 39, 0.92)",
+    "borderColor": "rgba(245, 158, 11, 0.40)",
+    "glowColor": "rgba(59, 76, 202, 0.35)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🎲",
+    "emblem": "🎲⚔️",
+    "themeClass": "theme-roll-player-adventures",
+    "activeThemeClass": "theme-roll-player-adventures-active",
+    "roadmapClass": "roadmap-roll-player-adventures",
+    "heroClass": "hero-roll-player-adventures"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #254708)",
+    "Thunderworks Games Official Rulebook & Storybooks (Keith Matejka, James Ryan & Peter Andrew Ryan)",
+    "Roll Player Adventures Community Encounter Statistics & Campaign Logs"
+  ],
+  "scopes": [
+    {
+      "id": "rpa_standard",
+      "baseScenarioCount": 11,
+      "estimatedFailRatePercent": 4.0,
+      "isRecommended": true
+    },
+    {
+      "id": "rpa_extended",
+      "baseScenarioCount": 13,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": false
+    },
+    {
+      "id": "rpa_grand_saga",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🛡️",
+      "badgeText": "Act I",
+      "title": "Defense of Nalos",
+      "phase": "Campaign Act I - The Northern Skirmishes",
+      "description": "Mustering the King's Guard to halt initial incursions along the northern border and discovering cryptic signs of an emerging conspiracy."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🚪",
+      "badgeText": "Act II",
+      "title": "Mysteries of the Starlit Door",
+      "phase": "Campaign Act II - The Astral Anomaly",
+      "description": "Tracking ancient relics and planar rifts as the mysterious Starlit Door cult manipulates events from the shadows of Ulos."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "⚔️",
+      "badgeText": "Act III",
+      "title": "The Dragul Convergence",
+      "phase": "Campaign Act III - Clash of Kingdoms",
+      "description": "Entering the disputed territories of the Dragul to navigate treacherous diplomacy and crucial moral choices that determine wartime alliances."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 11,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "The Fate of Ulos",
+      "phase": "Campaign Act IV - The Final Reckoning",
+      "description": "Standing against the ultimate ancient power threatening Nalos in a climactic narrative showdown that cements the realm's enduring legacy."
+    }
+  ]
+}

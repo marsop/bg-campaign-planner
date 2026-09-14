@@ -1,0 +1,59 @@
+{
+  "title": "Roll Player Adventures",
+  "subtitle": "Un jeu de plateau narratif et coopératif de fantasy héroïque, de quêtes à embranchements et d'aventures épiques dans le monde d'Ulos",
+  "tagline": "Lancez vos dés, forgez votre destinée et décidez du sort de Nalos",
+  "loreSummary": "Au lendemain de la dévastatrice invasion Dragul, la paix dans le Royaume de Nalos ne tient qu'à un fil. Nouveaux membres de la Garde Royale, votre groupe est envoyé dans une expédition périlleuse à travers des contrées inexplorées pour exhumer d'antiques artefacts, déjouer des conspirations et sceller l'avenir d'Ulos.",
+  "badgeCategory": "JDR Narratif & Casse-têtes de Dés",
+  "roadmapTitle": "🎲 Chronique de Nalos & Campagne d'Ulos",
+  "roadmapBadge": "CHRONIQUE DE LA GARDE ROYALE",
+  "keyFeatures": [
+    "11 livrets d'aventure à embranchements regorgeant de dilemmes moraux majeurs et de défis tactiques",
+    "Importation fluide de vos héros depuis le jeu originel Roll Player ou personnages pré-tirés complets",
+    "Manipulation ingénieuse de dés et combinaisons d'attributs se substituant au simple hasard des combats",
+    "Progression narrative continue (fail-forward) où chaque revers enrichit l'histoire sans jamais bloquer la campagne"
+  ],
+  "scopes": {
+    "rpa_standard": {
+      "name": "Saga de Campagne Standard",
+      "description": "La trame narrative principale intégrale traversant le Royaume de Nalos et les territoires voisins à travers 11 aventures épiques."
+    },
+    "rpa_extended": {
+      "name": "Saga de Campagne & Quêtes Secondaires",
+      "description": "La campagne principale en 11 chapitres enrichie de livrets d'aventures secondaires et d'épreuves bonus sur ~13 aventures."
+    },
+    "rpa_grand_saga": {
+      "name": "Grande Saga (Historiques & Modules)",
+      "description": "L'expérience absolue incorporant le codex des quêtes de passé personnel de Nefras's Judgement, les alignements moraux et explorations annexes sur ~15 aventures."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acte I",
+      "title": "Défense de Nalos",
+      "phase": "Acte I de Campagne - Escarmouches du Nord",
+      "description": "Mobiliser la Garde Royale pour repousser les premières incursions à la frontière septentrionale et déceler les indices d'un complot émergent."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acte II",
+      "title": "Mystères de la Porte Stellaire",
+      "phase": "Acte II de Campagne - L'Anomalie Astrale",
+      "description": "Pister des reliques ancestrales et des failles dimensionnelles alors que la mystérieuse secte de la Porte Stellaire tire les ficelles dans l'ombre."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acte III",
+      "title": "La Convergence Dragul",
+      "phase": "Acte III de Campagne - Le Choc des Royaumes",
+      "description": "Pénétrer dans les territoires contestés des Dragul pour mener d'âpres négociations diplomatiques et forger de cruciales alliances de guerre."
+    },
+    {
+      "order": 4,
+      "badgeText": "Dénouement",
+      "title": "Le Destin d'Ulos",
+      "phase": "Acte IV de Campagne - L'Ultime Confrontation",
+      "description": "Affronter la puissance cataclysmique ancestrale menaçant Nalos dans un affrontement d'anthologie scellant la légende du royaume."
+    }
+  ]
+}

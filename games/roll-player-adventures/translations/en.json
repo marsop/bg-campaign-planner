@@ -1,0 +1,59 @@
+{
+  "title": "Roll Player Adventures",
+  "subtitle": "A cooperative narrative board game of heroic fantasy, branching quests, and character-driven adventure in the world of Ulos",
+  "tagline": "Roll your dice, forge your path, and decide the fate of Nalos",
+  "loreSummary": "Following the brutal Dragul invasion, peace in the Kingdom of Nalos hangs by a thread. As newly minted members of the King's Guard, your party is thrust into a perilous quest across uncharted realms to uncover ancient artifacts, expose sinister conspiracies, and shape the destiny of Ulos.",
+  "badgeCategory": "Narrative RPG & Dice-Puzzle Adventure",
+  "roadmapTitle": "🎲 Nalos Chronicle & Ulos Campaign Arc",
+  "roadmapBadge": "KING'S GUARD CHRONICLE",
+  "keyFeatures": [
+    "11 branching adventure books packed with consequential narrative decisions and puzzle encounters",
+    "Seamless character import from the original Roll Player dice-drafting game or pre-generated heroes",
+    "Dynamic dice manipulation and attribute-matching puzzles replacing standard combat luck",
+    "Rich fail-forward storyline where setbacks evolve the adventure rather than halting your campaign"
+  ],
+  "scopes": {
+    "rpa_standard": {
+      "name": "Standard Campaign Saga",
+      "description": "The complete core storybook narrative traversing the Kingdom of Nalos and beyond across 11 epic adventures."
+    },
+    "rpa_extended": {
+      "name": "Campaign Saga & Side Quests",
+      "description": "The full 11-part main campaign plus supplemental side questbooks and bonus challenges across ~13 adventures."
+    },
+    "rpa_grand_saga": {
+      "name": "Grand Saga (Backstories & Modules)",
+      "description": "The definitive experience integrating Nefras's Judgement personal backstory codex quests, character alignments, and extra explorations across ~15 adventures."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Act I",
+      "title": "Defense of Nalos",
+      "phase": "Campaign Act I - The Northern Skirmishes",
+      "description": "Mustering the King's Guard to halt initial incursions along the northern border and discovering cryptic signs of an emerging conspiracy."
+    },
+    {
+      "order": 2,
+      "badgeText": "Act II",
+      "title": "Mysteries of the Starlit Door",
+      "phase": "Campaign Act II - The Astral Anomaly",
+      "description": "Tracking ancient relics and planar rifts as the mysterious Starlit Door cult manipulates events from the shadows of Ulos."
+    },
+    {
+      "order": 3,
+      "badgeText": "Act III",
+      "title": "The Dragul Convergence",
+      "phase": "Campaign Act III - Clash of Kingdoms",
+      "description": "Entering the disputed territories of the Dragul to navigate treacherous diplomacy and crucial moral choices that determine wartime alliances."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "The Fate of Ulos",
+      "phase": "Campaign Act IV - The Final Reckoning",
+      "description": "Standing against the ultimate ancient power threatening Nalos in a climactic narrative showdown that cements the realm's enduring legacy."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Roll Player Adventures",
+  "subtitle": "Ein kooperatives narratives Kampagnenspiel voller heroischer Fantasy, verzweigter Quests und charaktergetriebener Abenteuer in der Welt von Ulos",
+  "tagline": "Würfle dein Schicksal, bahne dir deinen Weg und entscheide über die Zukunft von Nalos",
+  "loreSummary": "Nach der verheerenden Dragul-Invasion hängt der Frieden im Königreich Nalos an einem seidenen Faden. Als frische Rekruten der königlichen Garde werdet ihr auf eine gefahrvolle Reise durch unbekannte Gefilde entsandt, um uralte Artefakte zu bergen, finstere Verschwörungen aufzudecken und das Schicksal von Ulos zu lenken.",
+  "badgeCategory": "Narratives Rollenspiel & Würfelpuzzle-Abenteuer",
+  "roadmapTitle": "🎲 Chronik von Nalos & Ulos-Kampagne",
+  "roadmapBadge": "KÖNIGSGARDE-CHRONIK",
+  "keyFeatures": [
+    "11 verzweigte Abenteuerbücher voller folgenschwerer Entscheidungen und taktischer Würfelrätsel",
+    "Nahtloser Charakterimport aus dem originalen Roll Player-Würfelspiel oder vorgefertigte Helden",
+    "Dynamische Würfelmanipulation und Eigenschaftsrätsel anstelle von unerbittlichem Kampfglück",
+    "Packende Fail-Forward-Erzählung, in der Rückschläge die Handlung vorantreiben, statt die Kampagne zu stoppen"
+  ],
+  "scopes": {
+    "rpa_standard": {
+      "name": "Standard-Kampagnensaga",
+      "description": "Die vollständige narrative Hauptgeschichte durch das Königreich Nalos und darüber hinaus über 11 epische Abenteuer."
+    },
+    "rpa_extended": {
+      "name": "Kampagnensaga & Nebenquests",
+      "description": "Die 11-teilige Hauptkampagne ergänzt durch zusätzliche Nebenabenteuer-Hefte und Bonus-Herausforderungen über ~13 Abenteuer."
+    },
+    "rpa_grand_saga": {
+      "name": "Große Saga (Hintergründe & Module)",
+      "description": "Das vollendete Spielerlebnis mit den persönlichen Hintergrundquests aus Nefras's Judgement, Charaktergesinnungen und zusätzlichen Erkundungen über ~15 Abenteuer."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Akt I",
+      "title": "Verteidigung von Nalos",
+      "phase": "Kampagnenakt I - Die Grenzscharmützel des Nordens",
+      "description": "Die Königsgarde sammeln, um die ersten Angriffe an der Nordgrenze abzuwehren und rätselhafte Spuren einer finsteren Verschwörung aufzudecken."
+    },
+    {
+      "order": 2,
+      "badgeText": "Akt II",
+      "title": "Geheimnisse der Sternenpforte",
+      "phase": "Kampagnenakt II - Die Astrale Anomalie",
+      "description": "Uralten Relikten und Dimensionsrissen nachspüren, während der geheimnisvolle Kult der Sternenpforte im Verborgenen die Fäden zieht."
+    },
+    {
+      "order": 3,
+      "badgeText": "Akt III",
+      "title": "Die Dragul-Konvergenz",
+      "phase": "Kampagnenakt III - Konflikt der Reiche",
+      "description": "Die umstrittenen Lande der Dragul betreten, um gefährliche Diplomatie zu führen und schwerwiegende Entscheidungen über Kriegsbündnisse zu fällen."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Das Schicksal von Ulos",
+      "phase": "Kampagnenakt IV - Die Letzte Entscheidung",
+      "description": "Der uralten Hauptbedrohung für Nalos im dramatischen erzählerischen Showdown entgegentreten und das Vermächtnis des Reichs besiegeln."
+    }
+  ]
+}

@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.13.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Roll Player Adventures** cooperative narrative campaign in the fantasy realm of Ulos.
+  - 3 campaign scope presets: *Standard Campaign Saga* (11 adventures), *Campaign Saga & Side Quests* (13 adventures), and *Grand Saga (Backstories & Modules)* (15 adventures).
+  - 4 narrative milestone checkpoints across Nalos and Ulos with spoiler protection (*Defense of Nalos*, *Mysteries of the Starlit Door*, *The Dragul Convergence*, *The Fate of Ulos*).
+  - Thematic visual identity (royal sapphire `#3b4cca`, abyss blue `#0d1527`, and adventure gold `#f59e0b` styling with authentic 1:1 flat box cover art and 16:9 widescreen dragon battle backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.12.0] - 2026-09-14
 
 ### Changed

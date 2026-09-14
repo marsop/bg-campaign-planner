@@ -1,0 +1,59 @@
+{
+  "title": "Roll Player Adventures",
+  "subtitle": "Un juego de mesa narrativo y cooperativo de fantasía heroica, misiones ramificadas y aventuras guiadas por personajes en el mundo de Ulos",
+  "tagline": "Lanza tus dados, forja tu camino y decide el destino de Nalos",
+  "loreSummary": "Tras la brutal invasión Dragul, la paz en el Reino de Nalos pende de un hilo. Como nuevos miembros de la Guardia del Rey, vuestro grupo se embarca en una peligrosa misión a través de reinos desconocidos para recuperar artefactos ancestrales, desmantelar conspiraciones y moldear el destino de Ulos.",
+  "badgeCategory": "RPG Narrativo y Puzles con Dados",
+  "roadmapTitle": "🎲 Crónica de Nalos y Campaña de Ulos",
+  "roadmapBadge": "CRÓNICA DE LA GUARDIA REAL",
+  "keyFeatures": [
+    "11 libros de aventuras ramificadas repletos de decisiones cruciales y desafiantes encuentros de puzles",
+    "Importación directa de héroes desde el juego de dados Roll Player original o personajes pregenerados",
+    "Manipulación táctica de dados y concordancia de atributos que sustituyen el azar de combate tradicional",
+    "Historia inmersiva sin bloqueos donde los tropiezos hacen avanzar la aventura en lugar de frenarla"
+  ],
+  "scopes": {
+    "rpa_standard": {
+      "name": "Saga de Campaña Estándar",
+      "description": "La narrativa central completa a través del Reino de Nalos y más allá a lo largo de 11 épicas aventuras."
+    },
+    "rpa_extended": {
+      "name": "Saga de Campaña y Misiones Secundarias",
+      "description": "La campaña principal de 11 episodios más libros de misiones secundarias y desafíos adicionales a lo largo de ~13 aventuras."
+    },
+    "rpa_grand_saga": {
+      "name": "Gran Saga (Trasfondos y Módulos)",
+      "description": "La experiencia definitiva que integra el códice de trasfondos personales de Nefras's Judgement, alineamientos y exploraciones adicionales en ~15 aventuras."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acto I",
+      "title": "Defensa de Nalos",
+      "phase": "Acto I de Campaña - Escaramuzas en el Norte",
+      "description": "Reunir a la Guardia del Rey para frenar las incursiones fronterizas del norte y descubrir indicios enigmáticos de una conspiración emergente."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acto II",
+      "title": "Misterios de la Puerta Estelar",
+      "phase": "Acto II de Campaña - La Anomalía Astral",
+      "description": "Rastrear reliquias ancestrales y fisuras planares mientras el misterioso culto de la Puerta Estelar maquina desde las sombras de Ulos."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acto III",
+      "title": "La Convergencia Dragul",
+      "phase": "Acto III de Campaña - Choque de Reinos",
+      "description": "Adentrarse en los territorios en disputa de los Dragul para negociar una diplomacia arriesgada y tomar decisiones morales que definirán alianzas de guerra."
+    },
+    {
+      "order": 4,
+      "badgeText": "Desenlace",
+      "title": "El Destino de Ulos",
+      "phase": "Acto IV de Campaña - El Juicio Final",
+      "description": "Hacer frente al poder ancestral definitivo que amenaza a Nalos en un apoteósico clímax narrativo que consolidará el legado del reino."
+    }
+  ]
+}
