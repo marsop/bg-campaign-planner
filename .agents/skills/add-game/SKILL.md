@@ -116,8 +116,11 @@ See the full annotated reference: [game-json-reference.md](./references/game-jso
 ## Step 4 — Prepare Images
 
 ### cover.webp
-- **Content**: Front box art, tightly cropped.
-- **Aspect ratio**: **1:1 square**.
+- **Content**: Direct "flat" 2D front box art/illustration, tightly cropped.
+  Always prefer a clean, flat 2D graphic or digital artwork of the front cover
+  over a photo, 3D angled render, or perspective mock-up of the box.
+- **Aspect ratio**: **1:1 square** (centered cleanly on key art and title,
+  removing partial logos or background bleed).
 - **Format**: WebP.
 - **Recommended size**: 400x400 px to 600x600 px.
 - **Source**: Publisher press kit, BGG image gallery (check licence), or
