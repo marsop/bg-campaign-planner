@@ -1,0 +1,59 @@
+{
+  "title": "Sword & Sorcery: Immortal Souls",
+  "subtitle": "Dungeon crawler tactique de haute fantasy avec IA ennemie avancée et progression d'âmes",
+  "tagline": "Éveillez-vous du sommeil de la mort pour terrasser les ténèbres",
+  "loreSummary": "Vous êtes des héros de légende ressuscités d'entre les morts par d'antiques rituels divins. Aux âmes fragmentées et pouvoirs oubliés, vous devez vous unir pour anéantir les abominations corrompues qui hantent la Côte du Talon.",
+  "badgeCategory": "Dungeon Crawler de Dark Fantasy Épique",
+  "roadmapTitle": "🗺️ Chronique de la Côte du Talon & Progression des Âmes",
+  "roadmapBadge": "SAGA HÉROÏQUE",
+  "keyFeatures": [
+    "Système d'IA ennemie sophistiqué avec schémas de comportement tactiques",
+    "Montée en puissance persistante par Rangs d'Âme et compétences sur mesure",
+    "Forme d'Âme Fantôme éliminant toute élimination prématurée de joueur",
+    "Trame narrative interactive dirigée par le Livre des Secrets"
+  ],
+  "scopes": {
+    "ss_core": {
+      "name": "Campagne Principale (Acte I: Immortal Souls)",
+      "description": "L'arc narratif intégral en 7 quêtes de l'Acte I, du réveil à l'Autel des Âmes jusqu'à la confrontation finale contre le général des ténèbres."
+    },
+    "ss_arcane_portal": {
+      "name": "Acte I Étendu (Immortal Souls + Arcane Portal)",
+      "description": "Les 7 quêtes fondamentales de l'Acte I enrichies de 4 expéditions secondaires périlleuses issues d'Arcane Portal."
+    },
+    "ss_full_saga": {
+      "name": "Saga Immortelle Complète (Actes I & II)",
+      "description": "La fresque épique complète combinant l'Acte I (Immortal Souls), les quêtes d'Arcane Portal et l'Acte II décisif (Darkness Falls)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Rang d'Âme I",
+      "title": "Résurrection & Les Cryptes Maudites",
+      "phase": "Acte I - L'Éveil des Immortels",
+      "description": "Éveillez-vous à l'Autel des Âmes aux souvenirs brisés pour purifier les cryptes souterraines sous la Côte du Talon."
+    },
+    {
+      "order": 2,
+      "badgeText": "Rang d'Âme II",
+      "title": "L'Incursion des Orcs",
+      "phase": "Acte I - Aux Frontières du Chaos",
+      "description": "Pénétrez dans les étendues sauvages pour éradiquer les bandes orques et recouvrer de précieux artefacts sacrés."
+    },
+    {
+      "order": 3,
+      "badgeText": "Rang d'Âme III",
+      "title": "Défenseurs du Royaume",
+      "phase": "Acte I - Le Siège Imminent",
+      "description": "Défendez les remparts de la forteresse contre un effroyable siège de créatures corrompues et de maîtres marionnettistes."
+    },
+    {
+      "order": 4,
+      "badgeText": "Rang d'Âme IV",
+      "title": "L'Apogée d'Immortal Souls",
+      "phase": "Acte I - Le Jugement Dernier",
+      "description": "Affrontez le seigneur suprême des ténèbres dans une bataille d'anthologie pour sceller la faille et libérer le royaume."
+    }
+  ]
+}

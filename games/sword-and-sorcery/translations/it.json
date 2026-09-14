@@ -1,0 +1,59 @@
+{
+  "title": "Sword & Sorcery: Immortal Souls",
+  "subtitle": "Dungeon crawler tattico high-fantasy con profonda IA dei mostri e progressione delle anime",
+  "tagline": "Risorgete dal sonno eterno della morte per scacciare le tenebre",
+  "loreSummary": "Siete eroi leggendari richiamati in vita dalla morte mediante antichi riti divini. Con anime frammentate e memorie affievolite, dovete unirvi per purificare gli orrori corrotti che minacciano la Costa di Talon.",
+  "badgeCategory": "Dungeon Crawler Fantasy Epico",
+  "roadmapTitle": "🗺️ Cronaca della Costa di Talon & Progressione dell'Anima",
+  "roadmapBadge": "SAGA EROICA",
+  "keyFeatures": [
+    "Sistema di intelligenza artificiale nemica intelligente con routine comportamentali tattiche",
+    "Crescita persistente del Rango dell'Anima e abilità eroiche su misura",
+    "Forma di Anima Fantasma che azzera l'eliminazione prematura dei giocatori",
+    "Narrazione a bivi coordinata tramite il leggendario Libro dei Segreti"
+  ],
+  "scopes": {
+    "ss_core": {
+      "name": "Campagna Base (Atto I: Immortal Souls)",
+      "description": "L'arco narrativo completo di 7 missioni dell'Atto I, dal risveglio presso l'Altare delle Anime fino allo scontro campale contro il generale delle tenebre."
+    },
+    "ss_arcane_portal": {
+      "name": "Atto I Esteso (Immortal Souls + Arcane Portal)",
+      "description": "Le 7 missioni principali dell'Atto I affiancate da 4 impegnative missioni secondarie dell'espansione Arcane Portal."
+    },
+    "ss_full_saga": {
+      "name": "Saga Immortale Completa (Atti I e II)",
+      "description": "La grandiosa epopea complessiva che unisce l'Atto I (Immortal Souls), le missioni di Arcane Portal e l'epilogo mozzafiato dell'Atto II (Darkness Falls)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Rango dell'Anima I",
+      "title": "Resurrezione & Le Cripte dei Non-Morti",
+      "phase": "Atto I - Il Risveglio degli Immortali",
+      "description": "Risvegliatevi presso l'Altare delle Anime con ricordi frammentati per purificare le cripte sotterranee della Costa di Talon."
+    },
+    {
+      "order": 2,
+      "badgeText": "Rango dell'Anima II",
+      "title": "L'Assalto degli Orchi",
+      "phase": "Atto I - Ai Confini del Caos",
+      "description": "Inoltratevi nelle lande selvagge per annientare le orde di orchi predoni e recuperare sacre reliquie trafugate."
+    },
+    {
+      "order": 3,
+      "badgeText": "Rango dell'Anima III",
+      "title": "Difensori del Reame",
+      "phase": "Atto I - L'Assedio Incombente",
+      "description": "Difendete i bastioni della fortezza di fronte a un terrificante assedio di mostruosità corrotte e oscuri burattinai."
+    },
+    {
+      "order": 4,
+      "badgeText": "Rango dell'Anima IV",
+      "title": "L'Acrocamerata di Immortal Souls",
+      "phase": "Atto I - La Resa dei Conti",
+      "description": "Affrontate il supremo signore dell'oscurità in una resa dei conti leggendaria per sigillare lo squarcio e salvare il regno."
+    }
+  ]
+}

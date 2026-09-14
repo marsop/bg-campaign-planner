@@ -228,11 +228,11 @@ Once the build passes and the checklist above is complete, edit
 [game-backlog.md](./game-backlog.md) and **remove the line** corresponding to
 the game that was just added.
 
-Also update the **"Currently in app"** line at the top of `game-backlog.md`
-to include the newly added game title.
+Also update the **"Currently in app"** list at the top of `game-backlog.md`
+to append the newly added game title as a new bullet line.
 
 **Do this even if the game was not originally in the backlog** — simply skip
-the removal step in that case, but still update the "Currently in app" line.
+the removal step in that case, but still add the game to the "Currently in app" list.
 
 After editing the backlog, briefly summarise for the user:
 - Which game was added

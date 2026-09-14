@@ -8,21 +8,53 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app:**
-Gloomhaven · Frosthaven · Pandemic Legacy: Season 0 · Sleeping Gods · Pandemic Legacy: Season 1
-Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures · Chronicles of Drunagor: Age of Darkness · Tanares Adventures · The Isofarian Guard · Betrayal Legacy · Vagrantsong · Arkham Horror: The Card Game · Folklore: The Affliction · The Lord of the Rings: Journeys in Middle-earth · Aeon's End: Legacy · Darkest Dungeon: The Board Game · Arydia: The Paths We Dare Tread · Fateforge: Chronicles of Kaan · Stars of Akarios · Primal: The Awakening · Kinfire Chronicles: Night's Fall
+**Currently in app (33 games):**
+- Gloomhaven
+- Frosthaven
+- Pandemic Legacy: Season 0
+- Sleeping Gods
+- Pandemic Legacy: Season 1
+- Oathsworn: Into the Deepwood
+- Tainted Grail: The Fall of Avalon
+- Pandemic Legacy: Season 2
+- Kingdom Death: Monster
+- Middara: Unintentional Malum – Act 1
+- Descent: Legends of the Dark
+- Aeon Trespass: Odyssey
+- The Elder Scrolls: Betrayal of the Second Era
+- ISS Vanguard
+- Earthborne Rangers
+- Agemonia
+- Roll Player Adventures
+- Chronicles of Drunagor: Age of Darkness
+- Tanares Adventures
+- The Isofarian Guard
+- Betrayal Legacy
+- Vagrantsong
+- Arkham Horror: The Card Game
+- Folklore: The Affliction
+- The Lord of the Rings: Journeys in Middle-earth
+- Aeon's End: Legacy
+- Darkest Dungeon: The Board Game
+- Arydia: The Paths We Dare Tread
+- Fateforge: Chronicles of Kaan
+- Stars of Akarios
+- Primal: The Awakening
+- Kinfire Chronicles: Night's Fall
+- Sword & Sorcery: Immortal Souls
+
 
 ---
 
 ## 🟥 High Priority
 
-- **Sword & Sorcery: Immortal Souls** — Epic fantasy tactical dungeon crawler with advanced enemy AI and soul-leveling. Act I: 7 core quests (~25–35 hours). ~7.7 BGG. 1–5 players. Heavy tactical combat, persistent character progression.
+- **Dungeon Degenerates: Hand of Doom** — Psychedelic dark fantasy adventure sandbox through the rotting Würstreich. 20 linked missions (~25–40+ hours). ~8.1 BGG. 1–4 players. Open-world exploration, RPG campaign, persistent party development.
 
 ---
 
 ## 🟧 Medium Priority
 
-- **Dungeon Degenerates: Hand of Doom** — Psychedelic dark fantasy adventure sandbox through the rotting Würstreich. 20 linked missions (~25–40+ hours). ~8.1 BGG. 1–4 players. Open-world exploration, RPG campaign, persistent party development.
+*(None currently — promote from Lower Priority or use find-game-candidates)*
 
 ---
 

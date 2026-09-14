@@ -7,7 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.29.0] - 2026-09-14
+## [0.30.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Sword & Sorcery: Immortal Souls**, the tactical cooperative fantasy dungeon crawler with sophisticated enemy AI and soul progression by Simone Romano & Nunzio Surace (Ares Games & Gremlin Project, 2017).
+  - 3 campaign scope presets: *Core Campaign (Act I: Immortal Souls)* (7 quests, recommended), *Extended Act I (Immortal Souls + Arcane Portal)* (11 quests), and *Complete Immortal Saga (Acts I & II)* (18 quests).
+  - 4 narrative milestone checkpoints across the Talon Coast and subterranean crypts with spoiler protection (*Resurrection & The Undead Crypts*, *The Orcish Onslaught*, *Defenders of the Realm*, and *The Climax of Immortal Souls*).
+  - Thematic visual identity (soul cyan `#38bdf8`, obsidian dungeon `#0f172a`, and resurrection ember gold `#f59e0b` styling with Cinzel decorative header font, authentic 1:1 flat front box cover art, and atmospheric landscape of the Altar of Souls on the Talon Coast).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+
 
 ### Added
 - **New Board Game Added**:

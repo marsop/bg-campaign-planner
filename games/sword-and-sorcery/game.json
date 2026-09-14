@@ -1,0 +1,94 @@
+{
+  "id": "sword-and-sorcery",
+  "title": "Sword & Sorcery: Immortal Souls",
+  "releaseYear": 2017,
+  "designers": "Simone Romano, Nunzio Surace",
+  "playersMin": 1,
+  "playersMax": 5,
+  "bggRating": 7.7,
+  "bggWeight": 4.04,
+  "bggUrl": "https://boardgamegeek.com/boardgame/170771/sword-sorcery",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 30,
+  "unitType": "quests",
+  "theme": {
+    "primaryColor": "#38bdf8",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e293b 0%, #0f172a 60%, #060a12 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.92)",
+    "borderColor": "rgba(56, 189, 248, 0.35)",
+    "glowColor": "rgba(56, 189, 248, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "⚔️",
+    "emblem": "⚔️✨",
+    "themeClass": "theme-swordandsorcery",
+    "activeThemeClass": "theme-swordandsorcery-active",
+    "roadmapClass": "roadmap-swordandsorcery",
+    "heroClass": "hero-swordandsorcery"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #170771 / Thematic & Cooperative Rank)",
+    "Ares Games & Gremlin Project Official Rulebook & Storybook (Simone Romano & Nunzio Surace)",
+    "Community Campaign Playthrough Statistics & Session Logs"
+  ],
+  "scopes": [
+    {
+      "id": "ss_core",
+      "baseScenarioCount": 7,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "ss_arcane_portal",
+      "baseScenarioCount": 11,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "ss_full_saga",
+      "baseScenarioCount": 18,
+      "estimatedFailRatePercent": 18.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🕯️",
+      "badgeText": "Soulrank I",
+      "title": "Resurrection & The Undead Crypts",
+      "phase": "Act I - Awakening of the Immortals",
+      "description": "Awakening at the Altar of Souls with fragmented memories to cleanse the subterranean crypts beneath the Talon Coast."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🏹",
+      "badgeText": "Soulrank II",
+      "title": "The Orcish Onslaught",
+      "phase": "Act I - The Outskirts of Chaos",
+      "description": "Venturing into the hostile wilderness to crush marauding orc warbands and recover sacred stolen relics."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🏰",
+      "badgeText": "Soulrank III",
+      "title": "Defenders of the Realm",
+      "phase": "Act I - The Gathering Siege",
+      "description": "Holding the fortress battlements against a terrifying siege of corrupted monstrosities and shadowy puppet masters."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "👑",
+      "badgeText": "Soulrank IV",
+      "title": "The Climax of Immortal Souls",
+      "phase": "Act I - The Final Reckoning",
+      "description": "Confronting the supreme dark overlord in an epic showdown to seal the rift and liberate the Talon Coast."
+    }
+  ]
+}

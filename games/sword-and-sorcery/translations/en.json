@@ -1,0 +1,59 @@
+{
+  "title": "Sword & Sorcery: Immortal Souls",
+  "subtitle": "Tactical high-fantasy dungeon crawl with deep enemy AI and soul progression",
+  "tagline": "Awaken from the sleep of death to vanquish the darkness",
+  "loreSummary": "You are legendary heroes resurrected from death by ancient divine rites. With fragmented souls and forgotten powers, you must rise together to purge the corrupted horrors terrorizing the Coast of Talon.",
+  "badgeCategory": "Epic Fantasy Dungeon Crawler",
+  "roadmapTitle": "🗺️ Talon Coast Chronicle & Soul Progression",
+  "roadmapBadge": "HEROIC SAGA",
+  "keyFeatures": [
+    "Intelligent enemy AI system with unique behavior routines",
+    "Persistent soul-leveling and customized hero power ascension",
+    "Ethereal Ghost Soul form eliminates true player elimination",
+    "Branching narrative storybook driven by the Book of Secrets"
+  ],
+  "scopes": {
+    "ss_core": {
+      "name": "Core Campaign (Act I: Immortal Souls)",
+      "description": "The complete core story arc spanning all 7 Act I quests from awakening at the Altar of Souls to the epic battle against the supreme darkness general."
+    },
+    "ss_arcane_portal": {
+      "name": "Extended Act I (Immortal Souls + Arcane Portal)",
+      "description": "The core 7 Act I quests plus 4 challenging side-quest expeditions from the Arcane Portal expansion."
+    },
+    "ss_full_saga": {
+      "name": "Complete Immortal Saga (Acts I & II)",
+      "description": "The grand multi-box campaign combining Act I (Immortal Souls), Arcane Portal side quests, and the climactic Act II (Darkness Falls) finale."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Soulrank I",
+      "title": "Resurrection & The Undead Crypts",
+      "phase": "Act I - Awakening of the Immortals",
+      "description": "Awakening at the Altar of Souls with fragmented memories to cleanse the subterranean crypts beneath the Talon Coast."
+    },
+    {
+      "order": 2,
+      "badgeText": "Soulrank II",
+      "title": "The Orcish Onslaught",
+      "phase": "Act I - The Outskirts of Chaos",
+      "description": "Venturing into the hostile wilderness to crush marauding orc warbands and recover sacred stolen relics."
+    },
+    {
+      "order": 3,
+      "badgeText": "Soulrank III",
+      "title": "Defenders of the Realm",
+      "phase": "Act I - The Gathering Siege",
+      "description": "Holding the fortress battlements against a terrifying siege of corrupted monstrosities and shadowy puppet masters."
+    },
+    {
+      "order": 4,
+      "badgeText": "Soulrank IV",
+      "title": "The Climax of Immortal Souls",
+      "phase": "Act I - The Final Reckoning",
+      "description": "Confronting the supreme dark overlord in an epic showdown to seal the rift and liberate the Talon Coast."
+    }
+  ]
+}

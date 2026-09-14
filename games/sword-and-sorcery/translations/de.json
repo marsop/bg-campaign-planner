@@ -1,0 +1,59 @@
+{
+  "title": "Sword & Sorcery: Immortal Souls",
+  "subtitle": "Taktischer High-Fantasy-Dungeon-Crawler mit anspruchsvoller Gegner-KI und Seelenprogression",
+  "tagline": "Erwacht aus dem Schlaf des Todes, um die Finsternis zu bezwingen",
+  "loreSummary": "Ihr seid legendäre Helden, die durch uralte göttliche Riten von den Toten auferweckt wurden. Mit zersplitterten Seelen und vergessenen Kräften müsst ihr euch gemeinsam erheben, um die verderbten Schrecken der Klauenküste zu vertreiben.",
+  "badgeCategory": "Epischer Fantasy-Dungeon-Crawler",
+  "roadmapTitle": "🗺️ Chronik der Klauenküste & Seelenentwicklung",
+  "roadmapBadge": "HELDENSAGA",
+  "keyFeatures": [
+    "Intelligentes Gegner-KI-System mit ausgeklügelten Verhaltensroutinen",
+    "Dauerhafte Seelenrang-Entwicklung und personalisierte Heldenfähigkeiten",
+    "Geisterseelen-Form verhindert echtes Spieler-Ausscheiden",
+    "Verzweigte Handlung geleitet durch das Buch der Geheimnisse"
+  ],
+  "scopes": {
+    "ss_core": {
+      "name": "Kernkampagne (Akt I: Immortal Souls)",
+      "description": "Der vollständige Hauptstrang über 7 Quests von Akt I, vom Erwachen am Seelenaltar bis zum epischen Endkampf gegen den dunklen Befehlshaber."
+    },
+    "ss_arcane_portal": {
+      "name": "Erweiterter Akt I (Immortal Souls + Arcane Portal)",
+      "description": "Die 7 Quests des ersten Aktes ergänzt um 4 anspruchsvolle Nebenabenteuer der Erweiterung Arcane Portal."
+    },
+    "ss_full_saga": {
+      "name": "Vollständige Unsterblichen-Saga (Akt I & II)",
+      "description": "Die monumentale Gesamtkampagne aus Akt I (Immortal Souls), den Quests von Arcane Portal und dem dramatischen Finale in Akt II (Darkness Falls)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Seelenrang I",
+      "title": "Auferstehung & Die Gruften der Untoten",
+      "phase": "Akt I - Erwachen der Unsterblichen",
+      "description": "Erwacht am Seelenaltar mit bruchstückhaften Erinnerungen, um die unterirdischen Grüfte der Klauenküste zu säubern."
+    },
+    {
+      "order": 2,
+      "badgeText": "Seelenrang II",
+      "title": "Der Ansturm der Orks",
+      "phase": "Akt I - An den Grenzen des Chaos",
+      "description": "Dringt in die feindliche Wildnis vor, um marodierende Orkhorden zu zerschlagen und heilige Relikte zu bergen."
+    },
+    {
+      "order": 3,
+      "badgeText": "Seelenrang III",
+      "title": "Verteidiger des Reiches",
+      "phase": "Akt I - Die drohende Belagerung",
+      "description": "Haltet die Festungsmauern gegen eine verheerende Belagerung verdorbener Monstrositäten und schattenhafter Puppenspieler."
+    },
+    {
+      "order": 4,
+      "badgeText": "Seelenrang IV",
+      "title": "Das Finale von Immortal Souls",
+      "phase": "Akt I - Die letzte Abrechnung",
+      "description": "Stellt euch dem obersten dunklen Herrscher im entscheidenden Gefecht, um den Riss zu schließen und die Küste zu befreien."
+    }
+  ]
+}

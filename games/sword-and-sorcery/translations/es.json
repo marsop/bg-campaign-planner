@@ -1,0 +1,59 @@
+{
+  "title": "Sword & Sorcery: Immortal Souls",
+  "subtitle": "Exploración táctica de mazmorras de alta fantasía con IA enemiga avanzada y progresión de almas",
+  "tagline": "Despierta del sueño de la muerte para aniquilar la oscuridad",
+  "loreSummary": "Sois héroes legendarios resucitados mediante antiguos ritos divinos. Con almas fragmentadas y poderes olvidados, debéis alzaros unidos para erradicar los horrores corruptos que asolan la Costa de Talon.",
+  "badgeCategory": "Dungeon Crawler de Fantasía Épica",
+  "roadmapTitle": "🗺️ Crónica de la Costa de Talon y Progresión de Almas",
+  "roadmapBadge": "SAGA HEROICA",
+  "keyFeatures": [
+    "Sistema de IA enemiga inteligente con comportamientos tácticos únicos",
+    "Evolución persistente de rangos de alma y habilidades heroicas",
+    "Forma de Alma Fantasma que suprime la eliminación de jugadores",
+    "Narrativa ramificada guiada mediante el Libro de los Secretos"
+  ],
+  "scopes": {
+    "ss_core": {
+      "name": "Campaña Principal (Acto I: Immortal Souls)",
+      "description": "El arco argumental completo de 7 misiones del Acto I, desde el despertar en el Altar de las Almas hasta la batalla definitiva contra el general de la oscuridad."
+    },
+    "ss_arcane_portal": {
+      "name": "Acto I Extendido (Immortal Souls + Arcane Portal)",
+      "description": "Las 7 misiones principales del Acto I junto a 4 desafiantes misiones secundarias de la expansión Arcane Portal."
+    },
+    "ss_full_saga": {
+      "name": "Saga Inmortal Completa (Actos I y II)",
+      "description": "La gran campaña integral que combina el Acto I (Immortal Souls), las misiones de Arcane Portal y el desenlace culminante del Acto II (Darkness Falls)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Rango de Alma I",
+      "title": "Resurrección y Criptas No-Muertas",
+      "phase": "Acto I - El Despertar de los Inmortales",
+      "description": "Despertad en el Altar de las Almas con recuerdos fragmentados para purgar las criptas subterráneas de la Costa de Talon."
+    },
+    {
+      "order": 2,
+      "badgeText": "Rango de Alma II",
+      "title": "El Asalto Orco",
+      "phase": "Acto I - Las Fronteras del Caos",
+      "description": "Adentraos en las tierras salvajes para aplastar bandas de guerra orcas y recuperar reliquias sagradas expoliadas."
+    },
+    {
+      "order": 3,
+      "badgeText": "Rango de Alma III",
+      "title": "Defensores del Reino",
+      "phase": "Acto I - El Asedio Inminente",
+      "description": "Defended las almenas de la fortaleza ante un pavoroso asedio de abominaciones corruptas y oscuros titiriteros."
+    },
+    {
+      "order": 4,
+      "badgeText": "Rango de Alma IV",
+      "title": "El Clímax de Immortal Souls",
+      "phase": "Acto I - El Juicio Final",
+      "description": "Enfrentad al señor supremo de la oscuridad en un duelo épico para sellar la brecha y liberar la Costa de Talon."
+    }
+  ]
+}
