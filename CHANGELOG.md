@@ -7,7 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.27.0] - 2026-09-14
+## [0.28.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Primal: The Awakening**, the cooperative tactical boss-battler with deck-crafting combat and gigantic prehistoric apex monsters by Tommaso Mondadori & Alberto Parisi (Reggie Games, 2024).
+  - 3 campaign scope presets: *Standard Hunter Campaign* (13 chapters, recommended), *Main Story Run (Direct Path)* (11 chapters), and *Apex Master & Expansions* (20 chapters).
+  - 4 narrative milestone checkpoints across the untamed wilds of Thyrea with spoiler protection (*The First Trial & The Forge*, *The Rising Aggression*, *Apex Predators of the Wild*, and *The Awakening of the Cataclysm*).
+  - Thematic visual identity (forge ember orange `#e06d2d`, volcanic obsidian `#18181b`, and apex crimson `#ef4444` styling with Cinzel decorative header font, authentic 1:1 flat front box cover art, and atmospheric wilderness backdrop of Thyrea).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 
 ### Added
 - **New Board Game Added**:

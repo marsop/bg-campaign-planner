@@ -1,0 +1,59 @@
+{
+  "title": "Primal: The Awakening",
+  "subtitle": "Campagne tactique de combats de boss avec construction de decks et monstres titanesques implacables",
+  "tagline": "Chassez des bêtes colossales, forgez votre deck et survivez aux terres sauvages de Thyrea",
+  "loreSummary": "Vous êtes des chasseurs d'élite échoués sur le continent sauvage et indompté de Thyrea. Dans un monde primordial où l'humanité est une proie, seuls un positionnement synchronisé, des armes forgées et la maîtrise de chaque combo de cartes vous permettront de survivre face à des monstres colossaux.",
+  "badgeCategory": "Combat de Boss Coopératif / RPG Tactique",
+  "roadmapTitle": "🗺️ Chronique de Thyrea et Progression de la Chasse",
+  "roadmapBadge": "EXPÉDITION PRIMORDIALE",
+  "keyFeatures": [
+    "Combat positionnel dynamique autour d'un plateau de monstre multisectoriel",
+    "Construction de deck tactique avec combos d'attaque, de défense et de manœuvre à code couleur",
+    "Progression persistante des chasseurs, forge d'armes et alchimie de la colonie",
+    "Deck d'IA de monstres adaptatif réagissant aux niveaux d'agressivité et au placement des chasseurs"
+  ],
+  "scopes": {
+    "primal_standard": {
+      "name": "Campagne de Chasseur Standard",
+      "description": "Voyage narratif principal complet de 11 chapitres, plus le dénouement grandiose de l'Éveillé et des chasses clés pour forger son équipement."
+    },
+    "primal_story": {
+      "name": "Histoire Principale (Voie Directe)",
+      "description": "Progression directe à travers les 11 chapitres de l'intrigue centrale menant directement à l'affrontement avec l'Éveillé."
+    },
+    "primal_completionist": {
+      "name": "Maître de l'Apex et Extensions",
+      "description": "Toutes les quêtes du tableau de chasse, forge de trophées légendaires, monstres secondaires optionnels et campagne Mount Havoc."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ch. 3",
+      "title": "La Première Épreuve et la Forge",
+      "phase": "Arc de Thyrea I - Les Terres Sauvages Indomptées",
+      "description": "Survivez aux premières incursions de monstres et allumez les feux de la forge pour débloquer l'élaboration de decks et l'armement tactique."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ch. 6",
+      "title": "L'Agressivité Grandissante",
+      "phase": "Arc de Thyrea II - Bêtes Territoriales",
+      "description": "Explorez des biomes inexplorés tandis que les créatures apex s'adaptent à l'agressivité avec des enchaînements d'attaques dévastateurs."
+    },
+    {
+      "order": 3,
+      "badgeText": "Ch. 9",
+      "title": "Prédateurs Apex du Monde Sauvage",
+      "phase": "Arc de Thyrea III - Colosses Primordiaux",
+      "description": "Terrassez d'antiques mastodontes gardant des sanctuaires primordiaux pour récolter des trophées légendaires et forger l'arsenal ultime."
+    },
+    {
+      "order": 4,
+      "badgeText": "Ch. 12",
+      "title": "L'Éveil du Cataclysme",
+      "phase": "Arc de Thyrea IV - Le Climax Final",
+      "description": "Affrontez l'entité primordiale éveillée dans une bataille désespérée et légendaire pour la survie de la colonie."
+    }
+  ]
+}

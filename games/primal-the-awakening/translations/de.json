@@ -1,0 +1,59 @@
+{
+  "title": "Primal: The Awakening",
+  "subtitle": "Taktische Boss-Battler-Kampagne mit Deck-Crafting-Kämpfen und unerbittlichen Urzeit-Monstern",
+  "tagline": "Jage kolossale Bestien, schmiede dein Deck und überlebe die wilde Wildnis von Thyrea",
+  "loreSummary": "Ihr seid Elite-Jäger, gestrandet auf dem wilden, ungezähmten Kontinent Thyrea. In einer Urzeitwelt, in der die Menschheit Beute ist, sichern nur synchronisierte Positionierung, geschmiedete Ausrüstung und perfekt gemeisterte Kartenkombinationen euer Überleben gegen gigantische Spitzenprädatoren.",
+  "badgeCategory": "Kooperativer Boss-Battler / Taktisches RPG",
+  "roadmapTitle": "🗺️ Chronik von Thyrea & Jagd-Progression",
+  "roadmapBadge": "URZEIT-EXPEDITION",
+  "keyFeatures": [
+    "Dynamischer Positionierungskampf um ein mehrteiliges Monster-Spielfeld",
+    "Taktisches Deck-Crafting mit farbcodierten Angriffs-, Verteidigungs- und Manöver-Kombos",
+    "Persistente Jäger-Entwicklung, Waffenschmiede und Siedlungsalchemie",
+    "Adaptives Monster-KI-Deck, das auf Aggressionsstufen und Positionierung der Jäger reagiert"
+  ],
+  "scopes": {
+    "primal_standard": {
+      "name": "Standard-Jägerkampagne",
+      "description": "Vollständige 11-Kapitel-Hauptgeschichte plus das epische Erwachten-Finale und wichtige Beutejagden zur Ausrüstungsverbesserung."
+    },
+    "primal_story": {
+      "name": "Hauptstory-Fokus (Direkter Pfad)",
+      "description": "Direkter Durchlauf durch die 11 Kapitel der Kernhandlung bis zur ultimativen Konfrontation mit dem Erwachten."
+    },
+    "primal_completionist": {
+      "name": "Apex-Meister & Erweiterungen",
+      "description": "Sämtliche Aufträge des Quest-Boards, legendäre Trophäenschmiede, optionale Nebenmonster und die Mount Havoc-Kampagne."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Kap. 3",
+      "title": "Die erste Prüfung & Die Schmiede",
+      "phase": "Thyrea-Zyklus I - Die ungezähmte Wildnis",
+      "description": "Überleben der ersten Monsterüberfälle und Entfachen der Schmiedefeuer zum Freischalten von Taktikdecks und mächtigen Jägerwaffen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Kap. 6",
+      "title": "Die steigende Aggression",
+      "phase": "Thyrea-Zyklus II - Territoriale Bestien",
+      "description": "Vorstoß in unerforschte Biome, während sich Spitzenmonster mit tödlichen Kettenangriffen und unberechenbarem Verhalten anpassen."
+    },
+    {
+      "order": 3,
+      "badgeText": "Kap. 9",
+      "title": "Spitzenprädatoren der Wildnis",
+      "phase": "Thyrea-Zyklus III - Urzeit-Kolosse",
+      "description": "Bezwingen uralter Ungetüme, die uralte Schreine bewachen, um legendäre Trophäen für die mächtigste Ausrüstung zu erbeuten."
+    },
+    {
+      "order": 4,
+      "badgeText": "Kap. 12",
+      "title": "Das Erwachen des Kataklysmus",
+      "phase": "Thyrea-Zyklus IV - Das finale Gefecht",
+      "description": "Entscheidende Konfrontation mit der erwachten Urzeit-Kreatur in einer epischen Schlacht um das Überleben der Siedlung."
+    }
+  ]
+}

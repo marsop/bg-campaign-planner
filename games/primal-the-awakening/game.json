@@ -1,0 +1,94 @@
+{
+  "id": "primal-the-awakening",
+  "title": "Primal: The Awakening",
+  "releaseYear": 2024,
+  "designers": "Tommaso Mondadori, Alberto Parisi",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.5,
+  "bggWeight": 3.82,
+  "bggUrl": "https://boardgamegeek.com/boardgame/303731/primal-the-awakening",
+  "baseScenarioMinutes": 105,
+  "setupTeardownMinutes": 25,
+  "unitType": "chapters",
+  "theme": {
+    "primaryColor": "#e06d2d",
+    "secondaryColor": "#18181b",
+    "accentColor": "#ef4444",
+    "backgroundGradient": "radial-gradient(ellipse at top, #291a14 0%, #141110 60%, #090808 100%)",
+    "cardBackground": "rgba(24, 20, 18, 0.90)",
+    "borderColor": "rgba(224, 109, 45, 0.35)",
+    "glowColor": "rgba(239, 68, 68, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🔥",
+    "emblem": "🏹🐉",
+    "themeClass": "theme-primal",
+    "activeThemeClass": "theme-primal-active",
+    "roadmapClass": "roadmap-primal",
+    "heroClass": "hero-primal"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #303731 / Thematic Rank)",
+    "Reggie Games Official Rulebook, Quest Cards & Campaign Tome",
+    "Community Campaign Playthrough Survey Statistics & Monster Hunt Logs"
+  ],
+  "scopes": [
+    {
+      "id": "primal_standard",
+      "baseScenarioCount": 13,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "primal_story",
+      "baseScenarioCount": 11,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "primal_completionist",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🗡️",
+      "badgeText": "Ch. 3",
+      "title": "The First Trial & The Forge",
+      "phase": "Thyrea Arc I - The Untamed Wilderness",
+      "description": "Surviving the initial monster incursions and igniting the forge fires to unlock tactical deck crafting and hunter weaponry."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🌋",
+      "badgeText": "Ch. 6",
+      "title": "The Rising Aggression",
+      "phase": "Thyrea Arc II - Territorial Beasts",
+      "description": "Braving uncharted biomes as apex monsters adapt to hunter aggression with lethal sequence attacks and devastating behaviors."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🐉",
+      "badgeText": "Ch. 9",
+      "title": "Apex Predators of the Wild",
+      "phase": "Thyrea Arc III - Primordial Colossi",
+      "description": "Toppling ancient behemoths guarding primeval shrines to harvest legendary trophies and forge ultimate endgame armaments."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "⚡",
+      "badgeText": "Ch. 12",
+      "title": "The Awakening of the Cataclysm",
+      "phase": "Thyrea Arc IV - The Climactic Finale",
+      "description": "Confronting the awakened primordial entity in a desperate, legendary battle for the survival of the settlement."
+    }
+  ]
+}

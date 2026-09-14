@@ -1,0 +1,59 @@
+{
+  "title": "Primal: The Awakening",
+  "subtitle": "Tactical boss-battling campaign with deck-crafting combat and relentless prehistoric behemoths",
+  "tagline": "Hunt colossal beasts, forge your deck, and survive the savage wilds of Thyrea",
+  "loreSummary": "You are elite hunters stranded in the savage, untamed continent of Thyrea. In a primordial realm where humanity is prey, only synchronized positioning, forged equipment, and mastering every card combo will keep you alive against towering apex monsters.",
+  "badgeCategory": "Cooperative Boss-Battler / Tactical RPG",
+  "roadmapTitle": "🗺️ Thyrea Chronicle & Hunt Progression",
+  "roadmapBadge": "PRIMAL EXPEDITION",
+  "keyFeatures": [
+    "Dynamic positional combat around a multi-sector monster board",
+    "Tactical deck-crafting with color-coded attack, defense, and maneuvering combos",
+    "Persistent hunter progression, weapon forging, and settlement alchemy",
+    "Adaptive monster AI deck reacting to aggression levels and hunter positioning"
+  ],
+  "scopes": {
+    "primal_standard": {
+      "name": "Standard Hunter Campaign",
+      "description": "Complete 11-chapter core narrative journey plus the climactic Awakened finale and key gear-farming hunts."
+    },
+    "primal_story": {
+      "name": "Main Story Run (Direct Path)",
+      "description": "Direct progression through the 11 core storyline chapters straight to the Awakened confrontation."
+    },
+    "primal_completionist": {
+      "name": "Apex Master & Expansions",
+      "description": "All branching questboard hunts, legendary trophy forging, optional side monsters, and Mount Havoc campaign."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ch. 3",
+      "title": "The First Trial & The Forge",
+      "phase": "Thyrea Arc I - The Untamed Wilderness",
+      "description": "Surviving the initial monster incursions and igniting the forge fires to unlock tactical deck crafting and hunter weaponry."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ch. 6",
+      "title": "The Rising Aggression",
+      "phase": "Thyrea Arc II - Territorial Beasts",
+      "description": "Braving uncharted biomes as apex monsters adapt to hunter aggression with lethal sequence attacks and devastating behaviors."
+    },
+    {
+      "order": 3,
+      "badgeText": "Ch. 9",
+      "title": "Apex Predators of the Wild",
+      "phase": "Thyrea Arc III - Primordial Colossi",
+      "description": "Toppling ancient behemoths guarding primeval shrines to harvest legendary trophies and forge ultimate endgame armaments."
+    },
+    {
+      "order": 4,
+      "badgeText": "Ch. 12",
+      "title": "The Awakening of the Cataclysm",
+      "phase": "Thyrea Arc IV - The Climactic Finale",
+      "description": "Confronting the awakened primordial entity in a desperate, legendary battle for the survival of the settlement."
+    }
+  ]
+}

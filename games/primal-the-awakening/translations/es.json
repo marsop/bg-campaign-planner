@@ -1,0 +1,59 @@
+{
+  "title": "Primal: The Awakening",
+  "subtitle": "Campaña táctica de combates contra jefes con construcción de mazos y monstruos titánicos implacables",
+  "tagline": "Caza bestias colosales, forja tu mazo y sobrevive a las tierras salvajes de Thyrea",
+  "loreSummary": "Sois cazadores de élite atrapados en el continente salvaje e indómito de Thyrea. En un reino primordial donde la humanidad es la presa, solo el posicionamiento coordinado, el equipo forjado y el dominio de cada combo de cartas os mantendrán con vida ante monstruos titánicos.",
+  "badgeCategory": "Combate contra Jefes Cooperativo / RPG Táctico",
+  "roadmapTitle": "🗺️ Crónica de Thyrea y Progresión de Caza",
+  "roadmapBadge": "EXPEDICIÓN PRIMIGENIA",
+  "keyFeatures": [
+    "Combate posicional dinámico en un tablero de monstruo multisectorial",
+    "Construcción táctica de mazos con combos codificados por colores de ataque, defensa y maniobra",
+    "Progresión persistente del cazador, forja de armas y alquimia del asentamiento",
+    "Mazo de IA de monstruos adaptable que reacciona a los niveles de agresión y posición de los cazadores"
+  ],
+  "scopes": {
+    "primal_standard": {
+      "name": "Campaña Estándar de Cazador",
+      "description": "Viaje narrativo central de 11 capítulos más el apoteósico final del Despertado y cacerías clave para forjar equipo."
+    },
+    "primal_story": {
+      "name": "Enfoque en la Historia Principal (Ruta Directa)",
+      "description": "Progresión directa a través de los 11 capítulos de la historia principal directamente hacia la confrontación con el Despertado."
+    },
+    "primal_completionist": {
+      "name": "Maestro del Ápice y Expansiones",
+      "description": "Todas las misiones del tablón, forja de trofeos legendarios, monstruos secundarios opcionales y la campaña Mount Havoc."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Cap. 3",
+      "title": "La Primera Prueba y la Forja",
+      "phase": "Arco de Thyrea I - Las Tierras Salvajes Indómitas",
+      "description": "Sobrevivir a las primeras incursiones de monstruos y encender los fuegos de la forja para desbloquear armas tácticas y personalización de mazos."
+    },
+    {
+      "order": 2,
+      "badgeText": "Cap. 6",
+      "title": "La Agresión Creciente",
+      "phase": "Arco de Thyrea II - Bestias Territoriales",
+      "description": "Adentrarse en biomas inexplorados mientras los monstruos ápice se adaptan a la agresión con cadenas de ataques letales y conductas feroces."
+    },
+    {
+      "order": 3,
+      "badgeText": "Cap. 9",
+      "title": "Depredadores Ápice de lo Salvaje",
+      "phase": "Arco de Thyrea III - Colosos Primordiales",
+      "description": "Derrotar a gigantes ancestrales que custodian santuarios primigenios para cosechar trofeos legendarios y forjar armamento definitivo."
+    },
+    {
+      "order": 4,
+      "badgeText": "Cap. 12",
+      "title": "El Despertar del Cataclismo",
+      "phase": "Arco de Thyrea IV - El Clímax Final",
+      "description": "Enfrentarse a la entidad primordial despierta en una batalla desesperada y legendaria por la supervivencia de la colonia."
+    }
+  ]
+}

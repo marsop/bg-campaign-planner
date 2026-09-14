@@ -1,0 +1,59 @@
+{
+  "title": "Primal: The Awakening",
+  "subtitle": "Campagna tattica boss-battler con deck-crafting e implacabili colossi preistorici",
+  "tagline": "Caccia bestie colossali, forgia il tuo mazzo e sopravvivi alle terre selvagge di Thyrea",
+  "loreSummary": "Siete cacciatori scelti bloccati nel continente selvaggio e incontaminato di Thyrea. In un mondo primordiale in cui l'umanità è preda, solo il posizionamento coordinato, le armi forgiate e la perfetta padronanza di ogni combo di carte vi manterranno in vita contro colossi titanici.",
+  "badgeCategory": "Boss-Battler Cooperativo / GDR Tattico",
+  "roadmapTitle": "🗺️ Cronaca di Thyrea e Progressione della Caccia",
+  "roadmapBadge": "SPEDIZIONE PRIMORDIALE",
+  "keyFeatures": [
+    "Combattimento posizionale dinamico attorno a un tabellone del mostro multisettoriale",
+    "Deck-crafting tattico con combo codificate a colori per attacco, difesa e manovra",
+    "Progressione persistente dei cacciatori, forgia delle armi e alchimia dell'accampamento",
+    "Mazzo IA dei mostri adattivo che reagisce al livello di aggressività e alla posizione dei cacciatori"
+  ],
+  "scopes": {
+    "primal_standard": {
+      "name": "Campagna Cacciatore Standard",
+      "description": "Viaggio narrativo principale di 11 capitoli più lo spettacolare finale del Risvegliato e battute di caccia chiave per forgiare l'equipaggiamento."
+    },
+    "primal_story": {
+      "name": "Storia Principale (Percorso Diretto)",
+      "description": "Avanzamento diretto attraverso gli 11 capitoli della trama principale dritti allo scontro con il Risvegliato."
+    },
+    "primal_completionist": {
+      "name": "Maestro dell'Apex ed Espansioni",
+      "description": "Tutte le missioni della bacheca di caccia, forgiatura di trofei leggendari, mostri secondari opzionali e campagna Mount Havoc."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Cap. 3",
+      "title": "La Prima Prova e la Forgia",
+      "phase": "Arco di Thyrea I - Le Terre Selvagge Incontaminate",
+      "description": "Sopravvivere alle prime incursioni dei mostri e accendere i fuochi della forgia per sbloccare mazzi tattici e armamenti dei cacciatori."
+    },
+    {
+      "order": 2,
+      "badgeText": "Cap. 6",
+      "title": "L'Aggressività Crescente",
+      "phase": "Arco di Thyrea II - Bestie Territoriali",
+      "description": "Avventurarsi in biomi inesplorati mentre i predatori apex si adattano all'aggressività con micidiali sequenze di attacco e comportamenti feroci."
+    },
+    {
+      "order": 3,
+      "badgeText": "Cap. 9",
+      "title": "Predatori Apex delle Terre Selvagge",
+      "phase": "Arco di Thyrea III - Colossi Primordiali",
+      "description": "Abbattere colossi millenari a guardia di santuari primigeni per raccogliere trofei leggendari e forgiare l'equipaggiamento definitivo."
+    },
+    {
+      "order": 4,
+      "badgeText": "Cap. 12",
+      "title": "Il Risveglio del Cataclisma",
+      "phase": "Arco di Thyrea IV - Il Climax Finale",
+      "description": "Affrontare l'entità primordiale risvegliata in una battaglia disperata e leggendaria per la sopravvivenza dell'insediamento."
+    }
+  ]
+}
