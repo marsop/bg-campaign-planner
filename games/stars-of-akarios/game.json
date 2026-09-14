@@ -1,0 +1,85 @@
+{
+  "id": "stars-of-akarios",
+  "title": "Stars of Akarios",
+  "releaseYear": 2022,
+  "designers": "Brendan McCaskell, Jonathan Thwaites",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.0,
+  "bggWeight": 2.9,
+  "bggUrl": "https://boardgamegeek.com/boardgame/273910/stars-of-akarios",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "theme": {
+    "primaryColor": "#e11d48",
+    "secondaryColor": "#0b101e",
+    "accentColor": "#0284c7",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e1b4b 0%, #0b101e 60%, #030712 100%)",
+    "cardBackground": "rgba(11, 16, 30, 0.90)",
+    "borderColor": "rgba(225, 29, 72, 0.35)",
+    "glowColor": "rgba(2, 132, 199, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🛸",
+    "emblem": "🚀🌌",
+    "themeClass": "theme-starsofakarios",
+    "activeThemeClass": "theme-starsofakarios-active",
+    "roadmapClass": "roadmap-starsofakarios",
+    "heroClass": "hero-starsofakarios"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #273910 Overall)",
+    "Open Owl Studios Official Rulebook and Scenario Book (1.5 Edition)",
+    "Community Campaign Survey Statistics & Scenario Logs"
+  ],
+  "scopes": [
+    {
+      "id": "akarios_standard",
+      "baseScenarioCount": 32,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "akarios_story",
+      "baseScenarioCount": 24,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    },
+    {
+      "id": "akarios_completionist",
+      "baseScenarioCount": 44,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🛰️",
+      "badgeText": "Act I",
+      "title": "Escape from Medellia",
+      "phase": "Akarios Galaxy Arc - Flight to the Stars",
+      "description": "Evacuating cadet pilots amidst catastrophic planetary assault and establishing initial survival operations aboard the Sparrow."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 20,
+      "iconEmoji": "☄️",
+      "badgeText": "Act II",
+      "title": "Into the Unknown Frontier",
+      "phase": "Akarios Galaxy Arc - The Outer Void",
+      "description": "Chart unfamiliar planetary systems, negotiate alien encounters, and upgrade fighter loadouts while pursuing mysterious subspace signals."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 32,
+      "iconEmoji": "🌌",
+      "badgeText": "Act III",
+      "title": "The Akarios Zenith",
+      "phase": "Akarios Galaxy Arc - The Core Confrontation",
+      "description": "Mounting the decisive counter-offensive against the ancient cosmic threat to secure a lasting sanctuary for your civilization."
+    }
+  ]
+}

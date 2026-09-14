@@ -1,0 +1,52 @@
+{
+  "title": "Stars of Akarios",
+  "subtitle": "Un space-crawler táctico y narrativo con intensos combates espaciales y exploración planetaria",
+  "tagline": "Surca estrellas desconocidas, comanda la Sparrow y defiende los restos de la civilización",
+  "loreSummary": "Tras un devastador ataque enemigo que arrasa tu planeta natal, una escuadra de pilotos cadetes debe reagruparse a bordo del navío Sparrow para adentrarse en el vacío estelar en busca de respuestas y un nuevo hogar.",
+  "badgeCategory": "Space Crawler de Ciencia Ficción y Combate Táctico",
+  "roadmapTitle": "🛸 Odisea Galáctica de Akarios y Bitácora de Vuelo",
+  "roadmapBadge": "EXPEDICIÓN SPARROW",
+  "keyFeatures": [
+    "Combates tácticos espaciales nave contra nave mediante asignación de dados y mazos de modificadores",
+    "Jugabilidad dual que alterna escaramuzas orbitales con exploración a pie en superficies alienígenas",
+    "Gestión compartida de la nave nodriza Sparrow con desarrollo progresivo de tecnología y mejoras",
+    "Historia inmersiva ramificada de estilo elige tu propia aventura a lo largo de tres grandes actos"
+  ],
+  "scopes": {
+    "akarios_standard": {
+      "name": "Odisea Galáctica Estándar",
+      "description": "La campaña recomendada que equilibra las misiones principales, el descubrimiento de sectores clave, mejoras de cazas y escenarios secundarios."
+    },
+    "akarios_story": {
+      "name": "Ruta de Vuelo Cadete (Historia Principal)",
+      "description": "Una ruta narrativa directa y optimizada que prioriza las misiones cruciales hacia el desenlace final reduciendo desvíos opcionales."
+    },
+    "akarios_completionist": {
+      "name": "Navegante Supremo (Cartografía Total)",
+      "description": "Exploración exhaustiva de cada sector accesible, completando todos los escenarios secundarios, misiones planetarias y mejoras máximas de la nave."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acto I",
+      "title": "Huida de Medellia",
+      "phase": "Arco de la Galaxia Akarios - Vuelo hacia las Estrellas",
+      "description": "Evacuar a los pilotos cadetes en medio de un ataque planetario devastador y establecer las operaciones de supervivencia a bordo de la Sparrow."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acto II",
+      "title": "Hacia la Frontera Desconocida",
+      "phase": "Arco de la Galaxia Akarios - El Vacío Exterior",
+      "description": "Explorar sistemas planetarios desconocidos, resolver encuentros alienígenas y mejorar cazas de combate siguiendo señales subespaciales."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acto III",
+      "title": "El Cénit de Akarios",
+      "phase": "Arco de la Galaxia Akarios - La Confrontación Central",
+      "description": "Liderar la contraofensiva definitiva contra la antigua amenaza cósmica para asegurar un santuario permanente para tu civilización."
+    }
+  ]
+}

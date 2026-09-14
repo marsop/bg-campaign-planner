@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.27.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Stars of Akarios**, the cooperative narrative space crawler with tactical starfighter dogfights and planetary exploration by Brendan McCaskell & Jonathan Thwaites (Open Owl Studios, 2022).
+  - 3 campaign scope presets: *Standard Galactic Odyssey* (32 scenarios, recommended), *Cadet Flight Path (Main Story Focus)* (24 scenarios), and *Master Navigator (Complete Galaxy Charting)* (44 scenarios).
+  - 3 narrative milestone checkpoints covering the core story acts with spoiler protection (*Act I: Escape from Medellia*, *Act II: Into the Unknown Frontier*, and *Act III: The Akarios Zenith*).
+  - Thematic visual identity (crimson `#e11d48`, deep cosmos `#0b101e`, and tactical cyan `#0284c7` styling with Cinzel decorative header font, authentic 1:1 flat front box cover art, and atmospheric space backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.26.0] - 2026-09-14
 
 ### Added

@@ -1,0 +1,52 @@
+{
+  "title": "Stars of Akarios",
+  "subtitle": "Un space-crawler narratif et tactique mêlant dogfights spatiaux intenses et exploration planétaire",
+  "tagline": "Sillonnez des étoiles inconnues, commandez le Sparrow et sauvez les vestiges de la civilisation",
+  "loreSummary": "Après l'attaque dévastatrice qui a mis votre monde natal en ruines, de jeunes élèves-pilotes doivent s'unir à bord du vaisseau Sparrow pour s'aventurer dans l'inconnu cosmique en quête de réponses et d'un nouveau foyer.",
+  "badgeCategory": "Space Crawler Sci-Fi & Dogfights Tactiques",
+  "roadmapTitle": "🛸 Odyssée de la Galaxie Akarios & Chronique de Vol",
+  "roadmapBadge": "EXPÉDITION DU SPARROW",
+  "keyFeatures": [
+    "Combats spatiaux tactiques palpitants avec assignation de dés et decks de modificateurs",
+    "Double approche alternant affrontements de vaisseaux et exploration au sol sur des mondes hostiles",
+    "Gestion collective du vaisseau amiral Sparrow avec améliorations technologiques progressives",
+    "Scénario à embranchements façon livre-jeu s'étendant sur trois grands actes narratifs"
+  ],
+  "scopes": {
+    "akarios_standard": {
+      "name": "Odyssée Galactique Standard",
+      "description": "Le parcours de campagne recommandé équilibrant missions principales, découvertes de secteurs, améliorations de chasseurs et scénarios secondaires."
+    },
+    "akarios_story": {
+      "name": "Plan de Vol Cadet (Priorité Histoire)",
+      "description": "Une route narrative directe et fluide concentrée sur les missions de l'intrigue centrale jusqu'au dénouement, limitant les détours optionnels."
+    },
+    "akarios_completionist": {
+      "name": "Maître Navigateur (Cartographie Intégrale)",
+      "description": "Exploration exhaustive de chaque secteur stellaire accessible, achevant tous les scénarios secondaires, missions planétaires et améliorations du vaisseau."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acte I",
+      "title": "La Fuite de Medellia",
+      "phase": "Cycle de la Galaxie Akarios - Vol vers les Étoiles",
+      "description": "Évacuer les cadets pilotes au cœur d'un assaut planétaire dévastateur et organiser la survie à bord du vaisseau amiral Sparrow."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acte II",
+      "title": "Vers la Frontière Inconnue",
+      "phase": "Cycle de la Galaxie Akarios - Le Vide Extérieur",
+      "description": "Explorer des systèmes stellaires inconnus, gérer des contacts extraterrestres et améliorer l'armement en pistant d'énigmatiques signaux subspatiaux."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acte III",
+      "title": "Le Zénith d'Akarios",
+      "phase": "Cycle de la Galaxie Akarios - L'Affrontement Central",
+      "description": "Mener la contre-offensive décisive contre l'antique menace cosmique pour garantir un sanctuaire durable à votre peuple."
+    }
+  ]
+}

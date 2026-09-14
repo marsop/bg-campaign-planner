@@ -1,0 +1,52 @@
+{
+  "title": "Stars of Akarios",
+  "subtitle": "Uno space crawler tattico e narrativo con profondi combattimenti spaziali ed esplorazione planetaria",
+  "tagline": "Solca stelle inesplorate, comanda la Sparrow e difendi i superstiti della civiltà",
+  "loreSummary": "Quando un devastante attacco distrugge il vostro pianeta d'origine, un gruppo di piloti cadetti deve riunirsi a bordo della nave stellare Sparrow per addentrarsi nell'ignoto cosmico in cerca di risposte e salvezza.",
+  "badgeCategory": "Space Crawler Sci-Fi & Combattimento Tattico",
+  "roadmapTitle": "🛸 Odissea della Galassia Akarios & Cronaca di Volo",
+  "roadmapBadge": "SPEDIZIONE SPARROW",
+  "keyFeatures": [
+    "Dogfight spaziali tattici tra navi con allocazione di dadi e mazzo di modificatori",
+    "Gameplay a doppia fase che alterna combattimenti stellari ed esplorazione a piedi su mondi alieni",
+    "Gestione condivisa dell'ammiraglia Sparrow con potenziamenti tecnologici progressivi",
+    "Trama narrativa a bivi in stile libro-game distribuita lungo tre grandi atti"
+  ],
+  "scopes": {
+    "akarios_standard": {
+      "name": "Odissea Galattica Standard",
+      "description": "Il percorso di campagna consigliato che bilancia missioni primarie, scoperte di settori chiave, potenziamenti dei caccia e scenari secondari."
+    },
+    "akarios_story": {
+      "name": "Rotta Cadetti (Focus Trama Principale)",
+      "description": "Una rotta narrativa diretta e fluida che dà priorità alle missioni cardine della trama fino al finale, riducendo le deviazioni opzionali."
+    },
+    "akarios_completionist": {
+      "name": "Mastro Navigatore (Mappatura Totale)",
+      "description": "Esplorazione esaustiva di ogni settore stellare accessibile, completando tutti gli scenari secondari, le missioni a terra e i massimi upgrade dell'astronave."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Atto I",
+      "title": "Fuga da Medellia",
+      "phase": "Ciclo della Galassia Akarios - Volo verso le Stelle",
+      "description": "Evacuare i cadetti nel caos dell'assalto planetario e avviare le operazioni di sopravvivenza a bordo della nave Sparrow."
+    },
+    {
+      "order": 2,
+      "badgeText": "Atto II",
+      "title": "Verso la Frontiera Inesplorata",
+      "phase": "Ciclo della Galassia Akarios - Il Vuoto Esterno",
+      "description": "Mappare sistemi stellari ignoti, gestire incontri alieni e potenziare l'armamento dei caccia seguendo misteriosi segnali subspaziali."
+    },
+    {
+      "order": 3,
+      "badgeText": "Atto III",
+      "title": "Lo Zenit di Akarios",
+      "phase": "Ciclo della Galassia Akarios - Lo Scontro Centrale",
+      "description": "Sferrare la controffensiva decisiva contro l'antica minaccia cosmica per assicurare un santuario permanente alla propria civiltà."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Stars of Akarios",
+  "subtitle": "A narrative-driven tactical space crawler with deep starfighter dogfights and planetary exploration",
+  "tagline": "Chart uncharted stars, command the Sparrow, and defend the remnants of civilization",
+  "loreSummary": "When an overwhelming hostile assault leaves your home planet in ruins, cadet pilots must rally aboard the starship Sparrow to forge an intrepid path through unknown systems in search of answers and survival.",
+  "badgeCategory": "Sci-Fi Space Crawler & Tactical Dogfights",
+  "roadmapTitle": "🛸 Akarios Galaxy Odyssey & Flight Chronicle",
+  "roadmapBadge": "SPARROW EXPEDITION",
+  "keyFeatures": [
+    "Tactical ship-to-ship dogfights using dice-allocation maneuvers and modifier decks",
+    "Dual-mode gameplay alternating space combat with on-foot planetary exploration",
+    "Shared starship management and progressive tech upgrades aboard the Sparrow",
+    "Dynamic choose-your-own-adventure story branching across three sweeping narrative acts"
+  ],
+  "scopes": {
+    "akarios_standard": {
+      "name": "Standard Galactic Odyssey",
+      "description": "The recommended campaign run balancing primary missions, pivotal system discoveries, pilot upgrades, and key side scenarios."
+    },
+    "akarios_story": {
+      "name": "Cadet Flight Path (Main Story Focus)",
+      "description": "A focused narrative route prioritizing the central storyline missions directly toward the campaign finale with minimal optional detours."
+    },
+    "akarios_completionist": {
+      "name": "Master Navigator (Complete Galaxy Charting)",
+      "description": "Exhaustive exploration across all reachable stellar sectors, tackling every available side scenario, world mission, and maximum starship upgrade."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Act I",
+      "title": "Escape from Medellia",
+      "phase": "Akarios Galaxy Arc - Flight to the Stars",
+      "description": "Evacuating cadet pilots amidst catastrophic planetary assault and establishing initial survival operations aboard the Sparrow."
+    },
+    {
+      "order": 2,
+      "badgeText": "Act II",
+      "title": "Into the Unknown Frontier",
+      "phase": "Akarios Galaxy Arc - The Outer Void",
+      "description": "Chart unfamiliar planetary systems, negotiate alien encounters, and upgrade fighter loadouts while pursuing mysterious subspace signals."
+    },
+    {
+      "order": 3,
+      "badgeText": "Act III",
+      "title": "The Akarios Zenith",
+      "phase": "Akarios Galaxy Arc - The Core Confrontation",
+      "description": "Mounting the decisive counter-offensive against the ancient cosmic threat to secure a lasting sanctuary for your civilization."
+    }
+  ]
+}

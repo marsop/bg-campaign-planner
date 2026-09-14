@@ -1,0 +1,52 @@
+{
+  "title": "Stars of Akarios",
+  "subtitle": "Ein narratives, taktisches Space-Crawler-Abenteuer mit tiefgründigen Raumkämpfen und Planeten-Erkundung",
+  "tagline": "Erkunde unbekannte Sterne, kommandiere die Sparrow und rette die Reste der Zivilisation",
+  "loreSummary": "Nachdem ein verheerender Überraschungsangriff eure Heimatwelt verwüstet hat, müssen sich junge Fliegerkadetten an Bord des Flaggschiffs Sparrow sammeln, um in den Weiten der Galaxie nach Antworten und einer neuen Zuflucht zu suchen.",
+  "badgeCategory": "Sci-Fi Space-Crawler & Taktische Raumgefechte",
+  "roadmapTitle": "🛸 Akarios-Galaxie-Odyssee & Flugchronik",
+  "roadmapBadge": "SPARROW-EXPEDITION",
+  "keyFeatures": [
+    "Taktische Raumgefechte mittels Würfelzuweisung und individuellem Modifikationsdeck",
+    "Duale Kampagnenphasen zwischen Schiffskämpfen im Weltraum und Erkundung von Planetenoberflächen",
+    "Gemeinsame Verwaltung des Trägerschiffs Sparrow mit fortschrittlichen Technologie-Upgrades",
+    "Verzweigende, narrative Kampagne mit Entscheidungen über drei monumentale Akte"
+  ],
+  "scopes": {
+    "akarios_standard": {
+      "name": "Standard-Galaxis-Odyssee",
+      "description": "Der empfohlene Kampagnenpfad mit ausgewogener Mischung aus Hauptmissionen, Sektor-Entdeckungen, Schiffsverbesserungen und Nebenszenarien."
+    },
+    "akarios_story": {
+      "name": "Kadetten-Flugroute (Hauptstory-Fokus)",
+      "description": "Ein geradliniger Storypfad, der die zentralen Kampagnenmissionen bis zum Finale fokussiert und optionale Abstecher minimiert."
+    },
+    "akarios_completionist": {
+      "name": "Meisternavigator (Vollständige Galaxiskartierung)",
+      "description": "Erschöpfende Erkundung jedes erreichbaren Sternensektors, inklusive aller Nebenszenarien, Bodenmissionen und maximaler Schiffsaufrüstung."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Akt I",
+      "title": "Die Flucht von Medellia",
+      "phase": "Akarios-Galaxisbogen - Aufbruch zu den Sternen",
+      "description": "Evakuierung der Pilotenanwärter während des verheerenden Planetenangriffs und Organisation des Überlebens an Bord der Sparrow."
+    },
+    {
+      "order": 2,
+      "badgeText": "Akt II",
+      "title": "In die unbekannte Grenzzone",
+      "phase": "Akarios-Galaxisbogen - Die äußere Leere",
+      "description": "Erforschung fremder Sternensysteme, Begegnungen mit fremden Spezies und Aufrüstung der Jäger bei der Verfolgung mysteriöser Subraumsignale."
+    },
+    {
+      "order": 3,
+      "badgeText": "Akt III",
+      "title": "Der Akarios-Zenit",
+      "phase": "Akarios-Galaxisbogen - Die finale Konfrontation",
+      "description": "Führung des entscheidenden Gegenschlags gegen die uralte kosmische Bedrohung zur Sicherung einer dauerhaften Heimat für die Zivilisation."
+    }
+  ]
+}
