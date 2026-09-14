@@ -6,70 +6,356 @@
 <div class="game-selector-container mb-4">
     <!-- FILTER BAR -->
     <div class="game-filter-bar mb-4">
-        <div class="row g-3 align-items-center">
-            <!-- Player Count Filter -->
-            <div class="col-12 col-lg-5">
-                <div class="filter-group">
-                    <span class="filter-label">
-                        <i class="bi bi-people-fill me-1"></i> @Loc["GameSelector.FilterPlayers"]:
-                    </span>
-                    <div class="filter-pills-group" role="group" aria-label="@Loc["GameSelector.FilterPlayers"]">
-                        <button type="button" class="btn-filter-pill @(selectedPlayerCount == null ? "active" : "")"
-                                @onclick="() => SetPlayerFilter(null)">
-                            @Loc["GameSelector.FilterAll"]
-                        </button>
-                        @foreach (var count in AvailablePlayerCounts)
-                        {
-                            var c = count;
-                            <button type="button" class="btn-filter-pill @(selectedPlayerCount == c ? "active" : "")"
-                                    @onclick="() => SetPlayerFilter(c)">
-                                @(c == 1 ? Loc["GameSelector.PlayerSolo"] : Loc.Get("GameSelector.PlayerCount", c))
-                            </button>
-                        }
-                    </div>
-                </div>
+        <!-- Main Search & Toggle Bar -->
+        <div class="filter-main-bar d-flex flex-column flex-md-row gap-2 align-items-stretch align-items-md-center">
+            <!-- Text Search Input -->
+            <div class="search-input-wrapper flex-grow-1 position-relative">
+                <i class="bi bi-search search-icon" aria-hidden="true"></i>
+                <input type="text"
+                       class="form-control game-search-input"
+                       placeholder="@Loc["GameSelector.SearchPlaceholder"]"
+                       @bind="searchTerm"
+                       @bind:event="oninput"
+                       @bind:after="EnsureValidSelection"
+                       aria-label="@Loc["GameSelector.SearchLabel"]" />
+                @if (!string.IsNullOrWhiteSpace(searchTerm))
+                {
+                    <button type="button" 
+                            class="btn-clear-search" 
+                            @onclick="ClearSearch" 
+                            title="@Loc["GameSelector.ClearFilters"]" 
+                            aria-label="Clear search">
+                        <i class="bi bi-x-circle-fill"></i>
+                    </button>
+                }
             </div>
 
-            <!-- Weight / Complexity Filter -->
-            <div class="col-12 col-lg-7">
-                <div class="filter-group">
-                    <span class="filter-label">
-                        <i class="bi bi-speedometer2 me-1"></i> @Loc["GameSelector.FilterWeight"]:
-                    </span>
-                    <div class="filter-pills-group" role="group" aria-label="@Loc["GameSelector.FilterWeight"]">
-                        <button type="button" class="btn-filter-pill @(selectedWeight == WeightFilter.All ? "active" : "")"
-                                @onclick="() => SetWeightFilter(WeightFilter.All)">
-                            @Loc["GameSelector.FilterAll"]
-                        </button>
-                        <button type="button" class="btn-filter-pill @(selectedWeight == WeightFilter.Light ? "active" : "")"
-                                @onclick="() => SetWeightFilter(WeightFilter.Light)">
-                            @Loc["GameSelector.WeightLight"]
-                        </button>
-                        <button type="button" class="btn-filter-pill @(selectedWeight == WeightFilter.Medium ? "active" : "")"
-                                @onclick="() => SetWeightFilter(WeightFilter.Medium)">
-                            @Loc["GameSelector.WeightMedium"]
-                        </button>
-                        <button type="button" class="btn-filter-pill @(selectedWeight == WeightFilter.MediumHeavy ? "active" : "")"
-                                @onclick="() => SetWeightFilter(WeightFilter.MediumHeavy)">
-                            @Loc["GameSelector.WeightMediumHeavy"]
-                        </button>
-                        <button type="button" class="btn-filter-pill @(selectedWeight == WeightFilter.Heavy ? "active" : "")"
-                                @onclick="() => SetWeightFilter(WeightFilter.Heavy)">
-                            @Loc["GameSelector.WeightHeavy"]
-                        </button>
-                    </div>
-                </div>
-            </div>
+            <!-- Advanced Filters Toggle Button -->
+            <button type="button"
+                    class="btn-advanced-toggle @(isAdvancedOpen ? "expanded" : "") @(HasActiveAdvancedFilters ? "has-active" : "")"
+                    @onclick="ToggleAdvanced"
+                    aria-expanded="@(isAdvancedOpen ? "true" : "false")">
+                <i class="bi bi-sliders me-1"></i>
+                <span>@Loc["GameSelector.AdvancedFilters"]</span>
+                @if (ActiveAdvancedFilterCount > 0)
+                {
+                    <span class="advanced-filter-badge">@ActiveAdvancedFilterCount</span>
+                }
+                <i class="bi @(isAdvancedOpen ? "bi-chevron-up" : "bi-chevron-down") ms-1 chevron-icon"></i>
+            </button>
         </div>
 
+        <!-- Collapsible Rich Advanced Filters Panel -->
+        @if (isAdvancedOpen)
+        {
+            <div class="advanced-filters-panel mt-3 pt-3 border-top">
+                <div class="row g-3">
+                    <!-- 1. Player Count Filter -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="filter-group">
+                            <span class="filter-label">
+                                <i class="bi bi-people-fill me-1"></i> @Loc["GameSelector.FilterPlayers"]
+                            </span>
+                            <div class="filter-pills-group" role="group" aria-label="@Loc["GameSelector.FilterPlayers"]">
+                                <button type="button" class="btn-filter-pill @(selectedPlayerCount == null ? "active" : "")"
+                                        @onclick="() => SetPlayerFilter(null)">
+                                    @Loc["GameSelector.FilterAll"]
+                                </button>
+                                @foreach (var count in AvailablePlayerCounts)
+                                {
+                                    var c = count;
+                                    <button type="button" class="btn-filter-pill @(selectedPlayerCount == c ? "active" : "")"
+                                            @onclick="() => SetPlayerFilter(c)">
+                                        @(c == 1 ? Loc["GameSelector.PlayerSolo"] : Loc.Get("GameSelector.PlayerCount", c))
+                                    </button>
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Weight / Complexity Filter -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="filter-group">
+                            <span class="filter-label">
+                                <i class="bi bi-speedometer2 me-1"></i> @Loc["GameSelector.FilterWeight"]
+                            </span>
+                            <div class="filter-pills-group" role="group" aria-label="@Loc["GameSelector.FilterWeight"]">
+                                <button type="button" class="btn-filter-pill @(selectedWeight == WeightFilter.All ? "active" : "")"
+                                        @onclick="() => SetWeightFilter(WeightFilter.All)">
+                                    @Loc["GameSelector.FilterAll"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedWeight == WeightFilter.Light ? "active" : "")"
+                                        @onclick="() => SetWeightFilter(WeightFilter.Light)">
+                                    @Loc["GameSelector.WeightLight"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedWeight == WeightFilter.Medium ? "active" : "")"
+                                        @onclick="() => SetWeightFilter(WeightFilter.Medium)">
+                                    @Loc["GameSelector.WeightMedium"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedWeight == WeightFilter.MediumHeavy ? "active" : "")"
+                                        @onclick="() => SetWeightFilter(WeightFilter.MediumHeavy)">
+                                    @Loc["GameSelector.WeightMediumHeavy"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedWeight == WeightFilter.Heavy ? "active" : "")"
+                                        @onclick="() => SetWeightFilter(WeightFilter.Heavy)">
+                                    @Loc["GameSelector.WeightHeavy"]
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Session Length Filter -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="filter-group">
+                            <span class="filter-label">
+                                <i class="bi bi-clock-history me-1"></i> @Loc["GameSelector.FilterDuration"]
+                            </span>
+                            <div class="filter-pills-group" role="group" aria-label="@Loc["GameSelector.FilterDuration"]">
+                                <button type="button" class="btn-filter-pill @(selectedDuration == DurationFilter.All ? "active" : "")"
+                                        @onclick="() => SetDurationFilter(DurationFilter.All)">
+                                    @Loc["GameSelector.DurationAll"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedDuration == DurationFilter.Short ? "active" : "")"
+                                        @onclick="() => SetDurationFilter(DurationFilter.Short)">
+                                    @Loc["GameSelector.DurationShort"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedDuration == DurationFilter.Medium ? "active" : "")"
+                                        @onclick="() => SetDurationFilter(DurationFilter.Medium)">
+                                    @Loc["GameSelector.DurationMedium"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedDuration == DurationFilter.Long ? "active" : "")"
+                                        @onclick="() => SetDurationFilter(DurationFilter.Long)">
+                                    @Loc["GameSelector.DurationLong"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedDuration == DurationFilter.Epic ? "active" : "")"
+                                        @onclick="() => SetDurationFilter(DurationFilter.Epic)">
+                                    @Loc["GameSelector.DurationEpic"]
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. BGG Rating Filter -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="filter-group">
+                            <span class="filter-label">
+                                <i class="bi bi-star-fill me-1 text-warning"></i> @Loc["GameSelector.FilterRating"]
+                            </span>
+                            <div class="filter-pills-group" role="group" aria-label="@Loc["GameSelector.FilterRating"]">
+                                <button type="button" class="btn-filter-pill @(selectedRating == RatingFilter.All ? "active" : "")"
+                                        @onclick="() => SetRatingFilter(RatingFilter.All)">
+                                    @Loc["GameSelector.RatingAll"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedRating == RatingFilter.Rating75 ? "active" : "")"
+                                        @onclick="() => SetRatingFilter(RatingFilter.Rating75)">
+                                    @Loc["GameSelector.Rating75"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedRating == RatingFilter.Rating80 ? "active" : "")"
+                                        @onclick="() => SetRatingFilter(RatingFilter.Rating80)">
+                                    @Loc["GameSelector.Rating80"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedRating == RatingFilter.Rating85 ? "active" : "")"
+                                        @onclick="() => SetRatingFilter(RatingFilter.Rating85)">
+                                    @Loc["GameSelector.Rating85"]
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5. Release Year Filter -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="filter-group">
+                            <span class="filter-label">
+                                <i class="bi bi-calendar-event me-1"></i> @Loc["GameSelector.FilterYear"]
+                            </span>
+                            <div class="filter-pills-group" role="group" aria-label="@Loc["GameSelector.FilterYear"]">
+                                <button type="button" class="btn-filter-pill @(selectedYear == YearFilter.All ? "active" : "")"
+                                        @onclick="() => SetYearFilter(YearFilter.All)">
+                                    @Loc["GameSelector.YearAll"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedYear == YearFilter.Recent ? "active" : "")"
+                                        @onclick="() => SetYearFilter(YearFilter.Recent)">
+                                    @Loc["GameSelector.YearRecent"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedYear == YearFilter.Mid ? "active" : "")"
+                                        @onclick="() => SetYearFilter(YearFilter.Mid)">
+                                    @Loc["GameSelector.YearMid"]
+                                </button>
+                                <button type="button" class="btn-filter-pill @(selectedYear == YearFilter.Classic ? "active" : "")"
+                                        @onclick="() => SetYearFilter(YearFilter.Classic)">
+                                    @Loc["GameSelector.YearClassic"]
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6. Category / Theme Dropdown -->
+                    <div class="col-12 col-md-6 col-xl-2">
+                        <div class="filter-group">
+                            <span class="filter-label">
+                                <i class="bi bi-tags-fill me-1"></i> @Loc["GameSelector.FilterCategory"]
+                            </span>
+                            <select class="form-select filter-select-custom"
+                                    value="@(selectedCategory ?? "")"
+                                    @onchange="HandleCategoryChanged">
+                                <option value="">@Loc["GameSelector.CategoryAll"]</option>
+                                @foreach (var cat in AvailableCategories)
+                                {
+                                    <option value="@cat">@cat</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- 7. Sort By Dropdown -->
+                    <div class="col-12 col-md-6 col-xl-2">
+                        <div class="filter-group">
+                            <span class="filter-label">
+                                <i class="bi bi-arrow-down-up me-1"></i> @Loc["GameSelector.SortBy"]
+                            </span>
+                            <select class="form-select filter-select-custom"
+                                    value="@selectedSort.ToString()"
+                                    @onchange="HandleSortChanged">
+                                <option value="@SortOption.Default.ToString()">@Loc["GameSelector.SortDefault"]</option>
+                                <option value="@SortOption.RatingDesc.ToString()">@Loc["GameSelector.SortRatingDesc"]</option>
+                                <option value="@SortOption.WeightDesc.ToString()">@Loc["GameSelector.SortWeightDesc"]</option>
+                                <option value="@SortOption.WeightAsc.ToString()">@Loc["GameSelector.SortWeightAsc"]</option>
+                                <option value="@SortOption.DurationAsc.ToString()">@Loc["GameSelector.SortDurationAsc"]</option>
+                                <option value="@SortOption.DurationDesc.ToString()">@Loc["GameSelector.SortDurationDesc"]</option>
+                                <option value="@SortOption.YearDesc.ToString()">@Loc["GameSelector.SortYearDesc"]</option>
+                                <option value="@SortOption.TitleAsc.ToString()">@Loc["GameSelector.SortTitleAsc"]</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+        <!-- Active Filter Chips & Status Bar -->
         @if (HasActiveFilters)
         {
             var currentFiltered = FilteredGames;
-            <div class="filter-status-row">
-                <span class="filter-count-badge small">
-                    <i class="bi bi-funnel-fill me-1 text-warning"></i>
-                    @Loc.Get("GameSelector.ShowingGamesCount", currentFiltered.Count, Games.Count)
-                </span>
+            <div class="filter-status-row d-flex flex-wrap align-items-center justify-content-between gap-2 mt-3 pt-3 border-top">
+                <div class="active-filter-chips d-flex flex-wrap align-items-center gap-1">
+                    <span class="filter-count-badge small me-2">
+                        <i class="bi bi-funnel-fill me-1 text-warning"></i>
+                        @Loc.Get("GameSelector.ShowingGamesCount", currentFiltered.Count, Games.Count)
+                    </span>
+
+                    <!-- Search Chip -->
+                    @if (!string.IsNullOrWhiteSpace(searchTerm))
+                    {
+                        <span class="filter-chip">
+                            <i class="bi bi-search me-1"></i>"@searchTerm"
+                            <button type="button" class="btn-chip-remove" @onclick="ClearSearch" aria-label="Remove search filter">×</button>
+                        </span>
+                    }
+
+                    <!-- Player Chip -->
+                    @if (selectedPlayerCount.HasValue)
+                    {
+                        <span class="filter-chip">
+                            <i class="bi bi-people-fill me-1"></i>@(selectedPlayerCount.Value == 1 ? Loc["GameSelector.PlayerSolo"] : Loc.Get("GameSelector.PlayerCount", selectedPlayerCount.Value))
+                            <button type="button" class="btn-chip-remove" @onclick="() => SetPlayerFilter(null)" aria-label="Remove player filter">×</button>
+                        </span>
+                    }
+
+                    <!-- Weight Chip -->
+                    @if (selectedWeight != WeightFilter.All)
+                    {
+                        var weightLabel = selectedWeight switch
+                        {
+                            WeightFilter.Light => Loc["GameSelector.WeightLight"],
+                            WeightFilter.Medium => Loc["GameSelector.WeightMedium"],
+                            WeightFilter.MediumHeavy => Loc["GameSelector.WeightMediumHeavy"],
+                            WeightFilter.Heavy => Loc["GameSelector.WeightHeavy"],
+                            _ => ""
+                        };
+                        <span class="filter-chip">
+                            <i class="bi bi-speedometer2 me-1"></i>@weightLabel
+                            <button type="button" class="btn-chip-remove" @onclick="() => SetWeightFilter(WeightFilter.All)" aria-label="Remove weight filter">×</button>
+                        </span>
+                    }
+
+                    <!-- Duration Chip -->
+                    @if (selectedDuration != DurationFilter.All)
+                    {
+                        var durationLabel = selectedDuration switch
+                        {
+                            DurationFilter.Short => Loc["GameSelector.DurationShort"],
+                            DurationFilter.Medium => Loc["GameSelector.DurationMedium"],
+                            DurationFilter.Long => Loc["GameSelector.DurationLong"],
+                            DurationFilter.Epic => Loc["GameSelector.DurationEpic"],
+                            _ => ""
+                        };
+                        <span class="filter-chip">
+                            <i class="bi bi-clock-history me-1"></i>@durationLabel
+                            <button type="button" class="btn-chip-remove" @onclick="() => SetDurationFilter(DurationFilter.All)" aria-label="Remove duration filter">×</button>
+                        </span>
+                    }
+
+                    <!-- Rating Chip -->
+                    @if (selectedRating != RatingFilter.All)
+                    {
+                        var ratingLabel = selectedRating switch
+                        {
+                            RatingFilter.Rating75 => Loc["GameSelector.Rating75"],
+                            RatingFilter.Rating80 => Loc["GameSelector.Rating80"],
+                            RatingFilter.Rating85 => Loc["GameSelector.Rating85"],
+                            _ => ""
+                        };
+                        <span class="filter-chip">
+                            <i class="bi bi-star-fill me-1 text-warning"></i>@ratingLabel
+                            <button type="button" class="btn-chip-remove" @onclick="() => SetRatingFilter(RatingFilter.All)" aria-label="Remove rating filter">×</button>
+                        </span>
+                    }
+
+                    <!-- Year Chip -->
+                    @if (selectedYear != YearFilter.All)
+                    {
+                        var yearLabel = selectedYear switch
+                        {
+                            YearFilter.Recent => Loc["GameSelector.YearRecent"],
+                            YearFilter.Mid => Loc["GameSelector.YearMid"],
+                            YearFilter.Classic => Loc["GameSelector.YearClassic"],
+                            _ => ""
+                        };
+                        <span class="filter-chip">
+                            <i class="bi bi-calendar-event me-1"></i>@yearLabel
+                            <button type="button" class="btn-chip-remove" @onclick="() => SetYearFilter(YearFilter.All)" aria-label="Remove year filter">×</button>
+                        </span>
+                    }
+
+                    <!-- Category Chip -->
+                    @if (!string.IsNullOrEmpty(selectedCategory))
+                    {
+                        <span class="filter-chip">
+                            <i class="bi bi-tags-fill me-1"></i>@selectedCategory
+                            <button type="button" class="btn-chip-remove" @onclick="() => SetCategoryFilter(null)" aria-label="Remove category filter">×</button>
+                        </span>
+                    }
+
+                    <!-- Sort Chip -->
+                    @if (selectedSort != SortOption.Default)
+                    {
+                        var sortLabel = selectedSort switch
+                        {
+                            SortOption.RatingDesc => Loc["GameSelector.SortRatingDesc"],
+                            SortOption.WeightDesc => Loc["GameSelector.SortWeightDesc"],
+                            SortOption.WeightAsc => Loc["GameSelector.SortWeightAsc"],
+                            SortOption.DurationAsc => Loc["GameSelector.SortDurationAsc"],
+                            SortOption.DurationDesc => Loc["GameSelector.SortDurationDesc"],
+                            SortOption.YearDesc => Loc["GameSelector.SortYearDesc"],
+                            SortOption.TitleAsc => Loc["GameSelector.SortTitleAsc"],
+                            _ => ""
+                        };
+                        <span class="filter-chip">
+                            <i class="bi bi-arrow-down-up me-1"></i>@sortLabel
+                            <button type="button" class="btn-chip-remove" @onclick="() => SetSortOption(SortOption.Default)" aria-label="Remove sort filter">×</button>
+                        </span>
+                    }
+                </div>
+
                 <button type="button" class="filter-reset-link" @onclick="ResetFilters">
                     <i class="bi bi-x-circle me-1"></i> @Loc["GameSelector.ClearFilters"]
                 </button>
@@ -148,7 +434,13 @@
                                 </div>
                                 <div class="game-identity-text flex-grow-1 min-w-0">
                                     <h3 class="game-title mb-1">@game.Title</h3>
-                                    <p class="game-subtitle mb-0">@game.Subtitle</p>
+                                    <p class="game-subtitle mb-1">@game.Subtitle</p>
+                                    @if (!string.IsNullOrWhiteSpace(game.Designers))
+                                    {
+                                        <p class="game-author mb-0 text-muted-light small">
+                                            <i class="bi bi-person me-1"></i>@game.Designers
+                                        </p>
+                                    }
                                 </div>
                             </div>
 
@@ -161,6 +453,9 @@
                                 </span>
                                 <span class="meta-pill" title="@Loc["GameSelector.Players"]">
                                     👥 <strong>@(game.PlayersMin)-@(game.PlayersMax)</strong> @Loc["GameSelector.Players"]
+                                </span>
+                                <span class="meta-pill" title="@Loc["GameSelector.FilterDuration"]">
+                                    ⏱️ <strong>~@game.BaseScenarioMinutes</strong> min
                                 </span>
                                 <span class="meta-pill" title="@Loc["GameSelector.Year"]">
                                     📅 <strong>@game.ReleaseYear</strong>
@@ -219,10 +514,73 @@
         Heavy        // 4.0+
     }
 
+    public enum DurationFilter
+    {
+        All,
+        Short,      // <= 60 min
+        Medium,     // 61 .. 90 min
+        Long,       // 91 .. 120 min
+        Epic        // > 120 min
+    }
+
+    public enum RatingFilter
+    {
+        All,
+        Rating75,   // >= 7.5
+        Rating80,   // >= 8.0
+        Rating85    // >= 8.5
+    }
+
+    public enum YearFilter
+    {
+        All,
+        Recent,     // >= 2022
+        Mid,        // 2018 .. 2021
+        Classic     // < 2018
+    }
+
+    public enum SortOption
+    {
+        Default,
+        RatingDesc,
+        WeightDesc,
+        WeightAsc,
+        DurationAsc,
+        DurationDesc,
+        YearDesc,
+        TitleAsc
+    }
+
+    private string searchTerm = string.Empty;
+    private bool isAdvancedOpen = false;
+
     private int? selectedPlayerCount = null;
     private WeightFilter selectedWeight = WeightFilter.All;
+    private DurationFilter selectedDuration = DurationFilter.All;
+    private RatingFilter selectedRating = RatingFilter.All;
+    private YearFilter selectedYear = YearFilter.All;
+    private string? selectedCategory = null;
+    private SortOption selectedSort = SortOption.Default;
 
-    private bool HasActiveFilters => selectedPlayerCount.HasValue || selectedWeight != WeightFilter.All;
+    private int ActiveAdvancedFilterCount
+    {
+        get
+        {
+            int count = 0;
+            if (selectedPlayerCount.HasValue) count++;
+            if (selectedWeight != WeightFilter.All) count++;
+            if (selectedDuration != DurationFilter.All) count++;
+            if (selectedRating != RatingFilter.All) count++;
+            if (selectedYear != YearFilter.All) count++;
+            if (!string.IsNullOrEmpty(selectedCategory)) count++;
+            if (selectedSort != SortOption.Default) count++;
+            return count;
+        }
+    }
+
+    private bool HasActiveAdvancedFilters => ActiveAdvancedFilterCount > 0;
+
+    private bool HasActiveFilters => !string.IsNullOrWhiteSpace(searchTerm) || HasActiveAdvancedFilters;
 
     private IEnumerable<int> AvailablePlayerCounts
     {
@@ -238,6 +596,19 @@
         }
     }
 
+    private IEnumerable<string> AvailableCategories
+    {
+        get
+        {
+            if (Games == null || !Games.Any()) return Enumerable.Empty<string>();
+            return Games
+                .Select(g => g.Theme?.BadgeCategory)
+                .Where(c => !string.IsNullOrWhiteSpace(c))
+                .Distinct(StringComparer.OrdinalIgnoreCase)
+                .OrderBy(c => c)!;
+        }
+    }
+
     private IReadOnlyList<BoardGame> FilteredGames
     {
         get
@@ -245,12 +616,25 @@
             if (Games == null) return Array.Empty<BoardGame>();
             var query = Games.AsEnumerable();
 
+            // 1. Text Search (Title, Author/Designers, Subtitle, BadgeCategory)
+            if (!string.IsNullOrWhiteSpace(searchTerm))
+            {
+                var term = searchTerm.Trim();
+                query = query.Where(g =>
+                    (g.Title?.Contains(term, StringComparison.OrdinalIgnoreCase) ?? false) ||
+                    (g.Designers?.Contains(term, StringComparison.OrdinalIgnoreCase) ?? false) ||
+                    (g.Subtitle?.Contains(term, StringComparison.OrdinalIgnoreCase) ?? false) ||
+                    (g.Theme?.BadgeCategory?.Contains(term, StringComparison.OrdinalIgnoreCase) ?? false));
+            }
+
+            // 2. Player Count
             if (selectedPlayerCount.HasValue)
             {
                 var target = selectedPlayerCount.Value;
                 query = query.Where(g => g.PlayersMin <= target && target <= g.PlayersMax);
             }
 
+            // 3. Weight / Complexity
             if (selectedWeight != WeightFilter.All)
             {
                 query = selectedWeight switch
@@ -263,8 +647,75 @@
                 };
             }
 
+            // 4. Session Duration
+            if (selectedDuration != DurationFilter.All)
+            {
+                query = selectedDuration switch
+                {
+                    DurationFilter.Short => query.Where(g => g.BaseScenarioMinutes <= 60),
+                    DurationFilter.Medium => query.Where(g => g.BaseScenarioMinutes > 60 && g.BaseScenarioMinutes <= 90),
+                    DurationFilter.Long => query.Where(g => g.BaseScenarioMinutes > 90 && g.BaseScenarioMinutes <= 120),
+                    DurationFilter.Epic => query.Where(g => g.BaseScenarioMinutes > 120),
+                    _ => query
+                };
+            }
+
+            // 5. BGG Rating
+            if (selectedRating != RatingFilter.All)
+            {
+                query = selectedRating switch
+                {
+                    RatingFilter.Rating75 => query.Where(g => g.BggRating >= 7.5),
+                    RatingFilter.Rating80 => query.Where(g => g.BggRating >= 8.0),
+                    RatingFilter.Rating85 => query.Where(g => g.BggRating >= 8.5),
+                    _ => query
+                };
+            }
+
+            // 6. Release Year
+            if (selectedYear != YearFilter.All)
+            {
+                query = selectedYear switch
+                {
+                    YearFilter.Recent => query.Where(g => g.ReleaseYear >= 2022),
+                    YearFilter.Mid => query.Where(g => g.ReleaseYear >= 2018 && g.ReleaseYear <= 2021),
+                    YearFilter.Classic => query.Where(g => g.ReleaseYear < 2018),
+                    _ => query
+                };
+            }
+
+            // 7. Category / Theme
+            if (!string.IsNullOrWhiteSpace(selectedCategory))
+            {
+                query = query.Where(g => string.Equals(g.Theme?.BadgeCategory, selectedCategory, StringComparison.OrdinalIgnoreCase));
+            }
+
+            // 8. Sorting
+            query = selectedSort switch
+            {
+                SortOption.RatingDesc => query.OrderByDescending(g => g.BggRating).ThenBy(g => g.Title),
+                SortOption.WeightDesc => query.OrderByDescending(g => g.BggWeight).ThenBy(g => g.Title),
+                SortOption.WeightAsc => query.OrderBy(g => g.BggWeight).ThenBy(g => g.Title),
+                SortOption.DurationAsc => query.OrderBy(g => g.BaseScenarioMinutes).ThenBy(g => g.Title),
+                SortOption.DurationDesc => query.OrderByDescending(g => g.BaseScenarioMinutes).ThenBy(g => g.Title),
+                SortOption.YearDesc => query.OrderByDescending(g => g.ReleaseYear).ThenBy(g => g.Title),
+                SortOption.TitleAsc => query.OrderBy(g => g.Title),
+                _ => query
+            };
+
             return query.ToList();
         }
+    }
+
+    private void ToggleAdvanced()
+    {
+        isAdvancedOpen = !isAdvancedOpen;
+    }
+
+    private async Task ClearSearch()
+    {
+        searchTerm = string.Empty;
+        await EnsureValidSelection();
     }
 
     private async Task SetPlayerFilter(int? count)
@@ -279,10 +730,60 @@
         await EnsureValidSelection();
     }
 
+    private async Task SetDurationFilter(DurationFilter duration)
+    {
+        selectedDuration = duration;
+        await EnsureValidSelection();
+    }
+
+    private async Task SetRatingFilter(RatingFilter rating)
+    {
+        selectedRating = rating;
+        await EnsureValidSelection();
+    }
+
+    private async Task SetYearFilter(YearFilter year)
+    {
+        selectedYear = year;
+        await EnsureValidSelection();
+    }
+
+    private async Task SetCategoryFilter(string? category)
+    {
+        selectedCategory = string.IsNullOrWhiteSpace(category) ? null : category;
+        await EnsureValidSelection();
+    }
+
+    private async Task HandleCategoryChanged(ChangeEventArgs e)
+    {
+        var val = e.Value?.ToString();
+        await SetCategoryFilter(val);
+    }
+
+    private async Task SetSortOption(SortOption sort)
+    {
+        selectedSort = sort;
+        await EnsureValidSelection();
+    }
+
+    private async Task HandleSortChanged(ChangeEventArgs e)
+    {
+        if (Enum.TryParse<SortOption>(e.Value?.ToString(), out var sort))
+        {
+            await SetSortOption(sort);
+        }
+    }
+
     private async Task ResetFilters()
     {
+        searchTerm = string.Empty;
         selectedPlayerCount = null;
         selectedWeight = WeightFilter.All;
+        selectedDuration = DurationFilter.All;
+        selectedRating = RatingFilter.All;
+        selectedYear = YearFilter.All;
+        selectedCategory = null;
+        selectedSort = SortOption.Default;
         await EnsureValidSelection();
     }
 

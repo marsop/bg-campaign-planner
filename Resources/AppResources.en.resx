@@ -635,7 +635,103 @@
     <value>No games found</value>
   </data>
   <data name="GameSelector.NoMatchesDesc" xml:space="preserve">
-    <value>Try adjusting or clearing your player count or weight filters.</value>
+    <value>Try adjusting or clearing your search criteria or filters.</value>
+  </data>
+  <data name="GameSelector.SearchPlaceholder" xml:space="preserve">
+    <value>Search by game title, author / designer...</value>
+  </data>
+  <data name="GameSelector.SearchLabel" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="GameSelector.AdvancedFilters" xml:space="preserve">
+    <value>Advanced Filters</value>
+  </data>
+  <data name="GameSelector.FilterDuration" xml:space="preserve">
+    <value>Session Length</value>
+  </data>
+  <data name="GameSelector.DurationAll" xml:space="preserve">
+    <value>Any Length</value>
+  </data>
+  <data name="GameSelector.DurationShort" xml:space="preserve">
+    <value>Short (≤ 60m)</value>
+  </data>
+  <data name="GameSelector.DurationMedium" xml:space="preserve">
+    <value>Medium (61–90m)</value>
+  </data>
+  <data name="GameSelector.DurationLong" xml:space="preserve">
+    <value>Long (91–120m)</value>
+  </data>
+  <data name="GameSelector.DurationEpic" xml:space="preserve">
+    <value>Epic (120m+)</value>
+  </data>
+  <data name="GameSelector.FilterRating" xml:space="preserve">
+    <value>BGG Rating</value>
+  </data>
+  <data name="GameSelector.RatingAll" xml:space="preserve">
+    <value>Any Rating</value>
+  </data>
+  <data name="GameSelector.Rating75" xml:space="preserve">
+    <value>★ 7.5+</value>
+  </data>
+  <data name="GameSelector.Rating80" xml:space="preserve">
+    <value>★ 8.0+</value>
+  </data>
+  <data name="GameSelector.Rating85" xml:space="preserve">
+    <value>★ 8.5+</value>
+  </data>
+  <data name="GameSelector.FilterYear" xml:space="preserve">
+    <value>Release Year</value>
+  </data>
+  <data name="GameSelector.YearAll" xml:space="preserve">
+    <value>All Years</value>
+  </data>
+  <data name="GameSelector.YearRecent" xml:space="preserve">
+    <value>Recent (2022+)</value>
+  </data>
+  <data name="GameSelector.YearMid" xml:space="preserve">
+    <value>2018–2021</value>
+  </data>
+  <data name="GameSelector.YearClassic" xml:space="preserve">
+    <value>Classic (Pre-2018)</value>
+  </data>
+  <data name="GameSelector.FilterCategory" xml:space="preserve">
+    <value>Category &amp; Theme</value>
+  </data>
+  <data name="GameSelector.CategoryAll" xml:space="preserve">
+    <value>All Categories</value>
+  </data>
+  <data name="GameSelector.SortBy" xml:space="preserve">
+    <value>Sort By</value>
+  </data>
+  <data name="GameSelector.SortDefault" xml:space="preserve">
+    <value>Featured (Default)</value>
+  </data>
+  <data name="GameSelector.SortRatingDesc" xml:space="preserve">
+    <value>Rating (Highest first)</value>
+  </data>
+  <data name="GameSelector.SortWeightDesc" xml:space="preserve">
+    <value>Complexity (Heaviest first)</value>
+  </data>
+  <data name="GameSelector.SortWeightAsc" xml:space="preserve">
+    <value>Complexity (Lightest first)</value>
+  </data>
+  <data name="GameSelector.SortDurationAsc" xml:space="preserve">
+    <value>Session (Shortest first)</value>
+  </data>
+  <data name="GameSelector.SortDurationDesc" xml:space="preserve">
+    <value>Session (Longest first)</value>
+  </data>
+  <data name="GameSelector.SortYearDesc" xml:space="preserve">
+    <value>Release (Newest first)</value>
+  </data>
+  <data name="GameSelector.SortTitleAsc" xml:space="preserve">
+    <value>Title (A to Z)</value>
+  </data>
+  <data name="GameSelector.ActiveFiltersTitle" xml:space="preserve">
+    <value>Active Filters</value>
+  </data>
+  <data name="GameSelector.ResetAll" xml:space="preserve">
+    <value>Reset All</value>
   </data>
   <data name="Roadmap.ShowSpoilers" xml:space="preserve">
     <value>Show Spoilers</value>

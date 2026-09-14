@@ -635,7 +635,103 @@
     <value>No se encontraron juegos</value>
   </data>
   <data name="GameSelector.NoMatchesDesc" xml:space="preserve">
-    <value>Prueba a ajustar o limpiar tus filtros de jugadores o complejidad.</value>
+    <value>Prueba a ajustar o limpiar tus criterios de búsqueda o filtros.</value>
+  </data>
+  <data name="GameSelector.SearchPlaceholder" xml:space="preserve">
+    <value>Buscar por título, autor / diseñador...</value>
+  </data>
+  <data name="GameSelector.SearchLabel" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="GameSelector.AdvancedFilters" xml:space="preserve">
+    <value>Filtros avanzados</value>
+  </data>
+  <data name="GameSelector.FilterDuration" xml:space="preserve">
+    <value>Duración de sesión</value>
+  </data>
+  <data name="GameSelector.DurationAll" xml:space="preserve">
+    <value>Cualquier duración</value>
+  </data>
+  <data name="GameSelector.DurationShort" xml:space="preserve">
+    <value>Corta (≤ 60m)</value>
+  </data>
+  <data name="GameSelector.DurationMedium" xml:space="preserve">
+    <value>Media (61–90m)</value>
+  </data>
+  <data name="GameSelector.DurationLong" xml:space="preserve">
+    <value>Larga (91–120m)</value>
+  </data>
+  <data name="GameSelector.DurationEpic" xml:space="preserve">
+    <value>Épica (120m+)</value>
+  </data>
+  <data name="GameSelector.FilterRating" xml:space="preserve">
+    <value>Calificación BGG</value>
+  </data>
+  <data name="GameSelector.RatingAll" xml:space="preserve">
+    <value>Cualquier nota</value>
+  </data>
+  <data name="GameSelector.Rating75" xml:space="preserve">
+    <value>★ 7.5+</value>
+  </data>
+  <data name="GameSelector.Rating80" xml:space="preserve">
+    <value>★ 8.0+</value>
+  </data>
+  <data name="GameSelector.Rating85" xml:space="preserve">
+    <value>★ 8.5+</value>
+  </data>
+  <data name="GameSelector.FilterYear" xml:space="preserve">
+    <value>Año de lanzamiento</value>
+  </data>
+  <data name="GameSelector.YearAll" xml:space="preserve">
+    <value>Todos los años</value>
+  </data>
+  <data name="GameSelector.YearRecent" xml:space="preserve">
+    <value>Recientes (2022+)</value>
+  </data>
+  <data name="GameSelector.YearMid" xml:space="preserve">
+    <value>2018–2021</value>
+  </data>
+  <data name="GameSelector.YearClassic" xml:space="preserve">
+    <value>Clásico (antes de 2018)</value>
+  </data>
+  <data name="GameSelector.FilterCategory" xml:space="preserve">
+    <value>Categoría y temática</value>
+  </data>
+  <data name="GameSelector.CategoryAll" xml:space="preserve">
+    <value>Todas las categorías</value>
+  </data>
+  <data name="GameSelector.SortBy" xml:space="preserve">
+    <value>Ordenar por</value>
+  </data>
+  <data name="GameSelector.SortDefault" xml:space="preserve">
+    <value>Destacados (Predeterminado)</value>
+  </data>
+  <data name="GameSelector.SortRatingDesc" xml:space="preserve">
+    <value>Calificación (Mayor a menor)</value>
+  </data>
+  <data name="GameSelector.SortWeightDesc" xml:space="preserve">
+    <value>Complejidad (Mayor a menor)</value>
+  </data>
+  <data name="GameSelector.SortWeightAsc" xml:space="preserve">
+    <value>Complejidad (Menor a mayor)</value>
+  </data>
+  <data name="GameSelector.SortDurationAsc" xml:space="preserve">
+    <value>Sesión (Más corta a más larga)</value>
+  </data>
+  <data name="GameSelector.SortDurationDesc" xml:space="preserve">
+    <value>Sesión (Más larga a más corta)</value>
+  </data>
+  <data name="GameSelector.SortYearDesc" xml:space="preserve">
+    <value>Lanzamiento (Más reciente primero)</value>
+  </data>
+  <data name="GameSelector.SortTitleAsc" xml:space="preserve">
+    <value>Título (A a la Z)</value>
+  </data>
+  <data name="GameSelector.ActiveFiltersTitle" xml:space="preserve">
+    <value>Filtros activos</value>
+  </data>
+  <data name="GameSelector.ResetAll" xml:space="preserve">
+    <value>Restablecer todo</value>
   </data>
   <data name="Roadmap.ShowSpoilers" xml:space="preserve">
     <value>Mostrar spoilers</value>

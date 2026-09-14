@@ -7,6 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.24.0] - 2026-09-14
+
+### Added
+- **Text-Based Game Search**:
+  - Added an always-visible, live search input to `GameSelector.razor` allowing instant filtering by game title, author / designer, subtitle, and thematic category.
+  - Includes a search icon glyph, quick clear `(×)` action, and automatic keyboard focus/selection synchronization.
+- **Rich Advanced Filters Drawer**:
+  - Added an on-demand, collapsible "Advanced Filters" panel with an active filter counter badge and expanding/collapsing chevron.
+  - Multi-criteria filtering supporting:
+    - **Player Count**: All, Solo (1), and specific player counts up to maximum capacity.
+    - **Complexity / Weight**: All, Light (< 3.0), Medium (3.0–3.5), Medium-Heavy (3.5–4.0), and Heavy (4.0+).
+    - **Session Duration**: All, Short (≤ 60m), Medium (61–90m), Long (91–120m), and Epic (> 120m).
+    - **BGG Rating Thresholds**: All, ★ 7.5+, ★ 8.0+, ★ 8.5+.
+    - **Release Year Eras**: All, Recent (2022+), Mid-Era (2018–2021), Classic (Pre-2018).
+    - **Category & Theme**: Dynamic dropdown populated from distinct badge categories across all loaded games.
+    - **Comprehensive Sorting**: Order games by Featured (Default), BGG Rating (highest first), Complexity (heaviest/lightest), Session Duration (shortest/longest), Release Year (newest), or Title (A to Z).
+- **Interactive Active Filter Chips**:
+  - Displays removable filter chips for every active text or criteria filter, enabling quick one-click removal of individual constraints.
+  - Displays real-time matching game counts (`Showing X of Y games`) and a "Clear All Filters" button.
+- **Game Card Metadata Enhancements**:
+  - Added visible designer / author attribution under game subtitles.
+  - Added session duration pill (`⏱️ ~X min`) directly into the card meta pills for quick at-a-glance comparison.
+- **Complete Localization**:
+  - Added localized strings for all filter labels, placeholders, duration options, rating options, eras, and sort orders across English, Spanish, German, French, and Italian.
+
 ### Changed
 - **Campaign Milestone Velocity Dynamic Recalculation**:
   - Dynamically recalculates the "Campaign Milestone Velocity" progress bar segments and proportions based on actual campaign milestones when "Show Spoilers" is enabled, replacing static placeholder percentages.
