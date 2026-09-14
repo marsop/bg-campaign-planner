@@ -1,0 +1,59 @@
+{
+  "title": "Chronicles of Drunagor: Age of Darkness",
+  "subtitle": "Taktischer 3D-Dungeon-Crawler im Kampf gegen die finstere Dunkelheit im Reich Daren",
+  "tagline": "Schreite durch das Schattentor und erfülle dein Schicksal",
+  "loreSummary": "Ihr seid die Helden von Daren, vereidigt im Kampf gegen eine uralte, bösartige Dunkelheit, die aus dem Toten Irall emporsteigt. Ausgerüstet mit elementaren Aktionsrunen dringt ihr in mehrstufige 3D-Verliese vor und trefft schicksalhafte Entscheidungen über das Überleben des Reiches.",
+  "badgeCategory": "Taktisches Dungeon-Crawler-RPG",
+  "roadmapTitle": "🗺️ Daren-Chronik & Kampagnenfortschritt",
+  "roadmapBadge": "DUNGEON-SAGA",
+  "keyFeatures": [
+    "Aktionswürfel-Managementsystem im Balanceakt zwischen Heldenkräften und verderblichen Fluchwürfeln",
+    "Mehrstufige modulare 3D-Dungeon-Geländeteile mit Höhenstufen und Sichtlinienmechanik",
+    "Dynamische Dunkelheit, die sich aktiv über das Spielfeld ausbreitet, Lebenskraft raubt und Monster stärkt",
+    "Verzweigte Kampagnengeschichte mit Interaktionsbuch und weitreichenden moralischen Entscheidungen"
+  ],
+  "scopes": {
+    "drunagor_core": {
+      "name": "Age of Darkness Hauptkampagne",
+      "description": "Die vollständige narrative Kampagne mit 18 Abenteuern quer durch Daren von Blackriver bis zum Kern der Dunkelheit."
+    },
+    "drunagor_extended": {
+      "name": "Hauptkampagne & Nebenabenteuer",
+      "description": "Die Hauptsaga ergänzt um zusätzliche Abenteuermodule wie die Ruinen von Luccanor."
+    },
+    "drunagor_grand_saga": {
+      "name": "Große Saga (Grundspiel + Apocalypse)",
+      "description": "Ein monumentales Epos mit 34 Abenteuern, das die gesamte Grundkampagne mit der 16 Abenteuer umfassenden Apocalypse-Erweiterung vereint."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Kapitel I",
+      "title": "Schatten über Blackriver",
+      "phase": "Kampagnenakt I - Die heraufziehende Finsternis",
+      "description": "Mysterische Vermisstenfälle um Blackriver aufklären und die ersten Überfälle verdorbener Kreaturen an Darens Grenzen abwehren."
+    },
+    {
+      "order": 2,
+      "badgeText": "Kapitel II",
+      "title": "Geheimnisse des Toten Irall",
+      "phase": "Kampagnenakt II - Die verfluchten Haine",
+      "description": "In die Tiefen des uralten Irall-Waldes vordringen, um vergessene Runen zu bergen und nekrotische Dunkelschreine zu reinigen."
+    },
+    {
+      "order": 3,
+      "badgeText": "Kapitel III",
+      "title": "Belagerung der Gefallenen Feste",
+      "phase": "Kampagnenakt III - Vorboten der Verzweiflung",
+      "description": "Die korrumpierte Zitadelle erstürmen, um Generäle der Dunkelheit zu stellen und ein finsteres Seelenritual zu brechen."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Die Dämmerung über Daren",
+      "phase": "Kampagnenakt IV - Die finale Abrechnung",
+      "description": "In den astralen Abgrund vorstoßen, um die Dunkelheit endgültig aus der sterblichen Welt zu verbannen und Darens Schicksal zu entscheiden."
+    }
+  ]
+}

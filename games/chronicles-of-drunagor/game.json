@@ -1,0 +1,94 @@
+{
+  "id": "chronicles-of-drunagor",
+  "title": "Chronicles of Drunagor: Age of Darkness",
+  "releaseYear": 2021,
+  "designers": "Daniel Alves, Eurico Cunha Neto",
+  "playersMin": 1,
+  "playersMax": 5,
+  "bggRating": 8.3,
+  "bggWeight": 3.37,
+  "bggUrl": "https://boardgamegeek.com/boardgame/268012/chronicles-drunagor-age-darkness",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 25,
+  "unitType": "adventures",
+  "theme": {
+    "primaryColor": "#8b5cf6",
+    "secondaryColor": "#0e0918",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e1333 0%, #0e0918 60%, #07040d 100%)",
+    "cardBackground": "rgba(18, 12, 30, 0.92)",
+    "borderColor": "rgba(139, 92, 246, 0.40)",
+    "glowColor": "rgba(139, 92, 246, 0.35)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🌑",
+    "emblem": "🌑⚔️",
+    "themeClass": "theme-drunagor",
+    "activeThemeClass": "theme-drunagor-active",
+    "roadmapClass": "roadmap-drunagor",
+    "heroClass": "hero-drunagor"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #268012)",
+    "Creative Games Studio Official Rulebook & Adventure Books (Daniel Alves & Eurico Cunha Neto)",
+    "Community Campaign Playthrough Statistics & Scenario Logs"
+  ],
+  "scopes": [
+    {
+      "id": "drunagor_core",
+      "baseScenarioCount": 18,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": true
+    },
+    {
+      "id": "drunagor_extended",
+      "baseScenarioCount": 22,
+      "estimatedFailRatePercent": 14.0,
+      "isRecommended": false
+    },
+    {
+      "id": "drunagor_grand_saga",
+      "baseScenarioCount": 34,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🌲",
+      "badgeText": "Chapter I",
+      "title": "Shadows Over Blackriver",
+      "phase": "Campaign Act I - The Encroaching Shadow",
+      "description": "Investigating mysterious disappearances around Blackriver and halting the initial incursions of corrupted beasts at the outskirts of Daren."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🏛️",
+      "badgeText": "Chapter II",
+      "title": "Secrets of the Dead Irall",
+      "phase": "Campaign Act II - The Blighted Groves",
+      "description": "Venturing into the cursed depths of the ancient Irall forest to uncover lost runic lore and purge necrotic dark shrines."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 14,
+      "iconEmoji": "🏰",
+      "badgeText": "Chapter III",
+      "title": "Siege of the Fallen Keep",
+      "phase": "Campaign Act III - Heralds of Despair",
+      "description": "Breaching the corrupted citadel to confront high-ranking darkness generals and dismantle the malevolent soul-harvesting ritual."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 18,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "The Dawn Over Daren",
+      "phase": "Campaign Act IV - The Final Reckoning",
+      "description": "Entering the abyssal nexus to sever the Darkness from the mortal realm, deciding the ultimate fate of Daren in an epic tactical climax."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Chronicles of Drunagor: Age of Darkness",
+  "subtitle": "Dungeon crawler tattico in 3D contro un'oscurità cosmica che consuma il regno di Daren",
+  "tagline": "Varcate il portale delle ombre e compite il vostro destino",
+  "loreSummary": "Siete i Campioni di Daren, giurati a respingere un'ancestrale Oscurità scaturita dalla foresta di Irall Morto. Armati di rune d'azione elementali, addentratevi in dungeon 3D multilivello e prendete decisioni cruciali che determineranno la salvezza del regno.",
+  "badgeCategory": "GDR Dungeon Crawler Tattico",
+  "roadmapTitle": "🗺️ Cronache di Daren e Progressione della Campagna",
+  "roadmapBadge": "SAGA DEI DUNGEON",
+  "keyFeatures": [
+    "Sistema di gestione di cubi d'azione che bilancia abilità eroiche e accumulo di cubi maledizione",
+    "Terreno dungeon 3D multilivello con meccaniche di elevazione e linea di vista reale",
+    "Meccanica dinamica dell'Oscurità che si propaga sulla mappa, prosciugando vita e potenziando i mostri",
+    "Narrazione a bivi con libro delle interazioni e scelte morali dal forte impatto duraturo"
+  ],
+  "scopes": {
+    "drunagor_core": {
+      "name": "Campagna Principale Age of Darkness",
+      "description": "L'intera campagna narrativa di 18 avventure attraverso Daren, da Blackriver fino al cuore dell'Oscurità."
+    },
+    "drunagor_extended": {
+      "name": "Campagna Principale e Missioni Secondarie",
+      "description": "La saga principale arricchita da moduli di avventura opzionali come le Rovine di Luccanor."
+    },
+    "drunagor_grand_saga": {
+      "name": "Grande Saga Epica (Base + Apocalypse)",
+      "description": "Una monumentale odissea di 34 avventure che unisce la campagna base con l'enorme espansione Apocalypse da 16 avventure."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Capitolo I",
+      "title": "Ombre su Blackriver",
+      "phase": "Atto I della Campagna - L'Ombra Incombente",
+      "description": "Indagare su misteriose sparizioni intorno a Blackriver e respingere le prime incursioni di bestie corrotte ai confini di Daren."
+    },
+    {
+      "order": 2,
+      "badgeText": "Capitolo II",
+      "title": "Segreti di Irall Morto",
+      "phase": "Atto II della Campagna - I Boschi Maledetti",
+      "description": "Avventurarsi nelle profondità corrotte dell'antica foresta di Irall per recuperare rune perdute e purificare santuari oscuri."
+    },
+    {
+      "order": 3,
+      "badgeText": "Capitolo III",
+      "title": "Assedio al Bastione Caduto",
+      "phase": "Atto III della Campagna - Araldi della Disperazione",
+      "description": "Espugnare la cittadella corrotta per affrontare i generali dell'oscurità e sventare un empio rituale di anime."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "L'Alba su Daren",
+      "phase": "Atto IV della Campagna - La Resa dei Conti",
+      "description": "Discendere nel nesso abissale per recidere l'Oscurità dal regno mortale e decidere il destino supremo di Daren in un climax epico."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Chronicles of Drunagor: Age of Darkness",
+  "subtitle": "Tactical 3D dungeon crawl battling a creeping cosmic darkness across the realm of Daren",
+  "tagline": "Step through the shadow gate and claim your destiny",
+  "loreSummary": "You are the Champions of Daren, sworn to repel an ancient malevolent Darkness rising from the Dead Irall. Armed with elemental action runes, delve into treacherous 3D multi-level dungeons and make fateful decisions that shape the survival of the realm.",
+  "badgeCategory": "Tactical Dungeon Crawler RPG",
+  "roadmapTitle": "🗺️ Daren Chronicles & Campaign Progression",
+  "roadmapBadge": "DUNGEON SAGA",
+  "keyFeatures": [
+    "Action cube management system balancing powerful combat abilities with creeping curse cubes",
+    "Modular 3D multi-level dungeon terrain with line-of-sight and verticality mechanics",
+    "Dynamic Darkness mechanic actively spreading across the battlefield, draining life and buffing monsters",
+    "Branching narrative choices and interactive story interludes tracking moral decisions"
+  ],
+  "scopes": {
+    "drunagor_core": {
+      "name": "Core Age of Darkness Campaign",
+      "description": "The complete 18-adventure narrative campaign across Daren from Blackriver to the heart of the Darkness."
+    },
+    "drunagor_extended": {
+      "name": "Core Campaign & Side Quests",
+      "description": "The full core saga enhanced with supplementary adventure quest modules like the Ruins of Luccanor."
+    },
+    "drunagor_grand_saga": {
+      "name": "Grand Saga (Core + Apocalypse)",
+      "description": "An epic 34-adventure odyssey combining the entire base campaign with the massive 16-adventure Apocalypse expansion."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Chapter I",
+      "title": "Shadows Over Blackriver",
+      "phase": "Campaign Act I - The Encroaching Shadow",
+      "description": "Investigating mysterious disappearances around Blackriver and halting the initial incursions of corrupted beasts at the outskirts of Daren."
+    },
+    {
+      "order": 2,
+      "badgeText": "Chapter II",
+      "title": "Secrets of the Dead Irall",
+      "phase": "Campaign Act II - The Blighted Groves",
+      "description": "Venturing into the cursed depths of the ancient Irall forest to uncover lost runic lore and purge necrotic dark shrines."
+    },
+    {
+      "order": 3,
+      "badgeText": "Chapter III",
+      "title": "Siege of the Fallen Keep",
+      "phase": "Campaign Act III - Heralds of Despair",
+      "description": "Breaching the corrupted citadel to confront high-ranking darkness generals and dismantle the malevolent soul-harvesting ritual."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "The Dawn Over Daren",
+      "phase": "Campaign Act IV - The Final Reckoning",
+      "description": "Entering the abyssal nexus to sever the Darkness from the mortal realm, deciding the ultimate fate of Daren in an epic tactical climax."
+    }
+  ]
+}

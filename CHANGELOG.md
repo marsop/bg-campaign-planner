@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.13.0] - 2026-09-14
+## [0.14.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Chronicles of Drunagor: Age of Darkness** 3D tactical dungeon-crawler campaign in the fantasy continent of Daren.
+  - 3 campaign scope presets: *Core Age of Darkness Campaign* (18 adventures), *Core Campaign & Side Quests* (22 adventures), and *Grand Saga (Core + Apocalypse)* (34 adventures).
+  - 4 narrative milestone checkpoints across Daren with spoiler protection (*Shadows Over Blackriver*, *Secrets of the Dead Irall*, *Siege of the Fallen Keep*, *The Dawn Over Daren*).
+  - Thematic visual identity (arcane runic violet `#8b5cf6`, deep obsidian shadow `#0e0918`, and radiant amber `#f59e0b` styling with authentic 1:1 flat box cover art and 16:9 widescreen Daren world map backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
 
 ### Added
 - **New Board Game Added**:

@@ -10,19 +10,18 @@ requested by the user.
 
 **Currently in app:**
 Gloomhaven · Frosthaven · Pandemic Legacy: Season 0 · Sleeping Gods · Pandemic Legacy: Season 1
-Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures
+Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard · Earthborne Rangers · Agemonia · Roll Player Adventures · Chronicles of Drunagor: Age of Darkness
 
 ---
 
 ## 🟥 High Priority
 
-- **Chronicles of Drunagor: Age of Darkness** — 3D dungeon crawl with modular campaigns. 40–100+ hours. ~8.3 BGG. 1–4 players.
+- **Tanares Adventures** — Semi-open world, 100–200+ hours, 100+ quests. ~8.1 BGG. 1–6 players. Tactical card-driven combat.
 
 ---
 
 ## 🟧 Medium Priority
 
-- **Tanares Adventures** — Semi-open world, 100–200+ hours, 100+ quests. ~8.1 BGG. 1–6 players. Tactical card-driven combat.
 - **Isofarian Guard** — Open-world RPG with Forteller audio narration. 5 campaigns, 100–170+ hours. ~8.0 BGG. 1–4 players.
 - **Betrayal Legacy** — Legacy haunted-house. 14 sessions (prologue + 13 chapters). ~7.4 BGG. 3–5 players. Narrative, horror.
 - **Vagrantsong** — Unique boss-battler with a train theme and scenario-based campaign. 20-30 hours. ~7.7 BGG. 2-4 players. Boss battler, narrative.

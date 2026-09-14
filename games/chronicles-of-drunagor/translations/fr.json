@@ -1,0 +1,59 @@
+{
+  "title": "Chronicles of Drunagor: Age of Darkness",
+  "subtitle": "Dungeon crawler tactique en 3D face aux ténèbres cosmiques dévorant le royaume de Daren",
+  "tagline": "Franchissez la porte des ombres et forgez votre destin",
+  "loreSummary": "Vous êtes les Champions de Daren, dévoués à repousser une Ténèbre ancestrale émergeant de la forêt d'Irall Mort. Dotés de runes d'action élémentaires, explorez des donjons en 3D sur plusieurs niveaux et prenez des décisions morales cruciales qui scelleront l'avenir du royaume.",
+  "badgeCategory": "RPG Tactique Dungeon Crawler",
+  "roadmapTitle": "🗺️ Chroniques de Daren et Progression de Campagne",
+  "roadmapBadge": "SAGA DE DONJON",
+  "keyFeatures": [
+    "Système de gestion de cubes d'action combinant prouesses héroïques et accumulation de cubes de malédiction",
+    "Plateaux modulaires en relief 3D avec lignes de vue et niveaux d'élévation tactiques",
+    "Mécanique vivante de Ténèbres se propageant activement, drainant la vitalité et renforçant les monstres",
+    "Narration à embranchements avec livre d'interactions riche en choix aux conséquences durables"
+  ],
+  "scopes": {
+    "drunagor_core": {
+      "name": "Campagne Principale Age of Darkness",
+      "description": "La campagne narrative complète de 18 aventures à travers Daren, de Blackriver jusqu'au cœur des Ténèbres."
+    },
+    "drunagor_extended": {
+      "name": "Campagne Principale & Quêtes Secondaires",
+      "description": "La saga principale enrichie de modules d'aventures additionnels comme les Ruines de Luccanor."
+    },
+    "drunagor_grand_saga": {
+      "name": "Grande Saga Épique (Base + Apocalypse)",
+      "description": "Une épopée colossale de 34 aventures réunissant la campagne complète et l'extension massive Apocalypse de 16 aventures."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Chapitre I",
+      "title": "Ombres sur Blackriver",
+      "phase": "Acte I de Campagne - L'Ombre Menaçante",
+      "description": "Enquêter sur d'étranges disparitions près de Blackriver et repousser les premières incursions de bêtes corrompues aux frontières de Daren."
+    },
+    {
+      "order": 2,
+      "badgeText": "Chapitre II",
+      "title": "Secrets d'Irall Mort",
+      "phase": "Acte II de Campagne - Les Bosquets Flétris",
+      "description": "Pénétrer dans les profondeurs maudites de l'antique forêt d'Irall pour retrouver des runes oubliées et purifier des sanctuaires profanes."
+    },
+    {
+      "order": 3,
+      "badgeText": "Chapitre III",
+      "title": "Le Siège du Bastion Déchu",
+      "phase": "Acte III de Campagne - Hérauts du Désespoir",
+      "description": "Prendre d'assaut la citadelle corrompue pour affronter les généraux des ténèbres et interrompre un rituel sacrificiel d'âmes."
+    },
+    {
+      "order": 4,
+      "badgeText": "Final",
+      "title": "L'Aube sur Daren",
+      "phase": "Acte IV de Campagne - L'Ultime Confrontation",
+      "description": "S'enfoncer dans le gouffre abyssal pour bannir définitivement les Ténèbres du monde des mortels et sauver Daren lors d'un dénouement épique."
+    }
+  ]
+}
