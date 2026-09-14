@@ -1,0 +1,59 @@
+{
+  "title": "Earthborne Rangers",
+  "subtitle": "A customizable cooperative card game of open-world wilderness adventure and ecological stewardship",
+  "tagline": "Answer the call of the Valley, forage new paths, and protect the living wilderness",
+  "loreSummary": "Centuries after civilization transformed the world, humanity thrives in harmony with nature in a breathtaking wilderness. As a Ranger, you are sworn to explore the Valley, assist its communities, and preserve its fragile ecological balance.",
+  "badgeCategory": "Open-World Adventure & Deck-Building",
+  "roadmapTitle": "🌲 Living Valley Expeditions & Ranger Chronicle",
+  "roadmapBadge": "VALLEY ODYSSEY",
+  "keyFeatures": [
+    "Vibrant open-world exploration where every play session represents an in-game Day",
+    "Dynamic living card ecosystem featuring wildlife, terrain obstacles, and local factions",
+    "Character deck customization that evolves persistently across missions and rewards",
+    "Non-linear branching narrative guided by the comprehensive Living Valley storybook"
+  ],
+  "scopes": {
+    "ebr_standard": {
+      "name": "Standard Valley Campaign",
+      "description": "The quintessential ranger expedition covering major regional storylines, pivotal community requests, and crucial wilderness discoveries across ~21 game days."
+    },
+    "ebr_story": {
+      "name": "Focused Trailway (Core Arcs)",
+      "description": "A streamlined narrative trek prioritizing primary Valley crises and direct story missions across ~15 game days."
+    },
+    "ebr_full_valley": {
+      "name": "Master Ranger (Complete Valley Chronicle)",
+      "description": "An exhaustive expedition charting every distant corner, mountain pass, side mission, and hidden mystery across the entire 30-day campaign calendar."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Day 5",
+      "title": "First Steps Beyond the Haven",
+      "phase": "Valley Exploration Phase I - The Outer Trails",
+      "description": "Venturing out from the ancestral refuge, mastering the trail ways, and securing initial alliances among the Valley folk."
+    },
+    {
+      "order": 2,
+      "badgeText": "Day 11",
+      "title": "Echoes of the Ancestors",
+      "phase": "Valley Exploration Phase II - Ancient Mysteries",
+      "description": "Uncovering forgotten technology and ancient ruins nestled within the untamed wilds, guiding new paths forward."
+    },
+    {
+      "order": 3,
+      "badgeText": "Day 16",
+      "title": "The Deep Wilderness",
+      "phase": "Valley Exploration Phase III - Across the Ridge",
+      "description": "Traversing hazardous terrain and high mountain reaches to resolve mounting ecological tensions and hidden perils."
+    },
+    {
+      "order": 4,
+      "badgeText": "Day 21",
+      "title": "Harmony in the Living Valley",
+      "phase": "Valley Exploration Phase IV - Legacy of the Rangers",
+      "description": "Fulfilling the Rangers' sworn duty to protect and preserve the delicate balance between community, flora, and fauna."
+    }
+  ]
+}

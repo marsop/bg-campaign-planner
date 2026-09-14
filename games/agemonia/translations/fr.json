@@ -1,0 +1,59 @@
+{
+  "title": "Agemonia",
+  "subtitle": "Un jeu de société de campagne narrative entièrement coopératif mêlant heroic fantasy, dilemmes moraux et exploration",
+  "tagline": "Élucidez les mystères planaires, gérez votre endurance et forgez le destin d'un monde en péril",
+  "loreSummary": "Dans l'univers grandiose mais menacé d'Agemonia, des bouleversements cosmiques réveillent d'antiques puissances et des maux oubliés. Rassemblés par le sort, vos héros devront déjouer des complots majeurs, naviguer entre factions rivales et mener de périlleuses expéditions pour sauver le royaume.",
+  "badgeCategory": "Fantasy Narrative & Aventure Tactique",
+  "roadmapTitle": "💎 Chronique de Campagne d'Agemonia & Odyssée Planaire",
+  "roadmapBadge": "CHRONIQUE DE RUNEDALE",
+  "keyFeatures": [
+    "Plus de 100 heures d'immersion narrative à travers 38 scénarios riches et ramifiés",
+    "Système innovant de jetons d'endurance liant harmonieusement vitalité et économie d'actions",
+    "Progression narrative avec issue constructive (Fail-Forward) évitant blocages et répétitions stériles",
+    "Structure en trois phases : étape urbaine à Runedale, traversées périlleuses et scénarios tactiques"
+  ],
+  "scopes": {
+    "agemonia_standard": {
+      "name": "Campagne Standard de Runedale",
+      "description": "L'épopée fondatrice d'Agemonia traversant les intrigues majeures des factions, les quartiers de la cité et de spectaculaires affrontements sur ~28 scénarios."
+    },
+    "agemonia_expedited": {
+      "name": "Trame Essentielle (Quête Centrale)",
+      "description": "Une aventure fluide et condensée se concentrant directement sur la crise cataclysmique et les périls cruciaux du royaume sur ~20 scénarios."
+    },
+    "agemonia_completionist": {
+      "name": "Grand Chroniqueur (Tous les Scénarios & Quêtes)",
+      "description": "Une exploration absolue accomplissant chaque quête personnelle de héros, rencontres provinciales et secrets oubliés sur l'ensemble des 38 scénarios."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Chapitre 1",
+      "title": "Les Secrets de Runedale",
+      "phase": "Campagne Acte I - La République de Benem",
+      "description": "Arpenter les ruelles animées et naviguer entre les factions de Runedale pour révéler les anomalies planaires naissantes."
+    },
+    {
+      "order": 2,
+      "badgeText": "Chapitre 2",
+      "title": "Les Murmures de la Faille",
+      "phase": "Campagne Acte II - Par-delà les Provinces Sauvages",
+      "description": "Voyager à travers des confins périlleux et des étendues indomptées pour explorer les ruines cristallines antiques et leurs failles."
+    },
+    {
+      "order": 3,
+      "badgeText": "Chapitre 3",
+      "title": "L'Ombre Grandissante",
+      "phase": "Campagne Acte III - Le Choc des Destins",
+      "description": "Affronter d'influentes factions et trancher des choix moraux irrévocables qui redessinent les alliances d'Agemonia."
+    },
+    {
+      "order": 4,
+      "badgeText": "Final",
+      "title": "Le Destin d'Agemonia",
+      "phase": "Campagne Acte IV - La Convergence Planaire",
+      "description": "Triompher de l'ultime confrontation pour décider de la survie et de l'avenir durable de ce monde vivant."
+    }
+  ]
+}

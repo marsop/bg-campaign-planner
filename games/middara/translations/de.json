@@ -20,5 +20,42 @@
       "name": "Perfektionist",
       "description": "Beinhaltet Nebenquests und optionale Begegnungen."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Kap. 1",
+      "title": "Die Prüfung des MAST",
+      "phase": "Kapitel 1 - Der Acerbus",
+      "description": "Gemeinsam mit Nightingale, Zeke, Remi und Rook in die unterirdischen Prüfungen des Acerbus aufbrechen, um die Bürgerschaft in Middara zu erlangen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Kap. 2",
+      "title": "Schatten über Elenia",
+      "phase": "Kapitel 2 - Intrigen der Hauptstadt",
+      "description": "Durch die belebten Straßen Elenias streifen, dunkle politische Verschwörungen aufdecken und abtrünnige Animus-Gefahren abwehren."
+    },
+    {
+      "order": 3,
+      "badgeText": "Kap. 3",
+      "title": "Das versunkene Labyrinth",
+      "phase": "Kapitel 3 - Uralte Kavernen",
+      "description": "Vergessene Ruinen und uralte Technologie unter Middara erforschen, während tödliche Widersacher die Verfolgung aufnehmen."
+    },
+    {
+      "order": 4,
+      "badgeText": "Kap. 4",
+      "title": "Das Netz der Täuschung",
+      "phase": "Kapitel 4 - Der heraufziehende Sturm",
+      "description": "Den wahren Drahtzieher der Krise entlarven und sich anspruchsvollen Schlachten im ganzen Reich stellen."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Der Höhepunkt von Akt 1",
+      "phase": "Kapitel 5 - Die Schlacht um Middara",
+      "description": "Die entscheidende mehrstufige Konfrontation zur Rettung des Reiches und zum Abschluss des epischen ersten Akts der Kampagne."
+    }
+  ]
 }

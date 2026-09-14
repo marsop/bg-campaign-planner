@@ -1,0 +1,94 @@
+{
+  "id": "agemonia",
+  "title": "Agemonia",
+  "releaseYear": 2023,
+  "designers": "Max Wikström",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.8,
+  "bggWeight": 3.3,
+  "bggUrl": "https://boardgamegeek.com/boardgame/270871/agemonia",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 25,
+  "unitType": "scenarios",
+  "theme": {
+    "primaryColor": "#1ca7c4",
+    "secondaryColor": "#0b1c24",
+    "accentColor": "#f0b429",
+    "backgroundGradient": "radial-gradient(ellipse at top, #133947 0%, #0b1e27 60%, #061015 100%)",
+    "cardBackground": "rgba(11, 28, 36, 0.92)",
+    "borderColor": "rgba(28, 167, 196, 0.40)",
+    "glowColor": "rgba(28, 167, 196, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "💎",
+    "emblem": "💎🔮",
+    "themeClass": "theme-agemonia",
+    "activeThemeClass": "theme-agemonia-active",
+    "roadmapClass": "roadmap-agemonia",
+    "heroClass": "hero-agemonia"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #270871 Top 150 Thematic)",
+    "Lautapelit.fi Official Rulebook & Storybook (Max Wikström)",
+    "Agemonia Campaign Logs & Community Survey Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "agemonia_standard",
+      "baseScenarioCount": 28,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "agemonia_expedited",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    },
+    {
+      "id": "agemonia_completionist",
+      "baseScenarioCount": 38,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🏛️",
+      "badgeText": "Chapter 1",
+      "title": "Secrets of Runedale",
+      "phase": "Campaign Act I - The Republic of Benem",
+      "description": "Navigating the bustling streets and political factions of Runedale to uncover the gathering planar anomalies threatening the realm."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 14,
+      "iconEmoji": "🔮",
+      "badgeText": "Chapter 2",
+      "title": "Whispers of the Breach",
+      "phase": "Campaign Act II - Across the Wild Provinces",
+      "description": "Journeying through dangerous borderlands and uncharted wilderness to investigate ancient crystalline ruins and strange rifts."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 22,
+      "iconEmoji": "⚔️",
+      "badgeText": "Chapter 3",
+      "title": "The Gathering Shadow",
+      "phase": "Campaign Act III - Clash of Destinies",
+      "description": "Confronting powerful factions and making irrevocable moral choices that reshape alliances across all Agemonia."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 28,
+      "iconEmoji": "🌟",
+      "badgeText": "Finale",
+      "title": "Fate of Agemonia",
+      "phase": "Campaign Act IV - The Planar Convergence",
+      "description": "Braving the climactic final conflict to determine the enduring destiny and survival of the living world."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Earthborne Rangers",
+  "subtitle": "Un jeu de cartes coopératif personnalisable d'aventure en monde ouvert et de préservation écologique",
+  "tagline": "Répondez à l'appel de la Vallée, ouvrez de nouveaux sentiers et protégez la nature vivante",
+  "loreSummary": "Des siècles après la transformation du monde par la civilisation, l'humanité vit en harmonie avec la nature au cœur d'une splendide vallée sauvage. En tant que Ranger, vous avez juré d'arpenter la région, de soutenir ses communautés et de préserver son fragile équilibre écologique.",
+  "badgeCategory": "Aventure en Monde Ouvert & Deck-Building",
+  "roadmapTitle": "🌲 Expéditions de la Vallée Vivante & Chronique des Rangers",
+  "roadmapBadge": "ODYSSÉE DE LA VALLÉE",
+  "keyFeatures": [
+    "Exploration immersive en monde ouvert où chaque session de jeu représente un Jour en jeu",
+    "Écosystème de cartes dynamique intégrant faune sauvage, obstacles géographiques et habitants",
+    "Évolution persistante du deck de votre Ranger au fil des missions accomplies et des récompenses",
+    "Trame narrative ramifiée et non linéaire orchestrée par le riche guide de campagne de la Vallée"
+  ],
+  "scopes": {
+    "ebr_standard": {
+      "name": "Campagne Standard de la Vallée",
+      "description": "L'expédition de référence des rangers articulée autour des grands arcs régionaux, des quêtes locales et des découvertes clés sur ~21 jours."
+    },
+    "ebr_story": {
+      "name": "Pistes Essentielles (Trame Principale)",
+      "description": "Un périple narratif concentré privilégiant la résolution des crises majeures de la Vallée et les missions vitales sur ~15 jours."
+    },
+    "ebr_full_valley": {
+      "name": "Maître Ranger (Chronique Intégrale)",
+      "description": "Une exploration exhaustive cartographiant chaque contrée reculée, cols montagneux, quêtes secondaires et secrets ancestraux sur les 30 jours complets."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Jour 5",
+      "title": "Premiers Pas Hors du Refuge",
+      "phase": "Exploration de la Vallée Phase I - Les Sentiers Extérieurs",
+      "description": "Départ de l'abri ancestral, maîtrise des pistes sauvages et conclusion des premières alliances avec les habitants de la Vallée."
+    },
+    {
+      "order": 2,
+      "badgeText": "Jour 11",
+      "title": "Les Échos des Ancêtres",
+      "phase": "Exploration de la Vallée Phase II - Mystères Antiques",
+      "description": "Découverte de technologies oubliées et de ruines séculaires nichées dans les étendues sauvages pour ouvrir de nouvelles voies."
+    },
+    {
+      "order": 3,
+      "badgeText": "Jour 16",
+      "title": "La Sauvagerie Profonde",
+      "phase": "Exploration de la Vallée Phase III - Par-delà la Crête",
+      "description": "Traversée de reliefs périlleux et de hauts sommets pour apaiser les tensions écologiques et écarter les dangers tapis dans l'ombre."
+    },
+    {
+      "order": 4,
+      "badgeText": "Jour 21",
+      "title": "Harmonie dans la Vallée Vivante",
+      "phase": "Exploration de la Vallée Phase IV - L'Héritage des Rangers",
+      "description": "Accomplissement du devoir sacré des Rangers de protéger et perpétuer l'équilibre subtil entre les communautés, la flore et la faune."
+    }
+  ]
+}

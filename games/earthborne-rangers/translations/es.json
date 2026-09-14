@@ -1,0 +1,59 @@
+{
+  "title": "Earthborne Rangers",
+  "subtitle": "Un juego de cartas cooperativo y personalizable de aventura en un mundo abierto y custodia ecológica",
+  "tagline": "Responde a la llamada del Valle, forja nuevos senderos y protege la naturaleza viva",
+  "loreSummary": "Siglos después de que la civilización transformara el mundo, la humanidad convive en armonía con la naturaleza en un valle asombroso. Como Ranger, has jurado explorar la región, asistir a sus comunidades y preservar su delicado equilibrio ecológico.",
+  "badgeCategory": "Aventura en Mundo Abierto y Construcción de Mazos",
+  "roadmapTitle": "🌲 Expediciones del Valle Vivo y Crónica de los Rangers",
+  "roadmapBadge": "ODISEA EN EL VALLE",
+  "keyFeatures": [
+    "Exploración en mundo abierto vibrante donde cada sesión de juego representa un Día del mundo",
+    "Ecosistema de cartas dinámico con fauna salvaje, obstáculos de terreno y facciones locales",
+    "Personalización del mazo de personaje que evoluciona de forma persistente con misiones y recompensas",
+    "Narrativa ramificada y no lineal guiada por el exhaustivo libro de campaña del Valle Vivo"
+  ],
+  "scopes": {
+    "ebr_standard": {
+      "name": "Campaña Estándar del Valle",
+      "description": "La expedición insignia de los rangers que abarca las tramas regionales principales, peticiones comunitarias y descubrimientos cruciales a lo largo de ~21 días."
+    },
+    "ebr_story": {
+      "name": "Senda Focalizada (Arcos Principales)",
+      "description": "Una travesía narrativa optimizada que prioriza las crisis esenciales del Valle y misiones directas a lo largo de ~15 días."
+    },
+    "ebr_full_valley": {
+      "name": "Maestro Ranger (Crónica Completa del Valle)",
+      "description": "Una expedición exhaustiva que recorre cada rincón remoto, pasos montañosos, misiones secundarias y misterios ocultos durante el calendario completo de 30 días."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Día 5",
+      "title": "Primeros Pasos más allá del Refugio",
+      "phase": "Exploración del Valle Fase I - Senderos Exteriores",
+      "description": "Adentrándose más allá del refugio ancestral, dominando los caminos agrestes y forjando las primeras alianzas con los habitantes del Valle."
+    },
+    {
+      "order": 2,
+      "badgeText": "Día 11",
+      "title": "Ecos de los Ancestros",
+      "phase": "Exploración del Valle Fase II - Misterios Antiguos",
+      "description": "Descubriendo tecnología olvidada y ruinas milenarias ocultas en la espesura salvaje para abrir nuevos caminos."
+    },
+    {
+      "order": 3,
+      "badgeText": "Día 16",
+      "title": "La Naturaleza Profunda",
+      "phase": "Exploración del Valle Fase III - Cruzando la Cumbre",
+      "description": "Cruzando terrenos peligrosos y altas crestas montañosas para resolver crecientes tensiones ecológicas y peligros ocultos."
+    },
+    {
+      "order": 4,
+      "badgeText": "Día 21",
+      "title": "Armonía en el Valle Vivo",
+      "phase": "Exploración del Valle Fase IV - El Legado de los Rangers",
+      "description": "Cumpliendo el sagrado deber de los Rangers de custodiar y mantener el delicado equilibrio entre las gentes, la flora y la fauna."
+    }
+  ]
+}

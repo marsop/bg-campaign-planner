@@ -1,0 +1,59 @@
+{
+  "title": "Agemonia",
+  "subtitle": "A fully cooperative narrative campaign board game of heroic fantasy, moral dilemmas, and living world exploration",
+  "tagline": "Unravel planar mysteries, balance stamina and resolve, and shape the destiny of a dying world",
+  "loreSummary": "In the vibrant yet peril-fraught realm of Agemonia, cataclysmic celestial shifts awaken forgotten powers and ancient evils. As unlikely heroes bound together by fate, you must uncover deep conspiracies, navigate faction politics, and brave perilous expeditions to safeguard the future.",
+  "badgeCategory": "Narrative Fantasy & Tactical Adventure",
+  "roadmapTitle": "💎 Agemonia Campaign Chronicle & Planar Odyssey",
+  "roadmapBadge": "RUNEDALE CHRONICLE",
+  "keyFeatures": [
+    "Over 100 hours of rich storytelling across 38 distinct branching scenarios",
+    "Innovative stamina chip mechanic seamlessly blending character vitality and action economy",
+    "Fail-forward narrative progression ensuring story momentum without punishing road-blocks",
+    "Three-phase cycle: thriving Runedale City Step, treacherous Journey Step, and tactical Scenario Step"
+  ],
+  "scopes": {
+    "agemonia_standard": {
+      "name": "Standard Campaign Chronicle",
+      "description": "The definitive Agemonia narrative journey traversing major faction storylines, key city districts, and epic planar confrontations across ~28 scenarios."
+    },
+    "agemonia_expedited": {
+      "name": "Focused Critical Path (Core Arcs)",
+      "description": "A streamlined adventure driving directly through the central cataclysm storyline and critical realm crises across ~20 scenarios."
+    },
+    "agemonia_completionist": {
+      "name": "Master Chronicler (All Scenarios & Side Quests)",
+      "description": "An exhaustive odyssey undertaking every hero side quest, companion origin story, provincial encounter, and hidden secret across all 38 scenarios."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Chapter 1",
+      "title": "Secrets of Runedale",
+      "phase": "Campaign Act I - The Republic of Benem",
+      "description": "Navigating the bustling streets and political factions of Runedale to uncover the gathering planar anomalies threatening the realm."
+    },
+    {
+      "order": 2,
+      "badgeText": "Chapter 2",
+      "title": "Whispers of the Breach",
+      "phase": "Campaign Act II - Across the Wild Provinces",
+      "description": "Journeying through dangerous borderlands and uncharted wilderness to investigate ancient crystalline ruins and strange rifts."
+    },
+    {
+      "order": 3,
+      "badgeText": "Chapter 3",
+      "title": "The Gathering Shadow",
+      "phase": "Campaign Act III - Clash of Destinies",
+      "description": "Confronting powerful factions and making irrevocable moral choices that reshape alliances across all Agemonia."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Fate of Agemonia",
+      "phase": "Campaign Act IV - The Planar Convergence",
+      "description": "Braving the climactic final conflict to determine the enduring destiny and survival of the living world."
+    }
+  ]
+}

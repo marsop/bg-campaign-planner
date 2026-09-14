@@ -1,0 +1,59 @@
+{
+  "title": "Agemonia",
+  "subtitle": "Un gioco da tavolo a campagna narrativa interamente cooperativo di heroic fantasy, scelte morali ed esplorazione",
+  "tagline": "Svela i misteri planari, gestisci la tua tempra e plasma il destino di un mondo al bivio",
+  "loreSummary": "Nel suggestivo ma turbolento reame di Agemonia, cataclismi celesti risvegliano poteri dimenticati e oscure minacce ancestrali. Uniti dal fato, i vostri eroi dovranno sventare cospirazioni oscure, destreggiarsi tra fazioni rivali e guidare audaci spedizioni per proteggere l'avvenire.",
+  "badgeCategory": "Fantasy Narrativo e Avventura Tattica",
+  "roadmapTitle": "💎 Cronaca di Campagna di Agemonia e Odissea Planare",
+  "roadmapBadge": "CRONACA DI RUNEDALE",
+  "keyFeatures": [
+    "Oltre 100 ore di ricca narrazione attraverso 38 scenari articolati e ramificati",
+    "Innovativo sistema di gettoni resistenza che fonde vitalità dei personaggi ed economia delle azioni",
+    "Progressione narrativa con proseguimento degli eventi (Fail-Forward) che evita blocchi frustranti",
+    "Ciclo in tre fasi: gestione nella città di Runedale, perigliosi viaggi sulla mappa e scenari tattici"
+  ],
+  "scopes": {
+    "agemonia_standard": {
+      "name": "Cronaca di Campagna Standard",
+      "description": "L'avventura d'elezione di Agemonia che attraversa gli archi narrativi principali delle fazioni, i quartieri cittadini e scontri epici in ~28 scenari."
+    },
+    "agemonia_expedited": {
+      "name": "Sentiero Chiave (Eventi Cruciali)",
+      "description": "Un'esperienza ottimizzata e avvincente incentrata direttamente sulla minaccia del cataclisma e sulle crisi principali in ~20 scenari."
+    },
+    "agemonia_completionist": {
+      "name": "Mastro Cronista (Tutti gli Scenari e Missioni Secondarie)",
+      "description": "Un'odissea esaustiva alla scoperta di ogni missione personale degli eroi, incontri provinciali ed enigmi celati attraverso l'intero arco dei 38 scenari."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Capitolo 1",
+      "title": "I Segreti di Runedale",
+      "phase": "Campagna Atto I - La Repubblica di Benem",
+      "description": "Esplorare le affollate vie di Runedale e destreggiarsi tra le fazioni politiche per svelare le crescenti anomalie planari."
+    },
+    {
+      "order": 2,
+      "badgeText": "Capitolo 2",
+      "title": "I Sussurri dello Squarcio",
+      "phase": "Campagna Atto II - Attraverso le Province Selvagge",
+      "description": "Viaggiare in territori di frontiera e foreste incontaminate per esaminare antiche rovine cristalline e misteriose faglie."
+    },
+    {
+      "order": 3,
+      "badgeText": "Capitolo 3",
+      "title": "L'Ombra Incombente",
+      "phase": "Campagna Atto III - Il Conflitto dei Destini",
+      "description": "Fronteggiare potenti fazioni e compiere decisioni morali irrevocabili capaci di plasmare le alleanze dell'intera Agemonia."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Il Destino di Agemonia",
+      "phase": "Campagna Atto IV - La Convergenza Planare",
+      "description": "Superare la memorabile resa dei conti finale per stabilire la sopravvivenza e l'eredità perenne del mondo."
+    }
+  ]
+}

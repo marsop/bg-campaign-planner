@@ -1,0 +1,59 @@
+{
+  "title": "Earthborne Rangers",
+  "subtitle": "Un gioco di carte cooperativo e personalizzabile di avventura open world e tutela ecologica",
+  "tagline": "Rispondi alla chiamata della Valle, traccia nuovi sentieri e proteggi la natura selvaggia",
+  "loreSummary": "Secoli dopo la trasformazione del pianeta, l'umanità prospera in armonia con la natura in una maestosa valle incontaminata. Come Ranger, hai giurato di esplorare le terre selvagge, assistere le comunità locali e difendere il delicato equilibrio ecologico.",
+  "badgeCategory": "Avventura Open World & Deck-Building",
+  "roadmapTitle": "🌲 Spedizioni della Valle Vivente e Cronaca dei Ranger",
+  "roadmapBadge": "ODISSEA NELLA VALLE",
+  "keyFeatures": [
+    "Esplorazione dinamica in open world dove ogni sessione di gioco rappresenta un Giorno nel mondo",
+    "Ecosistema di carte vivo con fauna selvatica, ostacoli ambientali e insediamenti locali",
+    "Personalizzazione persistente del mazzo del personaggio che cresce con missioni e ricompense",
+    "Narrazione ramificata e non lineare guidata dalla dettagliata guida di campagna della Valle"
+  ],
+  "scopes": {
+    "ebr_standard": {
+      "name": "Campagna Standard della Valle",
+      "description": "La spedizione per eccellenza dei ranger che affronta le principali vicende regionali, le richieste dei residenti e scoperte vitali in ~21 giorni di gioco."
+    },
+    "ebr_story": {
+      "name": "Sentieri Diretti (Trame Principali)",
+      "description": "Un viaggio narrativo mirato che dà priorità alle crisi cruciali della Valle e alle missioni di trama dirette in circa ~15 giorni."
+    },
+    "ebr_full_valley": {
+      "name": "Mastro Ranger (Cronaca Completa della Valle)",
+      "description": "Una spedizione esaustiva alla scoperta di ogni angolo remoto, valichi montani, incarichi secondari ed enigmi nascosti per l'intero arco di 30 giorni."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Giorno 5",
+      "title": "Primi Passi Fuori dal Rifugio",
+      "phase": "Esplorazione della Valle Fase I - I Sentieri Esterni",
+      "description": "Avventurarsi fuori dal rifugio ancestrale, padroneggiare i percorsi impervi e stringere le prime alleanze con le genti della Valle."
+    },
+    {
+      "order": 2,
+      "badgeText": "Giorno 11",
+      "title": "Echi degli Antenati",
+      "phase": "Esplorazione della Valle Fase II - Antichi Misteri",
+      "description": "Rinvenire tecnologie dimenticate e rovine millenarie celate nella fitta vegetazione per sbloccare nuove rotte."
+    },
+    {
+      "order": 3,
+      "badgeText": "Giorno 16",
+      "title": "La Selva Profonda",
+      "phase": "Esplorazione della Valle Fase III - Oltre il Crinale",
+      "description": "Attraversare territori scoscesi e vette impervie per risolvere crescenti squilibri ecologici e pericoli nascosti."
+    },
+    {
+      "order": 4,
+      "badgeText": "Giorno 21",
+      "title": "Armonia nella Valle Vivente",
+      "phase": "Esplorazione della Valle Fase IV - L'Eredità dei Ranger",
+      "description": "Adempiere al solenne dovere dei Ranger di preservare l'armonioso equilibrio tra gli insediamenti, la flora e la fauna."
+    }
+  ]
+}

@@ -20,5 +20,42 @@
       "name": "Completista",
       "description": "Incluye misiones secundarias y encuentros opcionales."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Cap. 1",
+      "title": "La Prueba del MAST",
+      "phase": "Capítulo 1 - El Acerbus",
+      "description": "Adentrándose en las pruebas subterráneas del Acerbus con Nightingale, Zeke, Remi y Rook para obtener la ciudadanía en Middara."
+    },
+    {
+      "order": 2,
+      "badgeText": "Cap. 2",
+      "title": "Sombras sobre Elenia",
+      "phase": "Capítulo 2 - Intrigas en la Capital",
+      "description": "Recorriendo las bulliciosas calles de Elenia, destapando oscuras conspiraciones políticas y enfrentando amenazas de animus renegados."
+    },
+    {
+      "order": 3,
+      "badgeText": "Cap. 3",
+      "title": "El Laberinto Sumergido",
+      "phase": "Capítulo 3 - Cavernas Ancestrales",
+      "description": "Explorando ruinas olvidadas y tecnología perdida bajo Middara mientras son perseguidos por letales adversarios."
+    },
+    {
+      "order": 4,
+      "badgeText": "Cap. 4",
+      "title": "La Red del Engaño",
+      "phase": "Capítulo 4 - La Tormenta Inminente",
+      "description": "Desenmascarando a la verdadera mente maestra que orquesta la crisis en todo el reino y desafiando campos de batalla avanzados."
+    },
+    {
+      "order": 5,
+      "badgeText": "Final",
+      "title": "El Clímax del Acto 1",
+      "phase": "Capítulo 5 - La Batalla por Middara",
+      "description": "La decisiva confrontación multifase para preservar el reino y concluir el épico primer acto de la campaña."
+    }
+  ]
 }

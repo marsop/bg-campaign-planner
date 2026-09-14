@@ -20,5 +20,42 @@
       "name": "Complétionniste",
       "description": "Comprend des quêtes secondaires et des rencontres facultatives."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ch. 1",
+      "title": "L'Épreuve du MAST",
+      "phase": "Chapitre 1 - L'Acerbus",
+      "description": "Pénétrer dans les épreuves souterraines de l'Acerbus aux côtés de Nightingale, Zeke, Remi et Rook pour obtenir la citoyenneté de Middara."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ch. 2",
+      "title": "Ombres sur Elenia",
+      "phase": "Chapitre 2 - Intrigues dans la Capitale",
+      "description": "Parcourir les rues animées d'Elenia, déjouer de sombres conspirations politiques et repousser les menaces d'animus renégats."
+    },
+    {
+      "order": 3,
+      "badgeText": "Ch. 3",
+      "title": "Le Labyrinthe Englouti",
+      "phase": "Chapitre 3 - Cavernes Ancestrales",
+      "description": "Explorer des ruines oubliées et des technologies perdues sous Middara tout en étant traqués par de redoutables adversaires."
+    },
+    {
+      "order": 4,
+      "badgeText": "Ch. 4",
+      "title": "La Toile de Tromperie",
+      "phase": "Chapitre 4 - L'Orage Éclate",
+      "description": "Démasquer le véritable instigateur de la crise à travers le royaume et braver des champs de bataille périlleux."
+    },
+    {
+      "order": 5,
+      "badgeText": "Final",
+      "title": "Le Climax de l'Acte 1",
+      "phase": "Chapitre 5 - La Bataille pour Middara",
+      "description": "L'affrontement décisif en plusieurs phases pour préserver le royaume et clore le premier acte épique de la campagne."
+    }
+  ]
 }

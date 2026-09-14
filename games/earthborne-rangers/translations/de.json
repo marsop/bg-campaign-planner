@@ -1,0 +1,59 @@
+{
+  "title": "Earthborne Rangers",
+  "subtitle": "Ein anpassbares kooperatives Kartenspiel voller Open-World-Wildnisabenteuer und ökologischem Schutz",
+  "tagline": "Folge dem Ruf des Tals, bahne neue Pfade und schütze die lebendige Wildnis",
+  "loreSummary": "Jahrhunderte nachdem die Zivilisation die Welt veränderte, lebt die Menschheit im Einklang mit der Natur in einem atemberaubenden Tal. Als Ranger habt ihr geschworen, die Wildnis zu erkunden, Siedlungen beizustehen und das fragile ökologische Gleichgewicht zu bewahren.",
+  "badgeCategory": "Open-World-Abenteuer & Deckbau",
+  "roadmapTitle": "🌲 Expeditionen im Lebendigen Tal & Ranger-Chronik",
+  "roadmapBadge": "TAL-ODYSSEE",
+  "keyFeatures": [
+    "Lebendige Open-World-Erkundung, bei der jede Spielsitzung einen Tag in der Welt darstellt",
+    "Dynamisches Karten-Ökosystem mit artenreicher Tierwelt, Geländeherausforderungen und Siedlern",
+    "Fortlaufende Deckentwicklung deines Charakters durch erfüllte Missionen und Belohnungen",
+    "Nicht-lineare verzweigte Story, geleitet vom umfangreichen Kampagnenbuch des Tals"
+  ],
+  "scopes": {
+    "ebr_standard": {
+      "name": "Standard-Tal-Kampagne",
+      "description": "Die klassische Ranger-Expedition über zentrale regionale Geschichten, bedeutende Bitten der Bewohner und Schlüsselentdeckungen in ~21 Spieltagen."
+    },
+    "ebr_story": {
+      "name": "Fokussierte Pfade (Hauptkrisen)",
+      "description": "Eine gestraffte narrative Reise, die gezielt wesentliche Tal-Ereignisse und primäre Story-Missionen in ~15 Spieltagen meistert."
+    },
+    "ebr_full_valley": {
+      "name": "Meister-Ranger (Vollständige Tal-Chronik)",
+      "description": "Eine lückenlose Erkundung aller entlegenen Regionen, Bergkämme, Nebenaufgaben und uralten Geheimnisse über den gesamten 30-Tage-Kampagnenzeitraum."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Tag 5",
+      "title": "Erste Schritte jenseits der Zuflucht",
+      "phase": "Tal-Erkundung Phase I - Die äußeren Pfade",
+      "description": "Aufbruch aus der angestammten Zuflucht, Meistern unwegsamer Wildnispfade und Schließen erster Bündnisse mit den Talleuten."
+    },
+    {
+      "order": 2,
+      "badgeText": "Tag 11",
+      "title": "Echos der Ahnen",
+      "phase": "Tal-Erkundung Phase II - Uralte Mysterien",
+      "description": "Freilegen vergessener Technologien und uralter Ruinen in der dichten Wildnis zur Erschließung neuer Routen."
+    },
+    {
+      "order": 3,
+      "badgeText": "Tag 16",
+      "title": "Die tiefe Wildnis",
+      "phase": "Tal-Erkundung Phase III - Über den Gebirgskamm",
+      "description": "Durchqueren gefahrvoller Landschaften und hochgelegener Pässe, um eskalierende Umweltkrisen und verborgene Bedrohungen abzuwenden."
+    },
+    {
+      "order": 4,
+      "badgeText": "Tag 21",
+      "title": "Harmonie im Lebendigen Tal",
+      "phase": "Tal-Erkundung Phase IV - Vermächtnis der Ranger",
+      "description": "Erfüllung der feierlichen Pflicht der Ranger, die empfindliche Balance zwischen Siedlern, Flora und Fauna dauerhaft zu bewahren."
+    }
+  ]
+}

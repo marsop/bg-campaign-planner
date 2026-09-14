@@ -14,14 +14,14 @@
                 </div>
             </div>
             <div class="d-flex align-items-center gap-3">
-                <div class="form-check form-switch spoiler-toggle-switch d-flex align-items-center gap-2 mb-0">
-                    <input class="form-check-input mt-0" type="checkbox" id="roadmapSpoilers"
+                <label class="form-check form-switch spoiler-toggle-switch d-inline-flex align-items-center gap-2 mb-0">
+                    <input class="form-check-input" type="checkbox" id="roadmapSpoilers"
                            checked="@ShowSpoilers"
                            @onchange="ToggleSpoilers" />
-                    <label class="form-check-label small user-select-none" for="roadmapSpoilers">
+                    <span class="form-check-label small user-select-none">
                         @Loc["Roadmap.ShowSpoilers"]
-                    </label>
-                </div>
+                    </span>
+                </label>
                 <div class="badge-roadmap-style">
                     <span>@Game.Theme.RoadmapBadge</span>
                 </div>

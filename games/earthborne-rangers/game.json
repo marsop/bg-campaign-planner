@@ -1,0 +1,94 @@
+{
+  "id": "earthborne-rangers",
+  "title": "Earthborne Rangers",
+  "releaseYear": 2023,
+  "designers": "Andrew Fischer, Brooks Flugaur-Leavitt, Andrew Navaro, Adam Sadler, Brady Sadler",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.1,
+  "bggWeight": 3.48,
+  "bggUrl": "https://boardgamegeek.com/boardgame/342900/earthborne-rangers",
+  "baseScenarioMinutes": 105,
+  "setupTeardownMinutes": 15,
+  "unitType": "days_sessions",
+  "theme": {
+    "primaryColor": "#3d7a42",
+    "secondaryColor": "#132115",
+    "accentColor": "#d49a43",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e3a24 0%, #112013 60%, #080f09 100%)",
+    "cardBackground": "rgba(19, 33, 21, 0.92)",
+    "borderColor": "rgba(61, 122, 66, 0.40)",
+    "glowColor": "rgba(212, 154, 67, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🌲",
+    "emblem": "🌲🍃",
+    "themeClass": "theme-earthborne",
+    "activeThemeClass": "theme-earthborne-active",
+    "roadmapClass": "roadmap-earthborne",
+    "heroClass": "hero-earthborne"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #342900 Top 100 Thematic)",
+    "Earthborne Games Official Campaign Guide (Lure of the Valley)",
+    "Community Campaign Survey Statistics & Valley Exploration Logs"
+  ],
+  "scopes": [
+    {
+      "id": "ebr_standard",
+      "baseScenarioCount": 21,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "ebr_story",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    },
+    {
+      "id": "ebr_full_valley",
+      "baseScenarioCount": 30,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🏕️",
+      "badgeText": "Day 5",
+      "title": "First Steps Beyond the Haven",
+      "phase": "Valley Exploration Phase I - The Outer Trails",
+      "description": "Venturing out from the ancestral refuge, mastering the trail ways, and securing initial alliances among the Valley folk."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 11,
+      "iconEmoji": "🧭",
+      "badgeText": "Day 11",
+      "title": "Echoes of the Ancestors",
+      "phase": "Valley Exploration Phase II - Ancient Mysteries",
+      "description": "Uncovering forgotten technology and ancient ruins nestled within the untamed wilds, guiding new paths forward."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "🏔️",
+      "badgeText": "Day 16",
+      "title": "The Deep Wilderness",
+      "phase": "Valley Exploration Phase III - Across the Ridge",
+      "description": "Traversing hazardous terrain and high mountain reaches to resolve mounting ecological tensions and hidden perils."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 21,
+      "iconEmoji": "🌳",
+      "badgeText": "Day 21",
+      "title": "Harmony in the Living Valley",
+      "phase": "Valley Exploration Phase IV - Legacy of the Rangers",
+      "description": "Fulfilling the Rangers' sworn duty to protect and preserve the delicate balance between community, flora, and fauna."
+    }
+  ]
+}

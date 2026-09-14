@@ -49,39 +49,48 @@
   "milestones": [
     {
       "order": 1,
-      "atScenarioOrGameIndex": 15,
-      "iconEmoji": "\ud83c\udf00",
-      "badgeText": "Chapter 1",
-      "title": "Welcome to Middara",
-      "phase": "Phase I",
-      "description": "The journey begins."
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🎓",
+      "badgeText": "Ch. 1",
+      "title": "The Trial of the MAST",
+      "phase": "Chapter 1 - The Acerbus",
+      "description": "Venturing into the subterranean trials of the Acerbus with Nightingale, Zeke, Remi, and Rook to earn citizenship in Middara."
     },
     {
       "order": 2,
-      "atScenarioOrGameIndex": 30,
-      "iconEmoji": "\ud83d\udee1\ufe0f",
-      "badgeText": "Chapter 2",
-      "title": "Trials and Tribulations",
-      "phase": "Phase II",
-      "description": "Facing new threats."
+      "atScenarioOrGameIndex": 25,
+      "iconEmoji": "🏛️",
+      "badgeText": "Ch. 2",
+      "title": "Shadows Over Elenia",
+      "phase": "Chapter 2 - Capital Intrigues",
+      "description": "Navigating the bustling streets of Elenia, uncovering dark political conspiracies, and facing rogue animus threats."
     },
     {
       "order": 3,
-      "atScenarioOrGameIndex": 45,
-      "iconEmoji": "\ud83d\udd2e",
-      "badgeText": "Chapter 3",
-      "title": "Uncovering the Truth",
-      "phase": "Phase III",
-      "description": "Deepening mysteries."
+      "atScenarioOrGameIndex": 38,
+      "iconEmoji": "🌊",
+      "badgeText": "Ch. 3",
+      "title": "The Sunken Labyrinth",
+      "phase": "Chapter 3 - Ancient Caverns",
+      "description": "Delving into forgotten ruins and lost technology beneath Middara while hunted by deadly adversaries."
     },
     {
       "order": 4,
+      "atScenarioOrGameIndex": 50,
+      "iconEmoji": "🔮",
+      "badgeText": "Ch. 4",
+      "title": "The Web of Deception",
+      "phase": "Chapter 4 - The Gathering Storm",
+      "description": "Unmasking the true mastermind orchestrating the crises across the realm and braving high-tier battlegrounds."
+    },
+    {
+      "order": 5,
       "atScenarioOrGameIndex": 60,
-      "iconEmoji": "\u2694\ufe0f",
+      "iconEmoji": "⚔️",
       "badgeText": "Finale",
-      "title": "The Climax",
-      "phase": "Phase IV",
-      "description": "The final battle of Act 1."
+      "title": "The Climax of Act 1",
+      "phase": "Chapter 5 - The Battle for Middara",
+      "description": "The decisive multi-phase confrontation to preserve the realm and conclude the epic first act of the campaign."
     }
   ]
 }

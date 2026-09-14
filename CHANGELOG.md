@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.11.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Agemonia** fully cooperative narrative fantasy campaign.
+  - 3 campaign scope presets: *Standard Campaign Chronicle* (28 scenarios), *Focused Critical Path (Core Arcs)* (20 scenarios), and *Master Chronicler (All Scenarios & Side Quests)* (38 scenarios).
+  - 4 narrative milestone checkpoints across the Republic of Benem and beyond with spoiler protection (*Secrets of Runedale*, *Whispers of the Breach*, *The Gathering Shadow*, *Fate of Agemonia*).
+  - Thematic visual identity (crystalline cyan `#1ca7c4`, deep twilight abyss `#0b1c24`, and luminous planar amber `#f0b429` styling with custom 1:1 cover art and authentic 16:9 widescreen Agemonia world map background).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.10.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Earthborne Rangers** open-world customizable card campaign.
+  - 3 campaign scope presets: *Standard Valley Campaign* (21 days), *Focused Trailway (Core Arcs)* (15 days), and *Master Ranger (Complete Valley Chronicle)* (30 days).
+  - 4 narrative milestone checkpoints across the Living Valley with spoiler protection (*First Steps Beyond the Haven*, *Echoes of the Ancestors*, *The Deep Wilderness*, *Harmony in the Living Valley*).
+  - Thematic visual identity (forest emerald green `#3d7a42`, deep wilderness shadow `#132115`, and golden trail amber `#d49a43` styling with custom 1:1 cover art and widescreen background).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.9.0] - 2026-09-14
 
 ### Added

@@ -58,7 +58,11 @@ public class ScheduledSession
     public int? MilestoneOrder { get; set; }
     public string? MilestoneNote { get; set; }
     public string? MilestonePhase { get; set; }
-    public bool IsMilestoneSession => !string.IsNullOrEmpty(MilestoneNote);
+    public int? GenericMilestoneOrder { get; set; }
+    public int? CampaignMilestoneOrder { get; set; }
+    public string? CampaignMilestoneNote { get; set; }
+    public string? CampaignMilestonePhase { get; set; }
+    public bool IsMilestoneSession => !string.IsNullOrEmpty(MilestoneNote) || CampaignMilestoneOrder != null;
 }
 
 public class MilestoneProjection
@@ -89,4 +93,5 @@ public class CalculationResult
     public double TotalCalendarMonths { get; set; }
     public List<ScheduledSession> Sessions { get; set; } = new();
     public List<MilestoneProjection> MilestoneProjections { get; set; } = new();
+    public List<MilestoneProjection> CampaignMilestoneProjections { get; set; } = new();
 }

@@ -20,5 +20,42 @@
       "name": "Completista",
       "description": "Include missioni secondarie e incontri opzionali."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Cap. 1",
+      "title": "La Prova del MAST",
+      "phase": "Capitolo 1 - L'Acerbus",
+      "description": "Affrontare le prove sotterranee dell'Acerbus con Nightingale, Zeke, Remi e Rook per ottenere la cittadinanza a Middara."
+    },
+    {
+      "order": 2,
+      "badgeText": "Cap. 2",
+      "title": "Ombre su Elenia",
+      "phase": "Capitolo 2 - Intrighi nella Capitale",
+      "description": "Esplorare le frenetiche vie di Elenia, svelando oscure cospirazioni politiche e fronteggiando animus ribelli."
+    },
+    {
+      "order": 3,
+      "badgeText": "Cap. 3",
+      "title": "Il Labirinto Sommerso",
+      "phase": "Capitolo 3 - Caverne Ancestrali",
+      "description": "Addentrarsi in rovine dimenticate e tecnologie perdute sotto Middara braccati da letali avversari."
+    },
+    {
+      "order": 4,
+      "badgeText": "Cap. 4",
+      "title": "La Tela dell'Inganno",
+      "phase": "Capitolo 4 - La Tempesta Imminente",
+      "description": "Smascherare la vera mente criminale che orchestra le crisi del reame e superare complessi campi di battaglia."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Il Climax dell'Atto 1",
+      "phase": "Capitolo 5 - La Battaglia per Middara",
+      "description": "Il decisivo scontro a più fasi per salvare il reame e concludere l'epico primo atto della campagna."
+    }
+  ]
 }

@@ -162,6 +162,28 @@ public class CampaignDataService
                 game.Scopes.Add(scopeOpt);
             }
 
+            if (baseDto.Milestones != null && baseDto.Milestones.Count > 0)
+            {
+                var transMilestoneDict = trans?.Milestones?.ToDictionary(m => m.Order, m => m) 
+                                         ?? new Dictionary<int, MilestoneTranslationDto>();
+
+                foreach (var baseMilestone in baseDto.Milestones.OrderBy(m => m.Order))
+                {
+                    transMilestoneDict.TryGetValue(baseMilestone.Order, out var transMilestone);
+
+                    game.Milestones.Add(new GameMilestone
+                    {
+                        Order = baseMilestone.Order,
+                        AtScenarioOrGameIndex = baseMilestone.AtScenarioOrGameIndex,
+                        IconEmoji = !string.IsNullOrEmpty(baseMilestone.IconEmoji) ? baseMilestone.IconEmoji : "🚩",
+                        BadgeText = !string.IsNullOrEmpty(transMilestone?.BadgeText) ? transMilestone.BadgeText : baseMilestone.BadgeText,
+                        Title = !string.IsNullOrEmpty(transMilestone?.Title) ? transMilestone.Title : baseMilestone.Title,
+                        Phase = !string.IsNullOrEmpty(transMilestone?.Phase) ? transMilestone.Phase : baseMilestone.Phase,
+                        Description = !string.IsNullOrEmpty(transMilestone?.Description) ? transMilestone.Description : baseMilestone.Description
+                    });
+                }
+            }
+
             result[gameId] = game;
         }
 
@@ -287,6 +309,7 @@ public class CampaignDataService
         public GameTheming Theme { get; set; } = new();
         public List<string> PublicSourceReferences { get; set; } = new();
         public List<ScopeDto> Scopes { get; set; } = new();
+        public List<MilestoneDto> Milestones { get; set; } = new();
     }
 
     private class ScopeDto
@@ -295,6 +318,17 @@ public class CampaignDataService
         public int BaseScenarioCount { get; set; }
         public double EstimatedFailRatePercent { get; set; } = 15.0;
         public bool IsRecommended { get; set; }
+    }
+
+    private class MilestoneDto
+    {
+        public int Order { get; set; }
+        public int AtScenarioOrGameIndex { get; set; }
+        public string IconEmoji { get; set; } = string.Empty;
+        public string BadgeText { get; set; } = string.Empty;
+        public string Title { get; set; } = string.Empty;
+        public string Phase { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
     }
 
     private class TranslationJsonDto
@@ -308,6 +342,16 @@ public class CampaignDataService
         public string RoadmapBadge { get; set; } = string.Empty;
         public List<string> KeyFeatures { get; set; } = new();
         public Dictionary<string, ScopeTranslationDto> Scopes { get; set; } = new();
+        public List<MilestoneTranslationDto> Milestones { get; set; } = new();
+    }
+
+    private class MilestoneTranslationDto
+    {
+        public int Order { get; set; }
+        public string? BadgeText { get; set; }
+        public string? Title { get; set; }
+        public string? Phase { get; set; }
+        public string? Description { get; set; }
     }
 
     private class ScopeTranslationDto

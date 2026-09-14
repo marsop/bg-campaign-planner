@@ -1,0 +1,59 @@
+{
+  "title": "Agemonia",
+  "subtitle": "Ein vollständig kooperatives narratives Kampagnenspiel voller epischer Fantasy, moralischer Entscheidungen und lebendiger Welterkundung",
+  "tagline": "Enträtselt planare Geheimnisse, meistert eure Ausdauer und gestaltet das Schicksal einer bedrohten Welt",
+  "loreSummary": "In der faszinierenden, doch gefahrvollen Welt von Agemonia erwecken kosmische Erschütterungen vergessene Mächte und uralte Übel. Als vom Schicksal auserwählte Helden müsst ihr finstere Verschwörungen aufdecken, Fraktionskonflikte bewältigen und waghalsige Expeditionen wagen, um die Zukunft zu bewahren.",
+  "badgeCategory": "Narrative Fantasy & Taktisches Abenteuer",
+  "roadmapTitle": "💎 Agemonia Kampagnen-Chronik & Planare Odyssee",
+  "roadmapBadge": "RUNEDALE-CHRONIK",
+  "keyFeatures": [
+    "Über 100 Stunden packende Handlung in 38 vielschichtigen, verzweigten Szenarien",
+    "Innovatives Ausdauer-Chip-System zur nahtlosen Verbindung von Lebenskraft und Aktionsökonomie",
+    "Vorwärtsschreitende Handlung (Fail-Forward) für kontinuierlichen Story-Fluss ohne frustrierende Sackgassen",
+    "Dreistufiger Zyklus: Verwaltungsschritte in Runedale, gefahrvolle Reiseschritte und taktische Szenario-Einsätze"
+  ],
+  "scopes": {
+    "agemonia_standard": {
+      "name": "Standard-Kampagnen-Chronik",
+      "description": "Die klassische Agemonia-Erfahrung mit den wichtigsten Fraktions-Handlungsbögen, Stadtvierteln und planaren Konfrontationen in ~28 Szenarien."
+    },
+    "agemonia_expedited": {
+      "name": "Fokussierte Hauptgeschichte (Kern-Handlung)",
+      "description": "Ein gestrafftes Abenteuer, das gezielt entlang der zentralen Kataklysmus-Storyline und wesentlichen Reichskrisen in ~20 Szenarien verläuft."
+    },
+    "agemonia_completionist": {
+      "name": "Meister-Chronist (Alle Szenarien & Nebenquests)",
+      "description": "Eine allumfassende Odyssee, die sämtliche Heldenursprünge, Nebenmissionen, Provinzbegegnungen und verborgenen Geheimnisse über alle 38 Szenarien hinweg meistert."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Kapitel 1",
+      "title": "Geheimnisse von Runedale",
+      "phase": "Kampagne Akt I - Die Republik Benem",
+      "description": "Erkundung der belebten Straßen und politischen Fraktionen von Runedale zur Aufdeckung bedrohlicher planarer Anomalien."
+    },
+    {
+      "order": 2,
+      "badgeText": "Kapitel 2",
+      "title": "Flüstern des Risses",
+      "phase": "Kampagne Akt II - Quer durch die wilden Provinzen",
+      "description": "Reisen durch gefährliche Grenzgebiete und ungezähmte Wildnis zur Erforschung uralter Kristallruinen und seltsamer Risse."
+    },
+    {
+      "order": 3,
+      "badgeText": "Kapitel 3",
+      "title": "Der wachsende Schatten",
+      "phase": "Kampagne Akt III - Zusammenprall der Schicksale",
+      "description": "Konfrontation mit mächtigen Fraktionen und Fällen folgenschwerer moralischer Entscheide, die ganz Agemonia prägen."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Schicksal von Agemonia",
+      "phase": "Kampagne Akt IV - Die planare Konvergenz",
+      "description": "Bestehen des finalen Entscheidungskampfes um das Fortbestehen und die Zukunft dieser lebendigen Welt."
+    }
+  ]
+}

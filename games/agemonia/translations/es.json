@@ -1,0 +1,59 @@
+{
+  "title": "Agemonia",
+  "subtitle": "Un juego de mesa de campaña narrativa totalmente cooperativo de fantasía heroica, dilemas morales y exploración",
+  "tagline": "Desentraña misterios planares, gestiona tu resistencia y determina el destino de un mundo en peligro",
+  "loreSummary": "En el vibrante pero convulso reino de Agemonia, cataclismos celestiales despiertan poderes olvidados y antiguos males. Como un grupo de héroes unidos por el destino, deberéis desvelar profundas conspiraciones, negociar con poderosas facciones y acometer arriesgadas expediciones para salvar el porvenir.",
+  "badgeCategory": "Fantasía Narrativa y Aventura Táctica",
+  "roadmapTitle": "💎 Crónica de Campaña de Agemonia y Odisea Planar",
+  "roadmapBadge": "CRÓNICA DE RUNEDALE",
+  "keyFeatures": [
+    "Más de 100 horas de apasionante narrativa a través de 38 escenarios ramificados",
+    "Innovador sistema de fichas de aguante que une vitalidad y economía de acciones de forma fluida",
+    "Mecánica de «fallo hacia adelante» que garantiza el avance continuo de la trama sin bloqueos frustrantes",
+    "Ciclo de tres fases: gestión en la ciudad de Runedale, peligrosos viajes por el mapa y resolución táctica de escenarios"
+  ],
+  "scopes": {
+    "agemonia_standard": {
+      "name": "Crónica de Campaña Estándar",
+      "description": "El recorrido narrativo definitivo de Agemonia que abarca las tramas de facciones principales, distritos clave de la urbe y épicos enfrentamientos en ~28 escenarios."
+    },
+    "agemonia_expedited": {
+      "name": "Senda Crítica Focalizada (Arcos Centrales)",
+      "description": "Una aventura optimizada que avanza directamente a través del cataclismo central y las mayores crisis del reino a lo largo de ~20 escenarios."
+    },
+    "agemonia_completionist": {
+      "name": "Maestro Cronista (Todos los Escenarios y Misiones Secundarias)",
+      "description": "Una odisea exhaustiva que acomete cada historia de origen, misiones personales de héroe, encuentros provinciales y secretos ocultos a través de los 38 escenarios."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Capítulo 1",
+      "title": "Secretos de Runedale",
+      "phase": "Campaña Acto I - La República de Benem",
+      "description": "Recorriendo las bulliciosas calles e intrigas entre facciones de Runedale para destapar las anomalías planares que amenazan la paz."
+    },
+    {
+      "order": 2,
+      "badgeText": "Capítulo 2",
+      "title": "Susurros de la Brecha",
+      "phase": "Campaña Acto II - A través de las Provincias Salvajes",
+      "description": "Viajando por tierras fronterizas y espesuras inexploradas para examinar ruinas cristalinas milenarias y misteriosas fracturas."
+    },
+    {
+      "order": 3,
+      "badgeText": "Capítulo 3",
+      "title": "La Sombra Creciente",
+      "phase": "Campaña Acto III - Choque de Destinos",
+      "description": "Haciendo frente a influyentes facciones y tomando decisiones morales irrevocables que redefinen las alianzas en toda Agemonia."
+    },
+    {
+      "order": 4,
+      "badgeText": "Final",
+      "title": "El Destino de Agemonia",
+      "phase": "Campaña Acto IV - La Convergencia Planar",
+      "description": "Afrontando el decisivo conflicto final para determinar el futuro duradero y la salvación de este mundo viviente."
+    }
+  ]
+}
