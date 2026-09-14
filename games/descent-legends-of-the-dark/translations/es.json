@@ -1,0 +1,59 @@
+{
+  "title": "Descent: Legends of the Dark",
+  "subtitle": "Mazmorrero cooperativo con app complementaria y espectacular terreno 3D en el reino de Terrinoth",
+  "tagline": "Forja tu leyenda en un reino amenazado por una oscuridad creciente",
+  "loreSummary": "Sois héroes emergentes respondiendo a la llamada en la convulsa baronía de Terrinoth. Guiados por la aplicación y combatiendo en escenarios 3D a varios niveles, vuestras decisiones y artesanía decidirán el destino del reino.",
+  "badgeCategory": "Mazmorrero con Aplicación",
+  "roadmapTitle": "⚔️ Crónica de Terrinoth y Progreso de Misiones",
+  "roadmapBadge": "SANGRE Y LLAMAS",
+  "keyFeatures": [
+    "Aplicación complementaria que gestiona la IA enemiga, trampas y giros narrativos dinámicos",
+    "Terreno 3D multicapa de cartón que aporta combate táctico con elevaciones verticales",
+    "Cartas de héroe y arma de doble cara con artesanía profunda y mejoras de equipo",
+    "Campaña inmersiva con decisiones morales que moldean el desarrollo de los héroes"
+  ],
+  "scopes": {
+    "blood_and_flame_core": {
+      "name": "Sangre y Llamas (Acto I Completo)",
+      "description": "La campaña completa del Acto I que incluye las 14 misiones principales y las misiones de compañero esenciales."
+    },
+    "main_story_direct": {
+      "name": "Historia Principal Directa",
+      "description": "Recorrido directo por las 14 misiones de la trama principal sin encuentros secundarios opcionales."
+    },
+    "full_chronicle_completionist": {
+      "name": "Cronista Total (Todas las Misiones)",
+      "description": "Todas las misiones de la historia, pruebas personales de personajes, recetas de artesanía y logros al máximo."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Fase I",
+      "title": "Sombras sobre Puertadelhelada",
+      "phase": "Acto I - La tormenta creciente",
+      "description": "Descubriendo la insidiosa corrupción y los ataques de bestias que amenazan la baronía de Terrinoth."
+    },
+    {
+      "order": 2,
+      "badgeText": "Fase II",
+      "title": "La incursión de los Uthuk",
+      "phase": "Acto I - Sangre y llamas",
+      "description": "Repeliendo hordas demoníacas en defensa desesperada de los santuarios y asentamientos del reino."
+    },
+    {
+      "order": 3,
+      "badgeText": "Fase III",
+      "title": "Secretos de las catacumbas",
+      "phase": "Acto I - Las tumbas ancestrales",
+      "description": "Descendiendo a ruinas subterráneas para confrontar a las legiones no muertas de Waiqar."
+    },
+    {
+      "order": 4,
+      "badgeText": "Final",
+      "title": "La batalla por Terrinoth",
+      "phase": "Acto I - Clímax de Sangre y llamas",
+      "description": "Permaneciendo unidos contra la vanguardia de la oscuridad para sellar el destino del reino en el clímax épico."
+    }
+  ]
+}

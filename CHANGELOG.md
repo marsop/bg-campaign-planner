@@ -7,7 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.5.0] - 2026-09-13
+## [0.6.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Descent: Legends of the Dark** (Act I: Blood and Flame) app-driven campaign.
+  - 3 campaign scope presets: *Blood and Flame (Full Act I)*, *Core Story Path*, and *Master Chronicler (All Quests & Feats)*.
+  - 4 narrative milestone checkpoints spanning the 4 phases of Act I with spoiler masking support.
+  - Thematic visual identity (amber/torchfire and arcane indigo styling with custom 1:1 cover art and 16:9 widescreen Terrinoth background).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 
 ### Added
 - **New Board Game Added**:

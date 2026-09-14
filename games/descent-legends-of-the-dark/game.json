@@ -1,0 +1,94 @@
+{
+  "id": "descent-legends-of-the-dark",
+  "title": "Descent: Legends of the Dark",
+  "releaseYear": 2021,
+  "designers": "Kara Centell-Dunk, Nathan I. Hajek",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.6,
+  "bggWeight": 2.68,
+  "bggUrl": "https://boardgamegeek.com/boardgame/322708/descent-legends-of-the-dark",
+  "baseScenarioMinutes": 135,
+  "setupTeardownMinutes": 25,
+  "unitType": "quests",
+  "theme": {
+    "primaryColor": "#d97706",
+    "secondaryColor": "#131722",
+    "accentColor": "#6366f1",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e1b4b 0%, #0f172a 60%, #020617 100%)",
+    "cardBackground": "rgba(19, 23, 34, 0.92)",
+    "borderColor": "rgba(217, 119, 6, 0.35)",
+    "glowColor": "rgba(99, 102, 241, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "⚔️",
+    "emblem": "⚔️✨",
+    "themeClass": "theme-descent",
+    "activeThemeClass": "theme-descent-active",
+    "roadmapClass": "roadmap-descent",
+    "heroClass": "hero-descent"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #322708)",
+    "Fantasy Flight Games Official Rules of Play & Lore Guide",
+    "Descent: Legends of the Dark Companion Application"
+  ],
+  "scopes": [
+    {
+      "id": "blood_and_flame_core",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": true
+    },
+    {
+      "id": "main_story_direct",
+      "baseScenarioCount": 14,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "full_chronicle_completionist",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🏰",
+      "badgeText": "Phase I",
+      "title": "Shadows over Frostgate",
+      "phase": "Act I - The Gathering Storm",
+      "description": "Uncovering the insidious corruption threatening the barony of Terrinoth."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🔥",
+      "badgeText": "Phase II",
+      "title": "The Uthuk Incursion",
+      "phase": "Act I - Blood and Flame",
+      "description": "Repelling demonic swarms in desperate defense of the realm's sacred shrines."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "💀",
+      "badgeText": "Phase III",
+      "title": "Secrets of the Catacombs",
+      "phase": "Act I - The Ancient Tombs",
+      "description": "Descending into subterranean ruins to confront Waiqar's restless dead."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "⚔️",
+      "badgeText": "Finale",
+      "title": "The Battle for Terrinoth",
+      "phase": "Act I - Climax of Blood and Flame",
+      "description": "Standing unified against the darkness to seal the fate of the realm."
+    }
+  ]
+}

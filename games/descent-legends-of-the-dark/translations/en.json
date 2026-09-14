@@ -1,0 +1,59 @@
+{
+  "title": "Descent: Legends of the Dark",
+  "subtitle": "App-driven cooperative dungeon crawler with striking 3D terrain in the realm of Terrinoth",
+  "tagline": "Forge your legend across a realm shrouded in rising darkness",
+  "loreSummary": "You are fledgling heroes answering the call in the troubled barony of Terrinoth. Guided by companion app narration and fighting across multi-level 3D battlegrounds, your choices and crafting will decide the fate of a kingdom.",
+  "badgeCategory": "App-Driven Dungeon Crawler",
+  "roadmapTitle": "⚔️ Terrinoth Chronicle & Quest Progression",
+  "roadmapBadge": "BLOOD & FLAME",
+  "keyFeatures": [
+    "Integrated companion app orchestrating enemy AI, traps, and dynamic story branching",
+    "Multi-tiered 3D cardboard terrain creating vertical, multi-elevation tactical combat",
+    "Double-sided character and weapon cards with in-depth crafting and equipment upgrades",
+    "Rich campaign with immersive narrative choices shaping hero development"
+  ],
+  "scopes": {
+    "blood_and_flame_core": {
+      "name": "Blood and Flame (Full Act I)",
+      "description": "The complete Act I campaign covering all 14 main story quests and essential hero companion quests."
+    },
+    "main_story_direct": {
+      "name": "Core Story Path",
+      "description": "A streamlined run through the 14 primary campaign quests without optional side encounters."
+    },
+    "full_chronicle_completionist": {
+      "name": "Master Chronicler (All Quests & Feats)",
+      "description": "Every story quest, all character personal trials, maximum crafting recipe unlocks, and optimal achievements."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Phase I",
+      "title": "Shadows over Frostgate",
+      "phase": "Act I - The Gathering Storm",
+      "description": "Uncovering the insidious corruption and beast attacks threatening the barony of Terrinoth."
+    },
+    {
+      "order": 2,
+      "badgeText": "Phase II",
+      "title": "The Uthuk Incursion",
+      "phase": "Act I - Blood and Flame",
+      "description": "Repelling demonic swarms in desperate defense of the realm's sacred shrines and settlements."
+    },
+    {
+      "order": 3,
+      "badgeText": "Phase III",
+      "title": "Secrets of the Catacombs",
+      "phase": "Act I - The Ancient Tombs",
+      "description": "Descending into subterranean ruins to confront Waiqar's restless undead legions."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "The Battle for Terrinoth",
+      "phase": "Act I - Climax of Blood and Flame",
+      "description": "Standing unified against the demonic vanguard to seal the fate of the realm in the epic climax."
+    }
+  ]
+}

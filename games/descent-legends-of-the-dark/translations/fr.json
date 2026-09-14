@@ -1,0 +1,59 @@
+{
+  "title": "Descent: Legends of the Dark",
+  "subtitle": "Dungeon crawler coopératif guidé par application avec superbes décors 3D dans le royaume de Terrinoth",
+  "tagline": "Forgez votre légende dans un royaume assombri par une menace grandissante",
+  "loreSummary": "Vous êtes de jeunes héros répondant à l'appel dans la baronnie troublée de Terrinoth. Guidés par l'application compagnon et combattant sur des champs de bataille 3D multi-niveaux, vos choix et votre artisanat scelleront le destin du royaume.",
+  "badgeCategory": "Dungeon Crawler avec Application",
+  "roadmapTitle": "⚔️ Chronique de Terrinoth & Progression des Quêtes",
+  "roadmapBadge": "SANG ET FLAMMES",
+  "keyFeatures": [
+    "Application compagnon intégrée gérant l'IA ennemie, les pièges et la narration dynamique",
+    "Décors 3D en carton à plusieurs niveaux offrant des combats tactiques verticaux",
+    "Cartes de héros et d'armes recto-verso avec système d'artisanat poussé et améliorations d'équipement",
+    "Campagne riche aux choix narratifs captivants façonnant l'évolution des héros"
+  ],
+  "scopes": {
+    "blood_and_flame_core": {
+      "name": "Sang et Flammes (Acte I Complet)",
+      "description": "La campagne intégrale de l'Acte I couvrant les 14 quêtes principales et les quêtes de compagnon essentielles."
+    },
+    "main_story_direct": {
+      "name": "Parcours Histoire Principale",
+      "description": "Cheminement direct à travers les 14 quêtes majeures de la campagne sans détours secondaires optionnels."
+    },
+    "full_chronicle_completionist": {
+      "name": "Grand Chroniqueur (Toutes les Quêtes)",
+      "description": "Toutes les quêtes narratives, toutes les épreuves personnelles de héros, artisanat complet et hauts faits maximaux."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Phase I",
+      "title": "Ombres sur Portegivre",
+      "phase": "Acte I - La tempête se prépare",
+      "description": "Mise au jour de l'insidieuse corruption et des attaques de monstres qui menacent la baronnie de Terrinoth."
+    },
+    {
+      "order": 2,
+      "badgeText": "Phase II",
+      "title": "L'incursion des Uthuk",
+      "phase": "Acte I - Sang et flammes",
+      "description": "Repousser les hordes démoniaques pour défendre désespérément les sanctuaires et colonies du royaume."
+    },
+    {
+      "order": 3,
+      "badgeText": "Phase III",
+      "title": "Secrets des catacombes",
+      "phase": "Acte I - Les tombes ancestrales",
+      "description": "Descente dans les ruines souterraines pour affronter les légions de morts-vivants de Waiqar."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "La bataille pour Terrinoth",
+      "phase": "Acte I - Climax de Sang et flammes",
+      "description": "Unis contre l'avant-garde des ténèbres pour décider du sort du royaume lors d'un affrontement titanesque."
+    }
+  ]
+}

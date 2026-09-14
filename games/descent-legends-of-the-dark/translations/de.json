@@ -1,0 +1,59 @@
+{
+  "title": "Descent: Legends of the Dark",
+  "subtitle": "App-gestützter kooperativer Dungeon-Crawler mit spektakulärem 3D-Gelände im Reich Terrinoth",
+  "tagline": "Schmiedet eure Legende in einem Reich, das von wachsender Dunkelheit bedroht wird",
+  "loreSummary": "Ihr seid aufstrebende Helden, die dem Ruf in der bedrängten Baronie Terrinoth folgen. Geleitet von der Begleit-App und kämpfend auf mehrstöckigen 3D-Schlachtfeldern entscheiden eure Taten und eure Handwerkskunst über das Schicksal des Königreichs.",
+  "badgeCategory": "App-gestützter Dungeon-Crawler",
+  "roadmapTitle": "⚔️ Terrinoth-Chronik & Missionsfortschritt",
+  "roadmapBadge": "BLUT UND FLAMME",
+  "keyFeatures": [
+    "Integrierte Begleit-App steuert feindliche KI, Fallen und dynamische Handlungsstränge",
+    "Mehrstufiges 3D-Karton-Gelände schafft vertikale, taktische Kämpfe auf verschiedenen Ebenen",
+    "Doppelseitige Helden- und Waffenkarten mit tiefgründigem Handwerk und Ausrüstungsaufwertungen",
+    "Fesselnde Kampagne mit bedeutungsvollen Entscheidungen, die die Heldenentwicklung prägen"
+  ],
+  "scopes": {
+    "blood_and_flame_core": {
+      "name": "Blut und Flamme (Vollständiger Akt I)",
+      "description": "Die vollständige Kampagne von Akt I mit allen 14 Hauptquests und wichtigen Helden-Gefährtenquests."
+    },
+    "main_story_direct": {
+      "name": "Direkter Hauptpfad",
+      "description": "Ein fokussierter Durchlauf durch die 14 primären Kampagnenquests ohne optionale Nebenbegegnungen."
+    },
+    "full_chronicle_completionist": {
+      "name": "Meisterchronist (Alle Quests & Taten)",
+      "description": "Jede Storyquest, alle persönlichen Heldenprüfungen, maximale Handwerksrezepte und alle Errungenschaften."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Phase I",
+      "title": "Schatten über Frosttor",
+      "phase": "Akt I - Der aufziehende Sturm",
+      "description": "Aufdeckung der heimtückischen Verderbnis und Bestienangriffe, die die Baronie Terrinoth bedrohen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Phase II",
+      "title": "Der Überfall der Uthuk",
+      "phase": "Akt I - Blut und Flamme",
+      "description": "Abwehr dämonischer Horden zur verzweifelten Verteidigung der heiligen Schreine und Siedlungen des Reiches."
+    },
+    {
+      "order": 3,
+      "badgeText": "Phase III",
+      "title": "Geheimnisse der Katakomben",
+      "phase": "Akt I - Die uralten Grüfte",
+      "description": "Hinabstieg in unterirdische Ruinen zur Konfrontation mit den ruhelosen Untotenlegionen von Waiqar."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Die Schlacht um Terrinoth",
+      "phase": "Akt I - Höhepunkt von Blut und Flamme",
+      "description": "Gemeinsamer Widerstand gegen die Vorhut der Dunkelheit, um das Schicksal des Reiches im epischen Höhepunkt zu besiegeln."
+    }
+  ]
+}

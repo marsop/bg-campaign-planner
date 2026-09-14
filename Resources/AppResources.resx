@@ -173,19 +173,34 @@
     <value>4. Start Date</value>
   </data>
   <data name="Form.SessionStartTime" xml:space="preserve">
-    <value>Session Start Time</value>
+    <value>5. Session Start Time</value>
+  </data>
+  <data name="Form.Step5StartTime" xml:space="preserve">
+    <value>5. Session Start Time</value>
   </data>
   <data name="Form.Step5Vacation" xml:space="preserve">
-    <value>5. Vacation / Holiday Buffer</value>
+    <value>6. Vacation / Holiday Buffer</value>
+  </data>
+  <data name="Form.Step6Vacation" xml:space="preserve">
+    <value>6. Vacation / Holiday Buffer</value>
   </data>
   <data name="Form.Step6PlayerCount" xml:space="preserve">
-    <value>6. Player Count</value>
+    <value>7. Player Count</value>
+  </data>
+  <data name="Form.Step7PlayerCount" xml:space="preserve">
+    <value>7. Player Count</value>
   </data>
   <data name="Form.Step7Experience" xml:space="preserve">
-    <value>7. Group Experience</value>
+    <value>8. Group Experience</value>
+  </data>
+  <data name="Form.Step8Experience" xml:space="preserve">
+    <value>8. Group Experience</value>
   </data>
   <data name="Form.Step8Factors" xml:space="preserve">
-    <value>8. Calculation Factors</value>
+    <value>9. Calculation Factors</value>
+  </data>
+  <data name="Form.Step9Factors" xml:space="preserve">
+    <value>9. Calculation Factors</value>
   </data>
   <data name="Form.TimesPerMonth" xml:space="preserve">
     <value>Meetups per month:</value>

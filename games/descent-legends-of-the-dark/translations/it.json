@@ -1,0 +1,59 @@
+{
+  "title": "Descent: Legends of the Dark",
+  "subtitle": "Dungeon crawler cooperativo guidato da app con spettacolari scenari 3D nel regno di Terrinoth",
+  "tagline": "Forgia la tua leggenda in un regno minacciato da una crescente oscurità",
+  "loreSummary": "Siete eroi emergenti che rispondono alla chiamata nella tormentata baronia di Terrinoth. Guidati dall'app complementare e combattendo su campi di battaglia tridimensionali multilivello, le vostre decisioni e la creazione di oggetti plasmeranno il destino del regno.",
+  "badgeCategory": "Dungeon Crawler con App",
+  "roadmapTitle": "⚔️ Cronaca di Terrinoth & Progressione Missioni",
+  "roadmapBadge": "SANGUE E FIAMMA",
+  "keyFeatures": [
+    "App complementare integrata che gestisce l'IA dei mostri, trappole ed eventi narrativi dinamici",
+    "Scenari 3D multilivello in cartone per combattimenti tattici sviluppati in verticale",
+    "Carte eroe e arma a doppia faccia con approfondita forgiatura e potenziamento dell'equipaggiamento",
+    "Campagna ricca con scelte narrative ramificate che definiscono l'evoluzione degli eroi"
+  ],
+  "scopes": {
+    "blood_and_flame_core": {
+      "name": "Sangue e Fiamma (Atto I Completo)",
+      "description": "La campagna completa dell'Atto I che comprende le 14 missioni principali e le missioni personali dei compagni."
+    },
+    "main_story_direct": {
+      "name": "Trama Principale Diretta",
+      "description": "Un percorso lineare attraverso le 14 missioni principali senza deviazioni secondarie opzionali."
+    },
+    "full_chronicle_completionist": {
+      "name": "Cronista Supremo (Tutte le Missioni)",
+      "description": "Ogni missione della storia, prove personali dei personaggi, ricette di creazione complete e massimi obiettivi."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Fase I",
+      "title": "Ombre su Frostgate",
+      "phase": "Atto I - La tempesta imminente",
+      "description": "Scoperta dell'insidiosa corruzione e degli attacchi di mostri che minacciano la baronia di Terrinoth."
+    },
+    {
+      "order": 2,
+      "badgeText": "Fase II",
+      "title": "L'incursione degli Uthuk",
+      "phase": "Atto I - Sangue e fiamma",
+      "description": "Respingere le orde demoniache in una disperata difesa dei santuari e degli insediamenti del regno."
+    },
+    {
+      "order": 3,
+      "badgeText": "Fase III",
+      "title": "Segreti delle catacombe",
+      "phase": "Atto I - Le tombe ancestrali",
+      "description": "Discesa nelle rovine sotterranee per affrontare le schiere di non morti di Waiqar."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "La battaglia per Terrinoth",
+      "phase": "Atto I - Climax di Sangue e fiamma",
+      "description": "Schierarsi uniti contro l'avanzata delle tenebre per decidere le sorti del regno nel travolgente scontro finale."
+    }
+  ]
+}
