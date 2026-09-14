@@ -1,0 +1,59 @@
+{
+  "title": "Betrayal Legacy",
+  "subtitle": "Eine generationenübergreifende Horror-Legacy-Chronik im berüchtigten Spukhaus",
+  "tagline": "Generationen vergehen, doch das Haus vergisst nie",
+  "loreSummary": "Ihr verkörpert verfeindete Familien, die über Jahrhunderte an ein verfluchtes Anwesen in den Wäldern von Massachusetts gebunden sind. In vierzehn unheimlichen Kapiteln von 1666 bis 2004 prägen eure Taten, Erbstücke und Tode dauerhaft die finstere Geschichte des Hauses auf dem Hügel.",
+  "badgeCategory": "Horror-Legacy & Verräter",
+  "roadmapTitle": "🏚️ Ahnenchronik & Zeitalter des Anwesens",
+  "roadmapBadge": "ANWESENS-ZEITLEISTE",
+  "keyFeatures": [
+    "Generationenübergreifende Kampagne über 338 Jahre und wechselnde Familienlinien",
+    "Erbstück-Mechanik zur dauerhaften Bindung von Gegenständen an eure Dynastie",
+    "Sich ständig wandelndes Anwesen mit permanenten Stickern und versiegelten Räumen",
+    "Düsteres Tagebuch-System für dynamische Spuk-Szenarien in jeder Epoche"
+  ],
+  "scopes": {
+    "betrayal_campaign": {
+      "name": "Die 14-Kapitel-Chronik",
+      "description": "Die vollständige Ahnen-Legacy-Kampagne vom Prolog 1666 über 13 Generationen bis zum großen Finale 2004."
+    },
+    "betrayal_extended": {
+      "name": "Kampagne & Freie Spukszenarien",
+      "description": "Die komplette 14-Kapitel-Kampagne plus 6 anschließende Partien zur Erkundung des individualisierten Hauses im freien Spiel."
+    },
+    "betrayal_completionist": {
+      "name": "Erkundung des Großen Anwesens",
+      "description": "Die gesamte Kampagne sowie 12 weitere Partien zur Entdeckung ungenutzter Raumplättchen, geheimer Gegenstände und alternativer Spuks."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "1666",
+      "title": "Die Gründungskonferenz",
+      "phase": "Epoche I - Massachusetts-Bay-Kolonie",
+      "description": "Fünf Kolonialfamilien suchen Zuflucht in einem einsamen Gehöft und wecken unwissentlich ein uraltes Unheil im Boden."
+    },
+    {
+      "order": 2,
+      "badgeText": "18. Jh.",
+      "title": "Koloniale Blutlinien",
+      "phase": "Epoche II - Die Revolutionsdekaden",
+      "description": "Nachfahren erben Erbstücke und dunkle Verfehlungen, während neue Räume auf dem verfluchten Grund errichtet werden."
+    },
+    {
+      "order": 3,
+      "badgeText": "19. Jh.",
+      "title": "Der Viktorianische Abstieg",
+      "phase": "Epoche III - Der Goldene Spuk",
+      "description": "Industrieller Wohlstand verdeckt den schleichenden Zerfall des Anwesens, während geisterhafte Flure eine weitere Generation fangen."
+    },
+    {
+      "order": 4,
+      "badgeText": "2004",
+      "title": "Die Moderne Abrechnung",
+      "phase": "Epoche IV - Das Große Legacy-Finale",
+      "description": "Die letzten Überlebenden stellen sich Jahrhunderten aufgestauten Schreckens im alles entscheidenden Spuk des Hauses."
+    }
+  ]
+}

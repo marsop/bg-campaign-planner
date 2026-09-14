@@ -1,0 +1,59 @@
+{
+  "title": "Betrayal Legacy",
+  "subtitle": "Una cronaca horror legacy multigenerazionale che forgia una famigerata dimora infestata",
+  "tagline": "Le generazioni periscono, ma la casa ricorda per sempre",
+  "loreSummary": "Rappresentate famiglie rivali legate nei secoli a una dimora maledetta tra i boschi del Massachusetts. Attraverso quattordici inquietanti capitoli che spaziano dal 1666 al 2004, le vostre gesta, cimeli e morti incideranno per sempre l'oscura storia della Casa sulla Collina.",
+  "badgeCategory": "Horror Legacy & Traditore",
+  "roadmapTitle": "🏚️ Cronaca Ancestrale & Secoli della Dimora",
+  "roadmapBadge": "CRONOLOGIA DELLA TENUTA",
+  "keyFeatures": [
+    "Campagna multigenerazionale che segue i lignaggi familiari attraverso 338 anni",
+    "Creazione di cimeli che legano permanentemente oggetti e poteri alle casate",
+    "Planimetria della dimora in continua evoluzione con adesivi e stanze sigillate",
+    "Sistema narrativo del Diario Funesto che innesca infestazioni dinamiche in ogni epoca"
+  ],
+  "scopes": {
+    "betrayal_campaign": {
+      "name": "La Cronaca in 14 Capitoli",
+      "description": "La campagna legacy ancestrale completa dal Prologo del 1666 attraverso 13 capitoli generazionali fino al gran finale del 2004."
+    },
+    "betrayal_extended": {
+      "name": "Campagna & Infestazioni Libere",
+      "description": "La campagna integrale in 14 capitoli seguita da 6 sessioni libere per esplorare la dimora permanentemente personalizzata."
+    },
+    "betrayal_completionist": {
+      "name": "Grandi Esplorazioni della Tenuta",
+      "description": "L'intera campagna più 12 sessioni aggiuntive per scoprire tessere stanza inesplorate, oggetti segreti e scenari alternativi."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "1666",
+      "title": "L'Incontro Fondativo",
+      "phase": "Era I - Colonia di Massachusetts Bay",
+      "description": "Cinque famiglie coloniali cercano rifugio in un podere isolato, risvegliando inconsapevolmente un male radicato nella terra."
+    },
+    {
+      "order": 2,
+      "badgeText": "XVIII sec.",
+      "title": "Lignaggi Coloniali",
+      "phase": "Era II - I Decenni Rivoluzionari",
+      "description": "I discendenti ereditano cimeli di famiglia e oscure colpe mentre nuove stanze sorgono sul suolo maledetto."
+    },
+    {
+      "order": 3,
+      "badgeText": "XIX sec.",
+      "title": "Il Declino Vittoriano",
+      "phase": "Era III - Le Infestazioni Dorate",
+      "description": "La prosperità industriale maschera il sinistro degrado della dimora mentre corridoi spettrali intrappolano un'altra generazione."
+    },
+    {
+      "order": 4,
+      "badgeText": "2004",
+      "title": "La Resa dei Conti Moderna",
+      "phase": "Era IV - Il Gran Finale Legacy",
+      "description": "Gli ultimi lignaggi superstiti affrontano secoli di orrori accumulati nella definitiva infestazione della Casa sulla Collina."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "betrayal-legacy",
+  "title": "Betrayal Legacy",
+  "releaseYear": 2018,
+  "designers": "Rob Daviau, Noah Cohen, JR Honeycutt, Ryan Miller, Brian Neff, Andrew Veen",
+  "playersMin": 3,
+  "playersMax": 5,
+  "bggRating": 7.7,
+  "bggWeight": 2.9,
+  "bggUrl": "https://boardgamegeek.com/boardgame/240196/betrayal-legacy",
+  "baseScenarioMinutes": 75,
+  "setupTeardownMinutes": 15,
+  "unitType": "chapters",
+  "theme": {
+    "primaryColor": "#a855f7",
+    "secondaryColor": "#120e1a",
+    "accentColor": "#e11d48",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2d1836 0%, #140d1c 60%, #09050d 100%)",
+    "cardBackground": "rgba(20, 13, 28, 0.90)",
+    "borderColor": "rgba(168, 85, 247, 0.35)",
+    "glowColor": "rgba(168, 85, 247, 0.25)",
+    "headerFont": "'Cormorant SC', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏚️",
+    "emblem": "🏚️🕯️",
+    "themeClass": "theme-betrayal",
+    "activeThemeClass": "theme-betrayal-active",
+    "roadmapClass": "roadmap-betrayal",
+    "heroClass": "hero-betrayal"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #240196)",
+    "Avalon Hill Official Betrayal Legacy Rulebook & Bleak Journal",
+    "Community Campaign Logs & Traitor's Tome Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "betrayal_campaign",
+      "baseScenarioCount": 14,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "betrayal_extended",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "betrayal_completionist",
+      "baseScenarioCount": 26,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🕯️",
+      "badgeText": "1666",
+      "title": "The Founding Gathering",
+      "phase": "Era I - Massachusetts Bay Colony",
+      "description": "Five colonial families seek shelter in an isolated homestead, unknowingly awakening a persistent evil in the soil."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "📜",
+      "badgeText": "1700s",
+      "title": "Colonial Bloodlines",
+      "phase": "Era II - The Revolutionary Decades",
+      "description": "Descendants inherit family heirlooms and darkest deeds as new rooms expand over the tainted ground."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🗝️",
+      "badgeText": "1800s",
+      "title": "The Victorian Descent",
+      "phase": "Era III - The Gilded Hauntings",
+      "description": "Industrial prosperity masks the sinister decay of the manor as spectral corridors entrap another generation."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 14,
+      "iconEmoji": "⏳",
+      "badgeText": "2004",
+      "title": "The Modern Reckoning",
+      "phase": "Era IV - The Legacy Finale",
+      "description": "The surviving bloodlines confront centuries of accumulated horrors in the definitive final haunt of the House on the Hill."
+    }
+  ]
+}

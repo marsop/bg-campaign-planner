@@ -1,0 +1,59 @@
+{
+  "title": "Betrayal Legacy",
+  "subtitle": "A multi-generational legacy horror chronicle shaping an infamous haunted estate",
+  "tagline": "Generations will perish, but the house always remembers",
+  "loreSummary": "You represent rival families tied across centuries to a cursed mansion in the Massachusetts woods. Over fourteen haunting chapters spanning from 1666 to 2004, your deeds, heirlooms, and deaths permanently carve the dark history of the House on the Hill.",
+  "badgeCategory": "Legacy Horror & Traitor",
+  "roadmapTitle": "🏚️ Ancestral Chronicle & Decades of the House",
+  "roadmapBadge": "ESTATE TIMELINE",
+  "keyFeatures": [
+    "Multi-generational campaign tracking family bloodlines across 338 years",
+    "Heirloom creation permanently bonding items and powers to family lineages",
+    "Evolving mansion layout with persistent stickers, sealed rooms, and custom tiles",
+    "The Bleak Journal narrative system triggering dynamic hauntings each era"
+  ],
+  "scopes": {
+    "betrayal_campaign": {
+      "name": "The 14-Session Chronicle",
+      "description": "The complete ancestral legacy campaign from the 1666 Prologue through 13 generational chapters to the 2004 grand finale."
+    },
+    "betrayal_extended": {
+      "name": "Campaign & Free-Play Haunts",
+      "description": "The full 14-chapter campaign followed by 6 post-campaign sessions exploring the permanently personalized mansion in Free Play mode."
+    },
+    "betrayal_completionist": {
+      "name": "Grand Estate Explorations",
+      "description": "The complete campaign plus 12 post-campaign haunts to discover untapped room tiles, unrevealed items, and alternate haunt scenarios."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "1666",
+      "title": "The Founding Gathering",
+      "phase": "Era I - Massachusetts Bay Colony",
+      "description": "Five colonial families seek shelter in an isolated homestead, unknowingly awakening a persistent evil in the soil."
+    },
+    {
+      "order": 2,
+      "badgeText": "1700s",
+      "title": "Colonial Bloodlines",
+      "phase": "Era II - The Revolutionary Decades",
+      "description": "Descendants inherit family heirlooms and darkest deeds as new rooms expand over the tainted ground."
+    },
+    {
+      "order": 3,
+      "badgeText": "1800s",
+      "title": "The Victorian Descent",
+      "phase": "Era III - The Gilded Hauntings",
+      "description": "Industrial prosperity masks the sinister decay of the manor as spectral corridors entrap another generation."
+    },
+    {
+      "order": 4,
+      "badgeText": "2004",
+      "title": "The Modern Reckoning",
+      "phase": "Era IV - The Legacy Finale",
+      "description": "The surviving bloodlines confront centuries of accumulated horrors in the definitive final haunt of the House on the Hill."
+    }
+  ]
+}

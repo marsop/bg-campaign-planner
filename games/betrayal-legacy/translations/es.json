@@ -1,0 +1,59 @@
+{
+  "title": "Betrayal Legacy",
+  "subtitle": "Una crónica de terror legacy multigeneracional que forja una infame mansión embrujada",
+  "tagline": "Las generaciones perecerán, pero la casa siempre recuerda",
+  "loreSummary": "Representáis a familias rivales ligadas durante siglos a una mansión maldita en los bosques de Massachusetts. A lo largo de catorce sobrecogedores capítulos que abarcan desde 1666 hasta 2004, vuestras acciones, reliquias y muertes grabarán para siempre la oscura historia de la Casa de la Colina.",
+  "badgeCategory": "Terror Legacy y Traidor",
+  "roadmapTitle": "🏚️ Crónica Ancestral y Décadas de la Mansión",
+  "roadmapBadge": "CRONOLOGÍA DE LA FINCA",
+  "keyFeatures": [
+    "Campaña multigeneracional que sigue linajes familiares a lo largo de 338 años",
+    "Creación de reliquias que vinculan permanentemente objetos y poderes a familias",
+    "Mansión en constante evolución con adhesivos permanentes, estancias selladas y losetas personalizadas",
+    "Sistema narrativo del Diario Tétrico que desata apariciones dinámicas en cada era"
+  ],
+  "scopes": {
+    "betrayal_campaign": {
+      "name": "Crónica de 14 Sesiones",
+      "description": "La campaña legacy ancestral completa desde el Prólogo de 1666 a través de 13 capítulos generacionales hasta el gran final de 2004."
+    },
+    "betrayal_extended": {
+      "name": "Campaña y Sesiones Libres",
+      "description": "La campaña completa de 14 capítulos seguida de 6 sesiones adicionales explorando la mansión permanentemente personalizada en modo libre."
+    },
+    "betrayal_completionist": {
+      "name": "Exploraciones de la Gran Mansión",
+      "description": "La campaña completa más 12 sesiones posteriores para descubrir losetas de habitaciones inexploradas, objetos ocultos y escenarios de aparición alternativos."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "1666",
+      "title": "La Reunión Fundacional",
+      "phase": "Era I - Colonia de la Bahía de Massachusetts",
+      "description": "Cinco familias coloniales buscan cobijo en una granja aislada, despertando sin saberlo un mal arraigado en la tierra."
+    },
+    {
+      "order": 2,
+      "badgeText": "S. XVIII",
+      "title": "Linajes Coloniales",
+      "phase": "Era II - Las Décadas Revolucionarias",
+      "description": "Los descendientes heredan reliquias familiares y funestos actos mientras nuevas estancias se alzan sobre suelo maldito."
+    },
+    {
+      "order": 3,
+      "badgeText": "S. XIX",
+      "title": "El Descenso Victoriano",
+      "phase": "Era III - Apariciones en la Edad Dorada",
+      "description": "La prosperidad industrial enmascara la siniestra decadencia de la mansión mientras pasillos espectrales atrapan a otra generación."
+    },
+    {
+      "order": 4,
+      "badgeText": "2004",
+      "title": "El Juicio Moderno",
+      "phase": "Era IV - El Gran Final Legacy",
+      "description": "Los últimos linajes supervivientes confrontan siglos de horrores acumulados en la aparición definitiva de la Casa de la Colina."
+    }
+  ]
+}

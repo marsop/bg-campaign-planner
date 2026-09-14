@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.16.0] - 2026-09-14
+## [0.17.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Betrayal Legacy** multi-generational horror legacy campaign tracking familial bloodlines and permanent mansion changes across 338 years (1666 to 2004).
+  - 3 campaign scope presets: *The 14-Session Chronicle* (14 chapters), *Campaign & Free-Play Haunts* (20 chapters), and *Grand Estate Explorations* (26 chapters).
+  - 4 narrative milestone checkpoints across centuries with spoiler protection (*The Founding Gathering*, *Colonial Bloodlines*, *The Victorian Descent*, *The Modern Reckoning*).
+  - Thematic visual identity (spectral purple `#a855f7`, cursed shadow `#120e1a`, and blood crimson `#e11d48` styling with authentic 1:1 flat box cover art and atmospheric 16:9 widescreen haunted manor backdrop).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
 
 ### Added
 - **New Board Game Added**:

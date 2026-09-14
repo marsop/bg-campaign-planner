@@ -1,0 +1,59 @@
+{
+  "title": "Betrayal Legacy",
+  "subtitle": "Une chronique d'horreur legacy multigénérationnelle façonnant un manoir maudit",
+  "tagline": "Les générations passent, mais la maison se souvient toujours",
+  "loreSummary": "Vous incarnez des familles rivales liées à travers les siècles à un manoir maudit des forêts du Massachusetts. Au fil de quatorze chapitres angoissants s'étendant de 1666 à 2004, vos actes, reliques et trépas forgent à jamais la ténébreuse histoire de la Maison sur la Colline.",
+  "badgeCategory": "Horreur Legacy & Traître",
+  "roadmapTitle": "🏚️ Chronique Ancestrale & Décennies du Domaine",
+  "roadmapBadge": "CHRONOLOGIE DU DOMAINE",
+  "keyFeatures": [
+    "Campagne multigénérationnelle suivant des lignées familiales sur 338 ans",
+    "Création de reliques liant de façon permanente objets et pouvoirs aux familles",
+    "Agencement du manoir en perpétuelle évolution avec autocollants et pièces scellées",
+    "Système narratif du Carnet Lugubre déclenchant des hantises dynamiques à chaque époque"
+  ],
+  "scopes": {
+    "betrayal_campaign": {
+      "name": "La Chronique en 14 Chapitres",
+      "description": "La campagne legacy ancestrale complète, du Prologue de 1666 jusqu'au grand dénouement de 2004 à travers 13 chapitres générationnels."
+    },
+    "betrayal_extended": {
+      "name": "Campagne & Hantises Libres",
+      "description": "La campagne complète de 14 chapitres suivie de 6 parties libres pour explorer votre manoir définitivement personnalisé."
+    },
+    "betrayal_completionist": {
+      "name": "Grandes Explorations du Domaine",
+      "description": "La campagne intégrale plus 12 parties supplémentaires pour dévoiler les tuiles inexplorées, objets scellés et hantises alternatives."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "1666",
+      "title": "La Réunion Fondatrice",
+      "phase": "Ère I - Colonie de la Baie du Massachusetts",
+      "description": "Cinq familles de colons cherchent refuge dans une ferme isolée, réveillant à leur insu une abomination ancestrale."
+    },
+    {
+      "order": 2,
+      "badgeText": "XVIIIe s.",
+      "title": "Lignées Coloniales",
+      "phase": "Ère II - Les Décennies Révolutionnaires",
+      "description": "Les descendants héritent des reliques familiales et d'actes coupables tandis que de nouvelles pièces s'érigent sur la terre maudite."
+    },
+    {
+      "order": 3,
+      "badgeText": "XIXe s.",
+      "title": "Le Déclin Victorien",
+      "phase": "Ère III - Les Hantises de l'Âge d'Or",
+      "description": "La prospérité industrielle masque la décrépitude sinistre du manoir alors que des couloirs spectraux piègent une autre génération."
+    },
+    {
+      "order": 4,
+      "badgeText": "2004",
+      "title": "Le Jugement Moderne",
+      "phase": "Ère IV - L'Apogée Finale Legacy",
+      "description": "Les dernières lignées affrontent des siècles d'horreurs accumulées lors de l'ultime hantise de la Maison sur la Colline."
+    }
+  ]
+}
