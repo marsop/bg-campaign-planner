@@ -10,13 +10,12 @@ requested by the user.
 
 **Currently in app:**
 Gloomhaven · Frosthaven · Pandemic Legacy: Season 0 · Sleeping Gods · Pandemic Legacy: Season 1
-Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster
+Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1
 
 ---
 
 ## 🟥 High Priority
 
-- **Middara: Unintentional Malum — Act 1** — Massive anime-style RPG dungeon crawler. 70–100+ hours of content. ~8.5 BGG. 1–4 players.
 - **Descent: Legends of the Dark** — App-driven dungeon crawler by Fantasy Flight. Scenario-based campaign, 40–60+ hours. ~7.6 BGG. 1–4 players.
 
 ---
