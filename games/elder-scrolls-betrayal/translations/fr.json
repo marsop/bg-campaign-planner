@@ -1,0 +1,63 @@
+{
+  "title": "The Elder Scrolls: Betrayal of the Second Era",
+  "subtitle": "Exploration épique en monde ouvert, progression de héros et donjons tactiques à travers les provinces de Tamriel",
+  "tagline": "Forgez votre héros, déjouez la Coalescence et révélez la trahison",
+  "loreSummary": "Tamriel vacille sous l'assaut de la Coalescence tandis que l'Ordre du Ver Noir complote pour dérober l'Amulette des Rois. Entre ancres noires et factions rivales, une trahison encore plus sombre menace d'engloutir les mortels dans l'Oblivion.",
+  "badgeCategory": "Aventure Coopérative en Monde Ouvert",
+  "roadmapTitle": "📜 Chronique Provinciale de Tamriel & Progression de Campagne",
+  "roadmapBadge": "FEUILLE DE ROUTE TAMRIEL",
+  "keyFeatures": [
+    "Aventures modulaires de 3 sessions s'enchaînant en monumentales campagnes provinciales",
+    "Progression profonde des héros avec de riches arbres de compétences, classes et origines raciales",
+    "Double phase de jeu : exploration terrestre régionale et affrontements tactiques sur grilles hexagonales",
+    "Lignes de quêtes de guildes rejouables à travers Cyrodiil, Morrowind, Hauteroche et le Marais Noir"
+  ],
+  "scopes": {
+    "tes_single_adventure": {
+      "name": "Aventure Provinciale Unique (1 Région)",
+      "description": "Un arc narratif autonome de 3 sessions dans une seule province, culminant dans une périlleuse exploration de donjon régional."
+    },
+    "tes_provincial_chronicle": {
+      "name": "Chronique de Campagne Provinciale (3 Régions)",
+      "description": "La campagne complète recommandée à travers 3 provinces interconnectées, forgeant votre héros au cours de 9 sessions épiques jusqu'au grand final."
+    },
+    "tes_grand_tamriel": {
+      "name": "Grande Odyssée de Tamriel (5 Régions)",
+      "description": "Une vaste épopée multirégionale traversant 5 provinces et affrontant les périls croissants de la Coalescence en 15 sessions."
+    },
+    "tes_master_lorekeeper": {
+      "name": "Maître Érudit de Tamriel (Toutes Provinces & Extensions)",
+      "description": "Le périple complétiste ultime à travers toutes les régions de base et extensions, accomplissant les contrats majeurs de guildes en 24 sessions."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Av. 1",
+      "title": "Première Épreuve Provinciale",
+      "phase": "Arc de Campagne I - Ombres sur la Frontière",
+      "description": "Explorer les contrées sauvages et guildes régionales pour triompher du premier donjon culminant."
+    },
+    {
+      "order": 2,
+      "badgeText": "Av. 2",
+      "title": "La Coalescence s'étend",
+      "phase": "Arc de Campagne II - Le Culte du Ver Noir",
+      "description": "Déjouer les complots nécromantiques et ancres noires qui déchirent le voile de Mundus."
+    },
+    {
+      "order": 3,
+      "badgeText": "Av. 3",
+      "title": "Le Cœur de la Province",
+      "phase": "Arc de Campagne III - Maîtrise Régionale",
+      "description": "Conquérir des donjons experts majeurs et préserver la stabilité régionale contre les assauts d'Oblivion."
+    },
+    {
+      "order": 4,
+      "badgeText": "Av. 5",
+      "title": "Sauveur de Tamriel",
+      "phase": "Arc de Campagne IV - La Grande Culmination",
+      "description": "Franchir les frontières provinciales pour affronter la traîtresse ultime et sauvegarder le monde des mortels."
+    }
+  ]
+}

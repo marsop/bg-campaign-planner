@@ -1,0 +1,59 @@
+﻿{
+  "title": "ISS Vanguard",
+  "subtitle": "Eine epische kooperative Sci-Fi-Erkundungskampagne durch unerforschte Sternensysteme",
+  "tagline": "Erforsche das Unbekannte, kommandiere die Vanguard und enthülle den kosmischen Ursprung der Menschheit",
+  "loreSummary": "Die Menschheit entdeckte mysteriöse Koordinaten in vermeintlicher Junk-DNA. Über zahllose Lichtjahre hinweg bricht die Besatzung des Raumschiffs ISS Vanguard in die unbekannte Weite auf, um die Verfasser dieser Botschaft zu finden.",
+  "badgeCategory": "Sci-Fi-Kampagne & Raumschiff-Erkundung",
+  "roadmapTitle": "🚀 Tiefraum-Expedition & Chronik der Vorläufer",
+  "roadmapBadge": "VANGUARD-ODYSSEE",
+  "keyFeatures": [
+    "Zwei-Phasen-Kampagne, die planetare Erkundung mit detailreichem Schiffsmanagement abwechselt",
+    "Vier spezialisierte Schiffsabteilungen: Sicherheit, Aufklärung, Wissenschaft und Technik",
+    "Anpassbare Besatzungsentwicklung, modifizierbare Würfel und Ausrüstungsproduktion",
+    "Atmosphärische Planetenordner, verzweigte Story-Einträge und kosmische Mysterien"
+  ],
+  "scopes": {
+    "issv_standard": {
+      "name": "Standard-Kampagnen-Expedition",
+      "description": "Die vollständige Hauptroute der Kampagne, die zentrale planetare Entdeckungen, kritische Sektoranomalien und unverzichtbare Schiffs-Upgrades ausbalanciert."
+    },
+    "issv_story": {
+      "name": "Fokussierte Odyssee (Hauptpfad)",
+      "description": "Eine gestraffte narrative Route, die vorrangig Hauptmissionsziele und entscheidende Planetenlandungen ansteuert, um das kosmische Finale zu erreichen."
+    },
+    "issv_completionist": {
+      "name": "Meister-Erkunder (Alle Sektoren & Systeme)",
+      "description": "Eine lückenlose Tiefraum-Chronik, die jeden optionalen Landepunkt besucht, wissenschaftliche Durchbrüche maximiert und alle Schiffsabteile voll ausbaut."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Erste Landung",
+      "title": "Aufbruch & Jungfernfahrt",
+      "phase": "Tiefraum-Aufklärung - Genesis-Sektor",
+      "description": "Start der Vanguard in den unerforschten Raum, Durchführung erster Planetenlandungen und Freischaltung von Spezialisierungsprotokollen für die Besatzung."
+    },
+    {
+      "order": 2,
+      "badgeText": "Koordinaten",
+      "title": "Echos der Vorläufer",
+      "phase": "Tiefraum-Aufklärung - Das Alien-Signal",
+      "description": "Entschlüsselung rätselhafter Himmelskoordinaten aus der menschlichen DNA, Erkundung anomaler Welten und Aufrüstung zentraler Schiffssysteme."
+    },
+    {
+      "order": 3,
+      "badgeText": "Die Bresche",
+      "title": "Die kosmische Schwelle",
+      "phase": "Tiefraum-Aufklärung - Äußere Grenzwelt",
+      "description": "Überstehen verheerender Tiefraumgefahren und feindseliger Planetenökosysteme beim Zusammentragen der finalen Sternentor-Koordinaten."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Schicksal der Menschheit",
+      "phase": "Tiefraum-Aufklärung - Die Kernwahrheit",
+      "description": "Durchführung der ultimativen Tiefraumexpedition, um den wahren Ursprung und Zweck zu entschlüsseln, der in den Sternen geschrieben steht."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+﻿{
+  "id": "iss-vanguard",
+  "title": "ISS Vanguard",
+  "releaseYear": 2022,
+  "designers": "Andrzej Betkiewicz, Krzysztof Piskorski, Marcin Świerkot, Paweł Samborski",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.1,
+  "bggWeight": 3.67,
+  "bggUrl": "https://boardgamegeek.com/boardgame/325494/iss-vanguard",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 25,
+  "unitType": "missions",
+  "theme": {
+    "primaryColor": "#8b5cf6",
+    "secondaryColor": "#0b0f19",
+    "accentColor": "#06b6d4",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e1b4b 0%, #0b0f19 60%, #030712 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.90)",
+    "borderColor": "rgba(139, 92, 246, 0.35)",
+    "glowColor": "rgba(6, 182, 212, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🚀",
+    "emblem": "🚀🪐",
+    "themeClass": "theme-issvanguard",
+    "activeThemeClass": "theme-issvanguard-active",
+    "roadmapClass": "roadmap-issvanguard",
+    "heroClass": "hero-issvanguard"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #325494 Top 100 Thematic)",
+    "Awaken Realms Official Ship Book and Operations Rulebook",
+    "Community Campaign Survey Statistics & Sector Playthrough Metrics"
+  ],
+  "scopes": [
+    {
+      "id": "issv_standard",
+      "baseScenarioCount": 22,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "issv_story",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "issv_completionist",
+      "baseScenarioCount": 30,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🛰️",
+      "badgeText": "First Landing",
+      "title": "Departure & Maiden Voyage",
+      "phase": "Deep Space Reconnaissance - Genesis Sector",
+      "description": "Launching the Vanguard into uncharted space, conducting initial planetary landings and unlocking crew specialization protocols."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 11,
+      "iconEmoji": "🧬",
+      "badgeText": "Coordinates",
+      "title": "Echoes of the Precursors",
+      "phase": "Deep Space Reconnaissance - The Alien Signal",
+      "description": "Unraveling cryptic celestial coordinates left in human DNA, exploring anomalous worlds and upgrading key ship systems."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 17,
+      "iconEmoji": "🌌",
+      "badgeText": "The Breach",
+      "title": "The Cosmic Threshold",
+      "phase": "Deep Space Reconnaissance - Outer Frontier",
+      "description": "Surviving catastrophic deep-space hazards and hostile planetary ecosystems while assembling the final star-gate coordinates."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 22,
+      "iconEmoji": "✨",
+      "badgeText": "Finale",
+      "title": "Destiny of Humankind",
+      "phase": "Deep Space Reconnaissance - The Core Truth",
+      "description": "Executing the ultimate deep-space expedition to decipher the true origin and purpose encoded in the stars."
+    }
+  ]
+}

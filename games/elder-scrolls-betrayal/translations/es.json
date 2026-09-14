@@ -1,0 +1,63 @@
+{
+  "title": "The Elder Scrolls: Betrayal of the Second Era",
+  "subtitle": "Exploración épica de mundo abierto, desarrollo de héroes y mazmorras tácticas en las provincias de Tamriel",
+  "tagline": "Forja a tu héroe, frustra la Fusión de Planos y desentraña la traición",
+  "loreSummary": "Tamriel se fractura bajo el asedio de la Fusión de Planos mientras la Orden del Gusano Negro codicia el Amuleto de Reyes. Entre anclas oscuras y facciones en pugna, una traición aún más profunda amenaza con sumir a los mortales en el Olvido.",
+  "badgeCategory": "Aventura Cooperativa de Mundo Abierto",
+  "roadmapTitle": "📜 Crónica Provincial de Tamriel y Progresión de Campaña",
+  "roadmapBadge": "HOJA DE RUTA TAMRIEL",
+  "keyFeatures": [
+    "Aventuras modulares de 3 sesiones enlazables en monumentales campañas provinciales",
+    "Profundo desarrollo de personajes con amplias ramas de habilidades, clases y linajes raciales",
+    "Doble fase jugable: exploración de mapas terrestres y combate táctico en mazmorras hexagonales",
+    "Líneas de misiones de gremio rejugables por Cyrodiil, Morrowind, Roca Alta y Ciénaga Negra"
+  ],
+  "scopes": {
+    "tes_single_adventure": {
+      "name": "Aventura Provincial Única (1 Región)",
+      "description": "Un arco narrativo independiente de 3 sesiones en una sola provincia, rematado con una mazmorra regional culminante."
+    },
+    "tes_provincial_chronicle": {
+      "name": "Crónica de Campaña Provincial (3 Regiones)",
+      "description": "La campaña completa recomendada a través de 3 provincias enlazadas, desarrollando tu personaje a lo largo de 9 épicas sesiones hasta el gran desenlace."
+    },
+    "tes_grand_tamriel": {
+      "name": "Gran Odisea de Tamriel (5 Regiones)",
+      "description": "Una vasta saga multirregional que recorre 5 provincias y enfrenta catástrofes crecientes de la Fusión de Planos en 15 sesiones."
+    },
+    "tes_master_lorekeeper": {
+      "name": "Erudito Maestro de Tamriel (Provincias y Expansiones)",
+      "description": "El viaje completista definitivo por todas las provincias básicas y de expansión, resolviendo los mayores contratos de gremios en 24 sesiones."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Av. 1",
+      "title": "Primera Prueba Provincial",
+      "phase": "Arco de Campaña I - Sombras en la Frontera",
+      "description": "Navegando las tierras salvajes y los gremios locales para vencer la primera gran mazmorra regional."
+    },
+    {
+      "order": 2,
+      "badgeText": "Av. 2",
+      "title": "La Fusión de Planos se Intensifica",
+      "phase": "Arco de Campaña II - El Culto del Gusano Negro",
+      "description": "Desentrañando maquinaciones nigrománticas y anclas oscuras que desgarran el tejido de Mundus."
+    },
+    {
+      "order": 3,
+      "badgeText": "Av. 3",
+      "title": "El Corazón de la Provincia",
+      "phase": "Arco de Campaña III - Dominio Regional",
+      "description": "Superando mazmorras maestras de alto nivel y estabilizando la región frente a las garras del Olvido."
+    },
+    {
+      "order": 4,
+      "badgeText": "Av. 5",
+      "title": "Salvador de Tamriel",
+      "phase": "Arco de Campaña IV - La Gran Culminación",
+      "description": "Cruzando las fronteras provinciales para encarar a la gran traidora y proteger el reino mortal."
+    }
+  ]
+}

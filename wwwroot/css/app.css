@@ -171,8 +171,8 @@ body {
     display: block;
     width: 84px;
     height: 84px;
-    border-radius: 18px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 16px rgba(234, 179, 8, 0.35);
+    filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.5)) drop-shadow(0 0 16px rgba(234, 179, 8, 0.35));
+    object-fit: contain;
 }
 
 @keyframes bounce {
@@ -959,7 +959,7 @@ body {
     height: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: inherit;
     display: block;
 }
 
@@ -990,7 +990,7 @@ body {
     height: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: inherit;
     display: block;
 }
 
@@ -1002,18 +1002,12 @@ body {
         min-height: 64px;
         border-radius: 10px;
     }
-    .game-cover-img {
-        border-radius: 8px;
-    }
     .hero-cover-box {
         width: 72px;
         height: 72px;
         min-width: 72px;
         min-height: 72px;
         border-radius: 12px;
-    }
-    .hero-cover-img {
-        border-radius: 10px;
     }
 }
 

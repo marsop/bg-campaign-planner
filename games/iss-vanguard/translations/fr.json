@@ -1,0 +1,59 @@
+﻿{
+  "title": "ISS Vanguard",
+  "subtitle": "Une campagne coopérative épique d'exploration spatiale à travers des systèmes stellaires inconnus",
+  "tagline": "Explorez l'inconnu, commandez le Vanguard et découvrez les origines cosmiques de l'humanité",
+  "loreSummary": "L'humanité a découvert des coordonnées enfouies au cœur de l'ADN non codant. À travers d'innombrables années-lumière, l'équipage du vaisseau ISS Vanguard s'aventure dans l'inconnu pour retrouver les auteurs de ce mystérieux message.",
+  "badgeCategory": "Campagne de Science-Fiction & Exploration Spatiale",
+  "roadmapTitle": "🚀 Expédition en Espace Profond & Chronique des Précurseurs",
+  "roadmapBadge": "ODYSSÉE VANGUARD",
+  "keyFeatures": [
+    "Campagne à double phase alternant exploration planétaire et gestion approfondie du vaisseau",
+    "Quatre sections spécialisées du vaisseau : Sécurité, Reconnaissance, Science et Ingénierie",
+    "Développement personnalisable de l'équipage, dés modulables et production d'équipements",
+    "Classeurs planétaires immersifs, journaux d'exploration à embranchements et mystères cosmiques"
+  ],
+  "scopes": {
+    "issv_standard": {
+      "name": "Expédition de Campagne Standard",
+      "description": "L'arc narratif principal complet conciliant découvertes planétaires majeures, anomalies de secteurs critiques et améliorations indispensables du vaisseau."
+    },
+    "issv_story": {
+      "name": "Odyssée Accélérée (Trame Principale)",
+      "description": "Un itinéraire narratif épuré privilégiant les missions primordiales et les atterrissages planétaires vitaux pour atteindre le dénouement cosmique."
+    },
+    "issv_completionist": {
+      "name": "Maître Explorateur (Tous Secteurs & Systèmes)",
+      "description": "Chronique intégrale de l'espace profond visitant chaque site d'atterrissage optionnel, maximisant les percées scientifiques et améliorant tous les compartiments du vaisseau."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Premier Atterrissage",
+      "title": "Départ & Voyage Inaugural",
+      "phase": "Reconnaissance en Espace Profond - Secteur Genesis",
+      "description": "Lancement du Vanguard vers l'espace inexploré, accomplissement des premiers atterrissages planétaires et déblocage des protocoles de spécialisation de l'équipage."
+    },
+    {
+      "order": 2,
+      "badgeText": "Coordonnées",
+      "title": "Les Échos des Précurseurs",
+      "phase": "Reconnaissance en Espace Profond - Le Signal Extraterrestre",
+      "description": "Déchiffrement de coordonnées célestes énigmatiques dissimulées dans l'ADN humain, exploration de mondes anormaux et amélioration des systèmes clés du vaisseau."
+    },
+    {
+      "order": 3,
+      "badgeText": "La Brèche",
+      "title": "Le Seuil Cosmique",
+      "phase": "Reconnaissance en Espace Profond - Frontière Extérieure",
+      "description": "Survie face aux périls cataclysmiques de l'espace profond et aux écosystèmes hostiles tout en rassemblant les coordonnées finales de la porte stellaire."
+    },
+    {
+      "order": 4,
+      "badgeText": "Dénouement",
+      "title": "Le Destin de l'Humanité",
+      "phase": "Reconnaissance en Espace Profond - La Vérité Ultime",
+      "description": "Exécution de l'expédition suprême en espace lointain pour élucider l'origine et le dessein véritables gravés au cœur des étoiles."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "The Elder Scrolls: Betrayal of the Second Era",
+  "subtitle": "Epica esplorazione a mondo aperto, sviluppo dei personaggi e dungeon tattici nelle province di Tamriel",
+  "tagline": "Forgia il tuo eroe, sventa la Fusione dei Piani e svela il tradimento",
+  "loreSummary": "Tamriel vacilla sotto la minaccia della Fusione dei Piani mentre l'Ordine del Verme Nero trama per impadronirsi dell'Amuleto dei Re. Tra ancore oscure e fazioni in lotta, un tradimento ancora più infido rischia di trascinare il mondo mortale nell'Oblivion.",
+  "badgeCategory": "Avventura Cooperativa a Mondo Aperto",
+  "roadmapTitle": "📜 Cronaca Provinciale di Tamriel & Progressione della Campagna",
+  "roadmapBadge": "TABELLA DI MARCIA TAMRIEL",
+  "keyFeatures": [
+    "Avventure modulari di 3 sessioni collegabili in monumentali campagne provinciali",
+    "Profondo sviluppo dei personaggi con ampi rami di abilità, classi e lignaggi razziali",
+    "Doppia fase di gioco: esplorazione della mappa regionale e combattimenti tattici su griglia esagonale",
+    "Trame di gilda altamente rigiocabili attraverso Cyrodiil, Morrowind, High Rock e Black Marsh"
+  ],
+  "scopes": {
+    "tes_single_adventure": {
+      "name": "Singola Avventura Provinciale (1 Regione)",
+      "description": "Un arco narrativo autonomo di 3 sessioni in una singola provincia, culminante in un'impegnativa incursione finale nel dungeon."
+    },
+    "tes_provincial_chronicle": {
+      "name": "Cronaca di Campagna Provinciale (3 Regioni)",
+      "description": "La campagna completa consigliata attraverso 3 province collegate, sviluppando il tuo eroe lungo 9 epiche sessioni fino al grande scontro finale."
+    },
+    "tes_grand_tamriel": {
+      "name": "Grande Odissea di Tamriel (5 Regioni)",
+      "description": "Una vasta saga multiregionale che attraversa 5 province affrontando i crescenti pericoli della Fusione dei Piani in 15 sessioni."
+    },
+    "tes_master_lorekeeper": {
+      "name": "Maestro delle Cronache (Tutte le Province ed Espansioni)",
+      "description": "Il viaggio completista definitivo attraverso ogni regione base ed espansione, portando a termine i contratti più prestigiosi in 24 sessioni."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Avv. 1",
+      "title": "Prima Prova Provinciale",
+      "phase": "Arco di Campagna I - Ombre sul Confine",
+      "description": "Esplorando le terre selvagge e le gilde regionali per sconfiggere il primo grande dungeon culminante."
+    },
+    {
+      "order": 2,
+      "badgeText": "Avv. 2",
+      "title": "La Fusione dei Piani si Inasprisce",
+      "phase": "Arco di Campagna II - Il Culto del Verme Nero",
+      "description": "Svelando macchinazioni negromantiche e ancore oscure che lacerano la struttura di Mundus."
+    },
+    {
+      "order": 3,
+      "badgeText": "Avv. 3",
+      "title": "Il Cuore della Provincia",
+      "phase": "Arco di Campagna III - Padronanza Regionale",
+      "description": "Superando dungeon maestri di alto livello e proteggendo la regione dalle grinfie dell'Oblivion."
+    },
+    {
+      "order": 4,
+      "badgeText": "Avv. 5",
+      "title": "Salvatore di Tamriel",
+      "phase": "Arco di Campagna IV - La Grande Culminazione",
+      "description": "Valicando i confini provinciali per affrontare il traditore supremo e preservare il regno dei mortali."
+    }
+  ]
+}

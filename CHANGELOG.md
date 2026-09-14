@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.9.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **ISS Vanguard** cooperative sci-fi exploration campaign.
+  - 3 campaign scope presets: *Standard Campaign Expedition* (22 missions), *Expedited Odyssey (Core Path)* (16 missions), and *Master Explorer (All Sectors & Systems)* (30 missions).
+  - 4 narrative milestone checkpoints spanning deep-space reconnaissance with spoiler masking support (*Departure & Maiden Voyage*, *Echoes of the Precursors*, *The Cosmic Threshold*, *Destiny of Humankind*).
+  - Thematic visual identity (cosmic violet `#8b5cf6`, deep void `#0b0f19`, and celestial cyan `#06b6d4` styling with custom 1:1 cover art and widescreen background).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+### Changed
+- **Borderless Assets & Logo Clean-up**:
+  - Converted app logo and favicons to clean, borderless transparent cutouts of the celestial d20 compass rose, eliminating the outer white rim/bands.
+  - Cropped white borders and letterboxing from game covers for *Descent: Legends of the Dark*, *Kingdom Death: Monster*, and *Sleeping Gods* into seamless 1:1 square artwork.
+  - Enhanced loading screen with realistic silhouette drop shadows for the floating logo emblem.
+  - Harmonized thumbnail container border clipping rules in `app.css`.
+
+## [0.8.0] - 2026-09-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **The Elder Scrolls: Betrayal of the Second Era** open-world cooperative campaign.
+  - 4 campaign scope presets: *Single Province Adventure (1 Region)*, *Provincial Campaign Chronicle (3 Regions)*, *Grand Tamriel Odyssey (5 Regions)*, and *Master Lorekeeper (All Provinces & Expansions)*.
+  - 4 narrative milestone checkpoints spanning regional adventures with spoiler masking support.
+  - Thematic visual identity (imperial gold, dark basalt slate, and aether blue styling with custom 1:1 cover art and 16:9 widescreen Tamriel wilderness background).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
 ## [0.7.0] - 2026-09-14
 
 ### Added

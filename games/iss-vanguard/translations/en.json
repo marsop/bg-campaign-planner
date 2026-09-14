@@ -1,0 +1,59 @@
+﻿{
+  "title": "ISS Vanguard",
+  "subtitle": "An epic cooperative sci-fi exploration campaign across uncharted star systems",
+  "tagline": "Chart the unknown, command the Vanguard, uncover humanity's cosmic origins",
+  "loreSummary": "Humanity discovered coordinates hidden inside junk DNA. Across countless light-years, the crew of the starship ISS Vanguard embarks into the dark expanse to find the creators of that message.",
+  "badgeCategory": "Sci-Fi Campaign & Ship Exploration",
+  "roadmapTitle": "🚀 Deep Space Expedition & Precursor Chronicle",
+  "roadmapBadge": "VANGUARD ODYSSEY",
+  "keyFeatures": [
+    "Dual-phase campaign alternating planetary exploration with in-depth ship management",
+    "Four specialized ship sections: Security, Recon, Science, and Engineering",
+    "Customizable crew development, dice customization, and equipment production",
+    "Rich planetary binders, branching story logs, and cosmic mysteries"
+  ],
+  "scopes": {
+    "issv_standard": {
+      "name": "Standard Campaign Expedition",
+      "description": "The complete primary campaign path balancing core planetary discoveries, critical sector anomalies, and essential ship upgrades."
+    },
+    "issv_story": {
+      "name": "Expedited Odyssey (Core Path)",
+      "description": "A streamlined narrative route prioritizing main mission objectives and vital planetary landings to reach the cosmic finale."
+    },
+    "issv_completionist": {
+      "name": "Master Explorer (All Sectors & Systems)",
+      "description": "Comprehensive deep-space chronicle visiting every optional planetary landing site, maximizing research breakthroughs, and upgrading all ship compartments."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "First Landing",
+      "title": "Departure & Maiden Voyage",
+      "phase": "Deep Space Reconnaissance - Genesis Sector",
+      "description": "Launching the Vanguard into uncharted space, conducting initial planetary landings and unlocking crew specialization protocols."
+    },
+    {
+      "order": 2,
+      "badgeText": "Coordinates",
+      "title": "Echoes of the Precursors",
+      "phase": "Deep Space Reconnaissance - The Alien Signal",
+      "description": "Unraveling cryptic celestial coordinates left in human DNA, exploring anomalous worlds and upgrading key ship systems."
+    },
+    {
+      "order": 3,
+      "badgeText": "The Breach",
+      "title": "The Cosmic Threshold",
+      "phase": "Deep Space Reconnaissance - Outer Frontier",
+      "description": "Surviving catastrophic deep-space hazards and hostile planetary ecosystems while assembling the final star-gate coordinates."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Destiny of Humankind",
+      "phase": "Deep Space Reconnaissance - The Core Truth",
+      "description": "Executing the ultimate deep-space expedition to decipher the true origin and purpose encoded in the stars."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "The Elder Scrolls: Betrayal of the Second Era",
+  "subtitle": "Epische Erkundung einer offenen Welt, Heldenentwicklung und taktische Delve-Gefechte in den Provinzen Tamriels",
+  "tagline": "Schmiedet euren Helden, vereitelt die Planverschmelzung und enthüllt den Verrat",
+  "loreSummary": "Tamriel zerbricht unter der Last der Planverschmelzung, während der Orden des Schwarzen Wurms nach dem Amulett der Könige strebt. Inmitten dunkler Anker und intrigierender Fraktionen bedroht ein noch düstererer Verrat die sterbliche Welt.",
+  "badgeCategory": "Kooperatives Open-World-Abenteuer",
+  "roadmapTitle": "📜 Provinzen-Chronik Tamriels & Kampagnenfortschritt",
+  "roadmapBadge": "TAMRIEL ROADMAP",
+  "keyFeatures": [
+    "Modulare Abenteuer aus 3 Spielsitzungen, verknüpfbar zu monumentalen Provinzkampagnen",
+    "Tiefe Charakterentwicklung mit vielseitigen Fähigkeitenbäumen, Klassen und Völkern",
+    "Zweiwertiges Gameplay: Überland-Erkundung und taktische Kämpfe auf Sechseck-Dungeons",
+    "Wiederspielbare Gilden-Questreihen in Cyrodiil, Morrowind, Hochfels und Schwarzmarsch"
+  ],
+  "scopes": {
+    "tes_single_adventure": {
+      "name": "Einzelnes Provinzabenteuer (1 Region)",
+      "description": "Ein eigenständiger Handlungsstrang über 3 Sitzungen in einer Provinz, der mit einem packenden finalen Delve abschließt."
+    },
+    "tes_provincial_chronicle": {
+      "name": "Provinzielle Kampagnenchronik (3 Regionen)",
+      "description": "Die empfohlene vollständige Kampagne über 3 verknüpfte Provinzen, in der sich euer Held über 9 epische Sitzungen bis zum Finale entwickelt."
+    },
+    "tes_grand_tamriel": {
+      "name": "Große Tamriel-Odyssee (5 Regionen)",
+      "description": "Eine weitläufige multiregionale Saga durch 5 Provinzen mit eskalierenden Gefahren der Planverschmelzung über 15 Sitzungen."
+    },
+    "tes_master_lorekeeper": {
+      "name": "Meister-Chronist (Alle Provinzen & Erweiterungen)",
+      "description": "Die ultimative Komplettisten-Reise durch alle Grundspiel- und Erweiterungsregionen mit meisterhaften Gildenverträgen über 24 Sitzungen."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Abent. 1",
+      "title": "Erste Provinzielle Abrechnung",
+      "phase": "Kampagnenakt I - Schatten an der Grenze",
+      "description": "Durchquert die Wildnis der Region und Gildenpfade, um das erste große Delve-Finale zu meistern."
+    },
+    {
+      "order": 2,
+      "badgeText": "Abent. 2",
+      "title": "Die Planverschmelzung erstarkt",
+      "phase": "Kampagnenakt II - Der Kult des Schwarzen Wurms",
+      "description": "Enträtselt nekromantische Machenschaften und dunkle Anker, die das Gefüge von Mundus zerreißen."
+    },
+    {
+      "order": 3,
+      "badgeText": "Abent. 3",
+      "title": "Das Herz der Provinz",
+      "phase": "Kampagnenakt III - Regionale Meisterschaft",
+      "description": "Bezwingt hochstufige Meisterverliese und schützt die Region vor den Schrecken des Vergessens."
+    },
+    {
+      "order": 4,
+      "badgeText": "Abent. 5",
+      "title": "Retter von Tamriel",
+      "phase": "Kampagnenakt IV - Die Große Krönung",
+      "description": "Überwindet Provinzgrenzen, um den ultimativen Verrat aufzudecken und das sterbliche Reich zu retten."
+    }
+  ]
+}

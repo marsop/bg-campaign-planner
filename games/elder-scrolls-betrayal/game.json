@@ -1,0 +1,100 @@
+{
+  "id": "elder-scrolls-betrayal",
+  "title": "The Elder Scrolls: Betrayal of the Second Era",
+  "releaseYear": 2025,
+  "designers": "Josh J. Carlson, Michael Gernes, Logan Giannini, Ryan Howard, Salem Scott, Josh Wielgus",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.2,
+  "bggWeight": 4.15,
+  "bggUrl": "https://boardgamegeek.com/boardgame/356080/the-elder-scrolls-betrayal-of-the-second-era",
+  "baseScenarioMinutes": 150,
+  "setupTeardownMinutes": 20,
+  "unitType": "sessions",
+  "theme": {
+    "primaryColor": "#c59b27",
+    "secondaryColor": "#12171a",
+    "accentColor": "#48cae4",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1c2833 0%, #101820 60%, #080c10 100%)",
+    "cardBackground": "rgba(18, 24, 30, 0.92)",
+    "borderColor": "rgba(197, 155, 39, 0.35)",
+    "glowColor": "rgba(72, 202, 228, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "📜",
+    "emblem": "⚔️✨",
+    "themeClass": "theme-elderscrolls",
+    "activeThemeClass": "theme-elderscrolls-active",
+    "roadmapClass": "roadmap-elderscrolls",
+    "heroClass": "hero-elderscrolls"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #356080 Overall)",
+    "Chip Theory Games Official Rules of Play & Regional Gazetteers",
+    "Community Campaign Session Playthroughs & Survey Logs"
+  ],
+  "scopes": [
+    {
+      "id": "tes_single_adventure",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    },
+    {
+      "id": "tes_provincial_chronicle",
+      "baseScenarioCount": 9,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "tes_grand_tamriel",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 18.0,
+      "isRecommended": false
+    },
+    {
+      "id": "tes_master_lorekeeper",
+      "baseScenarioCount": 24,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🗺️",
+      "badgeText": "Adv. 1",
+      "title": "First Provincial Reckoning",
+      "phase": "Campaign Arc I - Shadows Across the Border",
+      "description": "Navigating regional wilderness and guilds to vanquish the province's initial delve climax."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🏛️",
+      "badgeText": "Adv. 2",
+      "title": "The Planemeld Deepens",
+      "phase": "Campaign Arc II - Cult of the Black Worm",
+      "description": "Unraveling necromantic schemes and dark anchors tearing at the fabric of Mundus."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🔮",
+      "badgeText": "Adv. 3",
+      "title": "Heart of the Province",
+      "phase": "Campaign Arc III - Regional Mastery",
+      "description": "Conquering high-tier master delves and securing provincial stability against Oblivion's reach."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "⚡",
+      "badgeText": "Adv. 5",
+      "title": "Savior of Tamriel",
+      "phase": "Campaign Arc IV - The Grand Culmination",
+      "description": "Crossing provincial frontiers to confront the ultimate betrayer and preserve the mortal realm."
+    }
+  ]
+}

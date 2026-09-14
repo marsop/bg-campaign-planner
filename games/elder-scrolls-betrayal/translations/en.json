@@ -1,0 +1,63 @@
+{
+  "title": "The Elder Scrolls: Betrayal of the Second Era",
+  "subtitle": "Epic open-world exploration, character building, and delve combat across the provinces of Tamriel",
+  "tagline": "Forge your hero, thwart the Planemeld, and uncover the betrayal",
+  "loreSummary": "Tamriel fractures under the weight of the Planemeld as the Order of the Black Worm seeks the Amulet of Kings. Amidst dark anchors and scheming factions, an even deeper treachery threatens to drag the mortal realm into Oblivion.",
+  "badgeCategory": "Open-World Cooperative Adventure",
+  "roadmapTitle": "📜 Tamriel Province Chronicle & Campaign Progression",
+  "roadmapBadge": "TAMRIEL ROADMAP",
+  "keyFeatures": [
+    "Three-session modular adventures chaining into monumental provincial campaigns",
+    "Deep character building with expansive skill lines, classes, and racial traits",
+    "Dual-phase gameplay: overland wilderness exploration and tactical hex grid delves",
+    "Replayable guild questlines across Cyrodiil, Morrowind, High Rock, and Black Marsh"
+  ],
+  "scopes": {
+    "tes_single_adventure": {
+      "name": "Single Province Adventure (1 Region)",
+      "description": "A standalone 3-session story arc within a single province, culminating in a climactic regional delve."
+    },
+    "tes_provincial_chronicle": {
+      "name": "Provincial Campaign Chronicle (3 Regions)",
+      "description": "The recommended full campaign across 3 linked provinces, developing your character through 9 epic sessions to a grand finale."
+    },
+    "tes_grand_tamriel": {
+      "name": "Grand Tamriel Odyssey (5 Regions)",
+      "description": "An expansive multi-regional saga traversing 5 provinces and facing escalating Planemeld catastrophes across 15 sessions."
+    },
+    "tes_master_lorekeeper": {
+      "name": "Master Lorekeeper (All Provinces & Expansions)",
+      "description": "The ultimate completionist journey through every base province and expansion region, completing major guild contracts over 24 sessions."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Adv. 1",
+      "title": "First Provincial Reckoning",
+      "phase": "Campaign Arc I - Shadows Across the Border",
+      "description": "Navigating regional wilderness and guilds to vanquish the province's initial delve climax."
+    },
+    {
+      "order": 2,
+      "badgeText": "Adv. 2",
+      "title": "The Planemeld Deepens",
+      "phase": "Campaign Arc II - Cult of the Black Worm",
+      "description": "Unraveling necromantic schemes and dark anchors tearing at the fabric of Mundus."
+    },
+    {
+      "order": 3,
+      "badgeText": "Adv. 3",
+      "title": "Heart of the Province",
+      "phase": "Campaign Arc III - Regional Mastery",
+      "description": "Conquering high-tier master delves and securing provincial stability against Oblivion's reach."
+    },
+    {
+      "order": 4,
+      "badgeText": "Adv. 5",
+      "title": "Savior of Tamriel",
+      "phase": "Campaign Arc IV - The Grand Culmination",
+      "description": "Crossing provincial frontiers to confront the ultimate betrayer and preserve the mortal realm."
+    }
+  ]
+}
