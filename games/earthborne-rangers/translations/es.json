@@ -1,0 +1,25 @@
+{
+  "title": "Earthborne Rangers",
+  "subtitle": "Un juego de cartas cooperativo de mundo abierto ambientado en la naturaleza del futuro lejano",
+  "tagline": "Protege el Valle, forja tu camino",
+  "loreSummary": "Eres un Guardabosques, protector del Valle en una Tierra renacida en un futuro lejano. Tus elecciones y acciones darán forma a la naturaleza y a sus habitantes mientras exploras sus secretos.",
+  "badgeCategory": "LCG Cooperativo Mundo Abierto",
+  "roadmapTitle": "🗺️ Crónica del Guardabosques y Exploración",
+  "roadmapBadge": "HOJA DE RUTA SALVAJE",
+  "keyFeatures": [
+    "Narrativa de mundo abierto con caminos ramificados",
+    "Construcción de mazos centrada en la exploración y la supervivencia",
+    "Entorno salvaje del futuro lejano profundamente inmersivo",
+    "Mundo persistente donde las elecciones tienen peso"
+  ],
+  "scopes": {
+    "earthborne_standard": {
+      "name": "Campaña Estándar",
+      "description": "El arco narrativo principal que te lleva a través del Valle, completando los objetivos centrales."
+    },
+    "earthborne_extended": {
+      "name": "Exploración Extendida",
+      "description": "Tomando tiempo para explorar más caminos secundarios, misiones secundarias y descubrir secretos más profundos."
+    }
+  }
+}

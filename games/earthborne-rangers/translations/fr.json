@@ -1,0 +1,25 @@
+{
+  "title": "Earthborne Rangers",
+  "subtitle": "Un jeu de cartes coopératif en monde ouvert dans la nature sauvage d'un futur lointain",
+  "tagline": "Protégez la Vallée, forgez votre chemin",
+  "loreSummary": "Vous êtes un Ranger, un protecteur de la Vallée sur une Terre renaissante d'un futur lointain. Vos choix et vos actions façonneront la nature sauvage et ses habitants alors que vous explorez ses secrets.",
+  "badgeCategory": "JCE Coopératif en Monde Ouvert",
+  "roadmapTitle": "🗺️ Chronique du Ranger & Exploration",
+  "roadmapBadge": "FEUILLE DE ROUTE SAUVAGE",
+  "keyFeatures": [
+    "Narration en monde ouvert avec des chemins ramifiés",
+    "Construction de deck axée sur l'exploration et la survie",
+    "Cadre sauvage d'un futur lointain profondément immersif",
+    "Monde persistant où les choix ont du poids"
+  ],
+  "scopes": {
+    "earthborne_standard": {
+      "name": "Campagne Standard",
+      "description": "L'arc narratif principal vous menant à travers la Vallée, complétant les objectifs centraux."
+    },
+    "earthborne_extended": {
+      "name": "Exploration Étendue",
+      "description": "Prendre le temps d'explorer plus de chemins secondaires, de missions annexes et de découvrir des secrets plus profonds."
+    }
+  }
+}

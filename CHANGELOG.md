@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.10] - 2023-10-25
+
+### Added
+- **New Board Game: Earthborne Rangers**:
+  - Added support for Earthborne Rangers in the campaign planner.
+  - Included Standard and Extended campaign scopes.
+  - Fully translated lore, summaries, and tags for EN, ES, DE, FR, IT.
+
 ## [0.9.0] - 2026-09-14
 
 ### Added

@@ -1,0 +1,25 @@
+{
+  "title": "Earthborne Rangers",
+  "subtitle": "Ein kooperatives Open-World-Kartenspiel in der Wildnis der fernen Zukunft",
+  "tagline": "Beschütze das Tal, schmiede deinen Weg",
+  "loreSummary": "Du bist ein Ranger, ein Beschützer des Tals auf einer wiedergeborenen Erde der fernen Zukunft. Deine Entscheidungen und Taten werden die Wildnis und ihre Bewohner prägen, während du ihre Geheimnisse erkundest.",
+  "badgeCategory": "Kooperatives Open-World LCG",
+  "roadmapTitle": "🗺️ Ranger-Chronik & Erkundung",
+  "roadmapBadge": "WILDNIS-FAHRPLAN",
+  "keyFeatures": [
+    "Open-World-Erzählung mit verzweigten Wegen",
+    "Deckbau mit Fokus auf Erkundung und Überleben",
+    "Tief immersive Wildnis-Umgebung der fernen Zukunft",
+    "Beständige Welt, in der Entscheidungen Gewicht haben"
+  ],
+  "scopes": {
+    "earthborne_standard": {
+      "name": "Standard-Kampagne",
+      "description": "Der Haupt-Handlungsbogen, der dich durch das Tal führt und die Kernziele abschließt."
+    },
+    "earthborne_extended": {
+      "name": "Erweiterte Erkundung",
+      "description": "Sich Zeit nehmen, um mehr Nebenwege und Nebenmissionen zu erkunden und tiefere Geheimnisse aufzudecken."
+    }
+  }
+}

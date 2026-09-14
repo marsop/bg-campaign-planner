@@ -1,0 +1,25 @@
+{
+  "title": "Earthborne Rangers",
+  "subtitle": "Un gioco di carte cooperativo open-world ambientato nelle terre selvagge di un lontano futuro",
+  "tagline": "Proteggi la Valle, forgia il tuo cammino",
+  "loreSummary": "Sei un Ranger, un protettore della Valle in una Terra rinata in un lontano futuro. Le tue scelte e le tue azioni plasmeranno le terre selvagge e i suoi abitanti mentre ne esplori i segreti.",
+  "badgeCategory": "LCG Cooperativo Open-World",
+  "roadmapTitle": "🗺️ Cronaca dei Ranger ed Esplorazione",
+  "roadmapBadge": "TABELLA DI MARCIA SELVAGGIA",
+  "keyFeatures": [
+    "Narrazione open-world con percorsi ramificati",
+    "Costruzione del mazzo focalizzata sull'esplorazione e la sopravvivenza",
+    "Ambientazione selvaggia in un lontano futuro profondamente immersiva",
+    "Mondo persistente dove le scelte hanno un peso"
+  ],
+  "scopes": {
+    "earthborne_standard": {
+      "name": "Campagna Standard",
+      "description": "L'arco narrativo principale che ti porta attraverso la Valle, completando gli obiettivi principali."
+    },
+    "earthborne_extended": {
+      "name": "Esplorazione Estesa",
+      "description": "Prendersi il tempo per esplorare più percorsi secondari, missioni secondarie e scoprire segreti più profondi."
+    }
+  }
+}

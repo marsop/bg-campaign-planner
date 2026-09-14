@@ -1,0 +1,25 @@
+{
+  "title": "Earthborne Rangers",
+  "subtitle": "An open-world cooperative card game set in the wilderness of the far future",
+  "tagline": "Protect the Valley, Forge Your Path",
+  "loreSummary": "You are a Ranger, a protector of the Valley in a far-future Earth reborn. Your choices and actions will shape the wilderness and its inhabitants as you explore its secrets.",
+  "badgeCategory": "Open-World Cooperative LCG",
+  "roadmapTitle": "🗺️ Ranger Chronicle & Exploration",
+  "roadmapBadge": "WILDERNESS ROADMAP",
+  "keyFeatures": [
+    "Open-world narrative with branching paths",
+    "Deck-building focused on exploration and survival",
+    "Deeply immersive far-future wilderness setting",
+    "Persistent world where choices carry weight"
+  ],
+  "scopes": {
+    "earthborne_standard": {
+      "name": "Standard Campaign",
+      "description": "The main story arc taking you across the Valley, completing core objectives."
+    },
+    "earthborne_extended": {
+      "name": "Extended Exploration",
+      "description": "Taking time to explore more side paths, side missions, and uncovering deeper secrets."
+    }
+  }
+}

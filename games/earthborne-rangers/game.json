@@ -1,0 +1,50 @@
+{
+  "id": "earthborne-rangers",
+  "title": "Earthborne Rangers",
+  "releaseYear": 2023,
+  "designers": "Andrew Navaro, Adam Sadler, Brady Sadler, Evan Simonet, Brooks Flugaur-Leavitt",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.3,
+  "bggWeight": 3.12,
+  "bggUrl": "https://boardgamegeek.com/boardgame/342900/earthborne-rangers",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 20,
+  "unitType": "sessions",
+  "theme": {
+    "primaryColor": "#537c38",
+    "secondaryColor": "#1f2e15",
+    "accentColor": "#a2c11c",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2e421e 0%, #17210e 60%, #0d1208 100%)",
+    "cardBackground": "rgba(31, 46, 21, 0.90)",
+    "borderColor": "rgba(83, 124, 56, 0.35)",
+    "glowColor": "rgba(83, 124, 56, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🌿",
+    "emblem": "🏕️🧭",
+    "themeClass": "theme-earthborne",
+    "activeThemeClass": "theme-earthborne-active",
+    "roadmapClass": "roadmap-earthborne",
+    "heroClass": "hero-earthborne"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek",
+    "Publisher Official Rulebook",
+    "Community Campaign Survey Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "earthborne_standard",
+      "baseScenarioCount": 30,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "earthborne_extended",
+      "baseScenarioCount": 50,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ]
+}

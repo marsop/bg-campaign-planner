@@ -9,14 +9,13 @@ The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
 **Currently in app:**
-Gloomhaven · Frosthaven · Pandemic Legacy: Season 0 · Sleeping Gods · Pandemic Legacy: Season 1
+Gloomhaven · Frosthaven · Pandemic Legacy: Season 0 · Sleeping Gods · Pandemic Legacy: Season 1 · Earthborne Rangers
 Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Legacy: Season 2 · Kingdom Death: Monster · Middara: Unintentional Malum – Act 1 · Descent: Legends of the Dark · Aeon Trespass: Odyssey · The Elder Scrolls: Betrayal of the Second Era · ISS Vanguard
 
 ---
 
 ## 🟥 High Priority
 
-- **Earthborne Rangers** — Open-world cooperative card game with branching narrative. 30-50+ hours. ~8.3 BGG. 1-4 players. Deck-building, exploration.
 - **Agemonia** — Highly rated story-driven adventure with a massive distinct campaign. 60-80+ hours. ~8.5 BGG. 1-4 players. Narrative, adventure.
 - **Roll Player Adventures** — Story-heavy cooperative campaign set in the Roll Player universe. 30-40+ hours. ~8.0 BGG. 1-4 players. RPG, narrative.
 
