@@ -16,7 +16,6 @@ Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Le
 
 ## 🟥 High Priority
 
-- **Middara: Unintentional Malum — Act 1** — Massive anime-style RPG dungeon crawler. 70–100+ hours of content. ~8.5 BGG. 1–4 players.
 - **Descent: Legends of the Dark** — App-driven dungeon crawler by Fantasy Flight. Scenario-based campaign, 40–60+ hours. ~7.6 BGG. 1–4 players.
 
 ---

@@ -2297,3 +2297,36 @@ body {
     opacity: 1;
 }
 
+
+/* ==========================================================================
+   MIDDARA: UNINTENTIONAL MALUM
+   ========================================================================== */
+.theme-middara-active {
+    --theme-bg-gradient: radial-gradient(ellipse at top, #331144 0%, #1a0a24 60%, #0a0410 100%);
+    --theme-primary: #9933cc;
+    --theme-secondary: #1a0a24;
+    --theme-accent: #ff66cc;
+    --theme-text-light: #e6ccff;
+    --theme-text-muted: #b388cc;
+    --theme-border: rgba(153, 51, 204, 0.35);
+    --theme-glow: rgba(153, 51, 204, 0.25);
+    --theme-card-bg: rgba(26, 10, 36, 0.90);
+    --theme-header-font: 'Cinzel', 'Cinzel Decorative', Georgia, serif;
+    --theme-body-font: 'Inter', system-ui, sans-serif;
+    --theme-milestone-marker: var(--theme-accent);
+}
+
+.theme-middara .game-selector-card {
+    border-color: var(--theme-border);
+}
+.theme-middara .game-selector-card.selected {
+    box-shadow: 0 0 0 2px var(--theme-primary), 0 4px 20px var(--theme-glow);
+}
+.theme-middara-active .kpi-card {
+    background: var(--theme-card-bg);
+    border-color: var(--theme-border);
+}
+.theme-middara-active .kpi-card:hover {
+    border-color: var(--theme-primary);
+    box-shadow: 0 4px 15px var(--theme-glow);
+}
