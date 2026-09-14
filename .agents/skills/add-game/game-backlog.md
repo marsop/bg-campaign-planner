@@ -18,6 +18,10 @@ Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Le
 
 - **Middara: Unintentional Malum — Act 1** — Massive anime-style RPG dungeon crawler. 70–100+ hours of content. ~8.5 BGG. 1–4 players.
 - **Descent: Legends of the Dark** — App-driven dungeon crawler by Fantasy Flight. Scenario-based campaign, 40–60+ hours. ~7.6 BGG. 1–4 players.
+- **ISS Vanguard** — Sci-fi exploration with deep campaign and ship management. 60-100+ hours. ~8.2 BGG. 1-4 players. Exploration, narrative.
+- **Earthborne Rangers** — Open-world cooperative card game with branching narrative. 30-50+ hours. ~8.3 BGG. 1-4 players. Deck-building, exploration.
+- **Agemonia** — Highly rated story-driven adventure with a massive distinct campaign. 60-80+ hours. ~8.5 BGG. 1-4 players. Narrative, adventure.
+- **Roll Player Adventures** — Story-heavy cooperative campaign set in the Roll Player universe. 30-40+ hours. ~8.0 BGG. 1-4 players. RPG, narrative.
 
 ---
 
@@ -29,6 +33,7 @@ Oathsworn: Into the Deepwood · Tainted Grail: The Fall of Avalon · Pandemic Le
 - **Tanares Adventures** — Semi-open world, 100–200+ hours, 100+ quests. ~8.1 BGG. 1–6 players. Tactical card-driven combat.
 - **Isofarian Guard** — Open-world RPG with Forteller audio narration. 5 campaigns, 100–170+ hours. ~8.0 BGG. 1–4 players.
 - **Betrayal Legacy** — Legacy haunted-house. 14 sessions (prologue + 13 chapters). ~7.4 BGG. 3–5 players. Narrative, horror.
+- **Vagrantsong** — Unique boss-battler with a train theme and scenario-based campaign. 20-30 hours. ~7.7 BGG. 2-4 players. Boss battler, narrative.
 
 ---
 
