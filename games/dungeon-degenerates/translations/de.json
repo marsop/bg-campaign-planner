@@ -1,0 +1,23 @@
+{
+  "subtitle": "Dunkles Fantasy-Abenteuer im W\u00fcrstreich",
+  "tagline": "Ein psychedelisches Grimdark-Koop-Sandbox-Spiel.",
+  "loreSummary": "Entkomme aus den Kerkern von Br\u00fctalburg und reise durch eine verrottende, psychedelische dunkle Fantasy-Welt. Die Hand des Schicksals naht.",
+  "badgeCategory": "RPG-Sandbox",
+  "roadmapTitle": "W\u00fcrstreich-Reise",
+  "roadmapBadge": "Karte des Schicksals",
+  "keyFeatures": [
+    "Psychedelische Kunst",
+    "Sandbox-Erkundung",
+    "Verzweigte Kampagne"
+  ],
+  "scopes": {
+    "full_campaign": {
+      "name": "Vollst\u00e4ndige Kampagne",
+      "description": "Die komplette Reise durch das W\u00fcrstreich."
+    },
+    "short_campaign": {
+      "name": "Kurze Kampagne",
+      "description": "Eine schnellere, optimierte Erfahrung."
+    }
+  }
+}

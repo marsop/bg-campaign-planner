@@ -1,0 +1,78 @@
+{
+  "id": "dungeon-degenerates",
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "releaseYear": 2017,
+  "designers": "Sean \u00c4aberg, Eric Radey",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.1,
+  "bggWeight": 3.0,
+  "bggUrl": "https://boardgamegeek.com/boardgame/210232/dungeon-degenerates-hand-of-doom",
+  "baseScenarioMinutes": 180,
+  "setupTeardownMinutes": 30,
+  "unitType": "missions",
+  "theme": {
+    "primaryColor": "#bcde10",
+    "secondaryColor": "#1f1f1f",
+    "accentColor": "#f00ca8",
+    "backgroundGradient": "radial-gradient(circle at center, #2e0828 0%, #151111 70%, #0c0a0a 100%)",
+    "cardBackground": "rgba(30, 20, 30, 0.90)",
+    "borderColor": "rgba(188, 222, 16, 0.4)",
+    "glowColor": "rgba(240, 12, 168, 0.3)",
+    "headerFont": "'Creepster', 'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "\ud83d\udc41\ufe0f",
+    "emblem": "\ud83c\udf44\ud83d\udde1\ufe0f",
+    "themeClass": "theme-dungeon-degenerates",
+    "activeThemeClass": "theme-dungeon-degenerates-active",
+    "roadmapClass": "roadmap-dungeon-degenerates",
+    "heroClass": "hero-dungeon-degenerates"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek",
+    "Goblinko Official Rulebook"
+  ],
+  "scopes": [
+    {
+      "id": "full_campaign",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "short_campaign",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "\ud83c\udff0",
+      "badgeText": "Escape",
+      "title": "Out of the Dungeons",
+      "phase": "Breakout",
+      "description": "Escape the Br\u00fctalburg dungeons and enter the W\u00fcrstreich."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "\ud83c\udf44",
+      "badgeText": "Midpoint",
+      "title": "Through the Badlands",
+      "phase": "Exploration",
+      "description": "Survive the psychedelic horrors of the swamps and forests."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 20,
+      "iconEmoji": "\ud83d\udc80",
+      "badgeText": "Finale",
+      "title": "The Hand of Doom",
+      "phase": "Climax",
+      "description": "Confront the ultimate evil threatening the realm."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "subtitle": "Aventure de dark fantasy dans le W\u00fcrstreich",
+  "tagline": "Un jeu bac \u00e0 sable coop\u00e9ratif psych\u00e9d\u00e9lique et grimdark.",
+  "loreSummary": "\u00c9chappez aux donjons de Br\u00fctalburg et voyagez \u00e0 travers un monde de dark fantasy psych\u00e9d\u00e9lique en d\u00e9composition. La Main de l'Apocalypse approche.",
+  "badgeCategory": "RPG Bac \u00e0 Sable",
+  "roadmapTitle": "Voyage dans le W\u00fcrstreich",
+  "roadmapBadge": "Carte du Destin",
+  "keyFeatures": [
+    "Art Psych\u00e9d\u00e9lique",
+    "Exploration Bac \u00e0 Sable",
+    "Campagne \u00e0 Embranchements"
+  ],
+  "scopes": {
+    "full_campaign": {
+      "name": "Campagne Compl\u00e8te",
+      "description": "Le voyage complet \u00e0 travers le W\u00fcrstreich."
+    },
+    "short_campaign": {
+      "name": "Campagne Courte",
+      "description": "Une exp\u00e9rience plus rapide et simplifi\u00e9e."
+    }
+  }
+}
