@@ -1,0 +1,23 @@
+{
+  "subtitle": "Avventura fantasy oscura nel W\u00fcrstreich",
+  "tagline": "Un gioco sandbox cooperativo psichedelico e grimdark.",
+  "loreSummary": "Fuggi dalle segrete di Br\u00fctalburg e viaggia attraverso un mondo dark fantasy psichedelico in putrefazione. La Mano del Destino si avvicina.",
+  "badgeCategory": "RPG Sandbox",
+  "roadmapTitle": "Viaggio nel W\u00fcrstreich",
+  "roadmapBadge": "Mappa del Destino",
+  "keyFeatures": [
+    "Arte Psichedelica",
+    "Esplorazione Sandbox",
+    "Campagna Ramificata"
+  ],
+  "scopes": {
+    "full_campaign": {
+      "name": "Campagna Completa",
+      "description": "Il viaggio completo attraverso il W\u00fcrstreich."
+    },
+    "short_campaign": {
+      "name": "Campagna Breve",
+      "description": "Un'esperienza pi\u00f9 rapida e semplificata."
+    }
+  }
+}

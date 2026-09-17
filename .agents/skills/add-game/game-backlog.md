@@ -8,7 +8,8 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (33 games):**
+**Currently in app (34 games):**
+- Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
 - Pandemic Legacy: Season 0
@@ -48,7 +49,6 @@ requested by the user.
 
 ## 🟥 High Priority
 
-- **Dungeon Degenerates: Hand of Doom** — Psychedelic dark fantasy adventure sandbox through the rotting Würstreich. 20 linked missions (~25–40+ hours). ~8.1 BGG. 1–4 players. Open-world exploration, RPG campaign, persistent party development.
 
 ---
 

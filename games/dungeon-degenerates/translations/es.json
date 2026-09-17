@@ -1,0 +1,23 @@
+{
+  "subtitle": "Aventura de fantas\u00eda oscura en el W\u00fcrstreich",
+  "tagline": "Un juego de caja de arena cooperativo psicod\u00e9lico y grimdark.",
+  "loreSummary": "Escapa de los calabozos de Br\u00fctalburg y viaja por un mundo de fantas\u00eda oscura psicod\u00e9lico en descomposici\u00f3n. La Mano del Destino se acerca.",
+  "badgeCategory": "RPG Sandbox",
+  "roadmapTitle": "Viaje al W\u00fcrstreich",
+  "roadmapBadge": "Mapa del Destino",
+  "keyFeatures": [
+    "Arte Psicod\u00e9lico",
+    "Exploraci\u00f3n Sandbox",
+    "Campa\u00f1a Ramificada"
+  ],
+  "scopes": {
+    "full_campaign": {
+      "name": "Campa\u00f1a Completa",
+      "description": "El viaje completo por el W\u00fcrstreich."
+    },
+    "short_campaign": {
+      "name": "Campa\u00f1a Corta",
+      "description": "Una experiencia m\u00e1s r\u00e1pida y simplificada."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "subtitle": "Dark Fantasy Adventure in the W\u00fcrstreich",
+  "tagline": "A psychedelic grimdark cooperative sandbox game.",
+  "loreSummary": "Escape the dungeons of Br\u00fctalburg and travel through a rotting, psychedelic dark fantasy world. The Hand of Doom approaches.",
+  "badgeCategory": "RPG Sandbox",
+  "roadmapTitle": "W\u00fcrstreich Journey",
+  "roadmapBadge": "Map of Doom",
+  "keyFeatures": [
+    "Psychedelic Art",
+    "Sandbox Exploration",
+    "Branching Campaign"
+  ],
+  "scopes": {
+    "full_campaign": {
+      "name": "Full Campaign",
+      "description": "The complete journey through the W\u00fcrstreich."
+    },
+    "short_campaign": {
+      "name": "Short Campaign",
+      "description": "A quicker, streamlined experience."
+    }
+  }
+}
