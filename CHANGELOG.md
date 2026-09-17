@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Integrated Microsoft Clarity behavioral analytics script to track user interactions, heatmaps, and sessions.
+
 ## [0.30.0] - 2026-09-14
 
 ### Added
