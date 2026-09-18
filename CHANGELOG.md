@@ -1,3 +1,8 @@
+## [0.31.0] - Unreleased
+
+### Added
+- **Dungeon Degenerates: Hand of Doom**: Added full game configuration and translations for the dark fantasy sandbox campaign.
+
 # Changelog
 
 All notable changes to this project will be documented in this file.

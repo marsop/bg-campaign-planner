@@ -1,0 +1,29 @@
+{
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "subtitle": "Psychedelic dark fantasy adventure sandbox through the rotting Würstreich",
+  "tagline": "Survive the Hand of Doom",
+  "loreSummary": "You are a band of escaped degenerates navigating a decaying, psychedelic world. Every choice brings new encounters and dangers in the rotting Würstreich.",
+  "badgeCategory": "Dark Fantasy Adventure",
+  "roadmapTitle": "🗺️ Campaign Chronicle & Exploration",
+  "roadmapBadge": "WÜRSTREICH ROADMAP",
+  "keyFeatures": [
+    "Psychedelic dark fantasy art and theme",
+    "Open-world sandbox exploration",
+    "RPG campaign with persistent party development",
+    "Branching paths and varied encounters"
+  ],
+  "scopes": {
+    "dd_standard": {
+      "name": "Standard Campaign",
+      "description": "The main linked missions and essential exploration of the Würstreich."
+    },
+    "dd_quick": {
+      "name": "Quick Run",
+      "description": "A direct, focused path to survive the Hand of Doom with minimal detours."
+    },
+    "dd_completionist": {
+      "name": "Full Exploration",
+      "description": "Explore every region, encounter maximum weirdness, and complete numerous side missions."
+    }
+  }
+}

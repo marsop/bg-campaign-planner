@@ -42,13 +42,14 @@ requested by the user.
 - Primal: The Awakening
 - Kinfire Chronicles: Night's Fall
 - Sword & Sorcery: Immortal Souls
+- Dungeon Degenerates: Hand of Doom
 
 
 ---
 
 ## 🟥 High Priority
 
-- **Dungeon Degenerates: Hand of Doom** — Psychedelic dark fantasy adventure sandbox through the rotting Würstreich. 20 linked missions (~25–40+ hours). ~8.1 BGG. 1–4 players. Open-world exploration, RPG campaign, persistent party development.
+*(None currently)*
 
 ---
 
