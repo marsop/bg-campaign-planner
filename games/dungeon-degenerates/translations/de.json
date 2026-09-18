@@ -1,0 +1,29 @@
+{
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "subtitle": "Psychedelisches Dark-Fantasy-Abenteuer im verrottenden Würstreich",
+  "tagline": "Überlebe die Hand des Verderbens",
+  "loreSummary": "Ihr seid eine Bande entflohener Degenerierter, die sich durch eine verfallende, psychedelische Welt navigieren. Jede Wahl bringt neue Begegnungen und Gefahren im verrottenden Würstreich.",
+  "badgeCategory": "Dark-Fantasy-Abenteuer",
+  "roadmapTitle": "🗺️ Kampagnen-Chronik & Erkundung",
+  "roadmapBadge": "WÜRSTREICH-KARTE",
+  "keyFeatures": [
+    "Psychedelische Dark-Fantasy-Kunst und Thema",
+    "Open-World Sandbox-Erkundung",
+    "RPG-Kampagne mit beständiger Gruppenentwicklung",
+    "Verzweigte Pfade und vielfältige Begegnungen"
+  ],
+  "scopes": {
+    "dd_standard": {
+      "name": "Standard-Kampagne",
+      "description": "Die wichtigsten verbundenen Missionen und die wesentliche Erkundung des Würstreichs."
+    },
+    "dd_quick": {
+      "name": "Schneller Durchlauf",
+      "description": "Ein direkter, fokussierter Weg, um die Hand des Verderbens mit minimalen Umwegen zu überleben."
+    },
+    "dd_completionist": {
+      "name": "Vollständige Erkundung",
+      "description": "Erkunde jede Region, begegne maximaler Verrücktheit und schließe zahlreiche Nebenmissionen ab."
+    }
+  }
+}

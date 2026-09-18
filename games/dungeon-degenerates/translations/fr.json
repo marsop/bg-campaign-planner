@@ -1,0 +1,29 @@
+{
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "subtitle": "Aventure bac à sable de dark fantasy psychédélique à travers le Würstreich en décomposition",
+  "tagline": "Survivez à la Main du Destin",
+  "loreSummary": "Vous êtes une bande de dégénérés évadés naviguant dans un monde psychédélique en décomposition. Chaque choix apporte de nouvelles rencontres et de nouveaux dangers dans le Würstreich putréfié.",
+  "badgeCategory": "Aventure de Dark Fantasy",
+  "roadmapTitle": "🗺️ Chronique de Campagne et Exploration",
+  "roadmapBadge": "CARTE DU WÜRSTREICH",
+  "keyFeatures": [
+    "Art et thème de dark fantasy psychédélique",
+    "Exploration bac à sable en monde ouvert",
+    "Campagne RPG avec développement persistant du groupe",
+    "Chemins multiples et rencontres variées"
+  ],
+  "scopes": {
+    "dd_standard": {
+      "name": "Campagne Standard",
+      "description": "Les missions principales liées et l'exploration essentielle du Würstreich."
+    },
+    "dd_quick": {
+      "name": "Partie Rapide",
+      "description": "Un chemin direct et concentré pour survivre à la Main du Destin avec un minimum de détours."
+    },
+    "dd_completionist": {
+      "name": "Exploration Complète",
+      "description": "Explorez chaque région, rencontrez le maximum de bizarreries et complétez de nombreuses missions secondaires."
+    }
+  }
+}
