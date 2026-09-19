@@ -1,0 +1,21 @@
+{
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "subtitle": "Aventura de fantasía oscura y psicodélica por el decadente Würstreich",
+  "tagline": "Sobrevive al psicodélico y decadente Würstreich",
+  "loreSummary": "Eres un criminal fugado que explora un imperio oscuro, extraño y psicodélico donde el peligro acecha tras cada grotesco encuentro.",
+  "badgeCategory": "Fantasía Oscura Psicodélica",
+  "roadmapTitle": "🗺️ Aventuras en Würstreich",
+  "roadmapBadge": "HOJA DE RUTA",
+  "keyFeatures": [
+    "Estética de fantasía oscura y psicodélica",
+    "Exploración de mundo abierto y campaña RPG",
+    "Desarrollo persistente del grupo",
+    "Misiones conectadas formando una campaña continua"
+  ],
+  "scopes": {
+    "dungeondegenerates_standard": {
+      "name": "Campaña Estándar",
+      "description": "Un viaje completo a través de las 20 misiones interconectadas, explorando el extraño y peligroso Würstreich."
+    }
+  }
+}

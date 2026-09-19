@@ -1,0 +1,21 @@
+{
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "subtitle": "Aventure fantastique sombre et psychédélique dans le Würstreich en décomposition",
+  "tagline": "Survivez au psychédélique Würstreich",
+  "loreSummary": "Vous êtes des criminels évadés explorant un empire en décomposition, sombre, étrange et psychédélique, où le danger guette derrière chaque rencontre grotesque.",
+  "badgeCategory": "Dark Fantasy Psychédélique",
+  "roadmapTitle": "🗺️ Aventures du Würstreich",
+  "roadmapBadge": "FEUILLE DE ROUTE",
+  "keyFeatures": [
+    "Esthétique dark fantasy psychédélique",
+    "Exploration en monde ouvert et campagne RPG",
+    "Développement persistant du groupe",
+    "Missions liées formant une campagne continue"
+  ],
+  "scopes": {
+    "dungeondegenerates_standard": {
+      "name": "Campagne Standard",
+      "description": "Un voyage complet à travers les 20 missions interconnectées, explorant l'étrange et dangereux Würstreich en décomposition."
+    }
+  }
+}
