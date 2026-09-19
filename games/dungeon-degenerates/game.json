@@ -1,0 +1,42 @@
+{
+  "id": "dungeon-degenerates",
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "releaseYear": 2017,
+  "designers": "Sean Äaberg, Pieter van Hiel",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.1,
+  "bggWeight": 2.8,
+  "bggUrl": "https://boardgamegeek.com/boardgame/210232",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 20,
+  "unitType": "missions",
+  "theme": {
+    "primaryColor": "#b4ff00",
+    "secondaryColor": "#151515",
+    "accentColor": "#ff00d4",
+    "backgroundGradient": "radial-gradient(ellipse at top, #302040 0%, #151111 60%, #0c0a0a 100%)",
+    "cardBackground": "rgba(25, 20, 28, 0.90)",
+    "borderColor": "rgba(180, 255, 0, 0.35)",
+    "glowColor": "rgba(255, 0, 212, 0.25)",
+    "headerFont": "'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "💀",
+    "emblem": "🍄⚔️",
+    "themeClass": "theme-dungeondegenerates",
+    "activeThemeClass": "theme-dungeondegenerates-active",
+    "roadmapClass": "roadmap-dungeondegenerates",
+    "heroClass": "hero-dungeondegenerates"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #210232 Overall)"
+  ],
+  "scopes": [
+    {
+      "id": "dungeondegenerates_standard",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    }
+  ]
+}
