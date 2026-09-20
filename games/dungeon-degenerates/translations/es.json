@@ -1,0 +1,55 @@
+{
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "subtitle": "Sandbox de aventura de fantasía oscura y psicodélica",
+  "tagline": "Aventúrate por el putrefacto Würstreich",
+  "loreSummary": "Sois degenerados, criminales y escoria arrojados al sombrío, vibrante y corrupto mundo del Würstreich. Explora el peligroso sandbox, lucha contra monstruos extraños y decide el destino de la tierra mientras se acerca la Mano de la Perdición.",
+  "badgeCategory": "Aventura de Fantasía Oscura",
+  "roadmapTitle": "🗺️ Progresión de la Campaña",
+  "roadmapBadge": "HOJA DE RUTA DE AVENTURA",
+  "keyFeatures": [
+    "Estilo artístico sombrío de inspiración punk y psicodélica",
+    "Exploración de sandbox en mundo abierto",
+    "Narrativa ramificada y misiones variadas",
+    "Desarrollo persistente del grupo y niveles de peligro"
+  ],
+  "scopes": {
+    "dd_main_campaign": {
+      "name": "Campaña Estándar",
+      "description": "Un viaje completo a través del Würstreich, experimentando el arco narrativo principal."
+    },
+    "dd_short_campaign": {
+      "name": "Campaña Corta",
+      "description": "Un viaje condensado para una experiencia más rápida."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Escape de Bruttelberg",
+      "phase": "Acto I - El Würstreich se Abre",
+      "description": "Huyendo de las prisiones y entrando en las tierras salvajes podridas del Würstreich.",
+      "badgeText": "Juego Temprano"
+    },
+    {
+      "order": 2,
+      "title": "Vagando por el Páramo",
+      "phase": "Acto II - Encuentros Oscuros",
+      "description": "Navegando por las tierras corruptas, luchando contra cultistas y monstruos extraños.",
+      "badgeText": "Juego Medio"
+    },
+    {
+      "order": 3,
+      "title": "La Perdición Creciente",
+      "phase": "Acto III - Acercándose a la Mano",
+      "description": "Preparándose para la confrontación final a medida que la Mano de la Perdición se acerca.",
+      "badgeText": "Juego Tardío"
+    },
+    {
+      "order": 4,
+      "title": "Enfrentando a la Mano de la Perdición",
+      "phase": "Acto IV - Batalla Final",
+      "description": "Enfrentando el mal definitivo que amenaza con consumir el Würstreich.",
+      "badgeText": "Final"
+    }
+  ]
+}
