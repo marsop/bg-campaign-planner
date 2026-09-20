@@ -10,6 +10,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Integrated Microsoft Clarity behavioral analytics script to track user interactions, heatmaps, and sessions.
 
+## [0.31.0] - 2026-09-20
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Dungeon Degenerates: Hand of Doom**, the psychedelic dark fantasy adventure sandbox through the rotting Würstreich.
+  - 2 campaign scope presets: *Standard Campaign* (20 missions, recommended) and *Short Campaign* (10 missions).
+  - 4 narrative milestone checkpoints.
+  - Full multi-language translation support for English, Spanish, German, French, and Italian.
+
 ## [0.30.0] - 2026-09-14
 
 ### Added

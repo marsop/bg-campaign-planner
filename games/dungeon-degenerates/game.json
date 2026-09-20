@@ -1,0 +1,88 @@
+{
+  "id": "dungeon-degenerates",
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "releaseYear": 2017,
+  "designers": "Sean Äaberg, Eric Radey",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.1,
+  "bggWeight": 2.9,
+  "bggUrl": "https://boardgamegeek.com/boardgame/210232/dungeon-degenerates-hand-of-doom",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 20,
+  "unitType": "missions",
+  "theme": {
+    "primaryColor": "#ff00ff",
+    "secondaryColor": "#222222",
+    "accentColor": "#00ff00",
+    "backgroundGradient": "radial-gradient(ellipse at top, #330033 0%, #111111 60%, #000000 100%)",
+    "cardBackground": "rgba(17, 17, 17, 0.90)",
+    "borderColor": "rgba(255, 0, 255, 0.40)",
+    "glowColor": "rgba(0, 255, 0, 0.30)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "☠️",
+    "emblem": "🍄🗡️",
+    "themeClass": "theme-dungeon-degenerates",
+    "activeThemeClass": "theme-dungeon-degenerates-active",
+    "roadmapClass": "roadmap-dungeon-degenerates",
+    "heroClass": "hero-dungeon-degenerates"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #210232)",
+    "Goblinko Games Official Rules & Source Material",
+    "Community Campaign Playthrough Estimates"
+  ],
+  "scopes": [
+    {
+      "id": "dd_main_campaign",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "dd_short_campaign",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🍄",
+      "badgeText": "Early Game",
+      "title": "Escape from Bruttelberg",
+      "phase": "Act I - The Würstreich Opens",
+      "description": "Fleeing the prisons and entering the rotting wilds of the Würstreich."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🧙",
+      "badgeText": "Mid Game",
+      "title": "Wandering the Wasteland",
+      "phase": "Act II - Dark Encounters",
+      "description": "Navigating the corrupted lands, fighting off cultists and weird monsters."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 18,
+      "iconEmoji": "⚔️",
+      "badgeText": "Late Game",
+      "title": "The Gathering Doom",
+      "phase": "Act III - Approaching the Hand",
+      "description": "Preparing for the final confrontation as the Hand of Doom looms closer."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 20,
+      "iconEmoji": "☠️",
+      "badgeText": "Finale",
+      "title": "Confronting the Hand of Doom",
+      "phase": "Act IV - Final Battle",
+      "description": "Facing the ultimate evil threatening to consume the Würstreich."
+    }
+  ]
+}

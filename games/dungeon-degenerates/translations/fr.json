@@ -1,0 +1,55 @@
+{
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "subtitle": "Sandbox d'aventure dark fantasy psychédélique",
+  "tagline": "Aventurez-vous dans le Würstreich en putréfaction",
+  "loreSummary": "Vous êtes des dégénérés, des criminels et des vauriens propulsés dans le monde sinistre, vibrant et corrompu du Würstreich. Explorez le bac à sable dangereux, combattez des monstres étranges et décidez du sort du pays alors que la Main du Destin approche.",
+  "badgeCategory": "Aventure Dark Fantasy",
+  "roadmapTitle": "🗺️ Progression de la Campagne",
+  "roadmapBadge": "FEUILLE DE ROUTE DE L'AVENTURE",
+  "keyFeatures": [
+    "Style artistique grimdark psychédélique d'inspiration punk",
+    "Exploration bac à sable en monde ouvert",
+    "Récit à embranchements et missions variées",
+    "Développement persistant du groupe et niveaux de danger"
+  ],
+  "scopes": {
+    "dd_main_campaign": {
+      "name": "Campagne Standard",
+      "description": "Un voyage complet à travers le Würstreich, vivant l'arc narratif principal."
+    },
+    "dd_short_campaign": {
+      "name": "Campagne Courte",
+      "description": "Un voyage condensé pour une expérience plus rapide."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Évasion de Bruttelberg",
+      "phase": "Acte I - L'Ouverture du Würstreich",
+      "description": "Fuir les prisons et pénétrer dans les étendues sauvages putrides du Würstreich.",
+      "badgeText": "Début de Partie"
+    },
+    {
+      "order": 2,
+      "title": "Errance dans les Terres Désolées",
+      "phase": "Acte II - Rencontres Sombres",
+      "description": "Naviguer dans les terres corrompues, repousser des cultistes et des monstres étranges.",
+      "badgeText": "Milieu de Partie"
+    },
+    {
+      "order": 3,
+      "title": "Le Destin Qui Se Rassemble",
+      "phase": "Acte III - L'Approche de la Main",
+      "description": "Préparation pour l'affrontement final alors que la Main du Destin se profile.",
+      "badgeText": "Fin de Partie"
+    },
+    {
+      "order": 4,
+      "title": "Confronter la Main du Destin",
+      "phase": "Acte IV - Bataille Finale",
+      "description": "Affronter le mal ultime qui menace de consumer le Würstreich.",
+      "badgeText": "Final"
+    }
+  ]
+}
