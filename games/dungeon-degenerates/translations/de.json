@@ -1,0 +1,55 @@
+{
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "subtitle": "Psychedelisches Dark-Fantasy-Abenteuer-Sandbox",
+  "tagline": "Wage dich durch das verrottende Würstreich",
+  "loreSummary": "Ihr seid Degenerierte, Kriminelle und Abschaum, die in die düstere, lebendige und korrupte Welt des Würstreichs geworfen werden. Erkundet die gefährliche Sandbox, bekämpft seltsame Monster und entscheidet über das Schicksal des Landes, während sich die Hand des Verderbens nähert.",
+  "badgeCategory": "Dark-Fantasy-Abenteuer",
+  "roadmapTitle": "🗺️ Kampagnen-Fortschritt",
+  "roadmapBadge": "ABENTEUER-ROADMAP",
+  "keyFeatures": [
+    "Psychedelischer, punk-inspirierter Grimdark-Kunststil",
+    "Open-World-Sandbox-Erkundung",
+    "Verzweigte Erzählung und vielfältige Missionen",
+    "Anhaltende Gruppenentwicklung und Gefahrenstufen"
+  ],
+  "scopes": {
+    "dd_main_campaign": {
+      "name": "Standardkampagne",
+      "description": "Eine vollständige Reise durch das Würstreich, bei der der Haupthandlungsbogen erlebt wird."
+    },
+    "dd_short_campaign": {
+      "name": "Kurze Kampagne",
+      "description": "Eine komprimierte Reise für ein schnelleres Erlebnis."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Flucht aus Bruttelberg",
+      "phase": "Akt I - Das Würstreich öffnet sich",
+      "description": "Flucht aus den Gefängnissen und Eintritt in die verrottende Wildnis des Würstreichs.",
+      "badgeText": "Frühes Spiel"
+    },
+    {
+      "order": 2,
+      "title": "Wandern durch das Ödland",
+      "phase": "Akt II - Dunkle Begegnungen",
+      "description": "Navigieren durch die korrupten Länder, Kampf gegen Kultisten und seltsame Monster.",
+      "badgeText": "Mittleres Spiel"
+    },
+    {
+      "order": 3,
+      "title": "Das aufziehende Verderben",
+      "phase": "Akt III - Die Hand nähert sich",
+      "description": "Vorbereitung auf die finale Konfrontation, während die Hand des Verderbens näher rückt.",
+      "badgeText": "Spätes Spiel"
+    },
+    {
+      "order": 4,
+      "title": "Konfrontation mit der Hand des Verderbens",
+      "phase": "Akt IV - Letzte Schlacht",
+      "description": "Konfrontation mit dem ultimativen Bösen, das droht, das Würstreich zu verschlingen.",
+      "badgeText": "Finale"
+    }
+  ]
+}

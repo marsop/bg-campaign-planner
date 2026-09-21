@@ -8,7 +8,8 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (33 games):**
+**Currently in app (34 games):**
+- Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
 - Pandemic Legacy: Season 0
@@ -48,13 +49,14 @@ requested by the user.
 
 ## 🟥 High Priority
 
-- **Dungeon Degenerates: Hand of Doom** — Psychedelic dark fantasy adventure sandbox through the rotting Würstreich. 20 linked missions (~25–40+ hours). ~8.1 BGG. 1–4 players. Open-world exploration, RPG campaign, persistent party development.
+*(None currently)*
 
 ---
 
 ## 🟧 Medium Priority
 
-*(None currently — promote from Lower Priority or use find-game-candidates)*
+- **Vampire: The Masquerade – Chapters** — Narrative-driven RPG board game set in the World of Darkness. 40-50 hours. ~7.6 BGG. 1-4 players. Story-rich, branching paths.
+- **Artisans of Splendent Vale** — Cooperative narrative campaign game featuring unique individual character books. 30-40 hours. ~7.7 BGG. 2-4 players. Exploration, tactical combat.
 
 ---
 
@@ -65,6 +67,7 @@ requested by the user.
 - **Etherfields** — Cooperative "dream-crawler" with branching persistent campaign (Awaken Realms). 40–50+ hours. ~7.8 BGG. 1–4 players. Non-standard branching structure — no fixed numbered scenarios; needs extra scope design.
 - **The 7th Citadel** — Cooperative card-exploration game structured into Threats (~10 scenarios each, 10–25 h per Threat). BGG score uncertain (positive reception). 1–4 players. Released 2024.
 - **Cloudspire** — Strategic tower-defense with dedicated solo/coop scenario campaign. ~20–30 h (coop campaign). ~8.5 BGG. 1–4 players. Primarily a competitive game; coop campaign is optional and shorter.
+- **Mice and Mystics** — Storybook-driven adventure game where players explore as heroes turned into mice. 15-20 hours. ~7.2 BGG. 1-4 players. Thematic, family-friendly dungeon crawler.
 
 ---
 
