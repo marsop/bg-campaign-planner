@@ -1,0 +1,55 @@
+{
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "subtitle": "Psychedelic dark fantasy adventure sandbox",
+  "tagline": "Venture through the rotting Würstreich",
+  "loreSummary": "You are degenerates, criminals, and lowlifes thrust into the grim, vibrant, and corrupt world of the Würstreich. Explore the dangerous sandbox, fight weird monsters, and decide the fate of the land as the Hand of Doom approaches.",
+  "badgeCategory": "Dark Fantasy Adventure",
+  "roadmapTitle": "🗺️ Campaign Progression",
+  "roadmapBadge": "ADVENTURE ROADMAP",
+  "keyFeatures": [
+    "Psychedelic, punk-inspired grimdark art style",
+    "Open-world sandbox exploration",
+    "Branching narrative and varied missions",
+    "Persistent party development and danger levels"
+  ],
+  "scopes": {
+    "dd_main_campaign": {
+      "name": "Standard Campaign",
+      "description": "A full journey through the Würstreich, experiencing the main narrative arc."
+    },
+    "dd_short_campaign": {
+      "name": "Short Campaign",
+      "description": "A condensed journey for a quicker experience."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Escape from Bruttelberg",
+      "phase": "Act I - The Würstreich Opens",
+      "description": "Fleeing the prisons and entering the rotting wilds of the Würstreich.",
+      "badgeText": "Early Game"
+    },
+    {
+      "order": 2,
+      "title": "Wandering the Wasteland",
+      "phase": "Act II - Dark Encounters",
+      "description": "Navigating the corrupted lands, fighting off cultists and weird monsters.",
+      "badgeText": "Mid Game"
+    },
+    {
+      "order": 3,
+      "title": "The Gathering Doom",
+      "phase": "Act III - Approaching the Hand",
+      "description": "Preparing for the final confrontation as the Hand of Doom looms closer.",
+      "badgeText": "Late Game"
+    },
+    {
+      "order": 4,
+      "title": "Confronting the Hand of Doom",
+      "phase": "Act IV - Final Battle",
+      "description": "Facing the ultimate evil threatening to consume the Würstreich.",
+      "badgeText": "Finale"
+    }
+  ]
+}

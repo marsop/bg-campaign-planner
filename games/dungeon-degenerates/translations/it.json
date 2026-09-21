@@ -1,0 +1,55 @@
+{
+  "title": "Dungeon Degenerates: Hand of Doom",
+  "subtitle": "Sandbox di avventura dark fantasy psichedelica",
+  "tagline": "Avventurati nel Würstreich in putrefazione",
+  "loreSummary": "Siete degenerati, criminali e feccia gettati nel mondo cupo, vibrante e corrotto del Würstreich. Esplora il pericoloso sandbox, combatti mostri bizzarri e decidi il destino della terra mentre la Mano del Destino si avvicina.",
+  "badgeCategory": "Avventura Dark Fantasy",
+  "roadmapTitle": "🗺️ Progressione della Campagna",
+  "roadmapBadge": "TABELLA DI MARCIA DELL'AVVENTURA",
+  "keyFeatures": [
+    "Stile artistico grimdark psichedelico di ispirazione punk",
+    "Esplorazione sandbox open-world",
+    "Narrazione a bivi e missioni varie",
+    "Sviluppo persistente del gruppo e livelli di pericolo"
+  ],
+  "scopes": {
+    "dd_main_campaign": {
+      "name": "Campagna Standard",
+      "description": "Un viaggio completo attraverso il Würstreich, vivendo l'arco narrativo principale."
+    },
+    "dd_short_campaign": {
+      "name": "Campagna Breve",
+      "description": "Un viaggio condensato per un'esperienza più veloce."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Fuga da Bruttelberg",
+      "phase": "Atto I - Il Würstreich si Apre",
+      "description": "Fuggire dalle prigioni ed entrare nelle terre selvagge putrescenti del Würstreich.",
+      "badgeText": "Inizio Partita"
+    },
+    {
+      "order": 2,
+      "title": "Vagando per la Landa Desolata",
+      "phase": "Atto II - Incontri Oscuri",
+      "description": "Navigare nelle terre corrotte, respingendo cultisti e mostri bizzarri.",
+      "badgeText": "Metà Partita"
+    },
+    {
+      "order": 3,
+      "title": "Il Destino Incombe",
+      "phase": "Atto III - L'Avvicinamento della Mano",
+      "description": "Prepararsi per lo scontro finale mentre la Mano del Destino si avvicina.",
+      "badgeText": "Fine Partita"
+    },
+    {
+      "order": 4,
+      "title": "Affrontare la Mano del Destino",
+      "phase": "Atto IV - Battaglia Finale",
+      "description": "Affrontare il male supremo che minaccia di consumare il Würstreich.",
+      "badgeText": "Finale"
+    }
+  ]
+}
