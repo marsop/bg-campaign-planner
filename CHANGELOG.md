@@ -10,6 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Integrated Microsoft Clarity behavioral analytics script to track user interactions, heatmaps, and sessions.
 
+## [0.32.0] - Unreleased
+
+### Added
+- **New Game Support**:
+  - Added support for **Vampire: The Masquerade – Chapters**, expanding the planner's roster of long-form narrative campaign games.
+
 ## [0.31.0] - 2026-09-20
 
 ### Added
