@@ -62,19 +62,25 @@ requested by the user.
 
 ## 🟥 High Priority
 
-*(No games currently in High Priority)*
+- **Clank! Legacy: Acquisitions Incorporated** — Narrative legacy deck-building dungeon crawl across an evolving fantasy board. 10-12 sessions (20-30 hours). ~8.6 BGG. 2-4 players. Deck-building, legacy stickers, humor, push-your-luck.
+- **Star Wars: Imperial Assault** — Tactical skirmish and narrative dungeon crawl campaign set in the classic Star Wars universe. 11-12 sessions (30-40 hours). ~8.0 BGG. 1-5 players. Grid movement, dice combat, campaign mission tree, app-assisted co-op.
+- **Assassin's Creed: Brotherhood of Venice** — Tactical stealth and infiltration campaign set in Renaissance Italy. 26 sessions (30-40 hours). ~8.0 BGG. 1-4 players. Stealth action, envelope unlocks, headquarters upgrades, cooperative campaign.
+- **Dungeon Universalis** — Massive modular tabletop RPG-style tactical dungeon crawler. 30-50+ sessions (80-120 hours). ~8.8 BGG. 1-6 players. Grid combat, deep character progression, overland map, high complexity.
 
 ---
 
 ## 🟧 Medium Priority
 
-*(No games currently in Medium Priority)*
+- **Divinity Original Sin: The Board Game** — Branching cooperative fantasy RPG adventure based on the critically acclaimed video game. 16+ sessions (30-50 hours). ~7.8 BGG. 1-4 players. Location cards, elemental interactions, multi-act story.
+- **Resident Evil: The Board Game** — Survival horror exploration campaign uncovering the horrors of the Spencer Mansion. 19 sessions (25-35 hours). ~7.8 BGG. 1-4 players. Tension deck, resource scarcity, survival horror, narrative scenarios.
+- **Harakiri: Blades of Honor** — Dark fantasy dungeon crawler and epic adventure set in mythical feudal Japan. 15+ sessions (40-60 hours). ~8.6 BGG. 1-4 players. Grid combat, branching narrative, character progression, boss encounters.
 
 ---
 
 ## 🟨 Lower Priority
 
-*(No games currently in Lower Priority)*
+- **Aftermath** — Post-apocalyptic storybook campaign where small rodent heroes build and protect their colony. 20-27 sessions (20-30 hours). ~7.4 BGG. 1-4 players. Adventure book, colony management, character growth, narrative adventure.
+- **Familiar Tales** — Narrative adventure book campaign following four magical familiars protecting a child princess. 9 sessions across 3 eras (25-35 hours). ~7.3 BGG. 1-4 players. App-driven narration, deck crafting, adventure book, cooperative story.
 
 ---
 
@@ -90,3 +96,7 @@ requested by the user.
 - Chronicles of Crime requires a companion mobile application for interrogations and 3D scene inspection.
 - Detective: A Modern Crime Board Game requires access to the online Antares database for fingerprints, case files, and final submissions.
 - My City and My Island are competitive legacy games structured into 8 progressive chapters of 3 episodes each (24 total episodes).
+- Star Wars: Imperial Assault supports 1-vs-many with an Imperial player or fully cooperative play via the official Legends of the Alliance companion app.
+- Assassin's Creed: Brotherhood of Venice is organized into 26 distinct "Memories" housed in sealed secret envelopes.
+- Dungeon Universalis is an exceptionally deep system with comprehensive RPG rules and custom campaign books.
+- Familiar Tales requires a companion web/mobile app for voice narration and scenario prompts.
