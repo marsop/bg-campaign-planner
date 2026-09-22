@@ -11,6 +11,7 @@
   "baseScenarioMinutes": 120,
   "setupTeardownMinutes": 30,
   "unitType": "encounters",
+  "quality": "high",
   "theme": {
     "primaryColor": "#9933cc",
     "secondaryColor": "#1a0a24",

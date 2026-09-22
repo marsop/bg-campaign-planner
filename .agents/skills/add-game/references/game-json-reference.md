@@ -56,6 +56,13 @@ This file lives at `games/{game-id}/game.json`.
   //   "lantern_years" — Kingdom Death: Monster
   "unitType": "scenarios",
 
+  // Required. Evaluates completeness and asset fidelity of the game entry.
+  // Allowed values:
+  //   "high" — Everything is correct, complete, authentic, and as expected (custom box art, game-specific atmospheric background, full scopes, milestones, complete translations across all 5 languages).
+  //   "mid"  — Some things are unclear or default/placeholder assets are used (e.g., using default-background.webp).
+  //   "low"  — Translations are missing, information is incomplete, or images are not defined.
+  "quality": "high",
+
   // Optional. Set to null to disable the background image entirely.
   // Omit this field to use the default "background.webp".
   // "backgroundImage": null,

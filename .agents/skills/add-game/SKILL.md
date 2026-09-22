@@ -97,6 +97,10 @@ See the full annotated reference: [game-json-reference.md](./references/game-jso
 - `unitType` must accurately describe how the game calls one session of play.
   Common values: `"scenarios"`, `"games_months"`, `"chapters"`,
   `"expeditions"`, `"quests"`, `"missions"`.
+- `quality` is **required** and evaluates the completeness and asset fidelity of the game entry:
+  - `"high"`: Everything is correct, complete, and as expected (custom box cover, game-specific atmospheric background, full scopes, milestones, and complete localized translations across EN, ES, DE, FR, IT).
+  - `"mid"`: Some aspects are unclear or placeholder/default assets are used (e.g. using `default-background.webp`).
+  - `"low"`: Translations are missing, information is incomplete, or images are not defined.
 - Define **2–4 scopes** covering realistic play ranges (e.g. story-only,
   standard, completionist). Always mark exactly **one** scope as
   `"isRecommended": true`.
@@ -203,6 +207,7 @@ should be investigated.
 ## Step 7 — Checklist Before Finishing
 
 - [ ] games/{game-id}/game.json — valid JSON, all required fields present
+- [ ] games/{game-id}/game.json — "quality" defined ("high", "mid", or "low") according to asset/data completeness
 - [ ] games/{game-id}/cover.webp — 1:1 square WebP image exists
 - [ ] games/{game-id}/background.webp — 16:9 widescreen WebP image exists
 - [ ] games/{game-id}/translations/en.json — complete

@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.32.0] - 2026-09-22
+
 ### Added
+- **Game Quality Property (`quality`)**:
+  - Introduced a standardized `quality` property (`"high"`, `"mid"`, `"low"`) across `BoardGame` and `CampaignDataService` to track metadata completeness and asset authenticity.
+  - Added `"quality"` to all 34 board game definitions in `games/*/game.json`.
+  - Assigned `"quality": "mid"` to 6 games utilizing generic fallback backgrounds (`aeons-end-legacy`, `darkest-dungeon`, `earthborne-rangers`, `fateforge-chronicles-of-kaan`, `isofarian-guard`, `lotr-journeys-middle-earth`).
+  - Assigned `"quality": "high"` to the remaining 28 games containing fully custom artwork, complete milestones, and localized translations across all 5 supported languages.
+  - Updated the `add-game` skill, reference documentation, and `AGENTS.md` guidelines to require defining `quality` on all new games.
 - Integrated Microsoft Clarity behavioral analytics script to track user interactions, heatmaps, and sessions.
 
 ## [0.31.0] - 2026-09-20

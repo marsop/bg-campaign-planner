@@ -11,6 +11,7 @@
   "baseScenarioMinutes": 105,
   "setupTeardownMinutes": 15,
   "unitType": "adventures",
+  "quality": "high",
   "theme": {
     "primaryColor": "#3b4cca",
     "secondaryColor": "#0d1527",

@@ -11,6 +11,7 @@
   "baseScenarioMinutes": 60,
   "setupTeardownMinutes": 15,
   "unitType": "games_months",
+  "quality": "high",
   "theme": {
     "primaryColor": "#0ea5e9",
     "secondaryColor": "#0f172a",

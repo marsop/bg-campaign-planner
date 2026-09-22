@@ -83,4 +83,5 @@ public class BoardGame
     public string ImageUrl { get; set; } = string.Empty;
     public string? BackgroundImageUrl { get; set; }
     public string? CustomCssUrl { get; set; }
+    public string Quality { get; set; } = "high";
 }

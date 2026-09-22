@@ -11,6 +11,7 @@
   "baseScenarioMinutes": 110,
   "setupTeardownMinutes": 25,
   "unitType": "quests",
+  "quality": "high",
   "theme": {
     "primaryColor": "#dc2626",
     "secondaryColor": "#180a0c",
