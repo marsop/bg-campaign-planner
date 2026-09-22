@@ -1,0 +1,59 @@
+{
+  "title": "Perseverance: Castaway Chronicles",
+  "subtitle": "An epic saga of survival, community building, and dinosaur defense across an uncharted primeval island",
+  "tagline": "Build your colony, defend the walls, and tame the primordial wilderness.",
+  "loreSummary": "After a massive ocean liner crashes on a mysterious uncharted island populated by prehistoric dinosaurs, surviving factions must build shelter, defend the settlement, and compete to become the true leaders of a new society.",
+  "badgeCategory": "Survival Euro Campaign with Dinosaurs",
+  "roadmapTitle": "Chronicles of the Island",
+  "roadmapBadge": "Colony Milestones",
+  "keyFeatures": [
+    "Chronicle campaign mode linking Episode 1 and Episode 2 with persistent outcomes",
+    "Deep dice-drafting and worker-placement Euro mechanics coupled with thematic defense",
+    "Dynamic event and incursion decks that evolve based on previous decisions",
+    "Multi-layered leadership rivalry deciding the sovereign fate of the survivor civilization"
+  ],
+  "scopes": {
+    "perseverance_chronicles": {
+      "name": "Full Chronicles Campaign (Episodes 1 & 2)",
+      "description": "The complete interconnected campaign spanning the establishment of the camp through the frontier expansion."
+    },
+    "perseverance_ep1": {
+      "name": "Episode 1: The Foothold",
+      "description": "The founding chronicle focusing on survival, initial fortifications, and repelling beach assaults."
+    },
+    "perseverance_ep2": {
+      "name": "Episode 2: The Frontier",
+      "description": "The expansion chronicle focusing on dinosaur taming, specialized structures, and inland expeditions."
+    },
+    "perseverance_extended": {
+      "name": "Extended Grand Chronicle",
+      "description": "An exhaustive multi-generational chronicle exploring every branch of the island's evolving story."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Ep. 1 - Pt. 1",
+      "title": "The Shoreline Perimeter",
+      "phase": "Episode 1 - Initial Defenses",
+      "description": "Constructing defensive palisades and repelling the initial dinosaur incursions along the beach."
+    },
+    {
+      "badgeText": "Ep. 1 - Finale",
+      "title": "The First Assembly",
+      "phase": "Episode 1 - Settlement Foundation",
+      "description": "Establishing civic factions and electing the inaugural council to guide colony expansion."
+    },
+    {
+      "badgeText": "Ep. 2 - Pt. 1",
+      "title": "The Beast Whisperers",
+      "phase": "Episode 2 - Fauna Domestication",
+      "description": "Taming native squamata beasts and venturing into uncharted primeval jungle sectors."
+    },
+    {
+      "badgeText": "Ep. 2 - Finale",
+      "title": "The Sovereign Citadel",
+      "phase": "Episode 2 - Culmination",
+      "description": "Enduring the cataclysmic apex assault to forge an enduring, self-sustaining civilization."
+    }
+  ]
+}

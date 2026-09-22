@@ -1,0 +1,55 @@
+{
+  "title": "Chronicles of Crime",
+  "subtitle": "Una serie cooperativa di indagine criminale guidata da app che unisce gioco da tavolo e investigazione scientifica",
+  "tagline": "Scansiona indizi, interroga testimoni e risolvi i delitti più complessi di Londra.",
+  "loreSummary": "Nei panni di investigatori scelti di Scotland Yard nella Londra odierna, la tua squadra investigativa lotta contro il tempo per fare luce su delitti brutali, esaminare prove forensi con esperti e assicurare i colpevoli alla giustizia.",
+  "badgeCategory": "Investigazione Criminale Guidata da App",
+  "roadmapTitle": "Fascicolo d'Indagine & Registro Prove",
+  "roadmapBadge": "Traguardi Investigativi",
+  "keyFeatures": [
+    "Integrazione Scan&Play tramite codici QR per collegare carte, interrogatori a sospettati e luoghi chiave",
+    "Ispezione panoramica a 360 gradi e in realtà virtuale delle scene del crimine per scovare indizi fisici",
+    "Orologio di gioco dinamico in cui ogni interrogatorio, spostamento e consulenza forense consuma tempo",
+    "Specialisti a supporto presso Scotland Yard per consulenze balistiche, mediche, informatiche e criminologiche"
+  ],
+  "scopes": {
+    "chronicles_of_crime_campaign": {
+      "name": "Il Fiore Maledetto (Campagna in 3 Parti)",
+      "description": "L'arco narrativo principale suddiviso in 3 casi che svela un'intricata ragnatela di omicidi e malavita londinese."
+    },
+    "chronicles_of_crime_base_archive": {
+      "name": "Archivio Completo dei Casi di Londra",
+      "description": "Tutti i 5 casi investigativi della scatola base, comprendenti misteri autoconclusivi e l'intera campagna."
+    },
+    "chronicles_of_crime_expanded": {
+      "name": "Archivio del Maestro Investigatore",
+      "description": "Un registro esteso di 8 casi che combina le indagini della scatola base e i casi digitali aggiuntivi."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Rilievo",
+      "title": "L'Esposizione Curzon",
+      "phase": "Rilievo Preliminare",
+      "description": "Analisi della scena del crimine al Museo Curzon e raccolta dei primi reperti forensi."
+    },
+    {
+      "badgeText": "Parte I",
+      "title": "La Rosa Avvelenata",
+      "phase": "Il Fiore Maledetto - Parte I",
+      "description": "Identificazione di veleni botanici sospetti e interrogatori a familiari rancorosi a West London."
+    },
+    {
+      "badgeText": "Parte II",
+      "title": "Ombre nella Metropolitana",
+      "phase": "Il Fiore Maledetto - Parte II",
+      "description": "Tracciamento dei canali clandestini del mercato nero nella metropolitana di Londra."
+    },
+    {
+      "badgeText": "Parte III",
+      "title": "La Caduta del Sindacato",
+      "phase": "Il Fiore Maledetto - Parte III",
+      "description": "Incastrare la mente dietro l'organizzazione criminale e presentare il fascicolo conclusivo al capo ispettore."
+    }
+  ]
+}

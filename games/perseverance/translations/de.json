@@ -1,0 +1,59 @@
+{
+  "title": "Perseverance: Castaway Chronicles",
+  "subtitle": "Eine epische Saga über Überleben, Gemeinschaftsbau und Dinosaurier-Abwehr auf einer urzeitlichen Insel",
+  "tagline": "Errichte deine Kolonie, befestige die Mauern und zähme die urzeitliche Wildnis.",
+  "loreSummary": "Nachdem ein gewaltiger Ozeandampfer an den Klippen einer geheimnisvollen, von Dinosauriern bevölkerten Insel zerschellt ist, müssen die überlebenden Fraktionen Unterkünfte errichten, die Siedlung verteidigen und um die Führung einer neuen Gesellschaft ringen.",
+  "badgeCategory": "Survival-Euro-Kampagne mit Dinosauriern",
+  "roadmapTitle": "Chroniken der Insel",
+  "roadmapBadge": "Kolonie-Meilensteine",
+  "keyFeatures": [
+    "Chronik-Kampagnenmodus, der Episode 1 und 2 mit dauerhaften Konsequenzen verbindet",
+    "Anspruchsvolles Dice-Drafting und Worker-Placement gepaart mit thematischer Verteidigung",
+    "Dynamische Ereignis- und Angriffsdecks, die sich durch vorangegangene Entscheidungen verändern",
+    "Vielschichtiger politischer Machtkampf um das souveräne Schicksal der Überlebenden"
+  ],
+  "scopes": {
+    "perseverance_chronicles": {
+      "name": "Gesamte Chronik-Kampagne (Episoden 1 & 2)",
+      "description": "Die vollständige, miteinander verknüpfte Kampagne von der Gründung des Lagers bis zur Erschließung der Grenzwildnis."
+    },
+    "perseverance_ep1": {
+      "name": "Episode 1: Der Brückenkopf",
+      "description": "Die Gründungschronik mit Fokus auf Überleben, erste Befestigungen und das Abwehren von Strandangriffen."
+    },
+    "perseverance_ep2": {
+      "name": "Episode 2: Die Grenze",
+      "description": "Die Expansionschronik mit Schwerpunkt auf Dinosaurierzähmung, Gebäudebau und Dschungelexpeditionen."
+    },
+    "perseverance_extended": {
+      "name": "Erweiterte Großchronik",
+      "description": "Eine umfassende generationenübergreifende Chronik, die alle Verzweigungen der Inselgeschichte erkundet."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Ep. 1 - T. 1",
+      "title": "Der Küstenperimeter",
+      "phase": "Episode 1 - Erste Verteidigungslinie",
+      "description": "Errichtung schützender Palisaden und Abwehr der ersten Dinosaurier-Wellen entlang der Küste."
+    },
+    {
+      "badgeText": "Ep. 1 - Finale",
+      "title": "Die Erste Versammlung",
+      "phase": "Episode 1 - Gründung der Siedlung",
+      "description": "Gründung ziviler Fraktionen und Wahl des ersten Rats zur Steuerung des Koloniewachstums."
+    },
+    {
+      "badgeText": "Ep. 2 - T. 1",
+      "title": "Die Bestienflüsterer",
+      "phase": "Episode 2 - Zähmung der Urzeitfauna",
+      "description": "Zähmung einheimischer Saurier und gefahrvolle Expeditionen in unbekannte Dschungelsektoren."
+    },
+    {
+      "badgeText": "Ep. 2 - Finale",
+      "title": "Die Souveräne Zitadelle",
+      "phase": "Episode 2 - Höhepunkt",
+      "description": "Das Überstehen des finalen Spitzenraubtier-Angriffs zur Errichtung einer dauerhaften, autarken Zivilisation."
+    }
+  ]
+}

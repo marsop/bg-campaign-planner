@@ -1,0 +1,101 @@
+{
+  "id": "perseverance",
+  "title": "Perseverance: Castaway Chronicles",
+  "releaseYear": 2022,
+  "designers": "Richard Amann, Thomas Vande Ginste, Viktor Peter, Dávid Turczi, Wolf Plancke",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.1,
+  "bggWeight": 3.70,
+  "bggUrl": "https://boardgamegeek.com/boardgame/273330/perseverance-castaway-chronicles-episodes-1-and-2",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 20,
+  "unitType": "episodes",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#047857",
+    "secondaryColor": "#132219",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #143527 0%, #0d1e16 60%, #050a08 100%)",
+    "cardBackground": "rgba(16, 31, 23, 0.92)",
+    "borderColor": "rgba(16, 185, 129, 0.35)",
+    "glowColor": "rgba(16, 185, 129, 0.25)",
+    "headerFont": "'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🦖",
+    "emblem": "🦖🛡️",
+    "themeClass": "theme-perseverance",
+    "activeThemeClass": "theme-perseverance-active",
+    "roadmapClass": "roadmap-perseverance",
+    "heroClass": "hero-perseverance"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #273330)",
+    "Mindclash Games Official Chronicle Rulebook & Episodes 1 & 2 Guides",
+    "Kickstarter & Gamefound Campaign Archives"
+  ],
+  "scopes": [
+    {
+      "id": "perseverance_chronicles",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "perseverance_ep1",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "perseverance_ep2",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "perseverance_extended",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🌊",
+      "badgeText": "Ep. 1 - Pt. 1",
+      "title": "The Shoreline Perimeter",
+      "phase": "Episode 1 - Initial Defenses",
+      "description": "Constructing defensive palisades and repelling the initial dinosaur incursions along the beach."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🏛️",
+      "badgeText": "Ep. 1 - Finale",
+      "title": "The First Assembly",
+      "phase": "Episode 1 - Settlement Foundation",
+      "description": "Establishing civic factions and electing the inaugural council to guide colony expansion."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🦕",
+      "badgeText": "Ep. 2 - Pt. 1",
+      "title": "The Beast Whisperers",
+      "phase": "Episode 2 - Fauna Domestication",
+      "description": "Taming native squamata beasts and venturing into uncharted primeval jungle sectors."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "👑",
+      "badgeText": "Ep. 2 - Finale",
+      "title": "The Sovereign Citadel",
+      "phase": "Episode 2 - Culmination",
+      "description": "Enduring the cataclysmic apex assault to forge an enduring, self-sustaining civilization."
+    }
+  ]
+}

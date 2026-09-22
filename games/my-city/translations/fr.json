@@ -1,0 +1,87 @@
+{
+  "title": "My City",
+  "subtitle": "Jeu de construction de ville legacy compétitif des premiers pionniers à la métropole industrielle",
+  "tagline": "Chaque tuile posée façonne l'histoire et la silhouette de votre propre cité",
+  "loreSummary": "Vous êtes des pionniers développant une vallée fluviale sauvage pour fonder une communauté florissante. À travers huit chapitres historiques, chaque bâtiment posé modifie définitivement votre plateau alors que de nouvelles ères apportent églises, voies ferrées et prospérité industrielle.",
+  "badgeCategory": "Pose de Tuiles Legacy Compétitif",
+  "roadmapTitle": "🗺️ Chronique Urbaine et Feuille de Route de Développement",
+  "roadmapBadge": "FEUILLE DE ROUTE URBAINE",
+  "keyFeatures": [
+    "Pose simultanée de tuiles polyominos maintenant l'ensemble des joueurs continuellement engagés",
+    "Enveloppes de chapitres scellées débloquant des mécaniques évolutives sur 8 ères historiques",
+    "Modifications permanentes du plateau forgeant une histoire architecturale singulière",
+    "Plateaux réversibles permettant des parties rejouables infinies sans composante legacy"
+  ],
+  "scopes": {
+    "mycity_campaign": {
+      "name": "Campagne Legacy Complète (8 Chapitres)",
+      "description": "La saga historique intégrale en 24 épisodes, des premières fondations à la révolution industrielle."
+    },
+    "mycity_first_era": {
+      "name": "Première Ère (Chapitres 1–4)",
+      "description": "Les 12 épisodes inauguraux couvrant l'installation pionnière, les églises, les inondations et la ruée vers l'or."
+    },
+    "mycity_industrial_era": {
+      "name": "Ère Industrielle (Chapitres 5–8)",
+      "description": "Les 12 épisodes avancés introduisant usines, carrières minières, réseau ferroviaire et prospérité métropolitaine."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ch. 1",
+      "title": "La nouvelle terre",
+      "phase": "Ère I - Établissement Pionnier",
+      "description": "Poser les premières fondations sur la berge d'une vallée préservée entre montagnes et forêts."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ch. 2",
+      "title": "Les églises",
+      "phase": "Ère II - Rassemblement Spirituel",
+      "description": "Ériger de majestueux lieux de culte pour unir la communauté tandis que l'espace constructible se raréfie."
+    },
+    {
+      "order": 3,
+      "badgeText": "Ch. 3",
+      "title": "L'inondation",
+      "phase": "Ère III - Épreuves des Éléments",
+      "description": "Adapter l'urbanisme aux crues saisonnières de la rivière pour préserver les quartiers résidentiels."
+    },
+    {
+      "order": 4,
+      "badgeText": "Ch. 4",
+      "title": "La ruée vers l'or",
+      "phase": "Ère IV - Prospection Montagnarde",
+      "description": "La découverte de filons précieux dans les collines déclenche une vive expansion et une rude rivalité territoriale."
+    },
+    {
+      "order": 5,
+      "badgeText": "Ch. 5",
+      "title": "Les usines",
+      "phase": "Ère V - Première Industrialisation",
+      "description": "Les cheminées s'élèvent dans le paysage urbain alors que les manufactures décuplent la productivité et transforment la ville."
+    },
+    {
+      "order": 6,
+      "badgeText": "Ch. 6",
+      "title": "L'exploitation minière",
+      "phase": "Ère VI - Extraction Souterraine",
+      "description": "Des puits miniers profonds redessinent la périphérie, fournissant des matières brutes indispensables à l'essor civique."
+    },
+    {
+      "order": 7,
+      "badgeText": "Ch. 7",
+      "title": "Le chemin de fer",
+      "phase": "Ère VII - Vapeur et Voies Ferrées",
+      "description": "Des rails d'acier relient les confins de la municipalité, révolutionnant logistique et aménagement du territoire."
+    },
+    {
+      "order": 8,
+      "badgeText": "Ch. 8",
+      "title": "La prospérité",
+      "phase": "Ère VIII - La Grande Métropole",
+      "description": "L'aboutissement de générations de planification au sein d'une cité rayonnante dotée de son propre héritage."
+    }
+  ]
+}

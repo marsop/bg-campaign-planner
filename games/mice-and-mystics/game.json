@@ -1,0 +1,95 @@
+{
+  "id": "mice-and-mystics",
+  "title": "Mice and Mystics",
+  "releaseYear": 2012,
+  "designers": "Jerry Hawthorne",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.3,
+  "bggWeight": 2.70,
+  "bggUrl": "https://boardgamegeek.com/boardgame/124708/mice-and-mystics",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "chapters",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#b45309",
+    "secondaryColor": "#1c1917",
+    "accentColor": "#eab308",
+    "backgroundGradient": "radial-gradient(ellipse at top, #292524 0%, #1c1917 60%, #0c0a09 100%)",
+    "cardBackground": "rgba(28, 25, 23, 0.92)",
+    "borderColor": "rgba(202, 138, 4, 0.35)",
+    "glowColor": "rgba(234, 179, 8, 0.25)",
+    "headerFont": "'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🐭",
+    "emblem": "🐭🗡️",
+    "themeClass": "theme-micemystics",
+    "activeThemeClass": "theme-micemystics-active",
+    "roadmapClass": "roadmap-micemystics",
+    "heroClass": "hero-micemystics"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #124708)",
+    "Plaid Hat Games Official Mice and Mystics Sorrow and Remembrance Rulebook & Storybook",
+    "Plaid Hat Games Official Web Gallery & FAQ"
+  ],
+  "scopes": [
+    {
+      "id": "mice_mystics_sorrow_remembrance",
+      "baseScenarioCount": 11,
+      "estimatedFailRatePercent": 0.12,
+      "isRecommended": true
+    },
+    {
+      "id": "mice_mystics_act1",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 0.10,
+      "isRecommended": false
+    },
+    {
+      "id": "mice_mystics_act2",
+      "baseScenarioCount": 7,
+      "estimatedFailRatePercent": 0.12,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🏰",
+      "badgeText": "Act I",
+      "title": "Flight from the Dungeon",
+      "phase": "Act I - The Great Escape",
+      "description": "Escaping the grim castle dungeons through sewer pipes and navigating the courtyard shadows."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🐱",
+      "badgeText": "Act II",
+      "title": "Whispers of the Forge",
+      "phase": "Act II - Allies in the Shadows",
+      "description": "Forging alliances with castle critters, evading the prowling kitchen cat Brodie, and gathering ancient relics."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🧪",
+      "badgeText": "Act III",
+      "title": "Infiltrating the Laboratory",
+      "phase": "Act III - Vanestra's Sorcery",
+      "description": "Infiltrating Vanestra's alchemical laboratories to uncover the secret to reversing the rodent transformation."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 11,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "The King's Deliverance",
+      "phase": "Act IV - Triumph Over Tyranny",
+      "description": "Confronting Vanestra and her wicked minions in the royal throne room to restore peace to King Andon's realm."
+    }
+  ]
+}

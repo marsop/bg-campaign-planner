@@ -1,0 +1,55 @@
+{
+  "title": "Cloudspire",
+  "subtitle": "Una campaña estratégica y asimétrica de defensa de torres y MOBA en las islas flotantes de Ankar",
+  "tagline": "Construye agujas defensivas, despliega esbirros únicos y domina el poder del Manantial.",
+  "loreSummary": "Muy por encima del devastado mundo terrenal flotan las islas celestes de Ankar. A medida que la codiciada energía del Manantial brota por las fisuras de la realidad, cuatro facciones profundamente asimétricas libran una guerra táctica implacable de ciudadelas, agujas y héroes.",
+  "badgeCategory": "MOBA Táctico Asimétrico y Campaña",
+  "roadmapTitle": "Crónica de las Islas Celestiales",
+  "roadmapBadge": "Sagas de Facciones",
+  "keyFeatures": [
+    "Campañas de escenarios en solitario y cooperativo con objetivos asimétricos e IA dinámica",
+    "Profunda fusión táctica de construcción de agujas, rutas de avance de esbirros y combate de héroes",
+    "Cuatro facciones radicalmente distintas con árboles de mejoras, talentos y fortalezas exclusivas",
+    "Producción premium de Chip Theory Games con fichas pesadas y tapetes de neopreno"
+  ],
+  "scopes": {
+    "cloudspire_solo_coop_campaign": {
+      "name": "Libro de Campaña en Solitario y Cooperativo",
+      "description": "La saga completa de 16 escenarios recorriendo las cuatro facciones básicas mediante rigurosas pruebas tácticas."
+    },
+    "cloudspire_coop_chronicles": {
+      "name": "Crónica Cooperativa Dedicada",
+      "description": "La campaña cooperativa de 6 escenarios que exige una sincronización táctica impecable entre dos jugadores."
+    },
+    "cloudspire_faction_mastery": {
+      "name": "Arco de Maestría de Facción",
+      "description": "Un desafío concentrado de 4 escenarios para dominar al completo la mecánica y estrategia de una facción elegida."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Saga I",
+      "title": "La Vanguardia Brawnen",
+      "phase": "Saga de Facción I - Voluntad de Hierro",
+      "description": "Dirigir las colosales unidades de asedio Brawnen y asegurar la fortaleza del Manantial contra incursiones enemigas."
+    },
+    {
+      "badgeText": "Saga II",
+      "title": "El Bastión de Engranajes",
+      "phase": "Saga de Facción II - El Ascenso de Hephaestus",
+      "description": "Aprovechar la ingeniería de vapor y las balistas automatizadas de Hephaestus para dominar los cielos isleños."
+    },
+    {
+      "badgeText": "Saga III",
+      "title": "El Dosel Celestial",
+      "phase": "Saga de Facción III - El Resplandor Narora",
+      "description": "Canalizar la energía cristalina etérea de los Narora para neutralizar las emboscadas en la frondosidad salvaje."
+    },
+    {
+      "badgeText": "Saga IV",
+      "title": "La Venganza de los Grievance",
+      "phase": "Saga de Facción IV - Sombras Subterráneas",
+      "description": "Sobrevivir a las traicioneras emboscadas subterráneas de los Grievance para reclamar el dominio total de Ankar."
+    }
+  ]
+}

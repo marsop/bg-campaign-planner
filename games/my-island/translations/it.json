@@ -1,0 +1,79 @@
+{
+  "title": "My Island",
+  "subtitle": "Una campagna legacy competitiva di piazzamento tessere esagonali per fondare un florido paradiso tropicale",
+  "tagline": "Esplora la tua isola, piazza insediamenti esagonali e rivela segreti attraverso otto ere evolutive.",
+  "loreSummary": "Dopo aver navigato acque inesplorate fino a scorgere un arcipelago tropicale appartato, i giocatori si sfidano per costruire case, piantare palmeti, tracciare sentieri e dissotterrare antichi misteri sulla propria plancia di gioco evolutiva.",
+  "badgeCategory": "Gioco Competitivo Legacy a Tessere Esagonali",
+  "roadmapTitle": "Cronaca dell'Arcipelago",
+  "roadmapBadge": "Buste dei Capitoli",
+  "keyFeatures": [
+    "Gioco legacy competitivo strutturato in 8 buste sigillate con 24 episodi complessivi",
+    "Piazzamento strategico di tessere esagonali in contemporanea con criteri di punteggio mutevoli",
+    "Evoluzione permanente della plancia tramite adesivi che aggiungono sentieri, palme, mura e statue antiche",
+    "Regolamento intuitivo firmato dal maestro Reiner Knizia che fonde immediatezza e profondità di gioco"
+  ],
+  "scopes": {
+    "my_island_campaign": {
+      "name": "Campagna Legacy Completa (8 Capitoli)",
+      "description": "Il viaggio legacy completo di 24 episodi aprendo tutte le otto buste segrete dallo sbarco iniziale al paradiso."
+    },
+    "my_island_settlement_era": {
+      "name": "Era della Colonizzazione (Capitoli 1–4)",
+      "description": "I primi 12 episodi dedicati all'insediamento costiero, campi agricoli, sentieri e mura protettive."
+    },
+    "my_island_monuments_era": {
+      "name": "Era dei Monumenti (Capitoli 5–8)",
+      "description": "I 12 episodi culminanti dedicati a statue misteriose, centri del villaggio e giardini botanici recintati."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Cap. 1",
+      "title": "Le Prime Case",
+      "phase": "Capitolo 1 - Insediamento Costiero",
+      "description": "Costruzione delle prime dimore lungo il litorale incontaminato dell'isola sconosciuta."
+    },
+    {
+      "badgeText": "Cap. 2",
+      "title": "I Sentieri",
+      "phase": "Capitolo 2 - Vie di Comunicazione",
+      "description": "Tracciamento di sentieri tra i boschi per collegare le case coloniche sparse nell'isola."
+    },
+    {
+      "badgeText": "Cap. 3",
+      "title": "Palme e Campi",
+      "phase": "Capitolo 3 - Coltivazione Tropicale",
+      "description": "Coltivazione di fertili appezzamenti agricoli e raccolta delle noci dai palmeti autoctoni."
+    },
+    {
+      "badgeText": "Cap. 4",
+      "title": "Le Mura Protettive",
+      "phase": "Capitolo 4 - Confini Fortificati",
+      "description": "Erezione di muretti in pietra per delimitare i territori e proteggere le zone residenziali."
+    },
+    {
+      "badgeText": "Cap. 5",
+      "title": "Le Statue Antiche",
+      "phase": "Capitolo 5 - Reliquie Monumentali",
+      "description": "Ritrovamento di enigmatiche sculture dimenticate e costruzione di complessi cerimoniali."
+    },
+    {
+      "badgeText": "Cap. 6",
+      "title": "Il Centro del Villaggio",
+      "phase": "Capitolo 6 - Cuore Civico",
+      "description": "Sviluppo di piazze comunitarie e strutturazione di quartieri residenziali densamente popolati."
+    },
+    {
+      "badgeText": "Cap. 7",
+      "title": "I Giardini Recintati",
+      "phase": "Capitolo 7 - Santuari Botanici",
+      "description": "Creazione di giardini cinti da mura e oasi botaniche armoniose nel cuore dell'isola."
+    },
+    {
+      "badgeText": "Cap. 8",
+      "title": "L'Isola Dimenticata",
+      "phase": "Capitolo 8 - Il Paradiso Compiuto",
+      "description": "Conclusione della saga transgenerazionale con l'isola che raggiunge il suo massimo splendore."
+    }
+  ]
+}

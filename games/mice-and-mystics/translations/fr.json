@@ -1,0 +1,55 @@
+{
+  "title": "Mice and Mystics",
+  "subtitle": "Une aventure narrative féerique où des héros changés en souris luttent pour sauver leur royaume",
+  "tagline": "Incarnez de vaillantes souris, bravez les dangers du château et sauvez le Roi.",
+  "loreSummary": "Métamorphosés en souris par le mystique Maginos afin d'échapper à la perfide sorcière Vanestra, le prince Collin et ses fidèles compagnons doivent explorer un château devenu vingt fois plus grand, fuyant cafards, rats armés et le redoutable chat Brodie.",
+  "badgeCategory": "Dungeon Crawler Narratif de Conte de Fées",
+  "roadmapTitle": "Conte de Deuil et de Mémoire",
+  "roadmapBadge": "Chapitres du Conte",
+  "keyFeatures": [
+    "Aventure immersive en forme de livre de contes associant belle plume et combats tactiques de figurines",
+    "Équipement ingénieux à échelle de rongeur comme boucliers-boutons, lances-cure-dents et casques-dés à coudre",
+    "Mécanique dynamique de roue de fromage alimentant prouesses héroïques et renforts ennemis",
+    "Campagne accessible et chaleureuse idéale pour les familles et les aventuriers de tous âges"
+  ],
+  "scopes": {
+    "mice_mystics_sorrow_remembrance": {
+      "name": "Deuil et Souvenir (Campagne Complète)",
+      "description": "L'intégralité des 11 chapitres du livre d'aventures retraçant la rébellion héroïque du prince Collin."
+    },
+    "mice_mystics_act1": {
+      "name": "Acte I : Fuite des Donjons",
+      "description": "Les 4 premiers chapitres axés sur l'évasion des geôles et la fondation d'un abri dans les égouts."
+    },
+    "mice_mystics_act2": {
+      "name": "Acte II : Le Siège du Château",
+      "description": "Les 7 chapitres décisifs rassemblant les alliés des bois pour reprendre possession de la citadelle royale."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Acte I",
+      "title": "La Fuite des Donjons",
+      "phase": "Acte I - La Grande Évasion",
+      "description": "S'évader des sombres cachots par les canalisations et traverser les ombres de la cour du château."
+    },
+    {
+      "badgeText": "Acte II",
+      "title": "Murmures de la Forge",
+      "phase": "Acte II - Alliés de l'Ombre",
+      "description": "Nouer des pactes avec les créatures du château, fuir le chat Brodie et retrouver des reliques sacrées."
+    },
+    {
+      "badgeText": "Acte III",
+      "title": "Infiltration du Laboratoire",
+      "phase": "Acte III - La Magie de Vanestra",
+      "description": "Pénétrer dans les laboratoires alchimiques de Vanestra pour percer le remède contre la métamorphose."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "La Délivrance du Roi",
+      "phase": "Acte IV - Triomphe sur la Tyrannie",
+      "description": "Affronter Vanestra et ses séides dans la salle du trône royal afin de délivrer le roi Andon."
+    }
+  ]
+}

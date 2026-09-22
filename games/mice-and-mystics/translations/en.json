@@ -1,0 +1,55 @@
+{
+  "title": "Mice and Mystics",
+  "subtitle": "A cooperative storybook adventure of miniature rodent heroes saving a fractured kingdom",
+  "tagline": "Play as heroic mice, brave the castle hazards, and save the afflicted King.",
+  "loreSummary": "Transformed into mice by the court mystic Maginos to escape the evil sorceress Vanestra, Prince Collin and his loyal companions must scamper through a castle now twenty times larger, dodging scuttling roaches, venomous rats, and the fearsome feline Brodie.",
+  "badgeCategory": "Storybook Narrative Dungeon Crawler",
+  "roadmapTitle": "Tale of Sorrow & Remembrance",
+  "roadmapBadge": "Storybook Chapters",
+  "keyFeatures": [
+    "Charming storybook narrative blending evocative fairy-tale storytelling with tactical miniature play",
+    "Creative scale-based equipment like button shields, toothpick spears, and thimble helmets",
+    "Dynamic cheese-wheel resource system powering mighty heroic abilities and enemy surges",
+    "Family-friendly campaign structure welcoming cooperative adventurers of all experience levels"
+  ],
+  "scopes": {
+    "mice_mystics_sorrow_remembrance": {
+      "name": "Sorrow and Remembrance (Full Tale)",
+      "description": "The complete 11-chapter foundational storybook campaign charting Prince Collin's rebellion."
+    },
+    "mice_mystics_act1": {
+      "name": "Act I: Flight from the Dungeon",
+      "description": "The initial 4 chapters focusing on escaping imprisonment and establishing a sewer refuge."
+    },
+    "mice_mystics_act2": {
+      "name": "Act II: The Castle Siege",
+      "description": "The culminating 7 chapters gathering woodland allies and reclaiming the royal keep."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Act I",
+      "title": "Flight from the Dungeon",
+      "phase": "Act I - The Great Escape",
+      "description": "Escaping the grim castle dungeons through sewer pipes and navigating the courtyard shadows."
+    },
+    {
+      "badgeText": "Act II",
+      "title": "Whispers of the Forge",
+      "phase": "Act II - Allies in the Shadows",
+      "description": "Forging alliances with castle critters, evading the prowling kitchen cat Brodie, and gathering ancient relics."
+    },
+    {
+      "badgeText": "Act III",
+      "title": "Infiltrating the Laboratory",
+      "phase": "Act III - Vanestra's Sorcery",
+      "description": "Infiltrating Vanestra's alchemical laboratories to uncover the secret to reversing the rodent transformation."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "The King's Deliverance",
+      "phase": "Act IV - Triumph Over Tyranny",
+      "description": "Confronting Vanestra and her wicked minions in the royal throne room to restore peace to King Andon's realm."
+    }
+  ]
+}

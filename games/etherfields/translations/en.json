@@ -1,0 +1,61 @@
+{
+  "title": "Etherfields",
+  "subtitle": "A surreal cooperative narrative dream-crawler uncovering buried subconscious secrets",
+  "tagline": "Step beyond reality, solve surreal riddles, and reclaim your lost memories.",
+  "loreSummary": "You awake as a nameless Dreamer trapped inside an ever-shifting labyrinth of subconscious visions. Trapped between slumbers and bizarre dreamscapes, you must confront repressed traumas, wear enigmatic masks, and uncover why you are trapped in this surreal realm.",
+  "badgeCategory": "Narrative Dream-Crawler Campaign",
+  "roadmapTitle": "Labyrinth of Slumbers",
+  "roadmapBadge": "Dream Milestones",
+  "keyFeatures": [
+    "Surreal 'Dream Crawler' structure blending deck manipulation and escape-room style riddles",
+    "Persistent subconscious world map connecting dynamic Slumbers and deep thematic Dreams",
+    "Streamlined 2.0 Campaign Rules refining progression, slumber tempo, and memory restoration",
+    "Enigmatic masks and character progression shaping your psychological identity"
+  ],
+  "scopes": {
+    "etherfields_core": {
+      "name": "Core Dream Journey (2.0 Rules)",
+      "description": "The streamlined central campaign of 22 dreams exploring the core mystery of the subconscious realm."
+    },
+    "etherfields_awakening": {
+      "name": "First Awakening Arc",
+      "description": "An introductory 12-dream journey discovering the initial dream gates and foundational memory fragments."
+    },
+    "etherfields_grand": {
+      "name": "Grand Dreamscapes & Secrets",
+      "description": "An expansive 32-dream odyssey thoroughly uncovering every hidden slumber, riddle, and alternate ending."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Gate I",
+      "title": "The Dreamers' Wake",
+      "phase": "Act I - The Whispering Gates",
+      "description": "Unraveling the first surreal dreamscapes and learning to navigate the shifting currents of the Slumber map."
+    },
+    {
+      "badgeText": "Gate II",
+      "title": "Fractured Memories",
+      "phase": "Act II - Subconscious Shadows",
+      "description": "Confronting haunting masks and buried traumas to piece together fragmented personal identities."
+    },
+    {
+      "badgeText": "Gate III",
+      "title": "The Labyrinth of Thoughts",
+      "phase": "Act III - The Surreal Deep",
+      "description": "Overcoming surreal entities and distorted spatial puzzles within the deepest layers of the collective dream."
+    },
+    {
+      "badgeText": "Gate IV",
+      "title": "The Weavers of Fate",
+      "phase": "Act IV - Confronting the Dreamweavers",
+      "description": "Challenging the enigmatic weavers who manipulate slumbering minds across the dream continuum."
+    },
+    {
+      "badgeText": "Awakening",
+      "title": "The Final Lucidity",
+      "phase": "Act V - The Grand Awakening",
+      "description": "Achieving ultimate lucidity to shatter the illusion and decide whether to wake or reshape reality."
+    }
+  ]
+}

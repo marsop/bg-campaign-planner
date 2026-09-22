@@ -1,0 +1,95 @@
+{
+  "id": "chronicles-of-crime",
+  "title": "Chronicles of Crime",
+  "releaseYear": 2018,
+  "designers": "David Cicurel",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.6,
+  "bggWeight": 2.10,
+  "bggUrl": "https://boardgamegeek.com/boardgame/239188/chronicles-of-crime",
+  "baseScenarioMinutes": 75,
+  "setupTeardownMinutes": 10,
+  "unitType": "cases",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#dc2626",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#38bdf8",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e293b 0%, #0f172a 60%, #020617 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.92)",
+    "borderColor": "rgba(220, 38, 38, 0.35)",
+    "glowColor": "rgba(56, 189, 248, 0.25)",
+    "headerFont": "'Inter', system-ui, sans-serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🔍",
+    "emblem": "🔍📱",
+    "themeClass": "theme-chroniclescrime",
+    "activeThemeClass": "theme-chroniclescrime-active",
+    "roadmapClass": "roadmap-chroniclescrime",
+    "heroClass": "hero-chroniclescrime"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #239188)",
+    "Lucky Duck Games Official Chronicles of Crime Rulebook & Companion App",
+    "Lucky Duck Games Press Kit & Archives"
+  ],
+  "scopes": [
+    {
+      "id": "chronicles_of_crime_campaign",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 0.05,
+      "isRecommended": true
+    },
+    {
+      "id": "chronicles_of_crime_base_archive",
+      "baseScenarioCount": 5,
+      "estimatedFailRatePercent": 0.05,
+      "isRecommended": false
+    },
+    {
+      "id": "chronicles_of_crime_expanded",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 0.05,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🏛️",
+      "badgeText": "Inquest",
+      "title": "The Curzon Exhibition",
+      "phase": "Opening Inquest",
+      "description": "Analyzing the crime scene at the Curzon Museum and collecting initial forensic evidence."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🥀",
+      "badgeText": "Part I",
+      "title": "The Poisoned Rose",
+      "phase": "The Cursed Flower - Part I",
+      "description": "Tracing suspicious botanical toxins and interrogating estranged family members in West London."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🚇",
+      "badgeText": "Part II",
+      "title": "Shadows in the Underground",
+      "phase": "The Cursed Flower - Part II",
+      "description": "Connecting clandestine black-market networks across the London Underground."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "⚖️",
+      "badgeText": "Part III",
+      "title": "The Broken Syndicate",
+      "phase": "The Cursed Flower - Part III",
+      "description": "Confronting the mastermind behind the syndicate and presenting conclusive evidence to the Chief Inspector."
+    }
+  ]
+}

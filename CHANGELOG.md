@@ -7,6 +7,90 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.44.0] - 2026-09-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **My Island**, the competitive legacy hexagonal tile-placement island-building campaign by Reiner Knizia (KOSMOS / Thames & Kosmos, 2023).
+  - 3 campaign scope presets: *Full Legacy Campaign (8 Chapters)* (24 episodes, recommended), *Pioneering Era (Chapters 1–4)* (12 episodes), and *Monuments Era (Chapters 5–8)* (12 episodes).
+  - 8 narrative milestone checkpoints representing the 8 sealed chapter envelopes: *The First Houses*, *The Paths*, *The Palms & Fields*, *The Protective Walls*, *The Ancient Statues*, *The Village Center*, *The Enclosed Gardens*, and *The Forgotten Island*, with full spoiler mask protection.
+  - Thematic visual identity (tropical turquoise `#0d9488`, deep lagoon slate `#0f291e`, and sunlit sand gold `#f59e0b` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen artwork).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.43.0] - 2026-09-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Chronicles of Crime**, the app-driven cooperative criminal investigation and forensic deduction game by David Cicurel (Lucky Duck Games, 2018).
+  - 3 campaign scope presets: *The Cursed Flower (3-Part Campaign)* (3 cases, recommended), *Full London Case Archive* (5 cases), and *Master Investigator Archive* (8 cases).
+  - 4 narrative milestone checkpoints: *The Curzon Exhibition*, *The Poisoned Rose*, *Shadows in the Underground*, and *The Broken Syndicate*, with full spoiler mask protection.
+  - Thematic visual identity (crime scene crimson `#dc2626`, midnight London slate `#0f172a`, and forensic cyan `#38bdf8` palette, Inter clean modern typography, 1:1 flat front box cover art, and atmospheric widescreen artwork).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.42.0] - 2026-09-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Mice and Mystics**, the cooperative storybook narrative adventure game where players become heroic mice by Jerry Hawthorne (Plaid Hat Games, 2012).
+  - 3 campaign scope presets: *Sorrow and Remembrance (Full Tale)* (11 chapters, recommended), *Act I: Flight from the Dungeon* (4 chapters), and *Act II: The Castle Siege* (7 chapters).
+  - 4 narrative milestone checkpoints: *Flight from the Dungeon*, *Whispers of the Forge*, *Infiltrating the Laboratory*, and *The King's Deliverance*, with full spoiler mask protection.
+  - Thematic visual identity (warm oak amber `#b45309`, dungeon stone slate `#1c1917`, and cheese gold `#eab308` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen artwork of heroic rodent companions).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.41.0] - 2026-09-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Cloudspire**, the asymmetrical tactical tower-defense MOBA campaign on the floating sky islands of Ankar by Josh J. Carlson and Adam Carlson (Chip Theory Games, 2019).
+  - 3 campaign scope presets: *Solo & Co-op Campaign Book* (16 scenarios, recommended), *Dedicated Co-op Chronicle* (6 scenarios), and *Single Faction Mastery Arc* (4 scenarios).
+  - 4 narrative milestone checkpoints: *The Brawnen Vanguard*, *The Clockwork Bastion*, *The Celestial Canopy*, and *The Grievance Reckoning*, with full spoiler mask protection.
+  - Thematic visual identity (floating sky blue `#0284c7`, deep island slate `#0f172a`, and Source crystal gold `#f59e0b` palette, Cinzel classical typography, 1:1 flat front box cover art).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.40.0] - 2026-09-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Etherfields**, the surreal cooperative narrative dream-crawler and subconscious exploration campaign by Michał Oracz (Awaken Realms, 2020).
+  - 3 campaign scope presets: *Core Dream Journey (2.0 Rules)* (22 dreams, recommended), *First Awakening Arc* (12 dreams), and *Grand Dreamscapes & Secrets* (32 dreams).
+  - 5 narrative milestone checkpoints: *The Dreamers' Wake*, *Fractured Memories*, *The Labyrinth of Thoughts*, *The Weavers of Fate*, and *The Final Lucidity*, with full spoiler mask protection.
+  - Thematic visual identity (dream indigo `#6366f1`, subconscious midnight slate `#0f172a`, and lucid cyan `#38bdf8` palette, Cinzel classical typography, 1:1 flat front box cover art).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.39.0] - 2026-09-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Perseverance: Castaway Chronicles**, the epic Euro survival, dinosaur defense, and community-building campaign by Richard Amann, Thomas Vande Ginste, Viktor Peter, Dávid Turczi, and Wolf Plancke (Mindclash Games, 2022).
+  - 4 campaign scope presets: *Full Chronicles Campaign (Episodes 1 & 2)* (8 episodes, recommended), *Episode 1: The Foothold* (4 episodes), *Episode 2: The Frontier* (4 episodes), and *Extended Grand Chronicle* (12 episodes).
+  - 4 narrative milestone checkpoints: *The Shoreline Perimeter*, *The First Assembly*, *The Beast Whisperers*, and *The Sovereign Citadel*, with full spoiler mask protection.
+  - Thematic visual identity (Jurassic emerald `#047857`, dark jungle slate `#132219`, and dinosaur amber `#f59e0b` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen artwork of survivors defending settlements amidst primeval jungle landscapes).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.38.0] - 2026-09-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Destinies**, the competitive story-driven dark medieval fantasy RPG board game by Michał Gołębiowski and Filip Miłuński (Lucky Duck Games, 2021).
+  - 3 campaign scope presets: *Main Story Campaign* (4 scenarios, recommended), *Complete Base Chronicle* (5 scenarios including tutorial prologue), and *Expanded Chronicles* (8 scenarios encompassing base game + Sea of Sand).
+  - 5 narrative milestone checkpoints: *The Nature of the Beast*, *The Sword of the Maiden*, *All That Glitters*, *The Bleeding Rose*, and *The Final Judgment*, with full spoiler mask protection.
+  - Thematic visual identity (burnished bronze `#b45309`, dark stone charcoal `#1c1917`, and torchlight gold `#f59e0b` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen artwork of a dark medieval village under twilight).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.37.0] - 2026-09-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **My City**, the competitive legacy polyomino tile-placement city-building campaign by Reiner Knizia (KOSMOS / Thames & Kosmos, 2020, Spiel des Jahres nominee).
+  - 3 campaign scope presets: *Full Legacy Campaign (8 Chapters)* (24 episodes, recommended), *First Era (Chapters 1–4)* (12 episodes), and *Industrial Era (Chapters 5–8)* (12 episodes).
+  - 8 narrative milestone checkpoints representing the opening of the 8 sealed chapter envelopes: *The New Land*, *The Churches*, *The Flooding*, *The Gold Rush*, *The Factories*, *The Mining*, *The Railroad*, and *The Prosperity*, with full spoiler mask protection.
+  - Thematic visual identity (pastoral green `#2e7d32`, deep forest slate `#121e15`, and sunlit coin gold `#f59e0b` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen artwork of an evolving historic riverside settlement).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+### Changed
+- **Game Quality Improvements**:
+  - Upgraded **The Isofarian Guard** (`isofarian-guard`) quality from `"mid"` to `"high"` by replacing the generic placeholder background with bespoke ~16:9 atmospheric artwork of snow-swept mountain crags, frozen pine forests, ancient stone watchtower, and emerald northern lights of Isofar.
+
 ## [0.36.0] - 2026-09-22
 
 ### Added

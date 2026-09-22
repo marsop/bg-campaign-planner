@@ -1,0 +1,55 @@
+{
+  "title": "Mice and Mystics",
+  "subtitle": "Ein kooperatives Märchenbuch-Abenteuer über mutige Mäusehelden zur Rettung eines bedrohten Königreichs",
+  "tagline": "Schlüpfe in das Fell tapferer Mäuse, trotze Schlossgefahren und rette den König.",
+  "loreSummary": "Vom Hofmagier Maginos in Mäuse verwandelt, um der finsteren Zauberin Vanestra zu entkommen, müssen Prinz Collin und seine Gefährten durch eine nun zwanzigmal größere Schlossfestung eilen, während Kakerlaken, Ratten und die gefürchtete Katze Brodie lauern.",
+  "badgeCategory": "Narrativer Märchen-Dungeon-Crawler",
+  "roadmapTitle": "Geschichte von Leid & Erinnerung",
+  "roadmapBadge": "Geschichtenkapitel",
+  "keyFeatures": [
+    "Herzerwärmende Märchenerzählung aus stimmungsvoller Vorlesegeschichte und taktischem Miniaturenspiel",
+    "Kreative Ausrüstung im Miniaturformat wie Knopfschilde, Zahnstocherspeere und Fingerhuthelme",
+    "Dynamisches Käserad-System zur Aktivierung mächtiger Heldenfähigkeiten und gegnerischer Verstärkungen",
+    "Familienfreundliche Kampagnenstruktur für Abenteurer aller Alters- und Erfahrungsstufen"
+  ],
+  "scopes": {
+    "mice_mystics_sorrow_remembrance": {
+      "name": "Trauer und Erinnerung (Gesamte Saga)",
+      "description": "Die vollständige 11-Kapitel-Märchenkampagne über Prinz Collins tapferen Widerstand."
+    },
+    "mice_mystics_act1": {
+      "name": "Akt I: Flucht aus dem Verlies",
+      "description": "Die ersten 4 Kapitel rund um den Ausbruch aus dem Kerker und das Einrichten eines Kanalisationslagers."
+    },
+    "mice_mystics_act2": {
+      "name": "Akt II: Die Erstürmung der Burg",
+      "description": "Die finalen 7 Kapitel zur Bündelung tierischer Verbündeter und Rückeroberung des Thronsaals."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Akt I",
+      "title": "Flucht aus dem Verlies",
+      "phase": "Akt I - Der Große Ausbruch",
+      "description": "Entkommen aus dem finsteren Schlosskerker durch Abwasserrohre und Schleichen durch den Burghof."
+    },
+    {
+      "badgeText": "Akt II",
+      "title": "Flüstern in der Schmiede",
+      "phase": "Akt II - Verbündete im Schatten",
+      "description": "Schmieden von Allianzen mit Burgbewohnern, Ausweichen der lauernden Katze Brodie und Bergen von Relikten."
+    },
+    {
+      "badgeText": "Akt III",
+      "title": "Infiltration des Labors",
+      "phase": "Akt III - Vanestras Zauberei",
+      "description": "Eindringen in Vanestras alchemistische Kammern zur Suche nach einem Gegenzauber gegen die Tiergestalt."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Die Erlösung des Königs",
+      "phase": "Akt IV - Sieg über die Tyrannei",
+      "description": "Entscheidungskampf gegen Vanestra und ihre Schergen im königlichen Thronsaal zur Befreiung von König Andon."
+    }
+  ]
+}

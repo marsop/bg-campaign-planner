@@ -1,0 +1,55 @@
+{
+  "title": "Cloudspire",
+  "subtitle": "Eine strategische, asymmetrische Tower-Defense- und MOBA-Kampagne über den Himmelsinseln von Ankar",
+  "tagline": "Errichte Verteidigungstürme, entsende Diener und beherrsche die ungebändigte Macht der Quelle.",
+  "loreSummary": "Hoch über der verheerten Welt schweben die heiligen Inseln von Ankar. Während wertvolle Quellenergie durch Risse in der Wirklichkeit strömt, führen vier tiefgreifend asymmetrische Fraktionen einen unerbittlichen Krieg um Festungen, Türme und Heldenmacht.",
+  "badgeCategory": "Taktisches Asymmetrisches MOBA & Kampagne",
+  "roadmapTitle": "Chronik der Himmelsinseln",
+  "roadmapBadge": "Fraktionssagas",
+  "keyFeatures": [
+    "Umfangreiche Solo- und Koop-Szenarienkampagnen mit asymmetrischen Zielen und dynamischer KI-Steuerung",
+    "Verzahnte taktische Tiefe aus Turmbau, Diener-Pfadführung und anspruchsvollem Heldenkampf",
+    "Vier grundverschiedene Völker mit maßgeschneiderten Upgradebäumen, Talenten und Festungsarten",
+    "Erstklassige Chip Theory Games-Ausstattung mit hochwertigen Pokerchips und Neopren-Spielfeldern"
+  ],
+  "scopes": {
+    "cloudspire_solo_coop_campaign": {
+      "name": "Solo- & Koop-Kampagnenbuch",
+      "description": "Die vollständige 16-Szenarien-Saga durch alle vier Grundspielfraktionen mit anspruchsvollen taktischen Prüfungen."
+    },
+    "cloudspire_coop_chronicles": {
+      "name": "Spezielle Koop-Chronik",
+      "description": "Die kooperative 6-Szenarien-Kampagne, die präzise abgestimmte Zweispieler-Taktik zum Überleben verlangt."
+    },
+    "cloudspire_faction_mastery": {
+      "name": "Fraktions-Meisterschaftsbogen",
+      "description": "Eine fokussierte 4-Szenarien-Reihe zur vollständigen Beherrschung der Spielmechanik einer ausgewählten Fraktion."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Saga I",
+      "title": "Die Brawnen-Vorhut",
+      "phase": "Fraktionssaga I - Eiserner Wille",
+      "description": "Kommando über die gewaltigen Belagerungstruppen der Brawnen zur Sicherung der Quellfestung gegen Überfälle."
+    },
+    {
+      "badgeText": "Saga II",
+      "title": "Die Uhrwerk-Bastion",
+      "phase": "Fraktionssaga II - Hephaestus' Aufstieg",
+      "description": "Nutzung dampfgetriebener Ingenieurskunst und automatisierter Ballisten der Hephaestus zur Beherrschung der Inseln."
+    },
+    {
+      "badgeText": "Saga III",
+      "title": "Das Himmlische Blätterdach",
+      "phase": "Fraktionssaga III - Narora-Glanz",
+      "description": "Bündelung der ätherischen Kristallenergien der Narora, um Hinterhalte im Urwald geschickt zu vereiteln."
+    },
+    {
+      "badgeText": "Saga IV",
+      "title": "Die Abrechnung der Grievance",
+      "phase": "Fraktionssaga IV - Schatten der Tiefe",
+      "description": "Überstehen der tückischen unterirdischen Angriffe der Grievance, um die Vormacht über Ankar zu besiegeln."
+    }
+  ]
+}

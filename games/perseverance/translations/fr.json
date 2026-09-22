@@ -1,0 +1,59 @@
+{
+  "title": "Perseverance: Castaway Chronicles",
+  "subtitle": "Une épopée de survie, de gestion communautaire et de défense contre les dinosaures sur une île primordiale",
+  "tagline": "Bâtissez votre colonie, défendez les remparts et domptez la faune préhistorique.",
+  "loreSummary": "Après le naufrage d'un immense paquebot sur une île mystérieuse et hostile peuplée de dinosaures, les factions de rescapés doivent ériger des abris, repousser les assauts et rivaliser d'ingéniosité pour prendre la tête d'une nouvelle société.",
+  "badgeCategory": "Campagne Euro de Survie avec Dinosaures",
+  "roadmapTitle": "Chroniques de l'Île",
+  "roadmapBadge": "Jalons de la Colonie",
+  "keyFeatures": [
+    "Mode campagne Chroniques reliant l'Épisode 1 et l'Épisode 2 avec des conséquences persistantes",
+    "Mécaniques Euro poussées de draft de dés et de placement d'ouvriers associées à une défense thématique",
+    "Paquets d'événements et d'incursions évolutifs basés sur les choix des sessions précédentes",
+    "Lutte d'influence politique majeure déterminant le souverain avenir de la civilisation des rescapés"
+  ],
+  "scopes": {
+    "perseverance_chronicles": {
+      "name": "Campagne Chroniques Complète (Épisodes 1 & 2)",
+      "description": "La campagne interconnectée intégrale, de l'établissement du campement initial jusqu'à la conquête des frontières."
+    },
+    "perseverance_ep1": {
+      "name": "Épisode 1 : La Tête de Pont",
+      "description": "La chronique fondatrice centrée sur la survie immédiate, les premières palissades et la défense du rivage."
+    },
+    "perseverance_ep2": {
+      "name": "Épisode 2 : La Frontière",
+      "description": "La chronique d'expansion axée sur le dressage des dinosaures, les infrastructures avancées et les expéditions intérieures."
+    },
+    "perseverance_extended": {
+      "name": "Grande Chronique Étendue",
+      "description": "Une chronique exhaustive transgénérationnelle explorant toutes les ramifications narratives de l'île."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Ép. 1 - P. 1",
+      "title": "Le Périmètre Côtier",
+      "phase": "Épisode 1 - Premières Défenses",
+      "description": "Érection de barricades défensives et arrêt des premières vagues d'assaut de dinosaures sur la grève."
+    },
+    {
+      "badgeText": "Ép. 1 - Finale",
+      "title": "La Première Assemblée",
+      "phase": "Épisode 1 - Fondation de la Colonie",
+      "description": "Constitution des factions citoyennes et élection du conseil inaugural pour guider le développement colonial."
+    },
+    {
+      "badgeText": "Ép. 2 - P. 1",
+      "title": "Les Dompteurs de Fauves",
+      "phase": "Épisode 2 - Domestication de la Faune",
+      "description": "Apprivoisement des dinosaures indigènes et expéditions risquées au cœur de la jungle primordiale."
+    },
+    {
+      "badgeText": "Ép. 2 - Finale",
+      "title": "La Citadelle Souveraine",
+      "phase": "Épisode 2 - Apogée",
+      "description": "Résistance héroïque face à l'assaut final du superprédateur afin de fonder une civilisation pérenne."
+    }
+  ]
+}

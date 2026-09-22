@@ -1,0 +1,79 @@
+{
+  "title": "My Island",
+  "subtitle": "Eine kompetitive Legacy-Kampagne mit Sechseck-Plättchen zur Erschließung eines blühenden Tropenparadieses",
+  "tagline": "Erkunde deine Insel, platziere sechseckige Siedlungen und lüfte Geheimnisse über acht Epochen.",
+  "loreSummary": "Nach einer abenteuerlichen Seefahrt auf unbekannten Gewässern entdecken die Spieler ein verborgenes tropisches Archipel. Im Wettstreit errichten sie Behausungen, pflanzen Palmenhaine, bauen Straßen und heben uralte Inselgeheimnisse auf ihren sich stetig verändernden Spielplänen.",
+  "badgeCategory": "Kompetitives Hex-Plättchen-Legespiel (Legacy)",
+  "roadmapTitle": "Chronik des Archipels",
+  "roadmapBadge": "Kapitel-Umschläge",
+  "keyFeatures": [
+    "Kompetitives Legacy-Spiel aufgeteilt in 8 versiegelte Umschläge mit insgesamt 24 Episoden",
+    "Raffinierte Sechseck-Plättchen-Platzierung bei gleichzeitigem Spiel und dynamischen Wertungsregeln",
+    "Dauerhafte Spielplan-Entwicklung durch Aufkleber für Pfade, Palmen, Schutzmauern und Monumente",
+    "Zugängliches Spieldesign von Reiner Knizia, das entspannten Spielspaß mit kniffliger Puzzletiefe vereint"
+  ],
+  "scopes": {
+    "my_island_campaign": {
+      "name": "Gesamte Legacy-Kampagne (8 Kapitel)",
+      "description": "Die vollständige 24-Episoden-Reise durch alle acht Geheimnis-Umschläge von der Ankunft bis zum Paradies."
+    },
+    "my_island_settlement_era": {
+      "name": "Pionier-Epoche (Kapitel 1–4)",
+      "description": "Die ersten 12 Episoden zur Erschließung der Küsten, Ackerflächen, Wege und ersten Schutzmauern."
+    },
+    "my_island_monuments_era": {
+      "name": "Monumente-Epoche (Kapitel 5–8)",
+      "description": "Die finalen 12 Episoden rund um geheimnisvolle Statuen, Dorfzentren und idyllische Palmengärten."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Kap. 1",
+      "title": "Die Ersten Häuser",
+      "phase": "Kapitel 1 - Küstenbesiedlung",
+      "description": "Errichtung der ersten Unterkünfte entlang der unberührten Küste der unbekannten Insel."
+    },
+    {
+      "badgeText": "Kap. 2",
+      "title": "Die Wege",
+      "phase": "Kapitel 2 - Inselwege",
+      "description": "Anlegen zusammenhängender Pfade durch Palmenhaine zur Verbindung verstreuter Gehöfte."
+    },
+    {
+      "badgeText": "Kap. 3",
+      "title": "Palmen & Felder",
+      "phase": "Kapitel 3 - Tropischer Anbau",
+      "description": "Kultivierung fruchtbarer Parzellen und Erschließung einheimischer Palmenbestände."
+    },
+    {
+      "badgeText": "Kap. 4",
+      "title": "Die Schutzmauern",
+      "phase": "Kapitel 4 - Wehrhafte Grenzen",
+      "description": "Bau von Steinmauern zur Grenzsicherung und zum Schutz der Wohngebiete."
+    },
+    {
+      "badgeText": "Kap. 5",
+      "title": "Die Antiken Statuen",
+      "phase": "Kapitel 5 - Monumentale Relikte",
+      "description": "Ausgrabung vergessener Inselstatuen und Errichtung zeremonieller Stätten."
+    },
+    {
+      "badgeText": "Kap. 6",
+      "title": "Das Dorfzentrum",
+      "phase": "Kapitel 6 - Das Lebendige Zentrum",
+      "description": "Ausbau lebendiger Gemeindebezirke und Strukturierung dicht besiedelter Nachbarschaften."
+    },
+    {
+      "badgeText": "Kap. 7",
+      "title": "Die Umfriedeten Gärten",
+      "phase": "Kapitel 7 - Botanische Oasen",
+      "description": "Gestaltung ummauerter Gartenanlagen und harmonischer Oasen im Landesinneren."
+    },
+    {
+      "badgeText": "Kap. 8",
+      "title": "Die Vergessene Insel",
+      "phase": "Kapitel 8 - Das Vollendete Paradies",
+      "description": "Abschluss der generationenumspannenden Saga mit der Vollendung eines blühenden Paradieses."
+    }
+  ]
+}

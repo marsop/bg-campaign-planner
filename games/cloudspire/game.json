@@ -1,0 +1,95 @@
+{
+  "id": "cloudspire",
+  "title": "Cloudspire",
+  "releaseYear": 2019,
+  "designers": "Josh J. Carlson, Adam Carlson",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.0,
+  "bggWeight": 4.35,
+  "bggUrl": "https://boardgamegeek.com/boardgame/262211/cloudspire",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 20,
+  "unitType": "scenarios",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#0284c7",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #0369a1 0%, #0c4a6e 60%, #031e2e 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.92)",
+    "borderColor": "rgba(2, 132, 199, 0.35)",
+    "glowColor": "rgba(14, 165, 233, 0.25)",
+    "headerFont": "'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏰",
+    "emblem": "🏰⚡",
+    "themeClass": "theme-cloudspire",
+    "activeThemeClass": "theme-cloudspire-active",
+    "roadmapClass": "roadmap-cloudspire",
+    "heroClass": "hero-cloudspire"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #262211)",
+    "Chip Theory Games Official Cloudspire Rulebook & Scenario Campaign Books",
+    "Kickstarter Campaign Archive"
+  ],
+  "scopes": [
+    {
+      "id": "cloudspire_solo_coop_campaign",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 0.15,
+      "isRecommended": true
+    },
+    {
+      "id": "cloudspire_coop_chronicles",
+      "baseScenarioCount": 6,
+      "estimatedFailRatePercent": 0.12,
+      "isRecommended": false
+    },
+    {
+      "id": "cloudspire_faction_mastery",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 0.15,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🛡️",
+      "badgeText": "Saga I",
+      "title": "The Brawnen Vanguard",
+      "phase": "Faction Saga I - Iron Resolve",
+      "description": "Commanding the mighty Brawnen siege units and securing the source fortress against hostile incursions."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "⚙️",
+      "badgeText": "Saga II",
+      "title": "The Clockwork Bastion",
+      "phase": "Faction Saga II - Hephaestus Ascendant",
+      "description": "Harnessing the steam-powered engineering and automated ballistas of Hephaestus to hold the sky islands."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "✨",
+      "badgeText": "Saga III",
+      "title": "The Celestial Canopy",
+      "phase": "Faction Saga III - Narora Radiance",
+      "description": "Channeling the ethereal crystalline energies of the Narora to outmaneuver deep-forest incursions."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "🗡️",
+      "badgeText": "Saga IV",
+      "title": "The Grievance Reckoning",
+      "phase": "Faction Saga IV - Subterranean Shadows",
+      "description": "Surviving the treacherous underground ambushes of the Grievance to assert dominance over the floating islands of Ankar."
+    }
+  ]
+}

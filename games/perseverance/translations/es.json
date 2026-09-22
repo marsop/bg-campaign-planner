@@ -1,0 +1,59 @@
+{
+  "title": "Perseverance: Castaway Chronicles",
+  "subtitle": "Una saga épica de supervivencia, construcción comunitaria y defensa contra dinosaurios en una isla primigenia",
+  "tagline": "Construye tu colonia, guarece las murallas y doma la naturaleza prehistórica.",
+  "loreSummary": "Tras el naufragio de un colosal transatlántico en una enigmática isla olvidada y repleta de dinosaurios, las facciones supervivientes deben levantar refugios, defender el asentamiento y competir por liderar el nacimiento de una nueva civilización.",
+  "badgeCategory": "Campaña Euro de Supervivencia con Dinosaurios",
+  "roadmapTitle": "Crónicas de la Isla",
+  "roadmapBadge": "Hitos de la Colonia",
+  "keyFeatures": [
+    "Modo campaña Crónica que entrelaza los Episodios 1 y 2 con consecuencias duraderas",
+    "Profunda colocación de trabajadores y selección de dados fusionados con defensa temática",
+    "Mazos dinámicos de eventos e incursiones que evolucionan según las decisiones pasadas",
+    "Rivalidad multifacética por el liderazgo que forjará el porvenir soberano de los supervivientes"
+  ],
+  "scopes": {
+    "perseverance_chronicles": {
+      "name": "Campaña Crónicas Completa (Episodios 1 y 2)",
+      "description": "La campaña íntegra e interconectada que abarca desde el establecimiento inicial hasta la expansión fronteriza."
+    },
+    "perseverance_ep1": {
+      "name": "Episodio 1: El Asentamiento",
+      "description": "La crónica fundacional centrada en la supervivencia, las primeras defensas y repeler los ataques en la playa."
+    },
+    "perseverance_ep2": {
+      "name": "Episodio 2: La Frontera",
+      "description": "La crónica de expansión enfocada en domesticar dinosaurios, construir infraestructuras y explorar la jungla interior."
+    },
+    "perseverance_extended": {
+      "name": "Gran Crónica Expandida",
+      "description": "Una crónica exhaustiva multigeneracional que explora cada ramificación de la historia de la isla."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Ep. 1 - P. 1",
+      "title": "El Perímetro Costero",
+      "phase": "Episodio 1 - Defensas Iniciales",
+      "description": "Construcción de empalizadas defensivas y contención de las primeras oleadas de dinosaurios en la playa."
+    },
+    {
+      "badgeText": "Ep. 1 - Final",
+      "title": "La Primera Asamblea",
+      "phase": "Episodio 1 - Fundación del Asentamiento",
+      "description": "Establecimiento de facciones cívicas y elección del consejo inaugural para dirigir el crecimiento de la colonia."
+    },
+    {
+      "badgeText": "Ep. 2 - P. 1",
+      "title": "Los Domadores de Bestias",
+      "phase": "Episodio 2 - Domesticación de Fauna",
+      "description": "Doma de reptiles autóctonos y expediciones a los sectores inexplorados de la selva primigenia."
+    },
+    {
+      "badgeText": "Ep. 2 - Final",
+      "title": "La Ciudadela Soberana",
+      "phase": "Episodio 2 - Culminación",
+      "description": "Resistir el devastador asalto del depredador alfa para forjar una civilización próspera y autosuficiente."
+    }
+  ]
+}

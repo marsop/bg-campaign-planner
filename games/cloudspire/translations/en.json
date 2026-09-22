@@ -1,0 +1,55 @@
+{
+  "title": "Cloudspire",
+  "subtitle": "A strategic asymmetrical tower-defense MOBA campaign across the floating sky islands of Ankar",
+  "tagline": "Build your spires, deploy unique faction minions, and control the raw power of the Source.",
+  "loreSummary": "High above the devastated world below float the sacred islands of Ankar. As precious Source energy leaks through the tears in reality, four deeply asymmetrical factions wage an unrelenting tactical war of fortress building, spire defense, and hero warfare.",
+  "badgeCategory": "Tactical Asymmetric MOBA & Campaign",
+  "roadmapTitle": "Chronicle of the Sky Islands",
+  "roadmapBadge": "Faction Sagas",
+  "keyFeatures": [
+    "Deep solo and cooperative scenario campaigns with asymmetric objectives and dynamic AI rules",
+    "Heavy tactical integration of spire construction, minion lane routing, and hero combat",
+    "Four vastly distinct factions each boasting proprietary upgrade trees, talents, and fortress types",
+    "Premium Chip Theory Games production featuring weighted chips and neoprene battlegrounds"
+  ],
+  "scopes": {
+    "cloudspire_solo_coop_campaign": {
+      "name": "Solo & Co-op Campaign Book",
+      "description": "The complete 16-scenario saga traversing all four base factions through rigorous narrative trials."
+    },
+    "cloudspire_coop_chronicles": {
+      "name": "Dedicated Co-op Chronicle",
+      "description": "The cooperative 6-scenario campaign requiring coordinated two-player tactical mastery to survive."
+    },
+    "cloudspire_faction_mastery": {
+      "name": "Single Faction Mastery Arc",
+      "description": "A focused 4-scenario gauntlet mastering the bespoke mechanics and tactical nuances of one chosen faction."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Saga I",
+      "title": "The Brawnen Vanguard",
+      "phase": "Faction Saga I - Iron Resolve",
+      "description": "Commanding the mighty Brawnen siege units and securing the source fortress against hostile incursions."
+    },
+    {
+      "badgeText": "Saga II",
+      "title": "The Clockwork Bastion",
+      "phase": "Faction Saga II - Hephaestus Ascendant",
+      "description": "Harnessing the steam-powered engineering and automated ballistas of Hephaestus to hold the sky islands."
+    },
+    {
+      "badgeText": "Saga III",
+      "title": "The Celestial Canopy",
+      "phase": "Faction Saga III - Narora Radiance",
+      "description": "Channeling the ethereal crystalline energies of the Narora to outmaneuver deep-forest incursions."
+    },
+    {
+      "badgeText": "Saga IV",
+      "title": "The Grievance Reckoning",
+      "phase": "Faction Saga IV - Subterranean Shadows",
+      "description": "Surviving the treacherous underground ambushes of the Grievance to assert dominance over the floating islands of Ankar."
+    }
+  ]
+}

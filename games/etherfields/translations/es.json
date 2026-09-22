@@ -1,0 +1,61 @@
+{
+  "title": "Etherfields",
+  "subtitle": "Un juego narrativo cooperativo y surrealista de exploración onírica y secretos del subconsciente",
+  "tagline": "Traspasa la realidad, resuelve enigmas oníricos y recupera tus recuerdos perdidos.",
+  "loreSummary": "Despiertas como un Soñador sin nombre atrapado en un laberinto en constante mutación de visiones del subconsciente. Entre letargos y sueños insólitos, deberás enfrentar traumas reprimidos, vestir máscaras enigmáticas y descubrir el origen de tu encierro.",
+  "badgeCategory": "Campaña Narrativa de Exploración Onírica",
+  "roadmapTitle": "Laberinto de Letargos",
+  "roadmapBadge": "Hitos Oníricos",
+  "keyFeatures": [
+    "Estructura 'Dream Crawler' surrealista que combina gestión de mazos y acertijos estilo escape room",
+    "Mapa persistente del subconsciente que conecta letargos dinámicos y sueños temáticos profundos",
+    "Reglas de Campaña 2.0 optimizadas que agilizan la progresión, el ritmo y la recuperación de recuerdos",
+    "Máscaras enigmáticas y evolución de personaje que moldean tu identidad psicológica"
+  ],
+  "scopes": {
+    "etherfields_core": {
+      "name": "Viaje Onírico Principal (Reglas 2.0)",
+      "description": "La campaña central optimizada de 22 sueños que desvela el misterio fundamental del plano subconsciente."
+    },
+    "etherfields_awakening": {
+      "name": "Arco del Primer Despertar",
+      "description": "Un periplo introductorio de 12 sueños descubriendo las primeras puertas oníricas y fragmentos de memoria."
+    },
+    "etherfields_grand": {
+      "name": "Grandes Paisajes Oníricos y Secretos",
+      "description": "Una odisea exhaustiva de 32 sueños explorando cada letargo oculto, enigma y desenlace alternativo."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Puerta I",
+      "title": "El Despertar de los Soñadores",
+      "phase": "Acto I - Las Puertas Susurrantes",
+      "description": "Desentrañar los primeros paisajes oníricos y aprender a sortear las corrientes cambiantes del mapa de letargos."
+    },
+    {
+      "badgeText": "Puerta II",
+      "title": "Recuerdos Fracturados",
+      "phase": "Acto II - Sombras del Subconsciente",
+      "description": "Afrontar máscaras inquietantes y traumas sepultados para recomponer identidades personales fragmentadas."
+    },
+    {
+      "badgeText": "Puerta III",
+      "title": "El Laberinto del Pensamiento",
+      "phase": "Acto III - La Profundidad Surreal",
+      "description": "Superar entidades quiméricas y distorsiones espaciales en los estratos más profundos del sueño colectivo."
+    },
+    {
+      "badgeText": "Puerta IV",
+      "title": "Los Tejedores del Destino",
+      "phase": "Acto IV - Confrontación con los Tejedores",
+      "description": "Desafiar a las enigmáticas entidades que manipulan las mentes dormidas a través del continuo onírico."
+    },
+    {
+      "badgeText": "Despertar",
+      "title": "La Lucidez Final",
+      "phase": "Acto V - El Gran Despertar",
+      "description": "Alcanzar la lucidez absoluta para quebrar la ilusión y decidir si despertar o transformar la realidad."
+    }
+  ]
+}

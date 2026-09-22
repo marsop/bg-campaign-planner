@@ -1,0 +1,61 @@
+{
+  "title": "Destinies",
+  "subtitle": "Un gioco da tavolo narrativo competitivo di dark fantasy medievale e destini personali",
+  "tagline": "Traccia il tuo cammino, svela oscuri segreti e compi il tuo destino prescelto.",
+  "loreSummary": "Sei un viandante in un cupo mondo medievale flagellato da pestilenze, superstizione e guerra. Ciascun personaggio custodisce un proprio destino segreto, lottando per adempiere ai propri voti prima che i rivali decidano le sorti del reame.",
+  "badgeCategory": "GDR Dark Fantasy Guidato da App",
+  "roadmapTitle": "Cronaca dei Destini",
+  "roadmapBadge": "Progressione della Storia",
+  "keyFeatures": [
+    "Meccaniche narrative basate sull'app Scan&Play senza la figura del game master",
+    "Destini personali a doppio percorso che offrono molteplici vie verso la vittoria finale",
+    "Libera esplorazione di scenari medievali cupi e ricche interazioni con i PNG",
+    "Competizione serrata tra narrazione immersiva e ponderata gestione delle risorse"
+  ],
+  "scopes": {
+    "destinies_core": {
+      "name": "Campagna Principale",
+      "description": "L'arco narrativo fondamentale in 4 scenari che determina il futuro della regione."
+    },
+    "destinies_full": {
+      "name": "Cronaca Base Completa",
+      "description": "Tutti i 5 scenari della scatola base, inclusi lo scenario introduttivo autonomo e l'intera campagna."
+    },
+    "destinies_expanded": {
+      "name": "Cronache Estese",
+      "description": "Un'esperienza ampliata di 8 scenari che comprende il gioco base e l'espansione Mare di Sabbia."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Intro",
+      "title": "La Natura della Bestia",
+      "phase": "Prologo - La Bestia di Braniewo",
+      "description": "Indagine su voci inquietanti e terrificanti avvistamenti che tormentano l'isolato villaggio di confine di Braniewo."
+    },
+    {
+      "badgeText": "Cap. 1",
+      "title": "La Spada della Pulzella",
+      "phase": "Atto I - La Reliquia della Pulzella",
+      "description": "Ricerca di una leggendaria lama consacrata e scoperta di antichi segreti sepolti tra rovine dimenticate."
+    },
+    {
+      "badgeText": "Cap. 2",
+      "title": "Non è Tutto Oro",
+      "phase": "Atto II - Avidità e Tradimento",
+      "description": "Trattative mercantili losche, sussurri di maledizioni e alleanze ingannevoli nella corsa al potere."
+    },
+    {
+      "badgeText": "Cap. 3",
+      "title": "La Rosa Sanguinante",
+      "phase": "Atto III - Giuramenti di Spine",
+      "description": "Fedeltà ambigue e antiche maledizioni riaffiorano mentre i destini personali dei protagonisti collidono inevitabilmente."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Il Giudizio Finale",
+      "phase": "Atto IV - Il Compimento del Destino",
+      "description": "La resa dei conti decisiva in cui ogni eroe deve compiere il proprio destino supremo prima dello scadere del tempo."
+    }
+  ]
+}

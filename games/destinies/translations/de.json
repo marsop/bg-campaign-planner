@@ -1,0 +1,61 @@
+{
+  "title": "Destinies",
+  "subtitle": "Ein kompetitives, narratives Brettspiel voller düsterer mittelalterlicher Fantasy und persönlicher Schicksale",
+  "tagline": "Schmiede deinen Pfad, lüfte düstere Geheimnisse und erfülle dein vorbestimmtes Schicksal.",
+  "loreSummary": "Du bist ein Reisender in einer finsteren mittelalterlichen Welt, gezeichnet von Seuchen, Aberglauben und Krieg. Jeder Charakter birgt ein geheimes Schicksal und strebt danach, seine heiligen Eide zu erfüllen, ehe Rivalen das Schicksal des Reichs besiegeln.",
+  "badgeCategory": "App-Gesteuertes Düster-Fantasy-RPG",
+  "roadmapTitle": "Chronik der Schicksale",
+  "roadmapBadge": "Story-Fortschritt",
+  "keyFeatures": [
+    "Scan&Play App-gestützte Erzählstruktur ohne Spielleiter",
+    "Persönliche Schicksale mit jeweils zwei individuellen Lösungswegen zum Sieg",
+    "Freie Erkundung atmosphärischer mittelalterlicher Schauplätze mit lebendigen NSC-Interaktionen",
+    "Wettstreit zwischen fesselndem Storytelling und wohlüberlegtem Ressourcenmanagement"
+  ],
+  "scopes": {
+    "destinies_core": {
+      "name": "Hauptkampagne",
+      "description": "Die zentrale 4-Szenarien-Erzählung um das Schicksal des Landes."
+    },
+    "destinies_full": {
+      "name": "Vollständige Grundspiel-Chronik",
+      "description": "Alle 5 Szenarien des Grundspiels inklusive des eigenständigen Einführungsszenarios und der Kampagne."
+    },
+    "destinies_expanded": {
+      "name": "Erweiterte Chroniken",
+      "description": "Erweiterte 8-Szenarien-Erfahrung bestehend aus dem Grundspiel und der Kampagne Meer aus Sand."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Intro",
+      "title": "Die Natur der Bestie",
+      "phase": "Prolog - Die Bestie von Braniewo",
+      "description": "Untersuchung finsterer Gerüchte und schrecklicher Sichtungen im abgelegenen Grenzdorf Braniewo."
+    },
+    {
+      "badgeText": "Kap. 1",
+      "title": "Das Schwert der Jungfrau",
+      "phase": "Akt I - Das Relikt der Jungfrau",
+      "description": "Suche nach einer legendären geheiligten Klinge und Aufdecken uralter Ahnengeheimnisse in verfallenen Ruinen."
+    },
+    {
+      "badgeText": "Kap. 2",
+      "title": "Nicht alles, was glänzt",
+      "phase": "Akt II - Gier und Verrat",
+      "description": "Verhandlung korrupter Handelsabkommen, geflüsterter Flüche und trügerischer Allianzen im Streben nach Macht."
+    },
+    {
+      "badgeText": "Kap. 3",
+      "title": "Die blutende Rose",
+      "phase": "Akt III - Dornenschwüre",
+      "description": "Verstrickte Loyalitäten und alte Flüche treten zutage, während die Schicksale der Helden unaufhaltsam aufeinanderprallen."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Das Jüngste Gericht",
+      "phase": "Akt IV - Vollendung des Schicksals",
+      "description": "Die finale Bewährungsprobe, bei der jeder Held sein Schicksal vollenden muss, bevor die Zeit unwiederbringlich verstreicht."
+    }
+  ]
+}

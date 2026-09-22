@@ -1,0 +1,55 @@
+{
+  "title": "Mice and Mystics",
+  "subtitle": "Una entrañable aventura narrativa de héroes convertidos en ratones para salvar un reino asediado",
+  "tagline": "Encarna a valerosos ratones, supera los peligros del castillo y salva al Rey.",
+  "loreSummary": "Transformados en ratones por el místico Maginos para escapar de las garras de la malvada hechicera Vanestra, el príncipe Collin y sus fieles camaradas deben corretear por un castillo ahora veinte veces mayor, eludiendo cucarachas, ratas armadas y al temible gato Brodie.",
+  "badgeCategory": "Dungeon Crawler Narrativo de Cuento de Hadas",
+  "roadmapTitle": "Cuento de Dolor y Recuerdos",
+  "roadmapBadge": "Capítulos del Cuento",
+  "keyFeatures": [
+    "Cautivadora narrativa de cuento de hadas que aúna prosa evocadora y combates tácticos con miniaturas",
+    "Equipo ingenioso a escala diminuta como escudos de botón, lanzas de palillo y yelmos de dedal",
+    "Sistema dinámico de porciones de queso que impulsa habilidades heroicas y oleadas de enemigos",
+    "Campaña accesible e ideal para grupos familiares y jugadores de todos los niveles"
+  ],
+  "scopes": {
+    "mice_mystics_sorrow_remembrance": {
+      "name": "De Ratones y Magia (Campaña Completa)",
+      "description": "La campaña completa de 11 capítulos del libro de cuentos original que narra la rebelión del príncipe Collin."
+    },
+    "mice_mystics_act1": {
+      "name": "Acto I: Huida de las Mazmorras",
+      "description": "Los primeros 4 capítulos dedicados a escapar de las celdas y establecer un refugio en las cloacas."
+    },
+    "mice_mystics_act2": {
+      "name": "Acto II: El Asedio del Castillo",
+      "description": "Los 7 capítulos culminantes reuniendo aliados del bosque y recuperando la fortaleza real."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Acto I",
+      "title": "Huida de las Mazmorras",
+      "phase": "Acto I - La Gran Evasión",
+      "description": "Escapar de los sombríos calabozos a través de las tuberías y cruzar las sombras del patio de armas."
+    },
+    {
+      "badgeText": "Acto II",
+      "title": "Susurros en la Forja",
+      "phase": "Acto II - Aliados en las Sombras",
+      "description": "Forjar alianzas con criaturas del castillo, eludir al merodeador gato Brodie y reunir reliquias ancestrales."
+    },
+    {
+      "badgeText": "Acto III",
+      "title": "Infiltración en el Laboratorio",
+      "phase": "Acto III - La Brujería de Vanestra",
+      "description": "Infiltrarse en los laboratorios alquímicos de Vanestra para hallar la fórmula que revierta el encantamiento."
+    },
+    {
+      "badgeText": "Final",
+      "title": "La Liberación del Rey",
+      "phase": "Acto IV - Triunfo Sobre la Tiranía",
+      "description": "Hacer frente a Vanestra y sus esbirros en el salón del trono para restaurar la paz en el reino de Andon."
+    }
+  ]
+}

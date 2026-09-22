@@ -1,0 +1,55 @@
+{
+  "title": "Chronicles of Crime",
+  "subtitle": "Une série d'enquêtes criminelles coopérative avec application mêlant matériel physique et police scientifique numérique",
+  "tagline": "Scannez des indices, interrogez des suspects et élucidez les crimes les plus complexes de Londres.",
+  "loreSummary": "En tant qu'enquêteurs chevronnés de Scotland Yard dans le Londres moderne, vous et votre brigade menez une course contre la montre pour résoudre des crimes sordides, analyser les preuves avec vos experts et traduire les coupables en justice.",
+  "badgeCategory": "Enquête Policière avec Application",
+  "roadmapTitle": "Dossier d'Instruction et Preuves",
+  "roadmapBadge": "Jalons d'Enquête",
+  "keyFeatures": [
+    "Intégration Scan&Play par codes QR reliant cartes de preuves, interrogatoires et lieux d'investigation",
+    "Fouille panoramique en 3D et réalité virtuelle des scènes de crime pour repérer les indices physiques",
+    "Horloge de jeu dynamique où chaque interrogatoire, trajet et analyse médico-légale consomme du temps",
+    "Contacts spécialisés à Scotland Yard offrant l'expertise d'un légiste, d'une criminologue et d'un hacker"
+  ],
+  "scopes": {
+    "chronicles_of_crime_campaign": {
+      "name": "La Fleur Maudite (Campagne en 3 Parties)",
+      "description": "L'arc narratif interconnecté en 3 affaires démêlant une toile complexe d'homicides, de cupidité et de pègre londonienne."
+    },
+    "chronicles_of_crime_base_archive": {
+      "name": "Dossier Complet des Affaires de Londres",
+      "description": "L'ensemble des 5 affaires de la boîte de base, comprenant les enquêtes autonomes et la campagne complète."
+    },
+    "chronicles_of_crime_expanded": {
+      "name": "Dossier du Maître Enquêteur",
+      "description": "Un registre étendu de 8 affaires combinant les enquêtes de base et les dossiers numériques complémentaires."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Constat",
+      "title": "L'Exposition Curzon",
+      "phase": "Constat Initial",
+      "description": "Analyse de la scène de crime au musée Curzon et collecte des premiers indices matériels."
+    },
+    {
+      "badgeText": "Partie I",
+      "title": "La Rose Empoisonnée",
+      "phase": "La Fleur Maudite - Partie I",
+      "description": "Pistage de toxines végétales suspectes et audition de proches en conflit dans l'ouest londonien."
+    },
+    {
+      "badgeText": "Partie II",
+      "title": "Ombres dans le Métro",
+      "phase": "La Fleur Maudite - Partie II",
+      "description": "Remontée des filières clandestines et des trafics souterrains dans le métro de Londres."
+    },
+    {
+      "badgeText": "Partie III",
+      "title": "La Chute du Syndicat",
+      "phase": "La Fleur Maudite - Partie III",
+      "description": "Confrontation avec le commanditaire du réseau et remise du rapport d'enquête définitif au commissaire principal."
+    }
+  ]
+}

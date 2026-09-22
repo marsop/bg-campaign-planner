@@ -1,0 +1,61 @@
+{
+  "title": "Destinies",
+  "subtitle": "Un jeu narratif compétitif de dark fantasy médiévale et de destins personnels croisés",
+  "tagline": "Tracez votre voie, découvrez de sombres secrets et accomplissez votre destinée.",
+  "loreSummary": "Vous êtes un voyageur dans un univers médiéval ténébreux frappé par la peste, les superstitions et la guerre. Chaque héros poursuit son propre destin secret, luttant pour honorer ses vœux avant que ses rivaux ne scellent le sort du royaume.",
+  "badgeCategory": "RPG Dark Fantasy avec Application",
+  "roadmapTitle": "Chronique des Destins",
+  "roadmapBadge": "Progression Narrative",
+  "keyFeatures": [
+    "Système narratif assisté par l'application Scan&Play sans maître de jeu requis",
+    "Destins individuels à double issue offrant de multiples embranchements vers la victoire",
+    "Exploration libre de terres médiévales sinistres et interactions poussées avec les PNJ",
+    "Course captivante alliant immersion romanesque et choix tactiques d'équipement"
+  ],
+  "scopes": {
+    "destinies_core": {
+      "name": "Campagne Principale",
+      "description": "L'arc narratif central en 4 scénarios déterminant l'avenir des contrées."
+    },
+    "destinies_full": {
+      "name": "Chronique de Base Complète",
+      "description": "L'ensemble des 5 scénarios de la boîte de base, comprenant le scénario d'introduction autonome et la campagne."
+    },
+    "destinies_expanded": {
+      "name": "Chroniques Étendues",
+      "description": "Une saga étendue de 8 scénarios regroupant le jeu de base et l'extension Mer de Sable."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Intro",
+      "title": "La Nature de la Bête",
+      "phase": "Prologue - La Bête de Braniewo",
+      "description": "Enquête sur les rumeurs terrifiantes et les apparitions monstrueuses terrorisant le hameau frontalier de Braniewo."
+    },
+    {
+      "badgeText": "Ch. 1",
+      "title": "L'Épée de la Pucelle",
+      "phase": "Acte I - La Relique de la Pucelle",
+      "description": "Recherche d'une lame sacrée légendaire et exploration de secrets oubliés dans des cryptes séculaires."
+    },
+    {
+      "badgeText": "Ch. 2",
+      "title": "Tout ce qui Brille",
+      "phase": "Acte II - Avidité et Trahison",
+      "description": "Négociations marchandes douteuses, malédictions murmurées et complots perfides en quête d'influence."
+    },
+    {
+      "badgeText": "Ch. 3",
+      "title": "La Rose Sanglante",
+      "phase": "Acte III - Serments d'Épines",
+      "description": "Fidélités équivoques et malédictions séculaires éclatent au grand jour alors que les destins des héros s'entrechoquent."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Le Jugement Dernier",
+      "phase": "Acte IV - L'Accomplissement du Destin",
+      "description": "L'ultime épreuve où chaque héros doit sceller sa destinée avant que le temps ne soit définitivement révolu."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "title": "My City",
+  "subtitle": "Competitive legacy city-building from early settlements to industrial metropolis",
+  "tagline": "Every tile laid shapes the history and skyline of your personal city",
+  "loreSummary": "You are pioneers developing an uncharted river valley into a flourishing municipality. Through eight historical chapters, each building placement permanently alters your city board as new eras introduce churches, railroads, and industrial prosperity.",
+  "badgeCategory": "Competitive Legacy Tile-Placement",
+  "roadmapTitle": "🗺️ City Chronicle & Urban Development Roadmap",
+  "roadmapBadge": "URBAN ROADMAP",
+  "keyFeatures": [
+    "Simultaneous polyomino tile placement keeps all players constantly engaged",
+    "Sealed chapter envelopes unlock evolving mechanics across 8 historical eras",
+    "Permanent board modifications create a unique architectural history",
+    "Reversible boards support eternal, non-legacy replayable matches"
+  ],
+  "scopes": {
+    "mycity_campaign": {
+      "name": "Full Legacy Campaign (8 Chapters)",
+      "description": "The complete 24-episode historical saga spanning pioneering foundations through the industrial revolution."
+    },
+    "mycity_first_era": {
+      "name": "First Era (Chapters 1–4)",
+      "description": "The opening 12 episodes covering pioneering settlement, churches, floods, and the mountain gold rush."
+    },
+    "mycity_industrial_era": {
+      "name": "Industrial Era (Chapters 5–8)",
+      "description": "The advanced 12 episodes introducing factories, mining quarries, railway networks, and metropolitan prosperity."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ch. 1",
+      "title": "The New Land",
+      "phase": "Era I - Pioneering Settlement",
+      "description": "Laying the initial foundations along the riverbank in an untouched valley between mountains and forests."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ch. 2",
+      "title": "The Churches",
+      "phase": "Era II - Spiritual Gathering",
+      "description": "Constructing grand places of worship to unite the community as open land becomes increasingly contested."
+    },
+    {
+      "order": 3,
+      "badgeText": "Ch. 3",
+      "title": "The Flooding",
+      "phase": "Era III - Elemental Trials",
+      "description": "Adapting urban growth as seasonal river waters rise, challenging planners to protect residential zones."
+    },
+    {
+      "order": 4,
+      "badgeText": "Ch. 4",
+      "title": "The Gold Rush",
+      "phase": "Era IV - Mountain Prospecting",
+      "description": "Valuable veins discovered in the foothills trigger fierce expansion and lucrative territorial competition."
+    },
+    {
+      "order": 5,
+      "badgeText": "Ch. 5",
+      "title": "The Factories",
+      "phase": "Era V - Early Industrialization",
+      "description": "Smokestacks rise across the district as manufacturing drives rapid urban productivity and structural shifts."
+    },
+    {
+      "order": 6,
+      "badgeText": "Ch. 6",
+      "title": "The Mining",
+      "phase": "Era VI - Subterranean Excavation",
+      "description": "Deep mineral shafts reshape the outskirts, providing raw materials to fuel further civic development."
+    },
+    {
+      "order": 7,
+      "badgeText": "Ch. 7",
+      "title": "The Railroad",
+      "phase": "Era VII - Steam & Transit",
+      "description": "Iron tracks connect distant corners of the township, transforming logistics and spatial planning."
+    },
+    {
+      "order": 8,
+      "badgeText": "Ch. 8",
+      "title": "The Prosperity",
+      "phase": "Era VIII - The Grand Metropolis",
+      "description": "Culmination of generations of planning into an enduring, prosperous city with its own distinct legacy."
+    }
+  ]
+}

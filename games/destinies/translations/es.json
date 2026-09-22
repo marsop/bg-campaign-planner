@@ -1,0 +1,61 @@
+{
+  "title": "Destinies",
+  "subtitle": "Un juego narrativo competitivo de oscura fantasía medieval y destinos entrelazados",
+  "tagline": "Forja tu propio camino, desentraña oscuros secretos y cumple tu destino.",
+  "loreSummary": "Eres un viajero en un sombrío mundo medieval asolado por la peste, la superstición y la guerra. Cada personaje alberga su propio destino secreto, luchando por cumplir sus votos sagrados antes de que sus rivales sellen el porvenir del reino.",
+  "badgeCategory": "RPG de Fantasía Oscura Asistido por App",
+  "roadmapTitle": "Crónica de los Destinos",
+  "roadmapBadge": "Progresión Narrativa",
+  "keyFeatures": [
+    "Mecánicas narrativas mediante app Scan&Play sin necesidad de director de juego",
+    "Destinos personales con dos vías distintas que ofrecen múltiples caminos hacia la victoria",
+    "Exploración libre de tierras medievales lúgubres e interacciones dinámicas con PNJs",
+    "Competición que combina una rica inmersión narrativa con decisiones tácticas de gestión"
+  ],
+  "scopes": {
+    "destinies_core": {
+      "name": "Campaña Principal",
+      "description": "La historia troncal de 4 escenarios que decide el porvenir de la región."
+    },
+    "destinies_full": {
+      "name": "Crónica Básica Completa",
+      "description": "Los 5 escenarios de la caja básica, incluyendo el escenario introductorio y la campaña completa."
+    },
+    "destinies_expanded": {
+      "name": "Crónicas Expandidas",
+      "description": "Una experiencia ampliada de 8 escenarios que abarca el juego base y la expansión Mar de Arena."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Intro",
+      "title": "La Naturaleza de la Bestia",
+      "phase": "Prólogo - La Bestia de Braniewo",
+      "description": "Investigación de rumores inquietantes y aterradores avistamientos que asolan la apartada aldea fronteriza de Braniewo."
+    },
+    {
+      "badgeText": "Cap. 1",
+      "title": "La Espada de la Doncella",
+      "phase": "Acto I - La Reliquia de la Doncella",
+      "description": "Búsqueda de una espada sagrada legendaria y desenterramiento de secretos ancestrales en ruinas olvidadas."
+    },
+    {
+      "badgeText": "Cap. 2",
+      "title": "No Todo lo que Brilla",
+      "phase": "Acto II - Avaricia y Traición",
+      "description": "Maniobras en tratos mercantiles corruptos, maldiciones murmuradas y alianzas traicioneras en busca de poder."
+    },
+    {
+      "badgeText": "Cap. 3",
+      "title": "La Rosa Sangrante",
+      "phase": "Acto III - Juramentos de Espinas",
+      "description": "Lealtades enredadas y antiguas maldiciones salen a la luz mientras los destinos personales colisionan inexorablemente."
+    },
+    {
+      "badgeText": "Final",
+      "title": "El Juicio Final",
+      "phase": "Acto IV - La Culminación del Destino",
+      "description": "Afrontar el desenlace supremo donde cada héroe debe cumplir su destino final antes de que expire el tiempo."
+    }
+  ]
+}

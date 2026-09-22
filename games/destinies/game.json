@@ -1,0 +1,104 @@
+{
+  "id": "destinies",
+  "title": "Destinies",
+  "releaseYear": 2021,
+  "designers": "Michał Gołębiowski, Filip Miłuński",
+  "playersMin": 1,
+  "playersMax": 3,
+  "bggRating": 7.6,
+  "bggWeight": 2.15,
+  "bggUrl": "https://boardgamegeek.com/boardgame/285192/destinies",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#b45309",
+    "secondaryColor": "#1c1917",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #292524 0%, #1c1917 60%, #0c0a09 100%)",
+    "cardBackground": "rgba(28, 25, 23, 0.92)",
+    "borderColor": "rgba(217, 119, 6, 0.35)",
+    "glowColor": "rgba(245, 158, 11, 0.25)",
+    "headerFont": "'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🗡️",
+    "emblem": "🗡️⚖️",
+    "themeClass": "theme-destinies",
+    "activeThemeClass": "theme-destinies-active",
+    "roadmapClass": "roadmap-destinies",
+    "heroClass": "hero-destinies"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #285192)",
+    "Lucky Duck Games Official Rulebook and App Manual",
+    "Steam Store Page & Community Guides"
+  ],
+  "scopes": [
+    {
+      "id": "destinies_core",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "destinies_full",
+      "baseScenarioCount": 5,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "destinies_expanded",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🐺",
+      "badgeText": "Intro",
+      "title": "The Nature of the Beast",
+      "phase": "Prologue - The Beast of Braniewo",
+      "description": "Investigating shadowy rumors and terrifying sightings haunting the isolated border hamlet of Braniewo."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "⚔️",
+      "badgeText": "Ch. 1",
+      "title": "The Sword of the Maiden",
+      "phase": "Act I - The Maiden's Relic",
+      "description": "Unearthing a legendary sanctified blade and delving into ancestral secrets buried beneath forgotten ruins."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "💰",
+      "badgeText": "Ch. 2",
+      "title": "All That Glitters",
+      "phase": "Act II - Greed and Treachery",
+      "description": "Navigating corrupt merchant dealings, whispered curses, and treacherous alliances in search of power."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🌹",
+      "badgeText": "Ch. 3",
+      "title": "The Bleeding Rose",
+      "phase": "Act III - Thornbound Oaths",
+      "description": "Unraveling entangled loyalties and ancient curses as personal destinies inexorably collide."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "⚖️",
+      "badgeText": "Finale",
+      "title": "The Final Judgment",
+      "phase": "Act IV - Fulfillment of Destiny",
+      "description": "Facing the ultimate reckoning where each hero must fulfill their fateful destiny before time expires."
+    }
+  ]
+}

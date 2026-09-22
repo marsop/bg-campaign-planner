@@ -1,0 +1,131 @@
+{
+  "id": "my-city",
+  "title": "My City",
+  "releaseYear": 2020,
+  "designers": "Reiner Knizia",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 7.6,
+  "bggWeight": 1.95,
+  "bggUrl": "https://boardgamegeek.com/boardgame/295486/my-city",
+  "baseScenarioMinutes": 30,
+  "setupTeardownMinutes": 10,
+  "unitType": "episodes",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#2e7d32",
+    "secondaryColor": "#121e15",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e3321 0%, #101c13 60%, #090e0a 100%)",
+    "cardBackground": "rgba(18, 28, 20, 0.90)",
+    "borderColor": "rgba(76, 175, 80, 0.35)",
+    "glowColor": "rgba(76, 175, 80, 0.25)",
+    "headerFont": "'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏘️",
+    "emblem": "🏘️📐",
+    "themeClass": "theme-mycity",
+    "activeThemeClass": "theme-mycity-active",
+    "roadmapClass": "roadmap-mycity",
+    "heroClass": "hero-mycity"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #295486)",
+    "KOSMOS / Thames & Kosmos Official My City Rulebook & Chapter Envelopes",
+    "Spiel des Jahres 2020 Nominee Archives"
+  ],
+  "scopes": [
+    {
+      "id": "mycity_campaign",
+      "baseScenarioCount": 24,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "mycity_first_era",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "mycity_industrial_era",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🌱",
+      "badgeText": "Ch. 1",
+      "title": "The New Land",
+      "phase": "Era I - Pioneering Settlement",
+      "description": "Laying the initial foundations along the riverbank in an untouched valley between mountains and forests."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "⛪",
+      "badgeText": "Ch. 2",
+      "title": "The Churches",
+      "phase": "Era II - Spiritual Gathering",
+      "description": "Constructing grand places of worship to unite the community as open land becomes increasingly contested."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🌊",
+      "badgeText": "Ch. 3",
+      "title": "The Flooding",
+      "phase": "Era III - Elemental Trials",
+      "description": "Adapting urban growth as seasonal river waters rise, challenging planners to protect residential zones."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🪙",
+      "badgeText": "Ch. 4",
+      "title": "The Gold Rush",
+      "phase": "Era IV - Mountain Prospecting",
+      "description": "Valuable veins discovered in the foothills trigger fierce expansion and lucrative territorial competition."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "🏭",
+      "badgeText": "Ch. 5",
+      "title": "The Factories",
+      "phase": "Era V - Early Industrialization",
+      "description": "Smokestacks rise across the district as manufacturing drives rapid urban productivity and structural shifts."
+    },
+    {
+      "order": 6,
+      "atScenarioOrGameIndex": 18,
+      "iconEmoji": "⛏️",
+      "badgeText": "Ch. 6",
+      "title": "The Mining",
+      "phase": "Era VI - Subterranean Excavation",
+      "description": "Deep mineral shafts reshape the outskirts, providing raw materials to fuel further civic development."
+    },
+    {
+      "order": 7,
+      "atScenarioOrGameIndex": 21,
+      "iconEmoji": "🚂",
+      "badgeText": "Ch. 7",
+      "title": "The Railroad",
+      "phase": "Era VII - Steam & Transit",
+      "description": "Iron tracks connect distant corners of the township, transforming logistics and spatial planning."
+    },
+    {
+      "order": 8,
+      "atScenarioOrGameIndex": 24,
+      "iconEmoji": "🏛️",
+      "badgeText": "Ch. 8",
+      "title": "The Prosperity",
+      "phase": "Era VIII - The Grand Metropolis",
+      "description": "Culmination of generations of planning into an enduring, prosperous city with its own distinct legacy."
+    }
+  ]
+}

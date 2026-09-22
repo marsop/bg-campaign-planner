@@ -1,0 +1,61 @@
+{
+  "title": "Etherfields",
+  "subtitle": "Une exploration onirique coopérative et surréaliste perçant les mystères enfouis du subconscient",
+  "tagline": "Franchissez les frontières du réel, résolvez des énigmes oniriques et recouvrez vos souvenirs.",
+  "loreSummary": "Vous vous réveillez sous les traits d'un Rêveur amnésique piégé dans un dédale mouvant de songes et de cauchemars. Entre sommeils agités et rêves bizarres, affrontez vos traumatismes enfouis, revêtez d'étranges masques et percez le secret de votre présence en ces lieux.",
+  "badgeCategory": "Campagne Narrative d'Exploration Onirique",
+  "roadmapTitle": "Labyrinthe des Sommeils",
+  "roadmapBadge": "Jalons Oniriques",
+  "keyFeatures": [
+    "Structure de 'Dream Crawler' surréaliste combinant gestion de deck et énigmes façon escape game",
+    "Carte persistante du monde des songes reliant sommeils dynamiques et rêves thématiques profonds",
+    "Règles de Campagne 2.0 optimisées pour fluidifier la progression, le rythme et la restauration des souvenirs",
+    "Masques énigmatiques et progression de personnage forgeant votre identité psychologique"
+  ],
+  "scopes": {
+    "etherfields_core": {
+      "name": "Périple Onirique Principal (Règles 2.0)",
+      "description": "La campagne centrale optimisée de 22 rêves perçant le mystère fondamental du royaume subconscient."
+    },
+    "etherfields_awakening": {
+      "name": "Arc du Premier Réveil",
+      "description": "Une aventure initiatique de 12 rêves découvrant les premières portes et fragments mémoriels fondamentaux."
+    },
+    "etherfields_grand": {
+      "name": "Grands Songes & Secrets Perdus",
+      "description": "Une odyssée grandiose de 32 rêves dévoilant l'ensemble des sommeils cachés, énigmes et fins alternatives."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Porte I",
+      "title": "L'Éveil des Rêveurs",
+      "phase": "Acte I - Les Portes Murmurantes",
+      "description": "Apprivoiser les premiers paysages oniriques et naviguer sur les courants changeants de la carte des sommeils."
+    },
+    {
+      "badgeText": "Porte II",
+      "title": "Souvenirs Fracturés",
+      "phase": "Acte II - Ombres du Subconscient",
+      "description": "Affronter des masques troublants et des traumatismes enfouis pour recomposer des identités morcelées."
+    },
+    {
+      "badgeText": "Porte III",
+      "title": "Le Labyrinthe des Pensées",
+      "phase": "Acte III - Les Profondeurs Surréalistes",
+      "description": "Surmonter des entités bizarres et des distorsions spatiales dans les strates les plus profondes du rêve collectif."
+    },
+    {
+      "badgeText": "Porte IV",
+      "title": "Les Tisserands du Destin",
+      "phase": "Acte IV - Confrontation avec les Tisserands",
+      "description": "Défier les créateurs énigmatiques qui manipulent les esprits assoupis à travers le continuum des songes."
+    },
+    {
+      "badgeText": "Éveil",
+      "title": "La Lucidité Finale",
+      "phase": "Acte V - Le Grand Éveil",
+      "description": "Atteindre la lucidité suprême pour briser l'illusion et décider de s'éveiller ou de remodeler la réalité."
+    }
+  ]
+}

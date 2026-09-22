@@ -1,0 +1,87 @@
+{
+  "title": "My City",
+  "subtitle": "Kompetitives Legacy-Städtebauspiel von der frühen Siedlung bis zur Industriemetropole",
+  "tagline": "Jedes gelegte Gebäude prägt die Geschichte und Silhouette deiner eigenen Stadt",
+  "loreSummary": "Ihr seid Pioniere, die ein unberührtes Flusstal in eine blühende Gemeinde verwandeln. Über acht historische Kapitel hinweg verändert jedes platzierte Gebäude euren Spielplan dauerhaft, während neue Epochen Kirchen, Eisenbahnen und industriellen Wohlstand einführen.",
+  "badgeCategory": "Kompetitives Legacy-Legespiel",
+  "roadmapTitle": "🗺️ Stadtchronik & Stadtentwicklungs-Fahrplan",
+  "roadmapBadge": "STADT-FAHRPLAN",
+  "keyFeatures": [
+    "Simultanes Polyomino-Legespiel hält alle Spieler durchgehend aktiv am Geschehen",
+    "Versiegelte Kapitelumschläge schalten sich entwickelnde Regeln über 8 historische Epochen frei",
+    "Dauerhafte Planveränderungen durch Aufkleber schaffen eine unverwechselbare Baugeschichte",
+    "Doppelseitige Spielpläne ermöglichen unbegrenzt oft wiederholbare Partien ohne Legacy-Elemente"
+  ],
+  "scopes": {
+    "mycity_campaign": {
+      "name": "Vollständige Legacy-Kampagne (8 Kapitel)",
+      "description": "Die vollständige 24-Episoden-Chronik von den ersten Siedlerhütten bis zur industriellen Revolution."
+    },
+    "mycity_first_era": {
+      "name": "Erste Epoche (Kapitel 1–4)",
+      "description": "Die ersten 12 Episoden rund um Pioniergründung, Kirchenbau, Überschwemmung und den Goldrausch."
+    },
+    "mycity_industrial_era": {
+      "name": "Industrie-Epoche (Kapitel 5–8)",
+      "description": "Die fortgeschrittenen 12 Episoden mit Fabriken, Bergbau, Eisenbahnnetz und großstädtischem Wohlstand."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Kap. 1",
+      "title": "Das neue Land",
+      "phase": "Epoche I - Pionierbesiedlung",
+      "description": "Die ersten Grundsteine am Flussufer in einem unberührten Tal zwischen Bergen und Wäldern legen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Kap. 2",
+      "title": "Die Kirchen",
+      "phase": "Epoche II - Geistliche Gemeinschaft",
+      "description": "Errichtung prächtiger Gotteshäuser, die die Gemeinde einen, während freies Bauland zunehmend knapp wird."
+    },
+    {
+      "order": 3,
+      "badgeText": "Kap. 3",
+      "title": "Die Überschwemmung",
+      "phase": "Epoche III - Elementare Prüfung",
+      "description": "Anpassung der Stadtplanung an steigende Flusspegel zum Schutz der Wohngebiete."
+    },
+    {
+      "order": 4,
+      "badgeText": "Kap. 4",
+      "title": "Der Goldrausch",
+      "phase": "Epoche IV - Schürfen in den Bergen",
+      "description": "Ergiebige Goldadern in den Hügeln lösen stürmisches Wachstum und lukrativen Wettstreit um Land aus."
+    },
+    {
+      "order": 5,
+      "badgeText": "Kap. 5",
+      "title": "Die Fabriken",
+      "phase": "Epoche V - Frühindustrialisierung",
+      "description": "Rauchende Schlote entstehen im Stadtgebiet, während Fertigungsstätten Produktivität und Struktur der Stadt wandeln."
+    },
+    {
+      "order": 6,
+      "badgeText": "Kap. 6",
+      "title": "Der Bergbau",
+      "phase": "Epoche VI - Untertagebau",
+      "description": "Tiefe Förderschächte formen das Umland um und liefern Rohstoffe für weiteres städtisches Wachstum."
+    },
+    {
+      "order": 7,
+      "badgeText": "Kap. 7",
+      "title": "Die Eisenbahn",
+      "phase": "Epoche VII - Dampf & Schienen",
+      "description": "Eiserne Schienenstränge verbinden entlegene Winkel der Gemeinde und revolutionieren Verkehr und Raumplanung."
+    },
+    {
+      "order": 8,
+      "badgeText": "Kap. 8",
+      "title": "Der Wohlstand",
+      "phase": "Epoche VIII - Die Großstadt",
+      "description": "Die Krönung generationenübergreifender Stadtplanung in einer dauerhaft blühenden Metropole mit individuellem Vermächtnis."
+    }
+  ]
+}

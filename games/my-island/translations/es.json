@@ -1,0 +1,79 @@
+{
+  "title": "My Island",
+  "subtitle": "Una campaña competitiva legacy de colocación de losetas hexagonales para colonizar un paraíso tropical",
+  "tagline": "Explora tu isla, coloca asentamientos hexagonales y revela misterios a lo largo de ocho eras.",
+  "loreSummary": "Tras navegar por mares desconocidos hasta descubrir un archipiélago tropical remoto, los jugadores compiten por levantar aldeas, plantar palmerales, abrir senderos y desenterrar antiguos secretos en sus propios tableros en constante evolución.",
+  "badgeCategory": "Juego Competitivo Legacy de Losetas Hexagonales",
+  "roadmapTitle": "Crónica del Archipiélago",
+  "roadmapBadge": "Sobres de Capítulos",
+  "keyFeatures": [
+    "Juego legacy competitivo estructurado en 8 sobres cerrados con 24 episodios en total",
+    "Ingeniosa colocación de losetas hexagonales con juego simultáneo y reglas de puntuación evolutivas",
+    "Transformación permanente del tablero mediante pegatinas para añadir caminos, palmeras, murallas y estatuas",
+    "Reglas accesibles del maestro Reiner Knizia que combinan una experiencia relajante con profundidad de puzle"
+  ],
+  "scopes": {
+    "my_island_campaign": {
+      "name": "Campaña Legacy Completa (8 Capítulos)",
+      "description": "La odisea completa de 24 episodios abriendo los ocho sobres sellados desde la llegada hasta el paraíso definitivo."
+    },
+    "my_island_settlement_era": {
+      "name": "Era de Colonización (Capítulos 1–4)",
+      "description": "Los primeros 12 episodios estableciendo las playas iniciales, campos agrícolas, senderos y murallas protectoras."
+    },
+    "my_island_monuments_era": {
+      "name": "Era de los Monumentos (Capítulos 5–8)",
+      "description": "Los 12 episodios culminantes desenterrando estatuas misteriosas, núcleos urbanos y jardines botánicos."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Cap. 1",
+      "title": "Las Primeras Casas",
+      "phase": "Capítulo 1 - Asentamiento Costero",
+      "description": "Construcción de las primeras viviendas a lo largo del litoral de la isla virgen."
+    },
+    {
+      "badgeText": "Cap. 2",
+      "title": "Los Senderos",
+      "phase": "Capítulo 2 - Rutas de la Isla",
+      "description": "Trazado de caminos intercomunicados a través de las arboledas para conectar los hogares dispersos."
+    },
+    {
+      "badgeText": "Cap. 3",
+      "title": "Palmeras y Campos",
+      "phase": "Capítulo 3 - Cultivo Tropical",
+      "description": "Cultivo de fértiles parcelas agrícolas y aprovechamiento de los palmerales autóctonos."
+    },
+    {
+      "badgeText": "Cap. 4",
+      "title": "Las Murallas Protectoras",
+      "phase": "Capítulo 4 - Límites Amurallados",
+      "description": "Alzamiento de muros de piedra para delimitar territorios y resguardar las zonas residenciales."
+    },
+    {
+      "badgeText": "Cap. 5",
+      "title": "Las Estatuas Ancestrales",
+      "phase": "Capítulo 5 - Reliquias Monumentales",
+      "description": "Descubrimiento de esculturas olvidadas de la isla y edificación de recintos ceremoniales."
+    },
+    {
+      "badgeText": "Cap. 6",
+      "title": "El Centro de la Aldea",
+      "phase": "Capítulo 6 - Corazón Cívico",
+      "description": "Desarrollo de concurridos núcleos comunitarios y ordenación de vecindarios organizados."
+    },
+    {
+      "badgeText": "Cap. 7",
+      "title": "Los Jardines Cerrados",
+      "phase": "Capítulo 7 - Santuarios Botánicos",
+      "description": "Diseño de vergeles amurallados y armoniosos santuarios vegetales en el interior de la isla."
+    },
+    {
+      "badgeText": "Cap. 8",
+      "title": "La Isla Olvidada",
+      "phase": "Capítulo 8 - El Paraíso Definitivo",
+      "description": "Culminación del legado intergeneracional mientras la isla alcanza su máximo esplendor de prosperidad."
+    }
+  ]
+}

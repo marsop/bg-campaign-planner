@@ -1,0 +1,87 @@
+{
+  "title": "My City",
+  "subtitle": "Construcción de ciudades legacy competitiva desde los primeros asentamientos hasta la metrópoli industrial",
+  "tagline": "Cada loseta colocada forja la historia y la silueta de tu propia ciudad",
+  "loreSummary": "Sois pioneros desarrollando un valle fluvial virgen hasta convertirlo en un próspero municipio. A lo largo de ocho capítulos históricos, la colocación de cada edificio transformará de forma permanente tu tablero a medida que nuevas eras introducen iglesias, ferrocarriles y prosperidad industrial.",
+  "badgeCategory": "Colocación de Losetas Legacy Competitivo",
+  "roadmapTitle": "🗺️ Crónica Urbana y Hoja de Ruta de Desarrollo",
+  "roadmapBadge": "HOJA DE RUTA URBANA",
+  "keyFeatures": [
+    "Colocación simultánea de losetas poliominó que mantiene a todos los jugadores en constante acción",
+    "Sobres de capítulos sellados que desbloquean mecánicas evolutivas a lo largo de 8 eras históricas",
+    "Modificaciones permanentes del tablero que construyen una historia arquitectónica única",
+    "Tableros reversibles que permiten partidas rejugables infinitas sin elementos legacy"
+  ],
+  "scopes": {
+    "mycity_campaign": {
+      "name": "Campaña Legacy Completa (8 Capítulos)",
+      "description": "La saga histórica completa de 24 episodios, desde los cimientos pioneros hasta la revolución industrial."
+    },
+    "mycity_first_era": {
+      "name": "Primera Era (Capítulos 1–4)",
+      "description": "Los 12 episodios iniciales que abarcan el asentamiento pionero, iglesias, inundaciones y la fiebre del oro."
+    },
+    "mycity_industrial_era": {
+      "name": "Era Industrial (Capítulos 5–8)",
+      "description": "Los 12 episodios avanzados con fábricas, canteras mineras, redes ferroviarias y prosperidad metropolitana."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Cap. 1",
+      "title": "La nueva tierra",
+      "phase": "Era I - Asentamiento Pionero",
+      "description": "Colocación de los primeros cimientos junto a la orilla del río en un valle virgen entre montañas y bosques."
+    },
+    {
+      "order": 2,
+      "badgeText": "Cap. 2",
+      "title": "Las iglesias",
+      "phase": "Era II - Encuentro Espiritual",
+      "description": "Construcción de templos para unir a la comunidad a medida que el terreno edificable se vuelve cada vez más disputado."
+    },
+    {
+      "order": 3,
+      "badgeText": "Cap. 3",
+      "title": "La inundación",
+      "phase": "Era III - Pruebas de los Elementos",
+      "description": "Adaptación del trazado urbano ante la crecida estacional del río, desafiando a proteger los distritos residenciales."
+    },
+    {
+      "order": 4,
+      "badgeText": "Cap. 4",
+      "title": "La fiebre del oro",
+      "phase": "Era IV - Prospección en la Montaña",
+      "description": "El hallazgo de valiosas vetas en las colinas desata una rápida expansión y una intensa rivalidad territorial."
+    },
+    {
+      "order": 5,
+      "badgeText": "Cap. 5",
+      "title": "Las fábricas",
+      "phase": "Era V - Primera Industrialización",
+      "description": "Las chimeneas se alzan por el distrito mientras la manufactura impulsa la productividad urbana y reestructura la ciudad."
+    },
+    {
+      "order": 6,
+      "badgeText": "Cap. 6",
+      "title": "La minería",
+      "phase": "Era VI - Excavación Subterránea",
+      "description": "Pozos de extracción profunda remodelan la periferia, aportando materias primas para sustentar el crecimiento cívico."
+    },
+    {
+      "order": 7,
+      "badgeText": "Cap. 7",
+      "title": "El ferrocarril",
+      "phase": "Era VII - Vapor y Transporte",
+      "description": "Las vías de hierro conectan los extremos del municipio, transformando la logística y la planificación espacial."
+    },
+    {
+      "order": 8,
+      "badgeText": "Cap. 8",
+      "title": "La prosperidad",
+      "phase": "Era VIII - La Gran Metrópoli",
+      "description": "La culminación de generaciones de planificación en una urbe próspera y perdurable con su propio legado singular."
+    }
+  ]
+}

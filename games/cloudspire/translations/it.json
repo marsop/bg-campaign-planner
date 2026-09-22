@@ -1,0 +1,55 @@
+{
+  "title": "Cloudspire",
+  "subtitle": "Una campagna strategica asimmetrica di tower defense e MOBA tra le isole fluttuanti di Ankar",
+  "tagline": "Costruisci le tue guglie, invia schiere di servitori e governa l'energia primordiale della Fonte.",
+  "loreSummary": "Sospese molto al di sopra di una terra devastata fluttuano le isole sacre di Ankar. Mentre l'ambita energia della Fonte sgorga dalle lacerazioni della realtà, quattro fazioni profondamente asimmetriche ingaggiano una guerra tattica senza quartiere di fortezze, difese ed eroi.",
+  "badgeCategory": "MOBA Tattico Asimmetrico & Campagna",
+  "roadmapTitle": "Cronaca delle Isole Celesti",
+  "roadmapBadge": "Saghe delle Fazioni",
+  "keyFeatures": [
+    "Campagne di scenari in solitario e cooperativo con obiettivi asimmetrici e regole di IA dinamiche",
+    "Profonda integrazione tattica tra costruzione di guglie, percorsi dei servitori e combattimento degli eroi",
+    "Quattro fazioni uniche dotate di alberi di potenziamento, talenti e strutture proprietarie",
+    "Componentistica eccezionale targata Chip Theory Games con fiches appesantite e plance in neoprene"
+  ],
+  "scopes": {
+    "cloudspire_solo_coop_campaign": {
+      "name": "Libro di Campagna Solo & Coop",
+      "description": "La saga completa in 16 scenari che attraversa tutte e quattro le fazioni base attraverso rigorose prove tattiche."
+    },
+    "cloudspire_coop_chronicles": {
+      "name": "Cronaca Cooperativa Dedicata",
+      "description": "La campagna cooperativa in 6 scenari che richiede un perfetto coordinamento tattico a due giocatori per vincere."
+    },
+    "cloudspire_faction_mastery": {
+      "name": "Arco di Padronanza di Fazione",
+      "description": "Una sfida mirata in 4 scenari per padroneggiare tutte le sfumature tattiche di una singola fazione prescelta."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Saga I",
+      "title": "L'Avanguardia Brawnen",
+      "phase": "Saga di Fazione I - Risoluzione di Ferro",
+      "description": "Comandare le colossali unità d'assedio Brawnen e difendere la fortezza della Fonte da ogni incursione."
+    },
+    {
+      "badgeText": "Saga II",
+      "title": "Il Bastione a Meccanismi",
+      "phase": "Saga di Fazione II - L'Ascesa di Hephaestus",
+      "description": "Sfruttare l'ingegneria a vapore e le baliste automatizzate di Hephaestus per dominare i cieli dell'isola."
+    },
+    {
+      "badgeText": "Saga III",
+      "title": "La Volta Celeste",
+      "phase": "Saga di Fazione III - Lo Splendore Narora",
+      "description": "Incanalare l'energia cristallina eterea dei Narora per vanificare le imboscate nelle fitte foreste."
+    },
+    {
+      "badgeText": "Saga IV",
+      "title": "La Vendetta dei Grievance",
+      "phase": "Saga di Fazione IV - Ombre Sotterranee",
+      "description": "Sopravvivere alle insidiose imboscate sotterranee dei Grievance per affermare il dominio supremo su Ankar."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "etherfields",
+  "title": "Etherfields",
+  "releaseYear": 2020,
+  "designers": "Michał Oracz",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.8,
+  "bggWeight": 3.25,
+  "bggUrl": "https://boardgamegeek.com/boardgame/280794/etherfields",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 20,
+  "unitType": "dreams",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#6366f1",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#38bdf8",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e1b4b 0%, #0f172a 60%, #020617 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.92)",
+    "borderColor": "rgba(99, 102, 241, 0.35)",
+    "glowColor": "rgba(56, 189, 248, 0.25)",
+    "headerFont": "'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🎭",
+    "emblem": "🎭✨",
+    "themeClass": "theme-etherfields",
+    "activeThemeClass": "theme-etherfields-active",
+    "roadmapClass": "roadmap-etherfields",
+    "heroClass": "hero-etherfields"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #280794)",
+    "Awaken Realms Official Etherfields Rulebook & Dream World Manual (2.0 Rules Edition)",
+    "Kickstarter Campaign Archive"
+  ],
+  "scopes": [
+    {
+      "id": "etherfields_core",
+      "baseScenarioCount": 22,
+      "estimatedFailRatePercent": 0.10,
+      "isRecommended": true
+    },
+    {
+      "id": "etherfields_awakening",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 0.08,
+      "isRecommended": false
+    },
+    {
+      "id": "etherfields_grand",
+      "baseScenarioCount": 32,
+      "estimatedFailRatePercent": 0.12,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🚪",
+      "badgeText": "Gate I",
+      "title": "The Dreamers' Wake",
+      "phase": "Act I - The Whispering Gates",
+      "description": "Unraveling the first surreal dreamscapes and learning to navigate the shifting currents of the Slumber map."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🪞",
+      "badgeText": "Gate II",
+      "title": "Fractured Memories",
+      "phase": "Act II - Subconscious Shadows",
+      "description": "Confronting haunting masks and buried traumas to piece together fragmented personal identities."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "🌀",
+      "badgeText": "Gate III",
+      "title": "The Labyrinth of Thoughts",
+      "phase": "Act III - The Surreal Deep",
+      "description": "Overcoming surreal entities and distorted spatial puzzles within the deepest layers of the collective dream."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 20,
+      "iconEmoji": "🕸️",
+      "badgeText": "Gate IV",
+      "title": "The Weavers of Fate",
+      "phase": "Act IV - Confronting the Dreamweavers",
+      "description": "Challenging the enigmatic weavers who manipulate slumbering minds across the dream continuum."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 22,
+      "iconEmoji": "👁️",
+      "badgeText": "Awakening",
+      "title": "The Final Lucidity",
+      "phase": "Act V - The Grand Awakening",
+      "description": "Achieving ultimate lucidity to shatter the illusion and decide whether to wake or reshape reality."
+    }
+  ]
+}

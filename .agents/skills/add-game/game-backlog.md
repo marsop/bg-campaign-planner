@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (39 games):**
+**Currently in app (47 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -48,30 +48,33 @@ requested by the user.
 - Artisans of Splendent Vale
 - The 7th Continent
 - Detective: A Modern Crime Board Game
+- My City
+- Destinies
+- Perseverance: Castaway Chronicles
+- Etherfields
+- Cloudspire
+- Mice and Mystics
+- Chronicles of Crime
+- My Island
 
 
 ---
 
 ## 🟥 High Priority
 
-- **My City** — Competitive legacy polyomino tile-placement campaign developing a city over time. 24 episodes (8 chapters), ~12–15 hours. ~7.5 BGG. 2–4 players. Polyomino, legacy, simultaneous action.
+*(No games currently in High Priority)*
 
 ---
 
 ## 🟧 Medium Priority
 
-- **Destinies** — App-driven open-world adventure. 5–10 scenarios per campaign. ~7.5 BGG. 1–3 players.
+*(No games currently in Medium Priority)*
 
 ---
 
 ## 🟨 Lower Priority
 
-- **Perseverance: Castaway Chronicles** — Survival campaign game. Episodes 1+2, ~30–50 hours. ~8.1 BGG. 1–4 players.
-- **Etherfields** — Cooperative "dream-crawler" with branching persistent campaign (Awaken Realms). 40–50+ hours. ~7.8 BGG. 1–4 players. Non-standard branching structure — no fixed numbered scenarios; needs extra scope design.
-- **Cloudspire** — Strategic tower-defense with dedicated solo/coop scenario campaign. ~20–30 h (coop campaign). ~8.5 BGG. 1–4 players. Primarily a competitive game; coop campaign is optional and shorter.
-- **Mice and Mystics** — Storybook-driven adventure game where players explore as heroes turned into mice. 15-20 hours. ~7.2 BGG. 1-4 players. Thematic, family-friendly dungeon crawler.
-- **Chronicles of Crime** — App-driven cooperative crime investigation series blending board game and digital app. 5–6 cases, ~8–15+ hours. ~7.5 BGG. 1–4 players. App-driven, deduction, QR code scanning.
-- **My Island** — Competitive legacy hex-tile placement campaign evolving across an uncharted island. 24 episodes (8 chapters), ~12–15 hours. ~7.4 BGG. 2–4 players. Hexagonal tile placement, legacy, puzzle.
+*(No games currently in Lower Priority)*
 
 ---
 

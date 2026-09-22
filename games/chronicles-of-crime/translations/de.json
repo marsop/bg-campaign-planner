@@ -1,0 +1,55 @@
+{
+  "title": "Chronicles of Crime",
+  "subtitle": "Eine App-gestützte kooperative Krimi-Ermittlungsserie zwischen klassischem Brettspiel und digitaler Forensik",
+  "tagline": "Scanne Hinweise, verhöre Verdächtige und löse Londons kniffligste Kriminalfälle.",
+  "loreSummary": "Als erfahrene Ermittler von Scotland Yard im modernen London arbeitet dein Ermittlerteam gegen die unerbittlich tickende Uhr, um grausame Verbrechen aufzuklären, forensische Spuren mit Experten zu analysieren und skrupellose Täter zu überführen.",
+  "badgeCategory": "App-Gesteuerte Kriminal-Ermittlung",
+  "roadmapTitle": "Fallakte & Beweisprotokoll",
+  "roadmapBadge": "Ermittlungs-Meilensteine",
+  "keyFeatures": [
+    "Scan&Play QR-Code-Steuerung zur nahtlosen Verknüpfung von Karten, Zeugenbefragungen und Tatorten",
+    "360-Grad-Panorama- und VR-Tatortbegehungen zum Aufspüren versteckter physischer Beweismittel",
+    "Dynamische Spieluhr, bei der jede Vernehmung, Fahrtzeit und forensische Beratung kostbare Minuten verbraucht",
+    "Spezialistenkontakte bei Scotland Yard für hackertechnische, gerichtsmedizinische und kriminologische Expertisen"
+  ],
+  "scopes": {
+    "chronicles_of_crime_campaign": {
+      "name": "Die verfluchte Blume (3-teilige Kampagne)",
+      "description": "Die zusammenhängende 3-Fälle-Erzählung rund um ein verworrenes Geflecht aus Mord, Gier und Londoner Unterwelt."
+    },
+    "chronicles_of_crime_base_archive": {
+      "name": "Vollständiges Londoner Fallarchiv",
+      "description": "Alle 5 Fälle der Grundspielbox inklusive eigenständiger Mysterien und der vollständigen Kampagne."
+    },
+    "chronicles_of_crime_expanded": {
+      "name": "Meisterermittler-Archiv",
+      "description": "Ein erweitertes 8-Fälle-Dossier bestehend aus den Basisfällen und zusätzlichen digitalen Kriminalfällen."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Untersuchung",
+      "title": "Die Curzon-Ausstellung",
+      "phase": "Auftaktuntersuchung",
+      "description": "Sicherung des Tatorts im Curzon-Museum und Erfassung erster forensischer Spuren."
+    },
+    {
+      "badgeText": "Teil I",
+      "title": "Die Vergiftete Rose",
+      "phase": "Die verfluchte Blume - Teil I",
+      "description": "Rückverfolgung verdächtiger Pflanzengifte und Befragung entfremdeter Familienangehöriger im Londoner Westen."
+    },
+    {
+      "badgeText": "Teil II",
+      "title": "Schatten im Untergrund",
+      "phase": "Die verfluchte Blume - Teil II",
+      "description": "Aufdecken geheimer Schwarzmarkt-Netzwerke entlang des Londoner U-Bahn-Systems."
+    },
+    {
+      "badgeText": "Teil III",
+      "title": "Das Zerschlagene Syndikat",
+      "phase": "Die verfluchte Blume - Teil III",
+      "description": "Konfrontation mit dem Drahtzieher des Verbrechersyndikats und Vorlage des Abschlussberichts beim Leitenden Ermittler."
+    }
+  ]
+}

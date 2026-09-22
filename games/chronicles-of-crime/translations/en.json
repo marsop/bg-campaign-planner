@@ -1,0 +1,55 @@
+{
+  "title": "Chronicles of Crime",
+  "subtitle": "An app-driven cooperative criminal investigation series blending physical board play and digital forensics",
+  "tagline": "Scan clues, interrogate suspects, and crack London's most baffling cases.",
+  "loreSummary": "As seasoned Scotland Yard detectives operating in modern-day London, you and your investigative team work against the clock to solve gruesome crimes, analyze scientific evidence with forensics specialists, and bring ruthless perpetrators to justice.",
+  "badgeCategory": "App-Driven Detective Investigation",
+  "roadmapTitle": "Case Dossier & Evidence Log",
+  "roadmapBadge": "Investigation Milestones",
+  "keyFeatures": [
+    "Scan&Play QR-code integration connecting cards, suspect interviews, and crime scene locations",
+    "Panoramic 3D and VR crime scene examinations discovering crucial physical clues",
+    "Dynamic in-game clock where every interrogation, travel, and forensic consultation consumes time",
+    "Specialist contacts at Scotland Yard providing hacker, medical examiner, and criminologist insights"
+  ],
+  "scopes": {
+    "chronicles_of_crime_campaign": {
+      "name": "The Cursed Flower (3-Part Campaign)",
+      "description": "The interconnected 3-case overarching narrative following an intricate web of murder, greed, and London underworld ties."
+    },
+    "chronicles_of_crime_base_archive": {
+      "name": "Full London Case Archive",
+      "description": "All 5 full investigation cases from the core box encompassing standalone mysteries and the complete campaign."
+    },
+    "chronicles_of_crime_expanded": {
+      "name": "Master Investigator Archive",
+      "description": "An expanded 8-case docket incorporating base investigations and digital companion case files."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Inquest",
+      "title": "The Curzon Exhibition",
+      "phase": "Opening Inquest",
+      "description": "Analyzing the crime scene at the Curzon Museum and collecting initial forensic evidence."
+    },
+    {
+      "badgeText": "Part I",
+      "title": "The Poisoned Rose",
+      "phase": "The Cursed Flower - Part I",
+      "description": "Tracing suspicious botanical toxins and interrogating estranged family members in West London."
+    },
+    {
+      "badgeText": "Part II",
+      "title": "Shadows in the Underground",
+      "phase": "The Cursed Flower - Part II",
+      "description": "Connecting clandestine black-market networks across the London Underground."
+    },
+    {
+      "badgeText": "Part III",
+      "title": "The Broken Syndicate",
+      "phase": "The Cursed Flower - Part III",
+      "description": "Confronting the mastermind behind the syndicate and presenting conclusive evidence to the Chief Inspector."
+    }
+  ]
+}

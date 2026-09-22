@@ -1,0 +1,87 @@
+{
+  "title": "My City",
+  "subtitle": "Piazzamento tessere legacy competitivo dai primi insediamenti alla metropoli industriale",
+  "tagline": "Ogni tessera posata plasma la storia e il profilo della tua città",
+  "loreSummary": "Siete pionieri chiamati a sviluppare un'incontaminata valle fluviale in un florido comune. Attraverso otto capitoli storici, ogni edificio posato altera per sempre la plancia personale, mentre nuove epoche introducono chiese, ferrovie e prosperità industriale.",
+  "badgeCategory": "Piazzamento Tessere Legacy Competitivo",
+  "roadmapTitle": "🗺️ Cronaca Cittadina e Tabella di Sviluppo Urbano",
+  "roadmapBadge": "TABELLA URBANA",
+  "keyFeatures": [
+    "Piazzamento simultaneo di tessere polimino che mantiene tutti i giocatori costantemente attivi",
+    "Buste dei capitoli sigillate che sbloccano regole evolutive attraverso 8 epoche storiche",
+    "Modifiche permanenti della plancia con adesivi per creare una storia architettonica unica",
+    "Plance fronte-retro per partite infinite e rigiocabili senza elementi legacy"
+  ],
+  "scopes": {
+    "mycity_campaign": {
+      "name": "Campagna Legacy Completa (8 Capitoli)",
+      "description": "L'intera saga storica di 24 episodi, dai primi insediamenti pionieristici alla rivoluzione industriale."
+    },
+    "mycity_first_era": {
+      "name": "Prima Epoca (Capitoli 1–4)",
+      "description": "I 12 episodi iniziali dedicati all'insediamento rurale, alle chiese, all'inondazione e alla corsa all'oro."
+    },
+    "mycity_industrial_era": {
+      "name": "Epoca Industriale (Capitoli 5–8)",
+      "description": "I 12 episodi avanzati che introducono fabbriche, cave minerarie, rete ferroviaria e prosperità metropolitana."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Cap. 1",
+      "title": "La nuova terra",
+      "phase": "Epoca I - Insediamento Pionieristico",
+      "description": "Posare le prime fondamenta lungo la riva del fiume in una valle incontaminata tra montagne e foreste."
+    },
+    {
+      "order": 2,
+      "badgeText": "Cap. 2",
+      "title": "Le chiese",
+      "phase": "Epoca II - Raduno Spirituale",
+      "description": "Erigere solenni luoghi di culto per unire la comunità mentre lo spazio edificabile si riduce."
+    },
+    {
+      "order": 3,
+      "badgeText": "Cap. 3",
+      "title": "L'inondazione",
+      "phase": "Epoca III - Prove Elementali",
+      "description": "Adattare l'espansione urbana alle piene stagionali del fiume per salvaguardare i quartieri residenziali."
+    },
+    {
+      "order": 4,
+      "badgeText": "Cap. 4",
+      "title": "La corsa all'oro",
+      "phase": "Epoca IV - Ricerca tra i Monti",
+      "description": "La scoperta di ricche vene aurifere tra le colline innesca una rapida espansione e un'accesa rivalità territoriale."
+    },
+    {
+      "order": 5,
+      "badgeText": "Cap. 5",
+      "title": "Le fabbriche",
+      "phase": "Epoca V - Prima Industrializzazione",
+      "description": "Ciminiere svettano nel paesaggio urbano mentre le manifatture accelerano la produttività e rinnovano la struttura cittadina."
+    },
+    {
+      "order": 6,
+      "badgeText": "Cap. 6",
+      "title": "L'attività mineraria",
+      "phase": "Epoca VI - Scavo Sotterraneo",
+      "description": "Pozzi d'estrazione profondi ridisegnano la periferia, fornendo materie prime per alimentare la crescita civica."
+    },
+    {
+      "order": 7,
+      "badgeText": "Cap. 7",
+      "title": "La ferrovia",
+      "phase": "Epoca VII - Vapore e Binari",
+      "description": "Binari ferrati collegano i confini del comune, trasformando la logistica e la pianificazione del territorio."
+    },
+    {
+      "order": 8,
+      "badgeText": "Cap. 8",
+      "title": "La prosperità",
+      "phase": "Epoca VIII - La Grande Metropoli",
+      "description": "Il coronamento di generazioni di pianificazione in una città fiorente e duratura dotata di una propria identità storica."
+    }
+  ]
+}

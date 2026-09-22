@@ -1,0 +1,55 @@
+{
+  "title": "Mice and Mystics",
+  "subtitle": "Un'avventura narrativa fiabesca in cui eroi trasformati in topi lottano per salvare il loro reame",
+  "tagline": "Vesti i panni di topi valorosi, affronta i pericoli del castello e salva il Re.",
+  "loreSummary": "Trasformati in topi dal mistico di corte Maginos per fuggire dalla malvagia strega Vanestra, il principe Collin e i suoi fedeli compagni devono farsi strada in un castello venti volte più grande, sfuggendo a scarafaggi, ratti armati e al terribile gatto Brodie.",
+  "badgeCategory": "Dungeon Crawler Narrativo da Libro di Fiabe",
+  "roadmapTitle": "Storia di Dolore & Rimembranza",
+  "roadmapBadge": "Capitoli della Fiaba",
+  "keyFeatures": [
+    "Incantevole narrazione da libro di fiabe che unisce testo d'atmosfera e combattimenti tattici con miniature",
+    "Equipaggiamenti creativi a misura di roditore come scudi di bottoni, lance di stuzzicadenti ed elmi di ditale",
+    "Meccanica dinamica della ruota del formaggio che alimenta abilità eroiche e rinforzi nemici",
+    "Campagna accessibile e avvincente adatta a famiglie e avventurieri di qualsiasi livello di esperienza"
+  ],
+  "scopes": {
+    "mice_mystics_sorrow_remembrance": {
+      "name": "Dolore e Rimembranza (Saga Completa)",
+      "description": "L'intera campagna da 11 capitoli del libro delle fiabe originale che narra la ribellione del principe Collin."
+    },
+    "mice_mystics_act1": {
+      "name": "Atto I: Fuga dalle Prigioni",
+      "description": "I primi 4 capitoli incentrati sulla fuga dalle segrete e la fondazione di un rifugio nelle fogne."
+    },
+    "mice_mystics_act2": {
+      "name": "Atto II: L'Assedio del Castello",
+      "description": "I 7 capitoli culminanti che radunano alleati del bosco per riconquistare la fortezza reale."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Atto I",
+      "title": "La Fuga dalle Segrete",
+      "phase": "Atto I - La Grande Fuga",
+      "description": "Scappare dalle cupe carceri del castello attraverso le tubature fognarie e attraversare il cortile."
+    },
+    {
+      "badgeText": "Atto II",
+      "title": "Sussurri nella Fucina",
+      "phase": "Atto II - Alleati nell'Ombra",
+      "description": "Stringere patti con le creature del castello, eludere il gatto Brodie e recuperare antiche reliquie."
+    },
+    {
+      "badgeText": "Atto III",
+      "title": "Infiltrazione nel Laboratorio",
+      "phase": "Atto III - La Magia di Vanestra",
+      "description": "Introdursi nei laboratori alchemici di Vanestra per trovare il rimedio che annulli la trasformazione."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "La Liberazione del Re",
+      "phase": "Atto IV - Trionfo sulla Tirannia",
+      "description": "Affrontare Vanestra e i suoi servitori nella sala del trono per restituire la pace al regno di re Andon."
+    }
+  ]
+}

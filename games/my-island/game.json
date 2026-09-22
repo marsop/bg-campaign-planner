@@ -1,0 +1,131 @@
+{
+  "id": "my-island",
+  "title": "My Island",
+  "releaseYear": 2023,
+  "designers": "Reiner Knizia",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 7.5,
+  "bggWeight": 2.10,
+  "bggUrl": "https://boardgamegeek.com/boardgame/348398/my-island",
+  "baseScenarioMinutes": 30,
+  "setupTeardownMinutes": 10,
+  "unitType": "episodes",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#0d9488",
+    "secondaryColor": "#0f291e",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #0f3d3e 0%, #0c2420 60%, #061210 100%)",
+    "cardBackground": "rgba(12, 36, 32, 0.92)",
+    "borderColor": "rgba(13, 148, 136, 0.35)",
+    "glowColor": "rgba(45, 212, 191, 0.25)",
+    "headerFont": "'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏝️",
+    "emblem": "🏝️⬡",
+    "themeClass": "theme-myisland",
+    "activeThemeClass": "theme-myisland-active",
+    "roadmapClass": "roadmap-myisland",
+    "heroClass": "hero-myisland"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #348398)",
+    "KOSMOS / Thames & Kosmos Official My Island Rulebook & Chapter Envelopes",
+    "Official Spiel des Jahres & Kosmos Release Archives"
+  ],
+  "scopes": [
+    {
+      "id": "my_island_campaign",
+      "baseScenarioCount": 24,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "my_island_settlement_era",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "my_island_monuments_era",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🏖️",
+      "badgeText": "Ch. 1",
+      "title": "The First Houses",
+      "phase": "Chapter 1 - Beachhead Settlement",
+      "description": "Establishing initial dwellings along the shoreline of the uncharted island."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🛤️",
+      "badgeText": "Ch. 2",
+      "title": "The Paths",
+      "phase": "Chapter 2 - Island Navigation",
+      "description": "Paving interconnected trails through inland groves to connect dispersed homesteads."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🌴",
+      "badgeText": "Ch. 3",
+      "title": "The Palms & Fields",
+      "phase": "Chapter 3 - Tropical Cultivation",
+      "description": "Cultivating fertile agricultural plots and harvesting native palm groves."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🧱",
+      "badgeText": "Ch. 4",
+      "title": "The Protective Walls",
+      "phase": "Chapter 4 - Fortress Boundaries",
+      "description": "Erecting stone barriers to demarcate territories and shelter residential sectors."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "🗿",
+      "badgeText": "Ch. 5",
+      "title": "The Ancient Statues",
+      "phase": "Chapter 5 - Monumental Relics",
+      "description": "Unearthing forgotten island sculptures and building ceremonial complexes."
+    },
+    {
+      "order": 6,
+      "atScenarioOrGameIndex": 18,
+      "iconEmoji": "🏘️",
+      "badgeText": "Ch. 6",
+      "title": "The Village Center",
+      "phase": "Chapter 6 - Civic Heart",
+      "description": "Developing bustling community centers and organizing dense neighborhood quarters."
+    },
+    {
+      "order": 7,
+      "atScenarioOrGameIndex": 21,
+      "iconEmoji": "🌺",
+      "badgeText": "Ch. 7",
+      "title": "The Enclosed Gardens",
+      "phase": "Chapter 7 - Botanical Sanctuaries",
+      "description": "Designing walled gardens and harmonic botanical sanctuaries across the island interior."
+    },
+    {
+      "order": 8,
+      "atScenarioOrGameIndex": 24,
+      "iconEmoji": "✨",
+      "badgeText": "Ch. 8",
+      "title": "The Forgotten Island",
+      "phase": "Chapter 8 - The Final Paradise",
+      "description": "Concluding the generations-long legacy as the island reaches its ultimate flourishing splendor."
+    }
+  ]
+}

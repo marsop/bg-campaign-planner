@@ -1,0 +1,55 @@
+{
+  "title": "Chronicles of Crime",
+  "subtitle": "Una serie cooperativa de investigación criminal asistida por app que combina tablero físico y análisis forense digital",
+  "tagline": "Escanea pistas, interroga sospechosos y resuelve los casos más desconcertantes de Londres.",
+  "loreSummary": "Como experimentados detectives de Scotland Yard en el Londres contemporáneo, tu equipo de investigación corre contra el reloj para resolver crímenes atroces, analizar evidencias forenses con especialistas y llevar a los culpables ante la justicia.",
+  "badgeCategory": "Investigación Policial Asistida por App",
+  "roadmapTitle": "Expediente del Caso y Pruebas",
+  "roadmapBadge": "Hitos de Investigación",
+  "keyFeatures": [
+    "Integración Scan&Play con códigos QR que vincula cartas, interrogatorios a sospechosos y localizaciones",
+    "Inspección panorámica en 3D y realidad virtual de las escenas del crimen para hallar pistas físicas",
+    "Reloj dinámico de partida donde cada interrogatorio, desplazamiento y consulta forense consume tiempo valioso",
+    "Contactos especialistas en Scotland Yard que aportan análisis médico, psicológico, científico e informático"
+  ],
+  "scopes": {
+    "chronicles_of_crime_campaign": {
+      "name": "La Flor Maldita (Campaña en 3 Partes)",
+      "description": "La trama troncal interconectada en 3 casos que desenreda una compleja red de asesinatos, codicia y bajos fondos londinenses."
+    },
+    "chronicles_of_crime_base_archive": {
+      "name": "Archivo Completo de Casos de Londres",
+      "description": "Los 5 casos íntegros de investigación de la caja básica, reuniendo crímenes independientes y la campaña completa."
+    },
+    "chronicles_of_crime_expanded": {
+      "name": "Archivo Maestro de Investigador",
+      "description": "Un expediente ampliado de 8 casos que incorpora las investigaciones base y los casos digitales adicionales."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Pesquisa",
+      "title": "La Exposición Curzon",
+      "phase": "Apertura de la Instrucción",
+      "description": "Inspección de la escena del crimen en el Museo Curzon y recolección de las primeras evidencias forenses."
+    },
+    {
+      "badgeText": "Parte I",
+      "title": "La Rosa Envenenada",
+      "phase": "La Flor Maldita - Parte I",
+      "description": "Rastrear toxinas botánicas sospechosas e interrogar a familiares distanciados en el oeste de Londres."
+    },
+    {
+      "badgeText": "Parte II",
+      "title": "Sombras en el Subterráneo",
+      "phase": "La Flor Maldita - Parte II",
+      "description": "Conectar redes clandestinas del mercado negro a lo largo del metro londinense."
+    },
+    {
+      "badgeText": "Parte III",
+      "title": "El Sindicato Desmantelado",
+      "phase": "La Flor Maldita - Parte III",
+      "description": "Acorralar al autor intelectual del sindicato delictivo y presentar el informe concluyente ante el inspector jefe."
+    }
+  ]
+}

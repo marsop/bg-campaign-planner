@@ -1,0 +1,55 @@
+{
+  "title": "Cloudspire",
+  "subtitle": "Une campagne stratégique asymétrique de tower-defense et de MOBA sur les îles célestes d'Ankar",
+  "tagline": "Bâtissez vos flèches, déployez vos vagues de sbires et dominez la puissance de la Source.",
+  "loreSummary": "Flottant bien au-dessus d'un monde dévasté se dressent les îles sacrées d'Ankar. Alors que l'énergie brute de la Source suinte à travers les déchirures de la réalité, quatre factions profondément asymétriques se livrent une guerre sans merci de citadelles, de défenses et de héros.",
+  "badgeCategory": "MOBA Tactique Asymétrique & Campagne",
+  "roadmapTitle": "Chronique des Îles Célestes",
+  "roadmapBadge": "Sagas de Factions",
+  "keyFeatures": [
+    "Campagnes de scénarios solo et coopératifs avec objectifs asymétriques et règles d'IA dynamiques",
+    "Forte synergie tactique entre construction de flèches, gestion des couloirs de sbires et combat de héros",
+    "Quatre factions uniques possédant leurs propres arbres d'évolution, talents et forteresses",
+    "Matériel d'exception signé Chip Theory Games avec jetons lestés et tapis de jeu en néoprène"
+  ],
+  "scopes": {
+    "cloudspire_solo_coop_campaign": {
+      "name": "Livre de Campagne Solo & Coop",
+      "description": "La saga complète en 16 scénarios traversant les quatre factions de base au gré d'épreuves exigeantes."
+    },
+    "cloudspire_coop_chronicles": {
+      "name": "Chronique Coopérative Dédiée",
+      "description": "La campagne coopérative de 6 scénarios nécessitant une coordination parfaite à deux joueurs pour triompher."
+    },
+    "cloudspire_faction_mastery": {
+      "name": "Arc de Maîtrise de Faction",
+      "description": "Un défi resserré en 4 scénarios pour maîtriser toutes les subtilités stratégiques d'une faction choisie."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Saga I",
+      "title": "L'Avant-Garde Brawnen",
+      "phase": "Saga de Faction I - Volonté de Fer",
+      "description": "Commander les formidables engins de siège Brawnen et verrouiller la forteresse de Source contre les assauts."
+    },
+    {
+      "badgeText": "Saga II",
+      "title": "Le Bastion d'Horlogerie",
+      "phase": "Saga de Faction II - L'Essor d'Hephaestus",
+      "description": "Exploiter l'ingénierie à vapeur et les balistes automatisées d'Hephaestus pour s'imposer sur les îles flottantes."
+    },
+    {
+      "badgeText": "Saga III",
+      "title": "La Canopée Céleste",
+      "phase": "Saga de Faction III - L'Éclat Narora",
+      "description": "Canaliser les énergies cristallines des Narora pour déjouer les embuscades au cœur des forêts vierges."
+    },
+    {
+      "badgeText": "Saga IV",
+      "title": "La Revanche des Grievance",
+      "phase": "Saga de Faction IV - Ombres Souterraines",
+      "description": "Survivre aux embuscades insidieuses des Grievance pour asseoir une domination définitive sur Ankar."
+    }
+  ]
+}

@@ -11,7 +11,7 @@
   "baseScenarioMinutes": 90,
   "setupTeardownMinutes": 15,
   "unitType": "chapters",
-  "quality": "mid",
+  "quality": "high",
   "theme": {
     "primaryColor": "#38bdf8",
     "secondaryColor": "#0c1524",

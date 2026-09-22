@@ -1,0 +1,61 @@
+{
+  "title": "Etherfields",
+  "subtitle": "Un'esplorazione onirica cooperativa e surreale alla scoperta dei misteri nascosti del subconscio",
+  "tagline": "Oltrepassa la realtà, risolvi enigmi onirici e riscopri i tuoi ricordi perduti.",
+  "loreSummary": "Ti risvegli come un Sognatore senza nome intrappolato in un labirinto mutevole di visioni del subconscio. Tra sonni inquieti e sogni bizzarri, affronta traumi sepolti, indossa maschere enigmatiche e scopri la ragione del tuo imprigionamento.",
+  "badgeCategory": "Campagna Narrativa di Esplorazione Onirica",
+  "roadmapTitle": "Labirinto dei Sonni",
+  "roadmapBadge": "Traguardi Onirici",
+  "keyFeatures": [
+    "Struttura 'Dream Crawler' surreale che combina gestione del mazzo ed enigmi in stile escape room",
+    "Mappa persistente del subconscio che collega sonni dinamici e sogni tematici profondi",
+    "Regole di Campagna 2.0 ottimizzate per snellire la progressione, il ritmo e la ricerca dei ricordi",
+    "Maschere misteriose e sviluppo del personaggio che plasmano la tua identità psicologica"
+  ],
+  "scopes": {
+    "etherfields_core": {
+      "name": "Viaggio Onirico Principale (Regole 2.0)",
+      "description": "La campagna fondamentale ottimizzata di 22 sogni che svela il mistero primario della dimensione onirica."
+    },
+    "etherfields_awakening": {
+      "name": "Arco del Primo Risveglio",
+      "description": "Un percorso introduttivo di 12 sogni alla scoperta delle prime porte oniriche e frammenti di memoria essenziali."
+    },
+    "etherfields_grand": {
+      "name": "Grandi Paesaggi Onirici & Segreti",
+      "description": "Un'odissea esaustiva di 32 sogni per svelare ogni sonno nascosto, enigma e finale alternativo."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Porta I",
+      "title": "Il Risveglio dei Sognatori",
+      "phase": "Atto I - Le Porte Sussurranti",
+      "description": "Esplorare i primi paesaggi onirici e imparare a orientarsi tra le correnti mutevoli della mappa dei sonni."
+    },
+    {
+      "badgeText": "Porta II",
+      "title": "Memorie Frantumate",
+      "phase": "Atto II - Ombre del Subconscio",
+      "description": "Affrontare maschere inquietanti e traumi rimossi per ricomporre identità personali frammentate."
+    },
+    {
+      "badgeText": "Porta III",
+      "title": "Il Labirinto del Pensiero",
+      "phase": "Atto III - Il Profondo Surreale",
+      "description": "Superare creature bizzarre e labirinti spaziali nei livelli più profondi del sogno condiviso."
+    },
+    {
+      "badgeText": "Porta IV",
+      "title": "I Tessitori del Fato",
+      "phase": "Atto IV - Confronto con i Tessitori",
+      "description": "Sfidare le enigmatiche entità che manipolano le menti dormienti attraverso il continuum del sogno."
+    },
+    {
+      "badgeText": "Risveglio",
+      "title": "La Lucida Risoluzione",
+      "phase": "Atto V - Il Grande Risveglio",
+      "description": "Raggiungere la lucidità suprema per dissolvere l'illusione e decidere se risvegliarsi o ricreare la realtà."
+    }
+  ]
+}

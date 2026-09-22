@@ -1,0 +1,79 @@
+{
+  "title": "My Island",
+  "subtitle": "Une campagne compétitive legacy de pose de tuiles hexagonales bâtissant un paradis tropical prospère",
+  "tagline": "Explorez votre île, bâtissez des colonies hexagonales et levez le voile sur huit ères mystérieuses.",
+  "loreSummary": "Après avoir vogué sur des mers inexplorées jusqu'à découvrir un archipel tropical préservé, les joueurs s'affrontent pour ériger des maisons, planter des palmeraies, tracer des sentiers et exhumer d'antiques mystères sur leur propre plateau évolutif.",
+  "badgeCategory": "Jeu Compétitif Legacy de Tuiles Hexagonales",
+  "roadmapTitle": "Chronique de l'Archipel",
+  "roadmapBadge": "Enveloppes de Chapitres",
+  "keyFeatures": [
+    "Jeu legacy compétitif structuré en 8 enveloppes scellées pour un total de 24 épisodes",
+    "Pose astucieuse de tuiles hexagonales en jeu simultané avec règles de décompte progressives",
+    "Évolution permanente du plateau grâce à des autocollants ajoutant chemins, palmiers, murailles et statues",
+    "Règles très accessibles signées Reiner Knizia alliant douceur de jeu et réflexion spatiale"
+  ],
+  "scopes": {
+    "my_island_campaign": {
+      "name": "Campagne Legacy Complète (8 Chapitres)",
+      "description": "La saga intégrale en 24 épisodes ouvrant l'ensemble des huit enveloppes secrètes du débarquement au paradis."
+    },
+    "my_island_settlement_era": {
+      "name": "Ère des Pionniers (Chapitres 1–4)",
+      "description": "Les 12 premiers épisodes consacrés aux rivages, parcelles agricoles, sentiers et murailles défensives."
+    },
+    "my_island_monuments_era": {
+      "name": "Ère des Monuments (Chapitres 5–8)",
+      "description": "Les 12 épisodes culminants déterrant d'énigmatiques statues, cœurs de villages et jardins clos."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Ch. 1",
+      "title": "Les Premières Habitations",
+      "phase": "Chapitre 1 - Établissement Côtier",
+      "description": "Construction des premiers logis le long du rivage immaculé de l'île vierge."
+    },
+    {
+      "badgeText": "Ch. 2",
+      "title": "Les Sentiers",
+      "phase": "Chapitre 2 - Voies de Communication",
+      "description": "Aménagement de chemins interconnectés à travers les bosquets pour relier les foyers isolés."
+    },
+    {
+      "badgeText": "Ch. 3",
+      "title": "Palmiers et Cultures",
+      "phase": "Chapitre 3 - Culture Tropicale",
+      "description": "Mise en valeur de parcelles agricoles fertiles et récolte des palmeraies indigènes."
+    },
+    {
+      "badgeText": "Ch. 4",
+      "title": "Les Murailles Protectrices",
+      "phase": "Chapitre 4 - Enceintes Fortifiées",
+      "description": "Élévation de murs en pierre pour délimiter les quartiers et abriter les habitations."
+    },
+    {
+      "badgeText": "Ch. 5",
+      "title": "Les Statues Antiques",
+      "phase": "Chapitre 5 - Reliques Monumentales",
+      "description": "Exhumation de sculptures mystiques oubliées et élévation de sanctuaires cérémoniels."
+    },
+    {
+      "badgeText": "Ch. 6",
+      "title": "Le Cœur du Village",
+      "phase": "Chapitre 6 - Centre Civique",
+      "description": "Développement de places communautaires vivantes et structuration d'îlots résidentiels denses."
+    },
+    {
+      "badgeText": "Ch. 7",
+      "title": "Les Jardins Clos",
+      "phase": "Chapitre 7 - Sanctuaires Végétaux",
+      "description": "Création d'espaces arborés ceints de murs et de refuges botaniques au centre de l'île."
+    },
+    {
+      "badgeText": "Ch. 8",
+      "title": "L'Île Oubliée",
+      "phase": "Chapitre 8 - Le Paradis Retrouvé",
+      "description": "Apogée d'une dynastie insulaire alors que l'île s'épanouit dans une harmonie prospère."
+    }
+  ]
+}

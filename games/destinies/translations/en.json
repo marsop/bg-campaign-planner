@@ -1,0 +1,61 @@
+{
+  "title": "Destinies",
+  "subtitle": "A competitive narrative-driven board game of dark medieval fantasy and personal destiny",
+  "tagline": "Forge your path, uncover dark secrets, and fulfill your chosen destiny.",
+  "loreSummary": "You are a traveler adrift in a grim medieval world haunted by pestilence, superstition, and war. Each person bears their own secret destiny, striving to fulfill sacred vows before rivals seal the fate of the realm.",
+  "badgeCategory": "App-Driven Dark Fantasy RPG",
+  "roadmapTitle": "Chronicle of Fates",
+  "roadmapBadge": "Story Progression",
+  "keyFeatures": [
+    "Scan&Play app-driven narrative mechanics without requiring a game master",
+    "Dual-track personal destinies offering branching paths to ultimate victory",
+    "Open exploration of grim medieval landscapes and dynamic NPC interactions",
+    "Competitive race blending immersive storytelling with tactical resource decisions"
+  ],
+  "scopes": {
+    "destinies_core": {
+      "name": "Main Story Campaign",
+      "description": "The foundational 4-scenario overarching narrative following the fates of the realm."
+    },
+    "destinies_full": {
+      "name": "Complete Base Chronicle",
+      "description": "All 5 base scenarios including the standalone introductory tutorial and full campaign."
+    },
+    "destinies_expanded": {
+      "name": "Expanded Chronicles",
+      "description": "Extended 8-scenario experience encompassing the base game and the Sea of Sand campaign."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Intro",
+      "title": "The Nature of the Beast",
+      "phase": "Prologue - The Beast of Braniewo",
+      "description": "Investigating shadowy rumors and terrifying sightings haunting the isolated border hamlet of Braniewo."
+    },
+    {
+      "badgeText": "Ch. 1",
+      "title": "The Sword of the Maiden",
+      "phase": "Act I - The Maiden's Relic",
+      "description": "Unearthing a legendary sanctified blade and delving into ancestral secrets buried beneath forgotten ruins."
+    },
+    {
+      "badgeText": "Ch. 2",
+      "title": "All That Glitters",
+      "phase": "Act II - Greed and Treachery",
+      "description": "Navigating corrupt merchant dealings, whispered curses, and treacherous alliances in search of power."
+    },
+    {
+      "badgeText": "Ch. 3",
+      "title": "The Bleeding Rose",
+      "phase": "Act III - Thornbound Oaths",
+      "description": "Unraveling entangled loyalties and ancient curses as personal destinies inexorably collide."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "The Final Judgment",
+      "phase": "Act IV - Fulfillment of Destiny",
+      "description": "Facing the ultimate reckoning where each hero must fulfill their fateful destiny before time expires."
+    }
+  ]
+}
