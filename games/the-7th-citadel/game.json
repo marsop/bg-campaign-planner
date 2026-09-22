@@ -1,0 +1,104 @@
+{
+  "id": "the-7th-citadel",
+  "title": "The 7th Citadel",
+  "releaseYear": 2024,
+  "designers": "Ludovic Roudy, Bruno Sautter",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.3,
+  "bggWeight": 3.02,
+  "bggUrl": "https://boardgamegeek.com/boardgame/286063/the-7th-citadel",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#bda266",
+    "secondaryColor": "#141818",
+    "accentColor": "#549977",
+    "backgroundGradient": "radial-gradient(ellipse at top, #232d2c 0%, #131a19 60%, #0b0e0e 100%)",
+    "cardBackground": "rgba(20, 26, 25, 0.92)",
+    "borderColor": "rgba(189, 162, 102, 0.35)",
+    "glowColor": "rgba(189, 162, 102, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🔔",
+    "emblem": "🏰🔔",
+    "themeClass": "theme-seventhcitadel",
+    "activeThemeClass": "theme-seventhcitadel-active",
+    "roadmapClass": "roadmap-seventhcitadel",
+    "heroClass": "hero-seventhcitadel"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #286063 Overall)",
+    "Serious Poulp Official Rulebook & Threat Booklets",
+    "Community Campaign Playthrough Statistics & Survival Logs"
+  ],
+  "scopes": [
+    {
+      "id": "citadel_awakening",
+      "baseScenarioCount": 9,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "citadel_base_campaign",
+      "baseScenarioCount": 19,
+      "estimatedFailRatePercent": 14.0,
+      "isRecommended": true
+    },
+    {
+      "id": "citadel_full_chronicle",
+      "baseScenarioCount": 30,
+      "estimatedFailRatePercent": 18.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🚪",
+      "badgeText": "Escape",
+      "title": "Flight from the Necrodruid",
+      "phase": "Prologue - A New Beginning",
+      "description": "Escaping the bondage of Necrodruid Ninidazir and taking your first tentative steps into the Collapsing Lands."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🔔",
+      "badgeText": "Citadel",
+      "title": "Founding of the Sanctuary",
+      "phase": "Campaign Phase I - Rebuilding Hope",
+      "description": "Ringing the ancient brass bells, establishing a safe community bastion, and harvesting vital provisions."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "👁️",
+      "badgeText": "Threat I",
+      "title": "The Slumbering Colossus",
+      "phase": "Campaign Phase II - Dadachaem's Awakening",
+      "description": "Confronting the subterranean rumblings and averting the devastating emergence of the primeval horror."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "🥁",
+      "badgeText": "Threat II",
+      "title": "Echoes Across the Waste",
+      "phase": "Campaign Phase III - Drums of Desolation",
+      "description": "Tracking the maddening tribal war drums through toxic quagmires and ancient sunken temples."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 19,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "Sovereigns of the Collapsing Lands",
+      "phase": "Campaign Phase IV - The Final Reckoning",
+      "description": "Defending your citadel bastion against extinction and securing a lasting sanctuary amid the crumbling continent."
+    }
+  ]
+}

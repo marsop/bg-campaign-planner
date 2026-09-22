@@ -1,0 +1,66 @@
+{
+  "title": "The 7th Citadel",
+  "subtitle": "Une aventure narrative post-apocalyptique d'exploration dans les Terres qui s'effondrent",
+  "tagline": "Explorez les contrées sauvages, rebâtissez votre sanctuaire, survivez aux Menaces",
+  "loreSummary": "Vous êtes un ancien esclave-jardinier évadé de la sinistre citadelle du nécrodruide Ninidazir. Désormais libre dans les périlleuses Terres qui s'effondrent, vous devez explorer des contrées inconnues, ériger un bastion de civilisation et braver des menaces apocalyptiques.",
+  "badgeCategory": "Aventure Narrative et Exploration",
+  "roadmapTitle": "🗺️ Chronique de la Citadelle & Feuille de Route des Menaces",
+  "roadmapBadge": "EXPLORATION POST-APOCALYPTIQUE",
+  "keyFeatures": [
+    "Grille de terrain en monde ouvert dévoilée dynamiquement par des cartes numérotées",
+    "Double facette : périlleuses expéditions sauvages et aménagement de la Citadelle",
+    "Système de Menaces intégré offrant de vastes campagnes narratives distinctes",
+    "Résolution d'actions par deck-building équilibrant endurance, compétences et espoir"
+  ],
+  "scopes": {
+    "citadel_awakening": {
+      "name": "Menace Initiale : L'Éveil de Dadachaem",
+      "description": "Le prologue d'introduction 'Un Nouveau Départ' suivi de la première grande campagne de Menace intégrale (env. 9 scénarios)."
+    },
+    "citadel_base_campaign": {
+      "name": "Chronique de la Boîte de Base (Deux Menaces)",
+      "description": "L'expérience complète de la boîte de base comprenant 'Un Nouveau Départ', 'L'Éveil de Dadachaem' et 'Tambours de Désolation' (env. 19 scénarios)."
+    },
+    "citadel_full_chronicle": {
+      "name": "Grande Chronique de la Citadelle (Toutes les Menaces)",
+      "description": "L'épopée magistrale réunissant les trois Menaces, y compris 'Le Trône Final' et de profondes voies d'exploration annexes (env. 30 scénarios)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Fuite",
+      "title": "Évasion du Nécrodruide",
+      "phase": "Prologue - Un Nouveau Départ",
+      "description": "S'évader de la servitude du nécrodruide Ninidazir et poser les premiers pas hésitants dans les Terres qui s'effondrent."
+    },
+    {
+      "order": 2,
+      "badgeText": "Citadelle",
+      "title": "Fondation du Sanctuaire",
+      "phase": "Phase de Campagne I - Rebâtir l'Espoir",
+      "description": "Faire tinter les antiques cloches de bronze, asseoir un bastion communautaire et amasser des vivres vitaux."
+    },
+    {
+      "order": 3,
+      "badgeText": "Menace I",
+      "title": "Le Colosse Endormi",
+      "phase": "Phase de Campagne II - L'Éveil de Dadachaem",
+      "description": "Affronter les grondements souterrains et conjurer le réveil cataclysmique de l'abomination primordiale."
+    },
+    {
+      "order": 4,
+      "badgeText": "Menace II",
+      "title": "Échos dans la Désolation",
+      "phase": "Phase de Campagne III - Tambours de Désolation",
+      "description": "Traquer les tambours de guerre tribaux à travers bourbiers toxiques et sanctuaires submergés."
+    },
+    {
+      "order": 5,
+      "badgeText": "Dénouement",
+      "title": "Souverains des Terres qui s'effondrent",
+      "phase": "Phase de Campagne IV - L'Ultime Épreuve",
+      "description": "Défendre le bastion de la citadelle face à l'extinction et pérenniser un refuge au cœur du continent déchiré."
+    }
+  ]
+}

@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.33.0] - 2026-09-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **The 7th Citadel**, the post-apocalyptic narrative exploration adventure across the Collapsing Lands by Ludovic Roudy & Bruno Sautter (Serious Poulp, 2024).
+  - 3 campaign scope presets: *Debut Threat: Dadachaem's Awakening* (9 scenarios), *Core Box Chronicle (Two Threats)* (19 scenarios, recommended), and *Grand Citadel Chronicle (All Threats)* (30 scenarios).
+  - 5 narrative milestone checkpoints tracking the escape from Necrodruid Ninidazir, founding the Citadel sanctuary, the subterranean awakening, tribal war drums, and the final reckoning, with full spoiler protection.
+  - Thematic visual identity (antique brass gold `#bda266`, dark granite slate `#141818`, and ancient moss green `#549977` palette, Cinzel decorative typography, 1:1 flat front box cover art, and atmospheric widescreen artwork of the bellway to the Citadel).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ### Changed
 - **Game Quality Improvements**:
   - Upgraded **Aeon's End: Legacy** (`aeons-end-legacy`) quality from `"mid"` to `"high"` by replacing the generic placeholder background with bespoke ~16:9 atmospheric artwork of the subterranean citadel of Gravehold and breach magic tears.

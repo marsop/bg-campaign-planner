@@ -1,0 +1,66 @@
+{
+  "title": "The 7th Citadel",
+  "subtitle": "Una aventura narrativa postapocalíptica de exploración por las Tierras Desmoronadas",
+  "tagline": "Explora la espesura, reconstruye tu santuario, sobrevive a las Amenazas",
+  "loreSummary": "Eres un antiguo esclavo jardinero que ha escapado de la siniestra ciudadela del necrodruida Ninidazir. Ahora libre en las inhóspitas Tierras Desmoronadas, debes explorar parajes ignotos, erigir un bastión civilizado y enfrentarte a inminentes amenazas apocalípticas.",
+  "badgeCategory": "Aventura Narrativa y Exploración",
+  "roadmapTitle": "🗺️ Crónica de la Ciudadela y Hoja de Ruta de Amenazas",
+  "roadmapBadge": "EXPLORACIÓN POSTAPOCALÍPTICA",
+  "keyFeatures": [
+    "Cuadrícula de terreno de mundo abierto revelada de forma dinámica mediante cartas numeradas",
+    "Doble vertiente: expediciones peligrosas por la naturaleza y construcción de la Ciudadela",
+    "Sistema de Amenazas integrado que ofrece extensas campañas de múltiples sesiones independientes",
+    "Resolución de acciones con construcción de mazos que equilibra resistencia, habilidades y esperanza"
+  ],
+  "scopes": {
+    "citadel_awakening": {
+      "name": "Amenaza Inicial: El Despertar de Dadachaem",
+      "description": "El prólogo introductorio 'Un Nuevo Comienzo' seguido de la primera gran campaña de Amenaza completa (aprox. 9 escenarios)."
+    },
+    "citadel_base_campaign": {
+      "name": "Crónica de la Caja Base (Dos Amenazas)",
+      "description": "La experiencia completa de la caja base que incluye 'Un Nuevo Comienzo', 'El Despertar de Dadachaem' y 'Tambores de Desolación' (aprox. 19 escenarios)."
+    },
+    "citadel_full_chronicle": {
+      "name": "Gran Crónica de la Ciudadela (Todas las Amenazas)",
+      "description": "La travesía épica definitiva que abarca las tres Amenazas, incluida 'El Trono Final' y rutas de exploración profunda (aprox. 30 escenarios)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Huida",
+      "title": "Fuga del Necrodruida",
+      "phase": "Prólogo - Un Nuevo Comienzo",
+      "description": "Escapar del cautiverio del necrodruida Ninidazir y dar los primeros pasos inciertos en las Tierras Desmoronadas."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ciudadela",
+      "title": "Fundación del Santuario",
+      "phase": "Fase de Campaña I - Reconstruyendo la Esperanza",
+      "description": "Hacer repicar las antiguas campanas de bronce, asentar un bastión comunal seguro y cosechar suministros vitales."
+    },
+    {
+      "order": 3,
+      "badgeText": "Amenaza I",
+      "title": "El Coloso Durmiente",
+      "phase": "Fase de Campaña II - El Despertar de Dadachaem",
+      "description": "Afrontar los retumbos subterráneos y conjurar la devastadora emergencia del horror primigenio."
+    },
+    {
+      "order": 4,
+      "badgeText": "Amenaza II",
+      "title": "Ecos en el Páramo",
+      "phase": "Fase de Campaña III - Tambores de Desolación",
+      "description": "Rastrear los enloquecedores tambores de guerra tribales a través de ciénagas venenosas y templos anegados."
+    },
+    {
+      "order": 5,
+      "badgeText": "Desenlace",
+      "title": "Soberanos de las Tierras Desmoronadas",
+      "phase": "Fase de Campaña IV - El Juicio Final",
+      "description": "Defender el bastión de la ciudadela contra la extinción y forjar un santuario duradero en el continente resquebrajado."
+    }
+  ]
+}

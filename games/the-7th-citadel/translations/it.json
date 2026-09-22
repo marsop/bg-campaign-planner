@@ -1,0 +1,66 @@
+{
+  "title": "The 7th Citadel",
+  "subtitle": "Un'avventura narrativa post-apocalittica di esplorazione attraverso le Terre Collassate",
+  "tagline": "Esplora le terre desolate, ricostruisci il tuo santuario, sopravvivi alle Minacce",
+  "loreSummary": "Sei un ex schiavo giardiniere fuggito dall'oscura cittadella del necrodruido Ninidazir. Ora libero nelle ostili Terre Collassate, dovrai esplorare territori inesplorati, fondare un bastione di civiltà e affrontare imminenti minacce apocalittiche.",
+  "badgeCategory": "Avventura Narrativa ed Esplorazione",
+  "roadmapTitle": "🗺️ Cronaca della Cittadella e Tabella di Marcia delle Minacce",
+  "roadmapBadge": "ESPLORAZIONE POST-APOCALITTICA",
+  "keyFeatures": [
+    "Griglia del territorio a mondo aperto svelata dinamicamente mediante carte numerate",
+    "Doppia dinamica: rischiose spedizioni nella natura e costruzione della Cittadella",
+    "Sistema delle Minacce integrato con vaste campagne narrative distinte",
+    "Risoluzione delle azioni con deck-building che bilancia resistenza, abilità e speranza"
+  ],
+  "scopes": {
+    "citadel_awakening": {
+      "name": "Minaccia Iniziale: Il Risveglio di Dadachaem",
+      "description": "Il prologo introduttivo 'Un Nuovo Inizio' seguito dalla prima grande campagna di Minaccia completa (circa 9 scenari)."
+    },
+    "citadel_base_campaign": {
+      "name": "Cronaca della Scatola Base (Due Minacce)",
+      "description": "L'esperienza completa della scatola base che comprende 'Un Nuovo Inizio', 'Il Risveglio di Dadachaem' e 'Tamburi di Desolazione' (circa 19 scenari)."
+    },
+    "citadel_full_chronicle": {
+      "name": "Grande Cronaca della Cittadella (Tutte le Minacce)",
+      "description": "L'epopea magistrale che racchiude tutte e tre le Minacce, incluso 'Il Trono Finale' e approfondite vie di esplorazione secondaria (circa 30 scenari)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Fuga",
+      "title": "Fuga dal Necrodruido",
+      "phase": "Prologo - Un Nuovo Inizio",
+      "description": "Fuggire dalla prigionia del necrodruido Ninidazir e muovere i primi passi incerti nelle Terre Collassate."
+    },
+    {
+      "order": 2,
+      "badgeText": "Cittadella",
+      "title": "Fondazione del Santuario",
+      "phase": "Fase di Campagna I - Ricostruire la Speranza",
+      "description": "Far risuonare le antiche campane di bronzo, stabilire un bastione sicuro per la comunità e raccogliere provviste vitali."
+    },
+    {
+      "order": 3,
+      "badgeText": "Minaccia I",
+      "title": "Il Colosso Dormiente",
+      "phase": "Fase di Campagna II - Il Risveglio di Dadachaem",
+      "description": "Affrontare i rombi sotterranei e scongiurare la devastante ascesa dell'orrore primordiale."
+    },
+    {
+      "order": 4,
+      "badgeText": "Minaccia II",
+      "title": "Echi nella Desolazione",
+      "phase": "Fase di Campagna III - Tamburi di Desolazione",
+      "description": "Seguire i ritmi ossessivi dei tamburi di guerra tribali attraverso acquitrini tossici e templi sommersi."
+    },
+    {
+      "order": 5,
+      "badgeText": "Epilogo",
+      "title": "Sovrani delle Terre Collassate",
+      "phase": "Fase di Campagna IV - La Resa dei Conti",
+      "description": "Difendere il bastione della cittadella dall'annientamento e garantire un rifugio duraturo nel continente in rovina."
+    }
+  ]
+}

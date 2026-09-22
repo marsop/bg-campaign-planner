@@ -1,0 +1,66 @@
+{
+  "title": "The 7th Citadel",
+  "subtitle": "Ein narratives postapokalyptisches Erkundungsabenteuer in den Zerfallenden Landen",
+  "tagline": "Erkunde die Wildnis, erbaue deine Zuflucht, überstehe die Bedrohungen",
+  "loreSummary": "Du bist ein ehemaliger Sklavengärtner, der der finsteren Zitadelle des Nekrodruiden Ninidazir entkommen ist. Nun frei in den unwirtlichen Zerfallenden Landen, musst du unerforschte Gebiete erkunden, eine Bastion der Zivilisation errichten und dich drohenden apokalyptischen Gefahren stellen.",
+  "badgeCategory": "Narratives Abenteuer & Erkundung",
+  "roadmapTitle": "🗺️ Zitadellen-Chronik & Bedrohungs-Roadmap",
+  "roadmapBadge": "POSTAPOKALYPTISCHE ERKUNDUNG",
+  "keyFeatures": [
+    "Open-World-Geländeraster, das dynamisch durch nummerierte Karten enthüllt wird",
+    "Doppelter Fokus: gefährliche Wildnis-Expeditionen und Ausbau der Zitadelle",
+    "Integriertes Bedrohungssystem mit eigenständigen, mehrteiligen Kampagnenbögen",
+    "Deckbau-Aktionsmechanik im Gleichgewicht aus Ausdauer, Fertigkeiten und Hoffnung"
+  ],
+  "scopes": {
+    "citadel_awakening": {
+      "name": "Erste Bedrohung: Dadachaems Erwachen",
+      "description": "Der einleitende Prolog 'Ein Neuanfang', gefolgt von der kompletten ersten großen Bedrohungskampagne (ca. 9 Szenarien)."
+    },
+    "citadel_base_campaign": {
+      "name": "Grundspiel-Chronik (Zwei Bedrohungen)",
+      "description": "Das vollständige Erlebnis der Grundbox mit 'Ein Neuanfang', 'Dadachaems Erwachen' und 'Trommeln der Verödung' (ca. 19 Szenarien)."
+    },
+    "citadel_full_chronicle": {
+      "name": "Große Zitadellen-Chronik (Alle Bedrohungen)",
+      "description": "Das allumfassende Abenteuer über alle drei Bedrohungen hinweg, inklusive 'Der Letzte Thron' und weitreichenden Nebenschauplätzen (ca. 30 Szenarien)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Flucht",
+      "title": "Flucht vor dem Nekrodruiden",
+      "phase": "Prolog - Ein Neuanfang",
+      "description": "Der Knechtschaft des Nekrodruiden Ninidazir entfliehen und die ersten vorsichtigen Schritte in die Zerfallenden Lande wagen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Zitadelle",
+      "title": "Gründung der Zuflucht",
+      "phase": "Kampagnenphase I - Hoffnung wiederaufbauen",
+      "description": "Die uralten Bronzeglocken läuten, eine sichere Gemeinschaftsbastion errichten und lebenswichtige Vorräte sichern."
+    },
+    {
+      "order": 3,
+      "badgeText": "Bedrohung I",
+      "title": "Der Schlummernde Koloss",
+      "phase": "Kampagnenphase II - Dadachaems Erwachen",
+      "description": "Das unheilvolle Grollen aus der Tiefe bezwingen und das verheerende Erwachen des Urzeit-Schreckens abwenden."
+    },
+    {
+      "order": 4,
+      "badgeText": "Bedrohung II",
+      "title": "Echos im Ödland",
+      "phase": "Kampagnenphase III - Trommeln der Verödung",
+      "description": "Den berauschenden Kriegstrommeln durch toxische Moräste und versunkene Ruinentempel folgen."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Herrscher der Zerfallenden Lande",
+      "phase": "Kampagnenphase IV - Die Letzte Abrechnung",
+      "description": "Die Zitadelle vor dem Untergang bewahren und einen dauerhaften Zufluchtsort im zersplitterten Kontinent festigen."
+    }
+  ]
+}

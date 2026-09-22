@@ -1,0 +1,66 @@
+{
+  "title": "The 7th Citadel",
+  "subtitle": "A post-apocalyptic narrative exploration adventure across the Collapsing Lands",
+  "tagline": "Explore the wilderness, rebuild your sanctuary, survive the Threats",
+  "loreSummary": "You are a former slave-gardener who has escaped the grim citadel of Necrodruid Ninidazir. Now free in the hostile Collapsing Lands, you must explore uncharted terrains, build a bastion of civilization, and confront emergent apocalyptic threats.",
+  "badgeCategory": "Narrative Adventure & Exploration",
+  "roadmapTitle": "🗺️ Citadel Chronicle & Threat Roadmap",
+  "roadmapBadge": "POST-APOCALYPTIC EXPLORATION",
+  "keyFeatures": [
+    "Open-world terrain grid unveiled dynamically through numbered cards",
+    "Dual focus: perilous wilderness expeditions and Citadel city-building",
+    "Integrated Threat system offering distinct sprawling multi-session campaigns",
+    "Deck-building action resolution balancing endurance, skills, and hope"
+  ],
+  "scopes": {
+    "citadel_awakening": {
+      "name": "Debut Threat: Dadachaem's Awakening",
+      "description": "The introductory prologue 'A New Beginning' followed by the complete first major Threat campaign (approx. 9 scenarios)."
+    },
+    "citadel_base_campaign": {
+      "name": "Core Box Chronicle (Two Threats)",
+      "description": "The full core box experience comprising 'A New Beginning', 'Dadachaem's Awakening', and 'Drums of Desolation' (approx. 19 scenarios)."
+    },
+    "citadel_full_chronicle": {
+      "name": "Grand Citadel Chronicle (All Threats)",
+      "description": "The complete epic journey across all three Threats, including 'The Final Throne' and deep side-exploration paths (approx. 30 scenarios)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Escape",
+      "title": "Flight from the Necrodruid",
+      "phase": "Prologue - A New Beginning",
+      "description": "Escaping the bondage of Necrodruid Ninidazir and taking your first tentative steps into the Collapsing Lands."
+    },
+    {
+      "order": 2,
+      "badgeText": "Citadel",
+      "title": "Founding of the Sanctuary",
+      "phase": "Campaign Phase I - Rebuilding Hope",
+      "description": "Ringing the ancient brass bells, establishing a safe community bastion, and harvesting vital provisions."
+    },
+    {
+      "order": 3,
+      "badgeText": "Threat I",
+      "title": "The Slumbering Colossus",
+      "phase": "Campaign Phase II - Dadachaem's Awakening",
+      "description": "Confronting the subterranean rumblings and averting the devastating emergence of the primeval horror."
+    },
+    {
+      "order": 4,
+      "badgeText": "Threat II",
+      "title": "Echoes Across the Waste",
+      "phase": "Campaign Phase III - Drums of Desolation",
+      "description": "Tracking the maddening tribal war drums through toxic quagmires and ancient sunken temples."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Sovereigns of the Collapsing Lands",
+      "phase": "Campaign Phase IV - The Final Reckoning",
+      "description": "Defending your citadel bastion against extinction and securing a lasting sanctuary amid the crumbling continent."
+    }
+  ]
+}

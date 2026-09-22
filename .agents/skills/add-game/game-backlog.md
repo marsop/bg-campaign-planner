@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (35 games):**
+**Currently in app (36 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -44,19 +44,19 @@ requested by the user.
 - Kinfire Chronicles: Night's Fall
 - Sword & Sorcery: Immortal Souls
 - Vampire: The Masquerade – Chapters
+- The 7th Citadel
 
 
 ---
 
 ## 🟥 High Priority
 
-- **The 7th Citadel** — Cooperative card-exploration game structured into Threats (~10 scenarios each, 10–25 h per Threat, 30–60+ h total). ~8.3 BGG. 1–4 players. Exploration, survival, narrative adventure.
+- **Artisans of Splendent Vale** — Cooperative narrative campaign game featuring unique individual character books. 30-40 hours. ~7.7 BGG. 2-4 players. Exploration, tactical combat.
 
 ---
 
 ## 🟧 Medium Priority
 
-- **Artisans of Splendent Vale** — Cooperative narrative campaign game featuring unique individual character books. 30-40 hours. ~7.7 BGG. 2-4 players. Exploration, tactical combat.
 - **The 7th Continent** — Cooperative survival and exploration adventure across sprawling curses. 30–60+ hours. ~7.8 BGG. 1–4 players. Exploration, hand management, choose-your-own-adventure.
 - **Detective: A Modern Crime Board Game** — Deep cooperative investigative mystery campaign using the digital Antares database. 5 cases, ~12–15 hours. ~7.5 BGG. 1–5 players. Deduction, time management, story-driven.
 - **My City** — Competitive legacy polyomino tile-placement campaign developing a city over time. 24 episodes (8 chapters), ~12–15 hours. ~7.5 BGG. 2–4 players. Polyomino, legacy, simultaneous action.
