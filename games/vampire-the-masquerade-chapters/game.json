@@ -2,15 +2,16 @@
   "id": "vampire-the-masquerade-chapters",
   "title": "Vampire: The Masquerade – Chapters",
   "releaseYear": 2023,
-  "designers": "Gary Paitre, Thomas Filippi, Charles-Édouard Garin",
+  "designers": "Gary Paitre, Thomas Filippi",
   "playersMin": 1,
   "playersMax": 4,
-  "bggRating": 7.6,
-  "bggWeight": 3.0,
-  "bggUrl": "https://boardgamegeek.com/boardgame/274288/vampire-the-masquerade-chapters",
+  "bggRating": 7.2,
+  "bggWeight": 3.05,
+  "bggUrl": "https://boardgamegeek.com/boardgame/277025/vampire-the-masquerade-chapters",
   "baseScenarioMinutes": 60,
   "setupTeardownMinutes": 15,
   "unitType": "chapters",
+  "quality": "high",
   "theme": {
     "primaryColor": "#8B0000",
     "secondaryColor": "#1A1A1A",
@@ -29,8 +30,9 @@
     "heroClass": "hero-vtmchapters"
   },
   "publicSourceReferences": [
-    "BoardGameGeek (BGG)",
-    "Publisher Official Rulebook"
+    "BoardGameGeek (BGG ID: 277025)",
+    "FLYOS Games Official Storybook & Rulebook",
+    "World of Darkness 5th Edition Setting Lore"
   ],
   "scopes": [
     {
@@ -38,6 +40,65 @@
       "baseScenarioCount": 45,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": true
+    },
+    {
+      "id": "vtmchapters_chronicle",
+      "baseScenarioCount": 60,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "vtmchapters_expansions",
+      "baseScenarioCount": 72,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🩸",
+      "badgeText": "Act I",
+      "title": "Embraced in Montreal",
+      "phase": "Phase I - Neonate Initiation & Coterie Formation",
+      "description": "Completing character origin prologues, mastering basic disciplines, and forming the coterie amidst the shadows of Montreal."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "🔍",
+      "badgeText": "Act II",
+      "title": "The Investigation Deepens",
+      "phase": "Phase II - Street Infiltration & Clue Gathering",
+      "description": "Uncovering early evidence of a conspiracy, dealing with mortal authorities, and containing dangerous Masquerade breaches."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 30,
+      "iconEmoji": "🏛️",
+      "badgeText": "Act III",
+      "title": "Court of the Camarilla",
+      "phase": "Phase III - Elysium Politics & Elder Secrets",
+      "description": "Navigating fragile alliances with clan elders, trading boons, and surviving political betrayal in Elysium."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 45,
+      "iconEmoji": "⚔️",
+      "badgeText": "Act IV",
+      "title": "Inquisition & Bloodfeud",
+      "phase": "Phase IV - The Second Inquisition Purge",
+      "description": "Confronting heavily armed mortal inquisitors and rooting out underground Sabbat remnants threatening total ruin."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 60,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "The Night of Rebirth",
+      "phase": "Phase V - Climax & The Fate of Montreal",
+      "description": "The definitive clash deciding supremacy over Montreal, resolving personal story arcs and immortal destinies."
     }
   ]
 }

@@ -1,20 +1,66 @@
 {
   "title": "Vampire: The Masquerade – Chapters",
-  "subtitle": "Narrative-driven RPG board game set in the World of Darkness",
-  "tagline": "Embrace the shadows of Montreal",
-  "loreSummary": "You are a newly embraced vampire in the World of Darkness. Every choice you make shapes the city of Montreal and your own destiny.",
-  "badgeCategory": "Narrative RPG",
-  "roadmapTitle": "🦇 Campaign Chronicle & Story Progression",
-  "roadmapBadge": "VAMPIRE ROADMAP",
+  "subtitle": "Erzählbasiertes RPG-Brettspiel in der düsteren Welt der Dunkelheit",
+  "tagline": "Umarme die Schatten Montreals und bestimme dein unsterbliches Schicksal",
+  "loreSummary": "In Montreal nach dem Fall des Sabbat müssen du und dein Klüngel von Neugeborenen tödliche Clanpolitik, sterbliche Inquisitoren und uralte Verschwörungen in den finsteren Gassen der Metropole überstehen.",
+  "badgeCategory": "Narrative RPG-Kampagne",
+  "roadmapTitle": "🦇 Kampagnen-Chronik & Handlungsfortschritt",
+  "roadmapBadge": "VAMPIR-CHRONIK",
   "keyFeatures": [
-    "Story-rich, branching narrative paths",
-    "Deep character progression and skill checks",
-    "Tactical combat in the World of Darkness"
+    "Verzweigte, storyreiche Kampagne mit über 60 miteinander verbundenen Kapiteln",
+    "Kein Spielleiter erforderlich: nahtloses Storybook und verzweigte Dialogbäume",
+    "Tiefgehende Charakterentwicklung, Clan-Disziplinen, Fertigkeitsproben und Gefallen",
+    "Taktischer Kampf, lautlose Ermittlungen und folgenschwere soziale Begegnungen"
   ],
   "scopes": {
     "vtmchapters_standard": {
-      "name": "Standard Campaign",
-      "description": "The complete narrative journey through the main story arcs and character developments."
+      "name": "Standard-Kampagnenbogen",
+      "description": "Die zentrale Handlung rund um die Ermittlungen des Klüngels, wichtige Clan-Konflikte und das dramatische Finale (~45 Kapitel)."
+    },
+    "vtmchapters_chronicle": {
+      "name": "Vollständige Montreal-Chronik",
+      "description": "Das umfassende Kampagnenerlebnis mit allen Nebenermittlungen, Charakter-Ursprungsprologe und alternativen Entscheidungspfaden (~60 Kapitel)."
+    },
+    "vtmchapters_expansions": {
+      "name": "Gesamtchronik & Clan-Erweiterungen",
+      "description": "Die ultimative Saga mit Einbindung der Clan-Erweiterungen Ministerium, Lasombra, Banu Haqim und Hekata in Montreals Schattennetz (~72 Kapitel)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Kuss in Montreal",
+      "phase": "Phase I - Neugeborenen-Initiation & Klüngelbildung",
+      "description": "Abschluss der Charakter-Ursprungsprologe, Meistern grundlegender Disziplinen und Formen des Klüngels in Montreals Schatten.",
+      "badgeText": "Akt I"
+    },
+    {
+      "order": 2,
+      "title": "Vertiefte Ermittlungen",
+      "phase": "Phase II - Straßeninfiltration & Spurensuche",
+      "description": "Aufdecken erster Beweise einer finsteren Verschwörung, Umgang mit sterblichen Behörden und Eindämmen von Maskeradebrüchen.",
+      "badgeText": "Akt II"
+    },
+    {
+      "order": 3,
+      "title": "Hofstaat der Camarilla",
+      "phase": "Phase III - Elysium-Politik & Ahnengeheimnisse",
+      "description": "Verhandeln fragiler Allianzen mit Clan-Ahnen, Tauschen wertvoller Gefallen und Überleben politischen Verrats im Elysium.",
+      "badgeText": "Akt III"
+    },
+    {
+      "order": 4,
+      "title": "Inquisition & Blutfehde",
+      "phase": "Phase IV - Säuberung der Zweiten Inquisition",
+      "description": "Konfrontation mit schwer bewaffneten sterblichen Inquisitoren und Auslöschung verborgener Sabbat-Überreste.",
+      "badgeText": "Akt IV"
+    },
+    {
+      "order": 5,
+      "title": "Die Nacht der Wiedergeburt",
+      "phase": "Phase V - Finale & Das Schicksal Montreals",
+      "description": "Der entscheidende Kampf um die Vorherrschaft über Montreal, Vollendung persönlicher Charakterbögen und unsterblicher Bestimmungen.",
+      "badgeText": "Finale"
+    }
+  ]
 }

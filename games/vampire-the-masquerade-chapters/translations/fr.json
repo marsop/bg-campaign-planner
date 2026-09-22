@@ -1,20 +1,66 @@
 {
   "title": "Vampire: The Masquerade – Chapters",
-  "subtitle": "Narrative-driven RPG board game set in the World of Darkness",
-  "tagline": "Embrace the shadows of Montreal",
-  "loreSummary": "You are a newly embraced vampire in the World of Darkness. Every choice you make shapes the city of Montreal and your own destiny.",
-  "badgeCategory": "Narrative RPG",
-  "roadmapTitle": "🦇 Campaign Chronicle & Story Progression",
-  "roadmapBadge": "VAMPIRE ROADMAP",
+  "subtitle": "Jeu de plateau RPG narratif se déroulant dans l'univers du Monde des Ténèbres",
+  "tagline": "Embrassez les ombres de Montréal et forgez votre destinée immortelle",
+  "loreSummary": "Dans un Montréal marqué par la chute du Sabbat, vous et votre coterie de nouveau-nés devez naviguer entre luttes de pouvoir claniques, inquisiteurs mortels et conspirations ancestrales au cœur de la nuit québécoise.",
+  "badgeCategory": "Campagne RPG Narrative",
+  "roadmapTitle": "🦇 Chronique de Campagne & Progression Narrative",
+  "roadmapBadge": "CHRONIQUE VAMPIRIQUE",
   "keyFeatures": [
-    "Story-rich, branching narrative paths",
-    "Deep character progression and skill checks",
-    "Tactical combat in the World of Darkness"
+    "Campagne à embranchements riche en rebondissements avec plus de 60 chapitres interconnectés",
+    "Aucun maître du jeu requis : livres d'histoire immersifs et arbres de dialogue interactifs",
+    "Personnalisation poussée des vampires, disciplines de clan, tests de compétence et faveurs",
+    "Combats tactiques, enquêtes et infiltration furtive, négociations sociales à haute tension"
   ],
   "scopes": {
     "vtmchapters_standard": {
-      "name": "Standard Campaign",
-      "description": "The complete narrative journey through the main story arcs and character developments."
+      "name": "Arc de Campagne Standard",
+      "description": "L'intrigue centrale axée sur l'enquête de la coterie, les conflits majeurs entre clans et le grand dénouement (~45 chapitres)."
+    },
+    "vtmchapters_chronicle": {
+      "name": "Chronique Complète de Montréal",
+      "description": "L'expérience narrative totale explorant chaque enquête secondaire, les prologues d'origine de personnage et les embranchements secrets (~60 chapitres)."
+    },
+    "vtmchapters_expansions": {
+      "name": "Chronique Intégrale & Extensions de Clan",
+      "description": "La saga ultime intégrant les extensions de clan Ministère, Lasombra, Banu Haqim et Hécate dans la toile ténébreuse de Montréal (~72 chapitres)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "L'Étreinte à Montréal",
+      "phase": "Phase I - Initiation des Nouveau-nés & Formation de la Coterie",
+      "description": "Achèvement des prologues d'origine de personnage, maîtrise des disciplines fondamentales et formation de la coterie dans les ombres montréalaises.",
+      "badgeText": "Acte I"
+    },
+    {
+      "order": 2,
+      "title": "L'enquête s'intensifie",
+      "phase": "Phase II - Infiltration Urbaine & Collecte d'Indices",
+      "description": "Découverte des premiers indices de conspiration, confrontations avec les autorités mortelles et confinement des infractions à la Mascarade.",
+      "badgeText": "Acte II"
+    },
+    {
+      "order": 3,
+      "title": "La Cour de la Camarilla",
+      "phase": "Phase III - Intrigues à l'Élysium & Secrets des Anciens",
+      "description": "Négociation d'alliances fragiles avec les anciens de clans, échange de faveurs et survie face aux trahisons politiques au sein de l'Élysium.",
+      "badgeText": "Acte III"
+    },
+    {
+      "order": 4,
+      "title": "Inquisition & Vendetta de Sang",
+      "phase": "Phase IV - La Purge de la Seconde Inquisition",
+      "description": "Affrontements contre des inquisiteurs mortels lourdement armés et éradication des bastions clandestins du Sabbat.",
+      "badgeText": "Acte IV"
+    },
+    {
+      "order": 5,
+      "title": "La Nuit de la Renaissance",
+      "phase": "Phase V - Climax & Le Destin de Montréal",
+      "description": "La confrontation ultime scellant la suprématie sur Montréal, concluant les destins personnels et les ambitions éternelles.",
+      "badgeText": "Dénouement"
+    }
+  ]
 }

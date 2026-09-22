@@ -1,20 +1,66 @@
 {
   "title": "Vampire: The Masquerade – Chapters",
-  "subtitle": "Narrative-driven RPG board game set in the World of Darkness",
-  "tagline": "Embrace the shadows of Montreal",
-  "loreSummary": "You are a newly embraced vampire in the World of Darkness. Every choice you make shapes the city of Montreal and your own destiny.",
-  "badgeCategory": "Narrative RPG",
-  "roadmapTitle": "🦇 Campaign Chronicle & Story Progression",
-  "roadmapBadge": "VAMPIRE ROADMAP",
+  "subtitle": "Gioco da tavolo RPG narrativo ambientato nel Mondo di Tenebra",
+  "tagline": "Abbraccia le ombre di Montreal e forgia il tuo destino immortale",
+  "loreSummary": "Sullo sfondo di una Montreal segnata dalla caduta del Sabbat, tu e la tua coterie di neonati dovrete destreggiarvi tra letali macchinazioni di clan, inquisitori mortali e oscure cospirazioni nei vicoli della metropoli canadese.",
+  "badgeCategory": "Campagna RPG Narrativa",
+  "roadmapTitle": "🦇 Cronaca di Campagna & Progressione della Storia",
+  "roadmapBadge": "CRONACA VAMPIRICA",
   "keyFeatures": [
-    "Story-rich, branching narrative paths",
-    "Deep character progression and skill checks",
-    "Tactical combat in the World of Darkness"
+    "Campagna ramificata ricca di storia con oltre 60 capitoli interconnessi",
+    "Nessun Game Master richiesto: storybook immersivi e bivi di dialogo interattivi",
+    "Profonda personalizzazione dei vampiri, discipline di clan, prove di abilità e favori",
+    "Combattimento tattico, infiltrazione furtiva e incontri sociali ad alto rischio"
   ],
   "scopes": {
     "vtmchapters_standard": {
-      "name": "Standard Campaign",
-      "description": "The complete narrative journey through the main story arcs and character developments."
+      "name": "Arco di Campagna Standard",
+      "description": "La trama principale incentrata sull'indagine della coterie, i grandi conflitti tra clan e il confronto finale (~45 capitoli)."
+    },
+    "vtmchapters_chronicle": {
+      "name": "Cronaca Completa di Montreal",
+      "description": "L'esperienza narrativa totale che esplora ogni indagine secondaria, i prologhi di origine dei personaggi e percorsi alternativi (~60 capitoli)."
+    },
+    "vtmchapters_expansions": {
+      "name": "Cronaca Integrale & Espansioni dei Clan",
+      "description": "La saga definitiva che integra le espansioni dei clan Ministero, Lasombra, Banu Haqim ed Ecate nella tetra tela di Montreal (~72 capitoli)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "L'Abbraccio a Montreal",
+      "phase": "Fase I - Iniziazione dei Neonati & Formazione della Coterie",
+      "description": "Completamento dei prologhi di origine dei personaggi, padronanza delle discipline basilari e formazione della coterie tra le ombre di Montreal.",
+      "badgeText": "Atto I"
+    },
+    {
+      "order": 2,
+      "title": "L'indagine si infittisce",
+      "phase": "Fase II - Infiltrazione Urbana & Raccolta di Indizi",
+      "description": "Scoperta dei primi indizi di una cospirazione, interazioni con le autorità mortali e contenimento delle violazioni della Masquerade.",
+      "badgeText": "Atto II"
+    },
+    {
+      "order": 3,
+      "title": "La Corte della Camarilla",
+      "phase": "Fase III - Politica dell'Elisio & Segreti degli Anziani",
+      "description": "Negoziazione di fragili alleanze con gli anziani dei clan, scambio di favori e sopravvivenza ai tradimenti politici nell'Elisio.",
+      "badgeText": "Atto III"
+    },
+    {
+      "order": 4,
+      "title": "Inquisizione & Faida di Sangue",
+      "phase": "Fase IV - La Purga della Seconda Inquisizione",
+      "description": "Scontro con inquisitori mortali pesantemente armati e sradicamento dei focolai clandestini del Sabbat.",
+      "badgeText": "Atto IV"
+    },
+    {
+      "order": 5,
+      "title": "La Notte della Rinascita",
+      "phase": "Fase V - Climax & Il Destino di Montreal",
+      "description": "Lo scontro definitivo che deciderà il dominio su Montreal, portando a compimento le storie personali e i destini immortali.",
+      "badgeText": "Finale"
+    }
+  ]
 }

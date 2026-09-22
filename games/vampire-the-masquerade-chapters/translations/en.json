@@ -1,20 +1,66 @@
 {
   "title": "Vampire: The Masquerade – Chapters",
   "subtitle": "Narrative-driven RPG board game set in the World of Darkness",
-  "tagline": "Embrace the shadows of Montreal",
-  "loreSummary": "You are a newly embraced vampire in the World of Darkness. Every choice you make shapes the city of Montreal and your own destiny.",
-  "badgeCategory": "Narrative RPG",
+  "tagline": "Embrace the shadows of Montreal and claim your immortal destiny",
+  "loreSummary": "Set in Montreal following the fall of the Sabbat, you and your coterie of neonates must navigate deadly clan politics, mortal inquisitors, and ancient conspiracies lurking in the dark alleys of the Canadian metropolis.",
+  "badgeCategory": "Narrative RPG Campaign",
   "roadmapTitle": "🦇 Campaign Chronicle & Story Progression",
-  "roadmapBadge": "VAMPIRE ROADMAP",
+  "roadmapBadge": "VAMPIRE CHRONICLE",
   "keyFeatures": [
-    "Story-rich, branching narrative paths",
-    "Deep character progression and skill checks",
-    "Tactical combat in the World of Darkness"
+    "Branching, story-rich campaign with over 60 interconnected chapters",
+    "No Game Master required: seamless narrative storybook and dialogue trees",
+    "Deep character customization, clan disciplines, skill checks, and boons",
+    "Tactical combat, stealth investigation, and high-stakes social encounters"
   ],
   "scopes": {
     "vtmchapters_standard": {
-      "name": "Standard Campaign",
-      "description": "The complete narrative journey through the main story arcs and character developments."
+      "name": "Standard Campaign Arc",
+      "description": "The core storyline focusing on the primary coterie investigation, major clan clashes, and the main climax (~45 chapters)."
+    },
+    "vtmchapters_chronicle": {
+      "name": "Complete Montreal Chronicle",
+      "description": "The thorough campaign experience pursuing every side investigation, character origin prologue, and branching alternative path (~60 chapters)."
+    },
+    "vtmchapters_expansions": {
+      "name": "Full Chronicle & Clan Expansions",
+      "description": "The ultimate narrative saga integrating the Ministry, Lasombra, Banu Haqim, and Hecata clan expansions into Montreal's dark web (~72 chapters)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Embraced in Montreal",
+      "phase": "Phase I - Neonate Initiation & Coterie Formation",
+      "description": "Completing character origin prologues, mastering basic disciplines, and forming the coterie amidst the shadows of Montreal.",
+      "badgeText": "Act I"
+    },
+    {
+      "order": 2,
+      "title": "The Investigation Deepens",
+      "phase": "Phase II - Street Infiltration & Clue Gathering",
+      "description": "Uncovering early evidence of a conspiracy, dealing with mortal authorities, and containing dangerous Masquerade breaches.",
+      "badgeText": "Act II"
+    },
+    {
+      "order": 3,
+      "title": "Court of the Camarilla",
+      "phase": "Phase III - Elysium Politics & Elder Secrets",
+      "description": "Navigating fragile alliances with clan elders, trading boons, and surviving political betrayal in Elysium.",
+      "badgeText": "Act III"
+    },
+    {
+      "order": 4,
+      "title": "Inquisition & Bloodfeud",
+      "phase": "Phase IV - The Second Inquisition Purge",
+      "description": "Confronting heavily armed mortal inquisitors and rooting out underground Sabbat remnants threatening total ruin.",
+      "badgeText": "Act IV"
+    },
+    {
+      "order": 5,
+      "title": "The Night of Rebirth",
+      "phase": "Phase V - Climax & The Fate of Montreal",
+      "description": "The definitive clash deciding supremacy over Montreal, resolving personal story arcs and immortal destinies.",
+      "badgeText": "Finale"
+    }
+  ]
 }

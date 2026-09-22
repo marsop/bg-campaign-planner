@@ -1,20 +1,66 @@
 {
   "title": "Vampire: The Masquerade – Chapters",
-  "subtitle": "Narrative-driven RPG board game set in the World of Darkness",
-  "tagline": "Embrace the shadows of Montreal",
-  "loreSummary": "You are a newly embraced vampire in the World of Darkness. Every choice you make shapes the city of Montreal and your own destiny.",
-  "badgeCategory": "Narrative RPG",
-  "roadmapTitle": "🦇 Campaign Chronicle & Story Progression",
-  "roadmapBadge": "VAMPIRE ROADMAP",
+  "subtitle": "Juego de mesa RPG narrativo ambientado en el Mundo de Tinieblas",
+  "tagline": "Abraza las sombras de Montreal y reclama tu destino inmortal",
+  "loreSummary": "Ambientado en Montreal tras la caída del Sabbat, tú y tu cuadrilla de neonatos debéis sortear la letal política de clanes, los cazadores de la Inquisición y conspiraciones ancestrales en los oscuros callejones de la metrópoli canadiense.",
+  "badgeCategory": "Campaña RPG Narrativa",
+  "roadmapTitle": "🦇 Crónica de Campaña y Progresión de Historia",
+  "roadmapBadge": "CRÓNICA VAMPÍRICA",
   "keyFeatures": [
-    "Story-rich, branching narrative paths",
-    "Deep character progression and skill checks",
-    "Tactical combat in the World of Darkness"
+    "Campaña ramificada y rica en narrativa con más de 60 capítulos interconectados",
+    "Sin necesidad de director de juego: libros de historia fluidos y árboles de diálogo",
+    "Profunda personalización de personajes, disciplinas de clan, tiradas de habilidad y favores",
+    "Combate táctico, sigilo en investigación y encuentros sociales de alto riesgo"
   ],
   "scopes": {
     "vtmchapters_standard": {
-      "name": "Standard Campaign",
-      "description": "The complete narrative journey through the main story arcs and character developments."
+      "name": "Arco de Campaña Estándar",
+      "description": "La trama principal centrada en la investigación de la cuadrilla, los grandes choques entre clanes y el clímax central (~45 capítulos)."
+    },
+    "vtmchapters_chronicle": {
+      "name": "Crónica Completa de Montreal",
+      "description": "La experiencia íntegra explorando cada investigación secundaria, prólogos de origen de personaje y rutas ramificadas alternativas (~60 capítulos)."
+    },
+    "vtmchapters_expansions": {
+      "name": "Crónica Total con Expansiones de Clan",
+      "description": "La saga definitiva integrando las expansiones de clan Ministerio, Lasombra, Banu Haqim y Hécata en la oscura red de Montreal (~72 capítulos)."
     }
-  }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Abrazado en Montreal",
+      "phase": "Fase I - Iniciación de Neonatos y Formación de Cuadrilla",
+      "description": "Completando los prólogos de origen de personaje, dominando las disciplinas básicas y forjando la cuadrilla en las sombras de Montreal.",
+      "badgeText": "Acto I"
+    },
+    {
+      "order": 2,
+      "title": "La investigación se profundiza",
+      "phase": "Fase II - Infiltración Callejera y Búsqueda de Pistas",
+      "description": "Descubriendo los primeros indicios de la conspiración, lidiando con autoridades mortales y conteniendo peligrosas brechas de la Mascarada.",
+      "badgeText": "Acto II"
+    },
+    {
+      "order": 3,
+      "title": "La corte de la Camarilla",
+      "phase": "Fase III - Política del Elíseo y Secretos de los Antiguos",
+      "description": "Navegando frágiles alianzas con los antiguos de los clanes, intercambiando favores y sobreviviendo a la traición política en el Elíseo.",
+      "badgeText": "Acto III"
+    },
+    {
+      "order": 4,
+      "title": "Inquisición y venganza de sangre",
+      "phase": "Fase IV - La purga de la Segunda Inquisición",
+      "description": "Enfrentándose a inquisidores mortales fuertemente armados y extirpando reductos clandestinos del Sabbat que amenazan con la ruina total.",
+      "badgeText": "Acto IV"
+    },
+    {
+      "order": 5,
+      "title": "La noche del renacimiento",
+      "phase": "Fase V - Clímax y el Destino de Montreal",
+      "description": "El choque definitivo que decidirá la supremacía sobre Montreal, resolviendo los arcos de historia personales y los destinos inmortales.",
+      "badgeText": "Final"
+    }
+  ]
 }
