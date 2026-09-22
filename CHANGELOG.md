@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- **Game Quality Improvements**:
+  - Upgraded **Aeon's End: Legacy** (`aeons-end-legacy`) quality from `"mid"` to `"high"` by replacing the generic placeholder background with bespoke ~16:9 atmospheric artwork of the subterranean citadel of Gravehold and breach magic tears.
+
 ## [0.32.0] - 2026-09-22
 
 ### Added
