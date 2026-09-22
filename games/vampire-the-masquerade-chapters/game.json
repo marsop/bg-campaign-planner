@@ -1,0 +1,43 @@
+{
+  "id": "vampire-the-masquerade-chapters",
+  "title": "Vampire: The Masquerade – Chapters",
+  "releaseYear": 2023,
+  "designers": "Gary Paitre, Thomas Filippi, Charles-Édouard Garin",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.6,
+  "bggWeight": 3.0,
+  "bggUrl": "https://boardgamegeek.com/boardgame/274288/vampire-the-masquerade-chapters",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 15,
+  "unitType": "chapters",
+  "theme": {
+    "primaryColor": "#8B0000",
+    "secondaryColor": "#1A1A1A",
+    "accentColor": "#FF0000",
+    "backgroundGradient": "radial-gradient(ellipse at top, #3A0000 0%, #1A1A1A 60%, #000000 100%)",
+    "cardBackground": "rgba(26, 26, 26, 0.90)",
+    "borderColor": "rgba(139, 0, 0, 0.35)",
+    "glowColor": "rgba(139, 0, 0, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🦇",
+    "emblem": "🦇🩸",
+    "themeClass": "theme-vtmchapters",
+    "activeThemeClass": "theme-vtmchapters-active",
+    "roadmapClass": "roadmap-vtmchapters",
+    "heroClass": "hero-vtmchapters"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG)",
+    "Publisher Official Rulebook"
+  ],
+  "scopes": [
+    {
+      "id": "vtmchapters_standard",
+      "baseScenarioCount": 45,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    }
+  ]
+}

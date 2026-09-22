@@ -43,6 +43,7 @@ requested by the user.
 - Primal: The Awakening
 - Kinfire Chronicles: Night's Fall
 - Sword & Sorcery: Immortal Souls
+- Vampire: The Masquerade – Chapters
 
 
 ---
@@ -55,7 +56,6 @@ requested by the user.
 
 ## 🟧 Medium Priority
 
-- **Vampire: The Masquerade – Chapters** — Narrative-driven RPG board game set in the World of Darkness. 40-50 hours. ~7.6 BGG. 1-4 players. Story-rich, branching paths.
 - **Artisans of Splendent Vale** — Cooperative narrative campaign game featuring unique individual character books. 30-40 hours. ~7.7 BGG. 2-4 players. Exploration, tactical combat.
 
 ---

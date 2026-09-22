@@ -1,0 +1,20 @@
+{
+  "title": "Vampire: The Masquerade – Chapters",
+  "subtitle": "Narrative-driven RPG board game set in the World of Darkness",
+  "tagline": "Embrace the shadows of Montreal",
+  "loreSummary": "You are a newly embraced vampire in the World of Darkness. Every choice you make shapes the city of Montreal and your own destiny.",
+  "badgeCategory": "Narrative RPG",
+  "roadmapTitle": "🦇 Campaign Chronicle & Story Progression",
+  "roadmapBadge": "VAMPIRE ROADMAP",
+  "keyFeatures": [
+    "Story-rich, branching narrative paths",
+    "Deep character progression and skill checks",
+    "Tactical combat in the World of Darkness"
+  ],
+  "scopes": {
+    "vtmchapters_standard": {
+      "name": "Standard Campaign",
+      "description": "The complete narrative journey through the main story arcs and character developments."
+    }
+  }
+}
