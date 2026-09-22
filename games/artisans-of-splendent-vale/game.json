@@ -1,0 +1,95 @@
+{
+  "id": "artisans-of-splendent-vale",
+  "title": "Artisans of Splendent Vale",
+  "releaseYear": 2022,
+  "designers": "Nikki Valens",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 7.7,
+  "bggWeight": 2.62,
+  "bggUrl": "https://boardgamegeek.com/boardgame/342062/artisans-splendent-vale",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "adventures",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#d96b27",
+    "secondaryColor": "#1d1822",
+    "accentColor": "#34a872",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2f1e2c 0%, #1a1622 60%, #0d0a11 100%)",
+    "cardBackground": "rgba(29, 24, 34, 0.92)",
+    "borderColor": "rgba(217, 107, 39, 0.38)",
+    "glowColor": "rgba(217, 107, 39, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🎨",
+    "emblem": "🎨✨",
+    "themeClass": "theme-artisans-vale",
+    "activeThemeClass": "theme-artisans-vale-active",
+    "roadmapClass": "roadmap-artisans-vale",
+    "heroClass": "hero-artisans-vale"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #342062 / Cooperative & Narrative Rank)",
+    "Renegade Game Studios Official Rulebook & Storybooks",
+    "Community Campaign Session Logs & Playthrough Surveys"
+  ],
+  "scopes": [
+    {
+      "id": "vale_standard",
+      "baseScenarioCount": 22,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "vale_story",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    },
+    {
+      "id": "vale_master_artisans",
+      "baseScenarioCount": 28,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🏡",
+      "badgeText": "Adv 5",
+      "title": "Departing Splendence",
+      "phase": "Arc I - Beyond the Township",
+      "description": "Venturing beyond the township walls of Splendence into the wild valley to investigate anomalous mineral blooms."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 11,
+      "iconEmoji": "🌿",
+      "badgeText": "Adv 11",
+      "title": "Secrets of the Wilds",
+      "phase": "Arc II - The Untamed Wilderness",
+      "description": "Navigating overgrown gorges and facing territorial fauna equipped with hand-crafted artifice and alchemical tonics."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 17,
+      "iconEmoji": "🔮",
+      "badgeText": "Adv 17",
+      "title": "The Gathering Conflict",
+      "phase": "Arc III - Rising Shadows",
+      "description": "Discovering the origins of the falling star's legacy and coordinating workshop crafts to counter an escalating regional menace."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 22,
+      "iconEmoji": "✨",
+      "badgeText": "Adv 22",
+      "title": "Guardians of Splendent Vale",
+      "phase": "Arc IV - The Final Stand",
+      "description": "Uniting artisan crafts and ancient valley lore in a climactic tactical battle to safeguard the township and heal the land."
+    }
+  ]
+}

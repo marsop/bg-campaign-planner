@@ -1,0 +1,59 @@
+{
+  "title": "Artisans of Splendent Vale",
+  "subtitle": "Aventure narrative coopérative avec livres de personnages individuels et scènes d'action tactiques",
+  "tagline": "Façonnez des artifices légendaires, explorez une vallée enchantée et protégez la bourgade de Splendence",
+  "loreSummary": "Vous êtes des artisans talentueux vivant dans la paisible bourgade de Splendence, nichée dans une vallée jadis métamorphosée par la chute d'une étoile pourpre. Lorsque d'étranges perturbations menacent votre foyer, vous partez avec vos outils, vos matières premières et votre savoir-faire pour percer des mystères ancestraux et protéger la vallée.",
+  "badgeCategory": "Campagne Narrative Coopérative / Aventure Tactique",
+  "roadmapTitle": "🗺️ Campagne et Progression des Aventures dans Splendent Vale",
+  "roadmapBadge": "CHRONIQUE DU VAL",
+  "keyFeatures": [
+    "Livres de récits individuels pour chaque personnage avec perspectives uniques et recettes artisanales",
+    "Scènes d'action tactiques captivantes résolues sur des cartes quadrillées détaillées",
+    "Riche économie d'artisanat exploitant des matériaux rares collectés au cours de l'exploration",
+    "Choix narratifs à embranchements avec améliorations d'interludes et évolution legacy persistante"
+  ],
+  "scopes": {
+    "vale_standard": {
+      "name": "Campagne Standard (22 Aventures)",
+      "description": "L'intégralité du périple narratif dans le Val Resplendissant, équilibrant exploration, interludes personnels et affrontements tactiques."
+    },
+    "vale_story": {
+      "name": "Trame Narrative Principale (16 Aventures)",
+      "description": "Un parcours resserré se concentrant directement sur l'intrigue centrale et les crises régionales majeures."
+    },
+    "vale_master_artisans": {
+      "name": "Maîtres Artisans & Exploration Totale (28 Aventures)",
+      "description": "Exploration exhaustive découvrant l'ensemble des recettes d'artisanat optionnelles, des interludes narratifs et des recoins secrets de la vallée."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Avent. 5",
+      "title": "Départ de Splendence",
+      "phase": "Acte I - Au-delà de la Bourgade",
+      "description": "S'aventurer hors des remparts de Splendence vers la vallée sauvage pour étudier d'étranges floraisons minérales."
+    },
+    {
+      "order": 2,
+      "badgeText": "Avent. 11",
+      "title": "Secrets de la Nature Sauvage",
+      "phase": "Acte II - Les Terres Indomptées",
+      "description": "Traverser des gorges envahies par la végétation et faire face à une faune territoriale armés d'artifices façonnés à la main et d'élixirs alchimiques."
+    },
+    {
+      "order": 3,
+      "badgeText": "Avent. 17",
+      "title": "La Menace Émergente",
+      "phase": "Acte III - Ombres Grandissantes",
+      "description": "Percer l'origine de l'étoile filante ancestrale et coordonner les ateliers artisanaux pour faire face à un péril grandissant."
+    },
+    {
+      "order": 4,
+      "badgeText": "Avent. 22",
+      "title": "Gardiens de Splendent Vale",
+      "phase": "Acte IV - L'Affrontement Final",
+      "description": "Harmoniser les arts de l'artisanat et les savoirs anciens de la vallée dans une bataille tactique décisive pour sauver Splendence et guérir la terre."
+    }
+  ]
+}

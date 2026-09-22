@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.34.0] - 2026-09-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Artisans of Splendent Vale**, the cooperative narrative storybook campaign game with individual character books and tactical action scenes by Nikki Valens (Renegade Game Studios, 2022).
+  - 3 campaign scope presets: *Standard Campaign* (22 adventures, recommended), *Core Story Arc* (16 adventures), and *Master Artisans & Full Exploration* (28 adventures).
+  - 4 narrative milestone checkpoints tracking departures into the wild valley, uncharted wilderness secrets, escalating regional conflict, and the climactic stand to safeguard Splendence, with full spoiler protection.
+  - Thematic visual identity (warm terracotta amber `#d96b27`, twilight slate `#1d1822`, and vibrant enchanted emerald `#34a872` palette, Cinzel decorative typography, 1:1 flat front box cover art, and atmospheric widescreen landscape artwork of the enchanted Splendent Vale).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.33.0] - 2026-09-22
 
 ### Added

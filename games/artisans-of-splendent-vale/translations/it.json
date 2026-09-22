@@ -1,0 +1,59 @@
+{
+  "title": "Artisans of Splendent Vale",
+  "subtitle": "Avventura narrativa cooperativa con libri di personaggi individuali e scene d'azione tattiche",
+  "tagline": "Crea artefatti leggendari, esplora una valle incantata e proteggi la comunità di Splendence",
+  "loreSummary": "Siete abili artigiani residenti nella pacifica comunità di Splendence, adagiata in una valle trasformata ere fa dalla caduta di una stella cremisi. Quando inspiegabili sconvolgimenti minacciano la vostra terra, partite con i vostri strumenti, materiali e maestrie artigianali per svelare antichi segreti e proteggere la valle.",
+  "badgeCategory": "Campagna Narrativa Cooperativa / Avventura Tattica",
+  "roadmapTitle": "🗺️ Campagna e Progresso delle Avventure a Splendent Vale",
+  "roadmapBadge": "CRONACA DELLA VALLE",
+  "keyFeatures": [
+    "Libri narrativi dedicati per ciascun personaggio con prospettive uniche e formule di artigianato esclusive",
+    "Coinvolgenti scene d'azione tattica risolte su dettagliate mappe a griglia",
+    "Profondo sistema di fabbricazione incentrato su risorse rare raccolte esplorando la valle",
+    "Scelte narrative ramificate con potenziamenti d'interludio ed evoluzione legacy permanente"
+  ],
+  "scopes": {
+    "vale_standard": {
+      "name": "Campagna Standard (22 Avventure)",
+      "description": "L'intero percorso narrativo attraverso la Valle Splendente, armonizzando esplorazione, interludi dei personaggi e battaglie tattiche."
+    },
+    "vale_story": {
+      "name": "Arco Narrativo Principale (16 Avventure)",
+      "description": "Un itinerario avventuroso lineare incentrato direttamente sulla trama centrale e sulle emergenze regionali primarie."
+    },
+    "vale_master_artisans": {
+      "name": "Maestri Artigiani & Esplorazione Totale (28 Avventure)",
+      "description": "Esplorazione approfondita della campagna alla ricerca di tutti i progetti artigianali opzionali, storie dei personaggi e scorci segreti della valle."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Avv. 5",
+      "title": "Partenza da Splendence",
+      "phase": "Atto I - Oltre le Mura Cittadine",
+      "description": "Avventurarsi oltre i confini di Splendence nelle terre selvagge della valle per esaminare insolite fioriture minerali."
+    },
+    {
+      "order": 2,
+      "badgeText": "Avv. 11",
+      "title": "I Segreti delle Terre Selvagge",
+      "phase": "Atto II - La Natura Incontaminata",
+      "description": "Attraversare gole lussureggianti e affrontare fauna ostile grazie ad artefatti fatti a mano ed elisir alchemici."
+    },
+    {
+      "order": 3,
+      "badgeText": "Avv. 17",
+      "title": "La Crisi Imminente",
+      "phase": "Atto III - Ombre Crescenti",
+      "description": "Scoprire l'origine della cometa ancestrale e mobilitare le botteghe artigianali per fronteggiare una minaccia crescente."
+    },
+    {
+      "order": 4,
+      "badgeText": "Avv. 22",
+      "title": "Guardiani di Splendent Vale",
+      "phase": "Atto IV - Lo Scontro Finale",
+      "description": "Unire le eccellenze dell'artigianato e le antiche memorie della valle in una battaglia tattica campale per salvare Splendence e sanare la regione."
+    }
+  ]
+}

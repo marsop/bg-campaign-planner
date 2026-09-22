@@ -1,0 +1,59 @@
+{
+  "title": "Artisans of Splendent Vale",
+  "subtitle": "Cooperative storybook adventure with individual character books and tactical action scenes",
+  "tagline": "Craft legendary artifice, explore an enchanted valley, and protect the township of Splendence",
+  "loreSummary": "You are skilled artisans living in the peaceful township of Splendence, carved into a valley transformed long ago by a falling crimson star. When mysterious disturbances threaten your homeland, you must set forth with your tools, materials, and specialized crafts to uncover ancient secrets and defend the vale.",
+  "badgeCategory": "Cooperative Storybook Campaign / Tactical Adventure",
+  "roadmapTitle": "🗺️ Splendent Vale Campaign & Adventure Progress",
+  "roadmapBadge": "VALE CHRONICLE",
+  "keyFeatures": [
+    "Individual character storybooks featuring unique narrative perspectives and crafting recipes",
+    "Engaging tactical action scenes resolved on grid-based encounter maps",
+    "Rich crafting economy utilizing rare materials gathered during valley exploration",
+    "Branching narrative choices with interlude upgrades and persistent legacy progression"
+  ],
+  "scopes": {
+    "vale_standard": {
+      "name": "Standard Campaign (22 Adventures)",
+      "description": "The complete narrative journey through the Splendent Vale, balancing exploration, character interludes, and tactical action scenes."
+    },
+    "vale_story": {
+      "name": "Core Story Arc (16 Adventures)",
+      "description": "A streamlined adventure path focusing directly on the central storyline and primary regional crises."
+    },
+    "vale_master_artisans": {
+      "name": "Master Artisans & Full Exploration (28 Adventures)",
+      "description": "Exhaustive campaign exploration uncovering all optional crafting blueprints, character lore interludes, and hidden vale locations."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Adv 5",
+      "title": "Departing Splendence",
+      "phase": "Arc I - Beyond the Township",
+      "description": "Venturing beyond the township walls of Splendence into the wild valley to investigate anomalous mineral blooms."
+    },
+    {
+      "order": 2,
+      "badgeText": "Adv 11",
+      "title": "Secrets of the Wilds",
+      "phase": "Arc II - The Untamed Wilderness",
+      "description": "Navigating overgrown gorges and facing territorial fauna equipped with hand-crafted artifice and alchemical tonics."
+    },
+    {
+      "order": 3,
+      "badgeText": "Adv 17",
+      "title": "The Gathering Conflict",
+      "phase": "Arc III - Rising Shadows",
+      "description": "Discovering the origins of the falling star's legacy and coordinating workshop crafts to counter an escalating regional menace."
+    },
+    {
+      "order": 4,
+      "badgeText": "Adv 22",
+      "title": "Guardians of Splendent Vale",
+      "phase": "Arc IV - The Final Stand",
+      "description": "Uniting artisan crafts and ancient valley lore in a climactic tactical battle to safeguard the township and heal the land."
+    }
+  ]
+}

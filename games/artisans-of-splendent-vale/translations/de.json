@@ -1,0 +1,59 @@
+{
+  "title": "Artisans of Splendent Vale",
+  "subtitle": "Kooperatives Storybook-Abenteuer mit individuellen Charakterbüchern und taktischen Actionszenen",
+  "tagline": "Erschaffe legendäre Kunstfertigkeiten, erkunde ein verzaubertes Tal und beschütze die Siedlung Splendence",
+  "loreSummary": "Ihr seid geschickte Handwerker in der friedlichen Siedlung Splendence, die in einem Tal liegt, das vor langer Zeit durch den Einschlag eines purpurnen Sterns verwandelt wurde. Als mysteriöse Störungen eure Heimat bedrohen, brecht ihr mit Werkzeugen, Materialien und eurem Fachwissen auf, um uralte Geheimnisse zu lüften und das Tal zu verteidigen.",
+  "badgeCategory": "Kooperative Storybook-Kampagne / Taktisches Abenteuer",
+  "roadmapTitle": "🗺️ Splendent-Vale-Kampagne & Abenteuerfortschritt",
+  "roadmapBadge": "VALE-CHRONIK",
+  "keyFeatures": [
+    "Individuelle Charakter-Storybooks mit einzigartigen Erzählperspektiven und Handwerksrezepten",
+    "Fesselnde taktische Actionszenen auf detaillierten Rasterkarten",
+    "Vielseitige Handwerkswirtschaft basierend auf seltenen, im Tal gesammelten Materialien",
+    "Verzweigte narrative Entscheidungen mit Zwischenspiel-Aufwertungen und bleibendem Legacy-Fortschritt"
+  ],
+  "scopes": {
+    "vale_standard": {
+      "name": "Standard-Kampagne (22 Abenteuer)",
+      "description": "Die vollständige erzählerische Reise durch das Splendent Vale – eine ausgewogene Mischung aus Erkundung, Charakter-Zwischenspielen und taktischen Actionszenen."
+    },
+    "vale_story": {
+      "name": "Hauptgeschichte (16 Abenteuer)",
+      "description": "Ein gestraffter Abenteuerpfad, der sich direkt auf die zentrale Haupthandlung und die dringlichsten Krisen konzentriert."
+    },
+    "vale_master_artisans": {
+      "name": "Meisterhandwerker & Komplette Erkundung (28 Abenteuer)",
+      "description": "Umfassende Kampagnen-Erkundung mit allen optionalen Bauplänen, persönlichen Charaktergeschichten und verborgenen Winkeln des Tals."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Abent. 5",
+      "title": "Aufbruch aus Splendence",
+      "phase": "Akt I - Jenseits der Siedlungsmauern",
+      "description": "Vorstoß über die Grenzen von Splendence hinaus in die Wildnis des Tals, um ungewöhnliche Mineralvorkommen zu untersuchen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Abent. 11",
+      "title": "Geheimnisse der Wildnis",
+      "phase": "Akt II - Die Ungezähmte Wildnis",
+      "description": "Überwindung überwucherter Schluchten und Begegnung mit wilder Fauna, ausgerüstet mit handgefertigter Artifice und alchemistischen Elixieren."
+    },
+    {
+      "order": 3,
+      "badgeText": "Abent. 17",
+      "title": "Der Aufziehende Konflikt",
+      "phase": "Akt III - Wachsende Schatten",
+      "description": "Enthüllung des wahren Erbes des Sternenfalls und Bündelung handwerklicher Werkstattkräfte zur Abwehr einer eskalierenden Bedrohung."
+    },
+    {
+      "order": 4,
+      "badgeText": "Abent. 22",
+      "title": "Wächter des Splendent Vale",
+      "phase": "Akt IV - Die Letzte Entscheidung",
+      "description": "Vereinigung meisterhafter Handwerkskunst und alten Talwissens im finalen taktischen Kampf zur Rettung von Splendence und Heilung des Landes."
+    }
+  ]
+}
