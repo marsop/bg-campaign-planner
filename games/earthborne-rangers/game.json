@@ -11,7 +11,7 @@
   "baseScenarioMinutes": 105,
   "setupTeardownMinutes": 15,
   "unitType": "days_sessions",
-  "quality": "mid",
+  "quality": "high",
   "theme": {
     "primaryColor": "#3d7a42",
     "secondaryColor": "#132115",

@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Game Quality Improvements**:
   - Upgraded **Aeon's End: Legacy** (`aeons-end-legacy`) quality from `"mid"` to `"high"` by replacing the generic placeholder background with bespoke ~16:9 atmospheric artwork of the subterranean citadel of Gravehold and breach magic tears.
   - Upgraded **Darkest Dungeon: The Board Game** (`darkest-dungeon`) quality from `"mid"` to `"high"` by replacing the generic placeholder background with bespoke ~16:9 atmospheric artwork of the gothic estate catacombs, burning torches, and eldritch crimson corridors.
+  - Upgraded **Earthborne Rangers** (`earthborne-rangers`) quality from `"mid"` to `"high"` by replacing the generic placeholder background with bespoke ~16:9 atmospheric artwork of the Living Valley's colossal tree of life, winding rivers, and solarpunk wilderness.
 
 ## [0.32.0] - 2026-09-22
 
