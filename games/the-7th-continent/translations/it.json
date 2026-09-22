@@ -1,0 +1,66 @@
+{
+  "title": "The 7th Continent",
+  "subtitle": "Un'avventura cooperativa di sopravvivenza ed esplorazione in stile «librogame» su una terra maledetta",
+  "tagline": "Tu sei l'eroe: esplora, sopravvivi, crea strumenti e spezza la maledizione",
+  "loreSummary": "Agli albori del ventesimo secolo, reduce da una spedizione sul misterioso Settimo Continente appena scoperto, scopri di essere caduto vittima di un'oscura maledizione. Per salvarti, dovrai fare ritorno in questa terra inospitale, cacciare, forgiare utensili, decifrare segreti millenari e spezzare il maleficio prima che le tue energie vitali si esauriscano.",
+  "badgeCategory": "Avventura di Sopravvivenza ed Esplorazione",
+  "roadmapTitle": "🗺️ Cronaca di Spedizione e Tabella di Marcia delle Maledizioni",
+  "roadmapBadge": "SPEDIZIONE DEL CONTINENTE MALEDETTO",
+  "keyFeatures": [
+    "Rivoluzionario mondo aperto basato su carte che si svela organicamente passo dopo passo",
+    "Meccanica del mazzo azione in cui vigore, punti vita e azioni condividono la medesima risorsa",
+    "Geniale sistema di salvataggio che consente di riporre e allestire la partita in pochi secondi",
+    "Sandbox di sopravvivenza non lineare ricco di raccolta, caccia, creazione di oggetti e misteri"
+  ],
+  "scopes": {
+    "t7c_voracious_goddess": {
+      "name": "La Dea Vorace (Maledizione singola)",
+      "description": "La quintessenza delle maledizioni introduttive. Esplora le selvagge terre settentrionali per svelare ed esorcizzare la devastante afflizione spirituale (circa 8 spedizioni)."
+    },
+    "t7c_classic_curses": {
+      "name": "Cronaca classica delle tre maledizioni",
+      "description": "L'esperienza completa della scatola base che riunisce 'La Dea Vorace', 'La Caccia Insanguinata' e 'Un'Offerta ai Guardiani' (circa 20 spedizioni)."
+    },
+    "t7c_grand_explorer": {
+      "name": "Grande spedizione continentale (Tutte le maledizioni)",
+      "description": "La maratona di sopravvivenza definitiva affrontando tutte e quattro le maledizioni originarie, simultaneamente o consecutivamente, in ogni recesso del continente (circa 28 spedizioni)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Arrivo",
+      "title": "Naufraghi su lidi maledetti",
+      "phase": "Fase di Spedizione I - Risveglio e sopravvivenza",
+      "description": "Risvegliarsi abbandonati sulle rive incontaminate del continente, fabbricare attrezzi di fortuna e dissotterrare i primi indizi criptici."
+    },
+    {
+      "order": 2,
+      "badgeText": "Entroterra",
+      "title": "I monoliti sussurranti",
+      "phase": "Fase di Spedizione II - Nel cuore del pericolo",
+      "description": "Attraversare pericolose giungle tropicali, imbattersi in colossali simulacri di pietra e decifrare glifi che svelano l'origine della maledizione."
+    },
+    {
+      "order": 3,
+      "badgeText": "Maledizione I",
+      "title": "Bandire la Dea Vorace",
+      "phase": "Fase di Spedizione III - Il primo rito di purificazione",
+      "description": "Raggiungere il proibito santuario vulcanico, compiere la rischiosa offerta ed estirpare l'atroce tormento interiore."
+    },
+    {
+      "order": 4,
+      "badgeText": "Guardiani",
+      "title": "La prova della caccia predatoria",
+      "phase": "Fase di Spedizione IV - Padroni delle terre selvagge",
+      "description": "Seguire le tracce di leggendarie creature attraverso oscure caverne e placare i titanici guardiani dell'isola."
+    },
+    {
+      "order": 5,
+      "badgeText": "Liberazione",
+      "title": "Dominatori del Settimo Continente",
+      "phase": "Fase di Spedizione V - Spezzare le ultime catene",
+      "description": "Sciogliere ogni empio maleficio dalla tua anima e tracciare una via di fuga via mare verso la civiltà."
+    }
+  ]
+}

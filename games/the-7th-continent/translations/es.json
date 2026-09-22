@@ -1,0 +1,66 @@
+{
+  "title": "The 7th Continent",
+  "subtitle": "Una aventura cooperativa de supervivencia y exploración al estilo 'elige tu propia aventura' en tierras malditas",
+  "tagline": "Tú eres el héroe: explora, sobrevive, fabrica herramientas y levanta la maldición",
+  "loreSummary": "A principios del siglo XX, tras regresar de una expedición al misterioso y recién descubierto Séptimo Continente, descubres que una oscura maldición pesa sobre ti. Para sobrevivir, deberás regresar a estas tierras hostiles, recolectar víveres, fabricar herramientas, descifrar antiguos secretos y romper el maleficio antes de que se agote tu energía vital.",
+  "badgeCategory": "Aventura de Supervivencia y Exploración",
+  "roadmapTitle": "🗺️ Crónica de Expedición y Hoja de Ruta de Maldiciones",
+  "roadmapBadge": "EXPEDICIÓN AL CONTINENTE MALDITO",
+  "keyFeatures": [
+    "Mundo abierto revolucionario basado en cartas que se despliega orgánicamente al explorar",
+    "Mecánica de mazo de acción donde tu resistencia, vitalidad y acciones comparten el mismo recurso",
+    "Ingenioso sistema de guardado y reanudación que permite recoger y montar la partida en segundos",
+    "Supervivencia no lineal con profunda recolección, caza, artesanía y resolución de enigmas"
+  ],
+  "scopes": {
+    "t7c_voracious_goddess": {
+      "name": "La Diosa Voraz (Maldición individual)",
+      "description": "La campaña de maldición introductoria por excelencia. Viaja a través de los salvajes territorios del norte para descubrir y purgar la aflicción espiritual demoníaca (aprox. 8 expediciones)."
+    },
+    "t7c_classic_curses": {
+      "name": "Crónica clásica de tres maldiciones",
+      "description": "La experiencia completa de la caja básica que abarca 'La Diosa Voraz', 'La Caza Sangrienta' y 'Una Ofrenda a los Guardianes' (aprox. 20 expediciones)."
+    },
+    "t7c_grand_explorer": {
+      "name": "Gran expedición continental (Todas las maldiciones)",
+      "description": "El maratón definitivo de supervivencia desafiando las cuatro maldiciones originales de forma simultánea o consecutiva por cada rincón del continente (aprox. 28 expediciones)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Llegada",
+      "title": "Náufragos en costas malditas",
+      "phase": "Fase de Expedición I - Despertar de supervivencia",
+      "description": "Despertar varado en las costas inexploradas del continente, fabricar equipo rudimentario de supervivencia y desenterrar las primeras pistas crípticas."
+    },
+    {
+      "order": 2,
+      "badgeText": "Interior",
+      "title": "Los monolitos susurrantes",
+      "phase": "Fase de Expedición II - Hacia el corazón del peligro",
+      "description": "Atravesar peligrosas copas de selva tropical, descubrir colosales efigies milenarias y descifrar glifos de piedra que revelan el auténtico origen de la maldición."
+    },
+    {
+      "order": 3,
+      "badgeText": "Maldición I",
+      "title": "Destierro de la Diosa Voraz",
+      "phase": "Fase de Expedición III - El primer rito de purificación",
+      "description": "Alcanzar el santuario volcánico prohibido, consumar la peligrosa ofrenda y purgar la devastadora enfermedad espiritual."
+    },
+    {
+      "order": 4,
+      "badgeText": "Guardianes",
+      "title": "La prueba de la caza depredadora",
+      "phase": "Fase de Expedición IV - Amos de la naturaleza salvaje",
+      "description": "Rastrear bestias legendarias por laberintos subterráneos y aplacar a los gigantescos guardianes de la isla."
+    },
+    {
+      "order": 5,
+      "badgeText": "Liberación",
+      "title": "Soberano del Séptimo Reino",
+      "phase": "Fase de Expedición V - Rompiendo las últimas cadenas",
+      "description": "Disipar todas las oscuras aflicciones de tu alma y trazar una ruta de escape marítima de regreso al mundo civilizado."
+    }
+  ]
+}

@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.36.0] - 2026-09-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Detective: A Modern Crime Board Game**, the cooperative modern police procedural deduction game by Przemysław Rymer, Ignacy Trzewiczek, and Jakub Łapot (Portal Games, 2018).
+  - 3 campaign scope presets: *The Antares Campaign (Cases 1–5)* (5 cases, recommended), *Introductory Inquiries (Cases 1–2)* (2 cases), and *Master Investigator Archive (Base + Bonus Cases)* (8 cases).
+  - 5 narrative milestone checkpoints tracking the inaugural stolen golden watch case in Richmond, historical archival investigation into wartime operations, expanding clandestine networks, racing against time under departmental pressure, and filing the definitive final dossier with Antares HQ, with full spoiler mask protection.
+  - Thematic visual identity (investigative blue `#1e88e5`, midnight slate noir `#0f172a`, and crime scene evidence amber `#f59e0b` palette, modern clean typography, 1:1 flat front box cover art, and atmospheric widescreen artwork of an investigative detective office with crime corkboard and glowing Antares terminal at midnight).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
+
+### Added
+- **New Board Game Added**:
+  - Added support for **The 7th Continent**, the cooperative choose-your-own-adventure survival and exploration game by Ludovic Roudy & Bruno Sautter (Serious Poulp, 2017).
+  - 3 campaign scope presets: *The Voracious Goddess (Single Curse)* (8 expeditions, recommended), *The Classic Tri-Curse Chronicle* (20 expeditions), and *The Grand Continent Expedition (All Curses)* (28 expeditions).
+  - 5 narrative milestone checkpoints tracking arrival on cursed shores, discovering whispering monoliths inland, banishing the Voracious Goddess, undergoing the predatory hunt and sentinels trials, and finally breaking all curses to escape the continent, with full spoiler protection.
+  - Thematic visual identity (antique cartography gold `#c29b38`, dark uncharted wilderness slate `#1a201c`, and lush primeval jungle emerald `#388e6a` palette, Cinzel & Playfair typography, 1:1 flat front box cover art, and atmospheric widescreen artwork of the uncharted Seventh Continent).
+  - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.34.0] - 2026-09-22
 
 ### Added

@@ -1,0 +1,66 @@
+{
+  "title": "The 7th Continent",
+  "subtitle": "A cooperative choose-your-own-adventure survival game across an uncharted cursed land",
+  "tagline": "You are the hero: explore, survive, craft, and lift the curse",
+  "loreSummary": "It is the early twentieth century. Returning from an expedition to the mysterious newly discovered Seventh Continent, you find yourself afflicted by a supernatural curse. To survive, you must return to this perilous land, forage, craft tools, uncover ancient secrets, and break the curse before your life energy runs out.",
+  "badgeCategory": "Survival & Exploration Adventure",
+  "roadmapTitle": "🗺️ Expedition Chronicle & Curse Roadmap",
+  "roadmapBadge": "CURSED CONTINENT EXPEDITION",
+  "keyFeatures": [
+    "Groundbreaking card-based open world that unfolds organically as you explore",
+    "Action deck mechanic where your stamina, life force, and actions share the same resource",
+    "Clever save-and-resume system enabling 30-second setup and teardown",
+    "Non-linear survival sandbox with deep crafting, hunting, foraging, and mystery solving"
+  ],
+  "scopes": {
+    "t7c_voracious_goddess": {
+      "name": "The Voracious Goddess (Single Curse)",
+      "description": "The quintessential introductory curse campaign. Journey through the primeval northern territories to uncover and purge the demonic spiritual affliction (approx. 8 expeditions)."
+    },
+    "t7c_classic_curses": {
+      "name": "The Classic Tri-Curse Chronicle",
+      "description": "The complete core box chronicle featuring 'The Voracious Goddess', 'The Bloody Hunt', and 'An Offering to the Guardians' (approx. 20 expeditions)."
+    },
+    "t7c_grand_explorer": {
+      "name": "The Grand Continent Expedition (All Curses)",
+      "description": "The ultimate survival marathon challenging all four original curses simultaneously or consecutively across every corner of the continent (approx. 28 expeditions)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Arrival",
+      "title": "Castaway on Cursed Shores",
+      "phase": "Expedition Phase I - Survival Awakening",
+      "description": "Waking stranded on the uncharted shores of the continent, crafting rudimentary survival gear, and unearthing the first cryptic clues."
+    },
+    {
+      "order": 2,
+      "badgeText": "Inland",
+      "title": "The Whispering Monoliths",
+      "phase": "Expedition Phase II - Into the Heart of Peril",
+      "description": "Navigating treacherous jungle canopies, discovering towering ancient effigies, and decoding stone glyphs that reveal the curse's true origin."
+    },
+    {
+      "order": 3,
+      "badgeText": "Curse I",
+      "title": "Banishment of the Voracious Goddess",
+      "phase": "Expedition Phase III - The First Rite of Cleansing",
+      "description": "Reaching the forbidden volcanic sanctuary, making the perilous offering, and purging the devastating spiritual malady."
+    },
+    {
+      "order": 4,
+      "badgeText": "Sentinels",
+      "title": "Trial of the Predatory Hunt",
+      "phase": "Expedition Phase IV - Masters of the Wilderness",
+      "description": "Stalking legendary beasts through subterranean labyrinths and appeasing the gargantuan island guardians."
+    },
+    {
+      "order": 5,
+      "badgeText": "Deliverance",
+      "title": "Sovereign of the Seventh Realm",
+      "phase": "Expedition Phase V - Breaking the Final Shackles",
+      "description": "Lifting all dark afflictions from your soul and charting an escape route back across the ocean to the civilized world."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Detective: A Modern Crime Board Game",
+  "subtitle": "Ein kooperatives modernes Kriminal- und Deduktionsspiel rund um forensische Ermittlungsakten und die digitale Antares-Datenbank",
+  "tagline": "Verfolgt Spuren, analysiert Beweise und durchbrecht die vierte Wand, um eine weitreichende Verschwörung aufzudecken",
+  "loreSummary": "Ihr seid Ermittler der Antares National Investigation Agency, ausgerüstet mit modernsten forensischen Laborwerkzeugen, biometrischen Datenbanken und klassischem Spürsinn. Was als scheinbar gewöhnliche Untersuchung eines gestohlenen Antiquitätenstücks beginnt, entwickelt sich rasch zu einer düsteren, jahrzehntealten Verschwörung, bei der jede verfolgte Spur kostbare Zeit verbraucht.",
+  "badgeCategory": "Moderne Kriminal- & Deduktionsermittlung",
+  "roadmapTitle": "🔍 Antares-Fallakte & Ermittlungs-Roadmap",
+  "roadmapBadge": "KRIMINALISTISCHER ERMITTLUNGSZEITSTRAHL",
+  "keyFeatures": [
+    "Bahnbrechende Begleitplattform (Antares-Datenbank) mit realistischen Verdächtigenprofilen, Laborbefunden und DNA-Abgleichen",
+    "Strikte Zeit- und Ressourcenverwaltung mit schwierigen Entscheidungen darüber, welchen Hinweisen nachgegangen werden soll",
+    "Zusammenhängende 5-Fälle-Kampagnen-Metahandlung, bei der frühere Erkenntnisse spätere Fälle unmittelbar beeinflussen",
+    "Vierte Wand durchbrechende Ermittlungen mit gezieltem Einsatz von realen Internetrecherchen, Stadtplänen und historischen Daten"
+  ],
+  "scopes": {
+    "detective_core_campaign": {
+      "name": "Die Antares-Kampagne (Fälle 1–5)",
+      "description": "Der vollständige Handlungsbogen des Grundspiels über 5 miteinander verwobene Fälle – vom anfänglichen Raub in Richmond bis zur finalen Aufklärung (ca. 5 Fälle)."
+    },
+    "detective_prologue_arc": {
+      "name": "Erste Nachforschungen (Fälle 1–2)",
+      "description": "Eine kompakte Einstiegsermittlung, die den Auftaktfall der gestohlenen Golduhr und die darauffolgenden Archivrecherchen umfasst (ca. 2 Fälle)."
+    },
+    "detective_complete_dossier": {
+      "name": "Chefermittler-Archiv (Grundspiel + Bonusfälle)",
+      "description": "Das umfassende Ermittlungsportfolio aus der fünfteiligen Hauptkampagne, ergänzt um eigenständige Bonusfälle und Erweiterungsakten (ca. 8 Fälle)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Fall 1",
+      "title": "Die goldene Uhr",
+      "phase": "Antares Phase I – Der Anfangsverdacht",
+      "description": "Untersuchung des Diebstahls eines goldenen Artefakts aus einem Antiquitätengeschäft in Richmond, Sicherung physischer Spuren und Erfassung erster Indizien in Antares."
+    },
+    {
+      "order": 2,
+      "badgeText": "Fall 2",
+      "title": "Asche der Vergangenheit",
+      "phase": "Antares Phase II – Die Papierspur",
+      "description": "Prüfung forensischer Berichte und historischer Archive, die unerwartete Verbindungen zwischen aktuellen Verbrechen und verdeckten Kriegsoperationen aufdecken."
+    },
+    {
+      "order": 3,
+      "badgeText": "Fall 3",
+      "title": "Das Netz weitet sich",
+      "phase": "Antares Phase III – Klandestine Netzwerke",
+      "description": "Verfolgung von Verdächtigenbewegungen, Durchführung entscheidender Verhöre und Verknüpfung komplexer internationaler Verbindungen an der Pinnwand."
+    },
+    {
+      "order": 4,
+      "badgeText": "Fall 4",
+      "title": "Wettlauf gegen die Zeit",
+      "phase": "Antares Phase IV – Wachsender Druck",
+      "description": "Ermittlungen unter strengen Fristen und behördlicher Beobachtung, während sich die Schlinge um zentrale Zielpersonen immer enger zieht."
+    },
+    {
+      "order": 5,
+      "badgeText": "Fall 5",
+      "title": "Der Abschlussbericht",
+      "phase": "Antares Phase V – Zerschlagung der Verschwörung",
+      "description": "Zusammenführung aller forensischen Erkenntnisse aus sämtlichen fünf Fällen, Übermittlung des finalen Dossiers an das Hauptquartier und Lösung des Falls."
+    }
+  ]
+}

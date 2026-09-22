@@ -1,0 +1,66 @@
+{
+  "title": "Detective: A Modern Crime Board Game",
+  "subtitle": "Un gioco cooperativo di deduzione investigativa moderna guidato da referti forensi e dal database online Antares",
+  "tagline": "Segui le piste, analizza le prove e infrangi la quarta parete per svelare un'intricata cospirazione",
+  "loreSummary": "Siete investigatori dell'Agenzia Nazionale Antares, dotati di strumentazioni forensi all'avanguardia, archivi biometrici e infallibile intuito investigativo. Ciò che comincia come un'indagine su un prezioso orologio d'epoca rubato si trasforma presto in un'oscura cospirazione pluridecennale, dove ogni traccia seguita costa tempo prezioso.",
+  "badgeCategory": "Investigazione Forense & Deduzione Moderna",
+  "roadmapTitle": "🔍 Dossier d'Indagine Antares e Tabella di Marcia",
+  "roadmapBadge": "CRONOLOGIA INVESTIGATIVA CRIMINALE",
+  "keyFeatures": [
+    "Piattaforma informatica integrata (Database Antares) con profili dettagliati di sospetti, perizie scientifiche e riscontri del DNA",
+    "Rigorosa gestione del tempo e delle risorse che impone scelte cruciali sulle piste investigative da approfondire",
+    "Meta-trama a campagna in 5 casi interconnessi in cui gli indizi emersi nei casi precedenti influenzano le indagini successive",
+    "Esperienza immersiva che infrange la quarta parete, incoraggiando ricerche sul web reale, mappe cittadine e archivi storici"
+  ],
+  "scopes": {
+    "detective_core_campaign": {
+      "name": "La Campagna Antares (Casi 1–5)",
+      "description": "L'arco narrativo completo della scatola base articolato su 5 indagini interconnesse, dal furto iniziale a Richmond fino all'epilogo della cospirazione (circa 5 casi)."
+    },
+    "detective_prologue_arc": {
+      "name": "Indagini Preliminari (Casi 1–2)",
+      "description": "Un'indagine iniziale circoscritta che copre il caso dell'orologio d'oro rubato e i successivi riscontri d'archivio storico (circa 2 casi)."
+    },
+    "detective_complete_dossier": {
+      "name": "Archivio del Capo Investigatore (Base + Casi Extra)",
+      "description": "Il fascicolo d'indagine completo che unisce la campagna base in 5 casi con i casi promozionali autonomi e le indagini di espansione (circa 8 casi)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Caso 1",
+      "title": "L'orologio d'oro",
+      "phase": "Fase Antares I - L'incidente iniziale",
+      "description": "Indagare sul furto di un prezioso manufatto d'oro in un negozio d'antiquariato a Richmond, repertando prove materiali e registrando i primi indizi su Antares."
+    },
+    {
+      "order": 2,
+      "badgeText": "Caso 2",
+      "title": "Ceneri del passato",
+      "phase": "Fase Antares II - La traccia documentale",
+      "description": "Esaminare perizie forensi e archivi storici, svelando inattesi collegamenti tra reati contemporanei e operazioni clandestine del periodo bellico."
+    },
+    {
+      "order": 3,
+      "badgeText": "Caso 3",
+      "title": "La rete si allarga",
+      "phase": "Fase Antares III - Reti clandestine",
+      "description": "Pedinare i sospettati, condurre interrogatori decisivi e collegare intricate relazioni internazionali sulla bacheca delle indagini."
+    },
+    {
+      "order": 4,
+      "badgeText": "Caso 4",
+      "title": "Corsa contro il tempo",
+      "phase": "Fase Antares IV - Pressione crescente",
+      "description": "Operare entro scadenze dipartimentali perentorie e sotto lo scrutinio dei vertici mentre la morsa si stringe attorno alle persone informate sui fatti."
+    },
+    {
+      "order": 5,
+      "badgeText": "Caso 5",
+      "title": "Il rapporto finale",
+      "phase": "Fase Antares V - Conclusione della cospirazione",
+      "description": "Sintetizzare tutte le evidenze scientifiche raccolte nelle cinque indagini, trasmettere il fascicolo conclusivo al quartier generale e chiudere il caso."
+    }
+  ]
+}

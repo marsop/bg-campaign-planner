@@ -11,7 +11,7 @@
   "baseScenarioMinutes": 55,
   "setupTeardownMinutes": 15,
   "unitType": "episodes",
-  "quality": "mid",
+  "quality": "high",
   "theme": {
     "primaryColor": "#d4973b",
     "secondaryColor": "#181716",

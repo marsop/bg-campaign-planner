@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (37 games):**
+**Currently in app (39 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -46,26 +46,26 @@ requested by the user.
 - Vampire: The Masquerade – Chapters
 - The 7th Citadel
 - Artisans of Splendent Vale
+- The 7th Continent
+- Detective: A Modern Crime Board Game
 
 
 ---
 
 ## 🟥 High Priority
 
-- **The 7th Continent** — Cooperative survival and exploration adventure across sprawling curses. 30–60+ hours. ~7.8 BGG. 1–4 players. Exploration, hand management, choose-your-own-adventure.
+- **My City** — Competitive legacy polyomino tile-placement campaign developing a city over time. 24 episodes (8 chapters), ~12–15 hours. ~7.5 BGG. 2–4 players. Polyomino, legacy, simultaneous action.
 
 ---
 
 ## 🟧 Medium Priority
 
-- **Detective: A Modern Crime Board Game** — Deep cooperative investigative mystery campaign using the digital Antares database. 5 cases, ~12–15 hours. ~7.5 BGG. 1–5 players. Deduction, time management, story-driven.
-- **My City** — Competitive legacy polyomino tile-placement campaign developing a city over time. 24 episodes (8 chapters), ~12–15 hours. ~7.5 BGG. 2–4 players. Polyomino, legacy, simultaneous action.
+- **Destinies** — App-driven open-world adventure. 5–10 scenarios per campaign. ~7.5 BGG. 1–3 players.
 
 ---
 
 ## 🟨 Lower Priority
 
-- **Destinies** — App-driven open-world adventure. 5–10 scenarios per campaign. ~7.5 BGG. 1–3 players.
 - **Perseverance: Castaway Chronicles** — Survival campaign game. Episodes 1+2, ~30–50 hours. ~8.1 BGG. 1–4 players.
 - **Etherfields** — Cooperative "dream-crawler" with branching persistent campaign (Awaken Realms). 40–50+ hours. ~7.8 BGG. 1–4 players. Non-standard branching structure — no fixed numbered scenarios; needs extra scope design.
 - **Cloudspire** — Strategic tower-defense with dedicated solo/coop scenario campaign. ~20–30 h (coop campaign). ~8.5 BGG. 1–4 players. Primarily a competitive game; coop campaign is optional and shorter.

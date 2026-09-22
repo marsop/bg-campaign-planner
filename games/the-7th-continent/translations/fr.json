@@ -1,0 +1,66 @@
+{
+  "title": "The 7th Continent",
+  "subtitle": "Une aventure coopérative d'exploration et de survie « dont vous êtes le héros » sur une terre maudite",
+  "tagline": "Vous êtes le héros : explorez, survivez, fabriquez et levez la malédiction",
+  "loreSummary": "Au début du XXe siècle, de retour d'une expédition sur le mystérieux Septième Continent récemment découvert, vous découvrez qu'une terrible malédiction vous frappe. Pour survivre, vous devez retourner sur cette terre hostile, chasser, fabriquer des outils, percer des secrets millénaires et rompre le maléfice avant que votre énergie vitale ne s'épuise.",
+  "badgeCategory": "Aventure de Survie & d'Exploration",
+  "roadmapTitle": "🗺️ Chronique d'Expédition & Feuille de Route des Malédictions",
+  "roadmapBadge": "EXPÉDITION DU CONTINENT MAUDIT",
+  "keyFeatures": [
+    "Monde ouvert novateur composé de cartes se dévoilant au fil de vos pas",
+    "Mécanique de deck d'action où votre endurance, votre vie et vos actions partagent la même ressource",
+    "Système ingénieux de sauvegarde permettant d'interrompre et reprendre la partie en quelques secondes",
+    "Bac à sable de survie non linéaire mêlant récolte, chasse, artisanat et résolution d'énigmes"
+  ],
+  "scopes": {
+    "t7c_voracious_goddess": {
+      "name": "La Déesse Vorace (Malédiction unique)",
+      "description": "La campagne de malédiction d'initiation par excellence. Parcourez les contrées sauvages du nord pour démasquer et purifier l'affliction spirituelle démoniaque (env. 8 expéditions)."
+    },
+    "t7c_classic_curses": {
+      "name": "Chronique classique des trois malédictions",
+      "description": "L'expérience intégrale de la boîte de base réunissant 'La Déesse Vorace', 'La Traque Sanglante' et 'Offrande aux Gardiens' (env. 20 expéditions)."
+    },
+    "t7c_grand_explorer": {
+      "name": "Grande expédition continentale (Toutes les malédictions)",
+      "description": "Le marathon de survie ultime bravant les quatre malédictions originelles, simultanément ou successivement, jusqu'aux confins du continent (env. 28 expéditions)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Arrivée",
+      "title": "Naufragés sur des rivages maudits",
+      "phase": "Phase d'Expédition I - L'éveil de la survie",
+      "description": "Se réveiller échoué sur les côtes inexplorées du continent, fabriquer ses premiers outils de fortune et exhumer les premiers indices cryptiques."
+    },
+    {
+      "order": 2,
+      "badgeText": "Terres intérieures",
+      "title": "Les monolithes murmurants",
+      "phase": "Phase d'Expédition II - Au cœur du péril",
+      "description": "Se frayer un chemin dans la canopée vierge, contempler des effigies colossales oubliées et déchiffrer les glyphes révélant la source de la malédiction."
+    },
+    {
+      "order": 3,
+      "badgeText": "Malédiction I",
+      "title": "Bannissement de la Déesse Vorace",
+      "phase": "Phase d'Expédition III - Le premier rituel de purification",
+      "description": "Atteindre le sanctuaire volcanique défendu, accomplir la périlleuse offrande et purger l'incurable tourment spirituel."
+    },
+    {
+      "order": 4,
+      "badgeText": "Gardiens",
+      "title": "L'épreuve de la traque sanglante",
+      "phase": "Phase d'Expédition IV - Maîtres des terres sauvages"
+      "description": "Pister des proies légendaires à travers des gouffres insondables et apaiser les gardiens ancestraux de l'île."
+    },
+    {
+      "order": 5,
+      "badgeText": "Délivrance",
+      "title": "Souverains du Septième Continent",
+      "phase": "Phase d'Expédition V - Briser les dernières chaînes",
+      "description": "Purifier votre âme de tous les maléfices et ouvrir une voie maritime salvatrice pour regagner la civilisation."
+    }
+  ]
+}

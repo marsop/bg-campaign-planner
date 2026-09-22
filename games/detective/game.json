@@ -1,0 +1,104 @@
+{
+  "id": "detective",
+  "title": "Detective: A Modern Crime Board Game",
+  "releaseYear": 2018,
+  "designers": "Przemysław Rymer, Ignacy Trzewiczek, Jakub Łapot",
+  "playersMin": 1,
+  "playersMax": 5,
+  "bggRating": 7.3,
+  "bggWeight": 2.7,
+  "bggUrl": "https://boardgamegeek.com/boardgame/223321/detective-a-modern-crime-board-game",
+  "baseScenarioMinutes": 135,
+  "setupTeardownMinutes": 10,
+  "unitType": "cases",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#1e88e5",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e293b 0%, #0f172a 60%, #020617 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.92)",
+    "borderColor": "rgba(56, 189, 248, 0.35)",
+    "glowColor": "rgba(56, 189, 248, 0.25)",
+    "headerFont": "'Inter', 'Roboto', system-ui, sans-serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🔍",
+    "emblem": "🕵️‍♂️🔍",
+    "themeClass": "theme-detective",
+    "activeThemeClass": "theme-detective-active",
+    "roadmapClass": "roadmap-detective",
+    "heroClass": "hero-detective"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #223321 Detective: A Modern Crime Board Game)",
+    "Portal Games Official Rulebook & Antares Database Guidelines",
+    "Community Campaign Logs, Time Management Guides & Case Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "detective_core_campaign",
+      "baseScenarioCount": 5,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": true
+    },
+    {
+      "id": "detective_prologue_arc",
+      "baseScenarioCount": 2,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "detective_complete_dossier",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 22.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "⌚",
+      "badgeText": "Case 1",
+      "title": "The Golden Watch",
+      "phase": "Antares Phase I - The Initial Incident",
+      "description": "Investigating the stolen golden artifact from a Richmond antique shop, collecting physical evidence, and logging the first leads into the Antares Database."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🔥",
+      "badgeText": "Case 2",
+      "title": "Ashes of the Past",
+      "phase": "Antares Phase II - The Paper Trail",
+      "description": "Examining forensic records and historical archives, uncovering unexpected connections linking contemporary crimes to covert wartime operations."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🕸️",
+      "badgeText": "Case 3",
+      "title": "The Web Expands",
+      "phase": "Antares Phase III - Clandestine Networks",
+      "description": "Following suspect movements, conducting tense interrogations, and pinning together complex international relationships on the evidence corkboard."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "⏱️",
+      "badgeText": "Case 4",
+      "title": "Against the Clock",
+      "phase": "Antares Phase IV - Escalating Pressures",
+      "description": "Racing against strict departmental deadlines and mounting authority scrutiny as the web of deceit tightens around key persons of interest."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "📁",
+      "badgeText": "Case 5",
+      "title": "The Final Report",
+      "phase": "Antares Phase V - Closing the Conspiracy",
+      "description": "Synthesizing forensic findings across all five investigations, submitting the definitive dossier to headquarters, and cracking the multi-decade conspiracy."
+    }
+  ]
+}

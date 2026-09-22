@@ -1,0 +1,104 @@
+{
+  "id": "the-7th-continent",
+  "title": "The 7th Continent",
+  "releaseYear": 2017,
+  "designers": "Ludovic Roudy, Bruno Sautter",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.9,
+  "bggWeight": 2.89,
+  "bggUrl": "https://boardgamegeek.com/boardgame/180263/the-7th-continent",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 10,
+  "unitType": "expeditions",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#c29b38",
+    "secondaryColor": "#1a201c",
+    "accentColor": "#388e6a",
+    "backgroundGradient": "radial-gradient(ellipse at top, #28332b 0%, #151b17 60%, #0c100e 100%)",
+    "cardBackground": "rgba(24, 31, 27, 0.92)",
+    "borderColor": "rgba(194, 155, 56, 0.35)",
+    "glowColor": "rgba(194, 155, 56, 0.25)",
+    "headerFont": "'Cinzel', 'Playfair Display', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🧭",
+    "emblem": "🏝️🧭",
+    "themeClass": "theme-seventhcontinent",
+    "activeThemeClass": "theme-seventhcontinent-active",
+    "roadmapClass": "roadmap-seventhcontinent",
+    "heroClass": "hero-seventhcontinent"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #180263 Top 100 & Thematic)",
+    "Serious Poulp Official Explorer Guide & Rulebook",
+    "Community Survival Logs, Curse Playthroughs & Campaign Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "t7c_voracious_goddess",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": true
+    },
+    {
+      "id": "t7c_classic_curses",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 18.0,
+      "isRecommended": false
+    },
+    {
+      "id": "t7c_grand_explorer",
+      "baseScenarioCount": 28,
+      "estimatedFailRatePercent": 22.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "⛵",
+      "badgeText": "Arrival",
+      "title": "Castaway on Cursed Shores",
+      "phase": "Expedition Phase I - Survival Awakening",
+      "description": "Waking stranded on the uncharted shores of the continent, crafting rudimentary survival gear, and unearthing the first cryptic clues."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🗿",
+      "badgeText": "Inland",
+      "title": "The Whispering Monoliths",
+      "phase": "Expedition Phase II - Into the Heart of Peril",
+      "description": "Navigating treacherous jungle canopies, discovering towering ancient effigies, and decoding stone glyphs that reveal the curse's true origin."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🔥",
+      "badgeText": "Curse I",
+      "title": "Banishment of the Voracious Goddess",
+      "phase": "Expedition Phase III - The First Rite of Cleansing",
+      "description": "Reaching the forbidden volcanic sanctuary, making the perilous offering, and purging the devastating spiritual malady."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "🏹",
+      "badgeText": "Sentinels",
+      "title": "Trial of the Predatory Hunt",
+      "phase": "Expedition Phase IV - Masters of the Wilderness",
+      "description": "Stalking legendary beasts through subterranean labyrinths and appeasing the gargantuan island guardians."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 28,
+      "iconEmoji": "🌅",
+      "badgeText": "Deliverance",
+      "title": "Sovereign of the Seventh Realm",
+      "phase": "Expedition Phase V - Breaking the Final Shackles",
+      "description": "Lifting all dark afflictions from your soul and charting an escape route back across the ocean to the civilized world."
+    }
+  ]
+}

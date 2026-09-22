@@ -1,0 +1,66 @@
+{
+  "title": "Detective: A Modern Crime Board Game",
+  "subtitle": "Un jeu coopératif d'enquête policière moderne et de déduction porté par des rapports médico-légaux et la base de données numérique Antares",
+  "tagline": "Suivez les pistes, analysez les preuves et brisez le quatrième mur pour démasquer une vaste conspiration",
+  "loreSummary": "Vous êtes des enquêteurs de l'Agence Nationale d'Investigation Antares, équipés d'outils médico-légaux de pointe, de bases de données biométriques et d'un flair policier affûté. Ce qui débute comme une simple affaire d'objet précieux dérobé chez un antiquaire se transforme vite en une sombre conspiration tentaculaire où chaque piste suivie consume un temps précieux.",
+  "badgeCategory": "Enquête Policière Moderne & Déduction",
+  "roadmapTitle": "🔍 Dossier d'Enquête Antares & Feuille de Route",
+  "roadmapBadge": "CHRONOLOGIE D'INVESTIGATION CRIMINELLE",
+  "keyFeatures": [
+    "Plateforme numérique intégrée (Base Antares) proposant des fiches de suspects réalistes, des rapports balistiques et des concordances ADN",
+    "Gestion exigeante du temps et des ressources obligeant à des choix cruciaux parmi les pistes à explorer",
+    "Trame de campagne en 5 affaires interconnectées où les découvertes antérieures influencent directement les suivantes",
+    "Immersion totale brisant le quatrième mur en encourageant les recherches sur Internet, cartes urbaines et archives historiques"
+  ],
+  "scopes": {
+    "detective_core_campaign": {
+      "name": "La Campagne Antares (Affaires 1 à 5)",
+      "description": "L'arc narratif complet de la boîte de base à travers 5 affaires interconnectées, du vol initial à Richmond jusqu'au dénouement de la conspiration (env. 5 affaires)."
+    },
+    "detective_prologue_arc": {
+      "name": "Premières Investigations (Affaires 1 et 2)",
+      "description": "Une enquête d'initiation resserrée couvrant l'affaire de la montre en or dérobée et ses prolongements dans les archives historiques (env. 2 affaires)."
+    },
+    "detective_complete_dossier": {
+      "name": "Archives du Maître-Enquêteur (Base + Affaires Bonus)",
+      "description": "Le registre d'enquête complet réunissant la campagne principale en 5 affaires ainsi que les dossiers promotionnels et extensions (env. 8 affaires)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Affaire 1",
+      "title": "La montre en or",
+      "phase": "Phase Antares I - L'incident initial",
+      "description": "Enquêter sur le vol d'un artefact doré chez un antiquaire de Richmond, collecter des indices matériels et enregistrer les premières pistes dans Antares."
+    },
+    {
+      "order": 2,
+      "badgeText": "Affaire 2",
+      "title": "Les cendres du passé",
+      "phase": "Phase Antares II - La piste documentaire",
+      "description": "Examiner des rapports médico-légaux et des archives historiques, révélant des liens inattendus entre des délits récents et des opérations secrètes de guerre."
+    },
+    {
+      "order": 3,
+      "badgeText": "Affaire 3",
+      "title": "La toile s'étend",
+      "phase": "Phase Antares III - Réseaux clandestins",
+      "description": "Suivre les filatures des suspects, mener des interrogatoires déterminants et relier des ramifications internationales complexes sur le tableau d'enquête."
+    },
+    {
+      "order": 4,
+      "badgeText": "Affaire 4",
+      "title": "Course contre la montre",
+      "phase": "Phase Antares IV - Montée des tensions",
+      "description": "Travailler sous une contrainte horaire drastique et la surveillance de la hiérarchie tandis que l'étau se resserre autour des suspects clés."
+    },
+    {
+      "order": 5,
+      "badgeText": "Affaire 5",
+      "title": "Le rapport final",
+      "phase": "Phase Antares V - Résolution de la conspiration",
+      "description": "Faire la synthèse de l'ensemble des éléments scientifiques des cinq affaires, soumettre le dossier définitif au quartier général et clore l'enquête."
+    }
+  ]
+}

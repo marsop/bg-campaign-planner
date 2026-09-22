@@ -1,0 +1,66 @@
+{
+  "title": "Detective: A Modern Crime Board Game",
+  "subtitle": "A cooperative modern police procedural deduction game driven by forensic casework and the online Antares database",
+  "tagline": "Follow leads, analyze evidence, and break the 4th wall to uncover a sprawling conspiracy",
+  "loreSummary": "You are investigators working for the Antares National Investigation Agency, equipped with cutting-edge laboratory tools, biometric databases, and classic gumshoe instinct. What begins as a routine inquiry into a stolen antique quickly spirals into a dark, multi-decade conspiracy where every lead consumed costs precious time.",
+  "badgeCategory": "Modern Investigative Deduction",
+  "roadmapTitle": "🔍 Antares Case Dossier & Investigation Roadmap",
+  "roadmapBadge": "CRIMINAL INVESTIGATION TIMELINE",
+  "keyFeatures": [
+    "Groundbreaking companion website (Antares Database) providing realistic suspect profiles, lab forensics, and DNA matches",
+    "Tight resource and time management requiring hard choices about which investigative leads to pursue",
+    "Interconnected 5-case campaign meta-plot where earlier discoveries directly influence future cases",
+    "Boundary-breaking investigation encouraging the use of real-world internet research, maps, and historical facts"
+  ],
+  "scopes": {
+    "detective_core_campaign": {
+      "name": "The Antares Campaign (Cases 1–5)",
+      "description": "The complete core box narrative arc following 5 interconnected investigations from the initial Richmond theft to the full conspiracy resolution (approx. 5 cases)."
+    },
+    "detective_prologue_arc": {
+      "name": "Introductory Inquiries (Cases 1–2)",
+      "description": "A focused initial investigation encompassing the introductory stolen watch inquiry and the historical archival follow-up (approx. 2 cases)."
+    },
+    "detective_complete_dossier": {
+      "name": "Master Investigator Archive (Base + Bonus Cases)",
+      "description": "The complete investigative portfolio combining the 5-case core campaign with standalone bonus cases and expansion inquiries (approx. 8 cases)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Case 1",
+      "title": "The Golden Watch",
+      "phase": "Antares Phase I - The Initial Incident",
+      "description": "Investigating the stolen golden artifact from a Richmond antique shop, collecting physical evidence, and logging the first leads into the Antares Database."
+    },
+    {
+      "order": 2,
+      "badgeText": "Case 2",
+      "title": "Ashes of the Past",
+      "phase": "Antares Phase II - The Paper Trail",
+      "description": "Examining forensic records and historical archives, uncovering unexpected connections linking contemporary crimes to covert wartime operations."
+    },
+    {
+      "order": 3,
+      "badgeText": "Case 3",
+      "title": "The Web Expands",
+      "phase": "Antares Phase III - Clandestine Networks",
+      "description": "Following suspect movements, conducting tense interrogations, and pinning together complex international relationships on the evidence corkboard."
+    },
+    {
+      "order": 4,
+      "badgeText": "Case 4",
+      "title": "Against the Clock",
+      "phase": "Antares Phase IV - Escalating Pressures",
+      "description": "Racing against strict departmental deadlines and mounting authority scrutiny as the web of deceit tightens around key persons of interest."
+    },
+    {
+      "order": 5,
+      "badgeText": "Case 5",
+      "title": "The Final Report",
+      "phase": "Antares Phase V - Closing the Conspiracy",
+      "description": "Synthesizing forensic findings across all five investigations, submitting the definitive dossier to headquarters, and cracking the multi-decade conspiracy."
+    }
+  ]
+}

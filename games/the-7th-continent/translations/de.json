@@ -1,0 +1,66 @@
+{
+  "title": "The 7th Continent",
+  "subtitle": "Ein kooperatives 'Du bist der Held'-Überlebens- und Erkundungsabenteuer auf einem verfluchten Kontinent",
+  "tagline": "Du bist der Held: Erkunde, überlebe, fertige Werkzeuge und breche den Fluch",
+  "loreSummary": "Es ist das frühe 20. Jahrhundert. Nach der Rückkehr von einer Expedition auf den neu entdeckten Siebten Kontinent stellst du fest, dass ein finsterer Fluch auf dir lastet. Um zu überleben, musst du auf dieses gefährliche Eiland zurückkehren, Ressourcen sammeln, Werkzeuge herstellen, uralte Mysterien lüften und den Bann brechen, bevor deine Lebensenergie schwindet.",
+  "badgeCategory": "Überlebens- & Erkundungsabenteuer",
+  "roadmapTitle": "🗺️ Expeditionschronik & Fluch-Meilensteine",
+  "roadmapBadge": "EXPEDITION AUF DEM VERFLUCHTEN KONTINENT",
+  "keyFeatures": [
+    "Revolutionäre kartenbasierte offene Welt, die sich Schritt für Schritt organisch entfaltet",
+    "Aktionsdeck-Mechanik, bei der Ausdauer, Lebenskraft und Aktionen dieselbe Ressource teilen",
+    "Geniales Speicher- und Wiederaufnahmesystem für blitzschnellen Auf- und Abbau in Sekunden",
+    "Nicht-lineare Überlebens-Sandbox mit tiefgründigem Sammeln, Jagen, Handwerk und Rätseln"
+  ],
+  "scopes": {
+    "t7c_voracious_goddess": {
+      "name": "Die Gefräßige Göttin (Einzelfluch)",
+      "description": "Die klassische Einstiegsfluch-Kampagne. Reise durch die ungezähmten nördlichen Gefilde, um die dämonische geistige Heimsuchung zu bannen (ca. 8 Expeditionen)."
+    },
+    "t7c_classic_curses": {
+      "name": "Klassische Drei-Flüche-Chronik",
+      "description": "Das vollständige Grundspiel-Erlebnis mit 'Die Gefräßige Göttin', 'Die Blutige Jagd' und 'Ein Opfer für die Wächter' (ca. 20 Expeditionen)."
+    },
+    "t7c_grand_explorer": {
+      "name": "Große Kontinent-Expedition (Alle Flüche)",
+      "description": "Der ultimative Überlebensmarathon, der alle vier ursprünglichen Flüche gleichzeitig oder nacheinander in jedem Winkel des Kontinents herausfordert (ca. 28 Expeditionen)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ankunft",
+      "title": "Gestrandet an verfluchten Küsten",
+      "phase": "Expeditionsphase I - Überlebenserwachen",
+      "description": "Hilflos an den unkartierten Ufern des Kontinents erwachen, erste Werkzeuge fertigen und die ersten kryptischen Hinweise bergen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Inland",
+      "title": "Die flüsternden Monolithen",
+      "phase": "Expeditionsphase II - Vorstoß ins Herz der Gefahr",
+      "description": "Unerbittliche Dschungelpfade durchqueren, kolossale uralte Steinbildnisse entdecken und Glyphen entschlüsseln, die den wahren Ursprung des Fluches offenbaren."
+    },
+    {
+      "order": 3,
+      "badgeText": "Fluch I",
+      "title": "Verbannung der Gefräßigen Göttin",
+      "phase": "Expeditionsphase III - Das erste Reinigungsritual",
+      "description": "Das verbotene Vulkansanktum erreichen, die gefahrvolle Opfergabe darbringen und das verheerende Seelenleiden austreiben."
+    },
+    {
+      "order": 4,
+      "badgeText": "Wächter",
+      "title": "Prüfung der Raubtierjagd",
+      "phase": "Expeditionsphase IV - Bezwinger der Wildnis",
+      "description": "Legendären Kreaturen durch unterirdische Höhlen nachstellen und die titanischen Inselwächter besänftigen."
+    },
+    {
+      "order": 5,
+      "badgeText": "Befreiung",
+      "title": "Bezwinger des Siebten Kontinents",
+      "phase": "Expeditionsphase V - Das Brechen der letzten Fesseln",
+      "description": "Alle dunklen Flüche von deiner Seele tilgen und eine rettende Fluchtroute über das Meer zurück in die Zivilisation erschließen."
+    }
+  ]
+}
