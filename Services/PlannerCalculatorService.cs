@@ -63,20 +63,25 @@ public class PlannerCalculatorService
         double averageSessionHours = Math.Round((scenarioMinutes * scenariosPerMeetup + setupMinutes) / 60.0, 1);
 
         // 4. Milestone scaling and session schedule generation
-        var progressCheckpoints = CreateProgressCheckpoints(totalEstimatedPlays, loc);
-
-        int baselineCount = game.Scopes.FirstOrDefault(s => s.IsRecommended)?.BaseScenarioCount 
-                            ?? scope.BaseScenarioCount;
-        if (baselineCount <= 0) baselineCount = totalEstimatedPlays;
-
-        var scaledCampaignMilestones = new List<GameMilestone>();
+        var activeMilestones = new List<GameMilestone>();
         if (game.Milestones != null && game.Milestones.Count > 0)
         {
-            foreach (var m in game.Milestones)
+            int baselineCount = game.Scopes.FirstOrDefault(s => s.IsRecommended)?.BaseScenarioCount 
+                                ?? scope.BaseScenarioCount;
+            if (baselineCount <= 0) baselineCount = totalEstimatedPlays;
+
+            int prevTarget = 0;
+            foreach (var m in game.Milestones.OrderBy(m => m.Order))
             {
                 double ratio = (double)m.AtScenarioOrGameIndex / baselineCount;
                 int targetIndex = Math.Clamp((int)Math.Round(ratio * totalEstimatedPlays), 1, totalEstimatedPlays);
-                scaledCampaignMilestones.Add(new GameMilestone
+                if (targetIndex <= prevTarget && prevTarget < totalEstimatedPlays)
+                {
+                    targetIndex = prevTarget + 1;
+                }
+                prevTarget = targetIndex;
+
+                activeMilestones.Add(new GameMilestone
                 {
                     Order = m.Order,
                     Title = m.Title,
@@ -88,8 +93,13 @@ public class PlannerCalculatorService
                 });
             }
         }
+        else
+        {
+            // Fallback for games without custom milestones
+            activeMilestones = CreateProgressCheckpoints(totalEstimatedPlays, loc);
+        }
 
-        var sessions = GenerateSessions(input, totalEstimatedPlays, scenariosPerMeetup, averageSessionHours, progressCheckpoints, scaledCampaignMilestones);
+        var sessions = GenerateSessions(input, totalEstimatedPlays, scenariosPerMeetup, averageSessionHours, activeMilestones);
 
         DateTime startDate = input.StartDate;
         DateTime projectedFinishDate = sessions.Count > 0 ? sessions[^1].Date : startDate;
@@ -103,9 +113,9 @@ public class PlannerCalculatorService
         double totalCalendarWeeks = Math.Round(totalCalendarDays / 7.0, 1);
         double totalCalendarMonths = Math.Round(totalCalendarDays / 30.4375, 1);
 
-        // 5. Generic Milestone projections (calculated cleanly from 4 progress checkpoints)
+        // 5. Milestone projections (calculated cleanly from active milestones)
         var milestoneProjections = new List<MilestoneProjection>();
-        foreach (var milestone in progressCheckpoints.OrderBy(m => m.Order))
+        foreach (var milestone in activeMilestones.OrderBy(m => m.Order))
         {
             int targetPlayIndex = milestone.AtScenarioOrGameIndex;
             var matchingSession = sessions.FirstOrDefault(s => s.EndScenarioIndex >= targetPlayIndex) ?? sessions.LastOrDefault();
@@ -115,27 +125,6 @@ public class PlannerCalculatorService
             double hoursSpent = Math.Round(meetupNum * averageSessionHours, 1);
 
             milestoneProjections.Add(new MilestoneProjection
-            {
-                Milestone = milestone,
-                TargetScenarioIndex = targetPlayIndex,
-                EstimatedMeetupNumber = meetupNum,
-                EstimatedDate = milestoneDate,
-                HoursSpentUntilMilestone = hoursSpent
-            });
-        }
-
-        // 6. Campaign Milestone projections (calculated from game-specific campaign milestones)
-        var campaignMilestoneProjections = new List<MilestoneProjection>();
-        foreach (var milestone in scaledCampaignMilestones.OrderBy(m => m.Order))
-        {
-            int targetPlayIndex = milestone.AtScenarioOrGameIndex;
-            var matchingSession = sessions.FirstOrDefault(s => s.EndScenarioIndex >= targetPlayIndex) ?? sessions.LastOrDefault();
-            int meetupNum = matchingSession?.SessionNumber ?? totalMeetups;
-            DateTime milestoneDate = matchingSession?.Date ?? projectedFinishDate;
-
-            double hoursSpent = Math.Round(meetupNum * averageSessionHours, 1);
-
-            campaignMilestoneProjections.Add(new MilestoneProjection
             {
                 Milestone = milestone,
                 TargetScenarioIndex = targetPlayIndex,
@@ -164,7 +153,7 @@ public class PlannerCalculatorService
             TotalCalendarMonths = totalCalendarMonths,
             Sessions = sessions,
             MilestoneProjections = milestoneProjections,
-            CampaignMilestoneProjections = campaignMilestoneProjections
+            CampaignMilestoneProjections = milestoneProjections
         };
     }
 
@@ -243,8 +232,7 @@ public class PlannerCalculatorService
         int totalPlays,
         int scenariosPerMeetup,
         double averageSessionHours,
-        List<GameMilestone> genericCheckpoints,
-        List<GameMilestone> campaignMilestones)
+        List<GameMilestone> milestones)
     {
         var sessions = new List<ScheduledSession>();
         var preferredDays = (input.PreferredDaysOfWeek != null && input.PreferredDaysOfWeek.Any())
@@ -270,15 +258,27 @@ public class PlannerCalculatorService
             int startIdx = currentScenario;
             int endIdx = currentScenario + sessionPlayCount - 1;
 
-            // Find if any generic milestone is reached in this session
-            var genericHit = genericCheckpoints
-                .OrderByDescending(m => m.Order)
-                .FirstOrDefault(m => m.AtScenarioOrGameIndex >= startIdx && m.AtScenarioOrGameIndex <= endIdx);
+            // Find all milestones reached in this session
+            var milestonesHit = milestones
+                .Where(m => m.AtScenarioOrGameIndex >= startIdx && m.AtScenarioOrGameIndex <= endIdx)
+                .OrderBy(m => m.Order)
+                .ToList();
 
-            // Find if any campaign milestone is reached in this session
-            var campaignHit = campaignMilestones
-                .OrderByDescending(m => m.Order)
-                .FirstOrDefault(m => m.AtScenarioOrGameIndex >= startIdx && m.AtScenarioOrGameIndex <= endIdx);
+            var primaryMilestone = milestonesHit.LastOrDefault();
+
+            string? combinedTitle = milestonesHit.Count switch
+            {
+                0 => null,
+                1 => primaryMilestone!.Title,
+                _ => string.Join(" & ", milestonesHit.Select(m => m.Title))
+            };
+
+            string? combinedPhase = milestonesHit.Count switch
+            {
+                0 => null,
+                1 => primaryMilestone!.Phase,
+                _ => string.Join(" / ", milestonesHit.Select(m => m.Phase))
+            };
 
             sessions.Add(new ScheduledSession
             {
@@ -289,13 +289,14 @@ public class PlannerCalculatorService
                 EndScenarioIndex = endIdx,
                 ScenariosPlayedInSession = sessionPlayCount,
                 EstimatedSessionHours = averageSessionHours,
-                GenericMilestoneOrder = genericHit?.Order,
-                MilestoneOrder = campaignHit?.Order ?? genericHit?.Order,
-                MilestoneNote = campaignHit?.Title ?? genericHit?.Title,
-                MilestonePhase = campaignHit?.Phase ?? genericHit?.Phase,
-                CampaignMilestoneOrder = campaignHit?.Order,
-                CampaignMilestoneNote = campaignHit?.Title,
-                CampaignMilestonePhase = campaignHit?.Phase
+                ReachedMilestones = milestonesHit,
+                MilestoneOrder = primaryMilestone?.Order,
+                MilestoneNote = combinedTitle,
+                MilestonePhase = combinedPhase,
+                GenericMilestoneOrder = primaryMilestone?.Order,
+                CampaignMilestoneOrder = primaryMilestone?.Order,
+                CampaignMilestoneNote = combinedTitle,
+                CampaignMilestonePhase = combinedPhase
             });
 
             currentScenario += sessionPlayCount;
@@ -384,26 +385,23 @@ public class PlannerCalculatorService
                 ? loc["Ics.EventDescription", session.SessionNumber, result.Game.Title, result.Scope.Name, session.EstimatedSessionHours.ToString("F1")]
                 : $"Campaign session #{session.SessionNumber} for {result.Game.Title} ({result.Scope.Name}). Estimated play time: {session.EstimatedSessionHours:F1} hrs.";
 
-            if (showSpoilers)
+            if (session.MilestoneOrder != null)
             {
-                string? note = session.CampaignMilestoneNote ?? session.MilestoneNote;
-                string? phase = session.CampaignMilestonePhase ?? session.MilestonePhase;
-                if (!string.IsNullOrEmpty(note))
+                if (showSpoilers && !string.IsNullOrEmpty(session.MilestoneNote))
                 {
                     description += loc != null
-                        ? loc["Ics.EventMilestone", note, phase ?? string.Empty]
-                        : $"\\n🎯 CHECKPOINT: {note} ({phase})";
+                        ? loc["Ics.EventMilestone", session.MilestoneNote, session.MilestonePhase ?? string.Empty]
+                        : $"\\n🎯 CHECKPOINT: {session.MilestoneNote} ({session.MilestonePhase})";
                 }
-            }
-            else
-            {
-                int? order = session.GenericMilestoneOrder ?? session.MilestoneOrder;
-                if (order != null)
+                else
                 {
                     string hiddenNote = loc != null
                         ? loc["Timeline.HiddenMilestoneNote"]
                         : "Campaign Milestone Reached";
-                    description += $"\\n🎯 CHECKPOINT: {hiddenNote} #{order}";
+                    string ordersText = session.ReachedMilestones.Count > 1
+                        ? string.Join(", ", session.ReachedMilestones.Select(m => $"#{m.Order}"))
+                        : $"#{session.MilestoneOrder}";
+                    description += $"\\n🎯 CHECKPOINT: {hiddenNote} {ordersText}";
                 }
             }
 

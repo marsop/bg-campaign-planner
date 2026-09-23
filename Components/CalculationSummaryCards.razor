@@ -78,7 +78,7 @@
         <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
             <span class="fw-bold small text-uppercase text-muted-light">@Loc["Kpi.VelocityTitle"]</span>
             <div class="d-flex align-items-center gap-3">
-                @if (Result.CampaignMilestoneProjections.Any())
+                @if (Result.MilestoneProjections.Any())
                 {
                     <label class="form-check form-switch spoiler-toggle-switch d-inline-flex align-items-center gap-2 mb-0">
                         <input class="form-check-input" type="checkbox" id="velocitySpoilers"
@@ -90,9 +90,7 @@
                     </label>
                 }
                 <span class="small text-muted">
-                    @(ShowSpoilers && Result.CampaignMilestoneProjections.Any()
-                        ? Loc.Get("Kpi.CampaignMilestonesTracked", Result.CampaignMilestoneProjections.Count)
-                        : Loc.Get("Kpi.MilestonesTracked", Result.MilestoneProjections.Count))
+                    @Loc.Get("Kpi.MilestonesTracked", Result.MilestoneProjections.Count)
                 </span>
             </div>
         </div>
@@ -111,7 +109,7 @@
             }
         </div>
 
-        @if (ShowSpoilers && Result.CampaignMilestoneProjections.Any())
+        @if (Result.MilestoneProjections.Any())
         {
             <div class="d-flex justify-content-between text-muted small mb-3">
                 <span><i class="bi bi-play-circle me-1"></i>@Loc["Kpi.Start"]: @Result.StartDate.ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
@@ -121,18 +119,18 @@
             <!-- MILESTONES DISPLAY -->
             <div class="velocity-milestones-container pt-2 border-top border-secondary border-opacity-25">
                 <div class="row g-2">
-                    @foreach (var m in Result.CampaignMilestoneProjections)
+                    @foreach (var m in Result.MilestoneProjections)
                     {
-                        <div class="@GetMilestoneColClass(Result.CampaignMilestoneProjections.Count)">
+                        <div class="@GetMilestoneColClass(Result.MilestoneProjections.Count)">
                             <div class="velocity-milestone-chip p-2 px-3 rounded h-100">
                                 <div class="d-flex align-items-center justify-content-between gap-1 mb-1">
                                     <span class="badge bg-secondary-subtle text-light border border-secondary border-opacity-50" style="font-size: 0.72rem;">
-                                        @m.Milestone.BadgeText
+                                        @(ShowSpoilers ? m.Milestone.BadgeText : Loc["Roadmap.MilestoneBadge"])
                                     </span>
-                                    <span class="fs-6" title="@m.Milestone.BadgeText">@m.Milestone.IconEmoji</span>
+                                    <span class="fs-6" title="@(ShowSpoilers ? m.Milestone.BadgeText : "")">@(ShowSpoilers ? m.Milestone.IconEmoji : "🔒")</span>
                                 </div>
-                                <div class="fw-bold small text-truncate mb-1" title="@m.Milestone.Title">
-                                    @m.Milestone.Title
+                                <div class="fw-bold small text-truncate mb-1" title="@(ShowSpoilers ? m.Milestone.Title : Loc.Get("Roadmap.HiddenTitle", m.Milestone.Order))">
+                                    @(ShowSpoilers ? m.Milestone.Title : Loc.Get("Roadmap.HiddenTitle", m.Milestone.Order))
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center text-muted" style="font-size: 0.75rem;">
                                     <span><i class="bi bi-calendar3 me-1"></i>@m.EstimatedDate.ToString("MMM yyyy", CultureInfo.CurrentCulture)</span>
@@ -165,10 +163,7 @@
     [Parameter]
     public EventCallback<bool> OnToggleSpoilers { get; set; }
 
-    private IReadOnlyList<MilestoneProjection> ActiveMilestones =>
-        (ShowSpoilers && Result.CampaignMilestoneProjections.Any())
-            ? Result.CampaignMilestoneProjections
-            : Result.MilestoneProjections;
+    private IReadOnlyList<MilestoneProjection> ActiveMilestones => Result.MilestoneProjections;
 
     private record VelocitySegment(MilestoneProjection MilestoneProj, double WidthPercent, string ColorClass, string Tooltip);
 

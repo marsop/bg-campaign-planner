@@ -87,10 +87,10 @@
                     <div class="milestone-mobile-badge mt-2 pt-2 border-top border-secondary border-opacity-25 d-flex align-items-center gap-2">
                         <span class="badge bg-warning text-dark flex-shrink-0">@Loc["Timeline.MilestoneBadge"]</span>
                         <div class="text-truncate">
-                            @if (ShowSpoilers && !string.IsNullOrEmpty(session.CampaignMilestoneNote ?? session.MilestoneNote))
+                            @if (ShowSpoilers && !string.IsNullOrEmpty(session.MilestoneNote))
                             {
-                                <strong class="milestone-note-text small">@(session.CampaignMilestoneNote ?? session.MilestoneNote)</strong>
-                                var phase = session.CampaignMilestonePhase ?? session.MilestonePhase;
+                                <strong class="milestone-note-text small">@session.MilestoneNote</strong>
+                                var phase = session.MilestonePhase;
                                 if (!string.IsNullOrEmpty(phase))
                                 {
                                     <span class="small text-muted ms-1">(@phase)</span>
@@ -98,7 +98,10 @@
                             }
                             else
                             {
-                                <strong class="milestone-note-text small">@Loc["Timeline.HiddenMilestoneNote"] #@(session.GenericMilestoneOrder ?? session.MilestoneOrder ?? 1)</strong>
+                                var orderText = session.ReachedMilestones.Count > 1
+                                    ? string.Join(", ", session.ReachedMilestones.Select(m => $"#{m.Order}"))
+                                    : $"#{session.MilestoneOrder}";
+                                <strong class="milestone-note-text small">@Loc["Timeline.HiddenMilestoneNote"] @orderText</strong>
                             }
                         </div>
                     </div>
@@ -148,10 +151,10 @@
                             {
                                 <div class="milestone-table-tag">
                                     <span class="badge bg-warning text-dark me-1">@Loc["Timeline.MilestoneBadge"]</span>
-                                    @if (ShowSpoilers && !string.IsNullOrEmpty(session.CampaignMilestoneNote ?? session.MilestoneNote))
+                                    @if (ShowSpoilers && !string.IsNullOrEmpty(session.MilestoneNote))
                                     {
-                                        <strong class="milestone-note-text">@(session.CampaignMilestoneNote ?? session.MilestoneNote)</strong>
-                                        var phase = session.CampaignMilestonePhase ?? session.MilestonePhase;
+                                        <strong class="milestone-note-text">@session.MilestoneNote</strong>
+                                        var phase = session.MilestonePhase;
                                         if (!string.IsNullOrEmpty(phase))
                                         {
                                             <span class="small text-muted ms-1">(@phase)</span>
@@ -159,7 +162,10 @@
                                     }
                                     else
                                     {
-                                        <strong class="milestone-note-text">@Loc["Timeline.HiddenMilestoneNote"] #@(session.GenericMilestoneOrder ?? session.MilestoneOrder ?? 1)</strong>
+                                        var orderText = session.ReachedMilestones.Count > 1
+                                            ? string.Join(", ", session.ReachedMilestones.Select(m => $"#{m.Order}"))
+                                            : $"#{session.MilestoneOrder}";
+                                        <strong class="milestone-note-text">@Loc["Timeline.HiddenMilestoneNote"] @orderText</strong>
                                     }
                                 </div>
                             }
@@ -234,11 +240,7 @@
 
     private bool IsSessionMilestone(ScheduledSession session)
     {
-        if (ShowSpoilers && Result.CampaignMilestoneProjections.Any())
-        {
-            return session.CampaignMilestoneOrder != null;
-        }
-        return session.GenericMilestoneOrder != null || session.IsMilestoneSession;
+        return session.IsMilestoneSession;
     }
 
     private IEnumerable<ScheduledSession> FilteredSessions =>

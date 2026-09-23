@@ -99,10 +99,7 @@
     [Parameter]
     public EventCallback<bool> OnToggleSpoilers { get; set; }
 
-    private IReadOnlyList<MilestoneProjection> DisplayedMilestones =>
-        (ShowSpoilers && Result.CampaignMilestoneProjections.Any())
-            ? Result.CampaignMilestoneProjections
-            : Result.MilestoneProjections;
+    private IReadOnlyList<MilestoneProjection> DisplayedMilestones => Result.MilestoneProjections;
 
     private static string GetColumnClass(int totalCount) => totalCount switch
     {

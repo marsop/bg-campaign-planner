@@ -58,11 +58,12 @@ public class ScheduledSession
     public int? MilestoneOrder { get; set; }
     public string? MilestoneNote { get; set; }
     public string? MilestonePhase { get; set; }
+    public List<GameMilestone> ReachedMilestones { get; set; } = new();
     public int? GenericMilestoneOrder { get; set; }
     public int? CampaignMilestoneOrder { get; set; }
     public string? CampaignMilestoneNote { get; set; }
     public string? CampaignMilestonePhase { get; set; }
-    public bool IsMilestoneSession => !string.IsNullOrEmpty(MilestoneNote) || CampaignMilestoneOrder != null;
+    public bool IsMilestoneSession => MilestoneOrder != null || ReachedMilestones.Count > 0;
 }
 
 public class MilestoneProjection
