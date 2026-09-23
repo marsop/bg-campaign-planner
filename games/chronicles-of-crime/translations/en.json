@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Chronicles of Crime",
   "subtitle": "An app-driven cooperative criminal investigation series blending physical board play and digital forensics",
   "tagline": "Scan clues, interrogate suspects, and crack London's most baffling cases.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Inquest",
       "title": "The Curzon Exhibition",
       "phase": "Opening Inquest",
       "description": "Analyzing the crime scene at the Curzon Museum and collecting initial forensic evidence."
     },
     {
+      "order": 2,
       "badgeText": "Part I",
       "title": "The Poisoned Rose",
       "phase": "The Cursed Flower - Part I",
       "description": "Tracing suspicious botanical toxins and interrogating estranged family members in West London."
     },
     {
+      "order": 3,
       "badgeText": "Part II",
       "title": "Shadows in the Underground",
       "phase": "The Cursed Flower - Part II",
       "description": "Connecting clandestine black-market networks across the London Underground."
     },
     {
+      "order": 4,
       "badgeText": "Part III",
       "title": "The Broken Syndicate",
       "phase": "The Cursed Flower - Part III",

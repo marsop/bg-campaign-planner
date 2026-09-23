@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Etherfields",
   "subtitle": "Un'esplorazione onirica cooperativa e surreale alla scoperta dei misteri nascosti del subconscio",
   "tagline": "Oltrepassa la realtà, risolvi enigmi onirici e riscopri i tuoi ricordi perduti.",
@@ -28,30 +28,35 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Porta I",
       "title": "Il Risveglio dei Sognatori",
       "phase": "Atto I - Le Porte Sussurranti",
       "description": "Esplorare i primi paesaggi onirici e imparare a orientarsi tra le correnti mutevoli della mappa dei sonni."
     },
     {
+      "order": 2,
       "badgeText": "Porta II",
       "title": "Memorie Frantumate",
       "phase": "Atto II - Ombre del Subconscio",
       "description": "Affrontare maschere inquietanti e traumi rimossi per ricomporre identità personali frammentate."
     },
     {
+      "order": 3,
       "badgeText": "Porta III",
       "title": "Il Labirinto del Pensiero",
       "phase": "Atto III - Il Profondo Surreale",
       "description": "Superare creature bizzarre e labirinti spaziali nei livelli più profondi del sogno condiviso."
     },
     {
+      "order": 4,
       "badgeText": "Porta IV",
       "title": "I Tessitori del Fato",
       "phase": "Atto IV - Confronto con i Tessitori",
       "description": "Sfidare le enigmatiche entità che manipolano le menti dormienti attraverso il continuum del sogno."
     },
     {
+      "order": 5,
       "badgeText": "Risveglio",
       "title": "La Lucida Risoluzione",
       "phase": "Atto V - Il Grande Risveglio",

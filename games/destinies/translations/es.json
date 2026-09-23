@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Destinies",
   "subtitle": "Un juego narrativo competitivo de oscura fantasía medieval y destinos entrelazados",
   "tagline": "Forja tu propio camino, desentraña oscuros secretos y cumple tu destino.",
@@ -28,30 +28,35 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Intro",
       "title": "La Naturaleza de la Bestia",
       "phase": "Prólogo - La Bestia de Braniewo",
       "description": "Investigación de rumores inquietantes y aterradores avistamientos que asolan la apartada aldea fronteriza de Braniewo."
     },
     {
+      "order": 2,
       "badgeText": "Cap. 1",
       "title": "La Espada de la Doncella",
       "phase": "Acto I - La Reliquia de la Doncella",
       "description": "Búsqueda de una espada sagrada legendaria y desenterramiento de secretos ancestrales en ruinas olvidadas."
     },
     {
+      "order": 3,
       "badgeText": "Cap. 2",
       "title": "No Todo lo que Brilla",
       "phase": "Acto II - Avaricia y Traición",
       "description": "Maniobras en tratos mercantiles corruptos, maldiciones murmuradas y alianzas traicioneras en busca de poder."
     },
     {
+      "order": 4,
       "badgeText": "Cap. 3",
       "title": "La Rosa Sangrante",
       "phase": "Acto III - Juramentos de Espinas",
       "description": "Lealtades enredadas y antiguas maldiciones salen a la luz mientras los destinos personales colisionan inexorablemente."
     },
     {
+      "order": 5,
       "badgeText": "Final",
       "title": "El Juicio Final",
       "phase": "Acto IV - La Culminación del Destino",

@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Cloudspire",
   "subtitle": "Eine strategische, asymmetrische Tower-Defense- und MOBA-Kampagne über den Himmelsinseln von Ankar",
   "tagline": "Errichte Verteidigungstürme, entsende Diener und beherrsche die ungebändigte Macht der Quelle.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Saga I",
       "title": "Die Brawnen-Vorhut",
       "phase": "Fraktionssaga I - Eiserner Wille",
       "description": "Kommando über die gewaltigen Belagerungstruppen der Brawnen zur Sicherung der Quellfestung gegen Überfälle."
     },
     {
+      "order": 2,
       "badgeText": "Saga II",
       "title": "Die Uhrwerk-Bastion",
       "phase": "Fraktionssaga II - Hephaestus' Aufstieg",
       "description": "Nutzung dampfgetriebener Ingenieurskunst und automatisierter Ballisten der Hephaestus zur Beherrschung der Inseln."
     },
     {
+      "order": 3,
       "badgeText": "Saga III",
       "title": "Das Himmlische Blätterdach",
       "phase": "Fraktionssaga III - Narora-Glanz",
       "description": "Bündelung der ätherischen Kristallenergien der Narora, um Hinterhalte im Urwald geschickt zu vereiteln."
     },
     {
+      "order": 4,
       "badgeText": "Saga IV",
       "title": "Die Abrechnung der Grievance",
       "phase": "Fraktionssaga IV - Schatten der Tiefe",

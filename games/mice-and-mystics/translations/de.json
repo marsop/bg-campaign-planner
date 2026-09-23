@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Mice and Mystics",
   "subtitle": "Ein kooperatives Märchenbuch-Abenteuer über mutige Mäusehelden zur Rettung eines bedrohten Königreichs",
   "tagline": "Schlüpfe in das Fell tapferer Mäuse, trotze Schlossgefahren und rette den König.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Akt I",
       "title": "Flucht aus dem Verlies",
       "phase": "Akt I - Der Große Ausbruch",
       "description": "Entkommen aus dem finsteren Schlosskerker durch Abwasserrohre und Schleichen durch den Burghof."
     },
     {
+      "order": 2,
       "badgeText": "Akt II",
       "title": "Flüstern in der Schmiede",
       "phase": "Akt II - Verbündete im Schatten",
       "description": "Schmieden von Allianzen mit Burgbewohnern, Ausweichen der lauernden Katze Brodie und Bergen von Relikten."
     },
     {
+      "order": 3,
       "badgeText": "Akt III",
       "title": "Infiltration des Labors",
       "phase": "Akt III - Vanestras Zauberei",
       "description": "Eindringen in Vanestras alchemistische Kammern zur Suche nach einem Gegenzauber gegen die Tiergestalt."
     },
     {
+      "order": 4,
       "badgeText": "Finale",
       "title": "Die Erlösung des Königs",
       "phase": "Akt IV - Sieg über die Tyrannei",

@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Destinies",
   "subtitle": "Un jeu narratif compétitif de dark fantasy médiévale et de destins personnels croisés",
   "tagline": "Tracez votre voie, découvrez de sombres secrets et accomplissez votre destinée.",
@@ -28,30 +28,35 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Intro",
       "title": "La Nature de la Bête",
       "phase": "Prologue - La Bête de Braniewo",
       "description": "Enquête sur les rumeurs terrifiantes et les apparitions monstrueuses terrorisant le hameau frontalier de Braniewo."
     },
     {
+      "order": 2,
       "badgeText": "Ch. 1",
       "title": "L'Épée de la Pucelle",
       "phase": "Acte I - La Relique de la Pucelle",
       "description": "Recherche d'une lame sacrée légendaire et exploration de secrets oubliés dans des cryptes séculaires."
     },
     {
+      "order": 3,
       "badgeText": "Ch. 2",
       "title": "Tout ce qui Brille",
       "phase": "Acte II - Avidité et Trahison",
       "description": "Négociations marchandes douteuses, malédictions murmurées et complots perfides en quête d'influence."
     },
     {
+      "order": 4,
       "badgeText": "Ch. 3",
       "title": "La Rose Sanglante",
       "phase": "Acte III - Serments d'Épines",
       "description": "Fidélités équivoques et malédictions séculaires éclatent au grand jour alors que les destins des héros s'entrechoquent."
     },
     {
+      "order": 5,
       "badgeText": "Finale",
       "title": "Le Jugement Dernier",
       "phase": "Acte IV - L'Accomplissement du Destin",

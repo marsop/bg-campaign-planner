@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Cloudspire",
   "subtitle": "Una campaña estratégica y asimétrica de defensa de torres y MOBA en las islas flotantes de Ankar",
   "tagline": "Construye agujas defensivas, despliega esbirros únicos y domina el poder del Manantial.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Saga I",
       "title": "La Vanguardia Brawnen",
       "phase": "Saga de Facción I - Voluntad de Hierro",
       "description": "Dirigir las colosales unidades de asedio Brawnen y asegurar la fortaleza del Manantial contra incursiones enemigas."
     },
     {
+      "order": 2,
       "badgeText": "Saga II",
       "title": "El Bastión de Engranajes",
       "phase": "Saga de Facción II - El Ascenso de Hephaestus",
       "description": "Aprovechar la ingeniería de vapor y las balistas automatizadas de Hephaestus para dominar los cielos isleños."
     },
     {
+      "order": 3,
       "badgeText": "Saga III",
       "title": "El Dosel Celestial",
       "phase": "Saga de Facción III - El Resplandor Narora",
       "description": "Canalizar la energía cristalina etérea de los Narora para neutralizar las emboscadas en la frondosidad salvaje."
     },
     {
+      "order": 4,
       "badgeText": "Saga IV",
       "title": "La Venganza de los Grievance",
       "phase": "Saga de Facción IV - Sombras Subterráneas",

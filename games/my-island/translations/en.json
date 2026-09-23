@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "My Island",
   "subtitle": "A competitive legacy hexagonal tile-placement campaign developing a thriving tropical paradise",
   "tagline": "Chart your island, place hexagonal settlements, and uncover secrets through eight evolving eras.",
@@ -28,48 +28,56 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Ch. 1",
       "title": "The First Houses",
       "phase": "Chapter 1 - Beachhead Settlement",
       "description": "Establishing initial dwellings along the shoreline of the uncharted island."
     },
     {
+      "order": 2,
       "badgeText": "Ch. 2",
       "title": "The Paths",
       "phase": "Chapter 2 - Island Navigation",
       "description": "Paving interconnected trails through inland groves to connect dispersed homesteads."
     },
     {
+      "order": 3,
       "badgeText": "Ch. 3",
       "title": "The Palms & Fields",
       "phase": "Chapter 3 - Tropical Cultivation",
       "description": "Cultivating fertile agricultural plots and harvesting native palm groves."
     },
     {
+      "order": 4,
       "badgeText": "Ch. 4",
       "title": "The Protective Walls",
       "phase": "Chapter 4 - Fortress Boundaries",
       "description": "Erecting stone barriers to demarcate territories and shelter residential sectors."
     },
     {
+      "order": 5,
       "badgeText": "Ch. 5",
       "title": "The Ancient Statues",
       "phase": "Chapter 5 - Monumental Relics",
       "description": "Unearthing forgotten island sculptures and building ceremonial complexes."
     },
     {
+      "order": 6,
       "badgeText": "Ch. 6",
       "title": "The Village Center",
       "phase": "Chapter 6 - Civic Heart",
       "description": "Developing bustling community centers and organizing dense neighborhood quarters."
     },
     {
+      "order": 7,
       "badgeText": "Ch. 7",
       "title": "The Enclosed Gardens",
       "phase": "Chapter 7 - Botanical Sanctuaries",
       "description": "Designing walled gardens and harmonic botanical sanctuaries across the island interior."
     },
     {
+      "order": 8,
       "badgeText": "Ch. 8",
       "title": "The Forgotten Island",
       "phase": "Chapter 8 - The Final Paradise",

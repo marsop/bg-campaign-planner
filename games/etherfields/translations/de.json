@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Etherfields",
   "subtitle": "Ein surreales, kooperatives narratives Dream-Crawler-Erlebnis auf der Spur verborgener Traumgeheimnisse",
   "tagline": "Überschreite die Realität, löse surreale Rätsel und erlange verlorene Erinnerungen zurück.",
@@ -28,30 +28,35 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Tor I",
       "title": "Das Erwachen der Träumer",
       "phase": "Akt I - Die Flüsternden Pforten",
       "description": "Erkunden der ersten surrealen Traumlandschaften und Meistern der wechselhaften Strömungen auf der Schlummerkarte."
     },
     {
+      "order": 2,
       "badgeText": "Tor II",
       "title": "Gebrochene Erinnerungen",
       "phase": "Akt II - Schatten des Unterbewusstseins",
       "description": "Konfrontation mit unheimlichen Masken und vergrabenen Traumata zur Wiederherstellung zersplitterter Identitäten."
     },
     {
+      "order": 3,
       "badgeText": "Tor III",
       "title": "Das Labyrinth der Gedanken",
       "phase": "Akt III - Die Surreale Tiefe",
       "description": "Überwindung rätselhafter Wesenheiten und verworrener Raumpuzzles in den tiefsten Schichten des kollektiven Traums."
     },
     {
+      "order": 4,
       "badgeText": "Tor IV",
       "title": "Die Schicksalsweber",
       "phase": "Akt IV - Gegenüberstellung mit den Webern",
       "description": "Herausforderung der rätselhaften Schöpfer, die schlummernde Gedanken im Traumkontinuum manipulieren."
     },
     {
+      "order": 5,
       "badgeText": "Erwachen",
       "title": "Die Finale Klarheit",
       "phase": "Akt V - Das Große Erwachen",

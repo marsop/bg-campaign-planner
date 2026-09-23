@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "My Island",
   "subtitle": "Una campaña competitiva legacy de colocación de losetas hexagonales para colonizar un paraíso tropical",
   "tagline": "Explora tu isla, coloca asentamientos hexagonales y revela misterios a lo largo de ocho eras.",
@@ -28,48 +28,56 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Cap. 1",
       "title": "Las Primeras Casas",
       "phase": "Capítulo 1 - Asentamiento Costero",
       "description": "Construcción de las primeras viviendas a lo largo del litoral de la isla virgen."
     },
     {
+      "order": 2,
       "badgeText": "Cap. 2",
       "title": "Los Senderos",
       "phase": "Capítulo 2 - Rutas de la Isla",
       "description": "Trazado de caminos intercomunicados a través de las arboledas para conectar los hogares dispersos."
     },
     {
+      "order": 3,
       "badgeText": "Cap. 3",
       "title": "Palmeras y Campos",
       "phase": "Capítulo 3 - Cultivo Tropical",
       "description": "Cultivo de fértiles parcelas agrícolas y aprovechamiento de los palmerales autóctonos."
     },
     {
+      "order": 4,
       "badgeText": "Cap. 4",
       "title": "Las Murallas Protectoras",
       "phase": "Capítulo 4 - Límites Amurallados",
       "description": "Alzamiento de muros de piedra para delimitar territorios y resguardar las zonas residenciales."
     },
     {
+      "order": 5,
       "badgeText": "Cap. 5",
       "title": "Las Estatuas Ancestrales",
       "phase": "Capítulo 5 - Reliquias Monumentales",
       "description": "Descubrimiento de esculturas olvidadas de la isla y edificación de recintos ceremoniales."
     },
     {
+      "order": 6,
       "badgeText": "Cap. 6",
       "title": "El Centro de la Aldea",
       "phase": "Capítulo 6 - Corazón Cívico",
       "description": "Desarrollo de concurridos núcleos comunitarios y ordenación de vecindarios organizados."
     },
     {
+      "order": 7,
       "badgeText": "Cap. 7",
       "title": "Los Jardines Cerrados",
       "phase": "Capítulo 7 - Santuarios Botánicos",
       "description": "Diseño de vergeles amurallados y armoniosos santuarios vegetales en el interior de la isla."
     },
     {
+      "order": 8,
       "badgeText": "Cap. 8",
       "title": "La Isla Olvidada",
       "phase": "Capítulo 8 - El Paraíso Definitivo",

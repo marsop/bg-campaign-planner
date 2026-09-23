@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Etherfields",
   "subtitle": "Un juego narrativo cooperativo y surrealista de exploración onírica y secretos del subconsciente",
   "tagline": "Traspasa la realidad, resuelve enigmas oníricos y recupera tus recuerdos perdidos.",
@@ -28,30 +28,35 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Puerta I",
       "title": "El Despertar de los Soñadores",
       "phase": "Acto I - Las Puertas Susurrantes",
       "description": "Desentrañar los primeros paisajes oníricos y aprender a sortear las corrientes cambiantes del mapa de letargos."
     },
     {
+      "order": 2,
       "badgeText": "Puerta II",
       "title": "Recuerdos Fracturados",
       "phase": "Acto II - Sombras del Subconsciente",
       "description": "Afrontar máscaras inquietantes y traumas sepultados para recomponer identidades personales fragmentadas."
     },
     {
+      "order": 3,
       "badgeText": "Puerta III",
       "title": "El Laberinto del Pensamiento",
       "phase": "Acto III - La Profundidad Surreal",
       "description": "Superar entidades quiméricas y distorsiones espaciales en los estratos más profundos del sueño colectivo."
     },
     {
+      "order": 4,
       "badgeText": "Puerta IV",
       "title": "Los Tejedores del Destino",
       "phase": "Acto IV - Confrontación con los Tejedores",
       "description": "Desafiar a las enigmáticas entidades que manipulan las mentes dormidas a través del continuo onírico."
     },
     {
+      "order": 5,
       "badgeText": "Despertar",
       "title": "La Lucidez Final",
       "phase": "Acto V - El Gran Despertar",

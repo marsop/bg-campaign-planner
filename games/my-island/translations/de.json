@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "My Island",
   "subtitle": "Eine kompetitive Legacy-Kampagne mit Sechseck-Plättchen zur Erschließung eines blühenden Tropenparadieses",
   "tagline": "Erkunde deine Insel, platziere sechseckige Siedlungen und lüfte Geheimnisse über acht Epochen.",
@@ -28,48 +28,56 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Kap. 1",
       "title": "Die Ersten Häuser",
       "phase": "Kapitel 1 - Küstenbesiedlung",
       "description": "Errichtung der ersten Unterkünfte entlang der unberührten Küste der unbekannten Insel."
     },
     {
+      "order": 2,
       "badgeText": "Kap. 2",
       "title": "Die Wege",
       "phase": "Kapitel 2 - Inselwege",
       "description": "Anlegen zusammenhängender Pfade durch Palmenhaine zur Verbindung verstreuter Gehöfte."
     },
     {
+      "order": 3,
       "badgeText": "Kap. 3",
       "title": "Palmen & Felder",
       "phase": "Kapitel 3 - Tropischer Anbau",
       "description": "Kultivierung fruchtbarer Parzellen und Erschließung einheimischer Palmenbestände."
     },
     {
+      "order": 4,
       "badgeText": "Kap. 4",
       "title": "Die Schutzmauern",
       "phase": "Kapitel 4 - Wehrhafte Grenzen",
       "description": "Bau von Steinmauern zur Grenzsicherung und zum Schutz der Wohngebiete."
     },
     {
+      "order": 5,
       "badgeText": "Kap. 5",
       "title": "Die Antiken Statuen",
       "phase": "Kapitel 5 - Monumentale Relikte",
       "description": "Ausgrabung vergessener Inselstatuen und Errichtung zeremonieller Stätten."
     },
     {
+      "order": 6,
       "badgeText": "Kap. 6",
       "title": "Das Dorfzentrum",
       "phase": "Kapitel 6 - Das Lebendige Zentrum",
       "description": "Ausbau lebendiger Gemeindebezirke und Strukturierung dicht besiedelter Nachbarschaften."
     },
     {
+      "order": 7,
       "badgeText": "Kap. 7",
       "title": "Die Umfriedeten Gärten",
       "phase": "Kapitel 7 - Botanische Oasen",
       "description": "Gestaltung ummauerter Gartenanlagen und harmonischer Oasen im Landesinneren."
     },
     {
+      "order": 8,
       "badgeText": "Kap. 8",
       "title": "Die Vergessene Insel",
       "phase": "Kapitel 8 - Das Vollendete Paradies",

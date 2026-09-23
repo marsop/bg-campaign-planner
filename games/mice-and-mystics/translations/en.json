@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Mice and Mystics",
   "subtitle": "A cooperative storybook adventure of miniature rodent heroes saving a fractured kingdom",
   "tagline": "Play as heroic mice, brave the castle hazards, and save the afflicted King.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Act I",
       "title": "Flight from the Dungeon",
       "phase": "Act I - The Great Escape",
       "description": "Escaping the grim castle dungeons through sewer pipes and navigating the courtyard shadows."
     },
     {
+      "order": 2,
       "badgeText": "Act II",
       "title": "Whispers of the Forge",
       "phase": "Act II - Allies in the Shadows",
       "description": "Forging alliances with castle critters, evading the prowling kitchen cat Brodie, and gathering ancient relics."
     },
     {
+      "order": 3,
       "badgeText": "Act III",
       "title": "Infiltrating the Laboratory",
       "phase": "Act III - Vanestra's Sorcery",
       "description": "Infiltrating Vanestra's alchemical laboratories to uncover the secret to reversing the rodent transformation."
     },
     {
+      "order": 4,
       "badgeText": "Finale",
       "title": "The King's Deliverance",
       "phase": "Act IV - Triumph Over Tyranny",

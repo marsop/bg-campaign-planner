@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Mice and Mystics",
   "subtitle": "Una entrañable aventura narrativa de héroes convertidos en ratones para salvar un reino asediado",
   "tagline": "Encarna a valerosos ratones, supera los peligros del castillo y salva al Rey.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Acto I",
       "title": "Huida de las Mazmorras",
       "phase": "Acto I - La Gran Evasión",
       "description": "Escapar de los sombríos calabozos a través de las tuberías y cruzar las sombras del patio de armas."
     },
     {
+      "order": 2,
       "badgeText": "Acto II",
       "title": "Susurros en la Forja",
       "phase": "Acto II - Aliados en las Sombras",
       "description": "Forjar alianzas con criaturas del castillo, eludir al merodeador gato Brodie y reunir reliquias ancestrales."
     },
     {
+      "order": 3,
       "badgeText": "Acto III",
       "title": "Infiltración en el Laboratorio",
       "phase": "Acto III - La Brujería de Vanestra",
       "description": "Infiltrarse en los laboratorios alquímicos de Vanestra para hallar la fórmula que revierta el encantamiento."
     },
     {
+      "order": 4,
       "badgeText": "Final",
       "title": "La Liberación del Rey",
       "phase": "Acto IV - Triunfo Sobre la Tiranía",

@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "My Island",
   "subtitle": "Une campagne compétitive legacy de pose de tuiles hexagonales bâtissant un paradis tropical prospère",
   "tagline": "Explorez votre île, bâtissez des colonies hexagonales et levez le voile sur huit ères mystérieuses.",
@@ -28,48 +28,56 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Ch. 1",
       "title": "Les Premières Habitations",
       "phase": "Chapitre 1 - Établissement Côtier",
       "description": "Construction des premiers logis le long du rivage immaculé de l'île vierge."
     },
     {
+      "order": 2,
       "badgeText": "Ch. 2",
       "title": "Les Sentiers",
       "phase": "Chapitre 2 - Voies de Communication",
       "description": "Aménagement de chemins interconnectés à travers les bosquets pour relier les foyers isolés."
     },
     {
+      "order": 3,
       "badgeText": "Ch. 3",
       "title": "Palmiers et Cultures",
       "phase": "Chapitre 3 - Culture Tropicale",
       "description": "Mise en valeur de parcelles agricoles fertiles et récolte des palmeraies indigènes."
     },
     {
+      "order": 4,
       "badgeText": "Ch. 4",
       "title": "Les Murailles Protectrices",
       "phase": "Chapitre 4 - Enceintes Fortifiées",
       "description": "Élévation de murs en pierre pour délimiter les quartiers et abriter les habitations."
     },
     {
+      "order": 5,
       "badgeText": "Ch. 5",
       "title": "Les Statues Antiques",
       "phase": "Chapitre 5 - Reliques Monumentales",
       "description": "Exhumation de sculptures mystiques oubliées et élévation de sanctuaires cérémoniels."
     },
     {
+      "order": 6,
       "badgeText": "Ch. 6",
       "title": "Le Cœur du Village",
       "phase": "Chapitre 6 - Centre Civique",
       "description": "Développement de places communautaires vivantes et structuration d'îlots résidentiels denses."
     },
     {
+      "order": 7,
       "badgeText": "Ch. 7",
       "title": "Les Jardins Clos",
       "phase": "Chapitre 7 - Sanctuaires Végétaux",
       "description": "Création d'espaces arborés ceints de murs et de refuges botaniques au centre de l'île."
     },
     {
+      "order": 8,
       "badgeText": "Ch. 8",
       "title": "L'Île Oubliée",
       "phase": "Chapitre 8 - Le Paradis Retrouvé",

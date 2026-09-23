@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Perseverance: Castaway Chronicles",
   "subtitle": "Eine epische Saga über Überleben, Gemeinschaftsbau und Dinosaurier-Abwehr auf einer urzeitlichen Insel",
   "tagline": "Errichte deine Kolonie, befestige die Mauern und zähme die urzeitliche Wildnis.",
@@ -32,24 +32,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Ep. 1 - T. 1",
       "title": "Der Küstenperimeter",
       "phase": "Episode 1 - Erste Verteidigungslinie",
       "description": "Errichtung schützender Palisaden und Abwehr der ersten Dinosaurier-Wellen entlang der Küste."
     },
     {
+      "order": 2,
       "badgeText": "Ep. 1 - Finale",
       "title": "Die Erste Versammlung",
       "phase": "Episode 1 - Gründung der Siedlung",
       "description": "Gründung ziviler Fraktionen und Wahl des ersten Rats zur Steuerung des Koloniewachstums."
     },
     {
+      "order": 3,
       "badgeText": "Ep. 2 - T. 1",
       "title": "Die Bestienflüsterer",
       "phase": "Episode 2 - Zähmung der Urzeitfauna",
       "description": "Zähmung einheimischer Saurier und gefahrvolle Expeditionen in unbekannte Dschungelsektoren."
     },
     {
+      "order": 4,
       "badgeText": "Ep. 2 - Finale",
       "title": "Die Souveräne Zitadelle",
       "phase": "Episode 2 - Höhepunkt",

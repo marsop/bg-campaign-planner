@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Destinies",
   "subtitle": "Ein kompetitives, narratives Brettspiel voller düsterer mittelalterlicher Fantasy und persönlicher Schicksale",
   "tagline": "Schmiede deinen Pfad, lüfte düstere Geheimnisse und erfülle dein vorbestimmtes Schicksal.",
@@ -28,30 +28,35 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Intro",
       "title": "Die Natur der Bestie",
       "phase": "Prolog - Die Bestie von Braniewo",
       "description": "Untersuchung finsterer Gerüchte und schrecklicher Sichtungen im abgelegenen Grenzdorf Braniewo."
     },
     {
+      "order": 2,
       "badgeText": "Kap. 1",
       "title": "Das Schwert der Jungfrau",
       "phase": "Akt I - Das Relikt der Jungfrau",
       "description": "Suche nach einer legendären geheiligten Klinge und Aufdecken uralter Ahnengeheimnisse in verfallenen Ruinen."
     },
     {
+      "order": 3,
       "badgeText": "Kap. 2",
       "title": "Nicht alles, was glänzt",
       "phase": "Akt II - Gier und Verrat",
       "description": "Verhandlung korrupter Handelsabkommen, geflüsterter Flüche und trügerischer Allianzen im Streben nach Macht."
     },
     {
+      "order": 4,
       "badgeText": "Kap. 3",
       "title": "Die blutende Rose",
       "phase": "Akt III - Dornenschwüre",
       "description": "Verstrickte Loyalitäten und alte Flüche treten zutage, während die Schicksale der Helden unaufhaltsam aufeinanderprallen."
     },
     {
+      "order": 5,
       "badgeText": "Finale",
       "title": "Das Jüngste Gericht",
       "phase": "Akt IV - Vollendung des Schicksals",

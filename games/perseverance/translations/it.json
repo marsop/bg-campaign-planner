@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Perseverance: Castaway Chronicles",
   "subtitle": "Un'epopea di sopravvivenza, fondazione comunitaria e difesa dai dinosauri su un'isola ancestrale",
   "tagline": "Costruisci la tua colonia, presidia le mura e doma le creature primordiali.",
@@ -32,24 +32,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Ep. 1 - P. 1",
       "title": "Il Perimetro Costiero",
       "phase": "Episodio 1 - Prime Difese",
       "description": "Costruzione di palizzate protettive e contenimento delle prime ondate di dinosauri lungo il litorale."
     },
     {
+      "order": 2,
       "badgeText": "Ep. 1 - Finale",
       "title": "La Prima Assemblea",
       "phase": "Episodio 1 - Fondazione dell'Insediamento",
       "description": "Istituzione delle fazioni civiche ed elezione del consiglio inaugurale per guidare la crescita della comunità."
     },
     {
+      "order": 3,
       "badgeText": "Ep. 2 - P. 1",
       "title": "I Domatori di Dinosauri",
       "phase": "Episodio 2 - Addomesticamento della Fauna",
       "description": "Addomesticamento dei rettili indigeni e pericolose esplorazioni nei settori inesplorati della giungla ancestrale."
     },
     {
+      "order": 4,
       "badgeText": "Ep. 2 - Finale",
       "title": "La Cittadella Sovrana",
       "phase": "Episodio 2 - Apice",

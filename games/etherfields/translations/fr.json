@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Etherfields",
   "subtitle": "Une exploration onirique coopérative et surréaliste perçant les mystères enfouis du subconscient",
   "tagline": "Franchissez les frontières du réel, résolvez des énigmes oniriques et recouvrez vos souvenirs.",
@@ -28,30 +28,35 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Porte I",
       "title": "L'Éveil des Rêveurs",
       "phase": "Acte I - Les Portes Murmurantes",
       "description": "Apprivoiser les premiers paysages oniriques et naviguer sur les courants changeants de la carte des sommeils."
     },
     {
+      "order": 2,
       "badgeText": "Porte II",
       "title": "Souvenirs Fracturés",
       "phase": "Acte II - Ombres du Subconscient",
       "description": "Affronter des masques troublants et des traumatismes enfouis pour recomposer des identités morcelées."
     },
     {
+      "order": 3,
       "badgeText": "Porte III",
       "title": "Le Labyrinthe des Pensées",
       "phase": "Acte III - Les Profondeurs Surréalistes",
       "description": "Surmonter des entités bizarres et des distorsions spatiales dans les strates les plus profondes du rêve collectif."
     },
     {
+      "order": 4,
       "badgeText": "Porte IV",
       "title": "Les Tisserands du Destin",
       "phase": "Acte IV - Confrontation avec les Tisserands",
       "description": "Défier les créateurs énigmatiques qui manipulent les esprits assoupis à travers le continuum des songes."
     },
     {
+      "order": 5,
       "badgeText": "Éveil",
       "title": "La Lucidité Finale",
       "phase": "Acte V - Le Grand Éveil",

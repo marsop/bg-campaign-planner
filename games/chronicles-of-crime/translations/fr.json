@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Chronicles of Crime",
   "subtitle": "Une série d'enquêtes criminelles coopérative avec application mêlant matériel physique et police scientifique numérique",
   "tagline": "Scannez des indices, interrogez des suspects et élucidez les crimes les plus complexes de Londres.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Constat",
       "title": "L'Exposition Curzon",
       "phase": "Constat Initial",
       "description": "Analyse de la scène de crime au musée Curzon et collecte des premiers indices matériels."
     },
     {
+      "order": 2,
       "badgeText": "Partie I",
       "title": "La Rose Empoisonnée",
       "phase": "La Fleur Maudite - Partie I",
       "description": "Pistage de toxines végétales suspectes et audition de proches en conflit dans l'ouest londonien."
     },
     {
+      "order": 3,
       "badgeText": "Partie II",
       "title": "Ombres dans le Métro",
       "phase": "La Fleur Maudite - Partie II",
       "description": "Remontée des filières clandestines et des trafics souterrains dans le métro de Londres."
     },
     {
+      "order": 4,
       "badgeText": "Partie III",
       "title": "La Chute du Syndicat",
       "phase": "La Fleur Maudite - Partie III",

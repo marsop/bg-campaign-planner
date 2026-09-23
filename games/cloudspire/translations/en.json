@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Cloudspire",
   "subtitle": "A strategic asymmetrical tower-defense MOBA campaign across the floating sky islands of Ankar",
   "tagline": "Build your spires, deploy unique faction minions, and control the raw power of the Source.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Saga I",
       "title": "The Brawnen Vanguard",
       "phase": "Faction Saga I - Iron Resolve",
       "description": "Commanding the mighty Brawnen siege units and securing the source fortress against hostile incursions."
     },
     {
+      "order": 2,
       "badgeText": "Saga II",
       "title": "The Clockwork Bastion",
       "phase": "Faction Saga II - Hephaestus Ascendant",
       "description": "Harnessing the steam-powered engineering and automated ballistas of Hephaestus to hold the sky islands."
     },
     {
+      "order": 3,
       "badgeText": "Saga III",
       "title": "The Celestial Canopy",
       "phase": "Faction Saga III - Narora Radiance",
       "description": "Channeling the ethereal crystalline energies of the Narora to outmaneuver deep-forest incursions."
     },
     {
+      "order": 4,
       "badgeText": "Saga IV",
       "title": "The Grievance Reckoning",
       "phase": "Faction Saga IV - Subterranean Shadows",

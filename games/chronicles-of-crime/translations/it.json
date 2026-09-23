@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Chronicles of Crime",
   "subtitle": "Una serie cooperativa di indagine criminale guidata da app che unisce gioco da tavolo e investigazione scientifica",
   "tagline": "Scansiona indizi, interroga testimoni e risolvi i delitti più complessi di Londra.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Rilievo",
       "title": "L'Esposizione Curzon",
       "phase": "Rilievo Preliminare",
       "description": "Analisi della scena del crimine al Museo Curzon e raccolta dei primi reperti forensi."
     },
     {
+      "order": 2,
       "badgeText": "Parte I",
       "title": "La Rosa Avvelenata",
       "phase": "Il Fiore Maledetto - Parte I",
       "description": "Identificazione di veleni botanici sospetti e interrogatori a familiari rancorosi a West London."
     },
     {
+      "order": 3,
       "badgeText": "Parte II",
       "title": "Ombre nella Metropolitana",
       "phase": "Il Fiore Maledetto - Parte II",
       "description": "Tracciamento dei canali clandestini del mercato nero nella metropolitana di Londra."
     },
     {
+      "order": 4,
       "badgeText": "Parte III",
       "title": "La Caduta del Sindacato",
       "phase": "Il Fiore Maledetto - Parte III",

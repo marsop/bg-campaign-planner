@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "My Island",
   "subtitle": "Una campagna legacy competitiva di piazzamento tessere esagonali per fondare un florido paradiso tropicale",
   "tagline": "Esplora la tua isola, piazza insediamenti esagonali e rivela segreti attraverso otto ere evolutive.",
@@ -28,48 +28,56 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Cap. 1",
       "title": "Le Prime Case",
       "phase": "Capitolo 1 - Insediamento Costiero",
       "description": "Costruzione delle prime dimore lungo il litorale incontaminato dell'isola sconosciuta."
     },
     {
+      "order": 2,
       "badgeText": "Cap. 2",
       "title": "I Sentieri",
       "phase": "Capitolo 2 - Vie di Comunicazione",
       "description": "Tracciamento di sentieri tra i boschi per collegare le case coloniche sparse nell'isola."
     },
     {
+      "order": 3,
       "badgeText": "Cap. 3",
       "title": "Palme e Campi",
       "phase": "Capitolo 3 - Coltivazione Tropicale",
       "description": "Coltivazione di fertili appezzamenti agricoli e raccolta delle noci dai palmeti autoctoni."
     },
     {
+      "order": 4,
       "badgeText": "Cap. 4",
       "title": "Le Mura Protettive",
       "phase": "Capitolo 4 - Confini Fortificati",
       "description": "Erezione di muretti in pietra per delimitare i territori e proteggere le zone residenziali."
     },
     {
+      "order": 5,
       "badgeText": "Cap. 5",
       "title": "Le Statue Antiche",
       "phase": "Capitolo 5 - Reliquie Monumentali",
       "description": "Ritrovamento di enigmatiche sculture dimenticate e costruzione di complessi cerimoniali."
     },
     {
+      "order": 6,
       "badgeText": "Cap. 6",
       "title": "Il Centro del Villaggio",
       "phase": "Capitolo 6 - Cuore Civico",
       "description": "Sviluppo di piazze comunitarie e strutturazione di quartieri residenziali densamente popolati."
     },
     {
+      "order": 7,
       "badgeText": "Cap. 7",
       "title": "I Giardini Recintati",
       "phase": "Capitolo 7 - Santuari Botanici",
       "description": "Creazione di giardini cinti da mura e oasi botaniche armoniose nel cuore dell'isola."
     },
     {
+      "order": 8,
       "badgeText": "Cap. 8",
       "title": "L'Isola Dimenticata",
       "phase": "Capitolo 8 - Il Paradiso Compiuto",

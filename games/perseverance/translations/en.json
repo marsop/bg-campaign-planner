@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Perseverance: Castaway Chronicles",
   "subtitle": "An epic saga of survival, community building, and dinosaur defense across an uncharted primeval island",
   "tagline": "Build your colony, defend the walls, and tame the primordial wilderness.",
@@ -32,24 +32,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Ep. 1 - Pt. 1",
       "title": "The Shoreline Perimeter",
       "phase": "Episode 1 - Initial Defenses",
       "description": "Constructing defensive palisades and repelling the initial dinosaur incursions along the beach."
     },
     {
+      "order": 2,
       "badgeText": "Ep. 1 - Finale",
       "title": "The First Assembly",
       "phase": "Episode 1 - Settlement Foundation",
       "description": "Establishing civic factions and electing the inaugural council to guide colony expansion."
     },
     {
+      "order": 3,
       "badgeText": "Ep. 2 - Pt. 1",
       "title": "The Beast Whisperers",
       "phase": "Episode 2 - Fauna Domestication",
       "description": "Taming native squamata beasts and venturing into uncharted primeval jungle sectors."
     },
     {
+      "order": 4,
       "badgeText": "Ep. 2 - Finale",
       "title": "The Sovereign Citadel",
       "phase": "Episode 2 - Culmination",

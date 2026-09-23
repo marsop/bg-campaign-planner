@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Cloudspire",
   "subtitle": "Une campagne stratégique asymétrique de tower-defense et de MOBA sur les îles célestes d'Ankar",
   "tagline": "Bâtissez vos flèches, déployez vos vagues de sbires et dominez la puissance de la Source.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Saga I",
       "title": "L'Avant-Garde Brawnen",
       "phase": "Saga de Faction I - Volonté de Fer",
       "description": "Commander les formidables engins de siège Brawnen et verrouiller la forteresse de Source contre les assauts."
     },
     {
+      "order": 2,
       "badgeText": "Saga II",
       "title": "Le Bastion d'Horlogerie",
       "phase": "Saga de Faction II - L'Essor d'Hephaestus",
       "description": "Exploiter l'ingénierie à vapeur et les balistes automatisées d'Hephaestus pour s'imposer sur les îles flottantes."
     },
     {
+      "order": 3,
       "badgeText": "Saga III",
       "title": "La Canopée Céleste",
       "phase": "Saga de Faction III - L'Éclat Narora",
       "description": "Canaliser les énergies cristallines des Narora pour déjouer les embuscades au cœur des forêts vierges."
     },
     {
+      "order": 4,
       "badgeText": "Saga IV",
       "title": "La Revanche des Grievance",
       "phase": "Saga de Faction IV - Ombres Souterraines",

@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Mice and Mystics",
   "subtitle": "Un'avventura narrativa fiabesca in cui eroi trasformati in topi lottano per salvare il loro reame",
   "tagline": "Vesti i panni di topi valorosi, affronta i pericoli del castello e salva il Re.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Atto I",
       "title": "La Fuga dalle Segrete",
       "phase": "Atto I - La Grande Fuga",
       "description": "Scappare dalle cupe carceri del castello attraverso le tubature fognarie e attraversare il cortile."
     },
     {
+      "order": 2,
       "badgeText": "Atto II",
       "title": "Sussurri nella Fucina",
       "phase": "Atto II - Alleati nell'Ombra",
       "description": "Stringere patti con le creature del castello, eludere il gatto Brodie e recuperare antiche reliquie."
     },
     {
+      "order": 3,
       "badgeText": "Atto III",
       "title": "Infiltrazione nel Laboratorio",
       "phase": "Atto III - La Magia di Vanestra",
       "description": "Introdursi nei laboratori alchemici di Vanestra per trovare il rimedio che annulli la trasformazione."
     },
     {
+      "order": 4,
       "badgeText": "Finale",
       "title": "La Liberazione del Re",
       "phase": "Atto IV - Trionfo sulla Tirannia",

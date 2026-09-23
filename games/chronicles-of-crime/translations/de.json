@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Chronicles of Crime",
   "subtitle": "Eine App-gestützte kooperative Krimi-Ermittlungsserie zwischen klassischem Brettspiel und digitaler Forensik",
   "tagline": "Scanne Hinweise, verhöre Verdächtige und löse Londons kniffligste Kriminalfälle.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Untersuchung",
       "title": "Die Curzon-Ausstellung",
       "phase": "Auftaktuntersuchung",
       "description": "Sicherung des Tatorts im Curzon-Museum und Erfassung erster forensischer Spuren."
     },
     {
+      "order": 2,
       "badgeText": "Teil I",
       "title": "Die Vergiftete Rose",
       "phase": "Die verfluchte Blume - Teil I",
       "description": "Rückverfolgung verdächtiger Pflanzengifte und Befragung entfremdeter Familienangehöriger im Londoner Westen."
     },
     {
+      "order": 3,
       "badgeText": "Teil II",
       "title": "Schatten im Untergrund",
       "phase": "Die verfluchte Blume - Teil II",
       "description": "Aufdecken geheimer Schwarzmarkt-Netzwerke entlang des Londoner U-Bahn-Systems."
     },
     {
+      "order": 4,
       "badgeText": "Teil III",
       "title": "Das Zerschlagene Syndikat",
       "phase": "Die verfluchte Blume - Teil III",

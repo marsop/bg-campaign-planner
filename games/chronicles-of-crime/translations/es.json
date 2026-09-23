@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Chronicles of Crime",
   "subtitle": "Una serie cooperativa de investigación criminal asistida por app que combina tablero físico y análisis forense digital",
   "tagline": "Escanea pistas, interroga sospechosos y resuelve los casos más desconcertantes de Londres.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Pesquisa",
       "title": "La Exposición Curzon",
       "phase": "Apertura de la Instrucción",
       "description": "Inspección de la escena del crimen en el Museo Curzon y recolección de las primeras evidencias forenses."
     },
     {
+      "order": 2,
       "badgeText": "Parte I",
       "title": "La Rosa Envenenada",
       "phase": "La Flor Maldita - Parte I",
       "description": "Rastrear toxinas botánicas sospechosas e interrogar a familiares distanciados en el oeste de Londres."
     },
     {
+      "order": 3,
       "badgeText": "Parte II",
       "title": "Sombras en el Subterráneo",
       "phase": "La Flor Maldita - Parte II",
       "description": "Conectar redes clandestinas del mercado negro a lo largo del metro londinense."
     },
     {
+      "order": 4,
       "badgeText": "Parte III",
       "title": "El Sindicato Desmantelado",
       "phase": "La Flor Maldita - Parte III",

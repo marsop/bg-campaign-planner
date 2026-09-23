@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Etherfields",
   "subtitle": "A surreal cooperative narrative dream-crawler uncovering buried subconscious secrets",
   "tagline": "Step beyond reality, solve surreal riddles, and reclaim your lost memories.",
@@ -28,30 +28,35 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Gate I",
       "title": "The Dreamers' Wake",
       "phase": "Act I - The Whispering Gates",
       "description": "Unraveling the first surreal dreamscapes and learning to navigate the shifting currents of the Slumber map."
     },
     {
+      "order": 2,
       "badgeText": "Gate II",
       "title": "Fractured Memories",
       "phase": "Act II - Subconscious Shadows",
       "description": "Confronting haunting masks and buried traumas to piece together fragmented personal identities."
     },
     {
+      "order": 3,
       "badgeText": "Gate III",
       "title": "The Labyrinth of Thoughts",
       "phase": "Act III - The Surreal Deep",
       "description": "Overcoming surreal entities and distorted spatial puzzles within the deepest layers of the collective dream."
     },
     {
+      "order": 4,
       "badgeText": "Gate IV",
       "title": "The Weavers of Fate",
       "phase": "Act IV - Confronting the Dreamweavers",
       "description": "Challenging the enigmatic weavers who manipulate slumbering minds across the dream continuum."
     },
     {
+      "order": 5,
       "badgeText": "Awakening",
       "title": "The Final Lucidity",
       "phase": "Act V - The Grand Awakening",

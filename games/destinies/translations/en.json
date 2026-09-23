@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Destinies",
   "subtitle": "A competitive narrative-driven board game of dark medieval fantasy and personal destiny",
   "tagline": "Forge your path, uncover dark secrets, and fulfill your chosen destiny.",
@@ -28,30 +28,35 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Intro",
       "title": "The Nature of the Beast",
       "phase": "Prologue - The Beast of Braniewo",
       "description": "Investigating shadowy rumors and terrifying sightings haunting the isolated border hamlet of Braniewo."
     },
     {
+      "order": 2,
       "badgeText": "Ch. 1",
       "title": "The Sword of the Maiden",
       "phase": "Act I - The Maiden's Relic",
       "description": "Unearthing a legendary sanctified blade and delving into ancestral secrets buried beneath forgotten ruins."
     },
     {
+      "order": 3,
       "badgeText": "Ch. 2",
       "title": "All That Glitters",
       "phase": "Act II - Greed and Treachery",
       "description": "Navigating corrupt merchant dealings, whispered curses, and treacherous alliances in search of power."
     },
     {
+      "order": 4,
       "badgeText": "Ch. 3",
       "title": "The Bleeding Rose",
       "phase": "Act III - Thornbound Oaths",
       "description": "Unraveling entangled loyalties and ancient curses as personal destinies inexorably collide."
     },
     {
+      "order": 5,
       "badgeText": "Finale",
       "title": "The Final Judgment",
       "phase": "Act IV - Fulfillment of Destiny",

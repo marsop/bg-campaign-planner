@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Mice and Mystics",
   "subtitle": "Une aventure narrative féerique où des héros changés en souris luttent pour sauver leur royaume",
   "tagline": "Incarnez de vaillantes souris, bravez les dangers du château et sauvez le Roi.",
@@ -28,24 +28,28 @@
   },
   "milestones": [
     {
+      "order": 1,
       "badgeText": "Acte I",
       "title": "La Fuite des Donjons",
       "phase": "Acte I - La Grande Évasion",
       "description": "S'évader des sombres cachots par les canalisations et traverser les ombres de la cour du château."
     },
     {
+      "order": 2,
       "badgeText": "Acte II",
       "title": "Murmures de la Forge",
       "phase": "Acte II - Alliés de l'Ombre",
       "description": "Nouer des pactes avec les créatures du château, fuir le chat Brodie et retrouver des reliques sacrées."
     },
     {
+      "order": 3,
       "badgeText": "Acte III",
       "title": "Infiltration du Laboratoire",
       "phase": "Acte III - La Magie de Vanestra",
       "description": "Pénétrer dans les laboratoires alchimiques de Vanestra pour percer le remède contre la métamorphose."
     },
     {
+      "order": 4,
       "badgeText": "Finale",
       "title": "La Délivrance du Roi",
       "phase": "Acte IV - Triomphe sur la Tyrannie",

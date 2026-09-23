@@ -167,8 +167,16 @@ public class CampaignDataService
 
             if (baseDto.Milestones != null && baseDto.Milestones.Count > 0)
             {
-                var transMilestoneDict = trans?.Milestones?.ToDictionary(m => m.Order, m => m) 
-                                         ?? new Dictionary<int, MilestoneTranslationDto>();
+                var transMilestoneDict = new Dictionary<int, MilestoneTranslationDto>();
+                if (trans?.Milestones != null)
+                {
+                    for (int i = 0; i < trans.Milestones.Count; i++)
+                    {
+                        var tm = trans.Milestones[i];
+                        int orderKey = tm.Order > 0 ? tm.Order : (i + 1);
+                        transMilestoneDict[orderKey] = tm;
+                    }
+                }
 
                 foreach (var baseMilestone in baseDto.Milestones.OrderBy(m => m.Order))
                 {
