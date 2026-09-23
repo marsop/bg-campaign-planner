@@ -2,7 +2,7 @@
   "id": "cloudspire",
   "title": "Cloudspire",
   "releaseYear": 2019,
-  "designers": "Josh J. Carlson, Adam Carlson",
+  "designers": "Josh J. Carlson, Adam Carlson, Josh Wielgus",
   "playersMin": 1,
   "playersMax": 4,
   "bggRating": 8.0,
@@ -11,7 +11,7 @@
   "baseScenarioMinutes": 120,
   "setupTeardownMinutes": 20,
   "unitType": "scenarios",
-  "quality": "mid",
+  "quality": "high",
   "theme": {
     "primaryColor": "#0284c7",
     "secondaryColor": "#0f172a",
