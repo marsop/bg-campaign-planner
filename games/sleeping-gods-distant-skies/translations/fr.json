@@ -1,0 +1,55 @@
+{
+  "title": "Sleeping Gods: Distant Skies",
+  "subtitle": "La campagne aérienne autonome coopérative en monde ouvert",
+  "tagline": "Explorez des îles célestes à la dérive, combattez des créatures étranges et cherchez le chemin du retour à bord d'un avion cargo des années 1930.",
+  "loreSummary": "San Francisco, 1937. Un vol de fret ordinaire traverse une étrange anomalie atmosphérique, propulsant votre équipage dans une dimension onirique faite d'îles volantes, de divinités assoupies et de technologies oubliées. À bord d'un avion d'époque et à pied, parcourez un imposant atlas spiralé, composez vos synergies de combat et retrouvez d'antiques totems pour regagner votre foyer.",
+  "badgeCategory": "Atlas Narratif Monde Ouvert",
+  "roadmapTitle": "Progression des Expéditions Aériennes",
+  "roadmapBadge": "Carnet de Vol Céleste",
+  "keyFeatures": [
+    "Suite indépendante de Sleeping Gods avec exploration fluide par les airs et sur la terre ferme",
+    "Système de combat affiné reposant sur des decks de personnages individuels et des synergies",
+    "Atlas cartographique colossal et livre de quêtes avec des centaines d'embranchements",
+    "Système modulaire de campement facilitant les sauvegardes rapides et le repos de l'équipage"
+  ],
+  "scopes": {
+    "distant_skies_full_campaign": {
+      "name": "Odyssée Aérienne Complète (~12 Expéditions)",
+      "description": "La campagne narrative complète pour explorer les cieux, réunir les totems anciens et s'échapper des Cieux Mouvants."
+    },
+    "distant_skies_maiden_flight": {
+      "name": "Premières Expéditions (5 Expéditions)",
+      "description": "Jouez les 5 premières sessions pour réparer l'avion, explorer les premiers îlots et renforcer les decks de combat."
+    },
+    "distant_skies_complete_atlas": {
+      "name": "Atlas Intégral & Temples Cachés (16 Expéditions)",
+      "description": "Une campagne d'exploration approfondie visant chaque île lointaine, crypte souterraine et divinité perdue."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Expédition 3",
+      "title": "Des Ailes au-dessus des Nuages",
+      "phase": "Étape de Vol 1 - Survivre au Crash",
+      "description": "Réparez l'avion de transport, dressez les premiers bivouacs et déterrez votre premier totem céleste."
+    },
+    {
+      "badgeText": "Expédition 6",
+      "title": "L'Archipel Flottant",
+      "phase": "Étape de Vol 2 - Les Terres du Ciel",
+      "description": "Cartographiez des îles aériennes dérivantes, perfectionnez votre équipement et défiez les vents d'altitude."
+    },
+    {
+      "badgeText": "Expédition 9",
+      "title": "Sanctuaire des Divinités Célestes",
+      "phase": "Étape de Vol 3 - Les Vestiges Anciens",
+      "description": "Pénétrez des citadelles oubliées entre les nuages, échangez avec des divinités ailées et trouvez la route du retour."
+    },
+    {
+      "badgeText": "Final",
+      "title": "Évasion des Cieux Mouvants",
+      "phase": "Grand Final - Le Voyage de Retour",
+      "description": "Accomplissez les destinées de vos compagnons, activez les totems célestes et franchissez la brèche dimensionnelle."
+    }
+  ]
+}

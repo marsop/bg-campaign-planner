@@ -1,0 +1,49 @@
+{
+  "title": "Forgotten Waters",
+  "subtitle": "Die kooperative app-gestützte Crossroads-Piratenkampagne",
+  "tagline": "Erforsche unbekannte tropische Meere, verfolge persönliche Schicksale und bestehe wilde Piratenabenteuer.",
+  "loreSummary": "Ihr seid eine bunte Piratencrew an Bord eines einzigen Segelschiffs in einer Welt voller wunderlicher Magie und maritimer Abenteuer. Begleitet von der vertonten Web-App übernehmt ihr wichtige Schiffspositionen, erkundet geheimnisvolle Inseln, bekämpft Seemonster und füllt die humorvollen Sternbildbögen eurer Charaktere aus.",
+  "badgeCategory": "Crossroads-Erzählabenteuer",
+  "roadmapTitle": "Logbuch und Reiseabschnitte",
+  "roadmapBadge": "Piraten-Logbuch",
+  "keyFeatures": [
+    "Kooperatives Crossroads-Storytelling mit vollständiger Sprachausgabe über die Web-App",
+    "Individuelle Piratenbögen mit humorvollen Hintergrundgeschichten und Sternbildern",
+    "Aktionswahl unter Zeitdruck mit einzigartigen Schiffsrollen (Quartiermeister, Kanonier)",
+    "Fesselndes Ortsbuch mit verzweigten Handlungsentscheidungen und Würfelproben"
+  ],
+  "scopes": {
+    "forgotten_waters_core_voyages": {
+      "name": "Haupt-Piratenchronik (5 Szenarien)",
+      "description": "Alle 5 umfangreichen Grundspielszenarien mit Dutzenden Inseln, Seemonstern und individuellen Epilogen."
+    },
+    "forgotten_waters_introductory_voyage": {
+      "name": "Einführungsfahrten (2 Szenarien)",
+      "description": "Die ersten beiden Abenteuer, ideal zum Kennenlernen der Schiffsrollen, Zeitlimits und der Buchnavigation."
+    },
+    "forgotten_waters_extended_expeditions": {
+      "name": "Alle Fahrten & Erweiterungs-Quests (7 Szenarien)",
+      "description": "Die vollständige Piratensaga inklusive aller 5 Kernszenarien plus 2 herunterladbaren DLC-Expeditionen."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Fahrt I",
+      "title": "Jenseits des Horizonts",
+      "phase": "Jungfernfahrt - Segel setzen",
+      "description": "Verteile die Schiffsposten, lerne die App-Steuerung kennen und kartografiere unberührte Atolle."
+    },
+    {
+      "badgeText": "Fahrt III",
+      "title": "Gefahren der Tiefsee",
+      "phase": "Auf Hoher See - Leviathane & Geisterschiffe",
+      "description": "Überlebe gigantische Tiefseeungetüme, verfluchte Skelettgaleonen und meutereigefährdeten Rummangel."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Legende der Sieben Weltmeere",
+      "phase": "Großes Finale - Piraten-Sternbilder",
+      "description": "Vollende die persönlichen Sternbildbögen der Mannschaft, berge legendäre Schätze und werde zur Seefahrer-Legende."
+    }
+  ]
+}

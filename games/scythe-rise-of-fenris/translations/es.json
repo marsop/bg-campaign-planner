@@ -1,0 +1,55 @@
+{
+  "title": "Scythe: The Rise of Fenris",
+  "subtitle": "La campaña ucrónica dieselpunk de 8 episodios",
+  "tagline": "Desvela los secretos de la misteriosa Fábrica a lo largo de una campaña rejugable de 8 episodios de guerra y diplomacia.",
+  "loreSummary": "Los imperios se alzan y caen en la Europa alternativa de los años 20. Mientras la sombría facción de Fenris emerge y la ciudad-estado independiente conocida como La Fábrica abre sus bóvedas subterráneas, las grandes naciones movilizan titánicos mechas dieselpunk, forjan alianzas efímeras y pugnan por la supremacía continental a lo largo de 8 episodios evolutivos.",
+  "badgeCategory": "Construcción de Motores Dieselpunk",
+  "roadmapTitle": "Progresión de Episodios de Campaña",
+  "roadmapBadge": "Crónica de Guerra de Europa",
+  "keyFeatures": [
+    "Campaña narrativa rejugable de 8 episodios con riqueza y mejoras tecnológicas persistentes",
+    "11 módulos independientes desbloqueables para partidas estándar tras la campaña",
+    "Dos nuevas facciones inéditas y mechas aniquiladores en cajas secretas selladas",
+    "Totalmente compatible con todas las expansiones previas de Scythe, zepelines y modos para 7 jugadores"
+  ],
+  "scopes": {
+    "scythe_fenris_full_campaign": {
+      "name": "Campaña Completa de 8 Episodios",
+      "description": "La experiencia narrativa íntegra de 8 episodios, apertura de cajas secretas y el desenlace por el dominio continental."
+    },
+    "scythe_fenris_early_skirmishes": {
+      "name": "Los Primeros Frentes (Episodios 1–4)",
+      "description": "Juega los primeros cuatro episodios que introducen ventajas iniciales de facción, fichas de alianza e incursiones hacia La Fábrica."
+    },
+    "scythe_fenris_expanded_chronicle": {
+      "name": "Crónica Extendida y Escaramuzas Modulares (12 Episodios)",
+      "description": "La campaña de 8 episodios más 4 batallas modulares independientes posteriores aprovechando las facciones y reglas desbloqueadas."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Episodio 2",
+      "title": "Ecos de la Fábrica",
+      "phase": "Maniobras de Apertura - Fortificaciones Regionales",
+      "description": "Construye mejoras de infraestructura, reclama bonificaciones iniciales de alianza y explora los nuevos módulos de territorio."
+    },
+    {
+      "badgeText": "Episodio 4",
+      "title": "El Horizonte de Hierro",
+      "phase": "Escalada Bélica - Máquinas de Guerra Pesadas",
+      "description": "Fuerza las bóvedas selladas de La Fábrica, despliega letal armamento pesado y reconfigura los objetivos de facción para la guerra total."
+    },
+    {
+      "badgeText": "Episodio 6",
+      "title": "La Némesis Desenmascarada",
+      "phase": "Conflicto Profundo - Facciones Secretas",
+      "description": "Desempaqueta nuevas facciones enigmáticas de la campaña y utiliza dados de combate especializados y nuevos poderes."
+    },
+    {
+      "badgeText": "Final",
+      "title": "La Batalla por el Alba de Europa",
+      "phase": "Clímax de Campaña - El Destino del Continente",
+      "description": "Lucha en la batalla definitiva por el control absoluto de La Fábrica y sella la supremacía eterna sobre la Europa de 1920."
+    }
+  ]
+}

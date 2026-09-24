@@ -1,0 +1,55 @@
+{
+  "title": "The King's Dilemma",
+  "subtitle": "La campagne legacy interactive de dilemmes et d'intrigues dynastiques",
+  "tagline": "Guidez la destinée du Royaume d'Ankist à travers des générations de dilemmes moraux et d'alliances fragiles.",
+  "loreSummary": "Vous êtes à la tête d'une noble lignée siégeant au Conseil Royal du Royaume d'Ankist. Au fil des règnes successifs et des générations, vous voterez des décrets aux lourdes conséquences, équilibrerez le bien-être de la couronne avec les ambitions secrètes de votre maison, décachetterez des enveloppes scellées et scellerez l'avenir du trône.",
+  "badgeCategory": "Récit Politique Legacy",
+  "roadmapTitle": "Chronologie de la Progression Dynastique",
+  "roadmapBadge": "Chronique du Conseil",
+  "keyFeatures": [
+    "Campagne legacy narrative interactive mue par des dilemmes moraux aux répercussions profondes",
+    "Règnes générationnels rythmés par des monarques éphémères, des complots et des crises de régime",
+    "Des dizaines d'enveloppes mystères scellées recelant des tournants narratifs capitaux",
+    "Signature irréversible de cartes, autocollants de chronique et objectifs secrets de maison"
+  ],
+  "scopes": {
+    "kings_dilemma_standard_chronicle": {
+      "name": "Chronique Dynastique Standard (~15 Parties)",
+      "description": "L'épopée narrative complète explorant les principales intrigues jusqu'à l'un des dénouements finaux majeurs."
+    },
+    "kings_dilemma_prologue_reigns": {
+      "name": "Premiers Règnes Dynastiques (6 Parties)",
+      "description": "Découvrez les premières ères d'Ankist, nouez des rivalités de cour et dévoilez les premiers dilemmes fondateurs."
+    },
+    "kings_dilemma_complete_archive": {
+      "name": "Chronique Intégrale & Enveloppes Secrètes (20 Parties)",
+      "description": "Une chronique multigénérationnelle exhaustive fouillant chaque intrigue secondaire et chaque embranchement de mystère."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Ère I",
+      "title": "La Première Abdication Royale",
+      "phase": "Premiers Règnes - Les Graines de la Discorde",
+      "description": "Gérez la mort ou l'abdication du premier souverain, ouvrez les premières enveloppes de chronique et couronnez un successeur."
+    },
+    {
+      "badgeText": "Ère II",
+      "title": "Vents de Révolte et Guerres",
+      "phase": "Milieu de Dynastie - Le Royaume au Bord du Gouffre",
+      "description": "Maintenez l'équilibre entre trésorerie royale, greniers à blé et puissance martiale tandis que grondent les insurrections."
+    },
+    {
+      "badgeText": "Ère III",
+      "title": "Les Mystères du Sang Ancien",
+      "phase": "Dynastie Tardive - Les Enveloppes Cachées",
+      "description": "Révélez des secrets millénaires enfouis, démasquez de vastes conspirations et affrontez les prophéties familiales."
+    },
+    {
+      "badgeText": "Final",
+      "title": "Le Jugement du Grand Conseil",
+      "phase": "Grand Final - Le Destin d'Ankist",
+      "description": "Tranchez l'ultime crise menaçant le continent, comptez les points de prestige et objectifs secrets, et scellez la couronne."
+    }
+  ]
+}

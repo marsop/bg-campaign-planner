@@ -1,0 +1,95 @@
+{
+  "id": "mechs-vs-minions",
+  "title": "Mechs vs. Minions",
+  "releaseYear": 2016,
+  "designers": "Chris Cantrell, Rick Ernst, Stone Librande, Prashant Saraswat, Nathan Tiras",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 7.9,
+  "bggWeight": 2.42,
+  "bggUrl": "https://boardgamegeek.com/boardgame/209010/mechs-vs-minions",
+  "baseScenarioMinutes": 75,
+  "setupTeardownMinutes": 15,
+  "unitType": "missions",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#f59e0b",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#06b6d4",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2e1d09 0%, #151d28 60%, #080c12 100%)",
+    "cardBackground": "rgba(18, 25, 38, 0.94)",
+    "borderColor": "rgba(245, 158, 11, 0.35)",
+    "glowColor": "rgba(6, 182, 212, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🤖",
+    "emblem": "🤖⚙️",
+    "themeClass": "theme-mechs-minions",
+    "activeThemeClass": "theme-mechs-minions-active",
+    "roadmapClass": "roadmap-mechs-minions",
+    "heroClass": "hero-mechs-minions"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #209010 Overall)",
+    "Riot Games Official Rulebook & Mission Dossiers",
+    "Mechs vs. Minions Campaign Programming Guide"
+  ],
+  "scopes": [
+    {
+      "id": "mvm_full_campaign",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "mvm_cadet_missions",
+      "baseScenarioCount": 5,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "mvm_master_mechanic",
+      "baseScenarioCount": 14,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "⚙️",
+      "badgeText": "Dossier 3",
+      "title": "Mechanical Mastery",
+      "phase": "Academy Training - Advanced Command Lines",
+      "description": "Master slot drafting, programmatic movement routines, and fuel fuel-injection systems against the first swarm waves."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🌋",
+      "badgeText": "Dossier 6",
+      "title": "The Molten Perimeter",
+      "phase": "Field Operations - Environmental Hazards",
+      "description": "Navigate moving lava conduits, tow the fragile crystal payload, and neutralize the minion perimeter fortifications."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🛡️",
+      "badgeText": "Dossier 8",
+      "title": "Defense of the Rune Forge",
+      "phase": "High Threat - Fortress Siege",
+      "description": "Erect defensive energy barriers and coordinate continuous firing lines to protect the academy's power core."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🏆",
+      "badgeText": "Finale",
+      "title": "The Megamech Reckoning",
+      "phase": "Campaign Finale - The Boss Encounter",
+      "description": "Program synchronized offensive protocols to bring down the titanic enemy boss mech and save Runeterra."
+    }
+  ]
+}

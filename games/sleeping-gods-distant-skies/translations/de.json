@@ -1,0 +1,55 @@
+{
+  "title": "Sleeping Gods: Distant Skies",
+  "subtitle": "Die eigenständige kooperative Open-World-Himmelskampagne",
+  "tagline": "Erforsche schwebende Himmelsinseln, bekämpfe fremdartige Kreaturen und suche den Heimweg an Bord eines 1930er Frachtflugzeugs.",
+  "loreSummary": "San Francisco, 1937. Ein Routine-Frachtflug gerät in eine rätselhafte Wetteranomalie und schleudert deine Mannschaft in eine surreale Dimension aus schwebenden Inseln, schlafenden Göttern und seltsamer Technologie. An Bord eines Flugzeugs und zu Fuß liest du verzweigte Begegnungen in einem großen Ringbuchatlas, optimierst Kampfdecks und birgst uralte Totems, um nach Hause zurückzukehren.",
+  "badgeCategory": "Narrativer Open-World-Atlas",
+  "roadmapTitle": "Fortschritt der Himmelsexpeditionen",
+  "roadmapBadge": "Himmels-Logbuch",
+  "keyFeatures": [
+    "Eigenständige Fortsetzung von Sleeping Gods mit nahtloser Erkundung per Flugzeug und zu Fuß",
+    "Verfeinertes Kampfsystem mit individuellen Charakterdecks, Ausrüstung und Synergien",
+    "Gewaltiger Ringbuch-Atlas und Abenteuerbuch mit Hunderten Quests und verzweigten Enden",
+    "Modulares Lagersystem für intuitives Zwischenspeichern und Erholung der Gruppe"
+  ],
+  "scopes": {
+    "distant_skies_full_campaign": {
+      "name": "Gesamte Himmelsodyssee (~12 Expeditionen)",
+      "description": "Die vollständige narrative Kampagne zur Erforschung des Luftreichs, Bergung der Totems und Rückkehr nach Hause."
+    },
+    "distant_skies_maiden_flight": {
+      "name": "Erste Expeditionen (5 Expeditionen)",
+      "description": "Spiele die ersten 5 Partien, repariere die Maschine, entdecke erste Himmelsruinen und verbessere die Decks."
+    },
+    "distant_skies_complete_atlas": {
+      "name": "Vollständiger Atlas & Verborgene Tempel (16 Expeditionen)",
+      "description": "Eine erschöpfende Erkundungskampagne, die jede abgelegene Himmelsinsel, jedes Verlies und jede Gottheit aufsucht."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Expedition 3",
+      "title": "Flügel über den Wolken",
+      "phase": "Flugabschnitt 1 - Überleben des Absturzes",
+      "description": "Repariere das Frachtflugzeug, errichte die ersten Lagerplätze und finde das erste Himmelstotem."
+    },
+    {
+      "badgeText": "Expedition 6",
+      "title": "Der Schwebende Archipel",
+      "phase": "Flugabschnitt 2 - Das Wolkenreich",
+      "description": "Kartografiere driftende Himmelsinseln, verbessere Fliegerausrüstung und bestehe gefährliche Höhenstürme."
+    },
+    {
+      "badgeText": "Expedition 9",
+      "title": "Heiligtum der Himmelsgötter",
+      "phase": "Flugabschnitt 3 - Uralte Ruinen",
+      "description": "Erkunde vergessene Himmelszitadellen, begegne uralten Vogelgottheiten und finde den Rückweg."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Flucht aus den Wandernden Himmeln",
+      "phase": "Großes Finale - Die Heimreise",
+      "description": "Erfülle die Schicksale deiner Mannschaft, aktiviere die Totems und fliege durch den Dimensionsriss heim."
+    }
+  ]
+}

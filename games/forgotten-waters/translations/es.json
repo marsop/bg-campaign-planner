@@ -1,0 +1,49 @@
+{
+  "title": "Forgotten Waters",
+  "subtitle": "La campaña pirata cooperativa narrada por app con sistema Encrucijada",
+  "tagline": "Navega por mares tropicales desconocidos, persigue divertidos destinos personales y sobrevive a disparatadas aventuras piratas.",
+  "loreSummary": "Formáis una pintoresca tripulación pirata a bordo de un único navío en un mundo de magia fantástica y peripecias marinas. Guiados por la aplicación web locutada, asignaréis a los tripulantes puestos clave del barco, exploraréis islas misteriosas, os enfrentaréis a monstruos marinos y completaréis la hilarante hoja de constelación de vuestro personaje.",
+  "badgeCategory": "Aventura Narrativa Encrucijada",
+  "roadmapTitle": "Cuaderno de Bitácora y Travesías",
+  "roadmapBadge": "Diario Pirata",
+  "keyFeatures": [
+    "Narración cooperativa Encrucijada con diálogos completamente doblados mediante app web",
+    "Hojas individuales de pirata con disparatadas historias personales y constelaciones",
+    "Selección de acciones contrarreloj con roles de barco únicos (Contramaestre, Artillero, etc.)",
+    "Libro de localizaciones con decisiones ramificadas y desafiantes tiradas de dados"
+  ],
+  "scopes": {
+    "forgotten_waters_core_voyages": {
+      "name": "Crónica Pirata Principal (5 Escenarios)",
+      "description": "Los 5 extensos escenarios narrativos del juego base que abarcan decenas de islas, leviatanes y finales piratas."
+    },
+    "forgotten_waters_introductory_voyage": {
+      "name": "Travesías de Iniciación (2 Escenarios)",
+      "description": "Las dos primeras aventuras introductorias, perfectas para familiarizarse con los roles de a bordo y los límites de tiempo."
+    },
+    "forgotten_waters_extended_expeditions": {
+      "name": "Saga Completa y Aventuras Adicionales (7 Escenarios)",
+      "description": "La epopeya pirata total con los 5 escenarios base más 2 expediciones narrativas descargables."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Travesía I",
+      "title": "Más Allá del Borde del Océano",
+      "phase": "Viaje Inaugural - Izando Velas",
+      "description": "Establece los roles de la nave, domina la narración de la app y cartografía atolones tropicales vírgenes."
+    },
+    {
+      "badgeText": "Travesía III",
+      "title": "Peligros de las Profundidades Abisales",
+      "phase": "Alta Mar - Leviatanes y Aparecidos",
+      "description": "Sobrevive a bestias marinas titánicas, galeones esqueléticos malditos y motines por escasez de ron."
+    },
+    {
+      "badgeText": "Final",
+      "title": "Leyenda de los Siete Mares",
+      "phase": "Gran Desenlace - Las Constelaciones Piratas",
+      "description": "Completa las constelaciones personales de los piratas, reclama un tesoro legendario y compone tu balada inmortal."
+    }
+  ]
+}

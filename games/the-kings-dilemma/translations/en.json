@@ -1,0 +1,55 @@
+{
+  "title": "The King's Dilemma",
+  "subtitle": "The Interactive Dynastic Legacy Dilemma Campaign",
+  "tagline": "Steer the destiny of the Kingdom of Ankist through generations of moral dilemmas and shifting alliances.",
+  "loreSummary": "You represent the head of a noble house serving on the Royal Council of the Kingdom of Ankist. Across successive generations and royal reigns, you must vote on critical decrees, balance the realm's welfare against your family's secret ambitions, open sealed mystery envelopes, and shape the ultimate destiny of the realm.",
+  "badgeCategory": "Legacy Political Narrative",
+  "roadmapTitle": "Dynastic Progression Timeline",
+  "roadmapBadge": "Council Chronicle",
+  "keyFeatures": [
+    "Interactive narrative legacy campaign driven by branching dilemma cards",
+    "Generational royal reigns featuring shifting monarchs, alliances, and moral crises",
+    "Dozens of sealed mystery envelopes containing game-changing storyline revelations",
+    "Permanent card signing, chronicle stickers, and competitive secret house agendas"
+  ],
+  "scopes": {
+    "kings_dilemma_standard_chronicle": {
+      "name": "Standard Dynastic Chronicle (~15 Games)",
+      "description": "The complete narrative journey through the major mystery envelopes, culminating in one of the grand final endings."
+    },
+    "kings_dilemma_prologue_reigns": {
+      "name": "Early Dynastic Reigns (6 Games)",
+      "description": "Experience the opening eras of Ankist, establishing house rivalries and uncovering foundational dilemmas."
+    },
+    "kings_dilemma_complete_archive": {
+      "name": "Deep Lore & Extended Chronicle (20 Games)",
+      "description": "An exhaustive multi-generational chronicle thoroughly exploring branching secondary plots and late-game mystery branches."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Era I",
+      "title": "The First Royal Abdication",
+      "phase": "Early Reigns - Seeds of Discord",
+      "description": "Navigate the initial monarch's death or abdication, open the first mystery chronicle envelopes, and crown a successor."
+    },
+    {
+      "badgeText": "Era II",
+      "title": "Tides of Rebellion & War",
+      "phase": "Mid-Dynasty - Kingdom in Crisis",
+      "description": "Balance royal coffers, grain stores, and military stability as civil strife threatens Ankist's fragile peace."
+    },
+    {
+      "badgeText": "Era III",
+      "title": "Secrets of the Old Blood",
+      "phase": "Late Dynasty - The Hidden Envelopes",
+      "description": "Unlock high-tier chronicle secrets, unmask deep ancient conspiracies, and confront generational house prophecies."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "The Grand Council's Reckoning",
+      "phase": "Grand Finale - Fate of Ankist",
+      "description": "Resolve the overarching crisis of the realm, evaluate house prestige and hidden agendas, and seal the fate of the throne."
+    }
+  ]
+}

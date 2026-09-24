@@ -1,0 +1,49 @@
+{
+  "title": "Forgotten Waters",
+  "subtitle": "The Cooperative App-Narrated Crossroads Pirate Campaign",
+  "tagline": "Chart unknown tropical seas, follow colorful personal fortunes, and survive wild pirate adventures.",
+  "loreSummary": "You are a colorful pirate crew sailing aboard a single vessel in a world of whimsical magic and nautical adventure. Using the rich voice-narrated web companion app, you will place crew members into vital ship roles, explore mysterious islands, confront sea monsters, and strive to complete your character's hilarious personal constellation sheet.",
+  "badgeCategory": "Crossroads Narrative Adventure",
+  "roadmapTitle": "Voyage Log & Narrative Arcs",
+  "roadmapBadge": "Pirate Logbook",
+  "keyFeatures": [
+    "Cooperative Crossroads storytelling powered by a fully voice-acted web companion app",
+    "Individual pirate sheets with humorous personal backstories and constellation objectives",
+    "Time-pressured action selection with unique ship roles (Quartermaster, Cooper, Gunner)",
+    "Rich storybook locations with branching narrative choices and high-stakes dice challenges"
+  ],
+  "scopes": {
+    "forgotten_waters_core_voyages": {
+      "name": "Core Pirate Chronicle (5 Scenarios)",
+      "description": "All 5 extensive base game narrative scenarios spanning dozens of islands, leviathans, and pirate endings."
+    },
+    "forgotten_waters_introductory_voyage": {
+      "name": "Introductory Voyages (2 Scenarios)",
+      "description": "The first 2 introductory adventures ideal for learning ship roles, timing limits, and storybook navigation."
+    },
+    "forgotten_waters_extended_expeditions": {
+      "name": "All Voyages & Expansion Quests (7 Scenarios)",
+      "description": "The complete pirate saga including all 5 core voyages plus 2 downloadable DLC narrative expeditions."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Voyage I",
+      "title": "Beyond the Ocean's Edge",
+      "phase": "Maiden Voyage - Setting Sail",
+      "description": "Establish ship roles, master the app-driven narration, and chart unexplored tropical atolls."
+    },
+    {
+      "badgeText": "Voyage III",
+      "title": "Perils of the Abyssal Depths",
+      "phase": "High Seas - Leviathans & Ghosts",
+      "description": "Survive monstrous sea beasts, cursed skeleton galleons, and mutinous rum shortages on the open sea."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Legend of the High Seas",
+      "phase": "Grand Climax - Pirate Constellations",
+      "description": "Complete personal pirate constellation sheets, claim legendary pirate booty, and write your immortal pirate ballad."
+    }
+  ]
+}

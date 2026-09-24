@@ -1,0 +1,55 @@
+{
+  "title": "Undaunted: Stalingrad",
+  "subtitle": "Die persistente taktische 2-Personen-WK2-Kampagne",
+  "tagline": "Befehlige gegnerische Züge durch die schonungslose Schlacht von Stalingrad über mehr als 15 persistente Szenarien.",
+  "loreSummary": "Herbst 1942. Du und dein Kontrahent befehligt sowjetische Verteidiger oder deutsche Stoßtruppen in den zerbombten Trümmern von Stalingrad. In dieser eigenständigen 2-Personen-Kampagne wird jeder Verlust mit Aufklebern dauerhaft festgehalten, Soldaten steigen zu Veteranen auf oder sterben für immer, und die Stadtteile verwandeln sich irreversibel in Schutt und Asche.",
+  "badgeCategory": "Taktisches 2-Personen-Duell",
+  "roadmapTitle": "Einsatzchronik der Stalingrader Front",
+  "roadmapBadge": "Verluste & Zugschicksale",
+  "keyFeatures": [
+    "Reine 2-Personen-Kampagne mit verzweigten Szenarien und dauerhaften taktischen Konsequenzen",
+    "Permanente Verlust- und Beförderungsaufkleber verändern dein Kampfdeck unwiderruflich",
+    "Dynamische Stadtplanfelder werden durch Artillerietreffer dauerhaft in Trümmerwüsten verwandelt",
+    "Über 300 individuelle Illustrationen porträtieren jeden einzelnen Soldaten deines Zuges"
+  ],
+  "scopes": {
+    "undaunted_stalingrad_full_campaign": {
+      "name": "Gesamte Stalingrad-Kampagne (~15 Szenarien)",
+      "description": "Das komplette verzweigte Kampagnenerlebnis mit Häuserkämpfen, Gegenoffensiven und dauerhaften Verlusten."
+    },
+    "undaunted_stalingrad_first_offensive": {
+      "name": "Erste Offensive (8 Szenarien)",
+      "description": "Spiele die ersten 8 Szenarien mit den ersten Einbrüchen in die Stadt, Scharfschützenduellen und frühen Verlusten."
+    },
+    "undaunted_stalingrad_extended_attrition": {
+      "name": "Verlängerter Zermürbungskrieg (20 Szenarien)",
+      "description": "Ein erschöpfender Zermürbungsfeldzug mit Kämpfen im Kanalisationsnetz und tiefen taktischen Verzweigungen."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Phase I",
+      "title": "Einbruch in die Stadt",
+      "phase": "Erste Gefechte - Vormarsch in die Trümmer",
+      "description": "Führe erbitterte Gefechte um jedes Stockwerk, überquere offene Plätze und verzeichne erste endgültige Gefallene."
+    },
+    {
+      "badgeText": "Phase II",
+      "title": "Das Werk Roter Oktober",
+      "phase": "Mittelteil der Kampagne - Industrieller Fleischwolf",
+      "description": "Setze Panzer und Scharfschützen in rauchenden Fabrikhallen ein und navigiere durch zerstörte Trümmerfelder."
+    },
+    {
+      "badgeText": "Phase III",
+      "title": "Festung Pawlow",
+      "phase": "Späte Kampagne - Belagerte Häuser & Kanalisation",
+      "description": "Belagere zur Festung ausgebaute Wohnblöcke, kämpfe in stinkenden Abwasserkanälen und führe erschöpfte Veteranen."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Die letzte Gegenoffensive",
+      "phase": "Großes Finale - Das Schicksal von Stalingrad",
+      "description": "Führe den entscheidenden Durchbruchsangriff, der die Schlacht von Stalingrad entscheidet und Überlebende verewigt."
+    }
+  ]
+}

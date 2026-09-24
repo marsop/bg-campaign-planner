@@ -1,0 +1,55 @@
+{
+  "title": "The Adventures of Robin Hood",
+  "subtitle": "La campaña cooperativa en un tablero vivo tipo libro interactivo",
+  "tagline": "Explora libremente el bosque de Sherwood y Nottingham a través de un tablero vivo sin casillas.",
+  "loreSummary": "Encarnáis a Robin Hood, Lady Marian, Little John y Will Scarlet en su lucha por la justicia en la Inglaterra del siglo XII. Moviéndoos con total libertad por un tablero continuo sin cuadrículas, voltearéis losetas secretas troqueladas, consultaréis un libro ilustrado de tapa dura, eludiréis a los soldados del Sheriff y defenderéis a los oprimidos.",
+  "badgeCategory": "Aventura Familiar en Libro Vivo",
+  "roadmapTitle": "Crónica de Capítulos de la Campaña",
+  "roadmapBadge": "Progreso en Sherwood",
+  "keyFeatures": [
+    "Innovador movimiento sin casillas mediante piezas de madera articuladas sobre el mapa",
+    "Tablero vivo y cambiante con inserciones reversibles que ocultan secretos y eventos",
+    "Libro de tapa dura con tramas ramificadas, textos evocadores y múltiples desenlaces",
+    "Preparación casi instantánea con reglas integradas orgánicamente desde la primera partida"
+  ],
+  "scopes": {
+    "robin_hood_full_chronicle": {
+      "name": "Crónica Completa de 9 Capítulos",
+      "description": "La epopeya cooperativa íntegra de 9 capítulos, desde la huida inicial al bosque hasta el regreso del Rey Ricardo."
+    },
+    "robin_hood_act_one": {
+      "name": "Acto 1: Forajidos de Sherwood (Capítulos 1–4)",
+      "description": "Juega los 4 primeros capítulos reuniendo a la banda de forajidos y realizando los primeros asaltos de rescate."
+    },
+    "robin_hood_master_outlaws": {
+      "name": "Forajidos Legendarios y Rutas Ocultas (13 Capítulos)",
+      "description": "La campaña completa de 9 capítulos más 4 rutas narrativas alternativas y misiones en modo difícil."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Capítulo 2",
+      "title": "Los Forajidos de Sherwood",
+      "phase": "Acto 1 - Reuniendo a los Alegres Compañeros",
+      "description": "Elude las patrullas del Sheriff, busca refugio en lo profundo del bosque y une fuerzas con Little John y Marian."
+    },
+    {
+      "badgeText": "Capítulo 5",
+      "title": "Infiltración en el Castillo de Nottingham",
+      "phase": "Acto 2 - Tras los Muros de la Fortaleza",
+      "description": "Cuélate en el castillo de Nottingham, voltea piezas secretas del tablero y libera a los camaradas de las mazmorras."
+    },
+    {
+      "badgeText": "Capítulo 7",
+      "title": "Las Represalias del Sheriff",
+      "phase": "Acto 3 - Rebelión en el Condado",
+      "description": "Protege las aldeas campesinas, esquiva las columnas de caballeros acorazados y golpea a Guy de Gisborne."
+    },
+    {
+      "badgeText": "Final",
+      "title": "El Regreso del Rey",
+      "phase": "Gran Final - Justicia para Inglaterra",
+      "description": "Asalta la fortaleza, derroca a la regencia usurpadora y da la bienvenida a Ricardo Corazón de León."
+    }
+  ]
+}

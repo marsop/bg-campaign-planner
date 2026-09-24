@@ -1,0 +1,55 @@
+{
+  "title": "The King's Dilemma",
+  "subtitle": "La campagna interattiva di dilemmi politici e lascito dinastico",
+  "tagline": "Guida le sorti del Regno di Ankist attraverso generazioni di dilemmi morali e alleanze mutevoli.",
+  "loreSummary": "Sei a capo di una nobile casata che siede nel Consiglio Reale del Regno di Ankist. Nel succedersi di generazioni e regnanti, dovrai votare su editti cruciali, bilanciare il bene comune con le ambizioni segrete della tua stirpe, aprire buste del mistero sigillate e determinare il destino ultimo del reame.",
+  "badgeCategory": "Narrativa Politica Legacy",
+  "roadmapTitle": "Cronologia della Progressione Dinastica",
+  "roadmapBadge": "Cronaca del Consiglio",
+  "keyFeatures": [
+    "Campagna legacy narrativa interattiva scandita da dilemmi morali a bivi ramificati",
+    "Regni generazionali con sovrani effimeri, cospirazioni e crisi istituzionali",
+    "Decine di buste del mistero sigillate ricche di colpi di scena epocali",
+    "Firma irreversibile delle carte, adesivi per la cronaca e agende segrete di casata"
+  ],
+  "scopes": {
+    "kings_dilemma_standard_chronicle": {
+      "name": "Cronaca Dinastica Standard (~15 Partite)",
+      "description": "Il percorso narrativo completo attraverso le trame di mistero principali, culminante in uno dei grandi finali della storia."
+    },
+    "kings_dilemma_prologue_reigns": {
+      "name": "Primi Regni della Stirpe (6 Partite)",
+      "description": "Vivi i primi regni di Ankist, stringi rivalità tra casate e scopri i dilemmi che forgeranno la storia."
+    },
+    "kings_dilemma_complete_archive": {
+      "name": "Cronaca Estesa e Buste Nascoste (20 Partite)",
+      "description": "Una cronaca multigenerazionale esaustiva che esplora a fondo tutte le trame secondarie e i misteri reconditi."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Era I",
+      "title": "La Prima Abdicazione Reale",
+      "phase": "Primi Regni - I Semi della Discordia",
+      "description": "Affronta la morte o l'abdicazione del primo sovrano, apri le prime buste della cronaca e incorona un successore."
+    },
+    {
+      "badgeText": "Era II",
+      "title": "Venti di Ribellione e Conflitto",
+      "phase": "Metà Dinastia - Il Regno nella Tempesta",
+      "description": "Bilancia le casse reali, i granai e la potenza degli eserciti mentre sommosse popolari scuotono la fragile pace di Ankist."
+    },
+    {
+      "badgeText": "Era III",
+      "title": "I Misteri dell'Antico Sangue",
+      "phase": "Dinastia Avanzata - Le Buste Segrete",
+      "description": "Sblocca segreti ancestrali rimasti sepolti, smaschera complotti di palazzo e confrontati con oscure profezie."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Il Giudizio del Gran Consiglio",
+      "phase": "Gran Finale - La Sorte di Ankist",
+      "description": "Risolvi la crisi suprema che incombe sulle terre, calcola il prestigio e gli obiettivi segreti di ciascuna casata e chiudi il trono."
+    }
+  ]
+}

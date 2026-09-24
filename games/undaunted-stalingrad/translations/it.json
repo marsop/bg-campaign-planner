@@ -1,0 +1,55 @@
+{
+  "title": "Undaunted: Stalingrad",
+  "subtitle": "La campagna tattica persistente sulla Seconda Guerra Mondiale per 2 giocatori",
+  "tagline": "Guida plotoni rivali nel devastante carnaio urbano di Stalingrado attraverso oltre 15 scenari persistenti.",
+  "loreSummary": "Autunno 1942. Tu e il tuo avversario guidate le forze difensive sovietiche o l'assalto tedesco tra le macerie polverizzate di Stalingrado. In questa campagna indipendente per due giocatori, ogni perdita viene registrata in modo indelebile con adesivi, i soldati acquisiscono promozioni eroiche o cadono per sempre, e gli edifici crollano sotto il fuoco d'artiglieria.",
+  "badgeCategory": "Duello Tattico Persistente per 2",
+  "roadmapTitle": "Operazioni sul Fronte di Stalingrado",
+  "roadmapBadge": "Perdite e Destini del Plotone",
+  "keyFeatures": [
+    "Campagna tattica persistente per soli 2 giocatori con bivi narrativi e pesanti conseguenze",
+    "Adesivi permanenti di vittime e veterani che alterano per sempre la composizione del mazzo",
+    "Tessere della città che vengono ridotte irreversibilmente in cumuli di macerie sotto i bombardamenti",
+    "Oltre 300 illustrazioni uniche che danno un volto e un nome a ogni soldato del plotone"
+  ],
+  "scopes": {
+    "undaunted_stalingrad_full_campaign": {
+      "name": "Campagna Completa di Stalingrado (~15 Scenari)",
+      "description": "L'esperienza completa della campagna ramificata tra sfondamenti urbani, contrattacchi e logoramento continuo."
+    },
+    "undaunted_stalingrad_first_offensive": {
+      "name": "Prima Offensiva (8 Scenari)",
+      "description": "Gioca i primi 8 scenari affrontando gli scontri per i sobborghi, i cecchini e i primi lutti nel plotone."
+    },
+    "undaunted_stalingrad_extended_attrition": {
+      "name": "Guerra di Logoramento Estesa (20 Scenari)",
+      "description": "Una campagna estenuante di attrito che esplora i combattimenti nelle fognature e le diramazioni tattiche più complesse."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Fase I",
+      "title": "Sfondamento nella Città",
+      "phase": "Primi Scontri - Tra le Macerie",
+      "description": "Affronta sanguinosi combattimenti stanza per stanza, attraversa piazze scoperte e registra le prime perdite definitive."
+    },
+    {
+      "badgeText": "Fase II",
+      "title": "La Fabbrica Ottobre Rosso",
+      "phase": "Metà Campagna - Il Mattatoio Industriale",
+      "description": "Schiera carri armati pesanti e cecchini tra i complessi industriali in fiamme e combatti tra rovine distrutte."
+    },
+    {
+      "badgeText": "Fase III",
+      "title": "La Fortezza Pavlov",
+      "phase": "Fase Avanzata - Assedio ai Palazzi e Condotte",
+      "description": "Assedia palazzine trasformate in fortilizi, combatti nelle fogne e guida veterani al limite della sopportazione."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "L'Ultima Controffensiva",
+      "phase": "Gran Finale - La Sorte di Stalingrado",
+      "description": "Sferra l'assalto risolutivo che decreterà l'esito della Battaglia di Stalingrado e consacrerà gli ufficiali superstiti."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Charterstone",
+  "subtitle": "La campaña competitiva legacy de colocación de trabajadores en 12 partidas",
+  "tagline": "Construye una próspera aldea pastoral desde sus cimientos a lo largo de 12 partidas legacy desbloqueables.",
+  "loreSummary": "El Rey Eterno os ha encomendado a ti y a tus colegas arquitectos la colonización del indómito valle de Greengully. A lo largo de 12 partidas evolutivas, despegaréis adhesivos de edificios, abriréis cajas secretas numeradas, desbloquearéis nuevas reglas de colocación de trabajadores y transformaréis un valle virgen en una comunidad viva y permanente.",
+  "badgeCategory": "Colocación de Trabajadores Legacy",
+  "roadmapTitle": "Cronología del Desarrollo de la Aldea",
+  "roadmapBadge": "Progreso de Fueros",
+  "keyFeatures": [
+    "Campaña legacy competitiva de 12 partidas con construcción de motores mediante colocación de trabajadores",
+    "Más de 75 cajas de madera desbloqueables con nuevas cartas, reglas y adhesivos de edificios",
+    "Hitos y postes guía que orientan el crecimiento y la especialización de cada fuero",
+    "Totalmente rejugable de forma indefinida como un juego personalizado tras concluir la campaña"
+  ],
+  "scopes": {
+    "charterstone_full_campaign": {
+      "name": "Campaña Legacy Completa (12 Partidas)",
+      "description": "El periplo legacy íntegro de 12 partidas para erigir la aldea de Greengully y abrir todas las cajas secretas."
+    },
+    "charterstone_first_half": {
+      "name": "Primera Mitad: Era de Asentamiento (6 Partidas)",
+      "description": "Juega las 6 primeras partidas estableciendo talleres básicos, postes guía y las primeras especializaciones."
+    },
+    "charterstone_full_plus_post": {
+      "name": "Campaña Completa y Época Posterior (16 Partidas)",
+      "description": "La campaña legacy completa de 12 partidas más 4 sesiones adicionales jugadas en vuestro tablero final personalizado."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Fuero I",
+      "title": "Abriendo las Primeras Cajas",
+      "phase": "Crecimiento Fundacional - La Aldea Temprana",
+      "description": "Construye los primeros edificios comunales, abre tus primeras cajas numeradas y elige la especialización de tu fuero."
+    },
+    {
+      "badgeText": "Fuero II",
+      "title": "Postes Guía de Greengully",
+      "phase": "Desarrollo Intermedio - Industria Avanzada",
+      "description": "Cumple los hitos reales, mejora las habilidades de tus personajes y levanta talleres de producción avanzados."
+    },
+    {
+      "badgeText": "Fuero III",
+      "title": "El Comercio del Puerto Flotante",
+      "phase": "Expansión Tardía - Infraestructura Regional",
+      "description": "Establece rutas de dirigibles en el puerto de las nubes, alza construcciones ilustres y equilibra las rivalidades."
+    },
+    {
+      "badgeText": "Final",
+      "title": "La Bendición del Rey Eterno",
+      "phase": "Gran Final - Coronación del Maestro Constructor",
+      "description": "Calcula la gloria obtenida tras 12 partidas, corona al vencedor de la aldea y desbloquea un juego permanente a medida."
+    }
+  ]
+}

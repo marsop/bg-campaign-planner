@@ -1,0 +1,86 @@
+{
+  "id": "forgotten-waters",
+  "title": "Forgotten Waters",
+  "releaseYear": 2020,
+  "designers": "Mr. Bistro, J. Arthur Ellis, Isaac Vega",
+  "playersMin": 3,
+  "playersMax": 7,
+  "bggRating": 7.9,
+  "bggWeight": 2.19,
+  "bggUrl": "https://boardgamegeek.com/boardgame/302723/forgotten-waters",
+  "baseScenarioMinutes": 180,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#0ea5e9",
+    "secondaryColor": "#0c4a6e",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #0c2d48 0%, #0a1f33 60%, #050e17 100%)",
+    "cardBackground": "rgba(10, 31, 51, 0.94)",
+    "borderColor": "rgba(14, 165, 233, 0.35)",
+    "glowColor": "rgba(14, 165, 233, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏴‍☠️",
+    "emblem": "🏴‍☠️🌊",
+    "themeClass": "theme-forgotten-waters",
+    "activeThemeClass": "theme-forgotten-waters-active",
+    "roadmapClass": "roadmap-forgotten-waters",
+    "heroClass": "hero-forgotten-waters"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #302723 Overall)",
+    "Plaid Hat Games Official Rulebook & Location Book",
+    "Forgotten Waters Companion App Audio Guides"
+  ],
+  "scopes": [
+    {
+      "id": "forgotten_waters_core_voyages",
+      "baseScenarioCount": 5,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": true
+    },
+    {
+      "id": "forgotten_waters_introductory_voyage",
+      "baseScenarioCount": 2,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "forgotten_waters_extended_expeditions",
+      "baseScenarioCount": 7,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🧭",
+      "badgeText": "Voyage I",
+      "title": "Beyond the Ocean's Edge",
+      "phase": "Maiden Voyage - Setting Sail",
+      "description": "Establish ship roles, master the app-driven narration, and chart unexplored tropical atolls."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🐙",
+      "badgeText": "Voyage III",
+      "title": "Perils of the Abyssal Depths",
+      "phase": "High Seas - Leviathans & Ghosts",
+      "description": "Survive monstrous sea beasts, cursed skeleton galleons, and mutinous rum shortages on the open sea."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🏆",
+      "badgeText": "Finale",
+      "title": "Legend of the High Seas",
+      "phase": "Grand Climax - Pirate Constellations",
+      "description": "Complete personal pirate constellation sheets, claim legendary pirate booty, and write your immortal pirate ballad."
+    }
+  ]
+}

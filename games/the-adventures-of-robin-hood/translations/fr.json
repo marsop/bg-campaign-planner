@@ -1,0 +1,55 @@
+{
+  "title": "The Adventures of Robin Hood",
+  "subtitle": "La campagne coopérative sur plateau évolutif sans cases",
+  "tagline": "Arpentez librement la forêt de Sherwood et Nottingham sur un plateau vivant digne d'un livre d'histoires.",
+  "loreSummary": "Vous êtes Robin des Bois, Marianne, Petit Jean et Will Scarlet, combattant pour la justice dans l'Angleterre du XIIe siècle. Vous déplaçant librement sans cases ni quadrillage à l'aide de silhouettes de bois, vous retournerez des pièces secrètes insérées dans le plateau, consulterez un livre relié de grande qualité, déjouerez les patrouilles du Shérif et défendrez les opprimés.",
+  "badgeCategory": "Aventure Familiale Narrative",
+  "roadmapTitle": "Chronique des Chapitres de Campagne",
+  "roadmapBadge": "Progression à Sherwood",
+  "keyFeatures": [
+    "Déplacement novateur sans cases via des réglettes et figurines de bois articulées",
+    "Plateau évolutif avec pièces amovibles recto-verso dissimulant secrets et événements",
+    "Livre d'aventures à couverture rigide avec récits immersifs et embranchements multiples",
+    "Mise en place quasi instantanée avec apprentissage naturel des règles dès le premier chapitre"
+  ],
+  "scopes": {
+    "robin_hood_full_chronicle": {
+      "name": "Chronique Complète en 9 Chapitres",
+      "description": "L'épopée coopérative intégrale en 9 chapitres, de l'exil dans les bois jusqu'au retour de Richard Cœur de Lion."
+    },
+    "robin_hood_act_one": {
+      "name": "Acte 1 : Les Hors-la-loi de Sherwood (Chapitres 1 à 4)",
+      "description": "Jouez les 4 premiers chapitres pour rassembler la bande, apprivoiser le mouvement et mener les premiers sauvetages."
+    },
+    "robin_hood_master_outlaws": {
+      "name": "Maîtres Hors-la-loi & Destins Croisés (13 Chapitres)",
+      "description": "La trame complète de 9 chapitres enrichie de 4 scénarios alternatifs et de variantes plus exigeantes."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Chapitre 2",
+      "title": "Les Hors-la-loi de Sherwood",
+      "phase": "Acte 1 - Le Ralliement des Compagnons",
+      "description": "Échappez aux patrouilles du Shérif, trouvez refuge au cœur de la forêt et ralliez Petit Jean et Marianne."
+    },
+    {
+      "badgeText": "Chapitre 5",
+      "title": "Infiltration au Château de Nottingham",
+      "phase": "Acte 2 - Derrière les Remparts",
+      "description": "Faufilez-vous dans le château, retournez les tuiles secrètes du plateau et libérez vos alliés captifs."
+    },
+    {
+      "badgeText": "Chapitre 7",
+      "title": "La Riposte du Shérif",
+      "phase": "Acte 3 - Soulèvement dans le Comté",
+      "description": "Défendez les villages, évitez les colonnes de chevaliers en armure et portez un coup décisif à Guy de Gisborne."
+    },
+    {
+      "badgeText": "Final",
+      "title": "Le Retour du Roi",
+      "phase": "Grand Final - La Justice Restaurée",
+      "description": "Prenez d'assaut la forteresse, renversez le pouvoir corrompu et accueillez le Roi Richard Cœur de Lion."
+    }
+  ]
+}

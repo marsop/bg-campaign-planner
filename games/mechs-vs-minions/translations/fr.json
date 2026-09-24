@@ -1,0 +1,55 @@
+{
+  "title": "Mechs vs. Minions",
+  "subtitle": "La campagne coopérative de combat programmé en méchas",
+  "tagline": "Pilotez et programmez vos méchas de combat pour écraser d'implacables hordes de sbires à travers 10 dossiers scellés.",
+  "loreSummary": "Vous êtes de courageux Yordles intégrés à la prestigieuse académie de méchas de Rumble. Lorsqu'une invasion cataclysmique de sbires assaille le complexe, enfilez vos armures cybernétiques, draftez des cartes d'action sur votre ligne de commande, programmez des manœuvres synchronisées et déclenchez des tirs dévastateurs pour sauver Runeterra.",
+  "badgeCategory": "Combat Programmé en Mécha",
+  "roadmapTitle": "Opérations des Dossiers de Mission",
+  "roadmapBadge": "Progression à l'Académie",
+  "keyFeatures": [
+    "Draft et programmation coopérative d'actions à travers 10 dossiers scellés palpitants",
+    "Plateaux modulaires truffés de périls dynamiques, de rivières de lave et d'escortes",
+    "Méchas prépeints, figurines de boss et des dizaines de figurines de sbires sculptées",
+    "Déblocage progressif révélant cartes de commande, plans d'ingénierie et armes de pointe"
+  ],
+  "scopes": {
+    "mvm_full_campaign": {
+      "name": "Campagne Complète de 10 Missions",
+      "description": "L'aventure coopérative intégrale à travers les 10 dossiers de mission scellés menant à l'affrontement contre le boss mécha."
+    },
+    "mvm_cadet_missions": {
+      "name": "Entraînement des Cadets (Missions 1 à 5)",
+      "description": "Jouez les 5 premières missions pour maîtriser la programmation de commandes, l'amélioration d'armes et la gestion de foule."
+    },
+    "mvm_master_mechanic": {
+      "name": "Saga Maître Mécanicien (14 Missions)",
+      "description": "La campagne intégrale de 10 missions accompagnée de 4 missions de défi extrême et de boss retors."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Dossier 3",
+      "title": "Maîtrise Mécanique",
+      "phase": "Formation de l'Académie - Lignes de Commande Avancées",
+      "description": "Maîtrisez le draft d'emplacements, les déplacements séquentiels et l'injection de carburant face aux premières vagues d'assaillants."
+    },
+    {
+      "badgeText": "Dossier 6",
+      "title": "Le Périmètre en Fusion",
+      "phase": "Opérations de Terrain - Dangers Environnementaux",
+      "description": "Naviguez entre les coulées de lave mouvantes, tractez la fragile cargaison de cristaux et neutralisez les bastions ennemis."
+    },
+    {
+      "badgeText": "Dossier 8",
+      "title": "Défense de la Forge Runique",
+      "phase": "Alerte Maximale - Siège de la Forteresse",
+      "description": "Dressez des boucliers défensifs et coordonnez un barrage de tir continu pour protéger le cœur énergétique de l'académie."
+    },
+    {
+      "badgeText": "Final",
+      "title": "Le Jugement du Mégamécha",
+      "phase": "Grand Final - L'Affrontement Titanesque",
+      "description": "Programmez des protocoles offensifs synchronisés pour terrasser le mécha colossal ennemi et triompher pour Runeterra."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Ticket to Ride Legacy: Legends of the West",
+  "subtitle": "La campagne ferroviaire transcontinentale en 12 parties",
+  "tagline": "Fondez votre empire ferroviaire et partez à la conquête de l'Ouest américain au fil de 12 parties legacy.",
+  "loreSummary": "Vous incarnez un entrepreneur ferroviaire du XIXe siècle en quête de fortune et de prestige au cœur d'un continent en pleine effervescence. À travers 12 manches scénarisées, ouvrez des boîtes frontalières régionales, établissez des voies sur mesure, surmontez des événements inattendus et bâtissez une dynastie ferroviaire durable.",
+  "badgeCategory": "Création de Réseau Legacy",
+  "roadmapTitle": "Chronologie de l'Expansion Pionnière",
+  "roadmapBadge": "Progrès Continental",
+  "keyFeatures": [
+    "Campagne legacy narrative évolutive en 12 parties",
+    "Boîtes régionales à débloquer offrant de nouvelles règles et extensions du plateau",
+    "Autocollants de voies permanents, cartes postales et livre de comptes financier",
+    "Rejouabilité continue sur une carte personnalisée et entièrement développée"
+  ],
+  "scopes": {
+    "ttr_legacy_full_campaign": {
+      "name": "Campagne Transcontinentale Complète (12 Parties)",
+      "description": "L'expérience legacy intégrale en 12 parties couvrant toutes les boîtes régionales, les chapitres de l'histoire et les extensions du plateau."
+    },
+    "ttr_legacy_frontier_half": {
+      "name": "Première Moitié : Plaines et Frontières (6 Parties)",
+      "description": "Jouez les 6 premières parties consacrées aux réseaux initiaux et au premier bond vers l'Ouest."
+    },
+    "ttr_legacy_campaign_plus_epilogue": {
+      "name": "Campagne Complète & Parties Post-Campagne (16 Parties)",
+      "description": "La campagne legacy complète de 12 parties plus 4 sessions disputées sur votre carte finalisée et personnalisée."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Frontière I",
+      "title": "À travers les Grandes Plaines",
+      "phase": "Expansion Initiale - Les Têtes de Ligne de l'Est",
+      "description": "Ouvrez la première boîte de région, posez vos rails à travers la prairie centrale et établissez votre nœud principal."
+    },
+    {
+      "badgeText": "Frontière II",
+      "title": "À l'assaut des Rocheuses",
+      "phase": "Milieu de Parcours - Cols et Tunnels",
+      "description": "Percez des tunnels et dressez des ponts sur chevalets à travers les massifs rocheux pour relier les colonies de l'Ouest."
+    },
+    {
+      "badgeText": "Frontière III",
+      "title": "L'Éperon du Sud-Ouest",
+      "phase": "Campagne Tardive - Déserts et Ports Pacifiques",
+      "description": "Étendez le réseau à travers les étendues arides pour connecter les villes champignon et le littoral du Pacifique."
+    },
+    {
+      "badgeText": "Final",
+      "title": "Le Crampon d'Or",
+      "phase": "Grand Final - Triomphe Transcontinental",
+      "description": "Enfoncez le crampon d'or mythique reliant l'Amérique d'un océan à l'autre et devenez le plus grand magnat du rail."
+    }
+  ]
+}

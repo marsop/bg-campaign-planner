@@ -1,0 +1,55 @@
+{
+  "title": "Mechs vs. Minions",
+  "subtitle": "La campagna cooperativa di combattimento programmato con mech",
+  "tagline": "Pilota e programma i tuoi mech da battaglia per respingere inarrestabili sciami di minion in 10 dossier sigillati.",
+  "loreSummary": "Siete coraggiosi Yordle ammessi alla prestigiosa accademia per piloti di mech fondata da Rumble. Quando una rovinosa invasione di minion sfonda le mura della struttura, dovrete salire a bordo dei vostri titani meccanici personalizzati, programmare la linea di comando con le carte azione, coordinare le manovre ed eseguire devastanti routine offensive per difendere Runeterra.",
+  "badgeCategory": "Combattimento Programmato con Mech",
+  "roadmapTitle": "Operazioni dei Dossier di Missione",
+  "roadmapBadge": "Progressione dell'Accademia",
+  "keyFeatures": [
+    "Drafting e programmazione cooperativa delle azioni attraverso 10 dossier di missione segreti",
+    "Plance modulari con pericoli ambientali dinamici, colate laviche e obiettivi di scorta",
+    "Mech degli eroi dipinti a mano, miniature dei boss e decine di dettagliati modellini di minion",
+    "Sblocchi progressivi con nuove carte comando, schemi tecnologici e armamenti pesanti"
+  ],
+  "scopes": {
+    "mvm_full_campaign": {
+      "name": "Campagna Completa di 10 Missioni",
+      "description": "L'esperienza cooperativa completa attraverso tutti i 10 dossier di missione sigillati fino allo scontro con il boss mech."
+    },
+    "mvm_cadet_missions": {
+      "name": "Addestramento Cadetti (Missioni 1–5)",
+      "description": "Gioca le prime 5 missioni per apprendere la programmazione delle linee di comando, i potenziamenti delle armi e il controllo dei nemici."
+    },
+    "mvm_master_mechanic": {
+      "name": "Saga Meccanico Maestro (14 Missioni)",
+      "description": "La campagna integrale di 10 missioni arricchita da 4 missioni sfida ad alta difficoltà e boss letali."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Dossier 3",
+      "title": "Padronanza Meccanica",
+      "phase": "Addestramento in Accademia - Linee di Comando Avanzate",
+      "description": "Padroneggia il draft degli slot, il movimento programmato sequenziale e l'iniezione di carburante contro le prime ondate."
+    },
+    {
+      "badgeText": "Dossier 6",
+      "title": "Il Perimetro Lavico",
+      "phase": "Operazioni sul Campo - Minacce Ambientali",
+      "description": "Attraversa condotti di lava incandescente, traina il fragile carico di cristalli e abbatti le fortificazioni nemiche."
+    },
+    {
+      "badgeText": "Dossier 8",
+      "title": "Difesa della Forgia Runica",
+      "phase": "Massimo Allarme - Assedio alla Fortezza",
+      "description": "Ergi barriere energetiche difensive e coordina una barriera di fuoco ininterrotta a protezione del nucleo dell'accademia."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "La Resa dei Conti del Megamech",
+      "phase": "Finale di Campagna - Il Nemico Supremo",
+      "description": "Programma sequenze offensive sincronizzate per abbattere il titanico boss mech nemico e liberare le terre di Runeterra."
+    }
+  ]
+}

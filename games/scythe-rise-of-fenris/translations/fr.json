@@ -1,0 +1,55 @@
+{
+  "title": "Scythe: The Rise of Fenris",
+  "subtitle": "La campagne uchronique dieselpunk en 8 épisodes",
+  "tagline": "Dévoilez les mystères de l'Usine à travers une campagne rejouable en 8 épisodes faite de combats et de diplomatie.",
+  "loreSummary": "Des empires s'affrontent dans l'Europe uchronique des années 1920. Alors que la mystérieuse faction de Fenris émerge de l'ombre et que la cité-État indépendante de l'Usine ouvre ses complexes enfouis, les nations mobilisent de colossaux méchas dieselpunk, concluent des pactes fragiles et se disputent l'hégémonie au fil de 8 épisodes évolutifs.",
+  "badgeCategory": "Moteur Dieselpunk",
+  "roadmapTitle": "Progression des Épisodes de Campagne",
+  "roadmapBadge": "Chronique de Guerre d'Europa",
+  "keyFeatures": [
+    "Campagne narrative rejouable en 8 épisodes avec richesse persistante et améliorations technologiques",
+    "11 modules indépendants déblocables et utilisables lors de futures parties classiques",
+    "Deux factions inédites et méchas Annihilateurs dissimulés dans des boîtes scellées",
+    "Totalement compatible avec l'ensemble des extensions de Scythe, les aéronefs et le mode 7 joueurs"
+  ],
+  "scopes": {
+    "scythe_fenris_full_campaign": {
+      "name": "Campagne Complète en 8 Épisodes",
+      "description": "L'aventure narrative complète en 8 épisodes, les révélations des boîtes secrètes et le dénouement continental."
+    },
+    "scythe_fenris_early_skirmishes": {
+      "name": "Les Premiers Fronts (Épisodes 1 à 4)",
+      "description": "Jouez les 4 premiers épisodes introduisant les premières améliorations de faction, les jetons d'alliance et les approches de l'Usine."
+    },
+    "scythe_fenris_expanded_chronicle": {
+      "name": "Chronique Étendue & Escarmouches Modulaires (12 Épisodes)",
+      "description": "La campagne de 8 épisodes complétée par 4 affrontements modulaires indépendants mettant à profit les factions débloquées."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Épisode 2",
+      "title": "Les Échos de l'Usine",
+      "phase": "Manœuvres d'Ouverture - Fortifications Régionales",
+      "description": "Bâtissez des infrastructures durables, forgez des traités d'alliance et explorez les modules de territoire révélés."
+    },
+    {
+      "badgeText": "Épisode 4",
+      "title": "L'Horizon de Fer",
+      "phase": "Escalade - Machines de Guerre Lourdes",
+      "description": "Pénétrez les cryptes verrouillées de l'Usine, déployez d'imposantes armes blindées et adaptez votre jeu pour la guerre totale."
+    },
+    {
+      "badgeText": "Épisode 6",
+      "title": "L'Ennemi Démasqué",
+      "phase": "Conflit Profond - Factions Secrètes",
+      "description": "Déballez de redoutables factions mystérieuses et utilisez des dés de combat spécifiques ainsi que de nouveaux pouvoirs."
+    },
+    {
+      "badgeText": "Final",
+      "title": "La Bataille pour l'Aurore d'Europa",
+      "phase": "Point d'Orgue - Le Destin du Continent",
+      "description": "Livrez l'affrontement décisif pour l'emprise finale sur l'Usine et asseyez votre domination sur l'Europe des années 1920."
+    }
+  ]
+}

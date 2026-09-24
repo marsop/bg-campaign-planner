@@ -1,0 +1,95 @@
+{
+  "id": "sleeping-gods-distant-skies",
+  "title": "Sleeping Gods: Distant Skies",
+  "releaseYear": 2023,
+  "designers": "Ryan Laukat",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.5,
+  "bggWeight": 3.12,
+  "bggUrl": "https://boardgamegeek.com/boardgame/354563/sleeping-gods-distant-skies",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "expeditions",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#38bdf8",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #142a42 0%, #0d1929 60%, #050b12 100%)",
+    "cardBackground": "rgba(14, 26, 42, 0.94)",
+    "borderColor": "rgba(56, 189, 248, 0.35)",
+    "glowColor": "rgba(56, 189, 248, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "✈️",
+    "emblem": "✈️☁️",
+    "themeClass": "theme-distant-skies",
+    "activeThemeClass": "theme-distant-skies-active",
+    "roadmapClass": "roadmap-distant-skies",
+    "heroClass": "hero-distant-skies"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #354563 Overall)",
+    "Red Raven Games Official Rulebook & Story Atlas",
+    "Sleeping Gods: Distant Skies Campaign Quest Log"
+  ],
+  "scopes": [
+    {
+      "id": "distant_skies_full_campaign",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": true
+    },
+    {
+      "id": "distant_skies_maiden_flight",
+      "baseScenarioCount": 5,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": false
+    },
+    {
+      "id": "distant_skies_complete_atlas",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🛩️",
+      "badgeText": "Expedition 3",
+      "title": "Wings Above the Clouds",
+      "phase": "Flight Stage 1 - Surviving the Crash",
+      "description": "Repair the cargo plane, establish initial campsite shelters, and unearth the first sky totem."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🏝️",
+      "badgeText": "Expedition 6",
+      "title": "The Floating Archipelago",
+      "phase": "Flight Stage 2 - The Sky Lands",
+      "description": "Chart drifting aerial islands, upgrade pilot gear and combat decks, and braving high-altitude gale storms."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🏛️",
+      "badgeText": "Expedition 9",
+      "title": "Sanctuary of the Sky Gods",
+      "phase": "Flight Stage 3 - The Ancient Ruins",
+      "description": "Explore forgotten sky citadels, commune with mythical avian deities, and discover the path of return."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🌟",
+      "badgeText": "Finale",
+      "title": "Escape the Wandering Skies",
+      "phase": "Grand Finale - Journey Home",
+      "description": "Complete your crew's destinies, align the celestial totems, and fly the airplane back through the dimensional rift."
+    }
+  ]
+}

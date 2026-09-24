@@ -1,0 +1,55 @@
+{
+  "title": "Harry Potter: Hogwarts Battle",
+  "subtitle": "Die kooperative 7-Schuljahre-Deckbau-Kampagne",
+  "tagline": "Meistere mächtige Zaubersprüche, gewinne treue Verbündete und verteidige Hogwarts über sieben Schuljahre.",
+  "loreSummary": "Du bist Harry, Ron, Hermine oder Neville und stehst zwischen der ehrwürdigen Schule für Hexerei und Zauberei und den Mächten der Finsternis. Über 7 schrittweise geöffnete Spielschachteln erwirbst du Zauber, gewinnst Gefährten, meisterst Hausfertigkeiten und kämpfst Seite an Seite gegen Voldemort und seine Todesser.",
+  "badgeCategory": "Kooperativer Deckbau",
+  "roadmapTitle": "Hogwarts-Schuljahre-Fortschritt",
+  "roadmapBadge": "Verteidigungschronik",
+  "keyFeatures": [
+    "Kooperative 7-Partien-Kampagne angelehnt an die sieben Schuljahre der Zaubererwelt",
+    "Fortschreitende Schachteln mit neuen Zaubern, Dunkle-Künste-Karten, Würfeln und Helden",
+    "Deckbau mit thematischer Startausrüstung und wachsenden magischen Arsenalen",
+    "Epischer Entscheidungskampf in Schuljahr 7 mit allen freigeschalteten Karten gegen die Todesser"
+  ],
+  "scopes": {
+    "hp_hogwarts_seven_years": {
+      "name": "Vollständige 7-Schuljahre-Kampagne",
+      "description": "Das komplette narrative Kampagnenerlebnis von den Herausforderungen des ersten Jahres bis zur Schlacht von Hogwarts."
+    },
+    "hp_hogwarts_early_years": {
+      "name": "Die ersten Schuljahre (Jahre 1–4)",
+      "description": "Erlebe die ersten 4 Schuljahre und lerne Deckbau-Grundlagen, Hauswürfel und die ersten Bösewichte kennen."
+    },
+    "hp_hogwarts_master_wizards": {
+      "name": "Meisterzauberer-Herausforderung (10 Partien)",
+      "description": "Die gesamte 7-Jahres-Kampagne plus 3 wiederspielbare Endspiel-Partien mit zufälligen, besonders schweren Bösewicht-Aufstellungen."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Jahr 2",
+      "title": "Die Kammer des Schreckens",
+      "phase": "Jahre 1–2 - Grundlagen der Magie",
+      "description": "Schalte fortgeschrittene Zauber frei, banne Dunkle-Künste-Ereignisse und wehre frühe Eindringlinge ab."
+    },
+    {
+      "badgeText": "Jahr 4",
+      "title": "Das Trimagische Turnier",
+      "phase": "Jahre 3–4 - Wachsende Schatten",
+      "description": "Integriere die vier Hauswürfel, bestehe die Prüfungen und stelle dich der Rückkehr der Diener des Dunklen Lords."
+    },
+    {
+      "badgeText": "Jahr 6",
+      "title": "Das Geheimnis des Halbblutprinzen",
+      "phase": "Jahre 5–6 - Der offene Krieg",
+      "description": "Meistere erweiterte Heldenfähigkeiten, bekämpfe berüchtigte Todesser und lüfte den Schutz der Horkruxe."
+    },
+    {
+      "badgeText": "Jahr 7",
+      "title": "Die Schlacht von Hogwarts",
+      "phase": "Großes Finale - Der Fall des Dunklen Lords",
+      "description": "Stellt euch vereint gegen Lord Voldemort und seine Schergen, um das Schloss zu verteidigen und den Frieden zu sichern."
+    }
+  ]
+}

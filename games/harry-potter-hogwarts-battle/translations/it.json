@@ -1,0 +1,55 @@
+{
+  "title": "Harry Potter: Hogwarts Battle",
+  "subtitle": "La campagna cooperativa di deck-building attraverso i 7 anni scolastici",
+  "tagline": "Padroneggia potenti incantesimi, recluta fedeli alleati e difendi Hogwarts lungo sette anni scolastici.",
+  "loreSummary": "Sei Harry, Ron, Hermione o Neville e ti trovi a fare da baluardo tra la celebre Scuola di Magia e Stregoneria e le forze dell'Oscurità. Attraverso 7 scatole aperte in sequenza, apprenderai magie iconiche, recluterai compagni e professori, svilupperai le abilità della tua casa e collaborerai per sconfiggere Lord Voldemort e i Mangiamorte.",
+  "badgeCategory": "Deck-Building Cooperativo",
+  "roadmapTitle": "Progressione degli Anni Scolastici di Hogwarts",
+  "roadmapBadge": "Cronaca di Difesa",
+  "keyFeatures": [
+    "Campagna cooperativa in 7 partite che ricalca i sette anni di scuola della saga",
+    "Scatole progressive che sbloccano incantesimi inediti, eventi delle Arti Oscure, dadi e personaggi",
+    "Costruzione del mazzo con oggetti iniziali personalizzati e arsenali magici in continua espansione",
+    "Battaglia finale nel 7° anno che unisce tutte le carte sbloccate contro la schiera dei Mangiamorte"
+  ],
+  "scopes": {
+    "hp_hogwarts_seven_years": {
+      "name": "Campagna Completa dei 7 Anni",
+      "description": "L'avventura narrativa completa in 7 partite dalle lezioni iniziali del primo anno fino alla resa dei conti finale a Hogwarts."
+    },
+    "hp_hogwarts_early_years": {
+      "name": "I Primi Anni Scolastici (Anni 1–4)",
+      "description": "Vivi i primi 4 anni di scuola imparando le basi del deck-building, i dadi delle case e i primi malvagi."
+    },
+    "hp_hogwarts_master_wizards": {
+      "name": "Maghi Supremi (10 Partite)",
+      "description": "L'intera campagna di 7 anni integrata da 3 sfide rigiocabili ad altissima difficoltà contro malvagi casuali."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Anno 2",
+      "title": "La Camera dei Segreti",
+      "phase": "Anni 1–2 - I Fondamenti della Magia",
+      "description": "Sblocca incantesimi avanzati, neutralizza gli eventi delle Arti Oscure e sventa le prime incursioni nemiche."
+    },
+    {
+      "badgeText": "Anno 4",
+      "title": "Il Torneo e il Ritorno",
+      "phase": "Anni 3–4 - Ombre Minacciose",
+      "description": "Aggiungi i dadi delle quattro case, supera le prove del Torneo e affronta il ritorno dei servi dell'Oscuro Signore."
+    },
+    {
+      "badgeText": "Anno 6",
+      "title": "I Segreti del Mezzosangue",
+      "phase": "Anni 5–6 - La Guerra Aperta",
+      "description": "Acquisisci abilità eroiche superiori, combatti i Mangiamorte più letali e svela i misteri degli Horcrux."
+    },
+    {
+      "badgeText": "Anno 7",
+      "title": "La Battaglia di Hogwarts",
+      "phase": "Gran Finale - La Caduta del Signore Oscuro",
+      "description": "Respingi insieme ai tuoi compagni Lord Voldemort e la sua intera armata per proteggere il castello."
+    }
+  ]
+}

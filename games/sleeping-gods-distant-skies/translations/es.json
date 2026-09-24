@@ -1,0 +1,55 @@
+{
+  "title": "Sleeping Gods: Distant Skies",
+  "subtitle": "La campaña aérea independiente cooperativa de mundo abierto",
+  "tagline": "Explora islas celestes a la deriva, combate criaturas extrañas y busca el camino a casa a bordo de un avión de carga de los años 30.",
+  "loreSummary": "San Francisco, 1937. Un vuelo de carga rutinario atraviesa una extraña anomalía atmosférica y deja varada a tu tripulación en una dimensión onírica de islas flotantes, dioses dormidos y vestigios milenarios. Explorando a bordo de un avión clásico y a pie, leeréis encuentros de un atlas ilustrado, construiréis sinergias de combate y buscaréis tótems antiguos para regresar a vuestro mundo.",
+  "badgeCategory": "Atlas Narrativo de Mundo Abierto",
+  "roadmapTitle": "Progreso de Expediciones Aéreas",
+  "roadmapBadge": "Cuaderno de Vuelo Celeste",
+  "keyFeatures": [
+    "Secuela independiente de Sleeping Gods con exploración libre por aire y a pie",
+    "Sistema de combate perfeccionado mediante mazos personales de personajes y sinergias",
+    "Enorme atlas narrativo y libro de encuentros con cientos de misiones y finales ramificados",
+    "Sistema modular de acampada que permite descansos estratégicos y guardado rápido"
+  ],
+  "scopes": {
+    "distant_skies_full_campaign": {
+      "name": "Odisea Aérea Completa (~12 Expediciones)",
+      "description": "La campaña narrativa completa explorando los cielos, recuperando los tótems ancestrales y escapando de este mundo errante."
+    },
+    "distant_skies_maiden_flight": {
+      "name": "Primeras Expediciones (5 Expediciones)",
+      "description": "Juega las 5 primeras sesiones reparando tu aeroplano, descubriendo las primeras ruinas y mejorando los mazos."
+    },
+    "distant_skies_complete_atlas": {
+      "name": "Atlas Completo y Templos Ocultos (16 Expediciones)",
+      "description": "Una campaña exploratoria exhaustiva en busca de cada isla remota, mazmorra subterránea y deidad olvidada."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Expedición 3",
+      "title": "Alas Sobre las Nubes",
+      "phase": "Fase de Vuelo 1 - Sobrevivir al Accidente",
+      "description": "Repara el avión de carga, establece los primeros campamentos y desentierra el primer tótem celeste."
+    },
+    {
+      "badgeText": "Expedición 6",
+      "title": "El Archipiélago Flotante",
+      "phase": "Fase de Vuelo 2 - Tierras del Firmamento",
+      "description": "Cartografía islas celestes a la deriva, mejora el equipo de vuelo y afronta tormentas a gran altitud."
+    },
+    {
+      "badgeText": "Expedición 9",
+      "title": "Santuario de los Dioses del Cielo",
+      "phase": "Fase de Vuelo 3 - Ruinas Ancestrales",
+      "description": "Explora ciudadelas olvidadas entre las nubes, comunícate con deidades aladas y halla la ruta de retorno."
+    },
+    {
+      "badgeText": "Final",
+      "title": "Escape de los Cielos Errantes",
+      "phase": "Gran Final - El Viaje a Casa",
+      "description": "Cumple los destinos de los tripulantes, alinea los tótems estelares y cruza la brecha dimensional de vuelta al hogar."
+    }
+  ]
+}

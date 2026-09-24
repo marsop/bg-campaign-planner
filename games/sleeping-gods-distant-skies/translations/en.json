@@ -1,0 +1,55 @@
+{
+  "title": "Sleeping Gods: Distant Skies",
+  "subtitle": "The Standalone Cooperative Open-World Aerial Campaign",
+  "tagline": "Explore drifting sky islands, battle strange beasts, and seek a way home aboard a 1930s cargo plane.",
+  "loreSummary": "San Francisco, 1937. A routine cargo flight plunges through a strange atmospheric anomaly, marooning your crew in a surreal realm of floating islands, slumbering deities, and bizarre technology. Exploring aboard a vintage airplane and on foot, you will read branching story encounters, build specialized combat decks, and uncover ancient totems to find your way back home.",
+  "badgeCategory": "Narrative Open-World Atlas",
+  "roadmapTitle": "Aerial Expedition Progress",
+  "roadmapBadge": "Sky Voyage Log",
+  "keyFeatures": [
+    "Standalone sequel to Sleeping Gods featuring seamless open-world exploration by air and on foot",
+    "Streamlined combat system utilizing personal character decks, equipment, and status synergies",
+    "Massive story atlas and storybook containing hundreds of quests, secrets, and branching endings",
+    "Modular camping system allowing intuitive quick-saving and dynamic party progression"
+  ],
+  "scopes": {
+    "distant_skies_full_campaign": {
+      "name": "Full Aerial Odyssey (~12 Expeditions)",
+      "description": "The complete narrative campaign exploring the skies, recovering ancient totems, and fleeing the Wandering Skies."
+    },
+    "distant_skies_maiden_flight": {
+      "name": "Maiden Expeditions (5 Expeditions)",
+      "description": "Play the first 5 sessions repairing your plane, discovering initial floating ruins, and building character decks."
+    },
+    "distant_skies_complete_atlas": {
+      "name": "Complete Atlas & Hidden Temples (16 Expeditions)",
+      "description": "An exhaustive exploratory campaign seeking out every remote sky island, dungeon, and lost deity."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Expedition 3",
+      "title": "Wings Above the Clouds",
+      "phase": "Flight Stage 1 - Surviving the Crash",
+      "description": "Repair the cargo plane, establish initial campsite shelters, and unearth the first sky totem."
+    },
+    {
+      "badgeText": "Expedition 6",
+      "title": "The Floating Archipelago",
+      "phase": "Flight Stage 2 - The Sky Lands",
+      "description": "Chart drifting aerial islands, upgrade pilot gear and combat decks, and braving high-altitude gale storms."
+    },
+    {
+      "badgeText": "Expedition 9",
+      "title": "Sanctuary of the Sky Gods",
+      "phase": "Flight Stage 3 - The Ancient Ruins",
+      "description": "Explore forgotten sky citadels, commune with mythical avian deities, and discover the path of return."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Escape the Wandering Skies",
+      "phase": "Grand Finale - Journey Home",
+      "description": "Complete your crew's destinies, align the celestial totems, and fly the airplane back through the dimensional rift."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Undaunted: Stalingrad",
+  "subtitle": "La campaña táctica persistente de la Segunda Guerra Mundial para 2 jugadores",
+  "tagline": "Dirige pelotones enfrentados a través de la carnicería urbana de Stalingrado en más de 15 escenarios persistentes.",
+  "loreSummary": "Otoño de 1942. Tu rival y tú lideráis las fuerzas soviéticas y el asalto alemán en las devastadas ruinas de Stalingrado. En esta campaña independiente para dos jugadores, cada baja se registra de forma permanente mediante adhesivos, los miembros de escuadra ascienden como veteranos o caen en combate para siempre, y el mapa urbano queda marcado por los bombardeos.",
+  "badgeCategory": "Táctico Bélico Persistente para 2",
+  "roadmapTitle": "Operaciones en el Frente de Stalingrado",
+  "roadmapBadge": "Bajas y Arcos del Pelotón",
+  "keyFeatures": [
+    "Campaña táctica persistente exclusivamente para 2 jugadores con decisiones y consecuencias ramificadas",
+    "Adhesivos permanentes de bajas y veteranía que modifican tu mazo de combate de forma irreversible",
+    "Losetas modulares de ciudad que quedan reducidas a escombros con los impactos de artillería",
+    "Más de 300 ilustraciones históricas individuales que dan vida a cada soldado del pelotón"
+  ],
+  "scopes": {
+    "undaunted_stalingrad_full_campaign": {
+      "name": "Campaña Completa de Stalingrado (~15 Escenarios)",
+      "description": "La experiencia íntegra de la campaña ramificada sorteando ofensivas urbanas, contraataques y desgaste permanente."
+    },
+    "undaunted_stalingrad_first_offensive": {
+      "name": "Primera Ofensiva (8 Escenarios)",
+      "description": "Juega los 8 primeros escenarios viviendo las incursiones iniciales, duelos de francotiradores y las primeras bajas de la tropa."
+    },
+    "undaunted_stalingrad_extended_attrition": {
+      "name": "Guerra de Desgaste Extendida (20 Escenarios)",
+      "description": "Una campaña exhaustiva de desgaste que recorre combates de alcantarilla y complejas ramificaciones tácticas."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Fase I",
+      "title": "Brecha en la Ciudad",
+      "phase": "Primeros Choques - Adentrándose en los Escombros",
+      "description": "Libra encarnizadas escaramuzas casa por casa, cruza plazas descubiertas y sufre las primeras bajas definitivas."
+    },
+    {
+      "badgeText": "Fase II",
+      "title": "La Fábrica Octubre Rojo",
+      "phase": "Campaña Media - La Matanza Industrial",
+      "description": "Despliega carros de combate pesados y francotiradores en los complejos fabriles y combate entre ruinas demolidas."
+    },
+    {
+      "badgeText": "Fase III",
+      "title": "La Fortaleza de Pávlov",
+      "phase": "Campaña Tardía - Asedio a los Edificios y Cloacas",
+      "description": "Asedia edificios convertidos en fortalezas inexpugnables, combate en las cloacas y gestiona soldados veteranos al límite."
+    },
+    {
+      "badgeText": "Final",
+      "title": "La Contraofensiva Definitiva",
+      "phase": "Gran Final - El Destino de Stalingrado",
+      "description": "Lanza el ataque de ruptura definitivo que decidirá la Batalla de Stalingrado y sellará el destino de los oficiales supervivientes."
+    }
+  ]
+}

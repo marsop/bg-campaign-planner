@@ -1,0 +1,95 @@
+{
+  "id": "scythe-rise-of-fenris",
+  "title": "Scythe: The Rise of Fenris",
+  "releaseYear": 2018,
+  "designers": "Jamey Stegmaier, Ryan Lopez DeVinaspre",
+  "playersMin": 1,
+  "playersMax": 5,
+  "bggRating": 8.7,
+  "bggWeight": 3.40,
+  "bggUrl": "https://boardgamegeek.com/boardgame/242277/scythe-the-rise-of-fenris",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "episodes",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#0284c7",
+    "secondaryColor": "#18181b",
+    "accentColor": "#eab308",
+    "backgroundGradient": "radial-gradient(ellipse at top, #142233 0%, #11141a 60%, #07090c 100%)",
+    "cardBackground": "rgba(18, 24, 33, 0.94)",
+    "borderColor": "rgba(2, 132, 199, 0.35)",
+    "glowColor": "rgba(2, 132, 199, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "⚙️",
+    "emblem": "⚙️🌾",
+    "themeClass": "theme-scythe-fenris",
+    "activeThemeClass": "theme-scythe-fenris-active",
+    "roadmapClass": "roadmap-scythe-fenris",
+    "heroClass": "hero-scythe-fenris"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #242277 Overall)",
+    "Stonemaier Games Official Campaign Rulebook",
+    "Scythe: The Rise of Fenris Episode Guide"
+  ],
+  "scopes": [
+    {
+      "id": "scythe_fenris_full_campaign",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "scythe_fenris_early_skirmishes",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "scythe_fenris_expanded_chronicle",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🏭",
+      "badgeText": "Episode 2",
+      "title": "Echoes of the Factory",
+      "phase": "Opening Maneuvers - Regional Fortifications",
+      "description": "Construct infrastructure perks, claim initial alliance bonuses, and survey newly unlocked territory modules."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "⚔️",
+      "badgeText": "Episode 4",
+      "title": "The Iron Horizon",
+      "phase": "Escalation - Heavy War Machines",
+      "description": "Breach sealed Factory vaults, deploy devastating heavy war machinery, and adjust faction agendas for total war."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🐺",
+      "badgeText": "Episode 6",
+      "title": "Unmasked Nemesis",
+      "phase": "Deep Conflict - Secret Factions",
+      "description": "Unbox new enigmatic campaign factions and deploy specialized combat dice and faction power upgrades."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🏆",
+      "badgeText": "Finale",
+      "title": "The Battle for Europa's Dawn",
+      "phase": "Campaign Climax - Fate of the Continent",
+      "description": "Fight the climactic war for final control of the Factory and secure everlasting supremacy across 1920s Europa."
+    }
+  ]
+}

@@ -7,6 +7,106 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.62.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Sleeping Gods: Distant Skies**, the standalone cooperative open-world aerial campaign by Ryan Laukat (Red Raven Games, 2023).
+    - 3 campaign scope presets: *Full Aerial Odyssey (~12 Expeditions)* (12 expeditions, recommended), *Maiden Expeditions* (5 expeditions), and *Complete Atlas & Hidden Temples* (16 expeditions).
+    - 4 narrative milestone checkpoints: *Wings Above the Clouds* (Expedition 3), *The Floating Archipelago* (Expedition 6), *Sanctuary of the Sky Gods* (Expedition 9), and *Escape the Wandering Skies* (Finale), with full spoiler mask protection.
+    - Thematic visual identity (sky azure `#38bdf8`, midnight stratosphere `#0f172a`, and compass amber `#f59e0b` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of a vintage cargo plane flying beneath floating aerial islands and cloud ruins).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.61.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Undaunted: Stalingrad**, the dedicated 2-player persistent tactical WWII campaign by David Thompson and Trevor Benjamin (Osprey Games, 2022).
+    - 3 campaign scope presets: *Full Stalingrad Campaign (~15 Scenarios)* (15 scenarios, recommended), *First Offensive* (8 scenarios), and *Extended Attrition Campaign* (20 scenarios).
+    - 4 narrative milestone checkpoints: *Breach into the City* (Phase I), *The Red October Works* (Phase II), *Fortress Pavlov* (Phase III), and *The Final Counteroffensive* (Finale), with full spoiler mask protection.
+    - Thematic visual identity (frontline crimson `#dc2626`, rubble slate `#1c1917`, and tarnished brass `#ca8a04` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of ruined snow-dusted Stalingrad apartment blocks and tank tracks).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.60.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **The Adventures of Robin Hood**, the cooperative living storybook campaign by Michael Menzel (KOSMOS, 2021).
+    - 3 campaign scope presets: *Full 9-Chapter Chronicle* (9 chapters, recommended), *Act 1: Sherwood Outlaws* (4 chapters), and *Master Outlaws & Alternate Paths* (13 chapters).
+    - 4 narrative milestone checkpoints: *Outlaws of Sherwood* (Chapter 2), *Infiltration of Nottingham Castle* (Chapter 5), *The Sheriff's Retaliation* (Chapter 7), and *The Return of the King* (Finale), with full spoiler mask protection.
+    - Thematic visual identity (Sherwood forest green `#15803d`, castle stone `#292524`, and royal gold `#eab308` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of sunbeams filtering through ancient Sherwood oaks toward Nottingham Castle).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.59.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Harry Potter: Hogwarts Battle**, the cooperative 7-year deck-building campaign by Forrest-Pruzan Creative, Kami Mandell, and Andrew Wolf (USAopoly / The Op, 2016).
+    - 3 campaign scope presets: *Full 7-Year Campaign* (7 games, recommended), *Underclassmen Years* (4 games), and *Master Wizard Campaign* (10 games).
+    - 4 narrative milestone checkpoints: *Chamber of Horrors* (Year 2), *The Triwizard Return* (Year 4), *Secrets of the Half-Blood* (Year 6), and *The Battle for Hogwarts* (Year 7 Finale), with full spoiler mask protection.
+    - Thematic visual identity (Hogwarts gold `#eab308`, dark crimson `#450a0a`, and patronus azure `#38bdf8` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of Hogwarts castle under starry night sky with shimmering patronus light).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.58.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Charterstone**, the competitive worker-placement legacy campaign by Jamey Stegmaier (Stonemaier Games, 2017).
+    - 3 campaign scope presets: *Full 12-Game Legacy Campaign* (12 games, recommended), *First Half: Settlement Era* (6 games), and *Complete Campaign & Post-Game Eras* (16 games).
+    - 4 narrative milestone checkpoints: *Opening the First Crates* (Charter I), *Guideposts of Greengully* (Charter II), *The Cloud Port Trade* (Charter III), and *The Forever King's Blessing* (Finale), with full spoiler mask protection.
+    - Thematic visual identity (pastoral emerald green `#10b981`, warm stone `#1c1917`, and golden charter seal `#f59e0b` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of a charming pastoral village in a lush valley).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.57.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Forgotten Waters**, the cooperative app-narrated Crossroads pirate campaign by Mr. Bistro, J. Arthur Ellis, and Isaac Vega (Plaid Hat Games, 2020).
+    - 3 campaign scope presets: *Core Pirate Chronicle (5 Scenarios)* (5 scenarios, recommended), *Introductory Voyages* (2 scenarios), and *All Voyages & Expansion Quests* (7 scenarios).
+    - 3 narrative milestone checkpoints: *Beyond the Ocean's Edge* (Voyage I), *Perils of the Abyssal Depths* (Voyage III), and *Legend of the High Seas* (Finale), with full spoiler mask protection.
+    - Thematic visual identity (tropical azure `#0ea5e9`, deep trench navy `#0c4a6e`, and pirate doubloon gold `#f59e0b` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of a pirate vessel sailing turquoise Caribbean waters at sunset).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.56.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Scythe: The Rise of Fenris**, the 8-episode alternate-history dieselpunk campaign by Jamey Stegmaier and Ryan Lopez DeVinaspre (Stonemaier Games, 2018).
+    - 3 campaign scope presets: *Full 8-Episode Campaign* (8 episodes, recommended), *The Opening Fronts* (4 episodes), and *Extended Chronicle & Modular Battles* (12 episodes).
+    - 4 narrative milestone checkpoints: *Echoes of the Factory* (Episode 2), *The Iron Horizon* (Episode 4), *Unmasked Nemesis* (Episode 6), and *The Battle for Europa's Dawn* (Episode 8 Finale), with full spoiler mask protection.
+    - Thematic visual identity (dieselpunk sky blue `#0284c7`, industrial soot zinc `#18181b`, and Europa wheat gold `#eab308` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of 1920s alternate Europa countryside with walking mechs and the distant Factory).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.55.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Mechs vs. Minions**, the cooperative programmatic mech combat campaign by Chris Cantrell, Rick Ernst, Stone Librande, Prashant Saraswat, and Nathan Tiras (Riot Games, 2016).
+    - 3 campaign scope presets: *Full 10-Mission Campaign* (10 missions, recommended), *Cadet Training Operations* (5 missions), and *Master Mechanic Saga* (14 missions).
+    - 4 narrative milestone checkpoints: *Mechanical Mastery* (Dossier 3), *The Molten Perimeter* (Dossier 6), *Defense of the Rune Forge* (Dossier 8), and *The Megamech Reckoning* (Finale), with full spoiler mask protection.
+    - Thematic visual identity (yordle brass orange `#f59e0b`, mech slate `#0f172a`, and hextech cyan `#06b6d4` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of battle-hardened mechs on cracked molten terrain fighting minion swarms).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.54.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **The King's Dilemma**, the interactive legacy dynastic dilemma campaign by Lorenzo Silva and Hjalmar Hach (Horrible Guild, 2019).
+    - 3 campaign scope presets: *Standard Dynastic Chronicle (~15 Games)* (15 games, recommended), *Early Dynastic Reigns* (6 games), and *Deep Lore & Extended Chronicle* (20 games).
+    - 4 narrative milestone checkpoints: *The First Royal Abdication* (Era I), *Tides of Rebellion & War* (Era II), *Secrets of the Old Blood* (Era III), and *The Grand Council's Reckoning* (Finale), with full spoiler mask protection.
+    - Thematic visual identity (royal crimson `#e11d48`, council chamber navy `#1e1b4b`, and crown gold `#eab308` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of noble councilors gathered around a candlelit medieval council table).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.53.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Ticket to Ride Legacy: Legends of the West**, the 12-round transcontinental railway legacy campaign by Rob Daviau, Matt Leacock, and Alan R. Moon (Days of Wonder, 2023).
+    - 3 campaign scope presets: *Full Transcontinental Campaign (12 Games)* (12 games, recommended), *First Half: Plains & Frontier* (6 games), and *Complete Campaign & Post-Game Eras* (16 games).
+    - 4 narrative milestone checkpoints: *Across the Great Plains* (Frontier I), *Conquering the Rockies* (Frontier II), *Southwestern Spur* (Frontier III), and *The Golden Spike* (Finale), with full spoiler mask protection.
+    - Thematic visual identity (locomotive amber `#d97706`, coal black `#1c1917`, and golden spike gold `#f59e0b` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of a steam locomotive crossing a wooden trestle canyon at sunset).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.52.0] - 2026-09-24
 
 ### Added

@@ -1,0 +1,55 @@
+{
+  "title": "Mechs vs. Minions",
+  "subtitle": "La campaña cooperativa de combate programado con mechas",
+  "tagline": "Pilota y programa tus mechas de combate para derrotar a implacables hordas de súbditos en 10 expedientes sellados.",
+  "loreSummary": "Eres un intrépido yordle admitido en la prestigiosa academia de mechas de Rumble. Cuando una catastrófica invasión de súbditos asalta las instalaciones, deberás subir a tu máquina de guerra personalizada, redactar cartas de acción en tu línea de comandos, coordinar movimientos y desatar letales rutinas ofensivas para salvar Runaterra.",
+  "badgeCategory": "Combate Programado con Mechas",
+  "roadmapTitle": "Operaciones de Expedientes de Misión",
+  "roadmapBadge": "Progresión de la Academia",
+  "keyFeatures": [
+    "Drafteo y programación cooperativa de acciones a través de 10 expedientes confidenciales",
+    "Tableros modulares con peligros dinámicos, ríos de lava y misiones de escolta",
+    "Mechas de héroes prepintados, miniaturas de jefes y decenas de figuras de esbirros",
+    "Desbloqueo progresivo con nuevas cartas de mando, planos y módulos bélicos"
+  ],
+  "scopes": {
+    "mvm_full_campaign": {
+      "name": "Campaña Completa de 10 Misiones",
+      "description": "La experiencia cooperativa íntegra a través de los 10 expedientes de misión sellados hasta el enfrentamiento final con el colosal mecha jefe."
+    },
+    "mvm_cadet_missions": {
+      "name": "Instrucción de Cadetes (Misiones 1–5)",
+      "description": "Juega las 5 primeras misiones para dominar la programación de líneas de mando, mejoras de armamento y control de multitudes."
+    },
+    "mvm_master_mechanic": {
+      "name": "Saga Mecánico Maestro (14 Misiones)",
+      "description": "La campaña completa de 10 misiones más 4 escenarios de desafío avanzado y protocolos de jefes de alta dificultad."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Expediente 3",
+      "title": "Maestría Mecánica",
+      "phase": "Entrenamiento de Academia - Líneas de Mando Avanzadas",
+      "description": "Domina el drafteo de ranuras, las rutinas de movimiento secuencial y la inyección de combustible frente a las primeras oleadas de esbirros."
+    },
+    {
+      "badgeText": "Expediente 6",
+      "title": "El Perímetro de Magma",
+      "phase": "Operaciones de Campo - Amenazas Ambientales",
+      "description": "Esquiva conductos de lava incandescente, remolca el frágil contenedor de cristal y desmantela las defensas perimetrales de los súbditos."
+    },
+    {
+      "badgeText": "Expediente 8",
+      "title": "Defensa de la Forja Rúnica",
+      "phase": "Alerta Máxima - Asedio a la Fortaleza",
+      "description": "Levanta barreras de energía defensivas y coordina líneas de fuego continuo para salvaguardar el núcleo energético de la academia."
+    },
+    {
+      "badgeText": "Final",
+      "title": "El Ajuste de Cuentas del Megamecha",
+      "phase": "Final de Campaña - El Jefe Definitivo",
+      "description": "Programa protocolos ofensivos sincronizados para derribar al titánico mecha enemigo y devolver la paz a Runaterra."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "The King's Dilemma",
+  "subtitle": "Die interaktive dynastische Dilemma-Legacy-Kampagne",
+  "tagline": "Lenke das Schicksal des Königreichs Ankist über Generationen moralischer Dilemmata und wechselnder Allianzen.",
+  "loreSummary": "Du führst ein einflussreiches Adelshaus im Kronrat des Königreichs Ankist. Über aufeinanderfolgende Generationen und Regentschaften stimmst du über folgenschwere Erlasse ab, wägst das Wohl des Reiches gegen die geheimen Ambitionen deiner Dynastie ab, öffnest versiegelte Mysterienumschläge und besiegelst das Schicksal der Krone.",
+  "badgeCategory": "Politisches Legacy-Narrativ",
+  "roadmapTitle": "Dynastische Fortschrittschronik",
+  "roadmapBadge": "Chronik des Kronrats",
+  "keyFeatures": [
+    "Interaktive narrative Legacy-Kampagne mit verzweigten moralischen Dilemmakarten",
+    "Generationsübergreifende Regentschaften mit wechselnden Monarchen, Bündnissen und Krisen",
+    "Dutzende versiegelte Geheimnisumschläge mit tiefgreifenden Wendungen für die Handlung",
+    "Permanentes Unterzeichnen von Karten, Chronik-Aufkleber und geheime Hausziele"
+  ],
+  "scopes": {
+    "kings_dilemma_standard_chronicle": {
+      "name": "Standard-Dynastiechronik (~15 Partien)",
+      "description": "Die vollständige narrative Reise durch die wichtigsten Handlungsstränge bis zu einem der großen Finalen."
+    },
+    "kings_dilemma_prologue_reigns": {
+      "name": "Frühe Regentschaften (6 Partien)",
+      "description": "Erlebe die Anfangszeit von Ankist, baue Adelsschwüre und Rivalitäten auf und entdecke die grundlegenden Dilemmata."
+    },
+    "kings_dilemma_complete_archive": {
+      "name": "Erweiterte Chronik & Tiefenarchiv (20 Partien)",
+      "description": "Eine erschöpfende Mehrgenerationen-Chronik, die sekundäre Handlungszweige und tiefere Geheimnisumschläge erforscht."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Ära I",
+      "title": "Die erste königliche Abdankung",
+      "phase": "Frühe Regentschaften - Saat der Zwietracht",
+      "description": "Meistere das Ableben oder die Abdankung des ersten Monarchen, öffne erste Geheimnisumschläge und kröne den Nachfolger."
+    },
+    {
+      "badgeText": "Ära II",
+      "title": "Wogen von Rebellion und Krieg",
+      "phase": "Mittelteil der Dynastie - Das Reich in der Krise",
+      "description": "Halte Staatskasse, Kornspeicher und militärische Macht im Gleichgewicht, während Unruhen den Frieden gefährden."
+    },
+    {
+      "badgeText": "Ära III",
+      "title": "Geheimnisse des alten Blutes",
+      "phase": "Späte Dynastie - Die verborgenen Umschläge",
+      "description": "Schalte uralte Wahrheiten frei, enthülle verborgene Verschwörungen und stelle dich generationenalten Prophezeiungen."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Das Urteil des Hohen Rates",
+      "phase": "Großes Finale - Das Schicksal von Ankist",
+      "description": "Löse die fundamentale Krise des Reiches, werte Ansehen und Geheimziele der Häuser aus und besiegle den Thron."
+    }
+  ]
+}

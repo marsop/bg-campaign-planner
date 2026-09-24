@@ -1,0 +1,55 @@
+{
+  "title": "Charterstone",
+  "subtitle": "Die 12-teilige kompetitive Worker-Placement-Legacy-Kampagne",
+  "tagline": "Erschaffe ein blühendes idyllisches Dorf von Grund auf über 12 freischaltbare Legacy-Partien.",
+  "loreSummary": "Der Ewige König hat dich und deine Baumeisterkollegen auserwählt, das unberührte Tal von Greengully zu besiedeln. Über 12 Partien klebst du Gebäudeaufkleber ein, öffnest nummerierte Kisten, schaltest neue Regeln frei und verwandelst ein leeres Tal in eine dauerhafte, lebendige Dorfgemeinschaft.",
+  "badgeCategory": "Worker-Placement-Legacy",
+  "roadmapTitle": "Dorfentwicklungs-Chronik",
+  "roadmapBadge": "Fortschritt der Freibriefe",
+  "keyFeatures": [
+    "Kompetitive 12-teilige Legacy-Kampagne mit dauerhaftem Worker-Placement-Aufbau",
+    "Über 75 freischaltbare Holzkisten mit neuen Karten, Regeln und Gebäudeaufklebern",
+    "Wegweiser-Meilensteine, die das Wachstum und die Spezialisierung der Bezirke lenken",
+    "Nach Abschluss der Kampagne als individuelles Worker-Placement-Spiel unbegrenzt weiterspielbar"
+  ],
+  "scopes": {
+    "charterstone_full_campaign": {
+      "name": "Gesamte 12-Partien-Legacy-Kampagne",
+      "description": "Die vollständige 12-teilige Legacy-Reise zur Gründung von Greengully und zur Öffnung aller Kisten."
+    },
+    "charterstone_first_half": {
+      "name": "Erste Hälfte: Ära der Besiedlung (6 Partien)",
+      "description": "Spiele die ersten 6 Partien mit grundlegenden Werkstätten, Wegweisern und ersten Spezialisierungen."
+    },
+    "charterstone_full_plus_post": {
+      "name": "Gesamte Kampagne & Epilog-Ären (16 Partien)",
+      "description": "Die gesamte 12-teilige Legacy-Kampagne plus 4 Partien auf deinem fertig ausgebauten, individuellen Spielplan."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Freibrief I",
+      "title": "Die ersten Kisten öffnen",
+      "phase": "Fundamentales Wachstum - Frühes Dorf",
+      "description": "Errichte erste Gemeinschaftsgebäude, öffne nummerierte Kisten und wähle die Spezialisierung deines Bezirks."
+    },
+    {
+      "badgeText": "Freibrief II",
+      "title": "Wegweiser von Greengully",
+      "phase": "Mittlere Entwicklung - Fortgeschrittenes Gewerbe",
+      "description": "Erfülle königliche Wegweiserziele, verbessere Personafähigkeiten und baue spezialisierte Produktionsstätten."
+    },
+    {
+      "badgeText": "Freibrief III",
+      "title": "Der Wolkenhafen-Handel",
+      "phase": "Späte Expansion - Regionale Infrastruktur",
+      "description": "Eröffne Luftschiffrouten am Wolkenhafen, baue Monumente und balanciere das Kräftemessen der Bezirke aus."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Der Segen des Ewigen Königs",
+      "phase": "Großes Finale - Krönung des Baumeisters",
+      "description": "Ermittle den Gesamtsieger aller 12 Partien, kröne den Meisterarchitekten und besitze ein einzigartiges Dauerspiel."
+    }
+  ]
+}

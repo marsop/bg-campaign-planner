@@ -1,0 +1,55 @@
+{
+  "title": "Charterstone",
+  "subtitle": "La campagna competitiva legacy di piazzamento lavoratori in 12 partite",
+  "tagline": "Fonda un florido villaggio agreste dalle fondamenta attraverso 12 partite legacy ricche di sorprese.",
+  "loreSummary": "Il Re Eterno ha scelto te e i tuoi colleghi mastri per colonizzare l'incontaminata valle di Greengully. Nel corso di 12 partite progressive, staccherai adesivi per gli edifici, aprirai casse misteriose numerate, sbloccherai nuove regole di piazzamento lavoratori e trasformerai una valle vuota in un insediamento fiorente e duraturo.",
+  "badgeCategory": "Piazzamento Lavoratori Legacy",
+  "roadmapTitle": "Cronologia di Sviluppo del Villaggio",
+  "roadmapBadge": "Progressione delle Concessioni",
+  "keyFeatures": [
+    "Campagna legacy competitiva di 12 partite con motore di gioco basato su piazzamento lavoratori permanente",
+    "Oltre 75 casse di legno sbloccabili contenenti nuove carte, regole e adesivi per gli edifici",
+    "Pietre miliari e obiettivi reali che orientano la specializzazione di ogni concessione",
+    "Completamente rigiocabile all'infinito come gioco personalizzato al termine della campagna"
+  ],
+  "scopes": {
+    "charterstone_full_campaign": {
+      "name": "Campagna Legacy Completa (12 Partite)",
+      "description": "L'esperienza legacy integrale di 12 partite per fondare il villaggio di Greengully e aprire tutte le casse della scatola."
+    },
+    "charterstone_first_half": {
+      "name": "Prima Metà: Epoca di Colonizzazione (6 Partite)",
+      "description": "Gioca le prime 6 partite avviando i laboratori artigianali di base, gli obiettivi e le prime specializzazioni."
+    },
+    "charterstone_full_plus_post": {
+      "name": "Campagna Completa ed Epilogo (16 Partite)",
+      "description": "L'intera campagna legacy di 12 partite più 4 sessioni giocate sul tabellone definitivo e personalizzato."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Concessione I",
+      "title": "L'Apertura delle Prime Casse",
+      "phase": "Crescita Iniziale - Il Borgo Nascente",
+      "description": "Costruisci i primi edifici comuni, apri le prime casse numerate e decidi l'orientamento della tua concessione."
+    },
+    {
+      "badgeText": "Concessione II",
+      "title": "I Segnali di Greengully",
+      "phase": "Sviluppo Intermedio - Manifattura Avanzata",
+      "description": "Completa i traguardi imposti dalla corona, affina le abilità del tuo mastro e realizza botteghe specializzate."
+    },
+    {
+      "badgeText": "Concessione III",
+      "title": "Il Commercio al Porto delle Nubi",
+      "phase": "Espansione Avanzata - Infrastrutture Regionali",
+      "description": "Accogli i dirigibili mercantili al porto tra le nuvole, erigi edifici prestigiosi e gestisci le rivalità tra quartieri."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "La Benedizione del Re Eterno",
+      "phase": "Gran Finale - Incoronazione del Mastro Costruttore",
+      "description": "Calcola i punti gloria accumulati nelle 12 partite, proclama il vincitore e conserva un gioco da tavolo definitivo."
+    }
+  ]
+}

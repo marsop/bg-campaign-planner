@@ -1,0 +1,55 @@
+{
+  "title": "Undaunted: Stalingrad",
+  "subtitle": "La campagne tactique persistante Seconde Guerre mondiale pour 2 joueurs",
+  "tagline": "Prenez le commandement de pelotons rivaux dans l'enfer urbain de Stalingrad à travers plus de 15 scénarios persistants.",
+  "loreSummary": "Automne 1942. Votre adversaire et vous dirigez les défenseurs soviétiques ou les forces d'assaut allemandes dans les ruines calcinées de Stalingrad. Dans cette campagne autonome en face-à-face, chaque perte est consignée de façon définitive avec des autocollants, les soldats acquièrent des promotions héroïques ou périssent à jamais, et la ville est rasée par les tirs d'artillerie.",
+  "badgeCategory": "Duel Tactique Persistant",
+  "roadmapTitle": "Opérations sur le Front de Stalingrad",
+  "roadmapBadge": "Pertes & Destins de Pelotons",
+  "keyFeatures": [
+    "Campagne tactique persistante exclusivement dédiée au jeu à 2 avec embranchements narratifs",
+    "Autocollants indélébiles de pertes et de vétérans modifiant irréversiblement votre deck",
+    "Tuiles de ville dégradées en décombres fumants au fil des impacts d'obus et de bombes",
+    "Plus de 300 portraits uniques rendant hommage aux soldats et officiers historiques du conflit"
+  ],
+  "scopes": {
+    "undaunted_stalingrad_full_campaign": {
+      "name": "Campagne Complète de Stalingrad (~15 Scénarios)",
+      "description": "L'expérience complète de la campagne à embranchements, entre percées urbaines, contre-attaques et attrition permanente."
+    },
+    "undaunted_stalingrad_first_offensive": {
+      "name": "Première Offensive (8 Scénarios)",
+      "description": "Jouez les 8 premiers scénarios retraçant les percées dans les faubourgs, les duels de tireurs d'élite et les premiers traumatismes."
+    },
+    "undaunted_stalingrad_extended_attrition": {
+      "name": "Guerre d'Usure Étendue (20 Scénarios)",
+      "description": "Une campagne d'usure poussée à l'extrême explorant les combats de canalisations et les embranchements de siège prolongés."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Phase I",
+      "title": "Percée dans la Ville",
+      "phase": "Premiers Chocs - L'Entrée dans les Décombres",
+      "description": "Livrez des combats impitoyables de rue en rue, traversez des places à découvert et subissez vos premières pertes irréversibles."
+    },
+    {
+      "badgeText": "Phase II",
+      "title": "L'Usine Octobre Rouge",
+      "phase": "Milieu de Campagne - Le Hachoir Industriel",
+      "description": "Déployez blindés lourds et tireurs d'élite dans les halles d'usines en ruine et combattez au milieu des cratères d'obus."
+    },
+    {
+      "badgeText": "Phase III",
+      "title": "La Forteresse Pavlov",
+      "phase": "Campagne Tardive - Siège d'Immeubles et Égouts",
+      "description": "Assiégez des immeubles transformés en citadelles, combattez dans les égouts et menez au combat des vétérans épuisés."
+    },
+    {
+      "badgeText": "Final",
+      "title": "L'Ultime Contre-Offensive",
+      "phase": "Grand Final - Le Sort de Stalingrad",
+      "description": "Lancez l'assaut de rupture décisif qui scellera l'issue de la Bataille de Stalingrad et consacrera les officiers survivants."
+    }
+  ]
+}

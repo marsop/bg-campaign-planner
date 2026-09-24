@@ -1,0 +1,55 @@
+{
+  "title": "Harry Potter: Hogwarts Battle",
+  "subtitle": "La campaña cooperativa de construcción de mazos a lo largo de 7 cursos",
+  "tagline": "Domina poderosos hechizos, recluta aliados leales y defiende Hogwarts a lo largo de siete cursos académicos progresivos.",
+  "loreSummary": "Eres Harry, Ron, Hermione o Neville interponiéndoos entre el Colegio de Magia y Hechicería y el avance de las fuerzas oscuras. A lo largo de 7 cajas que se desbloquean de forma secuencial, adquirirás conjuros legendarios, reclutarás compañeros, perfeccionarás tus dotes mágicas y lucharás codo con codo para derrotar a Lord Voldemort y sus Mortífagos.",
+  "badgeCategory": "Construcción de Mazos Cooperativa",
+  "roadmapTitle": "Progresión de Cursos Académicos de Hogwarts",
+  "roadmapBadge": "Crónica de Defensa",
+  "keyFeatures": [
+    "Campaña cooperativa de 7 partidas que recrea los siete cursos escolares de la saga",
+    "Cajas progresivas que desbloquean nuevos hechizos, artes oscuras, dados y personajes",
+    "Construcción de mazos con equipo inicial temático y arsenales mágicos crecientes",
+    "Batalla final decisiva en el 7.º curso que combina todas las cartas desbloqueadas"
+  ],
+  "scopes": {
+    "hp_hogwarts_seven_years": {
+      "name": "Campaña Completa de 7 Cursos",
+      "description": "La experiencia narrativa íntegra de 7 partidas desde los desafíos del primer curso hasta la épica Batalla de Hogwarts."
+    },
+    "hp_hogwarts_early_years": {
+      "name": "Primeros Cursos Escolares (Cursos 1–4)",
+      "description": "Vive los primeros cuatro años lectivos aprendiendo mecánicas de construcción de mazos, dados y villanos iniciales."
+    },
+    "hp_hogwarts_master_wizards": {
+      "name": "Magos de Élite (10 Partidas)",
+      "description": "La campaña completa de 7 cursos más 3 partidas rejugables de alta dificultad contra plantillas aleatorias de villanos."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Curso 2",
+      "title": "La Cámara de los Secretos",
+      "phase": "Cursos 1–2 - Fundamentos de la Magia",
+      "description": "Desbloquea hechizos avanzados, contrarresta los eventos iniciales de las Artes Oscuras y rechaza a los primeros intrusos."
+    },
+    {
+      "badgeText": "Curso 4",
+      "title": "El Torneo y el Retorno",
+      "phase": "Cursos 3–4 - Sombras Crecientes",
+      "description": "Incorpora los dados de las cuatro casas, sobrevive a las pruebas y afronta el regreso de los siervos del Señor Tenebroso."
+    },
+    {
+      "badgeText": "Curso 6",
+      "title": "El Misterio del Príncipe",
+      "phase": "Cursos 5–6 - La Guerra se Intensifica",
+      "description": "Domina aptitudes heroicas avanzadas, combate a Mortífagos de élite y desvela las protecciones de los Horrocruxes."
+    },
+    {
+      "badgeText": "Curso 7",
+      "title": "La Batalla de Hogwarts",
+      "phase": "Gran Final - La Caída del Señor Tenebroso",
+      "description": "Uníos frente a Lord Voldemort y toda su hueste de villanos para defender el castillo y devolver la paz al mundo mágico."
+    }
+  ]
+}

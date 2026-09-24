@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (56 games):**
+**Currently in app (66 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -65,26 +65,28 @@ requested by the user.
 - Harakiri: Blades of Honor
 - Aftermath
 - Familiar Tales
+- Ticket to Ride Legacy: Legends of the West
+- The King's Dilemma
+- Mechs vs. Minions
+- Scythe: The Rise of Fenris
+- Forgotten Waters
+- Charterstone
+- Harry Potter: Hogwarts Battle
+- The Adventures of Robin Hood
+- Undaunted: Stalingrad
+- Sleeping Gods: Distant Skies
 
 ---
 
 ## 🟥 High Priority
 
-- **Ticket to Ride Legacy: Legends of the West** — Competitive legacy train route expansion game across 12 historical rounds on an evolving map. 12 sessions (20-30 hours). ~8.6 BGG. 2-5 players. Route building, legacy box unlocks, evolving board.
-- **The King's Dilemma** — Interactive narrative legacy dilemma experience resolving generational crises for the realm across shifting monarchies. 15-20 sessions (30-45 hours). ~7.7 BGG. 3-5 players. Secret agendas, branching storyline, legacy stickers, voting.
-- **Mechs vs. Minions** — Cooperative programmatic battle campaign piloting customized mechs against relentless minion hordes. 10 missions (15-20 hours). ~7.9 BGG. 2-4 players. Action drafting, card programming, modular board, sealed mission envelopes.
-- **Scythe: The Rise of Fenris** — Replayable 8-episode narrative campaign expanding the alternate-history dieselpunk conflict with persistent modules and unlocks. 8 episodes (12-16 hours). ~8.7 BGG. 1-5 players. Engine building, area control, secret box unlocks, campaign progression.
-- **Forgotten Waters** — Cooperative Crossroads pirate adventure guiding a colorful crew through branching episodic narrative quests. 5 scenarios (15-20 hours). ~7.9 BGG. 3-7 players. Worker placement, web app narration, storybook exploration, personal goals.
+*(None currently)*
 
 ---
 
 ## 🟧 Medium Priority
 
-- **Charterstone** — Competitive worker-placement legacy campaign building a communal village across 12 progressive games. 12 games (12-18 hours). ~7.4 BGG. 1-6 players. Worker placement, building stickers, unlockable crates, legacy development.
-- **Harry Potter: Hogwarts Battle** — Cooperative deck-building campaign defending Hogwarts across seven increasingly challenging school years. 7 games (12-18 hours). ~7.3 BGG. 2-4 players. Deck building, progressive box unlocks, cooperative villain battles.
-- **The Adventures of Robin Hood** — Cooperative family adventure campaign guiding Robin Hood and his companions across an evolving storybook map. 9 chapters (12-18 hours). ~7.4 BGG. 1-4 players. Movement without a grid, living gameboard with removable tiles, hardcover storybook.
-- **Undaunted: Stalingrad** — Dedicated two-player persistent tactical campaign through the brutal urban warfare of Stalingrad with branching outcomes. 15-20 scenarios (20-30 hours). ~8.6 BGG. 2 players. Deck building, dice combat, persistent casualty tracking, modular city map.
-- **Sleeping Gods: Distant Skies** — Standalone cooperative sequel campaign exploring a strange archipelago aboard an airplane and steamship. 15-25 hours. ~8.5 BGG. 1-4 players. Story atlas exploration, combat deck building, branching quests, open-world campaign.
+*(None currently)*
 
 ---
 

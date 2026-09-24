@@ -1,0 +1,95 @@
+{
+  "id": "charterstone",
+  "title": "Charterstone",
+  "releaseYear": 2017,
+  "designers": "Jamey Stegmaier",
+  "playersMin": 1,
+  "playersMax": 6,
+  "bggRating": 7.4,
+  "bggWeight": 2.82,
+  "bggUrl": "https://boardgamegeek.com/boardgame/197376/charterstone",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 10,
+  "unitType": "games",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#10b981",
+    "secondaryColor": "#1c1917",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #133324 0%, #151d18 60%, #0a0e0b 100%)",
+    "cardBackground": "rgba(18, 28, 22, 0.94)",
+    "borderColor": "rgba(16, 185, 129, 0.35)",
+    "glowColor": "rgba(16, 185, 129, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏡",
+    "emblem": "🏡🌱",
+    "themeClass": "theme-charterstone",
+    "activeThemeClass": "theme-charterstone-active",
+    "roadmapClass": "roadmap-charterstone",
+    "heroClass": "hero-charterstone"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #197376 Overall)",
+    "Stonemaier Games Official Rulebook & Chronicle",
+    "Charterstone Village Building Guide"
+  ],
+  "scopes": [
+    {
+      "id": "charterstone_full_campaign",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "charterstone_first_half",
+      "baseScenarioCount": 6,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "charterstone_full_plus_post",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "📦",
+      "badgeText": "Charter I",
+      "title": "Opening the First Crates",
+      "phase": "Foundational Growth - Early Village",
+      "description": "Construct initial communal buildings, unlock your first numbered crates, and choose charter specializations."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🗺️",
+      "badgeText": "Charter II",
+      "title": "Guideposts of Greengully",
+      "phase": "Midway Development - Advanced Industry",
+      "description": "Fulfill kingly guidepost milestones, advance persona skills, and construct specialized production workshops."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🏰",
+      "badgeText": "Charter III",
+      "title": "The Cloud Port Trade",
+      "phase": "Late Expansion - Regional Infrastructure",
+      "description": "Establish airship commerce at the cloud port, assemble high-tier buildings, and balance charter rivalries."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "The Forever King's Blessing",
+      "phase": "Grand Finale - Coronation of the Master Builder",
+      "description": "Score ultimate glory across all 12 games, crown the village champion, and unlock a permanent custom worker-placement game."
+    }
+  ]
+}

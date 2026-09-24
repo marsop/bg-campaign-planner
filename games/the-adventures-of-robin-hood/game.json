@@ -1,0 +1,95 @@
+{
+  "id": "the-adventures-of-robin-hood",
+  "title": "The Adventures of Robin Hood",
+  "releaseYear": 2021,
+  "designers": "Michael Menzel",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.4,
+  "bggWeight": 2.05,
+  "bggUrl": "https://boardgamegeek.com/boardgame/326494/the-adventures-of-robin-hood",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 10,
+  "unitType": "chapters",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#15803d",
+    "secondaryColor": "#292524",
+    "accentColor": "#eab308",
+    "backgroundGradient": "radial-gradient(ellipse at top, #14301d 0%, #151a14 60%, #090c09 100%)",
+    "cardBackground": "rgba(18, 28, 19, 0.94)",
+    "borderColor": "rgba(21, 128, 61, 0.35)",
+    "glowColor": "rgba(234, 179, 8, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏹",
+    "emblem": "🏹🌲",
+    "themeClass": "theme-robin-hood",
+    "activeThemeClass": "theme-robin-hood-active",
+    "roadmapClass": "roadmap-robin-hood",
+    "heroClass": "hero-robin-hood"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #326494 Overall)",
+    "KOSMOS Official Rulebook & Hardcover Storybook",
+    "The Adventures of Robin Hood Chapter Walkthrough"
+  ],
+  "scopes": [
+    {
+      "id": "robin_hood_full_chronicle",
+      "baseScenarioCount": 9,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": true
+    },
+    {
+      "id": "robin_hood_act_one",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "robin_hood_master_outlaws",
+      "baseScenarioCount": 13,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🌲",
+      "badgeText": "Chapter 2",
+      "title": "Outlaws of Sherwood",
+      "phase": "Act 1 - Assembling the Merry Men",
+      "description": "Evade the Sheriff's patrols, find refuge deep in Sherwood Forest, and rally Little John and Maid Marian."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🏰",
+      "badgeText": "Chapter 5",
+      "title": "Infiltration of Nottingham Castle",
+      "phase": "Act 2 - Behind Fortress Walls",
+      "description": "Sneak into Nottingham Castle, flip secret board tiles, and liberate captured allies from the dungeons."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "⚔️",
+      "badgeText": "Chapter 7",
+      "title": "The Sheriff's Retaliation",
+      "phase": "Act 3 - Rebellion Across the Shire",
+      "description": "Defend the peasant villages, outmaneuver armored knight columns, and strike a decisive blow against Guy of Gisborne."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "The Return of the King",
+      "phase": "Grand Finale - Justice for England",
+      "description": "Storm the castle, overthrow the corrupt regency, and welcome King Richard the Lionheart back to England."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Forgotten Waters",
+  "subtitle": "La campagna piratesca cooperativa narrata da app con sistema Bivi",
+  "tagline": "Solca mari tropicali sconosciuti, insegui bizzarri destini personali e sopravvivi a folli avventure corsare.",
+  "loreSummary": "Siete una ciurma pirata sopra le righe imbarcata su un unico galeone in un mondo di magia stravagante e pericoli marittimi. Guidati dall'applicazione web interamente recitata, assegnerete i marinai a ruoli chiave della nave, esplorerete isole misteriose, affronterete mostri marini e completerete la spassosa costellazione del vostro alter ego.",
+  "badgeCategory": "Avventura Narrativa a Bivi",
+  "roadmapTitle": "Diario di Bordo e Traversate",
+  "roadmapBadge": "Libro Corsaro",
+  "keyFeatures": [
+    "Narrazione cooperativa a Bivi supportata da un'applicazione web con voci recitanti",
+    "Schede personali dei pirati con biografie ironiche e obiettivi di costellazione unici",
+    "Piazzamento azioni con clessidra e ruoli di bordo differenziati (Quartiermastro, Cannoniere)",
+    "Libro dei luoghi con diramazioni narrative imprevedibili e tiri di dado avvincenti"
+  ],
+  "scopes": {
+    "forgotten_waters_core_voyages": {
+      "name": "Cronaca Piratesca Principale (5 Scenari)",
+      "description": "Tutti i 5 estesi scenari narrativi della scatola base tra decine di isole, mostri abissali ed epiloghi pirateschi."
+    },
+    "forgotten_waters_introductory_voyage": {
+      "name": "Traversate Introduttive (2 Scenari)",
+      "description": "Le prime due avventure, ideali per prendere confidenza con le mansioni del galeone e i tempi di gioco."
+    },
+    "forgotten_waters_extended_expeditions": {
+      "name": "Saga Completa e Spedizioni DLC (7 Scenari)",
+      "description": "La grande saga corsara completa dei 5 viaggi principali e delle 2 spedizioni narrative scaricabili."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Traversata I",
+      "title": "Oltre il Bordo dell'Oceano",
+      "phase": "Viaggio Inaugurale - Levando le Ancore",
+      "description": "Distribuisci gli incarichi a bordo, familiarizza con la narrazione dell'app ed esplora atolli incontaminati."
+    },
+    {
+      "badgeText": "Traversata III",
+      "title": "I Pericoli degli Abissi",
+      "phase": "Alto Mare - Leviatani e Spettri",
+      "description": "Sopravvivi a immani creature marine, galeoni spettrali maledetti e penurie di rum a bordo."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Leggenda dei Sette Mari",
+      "phase": "Gran Finale - Le Costellazioni Pirata",
+      "description": "Completa le costellazioni individuali dei tuoi corsari, arraffa un bottino favoloso e scolpisci il tuo nome nei canti di mare."
+    }
+  ]
+}

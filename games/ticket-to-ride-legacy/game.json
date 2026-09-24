@@ -1,0 +1,95 @@
+{
+  "id": "ticket-to-ride-legacy",
+  "title": "Ticket to Ride Legacy: Legends of the West",
+  "releaseYear": 2023,
+  "designers": "Rob Daviau, Matt Leacock, Alan R. Moon",
+  "playersMin": 2,
+  "playersMax": 5,
+  "bggRating": 8.6,
+  "bggWeight": 2.62,
+  "bggUrl": "https://boardgamegeek.com/boardgame/390092/ticket-to-ride-legacy-legends-of-the-west",
+  "baseScenarioMinutes": 75,
+  "setupTeardownMinutes": 15,
+  "unitType": "games",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#d97706",
+    "secondaryColor": "#1c1917",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2e1c0d 0%, #1a1209 60%, #0a0805 100%)",
+    "cardBackground": "rgba(28, 20, 14, 0.94)",
+    "borderColor": "rgba(217, 119, 6, 0.35)",
+    "glowColor": "rgba(217, 119, 6, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🚂",
+    "emblem": "🚂🌾",
+    "themeClass": "theme-ttr-legacy",
+    "activeThemeClass": "theme-ttr-legacy-active",
+    "roadmapClass": "roadmap-ttr-legacy",
+    "heroClass": "hero-ttr-legacy"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #390092 Overall)",
+    "Days of Wonder Official Rulebook & Campaign Manual",
+    "Ticket to Ride Legacy Official Campaign Journal"
+  ],
+  "scopes": [
+    {
+      "id": "ttr_legacy_full_campaign",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "ttr_legacy_frontier_half",
+      "baseScenarioCount": 6,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "ttr_legacy_campaign_plus_epilogue",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🛤️",
+      "badgeText": "Frontier I",
+      "title": "Across the Great Plains",
+      "phase": "Early Expansion - The Eastern Railheads",
+      "description": "Open the first frontier box, lay tracks across the central prairie, and establish the primary hub."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "⛰️",
+      "badgeText": "Frontier II",
+      "title": "Conquering the Rockies",
+      "phase": "Midway Arcs - Mountain Passes",
+      "description": "Bore tunnels and construct trestles through the mountain barriers to connect western settlements."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🌵",
+      "badgeText": "Frontier III",
+      "title": "Southwestern Spur",
+      "phase": "Late Campaign - Desert & Coastlines",
+      "description": "Expand the network across arid deserts to reach burgeoning boomtowns and Pacific ports."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🏆",
+      "badgeText": "Finale",
+      "title": "The Golden Spike",
+      "phase": "Grand Finale - Transcontinental Triumph",
+      "description": "Drive the golden spike uniting North America from sea to shining sea and crown the greatest railway baron."
+    }
+  ]
+}

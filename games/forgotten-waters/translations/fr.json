@@ -1,0 +1,49 @@
+{
+  "title": "Forgotten Waters",
+  "subtitle": "La campagne pirate coopérative scénarisée par application et système Croisée des Chemins",
+  "tagline": "Sillonnez des mers tropicales inexplorées, poursuivez vos destins hauts en couleur et survivez à des péripéties maritimes endiablées.",
+  "loreSummary": "Vous formez un équipage pirate bigarré naviguant à bord d'un unique navire au cœur d'un univers magique et déjanté. Guidés par l'application web entièrement doublée, vous assignerez les marins à des postes cruciaux du bord, explorerez des îles mystérieuses, bataillerez contre des monstres marins et remplirez la grille de constellation humoristique propre à votre personnage.",
+  "badgeCategory": "Aventure Narrative Croisée des Chemins",
+  "roadmapTitle": "Journal de Bord et Traversées",
+  "roadmapBadge": "Livre de Bord Pirate",
+  "keyFeatures": [
+    "Narration coopérative Croisée des Chemins avec dialogues parlés via l'application web",
+    "Fiches de pirate individuelles assorties d'histoires burlesques et d'objectifs de constellation",
+    "Sélection d'actions chronométrée avec répartition des postes de bord (Maître d'équipage, Canonnier)",
+    "Livre d'aventures foisonnant d'embranchements narratifs et d'épreuves de dés épiques"
+  ],
+  "scopes": {
+    "forgotten_waters_core_voyages": {
+      "name": "Chronique Pirate Principale (5 Scénarios)",
+      "description": "L'ensemble des 5 grands scénarios narratifs de la boîte de base traversant des dizaines d'îles, de monstres et de destins pirates."
+    },
+    "forgotten_waters_introductory_voyage": {
+      "name": "Traversées Initiatiques (2 Scénarios)",
+      "description": "Les deux premières aventures, parfaites pour assimiler les fonctions du navire et la gestion du sablier."
+    },
+    "forgotten_waters_extended_expeditions": {
+      "name": "Saga Complète & Expéditions DLC (7 Scénarios)",
+      "description": "L'épopée maritime absolue comprenant les 5 scénarios d'origine plus 2 quêtes narratives additionnelles."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Traversée I",
+      "title": "Au-delà de l'Océan",
+      "phase": "Voyage Inaugural - Levée d'Ancre",
+      "description": "Distribuez les rôles à bord, apprivoisez la narration sur l'application et cartographiez des atolls tropicaux vierges."
+    },
+    {
+      "badgeText": "Traversée III",
+      "title": "Les Périls des Abysses",
+      "phase": "Haute Mer - Léviathans et Spectres",
+      "description": "Survivez à des bêtes marines gigantesques, des galions maudits et des crises de rhum menaçant la discipline."
+    },
+    {
+      "badgeText": "Final",
+      "title": "Légende des Mers Oubliées",
+      "phase": "Grand Clímax - Les Constellations Pirates",
+      "description": "Complétez les constellations personnelles de vos forbans, amassez un butin fabuleux et gravez votre chant pirate dans l'histoire."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "The Adventures of Robin Hood",
+  "subtitle": "La campagna cooperativa su tabellone vivente senza griglie",
+  "tagline": "Vaga liberamente attraverso la foresta di Sherwood e Nottingham su un tabellone vivo e continuo.",
+  "loreSummary": "Siete Robin Hood, Lady Marian, Little John e Will Scarlet impegnati a combattere per la libertà nell'Inghilterra del XII secolo. Muovendovi senza caselle o griglie grazie a sagome di legno sagomate, capovolgerete tasselli segreti incastonati nel tabellone, consulterete un libro illustrato con copertina rigida, sfuggirete alle guardie dello Sceriffo e proteggerete gli indifesi.",
+  "badgeCategory": "Avventura Narrativa per Famiglie",
+  "roadmapTitle": "Cronaca dei Capitoli di Campagna",
+  "roadmapBadge": "Avanzamento a Sherwood",
+  "keyFeatures": [
+    "Movimento libero senza griglia tramite barrette sagomate in legno direttamente sulla mappa",
+    "Tabellone vivente ed evolutivo con tessere double-face che svelano sorprese ed eventi",
+    "Libro illustrato cartonato con bivi narrativi, testi immersivi e diversi finali",
+    "Configurazione istantanea con regole apprese gradualmente fin dal primo capitolo"
+  ],
+  "scopes": {
+    "robin_hood_full_chronicle": {
+      "name": "Cronaca Completa in 9 Capitoli",
+      "description": "L'epopea cooperativa integrale in 9 capitoli, dalla fuga nella foresta al glorioso ritorno di Re Riccardo."
+    },
+    "robin_hood_act_one": {
+      "name": "Atto 1: I Fuorilegge di Sherwood (Capitoli 1–4)",
+      "description": "Gioca i primi 4 capitoli per formare la banda di fuorilegge e condurre le prime audaci sortite di salvataggio."
+    },
+    "robin_hood_master_outlaws": {
+      "name": "Fuorilegge Leggendari e Sentieri Nascosti (13 Capitoli)",
+      "description": "La storia completa di 9 capitoli ampliata da 4 missioni alternative con bivi e livelli di sfida superiori."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Capitolo 2",
+      "title": "I Fuorilegge di Sherwood",
+      "phase": "Atto 1 - La Riunione dei Compagni",
+      "description": "Eludi le pattuglie dello Sceriffo, trova rifugio nella foresta e stringi alleanza con Little John e Marian."
+    },
+    {
+      "badgeText": "Capitolo 5",
+      "title": "Infiltrazione nel Castello di Nottingham",
+      "phase": "Atto 2 - Oltre le Mura di Pietra",
+      "description": "Infiltrati nel castello, gira le tessere segrete del tabellone e libera i compagni rinchiusi nei sotterranei."
+    },
+    {
+      "badgeText": "Capitolo 7",
+      "title": "La Rappresaglia dello Sceriffo",
+      "phase": "Atto 3 - Rivolta nella Contea",
+      "description": "Difendi i villaggi contadini, aggira i cavalieri corazzati e infliggi una dura sconfitta a Guy di Gisborne."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Il Ritorno del Re",
+      "phase": "Gran Finale - Giustizia per l'Inghilterra",
+      "description": "Prendi d'assalto la fortezza, rovescia la reggenza tirannica e rendi omaggio a Re Riccardo Cuor di Leone."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Harry Potter: Hogwarts Battle",
+  "subtitle": "La campagne coopérative de deck-building sur les 7 années scolaires",
+  "tagline": "Maîtrisez de puissants sortilèges, ralliez de fidèles alliés et défendez Poudlard tout au long de sept années scolaires.",
+  "loreSummary": "Vous incarnez Harry, Ron, Hermione ou Neville, dressés en rempart entre la prestigieuse école de sorcellerie et l'obscurité grandissante. À travers 7 boîtes de jeu déverrouillées tour à tour, apprenez des sorts emblématiques, recrutez des professeurs et des créatures, développez vos talents magiques et terrassez Lord Voldemort et ses Mangemorts.",
+  "badgeCategory": "Deck-Building Coopératif",
+  "roadmapTitle": "Progression des Années Scolaires de Poudlard",
+  "roadmapBadge": "Chronique de Défense",
+  "keyFeatures": [
+    "Campagne coopérative en 7 parties retraçant les sept années de scolarité de la saga",
+    "Boîtes progressives débloquant sortilèges inédits, forces du Mal, dés de maison et héros",
+    "Construction de deck avec équipement de départ personnalisé et arsenal magique évolutif",
+    "Bataille finale épique en 7e année réunissant toutes les cartes débloquées contre les Mangemorts"
+  ],
+  "scopes": {
+    "hp_hogwarts_seven_years": {
+      "name": "Campagne Complète des 7 Années",
+      "description": "L'épopée narrative intégrale en 7 parties des débuts d'apprentissage jusqu'à la bataille décisive de Poudlard."
+    },
+    "hp_hogwarts_early_years": {
+      "name": "Premières Années d'Études (Années 1 à 4)",
+      "description": "Jouez les 4 premières années pour découvrir les mécaniques de deck-building, les dés et les premiers méchants."
+    },
+    "hp_hogwarts_master_wizards": {
+      "name": "Maîtres Sorciers (10 Parties)",
+      "description": "La campagne complète des 7 années plus 3 parties de défi rejouables à très haute difficulté contre des groupes de méchants aléatoires."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Année 2",
+      "title": "La Chambre des Secrets",
+      "phase": "Années 1–2 - Fondations de la Magie",
+      "description": "Débloquez des sorts avancés, repoussez les premiers événements des Forces du Mal et défendez l'école."
+    },
+    {
+      "badgeText": "Année 4",
+      "title": "Le Tournoi et le Retour",
+      "phase": "Années 3–4 - L'Ombre Grandissante",
+      "description": "Intégrez les dés des quatre maisons, traversez les épreuves du Tournoi et affrontez le retour des sbires du Seigneur des Ténèbres."
+    },
+    {
+      "badgeText": "Année 6",
+      "title": "Le Mystère du Prince",
+      "phase": "Années 5–6 - La Guerre Ouverte",
+      "description": "Maîtrisez des compétences de héros avancées, combattez les Mangemorts d'élite et percez la protection des Horcruxes."
+    },
+    {
+      "badgeText": "Année 7",
+      "title": "La Bataille de Poudlard",
+      "phase": "Grand Final - La Chute de Voldemort",
+      "description": "Dressez-vous ensemble face à Lord Voldemort et à l'ensemble de ses partisans pour préserver le monde des sorciers."
+    }
+  ]
+}

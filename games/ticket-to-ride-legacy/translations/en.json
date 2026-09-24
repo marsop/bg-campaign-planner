@@ -1,0 +1,55 @@
+{
+  "title": "Ticket to Ride Legacy: Legends of the West",
+  "subtitle": "The 12-Game Transcontinental Railway Campaign",
+  "tagline": "Forge your railroad empire and conquer the American frontier across 12 legacy rounds.",
+  "loreSummary": "You are a 19th-century railway entrepreneur seeking fortune and glory in a rapidly expanding continent. Across 12 narrative rounds, you will unlock regional frontier boxes, establish custom routes, face unexpected events, and build a lasting railroad dynasty.",
+  "badgeCategory": "Legacy Route Building",
+  "roadmapTitle": "Frontier Expansion Timeline",
+  "roadmapBadge": "Continental Progress",
+  "keyFeatures": [
+    "12-round evolving narrative legacy campaign",
+    "Unlockable regional frontier boxes with new mechanics and board extensions",
+    "Permanent track stickers, custom postcards, and financial ledger scoring",
+    "Post-campaign replayability with a personalized, fully expanded map"
+  ],
+  "scopes": {
+    "ttr_legacy_full_campaign": {
+      "name": "Full Transcontinental Campaign (12 Games)",
+      "description": "The complete 12-game legacy experience spanning all frontier boxes, narrative chapters, and board expansions."
+    },
+    "ttr_legacy_frontier_half": {
+      "name": "First Half: Plains & Frontier (6 Games)",
+      "description": "Play through the first 6 games covering early rail networks and initial regional expansion."
+    },
+    "ttr_legacy_campaign_plus_epilogue": {
+      "name": "Complete Campaign & Post-Game Eras (16 Games)",
+      "description": "The full 12-game legacy campaign plus 4 post-campaign sessions played on your completed, customized map."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Frontier I",
+      "title": "Across the Great Plains",
+      "phase": "Early Expansion - The Eastern Railheads",
+      "description": "Open the first frontier box, lay tracks across the central prairie, and establish the primary hub."
+    },
+    {
+      "badgeText": "Frontier II",
+      "title": "Conquering the Rockies",
+      "phase": "Midway Arcs - Mountain Passes",
+      "description": "Bore tunnels and construct trestles through the mountain barriers to connect western settlements."
+    },
+    {
+      "badgeText": "Frontier III",
+      "title": "Southwestern Spur",
+      "phase": "Late Campaign - Desert & Coastlines",
+      "description": "Expand the network across arid deserts to reach burgeoning boomtowns and Pacific ports."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "The Golden Spike",
+      "phase": "Grand Finale - Transcontinental Triumph",
+      "description": "Drive the golden spike uniting North America from sea to shining sea and crown the greatest railway baron."
+    }
+  ]
+}

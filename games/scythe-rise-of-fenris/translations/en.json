@@ -1,0 +1,55 @@
+{
+  "title": "Scythe: The Rise of Fenris",
+  "subtitle": "The 8-Episode Alternate-History Dieselpunk Campaign",
+  "tagline": "Unravel the secrets of the mysterious Factory across an 8-episode replayable campaign of warfare and diplomacy.",
+  "loreSummary": "Empires rise and fall in the alternate 1920s of Europa. As the shadowy Fenris faction emerges and the mysterious city-state known as The Factory reopens its subterranean vaults, the great nations must mobilize colossal dieselpunk mechs, forge delicate alliances, and struggle for continental supremacy across 8 evolving episodes.",
+  "badgeCategory": "Dieselpunk Engine-Building",
+  "roadmapTitle": "Campaign Episode Progression",
+  "roadmapBadge": "Europa War Chronicle",
+  "keyFeatures": [
+    "Replayable 8-episode narrative campaign with persistent wealth and technology upgrades",
+    "11 modular components unlockable for standalone play after campaign completion",
+    "Two brand-new factions and customized Annihilator mechs housed in secret tuckboxes",
+    "Compatible with all previous Scythe expansions, including 7-player modes and airships"
+  ],
+  "scopes": {
+    "scythe_fenris_full_campaign": {
+      "name": "Full 8-Episode Campaign",
+      "description": "The complete narrative campaign experience spanning all 8 episodes, secret box unboxings, and the continental climax."
+    },
+    "scythe_fenris_early_skirmishes": {
+      "name": "The Opening Fronts (Episodes 1–4)",
+      "description": "Play the first four episodes introducing initial faction perks, alliance tokens, and early Factory incursions."
+    },
+    "scythe_fenris_expanded_chronicle": {
+      "name": "Extended Chronicle & Modular Battles (12 Episodes)",
+      "description": "The full 8-episode campaign plus 4 post-campaign standalone modular battles utilizing unlocked factions and rules."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Episode 2",
+      "title": "Echoes of the Factory",
+      "phase": "Opening Maneuvers - Regional Fortifications",
+      "description": "Construct infrastructure perks, claim initial alliance bonuses, and survey newly unlocked territory modules."
+    },
+    {
+      "badgeText": "Episode 4",
+      "title": "The Iron Horizon",
+      "phase": "Escalation - Heavy War Machines",
+      "description": "Breach sealed Factory vaults, deploy devastating heavy war machinery, and adjust faction agendas for total war."
+    },
+    {
+      "badgeText": "Episode 6",
+      "title": "Unmasked Nemesis",
+      "phase": "Deep Conflict - Secret Factions",
+      "description": "Unbox new enigmatic campaign factions and deploy specialized combat dice and faction power upgrades."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "The Battle for Europa's Dawn",
+      "phase": "Campaign Climax - Fate of the Continent",
+      "description": "Fight the climactic war for final control of the Factory and secure everlasting supremacy across 1920s Europa."
+    }
+  ]
+}

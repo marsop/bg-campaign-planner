@@ -1,0 +1,95 @@
+{
+  "id": "undaunted-stalingrad",
+  "title": "Undaunted: Stalingrad",
+  "releaseYear": 2022,
+  "designers": "David Thompson, Trevor Benjamin",
+  "playersMin": 2,
+  "playersMax": 2,
+  "bggRating": 8.6,
+  "bggWeight": 2.89,
+  "bggUrl": "https://boardgamegeek.com/boardgame/354568/undaunted-stalingrad",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 10,
+  "unitType": "scenarios",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#dc2626",
+    "secondaryColor": "#1c1917",
+    "accentColor": "#ca8a04",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2e1212 0%, #171515 60%, #0a0909 100%)",
+    "cardBackground": "rgba(28, 22, 22, 0.94)",
+    "borderColor": "rgba(220, 38, 38, 0.35)",
+    "glowColor": "rgba(202, 138, 4, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🎖️",
+    "emblem": "🎖️🏙️",
+    "themeClass": "theme-undaunted-stalingrad",
+    "activeThemeClass": "theme-undaunted-stalingrad-active",
+    "roadmapClass": "roadmap-undaunted-stalingrad",
+    "heroClass": "hero-undaunted-stalingrad"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #354568 Overall)",
+    "Osprey Games Official Campaign Rulebook & Scenario Booklet",
+    "Undaunted: Stalingrad Platoon Casualty Log"
+  ],
+  "scopes": [
+    {
+      "id": "undaunted_stalingrad_full_campaign",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "undaunted_stalingrad_first_offensive",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "undaunted_stalingrad_extended_attrition",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🧱",
+      "badgeText": "Phase I",
+      "title": "Breach into the City",
+      "phase": "Opening Clashes - Entering the Rubble",
+      "description": "Engage in brutal street-to-street skirmishes, cross open plazas, and suffer permanent platoon casualties."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🏭",
+      "badgeText": "Phase II",
+      "title": "The Red October Works",
+      "phase": "Mid-Campaign - Industrial Slaughterhouse",
+      "description": "Deploy heavy tanks and snipers across smoking factory complexes and navigate permanently demolished city tiles."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🛡️",
+      "badgeText": "Phase III",
+      "title": "Fortress Pavlov",
+      "phase": "Late Campaign - Apartment Sieges & Sewers",
+      "description": "Lay siege to fortified apartment citadels, conduct clandestine sewer raids, and manage exhausted veteran squads."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "🎖️",
+      "badgeText": "Finale",
+      "title": "The Final Counteroffensive",
+      "phase": "Grand Climax - The Fate of Stalingrad",
+      "description": "Launch the decisive breakthrough offensive that settles the Battle of Stalingrad and records the surviving officers."
+    }
+  ]
+}

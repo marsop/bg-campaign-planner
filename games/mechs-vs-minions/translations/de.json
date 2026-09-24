@@ -1,0 +1,55 @@
+{
+  "title": "Mechs vs. Minions",
+  "subtitle": "Die kooperative programmierbare Mech-Kampagne",
+  "tagline": "Steuere und programmiere deine Kampf-Mechs, um unerbittliche Vasallenhorden in 10 versiegelten Missionsakten zu besiegen.",
+  "loreSummary": "Du bist ein unerschrockener Yordle an Rumbles renommierter Mech-Akademie. Als eine verheerende Vasalleninvasion die Hallen stürmt, musst du in deinen maßgeschneiderten Kampf-Mech steigen, Aktionskarten auf deiner Befehlszeile programmieren, synchrone Manöver ausführen und verheerende Angriffe entfesseln, um Runeterra zu retten.",
+  "badgeCategory": "Programmierbarer Mech-Kampf",
+  "roadmapTitle": "Einsatzplan der Missionsakten",
+  "roadmapBadge": "Akademie-Fortschritt",
+  "keyFeatures": [
+    "Kooperatives Drafting und Programmieren von Aktionen über 10 versiegelte Missionsumschläge",
+    "Modulare Spielpläne mit dynamischen Gefahren, Lavaströmen und Eskort-Zielen",
+    "Vorbemalte Helden-Mechs, Boss-Miniaturen und Dutzende detaillierte Vasallenfiguren",
+    "Progressive Freischaltungen mit neuen Befehlskarten, Blaupausen und Ausrüstungen"
+  ],
+  "scopes": {
+    "mvm_full_campaign": {
+      "name": "Vollständige 10-Missionen-Kampagne",
+      "description": "Das komplette kooperative Kampagnenerlebnis über alle 10 versiegelten Missionsakten bis zum gewaltigen Boss-Mech."
+    },
+    "mvm_cadet_missions": {
+      "name": "Kadettenausbildung (Missionen 1–5)",
+      "description": "Spiele die ersten 5 Missionen, um Befehlszeilenprogrammierung, Waffenupgrades und Hordenkontrolle zu meistern."
+    },
+    "mvm_master_mechanic": {
+      "name": "Meistermechaniker-Saga (14 Missionen)",
+      "description": "Die gesamte 10-Missionen-Kampagne plus 4 fortgeschrittene Herausforderungsszenarien und knallharte Boss-Protokolle."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Akte 3",
+      "title": "Mechanische Meisterschaft",
+      "phase": "Akademietraining - Erweiterte Befehlszeilen",
+      "description": "Meistere Kartendrafting, programmierte Bewegungsabläufe und Treibstoffeinspritzung gegen die ersten Vasallenwellen."
+    },
+    {
+      "badgeText": "Akte 6",
+      "title": "Der Magmaperimeter",
+      "phase": "Feldeinsatz - Umweltgefahren",
+      "description": "Navigiere durch fließende Lavakanäle, ziehe die empfindliche Kristallfracht und schalte die Befestigungen der Vasallen aus."
+    },
+    {
+      "badgeText": "Akte 8",
+      "title": "Verteidigung der Runenschmiede",
+      "phase": "Höchste Bedrohung - Belagerung der Festung",
+      "description": "Errichte Schutzbarrieren und koordiniere Dauerfeuerlinien, um den Energiekern der Akademie zu verteidigen."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Die Megamech-Abrechnung",
+      "phase": "Kampagnenfinale - Der Bosskampf",
+      "description": "Programmiere koordinierte Offensivprotokolle, um den gigantischen feindlichen Mech zu Fall zu bringen und Runeterra zu retten."
+    }
+  ]
+}

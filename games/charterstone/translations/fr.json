@@ -1,0 +1,55 @@
+{
+  "title": "Charterstone",
+  "subtitle": "La campagne legacy compétitive de pose d'ouvriers en 12 parties",
+  "tagline": "Fondez un village champêtre florissant à partir de rien à travers 12 parties legacy pleines de surprises.",
+  "loreSummary": "Le Roi Éternel vous a choisis, vous et vos confrères bâtisseurs, pour coloniser la vallée sauvage de Greengully. Au cours de 12 parties évolutives, vous décollerez des autocollants de bâtiments, ouvrirez des caisses secrètes numérotées, découvrirez de nouvelles règles de pose d'ouvriers et bâtirez une communauté durable et prospère.",
+  "badgeCategory": "Pose d'Ouvriers Legacy",
+  "roadmapTitle": "Chronologie du Développement du Village",
+  "roadmapBadge": "Progression des Fiefs",
+  "keyFeatures": [
+    "Campagne legacy compétitive en 12 parties avec moteur de jeu persistant de pose d'ouvriers",
+    "Plus de 75 caisses en bois à déverrouiller recelant cartes, règles et autocollants inédits",
+    "Jalons royaux et bornes orientant la spécialisation et la prospérité de chaque fief",
+    "Parfaitement rejouable à l'infini en tant que jeu sur mesure après la conclusion de la campagne"
+  ],
+  "scopes": {
+    "charterstone_full_campaign": {
+      "name": "Campagne Legacy Complète (12 Parties)",
+      "description": "L'aventure legacy intégrale en 12 parties pour fonder le village de Greengully et ouvrir l'ensemble des caisses."
+    },
+    "charterstone_first_half": {
+      "name": "Première Moitié : Époque des Pionniers (6 Parties)",
+      "description": "Jouez les 6 premières parties consacrées aux ateliers de base, aux premières bornes et aux spécialités de fief."
+    },
+    "charterstone_full_plus_post": {
+      "name": "Campagne Complète & Parties Post-Campagne (16 Parties)",
+      "description": "La campagne legacy complète de 12 parties plus 4 sessions disputées sur votre plateau achevé et personnalisé."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Fief I",
+      "title": "L'Ouverture des Premières Caisses",
+      "phase": "Croissance Fondatrice - Le Hameau des Débuts",
+      "description": "Bâtissez les premiers édifices communautaires, ouvrez vos premières caisses et choisissez vos spécialités de fief."
+    },
+    {
+      "badgeText": "Fief II",
+      "title": "Les Bornes de Greengully",
+      "phase": "Développement Intermédiaire - Artisanat Avancé",
+      "description": "Accomplissez les jalons royaux, perfectionnez vos compétences de personnage et dressez des ateliers complexes."
+    },
+    {
+      "badgeText": "Fief III",
+      "title": "Le Port Flottant et le Commerce",
+      "phase": "Expansion Tardive - Infrastructure Régionale",
+      "description": "Accueillez des aéronefs marchands au port des nuages, érigez des monuments et gérez les rivalités locales."
+    },
+    {
+      "badgeText": "Final",
+      "title": "La Bénédiction du Roi Éternel",
+      "phase": "Grand Final - Couronnement du Maître Bâtisseur",
+      "description": "Décomptez la gloire amassée lors des 12 parties, désignez le vainqueur et conservez un jeu autonome définitif."
+    }
+  ]
+}

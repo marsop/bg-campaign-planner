@@ -1,0 +1,55 @@
+{
+  "title": "The Adventures of Robin Hood",
+  "subtitle": "The Cooperative Living Storybook Campaign",
+  "tagline": "Roam freely through Sherwood Forest and Nottingham across a living, gridless storybook board.",
+  "loreSummary": "You are Robin Hood, Maid Marian, Little John, and Will Scarlet fighting for freedom in 12th-century England. Moving freely across a seamless living gameboard without hexes or grids, you will turn over hidden cardboard inserts, consult a premium hardcover storybook, evade the Sheriff's patrols, and champion the oppressed.",
+  "badgeCategory": "Storybook Family Adventure",
+  "roadmapTitle": "Campaign Chapter Chronicle",
+  "roadmapBadge": "Sherwood Progress",
+  "keyFeatures": [
+    "Innovative gridless movement using wooden connecting pieces directly on the board",
+    "Living, evolving gameboard with double-sided removable tiles revealing hidden secrets",
+    "Branching hardcover storybook guiding dynamic story events and multiple endings",
+    "Zero setup time with rules taught organically through introductory chapters"
+  ],
+  "scopes": {
+    "robin_hood_full_chronicle": {
+      "name": "Full 9-Chapter Chronicle",
+      "description": "The complete 9-chapter cooperative storybook saga from the initial outlawing to King Richard's return."
+    },
+    "robin_hood_act_one": {
+      "name": "Act 1: Sherwood Outlaws (Chapters 1–4)",
+      "description": "Play the first 4 chapters assembling the Merry Men, learning gridless movement, and mounting early rescue raids."
+    },
+    "robin_hood_master_outlaws": {
+      "name": "Master Outlaws & Alternate Paths (13 Chapters)",
+      "description": "The full 9-chapter story plus 4 branching alternate paths and hard-mode variant missions."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Chapter 2",
+      "title": "Outlaws of Sherwood",
+      "phase": "Act 1 - Assembling the Merry Men",
+      "description": "Evade the Sheriff's patrols, find refuge deep in Sherwood Forest, and rally Little John and Maid Marian."
+    },
+    {
+      "badgeText": "Chapter 5",
+      "title": "Infiltration of Nottingham Castle",
+      "phase": "Act 2 - Behind Fortress Walls",
+      "description": "Sneak into Nottingham Castle, flip secret board tiles, and liberate captured allies from the dungeons."
+    },
+    {
+      "badgeText": "Chapter 7",
+      "title": "The Sheriff's Retaliation",
+      "phase": "Act 3 - Rebellion Across the Shire",
+      "description": "Defend the peasant villages, outmaneuver armored knight columns, and strike a decisive blow against Guy of Gisborne."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "The Return of the King",
+      "phase": "Grand Finale - Justice for England",
+      "description": "Storm the castle, overthrow the corrupt regency, and welcome King Richard the Lionheart back to England."
+    }
+  ]
+}

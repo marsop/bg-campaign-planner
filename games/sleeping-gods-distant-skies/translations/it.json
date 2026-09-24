@@ -1,0 +1,55 @@
+{
+  "title": "Sleeping Gods: Distant Skies",
+  "subtitle": "La campagna aerea open-world cooperativa indipendente",
+  "tagline": "Esplora isole celesti alla deriva, affronta creature sconosciute e cerca la via di casa a bordo di un aereo merci degli anni '30.",
+  "loreSummary": "San Francisco, 1937. Un ordinario volo cargo incappa in un'insolita anomalia atmosferica, catapultando il tuo equipaggio in un regno surreale fatto di isole sospese nel vuoto, dèi addormentati e tecnologie perdute. Esplorando via aria e a piedi con un ricco atlante a spirale, comporrai le sinergie del tuo mazzo di combattimento e troverai gli antichi totem per fare ritorno.",
+  "badgeCategory": "Atlante Narrativo Open World",
+  "roadmapTitle": "Avanzamento delle Spedizioni Aeree",
+  "roadmapBadge": "Diario di Volo Celeste",
+  "keyFeatures": [
+    "Seguito indipendente di Sleeping Gods con esplorazione senza soluzione di continuità tra cielo e terra",
+    "Sistema di combattimento rifinito basato su mazzi eroe individuali, equipaggiamenti e sinergie",
+    "Imponente atlante spiralato e libro degli incontri con centinaia di trame e finali ramificati",
+    "Meccanica di accampamento modulare per pause strategiche e salvataggi intuitivi"
+  ],
+  "scopes": {
+    "distant_skies_full_campaign": {
+      "name": "Odissea Aerea Completa (~12 Spedizioni)",
+      "description": "La campagna narrativa completa per esplorare le distese celesti, recuperare i totem e fuggire dai Cieli Erranti."
+    },
+    "distant_skies_maiden_flight": {
+      "name": "Prime Spedizioni (5 Spedizioni)",
+      "description": "Gioca le prime 5 sessioni riparando l'aeroplano, esplorando le prime rovine e potenziando i mazzi eroe."
+    },
+    "distant_skies_complete_atlas": {
+      "name": "Atlante Completo e Templi Nascosti (16 Spedizioni)",
+      "description": "Una campagna esplorativa minuziosa alla scoperta di ogni isola galleggiante, rovina sotterranea e divinità remota."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Spedizione 3",
+      "title": "Ali Sopra le Nubi",
+      "phase": "Fase di Volo 1 - Sopravvivere allo Schianto",
+      "description": "Ripara l'aereo cargo, allestisci i primi accampamenti e dissotterra il primo totem celeste."
+    },
+    {
+      "badgeText": "Spedizione 6",
+      "title": "L'Arcipelago Sospeso",
+      "phase": "Fase di Volo 2 - Le Terre del Firmamento",
+      "description": "Mappa isole celesti alla deriva, potenzia l'equipaggiamento da pilota e sfida le burrasche ad alta quota."
+    },
+    {
+      "badgeText": "Spedizione 9",
+      "title": "Santuario degli Dèi del Cielo",
+      "phase": "Fase di Volo 3 - Le Antiche Rovine",
+      "description": "Esplora roccaforti dimenticate tra le nuvole, comunica con divinità alate e trova la rotta verso casa."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Fuga dai Cieli Erranti",
+      "phase": "Gran Finale - Il Viaggio verso Casa",
+      "description": "Compi i destini dei membri dell'equipaggio, allinea i totem e attraversa la breccia dimensionale di ritorno."
+    }
+  ]
+}

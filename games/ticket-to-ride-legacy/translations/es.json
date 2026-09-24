@@ -1,0 +1,55 @@
+{
+  "title": "Ticket to Ride Legacy: Legends of the West",
+  "subtitle": "La campaña ferroviaria transcontinental en 12 partidas",
+  "tagline": "Forja tu imperio ferroviario y conquista la frontera americana a lo largo de 12 partidas legacy.",
+  "loreSummary": "Eres un emprendedor ferroviario del siglo XIX en busca de fortuna y gloria en un continente en plena expansión. A lo largo de 12 rondas narrativas, desbloquearás cajas fronterizas regionales, establecerás rutas personalizadas, afrontarás eventos inesperados y construirás una dinastía duradera sobre raíles.",
+  "badgeCategory": "Construcción de Rutas Legacy",
+  "roadmapTitle": "Cronología de Expansión Fronteriza",
+  "roadmapBadge": "Progreso Continental",
+  "keyFeatures": [
+    "Campaña legacy narrativa evolutiva de 12 partidas",
+    "Cajas fronterizas desbloqueables con nuevas mecánicas y expansiones de tablero",
+    "Adhesivos permanentes, postales coleccionables y registro en libros contables",
+    "Rejugabilidad posterior en un mapa totalmente personalizado y expandido"
+  ],
+  "scopes": {
+    "ttr_legacy_full_campaign": {
+      "name": "Campaña Transcontinental Completa (12 Partidas)",
+      "description": "La experiencia legacy completa de 12 partidas que abarca todas las cajas fronterizas, capítulos narrativos y ampliaciones del tablero."
+    },
+    "ttr_legacy_frontier_half": {
+      "name": "Primera Mitad: Llanuras y Frontera (6 Partidas)",
+      "description": "Juega las primeras 6 partidas centradas en las redes ferroviarias iniciales y la primera expansión regional."
+    },
+    "ttr_legacy_campaign_plus_epilogue": {
+      "name": "Campaña Completa y Época Posterior (16 Partidas)",
+      "description": "La campaña legacy íntegra de 12 partidas más 4 sesiones adicionales jugadas en tu mapa final totalmente personalizado."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Frontera I",
+      "title": "Cruzando las Grandes Llanuras",
+      "phase": "Expansión Temprana - Terminales del Este",
+      "description": "Abre la primera caja fronteriza, tiende vías por la pradera central y establece el núcleo ferroviario principal."
+    },
+    {
+      "badgeText": "Frontera II",
+      "title": "Conquistando las Rocosas",
+      "phase": "Arco Central - Pasos de Montaña",
+      "description": "Excava túneles y levanta viaductos de madera a través de las cordilleras para conectar los asentamientos del oeste."
+    },
+    {
+      "badgeText": "Frontera III",
+      "title": "El Ramal del Suroeste",
+      "phase": "Campaña Tardía - Desiertos y Costas",
+      "description": "Extiende la red a través de desiertos áridos para enlazar con pujantes ciudades y puertos del Pacífico."
+    },
+    {
+      "badgeText": "Final",
+      "title": "El Clavo de Oro",
+      "phase": "Gran Final - Triunfo Transcontinental",
+      "description": "Clava el legendario clavo de oro uniendo Norteamérica de costa a costa y corónate como el mayor magnate ferroviario."
+    }
+  ]
+}

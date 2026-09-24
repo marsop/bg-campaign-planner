@@ -1,0 +1,55 @@
+{
+  "title": "Ticket to Ride Legacy: Legends of the West",
+  "subtitle": "Die 12-teilige transkontinentale Eisenbahnkampagne",
+  "tagline": "Schmiede dein Eisenbahnimperium und erobere die amerikanische Grenze über 12 Legacy-Partien.",
+  "loreSummary": "Du bist ein Eisenbahnunternehmer des 19. Jahrhunderts auf der Suche nach Wohlstand und Ruhm auf einem rasant wachsenden Kontinent. Über 12 narrative Runden öffnest du regionale Grenzschachteln, verlegst individuelle Strecken, meisterst überraschende Ereignisse und errichtest eine dauerhafte Bahndynastie.",
+  "badgeCategory": "Legacy-Streckenbau",
+  "roadmapTitle": "Grenzland-Expansionszeitplan",
+  "roadmapBadge": "Kontinentaler Fortschritt",
+  "keyFeatures": [
+    "Entwickelnde 12-teilige narrative Legacy-Kampagne",
+    "Freischaltbare regionale Grenzschachteln mit neuen Regeln und Spielplanerweiterungen",
+    "Dauerhafte Streckenaufkleber, Postkarten und Buchführung im Hauptbuch",
+    "Dauerhafte Weiterspielbarkeit auf einem komplett freigeschalteten, individuellen Spielplan"
+  ],
+  "scopes": {
+    "ttr_legacy_full_campaign": {
+      "name": "Gesamte transkontinentale Kampagne (12 Partien)",
+      "description": "Das vollständige 12-teilige Legacy-Erlebnis über alle Grenzschachteln, Handlungskapitel und Spielplanerweiterungen."
+    },
+    "ttr_legacy_frontier_half": {
+      "name": "Erste Hälfte: Prärie & Grenze (6 Partien)",
+      "description": "Spiele die ersten 6 Partien mit den frühen Schienennetzen und der beginnenden regionalen Expansion."
+    },
+    "ttr_legacy_campaign_plus_epilogue": {
+      "name": "Vollständige Kampagne & Epilog-Ären (16 Partien)",
+      "description": "Die gesamte 12-teilige Legacy-Kampagne plus 4 zusätzliche Partien auf deinem fertig ausgebauten, individuellen Spielplan."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Grenzland I",
+      "title": "Über die Großen Ebenen",
+      "phase": "Frühe Expansion - Die östlichen Knotenpunkte",
+      "description": "Öffne die erste Grenzschachtel, verlege Gleise über die zentrale Prärie und baue das Hauptdrehkreuz aus."
+    },
+    {
+      "badgeText": "Grenzland II",
+      "title": "Die Bezwingung der Rocky Mountains",
+      "phase": "Mittelteil - Gebirgspässe & Tunnel",
+      "description": "Grabe Tunnel und errichte hölzerne Trestle-Brücken durch Bergmassive, um westliche Siedlungen anzuschließen."
+    },
+    {
+      "badgeText": "Grenzland III",
+      "title": "Die Südwest-Trasse",
+      "phase": "Späte Kampagne - Wüsten & Pazifikküste",
+      "description": "Erweitere das Netz durch trockene Wüsten, um boomende Städte und Pazifikhäfen zu erreichen."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Der goldene Nagel",
+      "phase": "Großes Finale - Transkontinentaler Triumph",
+      "description": "Schlage den legendären Golden Spike ein, der Nordamerika von Küste zu Küste verbindet, und kröne den größten Eisenbahnbaron."
+    }
+  ]
+}

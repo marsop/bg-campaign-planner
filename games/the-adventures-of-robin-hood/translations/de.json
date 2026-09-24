@@ -1,0 +1,55 @@
+{
+  "title": "The Adventures of Robin Hood",
+  "subtitle": "Die kooperative Kampagne auf dem lebendigen Spielplan",
+  "tagline": "Bewege dich frei durch den Sherwood Forest und Nottingham auf einem lebendigen rasterlosen Spielplan.",
+  "loreSummary": "Ihr seid Robin Hood, Marian, Little John und Will Scarlet und kämpft im England des 12. Jahrhunderts für Gerechtigkeit. Auf einem nahtlosen Spielplan ohne Raster bewegt ihr euch frei mit Holzfiguren, dreht verdeckte Plättchen im Spielplan um, schlagt im gebundenen Buch nach, entkommt den Wachen des Sheriffs und helft den Unterdrückten.",
+  "badgeCategory": "Abenteuer-Familienkampagne",
+  "roadmapTitle": "Kapitelchronik der Kampagne",
+  "roadmapBadge": "Sherwood-Fortschritt",
+  "keyFeatures": [
+    "Innovatives rasterloses Bewegen mit passgenauen Holzleisten direkt auf dem Spielplan",
+    "Lebendiger Spielplan mit herausnehmbaren Wendefeldern voller verborgener Geheimnisse",
+    "Hochwertiges Hardcover-Buch mit verzweigten Geschichten und atmosphärischer Handlung",
+    "Nahezu kein Aufbauaufwand durch spielerisches Erlernen der Regeln im ersten Kapitel"
+  ],
+  "scopes": {
+    "robin_hood_full_chronicle": {
+      "name": "Gesamte 9-Kapitel-Chronik",
+      "description": "Die vollständige kooperative Geschichte über alle 9 Kapitel von der Flucht in die Wälder bis zu König Richards Rückkehr."
+    },
+    "robin_hood_act_one": {
+      "name": "Akt 1: Geächtete des Sherwood (Kapitel 1–4)",
+      "description": "Spiele die ersten 4 Kapitel, versammle die Gefährten und meistere erste Befreiungsaktionen."
+    },
+    "robin_hood_master_outlaws": {
+      "name": "Meister-Geächtete & Alternative Pfade (13 Kapitel)",
+      "description": "Die gesamte 9-Kapitel-Geschichte plus 4 verzweigte Zusatzpfade und Herausforderungen auf hohem Schwierigkeitsgrad."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Kapitel 2",
+      "title": "Die Geächteten von Sherwood",
+      "phase": "Akt 1 - Das Bündnis der Gefährten",
+      "description": "Entkomme den Patrouillen des Sheriffs, finde Unterschlupf im Dickicht und verbünde dich mit Little John und Marian."
+    },
+    {
+      "badgeText": "Kapitel 5",
+      "title": "Infiltration von Schloss Nottingham",
+      "phase": "Akt 2 - Hinter den Festungsmauern",
+      "description": "Schleiche dich in die Burg, wende geheime Spielplanfelder und befreie gefangene Kameraden aus den Verliesen."
+    },
+    {
+      "badgeText": "Kapitel 7",
+      "title": "Die Vergeltung des Sheriffs",
+      "phase": "Akt 3 - Aufstand in der Grafschaft",
+      "description": "Beschütze die Bauerndörfer, weiche schwer gepanzerten Rittern aus und setze Guy von Gisborne zu."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Die Rückkehr des Königs",
+      "phase": "Großes Finale - Gerechtigkeit für England",
+      "description": "Stürmt das Schloss, stürzt die unrechtmäßige Herrschaft und heißt König Richard Löwenherz willkommen."
+    }
+  ]
+}

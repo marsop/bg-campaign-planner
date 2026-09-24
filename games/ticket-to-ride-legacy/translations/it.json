@@ -1,0 +1,55 @@
+{
+  "title": "Ticket to Ride Legacy: Legends of the West",
+  "subtitle": "La campagna ferroviaria transcontinentale in 12 partite",
+  "tagline": "Costruisci il tuo impero ferroviario e conquista la frontiera americana attraverso 12 partite legacy.",
+  "loreSummary": "Sei un pioniere dell'imprenditoria ferroviaria del XIX secolo alla ricerca di ricchezza e prestigio in un continente in rapida espansione. Nel corso di 12 partite narrative sbloccherai scatole frontaliere regionali, fisserai tratte personalizzate, affronterai imprevisti e fonderai una dinastia duratura su rotaia.",
+  "badgeCategory": "Costruzione Tratte Legacy",
+  "roadmapTitle": "Cronologia dell'Espansione di Frontiera",
+  "roadmapBadge": "Progresso Continentale",
+  "keyFeatures": [
+    "Campagna legacy narrativa evolutiva in 12 partite",
+    "Scatole frontaliere sbloccabili con nuove regole ed espansioni del tabellone",
+    "Adesivi permanenti per i binari, cartoline storiche e registro contabile dei profitti",
+    "Rigiocabilità continua su una mappa finale personalizzata e completamente espansa"
+  ],
+  "scopes": {
+    "ttr_legacy_full_campaign": {
+      "name": "Campagna Transcontinentale Completa (12 Partite)",
+      "description": "L'esperienza legacy integrale di 12 partite che include tutte le scatole frontaliere, i capitoli narrativi e le estensioni della mappa."
+    },
+    "ttr_legacy_frontier_half": {
+      "name": "Prima Metà: Pianure e Frontiera (6 Partite)",
+      "description": "Gioca le prime 6 partite incentrate sulle prime reti ferroviarie e sull'apertura verso l'Ovest."
+    },
+    "ttr_legacy_campaign_plus_epilogue": {
+      "name": "Campagna Completa ed Epilogo (16 Partite)",
+      "description": "La campagna legacy completa di 12 partite più 4 sessioni giocate sulla mappa personalizzata e definitiva."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Frontiera I",
+      "title": "Attraverso le Grandi Pianure",
+      "phase": "Espansione Iniziale - I Capolinea Orientali",
+      "description": "Apri la prima scatola di frontiera, stendi binari attraverso le pianure centrali e costituisci lo snodo principale."
+    },
+    {
+      "badgeText": "Frontiera II",
+      "title": "La Conquista delle Montagne Rocciose",
+      "phase": "Metà Campagna - Valichi e Gallerie",
+      "description": "Scava gallerie ed erigi ponti a traliccio sui rilievi montuosi per connettere gli insediamenti occidentali."
+    },
+    {
+      "badgeText": "Frontiera III",
+      "title": "La Diramazione del Sudovest",
+      "phase": "Fase Avanzata - Deserti e Coste",
+      "description": "Estendi la ferrovia attraverso le aride distese per raggiungere le città in espansione e i porti del Pacifico."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Il Chiodo d'Oro",
+      "phase": "Gran Finale - Trionfo Transcontinentale",
+      "description": "Conficca il leggendario chiodo d'oro che unisce il continente da costa a costa ed ergiti a più grande magnate ferroviario."
+    }
+  ]
+}

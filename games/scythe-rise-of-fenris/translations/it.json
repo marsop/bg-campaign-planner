@@ -1,0 +1,55 @@
+{
+  "title": "Scythe: The Rise of Fenris",
+  "subtitle": "La campagna ucronica dieselpunk in 8 episodi",
+  "tagline": "Svela i segreti della misteriosa Fabbrica attraverso una campagna rigiocabile di 8 episodi tra guerra e diplomazia.",
+  "loreSummary": "Imperiosi popoli si scontrano nell'Europa alternativa degli anni '20. Mentre la sinistra fazione di Fenris si palesa e l'enigmatica città-stato della Fabbrica spalanca i suoi caveau sotterranei, le grandi nazioni mobilitano imponenti mech dieselpunk, stringono instabili alleanze e combattono per il primato continentale nel corso di 8 episodi in costante evoluzione.",
+  "badgeCategory": "Costruzione Motore Dieselpunk",
+  "roadmapTitle": "Progressione degli Episodi di Campagna",
+  "roadmapBadge": "Cronaca di Guerra di Europa",
+  "keyFeatures": [
+    "Campagna narrativa rigiocabile di 8 episodi con ricchezza e migliorie tecnologiche permanenti",
+    "11 moduli componibili indipendenti utilizzabili nelle future partite standard",
+    "Due nuove fazioni e titanici mech Annientatori custoditi in scatole segrete",
+    "Pienamente compatibile con tutte le espansioni di Scythe, inclusi i dirigibili e il gioco a 7 giocatori"
+  ],
+  "scopes": {
+    "scythe_fenris_full_campaign": {
+      "name": "Campagna Completa in 8 Episodi",
+      "description": "L'esperienza narrativa integrale di 8 episodi, apertura delle scatole segrete e l'epilogo sul destino del continente."
+    },
+    "scythe_fenris_early_skirmishes": {
+      "name": "I Primi Fronti (Episodi 1–4)",
+      "description": "Gioca i primi 4 episodi che introducono le prime abilità di fazione, i gettoni alleanza e le manovre verso la Fabbrica."
+    },
+    "scythe_fenris_expanded_chronicle": {
+      "name": "Cronaca Estesa e Scontri Modulari (12 Episodi)",
+      "description": "La campagna di 8 episodi arricchita da 4 partite modulari successive sfruttando le fazioni e regole sbloccate."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Episodio 2",
+      "title": "Gli Echi della Fabbrica",
+      "phase": "Manovre di Apertura - Fortificazioni Regionali",
+      "description": "Costruisci migliorie di infrastruttura, riscuoti i vantaggi delle alleanze ed esplora i nuovi moduli territoriali."
+    },
+    {
+      "badgeText": "Episodio 4",
+      "title": "L'Orizzonte di Ferro",
+      "phase": "Escalation - Macchine Belliche Pesanti",
+      "description": "Forza i caveau blindati della Fabbrica, schiera devastanti macchinari bellici e prepara la tua fazione alla guerra totale."
+    },
+    {
+      "badgeText": "Episodio 6",
+      "title": "La Nemesi Rivelata",
+      "phase": "Scontro Aperto - Fazioni Segrete",
+      "description": "Apri le scatole delle nuove enigmatiche fazioni e utilizza dadi di combattimento specifici e nuovi poteri."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "La Battaglia per l'Alba di Europa",
+      "phase": "Culmine di Campagna - Il Destino del Continente",
+      "description": "Combatti lo scontro supremo per il predominio assoluto sulla Fabbrica e suggella la vittoria sull'Europa del 1920."
+    }
+  ]
+}

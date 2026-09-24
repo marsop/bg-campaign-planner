@@ -1,0 +1,55 @@
+{
+  "title": "Charterstone",
+  "subtitle": "The 12-Game Competitive Worker-Placement Legacy Campaign",
+  "tagline": "Build a thriving pastoral village from the ground up across 12 unlockable legacy games.",
+  "loreSummary": "The Forever King has selected you and your fellow architects to settle the untamed valley of Greengully. Over the course of 12 progressive games, you will peel building stickers, open numbered secret crates, unlock fresh worker-placement rules, and transform a blank valley into a vibrant, permanent community.",
+  "badgeCategory": "Worker-Placement Legacy",
+  "roadmapTitle": "Village Development Timeline",
+  "roadmapBadge": "Charter Progression",
+  "keyFeatures": [
+    "Competitive 12-game legacy campaign featuring persistent worker-placement engine building",
+    "Over 75 unlockable wooden crates containing new cards, rules, and building stickers",
+    "Branching narrative guideposts directing the growth and specialization of each charter",
+    "Fully replayable as an infinitely customizable worker-placement game after campaign completion"
+  ],
+  "scopes": {
+    "charterstone_full_campaign": {
+      "name": "Full 12-Game Legacy Campaign",
+      "description": "The complete 12-game legacy journey founding the village of Greengully and opening all campaign crates."
+    },
+    "charterstone_first_half": {
+      "name": "First Half: Settlement Era (6 Games)",
+      "description": "Play the opening 6 games establishing basic workshops, guideposts, and early charter specializations."
+    },
+    "charterstone_full_plus_post": {
+      "name": "Complete Campaign & Post-Game Eras (16 Games)",
+      "description": "The entire 12-game legacy campaign plus 4 post-campaign sessions played on your finished custom board."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Charter I",
+      "title": "Opening the First Crates",
+      "phase": "Foundational Growth - Early Village",
+      "description": "Construct initial communal buildings, unlock your first numbered crates, and choose charter specializations."
+    },
+    {
+      "badgeText": "Charter II",
+      "title": "Guideposts of Greengully",
+      "phase": "Midway Development - Advanced Industry",
+      "description": "Fulfill kingly guidepost milestones, advance persona skills, and construct specialized production workshops."
+    },
+    {
+      "badgeText": "Charter III",
+      "title": "The Cloud Port Trade",
+      "phase": "Late Expansion - Regional Infrastructure",
+      "description": "Establish airship commerce at the cloud port, assemble high-tier buildings, and balance charter rivalries."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "The Forever King's Blessing",
+      "phase": "Grand Finale - Coronation of the Master Builder",
+      "description": "Score ultimate glory across all 12 games, crown the village champion, and unlock a permanent custom worker-placement game."
+    }
+  ]
+}

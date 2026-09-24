@@ -1,0 +1,55 @@
+{
+  "title": "Mechs vs. Minions",
+  "subtitle": "The Cooperative Programmatic Mech Combat Campaign",
+  "tagline": "Pilot and program your battle mechs to vanquish relentless minion swarms across 10 sealed mission dossiers.",
+  "loreSummary": "You are brave Yordles enrolled in Rumble's prestigious mech academy. When a catastrophic minion invasion breaches the facility, you must climb into your custom war-machines, draft action cards onto your command line, program synchronized movements, and execute devastating combat routines to defend the realm.",
+  "badgeCategory": "Programmatic Mech Combat",
+  "roadmapTitle": "Mission Dossier Operations",
+  "roadmapBadge": "Academy Progression",
+  "keyFeatures": [
+    "Cooperative programmatic action drafting across 10 sealed mission envelopes",
+    "Modular map boards featuring dynamic hazards, lava flows, and escort objectives",
+    "Pre-painted hero mechs, boss miniatures, and dozens of sculpted minion figures",
+    "Progressive unlock dossiers with new command cards, schematics, and gear"
+  ],
+  "scopes": {
+    "mvm_full_campaign": {
+      "name": "Full 10-Mission Campaign",
+      "description": "The complete narrative cooperative campaign through all 10 sealed mission dossiers to the final boss mech."
+    },
+    "mvm_cadet_missions": {
+      "name": "Cadet Training Operations (Missions 1–5)",
+      "description": "Play the first 5 missions to master programmatic command lines, weapon upgrades, and basic crowd control."
+    },
+    "mvm_master_mechanic": {
+      "name": "Master Mechanic Saga (14 Missions)",
+      "description": "The full 10-mission campaign plus 4 advanced challenge scenarios and hardcore boss protocols."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Dossier 3",
+      "title": "Mechanical Mastery",
+      "phase": "Academy Training - Advanced Command Lines",
+      "description": "Master slot drafting, programmatic movement routines, and fuel-injection systems against the first swarm waves."
+    },
+    {
+      "badgeText": "Dossier 6",
+      "title": "The Molten Perimeter",
+      "phase": "Field Operations - Environmental Hazards",
+      "description": "Navigate moving lava conduits, tow the fragile crystal payload, and neutralize the minion perimeter fortifications."
+    },
+    {
+      "badgeText": "Dossier 8",
+      "title": "Defense of the Rune Forge",
+      "phase": "High Threat - Fortress Siege",
+      "description": "Erect defensive energy barriers and coordinate continuous firing lines to protect the academy's power core."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "The Megamech Reckoning",
+      "phase": "Campaign Finale - The Boss Encounter",
+      "description": "Program synchronized offensive protocols to bring down the titanic enemy boss mech and save Runeterra."
+    }
+  ]
+}

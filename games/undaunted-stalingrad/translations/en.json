@@ -1,0 +1,55 @@
+{
+  "title": "Undaunted: Stalingrad",
+  "subtitle": "The 2-Player Persistent Tactical WWII Campaign",
+  "tagline": "Command opposing platoons through the brutal meat grinder of Stalingrad across 15+ branching persistent scenarios.",
+  "loreSummary": "Autumn 1942. You and your rival commander command Soviet defenders or German assault forces in the pulverized ruins of Stalingrad. In this standalone head-to-head campaign, every casualty is recorded permanently with casualty stickers, individual squad members gain heroic upgrades or die forever, buildings are permanently leveled, and the tactical map bears the scars of war.",
+  "badgeCategory": "Head-to-Head Tactical Legacy",
+  "roadmapTitle": "Stalingrad Frontline Operations",
+  "roadmapBadge": "Platoon Casualties & Arcs",
+  "keyFeatures": [
+    "Dedicated 2-player persistent tactical campaign with branching storylines and consequences",
+    "Permanent casualty and squad modification stickers transforming your combat deck",
+    "Dynamic city map tiles permanently degraded into smoking rubble as artillery strikes land",
+    "Over 300 unique illustrations bringing historical WWII platoon members to life"
+  ],
+  "scopes": {
+    "undaunted_stalingrad_full_campaign": {
+      "name": "Full Stalingrad Campaign (~15 Scenarios)",
+      "description": "The complete branching campaign experience navigating urban breakthroughs, counteroffensives, and persistent casualties."
+    },
+    "undaunted_stalingrad_first_offensive": {
+      "name": "First Offensive (8 Scenarios)",
+      "description": "Play the opening 8 scenarios documenting initial urban breakthroughs, sniper duels, and early platoon trauma."
+    },
+    "undaunted_stalingrad_extended_attrition": {
+      "name": "Extended Attrition Campaign (20 Scenarios)",
+      "description": "An exhaustive war of attrition campaign resolving extended stalemates, sewer warfare, and deep operational branches."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Phase I",
+      "title": "Breach into the City",
+      "phase": "Opening Clashes - Entering the Rubble",
+      "description": "Engage in brutal street-to-street skirmishes, cross open plazas, and suffer permanent platoon casualties."
+    },
+    {
+      "badgeText": "Phase II",
+      "title": "The Red October Works",
+      "phase": "Mid-Campaign - Industrial Slaughterhouse",
+      "description": "Deploy heavy tanks and snipers across smoking factory complexes and navigate permanently demolished city tiles."
+    },
+    {
+      "badgeText": "Phase III",
+      "title": "Fortress Pavlov",
+      "phase": "Late Campaign - Apartment Sieges & Sewers",
+      "description": "Lay siege to fortified apartment citadels, conduct clandestine sewer raids, and manage exhausted veteran squads."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "The Final Counteroffensive",
+      "phase": "Grand Climax - The Fate of Stalingrad",
+      "description": "Launch the decisive breakthrough offensive that settles the Battle of Stalingrad and records the surviving officers."
+    }
+  ]
+}

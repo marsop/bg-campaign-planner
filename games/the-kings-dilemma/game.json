@@ -1,0 +1,95 @@
+{
+  "id": "the-kings-dilemma",
+  "title": "The King's Dilemma",
+  "releaseYear": 2019,
+  "designers": "Lorenzo Silva, Hjalmar Hach",
+  "playersMin": 3,
+  "playersMax": 5,
+  "bggRating": 7.7,
+  "bggWeight": 2.87,
+  "bggUrl": "https://boardgamegeek.com/boardgame/255588/the-kings-dilemma",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 10,
+  "unitType": "games",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#e11d48",
+    "secondaryColor": "#1e1b4b",
+    "accentColor": "#eab308",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2d1219 0%, #17111a 60%, #09080c 100%)",
+    "cardBackground": "rgba(26, 18, 24, 0.94)",
+    "borderColor": "rgba(225, 29, 72, 0.35)",
+    "glowColor": "rgba(225, 29, 72, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "👑",
+    "emblem": "👑📜",
+    "themeClass": "theme-kings-dilemma",
+    "activeThemeClass": "theme-kings-dilemma-active",
+    "roadmapClass": "roadmap-kings-dilemma",
+    "heroClass": "hero-kings-dilemma"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #255588 Overall)",
+    "Horrible Guild Official Rulebook & Dilemma Mechanics",
+    "The King's Dilemma Campaign Chronicle Guide"
+  ],
+  "scopes": [
+    {
+      "id": "kings_dilemma_standard_chronicle",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "kings_dilemma_prologue_reigns",
+      "baseScenarioCount": 6,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "kings_dilemma_complete_archive",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "📜",
+      "badgeText": "Era I",
+      "title": "The First Royal Abdication",
+      "phase": "Early Reigns - Seeds of Discord",
+      "description": "Navigate the initial monarch's death or abdication, open the first mystery chronicle envelopes, and crown a successor."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "⚖️",
+      "badgeText": "Era II",
+      "title": "Tides of Rebellion & War",
+      "phase": "Mid-Dynasty - Kingdom in Crisis",
+      "description": "Balance royal coffers, grain stores, and military stability as civil strife threatens Ankist's fragile peace."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🗝️",
+      "badgeText": "Era III",
+      "title": "Secrets of the Old Blood",
+      "phase": "Late Dynasty - The Hidden Envelopes",
+      "description": "Unlock high-tier chronicle secrets, unmask deep ancient conspiracies, and confront generational house prophecies."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "The Grand Council's Reckoning",
+      "phase": "Grand Finale - Fate of Ankist",
+      "description": "Resolve the overarching crisis of the realm, evaluate house prestige and hidden agendas, and seal the fate of the throne."
+    }
+  ]
+}

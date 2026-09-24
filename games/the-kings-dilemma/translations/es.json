@@ -1,0 +1,55 @@
+{
+  "title": "The King's Dilemma",
+  "subtitle": "La campaña interactiva de dilemas políticos y legado dinástico",
+  "tagline": "Guía el destino del Reino de Ankist a través de generaciones de dilemas morales y alianzas cambiantes.",
+  "loreSummary": "Lideras una influyente casa noble que sirve en el Consejo Real del Reino de Ankist. A lo largo de sucesivas generaciones y reinados monárquicos, deberás votar decretos cruciales, sopesar la prosperidad del reino frente a las ambiciones secretas de tu linaje, abrir sobres de misterio sellados y forjar el destino definitivo de la corona.",
+  "badgeCategory": "Narrativa Política Legacy",
+  "roadmapTitle": "Cronología de Progresión Dinástica",
+  "roadmapBadge": "Crónica del Consejo",
+  "keyFeatures": [
+    "Campaña legacy narrativa interactiva impulsada por dilemas morales ramificados",
+    "Reinados generacionales con monarcas cambiantes, conspiraciones y crisis éticas",
+    "Decenas de sobres de misterio sellados repletos de giros argumentales decisivos",
+    "Firma permanente de cartas, pegatinas de crónica y agendas familiares secretas"
+  ],
+  "scopes": {
+    "kings_dilemma_standard_chronicle": {
+      "name": "Crónica Dinástica Estándar (~15 Partidas)",
+      "description": "El viaje narrativo completo a través de las tramas principales de misterio, culminando en uno de los grandes desenlaces finales."
+    },
+    "kings_dilemma_prologue_reigns": {
+      "name": "Reinados Iniciales de la Dinastía (6 Partidas)",
+      "description": "Vive las primeras épocas de Ankist, forjando rivalidades nobiliarias y descubriendo los dilemas fundacionales."
+    },
+    "kings_dilemma_complete_archive": {
+      "name": "Crónica Extendida y Tramas Ocultas (20 Partidas)",
+      "description": "Una crónica multigeneracional exhaustiva que explora a fondo las tramas secundarias y las ramas más profundas de misterio."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Era I",
+      "title": "La Primera Abdicación Real",
+      "phase": "Primeros Reinados - Semillas de Discordia",
+      "description": "Gestiona la muerte o abdicación del primer monarca, abre los primeros sobres de crónica y corona a un sucesor."
+    },
+    {
+      "badgeText": "Era II",
+      "title": "Mareas de Rebelión y Guerra",
+      "phase": "Mitad de la Dinastía - El Reino en Crisis",
+      "description": "Equilibra las arcas reales, las reservas de grano y la estabilidad militar mientras revueltas civiles amenazan la frágil paz de Ankist."
+    },
+    {
+      "badgeText": "Era III",
+      "title": "Secretos de la Vieja Sangre",
+      "phase": "Dinastía Tardía - Los Sobres Ocultos",
+      "description": "Desbloquea secretos ancestrales de alto rango, desenmascara conspiraciones milenarias y confronta profecías dinásticas."
+    },
+    {
+      "badgeText": "Final",
+      "title": "El Juicio del Gran Consejo",
+      "phase": "Gran Final - El Destino de Ankist",
+      "description": "Resuelve la crisis suprema que azota al reino, evalúa el prestigio y las agendas secretas de cada casa, y sella el porvenir del trono."
+    }
+  ]
+}

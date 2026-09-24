@@ -1,0 +1,55 @@
+{
+  "title": "Scythe: The Rise of Fenris",
+  "subtitle": "Die 8-teilige dieselpunkige Alternativwelt-Kampagne",
+  "tagline": "Enthülle die Geheimnisse der Fabrik über eine wiederspielbare 8-teilige Kampagne voller Krieg und Diplomatie.",
+  "loreSummary": "Imperien erheben sich und vergehen im alternativen Europa der 1920er Jahre. Während die finstere Fenris-Fraktion erwacht und der geheimnisumwitterte Stadtstaat Die Fabrik seine unterirdischen Gewölbe öffnet, rüsten die Großmächte kolossale Dieselpunk-Mechs auf, schmieden brüchige Allianzen und ringen über 8 dynamische Episoden um die Vorherrschaft.",
+  "badgeCategory": "Dieselpunk-Engine-Building",
+  "roadmapTitle": "Kampagnen-Episodenfortschritt",
+  "roadmapBadge": "Europa-Kriegschronik",
+  "keyFeatures": [
+    "Wiederspielbare narrative 8-Episoden-Kampagne mit dauerhaftem Wohlstand und Tech-Verbesserungen",
+    "11 modulare Module nach Kampagnenabschluss für reguläre Partien nutzbar",
+    "Zwei brandneue spielbare Fraktionen und Vernichter-Mechs in versiegelten Schachteln",
+    "Vollständig kompatibel mit allen bisherigen Scythe-Erweiterungen, Luftschiffen und 7-Spieler-Modi"
+  ],
+  "scopes": {
+    "scythe_fenris_full_campaign": {
+      "name": "Vollständige 8-Episoden-Kampagne",
+      "description": "Das komplette narrative Kampagnenerlebnis über alle 8 Episoden, Überraschungsschachteln und das kontinentale Finale."
+    },
+    "scythe_fenris_early_skirmishes": {
+      "name": "Die ersten Fronten (Episoden 1–4)",
+      "description": "Spiele die ersten vier Episoden mit anfänglichen Fraktionsvorteilen, Bündnis-Markern und Vorstößen zur Fabrik."
+    },
+    "scythe_fenris_expanded_chronicle": {
+      "name": "Erweiterte Chronik & Modulare Gefechte (12 Episoden)",
+      "description": "Die gesamte 8-Episoden-Kampagne plus 4 eigenständige modulare Partien nach Kampagnenende mit den neuen Fraktionen."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Episode 2",
+      "title": "Echos der Fabrik",
+      "phase": "Eröffnungsmanöver - Regionale Befestigungen",
+      "description": "Errichte Infrastruktur-Vorteile, beanspruche frühe Allianzen und erkunde neu freigeschaltete Gebietsmodule."
+    },
+    {
+      "badgeText": "Episode 4",
+      "title": "Der Eiserne Horizont",
+      "phase": "Eskalation - Schwere Kriegsmaschinen",
+      "description": "Öffne versiegelte Fabriktresore, setze schwere Kriegsmaschinerie ein und richte deine Strategie auf den totalen Krieg aus."
+    },
+    {
+      "badgeText": "Episode 6",
+      "title": "Enttarnter Erzfeind",
+      "phase": "Tiefenkonflikt - Geheime Fraktionen",
+      "description": "Öffne neue rätselhafte Kampagnenfraktionen und nutze spezialisierte Kampfwürfel sowie mächtige Upgrades."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Die Schlacht um Europas Morgenröte",
+      "phase": "Kampagnenhöhepunkt - Schicksal des Kontinents",
+      "description": "Kämpfe in der entscheidenden Schlacht um die endgültige Kontrolle über die Fabrik und sichere deine Vorherrschaft."
+    }
+  ]
+}

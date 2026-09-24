@@ -1,0 +1,95 @@
+{
+  "id": "harry-potter-hogwarts-battle",
+  "title": "Harry Potter: Hogwarts Battle",
+  "releaseYear": 2016,
+  "designers": "Forrest-Pruzan Creative, Kami Mandell, Andrew Wolf",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 7.3,
+  "bggWeight": 2.08,
+  "bggUrl": "https://boardgamegeek.com/boardgame/199042/harry-potter-hogwarts-battle",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 10,
+  "unitType": "games",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#eab308",
+    "secondaryColor": "#450a0a",
+    "accentColor": "#38bdf8",
+    "backgroundGradient": "radial-gradient(ellipse at top, #29080b 0%, #150f1f 60%, #08060d 100%)",
+    "cardBackground": "rgba(26, 16, 28, 0.94)",
+    "borderColor": "rgba(234, 179, 8, 0.35)",
+    "glowColor": "rgba(56, 189, 248, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "⚡",
+    "emblem": "⚡🏰",
+    "themeClass": "theme-hogwarts-battle",
+    "activeThemeClass": "theme-hogwarts-battle-active",
+    "roadmapClass": "roadmap-hogwarts-battle",
+    "heroClass": "hero-hogwarts-battle"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #199042 Overall)",
+    "USAopoly The Op Official Game Rules & Box Guides",
+    "Hogwarts Battle 7-Year Campaign Rulebook"
+  ],
+  "scopes": [
+    {
+      "id": "hp_hogwarts_seven_years",
+      "baseScenarioCount": 7,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "hp_hogwarts_early_years",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "hp_hogwarts_master_wizards",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🐍",
+      "badgeText": "Year 2",
+      "title": "Chamber of Horrors",
+      "phase": "Years 1–2 - Foundations of Magic",
+      "description": "Unlock advanced spells, defeat initial Dark Arts events, and fend off early Hogwarts invaders."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🏆",
+      "badgeText": "Year 4",
+      "title": "The Triwizard Return",
+      "phase": "Years 3–4 - Gathering Shadows",
+      "description": "Incorporate house dice, survive the Triwizard trials, and face the ominous return of the Dark Lord's servants."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "📖",
+      "badgeText": "Year 6",
+      "title": "Secrets of the Half-Blood",
+      "phase": "Years 5–6 - The Escalating War",
+      "description": "Master advanced character proficiencies, combat elite Death Eaters, and uncover ancient Horcrux protections."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "⚡",
+      "badgeText": "Year 7",
+      "title": "The Battle for Hogwarts",
+      "phase": "Grand Climax - The Dark Lord's Defeat",
+      "description": "Stand united against Lord Voldemort and the complete armada of villains to defend the castle and secure peace."
+    }
+  ]
+}
