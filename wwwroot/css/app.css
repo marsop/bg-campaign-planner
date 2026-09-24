@@ -2547,3 +2547,31 @@ body {
 #blazor-error-ui .dismiss:hover {
     opacity: 1;
 }
+
+.theme-clank {
+    --theme-primary: #ffce00;
+    --theme-secondary: #211a14;
+    --theme-accent: #009045;
+    --theme-card-bg: rgba(33, 26, 20, 0.90);
+    --theme-border: rgba(255, 206, 0, 0.35);
+    --theme-glow: rgba(255, 206, 0, 0.25);
+    --theme-header-font: 'Cinzel Decorative', 'Cinzel', serif;
+    --theme-body-font: 'Inter', system-ui, sans-serif;
+    --theme-bg-gradient: radial-gradient(ellipse at top, #33281d 0%, #211a14 60%, #120e0a 100%);
+    --table-hover-bg: rgba(255, 206, 0, 0.04);
+}
+
+.theme-clank-active {
+    background: var(--theme-bg-gradient);
+    color: var(--text-main);
+}
+
+.roadmap-clank .roadmap-header {
+    border-bottom: 2px solid var(--theme-primary);
+}
+
+.hero-clank {
+    background: linear-gradient(135deg, rgba(33, 26, 20, 0.9) 0%, rgba(18, 14, 10, 0.95) 100%);
+    border: 1px solid var(--theme-border);
+    box-shadow: 0 8px 32px var(--theme-glow);
+}

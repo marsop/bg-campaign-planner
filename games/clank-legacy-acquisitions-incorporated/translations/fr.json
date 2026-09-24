@@ -1,0 +1,48 @@
+{
+  "title": "Clank! Legacy: Acquisitions Incorporated",
+  "subtitle": "Une aventure de deck-building de vol d'entreprise",
+  "tagline": "Établissez votre franchise, volez le butin, ne vous faites pas manger.",
+  "loreSummary": "Vous êtes un humble employé de la célèbre compagnie d'aventuriers, Acquisitions Incorporated. Construisez votre deck, plongez dans le donjon et essayez de vous en sortir vivant (et avec les artefacts de l'entreprise). Chaque choix façonne votre monde, de façon permanente.",
+  "badgeCategory": "Legacy Deck-Building",
+  "roadmapTitle": "🗺️ Plan d'Affaires de la Franchise Acquisitions Inc.",
+  "roadmapBadge": "STRATÉGIE D'ENTREPRISE",
+  "keyFeatures": [
+    "Mécaniques de deck-building avec évolution legacy",
+    "Modifications permanentes des cartes, des règles et du plateau de jeu",
+    "Récit humoristique se déroulant dans l'univers d'Acquisitions Incorporated",
+    "Exploration de donjons en tentant sa chance avec des attaques de dragons"
+  ],
+  "scopes": {
+    "clank_standard": {
+      "name": "Campagne de Franchise Standard (10 Sessions)",
+      "description": "Le contrat d'entreprise standard. La plupart des franchises atteignent leurs objectifs principaux en 10 jours ouvrables."
+    },
+    "clank_extended": {
+      "name": "Audit Prolongé (12 Sessions)",
+      "description": "Pour les franchises performantes qui prennent la route panoramique vers la direction intermédiaire."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Orientation d'Entreprise",
+      "phase": "Phase I - Intégration",
+      "description": "Établissez votre franchise, embauchez vos premiers employés et signez les contrats alambiqués.",
+      "badgeText": "Début de Partie"
+    },
+    {
+      "order": 2,
+      "title": "Direction Intermédiaire",
+      "phase": "Phase II - Expansion",
+      "description": "Étendez votre territoire, affrontez des franchises rivales et découvrez les véritables plans de la direction supérieure.",
+      "badgeText": "Milieu de Partie"
+    },
+    {
+      "order": 3,
+      "title": "Examen de la Direction",
+      "phase": "Phase III - L'Audit Final",
+      "description": "Relevez le défi d'entreprise ultime et assurez l'héritage de votre franchise pour toujours.",
+      "badgeText": "Fin de Partie"
+    }
+  ]
+}

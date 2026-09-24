@@ -1,0 +1,48 @@
+{
+  "title": "Clank! Legacy: Acquisitions Incorporated",
+  "subtitle": "Ein Deckbuilding-Abenteuer des korporativen Diebstahls",
+  "tagline": "Gründe dein Franchise, stiehl die Beute, lass dich nicht fressen.",
+  "loreSummary": "Du bist ein einfacher Angestellter der berühmten Abenteurerfirma Acquisitions Incorporated. Baue dein Deck, tauche in den Dungeon ein und versuche mit dem Leben (und den Artefakten der Firma) zu entkommen. Jede Entscheidung prägt deine Welt dauerhaft.",
+  "badgeCategory": "Legacy Deck-Building",
+  "roadmapTitle": "🗺️ Acquisitions Inc. Franchise-Geschäftsplan",
+  "roadmapBadge": "UNTERNEHMENSSTRATEGIE",
+  "keyFeatures": [
+    "Deckbuilding-Mechaniken mit Legacy-Entwicklung",
+    "Permanente Änderungen an Karten, Regeln und dem Spielbrett",
+    "Humorvolle Erzählung im Universum von Acquisitions Incorporated",
+    "Push-your-luck Dungeon Delving mit Drachenangriffen"
+  ],
+  "scopes": {
+    "clank_standard": {
+      "name": "Standard Franchise Kampagne (10 Sitzungen)",
+      "description": "Der Standard-Unternehmensvertrag. Die meisten Franchises erfüllen ihre Kernziele in 10 Arbeitstagen."
+    },
+    "clank_extended": {
+      "name": "Erweiterte Prüfung (12 Sitzungen)",
+      "description": "Für überdurchschnittliche Franchises, die den landschaftlich reizvollen Weg ins mittlere Management nehmen."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Unternehmensorientierung",
+      "phase": "Phase I - Onboarding",
+      "description": "Gründe dein Franchise, stelle deine ersten Mitarbeiter ein und unterschreibe die komplizierten Verträge.",
+      "badgeText": "Frühes Spiel"
+    },
+    {
+      "order": 2,
+      "title": "Mittleres Management",
+      "phase": "Phase II - Erweiterung",
+      "description": "Erweitere dein Territorium, stelle dich rivalisierenden Franchises und entdecke die wahren Pläne des oberen Managements.",
+      "badgeText": "Mittleres Spiel"
+    },
+    {
+      "order": 3,
+      "title": "Zusammenfassende Überprüfung",
+      "phase": "Phase III - Das finale Audit",
+      "description": "Stelle dich der ultimativen unternehmerischen Herausforderung und sichere das Vermächtnis deines Franchises für immer.",
+      "badgeText": "Spätes Spiel"
+    }
+  ]
+}

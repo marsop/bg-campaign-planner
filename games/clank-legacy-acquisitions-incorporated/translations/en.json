@@ -1,0 +1,48 @@
+{
+  "title": "Clank! Legacy: Acquisitions Incorporated",
+  "subtitle": "A deck-building adventure of corporate thievery",
+  "tagline": "Establish your franchise, steal the loot, don't get eaten.",
+  "loreSummary": "You are a lowly employee of the famous adventuring company, Acquisitions Incorporated. Build your deck, delve into the dungeon, and try to escape with your life (and the company's artifacts). Every choice shapes your world, permanently.",
+  "badgeCategory": "Legacy Deck-Building",
+  "roadmapTitle": "🗺️ Acquisitions Inc. Franchise Business Plan",
+  "roadmapBadge": "CORPORATE STRATEGY",
+  "keyFeatures": [
+    "Deck-building mechanics with legacy evolution",
+    "Permanent changes to cards, rules, and the game board",
+    "Humorous narrative set in the Acquisitions Incorporated universe",
+    "Push-your-luck dungeon delving with dragon attacks"
+  ],
+  "scopes": {
+    "clank_standard": {
+      "name": "Standard Franchise Campaign (10 Sessions)",
+      "description": "The standard corporate contract. Most franchises complete their core objectives in 10 working days."
+    },
+    "clank_extended": {
+      "name": "Extended Audit (12 Sessions)",
+      "description": "For overachieving franchises that take the scenic route to middle management."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Corporate Orientation",
+      "phase": "Phase I - Onboarding",
+      "description": "Establish your franchise, hire your first employees, and sign the convoluted contracts.",
+      "badgeText": "Early Game"
+    },
+    {
+      "order": 2,
+      "title": "Middle Management",
+      "phase": "Phase II - Expansion",
+      "description": "Expand your territory, face rival franchises, and discover the upper management's true plans.",
+      "badgeText": "Mid Game"
+    },
+    {
+      "order": 3,
+      "title": "Executive Review",
+      "phase": "Phase III - The Final Audit",
+      "description": "Face the ultimate corporate challenge and secure your franchise's legacy forever.",
+      "badgeText": "Late Game"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Clank! Legacy: Acquisitions Incorporated",
+  "subtitle": "Un'avventura di deck-building di furti aziendali",
+  "tagline": "Fonda la tua filiale, ruba il bottino, non farti mangiare.",
+  "loreSummary": "Sei un umile dipendente della famosa compagnia di avventurieri, Acquisitions Incorporated. Costruisci il tuo mazzo, addentrati nel dungeon e cerca di scappare vivo (e con i manufatti dell'azienda). Ogni scelta plasma il tuo mondo, in modo permanente.",
+  "badgeCategory": "Legacy Deck-Building",
+  "roadmapTitle": "🗺️ Business Plan del Franchise Acquisitions Inc.",
+  "roadmapBadge": "STRATEGIA AZIENDALE",
+  "keyFeatures": [
+    "Meccaniche di deck-building con evoluzione legacy",
+    "Cambiamenti permanenti alle carte, alle regole e al tabellone di gioco",
+    "Narrativa umoristica ambientata nell'universo di Acquisitions Incorporated",
+    "Esplorazione di dungeon sfidando la fortuna con attacchi di draghi"
+  ],
+  "scopes": {
+    "clank_standard": {
+      "name": "Campagna Franchise Standard (10 Sessioni)",
+      "description": "Il contratto aziendale standard. La maggior parte dei franchise completa i propri obiettivi principali in 10 giorni lavorativi."
+    },
+    "clank_extended": {
+      "name": "Audit Esteso (12 Sessioni)",
+      "description": "Per i franchise più esigenti che intraprendono il percorso panoramico verso il middle management."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Orientamento Aziendale",
+      "phase": "Fase I - Inserimento",
+      "description": "Fonda il tuo franchise, assumi i tuoi primi dipendenti e firma i contorti contratti.",
+      "badgeText": "Inizio Partita"
+    },
+    {
+      "order": 2,
+      "title": "Middle Management",
+      "phase": "Fase II - Espansione",
+      "description": "Espandi il tuo territorio, affronta franchise rivali e scopri i veri piani dell'alta dirigenza.",
+      "badgeText": "Metà Partita"
+    },
+    {
+      "order": 3,
+      "title": "Revisione Esecutiva",
+      "phase": "Fase III - L'Audit Finale",
+      "description": "Affronta l'ultima sfida aziendale e assicura l'eredità del tuo franchise per sempre.",
+      "badgeText": "Fine Partita"
+    }
+  ]
+}
