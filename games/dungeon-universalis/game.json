@@ -1,0 +1,101 @@
+{
+  "id": "dungeon-universalis",
+  "title": "Dungeon Universalis",
+  "releaseYear": 2019,
+  "designers": "Óscar Bribián",
+  "playersMin": 1,
+  "playersMax": 6,
+  "bggRating": 8.6,
+  "bggWeight": 4.41,
+  "bggUrl": "https://boardgamegeek.com/boardgame/261393/dungeon-universalis",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 25,
+  "unitType": "quests",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#ea580c",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2d120a 0%, #151118 60%, #09090b 100%)",
+    "cardBackground": "rgba(18, 17, 24, 0.92)",
+    "borderColor": "rgba(234, 88, 12, 0.40)",
+    "glowColor": "rgba(234, 88, 12, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🔥",
+    "emblem": "⚔️🏰",
+    "themeClass": "theme-dungeonuniversalis",
+    "activeThemeClass": "theme-dungeonuniversalis-active",
+    "roadmapClass": "roadmap-dungeonuniversalis",
+    "heroClass": "hero-dungeonuniversalis"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #261393 Overall, Rating 8.6, Weight 4.41)",
+    "Ludic Dragon Games Official Rulebook & Quest Book I: The Return of Raazbal",
+    "World of Arasca Campaign System & Community Play Logs"
+  ],
+  "scopes": [
+    {
+      "id": "dun_raazbal_campaign",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "dun_regional_campaigns",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    },
+    {
+      "id": "dun_grand_saga",
+      "baseScenarioCount": 30,
+      "estimatedFailRatePercent": 18.0,
+      "isRecommended": false
+    },
+    {
+      "id": "dun_completionist_chronicles",
+      "baseScenarioCount": 42,
+      "estimatedFailRatePercent": 22.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🛡️",
+      "badgeText": "Act I",
+      "title": "The Gathering Shadows",
+      "phase": "Act I - The Whispers of Arasca (Quests M1–M5)",
+      "description": "Rescue captive merchants, investigate Rorg's lair, and unearth ancient catacombs as the dread conspiracy begins to surface."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🕷️",
+      "badgeText": "Act II",
+      "title": "Infiltration & The Beast",
+      "phase": "Act II - Trials of the Frontier (Quests M6–M10)",
+      "description": "Survive the deadly spider caverns, infiltrate the fortress of Thorzul, execute a daring prison break, and hunt down a monstrous behemoth."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "💎",
+      "badgeText": "Act III",
+      "title": "Relics of the Ancients",
+      "phase": "Act III - Ancient Arcana (Quests M11–M15)",
+      "description": "Delve into the crypt of the accursed king, protect the regional governor, reactivate forgotten magical portals, and claim the fabled Gem of Courage."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 20,
+      "iconEmoji": "🔥",
+      "badgeText": "Finale",
+      "title": "The Fall of Raazbal",
+      "phase": "Climax - Siege of the Rock Tower (Quests M16–M20)",
+      "description": "Eliminate dark infiltrators, penetrate the formidable Rock Tower, and vanquish the ancient evil Raazbal in a climactic duel for Arasca."
+    }
+  ]
+}

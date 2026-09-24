@@ -1,0 +1,63 @@
+{
+  "title": "Dungeon Universalis",
+  "subtitle": "Il dungeon crawler tattico definitivo e sandbox GDR da tavolo modulare nel continente di Arasca",
+  "tagline": "Forgia la tua leggenda in un regno fantasy vivo e senza confini",
+  "loreSummary": "Entra nel vasto continente di Arasca, un pericoloso mondo fantasy medievale colmo di sotterranei misteriosi, antiche rovine, fazioni rivali e creature mitiche. Che giochiate in solitaria, cooperando contro il Giocatore Oscuro Artificiale o affrontando un avversario umano, la vostra compagnia viaggerà sulla mappa, scoprirà potenti reliquie e deciderà il destino delle nazioni.",
+  "badgeCategory": "Dungeon Crawler Tattico e GDR Sandbox",
+  "roadmapTitle": "⚔️ Cronache di Arasca e Saga di Raazbal",
+  "roadmapBadge": "CRONACHE DI ARASCA",
+  "keyFeatures": [
+    "Profondità tattica ineguagliabile che unisce l'età dell'oro dei dungeon crawler classici alla precisione moderna",
+    "Evoluzione profonda dei personaggi con decine di razze, classi, abilità, incantesimi ed equipaggiamento persistente",
+    "Esplorazione su mappa dinamica con incontri di viaggio, insediamenti, contratti e reputazione in evoluzione",
+    "Diverse modalità di gioco: cooperativo completo con IA Oscura, competitivo uno contro tutti o GDR da tavolo"
+  ],
+  "scopes": {
+    "dun_raazbal_campaign": {
+      "name": "Campagna Il Ritorno di Raazbal (20 Missioni)",
+      "description": "La grande campagna narrativa principale che attraversa il continente di Arasca, dalle prime schermaglie allo scontro finale contro Raazbal."
+    },
+    "dun_regional_campaigns": {
+      "name": "Cronache Regionali (Gli Shiang e La Minaccia Pellemarrone)",
+      "description": "Una saga mirata di 10 missioni che unisce le due mini-campagne ufficiali del Libro delle Missioni I: la dinastia orientale e la difesa dei confini."
+    },
+    "dun_grand_saga": {
+      "name": "Trilogia Completa di Arasca (30 Missioni)",
+      "description": "L'esperienza completa del Libro delle Missioni I che unisce Il Ritorno di Raazbal, Gli Shiang e La Minaccia Pellemarrone in una grande avventura continua."
+    },
+    "dun_completionist_chronicles": {
+      "name": "Maestro dei Dungeon ed Eventi Epici (42 Missioni)",
+      "description": "La campagna sandbox definitiva: le 30 missioni narrative di campagna unite alle missioni leggendarie indipendenti e ai grandi eventi epici."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Atto I",
+      "title": "Le Ombre Si Addensano",
+      "phase": "Atto I - I Sussurri di Arasca (Missioni M1–M5)",
+      "description": "Salva mercanti prigionieri, esplora il covo di Rorg e svela catacombe dimenticate mentre un'oscura cospirazione comincia a emergere."
+    },
+    {
+      "order": 2,
+      "badgeText": "Atto II",
+      "title": "Infiltrazione e la Bestia",
+      "phase": "Atto II - Prove della Frontiera (Missioni M6–M10)",
+      "description": "Sopravvivi alle letali caverne dei ragni, infiltrati nella rocca di Thorzul, guida un'audace evasione e dai la caccia a un mostro colossale."
+    },
+    {
+      "order": 3,
+      "badgeText": "Atto III",
+      "title": "Reliquie degli Antichi",
+      "phase": "Atto III - Arcani Perduti (Missioni M11–M15)",
+      "description": "Scendi nella cripta del re maledetto, proteggi il governatore regionale, riattiva antichi portali magici e ottieni la Gemma del Coraggio."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "La Caduta di Raazbal",
+      "phase": "Climax - L'Assedio alla Torre di Roccia (Missioni M16–M20)",
+      "description": "Elimina le spie dell'ombra, espugna la formidabile Torre di Roccia e sconfiggi l'antico demone Raazbal nel duello decisivo per Arasca."
+    }
+  ]
+}

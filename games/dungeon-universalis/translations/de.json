@@ -1,0 +1,63 @@
+{
+  "title": "Dungeon Universalis",
+  "subtitle": "Der ultimative taktische Dungeon-Crawler und modulare Tabletop-RPG-Sandkasten in Arasca",
+  "tagline": "Schmiede deine Legende in einer lebendigen, grenzenlosen Fantasy-Welt",
+  "loreSummary": "Betritt den weitläufigen Kontinent Arasca, eine gefährliche mittelalterliche Fantasy-Welt voller unterirdischer Dungeons, uralter Ruinen, verfeindeter Fraktionen und mythischer Kreaturen. Ob solo, kooperativ gegen den künstlichen Dunklen Spieler oder gegen einen menschlichen Spielleiter: Deine Heldengruppe reist über die Weltkarte, erbeutet verlorene Artefakte und entscheidet über das Schicksal des Reiches.",
+  "badgeCategory": "Taktischer Sandbox-Dungeon-Crawler & RPG",
+  "roadmapTitle": "⚔️ Arasca-Chronik & Die Raazbal-Saga",
+  "roadmapBadge": "ARASCA-CHRONIKEN",
+  "keyFeatures": [
+    "Unerreichte taktische Tiefe, die das goldene Zeitalter klassischer Dungeon-Crawler mit moderner Präzision verbindet",
+    "Umfangreiche Charakterentwicklung mit Dutzenden Völkern, Klassen, Fertigkeiten, Zaubern und Ausrüstung",
+    "Dynamische Oberwelt-Erkundung mit Reisebegegnungen, Städten, Siedlungen und sich entwickelndem Ruf",
+    "Mehrere Spielmodi: Vollständig kooperativ mit KI-Gegner, kompetitiv 1-gegen-Viele oder echtes Tabletop-RPG"
+  ],
+  "scopes": {
+    "dun_raazbal_campaign": {
+      "name": "Die Rückkehr von Raazbal (20 Quests)",
+      "description": "Die epische Hauptkampagne über den gesamten Kontinent Arasca, von den ersten Scharmützeln bis zum finalen Entscheidungskampf gegen Raazbal."
+    },
+    "dun_regional_campaigns": {
+      "name": "Regionale Chroniken (Die Shiang & Grünhaut-Bedrohung)",
+      "description": "Eine kompakte 10-Quest-Saga aus den beiden offiziellen Minikampagnen des Questbuchs I: die fernöstliche Dynastie und die Grenzwacht."
+    },
+    "dun_grand_saga": {
+      "name": "Komplette Arasca-Trilogie (30 Quests)",
+      "description": "Das umfassende Erlebnis aus Questbuch I, das Die Rückkehr von Raazbal, Die Shiang und Die Grünhaut-Bedrohung zu einem gewaltigen Abenteuer verbindet."
+    },
+    "dun_completionist_chronicles": {
+      "name": "Meister der Dungeons & Epische Ereignisse (42 Quests)",
+      "description": "Die ultimative Sandbox-Kampagne: alle 30 Story-Quests ergänzt durch legendäre Einzelabenteuer und hochdramatische epische Ereignisse."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Akt I",
+      "title": "Aufziehende Schatten",
+      "phase": "Akt I - Das Geflüster von Arasca (Quests M1–M5)",
+      "description": "Befreie gefangene Händler, erkunde Rorgs Unterschlupf und dringe in vergessene Grüfte vor, während eine finstere Verschwörung Gestalt annimmt."
+    },
+    {
+      "order": 2,
+      "badgeText": "Akt II",
+      "title": "Infiltration & Die Bestie",
+      "phase": "Akt II - Prüfungen an der Grenze (Quests M6–M10)",
+      "description": "Überstehe tödliche Spinnenhöhlen, infiltriere die Festung Thorzul, meistere einen kühnen Gefängnisausbruch und erlege eine gewaltige Bestie."
+    },
+    {
+      "order": 3,
+      "badgeText": "Akt III",
+      "title": "Relikte der Vorväter",
+      "phase": "Akt III - Uralte Arkana (Quests M11–M15)",
+      "description": "Steige in die Krypta des verfluchten Königs hinab, beschütze den Statthalter, reaktiviere uralte Portale und berge das Juwel des Mutes."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Der Fall von Raazbal",
+      "phase": "Höhepunkt - Die Belagerung des Felsenturms (Quests M16–M20)",
+      "description": "Schalte dunkle Spione aus, erstürme den uneinnehmbaren Felsenturm und vernichte das uralte Übel Raazbal im Entscheidungskampf um Arasca."
+    }
+  ]
+}

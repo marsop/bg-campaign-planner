@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.47.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Dungeon Universalis**, the massive tactical dungeon crawler and modular tabletop RPG sandbox by Óscar Bribián (Ludic Dragon Games, 2019).
+    - 4 campaign scope presets: *The Return of Raazbal Campaign (20 Quests)* (20 quests, recommended), *Regional Chronicles (The Shiang & Greenskin Threat)* (10 quests), *Complete Arasca Trilogy (30 Quests)* (30 quests), and *Master of Dungeons & Epic Events (42 Quests)* (42 quests).
+    - 4 narrative milestone checkpoints across Arasca: *The Gathering Shadows* (Act I), *Infiltration & The Beast* (Act II), *Relics of the Ancients* (Act III), and *The Fall of Raazbal* (Finale), with full spoiler mask protection.
+    - Thematic visual identity (molten ember orange `#ea580c`, subterranean obsidian slate `#0f172a`, and torchlight gold `#f59e0b` palette, Cinzel classical typography, 1:1 flat front box cover art, and authentic 16:9 widescreen atmospheric artwork of John Martin's subterranean grand hall).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.46.0] - 2026-09-24
 
 ### Added

@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (50 games):**
+**Currently in app (51 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -59,18 +59,18 @@ requested by the user.
 - Clank! Legacy: Acquisitions Incorporated
 - Star Wars: Imperial Assault
 - Assassin's Creed: Brotherhood of Venice
+- Dungeon Universalis
 
 ---
 
 ## 🟥 High Priority
 
-- **Dungeon Universalis** — Massive modular tabletop RPG-style tactical dungeon crawler. 30-50+ sessions (80-120 hours). ~8.8 BGG. 1-6 players. Grid combat, deep character progression, overland map, high complexity.
+- **Divinity Original Sin: The Board Game** — Branching cooperative fantasy RPG adventure based on the critically acclaimed video game. 16+ sessions (30-50 hours). ~7.8 BGG. 1-4 players. Location cards, elemental interactions, multi-act story.
 
 ---
 
 ## 🟧 Medium Priority
 
-- **Divinity Original Sin: The Board Game** — Branching cooperative fantasy RPG adventure based on the critically acclaimed video game. 16+ sessions (30-50 hours). ~7.8 BGG. 1-4 players. Location cards, elemental interactions, multi-act story.
 - **Resident Evil: The Board Game** — Survival horror exploration campaign uncovering the horrors of the Spencer Mansion. 19 sessions (25-35 hours). ~7.8 BGG. 1-4 players. Tension deck, resource scarcity, survival horror, narrative scenarios.
 - **Harakiri: Blades of Honor** — Dark fantasy dungeon crawler and epic adventure set in mythical feudal Japan. 15+ sessions (40-60 hours). ~8.6 BGG. 1-4 players. Grid combat, branching narrative, character progression, boss encounters.
 

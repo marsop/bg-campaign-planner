@@ -1,0 +1,63 @@
+{
+  "title": "Dungeon Universalis",
+  "subtitle": "Le dungeon crawler tactique ultime et bac à sable de jeu de rôle sur plateau en Arasca",
+  "tagline": "Forgez votre légende dans un royaume fantastique vivant et sans limites",
+  "loreSummary": "Pénétrez sur le vaste continent d'Arasca, un monde médiéval fantastique et périlleux regorgeant de donjons souterrains, de ruines antiques, de factions rivales et de créatures mythiques. En solitaire, en coopération contre le Joueur Sombre Artificiel ou face à un maître du jeu humain, votre groupe de héros sillonnera la carte, découvrira des reliques oubliées et forgera la destinée du royaume.",
+  "badgeCategory": "Dungeon Crawler Tactique et JdR Bac à Sable",
+  "roadmapTitle": "⚔️ Chroniques d'Arasca et Saga de Raazbal",
+  "roadmapBadge": "CHRONIQUES D'ARASCA",
+  "keyFeatures": [
+    "Profondeur tactique exceptionnelle combinant l'âge d'or du dungeon crawl classique et la précision moderne",
+    "Progression poussée des héros avec des dizaines de races, classes, compétences, sorts et équipement persistant",
+    "Exploration sur carte dynamique ponctuée d'événements de voyage, de cités fortifiées et d'une réputation vivante",
+    "Multiples modes de jeu : coopération intégrale avec IA sombre, affrontement 1 contre tous ou jeu de rôle sur table"
+  ],
+  "scopes": {
+    "dun_raazbal_campaign": {
+      "name": "Campagne Le Retour de Raazbal (20 Quêtes)",
+      "description": "La grande campagne narrative principale à travers le continent d'Arasca, depuis les escarmouches d'initiation jusqu'à l'affrontement décisif contre Raazbal."
+    },
+    "dun_regional_campaigns": {
+      "name": "Chroniques Régionales (Les Shiang et La Menace Peau-Verte)",
+      "description": "Une saga ciblée de 10 quêtes réunissant les deux mini-campagnes du Livre de Quêtes I : l'intrigue dynastique orientale et la défense des frontières."
+    },
+    "dun_grand_saga": {
+      "name": "Trilogie Complète d'Arasca (30 Quêtes)",
+      "description": "L'expérience intégrale du Livre de Quêtes I combinant Le Retour de Raazbal, Les Shiang et La Menace Peau-Verte en une grande aventure continue."
+    },
+    "dun_completionist_chronicles": {
+      "name": "Maître des Donjons et Événements Épiques (42 Quêtes)",
+      "description": "La campagne bac à sable absolue : les 30 quêtes de campagne scénarisées enrichies de quêtes indépendantes légendaires et d'événements épiques."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acte I",
+      "title": "Les Ombres Menaçantes",
+      "phase": "Acte I - Les Murmures d'Arasca (Quêtes M1–M5)",
+      "description": "Libérez des marchands captifs, explorez le repaire de Rorg et exhumez d'antiques catacombes alors que se dessine une sombre conspiration."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acte II",
+      "title": "Infiltration et la Bête",
+      "phase": "Acte II - Épreuves de la Frontière (Quêtes M6–M10)",
+      "description": "Survivez aux cavernes arachnéennes, infiltrez la forteresse de Thorzul, menez une évasion audacieuse et traquez un monstre gigantesque."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acte III",
+      "title": "Reliques des Anciens",
+      "phase": "Acte III - Arcanes Oubliés (Quêtes M11–M15)",
+      "description": "Pénétrez dans la crypte du roi maudit, protégez le gouverneur provincial, réactivez des portails magiques et emparez-vous de la Gemme du Courage."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "La Chute de Raazbal",
+      "phase": "Climax - Le Siège de la Tour de Roche (Quêtes M16–M20)",
+      "description": "Éliminez les espions des ténèbres, prenez d'assaut la redoutable Tour de Roche et terrassez le démon Raazbal dans un duel ultime pour Arasca."
+    }
+  ]
+}

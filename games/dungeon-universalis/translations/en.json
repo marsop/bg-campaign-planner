@@ -1,0 +1,63 @@
+{
+  "title": "Dungeon Universalis",
+  "subtitle": "The definitive tactical dungeon crawler and modular tabletop RPG sandbox across Arasca",
+  "tagline": "Forge your legend in a living, boundless fantasy realm",
+  "loreSummary": "Step into the vast continent of Arasca, a perilous medieval fantasy world brimming with subterranean dungeons, ancient ruins, warring factions, and mythical creatures. Whether exploring solo, cooperatively against the Artificial Dark Player, or facing a human adversary, your band of heroes will travel overland, acquire lost artifacts, and decide the fate of nations.",
+  "badgeCategory": "Tactical Sandbox Dungeon Crawler RPG",
+  "roadmapTitle": "⚔️ Arasca Chronicle & The Raazbal Saga",
+  "roadmapBadge": "ARASCA CHRONICLES",
+  "keyFeatures": [
+    "Unrivaled tactical depth combining 1980s-90s golden-age dungeon crawling with modern Euro-game precision",
+    "Deep character progression with dozens of races, classes, skills, spells, and persistent travel equipment",
+    "Dynamic overland exploration with random travel events, settlements, quests, and evolving reputation",
+    "Multiple game modes: 100% cooperative with AI Dark Player, competitive 1-vs-many, or full tabletop RPG"
+  ],
+  "scopes": {
+    "dun_raazbal_campaign": {
+      "name": "The Return of Raazbal Campaign (20 Quests)",
+      "description": "The core epic narrative campaign traversing the continent of Arasca from introductory skirmishes to the final showdown against Raazbal."
+    },
+    "dun_regional_campaigns": {
+      "name": "Regional Chronicles (The Shiang & Greenskin Threat)",
+      "description": "A focused 10-quest saga combining the two official mini-campaigns from Quest Book I: the 4-quest Far East dynasty arc and the 6-quest frontier defense."
+    },
+    "dun_grand_saga": {
+      "name": "Complete Arasca Trilogy (30 Quests)",
+      "description": "The comprehensive Quest Book I experience uniting The Return of Raazbal, The Shiang, and The Greenskin Threat into one sweeping persistent adventure."
+    },
+    "dun_completionist_chronicles": {
+      "name": "Master of Dungeons & Epic Events (42 Quests)",
+      "description": "The ultimate sandbox campaign: all 30 narrative campaign quests plus major independent legendary quests and high-stakes epic events across Arasca."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Act I",
+      "title": "The Gathering Shadows",
+      "phase": "Act I - The Whispers of Arasca (Quests M1–M5)",
+      "description": "Rescue captive merchants, investigate Rorg's lair, and unearth ancient catacombs as the dread conspiracy begins to surface."
+    },
+    {
+      "order": 2,
+      "badgeText": "Act II",
+      "title": "Infiltration & The Beast",
+      "phase": "Act II - Trials of the Frontier (Quests M6–M10)",
+      "description": "Survive the deadly spider caverns, infiltrate the fortress of Thorzul, execute a daring prison break, and hunt down a monstrous behemoth."
+    },
+    {
+      "order": 3,
+      "badgeText": "Act III",
+      "title": "Relics of the Ancients",
+      "phase": "Act III - Ancient Arcana (Quests M11–M15)",
+      "description": "Delve into the crypt of the accursed king, protect the regional governor, reactivate forgotten magical portals, and claim the fabled Gem of Courage."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "The Fall of Raazbal",
+      "phase": "Climax - Siege of the Rock Tower (Quests M16–M20)",
+      "description": "Eliminate dark infiltrators, penetrate the formidable Rock Tower, and vanquish the ancient evil Raazbal in a climactic duel for Arasca."
+    }
+  ]
+}
