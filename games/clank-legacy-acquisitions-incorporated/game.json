@@ -1,0 +1,79 @@
+{
+  "id": "clank-legacy-acquisitions-incorporated",
+  "title": "Clank! Legacy: Acquisitions Incorporated",
+  "releaseYear": 2019,
+  "designers": "Andy Clautice, Paul Dennen",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 8.6,
+  "bggWeight": 2.76,
+  "bggUrl": "https://boardgamegeek.com/boardgame/266507/clank-legacy-acquisitions-incorporated",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "games_sessions",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#ffce00",
+    "secondaryColor": "#211a14",
+    "accentColor": "#009045",
+    "backgroundGradient": "radial-gradient(ellipse at top, #33281d 0%, #211a14 60%, #120e0a 100%)",
+    "cardBackground": "rgba(33, 26, 20, 0.90)",
+    "borderColor": "rgba(255, 206, 0, 0.35)",
+    "glowColor": "rgba(255, 206, 0, 0.25)",
+    "headerFont": "'Cinzel Decorative', 'Cinzel', serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🐉",
+    "emblem": "💼💰",
+    "themeClass": "theme-clank",
+    "activeThemeClass": "theme-clank-active",
+    "roadmapClass": "roadmap-clank",
+    "heroClass": "hero-clank"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #44 Overall / #13 Thematic)",
+    "Dire Wolf Digital Official Rulebook"
+  ],
+  "scopes": [
+    {
+      "id": "clank_standard",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "clank_extended",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "📜",
+      "badgeText": "Early Game",
+      "title": "Corporate Orientation",
+      "phase": "Phase I - Onboarding",
+      "description": "Establish your franchise, hire your first employees, and sign the convoluted contracts."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🤝",
+      "badgeText": "Mid Game",
+      "title": "Middle Management",
+      "phase": "Phase II - Expansion",
+      "description": "Expand your territory, face rival franchises, and discover the upper management's true plans."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🐉",
+      "badgeText": "Late Game",
+      "title": "Executive Review",
+      "phase": "Phase III - The Final Audit",
+      "description": "Face the ultimate corporate challenge and secure your franchise's legacy forever."
+    }
+  ]
+}

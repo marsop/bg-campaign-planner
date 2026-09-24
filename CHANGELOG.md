@@ -10,6 +10,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - **Milestone Calculation & Ordering**: Fixed an issue where milestone checkpoints appeared duplicated and out of order in the session timeline and exported calendar (such as `#1, #1, #3, #2, #5, #3, #7, #4` for *My Island*). Consolidated campaign milestones as the single source of truth across the thematic roadmap, sessions timeline, and velocity tracker, ensuring milestones are ordered sequentially without duplicates, and spoiler masking properly hides narrative details while maintaining accurate dates and session numbers.
 
+## [0.45.0] - 2026-09-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Clank! Legacy: Acquisitions Incorporated**, a narrative legacy deck-building dungeon crawl across an evolving fantasy board (Dire Wolf Digital, 2019).
+  - 2 campaign scope presets: *Standard Franchise Campaign* (10 Sessions, recommended), and *Extended Audit* (12 Sessions).
+  - 3 narrative milestone checkpoints representing the evolving franchise phases: *Corporate Orientation*, *Middle Management*, and *Executive Review*, with full spoiler mask protection.
+  - Thematic visual identity (corporate gold `#ffce00`, deep shadow `#211a14`, and emerald green `#009045` palette, Cinzel Decorative typography, 1:1 flat front box cover art, and atmospheric widescreen artwork).
+
 ## [0.44.0] - 2026-09-22
 
 ### Added

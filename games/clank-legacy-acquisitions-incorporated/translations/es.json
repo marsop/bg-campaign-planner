@@ -1,0 +1,48 @@
+{
+  "title": "¡Clank! Legacy: Adquisiciones Incorporadas",
+  "subtitle": "Una aventura de construcción de mazos de robo corporativo",
+  "tagline": "Establece tu franquicia, roba el botín, no seas devorado.",
+  "loreSummary": "Eres un empleado de bajo nivel de la famosa empresa de aventuras, Adquisiciones Incorporadas. Construye tu mazo, adéntrate en la mazmorra e intenta escapar con vida (y con los artefactos de la empresa). Cada elección da forma a tu mundo de manera permanente.",
+  "badgeCategory": "Legacy Deck-Building",
+  "roadmapTitle": "🗺️ Plan de Negocios de la Franquicia Adquisiciones Inc.",
+  "roadmapBadge": "ESTRATEGIA CORPORATIVA",
+  "keyFeatures": [
+    "Mecánicas de construcción de mazos con evolución legacy",
+    "Cambios permanentes en las cartas, reglas y el tablero",
+    "Narrativa humorística ambientada en el universo de Adquisiciones Incorporadas",
+    "Exploración de mazmorras de tentar la suerte con ataques de dragón"
+  ],
+  "scopes": {
+    "clank_standard": {
+      "name": "Campaña de Franquicia Estándar (10 Sesiones)",
+      "description": "El contrato corporativo estándar. La mayoría de las franquicias completan sus objetivos principales en 10 días laborables."
+    },
+    "clank_extended": {
+      "name": "Auditoría Extendida (12 Sesiones)",
+      "description": "Para franquicias de alto rendimiento que toman la ruta escénica hacia la gerencia intermedia."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Orientación Corporativa",
+      "phase": "Fase I - Incorporación",
+      "description": "Establece tu franquicia, contrata a tus primeros empleados y firma los contratos complicados.",
+      "badgeText": "Juego Temprano"
+    },
+    {
+      "order": 2,
+      "title": "Gerencia Intermedia",
+      "phase": "Fase II - Expansión",
+      "description": "Expande tu territorio, enfréntate a franquicias rivales y descubre los verdaderos planes de la alta dirección.",
+      "badgeText": "Juego Medio"
+    },
+    {
+      "order": 3,
+      "title": "Revisión Ejecutiva",
+      "phase": "Fase III - La Auditoría Final",
+      "description": "Enfréntate al último desafío corporativo y asegura el legado de tu franquicia para siempre.",
+      "badgeText": "Juego Tardío"
+    }
+  ]
+}
