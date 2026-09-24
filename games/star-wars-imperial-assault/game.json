@@ -1,0 +1,95 @@
+{
+  "id": "star-wars-imperial-assault",
+  "title": "Star Wars: Imperial Assault",
+  "releaseYear": 2014,
+  "designers": "Corey Konieczka, Justin Kemppainen, Jonathan Ying",
+  "playersMin": 1,
+  "playersMax": 5,
+  "bggRating": 8.0,
+  "bggWeight": 3.30,
+  "bggUrl": "https://boardgamegeek.com/boardgame/164153/star-wars-imperial-assault",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 20,
+  "unitType": "missions",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#dc2626",
+    "secondaryColor": "#0c1017",
+    "accentColor": "#38bdf8",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1c1524 0%, #0d121c 60%, #05070c 100%)",
+    "cardBackground": "rgba(13, 18, 28, 0.92)",
+    "borderColor": "rgba(220, 38, 38, 0.35)",
+    "glowColor": "rgba(56, 189, 248, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🚀",
+    "emblem": "⭐🚀",
+    "themeClass": "theme-imperialassault",
+    "activeThemeClass": "theme-imperialassault-active",
+    "roadmapClass": "roadmap-imperialassault",
+    "heroClass": "hero-imperialassault"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #164153)",
+    "Fantasy Flight Games Official Star Wars: Imperial Assault Rulebook & Campaign Guide",
+    "Star Wars: Legends of the Alliance Companion App Documentation"
+  ],
+  "scopes": [
+    {
+      "id": "ia_core_campaign",
+      "baseScenarioCount": 11,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "ia_extended_campaign",
+      "baseScenarioCount": 13,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "ia_coop_app_campaign",
+      "baseScenarioCount": 5,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🎯",
+      "badgeText": "Mission 1",
+      "title": "Infiltration & Aftermath",
+      "phase": "Campaign Introduction",
+      "description": "Rebel operatives infiltrate a remote Imperial transmission outpost following the destruction of the Death Star."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "⚡",
+      "badgeText": "Mission 4",
+      "title": "Imperial Escalation",
+      "phase": "Act I - Regional Conflict",
+      "description": "Gathering vital rebel resources and securing key planetary alliances while evading Imperial patrols."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "🛡️",
+      "badgeText": "Mission 7",
+      "title": "The Imperial Counteroffensive",
+      "phase": "Act II - Mid-Campaign Climax",
+      "description": "Imperial high command retaliates with heavy mechanized walker divisions and elite forces."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 11,
+      "iconEmoji": "⚔️",
+      "badgeText": "Mission 11",
+      "title": "Planetary Redoubt Finale",
+      "phase": "Campaign Climax",
+      "description": "The decisive final assault against the Imperial stronghold determining the destiny of the sector."
+    }
+  ]
+}

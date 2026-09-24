@@ -1,0 +1,66 @@
+{
+  "title": "Assassin's Creed: Brotherhood of Venice",
+  "subtitle": "Infiltración táctica, sigilo en tejados y gestión de cuartel general en la Italia renacentista",
+  "tagline": "Trabajamos en las sombras para servir a la luz",
+  "loreSummary": "Venecia, 1509. Entre los sucesos de Brotherhood y Revelations, lideras una célula secreta de Asesinos sorteando canales traicioneros, desenmascarando conspiradores templarios y expandiendo tu hermandad oculta.",
+  "badgeCategory": "Campaña Cooperativa de Sigilo Táctico",
+  "roadmapTitle": "🗡️ Recuerdos de Venecia y Crónicas de la Hermandad",
+  "roadmapBadge": "CRÓNICAS VENECIANAS",
+  "keyFeatures": [
+    "Mecánicas de sigilo táctico y detección con escalada por tejados y asesinatos silenciosos",
+    "Sobres de recuerdos sellados que revelan nuevo equipo, eventos y giros de trama misión tras misión",
+    "Gestión de cuartel general para curar Asesinos heridos, fabricar equipo renacentista y cumplir contratos",
+    "Historia canónica ambientada en la Venecia de 1509 con la presencia de Ezio Auditore y Leonardo da Vinci"
+  ],
+  "scopes": {
+    "acbov_full_campaign": {
+      "name": "Campaña Veneciana Completa (26 Recuerdos)",
+      "description": "El arco narrativo íntegro a través de las Secuencias 0 a 4, abriendo todos los sobres secretos y liberando la Venecia renacentista."
+    },
+    "acbov_early_sequences": {
+      "name": "Operaciones Iniciales (Secuencias 0–2)",
+      "description": "Desde el prólogo tutorial hasta el rescate de Leonardo en 15 recuerdos principales, idóneo para una experiencia introductoria."
+    },
+    "acbov_master_sync": {
+      "name": "Sincronización Total al 100% y Rejugabilidad",
+      "description": "Campaña completa incluyendo objetivos secundarios opcionales, contratos y partidas con sincronización perfecta."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Sec 0",
+      "title": "La Guarida Olvidada",
+      "phase": "Prólogo - Fundando la Hermandad",
+      "description": "Libera un escondite veneciano abandonado para establecer el cuartel general de tu hermandad de Asesinos."
+    },
+    {
+      "order": 2,
+      "badgeText": "Sec 1",
+      "title": "La Mascarada Veneciana",
+      "phase": "Secuencia 1 - Sombras Sobre los Canales",
+      "description": "Infiltra las celebraciones de carnaval y desenmascara la red corrupta de magistrados venecianos."
+    },
+    {
+      "order": 3,
+      "badgeText": "Sec 2",
+      "title": "El Genio en Peligro",
+      "phase": "Secuencia 2 - Los Inventos de Da Vinci",
+      "description": "Protege a Leonardo da Vinci y recupera planos secretos antes de que los agentes templarios los confisquen."
+    },
+    {
+      "order": 4,
+      "badgeText": "Sec 3",
+      "title": "La Red de Traiciones",
+      "phase": "Secuencia 3 - Infiltración en el Sanctasanctórum",
+      "description": "Sobrevive a inesperadas traiciones y penetra en las fortalezas interiores de la élite veneciana."
+    },
+    {
+      "order": 5,
+      "badgeText": "Sec 4",
+      "title": "Liberación de Venecia",
+      "phase": "Secuencia 4 - La Sincronización Final",
+      "description": "Derrota al Gran Maestre y asegura para siempre la libertad de la Venecia renacentista."
+    }
+  ]
+}

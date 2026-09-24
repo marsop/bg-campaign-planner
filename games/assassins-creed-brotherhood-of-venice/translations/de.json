@@ -1,0 +1,66 @@
+{
+  "title": "Assassin's Creed: Brotherhood of Venice",
+  "subtitle": "Taktisches Schleichen, Dächer-Infiltration und Hauptquartier-Ausbau im Italien der Renaissance",
+  "tagline": "Wir wirken im Dunkeln, um dem Licht zu dienen",
+  "loreSummary": "Venedig, 1509. In den Schatten zwischen den Ereignissen von Brotherhood und Revelations führst du eine geheime Zelle von Assassinen durch tückische Kanäle, enttarnst Templer-Verschwörer und baust deine Bruderschaft auf.",
+  "badgeCategory": "Kooperative Taktik- und Stealth-Kampagne",
+  "roadmapTitle": "🗡️ Erinnerungen an Venedig & Chronik der Bruderschaft",
+  "roadmapBadge": "VENEZIANISCHE CHRONIK",
+  "keyFeatures": [
+    "Taktische Schleich- und Entdeckungsmechaniken mit Klettern auf Dächer und lautlosen Attentaten",
+    "Versiegelte Erinnerungsumschläge, die von Mission zu Mission neue Ausrüstung, Ereignisse und Wendungen enthüllen",
+    "Hauptquartier-Verwaltung zur Heilung verwundeter Assassinen, Fertigung von Renaissance-Ausrüstung und Vertragserfüllung",
+    "Kanonische Geschichte im Venedig von 1509 mit Auftritten von Ezio Auditore und Leonardo da Vinci"
+  ],
+  "scopes": {
+    "acbov_full_campaign": {
+      "name": "Vollständige venezianische Kampagne (26 Erinnerungen)",
+      "description": "Der gesamte Handlungsbogen über die Sequenzen 0 bis 4, das Öffnen aller geheimen Umschläge und die Befreiung Venedigs."
+    },
+    "acbov_early_sequences": {
+      "name": "Erste Operationen (Sequenzen 0–2)",
+      "description": "Vom Prolog-Tutorial bis zur Rettung Leonardos über 15 zentrale Erinnerungen – ideal für einen narrativen Einstieg."
+    },
+    "acbov_master_sync": {
+      "name": "100% Volle Synchronisation & Wiederspielwert",
+      "description": "Komplette Kampagne inklusive aller optionalen Sekundärziele, Auftragsmissionen und perfektionistischer Synchronisationsläufe."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Seq 0",
+      "title": "Das vergessene Hauptquartier",
+      "phase": "Prolog – Gründung der Bruderschaft",
+      "description": "Befreie ein verlassenes venezianisches Versteck, um es als Hauptquartier für deine Assassinen-Bruderschaft einzurichten."
+    },
+    {
+      "order": 2,
+      "badgeText": "Seq 1",
+      "title": "Der venezianische Maskenball",
+      "phase": "Sequenz 1 – Schatten über den Kanälen",
+      "description": "Infiltriere die Karnevalsfeierlichkeiten und entlarve das korrupte Netzwerk venezianischer Würdenträger."
+    },
+    {
+      "order": 3,
+      "badgeText": "Seq 2",
+      "title": "Das gefährdete Genie",
+      "phase": "Sequenz 2 – Da Vincis Erfindungen",
+      "description": "Schütze Leonardo da Vinci und beschaffe geheime Baupläne wieder, bevor Templer-Agenten sie beschlagnahmen."
+    },
+    {
+      "order": 4,
+      "badgeText": "Seq 3",
+      "title": "Das Netz des Verrats",
+      "phase": "Sequenz 3 – Infiltration des inneren Heiligtums",
+      "description": "Überlebe überraschende Intrigen und dringe in die befestigten inneren Gemächer der venezianischen Elite vor."
+    },
+    {
+      "order": 5,
+      "badgeText": "Seq 4",
+      "title": "Befreiung von Venedig",
+      "phase": "Sequenz 4 – Die finale Synchronisation",
+      "description": "Bezwinge den Großmeister und sichere die Freiheit des Venedigs der Renaissance für alle Zeiten."
+    }
+  ]
+}

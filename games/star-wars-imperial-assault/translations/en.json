@@ -1,0 +1,59 @@
+{
+  "title": "Star Wars: Imperial Assault",
+  "subtitle": "Epic tactical combat and branching cinematic campaign in the classic Star Wars galaxy",
+  "tagline": "A galaxy in turmoil, heroic rebels, and the overwhelming might of the Galactic Empire",
+  "loreSummary": "In the wake of the Death Star's destruction, the Galactic Empire strikes back across scattered star systems. You command an elite strike team of Rebel operatives waging guerrilla warfare, or direct infinite Imperial legions seeking to crush the uprising once and for all.",
+  "badgeCategory": "Tactical Dungeon Crawler & Skirmish",
+  "roadmapTitle": "🚀 Galactic Campaign Log & Mission Tree",
+  "roadmapBadge": "IMPERIAL ASSAULT CAMPAIGN",
+  "keyFeatures": [
+    "Branching campaign mission tree with dynamic narrative consequences",
+    "Asymmetric 1-vs-many tactical grid combat or fully cooperative app play",
+    "Rebel hero advancement with distinct ability decks and equipment upgrades",
+    "Imperial commander agenda cards, secret military deployments, and nemesis allies"
+  ],
+  "scopes": {
+    "ia_core_campaign": {
+      "name": "Core Story Campaign",
+      "description": "The complete 11-mission campaign narrative: introductory mission, 4 branching story missions, 5 side missions, and the climactic sector finale."
+    },
+    "ia_extended_campaign": {
+      "name": "Extended Galactic Conflict",
+      "description": "Comprehensive 13-mission campaign incorporating unexpected Imperial forced missions, hostile ambushes, and agenda intercepts."
+    },
+    "ia_coop_app_campaign": {
+      "name": "Flight to Freedom (App Co-op)",
+      "description": "Focused 5-mission cooperative campaign driven by the official Star Wars: Legends of the Alliance companion digital app."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 1",
+      "title": "Infiltration & Aftermath",
+      "phase": "Campaign Introduction",
+      "description": "Rebel operatives infiltrate a remote Imperial transmission outpost following the destruction of the Death Star."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 4",
+      "title": "Imperial Escalation",
+      "phase": "Act I - Regional Conflict",
+      "description": "Gathering vital rebel resources and securing key planetary alliances while evading Imperial patrols."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 7",
+      "title": "The Imperial Counteroffensive",
+      "phase": "Act II - Mid-Campaign Climax",
+      "description": "Imperial high command retaliates with heavy mechanized walker divisions and elite forces."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 11",
+      "title": "Planetary Redoubt Finale",
+      "phase": "Campaign Climax",
+      "description": "The decisive final assault against the Imperial stronghold determining the destiny of the sector."
+    }
+  ]
+}

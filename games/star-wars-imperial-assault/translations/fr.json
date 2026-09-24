@@ -1,0 +1,59 @@
+{
+  "title": "Star Wars: Imperial Assault",
+  "subtitle": "Combats tactiques épiques et campagne narrative cinématique dans la galaxie classique de Star Wars",
+  "tagline": "Une galaxie en plein chaos, des rebelles héroïques et la toute-puissance écrasante de l'Empire Galactique",
+  "loreSummary": "Au lendemain de la destruction de l'Étoile de la Mort, l'Empire Galactique contre-attaque dans les systèmes stellaires reculés. Vous menez une escouade d'élite rebelle engagée dans une guérilla clandestine, ou dirigez les légions impériales pour anéantir définitivement l'insurrection.",
+  "badgeCategory": "Dungeon Crawler Tactique & Escarmouche",
+  "roadmapTitle": "🚀 Journal de Campagne Galactique & Arbre de Missions",
+  "roadmapBadge": "CAMPAGNE IMPERIAL ASSAULT",
+  "keyFeatures": [
+    "Arbre de missions avec choix narratifs et conséquences cinématiques dynamiques",
+    "Combat tactique asymétrique sur grille à 1 contre tous ou jeu coopératif intégral avec application",
+    "Progression poussée des héros rebelles avec compétences uniques et arsenal amélioré",
+    "Cartes d'intrigue du commandant impérial, déploiements secrets et alliés némésis légendaires"
+  ],
+  "scopes": {
+    "ia_core_campaign": {
+      "name": "Campagne Narrative Principale",
+      "description": "L'arc narratif complet en 11 missions : mission d'introduction, 4 missions narratives à embranchements, 5 missions secondaires et la grande confrontation finale."
+    },
+    "ia_extended_campaign": {
+      "name": "Conflit Galactique Étendu",
+      "description": "Campagne intégrale de 13 missions incluant des missions impériales forcées impromptues, des embuscades et des interceptions d'intrigues."
+    },
+    "ia_coop_app_campaign": {
+      "name": "Vol vers la Liberté (Coop avec App)",
+      "description": "Campagne coopérative rythmée en 5 missions gérée par l'application numérique officielle Star Wars : Legends of the Alliance."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 1",
+      "title": "Infiltration & Répercussions",
+      "phase": "Introduction de la Campagne",
+      "description": "Des agents rebelles infiltrent un avant-poste de transmission impérial isolé après la chute de l'Étoile de la Mort."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 4",
+      "title": "Escalade Impériale",
+      "phase": "Acte I - Conflit Régional",
+      "description": "Rassemblement de ressources vitales et sécurisation d'alliances planétaires tout en échappant aux patrouilles impériales."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 7",
+      "title": "La Contre-offensive Impériale",
+      "phase": "Acte II - Climax de Mi-Campagne",
+      "description": "Le haut commandement impérial réplique avec des divisions de marcheurs blindés lourds et des troupes d'élite."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 11",
+      "title": "Assaut du Réduit Planétaire",
+      "phase": "Climax de la Campagne",
+      "description": "L'assaut décisif contre la forteresse impériale scellant à jamais le destin du secteur galactique."
+    }
+  ]
+}

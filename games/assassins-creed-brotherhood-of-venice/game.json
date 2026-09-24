@@ -1,0 +1,104 @@
+{
+  "id": "assassins-creed-brotherhood-of-venice",
+  "title": "Assassin's Creed: Brotherhood of Venice",
+  "releaseYear": 2021,
+  "designers": "Thibaud de la Touanne, Fabrice Lamidey, Manuel Rozoy",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.1,
+  "bggWeight": 3.13,
+  "bggUrl": "https://boardgamegeek.com/boardgame/260789/assassins-creed-brotherhood-of-venice",
+  "baseScenarioMinutes": 75,
+  "setupTeardownMinutes": 20,
+  "unitType": "memories",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#b91c1c",
+    "secondaryColor": "#121214",
+    "accentColor": "#d97706",
+    "backgroundGradient": "radial-gradient(ellipse at top, #261215 0%, #121114 60%, #09090b 100%)",
+    "cardBackground": "rgba(18, 18, 22, 0.92)",
+    "borderColor": "rgba(185, 28, 28, 0.40)",
+    "glowColor": "rgba(185, 28, 28, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🗡️",
+    "emblem": "🗡️🎭",
+    "themeClass": "theme-acvenice",
+    "activeThemeClass": "theme-acvenice-active",
+    "roadmapClass": "roadmap-acvenice",
+    "heroClass": "hero-acvenice"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #260789 Overall)",
+    "Triton Noir Official Rulebook & Campaign Booklet",
+    "Ubisoft Assassin's Creed: Brotherhood of Venice Community Campaign Data"
+  ],
+  "scopes": [
+    {
+      "id": "acbov_full_campaign",
+      "baseScenarioCount": 26,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": true
+    },
+    {
+      "id": "acbov_early_sequences",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "acbov_master_sync",
+      "baseScenarioCount": 34,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🏰",
+      "badgeText": "Seq 0",
+      "title": "The Forgotten Headquarters",
+      "phase": "Prologue - Establishing the Brotherhood",
+      "description": "Liberate an abandoned Venetian hideout to serve as the headquarters for your Assassin brotherhood."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🎭",
+      "badgeText": "Seq 1",
+      "title": "The Venetian Masquerade",
+      "phase": "Sequence 1 - Shadows Over the Canals",
+      "description": "Infiltrate carnival celebrations and expose the corrupt network of Venetian magistrates."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "⚙️",
+      "badgeText": "Seq 2",
+      "title": "The Endangered Genius",
+      "phase": "Sequence 2 - Da Vinci's Inventions",
+      "description": "Protect Leonardo da Vinci and recover secret blueprints before Templar agents seize them."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 21,
+      "iconEmoji": "🗡️",
+      "badgeText": "Seq 3",
+      "title": "The Web of Treachery",
+      "phase": "Sequence 3 - Inner Sanctum Infiltration",
+      "description": "Survive sudden betrayals and penetrate the inner fortified sanctuaries of the Venetian elite."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 26,
+      "iconEmoji": "👑",
+      "badgeText": "Seq 4",
+      "title": "Liberation of Venice",
+      "phase": "Sequence 4 - The Final Synchronization",
+      "description": "Strike down the Grand Master and secure the freedom of Renaissance Venice once and for all."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Assassin's Creed: Brotherhood of Venice",
+  "subtitle": "Tactical stealth, rooftop infiltration, and headquarters management in Renaissance Italy",
+  "tagline": "We work in the dark to serve the light",
+  "loreSummary": "Venice, 1509. In the shadows between the events of Brotherhood and Revelations, you lead a secret cell of Assassins navigating treacherous canals, unmasking Templar conspirators, and expanding your hidden brotherhood.",
+  "badgeCategory": "Tactical Stealth Cooperative Campaign",
+  "roadmapTitle": "🗡️ Venice Memories & Brotherhood Chronicles",
+  "roadmapBadge": "VENETIAN CHRONICLES",
+  "keyFeatures": [
+    "Tactical stealth & detection mechanics with rooftop climbing and hidden assassination strikes",
+    "Sealed memory envelopes revealing new equipment, events, and story turns mission by mission",
+    "Headquarters management to heal wounded Assassins, craft renaissance gear, and fulfill contracts",
+    "Canonical story set in 1509 Venice featuring Ezio Auditore and Leonardo da Vinci"
+  ],
+  "scopes": {
+    "acbov_full_campaign": {
+      "name": "Full Venetian Campaign (26 Memories)",
+      "description": "The complete narrative arc across Sequences 0 through 4, discovering all secret envelopes and taking back Renaissance Venice."
+    },
+    "acbov_early_sequences": {
+      "name": "Early Operations (Sequences 0–2)",
+      "description": "Prologue tutorial through Leonardo's rescue across 15 core memories, ideal for an introductory narrative experience."
+    },
+    "acbov_master_sync": {
+      "name": "100% Full Synchronization & Replays",
+      "description": "Complete campaign including optional secondary objectives, contract missions, and perfectionist synchronization runs."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Seq 0",
+      "title": "The Forgotten Headquarters",
+      "phase": "Prologue - Establishing the Brotherhood",
+      "description": "Liberate an abandoned Venetian hideout to serve as the headquarters for your Assassin brotherhood."
+    },
+    {
+      "order": 2,
+      "badgeText": "Seq 1",
+      "title": "The Venetian Masquerade",
+      "phase": "Sequence 1 - Shadows Over the Canals",
+      "description": "Infiltrate carnival celebrations and expose the corrupt network of Venetian magistrates."
+    },
+    {
+      "order": 3,
+      "badgeText": "Seq 2",
+      "title": "The Endangered Genius",
+      "phase": "Sequence 2 - Da Vinci's Inventions",
+      "description": "Protect Leonardo da Vinci and recover secret blueprints before Templar agents seize them."
+    },
+    {
+      "order": 4,
+      "badgeText": "Seq 3",
+      "title": "The Web of Treachery",
+      "phase": "Sequence 3 - Inner Sanctum Infiltration",
+      "description": "Survive sudden betrayals and penetrate the inner fortified sanctuaries of the Venetian elite."
+    },
+    {
+      "order": 5,
+      "badgeText": "Seq 4",
+      "title": "Liberation of Venice",
+      "phase": "Sequence 4 - The Final Synchronization",
+      "description": "Strike down the Grand Master and secure the freedom of Renaissance Venice once and for all."
+    }
+  ]
+}

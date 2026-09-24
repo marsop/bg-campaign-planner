@@ -1,0 +1,66 @@
+{
+  "title": "Assassin's Creed: Brotherhood of Venice",
+  "subtitle": "Infiltrazione tattica, furtività sui tetti e gestione del covo nell'Italia del Rinascimento",
+  "tagline": "Agiamo nell'ombra per servire la luce",
+  "loreSummary": "Venezia, 1509. Tra le vicende di Brotherhood e Revelations, guidi una cellula segreta di Assassini navigando canali insidiosi, smascherando cospiratori templari ed espandendo la tua confraternita clandestina.",
+  "badgeCategory": "Campagna Cooperativa di Infiltrazione Tattica",
+  "roadmapTitle": "🗡️ Memorie di Venezia e Cronache della Confraternita",
+  "roadmapBadge": "CRONACHE VENEZIANE",
+  "keyFeatures": [
+    "Meccaniche di furtività tattica e rilevamento con scalata dei tetti e assassinii silenziosi",
+    "Buste delle memorie sigillate che svelano nuovi equipaggiamenti, eventi e colpi di scena missione dopo missione",
+    "Gestione del covo per curare gli Assassini feriti, forgiare equipaggiamento rinascimentale e completare contratti",
+    "Trama canonica ambientata nella Venezia del 1509 con la presenza di Ezio Auditore e Leonardo da Vinci"
+  ],
+  "scopes": {
+    "acbov_full_campaign": {
+      "name": "Campagna Veneziana Completa (26 Memorie)",
+      "description": "L'intero arco narrativo attraverso le Sequenze da 0 a 4, scoprendo tutte le buste segrete e liberando la Venezia rinascimentale."
+    },
+    "acbov_early_sequences": {
+      "name": "Prime Operazioni (Sequenze 0–2)",
+      "description": "Dal prologo tutorial fino al salvataggio di Leonardo in 15 memorie cardine, ideale per una prima avventura narrativa."
+    },
+    "acbov_master_sync": {
+      "name": "Sincronizzazione Totale al 100% e Rigiocabilità",
+      "description": "Campagna completa comprendente obiettivi secondari facoltativi, contratti e partite a sincronizzazione perfetta."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Seq 0",
+      "title": "Il Covo Dimenticato",
+      "phase": "Prologo - Fondazione della Confraternita",
+      "description": "Libera un nascondiglio veneziano abbandonato per stabilire il quartier generale della tua confraternita di Assassini."
+    },
+    {
+      "order": 2,
+      "badgeText": "Seq 1",
+      "title": "La Mascherata Veneziana",
+      "phase": "Sequenza 1 - Ombre sui Canali",
+      "description": "Infiltrati nei festeggiamenti del carnevale e smaschera la rete corrotta dei magistrati veneziani."
+    },
+    {
+      "order": 3,
+      "badgeText": "Seq 2",
+      "title": "Il Genio in Pericolo",
+      "phase": "Sequenza 2 - Le Invenzioni di Da Vinci",
+      "description": "Proteggi Leonardo da Vinci e recupera progetti segreti prima che gli agenti templari se ne impossessino."
+    },
+    {
+      "order": 4,
+      "badgeText": "Seq 3",
+      "title": "La Rete del Tradimento",
+      "phase": "Sequenza 3 - Infiltrazione nel Sancta Sanctorum",
+      "description": "Sopravvivi a tradimenti imprevisti e penetra nei santuari fortificati dell'élite veneziana."
+    },
+    {
+      "order": 5,
+      "badgeText": "Seq 4",
+      "title": "Liberazione di Venezia",
+      "phase": "Sequenza 4 - La Sincronizzazione Finale",
+      "description": "Abbatti il Gran Maestro e assicura per sempre la libertà della Venezia rinascimentale."
+    }
+  ]
+}

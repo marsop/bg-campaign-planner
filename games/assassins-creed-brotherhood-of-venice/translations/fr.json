@@ -1,0 +1,66 @@
+{
+  "title": "Assassin's Creed: Brotherhood of Venice",
+  "subtitle": "Infiltration tactique, discrétion sur les toits et gestion de repaire dans l'Italie de la Renaissance",
+  "tagline": "Nous agissons dans l'ombre pour servir la lumière",
+  "loreSummary": "Venise, 1509. Entre les événements de Brotherhood et de Revelations, vous menez une cellule secrète d'Assassins à travers des canaux périlleux, démasquant des conspirateurs templiers et étendant votre confrérie clandestine.",
+  "badgeCategory": "Campagne Coopérative d'Infiltration Tactique",
+  "roadmapTitle": "🗡️ Mémoires de Venise & Chroniques de la Confrérie",
+  "roadmapBadge": "CHRONIQUES VÉNITIENNES",
+  "keyFeatures": [
+    "Mécaniques d'infiltration tactique et de détection avec escalade des toits et assassinats furtifs",
+    "Enveloppes de mémoire scellées révélant de nouveaux équipements, événements et rebondissements à chaque mission",
+    "Gestion du repaire pour soigner les Assassins blessés, fabriquer de l'équipement d'époque et honorer des contrats",
+    "Scénario canonique se déroulant à Venise en 1509 avec la présence d'Ezio Auditore et de Léonard de Vinci"
+  ],
+  "scopes": {
+    "acbov_full_campaign": {
+      "name": "Campagne Vénitienne Complète (26 Mémoires)",
+      "description": "L'arc narratif complet à travers les Séquences 0 à 4, ouvrant toutes les enveloppes secrètes et libérant la Venise de la Renaissance."
+    },
+    "acbov_early_sequences": {
+      "name": "Premières Opérations (Séquences 0–2)",
+      "description": "Du prologue tutoriel jusqu'au sauvetage de Léonard sur 15 mémoires clés, idéal pour une première immersion narrative."
+    },
+    "acbov_master_sync": {
+      "name": "Synchronisation Totale à 100% et Rejouabilité",
+      "description": "Campagne complète comprenant tous les objectifs secondaires optionnels, les contrats et les parties en synchronisation parfaite."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Sèq 0",
+      "title": "Le Repaire Oublié",
+      "phase": "Prologue - Établir la Confrérie",
+      "description": "Libérez une cache vénitienne abandonnée pour y installer le quartier général de votre confrérie d'Assassins."
+    },
+    {
+      "order": 2,
+      "badgeText": "Sèq 1",
+      "title": "La Mascarade Vénitienne",
+      "phase": "Séquence 1 - Ombres sur les Canaux",
+      "description": "Infiltrez les festivités du carnaval et démasquez le réseau corrompu de magistrats vénitiens."
+    },
+    {
+      "order": 3,
+      "badgeText": "Sèq 2",
+      "title": "Le Génie en Péril",
+      "phase": "Séquence 2 - Les Inventions de De Vinci",
+      "description": "Protégez Léonard de Vinci et récupérez des plans secrets avant que les agents templiers ne s'en emparent."
+    },
+    {
+      "order": 4,
+      "badgeText": "Sèq 3",
+      "title": "La Toile de la Trahison",
+      "phase": "Séquence 3 - Infiltration du Saint des Saints",
+      "description": "Survivez à des trahisons inattendues et pénétrez dans les sanctuaires fortifiés de l'élite vénitienne."
+    },
+    {
+      "order": 5,
+      "badgeText": "Sèq 4",
+      "title": "Libération de Venise",
+      "phase": "Séquence 4 - La Synchronisation Finale",
+      "description": "Terrassez le Grand Maître et assurez pour toujours la liberté de la Venise de la Renaissance."
+    }
+  ]
+}

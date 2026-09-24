@@ -1,0 +1,59 @@
+{
+  "title": "Star Wars: Imperial Assault",
+  "subtitle": "Epico combattimento tattico e campagna narrativa a bivi nella galassia classica di Star Wars",
+  "tagline": "Una galassia in tumulto, ribelli eroici e lo schiacciante potere dell'Impero Galattico",
+  "loreSummary": "Sulla scia della distruzione della Morte Nera, l'Impero Galattico sferra un feroce contrattacco nei sistemi stellari periferici. Guidi una squadra d'assalto ribelle d'élite in una guerriglia sotterranea, oppure comandi legioni imperiali sconfinate per annientare l'insurrezione una volta per tutte.",
+  "badgeCategory": "Dungeon Crawler Tattico & Scontri",
+  "roadmapTitle": "🚀 Registro di Campagna Galattica & Albero delle Missioni",
+  "roadmapBadge": "CAMPAGNA IMPERIAL ASSAULT",
+  "keyFeatures": [
+    "Albero delle missioni a bivi con conseguenze narrative dinamiche e cinematografiche",
+    "Combattimento tattico asimmetrico su griglia 1 contro tutti o gioco cooperativo completo con app",
+    "Avanzamento degli eroi ribelli con mazzi di abilità unici e potenziamenti dell'equipaggiamento",
+    "Carte trama del comandante imperiale, schieramenti militari segreti e alleati nemesi temibili"
+  ],
+  "scopes": {
+    "ia_core_campaign": {
+      "name": "Campagna Narrativa Principale",
+      "description": "L'arco narrativo completo di 11 missioni: missione introduttiva, 4 missioni di storia a bivi, 5 missioni secondarie e il travolgente finale di settore."
+    },
+    "ia_extended_campaign": {
+      "name": "Conflitto Galattico Esteso",
+      "description": "Campagna esaustiva di 13 missioni che include missioni forzate imperiali impreviste, imboscate ostili e intercettazioni di trame."
+    },
+    "ia_coop_app_campaign": {
+      "name": "Volo verso la Libertà (Coop con App)",
+      "description": "Campagna cooperativa mirata di 5 missioni guidata dall'applicazione digitale complementare Star Wars: Legends of the Alliance."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Missione 1",
+      "title": "Infiltrazione e Conseguenze",
+      "phase": "Introduzione alla Campagna",
+      "description": "Operativi ribelli si infiltrano in un avamposto di trasmissione imperiale remoto in seguito alla caduta della Morte Nera."
+    },
+    {
+      "order": 2,
+      "badgeText": "Missione 4",
+      "title": "Escalation Imperiale",
+      "phase": "Atto I - Conflitto Regionale",
+      "description": "Acquisizione di risorse vitali per la ribellione e stipula di alleanze planetarie cruciali eludendo le pattuglie imperiali."
+    },
+    {
+      "order": 3,
+      "badgeText": "Missione 7",
+      "title": "La Controffensiva Imperiale",
+      "phase": "Atto II - Climax di Metà Campagna",
+      "description": "L'alto comando imperiale reagisce schierando divisioni pesanti di camminatori corazzati e truppe d'élite."
+    },
+    {
+      "order": 4,
+      "badgeText": "Missione 11",
+      "title": "Assalto al Ridotto Planetario",
+      "phase": "Climax della Campagna",
+      "description": "Il decisivo assalto finale alla roccaforte imperiale che determinerà il destino dell'intero settore galattico."
+    }
+  ]
+}

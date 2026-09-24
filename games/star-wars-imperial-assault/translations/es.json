@@ -1,0 +1,59 @@
+{
+  "title": "Star Wars: Imperial Assault",
+  "subtitle": "Combate táctico épico y campaña cinematográfica ramificada en la galaxia clásica de Star Wars",
+  "tagline": "Una galaxia en turbulencia, héroes rebeldes y el poder abrumador del Imperio Galáctico",
+  "loreSummary": "Tras la destrucción de la Estrella de la Muerte, el Imperio Galáctico contraataca en dispersos sistemas estelares. Lideras un equipo de operaciones rebelde en una guerra de guerrillas, o comandas infinitas legiones imperiales para aplastar la insurrección de una vez por todas.",
+  "badgeCategory": "Exploración Táctica y Escaramuzas",
+  "roadmapTitle": "🚀 Registro de Campaña Galáctica y Árbol de Misiones",
+  "roadmapBadge": "CAMPAÑA IMPERIAL ASSAULT",
+  "keyFeatures": [
+    "Árbol de misiones con historia ramificada y consecuencias narrativas dinámicas",
+    "Combate táctico asimétrico 1 contra muchos en cuadrícula o modo cooperativo total con app",
+    "Progresión de héroes rebeldes con mazos de habilidades únicos y mejoras de equipo",
+    "Cartas de planes imperiales, despliegues militares secretos y aliados némesis temibles"
+  ],
+  "scopes": {
+    "ia_core_campaign": {
+      "name": "Campaña Narrativa Principal",
+      "description": "La narrativa completa de 11 misiones: misión introductoria, 4 misiones de historia ramificadas, 5 misiones secundarias y el clímax final del sector."
+    },
+    "ia_extended_campaign": {
+      "name": "Conflicto Galáctico Extendido",
+      "description": "Campaña integral de 13 misiones que incorpora misiones forzadas imperiales imprevistas, emboscadas hostiles e intercepciones de planes."
+    },
+    "ia_coop_app_campaign": {
+      "name": "Vuelo hacia la Libertad (Cooperativo con App)",
+      "description": "Campaña cooperativa concentrada de 5 misiones dirigida por la aplicación digital complementaria Star Wars: Legends of the Alliance."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Misión 1",
+      "title": "Infiltración y Secuelas",
+      "phase": "Introducción a la Campaña",
+      "description": "Los operativos rebeldes se infiltran en un puesto de transmisión imperial remoto tras la destrucción de la Estrella de la Muerte."
+    },
+    {
+      "order": 2,
+      "badgeText": "Misión 4",
+      "title": "Escalada Imperial",
+      "phase": "Acto I - Conflicto Regional",
+      "description": "Obtención de recursos rebeldes vitales y forja de alianzas planetarias clave mientras se evaden patrullas imperiales."
+    },
+    {
+      "order": 3,
+      "badgeText": "Misión 7",
+      "title": "La Contraofensiva Imperial",
+      "phase": "Acto II - Clímax Intermedio",
+      "description": "El alto mando imperial toma represalias desplegando divisiones pesadas de caminantes mecanizados y fuerzas de élite."
+    },
+    {
+      "order": 4,
+      "badgeText": "Misión 11",
+      "title": "Asalto al Reducto Planetario",
+      "phase": "Clímax de la Campaña",
+      "description": "El asalto final decisivo contra la fortaleza imperial que sellará el destino del sector galáctico."
+    }
+  ]
+}

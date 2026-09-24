@@ -1,0 +1,59 @@
+{
+  "title": "Star Wars: Imperial Assault",
+  "subtitle": "Epischer taktischer Kampf und verzweigte Film-Kampagne in der klassischen Star Wars-Galaxis",
+  "tagline": "Eine Galaxis im Aufruhr, heroische Rebellen und die überwältigende Macht des Galaktischen Imperiums",
+  "loreSummary": "Nach der Zerstörung des Todessterns schlägt das Galaktische Imperium in entlegenen Sternensystemen gnadenlos zurück. Ihr befehligt eine Spezialeinheit von Rebellenagenten im Guerillakrieg oder führt unendliche imperiale Legionen an, um den Aufstand ein für alle Mal niederzuschlagen.",
+  "badgeCategory": "Taktischer Dungeon Crawler & Gefechte",
+  "roadmapTitle": "🚀 Galaktisches Kampagnen-Logbuch & Missionsbaum",
+  "roadmapBadge": "IMPERIAL ASSAULT KAMPAGNE",
+  "keyFeatures": [
+    "Verzweigter Missionsbaum mit dynamischen narrativen Konsequenzen",
+    "Asymmetrischer 1-gegen-Viele Taktikkampf auf Rasterfeldern oder vollständiges App-Koop-Spiel",
+    "Heldenentwicklung der Rebellen mit einzigartigen Fähigkeiten-Decks und Ausrüstungsaufwertungen",
+    "Imperiale Befehlshaber-Einsatzpläne, geheime Militärverlegungen und gefürchtete Nemesis-Verbündete"
+  ],
+  "scopes": {
+    "ia_core_campaign": {
+      "name": "Haupt-Story-Kampagne",
+      "description": "Die vollständige Kampagnenerzählung über 11 Missionen: Einführungsmission, 4 verzweigte Story-Missionen, 5 Nebenmissionen und das finale Sektor-Finale."
+    },
+    "ia_extended_campaign": {
+      "name": "Erweiterter Galaktischer Konflikt",
+      "description": "Umfassende Kampagne über 13 Missionen inklusive unvorhergesehener imperialer Zwangsmissionen, feindlicher Hinterhalte und abgefangener Einsatzpläne."
+    },
+    "ia_coop_app_campaign": {
+      "name": "Flug in die Freiheit (App-Koop)",
+      "description": "Fokussierte kooperative Kampagne über 5 Missionen, gesteuert über die offizielle Begleit-App Star Wars: Legends of the Alliance."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 1",
+      "title": "Infiltration & Nachwirkungen",
+      "phase": "Kampagnen-Einführung",
+      "description": "Rebellenagenten infiltrieren nach der Zerstörung des Todessterns einen abgelegenen imperialen Übertragungsposten."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 4",
+      "title": "Imperiale Eskalation",
+      "phase": "Akt I - Regionaler Konflikt",
+      "description": "Sichern lebenswichtiger Rebellenressourcen und Schmieden planetarer Allianzen bei gleichzeitiger Vermeidung imperialer Patrouillen."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 7",
+      "title": "Die Imperiale Gegenoffensive",
+      "phase": "Akt II - Kampagnen-Höhepunkt",
+      "description": "Das imperiale Oberkommando schlägt mit schweren mechanisierten Kampfläufer-Divisionen und Elitekräften zurück."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 11",
+      "title": "Sturm auf die Planetare Bastion",
+      "phase": "Finale der Kampagne",
+      "description": "Der entscheidende Großangriff auf die imperiale Festung, der das Schicksal des gesamten Sektors besiegelt."
+    }
+  ]
+}

@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (47 games):**
+**Currently in app (50 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -56,15 +56,14 @@ requested by the user.
 - Mice and Mystics
 - Chronicles of Crime
 - My Island
-
+- Clank! Legacy: Acquisitions Incorporated
+- Star Wars: Imperial Assault
+- Assassin's Creed: Brotherhood of Venice
 
 ---
 
 ## 🟥 High Priority
 
-- **Clank! Legacy: Acquisitions Incorporated** — Narrative legacy deck-building dungeon crawl across an evolving fantasy board. 10-12 sessions (20-30 hours). ~8.6 BGG. 2-4 players. Deck-building, legacy stickers, humor, push-your-luck.
-- **Star Wars: Imperial Assault** — Tactical skirmish and narrative dungeon crawl campaign set in the classic Star Wars universe. 11-12 sessions (30-40 hours). ~8.0 BGG. 1-5 players. Grid movement, dice combat, campaign mission tree, app-assisted co-op.
-- **Assassin's Creed: Brotherhood of Venice** — Tactical stealth and infiltration campaign set in Renaissance Italy. 26 sessions (30-40 hours). ~8.0 BGG. 1-4 players. Stealth action, envelope unlocks, headquarters upgrades, cooperative campaign.
 - **Dungeon Universalis** — Massive modular tabletop RPG-style tactical dungeon crawler. 30-50+ sessions (80-120 hours). ~8.8 BGG. 1-6 players. Grid combat, deep character progression, overland map, high complexity.
 
 ---

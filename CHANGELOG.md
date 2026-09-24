@@ -7,6 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.46.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Assassin's Creed: Brotherhood of Venice**, the tactical cooperative stealth and infiltration campaign by Thibaud de la Touanne, Fabrice Lamidey, and Manuel Rozoy (Triton Noir & Ubisoft, 2021).
+    - 3 campaign scope presets: *Full Venetian Campaign (26 Memories)* (26 memories, recommended), *Early Operations (Sequences 0–2)* (15 memories), and *100% Full Synchronization & Replays* (34 memories).
+    - 5 narrative milestone checkpoints: *The Forgotten Headquarters* (Prologue), *The Venetian Masquerade* (Sequence 1), *The Endangered Genius* (Sequence 2), *The Web of Treachery* (Sequence 3), and *Liberation of Venice* (Sequence 4), with full spoiler mask protection.
+    - Thematic visual identity (Venetian crimson `#b91c1c`, stealth night `#121214`, and antique brass gold `#d97706` palette, Cinzel classical typography, 1:1 flat front box cover art, and authentic 16:9 widescreen atmospheric artwork of Renaissance Venice).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.45.0] - 2026-09-24
+
+### Added
+- **New Board Games Added**:
+  - Added support for **Star Wars: Imperial Assault**, the tactical skirmish and narrative dungeon crawl campaign by Corey Konieczka, Justin Kemppainen, and Jonathan Ying (Fantasy Flight Games, 2014).
+    - 3 campaign scope presets: *Core Story Campaign* (11 missions, recommended), *Extended Galactic Conflict* (13 missions), and *Flight to Freedom (App Co-op)* (5 missions).
+    - 4 narrative milestone checkpoints: *Infiltration & Aftermath*, *Imperial Escalation*, *The Imperial Counteroffensive*, and *Planetary Redoubt Finale*, with full spoiler mask protection.
+    - Thematic visual identity (imperial crimson `#dc2626`, deep starship hull slate `#0c1017`, and lightsaber cyan `#38bdf8` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen artwork).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+  - Added support for **Clank! Legacy: Acquisitions Incorporated**, the narrative legacy deck-building dungeon crawl across an evolving fantasy board by Andy Clautice and Paul Dennen (Dire Wolf Digital & Renegade Game Studios, 2019).
+    - 3 campaign scope presets: *Franchise Campaign* (10 contracts, recommended), *Full Operations & Epilogue* (12 contracts), and *Extended Franchise Exploits* (16 contracts).
+    - 4 narrative milestone checkpoints: *Franchise Charter*, *Territorial Expansion*, *Corporate Espionage*, and *The Grand Audit*, with full spoiler mask protection.
+    - Thematic visual identity (corporate amber `#f59e0b`, deep vault green `#131a14`, and dragon hoard emerald `#22c55e` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen artwork).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ### Fixed
 - **Milestone Calculation & Ordering**: Fixed an issue where milestone checkpoints appeared duplicated and out of order in the session timeline and exported calendar (such as `#1, #1, #3, #2, #5, #3, #7, #4` for *My Island*). Consolidated campaign milestones as the single source of truth across the thematic roadmap, sessions timeline, and velocity tracker, ensuring milestones are ordered sequentially without duplicates, and spoiler masking properly hides narrative details while maintaining accurate dates and session numbers.
 
