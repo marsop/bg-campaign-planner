@@ -1,0 +1,59 @@
+{
+  "title": "Clank! Legacy: Acquisitions Incorporated",
+  "subtitle": "Un juego de construcción de mazos legacy y fantasía satírica donde el saqueo corporativo transforma el reino para siempre",
+  "tagline": "Adquiere con audacia, explora con temeridad y procura no despertar al dragón en horario laboral",
+  "loreSummary": "Sois ambiciosos socios novatos en Acquisitions Incorporated, la corporación de aventureros por excelencia. A lo largo de una crónica evolutiva de diez partidas, os adentraréis en peligrosas catacumbas, firmaréis contratos arriesgados, pegaréis pegatinas para transformar el tablero y saquearéis tesoros legendarios, equilibrando vuestra codicia personal con las cuotas corporativas.",
+  "badgeCategory": "Construcción de mazos legacy",
+  "roadmapTitle": "💼 Registro de contratos y logros corporativos",
+  "roadmapBadge": "REGISTRO DE FRANQUICIA",
+  "keyFeatures": [
+    "Crónica corporativa de fantasía y humor ambientada en el universo de Acquisitions Incorporated de Penny Arcade",
+    "Construcción de mazos persistente con pegatinas, destrucción de cartas y tableros evolutivos",
+    "Sistema narrativo dinámico con el Libro de los Secretos que desbloquea cámaras secretas y patrones",
+    "Rejugabilidad infinita tras la campaña con un tablero reversible totalmente personalizado"
+  ],
+  "scopes": {
+    "clank_campaign": {
+      "name": "La crónica de franquicia (10 partidas)",
+      "description": "La campaña legacy principal a lo largo de 10 partidas vinculadas, desde el contrato inaugural hasta el gran desenlace corporativo."
+    },
+    "clank_full_contracts": {
+      "name": "Secuencia completa de contratos corporativos",
+      "description": "La campaña ampliada de 12 partidas resolviendo todos los contratos secundarios, prólogos adicionales y el epílogo íntegro."
+    },
+    "clank_extended": {
+      "name": "Franquicia y expediciones en tablero personalizado",
+      "description": "La travesía legacy completa de 12 partidas más 4 sesiones de saqueo posteriores en vuestro tablero reversible único y personalizado."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Partida 1",
+      "title": "Carta de constitución de franquicia",
+      "phase": "Orientación y primera incursión",
+      "description": "Firma del contrato corporativo con Acquisitions Incorporated y establecimiento de la sede de vuestra franquicia local."
+    },
+    {
+      "order": 2,
+      "badgeText": "Partida 4",
+      "title": "Expansión territorial",
+      "phase": "Operaciones regionales",
+      "description": "Apertura de rutas exteriores, establecimiento de nuevos puntos de ruta y asunción de contratos de alto riesgo más allá de la mazmorra inicial."
+    },
+    {
+      "order": 3,
+      "badgeText": "Partida 7",
+      "title": "Espionaje corporativo",
+      "phase": "Escalada subterránea",
+      "description": "Descubrimiento de complots rivales, infiltración en cámaras acorazadas restringidas y aprovechamiento de la furia del dragón en beneficio corporativo."
+    },
+    {
+      "order": 4,
+      "badgeText": "Partida 10",
+      "title": "La gran auditoría",
+      "phase": "Desenlace de la campaña",
+      "description": "Afrontar la evaluación corporativa final y el juicio ante el dragón para determinar el legado definitivo de vuestra franquicia."
+    }
+  ]
+}

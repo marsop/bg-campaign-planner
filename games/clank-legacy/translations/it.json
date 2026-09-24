@@ -1,0 +1,59 @@
+{
+  "title": "Clank! Legacy: Acquisitions Incorporated",
+  "subtitle": "Un gioco di deck-building legacy satirico e fantasy in cui le incursioni aziendali nei sotterranei trasformano per sempre il regno",
+  "tagline": "Acquisisci con audacia, saccheggia con spregiudicatezza e cerca di non svegliare il drago durante l'orario di lavoro",
+  "loreSummary": "Siete ambiziosi soci apprendisti presso la Acquisitions Incorporated, la più prestigiosa multinazionale dell'avventura. Nel corso di un'epopea evolutiva di dieci partite, vi calerete in labirinti insidiosi, firmerete contratti rischiosi, applicherete adesivi per modificare il tabellone e razzierete tesori leggendari, bilanciando l'avidità individuale con gli obiettivi aziendali.",
+  "badgeCategory": "Deck-Building Legacy",
+  "roadmapTitle": "💼 Registro contratti e traguardi aziendali",
+  "roadmapBadge": "REGISTRO DI FRANCHISE",
+  "keyFeatures": [
+    "Cronaca aziendale fantasy e umoristica ambientata nell'universo di Acquisitions Incorporated di Penny Arcade",
+    "Deck-building legacy persistente con adesivi permanenti, distruzione di carte e tabellone modulabile",
+    "Libro dei Segreti dinamico con trame ramificate, cripte sigillate e mecenati itineranti",
+    "Rigiocabilità infinita dopo la campagna grazie a un tabellone reversibile completamente personalizzato"
+  ],
+  "scopes": {
+    "clank_campaign": {
+      "name": "La cronaca del franchise (10 partite)",
+      "description": "La campagna legacy principale completa in 10 partite collegate, dal contratto inaugurale fino al grandioso epilogo aziendale."
+    },
+    "clank_full_contracts": {
+      "name": "Sequenza contrattuale aziendale completa",
+      "description": "La campagna ampliata di 12 partite che include tutti i contratti secondari, i prologhi bonus e l'epilogo integrale."
+    },
+    "clank_extended": {
+      "name": "Franchise e incursioni su mappa personalizzata",
+      "description": "L'esperienza legacy completa di 12 partite unita a 4 sessioni di saccheggio post-campagna sul vostro tabellone reversibile personalizzato."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Partita 1",
+      "title": "Statuto costitutivo del franchise",
+      "phase": "Orientamento e prima incursione",
+      "description": "Firma del contratto societario con la Acquisitions Incorporated e insediamento del quartier generale del vostro franchise locale."
+    },
+    {
+      "order": 2,
+      "badgeText": "Partita 4",
+      "title": "Espansione territoriale",
+      "phase": "Operazioni regionali",
+      "description": "Sblocco delle rotte terrestri, posizionamento di nuovi punti di snodo e assunzione di contratti ad alto rischio oltre il dungeon iniziale."
+    },
+    {
+      "order": 3,
+      "badgeText": "Partita 7",
+      "title": "Spionaggio industriale",
+      "phase": "Escalation sotterranea",
+      "description": "Scoperta delle cospirazioni rivali, infiltrazione nei caveau protetti e sfruttamento della furia del drago a vantaggio societario."
+    },
+    {
+      "order": 4,
+      "badgeText": "Partita 10",
+      "title": "La grande verifica fiscale",
+      "phase": "Finale di campagna",
+      "description": "Affrontare l'ispezione aziendale definitiva e il confronto col drago per decretare l'eredità eterna del vostro franchise."
+    }
+  ]
+}

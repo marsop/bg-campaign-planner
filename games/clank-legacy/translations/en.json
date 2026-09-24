@@ -1,0 +1,59 @@
+{
+  "title": "Clank! Legacy: Acquisitions Incorporated",
+  "subtitle": "A satirical fantasy legacy deck-builder where corporate dungeon delving permanently alters the realm",
+  "tagline": "Boldly acquire, recklessly delve, and try not to wake the dragon on company time",
+  "loreSummary": "You are ambitious junior partners in Acquisitions Incorporated, the premier adventuring corporation. Over a ten-game evolving chronicle, you'll delve into treacherous underworlds, sign perilous contracts, sticker and mutate the map, and plunder treasures—balancing personal greed against corporate quotas.",
+  "badgeCategory": "Legacy Deck-Building",
+  "roadmapTitle": "💼 Franchise Contract Ledger & Corporate Milestones",
+  "roadmapBadge": "FRANCHISE LOG",
+  "keyFeatures": [
+    "Humorous fantasy corporate chronicle set in Penny Arcade's Acquisitions Incorporated universe",
+    "Persistent legacy deck-building with sticker modifications, card destruction, and custom boards",
+    "Dynamic Book of Secrets triggering branching storylines, hidden vaults, and wandering patrons",
+    "Post-campaign infinite replayability with a fully customized, double-sided game board"
+  ],
+  "scopes": {
+    "clank_campaign": {
+      "name": "The 10-Game Franchise Chronicle",
+      "description": "The complete core legacy campaign across 10 linked games from opening contract to the grand corporate finale."
+    },
+    "clank_full_contracts": {
+      "name": "Full Corporate Contract Sequence",
+      "description": "The 12-game extended campaign resolving all franchise side-contracts, bonus prologues, and the complete epilogue."
+    },
+    "clank_extended": {
+      "name": "Franchise & Custom Board Delves",
+      "description": "The complete 12-game legacy journey plus 4 post-campaign delve sessions on your uniquely customized double-sided board."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Game 1",
+      "title": "Franchise Charter",
+      "phase": "Orientation & Opening Delve",
+      "description": "Signing the corporate contract with Acquisitions Incorporated and establishing your local franchise headquarters."
+    },
+    {
+      "order": 2,
+      "badgeText": "Game 4",
+      "title": "Territorial Expansion",
+      "phase": "Regional Operations",
+      "description": "Unlocking overland routes, establishing new waypoints, and taking on high-risk contracts beyond the starter dungeon."
+    },
+    {
+      "order": 3,
+      "badgeText": "Game 7",
+      "title": "Corporate Espionage",
+      "phase": "Subterranean Escalation",
+      "description": "Uncovering rival plots, infiltrating restricted vaults, and manipulating the dragon's wrath for franchise profit."
+    },
+    {
+      "order": 4,
+      "badgeText": "Game 10",
+      "title": "The Grand Audit",
+      "phase": "Campaign Finale",
+      "description": "Facing the final corporate review and dragon reckoning to determine your franchise's permanent legacy."
+    }
+  ]
+}

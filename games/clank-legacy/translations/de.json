@@ -1,0 +1,59 @@
+{
+  "title": "Clank! Legacy: Acquisitions Incorporated",
+  "subtitle": "Ein satirisches Fantasy-Legacy-Deckbauspiel, bei dem unternehmerische Dungeon-Raubzüge das Reich für immer verändern",
+  "tagline": "Kühn akquirieren, waghalsig plündern und den Drachen bloß nicht während der Arbeitszeit wecken",
+  "loreSummary": "Ihr seid ehrgeizige Nachwuchspartner bei Acquisitions Incorporated, dem führenden Abenteurer-Konzern. Über eine sich entwickelnde Chronik von zehn Partien dringt ihr in tückische Gewölbe vor, unterzeichnet riskante Verträge, beklebt und verwandelt den Spielplan und plündert Schätze – stets im Spagat zwischen persönlicher Gier und Firmenquoten.",
+  "badgeCategory": "Legacy-Deckbau",
+  "roadmapTitle": "💼 Franchise-Vertragsbuch & Unternehmensmeilensteine",
+  "roadmapBadge": "FRANCHISE-LOGBUCH",
+  "keyFeatures": [
+    "Humorvolle Fantasy-Konzernchronik in Penny Arcades Acquisitions-Incorporated-Universum",
+    "Dauerhafter Legacy-Deckbau mit Aufklebern, Kartenzerstörung und anpassbaren Spielplänen",
+    "Dynamisches Buch der Geheimnisse mit verzweigten Handlungssträngen, Geheimkammern und Gönnern",
+    "Unbegrenzte Wiederspielbarkeit nach der Kampagne mit einem voll individualisierten, doppelseitigen Spielplan"
+  ],
+  "scopes": {
+    "clank_campaign": {
+      "name": "Die 10-Partien-Franchise-Chronik",
+      "description": "Die vollständige Legacy-Hauptkampagne über 10 verknüpfte Partien vom Eröffnungsvertrag bis zum großen Konzernfinale."
+    },
+    "clank_full_contracts": {
+      "name": "Komplette Firmenvertrags-Sequenz",
+      "description": "Die erweiterte 12-Partien-Kampagne inklusive aller Nebenverträge, Bonus-Prologe und des vollständigen Epilogs."
+    },
+    "clank_extended": {
+      "name": "Franchise & Raubzüge auf dem eigenen Spielplan",
+      "description": "Die komplette 12-Partien-Legacy-Reise plus 4 anschließende Raubzug-Partien auf eurem einzigartig gestalteten doppelseitigen Spielplan."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Partie 1",
+      "title": "Franchise-Charta",
+      "phase": "Einführung & Eröffnungs-Raubzug",
+      "description": "Unterzeichnung des Konzernvertrags mit Acquisitions Incorporated und Errichtung eurer lokalen Franchise-Zentrale."
+    },
+    {
+      "order": 2,
+      "badgeText": "Partie 4",
+      "title": "Territoriale Expansion",
+      "phase": "Regionale Unternehmungen",
+      "description": "Freischaltung von Überlandrouten, Errichtung neuer Wegpunkte und Übernahme riskanter Verträge jenseits des Start-Dungeons."
+    },
+    {
+      "order": 3,
+      "badgeText": "Partie 7",
+      "title": "Wirtschaftsspionage",
+      "phase": "Unterirdische Eskalation",
+      "description": "Aufdeckung von Rivalen-Komplotten, Infiltration gesperrter Gewölbe und Ausnutzung des Drachenzorns für den Konzerngewinn."
+    },
+    {
+      "order": 4,
+      "badgeText": "Partie 10",
+      "title": "Die große Revision",
+      "phase": "Kampagnenfinale",
+      "description": "Die finale Konzernprüfung und die Abrechnung mit dem Drachen bestehen, um das dauerhafte Erbe eurer Franchise zu besiegeln."
+    }
+  ]
+}

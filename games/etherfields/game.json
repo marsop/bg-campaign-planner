@@ -11,7 +11,7 @@
   "baseScenarioMinutes": 120,
   "setupTeardownMinutes": 20,
   "unitType": "dreams",
-  "quality": "mid",
+  "quality": "high",
   "theme": {
     "primaryColor": "#6366f1",
     "secondaryColor": "#0f172a",

@@ -1,0 +1,59 @@
+{
+  "title": "Clank! Legacy: Acquisitions Incorporated",
+  "subtitle": "Un jeu de deckbuilding legacy satirique et fantastique où le pillage corporatif de donjons transforme le royaume à jamais",
+  "tagline": "Acquérez avec audace, pillez avec témérité et évitez de réveiller le dragon pendant les heures de bureau",
+  "loreSummary": "Vous êtes d'ambitieux associés débutants au sein d'Acquisitions Incorporated, la prestigieuse multinationale de l'aventure. Tout au long d'une chronique évolutive de dix parties, vous explorerez de dangereux souterrains, signerez des contrats périlleux, appliquerez des autocollants pour modifier le plateau et pillerez des trésors légendaires, jonglant entre avidité personnelle et objectifs de rentabilité.",
+  "badgeCategory": "Deckbuilding Legacy",
+  "roadmapTitle": "💼 Registre des contrats et jalons corporatifs",
+  "roadmapBadge": "JOURNAL DE FRANCHISE",
+  "keyFeatures": [
+    "Chronique corporative médiévale-fantastique et humoristique dans l'univers d'Acquisitions Incorporated de Penny Arcade",
+    "Deckbuilding legacy persistant avec autocollants permanents, cartes détruites et plateau évolutif",
+    "Livre des Secrets dynamique générant des intrigues à embranchements, coffres scellés et mécènes itinérants",
+    "Rejouabilité infinie après la campagne grâce à un plateau réversible entièrement personnalisé"
+  ],
+  "scopes": {
+    "clank_campaign": {
+      "name": "La chronique de franchise (10 parties)",
+      "description": "La campagne legacy principale complète en 10 parties liées, du contrat inaugural jusqu'au grand final corporatif."
+    },
+    "clank_full_contracts": {
+      "name": "Séquence intégrale des contrats d'entreprise",
+      "description": "La campagne étendue de 12 parties résolvant l'ensemble des contrats secondaires, prologues bonus et l'épilogue complet."
+    },
+    "clank_extended": {
+      "name": "Franchise et expéditions sur plateau personnalisé",
+      "description": "L'aventure legacy complète de 12 parties suivie de 4 sessions de pillage sur votre plateau réversible unique et personnalisé."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Partie 1",
+      "title": "Charte de constitution de la franchise",
+      "phase": "Intégration & première incursion",
+      "description": "Signature du contrat avec Acquisitions Incorporated et établissement du siège local de votre franchise."
+    },
+    {
+      "order": 2,
+      "badgeText": "Partie 4",
+      "title": "Expansion territoriale",
+      "phase": "Opérations régionales",
+      "description": "Ouverture des voies terrestres, établissement de nouveaux points de passage et acceptation de contrats à haut risque au-delà du donjon initial."
+    },
+    {
+      "order": 3,
+      "badgeText": "Partie 7",
+      "title": "Espionnage industriel",
+      "phase": "Escalade souterraine",
+      "description": "Démantèlement des complots rivaux, infiltration des chambres fortes sécurisées et exploitation de la fureur du dragon au profit de l'entreprise."
+    },
+    {
+      "order": 4,
+      "badgeText": "Partie 10",
+      "title": "Le grand audit",
+      "phase": "Dénouement de la campagne",
+      "description": "Affronter l'évaluation financière finale et le jugement du dragon pour sceller l'héritage perpétuel de votre franchise."
+    }
+  ]
+}

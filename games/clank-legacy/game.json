@@ -1,0 +1,95 @@
+{
+  "id": "clank-legacy",
+  "title": "Clank! Legacy: Acquisitions Incorporated",
+  "releaseYear": 2019,
+  "designers": "Andy Clautice, Paul Dennen",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 8.5,
+  "bggWeight": 2.74,
+  "bggUrl": "https://boardgamegeek.com/boardgame/266507/clank-legacy-acquisitions-incorporated",
+  "baseScenarioMinutes": 100,
+  "setupTeardownMinutes": 20,
+  "unitType": "contracts",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#f59e0b",
+    "secondaryColor": "#131a14",
+    "accentColor": "#22c55e",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1a2e1d 0%, #0e1a11 60%, #070d08 100%)",
+    "cardBackground": "rgba(15, 26, 18, 0.90)",
+    "borderColor": "rgba(245, 158, 11, 0.35)",
+    "glowColor": "rgba(34, 197, 94, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "📜",
+    "emblem": "💼🐉",
+    "themeClass": "theme-clanklegacy",
+    "activeThemeClass": "theme-clanklegacy-active",
+    "roadmapClass": "roadmap-clanklegacy",
+    "heroClass": "hero-clanklegacy"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #266507)",
+    "Dire Wolf Digital & Renegade Game Studios Official Rules & Book of Secrets",
+    "Penny Arcade Acquisitions Incorporated Campaign Documentation"
+  ],
+  "scopes": [
+    {
+      "id": "clank_campaign",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "clank_full_contracts",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "clank_extended",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "📜",
+      "badgeText": "Game 1",
+      "title": "Franchise Charter",
+      "phase": "Orientation & Opening Delve",
+      "description": "Signing the corporate contract with Acquisitions Incorporated and establishing your local franchise headquarters."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🗺️",
+      "badgeText": "Game 4",
+      "title": "Territorial Expansion",
+      "phase": "Regional Operations",
+      "description": "Unlocking overland routes, establishing new waypoints, and taking on high-risk contracts beyond the starter dungeon."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "🗝️",
+      "badgeText": "Game 7",
+      "title": "Corporate Espionage",
+      "phase": "Subterranean Escalation",
+      "description": "Uncovering rival plots, infiltrating restricted vaults, and manipulating the dragon's wrath for franchise profit."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🏆",
+      "badgeText": "Game 10",
+      "title": "The Grand Audit",
+      "phase": "Campaign Finale",
+      "description": "Facing the final corporate review and dragon reckoning to determine your franchise's permanent legacy."
+    }
+  ]
+}
