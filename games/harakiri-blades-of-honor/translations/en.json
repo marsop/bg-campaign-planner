@@ -1,0 +1,66 @@
+{
+  "title": "Harakiri: Blades of Honor",
+  "subtitle": "Dark fantasy epic adventure and dungeon crawler set in a mythical feudal Japan",
+  "tagline": "Unsheathe your steel against the rising darkness of the Yokai",
+  "loreSummary": "In a fractured feudal Japan ravaged by civil war and cursed by dark sorcery, the corrupt Dark Shogun has usurped divine authority. As disgraced warriors and wandering ronin, you must traverse treacherous provinces, appease vengeful Kami, and risk your soul to restore honor to the realm.",
+  "badgeCategory": "Dark Fantasy Dungeon Crawler",
+  "roadmapTitle": "🗺️ Chronicle of Yamato & Campaign Roadmap",
+  "roadmapBadge": "BLADES OF HONOR",
+  "keyFeatures": [
+    "Dual-phase gameplay seamlessly blending overland adventure exploration with tactical grid combat",
+    "Deep character evolution with branching skill trees, dynamic equipment crafting, and divine Kami blessings",
+    "Branching narrative campaign across 35+ rich story chapters with multiple dramatic endings",
+    "Epic boss encounters featuring reactive enemy AI decks and multi-stage yokai monstrosities"
+  ],
+  "scopes": {
+    "harakiri_full_chronicles": {
+      "name": "The Full Chronicle (Acts I & II)",
+      "description": "The complete epic 35-chapter journey spanning the surface lands of Yamato and the subterranean horrors of Yomi."
+    },
+    "harakiri_act_1": {
+      "name": "Act I: Path of the Ronin",
+      "description": "The initial 15-chapter campaign focusing on the uprising against the Dark Shogun's regional warlords."
+    },
+    "harakiri_grand_saga": {
+      "name": "Grand Saga & Legendary Tales",
+      "description": "Exhaustive 45-session chronicle including all 35 main campaign chapters plus all 10 independent heroic scenarios."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Act I",
+      "title": "The Awakening of the Kami",
+      "phase": "Act 1 - Shadows of Yamato",
+      "description": "Seek guidance from the ancient mountain shrine, commune with the wounded Kami, and defend the village from corrupt yokai."
+    },
+    {
+      "order": 2,
+      "badgeText": "Act I",
+      "title": "The Blood Gate Siege",
+      "phase": "Act 1 Finale - Fortress of the Betrayer",
+      "description": "Infiltrate the mountain fortress, breach the inner sanctum, and defeat the corrupted clan warlord."
+    },
+    {
+      "order": 3,
+      "badgeText": "Act II",
+      "title": "Descent into Yomi",
+      "phase": "Act 2 - The Underworld Incursion",
+      "description": "Cross the boundary into the shadowy underworld of Yomi, retrieving lost divine artifacts amidst legions of tortured spirits."
+    },
+    {
+      "order": 4,
+      "badgeText": "Act II",
+      "title": "The Dark Shogun's Downfall",
+      "phase": "Act 2 Finale - The Imperial Reckoning",
+      "description": "Confront the Dark Shogun at the heart of the cursed capital, shattering the ancient seal to restore honor to Japan."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Eternal Blades of Honor",
+      "phase": "Epilogue - Legend of the Ronin",
+      "description": "Complete all independent heroic trials, master the forbidden arts, and forge an everlasting legacy for future generations."
+    }
+  ]
+}

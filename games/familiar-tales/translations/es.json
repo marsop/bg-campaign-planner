@@ -1,0 +1,66 @@
+{
+  "title": "Familiar Tales",
+  "subtitle": "Campaña en libro de cuentos con aplicación interactiva donde familiares mágicos crían y protegen a una niña real",
+  "tagline": "Pequeños héroes. Gran responsabilidad. Un cuento de hadas inolvidable.",
+  "loreSummary": "Confiados por su maestro hechicero para salvar a la legítima heredera del reino, cuatro familiares mágicos deben criar a una princesa desterrada desde su infancia hasta la adultez. Guiad sus pasos por bosques encantados, fabricad herramientas de supervivencia y enfrentaos a tiranos despiadados en un libro de cuentos con narración de voz.",
+  "badgeCategory": "Campaña en Libro con Aplicación",
+  "roadmapTitle": "🗺️ Historia de la Princesa y Hoja de Ruta de Eras",
+  "roadmapBadge": "A STORY CRAFTING GAME",
+  "keyFeatures": [
+    "Aplicación complementaria para navegador y móviles con narración de voz completa y ramificaciones dinámicas",
+    "Mecánicas evolutivas de construcción de mazos donde los familiares personalizan sus cartas y crean sinergias cooperativas",
+    "Tres eras de vida diferenciadas que retratan la evolución de la niña desde bebé vulnerable hasta heroína valerosa",
+    "Decisiones morales trascendentes donde la forma de educar a la princesa moldeará para siempre su carácter y destino"
+  ],
+  "scopes": {
+    "familiar_grand_chronicle": {
+      "name": "La Crónica Completa (Eras 1–3)",
+      "description": "La saga completa de 9 capítulos de cuento de hadas que acompaña a la princesa a través de sus tres eras formativas."
+    },
+    "familiar_era_1": {
+      "name": "Era 1: Infancia y La Gran Huida",
+      "description": "El viaje inicial de 3 capítulos huyendo del castillo en llamas y fundando un refugio oculto en el bosque."
+    },
+    "familiar_complete_tales": {
+      "name": "Libro de Cuentos Completo y Desvíos",
+      "description": "Crónica exhaustiva de 12 sesiones que explora cada desvío narrativo, desafío boscoso opcional y reliquia fabricable."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Era 1",
+      "title": "Huida de la Torre en Llamas",
+      "phase": "Era 1 - La Princesa Bebé",
+      "description": "Rescatad a la pequeña princesa Fiona del golpe de estado en el castillo, eludid los sabuesos del Lord y buscad refugio en el bosque profundo."
+    },
+    {
+      "order": 2,
+      "badgeText": "Era 1",
+      "title": "El Corazón del Bosque Sombrío",
+      "phase": "Final de la Era 1 - El Refugio Boscoso",
+      "description": "Construid un refugio forestal, derrotad al bruto corrompido del pantano y completad las pruebas formativas de la infancia."
+    },
+    {
+      "order": 3,
+      "badgeText": "Era 2",
+      "title": "Lecciones de la Naturaleza",
+      "phase": "Era 2 - La Niña en Crecimiento",
+      "description": "Guiad a la intrépida pequeña a través de los peligros salvajes, fabricad herramientas esenciales y cultivad sus virtudes nacientes."
+    },
+    {
+      "order": 4,
+      "badgeText": "Era 3",
+      "title": "La Recuperación de la Corona",
+      "phase": "Final de la Era 3 - El Destino Real",
+      "description": "Acompañad a la joven princesa en su marcha hacia la ciudadela del usurpador para devolver la paz al reino."
+    },
+    {
+      "order": 5,
+      "badgeText": "Final",
+      "title": "Una Vida de Maravillas",
+      "phase": "Epílogo - El Legado de los Familiares",
+      "description": "Superad todos los encuentros ocultos del bosque, dominad cada receta de forja y forjad un final de cuento imperecedero."
+    }
+  ]
+}

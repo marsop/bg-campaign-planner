@@ -1,0 +1,66 @@
+{
+  "title": "Resident Evil: The Board Game",
+  "subtitle": "Campagne coopérative de survival horror levant le voile sur les cauchemars viraux du Manoir Spencer",
+  "tagline": "Entrez dans le monde du survival horror où chaque munition est précieuse",
+  "loreSummary": "Prise au piège dans les couloirs macabres de l'isolé Manoir Spencer, l'équipe alpha des S.T.A.R.S. doit rationner ses précieuses munitions, fuir d'implacables abominations biologiques et résoudre des énigmes meurtrières avant que l'infection ne les emporte.",
+  "badgeCategory": "Survival Horror Coopératif",
+  "roadmapTitle": "🗺️ Incident du Manoir Spencer et Journal de Survie",
+  "roadmapBadge": "SURVIVAL HORROR",
+  "keyFeatures": [
+    "Exploration modulaire où ouvrir chaque porte agrandit dynamiquement le plan du manoir",
+    "Paquet de Tension dynamique orchestrant l'épuisement des ressources, sursauts et danger croissant",
+    "Campagne narrative à choix multiples où les décisions du groupe entraînent des conséquences durables",
+    "Adaptation fidèle sur plateau du chef-d'œuvre emblématique du survival horror"
+  ],
+  "scopes": {
+    "re_mansion_campaign": {
+      "name": "Campagne Complète du Manoir Spencer",
+      "description": "L'enquête intégrale de survival horror en 19 scénarios traversant le domaine principal, le pavillon des gardes, les cavernes et le laboratoire d'Umbrella."
+    },
+    "re_mansion_investigation": {
+      "name": "Infiltration du Manoir et Pavillon",
+      "description": "Campagne d'exploration courte axée sur le rez-de-chaussée, l'étage et l'élimination de la menace botanique du pavillon (~10 scénarios)."
+    },
+    "re_true_survivor": {
+      "name": "Survivant Ultime (Intégrale)",
+      "description": "Campagne exhaustive découvrant toutes les pièces secrètes, sauvetages alternatifs d'équipiers, affrontements critiques et objectifs secondaires (~25 scénarios)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acte I",
+      "title": "Les Horreurs du Rez-de-Chaussée",
+      "phase": "Acte 1 - Infiltration du Manoir Spencer",
+      "description": "Explorez la sinistre salle à manger et les corridors ensanglantés, trouvez la Clé Armure et survivez aux premiers infectés."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acte II",
+      "title": "Belladone au Pavillon",
+      "phase": "Acte 2 - Résidence & Pavillon des Gardes",
+      "description": "Traversez la cour vers le pavillon envahi par la végétation, synthétisez les réactifs chimiques et neutralisez l'anomalie végétale mutante."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acte II",
+      "title": "La Souffrance Enchaînée",
+      "phase": "Acte 2 - Cavernes Souterraines",
+      "description": "Descendez dans les galeries minières sombres sous la propriété, évitez les prédateurs suprêmes et survivez au sujet d'expérience enchaîné."
+    },
+    {
+      "order": 4,
+      "badgeText": "Acte III",
+      "title": "Protocole du Laboratoire Umbrella",
+      "phase": "Acte 3 - Le Laboratoire Secret",
+      "description": "Rétablissez l'alimentation électrique du complexe de recherche biochimique souterrain, déverrouillez les accès et levez le voile sur la conspiration."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Aube sur l'Héliport",
+      "phase": "Finale - Compte à Rebours d'Évacuation",
+      "description": "Enclenchez le système d'autodestruction, signalez votre position à l'hélicoptère de secours sur l'héliport et abattez l'arme biologique ultime."
+    }
+  ]
+}

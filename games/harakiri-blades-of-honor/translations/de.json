@@ -1,0 +1,66 @@
+{
+  "title": "Harakiri: Blades of Honor",
+  "subtitle": "Episches Dark-Fantasy-Abenteuer und Dungeon-Crawler im mythischen feudalen Japan",
+  "tagline": "Zieht euren Stahl gegen die erstarkende Finsternis der Yokai",
+  "loreSummary": "In einem von Bürgerkriegen zerrissenen und von dunkler Magie verfluchten feudalen Japan hat der korrupte Dunkle Shogun die göttliche Macht an sich gerissen. Als entehrte Krieger und wandernde Ronin müsst ihr tückische Provinzen durchqueren, rachsüchtige Kami besänftigen und eure Seelen riskieren, um die Ehre des Reiches wiederherzustellen.",
+  "badgeCategory": "Dark-Fantasy-Dungeon-Crawler",
+  "roadmapTitle": "🗺️ Chronik von Yamato & Kampagnen-Fahrplan",
+  "roadmapBadge": "BLADES OF HONOR",
+  "keyFeatures": [
+    "Zwei-Phasen-Gameplay, das Überland-Erkundungsabenteuer nahtlos mit taktischen Rasterkämpfen verbindet",
+    "Tiefgründige Charakterentwicklung mit verzweigten Fertigkeitsbäumen, Ausrüstungsschmieden und göttlichen Kami-Segnungen",
+    "Verzweigte narrative Kampagne über mehr als 35 inhaltsreiche Story-Kapitel mit mehreren dramatischen Enden",
+    "Epische Bosskämpfe mit reaktiven KI-Decks und mehrstufigen Yokai-Monstrositäten"
+  ],
+  "scopes": {
+    "harakiri_full_chronicles": {
+      "name": "Die Vollständige Chronik (Akt I & II)",
+      "description": "Die gesamte epische Reise über 35 Kapitel, die von den Landen Yamatos bis in die finsteren Tiefen von Yomi reicht."
+    },
+    "harakiri_act_1": {
+      "name": "Akt I: Der Pfad des Ronin",
+      "description": "Die anfängliche 15-Kapitel-Kampagne rund um den Aufstand gegen die regionalen Kriegsfürsten des Dunklen Shoguns."
+    },
+    "harakiri_grand_saga": {
+      "name": "Große Saga & Legendäre Geschichten",
+      "description": "Umfassende 45-Sitzungen-Chronik mit allen 35 Hauptkampagnen-Kapiteln sowie allen 10 unabhängigen heroischen Szenarien."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Akt I",
+      "title": "Das Erwachen der Kami",
+      "phase": "Akt 1 - Schatten über Yamato",
+      "description": "Sucht Führung im uralten Bergschrein, tretet mit den verwundeten Kami in Kontakt und verteidigt das Dorf vor verderbten Yokai."
+    },
+    {
+      "order": 2,
+      "badgeText": "Akt I",
+      "title": "Die Belagerung des Bluttores",
+      "phase": "Akt 1 Finale - Festung des Verräters",
+      "description": "Infiltriert die Bergfestung, durchbrecht das innere Heiligtum und bezwingt den korrumpierten Clankriegsfürsten."
+    },
+    {
+      "order": 3,
+      "badgeText": "Akt II",
+      "title": "Abstieg nach Yomi",
+      "phase": "Akt 2 - Der Vorstoß in die Unterwelt",
+      "description": "Überschreitet die Schwelle zur düsteren Unterwelt von Yomi und birgt verlorene göttliche Relikte inmitten gepeinigter Seelen."
+    },
+    {
+      "order": 4,
+      "badgeText": "Akt II",
+      "title": "Der Fall des Dunklen Shoguns",
+      "phase": "Akt 2 Finale - Die Kaiserliche Abrechnung",
+      "description": "Stellt den Dunklen Shogun im Herzen der verfluchten Hauptstadt und brecht das uralte Siegel, um Japans Ehre zu erneuern."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Ewige Klingen der Ehre",
+      "phase": "Epilog - Legende der Ronin",
+      "description": "Besteht alle unabhängigen heroischen Prüfungen, meistert die verbotenen Künste und hinterlasst künftigen Generationen ein unsterbliches Erbe."
+    }
+  ]
+}

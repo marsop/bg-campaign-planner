@@ -1,0 +1,66 @@
+{
+  "title": "Aftermath",
+  "subtitle": "Postapokalyptisches Märchenbuch-Abenteuer, in dem mutige Nagetiere ihre Kolonie aufbauen und verteidigen",
+  "tagline": "Die Menschen sind fort. Jetzt schlägt unsere Stunde.",
+  "loreSummary": "Nach dem rätselhaften Verschwinden der Menschheit müssen kleine Tiere zusammenstehen, um inmitten überwucherter Betonruinen zu überleben. Als mutige Schar kleiner Nager wagt ihr euch in das gefährliche städtische Ödland, um Nahrung und Schrott zu sammeln, bedrohliche Raubtiere abzuwehren und eurer Kolonie eine sichere Zuflucht zu errichten.",
+  "badgeCategory": "Märchenbuch-Kolonie-Abenteuer",
+  "roadmapTitle": "🗺️ Kolonie-Tagebuch & Expeditions-Fahrplan",
+  "roadmapBadge": "AN ADVENTURE BOOK GAME",
+  "keyFeatures": [
+    "Innovatives Abenteuerbuch-System, bei dem jede Buchseite zu einer sich verändernden illustrierten Begegnung wird",
+    "Dynamisches Koloniemanagement mit strategischer Ressourcensuche, Gebäudeausbauten und Krisenbewältigung",
+    "Kartengesteuertes taktisches Gameplay mit individuellen Kartendecks für jedes Tier und kooperativem Aktionsaustausch",
+    "Vielschichtige narrative Kampagne mit 27 Missionen voller folgenreicher Entscheidungen und persönlicher Charaktergeschichten"
+  ],
+  "scopes": {
+    "aftermath_colony_campaign": {
+      "name": "Kolonie-Überlebenskampagne",
+      "description": "Die empfohlene 20-Missionen-Kampagne, die den zentralen Handlungsstrang und wichtige Kolonie-Meilensteine umfasst."
+    },
+    "aftermath_core_story": {
+      "name": "Hauptgeschichts-Bogen",
+      "description": "Gestaffelter 12-Missionen-Durchlauf, der sich ganz auf das zentrale Geheimnis des Verschwindens der Menschen konzentriert."
+    },
+    "aftermath_full_chronicle": {
+      "name": "Vollständige Sammler-Odyssee",
+      "description": "Umfassende 27-Missionen-Reise, die sämtliche Nebenquests, persönliche Ziele und Kolonie-Ausbauten freischaltet."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Akt I",
+      "title": "Grundsteine der Kolonie",
+      "phase": "Akt 1 - Das Große Sammeln",
+      "description": "Errichtet die Nagetier-Zuflucht, sammelt lebenswichtigen Schrott sowie Getreide und sichert die Kolonie gegen streunende Raubtiere."
+    },
+    {
+      "order": 2,
+      "badgeText": "Akt I",
+      "title": "Das Eisenzahn-Syndikat",
+      "phase": "Akt 1 Finale - Revierkämpfe",
+      "description": "Schlagt den Raubzug der feindlichen Rattengang zurück, sichert Außenposten und schließt Bündnisse mit benachbarten Waldtieren."
+    },
+    {
+      "order": 3,
+      "badgeText": "Akt II",
+      "title": "Die Gewölbe der Menschen",
+      "phase": "Akt 2 - Relikte der Vorfahren",
+      "description": "Dringt in das überwucherte Forschungslabor der Menschen vor, entschlüsselt fremdartige Technologie und findet Hinweise auf die Katastrophe."
+    },
+    {
+      "order": 4,
+      "badgeText": "Akt II",
+      "title": "Die Belagerung des Raubtierkönigs",
+      "phase": "Akt 2 Finale - Verteidigung der Zuflucht",
+      "description": "Vereint die verschiedenen Tierfraktionen, um einem vernichtenden Großangriff der Raubtiere standzuhalten und die Kolonie zu retten."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Morgenröte der Neuen Welt",
+      "phase": "Epilog - Das Erbe der Schnurrhaare",
+      "description": "Schließt alle persönlichen Charakteraufgaben ab, schaltet jede Kolonie-Verbesserung frei und begründet eine blühende Tierzivilisation."
+    }
+  ]
+}

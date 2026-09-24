@@ -1,0 +1,104 @@
+{
+  "id": "familiar-tales",
+  "title": "Familiar Tales",
+  "releaseYear": 2022,
+  "designers": "Jerry Hawthorne",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.7,
+  "bggWeight": 2.53,
+  "bggUrl": "https://boardgamegeek.com/boardgame/350948/familiar-tales",
+  "baseScenarioMinutes": 105,
+  "setupTeardownMinutes": 15,
+  "unitType": "chapters",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#7c3aed",
+    "secondaryColor": "#1e1b4b",
+    "accentColor": "#fbbf24",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2e1065 0%, #17153a 60%, #090919 100%)",
+    "cardBackground": "rgba(26, 23, 56, 0.94)",
+    "borderColor": "rgba(124, 58, 237, 0.35)",
+    "glowColor": "rgba(124, 58, 237, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "✨",
+    "emblem": "🦊🐸✨",
+    "themeClass": "theme-familiartales",
+    "activeThemeClass": "theme-familiartales-active",
+    "roadmapClass": "roadmap-familiartales",
+    "heroClass": "hero-familiartales"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #350948 Overall)",
+    "Plaid Hat Games Official Rulebook & Storybook Guide",
+    "Familiar Tales Web Companion App Data"
+  ],
+  "scopes": [
+    {
+      "id": "familiar_grand_chronicle",
+      "baseScenarioCount": 9,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "familiar_era_1",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    },
+    {
+      "id": "familiar_complete_tales",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "👶",
+      "badgeText": "Era 1",
+      "title": "Flight from the Burning Keep",
+      "phase": "Era 1 - The Infant Princess",
+      "description": "Rescue baby Princess Fiona from the castle coup, evade the Lord's hounds, and seek refuge in the deep forest."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🍄",
+      "badgeText": "Era 1",
+      "title": "Heart of the Gloomwood",
+      "phase": "Era 1 Finale - The Woodland Refuge",
+      "description": "Construct a forest shelter, defeat the corrupted swamp brute, and complete the formative trials of infancy."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "👧",
+      "badgeText": "Era 2",
+      "title": "Lessons of the Wilds",
+      "phase": "Era 2 - The Growing Child",
+      "description": "Guide the spirited toddler through wilderness perils, craft essential tools, and nurture her emerging virtues."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "👑",
+      "badgeText": "Era 3",
+      "title": "Reclaiming the Crown",
+      "phase": "Era 3 Finale - The Royal Destiny",
+      "description": "Accompany the young princess as she marches upon the usurper's citadel to restore peace to the realm."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "📖",
+      "badgeText": "Finale",
+      "title": "A Lifetime of Wonder",
+      "phase": "Epilogue - The Familiars' Legacy",
+      "description": "Complete every hidden woodland encounter, master all craft recipes, and weave an enduring fairytale ending."
+    }
+  ]
+}

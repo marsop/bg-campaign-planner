@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (51 games):**
+**Currently in app (56 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -60,26 +60,29 @@ requested by the user.
 - Star Wars: Imperial Assault
 - Assassin's Creed: Brotherhood of Venice
 - Dungeon Universalis
+- Divinity Original Sin: The Board Game
+- Resident Evil: The Board Game
+- Harakiri: Blades of Honor
+- Aftermath
+- Familiar Tales
 
 ---
 
 ## 🟥 High Priority
 
-- **Divinity Original Sin: The Board Game** — Branching cooperative fantasy RPG adventure based on the critically acclaimed video game. 16+ sessions (30-50 hours). ~7.8 BGG. 1-4 players. Location cards, elemental interactions, multi-act story.
+*(None currently)*
 
 ---
 
 ## 🟧 Medium Priority
 
-- **Resident Evil: The Board Game** — Survival horror exploration campaign uncovering the horrors of the Spencer Mansion. 19 sessions (25-35 hours). ~7.8 BGG. 1-4 players. Tension deck, resource scarcity, survival horror, narrative scenarios.
-- **Harakiri: Blades of Honor** — Dark fantasy dungeon crawler and epic adventure set in mythical feudal Japan. 15+ sessions (40-60 hours). ~8.6 BGG. 1-4 players. Grid combat, branching narrative, character progression, boss encounters.
+*(None currently)*
 
 ---
 
 ## 🟨 Lower Priority
 
-- **Aftermath** — Post-apocalyptic storybook campaign where small rodent heroes build and protect their colony. 20-27 sessions (20-30 hours). ~7.4 BGG. 1-4 players. Adventure book, colony management, character growth, narrative adventure.
-- **Familiar Tales** — Narrative adventure book campaign following four magical familiars protecting a child princess. 9 sessions across 3 eras (25-35 hours). ~7.3 BGG. 1-4 players. App-driven narration, deck crafting, adventure book, cooperative story.
+*(None currently)*
 
 ---
 

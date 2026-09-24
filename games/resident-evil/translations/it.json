@@ -1,0 +1,66 @@
+{
+  "title": "Resident Evil: The Board Game",
+  "subtitle": "Campagna cooperativa di survival horror per svelare gli incubi virali di Villa Spencer",
+  "tagline": "Entra nel mondo del survival horror dove ogni proiettile è vitale",
+  "loreSummary": "Intrappolata nei corridoi spettrali della remota Villa Spencer, la squadra alpha dei S.T.A.R.S. deve razionare le munizioni rimaste, sfuggire a mostruosità biologiche implacabili e risolvere enigmi letali prima che il contagio cancelli ogni speranza.",
+  "badgeCategory": "Survival Horror Cooperativo",
+  "roadmapTitle": "🗺️ Incidente di Villa Spencer e Registro di Sopravvivenza",
+  "roadmapBadge": "SURVIVAL HORROR",
+  "keyFeatures": [
+    "Esplorazione su tessere dove ogni porta aperta espande dinamicamente la mappa della villa",
+    "Mazzo Tensione dinamico che alimenta il logorio delle risorse, colpi di scena e pericoli crescenti",
+    "Campagna narrativa a scelte multiple in cui le decisioni del gruppo lasciano conseguenze permanenti",
+    "Fedele trasposizione da tavolo del capolavoro assoluto del survival horror"
+  ],
+  "scopes": {
+    "re_mansion_campaign": {
+      "name": "Campagna Completa di Villa Spencer",
+      "description": "L'indagine integrale di survival horror in 19 scenari attraverso la tenuta centrale, la dependance, le caverne sotterranee e il laboratorio segreto Umbrella."
+    },
+    "re_mansion_investigation": {
+      "name": "Infiltrazione nella Villa e Dependance",
+      "description": "Campagne breve esplorativa incentrata su piano terra, piano superiore e l'abbattimento della mostruosità botanica della dependance (~10 scenari)."
+    },
+    "re_true_survivor": {
+      "name": "Vero Sopravvissuto (Completista)",
+      "description": "Campagna totale con tutte le stanze segrete, salvataggi alternativi dei compagni, minacce critiche e obiettivi secondari facoltativi (~25 scenari)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Atto I",
+      "title": "Gli Orrori del Primo Piano",
+      "phase": "Atto 1 - Infiltrazione a Villa Spencer",
+      "description": "Indagate nella sinistra sala da pranzo e corridoi insanguinati, trovate la Chiave Armatura e sopravvivete ai primi contagiati."
+    },
+    {
+      "order": 2,
+      "badgeText": "Atto II",
+      "title": "Belladonna nella Dependance",
+      "phase": "Atto 2 - Residenza e Dependance",
+      "description": "Attraversate il cortile verso la dependance inselvatichita, sintetizzate reagenti chimici ed eliminate l'anomalia botanica mutante."
+    },
+    {
+      "order": 3,
+      "badgeText": "Atto II",
+      "title": "La Sofferenza Incatenata",
+      "phase": "Atto 2 - Caverne Sotterranee",
+      "description": "Scendete nei cunicoli minerari bui sotto la tenuta, eludete letali predatori e sopravvivete al soggetto di prova incatenato."
+    },
+    {
+      "order": 4,
+      "badgeText": "Atto III",
+      "title": "Protocollo Laboratorio Umbrella",
+      "phase": "Atto 3 - Il Laboratorio Segreto",
+      "description": "Ripristinate i generatori ausiliari del complesso biochimico sotterraneo, sbloccate le paratie ed esponete la cospirazione virale."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Alba sull'Eliporto",
+      "phase": "Finale - Conto alla Rovescia di Evacuazione",
+      "description": "Innescate l'autodistruzione della struttura, segnalate la posizione all'elicottero di recupero e distruggete la bio-arma suprema."
+    }
+  ]
+}

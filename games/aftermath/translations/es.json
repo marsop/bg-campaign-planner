@@ -1,0 +1,66 @@
+{
+  "title": "Aftermath",
+  "subtitle": "Aventura en libro de cuentos postapocalíptica donde valientes roedores construyen y defienden su colonia",
+  "tagline": "Los humanos han desaparecido. Ahora es nuestro turno.",
+  "loreSummary": "Tras la misteriosa desaparición de la humanidad, pequeños animales deben organizarse para sobrevivir entre ruinas de hormigón cubiertas de vegetación. Al mando de una valiente banda de roedores, debéis adentraros en un peligroso páramo suburbano para recolectar comida y chatarra, combatir depredadores hostiles y construir un santuario duradero para vuestra colonia.",
+  "badgeCategory": "Aventura de Colonia en Libro de Cuentos",
+  "roadmapTitle": "🗺️ Diario de la Colonia y Hoja de Ruta de Expediciones",
+  "roadmapBadge": "AN ADVENTURE BOOK GAME",
+  "keyFeatures": [
+    "Innovador sistema de Libro de Aventuras que convierte cada página en un encuentro ilustrado y evolutivo",
+    "Gestión dinámica de colonias que exige búsqueda estratégica de recursos, mejoras de edificios y gestión de crisis",
+    "Jugabilidad táctica guiada por cartas con mazos personalizados para cada criatura y acciones compartidas",
+    "Rica campaña narrativa de 27 misiones repleta de decisiones con consecuencias e historias personales de personajes"
+  ],
+  "scopes": {
+    "aftermath_colony_campaign": {
+      "name": "Campaña de Supervivencia de la Colonia",
+      "description": "La campaña recomendada de 20 misiones que recorre el arco narrativo principal y los hitos clave de la colonia."
+    },
+    "aftermath_core_story": {
+      "name": "Arco Argumental Principal",
+      "description": "Recorrido ágil de 12 misiones centrado exclusivamente en el enigma central de la desaparición humana."
+    },
+    "aftermath_full_chronicle": {
+      "name": "Odisea Completa del Recolector",
+      "description": "Viaje exhaustivo de 27 misiones que desbloquea todas las misiones secundarias, metas personales y mejoras de colonia."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acto I",
+      "title": "Cimientos de la Colonia",
+      "phase": "Acto 1 - La Gran Recolección",
+      "description": "Estableced el santuario de roedores, reunid chatarra y granos vitales, y fortificad la colonia contra depredadores errantes."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acto I",
+      "title": "El Sindicato de Colmillohierro",
+      "phase": "Final del Acto 1 - Guerras Territoriales",
+      "description": "Repeled la incursión de la banda de ratas hostiles, asegurad puestos perimetrales y forjad tratados con animales vecinos."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acto II",
+      "title": "Las Criptas Humanas",
+      "phase": "Acto 2 - Reliquias de los Antiguos",
+      "description": "Infiltraos en el laboratorio humano invadido por la maleza, descifrad extraños artefactos tecnológicos y descubrid pistas sobre la Calamidad."
+    },
+    {
+      "order": 4,
+      "badgeText": "Acto II",
+      "title": "El Asedio del Rey Depredador",
+      "phase": "Final del Acto 2 - Defensa del Santuario",
+      "description": "Unid a las diversas facciones animales para resistir un asalto catastrófico de depredadores y proteger el porvenir de la colonia."
+    },
+    {
+      "order": 5,
+      "badgeText": "Final",
+      "title": "El Amanecer del Nuevo Mundo",
+      "phase": "Epílogo - Un Legado de Bigotes",
+      "description": "Completad todas las misiones personales de los personajes, desbloquead cada mejora de la colonia y fundad una próspera civilización animal."
+    }
+  ]
+}

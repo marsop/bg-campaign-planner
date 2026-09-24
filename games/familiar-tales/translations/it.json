@@ -1,0 +1,66 @@
+{
+  "title": "Familiar Tales",
+  "subtitle": "Campagna fantasy a libro narrata da app in cui famigli magici accudiscono e proteggono una bambina reale",
+  "tagline": "Piccoli eroi. Grande responsabilità. Una fiaba indimenticabile.",
+  "loreSummary": "Incaricati dal loro maestro mago di vegliare sulla legittima erede al trono, quattro famigli magici devono crescere una principessa esiliata dall'infanzia all'età adulta. Guidate i suoi passi attraverso foreste incantate, create strumenti di fortuna e affrontate tiranni malvagi in un libro animato da voci narranti.",
+  "badgeCategory": "Campagna a Libro con App",
+  "roadmapTitle": "🗺️ Storia della Principessa & Tabella delle Ere",
+  "roadmapBadge": "A STORY CRAFTING GAME",
+  "keyFeatures": [
+    "App d'accompagnamento per browser e dispositivi mobili con doppiaggio completo e trame interattive ramificate",
+    "Meccaniche evolutive di deck-crafting in cui i famigli personalizzano le proprie carte e creano sinergie cooperative",
+    "Tre distinte ere di vita che accompagnano la crescita della bambina da neonata indifesa a coraggiosa eroina",
+    "Scelte morali determinanti in cui l'educazione impartita alla principessa ne plasmerà per sempre l'animo e il destino"
+  ],
+  "scopes": {
+    "familiar_grand_chronicle": {
+      "name": "La Cronaca Completa (Ere 1–3)",
+      "description": "L'intera fiaba in 9 capitoli che accompagna la principessa attraverso tutte e tre le sue ere formative."
+    },
+    "familiar_era_1": {
+      "name": "Era 1: Prima Infanzia & La Grande Fuga",
+      "description": "Il cammino d'apertura in 3 capitoli in fuga dal castello avvolto dalle fiamme per fondare un rifugio segreto nel bosco."
+    },
+    "familiar_complete_tales": {
+      "name": "Libro di Fiabe Completo & Divagazioni",
+      "description": "Cronaca esaustiva di 12 sessioni che esplora ogni bivio della storia, sfida opzionale nella radura e reliquia fabbricabile."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Era 1",
+      "title": "Fuga dalla Fortezza in Fiamme",
+      "phase": "Era 1 - La Principessa in Fasce",
+      "description": "Salvate la piccola principessa Fiona dal colpo di mano a palazzo, seminate i segugi del traditore e trovate riparo nella foresta profonda."
+    },
+    {
+      "order": 2,
+      "badgeText": "Era 1",
+      "title": "Il Cuore del Bosco Cupo",
+      "phase": "Finale Era 1 - Il Rifugio nel Bosco",
+      "description": "Costruite un rifugio sicuro, respingete il mostro corrotto della palude e superate le prime sfide dell'infanzia."
+    },
+    {
+      "order": 3,
+      "badgeText": "Era 2",
+      "title": "Insegnamenti della Natura Selvaggia",
+      "phase": "Era 2 - La Bambina che Cresce",
+      "description": "Scortate la vispa bimba tra i pericoli della foresta, create attrezzi indispensabili e coltivate le sue nascenti virtù."
+    },
+    {
+      "order": 4,
+      "badgeText": "Era 3",
+      "title": "La Riconquista della Corona",
+      "phase": "Finale Era 3 - Il Destino Regale",
+      "description": "Accompagnate la giovane principessa nella marcia verso la roccaforte dell'usurpatore per ristabilire la concordia nel reame."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Una Vita di Meraviglie",
+      "phase": "Epilogo - L'Eredità dei Famigli",
+      "description": "Superate ogni incontro segreto nei boschi, padroneggiate le ricette d'artigianato e scrivete una fiaba indimenticabile."
+    }
+  ]
+}

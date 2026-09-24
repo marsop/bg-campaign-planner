@@ -1,0 +1,70 @@
+{
+  "title": "Divinity Original Sin: The Board Game",
+  "subtitle": "Aventure RPG fantastique coopérative à embranchements dans l'univers mystique de Rivellon",
+  "tagline": "Libérez la Source, maîtrisez les éléments et devenez le nouveau Divin",
+  "loreSummary": "Le Divin a péri et le Néant destructeur menace l'existence même de Rivellon. Dépouillé de votre liberté et entravé par les colliers des Magisters, votre groupe doit éveiller ses pouvoirs de Source latents, forger des alliances et façonner l'avenir du monde.",
+  "badgeCategory": "RPG Tactique Narratif",
+  "roadmapTitle": "🗺️ Chronique de l'Atlas Divin et Progression de Campagne",
+  "roadmapBadge": "ATLAS DIVIN",
+  "keyFeatures": [
+    "Livre de jeu Atlas Divin interactif à spirale proposant 50 lieux interconnectés",
+    "Combats tactiques profonds avec Points d'Action et interactions élémentaires de surfaces",
+    "Système narratif à embranchements où chaque décision modifie définitivement l'intrigue",
+    "Progression des héros avec arbres de compétences, pouvoirs de la Source et pièces d'équipement"
+  ],
+  "scopes": {
+    "dos_standard_path": {
+      "name": "Campagne Divine Standard",
+      "description": "L'épopée narrative intégrale à travers les Actes 1, 2 et 3 jusqu'à l'affrontement décisif dans le Hall des Échos (~16 lieux)."
+    },
+    "dos_act1_escape": {
+      "name": "Acte 1 : Évasion de Fort Joie",
+      "description": "Campagne d'initiation axée sur la fuite du bagne insulaire, la purge des colliers de Source et la quête de liberté (~5 lieux)."
+    },
+    "dos_extended_branches": {
+      "name": "Odyssée Élargie de Rivellon",
+      "description": "Expérience de campagne approfondie explorant des lieux secondaires cachés, des quêtes de compagnons et des voies alternatives (~24 lieux)."
+    },
+    "dos_full_atlas": {
+      "name": "Chronique Complète de l'Atlas",
+      "description": "Exploration exhaustive parcourant les intrigues divergentes, les affrontements légendaires et les épreuves ultimes de l'Atlas Divin (~36 lieux)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acte I",
+      "title": "Les Rivages du Merryweather",
+      "phase": "Acte 1 - Colliers et Captivité",
+      "description": "Échouez sur les plages de Fort Joie après le naufrage, rassemblez vos compagnons et esquivez les patrouilles de Magisters."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acte I",
+      "title": "Briser le Collier de Source",
+      "phase": "Acte 1 - La Grande Évasion",
+      "description": "Infiltrez le bastion carcéral, libérez votre potentiel de Source et percez les remparts pour gagner les marais sauvages."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acte II",
+      "title": "Refuge dans les Marais",
+      "phase": "Acte 2 - Les Marais Évidés",
+      "description": "Traversez des fondrières toxiques et découvrez des sanctuaires oubliés de la Source et de vénérables ruines abritant les Chercheurs."
+    },
+    {
+      "order": 4,
+      "badgeText": "Acte II",
+      "title": "Incursion des Anéantis",
+      "phase": "Acte 2 - La Déchirure du Voile",
+      "description": "Faites face aux monstruosités du Néant déferlant par les failles interdimensionnelles et maîtrisez des synergies élémentaires avancées."
+    },
+    {
+      "order": 5,
+      "badgeText": "Acte III",
+      "title": "Ascension dans le Hall des Échos",
+      "phase": "Acte 3 - Destinée Divine",
+      "description": "Pénétrez dans le mystique Hall des Échos, triomphez de l'épreuve suprême et revendiquez votre élévation divine sur Rivellon."
+    }
+  ]
+}

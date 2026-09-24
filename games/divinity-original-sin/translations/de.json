@@ -1,0 +1,70 @@
+{
+  "title": "Divinity Original Sin: The Board Game",
+  "subtitle": "Verzweigtes kooperatives Fantasy-RPG-Abenteuer in der magischen Welt von Rivellon",
+  "tagline": "Entfesselt die Quellmagie, meistert die Elemente und steigt zur Göttlichkeit auf",
+  "loreSummary": "Der Göttliche ist gefallen, und die zerstörerische Leere bedroht das Gefüge von Rivellon. Eurer Freiheit beraubt und von Magisterhalsbändern gedemütigt, muss eure Gruppe verborgene Quellkräfte entfesseln, Allianzen schmieden und das Schicksal der Welt bestimmen.",
+  "badgeCategory": "Taktisches Narratives RPG",
+  "roadmapTitle": "🗺️ Göttlicher Atlas — Kampagnenchronik & Meilensteine",
+  "roadmapBadge": "GÖTTLICHER ATLAS",
+  "keyFeatures": [
+    "Interaktiver ringgebundener Göttlicher Atlas mit 50 miteinander verknüpften Schauplätzen",
+    "Tiefe taktische Kämpfe mit Aktionspunkten und charakteristischen elementaren Oberflächeneffekten",
+    "Verzweigtes Narrativsystem, in dem Gruppenentscheidungen freigeschaltete Handlungsstränge dauerhaft prägen",
+    "Charakterprogression mit anpassbaren Talenten, Quellkräften und mächtiger Ausrüstung"
+  ],
+  "scopes": {
+    "dos_standard_path": {
+      "name": "Standard-Götterkampagne",
+      "description": "Die vollständige narrative Reise durch die Akte 1, 2 und 3 bis zur finalen Konfrontation in der Halle der Echos (~16 Schauplätze)."
+    },
+    "dos_act1_escape": {
+      "name": "Akt 1: Flucht aus der Freudenfeste",
+      "description": "Einführungskampagne mit Fokus auf den Ausbruch aus dem Inselgefängnis, das Entfernen der Quellhalsbänder und die Flucht (~5 Schauplätze)."
+    },
+    "dos_extended_branches": {
+      "name": "Erweiterte Rivellon-Odyssee",
+      "description": "Erweitertes Kampagnenerlebnis mit verborgenen Nebenschauplätzen, Gefährtenquests und alternativen Entscheidungswegen (~24 Schauplätze)."
+    },
+    "dos_full_atlas": {
+      "name": "Vollständige Atlas-Chronik",
+      "description": "Umfassende Erkundung mit alternativen Pfaden, legendären Begegnungen und anspruchsvollen Prüfungen im gesamten Göttlichen Atlas (~36 Schauplätze)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Akt I",
+      "title": "Die Küste der Merryweather",
+      "phase": "Akt 1 - Ketten und Gefangenschaft",
+      "description": "Erreicht nach dem Schiffbruch die Küste der Freudenfeste, sammelt Verbündete und weicht den Magister-Patrouillen aus."
+    },
+    {
+      "order": 2,
+      "badgeText": "Akt I",
+      "title": "Das Zerbersten des Quellhalsbands",
+      "phase": "Akt 1 - Flucht aus der Freudenfeste",
+      "description": "Infiltriert die Kerkerbastion, befreit eure unterdrückten Quellkräfte und brecht durch die Festungsmauern in die Wildnis aus."
+    },
+    {
+      "order": 3,
+      "badgeText": "Akt II",
+      "title": "Zuflucht in den Sümpfen",
+      "phase": "Akt 2 - Die Hohlen Sümpfe",
+      "description": "Durchquert giftige Moore und entdeckt vergessene Quellschreine und uralte Ruinen, die den Suchenden Unterschlupf bieten."
+    },
+    {
+      "order": 4,
+      "badgeText": "Akt II",
+      "title": "Überfall der Leerenerwachten",
+      "phase": "Akt 2 - Das Zerreißen des Schleiers",
+      "description": "Haltet stand gegen monströse Bestien der Leere, die durch Risse zwischen den Welten strömen, und meistert fortgeschrittene Elementarkombos."
+    },
+    {
+      "order": 5,
+      "badgeText": "Akt III",
+      "title": "Aufstieg in der Halle der Echos",
+      "phase": "Akt 3 - Göttliches Schicksal",
+      "description": "Betretet die metaphysische Halle der Echos, besteht die ultimative Prüfung und werdet zum neuen Göttlichen von Rivellon."
+    }
+  ]
+}

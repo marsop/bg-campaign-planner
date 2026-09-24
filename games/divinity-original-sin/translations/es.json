@@ -1,0 +1,70 @@
+{
+  "title": "Divinity Original Sin: The Board Game",
+  "subtitle": "Aventura RPG fantástica cooperativa y ramificada por el reino mágico de Rivellon",
+  "tagline": "Desata la Fuente, domina los elementos y asciende a la Divinidad",
+  "loreSummary": "El Divino ha caído y el destructivo Vacío amenaza la existencia de Rivellon. Despojados de su libertad y encadenados con collares de los Magísteres, vuestro grupo deberá despertar sus poderes latentes de la Fuente, forjar alianzas y decidir el destino del mundo.",
+  "badgeCategory": "RPG Táctico Narrativo",
+  "roadmapTitle": "🗺️ Crónica del Atlas Divino y Progresión Narrativa",
+  "roadmapBadge": "ATLAS DIVINO",
+  "keyFeatures": [
+    "Libro de juego Atlas Divino con anillas interactivo con 50 localizaciones interconectadas",
+    "Combate táctico profundo con Puntos de Acción y combinaciones elementales de superficies",
+    "Sistema narrativo ramificado donde las decisiones del grupo alteran permanentemente la trama",
+    "Progresión de personajes con árboles de habilidades, poderes de la Fuente y mejoras de equipo"
+  ],
+  "scopes": {
+    "dos_standard_path": {
+      "name": "Campaña Divina Estándar",
+      "description": "El viaje narrativo completo a través de los Actos 1, 2 y 3 hasta el enfrentamiento final en el Salón de los Ecos (~16 localizaciones)."
+    },
+    "dos_act1_escape": {
+      "name": "Acto 1: Fuga de Fuerte Joy",
+      "description": "Campaña introductoria centrada en escapar de la prisión insular, purgar los collares de la Fuente y asegurar la libertad (~5 localizaciones)."
+    },
+    "dos_extended_branches": {
+      "name": "Odisea Extendida por Rivellon",
+      "description": "Experiencia de campaña ampliada explorando localizaciones secundarias ocultas, misiones personales y tramas alternativas (~24 localizaciones)."
+    },
+    "dos_full_atlas": {
+      "name": "Crónica Completa del Atlas",
+      "description": "Exploración exhaustiva recorriendo bifurcaciones alternativas, encuentros legendarios y desafíos de alta dificultad del Atlas Divino (~36 localizaciones)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acto I",
+      "title": "La Costa del Merryweather",
+      "phase": "Acto 1 - Collares y Cautiverio",
+      "description": "Llegad a las playas de Fuerte Joy tras el naufragio, reunid compañeros y evaded las patrullas de Magísteres."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acto I",
+      "title": "Destruyendo el Collar de la Fuente",
+      "phase": "Acto 1 - La Fuga de Fuerte Joy",
+      "description": "Infiltraos en el bastión carcelario, liberad vuestro poder latente de la Fuente y romped el cerco defensivo hacia tierras salvajes."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acto II",
+      "title": "Santuario en las Marismas",
+      "phase": "Acto 2 - Las Marismas Huecas",
+      "description": "Atravesad ciénagas tóxicas y descubrid santuarios olvidados de la Fuente y ruinas ancestrales que cobijan a los Buscadores."
+    },
+    {
+      "order": 4,
+      "badgeText": "Acto II",
+      "title": "Incursión de los Nacidos del Vacío",
+      "phase": "Acto 2 - Rasgando el Velo",
+      "description": "Resistid ante monstruosas criaturas del Vacío que emergen de fisuras entre planos y dominad combinaciones elementales avanzadas."
+    },
+    {
+      "order": 5,
+      "badgeText": "Acto III",
+      "title": "Ascensión en el Salón de los Ecos",
+      "phase": "Acto 3 - Destino Divino",
+      "description": "Adentraos en el místico Salón de los Ecos, superad el desafío supremo y reclamad vuestro lugar como la nueva Divinidad de Rivellon."
+    }
+  ]
+}

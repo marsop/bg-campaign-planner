@@ -1,0 +1,70 @@
+{
+  "title": "Divinity Original Sin: The Board Game",
+  "subtitle": "Branching cooperative fantasy RPG adventure through the magical realm of Rivellon",
+  "tagline": "Unleash the Source, master the elements, and ascend to Divinity",
+  "loreSummary": "The Divine is fallen, and the destructive Void threatens the fabric of Rivellon. Stripped of freedom and bound by Magister collars, your party must unleash latent Source powers, forge alliances, and shape the destiny of the world.",
+  "badgeCategory": "Tactical Narrative RPG",
+  "roadmapTitle": "🗺️ Divine Atlas Chronicle & Narrative Progression",
+  "roadmapBadge": "DIVINE ATLAS",
+  "keyFeatures": [
+    "Interactive ring-bound Divine Atlas game book featuring 50 interconnected locations",
+    "Deep tactical combat with Action Points and signature elemental surface interactions",
+    "Branching narrative system where party choices permanently alter unlocked storylines",
+    "Character progression with customizable skill builds, Source powers, and loot upgrades"
+  ],
+  "scopes": {
+    "dos_standard_path": {
+      "name": "Standard Divine Campaign",
+      "description": "The complete narrative journey through Acts 1, 2, and 3 to the final confrontation in the Hall of Echoes (~16 locations)."
+    },
+    "dos_act1_escape": {
+      "name": "Act 1: Escape from Fort Joy",
+      "description": "Introductory campaign focusing on escaping the island prison, removing Source collars, and securing freedom (~5 locations)."
+    },
+    "dos_extended_branches": {
+      "name": "Extended Rivellon Odyssey",
+      "description": "Expanded campaign experience pursuing hidden secondary locations, character sub-quests, and divergent story paths (~24 locations)."
+    },
+    "dos_full_atlas": {
+      "name": "Complete Atlas Chronicle",
+      "description": "Exhaustive exploration navigating alternate branches, legendary encounters, and high-difficulty trials across the Divine Atlas (~36 locations)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Act I",
+      "title": "The Merryweather Shore",
+      "phase": "Act 1 - Collar & Captivity",
+      "description": "Wash ashore upon the shores of Fort Joy following the shipwreck, gather companions, and slip past Magister patrols."
+    },
+    {
+      "order": 2,
+      "badgeText": "Act I",
+      "title": "Shattering the Source Collar",
+      "phase": "Act 1 - Escape Fort Joy",
+      "description": "Infiltrate the prison bastion, liberate your latent Source power, and break through the fortress perimeter into the wild."
+    },
+    {
+      "order": 3,
+      "badgeText": "Act II",
+      "title": "Sanctuary in the Marshes",
+      "phase": "Act 2 - The Hollow Marshes",
+      "description": "Traverse dangerous toxic bogs and uncover forgotten Source shrines and ancient ruins harboring seekers."
+    },
+    {
+      "order": 4,
+      "badgeText": "Act II",
+      "title": "Incursion of the Voidwoken",
+      "phase": "Act 2 - Tearing the Veil",
+      "description": "Hold the defensive line against monstrous Void beasts pouring through planar tears and master advanced elemental combos."
+    },
+    {
+      "order": 5,
+      "badgeText": "Act III",
+      "title": "Ascension in the Hall of Echoes",
+      "phase": "Act 3 - Divine Destiny",
+      "description": "Enter the ancestral Hall of Echoes, overcome the ultimate trial, and claim your place as the new Divine of Rivellon."
+    }
+  ]
+}

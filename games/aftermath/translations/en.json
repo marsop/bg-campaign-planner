@@ -1,0 +1,66 @@
+{
+  "title": "Aftermath",
+  "subtitle": "Post-apocalyptic storybook adventure where brave rodent critters build and defend their colony",
+  "tagline": "Humans are gone. Now it's our turn.",
+  "loreSummary": "In the mysterious absence of humanity, small critters must rise up to survive amidst overgrown concrete ruins. Playing as a brave band of rodents, you must venture out into a perilous suburban wasteland to scavenge food and scrap, combat hostile predators, and build a lasting sanctuary for your colony.",
+  "badgeCategory": "Storybook Colony Adventure",
+  "roadmapTitle": "🗺️ Colony Journal & Expedition Roadmap",
+  "roadmapBadge": "AN ADVENTURE BOOK GAME",
+  "keyFeatures": [
+    "Innovative Adventure Book system turning every turn into an evolving illustrated encounter",
+    "Dynamic colony management requiring strategic resource foraging, building upgrades, and crisis management",
+    "Card-driven tactical gameplay with personalized critter decks and cooperative action sharing",
+    "Rich narrative campaign featuring 27 missions filled with branching choices and personal character stories"
+  ],
+  "scopes": {
+    "aftermath_colony_campaign": {
+      "name": "Colony Survival Campaign",
+      "description": "The recommended 20-mission campaign experiencing the primary narrative arc and key colony milestones."
+    },
+    "aftermath_core_story": {
+      "name": "Core Story Arc",
+      "description": "Streamlined 12-mission playthrough focusing purely on the central mystery of the humans' disappearance."
+    },
+    "aftermath_full_chronicle": {
+      "name": "Complete Scavenger's Odyssey",
+      "description": "Exhaustive 27-mission journey unlocking every side quest, personal critter objective, and colony upgrade."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Act I",
+      "title": "Foundations of the Colony",
+      "phase": "Act 1 - The Great Scavenge",
+      "description": "Establish the rodent sanctuary, gather vital scrap and grains, and fortify the colony against wandering predators."
+    },
+    {
+      "order": 2,
+      "badgeText": "Act I",
+      "title": "The Ironfang Syndicate",
+      "phase": "Act 1 Finale - Territorial Wars",
+      "description": "Repel the hostile rat gang raiding party, secure perimeter outposts, and forge treaties with neighbouring critters."
+    },
+    {
+      "order": 3,
+      "badgeText": "Act II",
+      "title": "The Human Vaults",
+      "phase": "Act 2 - Relics of the Ancients",
+      "description": "Infiltrate the overgrown human laboratory, decipher strange technological artifacts, and uncover clues about the Calamity."
+    },
+    {
+      "order": 4,
+      "badgeText": "Act II",
+      "title": "The Predator King's Siege",
+      "phase": "Act 2 Finale - Defense of the Sanctuary",
+      "description": "Unite the diverse animal factions to withstand a catastrophic predator assault and safeguard the colony's future."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Dawn of the New World",
+      "phase": "Epilogue - A Legacy of Whiskers",
+      "description": "Complete all character personal quests, unlock every colony upgrade, and establish a thriving animal civilization."
+    }
+  ]
+}

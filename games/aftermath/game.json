@@ -1,0 +1,104 @@
+{
+  "id": "aftermath",
+  "title": "Aftermath",
+  "releaseYear": 2019,
+  "designers": "Jerry Hawthorne",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.4,
+  "bggWeight": 2.90,
+  "bggUrl": "https://boardgamegeek.com/boardgame/281946/aftermath",
+  "baseScenarioMinutes": 75,
+  "setupTeardownMinutes": 15,
+  "unitType": "missions",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#65a30d",
+    "secondaryColor": "#1c1917",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1c2e17 0%, #171c14 60%, #0c0f0a 100%)",
+    "cardBackground": "rgba(20, 24, 18, 0.94)",
+    "borderColor": "rgba(101, 163, 13, 0.35)",
+    "glowColor": "rgba(101, 163, 13, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🐾",
+    "emblem": "🐭🌿",
+    "themeClass": "theme-aftermath",
+    "activeThemeClass": "theme-aftermath-active",
+    "roadmapClass": "roadmap-aftermath",
+    "heroClass": "hero-aftermath"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #281946 Overall)",
+    "Plaid Hat Games Official Adventure Book & Rulebook",
+    "Aftermath Campaign Mission Guide"
+  ],
+  "scopes": [
+    {
+      "id": "aftermath_colony_campaign",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": true
+    },
+    {
+      "id": "aftermath_core_story",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "aftermath_full_chronicle",
+      "baseScenarioCount": 27,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🌾",
+      "badgeText": "Act I",
+      "title": "Foundations of the Colony",
+      "phase": "Act 1 - The Great Scavenge",
+      "description": "Establish the rodent sanctuary, gather vital scrap and grains, and fortify the colony against wandering predators."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🛡️",
+      "badgeText": "Act I",
+      "title": "The Ironfang Syndicate",
+      "phase": "Act 1 Finale - Territorial Wars",
+      "description": "Repel the hostile rat gang raiding party, secure perimeter outposts, and forge treaties with neighbouring critters."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "🔬",
+      "badgeText": "Act II",
+      "title": "The Human Vaults",
+      "phase": "Act 2 - Relics of the Ancients",
+      "description": "Infiltrate the overgrown human laboratory, decipher strange technological artifacts, and uncover clues about the Calamity."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 20,
+      "iconEmoji": "🏰",
+      "badgeText": "Act II",
+      "title": "The Predator King's Siege",
+      "phase": "Act 2 Finale - Defense of the Sanctuary",
+      "description": "Unite the diverse animal factions to withstand a catastrophic predator assault and safeguard the colony's future."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 27,
+      "iconEmoji": "🌟",
+      "badgeText": "Finale",
+      "title": "Dawn of the New World",
+      "phase": "Epilogue - A Legacy of Whiskers",
+      "description": "Complete all character personal quests, unlock every colony upgrade, and establish a thriving animal civilization."
+    }
+  ]
+}

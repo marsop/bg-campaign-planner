@@ -1,0 +1,66 @@
+{
+  "title": "Harakiri: Blades of Honor",
+  "subtitle": "Epica avventura dark fantasy e dungeon crawler ambientata in un mitico Giappone feudale",
+  "tagline": "Sguaina il tuo acciaio contro le crescenti tenebre degli Yokai",
+  "loreSummary": "In un Giappone feudale lacerato dalla guerra civile e maledetto da una stregoneria oscura, il corrotto Shogun Oscuro ha usurpato l'autorità divina. Nei panni di guerrieri disonorati e ronin erranti, dovrete attraversare province infide, placare i vendicativi Kami e rischiare l'anima per restituire l'onore all'impero.",
+  "badgeCategory": "Dungeon Crawler Dark Fantasy",
+  "roadmapTitle": "🗺️ Cronaca di Yamato & Tabella di Marcia della Campagna",
+  "roadmapBadge": "BLADES OF HONOR",
+  "keyFeatures": [
+    "Gameplay a doppia fase che fonde armoniosamente esplorazione di viaggio su mappa e combattimento tattico su griglia",
+    "Profonda evoluzione dei personaggi con alberi delle abilità ramificati, forgiatura dell'equipaggiamento e benedizioni divine dei Kami",
+    "Campagna narrativa a bivi attraverso oltre 35 ricchi capitoli di trama con finali multipli drammatici",
+    "Scontri epici con boss caratterizzati da mazzi IA reattivi e mostruosità yokai multifase"
+  ],
+  "scopes": {
+    "harakiri_full_chronicles": {
+      "name": "La Cronaca Completa (Atti I e II)",
+      "description": "L'epico viaggio integrale di 35 capitoli attraverso le terre di Yamato e gli orrori sotterranei dello Yomi."
+    },
+    "harakiri_act_1": {
+      "name": "Atto I: Il Cammino del Ronin",
+      "description": "La campagna inaugurale di 15 capitoli incentrata sull'insurrezione contro i signori della guerra del Dark Shogun."
+    },
+    "harakiri_grand_saga": {
+      "name": "Grande Saga & Racconti Leggendari",
+      "description": "Cronaca esaustiva di 45 sessioni comprendente tutti i 35 capitoli della campagna principale più i 10 scenari eroici indipendenti."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Atto I",
+      "title": "Il Risveglio dei Kami",
+      "phase": "Atto 1 - Ombre di Yamato",
+      "description": "Cercate guida nell'antico santuario montano, entrate in comunione con i Kami feriti e difendete il villaggio dagli yokai corrotti."
+    },
+    {
+      "order": 2,
+      "badgeText": "Atto I",
+      "title": "L'Assedio della Porta di Sangue",
+      "phase": "Finale Atto 1 - La Fortezza del Traditore",
+      "description": "Infiltratevi nella fortezza montana, violate il sacrario interno e sconfiggete il signore della guerra corrotto."
+    },
+    {
+      "order": 3,
+      "badgeText": "Atto II",
+      "title": "Discesa nello Yomi",
+      "phase": "Atto 2 - L'Incursione nell'Oltretomba",
+      "description": "Varcate la soglia del tenebroso regno dei morti di Yomi, recuperando manufatti divini perduti tra schiere di spiriti tormentati."
+    },
+    {
+      "order": 4,
+      "badgeText": "Atto II",
+      "title": "La Caduta dello Shogun Oscuro",
+      "phase": "Finale Atto 2 - La Resa dei Conti Imperiale",
+      "description": "Affrontate lo Shogun Oscuro nel cuore della capitale maledetta, infrangendo l'antico sigillo per restituire l'onore al Giappone."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Lame Eterne dell'Onore",
+      "phase": "Epilogo - La Leggenda del Ronin",
+      "description": "Superate tutte le prove eroiche indipendenti, padroneggiate le arti proibite e tramandate un'eredità immortale per le generazioni future."
+    }
+  ]
+}

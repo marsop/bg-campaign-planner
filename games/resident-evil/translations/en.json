@@ -1,0 +1,66 @@
+{
+  "title": "Resident Evil: The Board Game",
+  "subtitle": "Cooperative survival horror campaign uncovering the viral nightmares of the Spencer Mansion",
+  "tagline": "Enter the world of survival horror where every bullet counts",
+  "loreSummary": "Trapped within the macabre halls of the remote Spencer Mansion, S.T.A.R.S. alpha team must ration scarce ammunition, evade relentless biological abominations, and solve lethal puzzles before the viral outbreak claims their lives.",
+  "badgeCategory": "Cooperative Survival Horror",
+  "roadmapTitle": "🗺️ Spencer Mansion Incident & Survival Log",
+  "roadmapBadge": "SURVIVAL HORROR",
+  "keyFeatures": [
+    "Tile-based exploration where opening doors dynamically expands the mansion layout",
+    "Dynamic Tension Deck driving resource attrition, jump scares, and escalating danger",
+    "Choice-driven narrative campaign where party decisions trigger lasting consequences",
+    "Faithful tabletop adaptation of the iconic survival horror masterpiece"
+  ],
+  "scopes": {
+    "re_mansion_campaign": {
+      "name": "Full Spencer Mansion Campaign",
+      "description": "The complete 19-scenario survival horror investigation spanning the main estate, guardhouse, subterranean caverns, and Umbrella laboratory."
+    },
+    "re_mansion_investigation": {
+      "name": "Mansion Breach & Guardhouse",
+      "description": "Short exploratory campaign focusing on the ground floor, upper residence, and defeating the Guardhouse bio-abomination (~10 scenarios)."
+    },
+    "re_true_survivor": {
+      "name": "True Survivor Completionist",
+      "description": "Exhaustive campaign uncovering all secret rooms, alternate character rescue paths, high-danger encounters, and optional side objectives (~25 scenarios)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Act I",
+      "title": "The First Floor Horrors",
+      "phase": "Act 1 - Spencer Mansion Infiltration",
+      "description": "Investigate the ominous dining hall and bloodstained corridors, locate the Armor Key, and survive the initial infected encounters."
+    },
+    {
+      "order": 2,
+      "badgeText": "Act II",
+      "title": "Nightshade in the Guardhouse",
+      "phase": "Act 2 - The Residence & Guardhouse",
+      "description": "Cross the courtyard into the overgrown guardhouse, synthesize chemical compounds, and eliminate the mutated botanical anomaly."
+    },
+    {
+      "order": 3,
+      "badgeText": "Act II",
+      "title": "The Shackled Sorrow",
+      "phase": "Act 2 - Subterranean Caverns",
+      "description": "Descend into dark mining tunnels beneath the estate, evade apex predators, and survive encounters with the chained test subject."
+    },
+    {
+      "order": 4,
+      "badgeText": "Act III",
+      "title": "Umbrella Laboratory Protocol",
+      "phase": "Act 3 - The Secret Laboratory",
+      "description": "Restore auxiliary generator power to the subterranean bio-research facility, bypass security locks, and uncover the viral conspiracy."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Dawn at the Heliport",
+      "phase": "Finale - Evacuation Countdown",
+      "description": "Trigger the self-destruct countdown, signal the extraction helicopter from the rooftop helipad, and defeat the ultimate bioweapon."
+    }
+  ]
+}

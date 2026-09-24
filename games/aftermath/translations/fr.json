@@ -1,0 +1,66 @@
+{
+  "title": "Aftermath",
+  "subtitle": "Aventure en livre de contes post-apocalyptique où de courageux rongeurs bâtissent et défendent leur colonie",
+  "tagline": "Les humains ont disparu. C'est désormais à notre tour.",
+  "loreSummary": "Suite à la mystérieuse disparition de l'humanité, de petits animaux doivent s'unir pour survivre au milieu de ruines urbaines envahies par la végétation. À la tête d'une hardie troupe de rongeurs, aventurez-vous dans un dangereux désert périurbain pour glaner nourriture et ferraille, repousser les prédateurs et édifier un havre de paix durable pour votre colonie.",
+  "badgeCategory": "Aventure de Colonie en Livre de Contes",
+  "roadmapTitle": "🗺️ Journal de Colonie & Feuille de Route des Expéditions",
+  "roadmapBadge": "AN ADVENTURE BOOK GAME",
+  "keyFeatures": [
+    "Système novateur de Livre d'Aventures où chaque page propose une rencontre illustrée et dynamique",
+    "Gestion vivante de colonie exigeant collecte méthodique de ressources, améliorations de structures et gestion des crises",
+    "Gameplay tactique piloté par des cartes avec des paquets spécifiques à chaque animal et partage d'actions coopératives",
+    "Campagne narrative captivante de 27 missions jalonnée de choix moraux et de quêtes personnelles attachantes"
+  ],
+  "scopes": {
+    "aftermath_colony_campaign": {
+      "name": "Campagne de Survie de la Colonie",
+      "description": "La campagne recommandée de 20 missions retraçant l'intrigue centrale et les étapes clés de l'édification de la colonie."
+    },
+    "aftermath_core_story": {
+      "name": "Arc Narratif Principal",
+      "description": "Parcours fluide de 12 missions centré sur l'énigme fondamentale de la disparition de l'espèce humaine."
+    },
+    "aftermath_full_chronicle": {
+      "name": "Odyssée Intégrale des Glaneurs",
+      "description": "Périple exhaustif de 27 missions débloquant l'intégralité des quêtes annexes, accomplissements personnels et améliorations de colonie."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acte I",
+      "title": "Fondations de la Colonie",
+      "phase": "Acte 1 - Le Grand Glanage",
+      "description": "Établissez le refuge des rongeurs, rassemblez ferraille et grains vitaux, et fortifiez la colonie contre les prédateurs errants."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acte I",
+      "title": "Le Syndicat des Crocs-de-Fer",
+      "phase": "Finale Acte 1 - Guerres de Territoire",
+      "description": "Repoussez le raid de la bande de rats hostiles, sécurisez les avant-postes et concluez des pactes avec les animaux voisins."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acte II",
+      "title": "Les Sanctuaires Humains",
+      "phase": "Acte 2 - Reliques des Anciens",
+      "description": "Pénétrez dans le laboratoire humain envahi par la flore sauvage, déchiffrez des artefacts technologiques et découvrez les secrets de la Calamité."
+    },
+    {
+      "order": 4,
+      "badgeText": "Acte II",
+      "title": "Le Siège du Roi Prédateur",
+      "phase": "Finale Acte 2 - Défense du Sanctuaire",
+      "description": "Fédérez les diverses factions animales pour surmonter un assaut dévastateur de prédateurs et préserver l'avenir de la colonie."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "L'Aurore du Nouveau Monde",
+      "phase": "Épilogue - L'Héritage des Moustaches",
+      "description": "Accomplissez toutes les quêtes personnelles de vos héros, débloquez toutes les améliorations et fondez une civilisation animale florissante."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Resident Evil: The Board Game",
+  "subtitle": "Campaña cooperativa de survival horror desentrañando las pesadillas víricas de la Mansión Spencer",
+  "tagline": "Adéntrate en el survival horror donde cada bala cuenta",
+  "loreSummary": "Atrapados en los lúgubres pasillos de la aislada Mansión Spencer, el equipo alfa de S.T.A.R.S. debe racionar la escasa munición, eludir abominaciones biológicas implacables y resolver enigmas letales antes de que el brote vírico acabe con sus vidas.",
+  "badgeCategory": "Survival Horror Cooperativo",
+  "roadmapTitle": "🗺️ Incidente de la Mansión Spencer y Registro de Supervivencia",
+  "roadmapBadge": "SURVIVAL HORROR",
+  "keyFeatures": [
+    "Exploración modular donde abrir puertas expande dinámicamente el mapa de la mansión",
+    "Mazo de Tensión dinámico que intensifica el desgaste de recursos, sustos y peligro creciente",
+    "Campaña narrativa ramificada donde las decisiones del equipo provocan consecuencias duraderas",
+    "Fiel adaptación de mesa de la icónica obra maestra del survival horror"
+  ],
+  "scopes": {
+    "re_mansion_campaign": {
+      "name": "Campaña Completa de la Mansión Spencer",
+      "description": "La investigación íntegra de 19 escenarios de survival horror abarcando la mansión principal, la casa de invitados, cavernas subterráneas y el laboratorio de Umbrella."
+    },
+    "re_mansion_investigation": {
+      "name": "Infiltración en la Mansión y Casa de Invitados",
+      "description": "Campaña exploratoria corta centrada en la planta baja, la residencia superior y la eliminación de la abominación botánica de la casa de invitados (~10 escenarios)."
+    },
+    "re_true_survivor": {
+      "name": "Superviviente Definitivo",
+      "description": "Campaña exhaustiva descubriendo todas las habitaciones secretas, rescates alternativos de compañeros, encuentros de alto peligro y objetivos secundarios opcionales (~25 escenarios)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acto I",
+      "title": "Los Horrores de la Primera Planta",
+      "phase": "Acto 1 - Infiltración en la Mansión Spencer",
+      "description": "Investigad el siniestro comedor y pasillos ensangrentados, localizad la Llave de la Armadura y sobrevivid a los primeros infectados."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acto II",
+      "title": "Belladona en la Casa de Invitados",
+      "phase": "Acto 2 - La Residencia y Casa de Invitados",
+      "description": "Cruzad el patio hacia la casa de invitados invadida por la maleza, sintetizad compuestos químicos y neutralizad la anomalía botánica mutante."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acto II",
+      "title": "El Sufrimiento Encadenado",
+      "phase": "Acto 2 - Cavernas Subterráneas",
+      "description": "Descended a los oscuros túneles mineros bajo la finca, esquivad depredadores implacables y sobrevivid a la criatura encadenada."
+    },
+    {
+      "order": 4,
+      "badgeText": "Acto III",
+      "title": "Protocolo del Laboratorio Umbrella",
+      "phase": "Acto 3 - El Laboratorio Secreto",
+      "description": "Restableced la energía auxiliar del complejo de investigación biológica subterráneo, abrid esclusas de seguridad y destapad la conspiración vírica."
+    },
+    {
+      "order": 5,
+      "badgeText": "Final",
+      "title": "Amanecer en el Helipuerto",
+      "phase": "Final - Cuenta Atrás de Evacuación",
+      "description": "Iniciad la secuencia de autodestrucción, señalizad al helicóptero de rescate desde la azotea y destruid el arma biológica definitiva."
+    }
+  ]
+}

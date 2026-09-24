@@ -1,0 +1,110 @@
+{
+  "id": "divinity-original-sin",
+  "title": "Divinity Original Sin: The Board Game",
+  "releaseYear": 2023,
+  "designers": "Dylan Birtolo, Thomas M. Gofton, Josh Derksen",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.2,
+  "bggWeight": 3.20,
+  "bggUrl": "https://boardgamegeek.com/boardgame/294378/divinity-original-sin-the-board-game",
+  "baseScenarioMinutes": 80,
+  "setupTeardownMinutes": 15,
+  "unitType": "locations",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#06b6d4",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #0f2c3d 0%, #0d1926 60%, #070c14 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.92)",
+    "borderColor": "rgba(6, 182, 212, 0.35)",
+    "glowColor": "rgba(6, 182, 212, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "✨",
+    "emblem": "✨🔮",
+    "themeClass": "theme-divinity",
+    "activeThemeClass": "theme-divinity-active",
+    "roadmapClass": "roadmap-divinity",
+    "heroClass": "hero-divinity"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #294378 Overall)",
+    "Larian Studios & Lynnvander Studios Rulebook & Divine Atlas",
+    "Divinity: Original Sin Tabletop Campaign Community Data"
+  ],
+  "scopes": [
+    {
+      "id": "dos_standard_path",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": true
+    },
+    {
+      "id": "dos_act1_escape",
+      "baseScenarioCount": 5,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "dos_extended_branches",
+      "baseScenarioCount": 24,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "dos_full_atlas",
+      "baseScenarioCount": 36,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "⚓",
+      "badgeText": "Act I",
+      "title": "The Merryweather Shore",
+      "phase": "Act 1 - Collar & Captivity",
+      "description": "Wash ashore upon the shores of Fort Joy following the shipwreck, gather companions, and slip past Magister patrols."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "⛓️",
+      "badgeText": "Act I",
+      "title": "Shattering the Source Collar",
+      "phase": "Act 1 - Escape Fort Joy",
+      "description": "Infiltrate the prison bastion, liberate your latent Source power, and break through the fortress perimeter into the wild."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🌿",
+      "badgeText": "Act II",
+      "title": "Sanctuary in the Marshes",
+      "phase": "Act 2 - The Hollow Marshes",
+      "description": "Traverse dangerous toxic bogs and uncover forgotten Source shrines and ancient ruins harboring seekers."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 13,
+      "iconEmoji": "🌀",
+      "badgeText": "Act II",
+      "title": "Incursion of the Voidwoken",
+      "phase": "Act 2 - Tearing the Veil",
+      "description": "Hold the defensive line against monstrous Void beasts pouring through planar tears and master advanced elemental combos."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "👑",
+      "badgeText": "Act III",
+      "title": "Ascension in the Hall of Echoes",
+      "phase": "Act 3 - Divine Destiny",
+      "description": "Enter the ancestral Hall of Echoes, overcome the ultimate trial, and claim your place as the new Divine of Rivellon."
+    }
+  ]
+}

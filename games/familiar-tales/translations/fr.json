@@ -1,0 +1,66 @@
+{
+  "title": "Familiar Tales",
+  "subtitle": "Campagne en livre de contes guidée par application où des familiers magiques élèvent et protègent une enfant royale",
+  "tagline": "Petits héros. Grande responsabilité. Un conte de fées inoubliable.",
+  "loreSummary": "Chargés par leur maître sorcier de veiller sur la légitime héritière du royaume, quatre familiers magiques doivent élever une princesse exilée du berceau jusqu'à l'âge adulte. Guidez ses pas à travers des forêts enchantées, fabriquez des outils de survie et affrontez d'infâmes tyrans au fil d'un livre de contes entièrement conté à la voix.",
+  "badgeCategory": "Campagne en Livre avec Application",
+  "roadmapTitle": "🗺️ Conte de la Princesse & Feuille de Route des Ères",
+  "roadmapBadge": "A STORY CRAFTING GAME",
+  "keyFeatures": [
+    "Application compagnon sur navigateur et mobile avec narration audio intégrale et embranchements narratifs vivants",
+    "Mécaniques évolutives de deckbuilding où les familiers personnalisent leurs cartes et forgent des synergies coopératives",
+    "Trois ères de vie distinctes retraçant l'évolution de l'enfant, de nourrisson vulnérable à héroïne intrépide",
+    "Dilemmes moraux cruciaux où votre manière d'éduquer la princesse forgera durablement son tempérament et son destin"
+  ],
+  "scopes": {
+    "familiar_grand_chronicle": {
+      "name": "La Chronique Complète (Ères 1 à 3)",
+      "description": "L'épopée intégrale de 9 chapitres accompagnant la princesse à travers ses trois ères formatrices."
+    },
+    "familiar_era_1": {
+      "name": "Ère 1 : Petite Enfance & La Grande Évasion",
+      "description": "Le périple inaugural de 3 chapitres fuyant le château en flammes pour établir un refuge secret dans les bois."
+    },
+    "familiar_complete_tales": {
+      "name": "Livre de Contes Complet & Détours",
+      "description": "Chronique exhaustive de 12 sessions explorant chaque détour narratif, rencontre forestière facultative et relique forgeable."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Ère 1",
+      "title": "Fuite du Donjon en Flammes",
+      "phase": "Ère 1 - La Princesse Nourrisson",
+      "description": "Sauvez le bébé princesse Fiona du coup d'État royal, échappez aux molosses du félon et trouvez refuge au cœur de la forêt profonde."
+    },
+    {
+      "order": 2,
+      "badgeText": "Ère 1",
+      "title": "Le Cœur du Bois des Brumes",
+      "phase": "Finale Ère 1 - Le Refuge Forestier",
+      "description": "Bâtissez un abri sous les frondaisons, repoussez la créature corrompue du marais et surmontez les premiers défis de l'enfance."
+    },
+    {
+      "order": 3,
+      "badgeText": "Ère 2",
+      "title": "Leçons de la Nature Sauvage",
+      "phase": "Ère 2 - L'Enfant qui Grandit",
+      "description": "Guidez la petite fille pleine d'entrain face aux périls des bois, fabriquez des outils essentiels et éveillez ses vertus naissantes."
+    },
+    {
+      "order": 4,
+      "badgeText": "Ère 3",
+      "title": "La Reconquête de la Couronne",
+      "phase": "Finale Ère 3 - Le Destin Royal",
+      "description": "Escortez la jeune princesse lors de sa marche vers la forteresse de l'usurpateur pour ramener la paix sur le royaume."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Une Vie d'Émerveillement",
+      "phase": "Épilogue - L'Héritage des Familiers",
+      "description": "Triomphez de toutes les rencontres secrètes du sous-bois, maîtrisez chaque recette d'artisanat et tissez un dénouement légendaire."
+    }
+  ]
+}

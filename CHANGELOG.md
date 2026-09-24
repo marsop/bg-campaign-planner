@@ -7,6 +7,50 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.52.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Familiar Tales**, the app-driven fairytale storybook campaign by Jerry Hawthorne (Plaid Hat Games, 2022).
+    - 3 campaign scope presets: *The Full Chronicle (Eras 1–3)* (9 chapters across all 3 life eras, recommended), *Era 1: Infancy & The Great Escape* (3 chapters), and *Complete Storybook & Diversions* (12 chapters including side paths).
+    - 5 narrative milestone checkpoints: *Flight from the Burning Keep* (Era 1), *Heart of the Gloomwood* (Era 1 Finale), *Lessons of the Wilds* (Era 2), *Reclaiming the Crown* (Era 3 Finale), and *A Lifetime of Wonder* (Epilogue), with full spoiler mask protection.
+    - Thematic visual identity (mystical violet `#7c3aed`, deep indigo night `#1e1b4b`, and glowing fairy gold `#fbbf24` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of an enchanted fairytale forest illuminated by glowing runes, fairy lights, and magical flora).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Aftermath**, the post-apocalyptic storybook colony campaign by Jerry Hawthorne (Plaid Hat Games, 2019).
+    - 3 campaign scope presets: *Colony Survival Campaign* (20 missions, recommended), *Core Story Arc* (12 missions), and *Complete Scavenger's Odyssey* (27 missions).
+    - 5 narrative milestone checkpoints: *Foundations of the Colony* (Act I), *The Ironfang Syndicate* (Act I Finale), *The Human Vaults* (Act II), *The Predator King's Siege* (Act II Finale), and *Dawn of the New World* (Epilogue), with full spoiler mask protection.
+    - Thematic visual identity (leaf green `#65a30d`, warm ruin slate `#1c1917`, and sunlit amber `#f59e0b` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of post-apocalyptic overgrown city ruins reclaimed by nature).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Harakiri: Blades of Honor**, the dark fantasy dungeon crawler and overland adventure campaign in mythical feudal Japan by Fernando Gamero and Joel Torres (Synergic Games, 2025).
+    - 3 campaign scope presets: *The Full Chronicle (Acts I & II)* (35 chapters, recommended), *Act I: Path of the Ronin* (15 chapters), and *Grand Saga & Legendary Tales* (45 chapters including all independent heroic scenarios).
+    - 5 narrative milestone checkpoints: *The Awakening of the Kami* (Act I), *The Blood Gate Siege* (Act I Finale), *Descent into Yomi* (Act II), *The Dark Shogun's Downfall* (Act II Finale), and *Eternal Blades of Honor* (Epilogue), with full spoiler mask protection.
+    - Thematic visual identity (imperial crimson `#b91c1c`, deep shadow slate `#0f172a`, and sacred gold `#eab308` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of an ancient moonlit Shinto shrine in a misty bamboo forest).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Resident Evil: The Board Game**, the cooperative survival horror campaign by Sherwin Matthews and Steve Margetson (Steamforged Games & Capcom, 2023).
+    - 3 campaign scope presets: *Full Spencer Mansion Campaign* (19 scenarios, recommended), *Mansion Breach & Guardhouse* (10 scenarios), and *True Survivor Completionist* (25 scenarios).
+    - 5 narrative milestone checkpoints: *The First Floor Horrors* (Act I), *Nightshade in the Guardhouse* (Act II), *The Shackled Sorrow* (Act II), *Umbrella Laboratory Protocol* (Act III), and *Dawn at the Heliport* (Finale), with full spoiler mask protection.
+    - Thematic visual identity (hazard crimson `#dc2626`, deep shadow slate `#0c0a09`, and herb green `#22c55e` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of the Spencer Mansion entrance foyer).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.48.0] - 2026-09-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Divinity Original Sin: The Board Game**, the branching cooperative tactical fantasy RPG adventure by Dylan Birtolo, Thomas M. Gofton, and Josh Derksen (Larian Studios & Lynnvander Studios, 2023).
+    - 4 campaign scope presets: *Standard Divine Campaign* (16 locations across Acts 1-3, recommended), *Act 1: Escape from Fort Joy* (5 locations), *Extended Rivellon Odyssey* (24 locations), and *Complete Atlas Chronicle* (36 locations).
+    - 5 narrative milestone checkpoints: *The Merryweather Shore* (Act I), *Shattering the Source Collar* (Act I), *Sanctuary in the Marshes* (Act II), *Incursion of the Voidwoken* (Act II), and *Ascension in the Hall of Echoes* (Act III), with full spoiler mask protection.
+    - Thematic visual identity (Source cyan `#06b6d4`, deep Rivellon night `#0f172a`, and divine amber `#f59e0b` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of the coastal ruins of Rivellon).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.47.0] - 2026-09-24
 
 ### Added

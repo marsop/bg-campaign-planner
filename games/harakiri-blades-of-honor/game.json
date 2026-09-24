@@ -1,0 +1,104 @@
+{
+  "id": "harakiri-blades-of-honor",
+  "title": "Harakiri: Blades of Honor",
+  "releaseYear": 2025,
+  "designers": "Fernando Gamero, Joel Torres",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.5,
+  "bggWeight": 3.80,
+  "bggUrl": "https://boardgamegeek.com/boardgame/279727/harakiri-blades-of-honor",
+  "baseScenarioMinutes": 110,
+  "setupTeardownMinutes": 20,
+  "unitType": "chapters",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#b91c1c",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#eab308",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2b1113 0%, #130f14 60%, #09090b 100%)",
+    "cardBackground": "rgba(18, 16, 20, 0.94)",
+    "borderColor": "rgba(185, 28, 28, 0.35)",
+    "glowColor": "rgba(185, 28, 28, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "⛩️",
+    "emblem": "⚔️⛩️",
+    "themeClass": "theme-harakiri",
+    "activeThemeClass": "theme-harakiri-active",
+    "roadmapClass": "roadmap-harakiri",
+    "heroClass": "hero-harakiri"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #279727 Overall)",
+    "Synergic Games Official Rulebooks & Act 1/2 Campaign Books",
+    "Harakiri: Blades of Honor Kickstarter & Gamefound Documentation"
+  ],
+  "scopes": [
+    {
+      "id": "harakiri_full_chronicles",
+      "baseScenarioCount": 35,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "harakiri_act_1",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    },
+    {
+      "id": "harakiri_grand_saga",
+      "baseScenarioCount": 45,
+      "estimatedFailRatePercent": 18.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "⛩️",
+      "badgeText": "Act I",
+      "title": "The Awakening of the Kami",
+      "phase": "Act 1 - Shadows of Yamato",
+      "description": "Seek guidance from the ancient mountain shrine, commune with the wounded Kami, and defend the village from corrupt yokai."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "🏯",
+      "badgeText": "Act I",
+      "title": "The Blood Gate Siege",
+      "phase": "Act 1 Finale - Fortress of the Betrayer",
+      "description": "Infiltrate the mountain fortress, breach the inner sanctum, and defeat the corrupted clan warlord."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 25,
+      "iconEmoji": "🌑",
+      "badgeText": "Act II",
+      "title": "Descent into Yomi",
+      "phase": "Act 2 - The Underworld Incursion",
+      "description": "Cross the boundary into the shadowy underworld of Yomi, retrieving lost divine artifacts amidst legions of tortured spirits."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 35,
+      "iconEmoji": "⚔️",
+      "badgeText": "Act II",
+      "title": "The Dark Shogun's Downfall",
+      "phase": "Act 2 Finale - The Imperial Reckoning",
+      "description": "Confront the Dark Shogun at the heart of the cursed capital, shattering the ancient seal to restore honor to Japan."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 45,
+      "iconEmoji": "🌸",
+      "badgeText": "Finale",
+      "title": "Eternal Blades of Honor",
+      "phase": "Epilogue - Legend of the Ronin",
+      "description": "Complete all independent heroic trials, master the forbidden arts, and forge an everlasting legacy for future generations."
+    }
+  ]
+}

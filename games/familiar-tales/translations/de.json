@@ -1,0 +1,66 @@
+{
+  "title": "Familiar Tales",
+  "subtitle": "App-gestützte Fantasy-Märchenbuch-Kampagne, in der magische Vertraute ein königliches Kind großziehen und beschützen",
+  "tagline": "Kleine Helden. Große Verantwortung. Ein unvergessliches Märchen.",
+  "loreSummary": "Von ihrem Zaubermeister mit dem Überleben der rechtmäßigen Thronerbin betraut, müssen vier magische Vertraute eine vertriebene Prinzessin vom Säuglingsalter bis zum Erwachsenwerden behüten. Führt ihre Schritte durch verzauberte Wälder, fertigt lebensnotwendige Werkzeuge und stellt euch finsteren Tyrannen in einem vertonten Märchenbuch.",
+  "badgeCategory": "App-Gestützte Märchenbuch-Kampagne",
+  "roadmapTitle": "🗺️ Chronik der Prinzessin & Epochen-Fahrplan",
+  "roadmapBadge": "A STORY CRAFTING GAME",
+  "keyFeatures": [
+    "Vollständig vertonte Browser- und Mobile-App mit atmosphärischen Sprechern und dynamischen Handlungswegen",
+    "Evolutionäre Deckbau-Mechaniken, bei denen die Vertrauten ihre Kartendecks ausbauen und kooperative Synergien nutzen",
+    "Drei eigenständige Lebensepochen, die die Entwicklung des Kindes vom hilflosen Baby zur mutigen Heldin begleiten",
+    "Bedeutsame moralische Entscheidungen, bei denen eure Erziehung den Charakter und das Schicksal der Prinzessin nachhaltig prägt"
+  ],
+  "scopes": {
+    "familiar_grand_chronicle": {
+      "name": "Die Vollständige Chronik (Epochen 1–3)",
+      "description": "Die gesamte 9-Kapitel-Märchensaga, die die Prinzessin durch alle drei prägenden Lebensepochen begleitet."
+    },
+    "familiar_era_1": {
+      "name": "Epoche 1: Kindheit & Die Große Flucht",
+      "description": "Die anfängliche 3-Kapitel-Reise von der Flucht aus der brennenden Burg bis zur Errichtung eines geheimen Waldlagers."
+    },
+    "familiar_complete_tales": {
+      "name": "Vollständiges Märchenbuch & Abstecher",
+      "description": "Umfassende 12-Sitzungen-Chronik mit allen narrativen Umwegen, optionalen Waldbegegnungen und schmiedbaren Relikten."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Epoche 1",
+      "title": "Flucht aus der Brennenden Veste",
+      "phase": "Epoche 1 - Die Prinzessin im Säuglingsalter",
+      "description": "Rettet das Baby Prinzessin Fiona vor dem fürstlichen Staatsstreich, entkommt den Spürhunden und sucht Zuflucht im tiefen Forst."
+    },
+    {
+      "order": 2,
+      "badgeText": "Epoche 1",
+      "title": "Das Herz des Düsterwalds",
+      "phase": "Epoche 1 Finale - Der Wald-Zufluchtsort",
+      "description": "Errichtet eine geschützte Waldunterkunft, besiegt das verderbte Sumpfmonstrum und besteht die ersten kindlichen Prüfungen."
+    },
+    {
+      "order": 3,
+      "badgeText": "Epoche 2",
+      "title": "Lehren der Wildnis",
+      "phase": "Epoche 2 - Das Heranwachsende Kind",
+      "description": "Geleitet das temperamentvolle Kleinkind durch Wildnisgefahren, stellt Werkzeuge her und fördert ihre aufkeimenden Tugenden."
+    },
+    {
+      "order": 4,
+      "badgeText": "Epoche 3",
+      "title": "Rückforderung der Krone",
+      "phase": "Epoche 3 Finale - Die Königliche Bestimmung",
+      "description": "Begleitet die junge Prinzessin bei ihrem Marsch auf die Zitadelle des Usurpators, um dem Reich den Frieden zurückzubringen."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Ein Leben voller Wunder",
+      "phase": "Epilog - Das Erbe der Vertrauten",
+      "description": "Meistert alle verborgenen Waldprüfungen, entdeckt sämtliche Handwerksrezepte und vollendet ein unvergessliches Märchenende."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Harakiri: Blades of Honor",
+  "subtitle": "Aventure épique de dark fantasy et exploration de donjons dans un Japon féodal mythique",
+  "tagline": "Dégainez votre acier contre les ténèbres grandissantes des Yokai",
+  "loreSummary": "Dans un Japon féodal fracturé par la guerre civile et maudit par une sombre sorcellerie, le Shogun Noir corrompu s'est emparé du pouvoir divin. En tant que guerriers déchus et ronins errants, vous devez arpenter des provinces périlleuses, apaiser des Kamis vindicatifs et risquer votre âme pour restaurer l'honneur du royaume.",
+  "badgeCategory": "Dungeon Crawler de Dark Fantasy",
+  "roadmapTitle": "🗺️ Chronique de Yamato & Feuille de Route de Campagne",
+  "roadmapBadge": "BLADES OF HONOR",
+  "keyFeatures": [
+    "Gameplay en deux phases combinant harmonieusement aventure d'exploration sur carte et combat tactique sur grille",
+    "Évolution approfondie des personnages avec arbres de compétences ramifiés, forge d'équipement et bénédictions divines des Kamis",
+    "Campagne narrative à embranchements à travers plus de 35 riches chapitres avec de multiples fins dramatiques",
+    "Affrontements de boss épiques avec paquets d'IA réactive et monstruosités yokai à étapes multiples"
+  ],
+  "scopes": {
+    "harakiri_full_chronicles": {
+      "name": "La Chronique Complète (Actes I & II)",
+      "description": "L'épopée intégrale de 35 chapitres couvrant les terres de Yamato et les horreurs souterraines de Yomi."
+    },
+    "harakiri_act_1": {
+      "name": "Acte I : La Voie du Ronin",
+      "description": "La campagne inaugurale de 15 chapitres axée sur le soulèvement contre les seigneurs de guerre du Shogun Noir."
+    },
+    "harakiri_grand_saga": {
+      "name": "Grande Saga & Contes Légendaires",
+      "description": "Chronique exhaustive de 45 sessions incluant les 35 chapitres de campagne principale et les 10 scénarios héroïques indépendants."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acte I",
+      "title": "L'Éveil des Kamis",
+      "phase": "Acte 1 - Ombres de Yamato",
+      "description": "Cherchez conseil au sanctuaire ancestral de la montagne, communiez avec les Kamis blessés et défendez le village contre les yokais corrompus."
+    },
+    {
+      "order": 2,
+      "badgeText": "Acte I",
+      "title": "Le Siège de la Porte de Sang",
+      "phase": "Finale Acte 1 - La Forteresse du Traître",
+      "description": "Infiltrez la forteresse montagnarde, pénétrez dans le sanctuaire intérieur et terrassez le seigneur de guerre corrompu."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acte II",
+      "title": "Descente dans le Yomi",
+      "phase": "Acte 2 - L'Incursion dans les Enfers",
+      "description": "Franchissez la frontière du ténébreux monde des morts de Yomi, récupérant des reliques divines perdues au milieu d'esprits torturés."
+    },
+    {
+      "order": 4,
+      "badgeText": "Acte II",
+      "title": "La Chute du Shogun Noir",
+      "phase": "Finale Acte 2 - Le Jugement Impérial",
+      "description": "Affrontez le Shogun Noir au cœur de la capitale maudite, brisant le sceau antique pour restaurer l'honneur du Japon."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Lames Éternelles de l'Honneur",
+      "phase": "Épilogue - Légende du Ronin",
+      "description": "Triomphez de toutes les épreuves héroïques indépendantes, maîtrisez les arts interdits et forgez une légende impérissable pour les générations futures."
+    }
+  ]
+}

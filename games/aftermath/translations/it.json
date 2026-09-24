@@ -1,0 +1,66 @@
+{
+  "title": "Aftermath",
+  "subtitle": "Avventura a libro post-apocalittica in cui coraggiosi roditori costruiscono e difendono la propria colonia",
+  "tagline": "Gli umani sono scomparsi. Ora tocca a noi.",
+  "loreSummary": "In seguito alla misteriosa scomparsa dell'umanità, piccoli animaletti devono coalizzarsi per sopravvivere tra rovine di cemento riconquistate dalla natura. Nei panni di un'impavida banda di roditori, dovrete avventurarvi in una pericolosa landa periferica per recuperare cibo e rottami, respingere predatori spietati ed edificare un rifugio duraturo per la vostra colonia.",
+  "badgeCategory": "Avventura di Colonia a Libro",
+  "roadmapTitle": "🗺️ Diario della Colonia & Tabella delle Spedizioni",
+  "roadmapBadge": "AN ADVENTURE BOOK GAME",
+  "keyFeatures": [
+    "Innovativo sistema Adventure Book in cui ogni pagina si trasforma in un incontro illustrato ed evolutivo",
+    "Gestione dinamica della colonia che richiede ricerca strategica di risorse, ampliamenti strutturali e gestione delle crisi",
+    "Gameplay tattico guidato da carte con mazzi personalizzati per ciascun animale e condivisione cooperativa delle azioni",
+    "Coinvolgente campagna narrativa di 27 missioni ricca di scelte decisive e storie personali di riscatto"
+  ],
+  "scopes": {
+    "aftermath_colony_campaign": {
+      "name": "Campagna di Sopravvivenza della Colonia",
+      "description": "La campagna raccomandata di 20 missioni incentrata sulla trama principale e sui traguardi fondamentali della colonia."
+    },
+    "aftermath_core_story": {
+      "name": "Arco Narrativo Principale",
+      "description": "Percorso concentrato di 12 missioni focalizzato esclusivamente sull'enigma della sparizione del genere umano."
+    },
+    "aftermath_full_chronicle": {
+      "name": "Odissea Completa dei Recuperatori",
+      "description": "Spedizione esaustiva di 27 missioni che sblocca ogni missione secondaria, obiettivo personale dei personaggi e miglioria della colonia."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Atto I",
+      "title": "Fondamenta della Colonia",
+      "phase": "Atto 1 - La Grande Raccolta",
+      "description": "Stabilite il rifugio dei roditori, accumulate rottami e sementi vitali e fortificate la colonia contro i predatori erranti."
+    },
+    {
+      "order": 2,
+      "badgeText": "Atto I",
+      "title": "Il Sindacato Zanna di Ferro",
+      "phase": "Finale Atto 1 - Guerre Territoriali",
+      "description": "Respingete l'incursione della gang rivale di ratti, difendete gli avamposti perimetrali e stringete accordi con le creature vicine."
+    },
+    {
+      "order": 3,
+      "badgeText": "Atto II",
+      "title": "I Rifugi degli Umani",
+      "phase": "Atto 2 - Reliquie degli Antichi",
+      "description": "Infiltratevi nel laboratorio umano invaso dalla vegetazione, decifrate bizzarri artefatti tecnologici e scoprite indizi sulla Calamità."
+    },
+    {
+      "order": 4,
+      "badgeText": "Atto II",
+      "title": "L'Assedio del Re Predatore",
+      "phase": "Finale Atto 2 - Difesa del Santuario",
+      "description": "Unificate le diverse fazioni animali per resistere a un devastante assalto coordinato di predatori e salvare il futuro della colonia."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "L'Alba del Nuovo Mondo",
+      "phase": "Epilogo - L'Eredità dei Baffi",
+      "description": "Portate a termine tutte le missioni personali dei compagni, sbloccate ogni miglioria della colonia e fondate una fiorente civiltà animale."
+    }
+  ]
+}

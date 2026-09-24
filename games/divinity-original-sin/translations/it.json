@@ -1,0 +1,70 @@
+{
+  "title": "Divinity Original Sin: The Board Game",
+  "subtitle": "Avventura RPG fantasy cooperativa a bivi ambientata nel magico mondo di Rivellon",
+  "tagline": "Scatena la Sorgente, domina gli elementi e ascendi alla Divinità",
+  "loreSummary": "Il Divino è caduto e il distruttivo Vuoto minaccia il tessuto di Rivellon. Privati della libertà e vincolati dai collari dei Magister, i membri del vostro gruppo dovranno risvegliare i poteri latenti della Sorgente, stringere alleanze e forgiare il destino del mondo.",
+  "badgeCategory": "RPG Tattico Narrativo",
+  "roadmapTitle": "🗺️ Cronaca dell'Atlante Divino e Progressione di Campagna",
+  "roadmapBadge": "ATLANTE DIVINO",
+  "keyFeatures": [
+    "Libro di gioco Atlante Divino con rilegatura ad anelli comprendente 50 luoghi interconnessi",
+    "Combattimento tattico profondo con Punti Azione e caratteristiche interazioni elementali con le superfici",
+    "Sistema narrativo ramificato in cui le scelte del gruppo modificano permanentemente la storia",
+    "Progressione dei personaggi con alberi di abilità, poteri della Sorgente e potenziamenti dell'equipaggiamento"
+  ],
+  "scopes": {
+    "dos_standard_path": {
+      "name": "Campagna Divina Standard",
+      "description": "Il viaggio narrativo completo attraverso gli Atti 1, 2 e 3 fino al confronto finale nella Sala degli Echi (~16 luoghi)."
+    },
+    "dos_act1_escape": {
+      "name": "Atto 1: Fuga da Forte Gioia",
+      "description": "Campagna introduttiva incentrata sulla fuga dalla prigione insulare, la rimozione dei collari della Sorgente e la libertà (~5 luoghi)."
+    },
+    "dos_extended_branches": {
+      "name": "Odissea Estesa di Rivellon",
+      "description": "Esperienza di campagna ampliata esplorando luoghi secondari nascosti, missioni dei compagni e rami narrativi alternativi (~24 luoghi)."
+    },
+    "dos_full_atlas": {
+      "name": "Cronaca Completa dell'Atlante",
+      "description": "Esplorazione esaustiva che attraversa bivi alternativi, incontri leggendari e sfide ad alta difficoltà nell'Atlante Divino (~36 luoghi)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Atto I",
+      "title": "La Costa della Merryweather",
+      "phase": "Atto 1 - Collari e Prigionia",
+      "description": "Raggiungete le coste di Forte Gioia dopo il naufragio, radunate i compagni ed eludete le pattuglie dei Magister."
+    },
+    {
+      "order": 2,
+      "badgeText": "Atto I",
+      "title": "Infrangere il Collare della Sorgente",
+      "phase": "Atto 1 - La Fuga da Forte Gioia",
+      "description": "Infiltratevi nella fortezza carceraria, liberate il vostro potere latente della Sorgente e fuggite attraverso i bastioni nelle paludi selvagge."
+    },
+    {
+      "order": 3,
+      "badgeText": "Atto II",
+      "title": "Rifugio nelle Paludi",
+      "phase": "Atto 2 - Le Paludi Vuote",
+      "description": "Attraversate acquitrini tossici e scoprite santuari dimenticati della Sorgente e antiche rovine che offrono riparo ai Cercatori."
+    },
+    {
+      "order": 4,
+      "badgeText": "Atto II",
+      "title": "Incursione dei Nati dal Vuoto",
+      "phase": "Atto 2 - Lacerazione del Velo",
+      "description": "Resistete alle mostruose creature del Vuoto che erompono dalle fratture planari e padroneggiate combo elementali avanzate."
+    },
+    {
+      "order": 5,
+      "badgeText": "Atto III",
+      "title": "Ascensione nella Sala degli Echi",
+      "phase": "Atto 3 - Destino Divino",
+      "description": "Addentratevi nella mistica Sala degli Echi, superate la prova suprema e reclamate il vostro posto come nuova Divinità di Rivellon."
+    }
+  ]
+}

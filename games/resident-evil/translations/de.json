@@ -1,0 +1,66 @@
+{
+  "title": "Resident Evil: The Board Game",
+  "subtitle": "Kooperative Survival-Horror-Kampagne zur Aufdeckung der viralen Schrecken des Spencer-Anwesens",
+  "tagline": "Betretet die Welt des Survival-Horrors, in der jede Kugel zählt",
+  "loreSummary": "Gefangen in den makabren Korridoren des abgelegenen Spencer-Anwesens muss das S.T.A.R.S.-Alpha-Team knappe Munition rationieren, unerbittlichen biologischen Abscheulichkeiten entgehen und tödliche Rätsel lösen, bevor die Virusseuche ihr Leben fordert.",
+  "badgeCategory": "Kooperativer Survival-Horror",
+  "roadmapTitle": "🗺️ Vorfall im Spencer-Anwesen & Überlebensprotokoll",
+  "roadmapBadge": "SURVIVAL-HORROR",
+  "keyFeatures": [
+    "Plättchenbasierte Erkundung: Das Öffnen von Türen erweitert das Anwesen dynamisch",
+    "Dynamisches Spannungsdeck mit Ressourcenverschleiß, Schockmomenten und eskalierender Gefahr",
+    "Entscheidungsgesteuerte Erzählkampagne, in der Gruppenentscheidungen dauerhafte Konsequenzen haben",
+    "Getreue Brettspieladaption des ikonischen Survival-Horror-Meilensteins"
+  ],
+  "scopes": {
+    "re_mansion_campaign": {
+      "name": "Vollständige Spencer-Anwesen-Kampagne",
+      "description": "Die komplette Survival-Horror-Ermittlung über 19 Szenarien vom Hauptanwesen über das Wachhaus und Höhlensystem bis zum geheimen Umbrella-Labor."
+    },
+    "re_mansion_investigation": {
+      "name": "Anwesen-Infiltration & Wachhaus",
+      "description": "Kürzere Erkundungskampagne mit Fokus auf Erdgeschoss, Obergeschoss und die Vernichtung der botanischen Monstrosität im Wachhaus (~10 Szenarien)."
+    },
+    "re_true_survivor": {
+      "name": "Wahre Überlebende (Komplettierung)",
+      "description": "Erschöpfende Kampagne mit allen geheimen Räumen, alternativen Gefährtenrettungen, Hochrisikobegegnungen und optionalen Nebenzielen (~25 Szenarien)."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Akt I",
+      "title": "Das Grauen im Erdgeschoss",
+      "phase": "Akt 1 - Infiltration des Spencer-Anwesens",
+      "description": "Untersucht den unheilvollen Speisesaal und blutverschmierte Korridore, findet den Rüstungsschlüssel und überlebt die ersten Infizierten."
+    },
+    {
+      "order": 2,
+      "badgeText": "Akt II",
+      "title": "Tollkirsche im Wachhaus",
+      "phase": "Akt 2 - Residenz & Wachhaus",
+      "description": "Überquert den Innenhof zum überwucherten Wachhaus, synthetisiert chemische Substanzen und eliminiert die mutierte botanische Anomalie."
+    },
+    {
+      "order": 3,
+      "badgeText": "Akt II",
+      "title": "Die angekettete Qual",
+      "phase": "Akt 2 - Unterirdische Kavernen",
+      "description": "Steigt hinab in finstere Bergwerkstollen unter dem Anwesen, weicht Spitzenprädatoren aus und überlebt das angekettete Versuchssubjekt."
+    },
+    {
+      "order": 4,
+      "badgeText": "Akt III",
+      "title": "Umbrella-Laborprotokoll",
+      "phase": "Akt 3 - Das Geheime Labor",
+      "description": "Stellt die Notstromversorgung der unterirdischen Bioforschungseinrichtung wieder her, umgeht Sicherheitsschleusen und enttarnt die Virenverschwörung."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Morgendämmerung auf dem Hubschrauberlandeplatz",
+      "phase": "Finale - Evakuierungs-Countdown",
+      "description": "Aktiviert den Selbstzerstörungs-Countdown, signalisiert dem Rettungshubschrauber vom Dachlandeplatz und besiegt die ultimative Biowaffe."
+    }
+  ]
+}

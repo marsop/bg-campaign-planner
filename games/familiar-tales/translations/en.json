@@ -1,0 +1,66 @@
+{
+  "title": "Familiar Tales",
+  "subtitle": "App-driven fantasy storybook campaign where magical familiars nurture and protect a royal child",
+  "tagline": "Little heroes. Big responsibility. An unforgettable fairytale.",
+  "loreSummary": "Entrusted by your wizard master with the survival of the realm's rightful heir, four magical familiars must raise a displaced princess from infancy to adulthood. Guide her path through enchanted forests, craft survival tools, and confront wicked tyrants in a living, voice-narrated storybook.",
+  "badgeCategory": "App-Driven Storybook Campaign",
+  "roadmapTitle": "🗺️ Tale of the Princess & Era Roadmap",
+  "roadmapBadge": "A STORY CRAFTING GAME",
+  "keyFeatures": [
+    "Fully narrated browser and mobile companion app delivering rich voice acting and dynamic story branches",
+    "Evolutionary deck-crafting mechanics where familiars customize their card pools and build cooperative synergies",
+    "Three distinct life eras charting the child's development from vulnerable baby to courageous heroine",
+    "Branching moral choices where how you nurture the princess permanently shapes her personality and fate"
+  ],
+  "scopes": {
+    "familiar_grand_chronicle": {
+      "name": "The Full Chronicle (Eras 1–3)",
+      "description": "The complete 9-chapter fairytale saga following the princess through all three formative life eras."
+    },
+    "familiar_era_1": {
+      "name": "Era 1: Infancy & The Great Escape",
+      "description": "The opening 3-chapter journey fleeing the burning castle and establishing a hidden forest haven."
+    },
+    "familiar_complete_tales": {
+      "name": "Complete Storybook & Diversions",
+      "description": "Exhaustive 12-session chronicle exploring every narrative detour, optional woodland challenge, and craftable relic."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Era 1",
+      "title": "Flight from the Burning Keep",
+      "phase": "Era 1 - The Infant Princess",
+      "description": "Rescue baby Princess Fiona from the castle coup, evade the Lord's hounds, and seek refuge in the deep forest."
+    },
+    {
+      "order": 2,
+      "badgeText": "Era 1",
+      "title": "Heart of the Gloomwood",
+      "phase": "Era 1 Finale - The Woodland Refuge",
+      "description": "Construct a forest shelter, defeat the corrupted swamp brute, and complete the formative trials of infancy."
+    },
+    {
+      "order": 3,
+      "badgeText": "Era 2",
+      "title": "Lessons of the Wilds",
+      "phase": "Era 2 - The Growing Child",
+      "description": "Guide the spirited toddler through wilderness perils, craft essential tools, and nurture her emerging virtues."
+    },
+    {
+      "order": 4,
+      "badgeText": "Era 3",
+      "title": "Reclaiming the Crown",
+      "phase": "Era 3 Finale - The Royal Destiny",
+      "description": "Accompany the young princess as she marches upon the usurper's citadel to restore peace to the realm."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "A Lifetime of Wonder",
+      "phase": "Epilogue - The Familiars' Legacy",
+      "description": "Complete every hidden woodland encounter, master all craft recipes, and weave an enduring fairytale ending."
+    }
+  ]
+}
