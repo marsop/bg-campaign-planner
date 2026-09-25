@@ -1,0 +1,66 @@
+{
+  "title": "Boss Fighters QR",
+  "subtitle": "Rapide battaglie cooperative contro i boss guidate da app con scansione di carte fisiche e deckbuilding tattico",
+  "tagline": "Scansiona le tue carte, supera in astuzia l'IA e abbatti colossi leggendari insieme",
+  "loreSummary": "Raduna la tua compagnia di eroi fantasy combinando stirpi eroiche e classi di combattimento specializzate. Mentre temibili boss reagiscono in tempo reale alle tue mosse tramite l'app companion, sferra attacchi combinati e apri forzieri segreti verso il trionfo finale.",
+  "badgeCategory": "RPG Cooperativo con App e Boss",
+  "roadmapTitle": "🗺️ Cronaca delle Battaglie & Progressione Forzieri",
+  "roadmapBadge": "CRONACA DEI BOSS",
+  "keyFeatures": [
+    "Meccanica Scan & Play QR (Reazioni immediate dell'IA del boss alle carte fisiche scansionate)",
+    "Creazione modulare degli eroi (Combina 4 razze fantasy con 4 classi di combattimento)",
+    "Forzieri segreti (3 scatole sbloccabili ricche di equipaggiamento leggendario)",
+    "Difficoltà adattiva (4 livelli di sfida per boss da Principiante a Folle)"
+  ],
+  "scopes": {
+    "bossfighters_standard": {
+      "name": "Caccia di Campagna Completa",
+      "description": "La progressione integrale che include lo scontro di addestramento e tutti i 10 boss unici a difficoltà standard."
+    },
+    "bossfighters_story": {
+      "name": "Sfida dei Boss Principali",
+      "description": "Un percorso rapido di 6 scontri contro i boss più iconici per una campagna concentrata e ritmata."
+    },
+    "bossfighters_master": {
+      "name": "Guanto di Sfida Maestro Veterano",
+      "description": "Il superamento di tutti i 10 boss seguito da rivincite eroiche e folli lungo 18 duelli senza quartiere."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Prova",
+      "title": "La Prova del Fantoccio & Maestria Marziale",
+      "phase": "Fase I - Addestramento dell'Avanguardia",
+      "description": "Sconfiggere Messer Fantoccio per padroneggiare la meccanica Scan & Play e le sinergie del mazzo iniziale."
+    },
+    {
+      "order": 2,
+      "badgeText": "Forziere 1",
+      "title": "La Prima Volta - Profondità del Dungeon",
+      "phase": "Fase II - Minaccia Crescente",
+      "description": "Aprire la Scatola Bottino 1 per integrare equipaggiamento tattico avanzato e potenti carte di classe."
+    },
+    {
+      "order": 3,
+      "badgeText": "Forziere 2",
+      "title": "La Seconda Volta - Evoluzione Arcana",
+      "phase": "Fase III - Assalto Elementale",
+      "description": "Aprire la Scatola Bottino 2 mentre i boss scatenano abilità su più fasi e gli eroi ottengono poteri elementali."
+    },
+    {
+      "order": 4,
+      "badgeText": "Forziere 3",
+      "title": "La Volta Finale - Reliquie Supreme",
+      "phase": "Fase IV - Sull'Orlo del Cataclisma",
+      "description": "Aprire la Scatola Bottino 3 con reliquie leggendarie prima di scendere nel santuario più oscuro."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Sovrano dell'Abisso - Trionfo Definitivo",
+      "phase": "Fase V - La Resa dei Conti",
+      "description": "Abbattere l'arcinemico supremo per salvare il regno e completare la campagna leggendaria."
+    }
+  ]
+}

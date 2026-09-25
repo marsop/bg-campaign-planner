@@ -1,0 +1,66 @@
+{
+  "title": "Boss Fighters QR",
+  "subtitle": "Rasantes app-gestütztes kooperatives Boss-Battler-Kartenspiel mit Scan & Play-Mechanik und Deckbau",
+  "tagline": "Scanne deine Karten, überliste die Boss-KI und bezwingt gemeinsam gigantische Kolosse",
+  "loreSummary": "Stellt eure Heldengruppe zusammen – kombiniert Völker wie Dschungel-Trolle, Wald-Elfen, Kupfer-Zwerge und Hügel-Halblinge mit vier mächtigen Klassen. Während die Bossgegner über die Begleit-App in Echtzeit auf eure Aktionen reagieren, stimmt ihr eure Kartenzüge ab und öffnet geheimnisvolle Beuteboxen.",
+  "badgeCategory": "App-gestütztes Boss-Battler-RPG",
+  "roadmapTitle": "🗺️ Bosskampf-Chronik & Beuteboxen-Fortschritt",
+  "roadmapBadge": "BOSSKAMPF-CHRONIK",
+  "keyFeatures": [
+    "Scan & Play QR-Mechanik (Blitzschnelle Boss-KI-Reaktionen auf gescannte physische Karten)",
+    "Modularer Heldenbau (Kombiniert 4 Fantasy-Völker mit 4 taktischen Klassen)",
+    "Geheime Beuteboxen (3 verschlossene Boxen mit mächtigen Ausrüstungs- und Klassenkarten)",
+    "Anpassbare Schwierigkeit (4 Herausforderungsstufen pro Boss von Einsteiger bis Wahnsinnig)"
+  ],
+  "scopes": {
+    "bossfighters_standard": {
+      "name": "Vollständige Kampagnenjagd",
+      "description": "Die gesamte Kampagne über das Trainingsduell und alle 10 einzigartigen Bosse im regulären Modus."
+    },
+    "bossfighters_story": {
+      "name": "Kompakter Boss-Spießrutenlauf",
+      "description": "Eine fokussierte Route über 6 zentrale Bossbegegnungen für eine zügige, intensive Kampagne."
+    },
+    "bossfighters_master": {
+      "name": "Veteranen-Meisterprüfung",
+      "description": "Das Bezwingen aller 10 Bosse inklusive heroischer und wahnsinniger Revanche-Kämpfe über 18 knallharte Duelle."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Training",
+      "title": "Die Marionetten-Prüfung & Kampfmeisterschaft",
+      "phase": "Phase I - Ausbildung der Vorhut",
+      "description": "Besiegt Herrn Marionette, um die Scan & Play-Mechaniken und Startdeck-Synergien zu verinnerlichen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Box 1",
+      "title": "Das Erste Versteck - Tiefen des Kerkers",
+      "phase": "Phase II - Wachsende Bedrohung",
+      "description": "Öffnet Beutebox 1, um fortgeschrittene Ausrüstung und schlagkräftige neue Klassenkarten freizuschalten."
+    },
+    {
+      "order": 3,
+      "badgeText": "Box 2",
+      "title": "Das Zweite Versteck - Arkane Evolution",
+      "phase": "Phase III - Der Elementar-Ansturm",
+      "description": "Öffnet Beutebox 2, während Bossgegner mehrphasige Angriffe entfesseln und Helden elementare Spezialisierungen erlangen."
+    },
+    {
+      "order": 4,
+      "badgeText": "Box 3",
+      "title": "Das Finale Versteck - Apex-Artefakte",
+      "phase": "Phase IV - Am Rande des Untergangs",
+      "description": "Öffnet Beutebox 3 mit legendären Relikten vor dem Abstieg ins innerste Sanktum des Bösen."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Herrscher des Abgrunds - Der finale Triumph",
+      "phase": "Phase V - Die Entscheidungsschlacht",
+      "description": "Stürzt den obersten Erzboss in einem epischen Showdown, um das Reich endgültig zu retten."
+    }
+  ]
+}

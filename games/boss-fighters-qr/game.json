@@ -1,0 +1,104 @@
+{
+  "id": "boss-fighters-qr",
+  "title": "Boss Fighters QR",
+  "releaseYear": 2025,
+  "designers": "Michael Palm, Lukas Zach",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.9,
+  "bggWeight": 2.15,
+  "bggUrl": "https://boardgamegeek.com/boardgame/454672/boss-fighters-qr",
+  "baseScenarioMinutes": 50,
+  "setupTeardownMinutes": 10,
+  "unitType": "scenarios",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#f59e0b",
+    "secondaryColor": "#1a1026",
+    "accentColor": "#ec4899",
+    "backgroundGradient": "radial-gradient(ellipse at top, #3b1739 0%, #1c0e2a 55%, #0e0717 100%)",
+    "cardBackground": "rgba(28, 14, 42, 0.90)",
+    "borderColor": "rgba(245, 158, 11, 0.35)",
+    "glowColor": "rgba(236, 72, 153, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "📱",
+    "emblem": "📱⚔️",
+    "themeClass": "theme-bossfighters",
+    "activeThemeClass": "theme-bossfighters-active",
+    "roadmapClass": "roadmap-bossfighters",
+    "heroClass": "hero-bossfighters"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #454672 / Boss Fighters QR)",
+    "Pegasus Spiele Official Rulebook & Campaign Guides",
+    "Spiel des Jahres / Kennerspiel des Jahres 2026 Jury Nomination"
+  ],
+  "scopes": [
+    {
+      "id": "bossfighters_standard",
+      "baseScenarioCount": 11,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "bossfighters_story",
+      "baseScenarioCount": 6,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "bossfighters_master",
+      "baseScenarioCount": 18,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🎯",
+      "badgeText": "Trial",
+      "title": "The Puppet Trial & Combat Mastery",
+      "phase": "Phase I - Training the Vanguard",
+      "description": "Defeating Mr. Puppet to master the Scan & Play mechanics and starting deck synergies."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "📦",
+      "badgeText": "Box 1",
+      "title": "The First Vault - Depths of the Dungeon",
+      "phase": "Phase II - Rising Threat",
+      "description": "Unlocking Loot Box 1 to integrate advanced tactical equipment and powerful new class cards."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "⚡",
+      "badgeText": "Box 2",
+      "title": "The Second Vault - Arcane Evolution",
+      "phase": "Phase III - The Elemental Onslaught",
+      "description": "Unlocking Loot Box 2 as multi-phase boss mechanics intensify and heroes gain specialized elemental abilities."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "💎",
+      "badgeText": "Box 3",
+      "title": "The Final Vault - Apex Artifacts",
+      "phase": "Phase IV - Brink of Cataclysm",
+      "description": "Unlocking Loot Box 3 with legendary relics before descending into the innermost sanctuary."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 11,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "Sovereign of the Abyss - Final Victory",
+      "phase": "Phase V - The Ultimate Confrontation",
+      "description": "Toppling the supreme arch-boss to save the realm and complete the campaign."
+    }
+  ]
+}

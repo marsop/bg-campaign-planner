@@ -1,0 +1,66 @@
+{
+  "title": "Boss Fighters QR",
+  "subtitle": "Batallas cooperativas contra jefes guiadas por app con escaneo de cartas físicas y construcción de mazos táctica",
+  "tagline": "Escanea tus cartas, supera a la IA y derrota a colosos legendarios en equipo",
+  "loreSummary": "Reúne a tu grupo de campeones de fantasía combinando linajes heroicos con clases de combate especializadas. Mientras temibles jefes reaccionan a tus jugadas en tiempo real mediante la app compañera, despliega golpes coordinados y abre cámaras de botín secretas hacia la victoria final.",
+  "badgeCategory": "RPG Cooperativo con App y Jefes",
+  "roadmapTitle": "🗺️ Crónica de Jefes y Progresión de Cámaras de Botín",
+  "roadmapBadge": "CRÓNICA DE JEFES",
+  "keyFeatures": [
+    "Mecánica Scan & Play QR (Reacciones instantáneas de la IA del jefe a cartas físicas)",
+    "Creación modular de héroes (Combina 4 razas fantásticas con 4 clases de combate)",
+    "Cámaras de botín secretas (3 cajas desbloqueables repletas de equipo legendario)",
+    "Dificultades adaptables (4 niveles de desafío por jefe, desde Principiante hasta Demencial)"
+  ],
+  "scopes": {
+    "bossfighters_standard": {
+      "name": "Cacería de Campaña Completa",
+      "description": "La progresión completa a través del combate de entrenamiento y los 10 jefes únicos en dificultad estándar."
+    },
+    "bossfighters_story": {
+      "name": "Desafío de Jefes Principales",
+      "description": "Una incursión ágil de 6 encuentros enfrentando a los jefes más representativos en una campaña condensada."
+    },
+    "bossfighters_master": {
+      "name": "Guantelete Maestro Veterano",
+      "description": "Superar los 10 jefes seguido de revanchas heroicas y demenciales a lo largo de 18 intensos combates."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Prueba",
+      "title": "La Prueba del Muñeco y Maestría en Combate",
+      "phase": "Fase I - Entrenamiento de la Vanguardia",
+      "description": "Derrotar al Señor Muñeco para dominar la mecánica Scan & Play y las sinergias iniciales del mazo."
+    },
+    {
+      "order": 2,
+      "badgeText": "Caja 1",
+      "title": "La Primera Cámara - Profundidades de la Mazmorra",
+      "phase": "Fase II - Amenaza Creciente",
+      "description": "Abrir la Caja de Botín 1 para integrar equipo táctico avanzado y poderosas cartas de clase."
+    },
+    {
+      "order": 3,
+      "badgeText": "Caja 2",
+      "title": "La Segunda Cámara - Evolución Arcana",
+      "phase": "Fase III - Embestida Elemental",
+      "description": "Abrir la Caja de Botín 2 mientras los jefes desatan mecánicas de múltiples fases y los héroes adquieren destrezas elementales."
+    },
+    {
+      "order": 4,
+      "badgeText": "Caja 3",
+      "title": "La Cámara Final - Reliquias Cumbres",
+      "phase": "Fase IV - Al Borde del Cataclismo",
+      "description": "Abrir la Caja de Botín 3 con reliquias legendarias antes de descender al santuario más profundo."
+    },
+    {
+      "order": 5,
+      "badgeText": "Final",
+      "title": "Soberano del Abismo - Victoria Definitiva",
+      "phase": "Fase V - El Enfrentamiento Definitivo",
+      "description": "Derrotar al jefe supremo para salvar el reino y culminar la campaña legendaria."
+    }
+  ]
+}

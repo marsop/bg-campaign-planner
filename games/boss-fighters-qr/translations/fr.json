@@ -1,0 +1,66 @@
+{
+  "title": "Boss Fighters QR",
+  "subtitle": "Batailles de boss coopératives et dynamiques gérées par application avec scan de cartes physiques et deckbuilding tactique",
+  "tagline": "Scannez vos cartes, déjouez l'IA et terrassez ensemble des colosses légendaires",
+  "loreSummary": "Rassemblez votre escouade de héros fantastiques en combinant lignées héroïques et classes de combat spécialisées. Alors que de redoutables boss s'adaptent en temps réel à vos stratégies grâce à l'application compagnon, coordonnez vos frappes et ouvrez des coffres de butin secrets pour remporter la victoire.",
+  "badgeCategory": "RPG Coopératif avec Application et Boss",
+  "roadmapTitle": "🗺️ Chronique des Combats de Boss & Progression des Coffres",
+  "roadmapBadge": "CHRONIQUE DES BOSS",
+  "keyFeatures": [
+    "Mécanique Scan & Play QR (Réactions instantanées de l'IA du boss aux cartes physiques scannées)",
+    "Création modulaire de héros (Combinez 4 peuples fantastiques avec 4 classes tactiques)",
+    "Coffres de butin secrets (3 boîtes déverrouillables renfermant des équipements légendaires)",
+    "Niveaux de difficulté adaptatifs (4 paliers par boss, de Débutant à Démentiel)"
+  ],
+  "scopes": {
+    "bossfighters_standard": {
+      "name": "Chasse de Campagne Complète",
+      "description": "La progression intégrale comprenant le combat d'entraînement et les 10 boss uniques en difficulté standard."
+    },
+    "bossfighters_story": {
+      "name": "Défi des Boss Majeurs",
+      "description": "Un parcours direct de 6 affrontements ciblant les boss les plus emblématiques pour une campagne rythmée."
+    },
+    "bossfighters_master": {
+      "name": "Épreuve Maître Vétéran",
+      "description": "La victoire sur les 10 boss suivie de revanches héroïques et démentielles réparties sur 18 duels épiques."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Épreuve",
+      "title": "L'Épreuve du Pantin & Maîtrise Martiale",
+      "phase": "Phase I - Entraînement de l'Avant-garde",
+      "description": "Terrasser Monsieur Pantin pour assimiler les mécaniques Scan & Play et les synergies du deck de départ."
+    },
+    {
+      "order": 2,
+      "badgeText": "Boîte 1",
+      "title": "Le Premier Sanctuaire - Profondeurs du Donjon",
+      "phase": "Phase II - Menace Grandissante",
+      "description": "Déverrouiller le Coffre 1 pour intégrer de l'équipement tactique avancé et de puissantes cartes de classe."
+    },
+    {
+      "order": 3,
+      "badgeText": "Boîte 2",
+      "title": "Le Deuxième Sanctuaire - Évolution profane",
+      "phase": "Phase III - L'Assaut Élémentaire",
+      "description": "Déverrouiller le Coffre 2 au moment où les boss déclenchent des phases multiples et où les héros développent des affinités élémentaires."
+    },
+    {
+      "order": 4,
+      "badgeText": "Boîte 3",
+      "title": "Le Sanctuaire Ultime - Reliques Suprêmes",
+      "phase": "Phase IV - Au Bord du Cataclysme",
+      "description": "Déverrouiller le Coffre 3 avec des reliques légendaires avant de plonger dans le repaire du maître des ténèbres."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Souverain des Abysses - Triomphe Ultime",
+      "phase": "Phase V - La Confrontation Finale",
+      "description": "Vaincre l'archiboss suprême pour sauver le royaume et clore cette glorieuse campagne."
+    }
+  ]
+}

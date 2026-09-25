@@ -1,0 +1,66 @@
+{
+  "title": "Boss Fighters QR",
+  "subtitle": "Fast-paced app-driven cooperative boss battles with physical card scanning and tactical deckbuilding",
+  "tagline": "Scan your cards, outsmart the AI, and bring down legendary colossi together",
+  "loreSummary": "Assemble your band of fantasy champions—combining diverse hero lineages and specialized classes. As terrifying bosses adapt to your tactics in real time through the companion app, unleash synchronized card strikes and unlock secret loot vaults to claim victory.",
+  "badgeCategory": "App-Driven Boss Battler RPG",
+  "roadmapTitle": "🗺️ Boss Encounter Campaign & Vault Progression",
+  "roadmapBadge": "BOSS CHRONICLE",
+  "keyFeatures": [
+    "Scan & Play QR Mechanic (Instant digital boss AI reactions to physical card plays)",
+    "Modular Hero Crafting (Combine 4 fantasy races with 4 distinct combat classes)",
+    "Secret Loot Vaults (3 unlockable boxes packed with game-changing equipment)",
+    "Adaptive Difficulty Tiers (4 challenge levels per boss from Beginner to Insane)"
+  ],
+  "scopes": {
+    "bossfighters_standard": {
+      "name": "Full Campaign Hunt",
+      "description": "The complete progression through the training trial and all 10 unique boss encounters at standard difficulty."
+    },
+    "bossfighters_story": {
+      "name": "Core Boss Gauntlet",
+      "description": "A streamlined 6-encounter run taking on the most iconic bosses for a brisk, focused campaign."
+    },
+    "bossfighters_master": {
+      "name": "Veteran Master Gauntlet",
+      "description": "Conquering all 10 bosses followed by escalating heroic and insane difficulty rematches across 18 brutal showdowns."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Trial",
+      "title": "The Puppet Trial & Combat Mastery",
+      "phase": "Phase I - Training the Vanguard",
+      "description": "Defeating Mr. Puppet to master the Scan & Play mechanics and starting deck synergies."
+    },
+    {
+      "order": 2,
+      "badgeText": "Box 1",
+      "title": "The First Vault - Depths of the Dungeon",
+      "phase": "Phase II - Rising Threat",
+      "description": "Unlocking Loot Box 1 to integrate advanced tactical equipment and powerful new class cards."
+    },
+    {
+      "order": 3,
+      "badgeText": "Box 2",
+      "title": "The Second Vault - Arcane Evolution",
+      "phase": "Phase III - The Elemental Onslaught",
+      "description": "Unlocking Loot Box 2 as multi-phase boss mechanics intensify and heroes gain specialized elemental abilities."
+    },
+    {
+      "order": 4,
+      "badgeText": "Box 3",
+      "title": "The Final Vault - Apex Artifacts",
+      "phase": "Phase IV - Brink of Cataclysm",
+      "description": "Unlocking Loot Box 3 with legendary relics before descending into the innermost sanctuary."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Sovereign of the Abyss - Final Victory",
+      "phase": "Phase V - The Ultimate Confrontation",
+      "description": "Toppling the supreme arch-boss to save the realm and complete the campaign."
+    }
+  ]
+}
