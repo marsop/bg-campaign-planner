@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.63.0] - 2026-09-25
+
 ### Added
+- **New Board Game Added**:
+  - Added support for **Boss Fighters QR**, the app-driven cooperative hybrid boss-battler by Michael Palm and Lukas Zach (Pegasus Spiele, 2025; Kennerspiel des Jahres 2026 Nominee).
+    - 3 campaign scope presets: *Full Campaign Hunt* (11 scenarios, recommended), *Core Boss Gauntlet* (6 scenarios), and *Veteran Master Gauntlet* (18 scenarios).
+    - 5 narrative milestone checkpoints: *The Puppet Trial & Combat Mastery* (Trial 1), *The First Vault - Depths of the Dungeon* (Box 1 / Scenario 4), *The Second Vault - Arcane Evolution* (Box 2 / Scenario 7), *The Final Vault - Apex Artifacts* (Box 3 / Scenario 10), and *Sovereign of the Abyss - Final Victory* (Finale / Scenario 11), with full spoiler mask protection.
+    - Thematic visual identity (golden crest `#f59e0b`, abyss purple `#1a1026`, and neon magenta `#ec4899` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen background of physical components, decks, and tokens on tabletop).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
 - Added "Buy me a coffee" link in the application footer supporting creator Alberto Gregorio, fully styled and localized in 5 languages.
 
 ## [0.62.0] - 2026-09-24

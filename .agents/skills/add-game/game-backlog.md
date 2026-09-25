@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (66 games):**
+**Currently in app (67 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -75,6 +75,7 @@ requested by the user.
 - The Adventures of Robin Hood
 - Undaunted: Stalingrad
 - Sleeping Gods: Distant Skies
+- Boss Fighters QR
 
 ---
 
