@@ -1915,6 +1915,54 @@ body {
     transition: all 0.25s ease;
 }
 
+.footer-coffee-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0.65rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-main);
+    background: var(--toggle-bg);
+    border: 1px solid var(--toggle-border);
+    border-radius: 9999px;
+    text-decoration: none;
+    backdrop-filter: blur(8px);
+    transition: all 0.2s ease;
+    line-height: 1.2;
+}
+
+.footer-coffee-link:hover {
+    background: var(--toggle-active-bg);
+    border-color: #ffdd00;
+    color: var(--text-main);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255, 221, 0, 0.2);
+}
+
+.footer-coffee-link:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+}
+
+.footer-coffee-link i {
+    color: #ffdd00;
+    transition: transform 0.2s ease;
+}
+
+:root[data-theme="light"] .footer-coffee-link i {
+    color: #d97706;
+}
+
+:root[data-theme="light"] .footer-coffee-link:hover {
+    border-color: #d97706;
+    box-shadow: 0 4px 12px rgba(217, 119, 6, 0.2);
+}
+
+.footer-coffee-link:hover i {
+    transform: scale(1.15) rotate(-8deg);
+}
+
 /* ==========================================================================
    11. LANGUAGE SELECTOR
    ========================================================================== */

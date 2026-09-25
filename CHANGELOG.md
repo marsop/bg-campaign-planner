@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Added "Buy me a coffee" link in the application footer supporting creator Alberto Gregorio, fully styled and localized in 5 languages.
+
 ## [0.62.0] - 2026-09-24
 
 ### Added

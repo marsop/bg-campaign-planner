@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="App.BuyMeACoffee" xml:space="preserve">
+    <value>Offrez-moi un café</value>
+  </data>
   <data name="App.FooterSources" xml:space="preserve">
     <value>Données publiques issues de BoardGameGeek et des livrets de règles officiels de Cephalofair Games et Z-Man Games.</value>
   </data>
