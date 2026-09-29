@@ -81,13 +81,16 @@ requested by the user.
 
 ## 🟥 High Priority
 
-*(None currently)*
+- **Marvel Champions: The Card Game** — Cooperative Living Card Game with narrative campaign expansions (e.g. Rise of Red Skull). 5 scenarios per expansion (10-15 hours). ~8.1 BGG. 1-4 players. Hand management, cooperative, scenario-based.
+- **Legends of Andor** — Cooperative fantasy adventure game driven by a scenario deck. 6 Legends (10-15 hours). ~7.2 BGG. 2-4 players. Cooperative, puzzle, narrative.
+- **Risk Legacy** — The original legacy game where factions evolve and the world changes permanently over 15 games. 15 sessions (15-20 hours). ~7.5 BGG. 3-5 players. Legacy, area control, evolving board.
 
 ---
 
 ## 🟧 Medium Priority
 
-*(None currently)*
+- **Stuffed Fables** — Narrative adventure book game where players control plush toys saving a child. 7 stories (10-15 hours). ~7.4 BGG. 2-4 players. Adventure book, storytelling, cooperative.
+- **Shadows of Brimstone: City of the Ancients** — Weird West dungeon crawler with persistent town visits and character leveling. 10-15+ sessions (20-30 hours). ~7.6 BGG. 1-4 players. Dungeon crawler, RPG progression, dice rolling.
 
 ---
 
@@ -117,3 +120,7 @@ requested by the user.
 - Scythe: The Rise of Fenris requires the base game Scythe to play.
 - Undaunted: Stalingrad is strictly a 2-player campaign with permanent casualty sticker tracking.
 - The King's Dilemma plays best with a dedicated group of 4-5 players and features permanent sticker application and card destruction.
+
+- Marvel Champions: The Card Game campaigns are found in specific big-box expansions (like The Rise of Red Skull), not the core box alone.
+- Risk Legacy involves physical destruction of components and permanent stickers on the board.
+- Legends of Andor plays more like a strict efficiency puzzle rather than a loose hack-and-slash crawler.
