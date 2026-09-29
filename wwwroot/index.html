@@ -183,6 +183,25 @@
                         window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
                     }
                 }, 50);
+            },
+            // ── BGG Collection localStorage helpers ──────────────────────────
+            getBggUsername: function () {
+                try { return localStorage.getItem('bg_campaign_planner_bgg_user') || ''; } catch (e) { return ''; }
+            },
+            setBggUsername: function (username) {
+                try { localStorage.setItem('bg_campaign_planner_bgg_user', username || ''); } catch (e) {}
+            },
+            clearBggUsername: function () {
+                try { localStorage.removeItem('bg_campaign_planner_bgg_user'); } catch (e) {}
+            },
+            getBggCollection: function () {
+                try { return localStorage.getItem('bg_campaign_planner_bgg_collection') || ''; } catch (e) { return ''; }
+            },
+            setBggCollection: function (json) {
+                try { localStorage.setItem('bg_campaign_planner_bgg_collection', json || ''); } catch (e) {}
+            },
+            clearBggCollection: function () {
+                try { localStorage.removeItem('bg_campaign_planner_bgg_collection'); } catch (e) {}
             }
         };
     </script>

@@ -2595,3 +2595,167 @@ body {
 #blazor-error-ui .dismiss:hover {
     opacity: 1;
 }
+
+/* ==========================================================================
+   BGG COLLECTION INTEGRATION
+   ========================================================================== */
+
+/* ── Integration bar container ── */
+.bgg-integration-bar {
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color-subtle);
+    border-radius: 12px;
+    padding: 14px 16px;
+    backdrop-filter: blur(6px);
+}
+
+.bgg-bar-title {
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent-gold-text);
+    opacity: 0.9;
+}
+
+/* ── Username input ── */
+.bgg-username-input {
+    background: var(--input-bg) !important;
+    border-color: var(--border-color) !important;
+    color: var(--text-main) !important;
+    border-radius: 8px !important;
+    font-size: 0.88rem;
+    height: 38px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.bgg-username-input:focus {
+    background: var(--input-bg-focus) !important;
+    border-color: var(--border-color-focus) !important;
+    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.15) !important;
+}
+
+/* ── Sync / Disconnect buttons ── */
+.btn-bgg-sync {
+    background: linear-gradient(135deg, rgba(245,158,11,0.18), rgba(245,158,11,0.08));
+    border: 1px solid rgba(245,158,11,0.4);
+    color: var(--accent-gold-text);
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 0.84rem;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+.btn-bgg-sync:hover:not(:disabled) {
+    background: linear-gradient(135deg, rgba(245,158,11,0.28), rgba(245,158,11,0.14));
+    border-color: rgba(245,158,11,0.65);
+    color: var(--accent-gold);
+}
+.btn-bgg-sync:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.btn-bgg-disconnect {
+    background: rgba(239,68,68,0.08);
+    border: 1px solid rgba(239,68,68,0.3);
+    color: #ef4444;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: background 0.2s, border-color 0.2s;
+}
+.btn-bgg-disconnect:hover {
+    background: rgba(239,68,68,0.15);
+    border-color: rgba(239,68,68,0.5);
+}
+
+/* ── Status messages ── */
+.bgg-status-msg {
+    font-size: 0.82rem;
+    border-radius: 6px;
+    padding: 5px 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+.bgg-loading  { color: var(--text-muted-light); background: var(--panel-bg-alt); }
+.bgg-success  { color: #34d399; background: rgba(52,211,153,0.08); }
+.bgg-error    { color: #f87171; background: rgba(248,113,113,0.08); }
+
+/* ── Connected chip ── */
+.bgg-connected-chip {
+    font-size: 0.78rem;
+    color: #34d399;
+    background: rgba(52,211,153,0.10);
+    border: 1px solid rgba(52,211,153,0.25);
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-weight: 500;
+}
+
+/* ── Owned Only filter pill ── */
+.bgg-owned-pill {
+    border-color: rgba(52,211,153,0.35) !important;
+    color: #34d399 !important;
+}
+.bgg-owned-pill:hover {
+    background: rgba(52,211,153,0.12) !important;
+    border-color: rgba(52,211,153,0.55) !important;
+}
+.bgg-owned-pill.active,
+.bgg-owned-pill.bgg-owned-active {
+    background: rgba(52,211,153,0.18) !important;
+    border-color: #34d399 !important;
+    color: #34d399 !important;
+    box-shadow: 0 0 8px rgba(52,211,153,0.22);
+}
+
+/* ── Owned badge on game cards ── */
+.badge-bgg-owned {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    background: linear-gradient(135deg, rgba(52,211,153,0.20), rgba(52,211,153,0.10));
+    border: 1px solid rgba(52,211,153,0.4);
+    color: #34d399;
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+}
+
+/* ── BGG meta pills (plays, user rating) ── */
+.bgg-plays-pill {
+    border-color: rgba(52,211,153,0.3) !important;
+    color: #34d399 !important;
+    background: rgba(52,211,153,0.06) !important;
+}
+.bgg-rating-pill {
+    border-color: rgba(251,191,36,0.3) !important;
+    color: #fbbf24 !important;
+    background: rgba(251,191,36,0.06) !important;
+}
+
+/* ── Light theme overrides ── */
+[data-theme="light"] .bgg-integration-bar {
+    background: rgba(255,255,255,0.6);
+    border-color: rgba(0,0,0,0.10);
+}
+[data-theme="light"] .bgg-username-input {
+    background: #fff !important;
+    border-color: #d1d5db !important;
+    color: #1f2937 !important;
+}
+[data-theme="light"] .bgg-username-input:focus {
+    background: #fff !important;
+    border-color: rgba(245,158,11,0.5) !important;
+}
+[data-theme="light"] .bgg-bar-title { color: #92400e; }
+[data-theme="light"] .btn-bgg-sync { color: #92400e; }
+[data-theme="light"] .bgg-success, [data-theme="light"] .bgg-connected-chip { color: #059669; background: rgba(5,150,105,0.08); }
+[data-theme="light"] .bgg-owned-pill, [data-theme="light"] .badge-bgg-owned, [data-theme="light"] .bgg-plays-pill { color: #059669 !important; }

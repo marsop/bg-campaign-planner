@@ -763,4 +763,58 @@
   <data name="Timeline.HiddenMilestoneNote" xml:space="preserve">
     <value>Campaign Milestone Reached</value>
   </data>
-</root>
+  <data name="Bgg.SectionTitle" xml:space="preserve">
+    <value>🎲 BGG Collection</value>
+  </data>
+  <data name="Bgg.UsernamePlaceholder" xml:space="preserve">
+    <value>BGG Username</value>
+  </data>
+  <data name="Bgg.UsernameLabel" xml:space="preserve">
+    <value>BoardGameGeek Username</value>
+  </data>
+  <data name="Bgg.FetchBtn" xml:space="preserve">
+    <value>Sync Collection</value>
+  </data>
+  <data name="Bgg.DisconnectBtn" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="Bgg.Loading" xml:space="preserve">
+    <value>Fetching your collection…</value>
+  </data>
+  <data name="Bgg.SuccessMsg" xml:space="preserve">
+    <value>Collection synced! {0} game(s) owned.</value>
+  </data>
+  <data name="Bgg.ErrorMsg" xml:space="preserve">
+    <value>Error: {0}</value>
+  </data>
+  <data name="Bgg.OwnedFilterToggle" xml:space="preserve">
+    <value>Owned Only</value>
+  </data>
+  <data name="Bgg.OwnedFilterCount" xml:space="preserve">
+    <value>Owned in BGG ({0})</value>
+  </data>
+  <data name="Bgg.OwnedBadge" xml:space="preserve">
+    <value>In Collection</value>
+  </data>
+  <data name="Bgg.PlaysCount" xml:space="preserve">
+    <value>{0} plays logged</value>
+  </data>
+  <data name="Bgg.UserRating" xml:space="preserve">
+    <value>Your rating: {0}/10</value>
+  </data>
+  <data name="Bgg.PlaysHint" xml:space="preserve">
+    <value>You have logged {0} {1} on BGG.</value>
+  </data>
+  <data name="Bgg.PlaysHintUnit" xml:space="preserve">
+    <value>plays</value>
+  </data>
+  <data name="Bgg.RetryNote" xml:space="preserve">
+    <value>BGG is preparing your collection. Retrying…</value>
+  </data>
+  <data name="Bgg.ConnectedAs" xml:space="preserve">
+    <value>Connected as {0}</value>
+  </data>
+  <data name="Bgg.NotConnected" xml:space="preserve">
+    <value>Not connected</value>
+  </data>
+</root>

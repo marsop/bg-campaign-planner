@@ -1,6 +1,7 @@
 using System.Globalization;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.Extensions.Logging;
 using Microsoft.JSInterop;
 using bg_campaign_planner;
 using bg_campaign_planner.Services;
@@ -15,6 +16,17 @@ builder.Services.AddSingleton<CampaignDataService>();
 builder.Services.AddSingleton<PlannerCalculatorService>();
 builder.Services.AddScoped<ILocalizationService, LocalizationService>();
 builder.Services.AddScoped<ThemeService>();
+
+// BGG Collection Integration – register BggService with its own HttpClient
+// (no forced BaseAddress, so it can construct absolute URLs for direct + CORS proxy fallbacks).
+builder.Services.AddScoped<BggService>(sp =>
+{
+    var http = new HttpClient();
+    http.DefaultRequestHeaders.Add("Accept", "application/xml, text/xml, */*");
+    http.Timeout = TimeSpan.FromSeconds(30);
+    var logger = sp.GetRequiredService<ILogger<BggService>>();
+    return new BggService(http, logger);
+});
 
 var host = builder.Build();
 

@@ -763,4 +763,58 @@
   <data name="Timeline.HiddenMilestoneNote" xml:space="preserve">
     <value>Kampagnen-Meilenstein erreicht</value>
   </data>
+  <data name="Bgg.SectionTitle" xml:space="preserve">
+    <value>🎲 BGG-Sammlung</value>
+  </data>
+  <data name="Bgg.UsernamePlaceholder" xml:space="preserve">
+    <value>BGG-Benutzername</value>
+  </data>
+  <data name="Bgg.UsernameLabel" xml:space="preserve">
+    <value>BoardGameGeek-Benutzername</value>
+  </data>
+  <data name="Bgg.FetchBtn" xml:space="preserve">
+    <value>Sammlung synchronisieren</value>
+  </data>
+  <data name="Bgg.DisconnectBtn" xml:space="preserve">
+    <value>Trennen</value>
+  </data>
+  <data name="Bgg.Loading" xml:space="preserve">
+    <value>Sammlung wird geladen…</value>
+  </data>
+  <data name="Bgg.SuccessMsg" xml:space="preserve">
+    <value>Sammlung synchronisiert! {0} Spiel(e) im Besitz.</value>
+  </data>
+  <data name="Bgg.ErrorMsg" xml:space="preserve">
+    <value>Fehler: {0}</value>
+  </data>
+  <data name="Bgg.OwnedFilterToggle" xml:space="preserve">
+    <value>Nur eigene Spiele</value>
+  </data>
+  <data name="Bgg.OwnedFilterCount" xml:space="preserve">
+    <value>In BGG-Sammlung ({0})</value>
+  </data>
+  <data name="Bgg.OwnedBadge" xml:space="preserve">
+    <value>In meiner Sammlung</value>
+  </data>
+  <data name="Bgg.PlaysCount" xml:space="preserve">
+    <value>{0} Partien erfasst</value>
+  </data>
+  <data name="Bgg.UserRating" xml:space="preserve">
+    <value>Deine Bewertung: {0}/10</value>
+  </data>
+  <data name="Bgg.PlaysHint" xml:space="preserve">
+    <value>Du hast {0} {1} auf BGG erfasst.</value>
+  </data>
+  <data name="Bgg.PlaysHintUnit" xml:space="preserve">
+    <value>Partien</value>
+  </data>
+  <data name="Bgg.RetryNote" xml:space="preserve">
+    <value>BGG bereitet deine Sammlung vor. Neuer Versuch…</value>
+  </data>
+  <data name="Bgg.ConnectedAs" xml:space="preserve">
+    <value>Verbunden als {0}</value>
+  </data>
+  <data name="Bgg.NotConnected" xml:space="preserve">
+    <value>Nicht verbunden</value>
+  </data>
 </root>

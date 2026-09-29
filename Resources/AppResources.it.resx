@@ -763,4 +763,58 @@
   <data name="Timeline.HiddenMilestoneNote" xml:space="preserve">
     <value>Traguardo della campagna raggiunto</value>
   </data>
+  <data name="Bgg.SectionTitle" xml:space="preserve">
+    <value>🎲 Collezione BGG</value>
+  </data>
+  <data name="Bgg.UsernamePlaceholder" xml:space="preserve">
+    <value>Nome utente BGG</value>
+  </data>
+  <data name="Bgg.UsernameLabel" xml:space="preserve">
+    <value>Nome utente BoardGameGeek</value>
+  </data>
+  <data name="Bgg.FetchBtn" xml:space="preserve">
+    <value>Sincronizza collezione</value>
+  </data>
+  <data name="Bgg.DisconnectBtn" xml:space="preserve">
+    <value>Disconnetti</value>
+  </data>
+  <data name="Bgg.Loading" xml:space="preserve">
+    <value>Recupero della collezione…</value>
+  </data>
+  <data name="Bgg.SuccessMsg" xml:space="preserve">
+    <value>Collezione sincronizzata! {0} gioco/i posseduto/i.</value>
+  </data>
+  <data name="Bgg.ErrorMsg" xml:space="preserve">
+    <value>Errore: {0}</value>
+  </data>
+  <data name="Bgg.OwnedFilterToggle" xml:space="preserve">
+    <value>Solo posseduti</value>
+  </data>
+  <data name="Bgg.OwnedFilterCount" xml:space="preserve">
+    <value>In collezione BGG ({0})</value>
+  </data>
+  <data name="Bgg.OwnedBadge" xml:space="preserve">
+    <value>Nella mia collezione</value>
+  </data>
+  <data name="Bgg.PlaysCount" xml:space="preserve">
+    <value>{0} partite registrate</value>
+  </data>
+  <data name="Bgg.UserRating" xml:space="preserve">
+    <value>Il tuo voto: {0}/10</value>
+  </data>
+  <data name="Bgg.PlaysHint" xml:space="preserve">
+    <value>Hai registrato {0} {1} su BGG.</value>
+  </data>
+  <data name="Bgg.PlaysHintUnit" xml:space="preserve">
+    <value>partite</value>
+  </data>
+  <data name="Bgg.RetryNote" xml:space="preserve">
+    <value>BGG sta preparando la tua collezione. Nuovo tentativo…</value>
+  </data>
+  <data name="Bgg.ConnectedAs" xml:space="preserve">
+    <value>Connesso come {0}</value>
+  </data>
+  <data name="Bgg.NotConnected" xml:space="preserve">
+    <value>Non connesso</value>
+  </data>
 </root>

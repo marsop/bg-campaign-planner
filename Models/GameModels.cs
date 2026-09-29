@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace bg_campaign_planner.Models;
 
@@ -84,4 +85,21 @@ public class BoardGame
     public string? BackgroundImageUrl { get; set; }
     public string? CustomCssUrl { get; set; }
     public string Quality { get; set; } = "high";
+
+    /// <summary>
+    /// Extracts the numeric BGG game ID from <see cref="BggUrl"/>.
+    /// E.g. "https://boardgamegeek.com/boardgame/174430/gloomhaven" → 174430.
+    /// Returns null when <see cref="BggUrl"/> is empty or does not match the expected pattern.
+    /// </summary>
+    public int? BggId
+    {
+        get
+        {
+            if (string.IsNullOrWhiteSpace(BggUrl)) return null;
+            var m = Regex.Match(BggUrl, @"/boardgame(?:expansion|accessory)?/(\d+)/", RegexOptions.IgnoreCase);
+            if (m.Success && int.TryParse(m.Groups[1].Value, out var id))
+                return id;
+            return null;
+        }
+    }
 }

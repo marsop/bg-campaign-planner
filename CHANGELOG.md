@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.64.0] - 2026-09-29
+
+### Added
+- **BoardGameGeek (BGG) Collection Integration**:
+  - Added a new **BGG Collection** panel in the game selector (Step 1) that connects the planner to any user's BoardGameGeek account.
+  - **Username Input & Sync**: Enter a BGG username and click "Sync Collection" (or press Enter) to fetch all owned games and play statistics via the BGG XML API2.
+  - **HTTP 202 Queued Response Handling**: Automatically retries up to 4 times with a 2.5-second delay when BGG returns an "accepted" queued response, before showing an error.
+  - **CORS Proxy Fallback**: If the direct browser request is blocked by CORS, the service transparently falls back to `api.allorigins.win` and then `corsproxy.io`.
+  - **Owned Badge on Game Cards**: Games found in the user's BGG collection display a distinct green **"In Collection"** badge (with bookmark-heart icon) directly on the game card header.
+  - **Play Count & User Rating Pills**: Each matched game card shows how many plays have been logged on BGG (🎮 N plays), and the user's personal rating (⭐ N.N) as additional colored meta-pills.
+  - **"Owned Only" Filter Toggle**: A quick-filter pill appears after syncing, showing `"Owned in BGG (N)"`. Toggling it filters the game grid to display only games from the user's collection that are in the catalog.
+  - **Connected State Chip**: When a collection is loaded, a "Connected as {username}" chip is shown in the integration bar header for quick reference.
+  - **Disconnect / Reset**: A "Disconnect" button clears the collection, resets all BGG badges and filters, and removes all stored data.
+  - **localStorage Persistence**: The BGG username and full collection JSON are cached in `localStorage` so the collection is restored automatically on page reload — no re-fetch required.
+  - **BGG ID Resolution**: `BoardGame` model now exposes a computed `BggId` property that parses the numeric game ID from the existing `BggUrl` (e.g. `…/boardgame/174430/…` → `174430`). Matching to collection items is performed first by ID, then by title as a case-insensitive fallback for maximum coverage.
+  - **5-Language Localization**: All new UI strings (labels, badges, status messages, error prompts, filter pills) are fully translated in English, Spanish, German, French, and Italian.
+
 ## [0.63.0] - 2026-09-25
 
 ### Added

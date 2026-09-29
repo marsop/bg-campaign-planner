@@ -1,9 +1,100 @@
 @using bg_campaign_planner.Models
 @using bg_campaign_planner.Services
 @using System.Globalization
+@using System.Text.Json
 @inject IStringLocalizer<AppResources> Loc
+@inject BggService BggSvc
+@inject IJSRuntime JS
 
 <div class="game-selector-container mb-4">
+    <!-- BGG COLLECTION INTEGRATION BAR -->
+    <div class="bgg-integration-bar mb-3">
+        <div class="bgg-bar-header d-flex align-items-center justify-content-between gap-2 flex-wrap">
+            <span class="bgg-bar-title">
+                <i class="bi bi-collection-fill me-1"></i>@Loc["Bgg.SectionTitle"]
+            </span>
+            @if (bggResult.State == BggSyncState.Success && !string.IsNullOrEmpty(bggResult.Username))
+            {
+                <span class="bgg-connected-chip">
+                    <i class="bi bi-person-check-fill me-1"></i>
+                    @Loc.Get("Bgg.ConnectedAs", bggResult.Username)
+                </span>
+            }
+        </div>
+        <div class="bgg-bar-body mt-2">
+            <div class="d-flex flex-column flex-sm-row gap-2 align-items-stretch align-items-sm-center">
+                <!-- Username input -->
+                <div class="bgg-input-wrapper flex-grow-1">
+                    <input type="text"
+                           class="form-control bgg-username-input @(bggResult.State == BggSyncState.Error ? "is-invalid" : "")"
+                           placeholder="@Loc["Bgg.UsernamePlaceholder"]"
+                           aria-label="@Loc["Bgg.UsernameLabel"]"
+                           @bind="bggUsernameInput"
+                           @bind:event="oninput"
+                           @onkeydown="HandleBggKeyDown"
+                           disabled="@(bggResult.State == BggSyncState.Loading)" />
+                </div>
+                <!-- Sync button -->
+                <button type="button"
+                        class="btn btn-bgg-sync"
+                        @onclick="FetchBggCollection"
+                        disabled="@(bggResult.State == BggSyncState.Loading || string.IsNullOrWhiteSpace(bggUsernameInput))">
+                    @if (bggResult.State == BggSyncState.Loading)
+                    {
+                        <span class="spinner-border spinner-border-sm me-1" role="status" aria-hidden="true"></span>
+                    }
+                    else
+                    {
+                        <i class="bi bi-cloud-download me-1"></i>
+                    }
+                    @Loc["Bgg.FetchBtn"]
+                </button>
+                <!-- Disconnect button -->
+                @if (bggResult.State == BggSyncState.Success)
+                {
+                    <button type="button"
+                            class="btn btn-bgg-disconnect"
+                            @onclick="DisconnectBgg">
+                        <i class="bi bi-x-circle me-1"></i>@Loc["Bgg.DisconnectBtn"]
+                    </button>
+                }
+            </div>
+
+            <!-- Status row -->
+            @if (bggResult.State == BggSyncState.Loading)
+            {
+                <div class="bgg-status-msg bgg-loading mt-2">
+                    <i class="bi bi-hourglass-split me-1"></i>@Loc["Bgg.Loading"]
+                </div>
+            }
+            else if (bggResult.State == BggSyncState.Error && !string.IsNullOrEmpty(bggResult.ErrorMessage))
+            {
+                <div class="bgg-status-msg bgg-error mt-2">
+                    <i class="bi bi-exclamation-triangle-fill me-1"></i>@Loc.Get("Bgg.ErrorMsg", bggResult.ErrorMessage)
+                </div>
+            }
+            else if (bggResult.State == BggSyncState.Success)
+            {
+                <div class="bgg-status-row d-flex flex-wrap align-items-center gap-2 mt-2">
+                    <div class="bgg-status-msg bgg-success">
+                        <i class="bi bi-check-circle-fill me-1"></i>
+                        @Loc.Get("Bgg.SuccessMsg", OwnedCatalogCount)
+                    </div>
+                    <!-- Owned Only filter toggle pill -->
+                    @if (OwnedCatalogCount > 0)
+                    {
+                        <button type="button"
+                                class="btn-filter-pill @(filterOwnedOnly ? "active bgg-owned-active" : "") bgg-owned-pill"
+                                @onclick="ToggleOwnedFilter">
+                            <i class="bi bi-bookmark-heart-fill me-1"></i>
+                            @Loc.Get("Bgg.OwnedFilterCount", OwnedCatalogCount)
+                        </button>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+
     <!-- FILTER BAR -->
     <div class="game-filter-bar mb-4">
         <!-- Main Search & Toggle Bar -->
@@ -399,13 +490,22 @@
                         <div class="card-glow"></div>
                         
                         <div class="card-header-badge d-flex justify-content-between align-items-center">
-                            <div class="d-flex align-items-center gap-2">
+                            <div class="d-flex align-items-center gap-2 flex-wrap">
                                 <span class="badge-category">@game.Theme.BadgeCategory</span>
                                 @if (!string.IsNullOrEmpty(game.BggUrl))
                                 {
                                     <a href="@game.BggUrl" target="_blank" rel="noopener noreferrer" class="badge-bgg-link" title="@Loc.Get("GameSelector.ViewOnBgg", game.Title)" @onclick:stopPropagation="true">
                                         <i class="bi bi-box-arrow-up-right me-1"></i>BGG
                                     </a>
+                                }
+                                @{
+                                    var bggItem = GetBggItem(game);
+                                }
+                                @if (bggItem != null)
+                                {
+                                    <span class="badge-bgg-owned" title="@Loc.Get("Bgg.PlaysCount", bggItem.NumPlays)">
+                                        <i class="bi bi-bookmark-heart-fill me-1"></i>@Loc["Bgg.OwnedBadge"]
+                                    </span>
                                 }
                             </div>
                             <span class="badge-status">
@@ -460,6 +560,18 @@
                                 <span class="meta-pill" title="@Loc["GameSelector.Year"]">
                                     📅 <strong>@game.ReleaseYear</strong>
                                 </span>
+                                @if (bggItem != null && bggItem.NumPlays > 0)
+                                {
+                                    <span class="meta-pill bgg-plays-pill" title="@Loc.Get("Bgg.PlaysCount", bggItem.NumPlays)">
+                                        🎮 <strong>@bggItem.NumPlays</strong> @Loc["Bgg.PlaysHintUnit"]
+                                    </span>
+                                }
+                                @if (bggItem?.UserRating.HasValue == true)
+                                {
+                                    <span class="meta-pill bgg-rating-pill" title="@Loc.Get("Bgg.UserRating", bggItem.UserRating.Value.ToString("F1", CultureInfo.InvariantCulture))">
+                                        ⭐ <strong>@bggItem.UserRating.Value.ToString("F1", CultureInfo.CurrentCulture)</strong> @Loc["GameSelector.Rating"]
+                                    </span>
+                                }
                             </div>
 
                             <p class="game-lore-snippet">
@@ -561,6 +673,53 @@
     private YearFilter selectedYear = YearFilter.All;
     private string? selectedCategory = null;
     private SortOption selectedSort = SortOption.Default;
+
+    // ── BGG Collection state ───────────────────────────────────────────────
+    private BggCollectionResult bggResult = new();
+    private string bggUsernameInput = string.Empty;
+    private bool filterOwnedOnly = false;
+
+    /// <summary>
+    /// Fast lookup: BGG numeric ID → BggCollectionItem.
+    /// Built/updated every time the collection is refreshed.
+    /// </summary>
+    private Dictionary<int, BggCollectionItem> _bggById = new();
+
+    /// <summary>
+    /// Fast lookup: lowercase title → BggCollectionItem (fallback when BggId is absent).
+    /// </summary>
+    private Dictionary<string, BggCollectionItem> _bggByTitle = new(StringComparer.OrdinalIgnoreCase);
+
+    /// <summary>Number of catalog games that match the user's owned BGG collection.</summary>
+    private int OwnedCatalogCount => Games == null ? 0 :
+        Games.Count(g => GetBggItem(g) != null);
+
+    /// <summary>
+    /// Resolves the BGG collection item for a given catalog game.
+    /// Matches first by numeric BGG ID extracted from BggUrl, then falls back to title.
+    /// Returns null when no collection is loaded or the game isn't in the user's collection.
+    /// </summary>
+    private BggCollectionItem? GetBggItem(BoardGame game)
+    {
+        if (bggResult.State != BggSyncState.Success) return null;
+        if (game.BggId.HasValue && _bggById.TryGetValue(game.BggId.Value, out var byId))
+            return byId;
+        if (!string.IsNullOrWhiteSpace(game.Title) && _bggByTitle.TryGetValue(game.Title, out var byTitle))
+            return byTitle;
+        return null;
+    }
+
+    private void RebuildBggLookups()
+    {
+        _bggById = new Dictionary<int, BggCollectionItem>();
+        _bggByTitle = new Dictionary<string, BggCollectionItem>(StringComparer.OrdinalIgnoreCase);
+        foreach (var item in bggResult.Items)
+        {
+            _bggById.TryAdd(item.BggId, item);
+            if (!string.IsNullOrWhiteSpace(item.Title))
+                _bggByTitle.TryAdd(item.Title, item);
+        }
+    }
 
     private int ActiveAdvancedFilterCount
     {
@@ -690,6 +849,12 @@
                 query = query.Where(g => string.Equals(g.Theme?.BadgeCategory, selectedCategory, StringComparison.OrdinalIgnoreCase));
             }
 
+            // 9. BGG Owned Only filter
+            if (filterOwnedOnly && bggResult.State == BggSyncState.Success)
+            {
+                query = query.Where(g => GetBggItem(g) != null);
+            }
+
             // 8. Sorting
             query = selectedSort switch
             {
@@ -806,5 +971,129 @@
                $"--game-glow: {game.Theme.GlowColor}; " +
                $"--game-card-bg: {game.Theme.CardBackground}; " +
                $"--game-header-font: {game.Theme.HeaderFont};";
+    }
+
+    // ── BGG Collection lifecycle & action methods ──────────────────────────
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Restore saved username from localStorage.
+            var savedUser = await JS.InvokeAsync<string?>("campaignPlanner.getBggUsername");
+            if (!string.IsNullOrWhiteSpace(savedUser))
+            {
+                bggUsernameInput = savedUser;
+
+                // Try to restore a cached collection (avoids a network round-trip on reload).
+                var cachedJson = await JS.InvokeAsync<string?>("campaignPlanner.getBggCollection");
+                if (!string.IsNullOrWhiteSpace(cachedJson))
+                {
+                    try
+                    {
+                        var cachedItems = JsonSerializer.Deserialize<List<BggCollectionItem>>(cachedJson,
+                            new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                        if (cachedItems != null && cachedItems.Count > 0)
+                        {
+                            bggResult = new BggCollectionResult
+                            {
+                                Items = cachedItems,
+                                State = BggSyncState.Success,
+                                Username = savedUser,
+                                FetchedAt = DateTime.UtcNow
+                            };
+                            RebuildBggLookups();
+                        }
+                    }
+                    catch
+                    {
+                        // Corrupted cache — ignore and let user re-sync manually.
+                    }
+                }
+            }
+        }
+        catch
+        {
+            // JS interop may not be available during prerendering; safe to ignore.
+        }
+    }
+
+    private async Task FetchBggCollection()
+    {
+        var username = bggUsernameInput.Trim();
+        if (string.IsNullOrWhiteSpace(username)) return;
+
+        bggResult = new BggCollectionResult { State = BggSyncState.Loading, Username = username };
+        filterOwnedOnly = false;
+        StateHasChanged();
+
+        try
+        {
+            var items = await BggSvc.FetchUserCollectionAsync(username);
+
+            bggResult = new BggCollectionResult
+            {
+                Items = items,
+                State = BggSyncState.Success,
+                Username = username,
+                FetchedAt = DateTime.UtcNow
+            };
+            RebuildBggLookups();
+
+            // Persist to localStorage for next page load.
+            await JS.InvokeVoidAsync("campaignPlanner.setBggUsername", username);
+            var json = JsonSerializer.Serialize(items);
+            await JS.InvokeVoidAsync("campaignPlanner.setBggCollection", json);
+        }
+        catch (BggServiceException ex)
+        {
+            bggResult = new BggCollectionResult
+            {
+                State = BggSyncState.Error,
+                ErrorMessage = ex.Message,
+                Username = username
+            };
+        }
+        catch (Exception)
+        {
+            bggResult = new BggCollectionResult
+            {
+                State = BggSyncState.Error,
+                ErrorMessage = "An unexpected error occurred. Please try again.",
+                Username = username
+            };
+        }
+
+        StateHasChanged();
+    }
+
+    private async Task DisconnectBgg()
+    {
+        bggResult = new BggCollectionResult();
+        bggUsernameInput = string.Empty;
+        filterOwnedOnly = false;
+        _bggById.Clear();
+        _bggByTitle.Clear();
+
+        try
+        {
+            await JS.InvokeVoidAsync("campaignPlanner.clearBggUsername");
+            await JS.InvokeVoidAsync("campaignPlanner.clearBggCollection");
+        }
+        catch { /* ignore */ }
+
+        StateHasChanged();
+    }
+
+    private async Task ToggleOwnedFilter()
+    {
+        filterOwnedOnly = !filterOwnedOnly;
+        await EnsureValidSelection();
+    }
+
+    private async Task HandleBggKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+            await FetchBggCollection();
     }
 }

@@ -763,4 +763,58 @@
   <data name="Timeline.HiddenMilestoneNote" xml:space="preserve">
     <value>Étape de campagne atteinte</value>
   </data>
+  <data name="Bgg.SectionTitle" xml:space="preserve">
+    <value>🎲 Collection BGG</value>
+  </data>
+  <data name="Bgg.UsernamePlaceholder" xml:space="preserve">
+    <value>Pseudo BGG</value>
+  </data>
+  <data name="Bgg.UsernameLabel" xml:space="preserve">
+    <value>Nom d'utilisateur BoardGameGeek</value>
+  </data>
+  <data name="Bgg.FetchBtn" xml:space="preserve">
+    <value>Synchroniser la collection</value>
+  </data>
+  <data name="Bgg.DisconnectBtn" xml:space="preserve">
+    <value>Déconnecter</value>
+  </data>
+  <data name="Bgg.Loading" xml:space="preserve">
+    <value>Récupération de votre collection…</value>
+  </data>
+  <data name="Bgg.SuccessMsg" xml:space="preserve">
+    <value>Collection synchronisée ! {0} jeu(x) possédé(s).</value>
+  </data>
+  <data name="Bgg.ErrorMsg" xml:space="preserve">
+    <value>Erreur : {0}</value>
+  </data>
+  <data name="Bgg.OwnedFilterToggle" xml:space="preserve">
+    <value>Ma collection uniquement</value>
+  </data>
+  <data name="Bgg.OwnedFilterCount" xml:space="preserve">
+    <value>Dans BGG ({0})</value>
+  </data>
+  <data name="Bgg.OwnedBadge" xml:space="preserve">
+    <value>Dans ma collection</value>
+  </data>
+  <data name="Bgg.PlaysCount" xml:space="preserve">
+    <value>{0} partie(s) enregistrée(s)</value>
+  </data>
+  <data name="Bgg.UserRating" xml:space="preserve">
+    <value>Votre note : {0}/10</value>
+  </data>
+  <data name="Bgg.PlaysHint" xml:space="preserve">
+    <value>Vous avez enregistré {0} {1} sur BGG.</value>
+  </data>
+  <data name="Bgg.PlaysHintUnit" xml:space="preserve">
+    <value>parties</value>
+  </data>
+  <data name="Bgg.RetryNote" xml:space="preserve">
+    <value>BGG prépare votre collection. Nouvelle tentative…</value>
+  </data>
+  <data name="Bgg.ConnectedAs" xml:space="preserve">
+    <value>Connecté en tant que {0}</value>
+  </data>
+  <data name="Bgg.NotConnected" xml:space="preserve">
+    <value>Non connecté</value>
+  </data>
 </root>
