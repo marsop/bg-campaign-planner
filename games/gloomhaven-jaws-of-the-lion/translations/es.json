@@ -1,0 +1,25 @@
+{
+  "title": "Gloomhaven: Fauces del León",
+  "subtitle": "Una campaña totalmente cooperativa de combate táctico en el universo de Gloomhaven",
+  "tagline": "El punto de entrada perfecto al mundo de Gloomhaven",
+  "loreSummary": "Eres miembro de 'Fauces del León', uno de los grupos de mercenarios más infames en este lúgubre rincón del mundo. Cuando una siniestra cábala empieza a hacer desaparecer gente, recae sobre ti la tarea de llegar al fondo del asunto.",
+  "badgeCategory": "RPG Táctico Iniciación",
+  "roadmapTitle": "🗺️ Progresión de la Campaña",
+  "roadmapBadge": "HOJA DE RUTA",
+  "keyFeatures": [
+    "Combate táctico con cartas (Sin dados, pura estrategia)",
+    "Guía tutorial para aprender a jugar durante los 5 primeros escenarios",
+    "Juega directamente en el libro de escenarios (sin montar piezas de mapa)",
+    "Cuatro clases únicas, cada una con su estilo de juego asimétrico"
+  ],
+  "scopes": {
+    "jotl_standard": {
+      "name": "Campaña Estándar",
+      "description": "La historia ramificada completa de 25 escenarios hasta su conclusión."
+    },
+    "jotl_quick": {
+      "name": "Enfoque en la Historia Rápida",
+      "description": "Un camino directo a través de la historia principal, omitiendo la mayoría de los escenarios secundarios opcionales."
+    }
+  }
+}

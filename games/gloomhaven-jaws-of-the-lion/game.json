@@ -1,0 +1,50 @@
+{
+  "id": "gloomhaven-jaws-of-the-lion",
+  "title": "Gloomhaven: Jaws of the Lion",
+  "releaseYear": 2020,
+  "designers": "Isaac Childres",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.6,
+  "bggWeight": 3.61,
+  "bggUrl": "https://boardgamegeek.com/boardgame/291457/gloomhaven-jaws-of-the-lion",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#b84735",
+    "secondaryColor": "#222125",
+    "accentColor": "#e8aa55",
+    "backgroundGradient": "radial-gradient(ellipse at top, #36221f 0%, #171515 60%, #0d0c0c 100%)",
+    "cardBackground": "rgba(34, 33, 37, 0.90)",
+    "borderColor": "rgba(184, 71, 53, 0.35)",
+    "glowColor": "rgba(184, 71, 53, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🦁",
+    "emblem": "⚔️🛡️",
+    "themeClass": "theme-jaws",
+    "activeThemeClass": "theme-jaws-active",
+    "roadmapClass": "roadmap-jaws",
+    "heroClass": "hero-jaws"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #291457)",
+    "Publisher Official Rulebook"
+  ],
+  "scopes": [
+    {
+      "id": "jotl_standard",
+      "baseScenarioCount": 25,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "jotl_quick",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Una campagna interamente cooperativa di combattimento tattico nell'universo di Gloomhaven",
+  "tagline": "Il perfetto punto di ingresso nel mondo di Gloomhaven",
+  "loreSummary": "Sei un membro delle 'Fauci del Leone', uno dei gruppi di mercenari più famigerati in questo squallido angolo di mondo. Quando una sinistra congrega inizia a far sparire le persone, spetta a te andare a fondo della questione.",
+  "badgeCategory": "GDR Tattico Introduttivo",
+  "roadmapTitle": "🗺️ Progressione della Campagna",
+  "roadmapBadge": "TABELLA DI MARCIA",
+  "keyFeatures": [
+    "Combattimento tattico basato sulle carte (Nessun dado, pura strategia)",
+    "Guida tutorial per imparare a giocare durante i primi 5 scenari",
+    "Gioca direttamente nel libro degli scenari (nessuna tessera mappa da assemblare)",
+    "Quattro classi uniche, ognuna con il proprio stile di gioco asimmetrico"
+  ],
+  "scopes": {
+    "jotl_standard": {
+      "name": "Campagna Standard",
+      "description": "La storia ramificata completa di 25 scenari fino alla conclusione."
+    },
+    "jotl_quick": {
+      "name": "Focus Storia Veloce",
+      "description": "Un percorso diretto attraverso la storia principale, bypassando la maggior parte degli scenari secondari opzionali."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "A fully cooperative campaign of tactical combat in the Gloomhaven universe",
+  "tagline": "The perfect entry point into the world of Gloomhaven",
+  "loreSummary": "You are a member of 'Jaws of the Lion', one of the most infamous mercenary groups in this run-down backwater. When a sinister cabal starts making people disappear, it falls to you to get to the bottom of it.",
+  "badgeCategory": "Tactical RPG Starter",
+  "roadmapTitle": "🗺️ Campaign Progression",
+  "roadmapBadge": "CITY ROADMAP",
+  "keyFeatures": [
+    "Card-driven tactical combat (No dice, pure strategy)",
+    "Learn-to-play tutorial guide over the first 5 scenarios",
+    "Play directly in the scenario book (no map tiles to assemble)",
+    "Four unique classes, each with their own asymmetric playstyle"
+  ],
+  "scopes": {
+    "jotl_standard": {
+      "name": "Standard Campaign",
+      "description": "The full 25-scenario branching storyline to the conclusion."
+    },
+    "jotl_quick": {
+      "name": "Quick Story Focus",
+      "description": "A direct path through the main story, bypassing most optional side scenarios."
+    }
+  }
+}

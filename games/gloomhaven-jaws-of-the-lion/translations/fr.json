@@ -1,0 +1,25 @@
+{
+  "title": "Gloomhaven : Les Mâchoires du Lion",
+  "subtitle": "Une campagne entièrement coopérative de combat tactique dans l'univers de Gloomhaven",
+  "tagline": "Le point d'entrée parfait dans le monde de Gloomhaven",
+  "loreSummary": "Vous êtes membre des 'Mâchoires du Lion', l'un des groupes de mercenaires les plus tristement célèbres de ce trou perdu. Lorsqu'une sinistre cabale commence à faire disparaître des gens, c'est à vous d'aller au fond des choses.",
+  "badgeCategory": "RPG Tactique d'Initiation",
+  "roadmapTitle": "🗺️ Progression de la Campagne",
+  "roadmapBadge": "FEUILLE DE ROUTE",
+  "keyFeatures": [
+    "Combat tactique piloté par des cartes (Pas de dés, pure stratégie)",
+    "Guide tutoriel pour apprendre à jouer sur les 5 premiers scénarios",
+    "Jouez directement dans le livre de scénarios (pas de tuiles de carte à assembler)",
+    "Quatre classes uniques, chacune avec son propre style de jeu asymétrique"
+  ],
+  "scopes": {
+    "jotl_standard": {
+      "name": "Campagne Standard",
+      "description": "L'histoire complète à embranchements de 25 scénarios jusqu'à sa conclusion."
+    },
+    "jotl_quick": {
+      "name": "Focus Histoire Rapide",
+      "description": "Un chemin direct à travers l'histoire principale, en ignorant la plupart des scénarios secondaires optionnels."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Gloomhaven: Die Pranken des Löwen",
+  "subtitle": "Eine kooperative Kampagne mit taktischen Kämpfen im Gloomhaven-Universum",
+  "tagline": "Der perfekte Einstieg in die Welt von Gloomhaven",
+  "loreSummary": "Du bist Mitglied der 'Pranken des Löwen', einer der berüchtigtsten Söldnergruppen in diesem heruntergekommenen Nest. Als ein finsterer Zirkel beginnt, Menschen verschwinden zu lassen, liegt es an dir, der Sache auf den Grund zu gehen.",
+  "badgeCategory": "Taktisches RPG für Einsteiger",
+  "roadmapTitle": "🗺️ Kampagnen-Fortschritt",
+  "roadmapBadge": "STADT-ROADMAP",
+  "keyFeatures": [
+    "Kartenbasierter taktischer Kampf (keine Würfel, reine Strategie)",
+    "Lern-Tutorial-Leitfaden über die ersten 5 Szenarien",
+    "Spiele direkt im Szenariobuch (keine Kartenteile zusammensetzen)",
+    "Vier einzigartige Klassen, jede mit ihrem eigenen asymmetrischen Spielstil"
+  ],
+  "scopes": {
+    "jotl_standard": {
+      "name": "Standard-Kampagne",
+      "description": "Die volle 25-Szenarien verzweigte Handlung bis zum Abschluss."
+    },
+    "jotl_quick": {
+      "name": "Schneller Story-Fokus",
+      "description": "Ein direkter Weg durch die Hauptgeschichte, wobei die meisten optionalen Nebenszenarien übersprungen werden."
+    }
+  }
+}

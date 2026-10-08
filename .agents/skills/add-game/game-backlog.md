@@ -76,24 +76,30 @@ requested by the user.
 - Undaunted: Stalingrad
 - Sleeping Gods: Distant Skies
 - Boss Fighters QR
+- Gloomhaven: Jaws of the Lion
 
 ---
 
 ## 🟥 High Priority
 
-*(None currently)*
+- **The Crew: The Quest for Planet Nine** — Cooperative trick-taking card game with 50 sequential space missions. 50 missions (15-20 hours). ~8.0 BGG. 2-5 players. Trick-taking, cooperative, limited communication.
+
 
 ---
 
 ## 🟧 Medium Priority
 
-*(None currently)*
+- **Descent: Journeys in the Dark (Second Edition)** — Competitive or app-driven cooperative fantasy dungeon crawl. 20 sessions (30-45 hours). ~7.6 BGG. 2-5 players. Dungeon crawler, one vs many.
+- **Stuffed Fables** — Narrative adventure book game exploring a little girl's nightmares. 7 sessions (10-15 hours). ~7.4 BGG. 2-4 players. Adventure book, narrative.
+- **Risk Legacy** — Competitive world conquest with permanent board changes and unlockable content. 15 sessions (15-20 hours). ~7.3 BGG. 3-5 players. Legacy, area control.
+
 
 ---
 
 ## 🟨 Lower Priority
 
-*(None currently)*
+- **Legacy of Dragonholt** — Cooperative choose-your-own-adventure narrative game set in Terrinoth. 6 quests (10-15 hours). ~7.1 BGG. 1-6 players. Narrative, roleplaying.
+
 
 ---
 
