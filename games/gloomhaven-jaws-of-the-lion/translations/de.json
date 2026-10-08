@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Eine vollständig kooperative Kampagne mit taktischen Kämpfen in der Stadt Gloomhaven",
+  "tagline": "Decken Sie die finstere Verschwörung hinter den vermissten Bürgern auf",
+  "loreSummary": "Sie sind ein Mitglied der Pranken des Löwen, einer berüchtigten Söldnergruppe in der schäbigen Unterwelt von Gloomhaven. Was als einfache Untersuchung beginnt, entwickelt sich schnell zu einem Kampf um die Seele der Stadt.",
+  "badgeCategory": "Dark Fantasy Taktik-RPG",
+  "roadmapTitle": "🗺️ Stadtchronik & Story-Fortschritt",
+  "roadmapBadge": "STADT-ROADMAP",
+  "keyFeatures": [
+    "Kartenbasiertes deterministisches Kampfsystem (Keine Würfel, reine taktische Strategie)",
+    "Zugängliche Tutorial-Szenarien für eine einfache Lernkurve",
+    "Storybook-basiertes Gameplay (direkt im Buch spielen)",
+    "Prequel-Kampagne, die vor den Ereignissen von Gloomhaven spielt"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Standard-Hauptkampagne",
+      "description": "Der Hauptstory-Bogen bis zum Endgegner."
+    },
+    "completionist": {
+      "name": "Vollständiger Abschluss",
+      "description": "Versuch, jedes freischaltbare Szenario zu spielen, einschließlich aller charakterspezifischen Quests und Nebenmissionen."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Willkommen bei den Pranken",
+      "phase": "Phase I - Die Grundlagen",
+      "description": "Abschluss der Einführungsszenarien und Erlernen des Überlebens in den Straßen von Gloomhaven.",
+      "badgeText": "Tutorial Abgeschlossen"
+    },
+    {
+      "order": 2,
+      "title": "Der Bluttumor",
+      "phase": "Phase II - Stadtgeheimnisse",
+      "description": "Die Quelle des mysteriösen Verschwindens aufspüren und den Blutkult konfrontieren.",
+      "badgeText": "Mitte der Kampagne"
+    },
+    {
+      "order": 3,
+      "title": "Der Erste Bezirk",
+      "phase": "Phase III - Die letzte Konfrontation",
+      "description": "Das wahre Genie hinter dem Bluttumor konfrontieren und die Stadt retten.",
+      "badgeText": "Finale"
+    }
+  ]
+}

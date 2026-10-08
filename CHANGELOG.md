@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.65.0] - 2026-10-08
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Gloomhaven: Jaws of the Lion**, the accessible prequel to Gloomhaven by Isaac Childres.
+    - 2 campaign scope presets: *Standard Core Campaign* (16 scenarios, recommended), and *Full Completionist* (25 scenarios).
+    - 3 narrative milestone checkpoints: *Welcome to the Jaws* (Tutorial Complete), *The Blood Tumor* (Mid-Campaign), and *The First Ward* (Finale).
+    - Thematic visual identity (crimson `#b81c22` and gold `#f0b656` palette).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.64.0] - 2026-09-29
 
 ### Added
