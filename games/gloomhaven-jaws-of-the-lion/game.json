@@ -1,0 +1,80 @@
+{
+  "id": "gloomhaven-jaws-of-the-lion",
+  "title": "Gloomhaven: Jaws of the Lion",
+  "releaseYear": 2020,
+  "designers": "Isaac Childres",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.6,
+  "bggWeight": 3.6,
+  "bggUrl": "https://boardgamegeek.com/boardgame/291457/gloomhaven-jaws-of-the-lion",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#b81c22",
+    "secondaryColor": "#1e1b18",
+    "accentColor": "#f0b656",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2b1f1d 0%, #151111 60%, #0c0a0a 100%)",
+    "cardBackground": "rgba(28, 22, 20, 0.90)",
+    "borderColor": "rgba(184, 28, 34, 0.35)",
+    "glowColor": "rgba(184, 28, 34, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🩸",
+    "emblem": "🪓🛡️",
+    "themeClass": "theme-gh-jotl",
+    "activeThemeClass": "theme-gh-jotl-active",
+    "roadmapClass": "roadmap-gh-jotl",
+    "heroClass": "hero-gh-jotl"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG)",
+    "Cephalofair Games Official Scenario Book & Rulebook",
+    "Community Playthrough Survey Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "core_campaign",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "completionist",
+      "baseScenarioCount": 25,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🛡️",
+      "badgeText": "Tutorial Complete",
+      "title": "Welcome to the Jaws",
+      "phase": "Phase I - The Basics",
+      "description": "Completing the introductory scenarios and learning how to survive the streets of Gloomhaven."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🩸",
+      "badgeText": "Mid-Campaign",
+      "title": "The Blood Tumor",
+      "phase": "Phase II - City Secrets",
+      "description": "Tracking down the source of the mysterious disappearances and confronting the blood cult."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 17,
+      "iconEmoji": "⚔️",
+      "badgeText": "Finale",
+      "title": "The First Ward",
+      "phase": "Phase III - The Final Confrontation",
+      "description": "Facing the true mastermind behind the blood tumor and saving the city."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Una campaña totalmente cooperativa de combate táctico en la ciudad de Gloomhaven",
+  "tagline": "Descubre el siniestro complot detrás de los ciudadanos desaparecidos",
+  "loreSummary": "Eres un miembro de las Mandíbulas del León, un infame grupo de mercenarios en los sórdidos bajos fondos de Gloomhaven. Lo que comienza como una simple investigación rápidamente se convierte en una lucha por el alma misma de la ciudad.",
+  "badgeCategory": "RPG Táctico de Fantasía Oscura",
+  "roadmapTitle": "🗺️ Crónica de la Ciudad y Progresión de la Historia",
+  "roadmapBadge": "HOJA DE RUTA DE LA CIUDAD",
+  "keyFeatures": [
+    "Combate determinista impulsado por cartas (Sin dados, pura estrategia táctica)",
+    "Escenarios tutoriales accesibles para una curva de aprendizaje sencilla",
+    "Jugabilidad basada en un libro de cuentos (juega directamente en el libro)",
+    "Campaña precuela ambientada antes de los eventos de Gloomhaven"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campaña Principal Estándar",
+      "description": "El arco argumental principal hasta el jefe final."
+    },
+    "completionist": {
+      "name": "Completista",
+      "description": "Intentando cada escenario desbloqueable, incluyendo todas las misiones secundarias y misiones específicas de los personajes."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Bienvenidos a las Mandíbulas",
+      "phase": "Fase I - Los Fundamentos",
+      "description": "Completando los escenarios introductorios y aprendiendo cómo sobrevivir en las calles de Gloomhaven.",
+      "badgeText": "Tutorial Completado"
+    },
+    {
+      "order": 2,
+      "title": "El Tumor de Sangre",
+      "phase": "Fase II - Secretos de la Ciudad",
+      "description": "Rastreando la fuente de las misteriosas desapariciones y enfrentando al culto de sangre.",
+      "badgeText": "Mitad de Campaña"
+    },
+    {
+      "order": 3,
+      "title": "El Primer Distrito",
+      "phase": "Fase III - El Enfrentamiento Final",
+      "description": "Enfrentando a la verdadera mente maestra detrás del tumor de sangre y salvando la ciudad.",
+      "badgeText": "Final"
+    }
+  ]
+}

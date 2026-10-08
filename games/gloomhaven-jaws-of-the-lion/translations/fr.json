@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Une campagne entièrement coopérative de combats tactiques dans la ville de Gloomhaven",
+  "tagline": "Découvrez le sinistre complot derrière les citoyens disparus",
+  "loreSummary": "Vous êtes membre des Mâchoires du Lion, un groupe de mercenaires tristement célèbre dans les bas-fonds sordides de Gloomhaven. Ce qui commence comme une simple enquête se transforme rapidement en un combat pour l'âme même de la ville.",
+  "badgeCategory": "RPG Tactique Dark Fantasy",
+  "roadmapTitle": "🗺️ Chronique de la Ville & Progression de l'Histoire",
+  "roadmapBadge": "FEUILLE DE ROUTE DE LA VILLE",
+  "keyFeatures": [
+    "Combats déterministes basés sur des cartes (Sans dés, pure stratégie tactique)",
+    "Scénarios de tutoriel accessibles pour un apprentissage facile",
+    "Gameplay basé sur un livre d'histoire (jouez directement dans le livre)",
+    "Campagne préquelle se déroulant avant les événements de Gloomhaven"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campagne Principale Standard",
+      "description": "L'arc narratif principal jusqu'au boss final."
+    },
+    "completionist": {
+      "name": "Complétionniste",
+      "description": "Tenter chaque scénario déblocable, y compris toutes les quêtes spécifiques aux personnages et les missions secondaires."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Bienvenue dans les Mâchoires",
+      "phase": "Phase I - Les Bases",
+      "description": "Terminer les scénarios d'introduction et apprendre à survivre dans les rues de Gloomhaven.",
+      "badgeText": "Tutoriel Terminé"
+    },
+    {
+      "order": 2,
+      "title": "La Tumeur de Sang",
+      "phase": "Phase II - Secrets de la Ville",
+      "description": "Traquer la source des mystérieuses disparitions et affronter le culte du sang.",
+      "badgeText": "Mi-Campagne"
+    },
+    {
+      "order": 3,
+      "title": "Le Premier Quartier",
+      "phase": "Phase III - L'Affrontement Final",
+      "description": "Affronter le véritable cerveau derrière la tumeur de sang et sauver la ville.",
+      "badgeText": "Final"
+    }
+  ]
+}

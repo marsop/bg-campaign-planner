@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "A fully cooperative campaign of tactical combat in the city of Gloomhaven",
+  "tagline": "Uncover the sinister plot behind the missing citizens",
+  "loreSummary": "You are a member of the Jaws of the Lion, an infamous mercenary group in the squalid underbelly of Gloomhaven. What begins as a simple investigation quickly spirals into a fight for the city's very soul.",
+  "badgeCategory": "Dark Fantasy Tactical RPG",
+  "roadmapTitle": "🗺️ City Chronicle & Story Progression",
+  "roadmapBadge": "CITY ROADMAP",
+  "keyFeatures": [
+    "Card-driven deterministic combat (No dice, pure tactical strategy)",
+    "Accessible tutorial scenarios for an easy learning curve",
+    "Storybook-based gameplay (play directly in the book)",
+    "Prequel campaign set before the events of Gloomhaven"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Standard Core Campaign",
+      "description": "The main storyline arc to the final boss."
+    },
+    "completionist": {
+      "name": "Full Completionist",
+      "description": "Attempting every unlockable scenario, including all character-specific quests and side missions."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Welcome to the Jaws",
+      "phase": "Phase I - The Basics",
+      "description": "Completing the introductory scenarios and learning how to survive the streets of Gloomhaven.",
+      "badgeText": "Tutorial Complete"
+    },
+    {
+      "order": 2,
+      "title": "The Blood Tumor",
+      "phase": "Phase II - City Secrets",
+      "description": "Tracking down the source of the mysterious disappearances and confronting the blood cult.",
+      "badgeText": "Mid-Campaign"
+    },
+    {
+      "order": 3,
+      "title": "The First Ward",
+      "phase": "Phase III - The Final Confrontation",
+      "description": "Facing the true mastermind behind the blood tumor and saving the city.",
+      "badgeText": "Finale"
+    }
+  ]
+}

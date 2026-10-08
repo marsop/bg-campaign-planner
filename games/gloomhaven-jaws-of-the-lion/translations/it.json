@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Una campagna completamente cooperativa di combattimenti tattici nella città di Gloomhaven",
+  "tagline": "Scopri il sinistro complotto dietro i cittadini scomparsi",
+  "loreSummary": "Sei un membro delle Fauci del Leone, un famigerato gruppo di mercenari nei sordidi bassifondi di Gloomhaven. Quella che inizia come una semplice indagine si trasforma rapidamente in una lotta per l'anima stessa della città.",
+  "badgeCategory": "GDR Tattico Dark Fantasy",
+  "roadmapTitle": "🗺️ Cronache della Città e Progressione della Storia",
+  "roadmapBadge": "TABELLA DI MARCIA DELLA CITTÀ",
+  "keyFeatures": [
+    "Combattimento deterministico guidato dalle carte (Nessun dado, pura strategia tattica)",
+    "Scenari tutorial accessibili per una facile curva di apprendimento",
+    "Gameplay basato su un libro di fiabe (gioca direttamente nel libro)",
+    "Campagna prequel ambientata prima degli eventi di Gloomhaven"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campagna Principale Standard",
+      "description": "L'arco narrativo principale fino al boss finale."
+    },
+    "completionist": {
+      "name": "Completista",
+      "description": "Tentare ogni scenario sbloccabile, incluse tutte le missioni specifiche dei personaggi e le missioni secondarie."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Benvenuti nelle Fauci",
+      "phase": "Fase I - Le Basi",
+      "description": "Completare gli scenari introduttivi e imparare a sopravvivere nelle strade di Gloomhaven.",
+      "badgeText": "Tutorial Completato"
+    },
+    {
+      "order": 2,
+      "title": "Il Tumore di Sangue",
+      "phase": "Fase II - Segreti della Città",
+      "description": "Rintracciare la fonte delle misteriose sparizioni e affrontare il culto del sangue.",
+      "badgeText": "Metà Campagna"
+    },
+    {
+      "order": 3,
+      "title": "Il Primo Quartiere",
+      "phase": "Fase III - Lo Scontro Finale",
+      "description": "Affrontare la vera mente dietro il tumore di sangue e salvare la città.",
+      "badgeText": "Finale"
+    }
+  ]
+}
