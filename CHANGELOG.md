@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.65.0] - 2026-10-09
+
+### Added
+- **New Game Added**: Gloomhaven: Jaws of the Lion
+  - Added full campaign planner support for Gloomhaven: Jaws of the Lion.
+  - Included milestones, localized data, and game-specific themes.
+
+
 ## [0.64.0] - 2026-09-29
 
 ### Added

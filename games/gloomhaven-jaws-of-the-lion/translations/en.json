@@ -1,0 +1,44 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "A fully cooperative campaign of tactical combat in the Gloomhaven universe.",
+  "tagline": "You are the Jaws of the Lion.",
+  "loreSummary": "You are a renowned mercenary group known as the Jaws of the Lion. Lately, people have been disappearing in the city, and it falls to you to investigate the mystery.",
+  "badgeCategory": "Tactical Combat RPG",
+  "roadmapTitle": "🗺️ Campaign Progression",
+  "roadmapBadge": "FANTASY ROADMAP",
+  "keyFeatures": [
+    "Learn to play with an integrated tutorial",
+    "No assembly required - play right in the scenario book",
+    "Card-driven tactical combat without dice",
+    "Cooperative campaign for 1-4 players"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Standard Core Campaign",
+      "description": "The complete 25-scenario branching storyline."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Welcome to the Jaws",
+      "phase": "Phase I - The Basics",
+      "description": "Learning the ropes and tracking down the source of the missing persons.",
+      "badgeText": "Tutorial"
+    },
+    {
+      "order": 2,
+      "title": "The Cult Revealed",
+      "phase": "Phase II - Blood Tumors",
+      "description": "Discovering the Blood Tumor cult and their dark plans for the city.",
+      "badgeText": "Midpoint"
+    },
+    {
+      "order": 3,
+      "title": "The First of the Order",
+      "phase": "Phase III - The Final Confrontation",
+      "description": "Stopping the First of the Order and saving Gloomhaven from a terrible fate.",
+      "badgeText": "Finale"
+    }
+  ]
+}

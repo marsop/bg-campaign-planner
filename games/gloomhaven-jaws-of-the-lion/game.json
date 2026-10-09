@@ -1,0 +1,74 @@
+{
+  "id": "gloomhaven-jaws-of-the-lion",
+  "title": "Gloomhaven: Jaws of the Lion",
+  "releaseYear": 2020,
+  "designers": "Isaac Childres",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.6,
+  "bggWeight": 3.6,
+  "bggUrl": "https://boardgamegeek.com/boardgame/291457/gloomhaven-jaws-of-the-lion",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#b83b3b",
+    "secondaryColor": "#1a1a1a",
+    "accentColor": "#e5a93b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #361717 0%, #170d0d 60%, #0d0a0a 100%)",
+    "cardBackground": "rgba(31, 23, 23, 0.90)",
+    "borderColor": "rgba(184, 59, 59, 0.35)",
+    "glowColor": "rgba(184, 59, 59, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🩸",
+    "emblem": "⚔️🛡️",
+    "themeClass": "theme-jaws",
+    "activeThemeClass": "theme-jaws-active",
+    "roadmapClass": "roadmap-jaws",
+    "heroClass": "hero-jaws"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #6 Overall)",
+    "Cephalofair Games Official Scenario Book & Rulebook",
+    "Community Playthrough Survey Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "core_campaign",
+      "baseScenarioCount": 25,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🐀",
+      "badgeText": "Tutorial",
+      "title": "Welcome to the Jaws",
+      "phase": "Phase I - The Basics",
+      "description": "Learning the ropes and tracking down the source of the missing persons."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "🩸",
+      "badgeText": "Midpoint",
+      "title": "The Cult Revealed",
+      "phase": "Phase II - Blood Tumors",
+      "description": "Discovering the Blood Tumor cult and their dark plans for the city."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 25,
+      "iconEmoji": "💀",
+      "badgeText": "Finale",
+      "title": "The First of the Order",
+      "phase": "Phase III - The Final Confrontation",
+      "description": "Stopping the First of the Order and saving Gloomhaven from a terrible fate."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Una campagna completamente cooperativa di combattimenti tattici nell'universo di Gloomhaven.",
+  "tagline": "Voi siete le Fauci del Leone.",
+  "loreSummary": "Siete un rinomato gruppo di mercenari conosciuto come le Fauci del Leone. Ultimamente, delle persone sono scomparse in città e spetta a voi indagare sul mistero.",
+  "badgeCategory": "RPG di combattimento tattico",
+  "roadmapTitle": "🗺️ Progressione della Campagna",
+  "roadmapBadge": "TABELLA DI MARCIA FANTASY",
+  "keyFeatures": [
+    "Impara a giocare con un tutorial integrato",
+    "Nessun montaggio richiesto: gioca direttamente nel libro degli scenari",
+    "Combattimento tattico basato su carte senza dadi",
+    "Campagna cooperativa per 1-4 giocatori"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campagna Principale Standard",
+      "description": "La trama completa ramificata di 25 scenari."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Benvenuti alle Fauci",
+      "phase": "Fase I - Le basi",
+      "description": "Imparare le basi e rintracciare la fonte delle persone scomparse.",
+      "badgeText": "Tutorial"
+    },
+    {
+      "order": 2,
+      "title": "Il culto rivelato",
+      "phase": "Fase II - Tumori di sangue",
+      "description": "Scoprire il culto del Tumore di Sangue e i loro oscuri piani per la città.",
+      "badgeText": "Punto medio"
+    },
+    {
+      "order": 3,
+      "title": "Il Primo dell'Ordine",
+      "phase": "Fase III - Lo scontro finale",
+      "description": "Fermare il Primo dell'Ordine e salvare Gloomhaven da un destino terribile.",
+      "badgeText": "Finale"
+    }
+  ]
+}

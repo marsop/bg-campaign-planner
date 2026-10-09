@@ -1,0 +1,44 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Une campagne entièrement coopérative de combats tactiques dans l'univers de Gloomhaven.",
+  "tagline": "Vous êtes les Mâchoires du Lion.",
+  "loreSummary": "Vous êtes un groupe de mercenaires de renom connu sous le nom des Mâchoires du Lion. Récemment, des gens ont disparu dans la ville, et il vous incombe d'enquêter sur ce mystère.",
+  "badgeCategory": "RPG de combat tactique",
+  "roadmapTitle": "🗺️ Progression de la Campagne",
+  "roadmapBadge": "FEUILLE DE ROUTE FANTASTIQUE",
+  "keyFeatures": [
+    "Apprenez à jouer avec un tutoriel intégré",
+    "Aucun assemblage requis - jouez directement dans le livre de scénarios",
+    "Combat tactique basé sur des cartes sans dés",
+    "Campagne coopérative pour 1 à 4 joueurs"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campagne Principale Standard",
+      "description": "L'histoire complète à embranchements de 25 scénarios."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Bienvenue aux Mâchoires",
+      "phase": "Phase I - Les bases",
+      "description": "Apprendre les ficelles et traquer la source des personnes disparues.",
+      "badgeText": "Tutoriel"
+    },
+    {
+      "order": 2,
+      "title": "Le culte révélé",
+      "phase": "Phase II - Tumeurs sanguines",
+      "description": "Découverte du culte de la Tumeur sanguine et de ses sombres desseins pour la ville.",
+      "badgeText": "Point médian"
+    },
+    {
+      "order": 3,
+      "title": "Le Premier de l'Ordre",
+      "phase": "Phase III - La confrontation finale",
+      "description": "Arrêter le Premier de l'Ordre et sauver Gloomhaven d'un destin terrible.",
+      "badgeText": "Final"
+    }
+  ]
+}
