@@ -1,0 +1,44 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Una campaña totalmente cooperativa de combate táctico en el universo de Gloomhaven.",
+  "tagline": "Tú eres las Fauces del León.",
+  "loreSummary": "Sois un grupo de mercenarios de renombre conocido como las Fauces del León. Últimamente, la gente ha estado desapareciendo en la ciudad y os toca investigar el misterio.",
+  "badgeCategory": "RPG de combate táctico",
+  "roadmapTitle": "🗺️ Progresión de la Campaña",
+  "roadmapBadge": "HOJA DE RUTA DE FANTASÍA",
+  "keyFeatures": [
+    "Aprende a jugar con un tutorial integrado",
+    "Sin necesidad de montaje: juega directamente en el libro de escenarios",
+    "Combate táctico con cartas sin dados",
+    "Campaña cooperativa para 1-4 jugadores"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campaña Principal Estándar",
+      "description": "La historia principal completa de 25 escenarios."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Bienvenidos a las Fauces",
+      "phase": "Fase I - Los Fundamentos",
+      "description": "Aprender los conceptos básicos y rastrear la fuente de las personas desaparecidas.",
+      "badgeText": "Tutorial"
+    },
+    {
+      "order": 2,
+      "title": "El Culto Revelado",
+      "phase": "Fase II - Tumores de Sangre",
+      "description": "Descubriendo el culto del Tumor de Sangre y sus oscuros planes para la ciudad.",
+      "badgeText": "Punto Medio"
+    },
+    {
+      "order": 3,
+      "title": "El Primero de la Orden",
+      "phase": "Fase III - La Confrontación Final",
+      "description": "Deteniendo al Primero de la Orden y salvando a Gloomhaven de un terrible destino.",
+      "badgeText": "Final"
+    }
+  ]
+}

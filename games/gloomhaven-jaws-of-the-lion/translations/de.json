@@ -1,0 +1,44 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Eine vollständig kooperative Kampagne taktischer Kämpfe im Gloomhaven-Universum.",
+  "tagline": "Ihr seid die Pranken des Löwen.",
+  "loreSummary": "Ihr seid eine renommierte Söldnertruppe, die als die Pranken des Löwen bekannt ist. In letzter Zeit verschwinden Menschen in der Stadt, und es liegt an euch, das Geheimnis zu lüften.",
+  "badgeCategory": "Taktisches Kampf-RPG",
+  "roadmapTitle": "🗺️ Kampagnen-Fortschritt",
+  "roadmapBadge": "FANTASY-ROADMAP",
+  "keyFeatures": [
+    "Lerne das Spielen mit einem integrierten Tutorial",
+    "Kein Aufbau erforderlich - spiele direkt im Szenariobuch",
+    "Kartengesteuerter taktischer Kampf ohne Würfel",
+    "Kooperative Kampagne für 1-4 Spieler"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Standard-Hauptkampagne",
+      "description": "Die komplette verzweigte Geschichte mit 25 Szenarien."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Willkommen bei den Pranken",
+      "phase": "Phase I - Die Grundlagen",
+      "description": "Die Grundlagen erlernen und die Quelle der vermissten Personen aufspüren.",
+      "badgeText": "Tutorial"
+    },
+    {
+      "order": 2,
+      "title": "Der Kult wird enthüllt",
+      "phase": "Phase II - Bluttumore",
+      "description": "Entdeckung des Bluttumor-Kults und seiner dunklen Pläne für die Stadt.",
+      "badgeText": "Mittelpunkt"
+    },
+    {
+      "order": 3,
+      "title": "Der Erste des Ordens",
+      "phase": "Phase III - Die finale Konfrontation",
+      "description": "Den Ersten des Ordens aufhalten und Gloomhaven vor einem schrecklichen Schicksal bewahren.",
+      "badgeText": "Finale"
+    }
+  ]
+}
