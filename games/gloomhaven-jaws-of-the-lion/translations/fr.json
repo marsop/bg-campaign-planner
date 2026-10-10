@@ -1,0 +1,20 @@
+{
+  "title": "Gloomhaven: Les Mâchoires du Lion",
+  "subtitle": "Un préquel autonome de Gloomhaven",
+  "tagline": "Vous êtes les Mâchoires du Lion, un célèbre groupe de mercenaires à Gloomhaven.",
+  "loreSummary": "En tant que membres de l'infâme groupe de mercenaires 'Les Mâchoires du Lion', vous enquêtez sur une série de disparitions mystérieuses à Gloomhaven.",
+  "badgeCategory": "Campagne",
+  "roadmapTitle": "Carte de la Campagne",
+  "roadmapBadge": "Voyage Mercenaire",
+  "keyFeatures": [
+    "Apprenez à jouer avec 5 scénarios de tutoriel",
+    "Campagne de 25 scénarios",
+    "4 mercenaires uniques"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "title": "Campagne Complète",
+      "subtitle": "Complétez les 25 scénarios"
+    }
+  }
+}

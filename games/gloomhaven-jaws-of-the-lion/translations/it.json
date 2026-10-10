@@ -1,0 +1,20 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Un prequel autonomo di Gloomhaven",
+  "tagline": "Siete le Fauci del Leone, un rinomato gruppo di mercenari a Gloomhaven.",
+  "loreSummary": "Come membri della famigerata compagnia di mercenari 'Fauci del Leone', indagate su una serie di misteriose sparizioni a Gloomhaven.",
+  "badgeCategory": "Campagna",
+  "roadmapTitle": "Mappa della Campagna",
+  "roadmapBadge": "Viaggio Mercenario",
+  "keyFeatures": [
+    "Impara a giocare con 5 scenari tutorial",
+    "Campagna di 25 scenari",
+    "4 mercenari unici"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "title": "Campagna Completa",
+      "subtitle": "Completa tutti e 25 gli scenari"
+    }
+  }
+}
