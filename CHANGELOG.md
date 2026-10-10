@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.65.0] - 2026-10-10
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Gloomhaven: Jaws of the Lion**, the standalone cooperative campaign prequel to Gloomhaven.
+    - 1 campaign scope preset: *Full Campaign* (25 scenarios, recommended).
+    - Thematic visual identity.
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.64.0] - 2026-09-29
 
 ### Added

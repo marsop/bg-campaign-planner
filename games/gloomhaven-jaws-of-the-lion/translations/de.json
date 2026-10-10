@@ -1,0 +1,20 @@
+{
+  "title": "Gloomhaven: Die Pranken des Löwen",
+  "subtitle": "Ein eigenständiges Gloomhaven-Prequel",
+  "tagline": "Ihr seid die Pranken des Löwen, eine bekannte Söldnergruppe in Gloomhaven.",
+  "loreSummary": "Als Mitglieder der berüchtigten Söldnergruppe 'Die Pranken des Löwen' untersucht ihr eine Reihe von mysteriösen Vermisstenfällen in Gloomhaven.",
+  "badgeCategory": "Kampagne",
+  "roadmapTitle": "Kampagnenkarte",
+  "roadmapBadge": "Söldnerreise",
+  "keyFeatures": [
+    "Lerne das Spiel mit 5 Tutorial-Szenarien",
+    "Kampagne mit 25 Szenarien",
+    "4 einzigartige Söldner"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "title": "Komplette Kampagne",
+      "subtitle": "Schließe alle 25 Szenarien ab"
+    }
+  }
+}

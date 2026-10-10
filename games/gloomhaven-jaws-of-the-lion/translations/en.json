@@ -1,0 +1,20 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "A standalone Gloomhaven prequel",
+  "tagline": "You are the Jaws of the Lion, a renowned mercenary group in Gloomhaven.",
+  "loreSummary": "As members of the infamous 'Jaws of the Lion' mercenary group, you investigate a series of mysterious disappearances in Gloomhaven.",
+  "badgeCategory": "Campaign",
+  "roadmapTitle": "Campaign Map",
+  "roadmapBadge": "Mercenary Journey",
+  "keyFeatures": [
+    "Learn to play with 5 tutorial scenarios",
+    "25 scenario campaign",
+    "4 unique mercenaries"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "title": "Full Campaign",
+      "subtitle": "Complete all 25 scenarios"
+    }
+  }
+}

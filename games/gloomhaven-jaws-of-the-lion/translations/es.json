@@ -1,0 +1,20 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Una precuela independiente de Gloomhaven",
+  "tagline": "Eres de las Fauces del León, un famoso grupo de mercenarios en Gloomhaven.",
+  "loreSummary": "Como miembros del infame grupo de mercenarios 'Fauces del León', investigas una serie de misteriosas desapariciones en Gloomhaven.",
+  "badgeCategory": "Campaña",
+  "roadmapTitle": "Mapa de la Campaña",
+  "roadmapBadge": "Viaje Mercenario",
+  "keyFeatures": [
+    "Aprende a jugar con 5 escenarios de tutorial",
+    "Campaña de 25 escenarios",
+    "4 mercenarios únicos"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "title": "Campaña Completa",
+      "subtitle": "Completa los 25 escenarios"
+    }
+  }
+}
