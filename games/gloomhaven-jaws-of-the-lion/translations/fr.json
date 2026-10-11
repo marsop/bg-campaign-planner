@@ -1,0 +1,41 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Préambule de campagne coopérative autonome de Gloomhaven",
+  "tagline": "Une campagne coopérative de combat tactique",
+  "loreSummary": "Vous êtes membre des 'Mâchoires du Lion', l'un des groupes de mercenaires les plus tristement célèbres de ce trou perdu. Une sinistre cabale kidnappe les plus pauvres de la ville, et c'est à vous de découvrir le complot.",
+  "badgeCategory": "Exploration de Donjon Tactique",
+  "roadmapTitle": "🗺️ Progression de la Campagne",
+  "roadmapBadge": "FEUILLE DE ROUTE",
+  "keyFeatures": [
+    "Combat déterministe par cartes - pure stratégie",
+    "Système de tutoriel rationalisé",
+    "Récit de campagne autonome",
+    "Jouez directement dans le livre de scénarios"
+  ],
+  "scopes": {
+    "jaws_standard": {
+      "name": "Campagne Standard",
+      "description": "La campagne de l'histoire principale couvrant tous les scénarios de base."
+    },
+    "jaws_completionist": {
+      "name": "Complétionniste",
+      "description": "L'histoire principale plus tous les scénarios secondaires débloqués."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Tutoriel",
+      "title": "Bienvenue dans le Tertre Noir",
+      "phase": "Phase de Campagne 1 - Apprendre les Ficelles",
+      "description": "Les scénarios du tutoriel vous présentent les mécanismes de Gloomhaven."
+    },
+    {
+      "order": 2,
+      "badgeText": "Milieu de Partie",
+      "title": "Découvrir la Conspiration",
+      "phase": "Phase de Campagne 2 - Le Mystère s'Épaissit",
+      "description": "Progresser dans l'histoire principale à mesure que les mystères s'approfondissent."
+    }
+  ]
+}

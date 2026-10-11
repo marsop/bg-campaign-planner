@@ -1,0 +1,71 @@
+{
+  "id": "gloomhaven-jaws-of-the-lion",
+  "title": "Gloomhaven: Jaws of the Lion",
+  "releaseYear": 2020,
+  "designers": "Isaac Childres",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.6,
+  "bggWeight": 3.63,
+  "bggUrl": "https://boardgamegeek.com/boardgame/291457/gloomhaven-jaws-of-the-lion",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#b52c2c",
+    "secondaryColor": "#1f1816",
+    "accentColor": "#f0b343",
+    "backgroundGradient": "radial-gradient(ellipse at top, #361b17 0%, #171110 60%, #0d0a09 100%)",
+    "cardBackground": "rgba(31, 24, 22, 0.90)",
+    "borderColor": "rgba(181, 44, 44, 0.4)",
+    "glowColor": "rgba(240, 179, 67, 0.25)",
+    "headerFont": "'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🪓",
+    "emblem": "⚔️🦁",
+    "themeClass": "theme-jaws",
+    "activeThemeClass": "theme-jaws-active",
+    "roadmapClass": "roadmap-jaws",
+    "heroClass": "hero-jaws"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #291457 Overall)",
+    "Publisher Official Rulebook",
+    "Community Campaign Survey Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "jaws_standard",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "jaws_completionist",
+      "baseScenarioCount": 25,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🛡️",
+      "badgeText": "Tutorial",
+      "title": "Welcome to the Black Barrow",
+      "phase": "Campaign Phase 1 - Learning the Ropes",
+      "description": "The tutorial scenarios introduce you to Gloomhaven mechanics."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "🏰",
+      "badgeText": "Mid-game",
+      "title": "Uncovering the Conspiracy",
+      "phase": "Campaign Phase 2 - Deepening Mystery",
+      "description": "Progressing through the main storyline as mysteries deepen."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Eigenständige kooperative Kampagnen-Vorgeschichte zu Gloomhaven",
+  "tagline": "Eine kooperative Kampagne voller taktischer Kämpfe",
+  "loreSummary": "Du bist ein Mitglied der 'Pranken des Löwen', einer der berüchtigtsten Söldnertruppen in diesem heruntergekommenen Kaff. Eine finstere Kabale entführt die Ärmsten der Stadt, und es liegt an dir, die Verschwörung aufzudecken.",
+  "badgeCategory": "Taktischer Dungeon Crawler",
+  "roadmapTitle": "🗺️ Kampagnenfortschritt",
+  "roadmapBadge": "KAMPAGNEN-ROADMAP",
+  "keyFeatures": [
+    "Kartengetriebener deterministischer Kampf – pure Strategie",
+    "Optimiertes Tutorial-System für Einsteiger",
+    "Eigenständige Kampagnenhandlung",
+    "Spiele direkt im Szenariobuch"
+  ],
+  "scopes": {
+    "jaws_standard": {
+      "name": "Standardkampagne",
+      "description": "Die Hauptstory-Kampagne, die alle Kernszenarien abdeckt."
+    },
+    "jaws_completionist": {
+      "name": "Vollständig",
+      "description": "Die Hauptstory plus alle freigeschalteten Nebenszenarien."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Tutorial",
+      "title": "Willkommen im Schwarzen Hügelgrab",
+      "phase": "Kampagnenphase 1 - Die Grundlagen lernen",
+      "description": "Die Tutorial-Szenarien führen in die Mechanik von Gloomhaven ein."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mitte des Spiels",
+      "title": "Die Verschwörung aufdecken",
+      "phase": "Kampagnenphase 2 - Das Geheimnis vertieft sich",
+      "description": "Fortschritt durch die Hauptgeschichte, während sich die Geheimnisse vertiefen."
+    }
+  ]
+}
