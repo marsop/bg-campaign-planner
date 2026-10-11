@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Un gioco da tavolo collaborativo a campagna di combattimento tattico indipendente",
+  "tagline": "Voi siete le Fauci del Leone",
+  "loreSummary": "Sei un membro delle 'Fauci del Leone', uno dei gruppi di mercenari più famigerati di questo posto sperduto. Quando una sinistra setta inizia a far sparire le persone, spetta a te andare a fondo della questione.",
+  "badgeCategory": "Dungeon Crawler Tattico",
+  "roadmapTitle": "🗺️ Mappa della Città di Gloomhaven",
+  "roadmapBadge": "ESPLORAZIONE DELLA CITTÀ",
+  "keyFeatures": [
+    "Impara a giocare con un tutorial di 5 scenari",
+    "Gioca direttamente nel libro degli scenari - nessuna tessera mappa da assemblare",
+    "4 nuove classi uniche da padroneggiare",
+    "Combattimento tattico completamente cooperativo"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campagna Completa",
+      "description": "Gioca tutti i 25 scenari, completando la storia principale e tutte le missioni secondarie."
+    },
+    "main_story": {
+      "name": "Solo Storia Principale",
+      "description": "Concentrati esclusivamente sui 17 scenari narrativi principali, ignorando le missioni secondarie."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Benvenuti al Tumulo Nero",
+      "phase": "Fase I - Le Basi",
+      "description": "Completamento del tutorial introduttivo di 5 scenari e sblocco delle piene capacità del tuo personaggio.",
+      "badgeText": "Tutorial"
+    },
+    {
+      "order": 2,
+      "title": "Le Fogne della Città",
+      "phase": "Fase II - La Setta",
+      "description": "Indagine sulle strane sparizioni in città e scoperta del covo sotterraneo della setta.",
+      "badgeText": "Metà Percorso"
+    },
+    {
+      "order": 3,
+      "title": "Il Dio del Sangue",
+      "phase": "Fase III - Confronto",
+      "description": "Lo scontro finale contro il capo della setta e il suo oscuro patrono.",
+      "badgeText": "Finale"
+    }
+  ]
+}

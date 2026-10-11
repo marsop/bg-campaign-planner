@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Les Mâchoires du Lion",
+  "subtitle": "Un jeu de campagne coopératif indépendant de combat tactique",
+  "tagline": "Vous êtes les Mâchoires du Lion",
+  "loreSummary": "Vous êtes membre des 'Mâchoires du Lion', l'un des groupes de mercenaires les plus tristement célèbres de ce trou perdu. Lorsqu'une secte sinistre commence à faire disparaître des gens, c'est à vous de tirer l'affaire au clair.",
+  "badgeCategory": "Dungeon Crawler Tactique",
+  "roadmapTitle": "🗺️ Carte de la Ville de Gloomhaven",
+  "roadmapBadge": "EXPLORATION DE LA VILLE",
+  "keyFeatures": [
+    "Apprenez à jouer avec un tutoriel de 5 scénarios",
+    "Jouez directement dans le livre de scénarios - pas de tuiles de carte à assembler",
+    "4 nouvelles classes uniques à maîtriser",
+    "Combat tactique entièrement coopératif"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campagne Complète",
+      "description": "Jouez les 25 scénarios, en complétant l'histoire principale et toutes les quêtes secondaires."
+    },
+    "main_story": {
+      "name": "Histoire Principale Uniquement",
+      "description": "Concentrez-vous uniquement sur les 17 scénarios narratifs de base, en ignorant les missions secondaires."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Bienvenue au Tertre Noir",
+      "phase": "Phase I - Les Bases",
+      "description": "Achèvement du tutoriel d'introduction de 5 scénarios et déblocage de toutes les capacités de votre personnage.",
+      "badgeText": "Tutoriel"
+    },
+    {
+      "order": 2,
+      "title": "Les Égouts de la Ville",
+      "phase": "Phase II - La Secte",
+      "description": "Enquête sur les étranges disparitions dans la ville et découverte du repaire souterrain de la secte.",
+      "badgeText": "Mi-parcours"
+    },
+    {
+      "order": 3,
+      "title": "Le Dieu du Sang",
+      "phase": "Phase III - Confrontation",
+      "description": "L'affrontement final contre le chef de la secte et son sombre patron.",
+      "badgeText": "Final"
+    }
+  ]
+}

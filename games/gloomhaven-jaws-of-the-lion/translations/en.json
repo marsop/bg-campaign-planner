@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "A standalone, cooperative campaign game of tactical combat",
+  "tagline": "You are the Jaws of the Lion",
+  "loreSummary": "You are a member of 'Jaws of the Lion', one of the most infamous mercenary groups in this run-down backwater. When a sinister cult starts making people disappear, it falls to you to get to the bottom of it.",
+  "badgeCategory": "Tactical Dungeon Crawler",
+  "roadmapTitle": "🗺️ City of Gloomhaven Map",
+  "roadmapBadge": "CITY EXPLORATION",
+  "keyFeatures": [
+    "Learn to play with a 5-scenario tutorial",
+    "Play directly in the scenario book - no map tiles to assemble",
+    "4 new unique classes to master",
+    "Fully cooperative tactical combat"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Full Campaign",
+      "description": "Play all 25 scenarios, completing the main story and all side quests."
+    },
+    "main_story": {
+      "name": "Main Story Only",
+      "description": "Focus purely on the 17 core narrative scenarios, ignoring side missions."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Welcome to the Black Barrow",
+      "phase": "Phase I - The Basics",
+      "description": "Completing the 5-scenario introductory tutorial and unlocking the full capabilities of your character.",
+      "badgeText": "Tutorial"
+    },
+    {
+      "order": 2,
+      "title": "The City Sewers",
+      "phase": "Phase II - The Cult",
+      "description": "Investigating the strange disappearances in the city and discovering the cult's underground lair.",
+      "badgeText": "Midpoint"
+    },
+    {
+      "order": 3,
+      "title": "The Blood God",
+      "phase": "Phase III - Confrontation",
+      "description": "The final showdown against the leader of the cult and their dark patron.",
+      "badgeText": "Finale"
+    }
+  ]
+}
