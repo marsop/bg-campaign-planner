@@ -1,0 +1,79 @@
+{
+  "id": "gloomhaven-jaws-of-the-lion",
+  "title": "Gloomhaven: Jaws of the Lion",
+  "releaseYear": 2020,
+  "designers": "Isaac Childres",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.6,
+  "bggWeight": 3.6,
+  "bggUrl": "https://boardgamegeek.com/boardgame/291457/gloomhaven-jaws-of-the-lion",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#d34138",
+    "secondaryColor": "#1a1614",
+    "accentColor": "#e5a93b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #301010 0%, #150a0a 60%, #050202 100%)",
+    "cardBackground": "rgba(30, 20, 18, 0.90)",
+    "borderColor": "rgba(211, 65, 56, 0.40)",
+    "glowColor": "rgba(211, 65, 56, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "📖",
+    "emblem": "🪓🛡️",
+    "themeClass": "theme-jaws",
+    "activeThemeClass": "theme-jaws-active",
+    "roadmapClass": "roadmap-jaws",
+    "heroClass": "hero-jaws"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek",
+    "Cephalofair Games Official Scenario Book"
+  ],
+  "scopes": [
+    {
+      "id": "core_campaign",
+      "baseScenarioCount": 25,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "main_story",
+      "baseScenarioCount": 17,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "📚",
+      "badgeText": "Tutorial",
+      "title": "Welcome to the Black Barrow",
+      "phase": "Phase I - The Basics",
+      "description": "Completing the 5-scenario introductory tutorial and unlocking the full capabilities of your character."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "⚔️",
+      "badgeText": "Midpoint",
+      "title": "The City Sewers",
+      "phase": "Phase II - The Cult",
+      "description": "Investigating the strange disappearances in the city and discovering the cult's underground lair."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 17,
+      "iconEmoji": "🩸",
+      "badgeText": "Finale",
+      "title": "The Blood God",
+      "phase": "Phase III - Confrontation",
+      "description": "The final showdown against the leader of the cult and their dark patron."
+    }
+  ]
+}

@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.65.0] - 2026-08-28
+
+### Added
+- **Gloomhaven: Jaws of the Lion**:
+  - Added support for Gloomhaven: Jaws of the Lion, including metadata, thematic styling, scopes, and milestones.
+  - Provided localized game data in English, Spanish, German, French, and Italian.
+
 ## [0.64.0] - 2026-09-29
 
 ### Added

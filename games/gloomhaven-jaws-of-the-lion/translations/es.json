@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Fauces del León",
+  "subtitle": "Un juego de campaña cooperativo independiente de combate táctico",
+  "tagline": "Sois las Fauces del León",
+  "loreSummary": "Eres miembro de 'Las Fauces del León', uno de los grupos de mercenarios más infames de este lugar de mala muerte. Cuando una siniestra secta empieza a hacer desaparecer a la gente, de ti depende llegar al fondo del asunto.",
+  "badgeCategory": "Exploración de Mazmorras Táctica",
+  "roadmapTitle": "🗺️ Mapa de la Ciudad de Gloomhaven",
+  "roadmapBadge": "EXPLORACIÓN DE LA CIUDAD",
+  "keyFeatures": [
+    "Aprende a jugar con un tutorial de 5 escenarios",
+    "Juega directamente en el libro de escenarios, sin montar losetas de mapa",
+    "4 nuevas clases únicas para dominar",
+    "Combate táctico totalmente cooperativo"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Campaña Completa",
+      "description": "Juega los 25 escenarios, completando la historia principal y todas las misiones secundarias."
+    },
+    "main_story": {
+      "name": "Solo Historia Principal",
+      "description": "Céntrate puramente en los 17 escenarios narrativos principales, ignorando las misiones secundarias."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Bienvenidos al Túmulo Negro",
+      "phase": "Fase I - Los Fundamentos",
+      "description": "Completar el tutorial introductorio de 5 escenarios y desbloquear todas las capacidades de tu personaje.",
+      "badgeText": "Tutorial"
+    },
+    {
+      "order": 2,
+      "title": "Las Alcantarillas de la Ciudad",
+      "phase": "Fase II - La Secta",
+      "description": "Investigar las extrañas desapariciones en la ciudad y descubrir la guarida subterránea de la secta.",
+      "badgeText": "Punto Medio"
+    },
+    {
+      "order": 3,
+      "title": "El Dios de la Sangre",
+      "phase": "Fase III - Confrontación",
+      "description": "El enfrentamiento final contra el líder de la secta y su oscuro patrón.",
+      "badgeText": "Final"
+    }
+  ]
+}

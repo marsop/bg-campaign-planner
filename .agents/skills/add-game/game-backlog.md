@@ -8,7 +8,8 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (67 games):**
+**Currently in app (68 games):**
+- Gloomhaven: Jaws of the Lion
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -81,7 +82,6 @@ requested by the user.
 
 ## 🟥 High Priority
 
-- **Gloomhaven: Jaws of the Lion** — Standalone cooperative campaign prequel to Gloomhaven. 25 scenarios (40-50 hours). ~8.6 BGG. 1-4 players. Hand management, tactical combat.
 - **The Crew: The Quest for Planet Nine** — Cooperative trick-taking card game with 50 sequential space missions. 50 missions (15-20 hours). ~8.0 BGG. 2-5 players. Trick-taking, cooperative, limited communication.
 
 

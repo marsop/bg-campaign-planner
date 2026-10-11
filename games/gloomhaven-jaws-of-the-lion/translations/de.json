@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Die Pranken des Löwen",
+  "subtitle": "Ein eigenständiges, kooperatives Kampagnenspiel mit taktischen Kämpfen",
+  "tagline": "Ihr seid die Pranken des Löwen",
+  "loreSummary": "Du bist ein Mitglied der 'Pranken des Löwen', einer der berüchtigtsten Söldnertruppen in diesem heruntergekommenen Kaff. Als ein finsterer Kult anfängt, Leute verschwinden zu lassen, ist es an dir, der Sache auf den Grund zu gehen.",
+  "badgeCategory": "Taktischer Dungeon Crawler",
+  "roadmapTitle": "🗺️ Stadtplan von Gloomhaven",
+  "roadmapBadge": "STADTERKUNDUNG",
+  "keyFeatures": [
+    "Lerne das Spiel mit einem 5-Szenarien-Tutorial",
+    "Spiele direkt im Szenariobuch - kein Zusammenbauen von Kartenteilen",
+    "4 neue, einzigartige Klassen zu meistern",
+    "Vollständig kooperativer taktischer Kampf"
+  ],
+  "scopes": {
+    "core_campaign": {
+      "name": "Vollständige Kampagne",
+      "description": "Spiele alle 25 Szenarien, beende die Hauptgeschichte und alle Nebenquests."
+    },
+    "main_story": {
+      "name": "Nur Hauptgeschichte",
+      "description": "Konzentriere dich nur auf die 17 wichtigsten narrativen Szenarien und ignoriere Nebenmissionen."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "title": "Willkommen im Schwarzen Hügelgrab",
+      "phase": "Phase I - Die Grundlagen",
+      "description": "Abschluss des 5-Szenarien-Einführungstutorials und Freischaltung der vollen Fähigkeiten deines Charakters.",
+      "badgeText": "Tutorial"
+    },
+    {
+      "order": 2,
+      "title": "Die Kanalisation der Stadt",
+      "phase": "Phase II - Der Kult",
+      "description": "Untersuchung des seltsamen Verschwindens von Personen in der Stadt und Entdeckung des unterirdischen Verstecks des Kults.",
+      "badgeText": "Halbzeit"
+    },
+    {
+      "order": 3,
+      "title": "Der Blutgott",
+      "phase": "Phase III - Konfrontation",
+      "description": "Der finale Showdown gegen den Anführer des Kults und ihren dunklen Schutzpatron.",
+      "badgeText": "Finale"
+    }
+  ]
+}
