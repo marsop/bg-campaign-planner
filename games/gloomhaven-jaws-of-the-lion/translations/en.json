@@ -1,0 +1,41 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Stand-alone cooperative campaign preamble to Gloomhaven",
+  "tagline": "A fully cooperative campaign of tactical combat",
+  "loreSummary": "You are a member of the 'Jaws of the Lion', one of the most infamous mercenary groups in this run-down backwater. A sinister cabal is kidnapping the city's poorest, and it falls to you to uncover the conspiracy.",
+  "badgeCategory": "Tactical Dungeon Crawler",
+  "roadmapTitle": "🗺️ Campaign Progression",
+  "roadmapBadge": "CAMPAIGN ROADMAP",
+  "keyFeatures": [
+    "Card-driven deterministic combat — pure strategy",
+    "Streamlined onboarding tutorial system",
+    "Standalone campaign narrative",
+    "Play directly in the scenario book"
+  ],
+  "scopes": {
+    "jaws_standard": {
+      "name": "Standard Campaign",
+      "description": "The main story campaign covering all core scenarios."
+    },
+    "jaws_completionist": {
+      "name": "Full Completionist",
+      "description": "The main story plus all unlocked side scenarios."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Tutorial",
+      "title": "Welcome to the Black Barrow",
+      "phase": "Campaign Phase 1 - Learning the Ropes",
+      "description": "The tutorial scenarios introduce you to Gloomhaven mechanics."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mid-game",
+      "title": "Uncovering the Conspiracy",
+      "phase": "Campaign Phase 2 - Deepening Mystery",
+      "description": "Progressing through the main storyline as mysteries deepen."
+    }
+  ]
+}

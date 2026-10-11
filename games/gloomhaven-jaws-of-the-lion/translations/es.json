@@ -1,0 +1,41 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Campaña cooperativa independiente, precuela de Gloomhaven",
+  "tagline": "Una campaña cooperativa de combate táctico",
+  "loreSummary": "Eres miembro de las 'Fauces del León', uno de los grupos de mercenarios más infames de este rincón perdido. Una siniestra camarilla está secuestrando a los más pobres de la ciudad, y te toca a ti descubrir la conspiración.",
+  "badgeCategory": "Exploración de Mazmorras Táctica",
+  "roadmapTitle": "🗺️ Progreso de la Campaña",
+  "roadmapBadge": "HOJA DE RUTA",
+  "keyFeatures": [
+    "Combate determinista mediante cartas: pura estrategia",
+    "Sistema de tutorial optimizado",
+    "Narrativa de campaña independiente",
+    "Juega directamente en el libro de escenarios"
+  ],
+  "scopes": {
+    "jaws_standard": {
+      "name": "Campaña Estándar",
+      "description": "La campaña principal de la historia que cubre todos los escenarios principales."
+    },
+    "jaws_completionist": {
+      "name": "Completista",
+      "description": "La historia principal más todos los escenarios secundarios desbloqueados."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Tutorial",
+      "title": "Bienvenido al Túmulo Negro",
+      "phase": "Fase de Campaña 1 - Aprendiendo los Conceptos",
+      "description": "Los escenarios del tutorial te introducen en la mecánica de Gloomhaven."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mitad de Partida",
+      "title": "Descubriendo la Conspiración",
+      "phase": "Fase de Campaña 2 - El Misterio se Profundiza",
+      "description": "Avanzando a través de la historia principal mientras los misterios se profundizan."
+    }
+  ]
+}

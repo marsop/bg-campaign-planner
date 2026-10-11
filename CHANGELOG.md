@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.65.0] - Unreleased
+
+### Added
+- Added Gloomhaven: Jaws of the Lion game.
+
 ## [0.64.0] - 2026-09-29
 
 ### Added
