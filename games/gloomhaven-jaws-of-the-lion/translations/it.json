@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Una campagna cooperativa di combattimento tattico nella città di Gloomhaven",
+  "tagline": "Affronta l'oscurità crescente nelle strade",
+  "loreSummary": "Sei un membro delle Fauci del Leone, un famigerato gruppo di mercenari nella città di Gloomhaven. Qualcosa di sinistro sta accadendo nelle strade e spetta a te scoprire la verità e porvi fine.",
+  "badgeCategory": "Dungeon Crawler Tattico",
+  "roadmapTitle": "🗺️ Progressione della Campagna",
+  "roadmapBadge": "TABELLA DI MARCIA DELLA CITTÀ",
+  "keyFeatures": [
+    "Campagna tutorial accessibile per imparare le regole gradualmente",
+    "Combattimento tattico basato su carte senza dadi",
+    "Gioca direttamente nel libro degli scenari",
+    "Trama coinvolgente che svela una cospirazione cittadina"
+  ],
+  "scopes": {
+    "jotl_standard": {
+      "name": "Campagna Standard",
+      "description": "La trama principale delle Fauci del Leone."
+    },
+    "jotl_completionist": {
+      "name": "Completista",
+      "description": "La storia principale più tutti gli scenari secondari e sbloccabili."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Tutorial",
+      "title": "Benvenuti nelle Fauci",
+      "phase": "Fase I - Imparare le Basi",
+      "description": "Padroneggiare le meccaniche di base e prepararsi per il vero lavoro mercenario."
+    },
+    {
+      "order": 2,
+      "badgeText": "Metà Percorso",
+      "title": "La Minaccia Rivelata",
+      "phase": "Fase II - Nelle Profondità",
+      "description": "Scoprire la vera natura della minaccia per la città e decidere come procedere."
+    },
+    {
+      "order": 3,
+      "badgeText": "Finale",
+      "title": "Salvare la Città",
+      "phase": "Fase III - Confronto Finale",
+      "description": "Lo scontro decisivo per salvare Gloomhaven da un destino terribile."
+    }
+  ]
+}

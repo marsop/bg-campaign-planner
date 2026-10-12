@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "A cooperative campaign of tactical combat in the city of Gloomhaven",
+  "tagline": "Face the rising darkness in the streets",
+  "loreSummary": "You are a member of the Jaws of the Lion, an infamous mercenary group in the city of Gloomhaven. Something sinister is happening in the streets, and it is up to you to uncover the truth and put a stop to it.",
+  "badgeCategory": "Tactical Dungeon Crawler",
+  "roadmapTitle": "🗺️ Campaign Progression",
+  "roadmapBadge": "CITY ROADMAP",
+  "keyFeatures": [
+    "Accessible tutorial campaign to learn the rules gradually",
+    "Card-driven tactical combat with no dice",
+    "Play directly in the scenario book",
+    "Engaging storyline uncovering a city-wide conspiracy"
+  ],
+  "scopes": {
+    "jotl_standard": {
+      "name": "Standard Campaign",
+      "description": "The main storyline of the Jaws of the Lion."
+    },
+    "jotl_completionist": {
+      "name": "Completionist",
+      "description": "The main story plus all side and unlockable scenarios."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Tutorial",
+      "title": "Welcome to the Jaws",
+      "phase": "Phase I - Learning the Ropes",
+      "description": "Mastering the basic mechanics and preparing to take on real mercenary work."
+    },
+    {
+      "order": 2,
+      "badgeText": "Midpoint",
+      "title": "The Threat Revealed",
+      "phase": "Phase II - Into the Depths",
+      "description": "Uncovering the true nature of the threat to the city and deciding how to proceed."
+    },
+    {
+      "order": 3,
+      "badgeText": "Finale",
+      "title": "Saving the City",
+      "phase": "Phase III - Final Confrontation",
+      "description": "The ultimate showdown to save Gloomhaven from a terrible fate."
+    }
+  ]
+}

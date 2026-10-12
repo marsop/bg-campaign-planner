@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Une campagne coopérative de combat tactique dans la ville de Gloomhaven",
+  "tagline": "Affrontez les ténèbres grandissantes dans les rues",
+  "loreSummary": "Vous êtes membre des Mâchoires du Lion, un groupe de mercenaires tristement célèbre dans la ville de Gloomhaven. Quelque chose de sinistre se trame dans les rues, et c'est à vous de découvrir la vérité et d'y mettre fin.",
+  "badgeCategory": "Exploration de Donjon Tactique",
+  "roadmapTitle": "🗺️ Progression de la Campagne",
+  "roadmapBadge": "FEUILLE DE ROUTE DE LA VILLE",
+  "keyFeatures": [
+    "Campagne de tutoriel accessible pour apprendre les règles progressivement",
+    "Combat tactique par cartes sans dés",
+    "Jouez directement dans le livre de scénarios",
+    "Histoire captivante dévoilant une conspiration à l'échelle de la ville"
+  ],
+  "scopes": {
+    "jotl_standard": {
+      "name": "Campagne Standard",
+      "description": "L'histoire principale des Mâchoires du Lion."
+    },
+    "jotl_completionist": {
+      "name": "Complétiste",
+      "description": "L'histoire principale ainsi que tous les scénarios secondaires et déblocables."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Tutoriel",
+      "title": "Bienvenue dans les Mâchoires",
+      "phase": "Phase I - Apprendre les Ficelles",
+      "description": "Maîtriser les mécaniques de base et se préparer à affronter de vrais travaux de mercenaires."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mi-parcours",
+      "title": "La Menace Révélée",
+      "phase": "Phase II - Dans les Profondeurs",
+      "description": "Découvrir la véritable nature de la menace pesant sur la ville et décider de la marche à suivre."
+    },
+    {
+      "order": 3,
+      "badgeText": "Final",
+      "title": "Sauver la Ville",
+      "phase": "Phase III - Confrontation Finale",
+      "description": "L'affrontement ultime pour sauver Gloomhaven d'un destin terrible."
+    }
+  ]
+}
