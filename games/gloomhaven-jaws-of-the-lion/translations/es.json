@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Una campaña cooperativa de combate táctico en la ciudad de Gloomhaven",
+  "tagline": "Enfréntate a la oscuridad que se alza en las calles",
+  "loreSummary": "Eres miembro de Fauces del León, un famoso grupo de mercenarios en la ciudad de Gloomhaven. Algo siniestro está sucediendo en las calles, y depende de ti descubrir la verdad y detenerlo.",
+  "badgeCategory": "Exploración de Mazmorras Táctica",
+  "roadmapTitle": "🗺️ Progresión de la Campaña",
+  "roadmapBadge": "HOJA DE RUTA DE LA CIUDAD",
+  "keyFeatures": [
+    "Campaña tutorial accesible para aprender las reglas gradualmente",
+    "Combate táctico impulsado por cartas sin dados",
+    "Juega directamente en el libro de escenarios",
+    "Historia cautivadora descubriendo una conspiración en toda la ciudad"
+  ],
+  "scopes": {
+    "jotl_standard": {
+      "name": "Campaña Estándar",
+      "description": "La historia principal de Fauces del León."
+    },
+    "jotl_completionist": {
+      "name": "Completista",
+      "description": "La historia principal más todos los escenarios secundarios y desbloqueables."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Tutorial",
+      "title": "Bienvenidos a las Fauces",
+      "phase": "Fase I - Aprendiendo los Fundamentos",
+      "description": "Dominando las mecánicas básicas y preparándose para el verdadero trabajo mercenario."
+    },
+    {
+      "order": 2,
+      "badgeText": "Punto Medio",
+      "title": "La Amenaza Revelada",
+      "phase": "Fase II - Hacia las Profundidades",
+      "description": "Descubriendo la verdadera naturaleza de la amenaza a la ciudad y decidiendo cómo proceder."
+    },
+    {
+      "order": 3,
+      "badgeText": "Final",
+      "title": "Salvando la Ciudad",
+      "phase": "Fase III - Confrontación Final",
+      "description": "El enfrentamiento definitivo para salvar a Gloomhaven de un destino terrible."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "gloomhaven-jaws-of-the-lion",
+  "title": "Gloomhaven: Jaws of the Lion",
+  "releaseYear": 2020,
+  "designers": "Isaac Childres",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.6,
+  "bggWeight": 3.6,
+  "bggUrl": "https://boardgamegeek.com/boardgame/291457/gloomhaven-jaws-of-the-lion",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#b84234",
+    "secondaryColor": "#1f1d1c",
+    "accentColor": "#e0a96d",
+    "backgroundGradient": "radial-gradient(ellipse at top, #362220 0%, #171413 60%, #0a0908 100%)",
+    "cardBackground": "rgba(31, 29, 28, 0.90)",
+    "borderColor": "rgba(184, 66, 52, 0.35)",
+    "glowColor": "rgba(184, 66, 52, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🩸",
+    "emblem": "🪓🛡️",
+    "themeClass": "theme-jaws-of-the-lion",
+    "activeThemeClass": "theme-jaws-of-the-lion-active",
+    "roadmapClass": "roadmap-jaws-of-the-lion",
+    "heroClass": "hero-jaws-of-the-lion"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #6 Overall)",
+    "Cephalofair Games Official Rulebook",
+    "Community Campaign Survey Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "jotl_standard",
+      "baseScenarioCount": 17,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "jotl_completionist",
+      "baseScenarioCount": 25,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "📚",
+      "badgeText": "Tutorial",
+      "title": "Welcome to the Jaws",
+      "phase": "Phase I - Learning the Ropes",
+      "description": "Mastering the basic mechanics and preparing to take on real mercenary work."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "⚔️",
+      "badgeText": "Midpoint",
+      "title": "The Threat Revealed",
+      "phase": "Phase II - Into the Depths",
+      "description": "Uncovering the true nature of the threat to the city and deciding how to proceed."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 17,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "Saving the City",
+      "phase": "Phase III - Final Confrontation",
+      "description": "The ultimate showdown to save Gloomhaven from a terrible fate."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Gloomhaven: Jaws of the Lion",
+  "subtitle": "Eine kooperative Kampagne mit taktischen Kämpfen in der Stadt Gloomhaven",
+  "tagline": "Stelle dich der wachsenden Dunkelheit in den Straßen",
+  "loreSummary": "Ihr seid Mitglieder der Pranken des Löwen, einer berüchtigten Söldnergruppe in der Stadt Gloomhaven. Etwas Unheimliches geht in den Straßen vor sich, und es liegt an euch, die Wahrheit aufzudecken und dem Einhalt zu gebieten.",
+  "badgeCategory": "Taktischer Dungeon-Crawler",
+  "roadmapTitle": "🗺️ Kampagnen-Fortschritt",
+  "roadmapBadge": "STADT-ROADMAP",
+  "keyFeatures": [
+    "Zugängliche Tutorial-Kampagne zum schrittweisen Erlernen der Regeln",
+    "Kartengesteuerter taktischer Kampf ohne Würfel",
+    "Spiele direkt im Szenariobuch",
+    "Fesselnde Handlung, die eine stadtweite Verschwörung aufdeckt"
+  ],
+  "scopes": {
+    "jotl_standard": {
+      "name": "Standard-Kampagne",
+      "description": "Die Hauptgeschichte der Pranken des Löwen."
+    },
+    "jotl_completionist": {
+      "name": "Komplettierer",
+      "description": "Die Hauptgeschichte plus alle Neben- und freischaltbaren Szenarien."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Tutorial",
+      "title": "Willkommen bei den Pranken",
+      "phase": "Phase I - Die Grundlagen lernen",
+      "description": "Die grundlegenden Mechaniken meistern und sich auf echte Söldnerarbeit vorbereiten."
+    },
+    {
+      "order": 2,
+      "badgeText": "Halbzeit",
+      "title": "Die Bedrohung offenbart",
+      "phase": "Phase II - In die Tiefen",
+      "description": "Die wahre Natur der Bedrohung für die Stadt aufdecken und entscheiden, wie man vorgeht."
+    },
+    {
+      "order": 3,
+      "badgeText": "Finale",
+      "title": "Die Rettung der Stadt",
+      "phase": "Phase III - Letzte Konfrontation",
+      "description": "Der ultimative Showdown, um Gloomhaven vor einem schrecklichen Schicksal zu bewahren."
+    }
+  ]
+}
