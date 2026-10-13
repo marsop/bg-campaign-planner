@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+## [0.66] - 2026-10-13
+
+### Added
+- **New Game Added**:
+  - Added **The Crew: The Quest for Planet Nine** to the campaign planner.
+  - Included localized campaign scopes and details.
+  - Custom thematic styling with #151B54 primary color and thematic gradients.
+
 ## [0.65] - 2026-10-12
 
 ### Added
@@ -12,8 +22,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Added **Gloomhaven: Jaws of the Lion** to the campaign planner.
   - Included localized campaign scopes (Standard, Completionist) and milestones.
   - Custom thematic styling with #b84234 primary color and thematic gradients.
-
-## [Unreleased]
 
 ## [0.64.0] - 2026-09-29
 
