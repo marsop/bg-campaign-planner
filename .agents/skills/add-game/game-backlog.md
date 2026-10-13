@@ -82,8 +82,6 @@ requested by the user.
 
 ## 🟥 High Priority
 
-- **The Crew: The Quest for Planet Nine** — Cooperative trick-taking card game with 50 sequential space missions. 50 missions (15-20 hours). ~8.0 BGG. 2-5 players. Trick-taking, cooperative, limited communication.
-
 ---
 
 ## 🟧 Medium Priority

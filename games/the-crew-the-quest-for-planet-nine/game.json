@@ -1,0 +1,28 @@
+{
+  "id": "the-crew-the-quest-for-planet-nine",
+  "bggRating": 8.0,
+  "minPlayers": 2,
+  "maxPlayers": 5,
+  "theme": {
+    "primaryColor": "#151B54",
+    "backgroundGradient": "linear-gradient(135deg, #0d1130 0%, #151B54 100%)",
+    "textColor": "#FFFFFF"
+  },
+  "title": "The Crew: The Quest for Planet Nine",
+  "scopes": [
+    {
+      "id": "the_crew_full_campaign",
+      "baseScenarioCount": 50,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    }
+  ],
+  "baseScenarioMinutes": 20,
+  "setupTeardownMinutes": 5,
+  "unitType": "missions",
+  "releaseYear": 2019,
+  "designers": "Thomas Sing",
+  "bggWeight": 1.97,
+  "quality": "high",
+  "bggUrl": "https://boardgamegeek.com/boardgame/284083/the-crew-the-quest-for-planet-nine"
+}

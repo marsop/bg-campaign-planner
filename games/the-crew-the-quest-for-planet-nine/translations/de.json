@@ -1,0 +1,43 @@
+{
+  "title": "Die Crew: Reist gemeinsam zum 9. Planeten",
+  "subtitle": "The Cooperative Trick-Taking Space Mission",
+  "tagline": "Kooperatives Stichspiel mit 50 aufeinanderfolgenden Weltraummissionen.",
+  "loreSummary": "Astronauts wanted! The scientific community is abuzz over signs of a mysterious ninth planet at the edge of our solar system. Join the crew and undertake 50 increasingly difficult missions to verify its existence.",
+  "badgeCategory": "Card Game Campaign",
+  "roadmapTitle": "Mission Log",
+  "roadmapBadge": "Log Entry",
+  "keyFeatures": [
+    "50 sequential, highly replayable trick-taking missions",
+    "Cooperative gameplay with limited communication",
+    "Evolving difficulty and task assignments"
+  ],
+  "scopes": {
+    "the_crew_full_campaign": {
+      "name": "Full Logbook (50 Missions)",
+      "description": "Complete all 50 sequential missions."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 10",
+      "title": "First Major Hurdle",
+      "phase": "Early Solar System",
+      "description": "Complete the initial 10 missions to get the hang of trick-taking."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 25",
+      "title": "Halfway There",
+      "phase": "Deep Space",
+      "description": "Complete 25 missions."
+    },
+    {
+      "order": 3,
+      "badgeText": "Finale",
+      "title": "Planet Nine",
+      "phase": "The Edge of the Solar System",
+      "description": "Complete the grueling final missions."
+    }
+  ]
+}
