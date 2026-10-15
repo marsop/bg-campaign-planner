@@ -1,0 +1,66 @@
+{
+  "title": "The Crew: The Quest for Planet Nine",
+  "subtitle": "Une odyssée coopérative de plis dans l'espace lointain avec communication limitée",
+  "tagline": "Dans le silence des confins stellaires, la synchronisation est votre unique survie",
+  "loreSummary": "Des anomalies gravitationnelles aux confins du système solaire révèlent l'existence d'une mystérieuse neuvième planète. En tant qu'équipage d'astronautes d'élite, vous devez coordonner en silence vos levées à travers 50 missions immersives pour cartographier l'inconnu.",
+  "badgeCategory": "Plis Coopératifs de Science-Fiction",
+  "roadmapTitle": "🚀 Journal de Bord Spatial & Trajectoire de Mission",
+  "roadmapBadge": "FEUILLE DE ROUTE SPATIALE",
+  "keyFeatures": [
+    "Mécanique coopérative de plis avec communication verbale strictement restreinte",
+    "Campagne de 50 missions séquentielles, des entraînements de base aux dangers extrêmes",
+    "Attribution de cartes de tâches avec contraintes strictes d'ordre et de répartition",
+    "Mécanique de signal de détresse d'urgence et paramètres de difficulté modulables"
+  ],
+  "scopes": {
+    "crew_training_run": {
+      "name": "Entraînement des Astronautes & Arc Lunaire",
+      "description": "Missions 1 à 20 couvrant la préparation au sol, le lancement, l'orbite terrestre et la fronde gravitationnelle lunaire."
+    },
+    "crew_full_expedition": {
+      "name": "Expédition Complète vers la 9e Planète",
+      "description": "L'intégralité du périple de 50 missions, depuis les premiers exercices au simulateur jusqu'à la découverte de la neuvième planète."
+    },
+    "crew_master_astronaut": {
+      "name": "Campagne Maître Astronaute",
+      "description": "Les 50 missions avec signaux de détresse minimaux, marge de tentatives et défis de commandant additionnels."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 5",
+      "title": "Certification de Vol des Astronautes",
+      "phase": "Phase I — Simulations Terrestres & Synchronisation de l'Équipage",
+      "description": "Valider les exercices préalables, la coordination en apesanteur et la synergie mentale de l'équipage."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 19",
+      "title": "Fronde Lunaire & Injection Orbitale",
+      "phase": "Phase II — Orbite Terrestre & Transit Lunaire",
+      "description": "S'affranchir de l'attraction Terre-Lune et étalonner les capteurs longue portée vers le vide spatial."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 33",
+      "title": "La Ceinture d'Astéroïdes & Zones Silencieuses",
+      "phase": "Phase III — Transit Lointain & Pannes Critiques",
+      "description": "Traverser des champs de débris denses et des tempêtes solaires sous d'importantes interférences radio."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 44",
+      "title": "Anomalie Gravitationnelle aux Confins",
+      "phase": "Phase IV — Approche de la Ceinture de Kuiper",
+      "description": "Détecter d'étranges ondes gravitationnelles dans l'obscurité glaciale au-delà des orbites connues."
+    },
+    {
+      "order": 5,
+      "badgeText": "Mission 50",
+      "title": "Découverte de la Neuvième Planète",
+      "phase": "Phase V — Les Confins du Système Solaire",
+      "description": "Accomplir la série décisive de manœuvres coordonnées pour localiser, confirmer et cartographier la planète perdue."
+    }
+  ]
+}

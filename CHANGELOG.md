@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.66.0] - 2026-10-14
+
+### Added
+- **New Board Game Added**:
+  - Added support for **The Crew: The Quest for Planet Nine**, the award-winning cooperative sci-fi trick-taking card game by Thomas Sing (KOSMOS / Thames & Kosmos; Kennerspiel des Jahres 2020 Winner).
+    - 3 campaign scope presets: *Full Expedition to Planet Nine* (50 missions, recommended), *Astronaut Training & Lunar Arc* (20 missions), and *Master Astronaut Campaign* (65 missions with minimal distress signals and bonus constraints).
+    - 5 narrative milestone checkpoints: *Astronaut Flight Certification* (Mission 5), *Lunar Slingshot & Orbital Departure* (Mission 19), *The Asteroid Belt & Sensor Dead Zones* (Mission 33), *Gravitational Anomaly at the Outer Edge* (Mission 44), and *Discovery of Planet Nine* (Mission 50), with full spoiler mask protection.
+    - Thematic visual identity (cosmic cyan `#00b4d8`, space void `#070b19`, and solar gold `#f59e0b` palette, classical typography, 1:1 flat front box cover art, and atmospheric widescreen space illustration).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.65] - 2026-10-12
 
 ### Added

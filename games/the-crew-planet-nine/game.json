@@ -1,0 +1,104 @@
+{
+  "id": "the-crew-planet-nine",
+  "title": "The Crew: The Quest for Planet Nine",
+  "releaseYear": 2019,
+  "designers": "Thomas Sing",
+  "playersMin": 2,
+  "playersMax": 5,
+  "bggRating": 7.9,
+  "bggWeight": 1.98,
+  "bggUrl": "https://boardgamegeek.com/boardgame/284083/the-crew-the-quest-for-planet-nine",
+  "baseScenarioMinutes": 15,
+  "setupTeardownMinutes": 5,
+  "unitType": "missions",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#00b4d8",
+    "secondaryColor": "#070b19",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #0f2744 0%, #081122 55%, #030712 100%)",
+    "cardBackground": "rgba(11, 20, 38, 0.92)",
+    "borderColor": "rgba(0, 180, 216, 0.35)",
+    "glowColor": "rgba(0, 180, 216, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🛰️",
+    "emblem": "🚀🪐",
+    "themeClass": "theme-thecrew",
+    "activeThemeClass": "theme-thecrew-active",
+    "roadmapClass": "roadmap-thecrew",
+    "heroClass": "hero-thecrew"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #284083 Kennerspiel des Jahres Winner)",
+    "KOSMOS & Thames & Kosmos Official Rulebook & Mission Logbook",
+    "Community Campaign Statistics & Mission Retry Logs"
+  ],
+  "scopes": [
+    {
+      "id": "crew_training_run",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "crew_full_expedition",
+      "baseScenarioCount": 50,
+      "estimatedFailRatePercent": 35.0,
+      "isRecommended": true
+    },
+    {
+      "id": "crew_master_astronaut",
+      "baseScenarioCount": 65,
+      "estimatedFailRatePercent": 50.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🧑‍🚀",
+      "badgeText": "Mission 5",
+      "title": "Astronaut Flight Certification",
+      "phase": "Phase I — Ground Simulations & Team Synchronization",
+      "description": "Finalize pre-flight drills, zero-gravity coordination, and establish crew drift compatibility."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 19,
+      "iconEmoji": "🌕",
+      "badgeText": "Mission 19",
+      "title": "Lunar Slingshot & Orbital Departure",
+      "phase": "Phase II — Earth Orbit & Lunar Transit",
+      "description": "Break free of Earth-Moon gravitational pull and initiate long-range sensor calibration into deep space."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 33,
+      "iconEmoji": "☄️",
+      "badgeText": "Mission 33",
+      "title": "The Asteroid Belt & Sensor Dead Zones",
+      "phase": "Phase III — Deep Space Transit & Extreme Malfunctions",
+      "description": "Navigate high-density debris fields and hazardous solar storms while radio communications face severe disruption."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 44,
+      "iconEmoji": "📡",
+      "badgeText": "Mission 44",
+      "title": "Gravitational Anomaly at the Outer Edge",
+      "phase": "Phase IV — Kuiper Belt Approach",
+      "description": "Pinpoint unusual gravitational wave oscillations in the frozen dark beyond the known planetary orbits."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 50,
+      "iconEmoji": "🪐",
+      "badgeText": "Mission 50",
+      "title": "Discovery of Planet Nine",
+      "phase": "Phase V — The Edge of the Solar System",
+      "description": "Execute the definitive cooperative series of maneuvers to locate, confirm, and chart humanity's long-lost ninth planet."
+    }
+  ]
+}

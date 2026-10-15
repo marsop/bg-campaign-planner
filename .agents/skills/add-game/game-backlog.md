@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (68 games):**
+**Currently in app (69 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -77,18 +77,18 @@ requested by the user.
 - Sleeping Gods: Distant Skies
 - Boss Fighters QR
 - Gloomhaven: Jaws of the Lion
+- The Crew: The Quest for Planet Nine
 
 ---
 
 ## 🟥 High Priority
 
-- **The Crew: The Quest for Planet Nine** — Cooperative trick-taking card game with 50 sequential space missions. 50 missions (15-20 hours). ~8.0 BGG. 2-5 players. Trick-taking, cooperative, limited communication.
+- **Descent: Journeys in the Dark (Second Edition)** — Competitive or app-driven cooperative fantasy dungeon crawl. 20 sessions (30-45 hours). ~7.6 BGG. 2-5 players. Dungeon crawler, one vs many.
 
 ---
 
 ## 🟧 Medium Priority
 
-- **Descent: Journeys in the Dark (Second Edition)** — Competitive or app-driven cooperative fantasy dungeon crawl. 20 sessions (30-45 hours). ~7.6 BGG. 2-5 players. Dungeon crawler, one vs many.
 - **Stuffed Fables** — Narrative adventure book game exploring a little girl's nightmares. 7 sessions (10-15 hours). ~7.4 BGG. 2-4 players. Adventure book, narrative.
 - **Risk Legacy** — Competitive world conquest with permanent board changes and unlockable content. 15 sessions (15-20 hours). ~7.3 BGG. 3-5 players. Legacy, area control.
 

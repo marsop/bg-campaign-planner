@@ -1,0 +1,66 @@
+{
+  "title": "The Crew: The Quest for Planet Nine",
+  "subtitle": "A cooperative trick-taking odyssey across deep space with limited communication",
+  "tagline": "In the silent depths of space, silent teamwork is your only lifeline",
+  "loreSummary": "Astronomers have detected gravitational anomalies at the edge of our solar system pointing to a mysterious ninth planet. As an elite astronaut crew, you must coordinate silent trick-taking maneuvers through 50 escalating missions to chart the unknown.",
+  "badgeCategory": "Cooperative Sci-Fi Trick-Taking",
+  "roadmapTitle": "🚀 Deep Space Logbook & Mission Trajectory",
+  "roadmapBadge": "EXPEDITION ROADMAP",
+  "keyFeatures": [
+    "Cooperative trick-taking mechanics with strictly limited communication",
+    "50 sequential narrative missions scaling from basic drills to extreme hazards",
+    "Task card distribution requiring precise trick sequence and card allocation",
+    "Emergency distress signal mechanic and customizable difficulty modifiers"
+  ],
+  "scopes": {
+    "crew_training_run": {
+      "name": "Astronaut Training & Lunar Arc",
+      "description": "Missions 1 to 20 covering ground training, launch, Earth orbit, and the lunar slingshot maneuvers."
+    },
+    "crew_full_expedition": {
+      "name": "Full Expedition to Planet Nine",
+      "description": "The complete 50-mission journey from Earth simulator drills all the way to the discovery of Planet Nine."
+    },
+    "crew_master_astronaut": {
+      "name": "Master Astronaut Campaign",
+      "description": "All 50 missions played with minimal distress signals, retry allowances, and bonus commander challenges."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 5",
+      "title": "Astronaut Flight Certification",
+      "phase": "Phase I — Ground Simulations & Team Synchronization",
+      "description": "Finalize pre-flight drills, zero-gravity coordination, and establish crew drift compatibility."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 19",
+      "title": "Lunar Slingshot & Orbital Departure",
+      "phase": "Phase II — Earth Orbit & Lunar Transit",
+      "description": "Break free of Earth-Moon gravitational pull and initiate long-range sensor calibration into deep space."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 33",
+      "title": "The Asteroid Belt & Sensor Dead Zones",
+      "phase": "Phase III — Deep Space Transit & Extreme Malfunctions",
+      "description": "Navigate high-density debris fields and hazardous solar storms while radio communications face severe disruption."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 44",
+      "title": "Gravitational Anomaly at the Outer Edge",
+      "phase": "Phase IV — Kuiper Belt Approach",
+      "description": "Pinpoint unusual gravitational wave oscillations in the frozen dark beyond the known planetary orbits."
+    },
+    {
+      "order": 5,
+      "badgeText": "Mission 50",
+      "title": "Discovery of Planet Nine",
+      "phase": "Phase V — The Edge of the Solar System",
+      "description": "Execute the definitive cooperative series of maneuvers to locate, confirm, and chart humanity's long-lost ninth planet."
+    }
+  ]
+}

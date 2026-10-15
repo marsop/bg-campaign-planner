@@ -1,0 +1,66 @@
+{
+  "title": "The Crew: The Quest for Planet Nine",
+  "subtitle": "Una odisea cooperativa de bazas espaciales con comunicación estrictamente limitada",
+  "tagline": "En el silencio del cosmos, la sincronización del equipo es vuestra única salvación",
+  "loreSummary": "Los astrónomos han detectado perturbaciones gravitatorias en los confines del sistema solar que sugieren la existencia de un misterioso noveno planeta. Como tripulación de élite, debéis coordinar silenciosas maniobras de bazas a lo largo de 50 misiones progresivas para explorar lo desconocido.",
+  "badgeCategory": "Bazas Cooperativas de Ciencia Ficción",
+  "roadmapTitle": "🚀 Cuaderno de Bitácora y Trayectoria Espacial",
+  "roadmapBadge": "HOJA DE RUTA ESPACIAL",
+  "keyFeatures": [
+    "Mecánica cooperativa de bazas con comunicación verbal estrictamente restringida",
+    "Campaña de 50 misiones secuenciales que evolucionan desde simulaciones básicas hasta peligros letales",
+    "Asignación de cartas de tarea con estrictos requisitos de orden cronológico y asignación",
+    "Mecánica de señal de socorro de emergencia y moduladores de dificultad personalizables"
+  ],
+  "scopes": {
+    "crew_training_run": {
+      "name": "Entrenamiento de Astronautas y Fase Lunar",
+      "description": "Misiones 1 a 20 que comprenden el adiestramiento terrestre, despegue, órbita de la Tierra y maniobra de honda lunar."
+    },
+    "crew_full_expedition": {
+      "name": "Expedición Completa al Noveno Planeta",
+      "description": "La travesía íntegra de 50 misiones desde los primeros simuladores terrestres hasta el hallazgo definitivo del Planeta Nueve."
+    },
+    "crew_master_astronaut": {
+      "name": "Campaña de Astronauta Maestro",
+      "description": "Las 50 misiones completadas minimizando señales de socorro, con margen de reintentos y desafíos de comandante adicionales."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Misión 5",
+      "title": "Certificación de Vuelo Espacial",
+      "phase": "Fase I — Simulaciones Terrestres y Sincronización de Equipo",
+      "description": "Culminar las maniobras previas al lanzamiento, la coordinación en gravedad cero y la sintonía mental de la tripulación."
+    },
+    {
+      "order": 2,
+      "badgeText": "Misión 19",
+      "title": "Impulso Gravitacional Lunar y Salida Orbital",
+      "phase": "Fase II — Órbita Terrestre y Tránsito Lunar",
+      "description": "Escapar del pozo gravitatorio Tierra-Luna y calibrar los sensores de largo alcance rumbo al espacio profundo."
+    },
+    {
+      "order": 3,
+      "badgeText": "Misión 33",
+      "title": "El Cinturón de Asteroides y Zonas Muertas de Sensores",
+      "phase": "Fase III — Tránsito en Espacio Profundo y Fallos Críticos",
+      "description": "Navegar densos campos de escombros y tormentas solares mientras las transmisiones por radio sufren graves interferencias."
+    },
+    {
+      "order": 4,
+      "badgeText": "Misión 44",
+      "title": "Anomalía Gravitacional en los Confines",
+      "phase": "Fase IV — Aproximación al Cinturón de Kuiper",
+      "description": "Localizar oscilaciones gravitacionales anómalas en la oscuridad helada más allá de las órbitas planetarias conocidas."
+    },
+    {
+      "order": 5,
+      "badgeText": "Misión 50",
+      "title": "Descubrimiento del Noveno Planeta",
+      "phase": "Fase V — El Borde del Sistema Solar",
+      "description": "Ejecutar la definitiva serie coordinada de maniobras para confirmar, cartografiar y alcanzar el elusivo noveno planeta."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "The Crew: The Quest for Planet Nine",
+  "subtitle": "Un'odissea cooperativa di prese nello spazio profondo a comunicazione limitata",
+  "tagline": "Nel silenzio cosmico, l'intesa silenziosa della squadra è la vostra unica salvezza",
+  "loreSummary": "Gli astronomi hanno rilevato anomalie gravitazionali ai confini del nostro sistema solare che suggeriscono l'esistenza di un misterioso nono pianeta. Come equipaggio di astronauti d'élite, dovrete coordinare in silenzio prese e strategie lungo 50 missioni per esplorare l'ignoto.",
+  "badgeCategory": "Prese Cooperative Fantascientifiche",
+  "roadmapTitle": "🚀 Giornale di Bordo & Rotta della Missione",
+  "roadmapBadge": "TABELLA DI ROTTA SPAZIALE",
+  "keyFeatures": [
+    "Meccanica cooperativa di prese con comunicazione verbale rigorosamente limitata",
+    "Campagna di 50 missioni sequenziali, dalle simulazioni base ai pericoli letali",
+    "Assegnazione di carte obiettivo con rigidi requisiti d'ordine cronologico e distribuzione",
+    "Meccanica del segnale di soccorso d'emergenza e modificatori di difficoltà personalizzabili"
+  ],
+  "scopes": {
+    "crew_training_run": {
+      "name": "Addestramento Astronauti & Arco Lunare",
+      "description": "Missioni da 1 a 20: addestramento a terra, decollo, orbita terrestre e fionda gravitazionale lunare."
+    },
+    "crew_full_expedition": {
+      "name": "Spedizione Completa verso il Pianeta Nove",
+      "description": "L'intero viaggio di 50 missioni, dai primi simulatori a terra fino alla scoperta definitiva del Pianeta Nove."
+    },
+    "crew_master_astronaut": {
+      "name": "Campagna Astronauta Maestro",
+      "description": "Tutte le 50 missioni con segnali di soccorso ridotti al minimo, margine di tentativi e sfide comandante extra."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Missione 5",
+      "title": "Certificazione di Volo per Astronauti",
+      "phase": "Fase I — Simulazioni a Terra & Sincronizzazione Equipaggio",
+      "description": "Completare le simulazioni di volo, la coordinazione a gravità zero e la sintonia mentale della squadra."
+    },
+    {
+      "order": 2,
+      "badgeText": "Missione 19",
+      "title": "Fionda Lunare & Uscita Orbitale",
+      "phase": "Fase II — Orbita Terrestre & Transito Lunare",
+      "description": "Superare l'attrazione gravitazionale Terra-Luna e calibrare i sensori a lungo raggio verso lo spazio profondo."
+    },
+    {
+      "order": 3,
+      "badgeText": "Missione 33",
+      "title": "La Fascia degli Asteroidi & Zone d'Ombra dei Sensori",
+      "phase": "Fase III — Transito nello Spazio Profundo & Avarie Critiche",
+      "description": "Attraversare densi campi di detriti e tempeste solari con pesanti interferenze alle comunicazioni radio."
+    },
+    {
+      "order": 4,
+      "badgeText": "Missione 44",
+      "title": "Anomalia Gravitazionale ai Confini",
+      "phase": "Fase IV — Avvicinamento alla Fascia di Kuiper",
+      "description": "Rilevare insolite oscillazioni gravitazionali nell'oscurità gelida oltre le orbite planetarie note."
+    },
+    {
+      "order": 5,
+      "badgeText": "Missione 50",
+      "title": "Scoperta del Pianeta Nove",
+      "phase": "Fase V — Ai Confini del Sistema Solare",
+      "description": "Eseguire la serie decisiva di manovre coordinate per localizzare, confermare e mappare il pianeta perduto."
+    }
+  ]
+}

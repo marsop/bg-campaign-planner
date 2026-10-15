@@ -1,0 +1,66 @@
+{
+  "title": "The Crew: The Quest for Planet Nine",
+  "subtitle": "Eine kooperative Stichspiel-Odyssee in den Weiten des Alls mit limitierter Kommunikation",
+  "tagline": "In der eisigen Stille des Weltraums ist lautlose Teamarbeit eure einzige Rettung",
+  "loreSummary": "Astronomen haben am Rande unseres Sonnensystems Gravitationsanomalien entdeckt, die auf einen geheimnisvollen 9. Planeten hindeuten. Als Astronauten-Crew müsst ihr in 50 aufeinander aufbauenden Missionen schweigend präzise Stiche koordinieren, um das Unbekannte zu erforschen.",
+  "badgeCategory": "Kooperatives Sci-Fi-Stichspiel",
+  "roadmapTitle": "🚀 Logbuch & Missionsverlauf im Tiefraum",
+  "roadmapBadge": "EXPEDITIONS-ROADMAP",
+  "keyFeatures": [
+    "Kooperative Stichspiel-Mechanik mit stark eingeschränkter verbaler Kommunikation",
+    "50 aufeinanderfolgende Missionen von einfachen Übungen bis hin zu extremen Gefahren",
+    "Auftragskarten mit strengen Reihenfolge- und Zuordnungsbedingungen",
+    "Notsignal-Mechanismus und anpassbare Schwierigkeitsgrade"
+  ],
+  "scopes": {
+    "crew_training_run": {
+      "name": "Astronautentraining & Mondbogen",
+      "description": "Missionen 1 bis 20: Bodentraining, Raketenstart, Erdorbit und das Mond-Swing-by-Manöver."
+    },
+    "crew_full_expedition": {
+      "name": "Vollständige Expedition zum 9. Planeten",
+      "description": "Die komplette 50-Missionen-Reise vom ersten Simulator-Training bis zur Entdeckung des 9. Planeten."
+    },
+    "crew_master_astronaut": {
+      "name": "Meister-Astronauten-Kampagne",
+      "description": "Alle 50 Missionen mit minimalen Notsignalen, Wiederholungspuffer und zusätzlichen Kommandanten-Herausforderungen."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 5",
+      "title": "Astronauten-Flugzertifizierung",
+      "phase": "Phase I — Bodensimulationen & Team-Synchronisation",
+      "description": "Abschluss der Vorbereitungsübungen, Schwerelosigkeitstests und Feinabstimmung der Crew-Kommunikation."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 19",
+      "title": "Mond-Slingshot & Orbit-Austritt",
+      "phase": "Phase II — Erdorbit & Mondtransit",
+      "description": "Überwindung der Erde-Mond-Schwerkraft und Kalibrierung der Langstreckensensoren in den Tiefraum."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 33",
+      "title": "Der Asteroidengürtel & Sensor-Totzonen",
+      "phase": "Phase III — Tiefraumtransit & Kritische Fehlfunktionen",
+      "description": "Navigation durch dichte Trümmerfelder und Sonnenstürme bei schweren Funkstörungen."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 44",
+      "title": "Gravitationsanomalie am Rand des Systems",
+      "phase": "Phase IV — Annäherung an den Kuipergürtel",
+      "description": "Ortung ungewöhnlicher Gravitationswellen in der eisigen Dunkelheit jenseits bekannter Planetenbahnen."
+    },
+    {
+      "order": 5,
+      "badgeText": "Mission 50",
+      "title": "Entdeckung des 9. Planeten",
+      "phase": "Phase V — Der Rand des Sonnensystems",
+      "description": "Erfolgreiche Durchführung der entscheidenden kooperativen Flugmanöver zur Bestätigung und Kartierung des 9. Planeten."
+    }
+  ]
+}
