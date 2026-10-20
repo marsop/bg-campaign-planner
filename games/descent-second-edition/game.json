@@ -1,0 +1,95 @@
+{
+  "id": "descent-second-edition",
+  "title": "Descent: Journeys in the Dark (Second Edition)",
+  "releaseYear": 2012,
+  "designers": "Daniel Clark, Corey Konieczka, Adam Sadler, Kevin Wilson",
+  "playersMin": 2,
+  "playersMax": 5,
+  "bggRating": 7.6,
+  "bggWeight": 3.22,
+  "bggUrl": "https://boardgamegeek.com/boardgame/104162/descent-journeys-in-the-dark-second-edition",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 20,
+  "unitType": "quests",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#c81d25",
+    "secondaryColor": "#121316",
+    "accentColor": "#eab308",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2d1215 0%, #151014 60%, #0a080a 100%)",
+    "cardBackground": "rgba(21, 19, 24, 0.92)",
+    "borderColor": "rgba(200, 29, 37, 0.35)",
+    "glowColor": "rgba(234, 179, 8, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏰",
+    "emblem": "🐉⚔️",
+    "themeClass": "theme-descent2e",
+    "activeThemeClass": "theme-descent2e-active",
+    "roadmapClass": "roadmap-descent2e",
+    "heroClass": "hero-descent2e"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #104162)",
+    "Fantasy Flight Games Official Rulebook & Quest Guide",
+    "Descent: Journeys in the Dark (2E) Campaign Log & Community Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "shadow_rune_standard",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "act_one_short",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "heirs_of_blood",
+      "baseScenarioCount": 32,
+      "estimatedFailRatePercent": 18.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🛡️",
+      "badgeText": "Act I",
+      "title": "The Shadow of the Overlord",
+      "phase": "Act I - Rising Peril",
+      "description": "Surviving initial skirmishes and securing the realm's borders against rising darkness."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🗝️",
+      "badgeText": "Interlude",
+      "title": "The Vault Revealed",
+      "phase": "The Interlude - Turning Point",
+      "description": "A pivotal confrontation determining the balance of power as ancient artifacts stir."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "🐉",
+      "badgeText": "Act II",
+      "title": "The High Wyrm's Awakening",
+      "phase": "Act II - Dark Ambitions",
+      "description": "Braving deadly dungeons and confronting formidable lieutenants across Terrinoth."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 20,
+      "iconEmoji": "⚔️",
+      "badgeText": "Finale",
+      "title": "The Climax of Terrinoth",
+      "phase": "The Finale - Ultimate Reckoning",
+      "description": "The ultimate showdown against the Overlord to seal the fate of the realm forever."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Descent: Journeys in the Dark (Second Edition)",
+  "subtitle": "Exploration héroïque et tactique de donjons dans le royaume fantastique tourmenté de Terrinoth",
+  "tagline": "Aventurez-vous dans les profondeurs ténébreuses et défiez le Seigneur Noir",
+  "loreSummary": "Vous êtes de vaillants héros unis pour protéger le royaume de Terrinoth contre les horreurs des donjons et les machinations sournoises d'un Seigneur Noir.",
+  "badgeCategory": "Dungeon Crawler Tactique",
+  "roadmapTitle": "⚔️ Chronique des Quêtes et Progression de Campagne",
+  "roadmapBadge": "CHRONIQUE DE TERRINOTH",
+  "keyFeatures": [
+    "Combat tactique asymétrique 1 contre tous face à un Seigneur Noir actif",
+    "Chemins narratifs à embranchements dictés par les victoires et défaites",
+    "Structure de quête en deux rencontres avec objectifs et plateaux évolutifs",
+    "Personnalisation poussée des héros via compétences, équipement et reliques"
+  ],
+  "scopes": {
+    "shadow_rune_standard": {
+      "name": "La Rune d'Ombre (Campagne Standard)",
+      "description": "La campagne de base complète comprenant l'Introduction, l'Acte I, l'Intermède, l'Acte II et le Grand Final (~17-20 rencontres tactiques et sessions à travers Terrinoth)."
+    },
+    "act_one_short": {
+      "name": "Prologue de l'Acte I (Campagne Courte)",
+      "description": "Une campagne d'initiation condensée regroupant l'Introduction, trois quêtes de l'Acte I et culminant avec l'affrontement palpitant de l'Intermède."
+    },
+    "heirs_of_blood": {
+      "name": "Les Héritiers du Sang (Campagne Épique)",
+      "description": "La grande épopée narrative de 32 rencontres pour défendre le royaume de Saradyn contre Dame Eliza Farrow et les lieutenants du Seigneur Noir."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acte I",
+      "title": "L'Ombre du Seigneur Noir",
+      "phase": "Acte I - Péril Grandissant",
+      "description": "Survivre aux premières escarmouches et sécuriser les frontières du royaume face aux ténèbres."
+    },
+    {
+      "order": 2,
+      "badgeText": "Intermède",
+      "title": "Le Caveau Révélé",
+      "phase": "L'Intermède - Point de Bascule",
+      "description": "Un affrontement décisif scellant l'équilibre des forces alors que de mystérieuses reliques s'éveillent."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acte II",
+      "title": "L'Éveil du Grand Vouivre",
+      "phase": "Acte II - Sombres Ambitions",
+      "description": "Braver de redoutables donjons et défier les puissants lieutenants à travers Terrinoth."
+    },
+    {
+      "order": 4,
+      "badgeText": "Final",
+      "title": "L'Apogée de Terrinoth",
+      "phase": "Le Grand Final - Le Jugement Ultime",
+      "description": "L'ultime confrontation contre le Seigneur Noir afin de sceller le destin du royaume à jamais."
+    }
+  ]
+}

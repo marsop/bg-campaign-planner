@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+## [0.67.0] - 2026-10-20
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Descent: Journeys in the Dark (Second Edition)**, the premier asymmetric fantasy dungeon-crawling campaign by Daniel Clark, Corey Konieczka, Adam Sadler, and Kevin Wilson (Fantasy Flight Games, 2012).
+    - 3 campaign scope presets: *The Shadow Rune (Standard Campaign)* (20 quests, recommended), *Act I Prologue (Short Campaign)* (10 quests), and *Heirs of Blood (Epic Campaign)* (32 encounters).
+    - 4 narrative milestone checkpoints: *The Shadow of the Overlord* (Act I), *The Vault Revealed* (Interlude), *The High Wyrm's Awakening* (Act II), and *The Climax of Terrinoth* (Finale), with full spoiler mask protection.
+    - Thematic visual identity (dungeon crimson `#c81d25`, obsidian crypt `#121316`, and torchlight gold `#eab308` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen Terrinoth backdrop).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.66.0] - 2026-10-14
 
 ### Added
@@ -22,8 +34,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Added **Gloomhaven: Jaws of the Lion** to the campaign planner.
   - Included localized campaign scopes (Standard, Completionist) and milestones.
   - Custom thematic styling with #b84234 primary color and thematic gradients.
-
-## [Unreleased]
 
 ## [0.64.0] - 2026-09-29
 

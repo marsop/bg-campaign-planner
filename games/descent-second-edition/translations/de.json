@@ -1,0 +1,59 @@
+{
+  "title": "Descent: Journeys in the Dark (Second Edition)",
+  "subtitle": "Heroischer taktischer Dungeon-Crawl im umkämpften Fantasy-Reich Terrinoth",
+  "tagline": "Wage dich in dunkle Tiefen und trotze dem Oberherrn",
+  "loreSummary": "Ihr seid tapfere Helden, die sich zusammenschließen, um das Reich Terrinoth vor tückischen Verlies-Schrecken und den finsteren Ränken des Oberherrn zu bewahren.",
+  "badgeCategory": "Taktischer Dungeon-Crawler",
+  "roadmapTitle": "⚔️ Quest-Chronik und Kampagnenfortschritt",
+  "roadmapBadge": "TERRINOTH-CHRONIK",
+  "keyFeatures": [
+    "Asymmetrischer Taktikkampf (1 gegen viele) mit einem aktiven Oberherrn",
+    "Verzweigte Handlungsstränge abhängig von Sieg oder Niederlage in Quests",
+    "Zwei-Begegnungen-Struktur pro Quest mit dynamischen Zielen und Plänen",
+    "Klassenanpassung mit Fertigkeitendecks, Marktplatz-Käufen und Relikten"
+  ],
+  "scopes": {
+    "shadow_rune_standard": {
+      "name": "Die Schattenrune (Standard-Kampagne)",
+      "description": "Die vollständige Basiskampagne über Einführung, Akt I, das Zwischenspiel, Akt II und das dramatische Finale (~17-20 taktische Begegnungen/Sitzungen in Terrinoth)."
+    },
+    "act_one_short": {
+      "name": "Akt-I-Prolog (Kurze Kampagne)",
+      "description": "Eine kompakte Einführungskampagne über die Einführung, drei Quests aus Akt I und den dramatischen Showdown des Zwischenspiels."
+    },
+    "heirs_of_blood": {
+      "name": "Blutverwandte (Epische Kampagne)",
+      "description": "Der umfassende Handlungsbogen mit 32 Begegnungen zur Verteidigung des Königreichs Saradyn gegen Lady Eliza Farrow und die Hauptmänner des Oberherrn."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Akt I",
+      "title": "Der Schatten des Oberherrn",
+      "phase": "Akt I - Wachsende Gefahr",
+      "description": "Erste Scharmützel überstehen und die Grenzen des Reichs vor der Finsternis sichern."
+    },
+    {
+      "order": 2,
+      "badgeText": "Zwischenspiel",
+      "title": "Die Enthüllte Gruft",
+      "phase": "Das Zwischenspiel - Wendepunkt",
+      "description": "Eine entscheidende Konfrontation, die das Machtgefüge bestimmt, während alte Relikte erwachen."
+    },
+    {
+      "order": 3,
+      "badgeText": "Akt II",
+      "title": "Das Erwachen des Hohen Wurms",
+      "phase": "Akt II - Finstere Ränke",
+      "description": "Tödliche Verliese bezwingen und mächtigen Hauptmännern in ganz Terrinoth entgegentreten."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Der Showdown von Terrinoth",
+      "phase": "Das Finale - Die Letzte Entscheidung",
+      "description": "Der ultimative Showdown gegen den Oberherrn, um das Schicksal des Reichs für immer zu besiegeln."
+    }
+  ]
+}

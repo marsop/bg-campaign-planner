@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (69 games):**
+**Currently in app (70 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -78,13 +78,14 @@ requested by the user.
 - Boss Fighters QR
 - Gloomhaven: Jaws of the Lion
 - The Crew: The Quest for Planet Nine
+- Descent: Journeys in the Dark (Second Edition)
 
 ---
 
 ## 🟥 High Priority
 
-- **Descent: Journeys in the Dark (Second Edition)** — Competitive or app-driven cooperative fantasy dungeon crawl. 20 sessions (30-45 hours). ~7.6 BGG. 2-5 players. Dungeon crawler, one vs many.
-
+- **The Crew: Mission Deep Sea** — Cooperative trick-taking card game with 32 sequential underwater missions. 32 missions (10-15 hours). ~8.2 BGG. 2-5 players. Trick-taking, cooperative, limited communication.
+- **Zombie Kidz Evolution** — Cooperative legacy game for kids where players defend their school from zombies. 15 sessions (3-5 hours). ~7.5 BGG. 2-4 players. Legacy, family, cooperative.
 ---
 
 ## 🟧 Medium Priority
@@ -93,6 +94,9 @@ requested by the user.
 - **Risk Legacy** — Competitive world conquest with permanent board changes and unlockable content. 15 sessions (15-20 hours). ~7.3 BGG. 3-5 players. Legacy, area control.
 
 
+- **The Initiative** — Cooperative code-breaking and strategy campaign game. 15 sessions (10-15 hours). ~7.6 BGG. 1-4 players. Cooperative, puzzle, campaign.
+- **Near and Far** — Competitive storytelling adventure game where players travel across maps to find the Last Ruin. 10 sessions (15-20 hours). ~7.6 BGG. 2-4 players. Narrative, adventure, worker placement.
+- **Legends of Andor** — Cooperative fantasy board game with a progressive multi-part legend structure. 5 legends (10-15 hours). ~7.3 BGG. 2-4 players. Cooperative, puzzle, fantasy.
 ---
 
 ## 🟨 Lower Priority

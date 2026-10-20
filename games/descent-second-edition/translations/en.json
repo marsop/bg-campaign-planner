@@ -1,0 +1,59 @@
+{
+  "title": "Descent: Journeys in the Dark (Second Edition)",
+  "subtitle": "Heroic tactical dungeon crawling in the embattled fantasy realm of Terrinoth",
+  "tagline": "Venture into the dark depths and confront the Overlord",
+  "loreSummary": "You are valiant heroes banded together to safeguard the realm of Terrinoth from treacherous dungeon horrors and the cunning schemes of a malevolent Overlord.",
+  "badgeCategory": "Tactical Dungeon Crawler",
+  "roadmapTitle": "⚔️ Quest Chronicle & Campaign Progression",
+  "roadmapBadge": "TERRINOTH CHRONICLE",
+  "keyFeatures": [
+    "Asymmetric 1-vs-Many tactical combat with an active Overlord",
+    "Branching narrative paths driven by quest victory and defeat",
+    "Dual-encounter quest structure with evolving objectives and map layouts",
+    "Hero class customization with skill decks, gold shopping, and relic rewards"
+  ],
+  "scopes": {
+    "shadow_rune_standard": {
+      "name": "The Shadow Rune (Standard Campaign)",
+      "description": "The complete core campaign covering the Introduction, Act I, the Interlude, Act II, and the climactic Finale (~17-20 tactical encounters/quest sessions across Terrinoth)."
+    },
+    "act_one_short": {
+      "name": "Act I Prologue (Short Campaign)",
+      "description": "A condensed introductory campaign spanning the Introduction, three Act I quests, and concluding with the dramatic Interlude confrontation."
+    },
+    "heirs_of_blood": {
+      "name": "Heirs of Blood (Epic Campaign)",
+      "description": "The comprehensive 32-encounter narrative arc defending the kingdom of Saradyn against Lady Eliza Farrow and the Overlord's lieutenants."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Act I",
+      "title": "The Shadow of the Overlord",
+      "phase": "Act I - Rising Peril",
+      "description": "Surviving initial skirmishes and securing the realm's borders against rising darkness."
+    },
+    {
+      "order": 2,
+      "badgeText": "Interlude",
+      "title": "The Vault Revealed",
+      "phase": "The Interlude - Turning Point",
+      "description": "A pivotal confrontation determining the balance of power as ancient artifacts stir."
+    },
+    {
+      "order": 3,
+      "badgeText": "Act II",
+      "title": "The High Wyrm's Awakening",
+      "phase": "Act II - Dark Ambitions",
+      "description": "Braving deadly dungeons and confronting formidable lieutenants across Terrinoth."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "The Climax of Terrinoth",
+      "phase": "The Finale - Ultimate Reckoning",
+      "description": "The ultimate showdown against the Overlord to seal the fate of the realm forever."
+    }
+  ]
+}

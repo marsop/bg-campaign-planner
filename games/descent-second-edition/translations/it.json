@@ -1,0 +1,59 @@
+{
+  "title": "Descent: Journeys in the Dark (Second Edition)",
+  "subtitle": "Esplorazione eroica e tattica di dungeon nel travagliato regno fantasy di Terrinoth",
+  "tagline": "Addentrati nelle oscure profondità e affronta il Signore Supremo",
+  "loreSummary": "Siete valorosi eroi unitisi per difendere il regno di Terrinoth dagli orrori sotterranei e dalle insidiose trame di un malvagio Signore Supremo.",
+  "badgeCategory": "Dungeon Crawler Tattico",
+  "roadmapTitle": "⚔️ Cronaca delle Missioni e Progressione della Campagna",
+  "roadmapBadge": "CRONACA DI TERRINOTH",
+  "keyFeatures": [
+    "Combattimento tattico asimmetrico 1 contro molti con un Signore Supremo attivo",
+    "Percorsi narrativi ramificati determinati da vittorie e sconfitte nelle missioni",
+    "Struttura a doppio incontro per missione con obiettivi e mappe evolutive",
+    "Personalizzazione delle classi con mazzi abilità, acquisti al mercato e reliquie"
+  ],
+  "scopes": {
+    "shadow_rune_standard": {
+      "name": "La Runa dell'Ombra (Campagna Standard)",
+      "description": "La campagna base completa che copre l'Introduzione, l'Atto I, l'Interludio, l'Atto II e il Grande Finale (~17-20 incontri tattici e sessioni attraverso Terrinoth)."
+    },
+    "act_one_short": {
+      "name": "Prologo dell'Atto I (Campagna Breve)",
+      "description": "Una campagna introduttiva condensata che comprende l'Introduzione, tre missioni dell'Atto I e si conclude con il drammatico scontro dell'Interludio."
+    },
+    "heirs_of_blood": {
+      "name": "Eredi di Sangue (Campagna Epica)",
+      "description": "L'arco narrativo completo di 32 incontri per proteggere il regno di Saradyn da Lady Eliza Farrow e dai luogotenenti del Signore Supremo."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Atto I",
+      "title": "L'Ombra del Signore Supremo",
+      "phase": "Atto I - Pericolo Crescente",
+      "description": "Sopravvivere alle prime schermaglie e mettere al sicuro i confini del regno dall'oscurità."
+    },
+    {
+      "order": 2,
+      "badgeText": "Interludio",
+      "title": "La Cripta Rivelata",
+      "phase": "L'Interludio - Punto di Svolta",
+      "description": "Uno scontro decisivo che determina l'equilibrio del potere mentre antichi artefatti si risvegliano."
+    },
+    {
+      "order": 3,
+      "badgeText": "Atto II",
+      "title": "Il Risveglio del Grande Drago",
+      "phase": "Atto II - Oscure Ambizioni",
+      "description": "Affrontare letali sotterranei e sfidare formidabili luogotenenti in tutta Terrinoth."
+    },
+    {
+      "order": 4,
+      "badgeText": "Finale",
+      "title": "Il Trionfo su Terrinoth",
+      "phase": "Il Grande Finale - La Resa dei Conti",
+      "description": "La resa dei conti definitiva contro il Signore Supremo per decidere il destino del regno per sempre."
+    }
+  ]
+}

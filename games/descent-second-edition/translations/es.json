@@ -1,0 +1,59 @@
+{
+  "title": "Descent: Journeys in the Dark (Second Edition)",
+  "subtitle": "Incursión táctica y heroica en mazmorras en el asediado reino fantástico de Terrinoth",
+  "tagline": "Adéntrate en las oscuras profundidades y desafía al Señor Supremo",
+  "loreSummary": "Sois valerosos héroes unidos para salvaguardar el reino de Terrinoth de los horrores subterráneos y los astutos planes de un malévolo Señor Supremo.",
+  "badgeCategory": "Exploración Táctica de Mazmorras",
+  "roadmapTitle": "⚔️ Crónica de Misiones y Progreso de Campaña",
+  "roadmapBadge": "CRÓNICA DE TERRINOTH",
+  "keyFeatures": [
+    "Combate táctico asimétrico 1 contra muchos con un Señor Supremo activo",
+    "Rutas narrativas ramificadas según la victoria o derrota en cada misión",
+    "Estructura de dos encuentros por misión con objetivos y mapas evolutivos",
+    "Personalización de clases con mazos de habilidades, tiendas de equipo y reliquias"
+  ],
+  "scopes": {
+    "shadow_rune_standard": {
+      "name": "La Runa Sombría (Campaña Estándar)",
+      "description": "La campaña principal completa que incluye la Introducción, Acto I, el Interludio, Acto II y el Gran Final (~17-20 encuentros tácticos y sesiones de misión en Terrinoth)."
+    },
+    "act_one_short": {
+      "name": "Prólogo del Acto I (Campaña Corta)",
+      "description": "Una campaña introductoria condensada que abarca la Introducción, tres misiones del Acto I y concluye con el emocionante enfrentamiento del Interludio."
+    },
+    "heirs_of_blood": {
+      "name": "Herederos de Sangre (Campaña Épica)",
+      "description": "El extenso arco narrativo de 32 encuentros defendiendo el reino de Saradyn frente a Lady Eliza Farrow y los lugartenientes del Señor Supremo."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Acto I",
+      "title": "La Sombra del Señor Supremo",
+      "phase": "Acto I - Peligro Creciente",
+      "description": "Sobrevivir a las escaramuzas iniciales y asegurar las fronteras del reino frente a la oscuridad."
+    },
+    {
+      "order": 2,
+      "badgeText": "Interludio",
+      "title": "La Cripta Revelada",
+      "phase": "El Interludio - Punto de Inflexión",
+      "description": "Un enfrentamiento decisivo que define el equilibrio de poder mientras despiertan antiguos artefactos."
+    },
+    {
+      "order": 3,
+      "badgeText": "Acto II",
+      "title": "El Despertar del Sierpe Ancestral",
+      "phase": "Acto II - Ambiciones Oscuras",
+      "description": "Superar mortíferas mazmorras y enfrentarse a formidables lugartenientes por todo Terrinoth."
+    },
+    {
+      "order": 4,
+      "badgeText": "Gran Final",
+      "title": "El Clímax de Terrinoth",
+      "phase": "El Gran Final - El Juicio Definitivo",
+      "description": "El enfrentamiento definitivo contra el Señor Supremo para sellar el destino del reino para siempre."
+    }
+  ]
+}
