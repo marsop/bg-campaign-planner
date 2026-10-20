@@ -1,0 +1,220 @@
+{
+  "id": "the-crew-the-quest-for-planet-nine",
+  "title": "The Crew: The Quest for Planet Nine",
+  "year": 2019,
+  "author": "Thomas Sing",
+  "minPlayers": 2,
+  "maxPlayers": 5,
+  "scopes": [
+    {
+      "id": "mission-1",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-2",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-3",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-4",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-5",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-6",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-7",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-8",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-9",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-10",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-11",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-12",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-13",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-14",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-15",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-16",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-17",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-18",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-19",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-20",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-21",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-22",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-23",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-24",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-25",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-26",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-27",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-28",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-29",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-30",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-31",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-32",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-33",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-34",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-35",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-36",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-37",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-38",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-39",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-40",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-41",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-42",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-43",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-44",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-45",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-46",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-47",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-48",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-49",
+      "type": "scenario"
+    },
+    {
+      "id": "mission-50",
+      "type": "scenario"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "distress-signal",
+      "type": "story"
+    }
+  ],
+  "theme": {
+    "primaryColor": "#1d2951",
+    "backgroundGradient": "linear-gradient(to bottom, #0a0a0a, #1d2951)"
+  }
+}

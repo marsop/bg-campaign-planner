@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.66] - 2026-10-20
+
+### Added
+- **New Game Added**:
+  - Added **The Crew: The Quest for Planet Nine** to the campaign planner.
+  - Included localized campaign scopes (Standard) and milestones.
+  - Custom thematic styling with #1d2951 primary color and thematic gradients.
+
 ## [0.65] - 2026-10-12
 
 ### Added
