@@ -1,0 +1,66 @@
+{
+  "title": "The Crew: Mission Sous-Marine",
+  "subtitle": "Une expédition coopérative de plis dans les abysses océaniques avec communication limitée",
+  "tagline": "Dans les profondeurs écrasantes de l'océan, la coopération silencieuse est votre unique planche de salut",
+  "loreSummary": "De mystérieuses anomalies acoustiques résonnent depuis le plancher océanique, laissant entrevoir les vestiges de la légendaire civilisation de Mu. En tant qu'équipage d'élite à bord d'un submersible de recherche, vous devez coordonner des manœuvres sous-marines complexes à travers 32 missions immersives pour percer les secrets enfouis à des milliers de mètres sous les vagues.",
+  "badgeCategory": "Plis Coopératifs Sous-Marins",
+  "roadmapTitle": "🌊 Journal de Plongée Sous-Marine & Trajectoire d'Expédition",
+  "roadmapBadge": "CARNET DE PLONGÉE",
+  "keyFeatures": [
+    "Système dynamique de cartes de tâches avec valeurs de difficulté variables adaptées au nombre de joueurs",
+    "32 missions narratives séquentielles explorant les zones abyssales de l'océan",
+    "Communication acoustique strictement limitée simulant l'atténuation des signaux sous-marins",
+    "Mécanique de balise sonar de détresse d'urgence et paramètres de difficulté modulables"
+  ],
+  "scopes": {
+    "fast_dive_arc": {
+      "name": "Descente vers la Fosse Crépusculaire",
+      "description": "Missions 1 à 15, traversant les zones épipélagique et mésopélagique pour investiguer les premières anomalies sonar."
+    },
+    "deep_sea_logbook_standard": {
+      "name": "Campagne Standard du Carnet de Bord",
+      "description": "Le carnet narratif complet de 32 missions sous-marines, du départ en surface jusqu'à la découverte des ruines englouties de Mu."
+    },
+    "deep_sea_abyssal_mastery": {
+      "name": "Maîtrise Océanique Abyssale",
+      "description": "L'ensemble des 32 missions du carnet de bord agrémentées de plongées extrêmes avec objectifs de difficulté maximale et sans balise sonar de détresse."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 5",
+      "title": "Certification de Plongée en Submersible",
+      "phase": "Phase I — Départ Côtier & Étalonnage de la Pression",
+      "description": "Étalonner les systèmes de survie, tester les limites des communications sous-marines et réussir les exercices préparatoires en surface."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 12",
+      "title": "La Zone Crépusculaire & Abysses Bioluminescents",
+      "phase": "Phase II — Descente Mésopélagique",
+      "description": "S'enfoncer au-delà de la lumière du soleil dans une obscurité perpétuelle, naviguant à travers courants marins et perturbations optiques."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 20",
+      "title": "Sources Hydrothermales & Courants Thermiques",
+      "phase": "Phase III — Minuit Bathypélagique",
+      "description": "Manœuvrer entre fumerolles volcaniques brûlantes et zones de silence acoustique alors que les alarmes structurelles résonnent sous une pression écrasante."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 27",
+      "title": "La Fosse des Mariannes & Anomalies Englouties",
+      "phase": "Phase IV — Profondeurs Hadales",
+      "description": "Descendre dans la fosse océanique la plus profonde de la Terre sur les traces d'échos acoustiques mystérieux provenant d'anciennes failles sous-marines."
+    },
+    {
+      "order": 5,
+      "badgeText": "Mission 32",
+      "title": "Le Continent Perdu de Mu",
+      "phase": "Phase V — Révélation Abyssale",
+      "description": "Découvrir les ruines englouties du légendaire continent de Mu dans la faille abyssale et réussir la série parfaite de plis coordonnés pour refaire surface en sécurité."
+    }
+  ]
+}

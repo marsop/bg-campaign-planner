@@ -1,0 +1,66 @@
+{
+  "title": "Die Crew: Mission Tiefsee",
+  "subtitle": "Eine kooperative Stichspiel-Expedition in die Tiefen des Ozeans mit begrenzter Kommunikation",
+  "tagline": "In den erdrückenden Tiefen des Ozeans ist stumme Kooperation deine einzige Rettung",
+  "loreSummary": "Geheimnisvolle akustische Signale hallen vom Meeresboden wider und weisen auf die versunkene Zivilisation von Mu hin. Als Elite-Besatzung eines Tiefsee-Tauchboots müsst ihr in 32 herausfordernden Missionen komplexe Manöver koordinieren, um die Geheimnisse in tausenden Metern Tiefe zu lüften.",
+  "badgeCategory": "Kooperatives Tiefsee-Stichspiel",
+  "roadmapTitle": "🌊 Tiefsee-Logbuch und Expeditionsverlauf",
+  "roadmapBadge": "TAUCH-LOGBUCH",
+  "keyFeatures": [
+    "Dynamisches Auftragskartensystem mit variablen Schwierigkeitsgraden je nach Spielerzahl",
+    "32 aufeinander aufbauende narrative Missionen durch die Tiefseezonen des Ozeans",
+    "Streng limitierte akustische Kommunikation simuliert Tiefsee-Signalabschwächung",
+    "Notfall-Sonarsignal-Mechanik und anpassbare Herausforderungsmodi"
+  ],
+  "scopes": {
+    "fast_dive_arc": {
+      "name": "Abstieg in die Dämmerzone",
+      "description": "Missionen 1 bis 15, Abstieg durch die sonnendurchflutete und die Dämmerzone zur Erkundung erster Sonar-Anomalien."
+    },
+    "deep_sea_logbook_standard": {
+      "name": "Standard-Logbuch-Kampagne",
+      "description": "Das vollständige narrative 32-Missionen-Logbuch vom Aufbruch an der Oberfläche bis zur Entdeckung der versunkenen Ruinen von Mu."
+    },
+    "deep_sea_abyssal_mastery": {
+      "name": "Abyssale Tiefsee-Meisterschaft",
+      "description": "Alle 32 Logbuch-Missionen plus Bonus-Tauchgänge mit maximaler Auftragsschwierigkeit und ohne Notsignale."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 5",
+      "title": "Tauchboot-Zertifizierung",
+      "phase": "Phase I — Küstenaufbruch & Druckkalibrierung",
+      "description": "Lebenserhaltungssysteme kalibrieren, Unterwasserkommunikation testen und grundlegende Tauchübungen abschließen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 12",
+      "title": "Die Dämmerzone & Biolumineszenter Abgrund",
+      "phase": "Phase II — Mesopelagischer Abstieg",
+      "description": "Hinter das Sonnenlicht in ewige Dämmerung vordringen, wechselnde Strömungen und optische Störungen meistern."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 20",
+      "title": "Hydrothermale Quellen & Thermische Aufwinde",
+      "phase": "Phase III — Bathypelagische Mitternachtszone",
+      "description": "Zwischen kochenden Tiefsee-Schloten und akustischen Funklöchern manövrieren, während Rumpfalarme unter extremem Druck ertönen."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 27",
+      "title": "Der Marianengraben & Versunkene Anomalien",
+      "phase": "Phase IV — Hadal-Tiefen",
+      "description": "In den tiefsten Meeresgraben der Erde vordringen und mysteriösen Echos aus uralten Schluchten nachspüren."
+    },
+    {
+      "order": 5,
+      "badgeText": "Mission 32",
+      "title": "Der versunkene Kontinent Mu",
+      "phase": "Phase V — Abyssale Offenbarung",
+      "description": "Die versunkenen Ruinen des legendären Kontinents Mu im Tiefseegraben aufspüren und perfekte Kooperation für den Aufstieg beweisen."
+    }
+  ]
+}

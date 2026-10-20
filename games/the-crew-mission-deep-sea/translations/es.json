@@ -1,0 +1,66 @@
+{
+  "title": "The Crew: Misión Mar Profundo",
+  "subtitle": "Una expedición cooperativa de bazas al abismo oceánico con comunicación limitada",
+  "tagline": "En las profundidades aplastantes del océano, la cooperación silenciosa es tu única salvación",
+  "loreSummary": "Misteriosas anomalías acústicas resuenan desde el fondo del océano, sugiriendo la presencia de la legendaria civilización perdida de Mu. Como tripulación de un sumergible de élite, debéis coordinar complejas maniobras submarinas a lo largo de 32 misiones para desentrañar secretos ocultos a miles de metros bajo las olas.",
+  "badgeCategory": "Bazas Cooperativas Submarinas",
+  "roadmapTitle": "🌊 Cuaderno de Inmersión y Trayectoria de la Expedición",
+  "roadmapBadge": "CUADERNO DE INMERSIÓN",
+  "keyFeatures": [
+    "Sistema dinámico de cartas de tarea con valores de dificultad adaptados al número de jugadores",
+    "32 misiones narrativas secuenciales que exploran las zonas abisales del océano",
+    "Comunicación acústica estrictamente limitada simulando la atenuación de señales bajo el agua",
+    "Mecánica de baliza sonar de emergencia y parámetros de desafío personalizables"
+  ],
+  "scopes": {
+    "fast_dive_arc": {
+      "name": "Descenso a la Fosa Crepuscular",
+      "description": "Misiones 1 a 15, descendiendo por las zonas epipelágica y crepuscular para investigar anomalías iniciales del sonar."
+    },
+    "deep_sea_logbook_standard": {
+      "name": "Campaña Estándar del Cuaderno",
+      "description": "El cuaderno narrativo completo de 32 misiones, desde la partida en superficie hasta el descubrimiento de las ruinas de Mu."
+    },
+    "deep_sea_abyssal_mastery": {
+      "name": "Maestría Oceánica Abisal",
+      "description": "Las 32 misiones del cuaderno más inmersiones adicionales de máxima dificultad con tareas complejas y sin señales de socorro."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Misión 5",
+      "title": "Certificación de Inmersión Submarina",
+      "phase": "Fase I — Salida Costera y Calibración de Presión",
+      "description": "Calibrar los sistemas de soporte vital, probar los límites de comunicación bajo el agua y superar simulacros de entrenamiento."
+    },
+    {
+      "order": 2,
+      "badgeText": "Misión 12",
+      "title": "La Zona Crepuscular y el Abismo Bioluminiscente",
+      "phase": "Fase II — Descenso Mesopelágico",
+      "description": "Sumergirse más allá del alcance de la luz solar hacia la penumbra perpetua, sorteando corrientes marinas e interferencias ópticas."
+    },
+    {
+      "order": 3,
+      "badgeText": "Misión 20",
+      "title": "Fumarolas Hidrotermales y Corrientes Térmicas",
+      "phase": "Fase III — Medianoche Batipelágica",
+      "description": "Maniobrar entre chimeneas volcánicas hirvientes y zonas de sombra acústica mientras suenan alarmas de presión estructural."
+    },
+    {
+      "order": 4,
+      "badgeText": "Misión 27",
+      "title": "La Fosa de las Marianas y Anomalías Sumergidas",
+      "phase": "Fase IV — Profundidades Hadales",
+      "description": "Descender a la fosa más profunda de la Tierra rastreando señales acústicas anómalas que resuenan desde gargantas submarinas."
+    },
+    {
+      "order": 5,
+      "badgeText": "Misión 32",
+      "title": "El Continente Perdido de Mu",
+      "phase": "Fase V — Revelación Abisal",
+      "description": "Descubrir las ruinas sumergidas del mítico continente de Mu en la grieta abisal y ejecutar maniobras cooperativas perfectas para emerger."
+    }
+  ]
+}

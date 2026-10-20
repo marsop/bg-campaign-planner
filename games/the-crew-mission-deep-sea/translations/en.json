@@ -1,0 +1,66 @@
+{
+  "title": "The Crew: Mission Deep Sea",
+  "subtitle": "A cooperative trick-taking expedition into the oceanic abyss with limited communication",
+  "tagline": "In the crushing depths of the deep sea, silent cooperation is your only lifeline",
+  "loreSummary": "Mysterious acoustic anomalies echo from the ocean floor, hinting at the lost civilization of Mu. As an elite submersible expedition crew, you must coordinate complex underwater maneuvers across 32 escalating missions to uncover secrets hidden thousands of meters beneath the waves.",
+  "badgeCategory": "Cooperative Deep-Sea Trick-Taking",
+  "roadmapTitle": "🌊 Oceanic Dive Logbook & Expedition Trajectory",
+  "roadmapBadge": "DIVING LOGBOOK",
+  "keyFeatures": [
+    "Dynamic task card system with variable difficulty values tailored to player counts",
+    "32 sequential narrative missions exploring the abyssal zones of the ocean",
+    "Strictly limited acoustic communication simulating deep-sea signal attenuation",
+    "Emergency sonar beacon mechanic and customizable challenge parameters"
+  ],
+  "scopes": {
+    "fast_dive_arc": {
+      "name": "Twilight Trench Descent",
+      "description": "Missions 1 to 15, descending through the epipelagic and twilight zones to investigate initial sonar anomalies."
+    },
+    "deep_sea_logbook_standard": {
+      "name": "Standard Logbook Campaign",
+      "description": "The complete 32-mission deep sea narrative logbook from surface departure to the discovery of the sunken ruins of Mu."
+    },
+    "deep_sea_abyssal_mastery": {
+      "name": "Abyssal Ocean Mastery",
+      "description": "All 32 logbook missions plus high-difficulty bonus dives using max difficulty task card combinations and zero sonar distress signals."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 5",
+      "title": "Submersible Dive Certification",
+      "phase": "Phase I — Coastal Departure & Pressure Calibration",
+      "description": "Calibrate life-support systems, test underwater communication limitations, and clear surface training drills."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 12",
+      "title": "The Twilight Zone & Bioluminescent Abyss",
+      "phase": "Phase II — Mesopelagic Descent",
+      "description": "Plunge past the reach of sunlight into perpetual dusk, navigating shifting oceanic currents and bio-optical interference."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 20",
+      "title": "Hydrothermal Vents & Thermal Updrafts",
+      "phase": "Phase III — Bathypelagic Midnight",
+      "description": "Maneuver through scorching volcanic chimneys and acoustic dead zones while structural alarms sound under crushing pressure."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 27",
+      "title": "The Mariana Trench & Sunken Anomalies",
+      "phase": "Phase IV — Hadal Depths",
+      "description": "Descend into the deepest oceanic trench on Earth, tracing anomalous acoustic signals echoing from ancient underwater trenches."
+    },
+    {
+      "order": 5,
+      "badgeText": "Mission 32",
+      "title": "The Lost Continent of Mu",
+      "phase": "Phase V — Abyssal Revelation",
+      "description": "Uncover the submerged ruins of legendary Mu in the abyssal rift and execute flawless cooperative maneuvers to surface safely."
+    }
+  ]
+}

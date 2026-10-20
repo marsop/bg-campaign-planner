@@ -1,0 +1,104 @@
+{
+  "id": "the-crew-mission-deep-sea",
+  "title": "The Crew: Mission Deep Sea",
+  "releaseYear": 2021,
+  "designers": "Thomas Sing",
+  "playersMin": 2,
+  "playersMax": 5,
+  "bggRating": 8.2,
+  "bggWeight": 2.03,
+  "bggUrl": "https://boardgamegeek.com/boardgame/324856/the-crew-mission-deep-sea",
+  "baseScenarioMinutes": 20,
+  "setupTeardownMinutes": 5,
+  "unitType": "missions",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#0077b6",
+    "secondaryColor": "#03045e",
+    "accentColor": "#00b4d8",
+    "backgroundGradient": "radial-gradient(ellipse at top, #023e8a 0%, #03045e 55%, #010a18 100%)",
+    "cardBackground": "rgba(3, 16, 38, 0.92)",
+    "borderColor": "rgba(0, 180, 216, 0.35)",
+    "glowColor": "rgba(0, 180, 216, 0.25)",
+    "headerFont": "'Cinzel', 'Cinzel Decorative', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🌊",
+    "emblem": "🤿🐙",
+    "themeClass": "theme-crew-deep-sea",
+    "activeThemeClass": "theme-crew-deep-sea-active",
+    "roadmapClass": "roadmap-crew-deep-sea",
+    "heroClass": "hero-crew-deep-sea"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG #324856)",
+    "KOSMOS & Thames & Kosmos Official Rulebook & Mission Logbook",
+    "Community Campaign Logs & Mission Difficulty Distributions"
+  ],
+  "scopes": [
+    {
+      "id": "fast_dive_arc",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "deep_sea_logbook_standard",
+      "baseScenarioCount": 32,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "deep_sea_abyssal_mastery",
+      "baseScenarioCount": 40,
+      "estimatedFailRatePercent": 40.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🤿",
+      "badgeText": "Mission 5",
+      "title": "Submersible Dive Certification",
+      "phase": "Phase I — Coastal Departure & Pressure Calibration",
+      "description": "Calibrate life-support systems, test underwater communication limitations, and clear surface training drills."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🌊",
+      "badgeText": "Mission 12",
+      "title": "The Twilight Zone & Bioluminescent Abyss",
+      "phase": "Phase II — Mesopelagic Descent",
+      "description": "Plunge past the reach of sunlight into perpetual dusk, navigating shifting oceanic currents and bio-optical interference."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 20,
+      "iconEmoji": "🌋",
+      "badgeText": "Mission 20",
+      "title": "Hydrothermal Vents & Thermal Updrafts",
+      "phase": "Phase III — Bathypelagic Midnight",
+      "description": "Maneuver through scorching volcanic chimneys and acoustic dead zones while structural alarms sound under crushing pressure."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 27,
+      "iconEmoji": "⚓",
+      "badgeText": "Mission 27",
+      "title": "The Mariana Trench & Sunken Anomalies",
+      "phase": "Phase IV — Hadal Depths",
+      "description": "Descend into the deepest oceanic trench on Earth, tracing anomalous acoustic signals echoing from ancient underwater trenches."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 32,
+      "iconEmoji": "🔱",
+      "badgeText": "Mission 32",
+      "title": "The Lost Continent of Mu",
+      "phase": "Phase V — Abyssal Revelation",
+      "description": "Uncover the submerged ruins of legendary Mu in the abyssal rift and execute flawless cooperative maneuvers to surface safely."
+    }
+  ]
+}

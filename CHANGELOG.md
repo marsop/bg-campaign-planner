@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.68.0] - 2026-10-20
+
+### Added
+- **New Board Game Added**:
+  - Added support for **The Crew: Mission Deep Sea**, the standalone cooperative deep-sea trick-taking game by Thomas Sing (KOSMOS / Thames & Kosmos; 2021 Golden Geek Best Cooperative Game Winner).
+    - 3 campaign scope presets: *Standard Logbook Campaign* (32 missions, recommended), *Twilight Trench Descent* (15 missions), and *Abyssal Ocean Mastery* (40 missions with max difficulty task cards).
+    - 5 narrative milestone checkpoints: *Submersible Dive Certification* (Mission 5), *The Twilight Zone & Bioluminescent Abyss* (Mission 12), *Hydrothermal Vents & Thermal Updrafts* (Mission 20), *The Mariana Trench & Sunken Anomalies* (Mission 27), and *The Lost Continent of Mu* (Mission 32), with full spoiler mask protection.
+    - Thematic visual identity (deep ocean blue `#0077b6`, midnight abyss `#03045e`, and bioluminescent cyan `#00b4d8` palette, classical typography, 1:1 flat front box cover art, and atmospheric widescreen deep sea backdrop).
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.67.0] - 2026-10-20
 
 ### Added

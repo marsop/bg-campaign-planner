@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (70 games):**
+**Currently in app (71 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -79,12 +79,12 @@ requested by the user.
 - Gloomhaven: Jaws of the Lion
 - The Crew: The Quest for Planet Nine
 - Descent: Journeys in the Dark (Second Edition)
+- The Crew: Mission Deep Sea
 
 ---
 
 ## 🟥 High Priority
 
-- **The Crew: Mission Deep Sea** — Cooperative trick-taking card game with 32 sequential underwater missions. 32 missions (10-15 hours). ~8.2 BGG. 2-5 players. Trick-taking, cooperative, limited communication.
 - **Zombie Kidz Evolution** — Cooperative legacy game for kids where players defend their school from zombies. 15 sessions (3-5 hours). ~7.5 BGG. 2-4 players. Legacy, family, cooperative.
 ---
 

@@ -1,0 +1,66 @@
+{
+  "title": "The Crew: Missione negli Abissi",
+  "subtitle": "Una spedizione cooperativa di prese negli abissi oceanici a comunicazione limitata",
+  "tagline": "Nelle profondità schiaccianti degli abissi oceanici, la cooperazione silenziosa è la vostra unica salvezza",
+  "loreSummary": "Misteriose anomalie acustiche echeggiano dal fondale oceanico, suggerendo l'esistenza della perduta civiltà di Mu. Come equipaggio d'élite a bordo di un sommergibile di ricerca, dovrete coordinare complesse manovre subacquee lungo 32 missioni per svelare segreti celati a migliaia di metri sotto le onde.",
+  "badgeCategory": "Prese Cooperative Subacquee",
+  "roadmapTitle": "🌊 Giornale di Immersione & Rotta della Spedizione",
+  "roadmapBadge": "REGISTRO DI IMMERSIONE",
+  "keyFeatures": [
+    "Sistema dinamico di carte incarico con valori di difficoltà variabili calibrati sul numero di giocatori",
+    "32 missioni narrative sequenziali attraverso le diverse zone batimetriche dell'oceano",
+    "Comunicazione acustica rigorosamente limitata che simula l'attenuazione dei segnali in immersione profonda",
+    "Meccanica del segnale sonar di soccorso d'emergenza e modificatori di sfida personalizzabili"
+  ],
+  "scopes": {
+    "fast_dive_arc": {
+      "name": "Discesa nella Fossa del Crepuscolo",
+      "description": "Missioni da 1 a 15: discesa attraverso le zone epipelagica e mesopelagica per investigare le prime anomalie del sonar."
+    },
+    "deep_sea_logbook_standard": {
+      "name": "Campagna Standard del Registro di Bordo",
+      "description": "Il registro narrativo completo di 32 missioni sottomarine, dalla partenza in superficie alla scoperta delle rovine sommerse di Mu."
+    },
+    "deep_sea_abyssal_mastery": {
+      "name": "Maestria Oceanica negli Abissi",
+      "description": "Tutte le 32 missioni del registro arricchite da immersioni a difficoltà estrema con incarichi complessi e senza boe sonar di soccorso."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Missione 5",
+      "title": "Certificazione di Immersione con Sommergibile",
+      "phase": "Fase I — Partenza dalla Costa & Calibrazione della Pressione",
+      "description": "Calibrare i sistemi di supporto vitale, testare i limiti delle comunicazioni subacquee e completare le simulazioni di addestramento in superficie."
+    },
+    {
+      "order": 2,
+      "badgeText": "Missione 12",
+      "title": "La Zona del Crepuscolo & Abissi Bioluminescenti",
+      "phase": "Fase II — Discesa Mesopelagica",
+      "description": "Scendere oltre il raggio della luce solare nella penombra perenne, affrontando correnti oceaniche e interferenze ottiche marine."
+    },
+    {
+      "order": 3,
+      "badgeText": "Missione 20",
+      "title": "Sorgenti Idrotermali & Correnti Termiche Ascendenti",
+      "phase": "Fase III — Mezzanotte Batipelagica",
+      "description": "Manovrare tra camini vulcanici incandescenti e zone d'ombra acustica mentre gli allarmi di pressione strutturale risuonano nello scafo."
+    },
+    {
+      "order": 4,
+      "badgeText": "Missione 27",
+      "title": "La Fossa delle Marianne & Anomalie Sommerse",
+      "phase": "Fase IV — Profondità Adali",
+      "description": "Raggiungere la fossa oceanica più profonda della Terra seguendo misteriosi echi acustici provenienti da canyon abissali inesplorati."
+    },
+    {
+      "order": 5,
+      "badgeText": "Missione 32",
+      "title": "Il Continente Perduto di Mu",
+      "phase": "Fase V — Rivelazione negli Abissi",
+      "description": "Individuare le rovine sommerse del leggendario continente di Mu nella faglia abissale ed eseguire la serie perfetta di prese coordinate per riemergere in sicurezza."
+    }
+  ]
+}
