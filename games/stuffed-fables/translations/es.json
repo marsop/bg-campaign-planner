@@ -1,0 +1,66 @@
+{
+  "title": "Fábulas de Peluche",
+  "subtitle": "Una campaña narrativa de libro de aventuras que protege los sueños de una niña contra el reino de las pesadillas",
+  "tagline": "Valientes peluches defienden a su pequeña durmiente frente a los terrores nocturnos",
+  "loreSummary": "Juramentados para proteger a la niña que los adora, una leal pandilla de peluches cobra vida al caer la noche. Cuando siniestras pesadillas arrastran sus juguetes al surrealista reino del Abismo, solo el coraje, la cooperación y el cariño podrán disipar la oscuridad.",
+  "badgeCategory": "Campaña Narrativa de Libro de Aventuras",
+  "roadmapTitle": "📖 Crónica del Cuento y Fábulas Nocturnas",
+  "roadmapBadge": "HOJA DE RUTA DEL CUENTO",
+  "keyFeatures": [
+    "Innovador sistema de Libro de Aventuras que integra mapas, reglas y narración en un solo tomo encuadernado",
+    "Extracción de dados de colores de una bolsa para resolver exploración, combates heroicos y rescates",
+    "Profunda y emotiva fábula alegórica que aborda los hitos del crecimiento infantil y los miedos a la oscuridad",
+    "Experiencia cooperativa entrañable ideal tanto para familias como para jugadores veteranos"
+  ],
+  "scopes": {
+    "stuffed_fables_core": {
+      "name": "Crónicas Nocturnas (Campaña Completa)",
+      "description": "La campaña completa de 7 historias del libro de aventuras protegiendo a la niña de sus temores infantiles."
+    },
+    "stuffed_fables_intro": {
+      "name": "Primeras Fábulas (Historias 1–3)",
+      "description": "Las 3 primeras historias que abarcan la transición a la cama grande, los accidentes nocturnos y el escondite."
+    },
+    "stuffed_fables_storybook_master": {
+      "name": "Maestro del Cuento y Fábulas Secretas",
+      "description": "Las 7 historias principales junto con la exploración de bifurcaciones narrativas y misiones adicionales."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Historia 1",
+      "title": "La Cama de Niña Grande",
+      "phase": "Historia 1 - La Primera Noche",
+      "description": "Adéntrate bajo las sábanas para custodiar la primera noche de la niña en su nueva cama frente a los esbirros de la penumbra."
+    },
+    {
+      "order": 2,
+      "badgeText": "Historia 3",
+      "title": "El Escondite",
+      "phase": "Historia 3 - En el Abismo",
+      "description": "Navega por las peligrosas profundidades del Abismo para rescatar a camaradas perdidos y superar la ansiedad de la separación."
+    },
+    {
+      "order": 3,
+      "badgeText": "Historia 5",
+      "title": "El Primer Día",
+      "phase": "Historia 5 - Un Paso al Mundo Exterior",
+      "description": "Enfrenta con valentía la inquietud matutina del inicio escolar y descubre la fuerza necesaria para abrirse al mundo."
+    },
+    {
+      "order": 4,
+      "badgeText": "Historia 6",
+      "title": "Una Noche de Tormenta",
+      "phase": "Historia 6 - La Tempestad Desatada",
+      "description": "Resiste ante vientos aullantes, truenos estremecedores y las densas sombras que se filtran bajo la puerta."
+    },
+    {
+      "order": 5,
+      "badgeText": "Final",
+      "title": "El Señor de las Pesadillas",
+      "phase": "Historia 7 Final - El Despertar de los Dulces Sueños",
+      "description": "Asalta la fortaleza de Crepitus en el corazón del reino oscuro para garantizar un descanso dulce y apacible para siempre."
+    }
+  ]
+}

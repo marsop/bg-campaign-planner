@@ -1,0 +1,66 @@
+{
+  "title": "Histoires de Peluches",
+  "subtitle": "Une campagne narrative sur livre d'aventures pour protéger les rêves d'une fillette contre le royaume des cauchemars",
+  "tagline": "De courageuses peluches défendent leur enfant endormie contre les monstres de la nuit",
+  "loreSummary": "Jurées de veiller sur la petite fille qui les chérit, de loyales peluches prennent vie au cœur de la nuit. Quand de sombres cauchemars entraînent leurs compagnons dans l'étrange royaume du Grand Chute, seuls le courage, l'amour et l'entraide pourront terrasser les ombres.",
+  "badgeCategory": "Campagne Narrative Livre-Jeu",
+  "roadmapTitle": "📖 Chronique du Livre de Contes & Fables",
+  "roadmapBadge": "FEUILLE DE ROUTE DU CONTE",
+  "keyFeatures": [
+    "Système novateur de Livre-Jeu combinant plateaux, règles et narration dans un ouvrage relié à spirales",
+    "Tirage de dés de couleur dans un sac régissant déplacement, combat tactique et sauvetages héroïques",
+    "Récit allégorique émouvant explorant les étapes de l'enfance et l'apprivoisement des peurs nocturnes",
+    "Aventure coopérative chaleureuse convenant parfaitement aux familles comme aux joueurs chevronnés"
+  ],
+  "scopes": {
+    "stuffed_fables_core": {
+      "name": "Chroniques du Sommeil (Campagne Complète)",
+      "description": "La campagne intégrale en 7 histoires du livre d'aventures protégeant la fillette de ses terreurs nocturnes."
+    },
+    "stuffed_fables_intro": {
+      "name": "Premières Épreuves (Histoires 1–3)",
+      "description": "Les trois premières histoires abordant le grand lit, la peur de l'accident nocturne et la partie de cache-cache."
+    },
+    "stuffed_fables_storybook_master": {
+      "name": "Maître Conteuse & Fables Secrètes",
+      "description": "Les 7 histoires principales accompagnées de l'exploration des embranchements et fables annexes."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Histoire 1",
+      "title": "Le Lit de Grande Fille",
+      "phase": "Histoire 1 - La Première Nuit",
+      "description": "Plongez sous les couvertures pour veiller sur la première nuit dans le grand lit face aux créatures de l'obscurité."
+    },
+    {
+      "order": 2,
+      "badgeText": "Histoire 3",
+      "title": "Cache-Cache",
+      "phase": "Histoire 3 - Dans le Grand Chute",
+      "description": "Explorez les périls du Grand Chute pour secourir des jouets égarés et surmonter l'angoisse de la séparation."
+    },
+    {
+      "order": 3,
+      "badgeText": "Histoire 5",
+      "title": "Le Premier Jour",
+      "phase": "Histoire 5 - Le Pas vers le Monde",
+      "description": "Affrontez avec détermination l'inquiétude de la rentrée des classes et découvrez la force d'explorer le monde extérieur."
+    },
+    {
+      "order": 4,
+      "badgeText": "Histoire 6",
+      "title": "Une Nuit d'Orage",
+      "phase": "Histoire 6 - La Tourmente Nocturne",
+      "description": "Formez un rempart contre les éclairs rugissants, le fracas du tonnerre et les ombres mouvantes sous la porte."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Le Maître des Cauchemars",
+      "phase": "Histoire 7 Finale - L'Aube des Doux Rêves",
+      "description": "Pénétrez au cœur de la forteresse de Crepitus pour terrasser le roi des cauchemars et assurer à l'enfant un doux sommeil éternel."
+    }
+  ]
+}

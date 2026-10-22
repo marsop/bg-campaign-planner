@@ -1,0 +1,66 @@
+{
+  "title": "Fiabe di Stoffa",
+  "subtitle": "Una campagna narrativa su libro d'avventura per proteggere i sogni di una bambina dal regno degli incubi",
+  "tagline": "Valorosi pupazzi di pezza difendono la loro bambina addormentata dai terrori del buio",
+  "loreSummary": "Custodi giurati della bimba che li ama con tutto il cuore, una fedele brigata di animali di peluche prende vita nella notte. Quando insidiosi incubi trascinano i giocattoli nel fantastico regno del Caduto, soltanto coraggio, affetto e spirito di gruppo potranno disperdere le tenebre.",
+  "badgeCategory": "Campagna Narrativa Libro-Avventura",
+  "roadmapTitle": "📖 Cronaca del Libro di Fiabe & Racconti",
+  "roadmapBadge": "TABELLA DI MARCIA DELLE FIABE",
+  "keyFeatures": [
+    "Innovativo sistema Libro-Avventura che unisce mappe, regole e narrazione in un unico volume a spirale",
+    "Estrazione di dadi colorati da un sacchetto per gestire esplorazione, combattimenti e salvataggi eroici",
+    "Narrazione allegorica toccante incentrata sulle tappe della crescita infantile e la vittoria sulle paure",
+    "Avventura cooperativa coinvolgente e calorosa per famiglie e appassionati di giochi d'avventura"
+  ],
+  "scopes": {
+    "stuffed_fables_core": {
+      "name": "Cronache della Buonanotte (Campagna Completa)",
+      "description": "L'intera campagna in 7 storie del libro d'avventura a difesa della bambina da ogni paura notturna."
+    },
+    "stuffed_fables_intro": {
+      "name": "Prime Fiabe (Storie 1–3)",
+      "description": "Le prime 3 storie dedicate al passaggio al letto da grandi, al bagnare il letto e al nascondino."
+    },
+    "stuffed_fables_storybook_master": {
+      "name": "Maestro delle Fiabe & Sentieri Segreti",
+      "description": "Tutte le 7 storie principali con esplorazione di bivi narrativi e racconti supplementari."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Storia 1",
+      "title": "Il Letto da Bambina Grande",
+      "phase": "Storia 1 - La Prima Notte",
+      "description": "Addentratevi sotto le coperte per vegliare sulla prima notte nel nuovo lettino contro i mostriciattoli del buio."
+    },
+    {
+      "order": 2,
+      "badgeText": "Storia 3",
+      "title": "A Nascondino",
+      "phase": "Storia 3 - Nel Mondo del Caduto",
+      "description": "Attraversate i pericolosi meandri del Caduto per salvare i compagni perduti e superare l'angoscia della solitudine."
+    },
+    {
+      "order": 3,
+      "badgeText": "Storia 5",
+      "title": "Il Primo Giorno",
+      "phase": "Storia 5 - Il Passo verso il Mondo",
+      "description": "Affrontate con coraggio l'ansia mattutina dell'inizio della scuola per scoprire la bellezza del mondo esterno."
+    },
+    {
+      "order": 4,
+      "badgeText": "Storia 6",
+      "title": "Una Notte Tempestosa",
+      "phase": "Storia 6 - La Tempesta Incombente",
+      "description": "Fate scudo contro i venti ululanti, i tuoni fragorosi e le ombre minacciose che strisciano sotto la porta."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Il Re degli Incubi",
+      "phase": "Storia 7 Finale - L'Alba dei Sogni d'Oro",
+      "description": "Espugnate la fortezza di Crepitus nel regno degli incubi per garantire alla bambina notti serene e sonni tranquilli per sempre."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Der Herr der Träume",
+  "subtitle": "Eine märchenhafte Abenteuerbuch-Kampagne zum Schutz der kindlichen Träume vor dem Albtraumreich",
+  "tagline": "Mutige Stofftiere beschützen ihr schlafendes Kind vor den Schrecken der Nacht",
+  "loreSummary": "Verschworen zum Schutz des kleinen Mädchens, das sie über alles liebt, erwacht eine treue Gruppe von Stofftieren in der Nacht. Als finstere Albtraumkreaturen die Spielzeuge in das surreale Reich des Sturzes zerren, können nur Mut, Freundschaft und Zusammenhalt die Dunkelheit bezwingen.",
+  "badgeCategory": "Abenteuerbuch-Erzählkampagne",
+  "roadmapTitle": "📖 Märchenchronik & Gute-Nacht-Fabeln",
+  "roadmapBadge": "ABENTEUERBUCH-ROADMAP",
+  "keyFeatures": [
+    "Innovatives Abenteuerbuch-System, das Spielpläne, Regeln und Erzählung in einem Ringbuch vereint",
+    "Farbiges Würfelziehen aus dem Stoffbeutel für Erkundung, Nahkampf und heldenhafte Rettungsaktionen",
+    "Tief berührende allegorische Geschichte über das Überwinden kindlicher Ängste und Meilensteine",
+    "Herzerwärmendes kooperatives Erlebnis für Familien und passionierte Abenteuerspieler"
+  ],
+  "scopes": {
+    "stuffed_fables_core": {
+      "name": "Traumchronik (Vollständige Kampagne)",
+      "description": "Die gesamte Kampagne aus 7 Abenteuerbuch-Geschichten zum Schutz vor nächtlichen Schrecken."
+    },
+    "stuffed_fables_intro": {
+      "name": "Frühe Fabeln (Geschichten 1–3)",
+      "description": "Die ersten drei Geschichten über das neue Kinderbett, nächtliche Ängste und das Versteckspiel."
+    },
+    "stuffed_fables_storybook_master": {
+      "name": "Märchenmeister & Verborgene Geschichten",
+      "description": "Alle 7 Kerngeschichten inklusive alternativer Erzählpfade und zusätzlicher Nebenabenteuer."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Geschichte 1",
+      "title": "Das große Kinderbett",
+      "phase": "Geschichte 1 - Die erste Nacht",
+      "description": "Wagt euch unter die Decke, um die erste Nacht des kleinen Mädchens im neuen Bett vor den Schattenkreaturen zu bewahren."
+    },
+    {
+      "order": 2,
+      "badgeText": "Geschichte 3",
+      "title": "Versteckspiel",
+      "phase": "Geschichte 3 - Im Reich des Sturzes",
+      "description": "Durchquert die gefährlichen Weiten des Sturzes, um verlorene Gefährten zu retten und Trennungsängste zu überwinden."
+    },
+    {
+      "order": 3,
+      "badgeText": "Geschichte 5",
+      "title": "Der erste Schultag",
+      "phase": "Geschichte 5 - Schritt in die weite Welt",
+      "description": "Stellt euch mutig den Morgensorgen vor dem ersten Schultag und meistert die Herausforderungen einer unbekannten Welt."
+    },
+    {
+      "order": 4,
+      "badgeText": "Geschichte 6",
+      "title": "Eine stürmische Nacht",
+      "phase": "Geschichte 6 - Das heraufziehende Unwetter",
+      "description": "Haltet stand gegen peitschende Winde, grollenden Donner und düstere Schatten unter der Kinderzimmertür."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Der König der Albträume",
+      "phase": "Geschichte 7 Finale - Dämmerung süßer Träume",
+      "description": "Stürmt das Albtraumreich, bezwingt Crepitus und schenkt dem Kind für immer einen friedvollen, geborgenen Schlaf."
+    }
+  ]
+}

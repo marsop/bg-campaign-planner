@@ -1,0 +1,104 @@
+{
+  "id": "stuffed-fables",
+  "title": "Stuffed Fables",
+  "releaseYear": 2018,
+  "designers": "Jerry Hawthorne",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 7.4,
+  "bggWeight": 2.44,
+  "bggUrl": "https://boardgamegeek.com/boardgame/233312/stuffed-fables",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "stories",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#9333ea",
+    "secondaryColor": "#180d2b",
+    "accentColor": "#fbbf24",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2e1065 0%, #180d2b 60%, #0a0512 100%)",
+    "cardBackground": "rgba(24, 13, 43, 0.92)",
+    "borderColor": "rgba(147, 51, 234, 0.35)",
+    "glowColor": "rgba(147, 51, 234, 0.25)",
+    "headerFont": "'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🧸",
+    "emblem": "🧸✨",
+    "themeClass": "theme-stuffedfables",
+    "activeThemeClass": "theme-stuffedfables-active",
+    "roadmapClass": "roadmap-stuffedfables",
+    "heroClass": "hero-stuffedfables"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #233312)",
+    "Plaid Hat Games Official Stuffed Fables Rulebook & AdventureBook",
+    "Plaid Hat Games Official Lost Story Supplement & FAQ"
+  ],
+  "scopes": [
+    {
+      "id": "stuffed_fables_core",
+      "baseScenarioCount": 7,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "stuffed_fables_intro",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    },
+    {
+      "id": "stuffed_fables_storybook_master",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🛏️",
+      "badgeText": "Story 1",
+      "title": "The Big Girl Bed",
+      "phase": "Story 1 - The First Night",
+      "description": "Venture beneath the blankets to protect the little girl's first night in her new big bed from the sinister minions of the dark."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🧸",
+      "badgeText": "Story 3",
+      "title": "Hide and Seek",
+      "phase": "Story 3 - Into the Fall",
+      "description": "Navigate the perilous depths of the Fall to rescue lost companions and overcome the anxiety of separation."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🎒",
+      "badgeText": "Story 5",
+      "title": "The First Day",
+      "phase": "Story 5 - Stepping into the World",
+      "description": "Courageously confront the terrifying morning anxieties of starting kindergarten and braving a whole new world outside."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "⚡",
+      "badgeText": "Story 6",
+      "title": "A Stormy Night",
+      "phase": "Story 6 - The Gathering Tempest",
+      "description": "Hold the line against howling winds, crashing thunder, and the darkest shadows creeping under the bedroom door."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "The Nightmare King",
+      "phase": "Story 7 Finale - Dawn of Sweet Dreams",
+      "description": "Storm the heart of the nightmare realm to defeat Crepitus and ensure safe, peaceful sleep for the child forever."
+    }
+  ]
+}

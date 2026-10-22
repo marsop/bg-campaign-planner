@@ -1,0 +1,66 @@
+{
+  "title": "Stuffed Fables",
+  "subtitle": "A narrative adventure book campaign protecting a child's dreams from the nightmare realm",
+  "tagline": "Brave stuffed companions defend their sleeping child from bedroom terrors",
+  "loreSummary": "Sworn to protect the little girl who loves them, a loyal band of stuffed animals awakens in the night. When sinister nightmares drag her beloved toys into the surreal kingdom of the Fall, only courage, teamwork, and love can conquer the darkness.",
+  "badgeCategory": "AdventureBook Narrative Campaign",
+  "roadmapTitle": "📖 Storybook Chronicle & Bedtime Fables",
+  "roadmapBadge": "STORYBOOK ROADMAP",
+  "keyFeatures": [
+    "Innovative AdventureBook system with maps, rules, and story unified in a spiral-bound tome",
+    "Colored dice-bag drafting driving exploration, melee combat, and heroic stuffed rescues",
+    "Deeply touching allegorical narrative exploring childhood milestones and bedtime fears",
+    "Heartwarming cooperative play ideal for families and seasoned adventure gamers alike"
+  ],
+  "scopes": {
+    "stuffed_fables_core": {
+      "name": "Bedtime Chronicles (Full Campaign)",
+      "description": "The complete 7-story adventure book campaign protecting the little girl from bedtime fears and night terrors."
+    },
+    "stuffed_fables_intro": {
+      "name": "Early Childhood Arc (Stories 1–3)",
+      "description": "The opening 3 stories spanning the transition to the big girl bed, overcoming nighttime accidents, and the game of hide-and-seek."
+    },
+    "stuffed_fables_storybook_master": {
+      "name": "Master Storybook & Side Fables",
+      "description": "All 7 core stories plus branching path revisits and optional lost story explorations."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Story 1",
+      "title": "The Big Girl Bed",
+      "phase": "Story 1 - The First Night",
+      "description": "Venture beneath the blankets to protect the little girl's first night in her new big bed from the sinister minions of the dark."
+    },
+    {
+      "order": 2,
+      "badgeText": "Story 3",
+      "title": "Hide and Seek",
+      "phase": "Story 3 - Into the Fall",
+      "description": "Navigate the perilous depths of the Fall to rescue lost companions and overcome the anxiety of separation."
+    },
+    {
+      "order": 3,
+      "badgeText": "Story 5",
+      "title": "The First Day",
+      "phase": "Story 5 - Stepping into the World",
+      "description": "Courageously confront the terrifying morning anxieties of starting kindergarten and braving a whole new world outside."
+    },
+    {
+      "order": 4,
+      "badgeText": "Story 6",
+      "title": "A Stormy Night",
+      "phase": "Story 6 - The Gathering Tempest",
+      "description": "Hold the line against howling winds, crashing thunder, and the darkest shadows creeping under the bedroom door."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "The Nightmare King",
+      "phase": "Story 7 Finale - Dawn of Sweet Dreams",
+      "description": "Storm the heart of the nightmare realm to defeat Crepitus and ensure safe, peaceful sleep for the child forever."
+    }
+  ]
+}

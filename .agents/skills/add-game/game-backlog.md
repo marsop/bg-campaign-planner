@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (72 games):**
+**Currently in app (73 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -81,6 +81,7 @@ requested by the user.
 - Descent: Journeys in the Dark (Second Edition)
 - The Crew: Mission Deep Sea
 - Zombie Kidz Evolution
+- Stuffed Fables
 
 ---
 
@@ -90,7 +91,6 @@ requested by the user.
 
 ## 🟧 Medium Priority
 
-- **Stuffed Fables** — Narrative adventure book game exploring a little girl's nightmares. 7 sessions (10-15 hours). ~7.4 BGG. 2-4 players. Adventure book, narrative.
 - **Risk Legacy** — Competitive world conquest with permanent board changes and unlockable content. 15 sessions (15-20 hours). ~7.3 BGG. 3-5 players. Legacy, area control.
 
 

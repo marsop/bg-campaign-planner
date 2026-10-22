@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.70.0] - 2026-10-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Stuffed Fables**, the acclaimed cooperative adventure book campaign by Jerry Hawthorne (Plaid Hat Games, 2018; BGG #233312).
+    - 3 campaign scope presets: *Bedtime Chronicles (Full Campaign)* (7 stories, recommended), *Early Childhood Arc (Stories 1–3)* (3 stories), and *Master Storybook & Side Fables* (10 stories).
+    - 5 narrative milestone checkpoints: *The Big Girl Bed* (Story 1), *Hide and Seek* (Story 3), *The First Day* (Story 5), *A Stormy Night* (Story 6), and *The Nightmare King* (Story 7 Finale), with full spoiler mask protection.
+    - Thematic visual identity (plush dreamland violet `#9333ea`, midnight slumber `#180d2b`, and bedside nightlight gold `#fbbf24` palette, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen bedroom dreamland backdrop).
+    - Scoped custom CSS stylesheet (`games/stuffed-fables/style.css`) providing dreamland velvet card borders, starlight milestone halos, and active theme accents.
+    - Complete localized translations across English, Spanish (*Fábulas de Peluche*), German (*Der Herr der Träume*), French (*Histoires de Peluches*), and Italian (*Fiabe di Stoffa*).
+
 ## [0.69.0] - 2026-10-22
 
 ### Added
