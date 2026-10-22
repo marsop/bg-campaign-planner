@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.71.0] - 2026-10-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Risk Legacy**, the pioneering legacy board game by Rob Daviau and Chris Dupuis (Hasbro / Avalon Hill, 2011; BGG #105134).
+    - 3 campaign scope presets: *Full Legacy Campaign (15 Games)* (15 games, recommended), *Early Wars Arc* (5 games), and *Total Global Domination & Post-Campaign Warfare* (20 games).
+    - 5 narrative and sealed packet milestone checkpoints: *The First War for Earth* (Game 1), *First Sealed Packet Breach* (Game 4), *Nuclear Fallout & Scars* (Game 8), *Major City Sovereignty* (Game 12), and *The Naming of the World* (Game 15 Finale), with full spoiler mask protection.
+    - Tactical military command operations theme (hazard red `#b91c1c`, gunmetal bunker slate `#18181b`, radar amber `#f59e0b`, Special Elite classified stencil typography, 1:1 flat confidential dossier cover art, and atmospheric tactical war-room backdrop).
+    - Scoped custom CSS stylesheet (`games/risk-legacy/style.css`) providing military bunker card borders, radar glows, and classified stamp badges.
+    - Complete localized translations across English, Spanish (*Risk Legacy*), German (*Risk Legacy*), French (*Risk Legacy*), and Italian (*Risk Legacy*).
+
 ## [0.70.0] - 2026-10-22
 
 ### Added

@@ -1,0 +1,75 @@
+{
+  "title": "Risk Legacy",
+  "subtitle": "The revolutionary campaign game that birthed the legacy genre through permanent world warfare",
+  "tagline": "The world will change. Forever.",
+  "loreSummary": "You command one of five asymmetric factions waging global warfare across an evolving Earth. Over fifteen definitive battles, territories will be scarred, sealed packets breached, cities founded, and the planet permanently renamed by the supreme victor.",
+  "badgeCategory": "Legacy Area Control Wargame",
+  "roadmapTitle": "🗺️ Global Warfare Chronicle & Unsealed Protocols",
+  "roadmapBadge": "CAMPAIGN CONFLICT",
+  "keyFeatures": [
+    "Pioneering legacy board game with permanent stickers, pen markings, and torn cards",
+    "Five asymmetric factions with custom unlockable powers and starting abilities",
+    "Sealed classified dossiers and secret packets opened upon specific battlefield triggers",
+    "Tactical nuclear missiles and terrain scars that alter continental strategies forever",
+    "Definitive 15-game campaign leaving behind a completely customized, unique board game"
+  ],
+  "scopes": {
+    "risk_legacy_campaign": {
+      "name": "Full Legacy Campaign (15 Games)",
+      "description": "The complete 15-game foundational legacy campaign where factions evolve, continents are permanently altered, secret packets are unsealed, and a final campaign victor is crowned."
+    },
+    "risk_legacy_opening": {
+      "name": "Early Wars Arc (5 Games)",
+      "description": "The first 5 games introducing faction draft abilities, initial scar stickers, and the earliest sealed dossier breaches."
+    },
+    "risk_legacy_chronicle": {
+      "name": "Total Global Domination & Post-Campaign Warfare (20 Games)",
+      "description": "The full 15-game campaign plus 5 post-campaign battles played on your fully personalized, battle-scarred world board."
+    },
+    "risk_legacy_early_wars": {
+      "name": "Early Wars Arc (Games 1–6)",
+      "description": "The opening 6-game conflict covering foundational city placements, first packet unlocks, missile escalation, and initial board scars."
+    },
+    "risk_legacy_extended_world": {
+      "name": "Extended Planetary Dominion (Campaign + Post-Legacy)",
+      "description": "The complete 15-game legacy campaign plus 5 post-campaign battles contested on the fully modified, permanently customized board."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Game 1",
+      "title": "The First War for Earth",
+      "phase": "Phase I - Day Zero Engagement",
+      "description": "Five distinct factions enter global combat, establishing their permanent starting powers, founding the first major city, and signing the board."
+    },
+    {
+      "order": 2,
+      "badgeText": "Game 4",
+      "title": "First Sealed Packet Breach",
+      "phase": "Phase II - Classified Escalation",
+      "description": "Battlefield conditions cross the threshold to open the first secret sealed packets, introducing tactical missiles, scar cards, and permanent terrain mutations."
+    },
+    {
+      "order": 3,
+      "badgeText": "Game 8",
+      "title": "Nuclear Fallout & Scars",
+      "phase": "Phase III - Scorched Earth Crisis",
+      "description": "Heavy missile exchanges and biohazard contamination permanently scar continents, fortifying fortified bastions and creating irradiated wasteland zones."
+    },
+    {
+      "order": 4,
+      "badgeText": "Game 12",
+      "title": "Major City Sovereignty",
+      "phase": "Phase IV - Continental Hegemony",
+      "description": "World capitals fortify the globe as veteran factions battle for decisive red-star victories and continental dominion with advanced draft bonuses."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "The Naming of the World",
+      "phase": "Phase V - The New World Order",
+      "description": "The definitive 15th war concludes the global campaign, granting the supreme victor the ultimate sovereign privilege of permanently naming the planet."
+    }
+  ]
+}

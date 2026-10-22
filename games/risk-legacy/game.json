@@ -1,0 +1,104 @@
+{
+  "id": "risk-legacy",
+  "title": "Risk Legacy",
+  "releaseYear": 2011,
+  "designers": "Rob Daviau, Chris Dupuis",
+  "playersMin": 3,
+  "playersMax": 5,
+  "bggRating": 7.3,
+  "bggWeight": 2.6,
+  "bggUrl": "https://boardgamegeek.com/boardgame/105134/risk-legacy",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 15,
+  "unitType": "games",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#b91c1c",
+    "secondaryColor": "#18181b",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #27272a 0%, #18181b 60%, #09090b 100%)",
+    "cardBackground": "rgba(24, 24, 27, 0.94)",
+    "borderColor": "rgba(185, 28, 28, 0.40)",
+    "glowColor": "rgba(245, 158, 11, 0.25)",
+    "headerFont": "'Special Elite', 'Courier New', monospace",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "☣️",
+    "emblem": "🌍⚔️",
+    "themeClass": "theme-risklegacy",
+    "activeThemeClass": "theme-risklegacy-active",
+    "roadmapClass": "roadmap-risklegacy",
+    "heroClass": "hero-risklegacy"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #105134)",
+    "Hasbro / Avalon Hill Official Risk Legacy Rulebook & Field Manual",
+    "Hasbro Official Sealed Envelope Dossiers & Community Campaign Logs"
+  ],
+  "scopes": [
+    {
+      "id": "risk_legacy_campaign",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": true
+    },
+    {
+      "id": "risk_legacy_opening",
+      "baseScenarioCount": 5,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    },
+    {
+      "id": "risk_legacy_chronicle",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 0.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🌍",
+      "badgeText": "Game 1",
+      "title": "The First War for Earth",
+      "phase": "Phase I - Day Zero Engagement",
+      "description": "Five distinct factions enter global combat, establishing their permanent starting powers, founding the first major city, and signing the board."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "✉️",
+      "badgeText": "Game 4",
+      "title": "First Sealed Packet Breach",
+      "phase": "Phase II - Classified Escalation",
+      "description": "Battlefield conditions cross the threshold to open the first secret sealed packets, introducing tactical missiles, scar cards, and permanent terrain mutations."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "☢️",
+      "badgeText": "Game 8",
+      "title": "Nuclear Fallout & Scars",
+      "phase": "Phase III - Scorched Earth Crisis",
+      "description": "Heavy missile exchanges and biohazard contamination permanently scar continents, fortifying fortified bastions and creating irradiated wasteland zones."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🏙️",
+      "badgeText": "Game 12",
+      "title": "Major City Sovereignty",
+      "phase": "Phase IV - Continental Hegemony",
+      "description": "World capitals fortify the globe as veteran factions battle for decisive red-star victories and continental dominion with advanced draft bonuses."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 15,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "The Naming of the World",
+      "phase": "Phase V - The New World Order",
+      "description": "The definitive 15th war concludes the global campaign, granting the supreme victor the ultimate sovereign privilege of permanently naming the planet."
+    }
+  ]
+}

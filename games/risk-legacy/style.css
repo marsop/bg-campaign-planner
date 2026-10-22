@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Risk Legacy — Classified Military Dossier & Warfare Theming
+   Scoped under .theme-risklegacy / .theme-risk-legacy
+   ========================================================================== */
+
+.theme-risklegacy,
+.theme-risk-legacy,
+.theme-risklegacy-active,
+.theme-risk-legacy-active {
+  --rl-crimson: #b91c1c;
+  --rl-camo-green: #15803d;
+  --rl-hazard-amber: #f59e0b;
+  --rl-steel-dark: #18181b;
+  --rl-plate-grey: #27272a;
+  --rl-border-glow: rgba(185, 28, 28, 0.40);
+  --rl-hazard-glow: rgba(245, 158, 11, 0.25);
+}
+
+.theme-risklegacy .card,
+.theme-risk-legacy .card,
+.theme-risklegacy .planner-card,
+.theme-risk-legacy .planner-card,
+.theme-risklegacy .summary-card,
+.theme-risk-legacy .summary-card {
+  border: 1px solid rgba(185, 28, 28, 0.40);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.85), 0 0 16px rgba(185, 28, 28, 0.20);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.theme-risklegacy .card:hover,
+.theme-risk-legacy .card:hover,
+.theme-risklegacy .planner-card:hover,
+.theme-risk-legacy .planner-card:hover {
+  border-color: rgba(245, 158, 11, 0.65);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.95), 0 0 22px rgba(245, 158, 11, 0.30);
+}
+
+.hero-risklegacy,
+.hero-risk-legacy {
+  background: linear-gradient(135deg, rgba(39, 39, 42, 0.70) 0%, rgba(185, 28, 28, 0.25) 50%, rgba(24, 24, 27, 0.95) 100%);
+  border-left: 4px solid var(--rl-hazard-amber, #f59e0b);
+  border-radius: 8px;
+  box-shadow: inset 0 0 30px rgba(185, 28, 28, 0.25);
+}
+
+.roadmap-risklegacy .roadmap-item-badge,
+.roadmap-risk-legacy .roadmap-item-badge,
+.roadmap-risklegacy .milestone-icon,
+.roadmap-risk-legacy .milestone-icon {
+  background: radial-gradient(circle, rgba(185, 28, 28, 0.40) 0%, rgba(24, 24, 27, 0.95) 100%);
+  border: 1px solid rgba(245, 158, 11, 0.50);
+  box-shadow: 0 0 14px rgba(185, 28, 28, 0.35);
+}
+
+.roadmap-risklegacy .milestone-card,
+.roadmap-risk-legacy .milestone-card {
+  border-left: 3px solid var(--rl-hazard-amber, #f59e0b);
+  background: rgba(24, 24, 27, 0.94);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.roadmap-risklegacy .milestone-card:hover,
+.roadmap-risk-legacy .milestone-card:hover {
+  border-left-color: var(--rl-crimson, #b91c1c);
+  box-shadow: 0 0 20px rgba(185, 28, 28, 0.35);
+}
+
+.theme-risklegacy-active,
+.theme-risk-legacy-active {
+  box-shadow: 0 0 28px rgba(185, 28, 28, 0.40) !important;
+}
+
+.theme-risklegacy .badge-category,
+.theme-risk-legacy .badge-category {
+  background-color: rgba(185, 28, 28, 0.22);
+  color: #fca5a5;
+  border: 1px solid rgba(185, 28, 28, 0.45);
+}

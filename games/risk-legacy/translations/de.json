@@ -1,0 +1,75 @@
+{
+  "title": "Risk Legacy",
+  "subtitle": "Ein bahnbrechender Legacy-Krieg, der das Schicksal der Erde für immer verändert",
+  "tagline": "Die Welt wird sich verändern. Für immer.",
+  "loreSummary": "Du befehligst eine von fünf asymmetrischen Fraktionen in einem globalen Krieg auf einer sich permanent wandelnden Erde. Im Laufe von fünfzehn entscheidenden Schlachten werden Gebiete gezeichnet, versiegelte Umschläge geöffnet, Hauptstädte gegründet und der Gesamtsieger darf der Welt ihren endgültigen Namen verleihen.",
+  "badgeCategory": "Kompetitives Legacy-Gebietskontrollspiel",
+  "roadmapTitle": "🗺️ Chronik des Weltkriegs & Versiegelte Protokolle",
+  "roadmapBadge": "KAMPAGNEN-KRIEG",
+  "keyFeatures": [
+    "Wegweisendes Legacy-Brettspiel mit permanenten Aufklebern, Brettbeschriftungen und zerstörten Karten",
+    "Fünf asymmetrische Fraktionen mit freischaltbaren Mächten und individuellen Startfähigkeiten",
+    "Versiegelte Geheimakten und Umschläge, die durch spezifische Schlachtfeldbedingungen ausgelöst werden",
+    "Taktische Nuklearraketen und Narben, die kontinentale Strategien dauerhaft verändern",
+    "Vollständige 15-Partien-Kampagne, die ein weltweit einzigartiges, dauerhaftes Spielbrett hinterlässt"
+  ],
+  "scopes": {
+    "risk_legacy_campaign": {
+      "name": "Vollständige Legacy-Kampagne (15 Partien)",
+      "description": "Der komplette 15-Spiele-Legacy-Bogen, der mit der Namensgebung der Erde und der Erschaffung einer einzigartigen Welt endet."
+    },
+    "risk_legacy_opening": {
+      "name": "Frühe Kriege (5 Partien)",
+      "description": "Die ersten 5 Partien zur Einführung von Fraktionskräften, ersten Geländenarben und den frühesten Umschlagöffnungen."
+    },
+    "risk_legacy_chronicle": {
+      "name": "Totale globale Vorherrschaft & Post-Kampagne (20 Partien)",
+      "description": "Die komplette 15-Spiele-Kampagne plus 5 Nachkampagnen-Schlachten auf deinem maßgeschneiderten, kriegsgezeichneten Spielbrett."
+    },
+    "risk_legacy_early_wars": {
+      "name": "Frühe Kriege (Partien 1–6)",
+      "description": "Der 6 Partien umfassende Eröffnungskonflikt mit Gründung erster Städte, ersten Umschlagöffnungen und ersten Gebietsnarben."
+    },
+    "risk_legacy_extended_world": {
+      "name": "Erweiterte Weltherrschaft (Kampagne + Post-Legacy)",
+      "description": "Die 15-Partien-Kernkampagne plus 5 Nachkriegsschlachten auf dem dauerhaft veränderten Spielbrett."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Spiel 1",
+      "title": "Der erste Krieg um die Erde",
+      "phase": "Phase I - Gefecht am Tag Null",
+      "description": "Fünf Fraktionen treten zum weltweiten Kampf an, wählen ihre permanenten Startkräfte, gründen die erste Großstadt und signieren das Spielbrett."
+    },
+    {
+      "order": 2,
+      "badgeText": "Spiel 4",
+      "title": "Erster versiegelter Umschlag geöffnet",
+      "phase": "Phase II - Klassifizierte Eskalation",
+      "description": "Bedingungen auf dem Schlachtfeld lösen das Öffnen erster geheimer Umschläge aus und bringen taktische Raketen sowie Narbenkarten ins Spiel."
+    },
+    {
+      "order": 3,
+      "badgeText": "Spiel 8",
+      "title": "Nuklearer Niederschlag & Narben",
+      "phase": "Phase III - Krise der verbrannten Erde",
+      "description": "Heftiger Raketeneinsatz und biologische Kontamination hinterlassen dauerhafte Wunden auf den Kontinenten und schaffen verstrahlte Ödlande."
+    },
+    {
+      "order": 4,
+      "badgeText": "Spiel 12",
+      "title": "Souveränität der Metropolen",
+      "phase": "Phase IV - Kontinentale Hegemonie",
+      "description": "Befestigte Weltmetropolen dominieren die Kontinente, während Veteranenfraktionen um entscheidende 4-Sterne-Siege kämpfen."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Die Benennung der Welt",
+      "phase": "Phase V - Die neue Weltordnung",
+      "description": "Die 15. Schlacht besiegelt die globale Kampagne und verleiht dem obersten Sieger das Recht, dem Planeten dauerhaft einen Namen zu geben."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Risk Legacy",
+  "subtitle": "Un pionieristico conflitto legacy che segna per sempre il destino della Terra",
+  "tagline": "Il mondo cambierà. Per sempre.",
+  "loreSummary": "Comandi una delle cinque fazioni asimmetriche in una guerra globale su una Terra in continua mutazione. Attraverso quindici battaglie decisive, i territori saranno sfregiati, buste sigillate verranno aperte, città fondate e il vincitore supremo darà per sempre il nome al pianeta.",
+  "badgeCategory": "Controllo Area Legacy Competitivo",
+  "roadmapTitle": "🗺️ Cronaca di Guerra Globale & Protocolli Segreti",
+  "roadmapBadge": "CONFLITTO DI CAMPAGNA",
+  "keyFeatures": [
+    "Gioco da tavolo legacy pioniere con adesivi permanenti, scritte sulla plancia e carte distrutte",
+    "Cinque fazioni asimmetriche con poteri sbloccabili e abilità iniziali personalizzate",
+    "Dossier riservati e pacchetti sigillati aperti al verificarsi di specifici eventi bellici",
+    "Missili tattici e cicatrici territoriali che trasformano per sempre le strategie continentali",
+    "Campagna completa di 15 partite che genera un tabellone di gioco permanente unico al mondo"
+  ],
+  "scopes": {
+    "risk_legacy_campaign": {
+      "name": "Campagna Legacy Completa (15 Partite)",
+      "description": "L'arco completo di 15 partite legacy che culmina con il battesimo sovrano del pianeta e la creazione di un mondo unico."
+    },
+    "risk_legacy_opening": {
+      "name": "Arco degli Scontri Iniziali (5 Partite)",
+      "description": "Le prime 5 partite che introducono le abilità di fazione, le prime cicatrici territoriali e le prime aperture di pacchetti segreti."
+    },
+    "risk_legacy_chronicle": {
+      "name": "Dominio Globale Totale e Guerra Post-Campagna (20 Partite)",
+      "description": "La campagna completa di 15 partite più 5 battaglie post-campagna giocate sulla vostra plancia di guerra interamente personalizzata."
+    },
+    "risk_legacy_early_wars": {
+      "name": "Guerre Iniziali (Partite 1–6)",
+      "description": "Il conflitto inaugurale di 6 partite incentrato sulla fondazione delle città, apertura dei primi dossier e prime cicatrici."
+    },
+    "risk_legacy_extended_world": {
+      "name": "Dominio Planetario Esteso (Campagna + Post-Legacy)",
+      "description": "La campagna completa di 15 partite unita a 5 scontri successivi combattuti sul tabellone modificato in modo permanente."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Partita 1",
+      "title": "La Prima Guerra per la Terra",
+      "phase": "Fase I - Ingaggio Giorno Zero",
+      "description": "Cinque fazioni scendono sul campo globale, scelgono i loro poteri permanenti, fondano la prima città maggiore e firmano la plancia."
+    },
+    {
+      "order": 2,
+      "badgeText": "Partita 4",
+      "title": "Apertura del Primo Pacchetto Sigillato",
+      "phase": "Fase II - Escalation Riservata",
+      "description": "Le condizioni di battaglia oltrepassano la soglia per aprire i primi pacchetti segreti, introducendo missili tattici e cicatrici."
+    },
+    {
+      "order": 3,
+      "badgeText": "Partita 8",
+      "title": "Fallout Nucleare & Cicatrici",
+      "phase": "Fase III - Crisi della Terra Bruciata",
+      "description": "Lanci di missili e contaminazioni biologiche segnano permanentemente i continenti, creando terre desolate e radioattive."
+    },
+    {
+      "order": 4,
+      "badgeText": "Partita 12",
+      "title": "Sovranità delle Grandi Città",
+      "phase": "Fase IV - Egemonia Continentale",
+      "description": "Le capitali fortificate dominano i continenti mentre le fazioni veterane si contendono decisive vittorie a 4 stelle."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Il Battesimo del Mondo",
+      "phase": "Fase V - Il Nuovo Ordine Mondiale",
+      "description": "La quindicesima battaglia conclude la campagna globale, conferendo al vincitore supremo il diritto di dare un nome permanente al pianeta."
+    }
+  ]
+}

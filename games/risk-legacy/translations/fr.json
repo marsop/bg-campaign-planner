@@ -1,0 +1,75 @@
+{
+  "title": "Risk Legacy",
+  "subtitle": "Un affrontement legacy pionnier gravant à jamais le destin meurtri de la Terre",
+  "tagline": "Le monde va changer. Pour toujours.",
+  "loreSummary": "Vous commandez l'une des cinq factions asymétriques engagées dans une guerre mondiale sur une Terre en constante mutation. Au fil de quinze batailles sans merci, des territoires seront balafrés, des dossiers secrets décachetés, des capitales fondées, et le vainqueur suprême rebaptisera définitivement la planète.",
+  "badgeCategory": "Contrôle de Territoire Legacy Compétitif",
+  "roadmapTitle": "🗺️ Chronique du Conflit Mondial & Protocoles Classifiés",
+  "roadmapBadge": "GUERRE DE CAMPAGNE",
+  "keyFeatures": [
+    "Jeu de plateau legacy précurseur avec autocollants permanents, signatures sur le plateau et cartes détruites",
+    "Cinq factions asymétriques dotées de pouvoirs déblocables et de capacités initiales uniques",
+    "Dossiers confidentiels et paquets scellés débloqués selon des conditions de combat précises",
+    "Missiles nucléaires tactiques et cicatrices de guerre modifiant durablement la géopolitique",
+    "Campagne complète de 15 parties laissant un plateau de jeu définitif absolument unique au monde"
+  ],
+  "scopes": {
+    "risk_legacy_campaign": {
+      "name": "Campagne Legacy Complète (15 Parties)",
+      "description": "L'arc complet des 15 parties legacy culminant avec le baptême souverain de la planète et l'établissement d'un monde permanent."
+    },
+    "risk_legacy_opening": {
+      "name": "Premières Escarmouches (5 Parties)",
+      "description": "Les 5 premières parties introduisant les capacités de faction, les premières cicatrices territoriales et les premiers paquets scellés."
+    },
+    "risk_legacy_chronicle": {
+      "name": "Domination Globale Totale et Guerre Post-Campagne (20 Parties)",
+      "description": "La campagne intégrale de 15 parties plus 5 affrontements post-campagne disputés sur votre plateau de guerre hautement personnalisé."
+    },
+    "risk_legacy_early_wars": {
+      "name": "Guerres Initiales (Parties 1–6)",
+      "description": "Le conflit initial de 6 parties comprenant la fondation des cités, l'ouverture des premiers paquets et les premières cicatrices."
+    },
+    "risk_legacy_extended_world": {
+      "name": "Domination Planétaire Étendue (Campagne + Post-Legacy)",
+      "description": "La campagne legacy complète de 15 parties plus 5 affrontements ultérieurs sur le plateau transformé."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Partie 1",
+      "title": "La Première Guerre pour la Terre",
+      "phase": "Phase I - Engagement Jour Zéro",
+      "description": "Cinq factions entrent en conflit mondial, choisissent leurs pouvoirs permanents, fondent la première grande ville et signent le plateau."
+    },
+    {
+      "order": 2,
+      "badgeText": "Partie 4",
+      "title": "Premier Paquet Scellé Décacheté",
+      "phase": "Phase II - Escalade Classifiée",
+      "description": "Les combats atteignent un seuil critique qui déclenche l'ouverture des premiers paquets secrets, apportant missiles et cicatrices."
+    },
+    {
+      "order": 3,
+      "badgeText": "Partie 8",
+      "title": "Retombées Nucléaires & Cicatrices",
+      "phase": "Phase III - Crise de la Terre Brûlée",
+      "description": "Frappes de missiles et contaminations biologiques mutilent définitivement les continents, créant des terres irradiées désolées."
+    },
+    {
+      "order": 4,
+      "badgeText": "Partie 12",
+      "title": "Souveraineté des Grandes Villes",
+      "phase": "Phase IV - Hégémonie Continentale",
+      "description": "Les métropoles fortifiées s'imposent à travers le globe alors que les factions s'affrontent pour de décisives victoires à 4 étoiles."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Le Baptême du Monde",
+      "phase": "Phase V - Le Nouvel Ordre Mondial",
+      "description": "La quinzième bataille scelle la campagne mondiale, accordant au vainqueur suprême le droit exclusif de nommer définitivement la Terre."
+    }
+  ]
+}

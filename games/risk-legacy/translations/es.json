@@ -1,0 +1,75 @@
+{
+  "title": "Risk Legacy",
+  "subtitle": "Un conflicto legacy pionero que marcará de forma permanente el destino de la Tierra",
+  "tagline": "El mundo cambiará. Para siempre.",
+  "loreSummary": "Comandas una de las cinco facciones asimétricas en una guerra global sobre una Tierra en continua evolución. A lo largo de quince batallas decisivas, los territorios quedarán marcados, se abrirán sobres sellados secretos, se fundarán ciudades y el vencedor definitivo rebautizará el planeta.",
+  "badgeCategory": "Control de Áreas Legacy Competitivo",
+  "roadmapTitle": "🗺️ Crónica de Guerra Global y Protocolos Secretos",
+  "roadmapBadge": "CONFLICTO DE CAMPAÑA",
+  "keyFeatures": [
+    "Juego de mesa legacy pionero con adhesivos permanentes, firmas en el tablero y cartas destruidas",
+    "Cinco facciones asimétricas con poderes desbloqueables y habilidades iniciales personalizadas",
+    "Dossiers confidenciales y paquetes sellados que se abren ante hitos bélicos específicos",
+    "Misiles nucleares tácticos y cicatrices territoriales que transforman la geopolítica para siempre",
+    "Campaña definitiva de 15 partidas que crea un tablero permanente totalmente único en el mundo"
+  ],
+  "scopes": {
+    "risk_legacy_campaign": {
+      "name": "Campaña Legacy Completa (15 Partidas)",
+      "description": "El arco completo de 15 partidas legacy que culmina con el bautizo soberano del planeta y la creación de un mundo único y permanente."
+    },
+    "risk_legacy_opening": {
+      "name": "Arco de Guerras Iniciales (5 Partidas)",
+      "description": "Las primeras 5 partidas que introducen las habilidades de facción, las primeras cicatrices y los primeros sobres secretos abiertos."
+    },
+    "risk_legacy_chronicle": {
+      "name": "Dominación Global Total y Guerras Pos-Campaña (20 Partidas)",
+      "description": "La campaña completa de 15 partidas más 5 enfrentamientos posteriores jugados en vuestro tablero de combate totalmente personalizado."
+    },
+    "risk_legacy_early_wars": {
+      "name": "Arco de Guerras Iniciales (Partidas 1–6)",
+      "description": "El conflicto inicial de 6 partidas que abarca la fundación de ciudades, desbloqueo de los primeros paquetes y primeras cicatrices."
+    },
+    "risk_legacy_extended_world": {
+      "name": "Dominio Planetario Extendido (Campaña + Pos-Legacy)",
+      "description": "La campaña legacy completa de 15 partidas más 5 batallas posteriores libradas sobre el tablero transformado."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Partida 1",
+      "title": "La primera guerra por la Tierra",
+      "phase": "Fase I - Enfrentamiento Día Cero",
+      "description": "Cinco facciones entran en combate global, eligiendo sus poderes iniciales permanentes, fundando la primera ciudad mayor y firmando el tablero."
+    },
+    {
+      "order": 2,
+      "badgeText": "Partida 4",
+      "title": "Apertura del primer paquete sellado",
+      "phase": "Fase II - Escalada clasificada",
+      "description": "Las condiciones del campo de batalla alcanzan el límite necesario para abrir los primeros paquetes secretos, introduciendo misiles tácticos y cicatrices de terreno."
+    },
+    {
+      "order": 3,
+      "badgeText": "Partida 8",
+      "title": "Lluvia nuclear y cicatrices",
+      "phase": "Fase III - Crisis de tierra quemada",
+      "description": "Intensos intercambios de misiles y contaminación biológica marcan permanentemente los continentes, fortificando bastiones y creando tierras yermas irradiadas."
+    },
+    {
+      "order": 4,
+      "badgeText": "Partida 12",
+      "title": "Soberanía de las grandes ciudades",
+      "phase": "Fase IV - Hegemonía continental",
+      "description": "Las capitales mundiales fortifican el globo mientras las facciones veteranas luchan por victorias decisivas de 4 estrellas y dominio continental."
+    },
+    {
+      "order": 5,
+      "badgeText": "Final",
+      "title": "El bautizo del mundo",
+      "phase": "Fase V - El nuevo orden mundial",
+      "description": "La decimoquinta guerra concluye la campaña global, otorgando al vencedor supremo el privilegio soberano de poner nombre permanente al planeta."
+    }
+  ]
+}
