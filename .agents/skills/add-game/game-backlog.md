@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (74 games):**
+**Currently in app (75 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -83,6 +83,7 @@ requested by the user.
 - Zombie Kidz Evolution
 - Stuffed Fables
 - Risk Legacy
+- The Initiative
 
 ---
 
@@ -92,7 +93,6 @@ requested by the user.
 
 ## 🟧 Medium Priority
 
-- **The Initiative** — Cooperative code-breaking and strategy campaign game. 15 sessions (10-15 hours). ~7.6 BGG. 1-4 players. Cooperative, puzzle, campaign.
 - **Near and Far** — Competitive storytelling adventure game where players travel across maps to find the Last Ruin. 10 sessions (15-20 hours). ~7.6 BGG. 2-4 players. Narrative, adventure, worker placement.
 - **Legends of Andor** — Cooperative fantasy board game with a progressive multi-part legend structure. 5 legends (10-15 hours). ~7.3 BGG. 2-4 players. Cooperative, puzzle, fantasy.
 ---

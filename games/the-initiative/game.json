@@ -1,0 +1,104 @@
+{
+  "id": "the-initiative",
+  "title": "The Initiative",
+  "releaseYear": 2021,
+  "designers": "Corey Konieczka",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.6,
+  "bggWeight": 2.08,
+  "bggUrl": "https://boardgamegeek.com/boardgame/328571/the-initiative",
+  "baseScenarioMinutes": 45,
+  "setupTeardownMinutes": 10,
+  "unitType": "missions",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#06b6d4",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#10b981",
+    "backgroundGradient": "radial-gradient(ellipse at top, #083344 0%, #0f172a 60%, #030712 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.94)",
+    "borderColor": "rgba(6, 182, 212, 0.40)",
+    "glowColor": "rgba(6, 182, 212, 0.25)",
+    "headerFont": "'Special Elite', 'Courier New', monospace",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "📟",
+    "emblem": "📟🔍",
+    "themeClass": "theme-theinitiative",
+    "activeThemeClass": "theme-theinitiative-active",
+    "roadmapClass": "roadmap-theinitiative",
+    "heroClass": "hero-theinitiative"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #328571)",
+    "Unexpected Games / Asmodee Official The Initiative Rulebook & Comic Book",
+    "Community Campaign Logs & Mission Timing Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "the_initiative_campaign",
+      "baseScenarioCount": 14,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": true
+    },
+    {
+      "id": "the_initiative_early_chapters",
+      "baseScenarioCount": 6,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "the_initiative_complete_enigma",
+      "baseScenarioCount": 24,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "📟",
+      "badgeText": "Mission 1",
+      "title": "The Mysterious Game",
+      "phase": "Order 1 - Yard Sale Discovery",
+      "description": "Four teenagers stumble upon an enigmatic, discarded board game called 'The Key' and decode their first cryptic console transmission."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🔍",
+      "badgeText": "Mission 4",
+      "title": "First Cracking of the Code",
+      "phase": "Order 2 - Window of Vulnerability",
+      "description": "Cipher techniques sharpen as the group coordinates tactical movement through surveillance grids and solves complex letter-tile anagrams."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "📡",
+      "badgeText": "Mission 8",
+      "title": "Into the Surveillance Net",
+      "phase": "Order 3 - Clandestine Operations",
+      "description": "The boundary between the comic narrative and reality blurs as active security protocols escalate and time pressure mounts."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 11,
+      "iconEmoji": "🔑",
+      "badgeText": "Mission 11",
+      "title": "The Keycard Infiltration",
+      "phase": "Order 4 - Black Site Breach",
+      "description": "The operatives orchestrate a coordinated infiltration of high-security sectors, gathering classified clues under intense time constraints."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 14,
+      "iconEmoji": "🎯",
+      "badgeText": "Mission 14",
+      "title": "The Final Transmission Deciphered",
+      "phase": "Order 5 - The Core Truth",
+      "description": "The climactic campaign mission unlocks the ultimate conspiratorial revelation, bringing the comic book investigation to its thrilling resolution."
+    }
+  ]
+}

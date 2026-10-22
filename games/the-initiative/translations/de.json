@@ -1,0 +1,67 @@
+{
+  "title": "The Initiative",
+  "subtitle": "Eine kooperative Kampagne aus verdeckter Infiltration, Comic-Abenteuer und Code-Entschlüsselung",
+  "tagline": "Vier Jugendliche finden ein mysteriöses Spiel. Die Grenzen der Realität verschwimmen.",
+  "loreSummary": "Im Jahr 1994 entdecken vier befreundete Teenager auf einem Flohmarkt ein geheimes Brettspiel namens «Der Schlüssel». Während sie taktische Rauminfiltrationen durchführen und Kryptogramme auf einer geheimen Konsole knacken, erkennen sie verblüffende Parallelen zwischen der Comic-Handlung und gefährlichen Verschwörungen in der realen Welt.",
+  "badgeCategory": "Kooperative Comic- & Codeknacker-Kampagne",
+  "roadmapTitle": "🕵️ Entschlüsselungsprotokoll & Comic-Missionsverlauf",
+  "roadmapBadge": "GEHEIME INFORMATIONEN",
+  "keyFeatures": [
+    "Zweistufige Erzählung, die ein 48-seitiges Comic-Heft mit taktischem Brettspielgeschehen verknüpft",
+    "Taktische Rauminfiltration mit schleichender Bewegung, Hinweissuche und tickender Zeituhr",
+    "Interaktive physische Geheimkonsole mit Schiebefenstern zur Echtzeit-Codeentschlüsselung",
+    "Zugängliche kooperative Mechaniken von Corey Konieczka mit anspruchsvoller Rätseltiefe",
+    "Zusätzliche Enigma-Rätsel nach der Kampagne und versiegelte Umschläge für langanhaltenden Spielspaß"
+  ],
+  "scopes": {
+    "the_initiative_campaign": {
+      "name": "Comic-Buch-Kampagne (14 Missionen)",
+      "description": "Die vollständige 14-teilige Erzählkampagne, in der vier Teenager die 48 Seiten des Comic-Hefts durchleben, Kryptogramme knacken und das Geheimnis der Initiative lüften."
+    },
+    "the_initiative_early_chapters": {
+      "name": "Eröffnungs-Kapitel (6 Missionen)",
+      "description": "Die ersten 6 Einführungsmissionen mit grundlegenden Infiltrationstaktiken, ersten Code-Entdeckungen und dem Einstieg in die Comic-Erzählung."
+    },
+    "the_initiative_complete_enigma": {
+      "name": "Vollständige Kampagne & Enigma-Modus (24 Missionen)",
+      "description": "Alle 14 Hauptmissionen plus 10 anspruchsvolle Bonus- und Geheimrätsel aus verschlossenen Umschlägen für Meister-Codeknacker."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 1",
+      "title": "Das geheimnisvolle Spiel",
+      "phase": "Phase I - Fund auf dem Flohmarkt",
+      "description": "Vier befreundete Teenager erwerben ein rätselhaftes altes Spiel namens «Der Schlüssel» und knacken ihre erste verschlüsselte Botschaft auf der Geheimkonsole."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 4",
+      "title": "Der erste Code-Durchbruch",
+      "phase": "Phase II - Kryptografischer Durchbruch",
+      "description": "Die Gruppe stößt auf verblüffende Verbindungen zur Wirklichkeit, als die Konsole tiefergehende Verschwörungshinweise im Comic freilegt."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 8",
+      "title": "Im Überwachungsnetz",
+      "phase": "Phase III - Clandestine Operationen",
+      "description": "Bei der Infiltration gesperrter Gebäudebereiche sammeln die Freunde lebenswichtige Glyphen und weichen observierenden Schattenagenten aus."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 11",
+      "title": "Infiltration per Schlüsselkarte",
+      "phase": "Phase IV - Hochsicherheits-Durchbruch",
+      "description": "Heikle Terminal-Einsätze erfordern präzise abgestimmte Chipkarten-Aktionen und messerscharfe Logik, um gesicherte Räume rechtzeitig zu knacken."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "Die finale Transmission entschlüsselt",
+      "phase": "Phase V - Die Meister-Entschlüsselung",
+      "description": "Die Comic-Handlung gipfelt in einem packenden Finale, als die Teenager den letzten Geheimcode zusammensetzen und das Rätsel der Initiative lösen."
+    }
+  ]
+}

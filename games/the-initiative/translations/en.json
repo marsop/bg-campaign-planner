@@ -1,0 +1,67 @@
+{
+  "title": "The Initiative",
+  "subtitle": "A cooperative strategy campaign of covert infiltration, comic-book mystery, and cipher breaking",
+  "tagline": "Four teenagers find a mysterious game. Reality is about to blur.",
+  "loreSummary": "In 1994, four suburban teenagers discover a clandestine board game called 'The Key' at a local yard sale. As they play through tactical room breaches and decipher cryptograms on a secret console, they uncover astonishing parallels between the comic book narrative and dangerous secrets unfolding in the real world.",
+  "badgeCategory": "Cooperative Comic & Codebreaking Campaign",
+  "roadmapTitle": "🕵️ Decryption Log & Comic Storyline Progression",
+  "roadmapBadge": "CLANDESTINE INTEL",
+  "keyFeatures": [
+    "Dual-layered narrative linking a 48-page comic book story with evolving board gameplay",
+    "Tactical room-to-room infiltration with stealth movement, clue gathering, and timer pressure",
+    "Interactive physical secret console simulating real-time cryptographic decipherment",
+    "Accessible cooperative mechanics designed by Corey Konieczka with rich campaign puzzle depth",
+    "Post-campaign standalone enigma puzzles and secret envelopes extending replayability"
+  ],
+  "scopes": {
+    "the_initiative_campaign": {
+      "name": "Comic Book Campaign (14 Missions)",
+      "description": "The complete 14-mission narrative campaign following the four teenagers through the 48-page comic book story, cracking ciphers and uncovering the true nature of The Initiative."
+    },
+    "the_initiative_early_chapters": {
+      "name": "Opening Chapters Arc (6 Missions)",
+      "description": "The first 6 introductory missions establishing core movement tactics, first cipher discoveries, and initial comic book plot revelations."
+    },
+    "the_initiative_complete_enigma": {
+      "name": "Complete Campaign & Enigma Mode (24 Missions)",
+      "description": "All 14 core campaign missions plus 10 challenging standalone and secret envelope cipher missions for master codebreakers."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 1",
+      "title": "The Mysterious Game",
+      "phase": "Phase I - Garage Sale Discovery",
+      "description": "Four suburban teenage friends acquire a cryptic vintage game called 'The Key' and decipher their first concealed message on the secret console."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 4",
+      "title": "First Cracking of the Code",
+      "phase": "Phase II - Cryptogram Breakthrough",
+      "description": "The team uncovers startling real-world parallels as their cipher console reveals deeper conspiratorial clues embedded throughout the comic book."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 8",
+      "title": "Into the Surveillance Net",
+      "phase": "Phase III - Clandestine Operations",
+      "description": "Infiltrating restricted complex sectors, the teenagers gather critical glyphs while dodging shadowy surveillance operatives closing in."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 11",
+      "title": "The Keycard Infiltration",
+      "phase": "Phase IV - High Security Breach",
+      "description": "High-stakes terminal missions demand coordinated keycard access and razor-sharp deduction to open sealed rooms under strict time limits."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "The Final Transmission Deciphered",
+      "phase": "Phase V - The Master Decryption",
+      "description": "The comic storyline reaches its breathless climax as the teenagers assemble the final classified cipher and expose the reality behind The Initiative."
+    }
+  ]
+}

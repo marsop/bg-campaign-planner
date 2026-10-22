@@ -1,0 +1,67 @@
+{
+  "title": "The Initiative",
+  "subtitle": "Una campagna cooperativa di infiltrazione segreta, mistero a fumetti e decifrazione di codici",
+  "tagline": "Quattro adolescenti trovano un gioco misterioso. La realtà sta per confondersi.",
+  "loreSummary": "Nel 1994, quattro adolescenti trovano a un mercatino dell'usato un enigmatico gioco da tavolo chiamato «La Chiave». Risolvendo infiltrazioni tattiche e decifrando crittogrammi su una console segreta, scoprono sconvolgenti parallelismi tra le pagine del fumetto e oscuri segreti che prendono vita nel mondo reale.",
+  "badgeCategory": "Campagna Cooperativa tra Fumetto e Codici",
+  "roadmapTitle": "🕵️ Registro di Decifrazione e Progresso del Fumetto",
+  "roadmapBadge": "INFORMAZIONI SEGRETE",
+  "keyFeatures": [
+    "Doppio livello narrativo che intreccia un fumetto di 48 pagine con operazioni tattiche su plancia",
+    "Infiltrazione tattica tra stanze con movimento furtivo, raccolta indizi e pressione del tempo",
+    "Console segreta fisica interattiva a scorrimento per decifrare crittogrammi in tempo reale",
+    "Meccaniche cooperative accessibili create da Corey Konieczka con profonda soddisfazione deduttiva",
+    "Enigmi avanzati post-campagna e buste segrete che espandono notevolmente la rigiocabilità"
+  ],
+  "scopes": {
+    "the_initiative_campaign": {
+      "name": "Campagna del Fumetto (14 Missioni)",
+      "description": "La campagna narrativa completa in 14 missioni che guida i quattro amici tra le 48 pagine del fumetto, decifrando codici e svelando la vera natura dell'Iniziativa."
+    },
+    "the_initiative_early_chapters": {
+      "name": "Arco dei Capitoli Iniziali (6 Missioni)",
+      "description": "Le prime 6 missioni introduttive che consolidano le tattiche di movimento, le prime decifrazioni e l'avvio della trama a fumetti."
+    },
+    "the_initiative_complete_enigma": {
+      "name": "Campagna Completa e Modalità Enigma (24 Missioni)",
+      "description": "Tutte le 14 missioni principali della campagna più 10 impegnative missioni avanzate e buste segrete per abili decifratori."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Missione 1",
+      "title": "Il Gioco Misterioso",
+      "phase": "Fase I - Il Ritrovamento al Mercatino",
+      "description": "Quattro giovani amici acquistano un vecchio gioco enigmatico chiamato «La Chiave» e decifrano il loro primo messaggio nascosto sulla console segreta."
+    },
+    {
+      "order": 2,
+      "badgeText": "Missione 4",
+      "title": "La Prima Decifrazione",
+      "phase": "Fase II - Svolta Crittografica",
+      "description": "Il gruppo scopre sconcertanti collegamenti con la realtà quando la console rivela indizi cospirativi celati tra le pagine del fumetto."
+    },
+    {
+      "order": 3,
+      "badgeText": "Missione 8",
+      "title": "Nella Rete di Sorveglianza",
+      "phase": "Fase III - Operazioni Clandestine",
+      "description": "Infiltrandosi in strutture ad accesso riservato, i ragazzi raccolgono glifi cruciali sfuggendo a minacciosi agenti di sorveglianza che si avvicinano."
+    },
+    {
+      "order": 4,
+      "badgeText": "Missione 11",
+      "title": "Infiltrazione con Badge",
+      "phase": "Fase IV - Violazione di Massima Sicurezza",
+      "description": "Missioni ad alto rischio richiedono coordinazione dei badge e deduzioni infallibili per forzare stanze sigillate sotto stretti limiti di tempo."
+    },
+    {
+      "order": 5,
+      "badgeText": "Finale",
+      "title": "L'Ultima Trasmissione Decifrata",
+      "phase": "Fase V - La Decifrazione Suprema",
+      "description": "La trama del fumetto giunge al suo culmine mozzafiato quando i ragazzi completano l'ultimo crittogramma svelando la realtà dietro L'Iniziativa."
+    }
+  ]
+}

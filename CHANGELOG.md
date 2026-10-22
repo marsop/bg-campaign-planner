@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.72.0] - 2026-10-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **The Initiative**, the cooperative code-breaking strategy campaign game by Corey Konieczka (Unexpected Games, 2021; BGG #328571).
+    - 3 campaign scope presets: *The Key Campaign (14 Missions)* (14 missions, recommended), *Early Mystery Arc (Chapters 1–5)* (5 missions), and *Full Syndicate Mastery & Secret Dossiers* (24 missions).
+    - 5 narrative and comic chronicle milestone checkpoints: *The Mysterious Game* (Mission 1), *First Cracking of the Code* (Mission 4), *Into the Surveillance Net* (Mission 8), *The Keycard Infiltration* (Mission 11), and *The Final Transmission Deciphered* (Mission 14 Finale), with full spoiler mask protection.
+    - Retro 1990s spy thriller visual identity (phosphor cyan `#06b6d4`, surveillance emerald `#10b981`, CRT dark slate `#0f172a`, alert amber `#f59e0b`, Special Elite classified typewriter typography, 1:1 flat front box cover art, and atmospheric retro surveillance room backdrop).
+    - Scoped custom CSS stylesheet (`games/the-initiative/style.css`) providing espionage surveillance card borders, terminal amber radar glows, and classified roadmap badge accents.
+    - Complete localized translations across English, Spanish (*The Initiative*), German (*The Initiative*), French (*The Initiative*), and Italian (*The Initiative*).
+
 ## [0.71.0] - 2026-10-22
 
 ### Added

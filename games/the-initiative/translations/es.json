@@ -1,0 +1,67 @@
+{
+  "title": "The Initiative",
+  "subtitle": "Una campaña cooperativa de infiltración encubierta, misterio en cómic y descifrado de códigos",
+  "tagline": "Cuatro adolescentes hallan un juego misterioso. La realidad está a punto de distorsionarse.",
+  "loreSummary": "En 1994, cuatro adolescentes encuentran en una venta de garaje un clandestino juego de mesa llamado «La Llave». A medida que resuelven incursiones tácticas y descifran criptogramas en una consola secreta, descubren inquietantes paralelismos entre la historia del cómic y peligrosos secretos que amenazan su realidad.",
+  "badgeCategory": "Campaña Cooperativa de Cómic y Descifrado",
+  "roadmapTitle": "🕵️ Registro de Descifrado y Progreso del Cómic",
+  "roadmapBadge": "INTELIGENCIA CLANDESTINA",
+  "keyFeatures": [
+    "Narrativa en dos planos que conecta un cómic de 48 páginas con partidas tácticas sobre el tablero",
+    "Infiltración táctica entre salas con movimiento sigiloso, recolección de pistas y presión de tiempo",
+    "Consola física interactiva con ventanas deslizantes para descifrar mensajes secretos en tiempo real",
+    "Mecánicas cooperativas accesibles diseñadas por Corey Konieczka con gran profundidad deductiva",
+    "Puzles independientes posteriores y sobres secretos que amplían enormemente la rejugabilidad"
+  ],
+  "scopes": {
+    "the_initiative_campaign": {
+      "name": "Campaña del Cómic (14 Misiones)",
+      "description": "La campaña narrativa completa de 14 misiones acompañando a los cuatro adolescentes a través de las 48 páginas del cómic, descifrando códigos y desvelando la verdad tras La Iniciativa."
+    },
+    "the_initiative_early_chapters": {
+      "name": "Arco de Capítulos Iniciales (6 Misiones)",
+      "description": "Las primeras 6 misiones introductorias que establecen las tácticas de infiltración, los primeros descubrimientos criptográficos y el arranque del cómic."
+    },
+    "the_initiative_complete_enigma": {
+      "name": "Campaña Completa y Modo Enigma (24 Misiones)",
+      "description": "Las 14 misiones centrales de la campaña más 10 desafiantes misiones adicionales de sobres secretos y descifrado avanzado."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Misión 1",
+      "title": "El Juego Misterioso",
+      "phase": "Fase I - Hallazgo en el Garaje",
+      "description": "Cuatro jóvenes amigos adquieren un enigmático juego antiguo llamado «La Llave» y resuelven su primer mensaje oculto en la consola secreta."
+    },
+    {
+      "order": 2,
+      "badgeText": "Misión 4",
+      "title": "El Primer Gran Descifrado",
+      "phase": "Fase II - Avance Criptográfico",
+      "description": "El grupo descubre sorprendentes paralelismos con el mundo real mientras la consola desvela pistas conspirativas ocultas en las páginas del cómic."
+    },
+    {
+      "order": 3,
+      "badgeText": "Misión 8",
+      "title": "En la Red de Vigilancia",
+      "phase": "Fase III - Operaciones Clandestinas",
+      "description": "Infiltrándose en complejos restringidos, los jóvenes reúnen glifos cruciales mientras esquivan a sombríos agentes de vigilancia que les pisan los talones."
+    },
+    {
+      "order": 4,
+      "badgeText": "Misión 11",
+      "title": "Infiltración con Tarjeta de Acceso",
+      "phase": "Fase IV - Brecha de Alta Seguridad",
+      "description": "Misiones críticas en terminales exigen coordinar tarjetas magnéticas y deducciones milimétricas para vulnerar salas cerradas contra reloj."
+    },
+    {
+      "order": 5,
+      "badgeText": "Final",
+      "title": "La Última Transmisión Descifrada",
+      "phase": "Fase V - El Gran Descifrado Final",
+      "description": "La historia del cómic llega a su electrizante desenlace cuando los jóvenes componen el último mensaje clasificado y revelan la verdad sobre La Iniciativa."
+    }
+  ]
+}

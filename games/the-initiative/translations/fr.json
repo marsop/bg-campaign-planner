@@ -1,0 +1,67 @@
+{
+  "title": "The Initiative",
+  "subtitle": "Une campagne coopérative d'infiltration secrète, d'aventure en bande dessinée et de décryptage",
+  "tagline": "Quatre adolescents découvrent un jeu mystérieux. La réalité va basculer.",
+  "loreSummary": "En 1994, quatre adolescents découvrent lors d'un vide-grenier un mystérieux jeu de société nommé « La Clé ». En menant des infiltrations tactiques et en décodant des cryptogrammes sur une console secrète, ils découvrent des liens troublants entre les planches de la bande dessinée et de redoutables secrets du monde réel.",
+  "badgeCategory": "Campagne Coopérative de BD et Décryptage",
+  "roadmapTitle": "🕵️ Journal de Décryptage et Progression de la BD",
+  "roadmapBadge": "RENSEIGNEMENTS SECRETS",
+  "keyFeatures": [
+    "Double narration captivante reliant une bande dessinée de 48 pages aux opérations tactiques sur plateau",
+    "Infiltration de salle en salle avec déplacement discret, collecte d'indices et gestion du temps",
+    "Console secrète physique interactive avec volets coulissants pour décoder des messages en temps réel",
+    "Mécaniques coopératives intuitives créées par Corey Konieczka offrant une belle profondeur de déduction",
+    "Énigmes indépendantes avancées et enveloppes secrètes prolongeant l'expérience après la campagne"
+  ],
+  "scopes": {
+    "the_initiative_campaign": {
+      "name": "Campagne de la Bande Dessinée (14 Missions)",
+      "description": "La campagne narrative intégrale de 14 missions guidant les quatre adolescents à travers les 48 pages de bande dessinée, perçant les codes et découvrant la vérité sur L'Initiative."
+    },
+    "the_initiative_early_chapters": {
+      "name": "Premiers Chapitres (6 Missions)",
+      "description": "Les 6 premières missions d'initiation posant les bases du déplacement tactique, des premiers décodages et des révélations initiales de la BD."
+    },
+    "the_initiative_complete_enigma": {
+      "name": "Campagne Complète et Mode Énigme (24 Missions)",
+      "description": "L'ensemble des 14 missions de campagne plus 10 missions autonomes expertes et enveloppes secrètes pour décrypteurs aguerris."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Mission 1",
+      "title": "Le Jeu Mystérieux",
+      "phase": "Phase I - Découverte au Vide-Grenier",
+      "description": "Quatre adolescents mettent la main sur un jeu énigmatique intitulé « La Clé » et décodent leur tout premier message caché sur la console secrète."
+    },
+    {
+      "order": 2,
+      "badgeText": "Mission 4",
+      "title": "Premier Décryptage Majeur",
+      "phase": "Phase II - Percée Cryptographique",
+      "description": "L'équipe met au jour de troublantes correspondances avec le monde réel quand la console révèle des indices de conspiration au fil des planches."
+    },
+    {
+      "order": 3,
+      "badgeText": "Mission 8",
+      "title": "Dans les Filets de la Surveillance",
+      "phase": "Phase III - Opérations Clandestines",
+      "description": "Infiltrant des secteurs sécurisés, les adolescents recueillent des glyphes cruciaux tout en échappant à de mystérieux agents de filature."
+    },
+    {
+      "order": 4,
+      "badgeText": "Mission 11",
+      "title": "Infiltration par Carte d'Accès",
+      "phase": "Phase IV - Brèche de Haute Sécurité",
+      "description": "Des missions critiques sous haute tension exigent coordination des cartes d'accès et déduction aiguisée pour ouvrir des salles sous chronomètre."
+    },
+    {
+      "order": 5,
+      "badgeText": "Dénouement",
+      "title": "L'Ultime Transmission Décryptée",
+      "phase": "Phase V - Le Décryptage Ultime",
+      "description": "Le récit illustré atteint son paroxysme lorsque les adolescents assemblent le code secret final et percent à jour le mystère de L'Initiative."
+    }
+  ]
+}
