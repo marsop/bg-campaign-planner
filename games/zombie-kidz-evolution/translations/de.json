@@ -1,0 +1,66 @@
+{
+  "title": "Zombie Kidz Evolution",
+  "subtitle": "Das erste kooperative Legacy-Spiel für Kinder und Familien zur Verteidigung der Schule gegen freche Zombies",
+  "tagline": "Verriegelt die vier Tore, öffnet geheime Umschläge und entwickelt eure Schüler-Crew!",
+  "loreSummary": "Zombies haben die Schule überrannt und treiben in den Klassenzimmern ihr Unwesen! Schließt euch als Schülerteam zusammen, vertreibt die Eindringlinge und bringt Vorhängeschlösser an allen vier Schultoren an, bevor das Gebäude überrannt wird. Klebt nach jeder Partie Gehirn-Sticker in euren Fortschrittspass und öffnet 13 versiegelte Geheimumschläge, die schrittweise neue Regeln, Superkräfte und Überraschungen freischalten.",
+  "badgeCategory": "Kooperatives Kinder-Legacy",
+  "roadmapTitle": "🧟 Schul-Evolutionspass & Verteidigungs-Meilensteine",
+  "roadmapBadge": "EVOLUTIONSPASS",
+  "keyFeatures": [
+    "Das erste echte Legacy-Brettspiel speziell für Kinder, Familien und kooperative Runden",
+    "Progressives Umschlagsystem mit 13 versiegelten Päckchen voller neuer Regeln, Kräfte und Mutationen",
+    "Motivierender Sticker-Fortschrittspass, der nach jeder Partie belohnt – egal ob Sieg oder Niederlage",
+    "Flotte 15-Minuten-Partien mit wachsender taktischer Tiefe und Kooperation"
+  ],
+  "scopes": {
+    "zombiekidz_quick_arc": {
+      "name": "Schnellverteidigungs-Bogen",
+      "description": "Ein schneller Einstieg über 8 Partien zum Öffnen der ersten Geheimumschläge und Erlernen der grundlegenden Schulhofverteidigung."
+    },
+    "zombiekidz_standard": {
+      "name": "Standard-Evolutionskampagne",
+      "description": "Die vollständige Standardkampagne über 15 Partien mit allen Kernregeln, Superkräften, mutierten Zombies und vier verriegelten Schultoren."
+    },
+    "zombiekidz_completionist": {
+      "name": "Trophäen- & Sticker-Komplettist",
+      "description": "Die ultimative Herausforderung über 25 Partien: meistert sämtliche Spezialmissionen, öffnet alle 13 Umschläge und werdet Meister-Zombiejäger."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Partie 2",
+      "title": "Erster versiegelter Geheimumschlag",
+      "phase": "Phase I — Ausbruch auf dem Pausenhof & Umschlag #1",
+      "description": "Klebt Gehirn-Sticker auf die Fortschrittsleiste, öffnet Umschlag 1 und entdeckt die allererste permanente Regelveränderung."
+    },
+    {
+      "order": 2,
+      "badgeText": "Partie 6",
+      "title": "Welle mutierter Zombies",
+      "phase": "Phase II — Mutantenvorstoß",
+      "description": "Spezielle mutierte Zombies dringen in die Flure ein und bringen neue Bewegungsmuster und knifflige Herausforderungen mit."
+    },
+    {
+      "order": 3,
+      "badgeText": "Partie 9",
+      "title": "Helden-Superkräfte freigeschaltet",
+      "phase": "Phase III — Das Pausenhof-Einsatzteam",
+      "description": "Öffnet die Umschläge mit den Spezialfertigkeiten und verleiht jedem Kind mächtige, einzigartige Superkräfte."
+    },
+    {
+      "order": 4,
+      "badgeText": "Partie 12",
+      "title": "Vollständige Riegelung der Schultore",
+      "phase": "Phase IV — Peripheriefestung",
+      "description": "Koordiniert synchrone Züge, um alle vier Außentore mit Schlössern zu verriegeln, bevor der Zombievorrat aufgebraucht ist."
+    },
+    {
+      "order": 5,
+      "badgeText": "Partie 15",
+      "title": "Großer Meister der Evolution",
+      "phase": "Phase V — Umschlag #13 & Schulabschluss",
+      "description": "Öffnet den finalen 13. Geheimumschlag, schaltet die begehrten Meistertitel frei und schließt die Evolution erfolgreich ab."
+    }
+  ]
+}

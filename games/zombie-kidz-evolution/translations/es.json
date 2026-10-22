@@ -1,0 +1,66 @@
+{
+  "title": "Zombie Kidz Evolution",
+  "subtitle": "El primer juego cooperativo estilo legacy para niños y familias defendiendo su escuela de una invasión zombi",
+  "tagline": "¡Cierra las cuatro puertas, abre sobres misteriosos y evoluciona tu patrulla escolar!",
+  "loreSummary": "¡Los zombis han invadido el colegio y pululan por las aulas! Forma equipo con tus compañeros de clase, coordina los movimientos para eliminar intrusos y coloca candados en las cuatro puertas exteriores antes de que la escuela quede invadida. A medida que juegas, pega pegatinas de cerebros en tu pasaporte de progreso y abre 13 sobres misteriosos sellados que mutan reglas permanentemente, otorgan superpoderes y transforman la aventura.",
+  "badgeCategory": "Legacy Cooperativo Infantil",
+  "roadmapTitle": "🧟 Pasaporte de Evolución y Hitos de Defensa Escolar",
+  "roadmapBadge": "PASAPORTE DE EVOLUCIÓN",
+  "keyFeatures": [
+    "Primer juego de mesa estilo legacy diseñado específicamente para niños, familias y juego cooperativo",
+    "Sistema de 13 sobres sellados que añaden nuevas reglas, poderes especiales y mutaciones zombi",
+    "Pasaporte de pegatinas gratificante que avanza tras cada partida, ganes o pierdas",
+    "Partidas rápidas y dinámicas de 15 minutos con desafíos tácticos crecientes"
+  ],
+  "scopes": {
+    "zombiekidz_quick_arc": {
+      "name": "Arco Rápido de Defensa Escolar",
+      "description": "Una serie introductoria de 8 partidas abriendo los primeros sobres misteriosos y dominando la coordinación defensiva inicial del patio."
+    },
+    "zombiekidz_standard": {
+      "name": "Campaña de Evolución Estándar",
+      "description": "El arco principal de 15 partidas desbloqueando las reglas avanzadas, superpoderes de los héroes, mutaciones zombi y asegurando el recinto escolar."
+    },
+    "zombiekidz_completionist": {
+      "name": "Completista de Trofeos y Pegatinas",
+      "description": "Una campaña completa de 25 partidas superando todas las misiones y logros, abriendo los 13 sobres y alcanzando el rango de Maestro Cazador."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Partida 2",
+      "title": "Primer Sobre Misterioso Sellado",
+      "phase": "Fase I — Brote en el Patio y Sobre n.º 1",
+      "description": "Marca el registro de progreso con pegatinas de cerebros, rompe el sello del primer sobre y descubre las primeras mutaciones en las reglas."
+    },
+    {
+      "order": 2,
+      "badgeText": "Partida 6",
+      "title": "Oleada de Zombis Mutantes",
+      "phase": "Fase II — Infiltración Mutante",
+      "description": "Zombis mutantes especiales irrumpen en los pasillos con nuevas habilidades de movimiento y comportamientos tácticos."
+    },
+    {
+      "order": 3,
+      "badgeText": "Partida 9",
+      "title": "Superpoderes de Héroe Desbloqueados",
+      "phase": "Fase III — Defensores del Recreo",
+      "description": "Abre los sobres de habilidades de los jóvenes defensores, otorgando a cada personaje un superpoder exclusivo."
+    },
+    {
+      "order": 4,
+      "badgeText": "Partida 12",
+      "title": "Bloqueo Total de las Puertas Escolares",
+      "phase": "Fase IV — Fortaleza Perimetral",
+      "description": "Coordina desplazamientos sincronizados para colocar candados en las cuatro cancelas exteriores antes de agotar la reserva de zombis."
+    },
+    {
+      "order": 5,
+      "badgeText": "Partida 15",
+      "title": "Gran Maestro de la Evolución",
+      "phase": "Fase V — Sobre n.º 13 y Graduación",
+      "description": "Abre el último sobre misterioso, desbloquea las insignias de honor y completa la evolución definitiva del colegio."
+    }
+  ]
+}

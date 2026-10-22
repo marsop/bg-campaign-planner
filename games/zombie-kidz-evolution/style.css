@@ -1,0 +1,65 @@
+/* ==========================================================================
+   Zombie Kidz Evolution — Bespoke Themed Styling
+   Scoped under .theme-zombiekidz / .roadmap-zombiekidz / .hero-zombiekidz
+   ========================================================================== */
+
+/* Scoped variables for Zombie Kidz Evolution */
+.theme-zombiekidz {
+  --zk-toxic-lime: #10b981;
+  --zk-toxic-neon: #22c55e;
+  --zk-purple-mutant: #8b5cf6;
+  --zk-chalkboard-dark: #0f172a;
+  --zk-hazard-orange: #f59e0b;
+}
+
+/* Comic-styled card containers with radioactive glow */
+.theme-zombiekidz .card,
+.theme-zombiekidz .planner-card,
+.theme-zombiekidz .summary-card {
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 14px rgba(16, 185, 129, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.theme-zombiekidz .card:hover,
+.theme-zombiekidz .planner-card:hover {
+  border-color: rgba(34, 197, 94, 0.6);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6), 0 0 20px rgba(16, 185, 129, 0.25);
+}
+
+/* Hero section styling */
+.hero-zombiekidz {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.14) 0%, rgba(139, 92, 246, 0.12) 100%);
+  border-left: 4px solid var(--zk-toxic-lime);
+  border-radius: 8px;
+}
+
+/* Thematic Roadmap node enhancements */
+.roadmap-zombiekidz .roadmap-item-badge,
+.roadmap-zombiekidz .milestone-icon {
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.3) 0%, rgba(15, 23, 42, 0.95) 100%);
+  border: 1px solid rgba(139, 92, 246, 0.5);
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.35);
+}
+
+.roadmap-zombiekidz .milestone-card {
+  border-left: 3px solid var(--zk-toxic-lime);
+  background: rgba(15, 23, 42, 0.9);
+}
+
+.roadmap-zombiekidz .milestone-card:hover {
+  border-left-color: var(--zk-toxic-neon);
+  box-shadow: 0 0 16px rgba(16, 185, 129, 0.3);
+}
+
+/* Active Theme Glow */
+.theme-zombiekidz-active {
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.35) !important;
+}
+
+/* Category badge */
+.theme-zombiekidz .badge-category {
+  background-color: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.4);
+}

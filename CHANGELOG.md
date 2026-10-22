@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.69.0] - 2026-10-22
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Zombie Kidz Evolution**, the hit cooperative legacy family board game by Annick Lobet (Le Scorpion Masqué; 2019 As d'Or Jeu de l'Année Enfant Nominee).
+    - 3 campaign scope presets: *Standard Evolution Campaign* (15 games, recommended), *School Defense Quick Arc* (8 games), and *Ultimate Trophy & Sticker Completionist* (25 games).
+    - 5 narrative milestone checkpoints: *First Sealed Mystery Envelope* (Game 2), *Zombie Mutation Surge* (Game 6), *Hero Superpowers Unlocked* (Game 9), *School Gates Total Lockdown* (Game 12), and *Grand Evolution Master* (Game 15), with full spoiler mask protection.
+    - Thematic visual identity (toxic lime `#10b981`, chalkboard slate `#0f172a`, and mutant purple `#8b5cf6` palette, Special Elite typography, 1:1 flat front box cover art, and atmospheric widescreen schoolyard backdrop).
+    - Scoped custom CSS stylesheet (`games/zombie-kidz-evolution/style.css`) providing radioactive card borders, superhero milestone glows, and active theme accents.
+    - Complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.68.0] - 2026-10-20
 
 ### Added

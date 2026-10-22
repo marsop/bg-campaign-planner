@@ -1,0 +1,66 @@
+{
+  "title": "Zombie Kidz Evolution",
+  "subtitle": "The first cooperative legacy game for kids and families defending their school from a playful zombie invasion",
+  "tagline": "Lock the four gates, crack open mystery envelopes, and evolve your school defense squad!",
+  "loreSummary": "Zombies have invaded your school and are swarming through the classrooms! Team up with your classmates, coordinate your movements to eliminate intruders, and padlock all four outside gates before the building is overrun. As you play, place brain stickers on your progress passport and crack open 13 sealed mystery envelopes that permanently mutate rules, grant hero superpowers, and transform the adventure.",
+  "badgeCategory": "Cooperative Kids Legacy",
+  "roadmapTitle": "🧟 School Evolution Passport & Defense Milestones",
+  "roadmapBadge": "EVOLUTION PASSPORT",
+  "keyFeatures": [
+    "First true legacy board game engineered specifically for kids, families, and cooperative groups",
+    "Progressive envelope system with 13 sealed packets adding new rules, powers, and mutations",
+    "Rewarding sticker passport that progresses after every game whether you win or lose",
+    "Fast 15-minute tactical gameplay with escalating challenge and tactical cooperation"
+  ],
+  "scopes": {
+    "zombiekidz_quick_arc": {
+      "name": "School Defense Quick Arc",
+      "description": "An introductory 8-game sprint opening the initial mystery envelopes and establishing basic schoolyard perimeter defense coordination."
+    },
+    "zombiekidz_standard": {
+      "name": "Standard Evolution Campaign",
+      "description": "The complete standard 15-game arc unlocking the core rules, hero superpowers, mutant zombie breeds, and securing all school gates."
+    },
+    "zombiekidz_completionist": {
+      "name": "Ultimate Trophy & Sticker Completionist",
+      "description": "A full 25-game achievement run tackling all special mission challenges, opening all 13 sealed envelopes, and earning the Master Hunter rank."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Game 2",
+      "title": "First Sealed Mystery Envelope",
+      "phase": "Phase I — Schoolyard Outbreak & Envelope #1",
+      "description": "Mark the evolution track with brain stickers, break the seal on Envelope 1, and introduce the first campaign rule mutations."
+    },
+    {
+      "order": 2,
+      "badgeText": "Game 6",
+      "title": "Zombie Mutation Surge",
+      "phase": "Phase II — Mutant Infiltration",
+      "description": "Special mutant zombies breach the hallway perimeters with new tactical movement rules and challenging behaviors."
+    },
+    {
+      "order": 3,
+      "badgeText": "Game 9",
+      "title": "Hero Superpowers Unlocked",
+      "phase": "Phase III — Playground Defenders",
+      "description": "Unseal hero capability envelopes, bestowing each kid defender with unique superpowers and upgraded abilities."
+    },
+    {
+      "order": 4,
+      "badgeText": "Game 12",
+      "title": "School Gates Total Lockdown",
+      "phase": "Phase IV — Perimeter Fortress",
+      "description": "Master coordinate movements to padlock all four outer portals before the zombie reserve runs dry."
+    },
+    {
+      "order": 5,
+      "badgeText": "Game 15",
+      "title": "Grand Evolution Master",
+      "phase": "Phase V — Envelope #13 & Graduation",
+      "description": "Crack open the final mystery envelopes, unlock the legendary badges, and complete the ultimate school evolution."
+    }
+  ]
+}

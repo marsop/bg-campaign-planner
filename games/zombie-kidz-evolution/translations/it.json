@@ -1,0 +1,66 @@
+{
+  "title": "Zombie Kidz Evolution",
+  "subtitle": "Il primo gioco cooperativo in stile legacy per bambini e famiglie a difesa della scuola da un'invasione zombie",
+  "tagline": "Chiudete i quattro cancelli, aprite le buste segrete ed evolvete la vostra squadra!",
+  "loreSummary": "Gli zombie hanno invaso la scuola e si aggirano per le aule! Collaborate con i vostri compagni, coordinate le mosse per eliminare i mostri e mettete i lucchetti a tutti e quattro i cancelli prima che l'edificio venga sopraffatto. Al termine di ogni partita, applicate adesivi cervello sul vostro passaporto di avanzamento e aprite 13 buste misteriose sigillate che modificano permanentemente le regole, donano superpoteri e arricchiscono l'avventura.",
+  "badgeCategory": "Legacy Cooperativo per Bambini",
+  "roadmapTitle": "🧟 Passaporto d'Evoluzione & Traguardi di Difesa Scolastica",
+  "roadmapBadge": "PASSAPORTO D'EVOLUZIONE",
+  "keyFeatures": [
+    "Il primo autentico gioco da tavolo legacy ideato appositamente per bambini, famiglie e gruppi cooperativi",
+    "Sistema a 13 buste sigillate che introducono gradualmente nuove regole, superpoteri ed entusiasmanti mutazioni",
+    "Appagante passaporto con adesivi che avanza a ogni partita giocata, sia in caso di vittoria che di sconfitta",
+    "Partite rapide e dinamiche da 15 minuti con una sfida strategica via via più stimolante"
+  ],
+  "scopes": {
+    "zombiekidz_quick_arc": {
+      "name": "Arco Rapido Difesa della Scuola",
+      "description": "Una serie introduttiva di 8 partite per aprire le prime buste sigillate e apprendere la cooperazione base a difesa del cortile."
+    },
+    "zombiekidz_standard": {
+      "name": "Campagna di Evoluzione Standard",
+      "description": "L'arco narrativo principale di 15 partite che sblocca le regole avanzate, i superpoteri, i nuovi zombie mutanti e il blocco dei cancelli."
+    },
+    "zombiekidz_completionist": {
+      "name": "Completista Trofei & Adesivi",
+      "description": "Una campagna esaustiva di 25 partite completando tutte le missioni speciali, aprendo tutte e 13 le buste e ottenendo il rango di Maestro Cacciatore."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Partita 2",
+      "title": "Prima Busta Misteriosa Sigillata",
+      "phase": "Fase I — Focolare nel Cortile & Busta n. 1",
+      "description": "Segnate i progressi con gli adesivi cervello, aprite la prima busta sigillata e scoprite le prime mutazioni alle regole."
+    },
+    {
+      "order": 2,
+      "badgeText": "Partita 6",
+      "title": "Ondata di Zombie Mutanti",
+      "phase": "Fase II — Infiltrazione dei Mutanti",
+      "description": "Zombie mutanti speciali irrompono nei corridoi della scuola con inedite abilità di movimento e sfide tattiche."
+    },
+    {
+      "order": 3,
+      "badgeText": "Partita 9",
+      "title": "Superpoteri degli Eroi Sbloccati",
+      "phase": "Fase III — Difensori della Ricreazione",
+      "description": "Aprite le buste dei poteri segreti conferendo a ciascun giovane difensore un'abilità tattica speciale unica."
+    },
+    {
+      "order": 4,
+      "badgeText": "Partita 12",
+      "title": "Chiusura Totale dei Quattro Cancelli",
+      "phase": "Fase IV — Fortezza Perimetrale",
+      "description": "Coordinate i movimenti per lucchettare tutti e quattro i cancelli esterni prima che la riserva di zombie si esaurisca."
+    },
+    {
+      "order": 5,
+      "badgeText": "Partita 15",
+      "title": "Gran Maestro dell'Evoluzione",
+      "phase": "Fase V — Busta n. 13 & Promozione Finale",
+      "description": "Aprite la tredicesima e ultima busta misteriosa, completate le missioni leggendarie e ottenete il titolo di Maestro Cacciatore di Zombie."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Zombie Kidz Évolution",
+  "subtitle": "Le premier jeu coopératif évolutif style legacy pour enfants et familles défendant leur école contre les zombies",
+  "tagline": "Verrouillez les quatre portails, ouvrez les enveloppes mystères et faites évoluer vos héros !",
+  "loreSummary": "Des zombies ont envahi votre école et rôdent dans les salles de classe ! Faites équipe avec vos camarades, coordonnez vos déplacements pour éliminer les zombies et posez des cadenas sur les quatre portails d'entrée avant que l'école ne soit submergée. Après chaque partie, collez des autocollants cerveau sur votre passeport de progression et décachetez 13 enveloppes mystères qui modifient les règles, débloquent des super-pouvoirs et enrichissent l'aventure.",
+  "badgeCategory": "Legacy Coopératif Enfants",
+  "roadmapTitle": "🧟 Passeport d'Évolution & Jalons de Défense de l'École",
+  "roadmapBadge": "PASSEPORT D'ÉVOLUTION",
+  "keyFeatures": [
+    "Premier véritable jeu de société legacy conçu spécifiquement pour les enfants, les familles et le jeu coopératif",
+    "Système d'évolution avec 13 enveloppes scellées apportant de nouvelles règles, pouvoirs et zombies mutants",
+    "Passeport à autocollants gratifiant qui progresse après chaque partie, qu'elle soit gagnée ou perdue",
+    "Parties rapides et dynamiques de 15 minutes avec des défis tactiques croissants"
+  ],
+  "scopes": {
+    "zombiekidz_quick_arc": {
+      "name": "Arc Court Défense de l'École",
+      "description": "Une session d'initiation de 8 parties pour ouvrir les premières enveloppes et maîtriser la coordination des portails extérieurs."
+    },
+    "zombiekidz_standard": {
+      "name": "Campagne d'Évolution Standard",
+      "description": "La campagne complète de 15 parties débloquant les règles avancées, les super-pouvoirs des héros, les mutants et la sécurisation des quatre portails."
+    },
+    "zombiekidz_completionist": {
+      "name": "Complétiste Trophées & Autocollants",
+      "description": "Une campagne intégrale de 25 parties accomplissant toutes les missions et succès, décachetant les 13 enveloppes jusqu'au rang de Maître Chasseur."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Partie 2",
+      "title": "Première Enveloppe Mystère Décachetée",
+      "phase": "Phase I — Épidémie dans la Cour & Enveloppe n° 1",
+      "description": "Placez vos premiers autocollants cerveaux sur le passeport, décachetez l'enveloppe 1 et découvrez les premières règles évolutives."
+    },
+    {
+      "order": 2,
+      "badgeText": "Partie 6",
+      "title": "Vague de Zombies Mutants",
+      "phase": "Phase II — Infiltration des Mutants",
+      "description": "Des zombies mutants spéciaux pénètrent dans les couloirs avec de nouvelles capacités de déplacement et des règles plus corsées."
+    },
+    {
+      "order": 3,
+      "badgeText": "Partie 9",
+      "title": "Super-Pouvoirs des Héros Débloqués",
+      "phase": "Phase III — Défenseurs de la Cour de Récré",
+      "description": "Ouvrez les enveloppes de pouvoirs secrets accordant à chaque enfant une capacité spéciale exclusive sur le plateau."
+    },
+    {
+      "order": 4,
+      "badgeText": "Partie 12",
+      "title": "Verrouillage Total des Quatre Portails",
+      "phase": "Phase IV — Forteresse Périmétrique",
+      "description": "Coordonnez vos mouvements pour poser des cadenas sur les quatre portails extérieurs avant l'épuisement de la réserve de zombies."
+    },
+    {
+      "order": 5,
+      "badgeText": "Partie 15",
+      "title": "Grand Maître de l'Évolution",
+      "phase": "Phase V — Enveloppe n° 13 & Diplôme d'Honneur",
+      "description": "Décachetez la 13e et ultime enveloppe mystère, accomplissez les missions légendaires et obtenez le grade de Maître Chasseur de Zombies."
+    }
+  ]
+}
