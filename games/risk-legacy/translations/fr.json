@@ -25,14 +25,6 @@
     "risk_legacy_chronicle": {
       "name": "Domination Globale Totale et Guerre Post-Campagne (20 Parties)",
       "description": "La campagne intégrale de 15 parties plus 5 affrontements post-campagne disputés sur votre plateau de guerre hautement personnalisé."
-    },
-    "risk_legacy_early_wars": {
-      "name": "Guerres Initiales (Parties 1–6)",
-      "description": "Le conflit initial de 6 parties comprenant la fondation des cités, l'ouverture des premiers paquets et les premières cicatrices."
-    },
-    "risk_legacy_extended_world": {
-      "name": "Domination Planétaire Étendue (Campagne + Post-Legacy)",
-      "description": "La campagne legacy complète de 15 parties plus 5 affrontements ultérieurs sur le plateau transformé."
     }
   },
   "milestones": [

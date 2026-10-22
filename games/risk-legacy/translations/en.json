@@ -25,14 +25,6 @@
     "risk_legacy_chronicle": {
       "name": "Total Global Domination & Post-Campaign Warfare (20 Games)",
       "description": "The full 15-game campaign plus 5 post-campaign battles played on your fully personalized, battle-scarred world board."
-    },
-    "risk_legacy_early_wars": {
-      "name": "Early Wars Arc (Games 1–6)",
-      "description": "The opening 6-game conflict covering foundational city placements, first packet unlocks, missile escalation, and initial board scars."
-    },
-    "risk_legacy_extended_world": {
-      "name": "Extended Planetary Dominion (Campaign + Post-Legacy)",
-      "description": "The complete 15-game legacy campaign plus 5 post-campaign battles contested on the fully modified, permanently customized board."
     }
   },
   "milestones": [

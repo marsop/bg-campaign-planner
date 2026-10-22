@@ -25,14 +25,6 @@
     "risk_legacy_chronicle": {
       "name": "Dominación Global Total y Guerras Pos-Campaña (20 Partidas)",
       "description": "La campaña completa de 15 partidas más 5 enfrentamientos posteriores jugados en vuestro tablero de combate totalmente personalizado."
-    },
-    "risk_legacy_early_wars": {
-      "name": "Arco de Guerras Iniciales (Partidas 1–6)",
-      "description": "El conflicto inicial de 6 partidas que abarca la fundación de ciudades, desbloqueo de los primeros paquetes y primeras cicatrices."
-    },
-    "risk_legacy_extended_world": {
-      "name": "Dominio Planetario Extendido (Campaña + Pos-Legacy)",
-      "description": "La campaña legacy completa de 15 partidas más 5 batallas posteriores libradas sobre el tablero transformado."
     }
   },
   "milestones": [

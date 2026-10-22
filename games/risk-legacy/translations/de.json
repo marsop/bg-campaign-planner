@@ -25,14 +25,6 @@
     "risk_legacy_chronicle": {
       "name": "Totale globale Vorherrschaft & Post-Kampagne (20 Partien)",
       "description": "Die komplette 15-Spiele-Kampagne plus 5 Nachkampagnen-Schlachten auf deinem maßgeschneiderten, kriegsgezeichneten Spielbrett."
-    },
-    "risk_legacy_early_wars": {
-      "name": "Frühe Kriege (Partien 1–6)",
-      "description": "Der 6 Partien umfassende Eröffnungskonflikt mit Gründung erster Städte, ersten Umschlagöffnungen und ersten Gebietsnarben."
-    },
-    "risk_legacy_extended_world": {
-      "name": "Erweiterte Weltherrschaft (Kampagne + Post-Legacy)",
-      "description": "Die 15-Partien-Kernkampagne plus 5 Nachkriegsschlachten auf dem dauerhaft veränderten Spielbrett."
     }
   },
   "milestones": [
