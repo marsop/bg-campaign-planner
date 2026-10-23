@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (75 games):**
+**Currently in app (76 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -84,12 +84,12 @@ requested by the user.
 - Stuffed Fables
 - Risk Legacy
 - The Initiative
+- Robinson Crusoe: Adventures on the Cursed Island
 
 ---
 
 ## 🟥 High Priority
 
-- **Robinson Crusoe: Adventures on the Cursed Island** — Challenging cooperative survival game featuring 7 sequential storyline scenarios on an uncharted island. 7 scenarios (12-20 hours). ~7.7 BGG. 1-4 players. Cooperative, survival, worker placement.
 - **The Lord of the Rings: The Card Game** — Iconic cooperative card adventure featuring campaign boons, burdens, and persistent quest progression. 8-12 quests (12-20 hours). ~7.7 BGG. 1-4 players. Deck construction, cooperative, campaign mode.
 - **Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases** — Classic Victorian narrative investigation campaign of 10 standalone and interconnected cases. 10 cases (15-25 hours). ~7.7 BGG. 1-8 players. Deductive mystery, narrative, casebook exploration.
 - **MicroMacro: Crime City** — Cooperative visual deduction and case-solving game across 16 interconnected black-and-white city map mysteries. 16 cases (8-12 hours). ~7.6 BGG. 1-4 players. Visual search, deduction, mystery.

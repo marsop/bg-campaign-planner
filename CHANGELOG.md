@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.73.0] - 2026-10-23
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Robinson Crusoe: Adventures on the Cursed Island**, the acclaimed cooperative survival board game by Ignacy Trzewiczek (Portal Games, 2012; BGG #121921).
+    - 3 campaign scope presets: *The Island Chronicles (Base Scenarios 1–7)* (7 scenarios, recommended), *Introductory Survival Arc (Scenarios 1–3)* (3 scenarios), and *Master Survivor Anthology (All Scenarios & Promos)* (12 scenarios).
+    - 7 narrative survival milestone checkpoints: *Castaways* (Scenario 1), *Cursed Island* (Scenario 2), *Jenny Needs Help!* (Scenario 3), *Volcano Island* (Scenario 4), *Cannibal Island* (Scenario 5), *Family Robinson* (Scenario 6), and *King Kong Island* (Scenario 7 Finale), with full spoiler mask protection.
+    - Nautical island survival visual identity (parchment amber `#d97706`, stormy teal `#0d9488`, weathered dark timber `#1c1917`, Special Elite survival journal typography, 1:1 flat front box cover art, and atmospheric widescreen desert island shoreline backdrop).
+    - Scoped custom CSS stylesheet (`games/robinson-crusoe/style.css`) providing weathered timber card borders, signal fire halos, and island beacon roadmap badges.
+    - Complete localized translations across English, Spanish (*Robinson Crusoe: Aventuras en la Isla Maldita*), German (*Robinson Crusoe: Abenteuer auf der verfluchten Insel*), French (*Robinson Crusoé: Aventures sur l'Île Maudite*), and Italian (*Robinson Crusoe: Avventure sull'Isola Maledetta*).
+
 ## [0.72.0] - 2026-10-22
 
 ### Added

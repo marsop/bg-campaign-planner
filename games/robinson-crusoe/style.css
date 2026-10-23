@@ -1,0 +1,83 @@
+/* ==========================================================================
+   Robinson Crusoe: Adventures on the Cursed Island — Nautical Survival Theming
+   Scoped under .theme-robinsoncrusoe / .theme-robinson-crusoe
+   ========================================================================== */
+
+/* Scoped variables for Robinson Crusoe */
+.theme-robinsoncrusoe,
+.theme-robinson-crusoe,
+.theme-robinsoncrusoe-active,
+.theme-robinson-crusoe-active {
+  --rc-amber: #d97706;
+  --rc-teal: #0d9488;
+  --rc-wood-dark: #1c1917;
+  --rc-parchment: #fef3c7;
+  --rc-border-glow: rgba(217, 119, 6, 0.35);
+  --rc-teal-glow: rgba(13, 148, 136, 0.25);
+}
+
+/* Weathered survivor card styling with amber nautical borders */
+.theme-robinsoncrusoe .card,
+.theme-robinson-crusoe .card,
+.theme-robinsoncrusoe .planner-card,
+.theme-robinson-crusoe .planner-card,
+.theme-robinsoncrusoe .summary-card,
+.theme-robinson-crusoe .summary-card {
+  border: 1px solid rgba(217, 119, 6, 0.35);
+  box-shadow: 0 4px 20px rgba(12, 10, 9, 0.85), 0 0 16px rgba(217, 119, 6, 0.16);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.theme-robinsoncrusoe .card:hover,
+.theme-robinson-crusoe .card:hover,
+.theme-robinsoncrusoe .planner-card:hover,
+.theme-robinson-crusoe .planner-card:hover {
+  border-color: rgba(13, 148, 136, 0.65);
+  box-shadow: 0 6px 24px rgba(12, 10, 9, 0.95), 0 0 22px rgba(13, 148, 136, 0.28);
+}
+
+/* Hero section styling: shipwreck wood & tropical stormy shoreline gradient */
+.hero-robinsoncrusoe,
+.hero-robinson-crusoe {
+  background: linear-gradient(135deg, rgba(41, 37, 36, 0.75) 0%, rgba(217, 119, 6, 0.18) 50%, rgba(28, 25, 23, 0.95) 100%);
+  border-left: 4px solid var(--rc-amber, #d97706);
+  border-radius: 8px;
+  box-shadow: inset 0 0 30px rgba(217, 119, 6, 0.18);
+}
+
+/* Thematic Roadmap node enhancements: compass rose & island beacon */
+.roadmap-robinsoncrusoe .roadmap-item-badge,
+.roadmap-robinson-crusoe .roadmap-item-badge,
+.roadmap-robinsoncrusoe .milestone-icon,
+.roadmap-robinson-crusoe .milestone-icon {
+  background: radial-gradient(circle, rgba(217, 119, 6, 0.35) 0%, rgba(28, 25, 23, 0.95) 100%);
+  border: 1px solid rgba(13, 148, 136, 0.50);
+  box-shadow: 0 0 14px rgba(217, 119, 6, 0.28);
+}
+
+.roadmap-robinsoncrusoe .milestone-card,
+.roadmap-robinson-crusoe .milestone-card {
+  border-left: 3px solid var(--rc-amber, #d97706);
+  background: rgba(28, 25, 23, 0.94);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.roadmap-robinsoncrusoe .milestone-card:hover,
+.roadmap-robinson-crusoe .milestone-card:hover {
+  border-left-color: var(--rc-teal, #0d9488);
+  box-shadow: 0 0 20px rgba(13, 148, 136, 0.32);
+}
+
+/* Active Theme Glow */
+.theme-robinsoncrusoe-active,
+.theme-robinson-crusoe-active {
+  box-shadow: 0 0 28px rgba(217, 119, 6, 0.40) !important;
+}
+
+/* Category badge */
+.theme-robinsoncrusoe .badge-category,
+.theme-robinson-crusoe .badge-category {
+  background-color: rgba(217, 119, 6, 0.18);
+  color: #fcd34d;
+  border: 1px solid rgba(217, 119, 6, 0.45);
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Robinson Crusoé: Aventures sur l'Île Maudite",
+  "subtitle": "Survie coopérative impitoyable face aux bêtes féroces, aux tempêtes et à une île mystérieuse",
+  "tagline": "Domptez les éléments, survivez à l'inconnu, échappez à la malédiction",
+  "loreSummary": "Vous êtes des naufragés échoués sur une île inhospitalière et mystérieuse. Ensemble, vous devez bâtir un abri, fabriquer des armes de fortune, chasser pour survivre et endurer un climat destructeur avant que l'île ne vous anéantisse.",
+  "badgeCategory": "Aventure Coopérative de Survie",
+  "roadmapTitle": "🏝️ Chronique des Naufragés & Progression des Scénarios",
+  "roadmapBadge": "FEUILLE DE ROUTE DE SURVIE",
+  "keyFeatures": [
+    "Pose d'ouvriers avec prise de risque, gestion précise des blessures et moral de l'équipe",
+    "Paquets d'événements et d'aventures imprévisibles générant des urgences narratives perpétuelles",
+    "Dés météo redoutables, dégradation de l'abri de fortune et menaces de famine",
+    "Scénarios modulaires à haute difficulté dotés d'objectifs de survie totalement uniques"
+  ],
+  "scopes": {
+    "robinson_core_chronicles": {
+      "name": "Les Chroniques de l'Île (Scénarios de Base 1–7)",
+      "description": "La campagne originale complète en 7 scénarios : signaux de détresse, éruption volcanique, cannibales et traque de King Kong."
+    },
+    "robinson_introductory_arc": {
+      "name": "Trilogie d'Initiation (Scénarios 1–3)",
+      "description": "Une trilogie d'introduction compacte regroupant Les Naufragés, L'Île Maudite et le sauvetage périlleux de Jenny."
+    },
+    "robinson_master_anthology": {
+      "name": "Anthologie Complète du Naufragé (Tous les Scénarios)",
+      "description": "L'expérience absolue réunissant les 7 scénarios de base, les aventures bonus officielles et les défis d'extension."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Scénario 1",
+      "title": "Les Naufragés",
+      "phase": "Acte I - Le Brasier de Détresse",
+      "description": "Échoués sur un littoral hostile, les survivants aménagent un abri d'urgence, récoltent des vivres et amassent des stères de bois pour allumer un feu de signal avant l'hiver."
+    },
+    {
+      "order": 2,
+      "badgeText": "Scénario 2",
+      "title": "L'Île Maudite",
+      "phase": "Acte II - La Brume Ténébreuse",
+      "description": "Des brouillards surnaturels envahissent la jungle tandis que s'éveillent des spectres anciens ; le groupe érige des croix bénies et célèbre des rites sacrés pour purifier la terre."
+    },
+    {
+      "order": 3,
+      "badgeText": "Scénario 3",
+      "title": "Jenny a Besoin d'Aide !",
+      "phase": "Acte III - Le Sauvetage du Récif",
+      "description": "Une camarade d'infortune lutte pour sa vie sur les récifs au large ; l'équipage fabrique un radeau solide et affronte les courants infestés de requins."
+    },
+    {
+      "order": 4,
+      "badgeText": "Scénario 4",
+      "title": "L'Île Volcanique",
+      "phase": "Acte IV - Le Cataclysme de Feu",
+      "description": "La terre tremble sous les grondements du volcan en éruption ; une course effrénée s'engage pour tailler du bois et construire des pirogues avant la marée de lave."
+    },
+    {
+      "order": 5,
+      "badgeText": "Scénario 5",
+      "title": "L'Île des Cannibales",
+      "phase": "Acte V - Territoire Hostile",
+      "description": "Des guerriers belliqueux encerclent le rivage ; les naufragés fortifient leurs palissades, confectionnent des pièges mortels et lancent des raids pour neutraliser les campements indigènes."
+    },
+    {
+      "order": 6,
+      "badgeText": "Scénario 6",
+      "title": "La Famille Robinson",
+      "phase": "Acte VI - Bâtir une Colonie",
+      "description": "Résignés à s'établir durablement, les colons défrichent des terres fertiles, apprivoisent le bétail indigène et édifient un domaine pérenne face aux forces de la nature."
+    },
+    {
+      "order": 7,
+      "badgeText": "Scénario 7",
+      "title": "L'Île de King Kong",
+      "phase": "Acte VII - Le Colosse de la Jungle",
+      "description": "Derrière un gigantesque mur de pierre, l'expédition s'enfonce dans les vallées primitives afin de pister, capturer et ramener vivant le primate titanesque."
+    }
+  ]
+}

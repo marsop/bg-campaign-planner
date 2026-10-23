@@ -1,0 +1,80 @@
+{
+  "title": "Robinson Crusoe: Adventures on the Cursed Island",
+  "subtitle": "Unforgiving cooperative survival against wild beasts, weather, and a perilous cursed island",
+  "tagline": "Survive the elements, tame the wilderness, escape the curse",
+  "loreSummary": "You are castaways stranded on an inhospitable, mysterious island. Together you must build shelter, craft crude weapons, gather scarce food, and withstand brutal weather before the island claims your lives.",
+  "badgeCategory": "Cooperative Survival Adventure",
+  "roadmapTitle": "🏝️ Castaway Chronicle & Scenario Progression",
+  "roadmapBadge": "SURVIVAL ROADMAP",
+  "keyFeatures": [
+    "Worker placement with risk-reward action resolution and wound management",
+    "Dynamic event and mystery decks that create emergent narrative emergencies",
+    "Severe weather rolls, camp shelter degradation, and starvation mechanics",
+    "Highly challenging modular scenarios with completely distinct survival objectives"
+  ],
+  "scopes": {
+    "robinson_core_chronicles": {
+      "name": "The Island Chronicles (Base Scenarios 1–7)",
+      "description": "The complete original 7-scenario survival campaign, spanning signal fires, volcanic eruptions, cannibals, and the legendary King Kong expedition."
+    },
+    "robinson_introductory_arc": {
+      "name": "Introductory Survival Arc (Scenarios 1–3)",
+      "description": "A focused beginner trilogy covering Castaways, Cursed Island, and the reef rescue of Jenny."
+    },
+    "robinson_master_anthology": {
+      "name": "Master Survivor Anthology (All Scenarios & Promos)",
+      "description": "Comprehensive run encompassing all 7 base scenarios, bonus print-and-play adventures, and expansion challenges."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Scenario 1",
+      "title": "Castaways",
+      "phase": "Act I - The Signal Fire",
+      "description": "Shipwrecked on the desolate coast, survivors construct emergency shelter, forage for food, and amass timber for a towering signal beacon before autumn storms strike."
+    },
+    {
+      "order": 2,
+      "badgeText": "Scenario 2",
+      "title": "Cursed Island",
+      "phase": "Act II - The Dark Fog",
+      "description": "Unnatural mists shroud the island as malevolent spirits awaken; the castaways must erect consecrated markers and perform solemn rituals to cleanse the cursed grounds."
+    },
+    {
+      "order": 3,
+      "badgeText": "Scenario 3",
+      "title": "Jenny Needs Help!",
+      "phase": "Act III - The Reef Rescue",
+      "description": "A companion clings to survival across treacherous offshore reefs; the crew gathers driftwood, builds a seaworthy raft, and braves shark-infested currents."
+    },
+    {
+      "order": 4,
+      "badgeText": "Scenario 4",
+      "title": "Volcano Island",
+      "phase": "Act IV - The Molten Cataclysm",
+      "description": "Violent earth tremors shake the interior as the volcano awakens, triggering a frantic scramble to harvest materials and construct escape canoes before lava engulfs the shores."
+    },
+    {
+      "order": 5,
+      "badgeText": "Scenario 5",
+      "title": "Cannibal Island",
+      "phase": "Act V - Hostile Territory",
+      "description": "Hostile tribal warriors encircle the shoreline; the survivors fortify palisades, fashion lethal traps, and launch strategic incursions to disarm native war camps."
+    },
+    {
+      "order": 6,
+      "badgeText": "Scenario 6",
+      "title": "Family Robinson",
+      "phase": "Act VI - Building a Homestead",
+      "description": "Resigned to permanent settlement, the castaways clear arable farmland, domesticate native livestock, and construct enduring fortifications against the wild elements."
+    },
+    {
+      "order": 7,
+      "badgeText": "Scenario 7",
+      "title": "King Kong Island",
+      "phase": "Act VII - The Jungle Colossus",
+      "description": "Beyond the monumental stone perimeter wall, survivors venture into prehistoric lowlands to track, capture, and safely secure the legendary towering island titan."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "robinson-crusoe",
+  "title": "Robinson Crusoe: Adventures on the Cursed Island",
+  "releaseYear": 2012,
+  "designers": "Ignacy Trzewiczek",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.6,
+  "bggWeight": 3.83,
+  "bggUrl": "https://boardgamegeek.com/boardgame/121921/robinson-crusoe-adventures-on-the-cursed-island",
+  "baseScenarioMinutes": 105,
+  "setupTeardownMinutes": 20,
+  "unitType": "scenarios",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#d97706",
+    "secondaryColor": "#1c1917",
+    "accentColor": "#0d9488",
+    "backgroundGradient": "radial-gradient(ellipse at top, #292524 0%, #1c1917 60%, #0c0a09 100%)",
+    "cardBackground": "rgba(28, 25, 23, 0.94)",
+    "borderColor": "rgba(217, 119, 6, 0.35)",
+    "glowColor": "rgba(217, 119, 6, 0.25)",
+    "headerFont": "'Special Elite', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏝️",
+    "emblem": "🏝️⛵",
+    "themeClass": "theme-robinsoncrusoe",
+    "activeThemeClass": "theme-robinsoncrusoe-active",
+    "roadmapClass": "roadmap-robinsoncrusoe",
+    "heroClass": "hero-robinsoncrusoe"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #121921)",
+    "Portal Games Official Robinson Crusoe Rulebook & Scenario Compendium",
+    "Community Campaign Logs & Survival Failure Rate Statistics"
+  ],
+  "scopes": [
+    {
+      "id": "robinson_core_chronicles",
+      "baseScenarioCount": 7,
+      "estimatedFailRatePercent": 35.0,
+      "isRecommended": true
+    },
+    {
+      "id": "robinson_introductory_arc",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": false
+    },
+    {
+      "id": "robinson_master_anthology",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 40.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🔥",
+      "badgeText": "Scenario 1",
+      "title": "Castaways",
+      "phase": "Act I - The Signal Fire",
+      "description": "Shipwrecked on the desolate coast, survivors construct emergency shelter, forage for food, and amass timber for a towering signal beacon before autumn storms strike."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🌫️",
+      "badgeText": "Scenario 2",
+      "title": "Cursed Island",
+      "phase": "Act II - The Dark Fog",
+      "description": "Unnatural mists shroud the island as malevolent spirits awaken; the castaways must erect consecrated markers and perform solemn rituals to cleanse the cursed grounds."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "⛵",
+      "badgeText": "Scenario 3",
+      "title": "Jenny Needs Help!",
+      "phase": "Act III - The Reef Rescue",
+      "description": "A companion clings to survival across treacherous offshore reefs; the crew gathers driftwood, builds a seaworthy raft, and braves shark-infested currents."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🌋",
+      "badgeText": "Scenario 4",
+      "title": "Volcano Island",
+      "phase": "Act IV - The Molten Cataclysm",
+      "description": "Violent earth tremors shake the interior as the volcano awakens, triggering a frantic scramble to harvest materials and construct escape canoes before lava engulfs the shores."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🏹",
+      "badgeText": "Scenario 5",
+      "title": "Cannibal Island",
+      "phase": "Act V - Hostile Territory",
+      "description": "Hostile tribal warriors encircle the shoreline; the survivors fortify palisades, fashion lethal traps, and launch strategic incursions to disarm native war camps."
+    },
+    {
+      "order": 6,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🏡",
+      "badgeText": "Scenario 6",
+      "title": "Family Robinson",
+      "phase": "Act VI - Building a Homestead",
+      "description": "Resigned to permanent settlement, the castaways clear arable farmland, domesticate native livestock, and construct enduring fortifications against the wild elements."
+    },
+    {
+      "order": 7,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "🦍",
+      "badgeText": "Scenario 7",
+      "title": "King Kong Island",
+      "phase": "Act VII - The Jungle Colossus",
+      "description": "Beyond the monumental stone perimeter wall, survivors venture into prehistoric lowlands to track, capture, and safely secure the legendary towering island titan."
+    }
+  ]
+}

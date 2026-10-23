@@ -1,0 +1,80 @@
+{
+  "title": "Robinson Crusoe: Abenteuer auf der verfluchten Insel",
+  "subtitle": "Unerbittliches kooperatives Überleben gegen wilde Bestien, Wetterunbilden und eine verfluchte Insel",
+  "tagline": "Trotze den Elementen, zähme die Wildnis, entkomme dem Fluch",
+  "loreSummary": "Ihr seid Schiffbrüchige, gestrandet auf einer unwirtlichen, geheimnisvollen Insel. Gemeinsam müsst ihr einen Unterschlupf zimmern, einfache Waffen herstellen, karge Nahrung sammeln und dem eisigen Wetter trotzen, bevor die Insel euer Schicksal besiegelt.",
+  "badgeCategory": "Kooperatives Survival-Abenteuer",
+  "roadmapTitle": "🏝️ Chronik der Gestrandeten & Szenarien-Fortschritt",
+  "roadmapBadge": "SURVIVAL-ROADMAP",
+  "keyFeatures": [
+    "Arbeitereinsatz mit Risiko-Ertrags-Abwägung und detailliertem Wundmanagement",
+    "Dynamische Ereignis- und Abenteuerkarten, die unvorhersehbare Notlagen erzeugen",
+    "Unerbittliche Wetterwürfel, Zerfall des Lagers und ständige Hungersnot",
+    "Herausfordernde modulare Szenarien mit völlig eigenständigen Überlebenszielen"
+  ],
+  "scopes": {
+    "robinson_core_chronicles": {
+      "name": "Die Insel-Chroniken (Basis-Szenarien 1–7)",
+      "description": "Die vollständige ursprüngliche Kampagne aus 7 Szenarien – vom Signalfeuer über Vulkanausbrüche und Kannibalen bis hin zur King-Kong-Expedition."
+    },
+    "robinson_introductory_arc": {
+      "name": "Einstiegs-Trilogie (Szenarien 1–3)",
+      "description": "Eine fokussierte Einsteiger-Trilogie mit den Szenarien Schiffbrüchige, Die verfluchte Insel und Jennys Rettung."
+    },
+    "robinson_master_anthology": {
+      "name": "Meister-Überlebensanthologie (Alle Szenarien & Promos)",
+      "description": "Umfassender Durchlauf aller 7 Basisszenarien inklusive exklusiver Bonusabenteuer und Erweiterungsherausforderungen."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Szenario 1",
+      "title": "Schiffbrüchige",
+      "phase": "Akt I - Das Signalfeuer",
+      "description": "Gestrandet an der öden Küste errichten die Überlebenden ein Notlager, suchen Nahrung und schichten riesige Holzmengen für ein Signalfeuer auf, bevor der Winter einbricht."
+    },
+    {
+      "order": 2,
+      "badgeText": "Szenario 2",
+      "title": "Die verfluchte Insel",
+      "phase": "Akt II - Der finstere Nebel",
+      "description": "Unheimlicher Nebel hüllt die Insel ein, während böse Mächte erwachen; die Gruppe muss geweihte Kreuze errichten und Riten abhalten, um das verfluchte Land zu läutern."
+    },
+    {
+      "order": 3,
+      "badgeText": "Szenario 3",
+      "title": "Jenny braucht Hilfe!",
+      "phase": "Akt III - Die Rettung am Riff",
+      "description": "Eine Gefährtin kämpft auf den tückischen Außenriffen ums nackte Überleben; die Mannschaft zimmert ein seetüchtiges Floß und trotzt haiverseuchten Strömungen."
+    },
+    {
+      "order": 4,
+      "badgeText": "Szenario 4",
+      "title": "Die Vulkaninsel",
+      "phase": "Akt IV - Das feurige Inferno",
+      "description": "Heftige Erdbeben erschüttern das Eiland, als der Vulkan ausbricht; es beginnt ein dramatischer Wettlauf um Holz und Fluchtboote, ehe kochende Lava die Strände verschlingt."
+    },
+    {
+      "order": 5,
+      "badgeText": "Szenario 5",
+      "title": "Die Insel der Kannibalen",
+      "phase": "Akt V - Feindseliges Territorium",
+      "description": "Feindliche Krieger schleichen durch das Dickicht; die Überlebenden verstärken ihre Palisaden, legen tödliche Fallen und greifen Stammeslager an, um dem Hinterhalt zuvorzukommen."
+    },
+    {
+      "order": 6,
+      "badgeText": "Szenario 6",
+      "title": "Familie Robinson",
+      "phase": "Akt VI - Eine neue Heimat",
+      "description": "Mit dem Entschluss dauerhaft zu siedeln, roden die Gestrandeten Ackerland, zähmen Wildtiere und errichten dauerhafte Wehranlagen gegen Unwetter und Bestien."
+    },
+    {
+      "order": 7,
+      "badgeText": "Szenario 7",
+      "title": "Die Insel von King Kong",
+      "phase": "Akt VII - Der Koloss des Dschungels",
+      "description": "Hinter einer gewaltigen Steinmauer dringen die Forscher ins urzeitliche Dickicht vor, um den sagenumwobenen Riesenaffen aufzuspüren, einzufangen und zu sichern."
+    }
+  ]
+}

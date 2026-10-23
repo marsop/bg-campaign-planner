@@ -1,0 +1,80 @@
+{
+  "title": "Robinson Crusoe: Avventure sull'Isola Maledetta",
+  "subtitle": "Sopravvivenza cooperativa implacabile tra bestie feroci, tempeste tropicali e un'isola ostile",
+  "tagline": "Sfida la natura, doma le terre selvagge, spezza la maledizione",
+  "loreSummary": "Siete naufraghi dispersi su un'isola misteriosa e inospitale. Insieme dovrete erigere un rifugio, forgiare armi improvvisate, raccogliere provviste e resistere a tempeste spietate prima che l'isola vi consumi.",
+  "badgeCategory": "Avventura Cooperativa di Sopravvivenza",
+  "roadmapTitle": "🏝️ Cronaca dei Naufraghi & Progressione degli Scenari",
+  "roadmapBadge": "TABELLA DI MARCIA DI SOPRAVVIVENZA",
+  "keyFeatures": [
+    "Piazzamento lavoratori con valutazione rischio-rendimento e gestione ferite",
+    "Mazzi dinamici di eventi e misteri che scatenano emergenze narrative imprevedibili",
+    "Dadi meteo severi, decadimento del rifugio e pericolo costante di inedia",
+    "Scenari modulari ad alta difficoltà dotati di condizioni di vittoria completamente uniche"
+  ],
+  "scopes": {
+    "robinson_core_chronicles": {
+      "name": "Le Cronache dell'Isola (Scenari Base 1–7)",
+      "description": "La campagna originale completa in 7 scenari, dai falò di segnalazione alle eruzioni vulcaniche, tribù ostili e la cattura di King Kong."
+    },
+    "robinson_introductory_arc": {
+      "name": "Trilogia Iniziale di Sopravvivenza (Scenari 1–3)",
+      "description": "Una trilogia introduttiva incentrata su I Naufraghi, L'Isola Maledetta e il salvataggio sul reef di Jenny."
+    },
+    "robinson_master_anthology": {
+      "name": "Antologia Maestra del Sopravvissuto (Tutti gli Scenari)",
+      "description": "Un percorso esaustivo che abbraccia tutti i 7 scenari base affiancati da avventure promozionali e sfide delle espansioni."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Scenario 1",
+      "title": "I Naufraghi",
+      "phase": "Atto I - Il Falò di Segnalazione",
+      "description": "Naufragati su una costa desolata, i superstiti allestiscono un rifugio d'emergenza, procacciano cibo e ammassano legname per accendere un enorme segnale prima dell'inverno."
+    },
+    {
+      "order": 2,
+      "badgeText": "Scenario 2",
+      "title": "L'Isola Maledetta",
+      "phase": "Atto II - La Nebbia Oscura",
+      "description": "Nebbie spettrali soffocano l'isola al risveglio di spiriti ostili; il gruppo deve piantare croci benedette e celebrare riti sacri per purificare la terra maledetta."
+    },
+    {
+      "order": 3,
+      "badgeText": "Scenario 3",
+      "title": "Jenny ha Bisogno di Aiuto!",
+      "phase": "Atto III - Il Soccorso sul Reef",
+      "description": "Una compagna lotta per la vita bloccata sulle scogliere coralline; i naufraghi costruiscono una zattera solida per sfidare correnti insidiose e squali famelici."
+    },
+    {
+      "order": 4,
+      "badgeText": "Scenario 4",
+      "title": "L'Isola del Vulcano",
+      "phase": "Atto IV - Il Cataclisma di Fuoco",
+      "description": "Forti scosse di terremoto squarciano l'isola all'eruzione del vulcano; scatta una corsa contro il tempo per tagliare legna e costruire canoe prima che la lava copra la spiaggia."
+    },
+    {
+      "order": 5,
+      "badgeText": "Scenario 5",
+      "title": "L'Isola dei Cannibali",
+      "phase": "Atto V - Territorio Nemico",
+      "description": "Guerrieri tribali ostili circondano l'accampamento; i sopravvissuti rafforzano le palizzate, piazzano trappole mortali e conducono raid per neutralizzare la minaccia nativa."
+    },
+    {
+      "order": 6,
+      "badgeText": "Scenario 6",
+      "title": "La Famiglia Robinson",
+      "phase": "Atto VI - Costruire una Dimora",
+      "description": "Rassegnati a un insediamento duraturo, i coloni dissodano terreni coltivabili, addomesticano bestiame autoctono e costruiscono difese permanenti contro le intemperie."
+    },
+    {
+      "order": 7,
+      "badgeText": "Scenario 7",
+      "title": "L'Isola di King Kong",
+      "phase": "Atto VII - Il Colosso della Giungla",
+      "description": "Oltre l'imponente muraglia ciclopica di pietra, la spedizione penetra nella conca preistorica per stanare, catturare e trasportare il leggendario primate gigante."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Robinson Crusoe: Aventuras en la Isla Maldita",
+  "subtitle": "Supervivencia cooperativa implacable contra bestias salvajes, inclemencias y una isla maldita",
+  "tagline": "Sobrevive a los elementos, domina la naturaleza, escapa de la maldición",
+  "loreSummary": "Sois náufragos atrapados en una isla inhóspita y misteriosa. Juntos debéis construir un refugio, fabricar armas rudimentarias, recolectar escasa comida y resistir el clima implacable antes de que la isla reclame vuestras vidas.",
+  "badgeCategory": "Aventura Cooperativa de Supervivencia",
+  "roadmapTitle": "🏝️ Crónica de Náufragos y Progresión de Escenarios",
+  "roadmapBadge": "HOJA DE RUTA DE SUPERVIVENCIA",
+  "keyFeatures": [
+    "Colocación de trabajadores con resolución de riesgo-recompensa y gestión de heridas",
+    "Mazos dinámicos de eventos y misterios que generan emergencias narrativas continuas",
+    "Tiradas severas de clima, degradación del campamento y mecánicas de inanición",
+    "Escenarios modulares de gran dificultad con objetivos de supervivencia completamente distintos"
+  ],
+  "scopes": {
+    "robinson_core_chronicles": {
+      "name": "Las Crónicas de la Isla (Escenarios Base 1–7)",
+      "description": "La campaña completa de 7 escenarios originales, que abarca hogueras de señales, erupciones volcánicas, caníbales y la legendaria expedición de King Kong."
+    },
+    "robinson_introductory_arc": {
+      "name": "Trilogía Inicial de Supervivencia (Escenarios 1–3)",
+      "description": "Una trilogía introductoria centrada que incluye Náufragos, La Isla Maldita y el rescate marítimo de Jenny."
+    },
+    "robinson_master_anthology": {
+      "name": "Antología Maestra del Superviviente (Todos los Escenarios)",
+      "description": "Recorrido exhaustivo que engloba los 7 escenarios base junto a aventuras promocionales y desafíos de expansión."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Escenario 1",
+      "title": "Náufragos",
+      "phase": "Acto I - La Hoguera de Señales",
+      "description": "Tras naufragar en la costa desolada, los supervivientes construyen un refugio de emergencia, recolectan víveres y acumulan leña para erigir una gran pira de señales antes del invierno."
+    },
+    {
+      "order": 2,
+      "badgeText": "Escenario 2",
+      "title": "La Isla Maldita",
+      "phase": "Acto II - La Niebla Oscura",
+      "description": "Nieblas sobrenaturales cubren la isla al despertar espíritus malignos; el grupo debe erigir cruces consagradas y realizar rituales solemnes para purificar las tierras malditas."
+    },
+    {
+      "order": 3,
+      "badgeText": "Escenario 3",
+      "title": "¡Jenny Necesita Ayuda!",
+      "phase": "Acto III - El Rescate del Arrecife",
+      "description": "Una compañera lucha por su vida atrapada en los peligrosos arrecifes; los náufragos reúnen maderos, construyen una balsa resistente y surcan aguas infestadas de tiburones."
+    },
+    {
+      "order": 4,
+      "badgeText": "Escenario 4",
+      "title": "La Isla del Volcán",
+      "phase": "Acto IV - El Cataclismo de Lava",
+      "description": "Fuertes temblores sacuden el interior mientras el volcán despierta, desatando una carrera desesperada por talar madera y construir canoas de escape antes de que la lava arrase la costa."
+    },
+    {
+      "order": 5,
+      "badgeText": "Escenario 5",
+      "title": "La Isla de los Caníbales",
+      "phase": "Acto V - Territorio Hostil",
+      "description": "Guerreros tribales hostiles acechan la orilla; los náufragos deben fortificar empalizadas, diseñar trampas letales e infiltrarse en campamentos nativos para neutralizar la amenaza."
+    },
+    {
+      "order": 6,
+      "badgeText": "Escenario 6",
+      "title": "La Familia Robinson",
+      "phase": "Acto VI - Construyendo un Hogar",
+      "description": "Asumiendo un asentamiento permanente, los colonos desbrozan campos de cultivo, domestican ganado autóctono y levantan defensas duraderas contra las inclemencias naturales."
+    },
+    {
+      "order": 7,
+      "badgeText": "Escenario 7",
+      "title": "La Isla de King Kong",
+      "phase": "Acto VII - El Coloso de la Jungla",
+      "description": "Más allá del colosal muro perimetral de piedra, los supervivientes se adentran en tierras prehistóricas para rastrear, capturar y asegurar al legendario titán de la isla."
+    }
+  ]
+}
