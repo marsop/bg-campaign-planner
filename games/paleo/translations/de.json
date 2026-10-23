@@ -1,0 +1,66 @@
+{
+  "title": "Paleo",
+  "subtitle": "Kooperatives Steinzeit-Überleben, Erkundung, Werkzeugbau und Höhlenmalerei",
+  "tagline": "Gemeinsam malt ihr die ewige Geschichte eures Stammes",
+  "loreSummary": "In der rauen Frühzeit der Menschheit muss euer Stamm zusammenstehen, um klirrender Kälte, wilden Tieren und karger Nahrung zu trotzen. Erkundet die unberührte Natur, erfindet nützliche Werkzeuge und vollendet das heilige Mammut-Höhlenbild, ehe die Elemente euch bezwingen.",
+  "badgeCategory": "Kooperatives Steinzeit-Abenteuer",
+  "roadmapTitle": "🦣 Stammes-Chronik & Modul-Fortschritt",
+  "roadmapBadge": "SURVIVAL-ROADMAP",
+  "keyFeatures": [
+    "Intuitive Erkundung anhand verschiedenfarbiger Kartenrückseiten für Wald, Berge und Fluss",
+    "Kooperative Hilfsaktionen, bei denen sich Stammesmitglieder in gemeinsamen Gefahren beistehen",
+    "10 thematische Modul-Decks, die zu 7 aufeinander aufbauenden Szenario-Levels kombiniert werden",
+    "Ausgezeichnet als Kennerspiel des Jahres 2021"
+  ],
+  "scopes": {
+    "paleo_full_chronicles": {
+      "name": "Die Paläolithischen Chroniken (Level I–VII)",
+      "description": "Die vollständige 7-teilige Kampagne vom Entfachen der ersten Feuerstelle bis zur feierlichen Höhlenmalerei."
+    },
+    "paleo_introductory_tribe": {
+      "name": "Erste Schritte des Stammes (Level I–III)",
+      "description": "Ein zugänglicher Einstiegsbogen rund um die Errichtung des Lagers, erste Faustkeile und die Wildnis."
+    },
+    "paleo_master_survival": {
+      "name": "Meister-Steinzeit-Überleben (Alle Szenarien)",
+      "description": "Die ultimative Eiszeit-Odyssee mit sämtlichen Grundstufen und anspruchsvollen Modulkombinationen."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Level I",
+      "title": "Erste Schritte",
+      "phase": "Epoche I - Die erste Feuerstelle",
+      "description": "Nahrung sammeln und erste Faustkeile schlagen, während der Stamm lernt, Gefahren anhand der Geländerückseiten einzuschätzen."
+    },
+    {
+      "order": 2,
+      "badgeText": "Level II",
+      "title": "Ein sicherer Zufluchtsort",
+      "phase": "Epoche II - Der Bau des Lagers",
+      "description": "Feste Unterkünfte bauen, das Feuer hüten und Schutzwehren gegen nachtaktive Raubtiere errichten."
+    },
+    {
+      "order": 3,
+      "badgeText": "Level IV",
+      "title": "Die Kältewelle",
+      "phase": "Epoche III - Der eisige Winter",
+      "description": "Gefrierender Schneesturm fegt durchs Tal; warme Pelze und geteiltes Lagerfeuerfeuer sind überlebenswichtig."
+    },
+    {
+      "order": 4,
+      "badgeText": "Level V",
+      "title": "Das riesige Mammut",
+      "phase": "Epoche IV - Die legendäre Großwildjagd",
+      "description": "Der Stamm bündelt Speere und Fallgruben, um das gewaltige Mammut zu erlegen und Vorräte zu sichern."
+    },
+    {
+      "order": 5,
+      "badgeText": "Level VII",
+      "title": "Das vollendete Höhlenbild",
+      "phase": "Epoche V - Das ewige Vermächtnis",
+      "description": "Vollendung des heiligen fünfteiligen Höhlenmosaiks, um die Errungenschaften des Stammes für die Nachwelt zu bewahren."
+    }
+  ]
+}

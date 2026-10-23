@@ -1,0 +1,73 @@
+{
+  "title": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
+  "subtitle": "Immersive Victorian deduction using casebooks, directories, London maps, and daily newspapers",
+  "tagline": "Match wits with the world's greatest consulting detective",
+  "loreSummary": "The London fog conceals sinister crimes and cunning villains. As the Baker Street Irregulars, you scour newspapers, consult directories, interview witnesses across London, and piece together clues before comparing your deductions with Sherlock Holmes himself.",
+  "badgeCategory": "Victorian Deductive Mystery",
+  "roadmapTitle": "🔍 Baker Street Case Chronicles & Investigation Progression",
+  "roadmapBadge": "CASEBOOK ROADMAP",
+  "keyFeatures": [
+    "Open-ended deductive investigation through detailed Victorian London street maps",
+    "Authentic period newspapers with classifieds, articles, and covert leads",
+    "Booklet-based interviews, scene examinations, and witness cross-referencing",
+    "Direct scoring against Sherlock Holmes's own deductive efficiency"
+  ],
+  "scopes": {
+    "sherlock_full_investigation": {
+      "name": "The Thames Murders Anthology (All 10 Cases)",
+      "description": "The complete investigative campaign spanning all ten original cases from The Munitions Magnate to The Scheming Spinsters."
+    },
+    "sherlock_introductory_trilogy": {
+      "name": "Baker Street Starter Trilogy (Cases 1–3)",
+      "description": "An introductory trio of classic investigations to hone your investigative teamwork and note-taking skills."
+    },
+    "sherlock_master_selection": {
+      "name": "Master Sleuth Selection (Cases 1–6)",
+      "description": "A curated sequence of half a dozen challenging mysteries including The Cryptic Corpse and The Mummy's Curse."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Case 1",
+      "title": "The Munitions Magnate",
+      "phase": "Casebook I - The First Briefing at 221B",
+      "description": "Sherlock Holmes tasks the Baker Street Irregulars with probing the mysterious death of an arms industrialist."
+    },
+    {
+      "order": 2,
+      "badgeText": "Case 3",
+      "title": "The Mystified Murderess",
+      "phase": "Casebook II - Theatre & High Society",
+      "description": "Unraveling tangled motives and alibis behind an aristocratic woman found beside a slain suitor."
+    },
+    {
+      "order": 3,
+      "badgeText": "Case 5",
+      "title": "The Cryptic Corpse",
+      "phase": "Casebook III - Underground Secrets",
+      "description": "Following autopsy reports and cryptic clues through London morgues and secluded cemeteries."
+    },
+    {
+      "order": 4,
+      "badgeText": "Case 6",
+      "title": "The Mummy's Curse",
+      "phase": "Casebook IV - The British Museum",
+      "description": "A celebrated archaeologist collapses amidst ancient relics, sparking rumors of an Egyptian curse that masks a cunning murder."
+    },
+    {
+      "order": 5,
+      "badgeText": "Case 8",
+      "title": "The Thames Murders",
+      "phase": "Casebook V - Waterfront Conspiracy",
+      "description": "A string of gruesome drownings along the misty wharves of the River Thames leads to a shadowy criminal network."
+    },
+    {
+      "order": 6,
+      "badgeText": "Case 10",
+      "title": "The Scheming Spinsters",
+      "phase": "Casebook VI - The Final Solution",
+      "description": "The culminating investigation testing every shred of deductive reasoning against Holmes's own brilliant deductions."
+    }
+  ]
+}

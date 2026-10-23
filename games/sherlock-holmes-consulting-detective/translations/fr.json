@@ -1,0 +1,73 @@
+{
+  "title": "Sherlock Holmes Détective Conseil: Les Meurtres de la Tamise et Autres Affaires",
+  "subtitle": "Enquête déductive victorienne immersive avec livrets d'affaires, annuaires, plan de Londres et journaux",
+  "tagline": "Mesurez votre esprit de déduction au plus illustre des détectives",
+  "loreSummary": "Le brouillard londonien dissimule de sombres machinations et des criminels insaisissables. En tant que Francs-Tireurs de Baker Street, vous épluchez la presse, sillonnez la ville, interrogez des témoins et recoupez les indices avant de vous mesurer aux conclusions de Sherlock Holmes.",
+  "badgeCategory": "Enquête Déductive Victorienne",
+  "roadmapTitle": "🔍 Chronique des Affaires de Baker Street & Progression des Pistes",
+  "roadmapBadge": "FEUILLE DE ROUTE D'ENQUÊTE",
+  "keyFeatures": [
+    "Investigation déductive totalement ouverte avec plan détaillé de Londres et annuaire de l'époque",
+    "Journaux d'époque authentiques contenant avis de décès, faits divers et pistes discrètes",
+    "Entretiens approfondis, examen minutieux des scènes de crime et vérification des alibis",
+    "Système d'évaluation direct face au nombre de pistes et à la sagacité de Sherlock Holmes"
+  ],
+  "scopes": {
+    "sherlock_full_investigation": {
+      "name": "Anthologie des Meurtres de la Tamise (Les 10 Affaires)",
+      "description": "L'intégralité de la campagne comprenant les dix affaires d'origine, du Magnat des munitions aux Vieilles filles comploteuses."
+    },
+    "sherlock_introductory_trilogy": {
+      "name": "Trilogie d'Initiation de Baker Street (Affaires 1–3)",
+      "description": "Trois enquêtes emblématiques pour s'approprier les mécaniques de groupe et structurer ses carnets de notes."
+    },
+    "sherlock_master_selection": {
+      "name": "Sélection des Maîtres Détectives (Affaires 1–6)",
+      "description": "Six affaires majeures d'une grande finesse déductive comprenant Le Cadavre énigmatique et La Malédiction de la momie."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Affaire 1",
+      "title": "Le Magnat des munitions",
+      "phase": "Dossier I - Le Premier Briefing au 221B",
+      "description": "Sherlock Holmes confie aux Francs-Tireurs la résolution du meurtre suspect d'un puissant industriel de l'armement."
+    },
+    {
+      "order": 2,
+      "badgeText": "Affaire 3",
+      "title": "La Meurtrière mystifiée",
+      "phase": "Dossier II - Théâtre & Haute Société",
+      "description": "Démêler les passions et faux-semblants après la découverte d'une dame de l'aristocratie prostrée auprès d'un prétendant assassiné."
+    },
+    {
+      "order": 3,
+      "badgeText": "Affaire 5",
+      "title": "Le Cadavre énigmatique",
+      "phase": "Dossier III - Secrets Souterrains",
+      "description": "Suivre des rapports d'autopsie troublants et des énigmes codées à travers morgues et cimetières oubliés."
+    },
+    {
+      "order": 4,
+      "badgeText": "Affaire 6",
+      "title": "La Malédiction de la momie",
+      "phase": "Dossier IV - Le British Museum",
+      "description": "Un archéologue émérite s'effondre dans les salles du musée ; la rumeur d'un maléfice antique masque un meurtre d'une rare noirceur."
+    },
+    {
+      "order": 5,
+      "badgeText": "Affaire 8",
+      "title": "Les Meurtres de la Tamise",
+      "phase": "Dossier V - Conspiration Fluviale",
+      "description": "Une série d'ignobles noyades le long des quais brumeux de la Tamise mène vers un réseau de contrebande impitoyable."
+    },
+    {
+      "order": 6,
+      "badgeText": "Affaire 10",
+      "title": "Les Vieilles filles comploteuses",
+      "phase": "Dossier VI - La Résolution Finale",
+      "description": "L'ultime confrontation intellectuelle mesurant l'ensemble de vos facultés d'analyse à l'incomparable esprit de Holmes."
+    }
+  ]
+}

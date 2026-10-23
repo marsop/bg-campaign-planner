@@ -1,0 +1,104 @@
+{
+  "id": "micromacro-crime-city",
+  "title": "MicroMacro: Crime City",
+  "releaseYear": 2020,
+  "designers": "Johannes Sich",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.5,
+  "bggWeight": 1.11,
+  "bggUrl": "https://boardgamegeek.com/boardgame/318977/micromacro-crime-city",
+  "baseScenarioMinutes": 25,
+  "setupTeardownMinutes": 5,
+  "unitType": "cases",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#f59e0b",
+    "secondaryColor": "#18181b",
+    "accentColor": "#06b6d4",
+    "backgroundGradient": "radial-gradient(ellipse at top, #27272a 0%, #18181b 60%, #09090b 100%)",
+    "cardBackground": "rgba(24, 24, 27, 0.94)",
+    "borderColor": "rgba(245, 158, 11, 0.35)",
+    "glowColor": "rgba(245, 158, 11, 0.25)",
+    "headerFont": "'Special Elite', 'Courier New', monospace",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🔎",
+    "emblem": "🔎🏙️",
+    "themeClass": "theme-micromacro",
+    "activeThemeClass": "theme-micromacro-active",
+    "roadmapClass": "roadmap-micromacro",
+    "heroClass": "hero-micromacro"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #318977)",
+    "Edition Spielwiese / Pegasus Spiele Official Rulebook & Case Cards",
+    "Spiel des Jahres 2021 Winner Archive & Community Play Logs"
+  ],
+  "scopes": [
+    {
+      "id": "micromacro_full_investigation",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": true
+    },
+    {
+      "id": "micromacro_introductory_cases",
+      "baseScenarioCount": 5,
+      "estimatedFailRatePercent": 3.0,
+      "isRecommended": false
+    },
+    {
+      "id": "micromacro_complex_mysteries",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 8.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🎩",
+      "badgeText": "Case 1",
+      "title": "First Steps in Crime City",
+      "phase": "Level 1 - The First Clue",
+      "description": "Armed with a magnifying glass, detectives unravel their first street-corner mystery, tracking suspects backward in time across the map."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🚗",
+      "badgeText": "Case 4",
+      "title": "Following the Getaway",
+      "phase": "Level 2 - Urban Pursuit",
+      "description": "Tracing vehicular paths and suspicious characters across busy traffic hubs, train stations, and bustling storefronts."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🏙️",
+      "badgeText": "Case 8",
+      "title": "Midtown Intrigues",
+      "phase": "Level 3 - Intricate Motives",
+      "description": "Multi-card investigations challenge the group to deduce hidden motives and unmask accomplices hiding in plain sight."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "💎",
+      "badgeText": "Case 12",
+      "title": "Syndicate Schemes",
+      "phase": "Level 4 - High-Stakes Heists",
+      "description": "Complex 4-star investigations where timelines crisscross and suspects disguise their movements across distant city quarters."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "🏆",
+      "badgeText": "Case 16",
+      "title": "The Master Detective's Ledger",
+      "phase": "Level 5 - The Ultimate Urban Mystery",
+      "description": "The concluding 5-star brainteaser that tests the keenest eyes and deductive prowess across every corner of Crime City."
+    }
+  ]
+}

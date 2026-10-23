@@ -1,0 +1,113 @@
+{
+  "id": "sherlock-holmes-consulting-detective",
+  "title": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
+  "releaseYear": 1981,
+  "designers": "Raymond Edwards, Suzanne Goldberg, Gary Grady",
+  "playersMin": 1,
+  "playersMax": 8,
+  "bggRating": 7.7,
+  "bggWeight": 2.7,
+  "bggUrl": "https://boardgamegeek.com/boardgame/2511/sherlock-holmes-consulting-detective-the-thames-mur",
+  "baseScenarioMinutes": 105,
+  "setupTeardownMinutes": 10,
+  "unitType": "cases",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#b45309",
+    "secondaryColor": "#1c1917",
+    "accentColor": "#0284c7",
+    "backgroundGradient": "radial-gradient(ellipse at top, #292524 0%, #1c1917 60%, #0c0a09 100%)",
+    "cardBackground": "rgba(28, 25, 23, 0.94)",
+    "borderColor": "rgba(180, 83, 9, 0.35)",
+    "glowColor": "rgba(180, 83, 9, 0.25)",
+    "headerFont": "'Cormorant SC', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🔍",
+    "emblem": "🔍📜",
+    "themeClass": "theme-sherlockholmes",
+    "activeThemeClass": "theme-sherlockholmes-active",
+    "roadmapClass": "roadmap-sherlockholmes",
+    "heroClass": "hero-sherlockholmes"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #2511)",
+    "Space Cowboys Official Rulebook & Case Directory",
+    "Community Investigation Log Records & Solution Metrics"
+  ],
+  "scopes": [
+    {
+      "id": "sherlock_full_investigation",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": true
+    },
+    {
+      "id": "sherlock_introductory_trilogy",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "sherlock_master_selection",
+      "baseScenarioCount": 6,
+      "estimatedFailRatePercent": 12.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "📰",
+      "badgeText": "Case 1",
+      "title": "The Munitions Magnate",
+      "phase": "Casebook I - The First Briefing at 221B",
+      "description": "Sherlock Holmes tasks the Baker Street Irregulars with probing the mysterious death of an arms industrialist."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🎭",
+      "badgeText": "Case 3",
+      "title": "The Mystified Murderess",
+      "phase": "Casebook II - Theatre & High Society",
+      "description": "Unraveling tangled motives and alibis behind an aristocratic woman found beside a slain suitor."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "⚰️",
+      "badgeText": "Case 5",
+      "title": "The Cryptic Corpse",
+      "phase": "Casebook III - Underground Secrets",
+      "description": "Following autopsy reports and cryptic clues through London morgues and secluded cemeteries."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🏺",
+      "badgeText": "Case 6",
+      "title": "The Mummy's Curse",
+      "phase": "Casebook IV - The British Museum",
+      "description": "A celebrated archaeologist collapses amidst ancient relics, sparking rumors of an Egyptian curse that masks a cunning murder."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🌊",
+      "badgeText": "Case 8",
+      "title": "The Thames Murders",
+      "phase": "Casebook V - Waterfront Conspiracy",
+      "description": "A string of gruesome drownings along the misty wharves of the River Thames leads to a shadowy criminal network."
+    },
+    {
+      "order": 6,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🕵️",
+      "badgeText": "Case 10",
+      "title": "The Scheming Spinsters",
+      "phase": "Casebook VI - The Final Solution",
+      "description": "The culminating investigation testing every shred of deductive reasoning against Holmes's own brilliant deductions."
+    }
+  ]
+}

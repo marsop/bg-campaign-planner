@@ -1,0 +1,83 @@
+/* ==========================================================================
+   Sherlock Holmes Consulting Detective — Victorian Gaslight & Thames Noir Theming
+   Scoped under .theme-sherlockholmes / .theme-sherlock-holmes
+   ========================================================================== */
+
+/* Scoped variables */
+.theme-sherlockholmes,
+.theme-sherlock-holmes,
+.theme-sherlockholmes-active,
+.theme-sherlock-holmes-active {
+  --sh-amber: #b45309;
+  --sh-blue: #0284c7;
+  --sh-dark: #1c1917;
+  --sh-parchment: #fef3c7;
+  --sh-border-glow: rgba(180, 83, 9, 0.35);
+  --sh-blue-glow: rgba(2, 132, 199, 0.25);
+}
+
+/* Card styling with warm Victorian amber borders */
+.theme-sherlockholmes .card,
+.theme-sherlock-holmes .card,
+.theme-sherlockholmes .planner-card,
+.theme-sherlock-holmes .planner-card,
+.theme-sherlockholmes .summary-card,
+.theme-sherlock-holmes .summary-card {
+  border: 1px solid rgba(180, 83, 9, 0.35);
+  box-shadow: 0 4px 20px rgba(12, 10, 9, 0.85), 0 0 16px rgba(180, 83, 9, 0.16);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.theme-sherlockholmes .card:hover,
+.theme-sherlock-holmes .card:hover,
+.theme-sherlockholmes .planner-card:hover,
+.theme-sherlock-holmes .planner-card:hover {
+  border-color: rgba(2, 132, 199, 0.65);
+  box-shadow: 0 6px 24px rgba(12, 10, 9, 0.95), 0 0 22px rgba(2, 132, 199, 0.30);
+}
+
+/* Hero section styling */
+.hero-sherlockholmes,
+.hero-sherlock-holmes {
+  background: linear-gradient(135deg, rgba(41, 37, 36, 0.75) 0%, rgba(180, 83, 9, 0.18) 50%, rgba(28, 25, 23, 0.95) 100%);
+  border-left: 4px solid var(--sh-amber, #b45309);
+  border-radius: 8px;
+  box-shadow: inset 0 0 30px rgba(180, 83, 9, 0.20);
+}
+
+/* Thematic Roadmap node enhancements */
+.roadmap-sherlockholmes .roadmap-item-badge,
+.roadmap-sherlock-holmes .roadmap-item-badge,
+.roadmap-sherlockholmes .milestone-icon,
+.roadmap-sherlock-holmes .milestone-icon {
+  background: radial-gradient(circle, rgba(180, 83, 9, 0.35) 0%, rgba(28, 25, 23, 0.95) 100%);
+  border: 1px solid rgba(2, 132, 199, 0.50);
+  box-shadow: 0 0 14px rgba(180, 83, 9, 0.28);
+}
+
+.roadmap-sherlockholmes .milestone-card,
+.roadmap-sherlock-holmes .milestone-card {
+  border-left: 3px solid var(--sh-amber, #b45309);
+  background: rgba(28, 25, 23, 0.94);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.roadmap-sherlockholmes .milestone-card:hover,
+.roadmap-sherlock-holmes .milestone-card:hover {
+  border-left-color: var(--sh-blue, #0284c7);
+  box-shadow: 0 0 20px rgba(2, 132, 199, 0.32);
+}
+
+/* Active Theme Glow */
+.theme-sherlockholmes-active,
+.theme-sherlock-holmes-active {
+  box-shadow: 0 0 28px rgba(180, 83, 9, 0.40) !important;
+}
+
+/* Category badge */
+.theme-sherlockholmes .badge-category,
+.theme-sherlock-holmes .badge-category {
+  background-color: rgba(180, 83, 9, 0.18);
+  color: #fdba74;
+  border: 1px solid rgba(180, 83, 9, 0.45);
+}

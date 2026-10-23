@@ -1,0 +1,73 @@
+{
+  "title": "Sherlock Holmes Criminal-Cabinet: Die Themse-Morde & andere Fälle",
+  "subtitle": "Immersive viktorianische Deduktion mit Fallbüchern, Adressbüchern, Stadtplänen und Tageszeitungen",
+  "tagline": "Messen Sie Ihren Scharfsinn mit dem berühmtesten Detektiv der Welt",
+  "loreSummary": "Der Londoner Nebel verbirgt düstere Verbrechen und gerissene Täter. Als Baker-Street-Bande durchkämmen Sie Londoner Zeitungen, befragen Zeugen, werten Stadtpläne aus und kombinieren Indizien, ehe Sie Ihre Schlussfolgerungen mit Sherlock Holmes vergleichen.",
+  "badgeCategory": "Viktorianisches Deduktionsspiel",
+  "roadmapTitle": "🔍 Baker-Street-Fallchronik & Ermittlungs-Fortschritt",
+  "roadmapBadge": "FALLBUCH-ROADMAP",
+  "keyFeatures": [
+    "Vollkommen freie Deduktionsermittlung mit historischem Londoner Stadtplan und Adressverzeichnis",
+    "Detailgetreue Zeitungen mit Anzeigen, Berichten und versteckten Hinweisen",
+    "Tiefgehende Zeugenbefragungen, Tatortanalysen und Alibi-Vergleiche",
+    "Direkter Leistungsvergleich mit den brillanten Schlussfolgerungen von Sherlock Holmes"
+  ],
+  "scopes": {
+    "sherlock_full_investigation": {
+      "name": "Die Themse-Morde Gesamtausgabe (Alle 10 Fälle)",
+      "description": "Die vollständige Kriminalkampagne mit allen zehn Fällen – vom Munitionsmagnaten bis zu den intriganten Jungfern."
+    },
+    "sherlock_introductory_trilogy": {
+      "name": "Baker-Street-Auftakt-Trilogie (Fälle 1–3)",
+      "description": "Drei klassische Kriminalfälle zum Einspielen der Gruppe und Vertiefen präziser Ermittlungstechniken."
+    },
+    "sherlock_master_selection": {
+      "name": "Meisterdetektiv-Auswahl (Fälle 1–6)",
+      "description": "Sechs anspruchsvolle Kriminalfälle inklusive Der Fluch der Mumie und Die rätselhafte Leiche."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Fall 1",
+      "title": "Der Munitionsmagnat",
+      "phase": "Fallbuch I - Erstes Briefing in der Baker Street 221B",
+      "description": "Sherlock Holmes beauftragt die Baker-Street-Bande mit der Aufklärung des gewaltsamen Todes eines Rüstungsfabrikanten."
+    },
+    {
+      "order": 2,
+      "badgeText": "Fall 3",
+      "title": "Die verwirrte Mörderin",
+      "phase": "Fallbuch II - Theater & Hohe Gesellschaft",
+      "description": "Entwirrung verstrickter Motive und Widersprüche rund um eine Adlige, die neben einem getöteten Verehrer angetroffen wurde."
+    },
+    {
+      "order": 3,
+      "badgeText": "Fall 5",
+      "title": "Die rätselhafte Leiche",
+      "phase": "Fallbuch III - Düstere Geheimnisse",
+      "description": "Verfolgen kryptischer Autopsiebefunde quer durch die Leichenschauhäuser und abgelegenen Friedhöfe Londons."
+    },
+    {
+      "order": 4,
+      "badgeText": "Fall 6",
+      "title": "Der Fluch der Mumie",
+      "phase": "Fallbuch IV - Das Britische Museum",
+      "description": "Ein berühmter Archäologe bricht tot zusammen; hinter den Gerüchten um einen Pharaonenfluch verbirgt sich kaltblütiger Mord."
+    },
+    {
+      "order": 5,
+      "badgeText": "Fall 8",
+      "title": "Die Themse-Morde",
+      "phase": "Fallbuch V - Verschwörung an den Docks",
+      "description": "Eine unheimliche Serie von Ertrunkenen entlang der Docks der Themse führt auf die Spur eines Schmugglernetzwerks."
+    },
+    {
+      "order": 6,
+      "badgeText": "Fall 10",
+      "title": "Die intriganten Jungfern",
+      "phase": "Fallbuch VI - Das Meisterstück",
+      "description": "Der finale Kriminalfall, der jedes Quäntchen Scharfsinn im direkten Vergleich mit Holmes fordert."
+    }
+  ]
+}

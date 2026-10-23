@@ -1,0 +1,73 @@
+{
+  "title": "Sherlock Holmes Detective Asesor: Los Crímenes del Támesis y Otros Casos",
+  "subtitle": "Deducción victoriana inmersiva con libretos de caso, planos de Londres y periódicos de época",
+  "tagline": "Compara tu ingenio deductivo con el mejor detective del mundo",
+  "loreSummary": "La espesa niebla de Londres oculta siniestros crímenes e intrigas clandestinas. Como miembros de los Irregulares de Baker Street, consultaréis periódicos, recorreréis el callejero, interrogaréis sospechosos y resolveréis enigmas antes de rendir cuentas ante el mismísimo Sherlock Holmes.",
+  "badgeCategory": "Misterio Deductivo Victoriano",
+  "roadmapTitle": "🔍 Crónica de Casos de Baker Street y Progresión de Pistas",
+  "roadmapBadge": "HOJA DE RUTA DE CASOS",
+  "keyFeatures": [
+    "Investigación deductiva abierta apoyada en callejeros y guías telefónicas de la época",
+    "Periódicos históricos fidedignos con esquelas, noticias y pistas clandestinas",
+    "Interrogatorios en profundidad, examen de escenas del crimen y contrastación de coartadas",
+    "Puntuación comparativa directa contra la legendaria perspicacia de Sherlock Holmes"
+  ],
+  "scopes": {
+    "sherlock_full_investigation": {
+      "name": "Antología Completa del Támesis (Los 10 Casos)",
+      "description": "La campaña completa de investigación que incluye los diez casos originales, desde El magnate de las municiones hasta Las solteronas maquinadoras."
+    },
+    "sherlock_introductory_trilogy": {
+      "name": "Trilogía Inicial de Baker Street (Casos 1–3)",
+      "description": "Un trío inicial de investigaciones clásicas para asentar la dinámica del equipo y afinar la toma de notas."
+    },
+    "sherlock_master_selection": {
+      "name": "Selección de Casos Maestros (Casos 1–6)",
+      "description": "Una cuidada secuencia de seis misterios de alta dificultad que incluye El cadáver enigmático y La maldición de la momia."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Caso 1",
+      "title": "El magnate de las municiones",
+      "phase": "Libreto I - La Primera Reunión en 221B",
+      "description": "Sherlock Holmes encarga a los Irregulares esclarecer el misterioso asesinato de un prominente fabricante de armas."
+    },
+    {
+      "order": 2,
+      "badgeText": "Caso 3",
+      "title": "La asesina desconcertada",
+      "phase": "Libreto II - Teatro y Alta Sociedad",
+      "description": "Descifrando motivos y coartadas cruzadas tras el hallazgo de una dama aristócrata junto al cadáver de su prometido."
+    },
+    {
+      "order": 3,
+      "badgeText": "Caso 5",
+      "title": "El cadáver enigmático",
+      "phase": "Libreto III - Secretos Subterráneos",
+      "description": "Siguiendo informes forenses y notas crípticas a través de depósitos de cadáveres y cementerios de la ciudad."
+    },
+    {
+      "order": 4,
+      "badgeText": "Caso 6",
+      "title": "La maldición de la momia",
+      "phase": "Libreto IV - El Museo Británico",
+      "description": "Un célebre arqueólogo se desploma entre reliquias milenarias; los rumores de una maldición faraónica encubren un homicidio premeditado."
+    },
+    {
+      "order": 5,
+      "badgeText": "Caso 8",
+      "title": "Los crímenes del Támesis",
+      "phase": "Libreto V - Conspiración Portuaria",
+      "description": "Una macabra serie de ahogamientos en los brumosos muelles del río Támesis conduce a un entramado criminal en la sombra."
+    },
+    {
+      "order": 6,
+      "badgeText": "Caso 10",
+      "title": "Las solteronas maquinadoras",
+      "phase": "Libreto VI - La Conclusión Definitiva",
+      "description": "El gran caso final que pone a prueba cada fibra deductiva frente al brillante razonamiento de Holmes."
+    }
+  ]
+}

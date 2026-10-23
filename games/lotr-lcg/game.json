@@ -1,0 +1,113 @@
+{
+  "id": "lotr-lcg",
+  "title": "The Lord of the Rings: The Card Game",
+  "releaseYear": 2011,
+  "designers": "Nate French",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.7,
+  "bggWeight": 3.2,
+  "bggUrl": "https://boardgamegeek.com/boardgame/77423/the-lord-of-the-rings-the-card-game",
+  "baseScenarioMinutes": 75,
+  "setupTeardownMinutes": 15,
+  "unitType": "quests",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#ca8a04",
+    "secondaryColor": "#1c1917",
+    "accentColor": "#15803d",
+    "backgroundGradient": "radial-gradient(ellipse at top, #292524 0%, #1c1917 60%, #0c0a09 100%)",
+    "cardBackground": "rgba(28, 25, 23, 0.94)",
+    "borderColor": "rgba(202, 138, 4, 0.35)",
+    "glowColor": "rgba(202, 138, 4, 0.25)",
+    "headerFont": "'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "💍",
+    "emblem": "💍🗡️",
+    "themeClass": "theme-lotrlcg",
+    "activeThemeClass": "theme-lotrlcg-active",
+    "roadmapClass": "roadmap-lotrlcg",
+    "heroClass": "hero-lotrlcg"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #77423)",
+    "Fantasy Flight Games Official Rulebook & Campaign Rules",
+    "Community Quest Statistics & Scenario Log Records"
+  ],
+  "scopes": [
+    {
+      "id": "lotr_mirkwood_campaign",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 28.0,
+      "isRecommended": true
+    },
+    {
+      "id": "lotr_core_trio",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": false
+    },
+    {
+      "id": "lotr_fellowship_saga",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 32.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🌲",
+      "badgeText": "Quest 1",
+      "title": "Passage Through Mirkwood",
+      "phase": "Act I - The Woodland Path",
+      "description": "The heroes carry urgent tidings through the shadowed canopy of Mirkwood, warding off spiders and foul beasts."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🌊",
+      "badgeText": "Quest 2",
+      "title": "Journey Along the Anduin",
+      "phase": "Act II - The Great River",
+      "description": "Sailing downstream upon the mighty Anduin, the company braves river ambushes and contends with a ferocious Hill Troll."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🏰",
+      "badgeText": "Quest 3",
+      "title": "Escape from Dol Guldur",
+      "phase": "Act III - The Necromancer's Dungeons",
+      "description": "Infiltrating the dread fortress of the Necromancer, the fellowship rescues a captured comrade from subterranean dungeons."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "📜",
+      "badgeText": "Quest 4",
+      "title": "The Oath",
+      "phase": "Act IV - Gathering the Free Peoples",
+      "description": "Honoring sacred alliances across the Wilderland, the party musters stalwart defenders to confront rising orc hordes."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "⛏️",
+      "badgeText": "Quest 5",
+      "title": "The Caves of Nibin-Dûm",
+      "phase": "Act V - The Sunken Depths",
+      "description": "Venture into long-abandoned dwarven mines to uncover ancient relics and unearth lost lore before darkness spreads."
+    },
+    {
+      "order": 6,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "⚔️",
+      "badgeText": "Quest 8",
+      "title": "Assault on the Hill of Sorcery",
+      "phase": "Act VI - Climax at the Fortress",
+      "description": "A climactic confrontation where the assembled forces of Middle-earth assault the strongholds of darkness to seal evil away."
+    }
+  ]
+}

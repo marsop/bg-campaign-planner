@@ -1,0 +1,66 @@
+{
+  "title": "MicroMacro: Crime City",
+  "subtitle": "Cooperative visual deduction across a giant, intricate black-and-white city map",
+  "tagline": "Uncover hidden crimes in the streets of Crime City",
+  "loreSummary": "Crime City is teeming with clandestine deals, petty pickpockets, and brazen heists. Armed with a magnifying glass, your team pores over a massive city map to reconstruct timelines, trace suspects, and solve 16 interconnected mysteries.",
+  "badgeCategory": "Visual Deduction & Mystery",
+  "roadmapTitle": "🔎 Crime City Case Chronicles & Map Progression",
+  "roadmapBadge": "CASE ROADMAP",
+  "keyFeatures": [
+    "Innovative spatial-temporal deduction across a giant 75x110 cm hand-drawn city canvas",
+    "Simultaneous event tracking where characters appear across multiple moments in time",
+    "16 distinct case files spanning 5 difficulty tiers from introductory to mastermind",
+    "Spiel des Jahres 2021 Game of the Year award-winning gameplay"
+  ],
+  "scopes": {
+    "micromacro_full_investigation": {
+      "name": "All 16 Crime City Cases",
+      "description": "The complete base-game investigation tracking all 16 cases from 1-star starters to the 5-star finale."
+    },
+    "micromacro_introductory_cases": {
+      "name": "Starter Detective Arc (First 5 Cases)",
+      "description": "An introductory set of accessible 1-star and 2-star cases ideal for casual detective evenings."
+    },
+    "micromacro_complex_mysteries": {
+      "name": "Master Sleuth Complex Cases (Stars 3–5)",
+      "description": "The most challenging half of Crime City featuring intricate routes, deceptive alibis, and subtle clues."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Case 1",
+      "title": "First Steps in Crime City",
+      "phase": "Level 1 - The First Clue",
+      "description": "Armed with a magnifying glass, detectives unravel their first street-corner mystery, tracking suspects backward in time across the map."
+    },
+    {
+      "order": 2,
+      "badgeText": "Case 4",
+      "title": "Following the Getaway",
+      "phase": "Level 2 - Urban Pursuit",
+      "description": "Tracing vehicular paths and suspicious characters across busy traffic hubs, train stations, and bustling storefronts."
+    },
+    {
+      "order": 3,
+      "badgeText": "Case 8",
+      "title": "Midtown Intrigues",
+      "phase": "Level 3 - Intricate Motives",
+      "description": "Multi-card investigations challenge the group to deduce hidden motives and unmask accomplices hiding in plain sight."
+    },
+    {
+      "order": 4,
+      "badgeText": "Case 12",
+      "title": "Syndicate Schemes",
+      "phase": "Level 4 - High-Stakes Heists",
+      "description": "Complex 4-star investigations where timelines crisscross and suspects disguise their movements across distant city quarters."
+    },
+    {
+      "order": 5,
+      "badgeText": "Case 16",
+      "title": "The Master Detective's Ledger",
+      "phase": "Level 5 - The Ultimate Urban Mystery",
+      "description": "The concluding 5-star brainteaser that tests the keenest eyes and deductive prowess across every corner of Crime City."
+    }
+  ]
+}

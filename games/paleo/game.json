@@ -1,0 +1,104 @@
+{
+  "id": "paleo",
+  "title": "Paleo",
+  "releaseYear": 2020,
+  "designers": "Peter Rustemeyer",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.7,
+  "bggWeight": 2.61,
+  "bggUrl": "https://boardgamegeek.com/boardgame/300531/paleo",
+  "baseScenarioMinutes": 50,
+  "setupTeardownMinutes": 10,
+  "unitType": "scenarios",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#ea580c",
+    "secondaryColor": "#1c1917",
+    "accentColor": "#84cc16",
+    "backgroundGradient": "radial-gradient(ellipse at top, #292524 0%, #1c1917 60%, #0c0a09 100%)",
+    "cardBackground": "rgba(28, 25, 23, 0.94)",
+    "borderColor": "rgba(234, 88, 12, 0.35)",
+    "glowColor": "rgba(234, 88, 12, 0.25)",
+    "headerFont": "'MedievalSharp', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🦣",
+    "emblem": "🦣🔥",
+    "themeClass": "theme-paleo",
+    "activeThemeClass": "theme-paleo-active",
+    "roadmapClass": "roadmap-paleo",
+    "heroClass": "hero-paleo"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #300531)",
+    "Hans im Glück / Z-Man Games Official Rulebook & Module Guide",
+    "Kennerspiel des Jahres 2021 Winner Archive & Community Play Logs"
+  ],
+  "scopes": [
+    {
+      "id": "paleo_full_chronicles",
+      "baseScenarioCount": 7,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "paleo_introductory_tribe",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "paleo_master_survival",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 30.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🔥",
+      "badgeText": "Level I",
+      "title": "First Steps",
+      "phase": "Era I - The First Hearth",
+      "description": "Gathering food and crafting basic hand axes while learning to read the backs of terrain cards without succumbing to wild perils."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🛖",
+      "badgeText": "Level II",
+      "title": "A Safe Haven",
+      "phase": "Era II - Building the Camp",
+      "description": "Establishing a permanent shelter, domesticating fire, and preparing defenses against nocturnal predators."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "❄️",
+      "badgeText": "Level IV",
+      "title": "The Deep Freeze",
+      "phase": "Era III - The Bitter Cold",
+      "description": "Harsh winter blizzards descend upon the valley, requiring warm hides, heavy fur crafting, and shared campfire warmth."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🦣",
+      "badgeText": "Level V",
+      "title": "The Great Mammoth",
+      "phase": "Era IV - The Legendary Hunt",
+      "description": "Tribe members coordinate spears and traps to take down a legendary woolly mammoth, securing vital meat and tusks for the winter."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "🎨",
+      "badgeText": "Level VII",
+      "title": "The Master Cave Painting",
+      "phase": "Era V - The Eternal Legacy",
+      "description": "Completing the sacred five-piece cave mural to immortalize the tribe's triumphs and ensure their survival for future generations."
+    }
+  ]
+}

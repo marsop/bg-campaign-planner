@@ -1,0 +1,73 @@
+{
+  "title": "Der Herr der Ringe: Das Kartenspiel",
+  "subtitle": "Taktischer kooperativer Deckbau und gefahrvolle Abenteuer quer durch Mittelerde",
+  "tagline": "Eine Gemeinschaft von Helden trotzt dem heraufziehenden Schatten",
+  "loreSummary": "Mittelerde steht am Rande des Untergangs. Während die Mächte der Finsternis erstarken, schließen sich wagemutige Helden zusammen, um gefahrvolle Aufgaben zu meistern und das Böse zurückzudrängen.",
+  "badgeCategory": "Kooperatives Living Card Game",
+  "roadmapTitle": "💍 Chronik der Gefährten & Abenteuer-Fortschritt",
+  "roadmapBadge": "ABENTEUER-ROADMAP",
+  "keyFeatures": [
+    "Umfangreicher individueller Deckbau aus vier facettenreichen Einflusssphären",
+    "Taktisches Bedrohungsmanagement in der Aufmarschzone und kooperative Proben",
+    "Kampagnenmodus mit dauerhaften Gunstkarten, Bürden und Helden-Verlusten",
+    "Hervorragende Skalierung für Solospieler und Gefährtengruppen gegen Tolkiens Schrecken"
+  ],
+  "scopes": {
+    "lotr_mirkwood_campaign": {
+      "name": "Düsterwald-Kampagnenerlebnis (8 Szenarien)",
+      "description": "Der vollständige Einsteiger-Kampagnenbogen, der das Grundspiel mit dem Szenariopack Im Schatten des Düsterwalds vereint."
+    },
+    "lotr_core_trio": {
+      "name": "Grundspiel-Trilogie (3 Szenarien)",
+      "description": "Die klassische Trilogie: Durchquerung des Düsterwalds, Reise den Anduin hinab und Flucht aus Dol Guldur."
+    },
+    "lotr_fellowship_saga": {
+      "name": "Die Gefährten-Saga (12 Szenarien)",
+      "description": "Eine epische Gesamtreise entlang der legendären Höhepunkte des ersten Bandes des Ringepos."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Szenario 1",
+      "title": "Die Durchquerung des Düsterwalds",
+      "phase": "Akt I - Der Schattenpfad",
+      "description": "Die Helden überbringen eine dringende Nachricht durch das Blätterdach des Düsterwalds und wehren Riesenspinnen ab."
+    },
+    {
+      "order": 2,
+      "badgeText": "Szenario 2",
+      "title": "Die Reise den Anduin hinab",
+      "phase": "Akt II - Der Große Strom",
+      "description": "Auf der Fahrt flussabwärts trotzt die Gruppe feindlichen Uferüberfällen und einem furchterregenden Höhlentroll."
+    },
+    {
+      "order": 3,
+      "badgeText": "Szenario 3",
+      "title": "Die Flucht aus Dol Guldur",
+      "phase": "Akt III - Die Kerker des Nekromanten",
+      "description": "Eindringen in die Festung des Nekromanten, um einen gefangenen Gefährten aus den finsteren Verliesen zu befreien."
+    },
+    {
+      "order": 4,
+      "badgeText": "Szenario 4",
+      "title": "Der Schwur",
+      "phase": "Akt IV - Bündnisse der freien Völker",
+      "description": "Im Einklang mit alten Eiden sammeln die Gefährten Verbündete in der Wildnis, um den orkischen Horden zu widerstehen."
+    },
+    {
+      "order": 5,
+      "badgeText": "Szenario 5",
+      "title": "Die Höhlen von Nibin-Dûm",
+      "phase": "Akt V - Die versunkenen Minen",
+      "description": "Erkundung uralter Zwergenminen, um mächtige Relikte zu bergen, bevor die Finsternis sie für immer begräbt."
+    },
+    {
+      "order": 6,
+      "badgeText": "Szenario 8",
+      "title": "Sturm auf den Hügel der Zauberei",
+      "phase": "Akt VI - Entscheidung an der Feste",
+      "description": "Eine gewaltige Entscheidungsschlacht, bei der Mittelerdes Völker vereint gegen die Festung der Schatten anrennen."
+    }
+  ]
+}

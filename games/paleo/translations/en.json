@@ -1,0 +1,66 @@
+{
+  "title": "Paleo",
+  "subtitle": "Cooperative Stone Age survival, exploration, tool crafting, and cave painting",
+  "tagline": "Work together to paint your tribe's eternal story",
+  "loreSummary": "In the untamed dawn of humanity, your tribe must band together to endure bitter cold, predatory beasts, and scarce sustenance. Explore varied environments, invent primitive tools, and complete the sacred mammoth cave painting before the harsh elements overwhelm you.",
+  "badgeCategory": "Cooperative Stone Age Survival",
+  "roadmapTitle": "🦣 Tribe Chronicles & Module Progression",
+  "roadmapBadge": "SURVIVAL ROADMAP",
+  "keyFeatures": [
+    "Intuitive card-back exploration representing forests, mountains, and river valleys",
+    "Cooperative action sharing where players aid each other during simultaneous encounters",
+    "Modular scenario decks combining 10 distinct thematic modules into progressive challenges",
+    "Winner of the renowned Kennerspiel des Jahres 2021 award"
+  ],
+  "scopes": {
+    "paleo_full_chronicles": {
+      "name": "The Paleolithic Chronicles (Scenarios I–VII)",
+      "description": "The complete 7-scenario campaign progression from your first campfire to the climactic final cave painting."
+    },
+    "paleo_introductory_tribe": {
+      "name": "First Steps of the Tribe (Scenarios I–III)",
+      "description": "An approachable three-scenario arc covering early shelter, basic flintcraft, and the initial hunt."
+    },
+    "paleo_master_survival": {
+      "name": "Master Stone Age Survival (All Scenarios & Variants)",
+      "description": "Comprehensive tribal odyssey including all base levels plus advanced custom module pairings."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Level I",
+      "title": "First Steps",
+      "phase": "Era I - The First Hearth",
+      "description": "Gathering food and crafting basic hand axes while learning to read the backs of terrain cards without succumbing to wild perils."
+    },
+    {
+      "order": 2,
+      "badgeText": "Level II",
+      "title": "A Safe Haven",
+      "phase": "Era II - Building the Camp",
+      "description": "Establishing a permanent shelter, domesticating fire, and preparing defenses against nocturnal predators."
+    },
+    {
+      "order": 3,
+      "badgeText": "Level IV",
+      "title": "The Deep Freeze",
+      "phase": "Era III - The Bitter Cold",
+      "description": "Harsh winter blizzards descend upon the valley, requiring warm hides, heavy fur crafting, and shared campfire warmth."
+    },
+    {
+      "order": 4,
+      "badgeText": "Level V",
+      "title": "The Great Mammoth",
+      "phase": "Era IV - The Legendary Hunt",
+      "description": "Tribe members coordinate spears and traps to take down a legendary woolly mammoth, securing vital meat and tusks for the winter."
+    },
+    {
+      "order": 5,
+      "badgeText": "Level VII",
+      "title": "The Master Cave Painting",
+      "phase": "Era V - The Eternal Legacy",
+      "description": "Completing the sacred five-piece cave mural to immortalize the tribe's triumphs and ensure their survival for future generations."
+    }
+  ]
+}

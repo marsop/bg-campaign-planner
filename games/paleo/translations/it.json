@@ -1,0 +1,66 @@
+{
+  "title": "Paleo",
+  "subtitle": "Sopravvivenza cooperativa nell'Età della Pietra, esplorazione, manufatti e pitture rupestri",
+  "tagline": "Insieme dipingerete la storia eterna della vostra tribù",
+  "loreSummary": "Agli albori selvaggi dell'umanità, la vostra tribù deve restare unita per resistere a geli implacabili, predatori feroci e stenti. Esplorate terre vergini, create utensili di selce e completate la sacra pittura rupestre del mammut prima che la natura vi sopraffaccia.",
+  "badgeCategory": "Sopravvivenza Preistorica Cooperativa",
+  "roadmapTitle": "🦣 Cronaca della Tribù & Progressione dei Moduli",
+  "roadmapBadge": "TABELLA DI SOPRAVVIVENZA",
+  "keyFeatures": [
+    "Esplorazione intuitiva grazie al dorso delle carte che raffigurano boschi, montagne e corsi d'acqua",
+    "Aiuto reciproco continuo dove i cacciatori si supportano durante gli incontri simultanei",
+    "10 mazzi modulari tematici combinabili in 7 scenari progressivi a difficoltà crescente",
+    "Vincitore del rinomato riconoscimento Kennerspiel des Jahres 2021"
+  ],
+  "scopes": {
+    "paleo_full_chronicles": {
+      "name": "Le Cronache del Paleolitico (Scenari I–VII)",
+      "description": "La campagna completa in 7 scenari, dalla prima scintilla del falò al compimento della sacra pittura murale."
+    },
+    "paleo_introductory_tribe": {
+      "name": "I Primi Passi della Tribù (Scenari I–III)",
+      "description": "Una trilogia iniziale accessibile dedicata al primo rifugio, alla lavorazione della selce e alle prime battute di caccia."
+    },
+    "paleo_master_survival": {
+      "name": "Maestri di Sopravvivenza Glaciale (Tutti gli Scenari)",
+      "description": "L'epopea preistorica integrale con tutti gli scenari base e gli abbinamenti avanzati tra moduli."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Livello I",
+      "title": "Primi passi",
+      "phase": "Era I - Il Primo Focolare",
+      "description": "Raccogliere cibo e scheggiare amigdale imparando a interpretare i pericoli celati dietro i diversi terreni."
+    },
+    {
+      "order": 2,
+      "badgeText": "Livello II",
+      "title": "Un rifugio sicuro",
+      "phase": "Era II - Allestire l'Accampamento",
+      "description": "Costruire ripari stabili, alimentare il fuoco e fortificare il campo contro le incursioni notturne dei predatori."
+    },
+    {
+      "order": 3,
+      "badgeText": "Livello IV",
+      "title": "La morsa del gelo",
+      "phase": "Era III - L'Inverno Implacabile",
+      "description": "Bufere sferzanti si abbattono sulla vallata; pesanti pelli d'orso e il calore del fuoco comune sono indispensabili."
+    },
+    {
+      "order": 4,
+      "badgeText": "Livello V",
+      "title": "Il grande mammut",
+      "phase": "Era IV - La Caccia Leggendaria",
+      "description": "I cacciatori uniscono lance e trappole per abbattere un colossale mammut lanoso, garantendo provviste e zanne."
+    },
+    {
+      "order": 5,
+      "badgeText": "Livello VII",
+      "title": "La pittura rupestre compiuta",
+      "phase": "Era V - L'Eterna Memoria",
+      "description": "Completare la grande pittura murale in cinque frammenti per tramandare le imprese della tribù alle generazioni future."
+    }
+  ]
+}

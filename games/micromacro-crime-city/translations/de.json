@@ -1,0 +1,66 @@
+{
+  "title": "MicroMacro: Crime City",
+  "subtitle": "Kooperative visuelle Deduktion auf einem riesigen, detailreichen Schwarz-Weiß-Stadtplan",
+  "tagline": "Enthülle verborgene Verbrechen in den Straßen von Crime City",
+  "loreSummary": "In Crime City lauern finstere Machenschaften, raffinierte Taschendiebe und dreiste Einbrüche an jeder Ecke. Ausgerüstet mit einer Lupe rekonstruiert Ihr Ermittlerteam Zeitabläufe, verfolgt Verdächtige quer über den Riesenstadtplan und löst 16 verknüpfte Kriminalfälle.",
+  "badgeCategory": "Visuelle Deduktion & Wimmelbild",
+  "roadmapTitle": "🔎 Crime-City-Fallchronik & Stadtplan-Fortschritt",
+  "roadmapBadge": "FALL-ROADMAP",
+  "keyFeatures": [
+    "Innovative raumzeitliche Deduktion auf einem 75x110 cm großen handgezeichneten Wimmelbildplan",
+    "Gleichzeitige Zeitebenen, auf denen Personen zu verschiedenen Zeitpunkten des Tages dargestellt sind",
+    "16 eigenständige Kriminalfälle in 5 ansteigenden Schwierigkeitsstufen",
+    "Ausgezeichnet mit dem begehrten Kritikerpreis Spiel des Jahres 2021"
+  ],
+  "scopes": {
+    "micromacro_full_investigation": {
+      "name": "Alle 16 Crime-City-Fälle",
+      "description": "Die vollständige Kriminalkampagne des Grundspiels vom ersten 1-Sterne-Auftakt bis zum anspruchsvollen 5-Sterne-Finale."
+    },
+    "micromacro_introductory_cases": {
+      "name": "Einsteiger-Ermittler-Bogen (Erste 5 Fälle)",
+      "description": "Fünf zugängliche 1- und 2-Sterne-Fälle – perfekt für entspannte Deduktionsabende."
+    },
+    "micromacro_complex_mysteries": {
+      "name": "Meisterdetektiv-Herausforderungen (Sterne 3–5)",
+      "description": "Die anspruchsvollere Hälfte der Stadtfälle mit verzweigten Fluchtrouten, falschen Fährten und versteckten Details."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Fall 1",
+      "title": "Erste Schritte in Crime City",
+      "phase": "Stufe 1 - Die erste heiße Spur",
+      "description": "Mit der Lupe bewaffnet lösen die Detektive ihren ersten Straßenfall und verfolgen Tatverdächtige rückwärts durch die Zeit."
+    },
+    {
+      "order": 2,
+      "badgeText": "Fall 4",
+      "title": "Auf der Flucht",
+      "phase": "Stufe 2 - Verfolgungsjagd im Großstadttrubel",
+      "description": "Verfolgung von Fluchtfahrzeugen und verdächtigen Gestalten vorbei an belebten U-Bahn-Stationen und Schaufenstern."
+    },
+    {
+      "order": 3,
+      "badgeText": "Fall 8",
+      "title": "Intrigen in der Innenstadt",
+      "phase": "Stufe 3 - Verschachtelte Motive",
+      "description": "Fälle mit mehreren Hinweiskarten fordern das Team heraus, verborgene Tatmotive und unauffällige Komplizen zu entlarven."
+    },
+    {
+      "order": 4,
+      "badgeText": "Fall 12",
+      "title": "Pläne des Syndikats",
+      "phase": "Stufe 4 - Raubzüge von Format",
+      "description": "Knifflige 4-Sterne-Ermittlungen, bei denen Zeitleisten verschwimmen und Täter geschickt ihre Spuren verwischen."
+    },
+    {
+      "order": 5,
+      "badgeText": "Fall 16",
+      "title": "Das Notizbuch des Meisterdetektivs",
+      "phase": "Stufe 5 - Das ultimative Stadträtsel",
+      "description": "Das krönende 5-Sterne-Meisterstück, das höchste Aufmerksamkeit und Kombinationsgabe in jedem Winkel von Crime City abverlangt."
+    }
+  ]
+}

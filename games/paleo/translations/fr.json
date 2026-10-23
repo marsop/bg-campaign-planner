@@ -1,0 +1,66 @@
+{
+  "title": "Paleo",
+  "subtitle": "Survie coopérative à l'Âge de Pierre, exploration, artisanat et peintures rupestres",
+  "tagline": "Ensemble, peignez l'histoire éternelle de votre tribu",
+  "loreSummary": "À l'aube sauvage de l'humanité, votre tribu doit s'unir pour survivre au froid mordant, aux bêtes sauvages et à la faim. Explorez des contrées hostiles, fabriquez des outils rudimentaires et achevez la fresque sacrée du mammouth avant que la nature n'ait raison de vous.",
+  "badgeCategory": "Survie Préhistorique Coopérative",
+  "roadmapTitle": "🦣 Chronique de la Tribu & Progression des Modules",
+  "roadmapBadge": "FEUILLE DE ROUTE DE SURVIE",
+  "keyFeatures": [
+    "Exploration intuitive guidée par le dos des cartes figurant forêts, rivières et massifs rocheux",
+    "Solidarité immédiate permettant aux joueurs de s'entraider lors des rencontres simultanées",
+    "10 modules thématiques combinés en 7 scénarios évolutifs à la difficulté croissante",
+    "Vainqueur du prestigieux prix Kennerspiel des Jahres 2021"
+  ],
+  "scopes": {
+    "paleo_full_chronicles": {
+      "name": "Les Chroniques Paléolithiques (Scénarios I–VII)",
+      "description": "La progression complète en 7 scénarios, de la première étincelle du foyer à l'achèvement de la fresque rupestre."
+    },
+    "paleo_introductory_tribe": {
+      "name": "Premiers Pas de la Tribu (Scénarios I–III)",
+      "description": "Une trilogie d'initiation accessible axée sur les premiers abris, la taille du silex et la chasse initiale."
+    },
+    "paleo_master_survival": {
+      "name": "Maîtrise Totale de la Survie (Tous les Scénarios)",
+      "description": "L'épopée préhistorique intégrale englobant l'ensemble des niveaux et les combinaisons avancées de modules."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Niveau I",
+      "title": "Premiers pas",
+      "phase": "Ère I - Le Premier Foyer",
+      "description": "Cueillir des baies et tailler des bifaces tout en apprenant à appréhender les dangers cachés derrière chaque type de terrain."
+    },
+    {
+      "order": 2,
+      "badgeText": "Niveau II",
+      "title": "Un abri sûr",
+      "phase": "Ère II - Bâtir le Campement",
+      "description": "Aménager un camp solide, entretenir le feu sacré et repousser les assauts nocturnes des prédateurs."
+    },
+    {
+      "order": 3,
+      "badgeText": "Niveau IV",
+      "title": "Le grand froid",
+      "phase": "Ère III - L'Hiver Glacial",
+      "description": "De rudes tempêtes de neige s'abattent sur la vallée ; peaux chaudes et partage de la chaleur du feu sont indispensables."
+    },
+    {
+      "order": 4,
+      "badgeText": "Niveau V",
+      "title": "Le grand mammouth",
+      "phase": "Ère IV - La Chasse Légendaire",
+      "description": "La tribu conjugue lances et pièges de fosse pour abattre un colossal mammouth et assurer sa subsistance."
+    },
+    {
+      "order": 5,
+      "badgeText": "Niveau VII",
+      "title": "La fresque rupestre achevée",
+      "phase": "Ère V - La Mémoire Éternelle",
+      "description": "Achever la peinture murale sacrée en cinq fragments pour immortaliser les exploits de la tribu à travers les âges."
+    }
+  ]
+}

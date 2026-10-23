@@ -1,0 +1,66 @@
+{
+  "title": "MicroMacro: Crime City",
+  "subtitle": "Deducción visual cooperativa sobre un descomunal e intrincado mapa urbano en blanco y negro",
+  "tagline": "Descubre crímenes ocultos en las calles de Crime City",
+  "loreSummary": "Crime City es un hervidero de tratos turbios, carteristas escurridizos y audaces atracos. Lupa en mano, vuestro equipo de detectives examina un gigantesco mapa para reconstruir cronologías, seguir sospechosos y resolver 16 misterios interconectados.",
+  "badgeCategory": "Deducción Visual y Misterio",
+  "roadmapTitle": "🔎 Crónica de Casos de Crime City y Progresión del Mapa",
+  "roadmapBadge": "HOJA DE RUTA DE CASOS",
+  "keyFeatures": [
+    "Innovadora deducción espacio-temporal sobre un mapa mural ilustrado a tinta de 75x110 cm",
+    "Seguimiento cronológico continuo donde los personajes aparecen en múltiples momentos del día",
+    "16 expedientes con 5 niveles de dificultad progresiva, desde iniciación hasta auténticos desafíos",
+    "Juego del Año con el galardón Spiel des Jahres 2021"
+  ],
+  "scopes": {
+    "micromacro_full_investigation": {
+      "name": "Los 16 Casos de Crime City",
+      "description": "La investigación integral del juego base que abarca desde los casos iniciales de 1 estrella hasta el gran enigma final de 5 estrellas."
+    },
+    "micromacro_introductory_cases": {
+      "name": "Arco Inicial de Detectives (Primeros 5 Casos)",
+      "description": "Un conjunto introductorio de casos accesibles de 1 y 2 estrellas, ideal para sesiones familiares o de iniciación."
+    },
+    "micromacro_complex_mysteries": {
+      "name": "Casos Complejos de Gran Maestro (Estrellas 3–5)",
+      "description": "La mitad más exigente de Crime City con trayectorias laberínticas, coartadas engañosas y detalles diminutos."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Caso 1",
+      "title": "Primeros pasos en Crime City",
+      "phase": "Nivel 1 - La Primera Pista",
+      "description": "Lupa en mano, los detectives resuelven su primer crimen callejero rastreando los pasos del sospechoso hacia atrás en el tiempo."
+    },
+    {
+      "order": 2,
+      "badgeText": "Caso 4",
+      "title": "Siguiendo la huida",
+      "phase": "Nivel 2 - Persecución Urbana",
+      "description": "Siguiendo rutas de vehículos y personajes sospechosos a través de concurridas estaciones de metro y escaparates."
+    },
+    {
+      "order": 3,
+      "badgeText": "Caso 8",
+      "title": "Intrigas en el centro",
+      "phase": "Level 3 - Móviles Complejos",
+      "description": "Casos con múltiples cartas que exigen deducir motivos ocultos y desenmascarar a cómplices a plena vista."
+    },
+    {
+      "order": 4,
+      "badgeText": "Caso 12",
+      "title": "Complots del sindicato",
+      "phase": "Nivel 4 - Golpes de Alto Vuelo",
+      "description": "Investigaciones complejas de 4 estrellas donde las líneas temporales se cruzan y los sospechosos camuflan su rastro."
+    },
+    {
+      "order": 5,
+      "badgeText": "Caso 16",
+      "title": "El cuaderno del maestro detective",
+      "phase": "Nivel 5 - El Gran Enigma Urbano",
+      "description": "El rompecabezas definitivo de 5 estrellas que pondrá a prueba la agudeza visual y deductiva en cada rincón de Crime City."
+    }
+  ]
+}

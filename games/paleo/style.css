@@ -1,0 +1,68 @@
+/* ==========================================================================
+   Paleo — Stone Age Primitive Survival & Cave Art Theming
+   Scoped under .theme-paleo
+   ========================================================================== */
+
+/* Scoped variables */
+.theme-paleo,
+.theme-paleo-active {
+  --paleo-ochre: #ea580c;
+  --paleo-moss: #84cc16;
+  --paleo-dark: #1c1917;
+  --paleo-border-glow: rgba(234, 88, 12, 0.35);
+  --paleo-moss-glow: rgba(132, 204, 22, 0.25);
+}
+
+/* Card styling with ochre stone borders and campfire glow */
+.theme-paleo .card,
+.theme-paleo .planner-card,
+.theme-paleo .summary-card {
+  border: 1px solid rgba(234, 88, 12, 0.35);
+  box-shadow: 0 4px 20px rgba(12, 10, 9, 0.85), 0 0 16px rgba(234, 88, 12, 0.16);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.theme-paleo .card:hover,
+.theme-paleo .planner-card:hover {
+  border-color: rgba(132, 204, 22, 0.65);
+  box-shadow: 0 6px 24px rgba(12, 10, 9, 0.95), 0 0 22px rgba(132, 204, 22, 0.30);
+}
+
+/* Hero section styling */
+.hero-paleo {
+  background: linear-gradient(135deg, rgba(41, 37, 36, 0.75) 0%, rgba(234, 88, 12, 0.18) 50%, rgba(28, 25, 23, 0.95) 100%);
+  border-left: 4px solid var(--paleo-ochre, #ea580c);
+  border-radius: 8px;
+  box-shadow: inset 0 0 30px rgba(234, 88, 12, 0.20);
+}
+
+/* Thematic Roadmap node enhancements */
+.roadmap-paleo .roadmap-item-badge,
+.roadmap-paleo .milestone-icon {
+  background: radial-gradient(circle, rgba(234, 88, 12, 0.35) 0%, rgba(28, 25, 23, 0.95) 100%);
+  border: 1px solid rgba(132, 204, 22, 0.50);
+  box-shadow: 0 0 14px rgba(234, 88, 12, 0.28);
+}
+
+.roadmap-paleo .milestone-card {
+  border-left: 3px solid var(--paleo-ochre, #ea580c);
+  background: rgba(28, 25, 23, 0.94);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.roadmap-paleo .milestone-card:hover {
+  border-left-color: var(--paleo-moss, #84cc16);
+  box-shadow: 0 0 20px rgba(132, 204, 22, 0.32);
+}
+
+/* Active Theme Glow */
+.theme-paleo-active {
+  box-shadow: 0 0 28px rgba(234, 88, 12, 0.40) !important;
+}
+
+/* Category badge */
+.theme-paleo .badge-category {
+  background-color: rgba(234, 88, 12, 0.18);
+  color: #fdba74;
+  border: 1px solid rgba(234, 88, 12, 0.45);
+}

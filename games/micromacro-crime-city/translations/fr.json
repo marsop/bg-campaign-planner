@@ -1,0 +1,66 @@
+{
+  "title": "MicroMacro: Crime City",
+  "subtitle": "Déduction visuelle coopérative sur un plan de ville géant et foisonnant en noir et blanc",
+  "tagline": "Élucidez les crimes cachés dans les rues de Crime City",
+  "loreSummary": "Crime City regorge de trafics clandestins, de pickpockets agiles et de méfaits audacieux. Loupe en main, votre équipe d'enquêteurs scrute une carte immense pour reconstituer des chronologies, pister des suspects et résoudre 16 affaires interconnectées.",
+  "badgeCategory": "Déduction Visuelle & Mystère",
+  "roadmapTitle": "🔎 Chronique des Affaires de Crime City & Progression Urbaine",
+  "roadmapBadge": "FEUILLE DE ROUTE D'AFFAIRES",
+  "keyFeatures": [
+    "Déduction spatio-temporelle novatrice sur un plan mural dessiné à l'encre de 75x110 cm",
+    "Représentation simultanée des personnages à plusieurs moments charnières de leur journée",
+    "16 dossiers classés selon 5 niveaux d'étoiles, des premières déductions aux énigmes expertes",
+    "Vainqueur du prestigieux prix Spiel des Jahres 2021"
+  ],
+  "scopes": {
+    "micromacro_full_investigation": {
+      "name": "L'Intégrale des 16 Affaires",
+      "description": "L'enquête complète du jeu de base depuis les affaires d'échauffement 1 étoile jusqu'au redoutable dossier 5 étoiles."
+    },
+    "micromacro_introductory_cases": {
+      "name": "Parcours Détective Débutant (5 Premières Affaires)",
+      "description": "Une sélection conviviale d'affaires 1 et 2 étoiles idéale pour découvrir le jeu en famille ou entre amis."
+    },
+    "micromacro_complex_mysteries": {
+      "name": "Dossiers Experts des Maîtres Enquêteurs (Étoiles 3–5)",
+      "description": "Les enquêtes les plus denses de Crime City avec pistes trompeuses, alibis forgés et détails minuscules."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Affaire 1",
+      "title": "Premiers pas dans Crime City",
+      "phase": "Niveau 1 - Le Premier Indice",
+      "description": "Loupe en main, les détectives résolvent leur premier délit de rue en remontant le fil du temps sur le plan."
+    },
+    {
+      "order": 2,
+      "badgeText": "Affaire 4",
+      "title": "Sur la piste de la fuite",
+      "phase": "Niveau 2 - Filature Urbaine",
+      "description": "Suivre véhicules et passants suspects au milieu du vacarme des stations de métro et des devantures de boutiques."
+    },
+    {
+      "order": 3,
+      "badgeText": "Affaire 8",
+      "title": "Intrigues en plein centre",
+      "phase": "Niveau 3 - Mobiles Complexes",
+      "description": "Des enquêtes à cartes multiples exigeant de déceler les mobiles cachés et de démasquer des complices insoupçonnés."
+    },
+    {
+      "order": 4,
+      "badgeText": "Affaire 12",
+      "title": "Machinations du syndicat",
+      "phase": "Niveau 4 - Braquages d'Envergure",
+      "description": "Dossiers complexes 4 étoiles où les lignes de temps s'entrecroisent et où les suspects brouillent méthodiquement leurs traces."
+    },
+    {
+      "order": 5,
+      "badgeText": "Affaire 16",
+      "title": "Le carnet du maître détective",
+      "phase": "Niveau 5 - L'Énigme Urbaine Ultime",
+      "description": "Le casse-tête 5 étoiles final qui mettra à l'épreuve l'acuité visuelle et le sens logique dans les moindres recoins de Crime City."
+    }
+  ]
+}

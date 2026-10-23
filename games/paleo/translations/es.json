@@ -1,0 +1,66 @@
+{
+  "title": "Paleo",
+  "subtitle": "Supervivencia cooperativa en la Edad de Piedra, exploración, artesanía y pinturas rupestres",
+  "tagline": "Colaborad para pintar la historia inmortal de vuestra tribu",
+  "loreSummary": "En los albores indómitos de la humanidad, vuestra tribu debe permanecer unida para resistir el frío glaciar, las fieras depredadoras y la hambruna. Explorad diversos parajes, cread herramientas primitivas y completad el sagrado mural del mamut antes de que el invierno os venza.",
+  "badgeCategory": "Supervivencia Prehistórica Cooperativa",
+  "roadmapTitle": "🦣 Crónica de la Tribu y Progresión de Módulos",
+  "roadmapBadge": "HOJA DE RUTA DE SUPERVIVENCIA",
+  "keyFeatures": [
+    "Intuitiva exploración a través del reverso de las cartas que representan bosques, montañas y ríos",
+    "Apoyo cooperativo simultáneo donde los miembros de la tribu se ayudan mutuamente en cada lance",
+    "Sistema modular con 10 mazos temáticos combinables en 7 niveles de dificultad progresiva",
+    "Ganador del prestigioso premio Kennerspiel des Jahres 2021"
+  ],
+  "scopes": {
+    "paleo_full_chronicles": {
+      "name": "Crónicas del Paleolítico (Escenarios I–VII)",
+      "description": "La campaña completa de 7 escenarios desde la primera fogata hasta la creación de la gran pintura rupestre final."
+    },
+    "paleo_introductory_tribe": {
+      "name": "Primeros Pasos de la Tribu (Escenarios I–III)",
+      "description": "Una trilogía introductoria accesible que abarca el primer refugio, la talla de sílex y las primeras cacerías."
+    },
+    "paleo_master_survival": {
+      "name": "Supervivencia Tribal Maestra (Todos los Escenarios)",
+      "description": "La odisea prehistórica definitiva con todos los escenarios base y combinaciones avanzadas de módulos."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Nivel I",
+      "title": "Primeros pasos",
+      "phase": "Era I - El Primer Hogar",
+      "description": "Recolectar bayas y tallar hachas de mano mientras aprendéis a interpretar los dorsos del terreno sin caer en peligros ocultos."
+    },
+    {
+      "order": 2,
+      "badgeText": "Nivel II",
+      "title": "Un refugio seguro",
+      "phase": "Era II - Levantando el Campamento",
+      "description": "Construir un asentamiento duradero, dominar el fuego y levantar defensas contra los depredadores nocturnos."
+    },
+    {
+      "order": 3,
+      "badgeText": "Nivel IV",
+      "title": "El gran frío",
+      "phase": "Era III - La Helada Implacable",
+      "description": "Gélidas ventiscas azotan el valle, exigiendo confeccionar abrigos de pieles pesadas y compartir el calor de la hoguera."
+    },
+    {
+      "order": 4,
+      "badgeText": "Nivel V",
+      "title": "El gran mamut",
+      "phase": "Era IV - La Cacería Legendaria",
+      "description": "La tribu une lanzas y trampas para abatir a un colosal mamut lanudo, garantizando carne y marfil para el invierno."
+    },
+    {
+      "order": 5,
+      "badgeText": "Nivel VII",
+      "title": "La gran pintura rupestre",
+      "phase": "Era V - El Legado Inmortal",
+      "description": "Culminar el mural sagrado de cinco fragmentos para inmortalizar las hazañas de la tribu y asegurar su memoria milenaria."
+    }
+  ]
+}

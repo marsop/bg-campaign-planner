@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (76 games):**
+**Currently in app (80 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -85,15 +85,15 @@ requested by the user.
 - Risk Legacy
 - The Initiative
 - Robinson Crusoe: Adventures on the Cursed Island
+- The Lord of the Rings: The Card Game
+- Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases
+- MicroMacro: Crime City
+- Paleo
 
 ---
 
 ## 🟥 High Priority
 
-- **The Lord of the Rings: The Card Game** — Iconic cooperative card adventure featuring campaign boons, burdens, and persistent quest progression. 8-12 quests (12-20 hours). ~7.7 BGG. 1-4 players. Deck construction, cooperative, campaign mode.
-- **Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases** — Classic Victorian narrative investigation campaign of 10 standalone and interconnected cases. 10 cases (15-25 hours). ~7.7 BGG. 1-8 players. Deductive mystery, narrative, casebook exploration.
-- **MicroMacro: Crime City** — Cooperative visual deduction and case-solving game across 16 interconnected black-and-white city map mysteries. 16 cases (8-12 hours). ~7.6 BGG. 1-4 players. Visual search, deduction, mystery.
-- **Paleo** — Cooperative Stone Age survival adventure across 10 modular quest decks grouped into 7 progressive scenarios. 7-10 sessions (10-18 hours). ~7.7 BGG. 1-4 players. Cooperative adventure, deck evolution, survival.
 - **Dorfromantik: The Board Game** — Relaxing cooperative tile-placement puzzle campaign with unlockable achievement boxes and campaign score sheets. 15-25 games (8-15 hours). ~7.6 BGG. 1-6 players. Tile placement, cooperative, legacy unlocks.
 - **This War of Mine: The Board Game** — Gritty narrative-driven civilian survival campaign based on the video game, with campaign journal and save system. 5-10 sessions (15-25 hours). ~7.8 BGG. 1-6 players. Narrative survival, storybook, worker placement.
 - **Maracaibo** — 17th-century Caribbean sailing and trading strategy game featuring an evolving 12-chapter legacy story campaign. 12 chapters (25-35 hours). ~8.1 BGG. 1-4 players. Euro strategy, legacy tiles, story cards.

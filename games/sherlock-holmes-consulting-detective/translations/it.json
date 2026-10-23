@@ -1,0 +1,73 @@
+{
+  "title": "Sherlock Holmes Consulente Investigativo: I Delitti del Tamigi e Altri Casi",
+  "subtitle": "Deduzione vittoriana immersiva con libretti dei casi, mappa di Londra e quotidiani d'epoca",
+  "tagline": "Sfida l'intelletto del più grande investigatore al mondo",
+  "loreSummary": "La fitta nebbia londinese nasconde crimini efferati e oscuri complotti. Nei panni degli Irregolari di Baker Street, esaminerete la stampa quotidiana, consulterete elenchi cittadini, interrogherete testimoni e ricostruirete indizi prima di confrontarvi con Sherlock Holmes.",
+  "badgeCategory": "Giallo Deduttivo Vittoriano",
+  "roadmapTitle": "🔍 Cronaca dei Casi di Baker Street & Progressione delle Indagini",
+  "roadmapBadge": "TABELLA DEI CASI",
+  "keyFeatures": [
+    "Indagine deduttiva a mappa aperta supportata dalla dettagliata toponomastica londinese",
+    "Giornali d'epoca con necrologi, cronaca nera e tracce sotto traccia",
+    "Interrogatori approfonditi, sopralluoghi ed esame analitico degli alibi",
+    "Valutazione comparativa diretta con il genio investigativo di Sherlock Holmes"
+  ],
+  "scopes": {
+    "sherlock_full_investigation": {
+      "name": "Antologia dei Delitti del Tamigi (Tutti i 10 Casi)",
+      "description": "L'intera sequenza investigativa comprendente tutti i dieci casi originali, dal Magnate delle munizioni alle Spregiudicate zitelle."
+    },
+    "sherlock_introductory_trilogy": {
+      "name": "Trilogia Iniziale di Baker Street (Casi 1–3)",
+      "description": "Un trittico di celebri indagini per coordinare le dinamiche di squadra e padroneggiare la raccolta degli indizi."
+    },
+    "sherlock_master_selection": {
+      "name": "Selezione dei Maestri Investigatori (Casi 1–6)",
+      "description": "Sei enigmi complessi e sfaccettati comprendenti Il cadavere enigmatico e La maledizione della mummia."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Caso 1",
+      "title": "Il magnate delle munizioni",
+      "phase": "Fascicolo I - Il Primo Incarico al 221B",
+      "description": "Sherlock Holmes affida agli Irregolari l'incarico di far luce sull'assassinio di un facoltoso costruttore d'armi."
+    },
+    {
+      "order": 2,
+      "badgeText": "Caso 3",
+      "title": "La colpevole perplessa",
+      "phase": "Fascicolo II - Teatro e Alta Società",
+      "description": "Dipanare moventi e segreti inconfessabili attorno a una nobildonna rinvenuta accanto al pretendente privo di vita."
+    },
+    {
+      "order": 3,
+      "badgeText": "Caso 5",
+      "title": "Il cadavere enigmatico",
+      "phase": "Fascicolo III - Misteri Sotterranei",
+      "description": "Decifrare referti autoptici e messaggi sibillini visitando obitori e cimiteri periferici di Londra."
+    },
+    {
+      "order": 4,
+      "badgeText": "Caso 6",
+      "title": "La maledizione della mummia",
+      "phase": "Fascicolo IV - Il British Museum",
+      "description": "Un illustre archeologo muore improvvisamente; l'ombra di un'antica maledizione nasconde un calcolato omicidio."
+    },
+    {
+      "order": 5,
+      "badgeText": "Caso 8",
+      "title": "I delitti del Tamigi",
+      "phase": "Fascicolo V - Cospirazione sul Fiume",
+      "description": "Una catena di annegamenti sospetti lungo le nebbiose banchine del Tamigi porta alla luce una pericolosa banda criminale."
+    },
+    {
+      "order": 6,
+      "badgeText": "Caso 10",
+      "title": "Le spregiudicate zitelle",
+      "phase": "Fascicolo VI - La Conclusione Finale",
+      "description": "L'indagine culminante che richiede il massimo rigore logico per eguagliare le magistrali deduzioni di Holmes."
+    }
+  ]
+}

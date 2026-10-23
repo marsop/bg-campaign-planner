@@ -7,6 +7,50 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.77.0] - 2026-10-23
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Paleo**, the acclaimed cooperative Stone Age survival board game by Peter Rustemeyer (Hans im Glück / Z-Man Games, 2020; Kennerspiel des Jahres 2021 Winner; BGG #300531).
+    - 3 campaign scope presets: *The Paleolithic Chronicles (Scenarios I–VII)* (7 scenarios, recommended), *First Steps of the Tribe (Scenarios I–III)* (3 scenarios), and *Master Stone Age Survival (All Scenarios & Variants)* (10 scenarios).
+    - 5 narrative tribal milestone checkpoints: *First Steps* (Level I), *A Safe Haven* (Level II), *The Deep Freeze* (Level IV), *The Great Mammoth* (Level V), and *The Master Cave Painting* (Level VII Finale), with full spoiler mask protection.
+    - Primitive Stone Age visual identity (campfire ochre `#ea580c`, wilderness moss `#84cc16`, cave stone slate `#1c1917`, MedievalSharp engraved rock typography, 1:1 flat front box cover art, and atmospheric widescreen Ice Age tundra cave-shelter backdrop).
+    - Scoped custom CSS stylesheet (`games/paleo/style.css`) providing flint-edged card borders, campfire halos, and cave-art roadmap badges.
+    - Complete localized translations across English, Spanish (*Paleo*), German (*Paleo*), French (*Paleo*), and Italian (*Paleo*).
+
+## [0.76.0] - 2026-10-23
+
+### Added
+- **New Board Game Added**:
+  - Added support for **MicroMacro: Crime City**, the hit cooperative visual deduction game by Johannes Sich (Edition Spielwiese / Pegasus Spiele, 2020; Spiel des Jahres 2021 Winner; BGG #318977).
+    - 3 campaign scope presets: *All 16 Crime City Cases* (16 cases, recommended), *Starter Detective Arc (First 5 Cases)* (5 cases), and *Master Sleuth Complex Cases (Stars 3–5)* (8 cases).
+    - 5 progressive visual investigation milestone checkpoints: *First Steps in Crime City* (Case 1), *Following the Getaway* (Case 4), *Midtown Intrigues* (Case 8), *Syndicate Schemes* (Case 12), and *The Master Detective's Ledger* (Case 16 Finale), with full spoiler mask protection.
+    - Graphic novel noir line-art visual identity (detective amber `#f59e0b`, lens cyan `#06b6d4`, dark ink slate `#18181b`, Special Elite typewriter typography, 1:1 flat front box cover art, and atmospheric widescreen black-and-white isometric city backdrop).
+    - Scoped custom CSS stylesheet (`games/micromacro-crime-city/style.css`) providing magnifying glass borders, amber halos, and urban detective roadmap badges.
+    - Complete localized translations across English, Spanish (*MicroMacro: Crime City*), German (*MicroMacro: Crime City*), French (*MicroMacro: Crime City*), and Italian (*MicroMacro: Crime City*).
+
+## [0.75.0] - 2026-10-23
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases**, the pioneering narrative deduction investigation game by Raymond Edwards, Suzanne Goldberg, and Gary Grady (Space Cowboys / Asmodee; BGG #2511).
+    - 3 campaign scope presets: *The Thames Murders Anthology (All 10 Cases)* (10 cases, recommended), *Baker Street Starter Trilogy (Cases 1–3)* (3 cases), and *Master Sleuth Selection (Cases 1–6)* (6 cases).
+    - 6 Victorian investigative milestone checkpoints: *The Munitions Magnate* (Case 1), *The Mystified Murderess* (Case 3), *The Cryptic Corpse* (Case 5), *The Mummy's Curse* (Case 6), *The Thames Murders* (Case 8), and *The Scheming Spinsters* (Case 10 Finale), with full spoiler mask protection.
+    - Victorian gaslight noir visual identity (warm amber `#b45309`, Thames river blue `#0284c7`, dark charcoal `#1c1917`, Cormorant SC classical typography, 1:1 flat front box cover art, and atmospheric widescreen foggy London Thames embankment backdrop).
+    - Scoped custom CSS stylesheet (`games/sherlock-holmes-consulting-detective/style.css`) providing mahogany card borders, gaslamp halos, and Baker Street casebook badges.
+    - Complete localized translations across English, Spanish (*Sherlock Holmes Detective Asesor: Los Crímenes del Támesis y Otros Casos*), German (*Sherlock Holmes Criminal-Cabinet: Die Themse-Morde & andere Fälle*), French (*Sherlock Holmes Détective Conseil: Les Meurtres de la Tamise et Autres Affaires*), and Italian (*Sherlock Holmes Consulente Investigativo: I Delitti del Tamigi e Altri Casi*).
+
+## [0.74.0] - 2026-10-23
+
+### Added
+- **New Board Game Added**:
+  - Added support for **The Lord of the Rings: The Card Game**, the celebrated cooperative tactical deck construction game by Nate French (Fantasy Flight Games, 2011; BGG #77423).
+    - 3 campaign scope presets: *Mirkwood Campaign Experience (8 Quests)* (8 quests, recommended), *Core Set Trilogy (3 Quests)* (3 quests), and *Fellowship of the Ring Saga (12 Quests)* (12 quests).
+    - 6 narrative quest milestone checkpoints: *Passage Through Mirkwood* (Quest 1), *Journey Along the Anduin* (Quest 2), *Escape from Dol Guldur* (Quest 3), *The Oath* (Quest 4), *The Caves of Nibin-Dûm* (Quest 5), and *Assault on the Hill of Sorcery* (Quest 8 Finale), with full spoiler mask protection.
+    - High fantasy Middle-earth visual identity (One Ring gold `#ca8a04`, Lothlórien emerald `#15803d`, Mordor shadow dark `#1c1917`, Cinzel classical typography, 1:1 flat front box cover art, and atmospheric widescreen Middle-earth landscape backdrop).
+    - Scoped custom CSS stylesheet (`games/lotr-lcg/style.css`) providing elven gold card borders, starlight halos, and Fellowship roadmap badges.
+    - Complete localized translations across English, Spanish (*El Señor de los Anillos: El Juego de Cartas*), German (*Der Herr der Ringe: Das Kartenspiel*), French (*Le Seigneur des Anneaux: Le Jeu de Cartes*), and Italian (*Il Signore degli Anelli: Il Gioco di Carte*).
+
 ## [0.73.0] - 2026-10-23
 
 ### Added

@@ -1,0 +1,73 @@
+{
+  "title": "El Señor de los Anillos: El Juego de Cartas",
+  "subtitle": "Construcción táctica de mazos y arriesgadas misiones cooperativas por la Tierra Media",
+  "tagline": "Una comunidad de héroes frente a la sombra creciente",
+  "loreSummary": "La Tierra Media pende de un hilo. Mientras las fuerzas oscuras se congregan, un grupo de héroes une fuerzas a través de reinos y antiguos pactos para emprender peligrosas misiones y desafiar al Señor Oscuro.",
+  "badgeCategory": "Living Card Game Cooperativo",
+  "roadmapTitle": "💍 Crónica de la Comunidad y Progresión de Misiones",
+  "roadmapBadge": "HOJA DE RUTA DE MISIONES",
+  "keyFeatures": [
+    "Profunda personalización de mazos a través de cuatro esferas de influencia",
+    "Gestión táctica de la zona de preparación y resolución simultánea de misiones",
+    "Modo campaña con ventajas persistentes, cargas y seguimiento de bajas",
+    "Escalabilidad sobresaliente tanto en solitario como en grupo frente al mal de Tolkien"
+  ],
+  "scopes": {
+    "lotr_mirkwood_campaign": {
+      "name": "Campaña del Bosque Negro (8 Misiones)",
+      "description": "El arco de campaña introductorio completo que conecta la caja básica con el paquete narrativo La Oscuridad del Bosque Negro."
+    },
+    "lotr_core_trio": {
+      "name": "Trilogía de la Caja Básica (3 Misiones)",
+      "description": "La tríada fundacional de aventuras: A través del Bosque Negro, Viaje por el Anduin y Evasión de Dol Guldur."
+    },
+    "lotr_fellowship_saga": {
+      "name": "Saga de La Comunidad del Anillo (12 Misiones)",
+      "description": "Una travesía épica de ciclo completo que recorre los hitos literarios del primer volumen de la trilogía."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Misión 1",
+      "title": "A través del Bosque Negro",
+      "phase": "Acto I - El Sendero Sombrío",
+      "description": "Los héroes portan un mensaje urgente bajo la espesura del Bosque Negro, repeliendo arañas voraces y bestias infectas."
+    },
+    {
+      "order": 2,
+      "badgeText": "Misión 2",
+      "title": "Viaje por el Anduin",
+      "phase": "Acto II - El Gran Río",
+      "description": "Navegando río abajo por el caudaloso Anduin, la compañía sobrevive a emboscadas ribereñas y hace frente a un temible Trol de las Colinas."
+    },
+    {
+      "order": 3,
+      "badgeText": "Misión 3",
+      "title": "Evasión de Dol Guldur",
+      "phase": "Acto III - Las Mazmorras del Nigromante",
+      "description": "Infiltrándose en la temible fortaleza del Nigromante, el grupo rescata a un compañero prisionero de sus lúgubres celdas subterráneas."
+    },
+    {
+      "order": 4,
+      "badgeText": "Misión 4",
+      "title": "El Juramento",
+      "phase": "Acto IV - Reunión de los Pueblos Libres",
+      "description": "Honrando antiguos juramentos por las Tierras Ásperas, los defensores se alzan para contener a las hordas orcas emergentes."
+    },
+    {
+      "order": 5,
+      "badgeText": "Misión 5",
+      "title": "Las Cuevas de Nibin-Dûm",
+      "phase": "Acto V - Las Profundidades Olvidadas",
+      "description": "Incursión en milenarias minas enanas abandonadas para recuperar reliquias arcanas antes de que la corrupción las consuma."
+    },
+    {
+      "order": 6,
+      "badgeText": "Misión 8",
+      "title": "Asalto a la Colina de la Hechicería",
+      "phase": "Acto VI - Clímax en la Fortaleza",
+      "description": "Un asalto final decisivo donde las fuerzas aunadas de la Tierra Media cercan los bastiones tenebrosos para sellar el mal."
+    }
+  ]
+}

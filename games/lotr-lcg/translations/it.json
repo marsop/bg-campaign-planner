@@ -1,0 +1,73 @@
+{
+  "title": "Il Signore degli Anelli: Il Gioco di Carte",
+  "subtitle": "Deck building tattico cooperativo e pericolose imprese attraverso la Terra di Mezzo",
+  "tagline": "Una compagnia di eroi contro l'Ombra che avanza",
+  "loreSummary": "La Terra di Mezzo si trova sull'orlo della rovina. Mentre le schiere dell'Ombra si radunano, eroi di nobili stirpi stringono salde alleanze per compiere audaci missioni e difendere i popoli liberi.",
+  "badgeCategory": "Living Card Game Cooperativo",
+  "roadmapTitle": "💍 Cronaca della Compagnia & Progressione delle Imprese",
+  "roadmapBadge": "TABELLA DELLE IMPRESE",
+  "keyFeatures": [
+    "Profonda personalizzazione del mazzo attraverso quattro sfere d'influenza sinergiche",
+    "Gestione strategica della minaccia nell'area di allestimento e prove corali",
+    "Modalità campagna con vantaggi permanenti, fardelli e tracciamento delle perdite",
+    "Eccezionale scalabilità sia in solitaria che in gruppo contro le creature di Tolkien"
+  ],
+  "scopes": {
+    "lotr_mirkwood_campaign": {
+      "name": "Campagna di Bosco Atro (8 Imprese)",
+      "description": "L'arco narrativo introduttivo completo che unisce il set base con l'espansione Nel Buio di Bosco Atro."
+    },
+    "lotr_core_trio": {
+      "name": "Trilogia del Set Base (3 Imprese)",
+      "description": "Le tre avventure originali: Attraverso Bosco Atro, Viaggio Lungo l'Anduin e Fuga da Dol Guldur."
+    },
+    "lotr_fellowship_saga": {
+      "name": "Saga della Compagnia dell'Anello (12 Imprese)",
+      "description": "Un maestoso cammino lungo l'intero primo volume della grande saga tolkieniana."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Impresa 1",
+      "title": "Attraverso Bosco Atro",
+      "phase": "Atto I - Il Sentiero nella Selva",
+      "description": "Gli eroi recapitano un messaggio cruciale facendosi largo nella cupa foresta e respingendo ragni colossali."
+    },
+    {
+      "order": 2,
+      "badgeText": "Impresa 2",
+      "title": "Viaggio Lungo l'Anduin",
+      "phase": "Atto II - Il Grande Fiume",
+      "description": "Navigando lungo l'Anduin, la compagnia resiste ad agguati fluviali e affronta un micidiale Troll delle Colline."
+    },
+    {
+      "order": 3,
+      "badgeText": "Impresa 3",
+      "title": "Fuga da Dol Guldur",
+      "phase": "Atto III - I Sotterranei del Negromante",
+      "description": "Infiltrazione nella roccaforte del Negromante per liberare un valoroso alleato rinchiuso nelle segrete."
+    },
+    {
+      "order": 4,
+      "badgeText": "Impresa 4",
+      "title": "Il Giuramento",
+      "phase": "Atto IV - L'Adunata dei Popoli Liberi",
+      "description": "Onorando sacri giuramenti nelle Terre Selvagge, i difensori serrano le fila per contrastare le orde di orchi."
+    },
+    {
+      "order": 5,
+      "badgeText": "Impresa 5",
+      "title": "Le Caverne di Nibin-Dûm",
+      "phase": "Atto V - Gli Abissi Dimenticati",
+      "description": "Spedizione nelle antiche miniere naniche abbandonate per dissotterrare reliquie prima che l'oscurità le inghiotta."
+    },
+    {
+      "order": 6,
+      "badgeText": "Impresa 8",
+      "title": "Assalto al Colle della Stregoneria",
+      "phase": "Atto VI - Scontro alla Fortezza",
+      "description": "Lo scontro risolutivo in cui le forze alleate assaltano il bastione del terrore per bandire l'Ombra."
+    }
+  ]
+}

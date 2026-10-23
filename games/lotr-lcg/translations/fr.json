@@ -1,0 +1,73 @@
+{
+  "title": "Le Seigneur des Anneaux: Le Jeu de Cartes",
+  "subtitle": "Construction de deck tactique et quêtes coopératives périlleuses en Terre du Milieu",
+  "tagline": "Une communauté de héros face à l'Ombre grandissante",
+  "loreSummary": "La Terre du Milieu chancelle au bord du gouffre. Alors que les hordes de l'Ombre s'assemblent, un groupe de héros scelle de nobles alliances pour accomplir d'audacieuses quêtes et protéger le monde libre.",
+  "badgeCategory": "Jeu de Cartes Évolutif Coopératif",
+  "roadmapTitle": "💍 Chronique de la Communauté & Progression des Quêtes",
+  "roadmapBadge": "FEUILLE DE ROUTE DE QUÊTES",
+  "keyFeatures": [
+    "Construction de deck stratégique selon quatre sphères d'influence complémentaires",
+    "Gestion tactique de la zone de cheminement et résolution collective des menaces",
+    "Mode campagne intégrant avantages permanents, fardeaux et mémoire des pertes",
+    "Excellente jouabilité en solitaire comme en communauté face aux créatures de Tolkien"
+  ],
+  "scopes": {
+    "lotr_mirkwood_campaign": {
+      "name": "Campagne de la Forêt Noire (8 Quêtes)",
+      "description": "L'arc narratif complet reliant la boîte de base à l'extension Les Ténèbres de la Forêt Noire."
+    },
+    "lotr_core_trio": {
+      "name": "Trilogie de la Boîte de Base (3 Quêtes)",
+      "description": "Le triptyque fondateur : Passage dans la Forêt Noire, Voyage le long de l'Anduin et Évasion de Dol Guldur."
+    },
+    "lotr_fellowship_saga": {
+      "name": "Saga de la Communauté de l'Anneau (12 Quêtes)",
+      "description": "Une épopée complète retraçant fidèlement les chapitres légendaires du premier tome du Seigneur des Anneaux."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Quête 1",
+      "title": "Passage dans la Forêt Noire",
+      "phase": "Acte I - Les Sentiers Sylvestres",
+      "description": "Les héros acheminent un message capital à travers la canopée oppressante, repoussant araignées géantes et embuscades."
+    },
+    {
+      "order": 2,
+      "badgeText": "Quête 2",
+      "title": "Voyage le long de l'Anduin",
+      "phase": "Acte II - Le Grand Fleuve",
+      "description": "Descendant les flots tumultueux de l'Anduin, la compagnie affronte des pillards et un redoutable Troll des Collines."
+    },
+    {
+      "order": 3,
+      "badgeText": "Quête 3",
+      "title": "Évasion de Dol Guldur",
+      "phase": "Acte III - Les Donjons du Nécromancien",
+      "description": "Infiltration de la sinistre forteresse du Nécromancien pour délivrer un compagnon emprisonné dans les cachots obscurs."
+    },
+    {
+      "order": 4,
+      "badgeText": "Quête 4",
+      "title": "Le Serment",
+      "phase": "Acte IV - Ralliement des Peuples Libres",
+      "description": "Fidèles aux anciens serments dans les Terres Sauvages, les gardiens se rassemblent pour briser l'offensive orque."
+    },
+    {
+      "order": 5,
+      "badgeText": "Quête 5",
+      "title": "Les Cavernes de Nibin-Dûm",
+      "phase": "Acte V - Les Mines Englouties",
+      "description": "Exploration d'anciennes mines naines oubliées pour exhumer de précieux artefacts avant l'assaut des ténèbres."
+    },
+    {
+      "order": 6,
+      "badgeText": "Quête 8",
+      "title": "Assaut sur la Colline de la Sorcellerie",
+      "phase": "Acte VI - Dénouement à la Citadelle",
+      "description": "Un affrontement ultime où les forces coalisées de la Terre du Milieu attaquent la forteresse pour repousser le mal."
+    }
+  ]
+}

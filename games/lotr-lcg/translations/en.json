@@ -1,0 +1,73 @@
+{
+  "title": "The Lord of the Rings: The Card Game",
+  "subtitle": "Cooperative tactical deck construction through perilous quests across Middle-earth",
+  "tagline": "A fellowship of heroes against the gathering shadow",
+  "loreSummary": "Middle-earth teeters on the brink of ruin. As Dark forces muster, a band of heroes unites across kingdoms and ancient alliances to undertake perilous quests, protect the innocent, and defy the Dark Lord.",
+  "badgeCategory": "Cooperative Living Card Game",
+  "roadmapTitle": "💍 Fellowship Chronicle & Quest Progression",
+  "roadmapBadge": "QUEST ROADMAP",
+  "keyFeatures": [
+    "Deep custom deck construction across four complementary spheres of influence",
+    "Staging area threat management and simultaneous quest resolution",
+    "Campaign mode with persistent boons, burdens, and hero casualty tracking",
+    "Solo and multi-hero scalability against iconic Tolkien adversaries"
+  ],
+  "scopes": {
+    "lotr_mirkwood_campaign": {
+      "name": "Mirkwood Campaign Experience (8 Quests)",
+      "description": "The complete introductory campaign arc connecting the core quests with the Dark of Mirkwood narrative scenario pack."
+    },
+    "lotr_core_trio": {
+      "name": "Core Set Trilogy (3 Quests)",
+      "description": "The foundational triad of adventures: Passage Through Mirkwood, Journey Along the Anduin, and Escape from Dol Guldur."
+    },
+    "lotr_fellowship_saga": {
+      "name": "Fellowship of the Ring Saga (12 Quests)",
+      "description": "An epic full-cycle journey traversing the classic narrative beats of the First Volume of the Ring trilogy."
+    }
+  },
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Quest 1",
+      "title": "Passage Through Mirkwood",
+      "phase": "Act I - The Woodland Path",
+      "description": "The heroes carry urgent tidings through the shadowed canopy of Mirkwood, warding off spiders and foul beasts."
+    },
+    {
+      "order": 2,
+      "badgeText": "Quest 2",
+      "title": "Journey Along the Anduin",
+      "phase": "Act II - The Great River",
+      "description": "Sailing downstream upon the mighty Anduin, the company braves river ambushes and contends with a ferocious Hill Troll."
+    },
+    {
+      "order": 3,
+      "badgeText": "Quest 3",
+      "title": "Escape from Dol Guldur",
+      "phase": "Act III - The Necromancer's Dungeons",
+      "description": "Infiltrating the dread fortress of the Necromancer, the fellowship rescues a captured comrade from subterranean dungeons."
+    },
+    {
+      "order": 4,
+      "badgeText": "Quest 4",
+      "title": "The Oath",
+      "phase": "Act IV - Gathering the Free Peoples",
+      "description": "Honoring sacred alliances across the Wilderland, the party musters stalwart defenders to confront rising orc hordes."
+    },
+    {
+      "order": 5,
+      "badgeText": "Quest 5",
+      "title": "The Caves of Nibin-Dûm",
+      "phase": "Act V - The Sunken Depths",
+      "description": "Venture into long-abandoned dwarven mines to uncover ancient relics and unearth lost lore before darkness spreads."
+    },
+    {
+      "order": 6,
+      "badgeText": "Quest 8",
+      "title": "Assault on the Hill of Sorcery",
+      "phase": "Act VI - Climax at the Fortress",
+      "description": "A climactic confrontation where the assembled forces of Middle-earth assault the strongholds of darkness to seal evil away."
+    }
+  ]
+}
