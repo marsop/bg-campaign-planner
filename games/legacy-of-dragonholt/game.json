@@ -3,113 +3,103 @@
   "addedAt": "2026-10-24T16:00:00Z",
   "title": "Legacy of Dragonholt",
   "releaseYear": 2017,
-  "designers": [
-    "Nikki Valens",
-    "Daniel Clark",
-    "Tim Flanders",
-    "Annie VanderMeer Mitsoda",
-    "Greg Tito"
-  ],
-  "playerCounts": [1, 2, 3, 4, 5, 6],
-  "recommendedPlayerCounts": [1, 2, 3],
-  "idealPlayerCount": 2,
+  "designers": "Nikki Valens, Daniel Clark, Tim Flanders, Annie VanderMeer Mitsoda, Greg Tito",
+  "playersMin": 1,
+  "playersMax": 6,
   "bggRating": 7.2,
-  "bggRank": 520,
-  "weight": 2.3,
-  "averageDurationMinutes": 90,
+  "bggWeight": 2.3,
+  "bggUrl": "https://boardgamegeek.com/boardgame/234669/legacy-of-dragonholt",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
   "unitType": "quests",
   "quality": "mid",
-  "theming": {
+  "theme": {
     "primaryColor": "#704828",
     "secondaryColor": "#2b4837",
     "accentColor": "#d4af37",
-    "fontFamily": "Cinzel, serif",
-    "headerFont": "Cinzel, serif",
-    "emblem": "scroll-feather"
+    "backgroundGradient": "radial-gradient(ellipse at top, #3d2616 0%, #1c2b21 60%, #0c120e 100%)",
+    "cardBackground": "rgba(43, 72, 55, 0.92)",
+    "borderColor": "rgba(212, 175, 55, 0.35)",
+    "glowColor": "rgba(212, 175, 55, 0.25)",
+    "headerFont": "'Cinzel', serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "📜",
+    "emblem": "📜🪶",
+    "themeClass": "theme-dragonholt",
+    "activeThemeClass": "theme-dragonholt-active",
+    "roadmapClass": "roadmap-dragonholt",
+    "heroClass": "hero-dragonholt"
   },
-  "publicSources": [
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #234669)",
     "Fantasy Flight Games official rulebooks and story quest books",
     "BoardGameGeek community campaign log and statistics"
   ],
   "scopes": [
     {
       "id": "intro-quest",
-  "addedAt": "2026-10-24T16:00:00Z",
-      "name": "To Dragonholt (Intro Quest)",
-      "description": "Introductory quest serving as tutorial and character introduction on the journey to Dragonholt.",
-      "units": 1,
-      "estimatedMinutesPerUnit": 75,
-      "isDefault": false
+      "baseScenarioCount": 1,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": false
     },
     {
       "id": "core-campaign",
-  "addedAt": "2026-10-24T16:00:00Z",
-      "name": "Dragonholt Main Mystery",
-      "description": "Full narrative investigation into the mysterious death of Celyse and unrest brewing across the barony.",
-      "units": 6,
-      "estimatedMinutesPerUnit": 90,
-      "isDefault": true
+      "baseScenarioCount": 6,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
     },
     {
       "id": "completionist",
-  "addedAt": "2026-10-24T16:00:00Z",
-      "name": "Full Exploration & All Side Quests",
-      "description": "Thorough playthrough visiting all town locations, character vignettes, and solving secondary questlines.",
-      "units": 8,
-      "estimatedMinutesPerUnit": 90,
-      "isDefault": false
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
     }
   ],
   "milestones": [
     {
-      "id": "arrival-dragonholt",
-  "addedAt": "2026-10-24T16:00:00Z",
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🛤️",
+      "badgeText": "Prologue",
       "title": "To Dragonholt",
       "phase": "Prologue",
-      "description": "The heroes survive bandits on the road and arrive safely at the village of Dragonholt.",
-      "order": 1,
-      "targetUnitsCovered": 1,
-      "icon": "path"
+      "description": "The heroes survive bandits on the road and arrive safely at the village of Dragonholt."
     },
     {
-      "id": "village-investigation",
-  "addedAt": "2026-10-24T16:00:00Z",
+      "order": 2,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🔍",
+      "badgeText": "Act I",
       "title": "Inquiries at the Inn",
       "phase": "Act I",
-      "description": "Explore the village, meet key townspeople, and uncover suspicious clues regarding the deceased heir.",
-      "order": 2,
-      "targetUnitsCovered": 2,
-      "icon": "magnifying-glass"
+      "description": "Explore the village, meet key townspeople, and uncover suspicious clues regarding the deceased heir."
     },
     {
-      "id": "wilderness-excursion",
-  "addedAt": "2026-10-24T16:00:00Z",
+      "order": 3,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🌲",
+      "badgeText": "Act II",
       "title": "The Wilds Beyond",
       "phase": "Act II",
-      "description": "Venture into the dangerous surrounding forest, dealing with bandits, spirits, and hidden covens.",
-      "order": 3,
-      "targetUnitsCovered": 4,
-      "icon": "tree"
+      "description": "Venture into the dangerous surrounding forest, dealing with bandits, spirits, and hidden covens."
     },
     {
-      "id": "manor-confrontation",
-  "addedAt": "2026-10-24T16:00:00Z",
+      "order": 4,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "👑",
+      "badgeText": "Act III",
       "title": "The Hollow Crown",
       "phase": "Act III",
-      "description": "Infiltrate the manor, expose the conspiracy, and make fateful choices that decide the fate of the realm.",
-      "order": 4,
-      "targetUnitsCovered": 6,
-      "icon": "crown"
+      "description": "Infiltrate the manor, expose the conspiracy, and make fateful choices that decide the fate of the realm."
     },
     {
-      "id": "epilogue-destiny",
-  "addedAt": "2026-10-24T16:00:00Z",
+      "order": 5,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🏆",
+      "badgeText": "Epilogue",
       "title": "A Barony Reborn",
       "phase": "Epilogue",
-      "description": "Resolve all remaining personal quests and read the lasting historical epilogue of Terrinoth.",
-      "order": 5,
-      "targetUnitsCovered": 8,
-      "icon": "trophy"
+      "description": "Resolve all remaining personal quests and read the lasting historical epilogue of Terrinoth."
     }
   ]
 }

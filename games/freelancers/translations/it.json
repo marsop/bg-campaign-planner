@@ -25,31 +25,41 @@
       "description": "Avventura completa affrontando ogni scenario incluso con combinazioni assortite di personaggi e schede legacy."
     }
   },
-  "milestones": {
-    "first-payday": {
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Contratto I",
       "title": "La Prima Busta Paga",
       "phase": "Contratto I",
       "description": "Portate a termine il primo ingaggio del gruppo, potenziate abilità stravaganti e registrate titoli altisonanti sulla scheda."
     },
-    "wasteland-notoriety": {
+    {
+      "order": 2,
+      "badgeText": "Contratto II",
       "title": "Notorietà nelle Lande",
       "phase": "Contratto II",
       "description": "Sopravvivete a bizzarri mutanti e consolidate la famigerata reputazione della ciurma al cospetto delle gilde rivali."
     },
-    "crossroads-reckoning": {
+    {
+      "order": 3,
+      "badgeText": "Contratto III",
       "title": "Dilemma al Bivio",
       "phase": "Contratto III",
       "description": "Affrontate difficili scelte morali generate dalle carte Bivio che mettono in contrasto avidità individuale e sopravvivenza della squadra."
     },
-    "the-master-heist": {
+    {
+      "order": 4,
+      "badgeText": "Contratto IV",
       "title": "Il Grande Colpo",
       "phase": "Contratto IV",
       "description": "Infiltratevi nelle pericolose rovine aziendali del passato per arraffare il tesoro supremo prima dello scadere del timer."
     },
-    "hall-of-legends": {
+    {
+      "order": 5,
+      "badgeText": "Pensione",
       "title": "Sala delle Leggende",
       "phase": "Pensione",
       "description": "Calcolate il bottino accumulato in una vita di avventure, incidete i vostri titoli nella leggenda e godetevi una pensione tra sfarzi smodati."
     }
-  }
+  ]
 }

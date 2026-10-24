@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using bg_campaign_planner.Models;
 
 namespace bg_campaign_planner.Services;
@@ -227,7 +228,15 @@ public class CampaignDataService
                 if (stream == null) continue;
                 using var reader = new StreamReader(stream);
                 var json = reader.ReadToEnd();
-                var dto = JsonSerializer.Deserialize<GameJsonDto>(json, JsonOptions);
+                GameJsonDto? dto = null;
+                try
+                {
+                    dto = JsonSerializer.Deserialize<GameJsonDto>(json, JsonOptions);
+                }
+                catch (Exception ex)
+                {
+                    Console.Error.WriteLine($"Error loading game from {resName}: {ex.Message}");
+                }
                 if (dto != null && !string.IsNullOrEmpty(dto.Id))
                 {
                     _baseGameDtos[dto.Id] = dto;
@@ -302,7 +311,15 @@ public class CampaignDataService
                     if (stream == null) continue;
                     using var reader = new StreamReader(stream);
                     var json = reader.ReadToEnd();
-                    var transDto = JsonSerializer.Deserialize<TranslationJsonDto>(json, JsonOptions);
+                    TranslationJsonDto? transDto = null;
+                    try
+                    {
+                        transDto = JsonSerializer.Deserialize<TranslationJsonDto>(json, JsonOptions);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.Error.WriteLine($"Error loading translation {resName}: {ex.Message}");
+                    }
 
                     if (transDto != null)
                     {
@@ -325,27 +342,165 @@ public class CampaignDataService
         }
     }
 
+    public class SingleOrArrayStringConverter : JsonConverter<string>
+    {
+        public override bool HandleNull => true;
+
+        public override string Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+        {
+            if (reader.TokenType == JsonTokenType.String)
+            {
+                return reader.GetString() ?? string.Empty;
+            }
+
+            if (reader.TokenType == JsonTokenType.Null)
+            {
+                return string.Empty;
+            }
+
+            using var doc = JsonDocument.ParseValue(ref reader);
+            if (doc.RootElement.ValueKind == JsonValueKind.Array)
+            {
+                var list = new List<string>();
+                foreach (var element in doc.RootElement.EnumerateArray())
+                {
+                    if (element.ValueKind == JsonValueKind.String)
+                    {
+                        var s = element.GetString();
+                        if (!string.IsNullOrWhiteSpace(s))
+                        {
+                            list.Add(s.Trim());
+                        }
+                    }
+                    else if (element.ValueKind == JsonValueKind.Number)
+                    {
+                        list.Add(element.ToString());
+                    }
+                    else if (element.ValueKind == JsonValueKind.Object)
+                    {
+                        if (element.TryGetProperty("name", out var nameProp) && nameProp.ValueKind == JsonValueKind.String)
+                        {
+                            var s = nameProp.GetString();
+                            if (!string.IsNullOrWhiteSpace(s))
+                            {
+                                list.Add(s.Trim());
+                            }
+                        }
+                        else
+                        {
+                            var s = element.ToString();
+                            if (!string.IsNullOrWhiteSpace(s))
+                            {
+                                list.Add(s);
+                            }
+                        }
+                    }
+                }
+                return string.Join(", ", list);
+            }
+
+            if (doc.RootElement.ValueKind == JsonValueKind.String)
+            {
+                return doc.RootElement.GetString() ?? string.Empty;
+            }
+
+            return doc.RootElement.ToString();
+        }
+
+        public override void Write(Utf8JsonWriter writer, string value, JsonSerializerOptions options)
+        {
+            writer.WriteStringValue(value);
+        }
+    }
+
+    internal class FlexibleMilestoneListConverter : JsonConverter<List<MilestoneTranslationDto>>
+    {
+        public override bool HandleNull => true;
+
+        public override List<MilestoneTranslationDto> Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+        {
+            var result = new List<MilestoneTranslationDto>();
+            if (reader.TokenType == JsonTokenType.Null)
+            {
+                return result;
+            }
+
+            using var doc = JsonDocument.ParseValue(ref reader);
+            if (doc.RootElement.ValueKind == JsonValueKind.Array)
+            {
+                foreach (var element in doc.RootElement.EnumerateArray())
+                {
+                    var item = element.Deserialize<MilestoneTranslationDto>(options);
+                    if (item != null)
+                    {
+                        result.Add(item);
+                    }
+                }
+            }
+            else if (doc.RootElement.ValueKind == JsonValueKind.Object)
+            {
+                int autoOrder = 1;
+                foreach (var property in doc.RootElement.EnumerateObject())
+                {
+                    var item = property.Value.Deserialize<MilestoneTranslationDto>(options);
+                    if (item != null)
+                    {
+                        if (item.Order <= 0)
+                        {
+                            item.Order = autoOrder;
+                        }
+                        result.Add(item);
+                        autoOrder++;
+                    }
+                }
+            }
+
+            return result;
+        }
+
+        public override void Write(Utf8JsonWriter writer, List<MilestoneTranslationDto> value, JsonSerializerOptions options)
+        {
+            JsonSerializer.Serialize(writer, value, options);
+        }
+    }
+
     private class GameJsonDto
     {
         public string Id { get; set; } = string.Empty;
         public string Title { get; set; } = string.Empty;
         public DateTimeOffset? AddedAt { get; set; }
         public int ReleaseYear { get; set; }
+        [JsonConverter(typeof(SingleOrArrayStringConverter))]
         public string Designers { get; set; } = string.Empty;
         public int PlayersMin { get; set; } = 1;
         public int PlayersMax { get; set; } = 4;
         public int MinPlayers { set => PlayersMin = value; }
         public int MaxPlayers { set => PlayersMax = value; }
+        public int[]? PlayerCounts
+        {
+            set
+            {
+                if (value != null && value.Length > 0)
+                {
+                    PlayersMin = value.Min();
+                    PlayersMax = value.Max();
+                }
+            }
+        }
         public double BggRating { get; set; }
         public double BggWeight { get; set; }
+        public double? Weight { set { if (value.HasValue) BggWeight = value.Value; } }
         public string BggUrl { get; set; } = string.Empty;
         public int BaseScenarioMinutes { get; set; } = 100;
+        public int? AverageDurationMinutes { set { if (value.HasValue) BaseScenarioMinutes = value.Value; } }
         public int SetupTeardownMinutes { get; set; } = 25;
         public string UnitType { get; set; } = "scenarios";
         public string Quality { get; set; } = "high";
         public string? BackgroundImage { get; set; } = "background.webp";
         public GameTheming Theme { get; set; } = new();
+        public GameTheming? Theming { set { if (value != null) Theme = value; } }
         public List<string> PublicSourceReferences { get; set; } = new();
+        public List<string>? PublicSources { set { if (value != null) PublicSourceReferences = value; } }
         public List<ScopeDto> Scopes { get; set; } = new();
         public List<MilestoneDto> Milestones { get; set; } = new();
     }
@@ -354,22 +509,26 @@ public class CampaignDataService
     {
         public string Id { get; set; } = string.Empty;
         public int BaseScenarioCount { get; set; }
+        public int Units { set => BaseScenarioCount = value; }
         public double EstimatedFailRatePercent { get; set; } = 15.0;
         public bool IsRecommended { get; set; }
+        public bool IsDefault { set => IsRecommended = value; }
     }
 
     private class MilestoneDto
     {
         public int Order { get; set; }
         public int AtScenarioOrGameIndex { get; set; }
+        public int TargetUnitsCovered { set => AtScenarioOrGameIndex = value; }
         public string IconEmoji { get; set; } = string.Empty;
+        public string Icon { set => IconEmoji = value; }
         public string BadgeText { get; set; } = string.Empty;
         public string Title { get; set; } = string.Empty;
         public string Phase { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
     }
 
-    private class TranslationJsonDto
+    internal class TranslationJsonDto
     {
         public string? Title { get; set; }
         public string Subtitle { get; set; } = string.Empty;
@@ -380,10 +539,11 @@ public class CampaignDataService
         public string RoadmapBadge { get; set; } = string.Empty;
         public List<string> KeyFeatures { get; set; } = new();
         public Dictionary<string, ScopeTranslationDto> Scopes { get; set; } = new();
+        [JsonConverter(typeof(FlexibleMilestoneListConverter))]
         public List<MilestoneTranslationDto> Milestones { get; set; } = new();
     }
 
-    private class MilestoneTranslationDto
+    internal class MilestoneTranslationDto
     {
         public int Order { get; set; }
         public string? BadgeText { get; set; }
@@ -392,7 +552,7 @@ public class CampaignDataService
         public string? Description { get; set; }
     }
 
-    private class ScopeTranslationDto
+    internal class ScopeTranslationDto
     {
         public string Name { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;

@@ -25,31 +25,41 @@
       "description": "Partida exhaustiva visitando cada rincón del pueblo, viñetas de personajes y tramas secundarias."
     }
   },
-  "milestones": {
-    "arrival-dragonholt": {
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Prólogo",
       "title": "Rumbo a Dragonholt",
       "phase": "Prólogo",
       "description": "Los héroes sobreviven a los bandidos del camino y llegan sanos y salvos a la aldea de Dragonholt."
     },
-    "village-investigation": {
+    {
+      "order": 2,
+      "badgeText": "Acto I",
       "title": "Indagaciones en la Posada",
       "phase": "Acto I",
       "description": "Explorad la villa, conoced a personajes clave y descubrid indicios sospechosos sobre el heredero fallecido."
     },
-    "wilderness-excursion": {
+    {
+      "order": 3,
+      "badgeText": "Acto II",
       "title": "Las Tierras Salvajes",
       "phase": "Acto II",
       "description": "Adentraos en los peligrosos bosques circundantes, lidiando con forajidos, espíritus y aquelarres ocultos."
     },
-    "manor-confrontation": {
+    {
+      "order": 4,
+      "badgeText": "Acto III",
       "title": "La Corona Vacía",
       "phase": "Acto III",
       "description": "Infiltraos en la mansión, desenmascarad la conspiración y tomad decisiones determinantes para el reino."
     },
-    "epilogue-destiny": {
+    {
+      "order": 5,
+      "badgeText": "Epílogo",
       "title": "Una Baronía Renacida",
       "phase": "Epílogo",
       "description": "Resolved todas las misiones personales restantes y presenciad el epílogo histórico en Terrinoth."
     }
-  }
+  ]
 }

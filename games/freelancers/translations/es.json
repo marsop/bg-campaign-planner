@@ -25,31 +25,41 @@
       "description": "Partida exhaustiva jugando todos los escenarios incluidos con diversas combinaciones de héroes e historias personales."
     }
   },
-  "milestones": {
-    "first-payday": {
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Contrato I",
       "title": "El Primer Día de Paga",
       "phase": "Contrato I",
       "description": "Completad el primer encargo del grupo, mejorad habilidades estrafalarias y anotad títulos legendarios en vuestra hoja."
     },
-    "wasteland-notoriety": {
+    {
+      "order": 2,
+      "badgeText": "Contrato II",
       "title": "Notoriedad en el Páramo",
       "phase": "Contrato II",
       "description": "Sobrevivid a extravagantes mutantes y forjad la infame reputación del grupo frente a los gremios rivales."
     },
-    "crossroads-reckoning": {
+    {
+      "order": 3,
+      "badgeText": "Contrato III",
       "title": "Dilema en la Encrucijada",
       "phase": "Contrato III",
       "description": "Afrontad complejas decisiones morales de las cartas de Encrucijada que enfrentan la codicia personal a la supervivencia del grupo."
     },
-    "the-master-heist": {
+    {
+      "order": 4,
+      "badgeText": "Contrato IV",
       "title": "El Gran Golpe",
       "phase": "Contrato IV",
       "description": "Infiltraos en una peligrosa ruina corporativa ancestral para asegurar el tesoro definitivo antes de que el tiempo expire."
     },
-    "hall-of-legends": {
+    {
+      "order": 5,
+      "badgeText": "Jubilación",
       "title": "Salón de Leyendas",
       "phase": "Jubilación",
       "description": "Calculad el botín acumulado de vuestra vida aventurera, inmortalizad vuestros títulos mercenarios y retiraos entre lujos disparatados."
     }
-  }
+  ]
 }

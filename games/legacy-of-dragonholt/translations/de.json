@@ -25,31 +25,41 @@
       "description": "Umfassender Spieldurchgang mit allen Schauplätzen, persönlichen Vignettes und Nebenhandlungssträngen."
     }
   },
-  "milestones": {
-    "arrival-dragonholt": {
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Prolog",
       "title": "Auf nach Dragonholt",
       "phase": "Prolog",
       "description": "Die Helden trotzen den Banditen auf der Handelsstraße und erreichen wohlbehalten das Dorf Dragonholt."
     },
-    "village-investigation": {
+    {
+      "order": 2,
+      "badgeText": "Akt I",
       "title": "Nachforschungen im Gasthaus",
       "phase": "Akt I",
       "description": "Erkundet das Dorf, trefft wichtige Dorfbewohner und sammelt verdächtige Hinweise zum verstorbenen Erben."
     },
-    "wilderness-excursion": {
+    {
+      "order": 3,
+      "badgeText": "Akt II",
       "title": "Die wilde Wildnis",
       "phase": "Akt II",
       "description": "Wagt euch in die bedrohlichen Wälder, trotzt Wegelagerern, Geisterwesen und verborgenen Zirkeln."
     },
-    "manor-confrontation": {
+    {
+      "order": 4,
+      "badgeText": "Akt III",
       "title": "Die hohle Krone",
       "phase": "Akt III",
       "description": "Dringt in das Anwesen ein, deckt die Verschwörung auf und trefft wegweisende Entscheidungen für das Reich."
     },
-    "epilogue-destiny": {
+    {
+      "order": 5,
+      "badgeText": "Epilog",
       "title": "Eine neu erwachte Baronie",
       "phase": "Epilog",
       "description": "Schließt alle verbliebenen persönlichen Quests ab und erlebt den geschichtsträchtigen Epilog von Terrinoth."
     }
-  }
+  ]
 }

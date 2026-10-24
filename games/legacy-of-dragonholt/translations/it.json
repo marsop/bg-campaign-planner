@@ -25,31 +25,41 @@
       "description": "Partita esaustiva visitando ogni luogo cittadino, capitoli biografici e trame secondarie."
     }
   },
-  "milestones": {
-    "arrival-dragonholt": {
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Prologo",
       "title": "Verso Dragonholt",
       "phase": "Prologo",
       "description": "Gli eroi respingono i briganti sulla via e raggiungono incolumi il villaggio di Dragonholt."
     },
-    "village-investigation": {
+    {
+      "order": 2,
+      "badgeText": "Atto I",
       "title": "Indagini alla Locanda",
       "phase": "Atto I",
       "description": "Esplorate la cittadina, interrogate i residenti chiave e scoprite indizi sospetti sull'erede scomparso."
     },
-    "wilderness-excursion": {
+    {
+      "order": 3,
+      "badgeText": "Atto II",
       "title": "Nelle Terre Selvagge",
       "phase": "Atto II",
       "description": "Avventuratevi nei boschi circostanti, affrontando banditi, spettri erranti e congreghe nascoste."
     },
-    "manor-confrontation": {
+    {
+      "order": 4,
+      "badgeText": "Atto III",
       "title": "La Corona Cava",
       "phase": "Atto III",
       "description": "Infiltratevi nella magione nobiliare, svelate la congiura e compite scelte fatidiche per il reame."
     },
-    "epilogue-destiny": {
+    {
+      "order": 5,
+      "badgeText": "Epilogo",
       "title": "Una Baronia Rinata",
       "phase": "Epilogo",
       "description": "Concludete ogni missione personale residua e leggete l'epilogo storico durevole per Terrinoth."
     }
-  }
+  ]
 }

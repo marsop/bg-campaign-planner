@@ -3,109 +3,103 @@
   "addedAt": "2026-10-24T16:05:00Z",
   "title": "Freelancers: A Crossroads Game",
   "releaseYear": 2023,
-  "designers": [
-    "Donald Shults"
-  ],
-  "playerCounts": [1, 2, 3, 4, 5, 6, 7],
-  "recommendedPlayerCounts": [3, 4, 5],
-  "idealPlayerCount": 4,
+  "designers": "Donald Shults",
+  "playersMin": 1,
+  "playersMax": 7,
   "bggRating": 7.6,
-  "bggRank": 1150,
-  "weight": 2.1,
-  "averageDurationMinutes": 120,
+  "bggWeight": 2.1,
+  "bggUrl": "https://boardgamegeek.com/boardgame/383206/freelancers-a-crossroads-game",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 20,
   "unitType": "quests",
   "quality": "mid",
-  "theming": {
+  "theme": {
     "primaryColor": "#e75a3c",
-    "secondaryColor": "#2a7b88",
+    "secondaryColor": "#1e1822",
     "accentColor": "#f5b700",
-    "fontFamily": "Space Grotesk, sans-serif",
-    "headerFont": "Bungee, cursive",
-    "emblem": "sword-bag"
+    "backgroundGradient": "radial-gradient(ellipse at top, #2e1a29 0%, #1a1520 60%, #0c0a0f 100%)",
+    "cardBackground": "rgba(30, 24, 34, 0.92)",
+    "borderColor": "rgba(231, 90, 60, 0.35)",
+    "glowColor": "rgba(245, 183, 0, 0.25)",
+    "headerFont": "'Bungee', 'Space Grotesk', system-ui, sans-serif",
+    "bodyFont": "'Space Grotesk', system-ui, sans-serif",
+    "loreIcon": "🗡️",
+    "emblem": "🗡️🎒",
+    "themeClass": "theme-freelancers",
+    "activeThemeClass": "theme-freelancers-active",
+    "roadmapClass": "roadmap-freelancers",
+    "heroClass": "hero-freelancers"
   },
-  "publicSources": [
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #383206)",
     "Plaid Hat Games official companion app, scenario guides, and rulebook",
     "BoardGameGeek community campaign log and statistics"
   ],
   "scopes": [
     {
       "id": "intro-contract",
-  "addedAt": "2026-10-24T16:05:00Z",
-      "name": "First Contract (Tutorial Job)",
-      "description": "Introductory freelance contract introducing app audio narration, time-pressured worker placement, and gig scoring.",
-      "units": 1,
-      "estimatedMinutesPerUnit": 90,
-      "isDefault": false
+      "baseScenarioCount": 1,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
     },
     {
       "id": "core-campaign",
-  "addedAt": "2026-10-24T16:05:00Z",
-      "name": "The Big Score Campaign",
-      "description": "Standard narrative campaign featuring five distinct high-stakes freelance jobs through post-apocalyptic fantasy ruins.",
-      "units": 5,
-      "estimatedMinutesPerUnit": 120,
-      "isDefault": true
+      "baseScenarioCount": 5,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": true
     },
     {
       "id": "all-contracts",
-  "addedAt": "2026-10-24T16:05:00Z",
-      "name": "All Contracts & Expansion Jobs",
-      "description": "Complete run playing all included story scenarios with varied character builds and legacy character sheets.",
-      "units": 7,
-      "estimatedMinutesPerUnit": 120,
-      "isDefault": false
+      "baseScenarioCount": 7,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": false
     }
   ],
   "milestones": [
     {
-      "id": "first-payday",
-  "addedAt": "2026-10-24T16:05:00Z",
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🪙",
+      "badgeText": "Gig I",
       "title": "The First Payday",
       "phase": "Gig I",
-      "description": "Complete your crew's first contract, level up quirky skills, and record titles on your character sheet.",
-      "order": 1,
-      "targetUnitsCovered": 1,
-      "icon": "coin"
+      "description": "Complete your crew's first contract, level up quirky skills, and record titles on your character sheet."
     },
     {
-      "id": "wasteland-notoriety",
-  "addedAt": "2026-10-24T16:05:00Z",
+      "order": 2,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🗺️",
+      "badgeText": "Gig II",
       "title": "Wasteland Notoriety",
       "phase": "Gig II",
-      "description": "Survive bizarre mutant encounters and build the party's infamous reputation among rival guilds.",
-      "order": 2,
-      "targetUnitsCovered": 2,
-      "icon": "map"
+      "description": "Survive bizarre mutant encounters and build the party's infamous reputation among rival guilds."
     },
     {
-      "id": "crossroads-reckoning",
-  "addedAt": "2026-10-24T16:05:00Z",
+      "order": 3,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🔀",
+      "badgeText": "Gig III",
       "title": "Crossroads Dilemma",
       "phase": "Gig III",
-      "description": "Face difficult moral decisions triggered by Crossroads cards that pit personal greed against party survival.",
-      "order": 3,
-      "targetUnitsCovered": 4,
-      "icon": "crossroads"
+      "description": "Face difficult moral decisions triggered by Crossroads cards that pit personal greed against party survival."
     },
     {
-      "id": "the-master-heist",
-  "addedAt": "2026-10-24T16:05:00Z",
+      "order": 4,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "💎",
+      "badgeText": "Gig IV",
       "title": "The Grand Score",
       "phase": "Gig IV",
-      "description": "Infiltrate a perilous corporate ruin to secure the ultimate treasure trove before the timer expires.",
-      "order": 4,
-      "targetUnitsCovered": 5,
-      "icon": "gem"
+      "description": "Infiltrate a perilous corporate ruin to secure the ultimate treasure trove before the timer expires."
     },
     {
-      "id": "hall-of-legends",
-  "addedAt": "2026-10-24T16:05:00Z",
+      "order": 5,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "🏆",
+      "badgeText": "Retirement",
       "title": "Hall of Legends",
       "phase": "Retirement",
-      "description": "Calculate lifetime plunder, cement your freelancer titles in folklore, and retire in outrageous luxury.",
-      "order": 5,
-      "targetUnitsCovered": 7,
-      "icon": "trophy"
+      "description": "Calculate lifetime plunder, cement your freelancer titles in folklore, and retire in outrageous luxury."
     }
   ]
 }

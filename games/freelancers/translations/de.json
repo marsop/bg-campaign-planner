@@ -25,31 +25,41 @@
       "description": "Kompletter Spieldurchlauf aller enthaltenen Szenarien mit vielseitigen Charakter-Kombinationen und Vermächtnis-Bögen."
     }
   },
-  "milestones": {
-    "first-payday": {
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Auftrag I",
       "title": "Der erste Zahltag",
       "phase": "Auftrag I",
       "description": "Schließt den ersten Vertrag eurer Crew ab, steigert kuriose Fertigkeiten und verewigt Heldentitel auf dem Charakterbogen."
     },
-    "wasteland-notoriety": {
+    {
+      "order": 2,
+      "badgeText": "Auftrag II",
       "title": "Berüchtigt im Ödland",
       "phase": "Auftrag II",
       "description": "Übersteht bizarre Mutantenbegegnungen und festigt den berühmt-berüchtigten Ruf eurer Truppe bei rivalisierenden Gilden."
     },
-    "crossroads-reckoning": {
+    {
+      "order": 3,
+      "badgeText": "Auftrag III",
       "title": "Dilemma am Scheideweg",
       "phase": "Auftrag III",
       "description": "Stellt euch den kniffligen moralischen Entscheidungen der Crossroads-Karten, die persönliche Gier gegen das Überleben der Gruppe abwägen."
     },
-    "the-master-heist": {
+    {
+      "order": 4,
+      "badgeText": "Auftrag IV",
       "title": "Der große Coup",
       "phase": "Auftrag IV",
       "description": "Dringt in eine gefährliche Konzernruine der Vorzeit ein, um den ultimativen Schatz zu bergen, bevor der Zeittimer abläuft."
     },
-    "hall-of-legends": {
+    {
+      "order": 5,
+      "badgeText": "Ruhestand",
       "title": "Halle der Legenden",
       "phase": "Ruhestand",
       "description": "Rechnet eure gesamte Lebensbeute zusammen, verewigt eure Freiberufler-Titel in der Folklore und geht in aberwitzigem Luxus in Rente."
     }
-  }
+  ]
 }

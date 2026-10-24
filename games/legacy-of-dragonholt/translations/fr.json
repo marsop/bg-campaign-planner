@@ -25,31 +25,41 @@
       "description": "Aventure exhaustive découvrant tous les lieux, saynètes d'habitants et intrigues secondaires."
     }
   },
-  "milestones": {
-    "arrival-dragonholt": {
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Prologue",
       "title": "Vers Dragonholt",
       "phase": "Prologue",
       "description": "Les héros repoussent les brigands sur la grand-route et atteignent sains et saufs le bourg de Dragonholt."
     },
-    "village-investigation": {
+    {
+      "order": 2,
+      "badgeText": "Acte I",
       "title": "Enquêtes à l'Auberge",
       "phase": "Acte I",
       "description": "Explorez le village, rencontrez des figures marquantes et découvrez de troublants indices sur l'héritier défunt."
     },
-    "wilderness-excursion": {
+    {
+      "order": 3,
+      "badgeText": "Acte II",
       "title": "Les Terres Sauvages",
       "phase": "Acte II",
       "description": "Aventurez-vous dans les forêts menaçantes, bravant brigands, apparitions et mystérieux cercles occultes."
     },
-    "manor-confrontation": {
+    {
+      "order": 4,
+      "badgeText": "Acte III",
       "title": "La Couronne Creuse",
       "phase": "Acte III",
       "description": "Pénétrez dans le manoir, démasquez la conspiration et prenez des résolutions cruciales pour le royaume."
     },
-    "epilogue-destiny": {
+    {
+      "order": 5,
+      "badgeText": "Épilogue",
       "title": "Une Baronnie Reconstruite",
       "phase": "Épilogue",
       "description": "Accomplissez les quêtes personnelles restantes et lisez l'épilogue historique durable en Terrinoth."
     }
-  }
+  ]
 }

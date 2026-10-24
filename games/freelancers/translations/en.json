@@ -25,31 +25,41 @@
       "description": "Complete run playing all included story scenarios with varied character builds and legacy character sheets."
     }
   },
-  "milestones": {
-    "first-payday": {
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Gig I",
       "title": "The First Payday",
       "phase": "Gig I",
       "description": "Complete your crew's first contract, level up quirky skills, and record titles on your character sheet."
     },
-    "wasteland-notoriety": {
+    {
+      "order": 2,
+      "badgeText": "Gig II",
       "title": "Wasteland Notoriety",
       "phase": "Gig II",
       "description": "Survive bizarre mutant encounters and build the party's infamous reputation among rival guilds."
     },
-    "crossroads-reckoning": {
+    {
+      "order": 3,
+      "badgeText": "Gig III",
       "title": "Crossroads Dilemma",
       "phase": "Gig III",
       "description": "Face difficult moral decisions triggered by Crossroads cards that pit personal greed against party survival."
     },
-    "the-master-heist": {
+    {
+      "order": 4,
+      "badgeText": "Gig IV",
       "title": "The Grand Score",
       "phase": "Gig IV",
       "description": "Infiltrate a perilous corporate ruin to secure the ultimate treasure trove before the timer expires."
     },
-    "hall-of-legends": {
+    {
+      "order": 5,
+      "badgeText": "Retirement",
       "title": "Hall of Legends",
       "phase": "Retirement",
       "description": "Calculate lifetime plunder, cement your freelancer titles in folklore, and retire in outrageous luxury."
     }
-  }
+  ]
 }

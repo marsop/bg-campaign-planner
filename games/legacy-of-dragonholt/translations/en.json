@@ -25,31 +25,41 @@
       "description": "Thorough playthrough visiting all town locations, character vignettes, and solving secondary questlines."
     }
   },
-  "milestones": {
-    "arrival-dragonholt": {
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Prologue",
       "title": "To Dragonholt",
       "phase": "Prologue",
       "description": "The heroes survive bandits on the road and arrive safely at the village of Dragonholt."
     },
-    "village-investigation": {
+    {
+      "order": 2,
+      "badgeText": "Act I",
       "title": "Inquiries at the Inn",
       "phase": "Act I",
       "description": "Explore the village, meet key townspeople, and uncover suspicious clues regarding the deceased heir."
     },
-    "wilderness-excursion": {
+    {
+      "order": 3,
+      "badgeText": "Act II",
       "title": "The Wilds Beyond",
       "phase": "Act II",
       "description": "Venture into the dangerous surrounding forest, dealing with bandits, spirits, and hidden covens."
     },
-    "manor-confrontation": {
+    {
+      "order": 4,
+      "badgeText": "Act III",
       "title": "The Hollow Crown",
       "phase": "Act III",
       "description": "Infiltrate the manor, expose the conspiracy, and make fateful choices that decide the fate of the realm."
     },
-    "epilogue-destiny": {
+    {
+      "order": 5,
+      "badgeText": "Epilogue",
       "title": "A Barony Reborn",
       "phase": "Epilogue",
       "description": "Resolve all remaining personal quests and read the lasting historical epilogue of Terrinoth."
     }
-  }
+  ]
 }

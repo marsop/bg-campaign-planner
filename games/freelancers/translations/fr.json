@@ -25,31 +25,41 @@
       "description": "Aventure exhaustive jouant tous les scénarios inclus avec des combinaisons variées de héros et feuilles d'héritage."
     }
   },
-  "milestones": {
-    "first-payday": {
+  "milestones": [
+    {
+      "order": 1,
+      "badgeText": "Contrat I",
       "title": "Le Premier Salaire",
       "phase": "Contrat I",
       "description": "Accomplissez le premier contrat de votre bande, améliorez des compétences insolites et inscrivez vos titres sur votre feuille."
     },
-    "wasteland-notoriety": {
+    {
+      "order": 2,
+      "badgeText": "Contrat II",
       "title": "Notoriété des Terres Désolées",
       "phase": "Contrat II",
       "description": "Survivez à des rencontres de mutants loufoques et bâtissez la réputation sulfureuse de votre équipe auprès des guildes rivales."
     },
-    "crossroads-reckoning": {
+    {
+      "order": 3,
+      "badgeText": "Contrat III",
       "title": "Dilemme à la Croisée",
       "phase": "Contrat III",
       "description": "Affrontez des choix moraux déchirants issus des cartes Croisée des Chemins qui opposent cupidité individuelle et survie du groupe."
     },
-    "the-master-heist": {
+    {
+      "order": 4,
+      "badgeText": "Contrat IV",
       "title": "Le Casse du Siècle",
       "phase": "Contrat IV",
       "description": "Infiltrez un complexe de ruines corporatives antiques pour dérober le trésor suprême avant l'expiration du temps imparti."
     },
-    "hall-of-legends": {
+    {
+      "order": 5,
+      "badgeText": "Retraite",
       "title": "Panthéon des Légendes",
       "phase": "Retraite",
       "description": "Calculez votre pactole accumulé sur l'ensemble de votre carrière, gravez vos titres dans les annales et partez à la retraite dans un luxe démesuré."
     }
-  }
+  ]
 }
