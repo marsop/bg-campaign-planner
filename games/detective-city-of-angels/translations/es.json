@@ -1,0 +1,61 @@
+{
+  "title": "Detective: Ciudad de Ángeles",
+  "subtitle": "Campaña Noir de Homicidios y Misterio en Los Ángeles de los Años 40",
+  "tagline": "Adéntrate en las turbias y corruptas calles de Los Ángeles de 1940 para resolver 9 apasionantes casos de homicidio.",
+  "loreSummary": "Te damos la bienvenida a Los Ángeles a finales de la década de 1940: una reluciente urbe de glamur cinematográfico, asesinatos en callejones y corrupción despiadada. Como detectives de homicidios del LAPD, interrogad a sospechosos embusteros, reunid pruebas forenses y resolved casos complejos.",
+  "badgeCategory": "Campaña Noir de Investigación",
+  "roadmapTitle": "Expedientes de Homicidios del LAPD",
+  "roadmapBadge": "Casos Resueltos",
+  "keyFeatures": [
+    "Revolucionario sistema 'ARC' (Cartas de Respuesta Adaptativa) para interrogatorios tácticos y reactivos",
+    "Jugable en cooperativo, en solitario (modo Sabueso) o competitivo con un jugador encarnando al 'Cincel'",
+    "9 casos con tramas magistrales escritas por el novelista Evan Derrick con arte noir cinematográfico",
+    "Auténtica atmósfera de época: investiga escenas de crimen, soborna confidentes y arranca confesiones"
+  ],
+  "scopes": {
+    "city_of_angels_complete_dossier": {
+      "name": "Expediente Completo del LAPD (Los 9 Casos Base)",
+      "description": "El recorrido narrativo integral resolviendo los 9 complejos casos de homicidio en los rincones más turbios de la ciudad."
+    },
+    "city_of_angels_rookie_investigator": {
+      "name": "Trilogía de Sunset Boulevard (Casos 1 a 3)",
+      "description": "Un arco introductorio de 3 investigaciones manchándote la placa en los primeros asesinatos en hoteles y platós."
+    },
+    "city_of_angels_master_chisel": {
+      "name": "Detective Maestro de la División de Homicidios (9 Casos & Expansiones)",
+      "description": "Un exhaustivo dossier que abarca los 9 casos base y misterios de expansión al máximo nivel de astucia."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Caso 1",
+      "title": "La Gran Presión",
+      "phase": "Acto I - La Ronda del Novato",
+      "description": "Interrogar a sospechosos en moteles de Hollywood, untar a confidentes y resolver tu primer gran homicidio."
+    },
+    {
+      "badgeText": "Caso 3",
+      "title": "Reputación Mortal",
+      "phase": "Acto II - Corrupción en los Estudios de Cine",
+      "description": "Desnudar la fachada de los magnates del celuloide y las actrices para desenmascarar tramas de chantaje y mafias."
+    },
+    {
+      "badgeText": "Caso 5",
+      "title": "Sangre en el Bulevar",
+      "phase": "Acto III - Vicios de Medianoche",
+      "description": "Enfrentar a policías corruptos y corredores de apuestas clandestinos en clubes de jazz llenos de humo."
+    },
+    {
+      "badgeText": "Caso 7",
+      "title": "Una Bala para el Fiscal",
+      "phase": "Acto IV - Conspiraciones en el Ayuntamiento",
+      "description": "Destapar las altas esferas municipales donde jueces y capos del crimen organizado comparten cuentas bancarias."
+    },
+    {
+      "badgeText": "Caso 9",
+      "title": "El Balance Final de la Ciudad",
+      "phase": "Acto V - La Felicitación del Comisario",
+      "description": "Entregar las órdenes de arresto definitivas al Jefe de Policía y consagrar tu placa en la historia del LAPD."
+    }
+  ]
+}

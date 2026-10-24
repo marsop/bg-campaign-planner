@@ -1,0 +1,61 @@
+{
+  "title": "Shadows of Brimstone: City of the Ancients",
+  "subtitle": "Campagna Dungeon Crawl Weird-West e Terrore Cosmico",
+  "tagline": "Impugna le tue Colt e discendi in miniere d'oro maledette e mondi alieni in un classico dungeon crawler.",
+  "loreSummary": "Verso la fine degli anni 1890, la città mineraria di Brimstone scoprì la Pietra Oscura, un minerale che squarciò il tessuto dello spaziotempo aprendo varchi dimensionali. Crea il tuo Pistolero, Ragazza del Saloon o Sceriffo, affronta orrori cosmici e varca i portali verso civiltà aliene sommerse dai ghiacci.",
+  "badgeCategory": "Dungeon Crawl Weird-West",
+  "roadmapTitle": "Spedizioni nel Vuoto",
+  "roadmapBadge": "Missioni di Pietra Oscura",
+  "keyFeatures": [
+    "Travolgente connubio tra sparatorie da spaghetti western e orrore cosmico di Lovecraft",
+    "Profonda crescita del personaggio: guadagno di XP, alberi di talenti, ferite permanenti e follia",
+    "Fase Cittadina: visita saloon, fucine, medici e chiese per fabbricare oggetti e curare traumi",
+    "Portali per Altri Mondi verso le gelide rovine cibernetiche dell'Altopiano di Targa"
+  ],
+  "scopes": {
+    "brimstone_ancient_city_saga": {
+      "name": "La Saga dell'Altopiano di Targa (12 Avventure & Altri Mondi)",
+      "description": "L'arco completo su 16 avventure tra miniere infestate, soste in città e varchi dimensionali alieni."
+    },
+    "brimstone_greenhorn_mines": {
+      "name": "Arco del Novizio della Frontiera (Prime 4 Avventure)",
+      "description": "Una campagna introduttiva di 4 avventure nei primi pozzi minerari con rifornimenti a Brimstone."
+    },
+    "brimstone_master_gunslinger": {
+      "name": "Pistolero Leggendario di Pietra Oscura (Campagna & Signore di Targa)",
+      "description": "Una titanica maratona di campagna affrontando ogni varco dimensionale e il supremo Signore dei Precursori."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Avventura 1",
+      "title": "Discesa nella Miniera Abbandonata",
+      "phase": "Atto I - L'Incubo della Corsa all'Oro",
+      "description": "Accendere torce ed esplorare cunicoli bui infestati da ragni del vuoto e tentacoli mostruosi."
+    },
+    {
+      "badgeText": "Avventura 4",
+      "title": "Sosta e Rifornimento a Brimstone",
+      "phase": "Atto II - Intermezzo nella Città di Frontiera",
+      "description": "Visitare saloon, fabbro e chiesa per spendere Pietra Oscura, curare la pazzia e potenziare le armi."
+    },
+    {
+      "badgeText": "Avventura 8",
+      "title": "Il Portale per l'Altopiano di Targa",
+      "phase": "Atto III - Nel Gelo dell'Altro Mondo",
+      "description": "Attraversare un vortice cosmico verso le gelide rovine cibernetiche di un'antica civiltà aliena."
+    },
+    {
+      "badgeText": "Avventura 12",
+      "title": "Il Risveglio dei Custodi",
+      "phase": "Atto IV - Metallo e Follia",
+      "description": "Combattere gli automi Custodi meccanici e i colossali Golia a guardia dei reattori alieni."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Il Deposito Supremo di Pietra Oscura",
+      "phase": "Atto V - Leggenda del Vecchio West",
+      "description": "Annientare gli orrori della breccia e fare ritorno a Brimstone carichi di gloria e Pietra Oscura purificata."
+    }
+  ]
+}

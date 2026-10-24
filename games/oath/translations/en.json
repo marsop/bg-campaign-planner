@@ -1,0 +1,61 @@
+{
+  "title": "Oath: Chronicles of Empire and Exile",
+  "subtitle": "Generational Fantasy Strategy Legacy Campaign",
+  "tagline": "Forge the history of an entire fantasy realm across generations where each victory reshapes the cards and world.",
+  "loreSummary": "In Oath, there are no pre-scripted narratives or plastic miniature rails. One player reigns as the imperial Chancellor while others scheme as Citizens or banished Exiles. The decisions made in each game dictate the map, cards, and victory conditions for the generations that follow.",
+  "badgeCategory": "Generational Strategy Campaign",
+  "roadmapTitle": "Chronicle of Generations",
+  "roadmapBadge": "Chronicle Eras",
+  "keyFeatures": [
+    "Groundbreaking generational legacy design by Cole Wehrle with emergent narrative",
+    "Dynamic World Deck where cards are added, archived, or purged based on each game's victor",
+    "Fluid political roles: swear fealty as a Citizen or wage rebellious war as an Exile",
+    "Stunning storybook visual artistry illustrated by Kyle Ferrin"
+  ],
+  "scopes": {
+    "oath_grand_dynasty": {
+      "name": "The Grand Chronicle Dynasty (12 Chronicle Games)",
+      "description": "An epic generational legacy spanning 12 games of changing rulers, evolving religions, and dynastic upheavals."
+    },
+    "oath_reign_of_chancellors": {
+      "name": "The First Chancellor's Reign (4 Chronicle Games)",
+      "description": "An introductory generational arc establishing the realm's core order and testing the initial succession."
+    },
+    "oath_immortal_empire": {
+      "name": "Century of Strife (18 Chronicle Games)",
+      "description": "A sweeping, centuries-long saga tracking the rise and complete collapse of multiple imperial bloodlines."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Generation I",
+      "title": "The Chancellor's Initial Oath",
+      "phase": "Era I - Dawn of the Empire",
+      "description": "Swearing the founding Oath of Supremacy while Exiles plot rebellions from the Hinterlands and Cradle."
+    },
+    {
+      "badgeText": "Generation III",
+      "title": "First Dynastic Succession",
+      "phase": "Era II - The Chronicle Reshaped",
+      "description": "The victor's vision archives cards into the World Deck, fundamentally changing the realm's religions, secrets, and warfare."
+    },
+    {
+      "badgeText": "Generation VI",
+      "title": "Rise of the Citizen Vanguard",
+      "phase": "Era III - Fractured Loyalties",
+      "description": "Former exiles are offered citizenship, corrupting imperial relics and vying to usurp the chancellor's bloodline."
+    },
+    {
+      "badgeText": "Generation IX",
+      "title": "Twilight of the High Dynasty",
+      "phase": "Era IV - Age of Dark Secrets",
+      "description": "Ancient forgotten visions take hold of the Provinces as secret arcana and conspiracy cards flood the court."
+    },
+    {
+      "badgeText": "Generation XII",
+      "title": "The Eternal Chronicle",
+      "phase": "Era V - A Thousand-Year Legacy",
+      "description": "Sealing the master Chronicle box, enshrining centuries of player-driven history, betrayal, and sovereign rule."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Kingdom Rush: Rift in Time",
+  "subtitle": "Campaña Cooperativa de Defensa de Torres y Puzle Poliominó",
+  "tagline": "Construye torres defensivas, desata poderes heroicos y sella la Brecha Temporal en 10 escenarios progresivos.",
+  "loreSummary": "El reino de Linirea se encuentra bajo el asedio del enigmático Mago del Tiempo y sus insaciables hordas. Cooperad pasándoos cartas de torre para mejorarlas, lanzad hechizos devastadores y coordinad a vuestros héroes para frenar el avance enemigo antes de que alcancen el reino.",
+  "badgeCategory": "Campaña Cooperativa Tower Defense",
+  "roadmapTitle": "Defensa de Linirea",
+  "roadmapBadge": "Escenarios de Historia",
+  "keyFeatures": [
+    "Adaptación de tablero del colosal videojuego tower defense de Ironhide Game Studio",
+    "Ingenioso combate tipo puzle: cubre las bandejas de monstruos con losetas de daño poliominó",
+    "Sistema dinámico de mejora de torres: pásalas a tus compañeros entre rondas para subirlas de nivel",
+    "10 escenarios progresivos con mecánicas únicas de jefes finales, portales y desafíos de hierro"
+  ],
+  "scopes": {
+    "kingdom_rush_full_campaign": {
+      "name": "Campaña de la Brecha Temporal (Los 10 Escenarios)",
+      "description": "El arco completo de 10 escenarios defendiendo Linirea a través de jefes evolutivos y puzles de portales."
+    },
+    "kingdom_rush_first_defenses": {
+      "name": "Defensa del Puesto Fronterizo (Escenarios 1 a 3)",
+      "description": "Una batalla introductoria de 3 escenarios aprendiendo la colocación de torres y frenando al Juggernaut."
+    },
+    "kingdom_rush_iron_challenge": {
+      "name": "Defensor Maestro (10 Escenarios & Retos de Hierro)",
+      "description": "Una intensa campaña superando los 10 escenarios principales junto con las restricciones heroicas y de hierro."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Escenario 1",
+      "title": "La Brecha se Abre",
+      "phase": "Acto I - El Puesto Fronterizo",
+      "description": "Construir las primeras torres de arqueros y cuarteles mientras colocas losetas de daño sobre goblins."
+    },
+    {
+      "badgeText": "Escenario 3",
+      "title": "La Ira del Juggernaut",
+      "phase": "Acto II - Colosos Acorazados",
+      "description": "Mejorar las torres de artillería y coordinar ataques especiales de héroes para derribar al titán de hierro."
+    },
+    {
+      "badgeText": "Escenario 6",
+      "title": "El Bosque Corrompido",
+      "phase": "Acto III - Portales Inestables",
+      "description": "Superar las anomalías temporales que teletransportan a las hordas enemigas entre distintos caminos."
+    },
+    {
+      "badgeText": "Escenario 8",
+      "title": "La Vanguardia de Vez'nan",
+      "phase": "Acto IV - La Marcha del Archimago",
+      "description": "Defender el desfiladero montañoso contra brujos oscuros y proteger los corazones civiles del reino."
+    },
+    {
+      "badgeText": "Escenario 10",
+      "title": "La Caída del Mago del Tiempo",
+      "phase": "Acto V - El Triunfo del Rey",
+      "description": "Vencer al Crono-Mago final, colapsar la Brecha Temporal y salvar a Linirea del olvido eterno."
+    }
+  ]
+}

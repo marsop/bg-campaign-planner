@@ -1,0 +1,61 @@
+{
+  "title": "HeroQuest",
+  "subtitle": "Campaña Clásica de Mazmorreo y Aventura Fantástica",
+  "tagline": "Responde a la llamada de Mentor, adéntrate en las mazmorras y combate a las fuerzas de Zargon en 14 peligrosos retos.",
+  "loreSummary": "Las oscuras fuerzas del Terror amenazan el Imperio. Guiados por el sabio Mentor, cuatro valientes héroes (el Bárbaro, el Enano, el Elfo y el Mago) descienden a lóbregas mazmorras para combatir orcos, momias y hechiceros del caos, acumulando oro para comprar reliquias entre aventuras.",
+  "badgeCategory": "Mazmorreo Clásico de Fantasía",
+  "roadmapTitle": "El Libro de Retos",
+  "roadmapBadge": "Retos Heroicos",
+  "keyFeatures": [
+    "El legendario juego de mesa pionero del mazmorreo fantástico diseñado por Stephen Baker",
+    "Campaña principal de 14 retos progresivos desde El Juicio hasta el enfrentamiento con el Señor de los Brujos",
+    "Modo 1 contra todos con un jugador como Zargon o totalmente cooperativo mediante la app oficial",
+    "Mobiliario en 3D detallado, cofres, puertas y miniaturas emblemáticas de héroes y monstruos"
+  ],
+  "scopes": {
+    "heroquest_core_fourteen_quests": {
+      "name": "La Reunión de los Héroes (Los 14 Retos)",
+      "description": "La campaña completa de los 14 retos originales del libro de aventuras, desde El Juicio hasta la batalla en Barak Tor."
+    },
+    "heroquest_introductory_trial": {
+      "name": "El Juicio de los Campeones (Retos 1 a 4)",
+      "description": "Un periplo de iniciación de 4 retos para dominar el combate, el movimiento y recuperar el oro del Príncipe Magnus."
+    },
+    "heroquest_master_mentor": {
+      "name": "Campeón del Reino (Los 14 Retos & Escenarios Míticos)",
+      "description": "Un maratón de mazmorreo que incluye todos los retos base y misiones míticas adicionales a máxima dificultad."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Reto 1",
+      "title": "El Juicio",
+      "phase": "Acto I - El Umbral de la Mazmorra",
+      "description": "Cruzar las pesadas puertas de piedra para combatir orcos y goblins y sobrevivir al primer laberinto mortal."
+    },
+    {
+      "badgeText": "Reto 4",
+      "title": "El Oro del Príncipe Magnus",
+      "phase": "Acto II - Tesoros Reales",
+      "description": "Infiltrarse en catacumbas subterráneas para recuperar cofres de oro robados por guerreros del Caos."
+    },
+    {
+      "badgeText": "Reto 8",
+      "title": "El Mago de Fuego",
+      "phase": "Acto III - Hechicería Llameante",
+      "description": "Confrontar al piromante renegado Balur en su fortaleza subterránea de magma antes de que desate el caos."
+    },
+    {
+      "badgeText": "Reto 11",
+      "title": "El Bastión del Caos",
+      "phase": "Acto IV - La Sombra del Terror",
+      "description": "Allanar el santuario exterior de los hechiceros oscuros y recuperar la legendaria Espada Espiritual."
+    },
+    {
+      "badgeText": "Reto 14",
+      "title": "Regreso a Barak Tor",
+      "phase": "Acto V - La Caída del Señor de los Brujos",
+      "description": "Blandir la Espada Espiritual contra el no-muerto Señor de los Brujos para salvar a Mentor y al Imperio."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Maracaibo",
+  "subtitle": "Campagne Stratégique Maritime aux Caraïbes du XVIIe Siècle",
+  "tagline": "Sillonnez les eaux périlleuses des Caraïbes au long d'une campagne narrative évolutive en 12 chapitres.",
+  "loreSummary": "Prenez la mer au XVIIe siècle en tant que capitaine intrépide naviguant à travers les Caraïbes. Livrez des marchandises, améliorez votre navire, accomplissez des quêtes audacieuses et nouez des alliances avec les puissances européennes alors que le plateau évolue de chapitre en chapitre.",
+  "badgeCategory": "Campagne Stratégique Maritime",
+  "roadmapTitle": "Chroniques des Caraïbes",
+  "roadmapBadge": "Chapitres d'Histoire",
+  "keyFeatures": [
+    "Jeu expert d'une remarquable profondeur signé Alexander Pfister avec rondel de navigation dynamique",
+    "Campagne à embranchements en 12 chapitres où les cartes histoire modifient tuiles et lieux du plateau",
+    "Moteur de jeu poussé : améliorez votre navire, recrutez des équipages et explorez des sentiers sauvages",
+    "Scores multiples équilibrant l'influence géopolitique entre Angleterre, France et Espagne"
+  ],
+  "scopes": {
+    "maracaibo_full_chronicles": {
+      "name": "Les Chroniques des Caraïbes (12 Chapitres)",
+      "description": "La fresque narrative complète à travers les 12 chapitres avec tuiles évolutives, cartes histoire et dénouements politiques."
+    },
+    "maracaibo_introductory_voyage": {
+      "name": "Le Voyage Inaugural (Chapitres 1–4)",
+      "description": "Un arc de découverte pour fonder votre comptoir commercial et assimiler la mécanique de plateau évolutif."
+    },
+    "maracaibo_master_corsair": {
+      "name": "Corsaire Émérite (12 Chapitres + Variantes Maître)",
+      "description": "Une expédition hauturière exhaustive explorant toutes les branches narratives à la difficulté maximale."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Chapitre 1",
+      "title": "Mise à la Voile depuis La Havane",
+      "phase": "Acte I - La Grande Route Commerciale",
+      "description": "Exploiter les alizés à travers les Antilles et acheminer les premières cargaisons aux avant-postes coloniaux."
+    },
+    {
+      "badgeText": "Chapitre 4",
+      "title": "Le Choc des Empires",
+      "phase": "Acte II - Alliances Mouvantes",
+      "description": "Les luttes d'influence entre l'Angleterre, la France et l'Espagne s'enflamment dans tout le bassin caribéen."
+    },
+    {
+      "badgeText": "Chapitre 7",
+      "title": "Les Secrets de la Côte des Perles",
+      "phase": "Acte III - Eaux Inexplorées",
+      "description": "Pénétrer des pistes de jungle impénétrables et des ruines oubliées au-delà de Maracaibo et Caracas."
+    },
+    {
+      "badgeText": "Chapitre 10",
+      "title": "Le Blocus des Corsaires",
+      "phase": "Acte IV - Tempête sur les Antilles",
+      "description": "Déjouer des blocus maritimes périlleux et des flottes de forbans renégats menaçant les convois marchands."
+    },
+    {
+      "badgeText": "Chapitre 12",
+      "title": "L'Héritage des Caraïbes",
+      "phase": "Acte V - Grand Final de la Flotte Marchande",
+      "description": "Consacrer votre domination maritime et graver la réputation de votre compagnie dans l'histoire des Caraïbes."
+    }
+  ]
+}

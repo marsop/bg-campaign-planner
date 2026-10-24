@@ -8,7 +8,7 @@ When a game is successfully added to the app, remove its line from this list.
 The first unchecked game in the list is the default when no specific game is
 requested by the user.
 
-**Currently in app (80 games):**
+**Currently in app (100 games):**
 - Dungeon Degenerates: Hand of Doom
 - Gloomhaven
 - Frosthaven
@@ -89,41 +89,44 @@ requested by the user.
 - Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases
 - MicroMacro: Crime City
 - Paleo
+- Dorfromantik: The Board Game
+- This War of Mine: The Board Game
+- Maracaibo
+- Under Falling Skies
+- Oath: Chronicles of Empire and Exile
+- Welcome to the Moon
+- Warhammer Quest: Blackstone Fortress
+- Shadows of Brimstone: City of the Ancients
+- Near and Far
+- Legends of Andor
+- HeroQuest
+- T.I.M.E Stories
+- Detective: City of Angels
+- Legacy of Yu
+- Kingdom Rush: Rift in Time
+- Burgle Bros 2: The Casino Capers
+- Aliens: Another Glorious Day in the Corps
+- Machi Koro Legacy
+- Legacy of Dragonholt
+- Freelancers: A Crossroads Game
 
 ---
 
 ## 🟥 High Priority
 
-- **Dorfromantik: The Board Game** — Relaxing cooperative tile-placement puzzle campaign with unlockable achievement boxes and campaign score sheets. 15-25 games (8-15 hours). ~7.6 BGG. 1-6 players. Tile placement, cooperative, legacy unlocks.
-- **This War of Mine: The Board Game** — Gritty narrative-driven civilian survival campaign based on the video game, with campaign journal and save system. 5-10 sessions (15-25 hours). ~7.8 BGG. 1-6 players. Narrative survival, storybook, worker placement.
-- **Maracaibo** — 17th-century Caribbean sailing and trading strategy game featuring an evolving 12-chapter legacy story campaign. 12 chapters (25-35 hours). ~8.1 BGG. 1-4 players. Euro strategy, legacy tiles, story cards.
-- **Under Falling Skies** — Solo alien invasion defense game with a replayable 4-chapter narrative comic campaign. 12-16 missions (8-14 hours). ~7.7 BGG. 1 player. Dice placement, solo campaign, alien defense.
-- **Oath: Chronicles of Empire and Exile** — Generational fantasy strategy game where the winner's victory dictates the map, resources, and cards for the next session. 8-15 games (20-35 hours). ~7.7 BGG. 1-6 players. Generational legacy, area control, tableau building.
-- **Welcome to the Moon** — Evolving roll-and-write narrative campaign across 8 sequential thematic boards with campaign book progression. 8 scenarios / 24+ games (10-18 hours). ~7.9 BGG. 1-6 players. Flip-and-write, evolving campaign, sci-fi.
-- **Warhammer Quest: Blackstone Fortress** — Cooperative sci-fi dungeon crawl campaign exploring a hostile, ever-shifting alien space station. 15-25 expeditions (25-40 hours). ~7.6 BGG. 1-5 players. Dungeon crawl, miniatures, sci-fi exploration.
-- **Shadows of Brimstone: City of the Ancients** — Weird-west Lovecraftian dungeon crawler with character advancement and town-stay campaign phases. 10-20 adventures (25-45 hours). ~7.6 BGG. 1-4 players. Dungeon crawl, character progression, town events.
+*(All high-priority games in backlog have been added to the application.)*
 
 ---
 
 ## 🟧 Medium Priority
 
-- **Near and Far** — Competitive storytelling adventure game where players travel across maps to find the Last Ruin. 10 sessions (15-20 hours). ~7.6 BGG. 2-4 players. Narrative, adventure, worker placement.
-- **Legends of Andor** — Cooperative fantasy board game with a progressive multi-part legend structure. 5 legends (10-15 hours). ~7.3 BGG. 2-4 players. Cooperative, puzzle, fantasy.
-- **HeroQuest** — Classic fantasy dungeon crawler remastered with a progressive 14-quest adventure book campaign. 14 quests (20-30 hours). ~7.3 BGG. 2-5 players. Dungeon crawl, 1-vs-many or app-coop, fantasy.
-- **T.I.M.E Stories** — Narrative time-travel deck-exploring agency campaign with branching temporal runs and mystery resolution. 4-8 runs / 4 scenarios (12-20 hours). ~7.4 BGG. 2-4 players. Deck exploration, narrative, time travel.
-- **Detective: City of Angels** — 1940s noir mystery cases with cooperative or adversarial chisel play across 9 full-length cases. 9 cases (18-28 hours). ~7.8 BGG. 1-5 players. Deduction, hidden motives, casebook.
-- **Legacy of Yu** — Solo-only narrative campaign worker-placement and deck-building game with a self-balancing 7-game story deck. 7-10 games (8-14 hours). ~7.9 BGG. 1 player. Worker placement, solo legacy, narrative deck.
-- **Kingdom Rush: Rift in Time** — Cooperative tower defense puzzle campaign featuring 10 progressive scenarios and boss battles. 10 scenarios (15-20 hours). ~7.8 BGG. 1-4 players. Polyomino puzzle, tower defense, cooperative campaign.
-- **Burgle Bros 2: The Casino Capers** — Cooperative heist game featuring a progressive 9-part casino campaign mode with unique gear unlocks. 9 bouncers/heists (10-15 hours). ~7.3 BGG. 1-4 players. Cooperative heist, stealth, gear unlocks.
-- **Aliens: Another Glorious Day in the Corps** — Cooperative survival miniature campaign spanning the 1986 film's key missions and survival stages. 6-8 missions (10-15 hours). ~7.5 BGG. 1-6 players. Cooperative miniatures, survival combat, movie campaign.
-- **Machi Koro Legacy** — 10-game narrative legacy dice engine-building campaign expanding a growing island city. 10 games (8-12 hours). ~7.1 BGG. 2-4 players. Dice rolling, legacy unlocks, city building.
+*(All medium-priority games in backlog have been added to the application.)*
+
 ---
 
 ## 🟨 Lower Priority
 
-- **Legacy of Dragonholt** — Cooperative choose-your-own-adventure narrative game set in Terrinoth. 6 quests (10-15 hours). ~7.1 BGG. 1-6 players. Narrative, roleplaying.
-- **Freelancers: A Crossroads Game** — Humorous fantasy post-apocalyptic narrative gig-economy adventure with companion app by Plaid Hat Games. 5-8 quests (12-20 hours). ~7.9 BGG. 1-7 players. Narrative app-driven, crossroads system, cooperative.
-
+*(All lower-priority games in backlog have been added to the application.)*
 
 ---
 

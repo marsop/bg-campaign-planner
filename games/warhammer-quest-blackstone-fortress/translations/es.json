@@ -1,0 +1,61 @@
+{
+  "title": "Warhammer Quest: Blackstone Fortress",
+  "subtitle": "Campaña Mazmorrera de Ciencia Ficción Grimdark",
+  "tagline": "Lidera a un insólito grupo de exploradores en una estación alienígena hostil y cambiante en el universo de Warhammer 40.000.",
+  "loreSummary": "En los confines oscuros de la galaxia, una Fortaleza de Piedra Negra flota en el vacío: una colosal estructura alienígena de origen desconocido. Desde el puerto sin ley de Precipicio, conduce a un heterogéneo grupo de aventureros por su laberinto de obsidiana para expoliar arqueotecnología y abrir la Cámara Oculta.",
+  "badgeCategory": "Mazmorreo Grimdark de Ciencia Ficción",
+  "roadmapTitle": "Expediciones a la Cámara Secreta",
+  "roadmapBadge": "Bastiones y Cámara",
+  "keyFeatures": [
+    "Aventura cooperativa o en solitario ambientada en el emblemático universo de Warhammer 40.000",
+    "Mazo de exploración dinámico con cámaras de combate impredecibles, hostiles errantes y trampas alienígenas",
+    "Bazar de Precipicio: comercia con arqueotecnología, sana heridas graves y recluta apoyo de naves estelares",
+    "4 asaltos a bastiones fortificados que culminan en los aterradores enigmas de la Cámara Oculta"
+  ],
+  "scopes": {
+    "blackstone_hidden_vault": {
+      "name": "La Cámara Oculta (Los 4 Bastiones y Cámara)",
+      "description": "La búsqueda épica completa a lo largo de 18 expediciones para reunir pistas, asaltar los 4 bastiones del Caos y conquistar la Cámara central."
+    },
+    "blackstone_first_stronghold": {
+      "name": "Primera Incursión a un Bastión (Bastión 1)",
+      "description": "Un arco introductorio para reclutar a tu séquito de exploradores y asaltar el primer bastión del Caos."
+    },
+    "blackstone_master_explorer": {
+      "name": "Explorador Maestro de Precipicio (Cámara & Misiones de Escalada)",
+      "description": "Un maratón de campaña exhaustivo que incluye misiones secundarias, refuerzos hostiles y las estancias más profundas de la estación."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Expedición 1",
+      "title": "Llegada a Precipicio",
+      "phase": "Acto I - Al Borde del Vacío",
+      "description": "Reunir una comitiva de mercenarios en la estación comercial de Precipicio y adentrarse en los corredores cambiantes de la Fortaleza."
+    },
+    {
+      "badgeText": "Bastión 1",
+      "title": "Asalto al Bastión del Caos",
+      "phase": "Acto II - La Incursión Impía",
+      "description": "Asaltar el primer bastión fortificado defendido por Guardias Traidores y bestias consagradas al Caos."
+    },
+    {
+      "badgeText": "Bastión 2",
+      "title": "El Enjambre de Drones Huso",
+      "phase": "Acto III - Defensas Automatizadas",
+      "description": "Desactivar centinelas mecánicos de la estación y recuperar pistas de arqueotecnología en cámaras alienígenas selladas."
+    },
+    {
+      "badgeText": "Bastión 4",
+      "title": "El Portal de Obsidiana",
+      "phase": "Acto IV - La Sombra de Mallex",
+      "description": "Confrontar al Señor del Caos Obsidius Mallex y reclamar la llave criptográfica final para abrir el núcleo."
+    },
+    {
+      "badgeText": "Cámara Oculta",
+      "title": "Secretos de los Precursores",
+      "phase": "Acto V - La Cámara Desprecintada",
+      "description": "Sobrevivir a los horrores que distorsionan la realidad en la Cámara central para apoderarse de un poder arqueotecnológico supremo."
+    }
+  ]
+}

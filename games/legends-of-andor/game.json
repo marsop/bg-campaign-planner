@@ -1,0 +1,104 @@
+{
+  "id": "legends-of-andor",
+  "title": "Legends of Andor",
+  "releaseYear": 2012,
+  "designers": "Michael Menzel",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 7.3,
+  "bggWeight": 2.76,
+  "bggUrl": "https://boardgamegeek.com/boardgame/117390/legends-of-andor",
+  "baseScenarioMinutes": 75,
+  "setupTeardownMinutes": 15,
+  "unitType": "legends",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#ca8a04",
+    "secondaryColor": "#1e3a5f",
+    "accentColor": "#dc2626",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e3a5f 0%, #0f172a 60%, #020617 100%)",
+    "cardBackground": "rgba(30, 58, 95, 0.94)",
+    "borderColor": "rgba(202, 138, 4, 0.35)",
+    "glowColor": "rgba(202, 138, 4, 0.25)",
+    "headerFont": "'MedievalSharp', 'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🛡️",
+    "emblem": "🛡️🐉",
+    "themeClass": "theme-legends-of-andor",
+    "activeThemeClass": "theme-legends-of-andor-active",
+    "roadmapClass": "roadmap-legends-of-andor",
+    "heroClass": "hero-legends-of-andor"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #117390)",
+    "KOSMOS Official Rulebook & Legend Cards",
+    "Kennerspiel des Jahres 2013 Winner Archive"
+  ],
+  "scopes": [
+    {
+      "id": "andor_five_legends_chronicle",
+      "baseScenarioCount": 5,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "andor_introductory_legends",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "andor_master_guardians",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 30.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "📜",
+      "badgeText": "Legend 1",
+      "title": "The Arrival of the Heroes",
+      "phase": "Act I - The Warning Scrolls",
+      "description": "Carrying vital warning scrolls across the countryside to Castle Rietburg before invading Gors overrun the borders."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🌿",
+      "badgeText": "Legend 2",
+      "title": "The Healing of the King",
+      "phase": "Act II - The Herb of Life",
+      "description": "Finding the medicinal medicinal plant in the misty forest to cure King Brandur while defending the castle."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "💎",
+      "badgeText": "Legend 3",
+      "title": "Days of Resistance",
+      "phase": "Act III - The Witch of the Mist",
+      "description": "Locating the reclusive Witch, buying potent brew runes, and completing secret destiny cards across the realm."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "⛏️",
+      "badgeText": "Legend 4",
+      "title": "The Jewel Mine of the Dwarves",
+      "phase": "Act IV - Depths of Cavernous Dark",
+      "description": "Descending into the subterranean dwarven mine shafts, battling Skrals, and retrieving the lost shield."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🐉",
+      "badgeText": "Legend 5",
+      "title": "The Wrath of the Dragon",
+      "phase": "Act V - The Final Siege",
+      "description": "Uniting all heroes, four runestones, and the ancestral dragon weapon to slay the colossal dragon descending on Rietburg."
+    }
+  ]
+}

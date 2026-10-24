@@ -1,0 +1,28 @@
+/* Burgle Bros 2: The Casino Capers Scoped Styling */
+.theme-burgle-bros-2 {
+  --bb2-neon: #ec4899;
+  --bb2-gold: #eab308;
+  --bb2-dark: #1e1b4b;
+}
+
+.theme-burgle-bros-2 .game-card-selected,
+.theme-burgle-bros-2-active {
+  border-color: var(--bb2-neon) !important;
+  box-shadow: 0 0 20px rgba(236, 72, 153, 0.35) !important;
+}
+
+.roadmap-burgle-bros-2 .roadmap-milestone-card {
+  border-left: 4px solid var(--bb2-neon);
+  background: linear-gradient(135deg, rgba(49, 16, 47, 0.6) 0%, rgba(24, 13, 36, 0.8) 100%);
+}
+
+.roadmap-burgle-bros-2 .milestone-badge {
+  background-color: var(--bb2-neon);
+  color: #1e1b4b;
+  font-family: 'Righteous', cursive;
+  font-weight: 700;
+}
+
+.hero-burgle-bros-2 {
+  border-bottom: 2px solid rgba(236, 72, 153, 0.4);
+}

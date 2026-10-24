@@ -1,0 +1,104 @@
+{
+  "id": "burgle-bros-2",
+  "title": "Burgle Bros 2: The Casino Capers",
+  "releaseYear": 2021,
+  "designers": "Tim Fowers",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.3,
+  "bggWeight": 2.27,
+  "bggUrl": "https://boardgamegeek.com/boardgame/284435/burgle-bros-2-the-casino-capers",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 15,
+  "unitType": "capers",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#ec4899",
+    "secondaryColor": "#1e1b4b",
+    "accentColor": "#eab308",
+    "backgroundGradient": "radial-gradient(ellipse at top, #31102f 0%, #180d24 60%, #06020c 100%)",
+    "cardBackground": "rgba(30, 27, 75, 0.94)",
+    "borderColor": "rgba(236, 72, 153, 0.35)",
+    "glowColor": "rgba(236, 72, 153, 0.25)",
+    "headerFont": "'Righteous', 'Comfortaa', system-ui, sans-serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🎰",
+    "emblem": "🎰🎲",
+    "themeClass": "theme-burgle-bros-2",
+    "activeThemeClass": "theme-burgle-bros-2-active",
+    "roadmapClass": "roadmap-burgle-bros-2",
+    "heroClass": "hero-burgle-bros-2"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #284435)",
+    "Fowers Games Official Rulebook & Casino Caper Guidebook",
+    "Tim Fowers Cooperative Heist Design Logs"
+  ],
+  "scopes": [
+    {
+      "id": "burgle_bros_2_casino_campaign",
+      "baseScenarioCount": 9,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": true
+    },
+    {
+      "id": "burgle_bros_2_first_heists",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "burgle_bros_2_master_thieves",
+      "baseScenarioCount": 14,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🎲",
+      "badgeText": "Caper 1",
+      "title": "The High Roller Floor",
+      "phase": "Act I - Infiltrating the Casino",
+      "description": "Sneaking past the first floor bouncers, cracking the roulette wheel safe, and dodging roaming security guards."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🍸",
+      "badgeText": "Caper 3",
+      "title": "The Lounge Singer's Distraction",
+      "phase": "Act II - Setting the Grift",
+      "description": "Employing disguised crew members to trigger casino alarms and slip through the surveillance room."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "💰",
+      "badgeText": "Caper 5",
+      "title": "The Penthouse Vault",
+      "phase": "Act III - Cracking the Big One",
+      "description": "Cracking the synchronized laser security grid on the upper penthouse floor to snatch the master payout."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "🚨",
+      "badgeText": "Caper 7",
+      "title": "Double Down Undercover",
+      "phase": "Act IV - The Bouncer Lockdown",
+      "description": "Evading aggressive pit bosses and security dogs while escorting the getaway driver to the monorail exit."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🚁",
+      "badgeText": "Caper 9",
+      "title": "Rooftop Helipad Escape",
+      "phase": "Act V - The Final Score",
+      "description": "Outsmarting the Casino Owner, grabbing the grand jackpot, and leaping to the getaway chopper."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "subtitle": "Una desternillante experiencia de rol en una fantasía postapocalíptica",
+  "tagline": "Toma tus dados, reúne una banda disparatada y desafía los disparatados peligros de un mundo en ruinas.",
+  "loreSummary": "Freelancers: A Crossroads Game combina la brillante narración de los juegos de rol de mesa con la agilidad accesible de los juegos de mesa modernos. Ambientado en un colorido mundo de fantasía postapocalíptica donde la civilización colapsó hace siglos, los jugadores encarnan a ambiciosos mercenarios independientes en busca de botín y notoriedad. Guiados por una aplicación digital complementaria con doblaje profesional, viviréis encuentros impredecibles, decisiones contrarreloj y un humor irreverente continuo.",
+  "badgeCategory": "Rol Crossroads",
+  "roadmapTitle": "La Vida del Freelance",
+  "roadmapBadge": "Contratos Narrativos",
+  "keyFeatures": [
+    "Aplicación digital complementaria totalmente narrada con voces profesionales y encuentros dinámicos",
+    "Mecánica de colocación de trabajadores frenética con temporizadores en tiempo real",
+    "Sistema narrativo Crossroads cargado de dilemas hilarantes, giros imprevistos y sorpresas morales",
+    "Sin preparación previa con fichas de personaje intuitivas de aprendizaje inmediato y formato legacy"
+  ],
+  "scopes": {
+    "intro-contract": {
+      "name": "Primer Contrato (Trabajo Tutorial)",
+      "description": "Contrato introductorio de mercenario que enseña la narración con app, la colocación de trabajadores contrarreloj y la puntuación de contratos."
+    },
+    "core-campaign": {
+      "name": "Campaña El Gran Golpe",
+      "description": "Campaña narrativa estándar con cinco contratos de alto riesgo a través de ruinas fantásticas postapocalípticas."
+    },
+    "all-contracts": {
+      "name": "Todos los Contratos y Trabajos de Expansión",
+      "description": "Partida exhaustiva jugando todos los escenarios incluidos con diversas combinaciones de héroes e historias personales."
+    }
+  },
+  "milestones": {
+    "first-payday": {
+      "title": "El Primer Día de Paga",
+      "phase": "Contrato I",
+      "description": "Completad el primer encargo del grupo, mejorad habilidades estrafalarias y anotad títulos legendarios en vuestra hoja."
+    },
+    "wasteland-notoriety": {
+      "title": "Notoriedad en el Páramo",
+      "phase": "Contrato II",
+      "description": "Sobrevivid a extravagantes mutantes y forjad la infame reputación del grupo frente a los gremios rivales."
+    },
+    "crossroads-reckoning": {
+      "title": "Dilema en la Encrucijada",
+      "phase": "Contrato III",
+      "description": "Afrontad complejas decisiones morales de las cartas de Encrucijada que enfrentan la codicia personal a la supervivencia del grupo."
+    },
+    "the-master-heist": {
+      "title": "El Gran Golpe",
+      "phase": "Contrato IV",
+      "description": "Infiltraos en una peligrosa ruina corporativa ancestral para asegurar el tesoro definitivo antes de que el tiempo expire."
+    },
+    "hall-of-legends": {
+      "title": "Salón de Leyendas",
+      "phase": "Jubilación",
+      "description": "Calculad el botín acumulado de vuestra vida aventurera, inmortalizad vuestros títulos mercenarios y retiraos entre lujos disparatados."
+    }
+  }
+}

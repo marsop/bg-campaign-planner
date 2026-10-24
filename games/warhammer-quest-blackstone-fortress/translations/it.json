@@ -1,0 +1,61 @@
+{
+  "title": "Warhammer Quest: Blackstone Fortress",
+  "subtitle": "Campagna Dungeon Crawl Sci-Fi Grimdark",
+  "tagline": "Guida un insolito manipolo di esploratori all'interno di una stazione aliena ostile e mutevole nell'universo di Warhammer 40.000.",
+  "loreSummary": "Negli angoli più oscuri della galassia, una Fortezza di Pietranera vaga nel vuoto siderale: una ciclopica struttura aliena di origine sconosciuta. Dall'avamposto senza legge di Precipice, conduci un gruppo eterogeneo di avventurieri nel suo labirinto di ossidiana per depredare archeotecnologie e violare la Cripta Nascosta.",
+  "badgeCategory": "Dungeon Crawl Sci-Fi Grimdark",
+  "roadmapTitle": "Spedizioni verso la Cripta Nascosta",
+  "roadmapBadge": "Bastioni & Cripta",
+  "keyFeatures": [
+    "Avventura cooperativa o in solitario ambientata nel cupo millennio di Warhammer 40.000",
+    "Mazzo esplorazione dinamico con stanze di combattimento tattico, pattuglie ostili e trappole xeno",
+    "Stazione commerciale di Precipice: baratta archeotecnologie, medica ferite gravi e assolda navi spaziali",
+    "4 assalti decisivi a bastioni fortificati che conducono agli orrori celati della Cripta Centrale"
+  ],
+  "scopes": {
+    "blackstone_hidden_vault": {
+      "name": "La Cripta Nascosta (Tutti i 4 Bastioni & Cripta)",
+      "description": "L'epica impresa completa su 18 spedizioni per raccogliere indizi, espugnare 4 bastioni del Chaos e conquistare la Cripta."
+    },
+    "blackstone_first_stronghold": {
+      "name": "Prima Incursione nel Bastione (Bastione 1)",
+      "description": "Un arco introduttivo per reclutare i primi esploratori e sferrare l'assalto al primo presidio del Chaos."
+    },
+    "blackstone_master_explorer": {
+      "name": "Mastro Esploratore di Precipice (Cripta & Sfide Escalation)",
+      "description": "Una maratona di campagna totale che include missioni secondarie, rinforzi ostili d'élite e gli anfratti più reconditi della fortezza."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Spedizione 1",
+      "title": "Arrivo a Precipice",
+      "phase": "Atto I - Ai Confini del Vuoto",
+      "description": "Radunare un seguito di mercenari sull'avamposto commerciale di Precipice e addentrarsi nei corridoi mutevoli della Fortezza."
+    },
+    {
+      "badgeText": "Bastione 1",
+      "title": "Assalto al Bastione del Chaos",
+      "phase": "Atto II - L'Incursione Empia",
+      "description": "Espugnare il primo bastione fortificato difeso da Guardie Traditrici e feroci Uomini-Bestia votati al Chaos."
+    },
+    {
+      "badgeText": "Bastione 2",
+      "title": "Lo Sciame di Droni Fuso",
+      "phase": "Atto III - Difese Automatizzate",
+      "description": "Disattivare sentinelle robotiche e recuperare indizi archeotecnologici da camere aliene sigillate."
+    },
+    {
+      "badgeText": "Bastione 4",
+      "title": "Il Portale di Ossidiana",
+      "phase": "Atto IV - L'Ombra di Mallex",
+      "description": "Sfidare il Signore del Chaos Obsidius Mallex e strappare la chiave di cifratura finale per aprire il cuore della stazione."
+    },
+    {
+      "badgeText": "Cripta Nascosta",
+      "title": "I Segreti dei Precursori",
+      "phase": "Atto V - La Cripta Sigillata",
+      "description": "Sopravvivere alle aberrazioni della Cripta centrale per impadronirsi del supremo potere archeotecnologico prima del crollo."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+/* Shadows of Brimstone: City of the Ancients Scoped Styling */
+.theme-shadows-of-brimstone {
+  --sob-darkstone: #10b981;
+  --sob-leather: #78350f;
+  --sob-void: #9333ea;
+  --sob-dark: #1c1917;
+}
+
+.theme-shadows-of-brimstone .game-card-selected,
+.theme-shadows-of-brimstone-active {
+  border-color: var(--sob-darkstone) !important;
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.35) !important;
+}
+
+.roadmap-shadows-of-brimstone .roadmap-milestone-card {
+  border-left: 4px solid var(--sob-darkstone);
+  background: linear-gradient(135deg, rgba(46, 16, 101, 0.5) 0%, rgba(28, 25, 23, 0.8) 100%);
+}
+
+.roadmap-shadows-of-brimstone .milestone-badge {
+  background-color: var(--sob-darkstone);
+  color: #064e3b;
+  font-family: 'Rye', serif;
+  font-weight: 700;
+}
+
+.hero-shadows-of-brimstone {
+  border-bottom: 2px solid rgba(16, 185, 129, 0.4);
+}

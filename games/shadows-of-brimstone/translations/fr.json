@@ -1,0 +1,61 @@
+{
+  "title": "Shadows of Brimstone: City of the Ancients",
+  "subtitle": "Campagne Dungeon Crawl Weird-West et Horreur Cosmique",
+  "tagline": "Dégainez vos six-coups et descendez dans des mines d'or maudites et des Mondes Extérieurs extraterrestres.",
+  "loreSummary": "À la fin des années 1890, la ville minière de Brimstone a découvert le filon d'or noir de la Pierre Sombre, un minéral surnaturel qui a ouvert des brèches vers des dimensions cauchemardesques. Incarnez un Pistolero, une Fille de Saloon ou un Marshal, affrontez des abominations eldritch et traversez les portails vers des ruines oubliées.",
+  "badgeCategory": "Dungeon Crawl Weird-West",
+  "roadmapTitle": "Expéditions vers le Néant",
+  "roadmapBadge": "Missions de Pierre Sombre",
+  "keyFeatures": [
+    "Fusion explosive entre fusillades du Far West et horreur cosmique lovecraftienne",
+    "Progression de personnages poussée : gain d'XP, arbres de compétences, blessures physiques et démence",
+    "Intermède en Ville : visitez saloons, forgerons, médecins et églises pour fabriquer votre équipement",
+    "Portails vers d'Autres Mondes menant aux ruines cybernétiques glacées du Plateau de Targa"
+  ],
+  "scopes": {
+    "brimstone_ancient_city_saga": {
+      "name": "La Saga du Plateau de Targa (12 Aventures & Mondes Extérieurs)",
+      "description": "L'arc narratif complet en 16 aventures à travers des galeries minières hantées, escales urbaines et portes alien."
+    },
+    "brimstone_greenhorn_mines": {
+      "name": "Arc du Bleu de la Frontière (4 Premières Aventures)",
+      "description": "Une campagne d'initiation en 4 aventures dans les puits de mine abandonnés et ravitaillement à Brimstone."
+    },
+    "brimstone_master_gunslinger": {
+      "name": "Hors-la-loi Légendaire de Pierre Sombre (Campagne & Maître de Targa)",
+      "description": "Une épopée exhaustive affrontant toutes les failles dimensionnelles et le terrible Maître des Précurseurs."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Aventure 1",
+      "title": "Descente dans la Mine Abandonnée",
+      "phase": "Acte I - Le Cauchemar de la Ruée vers l'Or",
+      "description": "Allumer des torches et explorer des galeries sombres infestées d'araignées du néant et de tentacules voraces."
+    },
+    {
+      "badgeText": "Aventure 4",
+      "title": "Repos & Ravitaillement à Brimstone",
+      "phase": "Acte II - Halte en Ville Frontalière",
+      "description": "Visiter saloon, forge et église pour dépenser la Pierre Sombre, soigner la folie et améliorer vos armes."
+    },
+    {
+      "badgeText": "Aventure 8",
+      "title": "La Porte du Plateau de Targa",
+      "phase": "Acte III - Vers l'Autre Monde Glacial",
+      "description": "Franchir un vortex cosmique vers les ruines cybernétiques d'une antique civilisation extraterrestre disparue."
+    },
+    {
+      "badgeText": "Aventure 12",
+      "title": "L'Éveil des Gardiens",
+      "phase": "Acte IV - Métal et Démence",
+      "description": "Combattre les automates Gardiens mécaniques et les colossaux Goliaths protégeant les réacteurs alien."
+    },
+    {
+      "badgeText": "Final",
+      "title": "Le Trésor Suprême de Pierre Sombre",
+      "phase": "Acte V - Légende de l'Ouest Sauvage",
+      "description": "Éradiquer les terreurs de la faille cosmique et rentrer à Brimstone chargés de gloire et de Pierre Sombre purifiée."
+    }
+  ]
+}

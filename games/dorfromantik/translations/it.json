@@ -1,0 +1,61 @@
+{
+  "title": "Dorfromantik: Il Gioco da Tavolo",
+  "subtitle": "Campagna Cooperativa di Puzzle Paesaggistico Pastorale",
+  "tagline": "Componete insieme una campagna idilliaca e rilassante, sbloccando scatole segrete in una piacevole progressione.",
+  "loreSummary": "Collaborate piazzando tessere paesaggio esagonali, collegando fiumi scintillanti, campi di grano dorati e pittoreschi villaggi per soddisfare le richieste degli abitanti e sbloccare scatole segrete con nuovi elementi.",
+  "badgeCategory": "Campagna Cooperativa Pastorale",
+  "roadmapTitle": "Sentiero dei Traguardi di Campagna",
+  "roadmapBadge": "Scatole Segrete",
+  "keyFeatures": [
+    "Adattamento cooperativo di piazzamento tessere del celebre videogioco rilassante",
+    "5 scatole segrete sbloccabili con nuove tessere, compiti e regole di punteggio",
+    "Blocco campagna rigiocabile con soglie di punti crescenti e stelle obiettivo",
+    "Vincitore del prestigioso premio Spiel des Jahres 2023"
+  ],
+  "scopes": {
+    "dorfromantik_full_campaign": {
+      "name": "La Campagna Completa (Tutte le 5 Scatole)",
+      "description": "L'arco narrativo completo, sbloccando tutte e 5 le scatole sigillate con incarichi speciali di paesaggio e carte punteggio."
+    },
+    "dorfromantik_first_achievements": {
+      "name": "Primi Orizzonti del Villaggio (Prime 2 Scatole)",
+      "description": "Un'esperienza introduttiva aprendo le prime due scatole segrete per introdurre ferrovie e tessere sfida."
+    },
+    "dorfromantik_master_high_score": {
+      "name": "Mastro Paesaggista (Campagna & Record di Punti)",
+      "description": "Un'esperienza intensiva volta a sbloccare ogni modulo e raggiungere i massimi livelli di punteggio sul foglio campagna."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Scatola 1",
+      "title": "I Primi Campi Fioriti",
+      "phase": "Capitolo 1 - Fondamenta del Villaggio",
+      "description": "Tracciare i primi corsi d'acqua e unire i confini dei boschi per raggiungere la prima soglia di punti della campagna."
+    },
+    {
+      "badgeText": "Scatola 2",
+      "title": "Binari Attraverso la Valle",
+      "phase": "Capitolo 2 - Nuovi Orizzonti",
+      "description": "Aprire le prime scatole segrete introducendo scambi ferroviari, incarichi speciali e reti per treni a vapore."
+    },
+    {
+      "badgeText": "Scatola 3",
+      "title": "Confluenze Fluviali & Canali",
+      "phase": "Capitolo 3 - Corsi d'Acqua",
+      "description": "Integrare tessere porto e lunghi canali navigabili per sbloccare nuove carte obiettivo e stelle punteggio."
+    },
+    {
+      "badgeText": "Scatola 4",
+      "title": "Meraviglie del Reame",
+      "phase": "Capitolo 4 - Monumenti e Punti d'Interesse",
+      "description": "Costruire mulini a vento, torri d'avvistamento e grandi monumenti che premiano strategie dedicate di piazzamento."
+    },
+    {
+      "badgeText": "Scatola 5",
+      "title": "Il Paesaggio Armonioso Perfetto",
+      "phase": "Capitolo 5 - Gran Finale di Campagna",
+      "description": "Aprire l'ultima scatola segreta e raggiungere il punteggio supremo di armonia sul registro della campagna."
+    }
+  ]
+}

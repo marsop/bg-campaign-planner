@@ -1,0 +1,61 @@
+{
+  "title": "Maracaibo",
+  "subtitle": "Campaña Estratégica Marítima en el Caribe del Siglo XVII",
+  "tagline": "Navega por las peligrosas aguas de las Antillas a lo largo de una campaña narrativa evolutiva de 12 capítulos.",
+  "loreSummary": "Zarpa en el siglo XVII como un hábil capitán que surca el Caribe. Entrega mercancías, mejora tu navío, cumple audaces misiones y forja alianzas con los imperios europeos mientras el tablero de juego evoluciona permanentemente de un capítulo a otro.",
+  "badgeCategory": "Campaña Estratégica Marítima",
+  "roadmapTitle": "Crónicas de las Antillas",
+  "roadmapBadge": "Capítulos de Historia",
+  "keyFeatures": [
+    "Magistral diseño eurogame de alta estrategia por Alexander Pfister con rondel marítimo dinámico",
+    "Campaña ramificada de 12 capítulos donde las cartas de historia modifican losetas y rutas en el mapa",
+    "Profundo motor de juego: mejora tu barco, contrata tripulantes y explora senderos en la selva",
+    "Puntuación multifacética con equilibrios geopolíticos de influencia entre Inglaterra, Francia y España"
+  ],
+  "scopes": {
+    "maracaibo_full_chronicles": {
+      "name": "Crónicas del Caribe (Los 12 Capítulos)",
+      "description": "La saga narrativa completa a lo largo de los 12 capítulos con losetas evolutivas, misiones históricas y desenlaces imperiales."
+    },
+    "maracaibo_introductory_voyage": {
+      "name": "La Travesía Inaugural (Capítulos 1–4)",
+      "description": "Un arco introductorio para establecer tu compañía comercial y familiarizarse con la mecánica de mapa cambiante."
+    },
+    "maracaibo_master_corsair": {
+      "name": "Corsario Maestro (12 Capítulos + Desafíos Avanzados)",
+      "description": "Una expedición marítima exhaustiva explorando todas las ramas alternativas de cartas y máxima dificultad."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Capítulo 1",
+      "title": "Zarpando de La Habana",
+      "phase": "Acto I - La Gran Ruta Comercial",
+      "description": "Aprovechar los vientos alisios a través del Caribe y entregar los primeros cargamentos en puestos coloniales."
+    },
+    {
+      "badgeText": "Capítulo 4",
+      "title": "Choque de Imperios",
+      "phase": "Acto II - Alianzas Cambiantes",
+      "description": "Las disputas de influencia entre Inglaterra, Francia y España se intensifican en toda la cuenca del Caribe."
+    },
+    {
+      "badgeText": "Capítulo 7",
+      "title": "Secretos de la Costa de las Perlas",
+      "phase": "Acto III - Aguas Inexploradas",
+      "description": "Adentrarse en senderos selváticos vírgenes y misteriosas ruinas más allá de Maracaibo y Caracas."
+    },
+    {
+      "badgeText": "Capítulo 10",
+      "title": "El Bloqueo Corsario",
+      "phase": "Acto IV - Tormenta sobre las Antillas",
+      "description": "Sortear bloqueos navales traicioneros y flotas piratas fugitivas que amenazan a los convoyes mercantes."
+    },
+    {
+      "badgeText": "Capítulo 12",
+      "title": "El Legado de las Antillas",
+      "phase": "Acto V - Gran Final de la Flota Mercante",
+      "description": "Asegurar la supremacía marítima e inmortalizar tu compañía comercial en los anales del Caribe."
+    }
+  ]
+}

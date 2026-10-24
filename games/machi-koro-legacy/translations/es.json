@@ -1,0 +1,61 @@
+{
+  "title": "Machi Koro Legacy",
+  "subtitle": "Campaña de Legado y Construcción de Ciudades Insulares",
+  "tagline": "Lanza dados, construye monumentos y observa cómo tu archipiélago evoluciona permanentemente a lo largo de 10 partidas.",
+  "loreSummary": "Varios alcaldes rivales son designados para urbanizar un idílico archipiélago tropical. Lanza los dados, recauda ingresos de panaderías, puertos y festivales, y abre cajas secretas de legado que introducen de forma permanente nuevos edificios, mecánicas y cartas en tus tableros.",
+  "badgeCategory": "Campaña de Dados y Construcción de Ciudades",
+  "roadmapTitle": "Desarrollo del Archipiélago",
+  "roadmapBadge": "Partidas de Legado",
+  "keyFeatures": [
+    "Adaptación legacy del aclamado juego de dados co-diseñada por Rob Daviau (Risk Legacy, Pandemic Legacy)",
+    "Campaña narrativa de 10 partidas con cartas de historia progresiva, compartimentos secretos y pegatinas permanentes",
+    "Genera una copia personalizada e infinitamente rejugable de Machi Koro al completar la campaña",
+    "Juego competitivo ágil y accesible, ideal tanto para familias como para grupos consagrados"
+  ],
+  "scopes": {
+    "machi_koro_ten_game_campaign": {
+      "name": "Legado del Alcalde de la Isla (Las 10 Partidas)",
+      "description": "El arco completo de 10 partidas abriendo todas las cajas secretas, desbloqueando monumentos y coronando al Alcalde Supremo."
+    },
+    "machi_koro_first_districts": {
+      "name": "Los Pueblos Fundacionales (Partidas 1 a 3)",
+      "description": "Un recorrido introductorio de 3 partidas estableciendo tus primeros negocios costeros y asimilando las reglas de legado."
+    },
+    "machi_koro_metropolis_master": {
+      "name": "Maestro Promotor Insular (10 Partidas & Modo Libre)",
+      "description": "La campaña completa de 10 partidas seguida de partidas libres utilizando tu tablero definitivo personalizado."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Partida 1",
+      "title": "Fundación de los Pueblos Insulares",
+      "phase": "Acto I - Las Primeras Cosechas",
+      "description": "Abrir la caja de legado, sembrar campos de trigo, hornear pan y competir por construir los primeros cuatro monumentos."
+    },
+    {
+      "badgeText": "Partida 3",
+      "title": "Puertos y Astilleros",
+      "phase": "Acto II - Comercio Marítimo",
+      "description": "Desbloquear barajas náuticas, flotas pesqueras y rutas de transbordador que conectan las islas del archipiélago."
+    },
+    {
+      "badgeText": "Partida 6",
+      "title": "Fiestas y Turismo",
+      "phase": "Acto III - Esplendor Cultural",
+      "description": "Incorporar plazas de ferias, parques de atracciones y complejos turísticos que atraen visitantes del continente."
+    },
+    {
+      "badgeText": "Partida 8",
+      "title": "Industria Pesada y Ferrocarriles",
+      "phase": "Acto IV - Infraestructura Moderna",
+      "description": "Conectar trenes bala municipales, minas y sedes tecnológicas entre los distritos en pugna de los jugadores."
+    },
+    {
+      "badgeText": "Partida 10",
+      "title": "La Gran Metrópoli Insular",
+      "phase": "Acto V - La Coronación del Alcalde",
+      "description": "Completar el monumento final de la isla, contabilizar la puntuación histórica y proclamar al Alcalde Supremo."
+    }
+  ]
+}

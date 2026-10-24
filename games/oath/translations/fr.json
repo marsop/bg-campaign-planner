@@ -1,0 +1,61 @@
+{
+  "title": "Oath : Chroniques d'Empire et d'Exil",
+  "subtitle": "Campagne Stratégique Générationnelle de Fantasy et d'Héritage",
+  "tagline": "Façonnez l'histoire vivante d'un empire à travers les générations où chaque victoire redéfinit les cartes et le monde.",
+  "loreSummary": "Dans Oath, aucun récit n'est écrit d'avance. Un joueur règne en Chancelier impérial tandis que les autres complotent en Citoyens loyaux ou en Exilés rebelles. Chaque partie détermine le plateau, les cartes et les conditions de victoire des générations suivantes.",
+  "badgeCategory": "Campagne Stratégique Générationnelle",
+  "roadmapTitle": "Chronique des Générations",
+  "roadmapBadge": "Ères de Chronique",
+  "keyFeatures": [
+    "Système d'héritage générationnel révolutionnaire signé Cole Wehrle à narration émergente",
+    "Paquet du Monde dynamique où les cartes sont ajoutées, archivées ou purgées selon le vainqueur",
+    "Rôles politiques mouvants : prêtez allégeance comme Citoyen ou menez l'insurrection comme Exilé",
+    "Esthétique de conte illustré magistrale signée Kyle Ferrin"
+  ],
+  "scopes": {
+    "oath_grand_dynasty": {
+      "name": "La Grande Dynastie de la Chronique (12 Parties)",
+      "description": "Une épopée générationnelle sur 12 parties jalonnées de souverains déchus, de cultes mutants et de révoltes."
+    },
+    "oath_reign_of_chancellors": {
+      "name": "Le Règne du Premier Chancelier (4 Parties)",
+      "description": "Un arc d'introduction pour asseoir l'ordre impérial et éprouver la première succession dynastique."
+    },
+    "oath_immortal_empire": {
+      "name": "Un Siècle de Conflits (18 Parties de Chronique)",
+      "description": "Une vaste fresque multicentenaire témoignant de l'avènement et de la chute inexorable de dynasties rivales."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Génération I",
+      "title": "Le Serment Fondateur du Chancelier",
+      "phase": "Ère I - L'Aube de l'Empire",
+      "description": "Prononcer le Serment de Suprématie inaugural tandis que les Exilés fomentent l'insurrection dans les Marches."
+    },
+    {
+      "badgeText": "Génération III",
+      "title": "Première Succession Dynastique",
+      "phase": "Ère II - La Chronique Remaniée",
+      "description": "La vision du vainqueur archive des cartes dans le Paquet du Monde, bouleversant cultes, secrets et arts de la guerre."
+    },
+    {
+      "badgeText": "Génération VI",
+      "title": "Montée en Puissance des Citoyens",
+      "phase": "Ère III - Loyautés Fracturées",
+      "description": "D'anciens rebelles obtiennent la citoyenneté, corrompant les reliques impériales pour usurper le trône."
+    },
+    {
+      "badgeText": "Génération IX",
+      "title": "Crépuscule de la Haute Dynastie",
+      "phase": "Ère IV - L'Âge des Secrets Sombres",
+      "description": "D'antiques visions oubliées s'emparent des provinces alors que conspirations et hérésies envahissent la cour."
+    },
+    {
+      "badgeText": "Génération XII",
+      "title": "L'Éternelle Chronique",
+      "phase": "Ère V - Un Héritage Millénaire",
+      "description": "Sceller la boîte de la Chronique, immortalisant des siècles d'histoire forgée par les joueurs."
+    }
+  ]
+}

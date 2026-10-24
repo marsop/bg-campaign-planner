@@ -1,0 +1,61 @@
+{
+  "title": "This War of Mine: The Board Game",
+  "subtitle": "Gritty Civilian Survival Board Game Campaign",
+  "tagline": "Endure the harsh reality of civilian survival in a besieged city through desperate days and perilous nights.",
+  "loreSummary": "In war, not everyone is a soldier. Trapped in the ruined city of Pogoren, you and your companions must scavenge for food, medicine, and fuel while confronting harrowing moral decisions in an unforgiving struggle to survive until the ceasefire.",
+  "badgeCategory": "Civilian Survival Campaign",
+  "roadmapTitle": "Days of the Siege",
+  "roadmapBadge": "Survival Days",
+  "keyFeatures": [
+    "Faithful, gut-wrenching tabletop adaptation of 11 bit studios' acclaimed video game",
+    "Open-and-play journal system with over 1,900 branching narrative story scripts",
+    "Day-and-night cycle: barricade your tenement by day, scavenge ruined city streets by night",
+    "Persistent campaign save sheets tracking wounds, illness, misery, and psychological trauma"
+  ],
+  "scopes": {
+    "this_war_of_mine_ceasefire": {
+      "name": "Until the Ceasefire (Full Survival Campaign)",
+      "description": "The definitive 8-day survival ordeal, weathering cold, night raids, and resource shortages until peace arrives."
+    },
+    "this_war_of_mine_first_snow": {
+      "name": "First Snow Survival (Short Survival Arc)",
+      "description": "An introductory 4-day campaign arc focusing on early shelter defense and initial scavenging runs before the deep freeze."
+    },
+    "this_war_of_mine_ironman": {
+      "name": "Winter Siege Hardcore (All Scripts & Harsh Events)",
+      "description": "An exhaustive extended 12-day endurance test facing severe blizzards, epidemic outbreaks, and heavy militia raids."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Day 1",
+      "title": "Securing the Shelter",
+      "phase": "Act I - The Ruined Tenement",
+      "description": "Clearing rubble, boarding up breached windows, and building makeshift beds to survive the initial shellings."
+    },
+    {
+      "badgeText": "Day 3",
+      "title": "First Night Scavenge",
+      "phase": "Act II - Into the Silent Streets",
+      "description": "Venturing out past sniper fire into the decrepit city pharmacy and supermarket to bring back food and bandages."
+    },
+    {
+      "badgeText": "Day 5",
+      "title": "The Bitter Winter Frost",
+      "phase": "Act III - Sub-Zero Survival",
+      "description": "Freezing temperatures set in, forcing desperate choices between burning precious books and scavenging wood for the heater."
+    },
+    {
+      "badgeText": "Day 7",
+      "title": "Desperate Strangers at the Door",
+      "phase": "Act IV - Moral Dilemmas",
+      "description": "Confronting night raids and moral crossroads when desperate neighbors and armed militia plead or demand entrance."
+    },
+    {
+      "badgeText": "Day 8",
+      "title": "The Ceasefire Horn",
+      "phase": "Act V - The Morning After",
+      "description": "Surviving until the peace accords are broadcast across Pogoren, tallying the human cost of endurance."
+    }
+  ]
+}

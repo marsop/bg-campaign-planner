@@ -1,0 +1,55 @@
+{
+  "subtitle": "Ein aberwitziges postapokalyptisches Fantasy-Rollenspielerlebnis",
+  "tagline": "Schnappt euch die Würfel, stellt eine chaotische Truppe zusammen und trotzt den irrsinnigen Gefahren einer Ruinenwelt.",
+  "loreSummary": "Freelancers: A Crossroads Game vereint das packende Storytelling klassischer Tabletop-Rollenspiele mit der rasanten Zugänglichkeit moderner Brettspiele. In einer bunten, postapokalyptischen Fantasywelt, in der die alte Zivilisation vor Jahrhunderten unterging, schlüpfen die Spieler in die Rollen abenteuerhungriger Freiberufler auf der Jagd nach Beute und Ruhm. Begleitet von einer voll vertonten Begleit-App erlebt ihr verzweigte narrative Begegnungen, hektische Entscheidungen unter Zeitdruck und urkomische Gruppendialoge.",
+  "badgeCategory": "Crossroads-RPG",
+  "roadmapTitle": "Das Freiberufler-Geschäft",
+  "roadmapBadge": "Auftrags-Zyklus",
+  "keyFeatures": [
+    "Vollständig professionell vertonte Begleit-App mit immersiver Audio-Narration und dynamischen Begegnungen",
+    "Arbeitereinsatz unter rasantem Zeitdruck mit unbarmherzig tickenden Sanduhren",
+    "Crossroads-Erzählsystem voller grotesker Dilemmas, moralischer Zwickmühlen und überraschender Wendungen",
+    "Keine Spielvorbereitung nötig dank sofort spielbarer Charakterbögen und originellem Kampagnenfortschritt"
+  ],
+  "scopes": {
+    "intro-contract": {
+      "name": "Erster Auftrag (Tutorial-Job)",
+      "description": "Einführender Söldnervertrag, der die App-Sprachausgabe, Arbeitereinsatz unter Zeitdruck und Auftragswertungen erklärt."
+    },
+    "core-campaign": {
+      "name": "Die Kampagne Der Große Coup",
+      "description": "Reguläre narrative Kampagne mit fünf spektakulären, hochriskanten Freiberufler-Aufträgen durch postapokalyptische Trümmerländer."
+    },
+    "all-contracts": {
+      "name": "Alle Aufträge & Erweiterungsjobs",
+      "description": "Kompletter Spieldurchlauf aller enthaltenen Szenarien mit vielseitigen Charakter-Kombinationen und Vermächtnis-Bögen."
+    }
+  },
+  "milestones": {
+    "first-payday": {
+      "title": "Der erste Zahltag",
+      "phase": "Auftrag I",
+      "description": "Schließt den ersten Vertrag eurer Crew ab, steigert kuriose Fertigkeiten und verewigt Heldentitel auf dem Charakterbogen."
+    },
+    "wasteland-notoriety": {
+      "title": "Berüchtigt im Ödland",
+      "phase": "Auftrag II",
+      "description": "Übersteht bizarre Mutantenbegegnungen und festigt den berühmt-berüchtigten Ruf eurer Truppe bei rivalisierenden Gilden."
+    },
+    "crossroads-reckoning": {
+      "title": "Dilemma am Scheideweg",
+      "phase": "Auftrag III",
+      "description": "Stellt euch den kniffligen moralischen Entscheidungen der Crossroads-Karten, die persönliche Gier gegen das Überleben der Gruppe abwägen."
+    },
+    "the-master-heist": {
+      "title": "Der große Coup",
+      "phase": "Auftrag IV",
+      "description": "Dringt in eine gefährliche Konzernruine der Vorzeit ein, um den ultimativen Schatz zu bergen, bevor der Zeittimer abläuft."
+    },
+    "hall-of-legends": {
+      "title": "Halle der Legenden",
+      "phase": "Ruhestand",
+      "description": "Rechnet eure gesamte Lebensbeute zusammen, verewigt eure Freiberufler-Titel in der Folklore und geht in aberwitzigem Luxus in Rente."
+    }
+  }
+}

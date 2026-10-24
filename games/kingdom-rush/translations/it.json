@@ -1,0 +1,61 @@
+{
+  "title": "Kingdom Rush: Rift in Time",
+  "subtitle": "Campagna Cooperativa di Difesa della Torre e Puzzle Poliamino",
+  "tagline": "Costruisci torri difensive, scatena poteri eroici e sigilla lo Squarcio Temporale in 10 scenari progressivi.",
+  "loreSummary": "Il regno di Linirea è assediato dall'oscuro Mago del Tempo e dalle sue fameliche orde. Collaborate passandovi le carte torre per potenziarle, lanciate incantesimi devastanti e muovete gli eroi sui sentieri per respingere i nemici prima che distruggano il reame.",
+  "badgeCategory": "Campagna Cooperativa Tower Defense",
+  "roadmapTitle": "Difesa di Linirea",
+  "roadmapBadge": "Scenari della Storia",
+  "keyFeatures": [
+    "Trasposizione ufficiale da tavolo del celebre videogioco di tower defense di Ironhide Game Studio",
+    "Coinvolgente combattimento a puzzle: ricopri le plance orda nemiche con tessere danno poliamino",
+    "Sistema innovativo di upgrade delle torri: passa le carte torre ai compagni tra un round e l'altro",
+    "10 scenari progressivi ricchi di boss unici, varchi temporali dinamici e sfide di ferro"
+  ],
+  "scopes": {
+    "kingdom_rush_full_campaign": {
+      "name": "La Campagna dello Squarcio (Tutti i 10 Scenari)",
+      "description": "L'arco narrativo completo di 10 scenari difendendo Linirea attraverso boss epici e puzzle dimensionali."
+    },
+    "kingdom_rush_first_defenses": {
+      "name": "Difesa dell'Avamposto (Scenari 1–3)",
+      "description": "Un percorso introduttivo di 3 scenari per apprendere il posizionamento delle torri e sconfiggere il Juggernaut."
+    },
+    "kingdom_rush_iron_challenge": {
+      "name": "Difensore Supremo (10 Scenari & Sfide di Ferro)",
+      "description": "Una campagna estrema che affronta tutti i 10 scenari base con vincoli eroici e condizioni della Sfida di Ferro."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Scenario 1",
+      "title": "Lo Squarcio si Apre",
+      "phase": "Atto I - L'Avamposto di Frontiera",
+      "description": "Costruire le prime torri di arcieri e caserme posizionando tessere danno sulle orde di goblin in carica."
+    },
+    {
+      "badgeText": "Scenario 3",
+      "title": "L'Ira del Juggernaut",
+      "phase": "Atto II - Colossi Corazzati",
+      "description": "Potenziare i cannoni d'artiglieria e combinare attacchi speciali degli eroi per piegare il gigante d'acciaio."
+    },
+    {
+      "badgeText": "Scenario 6",
+      "title": "La Foresta Corrotta",
+      "phase": "Atto III - Portali Fluttuanti",
+      "description": "Gestire le anomalie temporali che teletrasportano le orde nemiche da un sentiero all'altro."
+    },
+    {
+      "badgeText": "Scenario 8",
+      "title": "L'Avanguardia di Vez'nan",
+      "phase": "Atto IV - La Marcia dell'Arcimago",
+      "description": "Presidiare il valico montano contro stregoni oscuri per proteggere i cuori civili del regno."
+    },
+    {
+      "badgeText": "Scenario 10",
+      "title": "La Caduta del Mago del Tempo",
+      "phase": "Atto V - Il Trionfo del Re",
+      "description": "Sconfiggere il Crono-Mago supremo, collassare lo Squarcio Temporale e salvare Linirea dall'oblio."
+    }
+  ]
+}

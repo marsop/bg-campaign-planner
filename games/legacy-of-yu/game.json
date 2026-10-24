@@ -1,0 +1,104 @@
+{
+  "id": "legacy-of-yu",
+  "title": "Legacy of Yu",
+  "releaseYear": 2023,
+  "designers": "Shem Phillips",
+  "playersMin": 1,
+  "playersMax": 1,
+  "bggRating": 7.9,
+  "bggWeight": 2.76,
+  "bggUrl": "https://boardgamegeek.com/boardgame/354934/legacy-of-yu",
+  "baseScenarioMinutes": 60,
+  "setupTeardownMinutes": 10,
+  "unitType": "games",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#0284c7",
+    "secondaryColor": "#78350f",
+    "accentColor": "#dc2626",
+    "backgroundGradient": "radial-gradient(ellipse at top, #0c4a6e 0%, #1c1917 60%, #0c0a09 100%)",
+    "cardBackground": "rgba(12, 74, 110, 0.94)",
+    "borderColor": "rgba(2, 132, 199, 0.35)",
+    "glowColor": "rgba(2, 132, 199, 0.25)",
+    "headerFont": "'Ma Shan Zheng', 'Cinzel', serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🌊",
+    "emblem": "🌊🛶",
+    "themeClass": "theme-legacy-of-yu",
+    "activeThemeClass": "theme-legacy-of-yu-active",
+    "roadmapClass": "roadmap-legacy-of-yu",
+    "heroClass": "hero-legacy-of-yu"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #354934)",
+    "Garphill Games Official Rulebook & Storybook",
+    "Shem Phillips Solo Campaign Design Diary"
+  ],
+  "scopes": [
+    {
+      "id": "legacy_of_yu_flood_campaign",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "legacy_of_yu_first_canals",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "legacy_of_yu_master_engineer",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 35.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🛶",
+      "badgeText": "Game 1",
+      "title": "The Rising Floodwaters",
+      "phase": "Era I - Breaching the Banks",
+      "description": "Digging the first drainage channels, harvesting timber, and repelling barbarian river raiders."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🏮",
+      "badgeText": "Game 3",
+      "title": "Villages of the Basin",
+      "phase": "Era II - Sheltering the Populace",
+      "description": "Constructing granaries and outposts to house refugees while drafting artisans and monks into the labor force."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "⛏️",
+      "badgeText": "Game 5",
+      "title": "Cutting Through the Mountains",
+      "phase": "Era III - The Great Gorge Engineering",
+      "description": "Clearing boulder blockages and carving stone canals through Dragon Gate Mountain to divert surging waters."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "⚔️",
+      "badgeText": "Game 7",
+      "title": "The Barbarian Warlord's Siege",
+      "phase": "Act IV - Defense of the Works",
+      "description": "Bribing and battling invading barbarian warbands threatening to sabotage the canal lockworks."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "👑",
+      "badgeText": "Game 8",
+      "title": "The Waters Subdued",
+      "phase": "Era V - Yu the Great Enthroned",
+      "description": "Guiding the Yellow River safely to the Eastern Sea, winning seven imperial victories, and founding the Xia Dynasty."
+    }
+  ]
+}

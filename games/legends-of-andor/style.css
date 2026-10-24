@@ -1,0 +1,29 @@
+/* Legends of Andor Scoped Styling */
+.theme-legends-of-andor {
+  --andor-gold: #ca8a04;
+  --andor-blue: #1e3a5f;
+  --andor-red: #dc2626;
+  --andor-dark: #0f172a;
+}
+
+.theme-legends-of-andor .game-card-selected,
+.theme-legends-of-andor-active {
+  border-color: var(--andor-gold) !important;
+  box-shadow: 0 0 20px rgba(202, 138, 4, 0.35) !important;
+}
+
+.roadmap-legends-of-andor .roadmap-milestone-card {
+  border-left: 4px solid var(--andor-gold);
+  background: linear-gradient(135deg, rgba(30, 58, 95, 0.5) 0%, rgba(15, 23, 42, 0.8) 100%);
+}
+
+.roadmap-legends-of-andor .milestone-badge {
+  background-color: var(--andor-gold);
+  color: #1e3a5f;
+  font-family: 'MedievalSharp', serif;
+  font-weight: 700;
+}
+
+.hero-legends-of-andor {
+  border-bottom: 2px solid rgba(202, 138, 4, 0.4);
+}

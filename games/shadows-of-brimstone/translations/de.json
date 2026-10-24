@@ -1,0 +1,61 @@
+{
+  "title": "Shadows of Brimstone: City of the Ancients",
+  "subtitle": "Weird-West-Lovecraft-Dungeon-Crawl-Kampagne",
+  "tagline": "Schnall dir deine Revolver um und steige in verfluchte Goldminen und fremdartige Anderswelten hinab.",
+  "loreSummary": "In den späten 1890er-Jahren stieß die Goldgräberstadt Brimstone auf die Mutterader des Dunkelsteins – ein kosmisches Mineral, das interdimensionale Portale aufriss. Erschaffe deinen Revolverhelden, Saloon-Girl oder US Marshal, bekämpfe Lovecraft-Kreaturen und wage dich durch Risse in uralte Xenos-Ruinen.",
+  "badgeCategory": "Weird-West-Dungeon-Crawl",
+  "roadmapTitle": "Expeditionen in die Leere",
+  "roadmapBadge": "Dunkelstein-Missionen",
+  "keyFeatures": [
+    "Packende Verschmelzung von klassischem Western-Gefecht und kosmischem Lovecraft-Horror",
+    "Tiefe Charakterentwicklung: Erfahrung sammeln, Talentbäume freischalten und Verletzungen sowie Wahnsinn überstehen",
+    "Grenzstadt-Phase: Besuche Saloons, Schmiede, Ärzte und Kirchen für Ausrüstung und Heilerfolge",
+    "Portale in fremde Welten, die in die eisigen robotischen Ruinen des Targa-Plateaus führen"
+  ],
+  "scopes": {
+    "brimstone_ancient_city_saga": {
+      "name": "Die Targa-Plateau-Saga (12 Abenteuer & Anderswelten)",
+      "description": "Der vollständige Kampagnenbogen über 16 Abenteuer durch verseuchte Minen, Stadtintermezzi und Xenos-Portale."
+    },
+    "brimstone_greenhorn_mines": {
+      "name": "Greenhorn-Minen-Bogen (Erste 4 Abenteuer)",
+      "description": "Eine kompakte 4-Abenteuer-Einstiegskampagne in verlassene Minenschächte mit Vorratskauf in Brimstone."
+    },
+    "brimstone_master_gunslinger": {
+      "name": "Legendärer Dunkelstein-Desperado (Kampagne & Targa-Oberherr)",
+      "description": "Eine epische Marathon-Kampagne gegen alle Gefahrenzonen, Elite-Monstrositäten und den mächtigen Targa-Oberherrn."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Abenteuer 1",
+      "title": "Abstieg in die verlassene Mine",
+      "phase": "Akt I - Der Albtraum des Goldrauschs",
+      "description": "Fackeln entzünden und dunkle Minenstollen erkunden, in denen Hohlraumspinnen und Tentakel lauern."
+    },
+    {
+      "badgeText": "Abenteuer 4",
+      "title": "Rast & Ausrüstung in Brimstone",
+      "phase": "Akt II - Grenzstadt-Intermezzo",
+      "description": "Besuch von Saloon, Schmiede und Kirche, um Dunkelstein auszugeben, Wahnsinn zu heilen und Waffen zu schmieden."
+    },
+    {
+      "badgeText": "Abenteuer 8",
+      "title": "Das Tor zum Targa-Plateau",
+      "phase": "Akt III - In die eisige Anderswelt",
+      "description": "Durchquerung eines kosmischen Wirbels in die gefrorenen kybernetischen Ruinen einer uralten Vorläufer-Zivilisation."
+    },
+    {
+      "badgeText": "Abenteuer 12",
+      "title": "Erwachen der Wächter",
+      "phase": "Akt IV - Metall & Wahnsinn",
+      "description": "Kämpfe gegen mechanische Wächter-Automaten und gewaltige Goliath-Kreaturen um außerirdische Reaktoren."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Der Große Dunkelstein-Schatz",
+      "phase": "Akt V - Legende des Wilden Westens",
+      "description": "Vernichtung der Riss-Schrecken und triumphale Rückkehr nach Brimstone als unsterbliche Grenzlegenden."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "legacy-of-dragonholt",
+  "title": "Legacy of Dragonholt",
+  "releaseYear": 2017,
+  "designers": [
+    "Nikki Valens",
+    "Daniel Clark",
+    "Tim Flanders",
+    "Annie VanderMeer Mitsoda",
+    "Greg Tito"
+  ],
+  "playerCounts": [1, 2, 3, 4, 5, 6],
+  "recommendedPlayerCounts": [1, 2, 3],
+  "idealPlayerCount": 2,
+  "bggRating": 7.2,
+  "bggRank": 520,
+  "weight": 2.3,
+  "averageDurationMinutes": 90,
+  "unitType": "quests",
+  "quality": "mid",
+  "theming": {
+    "primaryColor": "#704828",
+    "secondaryColor": "#2b4837",
+    "accentColor": "#d4af37",
+    "fontFamily": "Cinzel, serif",
+    "headerFont": "Cinzel, serif",
+    "emblem": "scroll-feather"
+  },
+  "publicSources": [
+    "Fantasy Flight Games official rulebooks and story quest books",
+    "BoardGameGeek community campaign log and statistics"
+  ],
+  "scopes": [
+    {
+      "id": "intro-quest",
+      "name": "To Dragonholt (Intro Quest)",
+      "description": "Introductory quest serving as tutorial and character introduction on the journey to Dragonholt.",
+      "units": 1,
+      "estimatedMinutesPerUnit": 75,
+      "isDefault": false
+    },
+    {
+      "id": "core-campaign",
+      "name": "Dragonholt Main Mystery",
+      "description": "Full narrative investigation into the mysterious death of Celyse and unrest brewing across the barony.",
+      "units": 6,
+      "estimatedMinutesPerUnit": 90,
+      "isDefault": true
+    },
+    {
+      "id": "completionist",
+      "name": "Full Exploration & All Side Quests",
+      "description": "Thorough playthrough visiting all town locations, character vignettes, and solving secondary questlines.",
+      "units": 8,
+      "estimatedMinutesPerUnit": 90,
+      "isDefault": false
+    }
+  ],
+  "milestones": [
+    {
+      "id": "arrival-dragonholt",
+      "title": "To Dragonholt",
+      "phase": "Prologue",
+      "description": "The heroes survive bandits on the road and arrive safely at the village of Dragonholt.",
+      "order": 1,
+      "targetUnitsCovered": 1,
+      "icon": "path"
+    },
+    {
+      "id": "village-investigation",
+      "title": "Inquiries at the Inn",
+      "phase": "Act I",
+      "description": "Explore the village, meet key townspeople, and uncover suspicious clues regarding the deceased heir.",
+      "order": 2,
+      "targetUnitsCovered": 2,
+      "icon": "magnifying-glass"
+    },
+    {
+      "id": "wilderness-excursion",
+      "title": "The Wilds Beyond",
+      "phase": "Act II",
+      "description": "Venture into the dangerous surrounding forest, dealing with bandits, spirits, and hidden covens.",
+      "order": 3,
+      "targetUnitsCovered": 4,
+      "icon": "tree"
+    },
+    {
+      "id": "manor-confrontation",
+      "title": "The Hollow Crown",
+      "phase": "Act III",
+      "description": "Infiltrate the manor, expose the conspiracy, and make fateful choices that decide the fate of the realm.",
+      "order": 4,
+      "targetUnitsCovered": 6,
+      "icon": "crown"
+    },
+    {
+      "id": "epilogue-destiny",
+      "title": "A Barony Reborn",
+      "phase": "Epilogue",
+      "description": "Resolve all remaining personal quests and read the lasting historical epilogue of Terrinoth.",
+      "order": 5,
+      "targetUnitsCovered": 8,
+      "icon": "trophy"
+    }
+  ]
+}

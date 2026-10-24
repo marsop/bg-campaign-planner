@@ -1,0 +1,61 @@
+{
+  "title": "Le Leggende di Andor",
+  "subtitle": "Campagna Cooperativa di Avventura e Strategia Fantasy",
+  "tagline": "Difendete il regno di Rietburg e scrivete la vostra saga leggendaria attraverso 5 racconti progressivi.",
+  "loreSummary": "Il reame di Andor è in grave pericolo. Dalle montagne e dalle foreste oscure, orde di mostri avanzano verso il castello di Rietburg. Nei panni del guerriero, del nano, dell'arciere e della maga, dovete coordinare le vostre ore diurne per compiere le missioni prima che il segnalino del Narratore raggiunga la lettera N.",
+  "badgeCategory": "Campagna Cooperativa Fantasy",
+  "roadmapTitle": "Cronache delle Cinque Leggende",
+  "roadmapBadge": "Leggende di Andor",
+  "keyFeatures": [
+    "Vincitore del prestigioso premio Kennerspiel des Jahres 2013 creato e illustrato da Michael Menzel",
+    "Mazzo delle Leggende dinamico: si comincia a giocare subito imparando le regole strada facendo",
+    "Tesa sfida cooperativa che unisce gestione del tempo, ottimizzazione delle mosse e difesa della fortezza",
+    "Tabellone illustrato a due facce che raffigura la terra di Andor e le miniere sotterranee dei nani"
+  ],
+  "scopes": {
+    "andor_five_legends_chronicle": {
+      "name": "Le Cinque Leggende del Reame (Leggende 1–5)",
+      "description": "L'arco narrativo completo del gioco base attraverso tutte le 5 leggende progressive fino alla resa dei conti col drago."
+    },
+    "andor_introductory_legends": {
+      "name": "Il Risveglio degli Eroi (Leggende 1–3)",
+      "description": "Un percorso introduttivo di 3 leggende per padroneggiare il movimento, la guarigione del re e il commercio con la strega."
+    },
+    "andor_master_guardians": {
+      "name": "Custodi Supremi di Rietburg (Tutte le Leggende & Sfide Oscure)",
+      "description": "Una prova ardua che affronta carte destino segrete, pietre runiche e l'ira implacabile del grande drago."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Leggenda 1",
+      "title": "L'Arrivo degli Eroi",
+      "phase": "Atto I - Le Pergamene d'Allerta",
+      "description": "Recapitare pergamene cruciali al castello di Rietburg prima che i Gor invasori varchino i confini del reame."
+    },
+    {
+      "badgeText": "Leggenda 2",
+      "title": "La Guarigione del Re",
+      "phase": "Atto II - L'Erba della Vita",
+      "description": "Trovare la rara pianta curativa nella foresta nebbiosa per risanare re Brandur mentre il castello è sotto assedio."
+    },
+    {
+      "badgeText": "Leggenda 3",
+      "title": "Giorni di Resistenza",
+      "phase": "Atto III - La Strega della Nebbia",
+      "description": "Rintracciare la Strega solitaria, acquistare pozioni magiche e soddisfare le carte destino segrete in tutto il reame."
+    },
+    {
+      "badgeText": "Leggenda 4",
+      "title": "La Miniera di Gemme dei Nani",
+      "phase": "Atto IV - Nel Buio delle Caverne",
+      "description": "Scendere nei meandri delle miniere naniche, sconfiggere gli Skral e recuperare lo scudo perduto."
+    },
+    {
+      "badgeText": "Leggenda 5",
+      "title": "L'Ira del Drago",
+      "phase": "Atto V - L'Assedio Finale",
+      "description": "Radunare tutti gli eroi, quattro pietre runiche e l'arma ancestrale per abbattere il possente drago che minaccia Rietburg."
+    }
+  ]
+}

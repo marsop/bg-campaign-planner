@@ -1,0 +1,104 @@
+{
+  "id": "this-war-of-mine",
+  "title": "This War of Mine: The Board Game",
+  "releaseYear": 2017,
+  "designers": "Michał Oracz, Jakub Wiśniewski",
+  "playersMin": 1,
+  "playersMax": 6,
+  "bggRating": 7.8,
+  "bggWeight": 3.15,
+  "bggUrl": "https://boardgamegeek.com/boardgame/188920/this-war-of-mine-the-board-game",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "campaign_days",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#78716c",
+    "secondaryColor": "#1c1917",
+    "accentColor": "#dc2626",
+    "backgroundGradient": "radial-gradient(ellipse at top, #292524 0%, #1c1917 60%, #0c0a09 100%)",
+    "cardBackground": "rgba(28, 25, 23, 0.94)",
+    "borderColor": "rgba(220, 38, 38, 0.35)",
+    "glowColor": "rgba(220, 38, 38, 0.25)",
+    "headerFont": "'Special Elite', 'Courier New', monospace",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🕯️",
+    "emblem": "🕯️🏚️",
+    "themeClass": "theme-this-war-of-mine",
+    "activeThemeClass": "theme-this-war-of-mine-active",
+    "roadmapClass": "roadmap-this-war-of-mine",
+    "heroClass": "hero-this-war-of-mine"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #188920)",
+    "Galakta / Awaken Realms Official Rulebook & Book of Scripts",
+    "11 bit studios Video Game Lore & Tabletop Adaptation Logs"
+  ],
+  "scopes": [
+    {
+      "id": "this_war_of_mine_ceasefire",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 35.0,
+      "isRecommended": true
+    },
+    {
+      "id": "this_war_of_mine_first_snow",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    },
+    {
+      "id": "this_war_of_mine_ironman",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 45.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🏚️",
+      "badgeText": "Day 1",
+      "title": "Securing the Shelter",
+      "phase": "Act I - The Ruined Tenement",
+      "description": "Clearing rubble, boarding up breached windows, and building makeshift beds to survive the initial shellings."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🎒",
+      "badgeText": "Day 3",
+      "title": "First Night Scavenge",
+      "phase": "Act II - Into the Silent Streets",
+      "description": "Venturing out past sniper fire into the decrepit city pharmacy and supermarket to bring back food and bandages."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "❄️",
+      "badgeText": "Day 5",
+      "title": "The Bitter Winter Frost",
+      "phase": "Act III - Sub-Zero Survival",
+      "description": "Freezing temperatures set in, forcing desperate choices between burning precious books and scavenging wood for the heater."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "🚪",
+      "badgeText": "Day 7",
+      "title": "Desperate Strangers at the Door",
+      "phase": "Act IV - Moral Dilemmas",
+      "description": "Confronting night raids and moral crossroads when desperate neighbors and armed militia plead or demand entrance."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🕊️",
+      "badgeText": "Day 8",
+      "title": "The Ceasefire Horn",
+      "phase": "Act V - The Morning After",
+      "description": "Surviving until the peace accords are broadcast across Pogoren, tallying the human cost of endurance."
+    }
+  ]
+}

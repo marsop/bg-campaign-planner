@@ -1,0 +1,55 @@
+{
+  "subtitle": "Une expérience de jeu de rôle post-apocalyptique et désopilante",
+  "tagline": "Prenez vos dés, rassemblez une équipe de bras cassés et affrontez les périls loufoques d'un monde en ruine.",
+  "loreSummary": "Freelancers: A Crossroads Game allie le souffle narratif des jeux de rôle sur table à l'accessibilité rythmée des jeux de société modernes. Dans un univers de fantasy post-apocalyptique coloré où l'ancienne civilisation s'est effondrée depuis des siècles, les joueurs incarnent des mercenaires indépendants en quête de butin et de prestige. Guidés par une application compagnon entièrement doublée par des acteurs professionnels, vous ferez face à des rencontres narratives palpitantes, des choix frénétiques sous chronomètre et un humour décapant.",
+  "badgeCategory": "JDR Crossroads",
+  "roadmapTitle": "L'Aventure des Piges",
+  "roadmapBadge": "Arc de Contrats",
+  "keyFeatures": [
+    "Application compagnon entièrement doublée avec voix d'acteurs professionnels et rencontres narratives dynamiques",
+    "Mécanique frénétique de pose d'ouvriers sous chronomètres en temps réel très serrés",
+    "Système narratif Crossroads aux dilemmes hilarants, dilemmes moraux et rebondissements imprévisibles",
+    "Aucun temps de préparation grâce à des feuilles de personnage instantanées au format legacy évolutif"
+  ],
+  "scopes": {
+    "intro-contract": {
+      "name": "Premier Contrat (Mission Didacticiel)",
+      "description": "Contrat d'initiation de pigiste introduisant la narration audio sur appli, la pose d'ouvriers sous chrono et le décompte de mission."
+    },
+    "core-campaign": {
+      "name": "Campagne Le Grand Coup",
+      "description": "Campagne narrative classique comprenant cinq contrats périlleux à travers les ruines fantastiques post-apocalyptiques."
+    },
+    "all-contracts": {
+      "name": "Tous les Contrats et Missions d'Extension",
+      "description": "Aventure exhaustive jouant tous les scénarios inclus avec des combinaisons variées de héros et feuilles d'héritage."
+    }
+  },
+  "milestones": {
+    "first-payday": {
+      "title": "Le Premier Salaire",
+      "phase": "Contrat I",
+      "description": "Accomplissez le premier contrat de votre bande, améliorez des compétences insolites et inscrivez vos titres sur votre feuille."
+    },
+    "wasteland-notoriety": {
+      "title": "Notoriété des Terres Désolées",
+      "phase": "Contrat II",
+      "description": "Survivez à des rencontres de mutants loufoques et bâtissez la réputation sulfureuse de votre équipe auprès des guildes rivales."
+    },
+    "crossroads-reckoning": {
+      "title": "Dilemme à la Croisée",
+      "phase": "Contrat III",
+      "description": "Affrontez des choix moraux déchirants issus des cartes Croisée des Chemins qui opposent cupidité individuelle et survie du groupe."
+    },
+    "the-master-heist": {
+      "title": "Le Casse du Siècle",
+      "phase": "Contrat IV",
+      "description": "Infiltrez un complexe de ruines corporatives antiques pour dérober le trésor suprême avant l'expiration du temps imparti."
+    },
+    "hall-of-legends": {
+      "title": "Panthéon des Légendes",
+      "phase": "Retraite",
+      "description": "Calculez votre pactole accumulé sur l'ensemble de votre carrière, gravez vos titres dans les annales et partez à la retraite dans un luxe démesuré."
+    }
+  }
+}

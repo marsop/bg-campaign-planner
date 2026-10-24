@@ -1,0 +1,61 @@
+{
+  "title": "Burgle Bros 2: The Casino Capers",
+  "subtitle": "Campagna Cooperativa di Furti e Infiltrazione nei Casinò",
+  "tagline": "Pianifica audaci colpi in sfarzosi casinò, eludi i buttafuori e fuggi con il jackpot in 9 memorabili colpi.",
+  "loreSummary": "La banda è tornata in azione e questa volta il bersaglio è un sontuoso viale di casinò. Esplorate insieme due piani modulari pieni di tavoli verdi, roulette e casseforti segrete. Sfuggite agli occhiuti buttafuori, usate gadget speciali e scappate prima che scatti l'allarme generale.",
+  "badgeCategory": "Colpo Cooperativo Stealth",
+  "roadmapTitle": "Operazioni di Rapina al Casinò",
+  "roadmapBadge": "Colpi al Casinò",
+  "keyFeatures": [
+    "Seguito dell'acclamato titolo cooperativo di rapine Burgle Bros ideato da Tim Fowers",
+    "Modalità campagna in 9 colpi con buttafuori unici, mazzi eventi ed equipaggiamento speciale",
+    "Imponente plancia 3D a due piani con tessere casinò e dadi movimento delle guardie",
+    "Alta sinergia: combina le abilità di acrobata, hacker, vedetta e scassinatore"
+  ],
+  "scopes": {
+    "burgle_bros_2_casino_campaign": {
+      "name": "La Grande Campagna del Casinò (Tutti i 9 Colpi)",
+      "description": "L'arco narrativo completo superando i 9 singolari buttafuori, dalla serata inaugurale fino al colpo nel penthouse."
+    },
+    "burgle_bros_2_first_heists": {
+      "name": "Serata di Gala (Colpi 1–3)",
+      "description": "Un percorso introduttivo di 3 colpi per penetrare nei saloni principali ed espugnare le prime casseforti."
+    },
+    "burgle_bros_2_master_thieves": {
+      "name": "Sindacato dei Ladri Supremi (9 Colpi & Gran Finale)",
+      "description": "Una titanica maratona criminale contro buttafuori d'élite, cani da guardia e massimo livello di allerta."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Colpo 1",
+      "title": "Il Salone dei Forti Scommettitori",
+      "phase": "Atto I - Infiltrarsi nel Casinò",
+      "description": "Aggirare i primi buttafuori, forzare la cassaforte della roulette e schivare le guardie di ronda."
+    },
+    {
+      "badgeText": "Colpo 3",
+      "title": "La Distrazione della Cantante",
+      "phase": "Atto II - Il Grande Raggiro",
+      "description": "Sfruttare membri della banda sotto copertura per innescare falsi allarmi e penetrare nella sala di controllo."
+    },
+    {
+      "badgeText": "Colpo 5",
+      "title": "Il Caveau dell'Attico",
+      "phase": "Atto III - Il Colpo Grosso",
+      "description": "Disinnescare la griglia laser sincronizzata dell'attico per sottrarre il bottino milionario."
+    },
+    {
+      "badgeText": "Colpo 7",
+      "title": "Raddoppio Sotto Copertura",
+      "phase": "Atto IV - Chiusura di Sicurezza",
+      "description": "Eludere caposala zelanti e cani da guardia scortando l'autista della fuga verso la monorotaia."
+    },
+    {
+      "badgeText": "Colpo 9",
+      "title": "Fuga dall'Eliporto",
+      "phase": "Atto V - Il Colpo del Secolo",
+      "description": "Beffare il proprietario del casinò, arraffare il supremo jackpot e lanciarsi sull'elicottero in fuga."
+    }
+  ]
+}

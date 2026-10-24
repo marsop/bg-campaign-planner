@@ -1,0 +1,28 @@
+/* Near and Far Scoped Styling */
+.theme-near-and-far {
+  --naf-amber: #f59e0b;
+  --naf-blue: #1e3a8a;
+  --naf-emerald: #10b981;
+}
+
+.theme-near-and-far .game-card-selected,
+.theme-near-and-far-active {
+  border-color: var(--naf-amber) !important;
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.35) !important;
+}
+
+.roadmap-near-and-far .roadmap-milestone-card {
+  border-left: 4px solid var(--naf-amber);
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.5) 0%, rgba(15, 23, 42, 0.8) 100%);
+}
+
+.roadmap-near-and-far .milestone-badge {
+  background-color: var(--naf-amber);
+  color: #1e3a8a;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+}
+
+.hero-near-and-far {
+  border-bottom: 2px solid rgba(245, 158, 11, 0.4);
+}

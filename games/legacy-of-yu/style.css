@@ -1,0 +1,29 @@
+/* Legacy of Yu Scoped Styling */
+.theme-legacy-of-yu {
+  --yu-river: #0284c7;
+  --yu-earth: #78350f;
+  --yu-crimson: #dc2626;
+  --yu-bamboo: #15803d;
+}
+
+.theme-legacy-of-yu .game-card-selected,
+.theme-legacy-of-yu-active {
+  border-color: var(--yu-river) !important;
+  box-shadow: 0 0 20px rgba(2, 132, 199, 0.35) !important;
+}
+
+.roadmap-legacy-of-yu .roadmap-milestone-card {
+  border-left: 4px solid var(--yu-river);
+  background: linear-gradient(135deg, rgba(12, 74, 110, 0.6) 0%, rgba(28, 25, 23, 0.8) 100%);
+}
+
+.roadmap-legacy-of-yu .milestone-badge {
+  background-color: var(--yu-river);
+  color: #f0f9ff;
+  font-family: 'Ma Shan Zheng', cursive, serif;
+  font-weight: 700;
+}
+
+.hero-legacy-of-yu {
+  border-bottom: 2px solid rgba(2, 132, 199, 0.4);
+}

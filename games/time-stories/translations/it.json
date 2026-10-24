@@ -1,0 +1,49 @@
+{
+  "title": "T.I.M.E Stories",
+  "subtitle": "Campagna di Esplorazione Deck e Viaggi Temporali",
+  "tagline": "Proietta la tua mente in ricettacoli storici e correggi pericolosi paradossi quantici prima che il tempo scada.",
+  "loreSummary": "L'Agenzia T.I.M.E veglia sul continuum spaziotemporale per prevenire anomalie e distorsioni. Come agenti operativi d'élite, trasferite la vostra coscienza in ospiti del passato (i ricettacoli) per esplorare luoghi misteriosi, superare enigmi e salvare la storia lungo successivi loop temporali.",
+  "badgeCategory": "Esplorazione Deck & Viaggi nel Tempo",
+  "roadmapTitle": "Registro dei Loop Temporali",
+  "roadmapBadge": "Incursioni dell'Agenzia",
+  "keyFeatures": [
+    "Rivoluzionario sistema di Deck-Exploring con carte panorama per visualizzare stanze e ambientazioni immersive",
+    "Indicatore di Unità di Tempo (UT): ogni azione consuma preziosi istanti costringendo a ottimizzare ogni incursione",
+    "Trama investigativa ricca di enigmi, serrature cifrate e bivi legati alle abilità dei singoli ricettacoli",
+    "Il gioco base include l'acclamato scenario 'Asylum' ambientato nella Parigi degli anni '20"
+  ],
+  "scopes": {
+    "time_stories_asylum_mission": {
+      "name": "Missione 1: Risoluzione Temporale Asylum (3 Incursioni)",
+      "description": "L'esperienza completa dello scenario base che svela i misteri del manicomio parigino attraverso 3 loop consecutivi."
+    },
+    "time_stories_first_loop": {
+      "name": "Primo Salto Temporale & Ricognizione (1 Incursione)",
+      "description": "Un'incursione introduttiva per mappare la clinica e raccogliere le prime testimonianze tra i pazienti."
+    },
+    "time_stories_agency_quadrilogy": {
+      "name": "La Quadrilogia del Ciclo Bianco (12 Incursioni)",
+      "description": "Una grande campagna multiepisodio che affronta i casi cardine del Ciclo Bianco (Asylum, Il Caso Marcy, La Profezia dei Draghi)."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Incursione 1",
+      "title": "Inserimento Tachionico: Parigi 1921",
+      "phase": "Loop I - Primo Contatto col Ricettacolo",
+      "description": "Trasferire la mente degli agenti nei corpi dei degenti di una clinica psichiatrica francese degli anni ruggenti."
+    },
+    {
+      "badgeText": "Incursione 2",
+      "title": "Svelare lo Strappo Temporale",
+      "phase": "Loop II - Le Cripte Nascoste",
+      "description": "Sfruttare le memorie dei loop precedenti per eludere trappole e aprire i sotterranei della struttura."
+    },
+    {
+      "badgeText": "Incursione 3",
+      "title": "Chiusura del Paradosso Quantico",
+      "phase": "Loop III - Missione Compiuta",
+      "description": "Neutralizzare la sorgente dell'anomalia prima dell'azzeramento delle Unità di Tempo e fare rapporto all'Agenzia."
+    }
+  ]
+}

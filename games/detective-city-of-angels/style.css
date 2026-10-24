@@ -1,0 +1,28 @@
+/* Detective: City of Angels Scoped Styling */
+.theme-detective-city-of-angels {
+  --dcoa-amber: #f59e0b;
+  --dcoa-charcoal: #18181b;
+  --dcoa-crimson: #ef4444;
+}
+
+.theme-detective-city-of-angels .game-card-selected,
+.theme-detective-city-of-angels-active {
+  border-color: var(--dcoa-amber) !important;
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.35) !important;
+}
+
+.roadmap-detective-city-of-angels .roadmap-milestone-card {
+  border-left: 4px solid var(--dcoa-amber);
+  background: linear-gradient(135deg, rgba(39, 39, 42, 0.6) 0%, rgba(24, 24, 27, 0.8) 100%);
+}
+
+.roadmap-detective-city-of-angels .milestone-badge {
+  background-color: var(--dcoa-amber);
+  color: #18181b;
+  font-family: 'Special Elite', monospace;
+  font-weight: 700;
+}
+
+.hero-detective-city-of-angels {
+  border-bottom: 2px solid rgba(245, 158, 11, 0.4);
+}

@@ -1,0 +1,29 @@
+/* Welcome to the Moon Scoped Styling */
+.theme-welcome-to-the-moon {
+  --wttm-cyan: #38bdf8;
+  --wttm-indigo: #1e1b4b;
+  --wttm-booster: #f59e0b;
+  --wttm-space: #0f172a;
+}
+
+.theme-welcome-to-the-moon .game-card-selected,
+.theme-welcome-to-the-moon-active {
+  border-color: var(--wttm-cyan) !important;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.35) !important;
+}
+
+.roadmap-welcome-to-the-moon .roadmap-milestone-card {
+  border-left: 4px solid var(--wttm-cyan);
+  background: linear-gradient(135deg, rgba(30, 27, 75, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);
+}
+
+.roadmap-welcome-to-the-moon .milestone-badge {
+  background-color: var(--wttm-booster);
+  color: #1e1b4b;
+  font-family: 'Righteous', cursive;
+  font-weight: 700;
+}
+
+.hero-welcome-to-the-moon {
+  border-bottom: 2px solid rgba(56, 189, 248, 0.4);
+}

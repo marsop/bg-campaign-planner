@@ -1,0 +1,29 @@
+/* Maracaibo Scoped Styling */
+.theme-maracaibo {
+  --maracaibo-gold: #d97706;
+  --maracaibo-ocean: #0c4a6e;
+  --maracaibo-emerald: #15803d;
+  --maracaibo-sand: #fef3c7;
+}
+
+.theme-maracaibo .game-card-selected,
+.theme-maracaibo-active {
+  border-color: var(--maracaibo-gold) !important;
+  box-shadow: 0 0 20px rgba(217, 119, 6, 0.35) !important;
+}
+
+.roadmap-maracaibo .roadmap-milestone-card {
+  border-left: 4px solid var(--maracaibo-gold);
+  background: linear-gradient(135deg, rgba(12, 74, 110, 0.6) 0%, rgba(7, 89, 133, 0.3) 100%);
+}
+
+.roadmap-maracaibo .milestone-badge {
+  background-color: var(--maracaibo-gold);
+  color: #0c4a6e;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+}
+
+.hero-maracaibo {
+  border-bottom: 2px solid rgba(217, 119, 6, 0.4);
+}

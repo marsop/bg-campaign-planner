@@ -1,0 +1,49 @@
+{
+  "title": "T.I.M.E Stories",
+  "subtitle": "Deck-Erkundungs-Zeitreise-Agenturkampagne",
+  "tagline": "Übertragt euer Bewusstsein in historische Wirte und schließt gefährliche Zeitrisse, bevor die Zeit abläuft.",
+  "loreSummary": "Die T.I.M.E Agency bewahrt das Raum-Zeit-Kontinuum vor gefährlichen Paradoxa und Rissen. Als Zeitreise-Agenten projiziert ihr euren Geist in historische Wirte, um Geheimnisse aufzudecken, Rätsel zu lösen und den Lauf der Geschichte über mehrere Schleifen hinweg zu retten.",
+  "badgeCategory": "Deck-Erkundung & Zeitreise",
+  "roadmapTitle": "Manifest der Zeitschleifen",
+  "roadmapBadge": "Agentur-Durchläufe",
+  "keyFeatures": [
+    "Wegweisendes Deck-Exploration-System mit Panoramakarten für atmosphärische Raum- und Ortsansichten",
+    "Zeiteinheiten-Uhr (ZE): Jede Aktion kostet wertvolle Einheiten und zwingt zur taktischen Optimierung der Schleifen",
+    "Verzweigtes narratives Mysterium mit kryptischen Hinweisen, Proben und charakterspezifischen Interaktionen",
+    "Das Grundspiel enthält das preisgekrönte Szenario 'Nervenheilanstalt' (Asylum, Paris 1921)"
+  ],
+  "scopes": {
+    "time_stories_asylum_mission": {
+      "name": "Mission 1: Zeitauflösung Nervenheilanstalt (3 Durchläufe)",
+      "description": "Das vollständige Erlebnis des Basisszenarios zur Behebung der Pariser Zeitanomalie in 3 Schleifendurchläufen."
+    },
+    "time_stories_first_loop": {
+      "name": "Erster Zeitsprung & Erkundung (1 Durchlauf)",
+      "description": "Ein einleitender Aufklärungsdurchlauf zur Erkundung der Anstalt und Identifizierung der Verdächtigen."
+    },
+    "time_stories_agency_quadrilogy": {
+      "name": "Die Weiße Agentur-Quadrilogie (12 Durchläufe)",
+      "description": "Eine umfangreiche Kampagne über die Hauptszenarien des Weißen Zyklus (Asylum, Der Fall Marcy, Die Drachen-Prophezeiung)."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Lauf 1",
+      "title": "Tachyonen-Transfer: Paris 1921",
+      "phase": "Schleife I - Erster Wirtskörperkontakt",
+      "description": "Übertragung des Agentenbewusstseins in Patienten einer französischen Nervenheilanstalt der Goldenen Zwanziger."
+    },
+    {
+      "badgeText": "Lauf 2",
+      "title": "Aufdeckung des Zeitrisses",
+      "phase": "Schleife II - Die verborgenen Krypten",
+      "description": "Nutzung von Erinnerungen aus vorherigen Schleifen zur Umgehung von Fallen und Entriegelung der Kellerkrypta."
+    },
+    {
+      "badgeText": "Lauf 3",
+      "title": "Schließung des Quantenparadoxons",
+      "phase": "Schleife III - Mission erfolgreich beendet",
+      "description": "Konfrontation der Anomaliequelle vor Ablauf der Zeiteinheiten und Rückkehr zum Agentur-Debriefing."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "maracaibo",
+  "title": "Maracaibo",
+  "releaseYear": 2019,
+  "designers": "Alexander Pfister",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 8.1,
+  "bggWeight": 3.90,
+  "bggUrl": "https://boardgamegeek.com/boardgame/276025/maracaibo",
+  "baseScenarioMinutes": 100,
+  "setupTeardownMinutes": 15,
+  "unitType": "chapters",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#d97706",
+    "secondaryColor": "#0c4a6e",
+    "accentColor": "#15803d",
+    "backgroundGradient": "radial-gradient(ellipse at top, #0c4a6e 0%, #075985 50%, #082f49 100%)",
+    "cardBackground": "rgba(12, 74, 110, 0.94)",
+    "borderColor": "rgba(217, 119, 6, 0.35)",
+    "glowColor": "rgba(217, 119, 6, 0.25)",
+    "headerFont": "'Cinzel', 'Trajan Pro', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "⛵",
+    "emblem": "⛵🏴‍☠️",
+    "themeClass": "theme-maracaibo",
+    "activeThemeClass": "theme-maracaibo-active",
+    "roadmapClass": "roadmap-maracaibo",
+    "heroClass": "hero-maracaibo"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #276025)",
+    "dlp games / Capstone Games Official Rulebook & Story Book",
+    "Alexander Pfister Caribbean Legacy Campaign Notes"
+  ],
+  "scopes": [
+    {
+      "id": "maracaibo_full_chronicles",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": true
+    },
+    {
+      "id": "maracaibo_introductory_voyage",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": false
+    },
+    {
+      "id": "maracaibo_master_corsair",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🧭",
+      "badgeText": "Chapter 1",
+      "title": "Setting Sail from Havana",
+      "phase": "Act I - The Great Trade Route",
+      "description": "Navigating the trade winds across the Spanish Main and delivering initial cargoes to colonial outposts."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "⚔️",
+      "badgeText": "Chapter 4",
+      "title": "Clash of Empires",
+      "phase": "Act II - Shifting Alliances",
+      "description": "Influence battles between England, France, and Spain escalate across the Caribbean basin."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "🗺️",
+      "badgeText": "Chapter 7",
+      "title": "The Pearl Coast Secrets",
+      "phase": "Act III - Uncharted Waters",
+      "description": "Delving into unexplored jungle trails and mysterious ruins beyond Maracaibo and Caracas."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🏴‍☠️",
+      "badgeText": "Chapter 10",
+      "title": "The Corsair Blockade",
+      "phase": "Act IV - Storm over the Antilles",
+      "description": "Navigating treacherous blockades and rogue pirate fleets threatening merchant convoys."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "👑",
+      "badgeText": "Chapter 12",
+      "title": "Legacy of the Spanish Main",
+      "phase": "Act V - The Grand Trade Fleet Finale",
+      "description": "Securing maritime dominance and immortalizing your merchant company in Caribbean history."
+    }
+  ]
+}

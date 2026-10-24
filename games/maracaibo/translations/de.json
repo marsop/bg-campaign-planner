@@ -1,0 +1,61 @@
+{
+  "title": "Maracaibo",
+  "subtitle": "Maritime Strategiespiel-Kampagne in der Karibik des 17. Jahrhunderts",
+  "tagline": "Segle durch die tückischen Gewässer der Karibik in einer sich ständig entwickelnden 12-Kapitel-Geschichtskampagne.",
+  "loreSummary": "Stich im 17. Jahrhundert als fähiger Kapitän in See und bereise die Karibik. Liefere Waren, verbessere dein Schiff, erfülle abenteuerliche Quests und verbünde dich mit rivalisierenden europäischen Mächten, während sich der Spielplan von Kapitel zu Kapitel verändert.",
+  "badgeCategory": "Maritime Strategiekampagne",
+  "roadmapTitle": "Chroniken der Karibik",
+  "roadmapBadge": "Story-Kapitel",
+  "keyFeatures": [
+    "Meisterhaftes Expertenspiel von Alexander Pfister mit dynamischer Rondell-Bewegung",
+    "Verzweigende 12-Kapitel-Kampagne, in der Storykarten Spielplanfelder und Quests dauerhaft anpassen",
+    "Tiefer Engine-Building-Mechanismus: verbessere dein Schiff, heuere Matrosen an und erkunde Pfade",
+    "Vielschichtige Wertung mit dynamischem Mächtegleichgewicht zwischen England, Frankreich und Spanien"
+  ],
+  "scopes": {
+    "maracaibo_full_chronicles": {
+      "name": "Die Karibik-Chroniken (Alle 12 Kapitel)",
+      "description": "Die vollständige narrative Saga über alle 12 Kapitel mit veränderlichen Spielplanteilen, Quests und geopolitischen Enden."
+    },
+    "maracaibo_introductory_voyage": {
+      "name": "Die Jungfernfahrt (Kapitel 1–4)",
+      "description": "Ein einleitender Kampagnenbogen zum Aufbau eurer Handelsgesellschaft und zum Erlernen der variablen Spielplanmechanik."
+    },
+    "maracaibo_master_corsair": {
+      "name": "Korsaren-Meister (12 Kapitel + Experten-Herausforderungen)",
+      "description": "Eine umfassende maritime Expedition zur Erforschung aller alternativen Handlungsstränge bei maximaler Schwierigkeit."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Kapitel 1",
+      "title": "Aufbruch aus Havanna",
+      "phase": "Akt I - Die Große Handelsroute",
+      "description": "Nutzung der Passatwinde quer durch die Karibik zur Auslieferung erster Fracht an koloniale Außenposten."
+    },
+    {
+      "badgeText": "Kapitel 4",
+      "title": "Konflikt der Großmächte",
+      "phase": "Akt II - Wechselnde Allianzen",
+      "description": "Die Machtkämpfe zwischen England, Frankreich und Spanien spitzen sich im gesamten Karibikbecken zu."
+    },
+    {
+      "badgeText": "Kapitel 7",
+      "title": "Geheimnisse der Perlenküste",
+      "phase": "Akt III - Unbekannte Gewässer",
+      "description": "Vorstoß auf unerforschte Dschungelpfade und zu geheimnisvollen Ruinen jenseits von Maracaibo und Caracas."
+    },
+    {
+      "badgeText": "Kapitel 10",
+      "title": "Die Korsaren-Blockade",
+      "phase": "Akt IV - Sturm über den Antillen",
+      "description": "Gefahrvolle Seeblockaden und abtrünnige Piratenflotten durchbrechen, die Handelsschiffe bedrohen."
+    },
+    {
+      "badgeText": "Kapitel 12",
+      "title": "Das Vermächtnis der Karibik",
+      "phase": "Akt V - Das Große Handelsflotten-Finale",
+      "description": "Sicherung der maritimen Vorherrschaft und unsterblicher Ruhm für eure Handelskompanie in den Annalen der Karibik."
+    }
+  ]
+}

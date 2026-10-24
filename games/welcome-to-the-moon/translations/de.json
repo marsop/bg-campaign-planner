@@ -1,0 +1,61 @@
+{
+  "title": "Welcome to the Moon",
+  "subtitle": "Evolutive narrative Flip-and-Write-Weltraumkampagne",
+  "tagline": "Rette die Menschheit in 8 aufeinander aufbauenden Mond-Abenteuern vom Raketenstart bis zur dauerhaften Kolonie.",
+  "loreSummary": "Der Erde läuft die Zeit davon. Als leitender Missionsplaner führst du die waghalsige Mond-Evakuierung über 8 einzigartige, abwischbare Abenteuertableaus an. Decke Baukarten auf, steuere Raketensysteme, bohre nach unterirdischen Eisdomen und errichte die erste florierende Mondmetropole.",
+  "badgeCategory": "Flip-and-Write-Narrativkampagne",
+  "roadmapTitle": "Der Mondkolonisations-Bogen",
+  "roadmapBadge": "Story-Abenteuer",
+  "keyFeatures": [
+    "Das krönende Finale der gefeierten 'Welcome to...'-Flip-and-Write-Spielereihe",
+    "8 vollkommen eigenständige Abenteuer-Pläne mit fortlaufenden Sonderregeln und Wertungen",
+    "Umfangreiches Kampagnenbuch mit verzweigten Story-Abschnitten, Aufträgen und dauerhaften Belohnungen",
+    "Solo-Astra-Kampagnenmodus oder simultanes Partyspiel für bis zu 6 Spieler"
+  ],
+  "scopes": {
+    "welcome_moon_full_odyssey": {
+      "name": "Die Mond-Odyssee (Alle 8 Abenteuer)",
+      "description": "Das vollständige Kampagnenbuch-Erlebnis, bei dem jedes der 8 Abenteuer dreimal gespielt wird, um alle Story-Entscheidungen zu erleben."
+    },
+    "welcome_moon_direct_flight": {
+      "name": "Direktflug (Abenteuer 1–8)",
+      "description": "Ein kompakter chronologischer Durchlauf, bei dem jedes der 8 Mondtableaus einmal in Story-Reihenfolge gespielt wird."
+    },
+    "welcome_moon_master_colonizer": {
+      "name": "Meister-Mondkolonisator (Kampagne & Astra-Herausforderungen)",
+      "description": "Ein erschöpfender Kampagnenmarathon mit allen alternativen Handlungssträngen und maximalen Herausforderungen gegen den Astra-Bot."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Abenteuer 1",
+      "title": "Raketenstart von der Erde",
+      "phase": "Akt I - Die Große Flucht",
+      "description": "Baukarten aufdecken, um Raketenstufen zu betanken und die Erdanziehungskraft zu überwinden."
+    },
+    {
+      "badgeText": "Abenteuer 3",
+      "title": "Mondabstieg & Landung",
+      "phase": "Akt II - Landung im Meer der Ruhe",
+      "description": "Triebwerke präzise zünden und erste druckfeste Landeplattformen in Mondkratern errichten."
+    },
+    {
+      "badgeText": "Abenteuer 5",
+      "title": "Die unterirdische Wasserkuppel",
+      "phase": "Akt III - Bohrungen nach dem Leben",
+      "description": "Unterirdische Eisvorkommen anzapfen und Gewächshauskuppeln zur Versorgung der Pioniere verbinden."
+    },
+    {
+      "badgeText": "Abenteuer 7",
+      "title": "Alien-Virus-Quarantäne",
+      "phase": "Akt IV - Krise in der Biosphäre",
+      "description": "Infizierte Sektoren isolieren und antivirale Impfstoffe im Hochsicherheitslabor synthetisieren."
+    },
+    {
+      "badgeText": "Abenteuer 8",
+      "title": "Die Unabhängige Mondrepublik",
+      "phase": "Akt V - Eine neue Zivilisation",
+      "description": "Vollendung der finalen utopischen Megastruktur, Erreichen der Autarkie und Verfassung der Mondcharta."
+    }
+  ]
+}

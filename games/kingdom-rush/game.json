@@ -1,0 +1,104 @@
+{
+  "id": "kingdom-rush",
+  "title": "Kingdom Rush: Rift in Time",
+  "releaseYear": 2020,
+  "designers": "Helana Hope, Sen-Foong Lim, Jessey Wright",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.8,
+  "bggWeight": 3.01,
+  "bggUrl": "https://boardgamegeek.com/boardgame/272533/kingdom-rush-rift-in-time",
+  "baseScenarioMinutes": 75,
+  "setupTeardownMinutes": 15,
+  "unitType": "scenarios",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#eab308",
+    "secondaryColor": "#1e3a8a",
+    "accentColor": "#9333ea",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e1b4b 0%, #172554 60%, #030712 100%)",
+    "cardBackground": "rgba(30, 58, 138, 0.94)",
+    "borderColor": "rgba(234, 179, 8, 0.35)",
+    "glowColor": "rgba(234, 179, 8, 0.25)",
+    "headerFont": "'Bungee', 'Chakra Petch', system-ui, sans-serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏹",
+    "emblem": "🏹⚡",
+    "themeClass": "theme-kingdom-rush",
+    "activeThemeClass": "theme-kingdom-rush-active",
+    "roadmapClass": "roadmap-kingdom-rush",
+    "heroClass": "hero-kingdom-rush"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #272533)",
+    "Lucky Duck Games / Ironhide Game Studio Official Rulebook",
+    "Kingdom Rush Campaign Scenario Guide"
+  ],
+  "scopes": [
+    {
+      "id": "kingdom_rush_full_campaign",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "kingdom_rush_first_defenses",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "kingdom_rush_iron_challenge",
+      "baseScenarioCount": 18,
+      "estimatedFailRatePercent": 35.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🛡️",
+      "badgeText": "Scenario 1",
+      "title": "The Rift Opens",
+      "phase": "Act I - The Border Outpost",
+      "description": "Building initial archer and militia towers while placing polyomino damage tiles on charging goblin hordes."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🧙",
+      "badgeText": "Scenario 3",
+      "title": "Wrath of the Juggernaut",
+      "phase": "Act II - Armored Behemoths",
+      "description": "Upgrading artillery bombard towers and channeling hero special attacks to bring down the iron Juggernaut."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🌀",
+      "badgeText": "Scenario 6",
+      "title": "The Corrupted Forest",
+      "phase": "Act III - Shifting Portals",
+      "description": "Navigating wandering time rifts that warp enemy horde trays across lane intersections."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "⚡",
+      "badgeText": "Scenario 8",
+      "title": "The Vez'nan Vanguard",
+      "phase": "Act IV - March of the Arch-Mage",
+      "description": "Holding the mountain pass against dark sorcerers, unsealing mystical spell cards, and shielding civilian hearts."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "👑",
+      "badgeText": "Scenario 10",
+      "title": "The Time Mage Shattered",
+      "phase": "Act V - The King's Triumph",
+      "description": "Defeating the final Chronomancer boss, collapsing the Time Rift, and saving Linirea from oblivion."
+    }
+  ]
+}

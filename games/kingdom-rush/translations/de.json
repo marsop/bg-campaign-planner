@@ -1,0 +1,61 @@
+{
+  "title": "Kingdom Rush: Rift in Time",
+  "subtitle": "Kooperative Tower-Defense- & Polyomino-Puzzle-Kampagne",
+  "tagline": "Errichte Verteidigungstürme, entfessle Heldenkräfte und versiegele den Zeitriss in 10 fortlaufenden Szenarien.",
+  "loreSummary": "Das Königreich Linirea wird vom rätselhaften Zeitmagier und seinen gefräßigen Horden angegriffen. Arbeitet zusammen, tauscht Turmkarten zum Aufstufen aus, wirkt mächtige Zauber und lenkt eure Helden, um die Wege zu sichern, bevor Feinde in das Reich durchbrechen.",
+  "badgeCategory": "Kooperative Tower-Defense-Kampagne",
+  "roadmapTitle": "Verteidigung von Linirea",
+  "roadmapBadge": "Story-Szenarien",
+  "keyFeatures": [
+    "Brettspiel-Adaption des weltberühmten Tower-Defense-Videospiels von Ironhide Game Studio",
+    "Fesselnder Polyomino-Puzzlekampf: Bedecke Horden-Tableaus mit geometrischen Angriffsplättchen",
+    "Dynamisches Turm-Aufwertesystem: Gib Turmkarten zwischen Runden an Mitspieler weiter, um sie zu leveln",
+    "10 aufeinander aufbauende Szenarien mit Bossmechaniken, Portalverschiebung und Eisen-Herausforderungen"
+  ],
+  "scopes": {
+    "kingdom_rush_full_campaign": {
+      "name": "Die Zeitriss-Kampagne (Alle 10 Szenarien)",
+      "description": "Der vollständige Kampagnenbogen über 10 Szenarien zur Rettung Linireas vor Bossen und Dimensionsrissen."
+    },
+    "kingdom_rush_first_defenses": {
+      "name": "Verteidigung des Außenpostens (Szenarien 1–3)",
+      "description": "Ein einleitender 3-Szenarien-Bogen zum Erlernen von Turmbau, Heldenfertigkeiten und Juggernaut-Abwehr."
+    },
+    "kingdom_rush_iron_challenge": {
+      "name": "Meister-Verteidiger (10 Szenarien & Eisen-Herausforderungen)",
+      "description": "Eine hochgradig anspruchsvolle Kampagne mit allen Grundszenarien unter heroischen und Eisen-Restriktionen."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Szenario 1",
+      "title": "Der Riss öffnet sich",
+      "phase": "Akt I - Der Grenz-Außenposten",
+      "description": "Erste Bogenschützen- und Kasernentürme errichten, während Polyomino-Plättchen auf Goblins gelegt werden."
+    },
+    {
+      "badgeText": "Szenario 3",
+      "title": "Zorn des Juggernauts",
+      "phase": "Akt II - Gepanzerte Kolosse",
+      "description": "Artillerietürme ausbauen und Heldenangriffe bündeln, um den eisernen Koloss in die Knie zu zwingen."
+    },
+    {
+      "badgeText": "Szenario 6",
+      "title": "Der Verderbte Wald",
+      "phase": "Akt III - Wandernde Portale",
+      "description": "Verzerrte Dimensionsrisse meistern, die feindliche Truppen zwischen Weggabelungen teleportieren."
+    },
+    {
+      "badgeText": "Szenario 8",
+      "title": "Die Vorhut von Vez'nan",
+      "phase": "Akt IV - Marsch des Erzmagiers",
+      "description": "Den Gebirgspass gegen dunkle Zauberer halten und die verbleibenden Zivilistenherzen abschirmen."
+    },
+    {
+      "badgeText": "Szenario 10",
+      "title": "Das Ende des Zeitmagiers",
+      "phase": "Akt V - Triumph des Königs",
+      "description": "Besiege den finalen Chronomanten, schließe den Zeitriss und bewahre Linirea vor dem Untergang."
+    }
+  ]
+}

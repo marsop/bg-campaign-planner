@@ -1,0 +1,61 @@
+{
+  "title": "Burgle Bros 2: The Casino Capers",
+  "subtitle": "Campagne Coopérative de Casse et d'Infiltration en Casino",
+  "tagline": "Montez des braquages audacieux dans des casinos prestigieux, esquivez les videurs et fuyez avec le jackpot.",
+  "loreSummary": "L'équipe est de retour en ville et la cible du jour n'est autre qu'un luxueux complexe de casinos. Explorez deux étages modulaires remplis de tables de jeu, roulettes et coffres blindés. Évitez les gorilles de la sécurité et repartez avant le déclenchement de l'alarme générale.",
+  "badgeCategory": "Casse Coopératif et Furtivité",
+  "roadmapTitle": "Opérations de Braquage",
+  "roadmapBadge": "Cassés de Casino",
+  "keyFeatures": [
+    "Suite du jeu coopératif de cambriolage à succès Burgle Bros créé par Tim Fowers",
+    "Campagne scénarisée en 9 casses avec videurs aux capacités uniques et matériel d'espionnage",
+    "Mise en place 3D spectaculaire sur deux étages de casino et dés de patrouille",
+    "Synergie d'équipe poussée : acrobate, hacker, guetteur et gros bras unissent leurs talents"
+  ],
+  "scopes": {
+    "burgle_bros_2_casino_campaign": {
+      "name": "La Grande Campagne du Casino (Les 9 Casses)",
+      "description": "L'intégrale de la campagne surmontant les 9 videurs emblématiques, de la soirée d'inauguration au braquage du penthouse."
+    },
+    "burgle_bros_2_first_heists": {
+      "name": "Soirée d'Ouverture (Casses 1 à 3)",
+      "description": "Un arc de découverte en 3 casses s'infiltrant dans les salles de jeu principales pour crocheter les premiers coffres."
+    },
+    "burgle_bros_2_master_thieves": {
+      "name": "Syndicat des Maîtres Voleurs (9 Casses & Finale)",
+      "description": "Un marathon criminel ultime affrontant videurs d'élite, chiens de garde et niveau d'alerte maximal."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Casse 1",
+      "title": "L'Étage des Gros Parieurs",
+      "phase": "Acte I - Infiltration du Casino",
+      "description": "Éviter les premiers videurs, percer le coffre de la roulette et contourner les gardes en patrouille."
+    },
+    {
+      "badgeText": "Casse 3",
+      "title": "La Diversion de la Chanteuse",
+      "phase": "Acte II - Préparation du Coup",
+      "description": "Utiliser des membres déguisés pour déclencher de fausses alertes et s'introduire dans la salle de vidéosurveillance."
+    },
+    {
+      "badgeText": "Casse 5",
+      "title": "La Salle des Coffres du Penthouse",
+      "phase": "Acte III - Le Gros Lot",
+      "description": "Désactiver la grille de lasers synchronisés du dernier étage pour rafler le pactole principal."
+    },
+    {
+      "badgeText": "Casse 7",
+      "title": "Quitte ou Double Infiltré",
+      "phase": "Acte IV - Alerte Générale",
+      "description": "Échapper aux chefs de salle et aux chiens de garde tout en guidant le chauffeur vers le monorail."
+    },
+    {
+      "badgeText": "Casse 9",
+      "title": "Évasion de l'Héliport",
+      "phase": "Acte V - Le Casse du Siècle",
+      "description": "Prendre de vitesse le propriétaire du casino, s'emparer de la fortune et bondir dans l'hélicoptère."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Las Leyendas de Andor",
+  "subtitle": "Campaña Cooperativa de Fantasía y Aventura",
+  "tagline": "Defiende el reino de Rietburg y forja tu propia leyenda heroica a través de 5 relatos progresivos.",
+  "loreSummary": "El reino de Andor corre un grave peligro. Desde las montañas y bosques sombríos, hordas de criaturas hostiles marchan hacia el castillo de Rietburg. Encarnando al guerrero, el enano, el arquero y la maga, debéis coordinar vuestras horas de luz para cumplir misiones antes de que el marcador del Narrador alcance la letra N.",
+  "badgeCategory": "Campaña Cooperativa de Fantasía",
+  "roadmapTitle": "Crónicas de las Cinco Leyendas",
+  "roadmapBadge": "Leyendas de Andor",
+  "keyFeatures": [
+    "Ganador del prestigioso Kennerspiel des Jahres 2013 ilustrado y creado por Michael Menzel",
+    "Mazo de Leyenda dinámico: aprende las reglas mientras juegas sin necesidad de leer un manual complejo",
+    "Tenso equilibrio cooperativo estilo puzle gestionando las horas diurnas y la defensa del castillo",
+    "Tablero ilustrado a doble cara que abarca las verdes colinas del reino y las profundas minas subterráneas"
+  ],
+  "scopes": {
+    "andor_five_legends_chronicle": {
+      "name": "Las Cinco Leyendas del Reino (Leyendas 1–5)",
+      "description": "El arco completo de campaña del juego base superando las 5 leyendas consecutivas hasta la batalla final contra el dragón."
+    },
+    "andor_introductory_legends": {
+      "name": "El Despertar de los Héroes (Leyendas 1–3)",
+      "description": "Un recorrido introductorio de 3 leyendas dominando el movimiento, la cura del rey y el comercio con la bruja."
+    },
+    "andor_master_guardians": {
+      "name": "Guardianes Maestros de Rietburg (Todas las Leyendas & Retos Oscuros)",
+      "description": "Una experiencia avanzada enfrentando cartas de destino ocultas, escudos perdidos y la furia suprema del dragón."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Leyenda 1",
+      "title": "La Llegada de los Héroes",
+      "phase": "Acto I - Los Pergaminos de Alerta",
+      "description": "Llevar pergaminos de aviso cruciales al castillo de Rietburg antes de que los Gors invasores crucen la frontera."
+    },
+    {
+      "badgeText": "Leyenda 2",
+      "title": "La Curación del Rey",
+      "phase": "Acto II - La Hierba Medicinal",
+      "description": "Encontrar la planta curativa en el bosque neblinoso para sanar al rey Brandur mientras se defiende la fortaleza."
+    },
+    {
+      "badgeText": "Leyenda 3",
+      "title": "Días de Resistencia",
+      "phase": "Acto III - La Bruja de la Niebla",
+      "description": "Localizar a la esquiva Bruja, adquirir pociones rúnicas y cumplir cartas de destino secreto por todo el reino."
+    },
+    {
+      "badgeText": "Leyenda 4",
+      "title": "La Mina de Joyas de los Enanos",
+      "phase": "Acto IV - En las Profundidades Oscuras",
+      "description": "Descender a los pozos mineros subterráneos de los enanos, combatir a los Skrals y recuperar el escudo legendario."
+    },
+    {
+      "badgeText": "Leyenda 5",
+      "title": "La Furia del Dragón",
+      "phase": "Acto V - El Asedio Final",
+      "description": "Unir a todos los héroes, cuatro piedras rúnicas y el arma ancestral para derrotar al colosal dragón que asola Rietburg."
+    }
+  ]
+}

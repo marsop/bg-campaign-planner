@@ -1,0 +1,104 @@
+{
+  "id": "near-and-far",
+  "title": "Near and Far",
+  "releaseYear": 2017,
+  "designers": "Ryan Laukat",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 7.6,
+  "bggWeight": 2.58,
+  "bggUrl": "https://boardgamegeek.com/boardgame/195424/near-and-far",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "sessions",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#f59e0b",
+    "secondaryColor": "#1e3a8a",
+    "accentColor": "#10b981",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e3a8a 0%, #0f172a 60%, #020617 100%)",
+    "cardBackground": "rgba(30, 58, 138, 0.94)",
+    "borderColor": "rgba(245, 158, 11, 0.35)",
+    "glowColor": "rgba(245, 158, 11, 0.25)",
+    "headerFont": "'Comfortaa', 'Cinzel', system-ui, sans-serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🗺️",
+    "emblem": "🗺️🏕️",
+    "themeClass": "theme-near-and-far",
+    "activeThemeClass": "theme-near-and-far-active",
+    "roadmapClass": "roadmap-near-and-far",
+    "heroClass": "hero-near-and-far"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #195424)",
+    "Red Raven Games Official Rulebook & Storybook",
+    "Ryan Laukat Arzium World Adventure Logs"
+  ],
+  "scopes": [
+    {
+      "id": "near_and_far_story_campaign",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": true
+    },
+    {
+      "id": "near_and_far_character_quest",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": false
+    },
+    {
+      "id": "near_and_far_arcade_mode",
+      "baseScenarioCount": 14,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "⛺",
+      "badgeText": "Map 1",
+      "title": "Leaving Hope's End",
+      "phase": "Chapter 1 - Into the Wilderness",
+      "description": "Setting camp and recruiting pack birds and adventurers for the trek into uncharted lands."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🏜️",
+      "badgeText": "Map 3",
+      "title": "The Sunken Sands",
+      "phase": "Chapter 2 - Deserts & Secrets",
+      "description": "Surviving brutal sandstorms and discovering buried obsidian shrines in the deep dunes."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🏔️",
+      "badgeText": "Map 6",
+      "title": "The Highland Crossing",
+      "phase": "Chapter 3 - Perilous Peaks",
+      "description": "Scaling treacherous mountain passes and encountering enigmatic mountain tribes and ancient ruins."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🧭",
+      "badgeText": "Map 8",
+      "title": "Whispering Swamp",
+      "phase": "Chapter 4 - The Murky Depths",
+      "description": "Navigating dense bayous and uncovering the key artifacts pointing toward the legendary sanctuary."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🏛️",
+      "badgeText": "Map 10",
+      "title": "The Last Ruin Found",
+      "phase": "Chapter 5 - The Heart's Desire",
+      "description": "Reaching the mythical Last Ruin, unlocking the final story paragraph, and fulfilling your traveler's ultimate quest."
+    }
+  ]
+}

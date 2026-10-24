@@ -1,0 +1,61 @@
+{
+  "title": "Welcome to the Moon",
+  "subtitle": "Campagne Narrative Spatiale en Flip-and-Write Évolutif",
+  "tagline": "Sauvez l'humanité à travers 8 aventures lunaires évolutives, du décollage terrestre jusqu'à la colonie permanente.",
+  "loreSummary": "La Terre se meurt. En tant que directeur de vol, menez l'audacieuse évacuation vers la Lune à travers 8 plateaux d'aventures effaçables uniques. Retournez des cartes de construction, pilotez les systèmes de fusée, forez des dômes de glace souterrains et érigez la première métropole lunaire utopique.",
+  "badgeCategory": "Campagne Narrative en Flip-and-Write",
+  "roadmapTitle": "L'Arc de Colonisation Lunaire",
+  "roadmapBadge": "Aventures Narratives",
+  "keyFeatures": [
+    "L'aboutissement magistral de la célèbre collection de jeux de société 'Welcome to...'",
+    "8 plateaux d'aventure radicalement différents aux règles, mécaniques et décomptes évolutifs",
+    "Livre de campagne immersif avec paragraphes narratifs à choix multiples et déblocages permanents",
+    "Mode solo scénarisé contre l'IA Astra ou jeu en simultané jusqu'à 6 joueurs"
+  ],
+  "scopes": {
+    "welcome_moon_full_odyssey": {
+      "name": "L'Odyssée Lunaire Complète (Les 8 Aventures)",
+      "description": "L'expérience intégrale du carnet de campagne jouant chacun des 8 plateaux trois fois pour vivre tous les embranchements de l'histoire."
+    },
+    "welcome_moon_direct_flight": {
+      "name": "Vol Direct (Aventures 1 à 8)",
+      "description": "Un parcours linéaire fluide découvrant chacun des 8 plateaux lunaires une fois dans l'ordre chronologique de la mission."
+    },
+    "welcome_moon_master_colonizer": {
+      "name": "Maître Colonisateur Spatial (Campagne & Défis Astra)",
+      "description": "Un marathon de campagne exhaustif explorant tous les choix scénaristiques alternatifs et les défis de difficulté maximale."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Aventure 1",
+      "title": "Décollage depuis la Terre",
+      "phase": "Acte I - La Grande Évasion",
+      "description": "Révéler les cartes de construction pour alimenter les étages de la fusée et s'arracher à l'attraction terrestre."
+    },
+    {
+      "badgeText": "Aventure 3",
+      "title": "Descente et Alunissage",
+      "phase": "Acte II - Touchdown à Tranquillité",
+      "description": "Piloter les rétrofusées et implanter les premières plateformes pressurisées au creux des cratères."
+    },
+    {
+      "badgeText": "Aventure 5",
+      "title": "Le Dôme d'Eau Souterrain",
+      "phase": "Acte III - Forages Vitaux",
+      "description": "Pomper les nappes de glace fossile et relier les serres vivrières pour approvisionner les pionniers."
+    },
+    {
+      "badgeText": "Aventure 7",
+      "title": "Quarantaine du Virus Extraterrestre",
+      "phase": "Acte IV - Alerte dans la Biosphère",
+      "description": "Isoler les secteurs contaminés et synthétiser des vaccins antiviraux dans le laboratoire d'urgence."
+    },
+    {
+      "badgeText": "Aventure 8",
+      "title": "La République Indépendante de la Lune",
+      "phase": "Acte V - Une Nouvelle Civilisation",
+      "description": "Bâtir la mégastructure utopique finale, atteindre l'autosuffisance et proclamer la constitution lunaire de l'humanité."
+    }
+  ]
+}

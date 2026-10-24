@@ -1,0 +1,61 @@
+{
+  "title": "Near and Far",
+  "subtitle": "Campagna Narrativa d'Avventura e Atlante di Viaggio",
+  "tagline": "Recluta compagni, carica gli uccelli da soma e parti alla ricerca della leggendaria Ultima Rovina.",
+  "loreSummary": "Quattro viaggiatori cercano l'Ultima Rovina, una città perduta che cela un manufatto capace di esaudire il più profondo desiderio del cuore. Attraversa un atlante di mappe finemente illustrate, leggi incontri da un immenso libro delle storie, pianta campi e guida i tuoi pionieri.",
+  "badgeCategory": "Campagna Narrativa d'Avventura",
+  "roadmapTitle": "Pellegrinaggio dell'Atlante",
+  "roadmapBadge": "Mappe dell'Atlante",
+  "keyFeatures": [
+    "Seguito di Above and Below, ambientato nel magico universo fantasy di Arzium creato da Ryan Laukat",
+    "Atlante con 11 mappe illustrate a colori ricche di terreni unici e paragrafi narrativi a bivi",
+    "Modalità Personaggio con carte missione esclusive che approfondiscono il passato di ciascun eroe",
+    "Equilibrata combinazione tra piazzamento lavoratori, gestione risorse e narrazione interattiva"
+  ],
+  "scopes": {
+    "near_and_far_story_campaign": {
+      "name": "Alla Ricerca dell'Ultima Rovina (10 Sessioni d'Atlante)",
+      "description": "L'arco narrativo completo che attraversa 10 mappe consecutive fino a svelare il segreto dell'Ultima Rovina."
+    },
+    "near_and_far_character_quest": {
+      "name": "Arco delle Missioni Personali (4 Sessioni)",
+      "description": "Un viaggio dedicato di 4 sessioni focalizzato sulle missioni intime dei personaggi selezionati."
+    },
+    "near_and_far_arcade_mode": {
+      "name": "Esploratore Totale dell'Atlante (Tutte le 11 Mappe & Miniere)",
+      "description": "Una titanica spedizione che affronta ciascuna mappa dell'atlante e le insidie della miniera sotterranea."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Mappa 1",
+      "title": "Partenza da Fine della Speranza",
+      "phase": "Capitolo 1 - Nella Natura Selvaggia",
+      "description": "Allestire il campo e assoldare uccelli da soma ed esploratori per il lungo viaggio verso terre ignote."
+    },
+    {
+      "badgeText": "Mappa 3",
+      "title": "Le Sabbie Sommerse",
+      "phase": "Capitolo 2 - Deserti & Segreti",
+      "description": "Sopravvivere a violente tempeste di sabbia e scoprire santuari d'ossidiana sepolti tra le dune."
+    },
+    {
+      "badgeText": "Mappa 6",
+      "title": "Il Valico degli Altipiani",
+      "phase": "Capitolo 3 - Vette Pericolose",
+      "description": "Scalare impervi passi montani ed entrare in contatto con misteriose tribù e templi millenari."
+    },
+    {
+      "badgeText": "Mappa 8",
+      "title": "La Palude Sussurrante",
+      "phase": "Capitolo 4 - Le Torbide Profondità",
+      "description": "Addentrarsi in acquitrini labirintici per trovare le chiavi necessarie a localizzare il santuario finale."
+    },
+    {
+      "badgeText": "Mappa 10",
+      "title": "L'Ultima Rovina Raggiunta",
+      "phase": "Capitolo 5 - Il Desiderio del Cuore",
+      "description": "Raggiungere la mitica Ultima Rovina, leggere il paragrafo conclusivo ed esaudire il supremo desiderio del tuo eroe."
+    }
+  ]
+}

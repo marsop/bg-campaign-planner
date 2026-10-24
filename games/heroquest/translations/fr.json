@@ -1,0 +1,61 @@
+{
+  "title": "HeroQuest",
+  "subtitle": "Campagne Classique d'Exploration de Donjon et d'Aventure Fantastique",
+  "tagline": "Répondez à l'appel de Mentor, pénétrez dans les profondeurs éclairées aux flambeaux et défiez Zargon en 14 quêtes épiques.",
+  "loreSummary": "Les forces de la Terreur menacent l'Empire. Guidés par le sage Mentor, quatre vaillants héros – le Barbare, le Nain, l'Elfe et l'Enchanteur – s'enfoncent dans de sombres donjons pour combattre orques, momies et sorciers du chaos, amassant de l'or pour acquérir de puissantes reliques.",
+  "badgeCategory": "Dungeon Crawl Médiéval-Fantastique",
+  "roadmapTitle": "Le Livre des Quêtes",
+  "roadmapBadge": "Quêtes Héroïques",
+  "keyFeatures": [
+    "Le légendaire jeu de plateau pionnier du dungeon crawl fantastique créé par Stephen Baker",
+    "Campagne principale de 14 quêtes progressives depuis L'Épreuve jusqu'à l'affrontement final du Seigneur Sorcier",
+    "Jouable à 1 contre tous avec un joueur dans le rôle de Zargon ou en coopération intégrale via l'application officielle",
+    "Mobilier 3D richement détaillé, portes, coffres aux trésors et figurines emblématiques"
+  ],
+  "scopes": {
+    "heroquest_core_fourteen_quests": {
+      "name": "Le Rassemblement des Héros (Les 14 Quêtes)",
+      "description": "L'intégralité des 14 quêtes originales du livre d'aventures, de L'Épreuve au dénouement épique de Barak Tor."
+    },
+    "heroquest_introductory_trial": {
+      "name": "L'Épreuve des Champions (Quêtes 1 à 4)",
+      "description": "Un parcours d'initiation de 4 quêtes pour assimiler combats, exploration et récupération de l'or du Prince Magnus."
+    },
+    "heroquest_master_mentor": {
+      "name": "Champion du Royaume (14 Quêtes & Scénarios Mythiques)",
+      "description": "Un marathon de donjon complet combinant quêtes du jeu de base et défis mythiques à difficulté maximale."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Quête 1",
+      "title": "L'Épreuve",
+      "phase": "Acte I - Le Seuil du Donjon",
+      "description": "Franchir la lourde porte de pierre pour affronter orques et gobelins et survivre à votre premier labyrinthe mortel."
+    },
+    {
+      "badgeText": "Quête 4",
+      "title": "L'Or du Prince Magnus",
+      "phase": "Acte II - Trésors Royaux",
+      "description": "Infiltrer des catacombes souterraines pour arracher les coffres d'or royaux aux guerriers du Chaos."
+    },
+    {
+      "badgeText": "Quête 8",
+      "title": "Le Mage de Feu",
+      "phase": "Acte III - Sorcellerie Incandescente",
+      "description": "Confronter le pyromancien félon Balur au cœur de sa forteresse de lave avant qu'il ne déchaîne le cataclysme."
+    },
+    {
+      "badgeText": "Quête 11",
+      "title": "Le Bastion du Chaos",
+      "phase": "Acte IV - L'Ombre de la Terreur",
+      "description": "Investir le sanctuaire des sorciers du Chaos pour retrouver l'ancestrale Épée d'Esprit."
+    },
+    {
+      "badgeText": "Quête 14",
+      "title": "Le Retour à Barak Tor",
+      "phase": "Acte V - La Chute du Seigneur Sorcier",
+      "description": "Maniant l'Épée d'Esprit contre le Seigneur Sorcier mort-vivant pour sauver Mentor et délivrer l'Empire."
+    }
+  ]
+}

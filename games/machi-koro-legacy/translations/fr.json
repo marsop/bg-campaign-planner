@@ -1,0 +1,61 @@
+{
+  "title": "Machi Koro Legacy",
+  "subtitle": "Campagne Legacy Évolutive de Construction de Cité Insulaire",
+  "tagline": "Lancez les dés, érigez des monuments et observez votre archipel urbain évoluer de façon permanente en 10 parties.",
+  "loreSummary": "Des maires rivaux sont nommés pour bâtir et développer un archipel d'îles paradisiaques. Lancez les dés, encaissez les profits de vos boulangeries, ports et festivals, et déverrouillez des boîtes secrètes qui introduisent de nouvelles cartes, règles et mécaniques définitives sur vos plateaux.",
+  "badgeCategory": "Campagne Legacy de Dés et de Ville",
+  "roadmapTitle": "Développement de l'Archipel",
+  "roadmapBadge": "Parties Legacy",
+  "keyFeatures": [
+    "Adaptation legacy du célèbre jeu de construction aux dés co-conçue par Rob Daviau (Risk Legacy, Pandemic Legacy)",
+    "Campagne scénarisée en 10 parties avec compartiments scellés, cartes narratives et améliorations permanentes",
+    "Offre un jeu Minivilles personnalisé et infiniment rejouable au terme de l'aventure",
+    "Parties vives, accessibles et conviviales idéales pour les soirées en famille et les groupes réguliers"
+  ],
+  "scopes": {
+    "machi_koro_ten_game_campaign": {
+      "name": "L'Héritage du Maire Insulaire (Les 10 Parties)",
+      "description": "L'arc narratif complet ouvrant toutes les boîtes secrètes, érigeant les monuments et couronnant le Maire Suprême."
+    },
+    "machi_koro_first_districts": {
+      "name": "Les Bourgs Fondateurs (Parties 1 à 3)",
+      "description": "Un parcours d'initiation de 3 parties développant vos premiers commerces côtiers avec un seul dé."
+    },
+    "machi_koro_metropolis_master": {
+      "name": "Maître Bâtisseur d'Archipel (10 Parties & Mode Libre)",
+      "description": "La campagne intégrale suivie de parties libres avec votre plateau de jeu sur-mesure définitivement débloqué."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Partie 1",
+      "title": "Fondation des Bourgs Insulaires",
+      "phase": "Acte I - Les Premières Moissons",
+      "description": "Ouvrir la boîte legacy, semer les champs de blé, ouvrir des boulangeries et foncer pour bâtir les quatre premiers monuments."
+    },
+    {
+      "badgeText": "Partie 3",
+      "title": "Ports et Chantiers Navals",
+      "phase": "Acte II - Commerce Maritime",
+      "description": "Débloquer les paquets maritimes, les flottes de pêche et les lignes de ferries reliant les îles."
+    },
+    {
+      "badgeText": "Partie 6",
+      "title": "Festivals et Tourisme",
+      "phase": "Acte III - Épanouissement Culturel",
+      "description": "Aménager des places des fêtes, parcs d'attractions et complexes balnéaires attirant les vacanciers du continent."
+    },
+    {
+      "badgeText": "Partie 8",
+      "title": "Industrie Lourde et Voies Ferrées",
+      "phase": "Acte IV - Infrastructures Modernes",
+      "description": "Relier les trains à grande vitesse, mines et sièges technologiques à travers les quartiers des joueurs rivaux."
+    },
+    {
+      "badgeText": "Partie 10",
+      "title": "La Métropole Insulaire Ultime",
+      "phase": "Acte V - Le Couronnement du Maire",
+      "description": "Achever le grand monument de l'archipel, faire le décompte général et proclamer le Maire Suprême."
+    }
+  ]
+}

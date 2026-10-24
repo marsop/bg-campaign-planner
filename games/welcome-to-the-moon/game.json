@@ -1,0 +1,104 @@
+{
+  "id": "welcome-to-the-moon",
+  "title": "Welcome to the Moon",
+  "releaseYear": 2021,
+  "designers": "Benoit Turpin, Alexis Allard",
+  "playersMin": 1,
+  "playersMax": 6,
+  "bggRating": 7.9,
+  "bggWeight": 2.45,
+  "bggUrl": "https://boardgamegeek.com/boardgame/346867/welcome-to-the-moon",
+  "baseScenarioMinutes": 35,
+  "setupTeardownMinutes": 10,
+  "unitType": "episodes",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#38bdf8",
+    "secondaryColor": "#1e1b4b",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e1b4b 0%, #0f172a 60%, #020617 100%)",
+    "cardBackground": "rgba(30, 27, 75, 0.94)",
+    "borderColor": "rgba(56, 189, 248, 0.35)",
+    "glowColor": "rgba(56, 189, 248, 0.25)",
+    "headerFont": "'Righteous', 'Comfortaa', system-ui, sans-serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🚀",
+    "emblem": "🚀🌕",
+    "themeClass": "theme-welcome-to-the-moon",
+    "activeThemeClass": "theme-welcome-to-the-moon-active",
+    "roadmapClass": "roadmap-welcome-to-the-moon",
+    "heroClass": "hero-welcome-to-the-moon"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #346867)",
+    "Blue Cocker Games Official Rulebook & Campaign Book",
+    "Golden Geek Best Print & Play / Roll-and-Write Nominee Logs"
+  ],
+  "scopes": [
+    {
+      "id": "welcome_moon_full_odyssey",
+      "baseScenarioCount": 24,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "welcome_moon_direct_flight",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": false
+    },
+    {
+      "id": "welcome_moon_master_colonizer",
+      "baseScenarioCount": 32,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🚀",
+      "badgeText": "Adventure 1",
+      "title": "Liftoff from Earth",
+      "phase": "Act I - The Great Escape",
+      "description": "Flipping construction cards to fuel rocket stages and break Earth's gravitational orbit."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🛰️",
+      "badgeText": "Adventure 3",
+      "title": "Lunar Descent & Landing",
+      "phase": "Act II - Touchdown at Tranquility",
+      "description": "Maneuvering thrusters and establishing the first pressurized lunar base pads inside craters."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "💧",
+      "badgeText": "Adventure 5",
+      "title": "The Subterranean Water Dome",
+      "phase": "Act III - Drilling for Life",
+      "description": "Pumping ice lakes and connecting greenhouse conduits to sustain growing lunar communities."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "🦠",
+      "badgeText": "Adventure 7",
+      "title": "The Alien Virus Quarantine",
+      "phase": "Act IV - Crisis in the Biosphere",
+      "description": "Isolating infected sectors and synthesizing anti-pathogen vaccines in the high-tech lab."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🌕",
+      "badgeText": "Adventure 8",
+      "title": "The Independent Moon Republic",
+      "phase": "Act V - A New Civilization",
+      "description": "Completing the final utopian megastructure, securing self-sufficiency, and writing humanity's lunar constitution."
+    }
+  ]
+}

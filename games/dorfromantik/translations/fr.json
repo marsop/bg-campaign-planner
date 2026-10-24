@@ -1,0 +1,61 @@
+{
+  "title": "Dorfromantik : Le Jeu de Plateau",
+  "subtitle": "Campagne Coopérative de Casse-tête Pastoral",
+  "tagline": "Assemblez un paysage champêtre paisible et déverrouillez des boîtes secrètes tout au long d'une campagne réconfortante.",
+  "loreSummary": "Posez ensemble des tuiles hexagonales de paysage, reliant rivières étincelantes, champs de blé dorés et hameaux pittoresques tout en accomplissant les souhaits des habitants pour ouvrir des boîtes d'objectifs scellées.",
+  "badgeCategory": "Campagne Coopérative Pastorale",
+  "roadmapTitle": "Sentier d'Accomplissement",
+  "roadmapBadge": "Boîtes Secrètes",
+  "keyFeatures": [
+    "Adaptation coopérative en pose de tuiles du jeu vidéo relaxant primé",
+    "5 boîtes secrètes à débloquer avec de nouvelles tuiles, défis et règles de score",
+    "Feuille de campagne rejouable avec paliers de points évolutifs et étoiles",
+    "Lauréat du prestigieux Spiel des Jahres 2023"
+  ],
+  "scopes": {
+    "dorfromantik_full_campaign": {
+      "name": "La Campagne Complète (Les 5 Boîtes Secrètes)",
+      "description": "L'arc narratif complet de campagne, déverrouillant les 5 boîtes scellées avec leurs tâches spéciales et cartes d'objectifs."
+    },
+    "dorfromantik_first_achievements": {
+      "name": "Premiers Horizons du Village (2 Premières Boîtes)",
+      "description": "Une découverte légère ouvrant les deux premières boîtes secrètes pour introduire les voies ferrées et défis spéciaux."
+    },
+    "dorfromantik_master_high_score": {
+      "name": "Maître Paysagiste (Campagne & Records de Score)",
+      "description": "Une expérience de campagne approfondie visant à débloquer tous les modules et atteindre les plus hauts rangs de score."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Boîte 1",
+      "title": "Les Premiers Champs Fleuris",
+      "phase": "Chapitre 1 - Fondations du Village",
+      "description": "Tracer les premiers cours d'eau et agencer les massifs forestiers pour franchir le premier seuil de score de campagne."
+    },
+    {
+      "badgeText": "Boîte 2",
+      "title": "Voies Ferrées à Travers la Vallée",
+      "phase": "Chapitre 2 - Nouveaux Horizons",
+      "description": "Ouvrir les premières boîtes secrètes intégrant aiguillages, objectifs de paysage et voies pour trains à vapeur."
+    },
+    {
+      "badgeText": "Boîte 3",
+      "title": "Confluences & Canaux Fluviaux",
+      "phase": "Chapitre 3 - Eaux Vives",
+      "description": "Intégrer tuiles portuaires et longs canaux fluviaux pour débloquer de nouvelles cartes d'accomplissement et étoiles."
+    },
+    {
+      "badgeText": "Boîte 4",
+      "title": "Merveilles du Domaine",
+      "phase": "Chapitre 4 - Repères et Monuments",
+      "description": "Ériger moulins à vent, tours de guet et monuments remarquables récompensant les agencements méticuleux."
+    },
+    {
+      "badgeText": "Boîte 5",
+      "title": "Le Paysage Harmonieux Ultime",
+      "phase": "Chapitre 5 - Grand Final de Campagne",
+      "description": "Ouvrir l'ultime boîte secrète et atteindre le score d'harmonie suprême sur le carnet de campagne."
+    }
+  ]
+}

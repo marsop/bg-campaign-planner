@@ -1,0 +1,61 @@
+{
+  "title": "Detective: City of Angels",
+  "subtitle": "Campagne d'Enquêtes Policières et Meurtres Noir Années 1940",
+  "tagline": "Arpentez les ruelles enfumées et corrompues de Los Angeles des années 40 pour résoudre 9 meurtres captivants.",
+  "loreSummary": "Bienvenue à Los Angeles à la fin des années 1940 : une métropole éblouissante où se côtoient stars de cinéma, cadavres anonymes et flics véreux. En tant qu'inspecteurs de la brigade criminelle du LAPD, cuisinez des suspects retors, collectez des preuves et déjouez les manigances de 'La Combine' pour clore vos dossiers.",
+  "badgeCategory": "Campagne Policière Film Noir",
+  "roadmapTitle": "Dossiers Criminels du LAPD",
+  "roadmapBadge": "Affaires Résolues",
+  "keyFeatures": [
+    "Système novateur 'ARC' (Cartes de Réponses Adaptatives) offrant des interrogatoires dynamiques et réalistes",
+    "Jouable en coopération, en solo (mode Fouinard) ou en affrontement avec un joueur incarnant 'La Combine'",
+    "9 affaires palpitantes écrites par le romancier Evan Derrick illustrées dans un style noir somptueux",
+    "Ambiance d'époque saisissante : fouillez les scènes de crime, payez des indicateurs et obtenez des aveux"
+  ],
+  "scopes": {
+    "city_of_angels_complete_dossier": {
+      "name": "Dossier Complet du LAPD (Les 9 Affaires)",
+      "description": "L'intégrale des 9 affaires d'homicide explorant les bas-fonds, les studios de cinéma et la pègre de Los Angeles."
+    },
+    "city_of_angels_rookie_investigator": {
+      "name": "Trilogie Sunset Boulevard (Affaires 1 à 3)",
+      "description": "Un arc d'introduction de 3 enquêtes pour faire vos armes sur les premiers meurtres de motels hollywoodiens."
+    },
+    "city_of_angels_master_chisel": {
+      "name": "Inspecteur Émérite de la Criminelle (9 Affaires & Extensions)",
+      "description": "Un dossier d'instruction complet réunissant toutes les affaires du jeu de base et d'extensions à la difficulté maximale."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Affaire 1",
+      "title": "Le Grand Coup de Pression",
+      "phase": "Acte I - La Ronde du Bleu",
+      "description": "Interroger des suspects dans des motels sordides, graisser la patte aux indics et résoudre votre premier meurtre retentissant."
+    },
+    {
+      "badgeText": "Affaire 3",
+      "title": "Réputation Mortelle",
+      "phase": "Acte II - Corruption sur les Plateaux",
+      "description": "Fendre le vernis des nababs du cinéma et des starlettes pour révéler réseaux de chantage et accointances mafieuses."
+    },
+    {
+      "badgeText": "Affaire 5",
+      "title": "Du Sang sur le Boulevard",
+      "phase": "Acte III - Vices Nocturnes",
+      "description": "Défier flics ripoux et bookmakers du syndicat du crime dans des clubs de jazz enfumés et tripots clandestins."
+    },
+    {
+      "badgeText": "Affaire 7",
+      "title": "Une Balle pour le Procureur",
+      "phase": "Acte IV - Conspirations à l'Hôtel de Ville",
+      "description": "Démêler les magouilles de haute volée où juges corrompus et parrains du crime partagent les mêmes comptes."
+    },
+    {
+      "badgeText": "Affaire 9",
+      "title": "Le Registre Final de la Cité des Anges",
+      "phase": "Acte V - Les Félicitations du Préfet",
+      "description": "Remettre les mandats d'arrêt définitifs au chef de la police et inscrire votre nom dans la légende du LAPD."
+    }
+  ]
+}

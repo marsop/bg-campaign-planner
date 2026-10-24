@@ -1,0 +1,61 @@
+{
+  "title": "Under Falling Skies",
+  "subtitle": "Campagna Solitaria di Piazzamento Dadi contro l'Invasione Aliena",
+  "tagline": "Guida la resistenza sotterranea della Terra contro una nave madre aliena in una campagna a fumetti.",
+  "loreSummary": "La mastodontica nave madre aliena incombe nell'atmosfera, scagliando ondate di caccia ostili contro le nostre metropoli. Al comando di una base sotterranea, piazza i dadi per scavare sale, azionare torrette contraeree, accelerare la ricerca scientifica e salvare il pianeta.",
+  "badgeCategory": "Campagna Solitaria di Difesa Sci-Fi",
+  "roadmapTitle": "L'Arco Narrativo a Fumetti",
+  "roadmapBadge": "Capitoli della Storia",
+  "keyFeatures": [
+    "Pluripremiato gioco solitario di piazzamento dadi con un'ingegnosa gestione delle colonne tattiche",
+    "Campagna a bivi in 4 capitoli arricchita da intermezzi a fumetti e scenari sbloccabili",
+    "Schede città personalizzate, comandanti speciali e moduli di difesa robotica",
+    "Vincitore del premio Golden Geek 2020 come Miglior Gioco da Tavolo Solitario"
+  ],
+  "scopes": {
+    "under_falling_skies_full_campaign": {
+      "name": "La Campagna a Fumetti Completa (16 Missioni)",
+      "description": "L'arco completo in 4 capitoli con tavole a fumetti, città sbloccabili e il contrattacco decisivo alla nave madre."
+    },
+    "under_falling_skies_first_chapter": {
+      "name": "Capitolo 1: La Discesa (4 Missioni)",
+      "description": "Un percorso introduttivo di 4 missioni per respingere i primi attacchi e allestire il bunker sotterraneo."
+    },
+    "under_falling_skies_hardcore_resistance": {
+      "name": "Resistenza Globale Veterana (Tutte le Città & Minaccia Estrema)",
+      "description": "Una sfida sfiancante per difendere ogni metropoli del pianeta al massimo livello di ostilità aliena."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Capitolo 1",
+      "title": "L'Arrivo della Nave Madre",
+      "phase": "Capitolo 1 - Allarme su Roswell",
+      "description": "Attivare le scavatrici sotterranee e i primi laser antiaerei mentre la nave madre incombe sul centro abitato."
+    },
+    {
+      "badgeText": "Capitolo 2",
+      "title": "Difendendo Washington",
+      "phase": "Capitolo 2 - L'Assedio alla Capitale",
+      "description": "Sbloccare le abilità speciali dei comandanti e costruire robot di supporto per arginare gli sciami invasori."
+    },
+    {
+      "badgeText": "Capitolo 3",
+      "title": "Svolta Scientifica Sotterranea",
+      "phase": "Capitolo 3 - La Resistenza Globale",
+      "description": "Completare i tracciati di ricerca per decifrare la tecnologia aliena e assemblare cannoni a energia pesante."
+    },
+    {
+      "badgeText": "Capitolo 4",
+      "title": "Attacco al Reattore",
+      "phase": "Capitolo 4 - Il Contrattacco Finale",
+      "description": "Coordinare le reti di città libere per sferrare un attacco frontale dritto al nucleo termico dell'astronave."
+    },
+    {
+      "badgeText": "Vittoria",
+      "title": "La Terra è Salva",
+      "phase": "Epilogo - Cieli Liberi",
+      "description": "Far esplodere la nave madre in orbita e liberare le metropoli terrestri dalla minaccia aliena."
+    }
+  ]
+}

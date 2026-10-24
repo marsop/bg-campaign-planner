@@ -1,0 +1,61 @@
+{
+  "title": "Warhammer Quest: Blackstone Fortress",
+  "subtitle": "Düstere Sci-Fi-Dungeon-Crawl-Kampagne",
+  "tagline": "Führe eine ungewöhnliche Schar von Abenteurern in eine feindselige, sich verändernde Alien-Raumstation im Warhammer 40.000-Universum.",
+  "loreSummary": "In den finsteren Weiten der Galaxis treibt eine Schwarze Festung durch die Leere – eine gigantische Xenos-Konstruktion vergessenen Ursprungs. Vom gesetzlosen Außenposten Precipice führst du eine Gruppe von Gesetzlosen und Händlern in das wandelbare Obsidianlabyrinth, um mächtige Archäotech zu bergen und die geheime Kammer zu öffnen.",
+  "badgeCategory": "Grimdark-Sci-Fi-Dungeon-Crawl",
+  "roadmapTitle": "Expeditionen zur Geheimen Kammer",
+  "roadmapBadge": "Bastionen & Kammer",
+  "keyFeatures": [
+    "Kooperatives oder Solo-Dungeon-Crawl-Abenteuer im ikonischen Warhammer 40.000-Universum",
+    "Dynamisches Erkundungsdeck mit unberechenbaren Gefechtskammern, feindlichen Patrouillen und Xenos-Kammern",
+    "Handelsstation Precipice: Archäotech tauschen, schwere Verwundungen behandeln und Raumschiffe anheuern",
+    "4 entscheidende Bastionsangriffe, die zu den schrecklichen Geheimnissen der Verborgenen Kammer führen"
+  ],
+  "scopes": {
+    "blackstone_hidden_vault": {
+      "name": "Die Verborgene Kammer (Alle 4 Bastionen & Kammer)",
+      "description": "Die vollständige epische Kampagne über 18 Expeditionen zur Bergung von Hinweiskarten, Erstürmung von 4 Chaos-Bastionen und Eroberung der Kammer."
+    },
+    "blackstone_first_stronghold": {
+      "name": "Erster Bastions-Vorstoß (Bastion 1)",
+      "description": "Ein kompakter Einstiegsbogen zum Aufbau eures Entdeckergefolges und zur Erstürmung der ersten Chaos-Bastion."
+    },
+    "blackstone_master_explorer": {
+      "name": "Meister-Erforscher von Precipice (Kammer & Eskalations-Quests)",
+      "description": "Ein umfassender Kampagnenmarathon inklusive Nebenmissionen, feindlicher Verstärkung und der tiefsten Kammern der Station."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Expedition 1",
+      "title": "Ankunft in Precipice",
+      "phase": "Akt I - Am Rande der Leere",
+      "description": "Versammlung eines Söldnergefolges auf der Handelsstation Precipice und Aufbruch in die wandelbaren Korridore der Festung."
+    },
+    {
+      "badgeText": "Bastion 1",
+      "title": "Sturm auf die Chaos-Bastion",
+      "phase": "Akt II - Der bösartige Überfall",
+      "description": "Angriff auf die erste befestigte Bastion, verteidigt von Verräter-Soldaten und verderbten Tiermenschen."
+    },
+    {
+      "badgeText": "Bastion 2",
+      "title": "Der Spindeldrohnen-Schwarm",
+      "phase": "Akt III - Automatisierte Abwehr",
+      "description": "Deaktivierung automatisierter Wächterdrohnen und Bergung von Archäotech-Hinweisen aus uralten Maschinenkammern."
+    },
+    {
+      "badgeText": "Bastion 4",
+      "title": "Das Obsidian-Tor",
+      "phase": "Akt IV - Der Schatten von Mallex",
+      "description": "Konfrontation mit Chaoslord Obsidius Mallex und Erbeutung des finalen Chiffren-Schlüssels zum Kern der Station."
+    },
+    {
+      "badgeText": "Geheime Kammer",
+      "title": "Geheimnisse der Erbauer",
+      "phase": "Akt V - Die Entsiegelte Kammer",
+      "description": "Überstehen der realitätsverzerrenden Schrecken der zentralen Kammer, um die ultimative Xenos-Macht vor dem Kollaps zu sichern."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Nah und Fern",
+  "subtitle": "Erzählerische Abenteuer- & Atlas-Kampagne",
+  "tagline": "Heuere Gefährten an, packe deine Lastvögel und suche die mythische Letzte Ruine in einem illustrierten Atlas.",
+  "loreSummary": "Vier Wanderer suchen nach der Letzten Ruine – einer Stadt, die ein Artefakt birgt, das den sehnlichsten Wunsch des Herzens erfüllt. Reise über einen Atlas wunderschön illustrierter Karten, lies Begegnungen aus einem gewaltigen Geschichtenbuch, schlage Lager auf und führe deine Expedition zum Ziel.",
+  "badgeCategory": "Erzählerische Abenteuerkampagne",
+  "roadmapTitle": "Atlas-Reise zur Letzten Ruine",
+  "roadmapBadge": "Atlas-Karten",
+  "keyFeatures": [
+    "Nachfolger von Oben und Unten, angesiedelt in Ryan Laukats zauberhafter Fantasy-Welt Arzium",
+    "Atlas mit 11 vollfarbig illustrierten Kartenplänen mit einzigartigem Gelände und verzweigten Story-Abschnitten",
+    "Charaktermodus mit eigenen Questkarten zur Vertiefung der Hintergrundgeschichte jedes Abenteurers",
+    "Geniale Verflechtung von Worker-Placement, Ressourcenmanagement und mitreißendem Storytelling"
+  ],
+  "scopes": {
+    "near_and_far_story_campaign": {
+      "name": "Die Suche nach der Letzten Ruine (10 Atlas-Partien)",
+      "description": "Der vollständige Kampagnenbogen über 10 aufeinanderfolgende Atlaskarten bis zur Entdeckung der Letzten Ruine."
+    },
+    "near_and_far_character_quest": {
+      "name": "Persönliche Charakterquest (4 Partien)",
+      "description": "Eine fokussierte 4-Partien-Reise entlang der individuellen Quests der gewählten Abenteurer."
+    },
+    "near_and_far_arcade_mode": {
+      "name": "Vollständiger Atlas-Erforscher (Alle 11 Karten & Minen)",
+      "description": "Eine allumfassende Expedition über jede Karte des Atlas inklusive der unterirdischen Minenherausforderungen."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Karte 1",
+      "title": "Aufbruch aus Hoffnungsende",
+      "phase": "Kapitel 1 - In die Wildnis",
+      "description": "Lager errichten und Lastvögel sowie Gefährten für die Reise in unkartierte Lande anheuern."
+    },
+    {
+      "badgeText": "Karte 3",
+      "title": "Die versunkenen Sande",
+      "phase": "Kapitel 2 - Wüsten & Geheimnisse",
+      "description": "Überstehen gnadenloser Sandstürme und Entdeckung uralter Obsidianschreine in den Dünen."
+    },
+    {
+      "badgeText": "Karte 6",
+      "title": "Der Hochland-Pass",
+      "phase": "Kapitel 3 - Gefährliche Gipfel",
+      "description": "Überquerung steiler Gebirgspässe und Begegnungen mit rätselhaften Bergvölkern und Ruinen."
+    },
+    {
+      "badgeText": "Karte 8",
+      "title": "Der Flüsternde Sumpf",
+      "phase": "Kapitel 4 - Die trüben Tiefen",
+      "description": "Durchquerung dichter Sümpfe und Bergung wichtiger Relikte auf dem Weg zum Heiligtum."
+    },
+    {
+      "badgeText": "Karte 10",
+      "title": "Die Letzte Ruine gefunden",
+      "phase": "Kapitel 5 - Das Begehren des Herzens",
+      "description": "Erreichen der legendären Letzten Ruine, Lesen des finalen Absatzes und Erfüllung der Lebensquest."
+    }
+  ]
+}

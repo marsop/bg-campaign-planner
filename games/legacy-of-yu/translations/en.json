@@ -1,0 +1,61 @@
+{
+  "title": "Legacy of Yu",
+  "subtitle": "Solo-Only Non-Destructive Narrative Legacy Campaign",
+  "tagline": "Tame the surging floods of the Yellow River and defend against barbarian raids in a self-balancing solo campaign.",
+  "loreSummary": "Set in ancient China during the reign of Emperor Shun, you are Yu the Great, tasked by the imperial court with channeling the catastrophic floodwaters of the Yellow River while defending your canals against invading barbarian hordes. Build canals, train townsfolk, and read parables from a dynamic, resetting story deck.",
+  "badgeCategory": "Solo Legacy Campaign",
+  "roadmapTitle": "Chronicles of the Yellow River",
+  "roadmapBadge": "Flood Campaigns",
+  "keyFeatures": [
+    "Dedicated solo-only worker placement and deck-building design by Shem Phillips (Garphill Games)",
+    "Non-destructive legacy campaign: fully resettable without stickers or destroyed components",
+    "Self-balancing story deck that introduces new cards and adapts difficulty whether you win or lose",
+    "Race to achieve 7 victories before suffering 7 defeats across an interconnected historical saga"
+  ],
+  "scopes": {
+    "legacy_of_yu_flood_campaign": {
+      "name": "The Taming of the Yellow River (7–10 Games)",
+      "description": "The complete solo campaign arc playing through consecutive games until achieving 7 victories or suffering 7 catastrophic defeats."
+    },
+    "legacy_of_yu_first_canals": {
+      "name": "First Canals & Defense (First 3 Games)",
+      "description": "An introductory 3-game journey mastering canal dredging, worker drafting, and early barbarian repelling."
+    },
+    "legacy_of_yu_master_engineer": {
+      "name": "Legendary Yu the Great (All Parables & Max Difficulty)",
+      "description": "An exhaustive solo mastery test seeking to trigger every narrative parable and conquer hardened barbarian cards."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Game 1",
+      "title": "The Rising Floodwaters",
+      "phase": "Era I - Breaching the Banks",
+      "description": "Digging the first drainage channels, harvesting timber, and repelling barbarian river raiders."
+    },
+    {
+      "badgeText": "Game 3",
+      "title": "Villages of the Basin",
+      "phase": "Era II - Sheltering the Populace",
+      "description": "Constructing granaries and outposts to house refugees while drafting artisans and monks into the labor force."
+    },
+    {
+      "badgeText": "Game 5",
+      "title": "Cutting Through the Mountains",
+      "phase": "Era III - The Great Gorge Engineering",
+      "description": "Clearing boulder blockages and carving stone canals through Dragon Gate Mountain to divert surging waters."
+    },
+    {
+      "badgeText": "Game 7",
+      "title": "The Barbarian Warlord's Siege",
+      "phase": "Act IV - Defense of the Works",
+      "description": "Bribing and battling invading barbarian warbands threatening to sabotage the canal lockworks."
+    },
+    {
+      "badgeText": "Game 8",
+      "title": "The Waters Subdued",
+      "phase": "Era V - Yu the Great Enthroned",
+      "description": "Guiding the Yellow River safely to the Eastern Sea, winning seven imperial victories, and founding the Xia Dynasty."
+    }
+  ]
+}

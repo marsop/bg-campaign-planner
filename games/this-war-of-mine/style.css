@@ -1,0 +1,29 @@
+/* This War of Mine Scoped Styling */
+.theme-this-war-of-mine {
+  --twom-rubble: #78716c;
+  --twom-dark: #1c1917;
+  --twom-blood: #dc2626;
+  --twom-charcoal: #0c0a09;
+}
+
+.theme-this-war-of-mine .game-card-selected,
+.theme-this-war-of-mine-active {
+  border-color: var(--twom-blood) !important;
+  box-shadow: 0 0 20px rgba(220, 38, 38, 0.35) !important;
+}
+
+.roadmap-this-war-of-mine .roadmap-milestone-card {
+  border-left: 4px solid var(--twom-blood);
+  background: linear-gradient(135deg, rgba(41, 37, 36, 0.6) 0%, rgba(28, 25, 23, 0.8) 100%);
+}
+
+.roadmap-this-war-of-mine .milestone-badge {
+  background-color: #44403c;
+  color: #fca5a5;
+  font-family: 'Special Elite', monospace;
+  font-weight: 700;
+}
+
+.hero-this-war-of-mine {
+  border-bottom: 2px solid rgba(220, 38, 38, 0.4);
+}

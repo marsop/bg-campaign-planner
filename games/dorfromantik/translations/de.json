@@ -1,0 +1,61 @@
+{
+  "title": "Dorfromantik: Das Brettspiel",
+  "subtitle": "Kooperative pastorale Landschaftspuzzle-Kampagne",
+  "tagline": "Fügt gemeinsam eine friedliche, idyllische Landschaft zusammen und öffnet geheime Schachteln in einer herzerwärmenden Kampagne.",
+  "loreSummary": "Legt gemeinsam sechseckige Landschaftsplättchen an, verbindet glitzernde Flüsse, goldene Weizenfelder und malerische Dörfer, während ihr Aufträge der Bewohner erfüllt und verschlossene Errungenschafts-Schachteln freischaltet.",
+  "badgeCategory": "Pastorale Kooperative Kampagne",
+  "roadmapTitle": "Kampagnen-Erfolgspfad",
+  "roadmapBadge": "Geheime Schachteln",
+  "keyFeatures": [
+    "Kooperative Plättchenlege-Adaption des beliebten, entspannenden Videospiels",
+    "5 freischaltbare geheime Schachteln mit neuen Plättchen, Aufträgen und Wertungen",
+    "Wiederspielbarer Kampagnenblock mit steigenden Punktezielen und Sternen",
+    "Ausgezeichnet als Spiel des Jahres 2023"
+  ],
+  "scopes": {
+    "dorfromantik_full_campaign": {
+      "name": "Die vollständige Landschaft (Alle 5 Schachteln)",
+      "description": "Der vollständige Kampagnenbogen mit der Freischaltung aller 5 versiegelten Schachteln, Spezialaufgaben und Wertungskarten."
+    },
+    "dorfromantik_first_achievements": {
+      "name": "Erste Dorf-Horizonte (Erste 2 Schachteln)",
+      "description": "Eine gemütliche Einstiegskampagne, bei der die ersten beiden Schachteln mit Schienen und Sonderaufträgen geöffnet werden."
+    },
+    "dorfromantik_master_high_score": {
+      "name": "Meister-Landschaftsgärtner (Kampagne & Rekordpunkte)",
+      "description": "Ein intensives Kampagnenerlebnis mit dem Ziel, jedes Modul freizuschalten und die höchsten Punktestufen auf dem Kampagnenblatt zu erreichen."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Schachtel 1",
+      "title": "Die ersten blühenden Felder",
+      "phase": "Kapitel 1 - Dorffundamente",
+      "description": "Erste Flussläufe anlegen und Waldränder verbinden, um die erste regionale Kampagnen-Punkteschwelle zu erreichen."
+    },
+    {
+      "badgeText": "Schachtel 2",
+      "title": "Gleise durch das Tal",
+      "phase": "Kapitel 2 - Erweiterte Horizonte",
+      "description": "Öffnen der ersten Rätselschachteln mit Einführung von Eisenbahnweichen, Spezialaufträgen und Dampfzugstrecken."
+    },
+    {
+      "badgeText": "Schachtel 3",
+      "title": "Flussmündungen & Kanäle",
+      "phase": "Kapitel 3 - Fließende Gewässer",
+      "description": "Integration von Hafenplättchen und langen Wasserkanälen zur Freischaltung neuer Erfolgskarten und Wertungssterne."
+    },
+    {
+      "badgeText": "Schachtel 4",
+      "title": "Wunder des Reiches",
+      "phase": "Kapitel 4 - Wahrzeichen und Monumente",
+      "description": "Errichtung prächtiger Wahrzeichen, Windmühlen und Wachtürme, die gezielte Platzierungsstrategien belohnen."
+    },
+    {
+      "badgeText": "Schachtel 5",
+      "title": "Die harmonische Meisterlandschaft",
+      "phase": "Kapitel 5 - Großes Kampagnenfinale",
+      "description": "Öffnen der letzten Geheimschachtel und Erzielen der höchsten Harmoniepunktzahl auf dem Meister-Kampagnenblock."
+    }
+  ]
+}

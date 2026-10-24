@@ -1,0 +1,104 @@
+{
+  "id": "machi-koro-legacy",
+  "title": "Machi Koro Legacy",
+  "releaseYear": 2019,
+  "designers": "Rob Daviau, JR Honeycutt, Masao Suganuma",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 7.1,
+  "bggWeight": 1.83,
+  "bggUrl": "https://boardgamegeek.com/boardgame/257501/machi-koro-legacy",
+  "baseScenarioMinutes": 45,
+  "setupTeardownMinutes": 10,
+  "unitType": "games",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#f59e0b",
+    "secondaryColor": "#0284c7",
+    "accentColor": "#16a34a",
+    "backgroundGradient": "radial-gradient(ellipse at top, #0369a1 0%, #075985 60%, #082f49 100%)",
+    "cardBackground": "rgba(3, 105, 161, 0.94)",
+    "borderColor": "rgba(245, 158, 11, 0.35)",
+    "glowColor": "rgba(245, 158, 11, 0.25)",
+    "headerFont": "'Comfortaa', 'Fredoka', system-ui, sans-serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🏙️",
+    "emblem": "🏙️🎲",
+    "themeClass": "theme-machi-koro-legacy",
+    "activeThemeClass": "theme-machi-koro-legacy-active",
+    "roadmapClass": "roadmap-machi-koro-legacy",
+    "heroClass": "hero-machi-koro-legacy"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #257501)",
+    "Pandasaurus Games Official Rulebook & Legacy Deck",
+    "Rob Daviau & Masao Suganuma Island Legacy Design Notes"
+  ],
+  "scopes": [
+    {
+      "id": "machi_koro_ten_game_campaign",
+      "baseScenarioCount": 10,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": true
+    },
+    {
+      "id": "machi_koro_first_districts",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": false
+    },
+    {
+      "id": "machi_koro_metropolis_master",
+      "baseScenarioCount": 15,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🌾",
+      "badgeText": "Game 1",
+      "title": "Founding the Island Towns",
+      "phase": "Act I - The First Harvests",
+      "description": "Opening the legacy box, constructing wheat fields and bakeries, and racing to build your initial four landmarks."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🚢",
+      "badgeText": "Game 3",
+      "title": "The Harbors & Shipyards",
+      "phase": "Act II - Maritime Commerce",
+      "description": "Unlocking nautical expansion decks, fishing fleets, and ferry routes connecting the archipelago."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "🏮",
+      "badgeText": "Game 6",
+      "title": "Festivals & Tourism",
+      "phase": "Act III - Cultural Flourish",
+      "description": "Introducing festival squares, amusement parks, and luxury resorts attracting mainland holidaymakers."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🏭",
+      "badgeText": "Game 8",
+      "title": "Heavy Industry & Railways",
+      "phase": "Act IV - Modern Infrastructure",
+      "description": "Connecting municipal bullet trains, mines, and tech headquarters across competing player districts."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "🏆",
+      "badgeText": "Game 10",
+      "title": "The Grand Island Metropolis",
+      "phase": "Act V - The Mayor's Coronation",
+      "description": "Completing the final grand monument, tallying the overall campaign legacy score, and crowning the Supreme Mayor."
+    }
+  ]
+}

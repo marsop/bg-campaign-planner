@@ -1,0 +1,61 @@
+{
+  "title": "Detective: City of Angels",
+  "subtitle": "Campagna Investigativa Noir e Omicidi LAPD Anni '40",
+  "tagline": "Addentrati nelle strade corrotte e fumose della Los Angeles del 1940 per risolvere 9 complessi casi di omicidio.",
+  "loreSummary": "Benvenuti nella Los Angeles di fine anni '40: una metropoli luccicante tra star hollywoodiane, cadaveri nei vicoli e poliziotti corrotti. Come detective della squadra omicidi del LAPD, interrogate testimoni reticenti, raccogliete prove forensi e battete 'Il Manovratore' per chiudere il fascicolo.",
+  "badgeCategory": "Campagna Investigativa Noir Anni '40",
+  "roadmapTitle": "Fascicoli Omicidi del LAPD",
+  "roadmapBadge": "Casi Risolti",
+  "keyFeatures": [
+    "Sistema innovativo 'ARC' (Carte di Risposta Adattiva) per interrogatori dinamici e credibili",
+    "Giocabile in cooperativo, in solitario (modalità Segugio) o competitivo con un giocatore nel ruolo de 'Il Manovratore'",
+    "9 intricati casi scritti dal giallista Evan Derrick con magnifiche illustrazioni in stile film noir",
+    "Atmosfera d'epoca straordinaria: ispeziona scene del crimine, paga informatori ed estorci confessioni"
+  ],
+  "scopes": {
+    "city_of_angels_complete_dossier": {
+      "name": "Il Registro Completo del LAPD (Tutti i 9 Casi)",
+      "description": "L'epopea investigativa integrale attraverso i 9 intricati casi di omicidio negli angoli più oscuri di Los Angeles."
+    },
+    "city_of_angels_rookie_investigator": {
+      "name": "Trilogia di Sunset Boulevard (Casi 1–3)",
+      "description": "Un percorso introduttivo di 3 casi per sporcarsi il distintivo nei primi omicidi tra motel e studi cinematografici."
+    },
+    "city_of_angels_master_chisel": {
+      "name": "Ispettore Capo della Omicidi (9 Casi & Espansioni)",
+      "description": "Un fascicolo d'indagine titanico che unisce tutti i casi base e i misteri delle espansioni alla massima difficoltà."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Caso 1",
+      "title": "La Grande Stretta",
+      "phase": "Atto I - Pattuglia da Reclute",
+      "description": "Interrogare sospetti in motel equivoci di Hollywood, corrompere informatori e risolvere il primo omicidio eccellente."
+    },
+    {
+      "badgeText": "Caso 3",
+      "title": "Reputazione Letale",
+      "phase": "Atto II - Corruzione negli Studios",
+      "description": "Scrostare il luccichio dei magnati del cinema e delle attricette per svelare ricatti e legami con la mala."
+    },
+    {
+      "badgeText": "Caso 5",
+      "title": "Sangue sul Viale",
+      "phase": "Atto III - Vizi Notturni",
+      "description": "Affrontare poliziotti venduti e allibratori clandestini nei locali jazz fumosi e nelle bische della città."
+    },
+    {
+      "badgeText": "Caso 7",
+      "title": "Un Proiettile per il Procuratore",
+      "phase": "Atto IV - Cospirazioni al Municipio",
+      "description": "Sbrogliare l'alta corruzione politica dove magistrati e boss mafiosi condividono conti correnti segreti."
+    },
+    {
+      "badgeText": "Caso 9",
+      "title": "Il Registro Finale della Città degli Angeli",
+      "phase": "Atto V - L'Elogio del Capo della Polizia",
+      "description": "Consegnare i mandati d'arresto definitivi al Capo del Dipartimento ed entrare nella leggenda del LAPD."
+    }
+  ]
+}

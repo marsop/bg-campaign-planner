@@ -1,0 +1,61 @@
+{
+  "title": "Detective: City of Angels",
+  "subtitle": "1940er-Noir-Krimi & LAPD-Mordkommissions-Kampagne",
+  "tagline": "Tauche ein in die verrauchten, korrupten Straßen von Los Angeles der 1940er und löse 9 packende Mordfälle.",
+  "loreSummary": "Willkommen im Los Angeles der späten 1940er – einer schillernden Metropole zwischen Hollywood-Glanz, finsteren Gassenmorden und gnadenloser Korruption. Als Mordermittler des LAPD verhört ihr gerissene Verdächtige, sichert Spuren und stellt euch 'dem Meißel', um die schwierigsten Fälle abzuschließen.",
+  "badgeCategory": "1940er-Noir-Detektivkampagne",
+  "roadmapTitle": "LAPD-Mordakten",
+  "roadmapBadge": "Gelöste Fälle",
+  "keyFeatures": [
+    "Bahnbrechendes 'ARC-System' für dynamische, interaktive Zeugen- und Verdächtigenverhöre",
+    "Kooperativ, solo (Spürnasen-Modus) oder kompetitiv mit einem Gegenspieler als 'Der Meißel' spielbar",
+    "9 meisterhaft ausgearbeitete Fälle von Krimiautor Evan Derrick mit grandioser Noir-Illustration",
+    "Echte historische Atmosphäre: Tatorte untersuchen, Informanten schmieren und Geständnisse entlocken"
+  ],
+  "scopes": {
+    "city_of_angels_complete_dossier": {
+      "name": "Die vollständige LAPD-Fallakte (Alle 9 Fälle)",
+      "description": "Die komplette Ermittlungssaga über alle 9 tiefgründigen Mordfälle durch die dunkelsten Winkel von Los Angeles."
+    },
+    "city_of_angels_rookie_investigator": {
+      "name": "Sunset-Boulevard-Start-Trilogie (Fälle 1–3)",
+      "description": "Ein kompakter 3-Fälle-Einstieg in die ersten brisanten Hollywood- und Motel-Morde der Stadt."
+    },
+    "city_of_angels_master_chisel": {
+      "name": "Chefermittler der Mordkommission (9 Fälle & Erweiterungen)",
+      "description": "Ein umfassendes Dossier aller 9 Grundfälle plus Erweiterungsfälle bei maximaler gegnerischer Härte."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Fall 1",
+      "title": "Die Daumenschrauben",
+      "phase": "Akt I - Die Anfänger-Streife",
+      "description": "Verdächtige in zwielichtigen Motels verhören, Spitzel schmieren und den ersten prominenten Mordfall lösen."
+    },
+    {
+      "badgeText": "Fall 3",
+      "title": "Tödlicher Ruf",
+      "phase": "Akt II - Korruption in den Filmstudios",
+      "description": "Die glitzernde Fassade der Filmproduzenten und Starlets durchdringen, um Erpressung und Mafiaverbindungen aufzudecken."
+    },
+    {
+      "badgeText": "Fall 5",
+      "title": "Blut auf dem Boulevard",
+      "phase": "Akt III - Mitternächtliche Laster",
+      "description": "Konfrontation korrupter Polizisten und Syndikats-Buchmacher in verrauchten Jazzclubs und Flüsterkneipen."
+    },
+    {
+      "badgeText": "Fall 7",
+      "title": "Eine Kugel für den Staatsanwalt",
+      "phase": "Akt IV - Verschwörungen im Rathaus",
+      "description": "Aufdeckung hochrangiger städtischer Korruption, in der Richter und Syndikatsbosse unter einer Decke stecken."
+    },
+    {
+      "badgeText": "Fall 9",
+      "title": "Die Abrechnung der Stadt der Engel",
+      "phase": "Akt V - Das Lob des Polizeichefs",
+      "description": "Überreichung der finalen Haftbefehle an den Polizeichef und Verewigung eures Rufs in den Annalen des LAPD."
+    }
+  ]
+}

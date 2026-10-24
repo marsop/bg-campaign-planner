@@ -1,0 +1,61 @@
+{
+  "title": "Near and Far",
+  "subtitle": "Storytelling Adventure & Atlas Campaign",
+  "tagline": "Recruit companions, pack your gear, and search for the mythical Last Ruin across an illustrated atlas.",
+  "loreSummary": "Four wanderers search for the Last Ruin, a city that holds an artifact capable of granting the deepest desires of the heart. Journey across an atlas of illustrated maps, read encounters from a massive storybook, build camps, and manage your pack birds and adventurers.",
+  "badgeCategory": "Storytelling Adventure Campaign",
+  "roadmapTitle": "Atlas Journey to the Last Ruin",
+  "roadmapBadge": "Atlas Maps",
+  "keyFeatures": [
+    "Sequel to Above and Below, set in Ryan Laukat's enchanting fantasy world of Arzium",
+    "Atlas of 11 full-color illustrated map boards featuring unique terrain and branching story paragraphs",
+    "Character mode with dedicated quest cards exploring each adventurer's personal story and motivation",
+    "Combines worker placement, resource management, and rich choose-your-own-path storytelling"
+  ],
+  "scopes": {
+    "near_and_far_story_campaign": {
+      "name": "The Search for the Last Ruin (10 Atlas Sessions)",
+      "description": "The definitive campaign arc traveling across 10 sequential atlas maps to unlock the final secrets of the Last Ruin."
+    },
+    "near_and_far_character_quest": {
+      "name": "Personal Character Quest Arc (4 Sessions)",
+      "description": "A focused 4-session journey following personal character quests and specific narrative milestones."
+    },
+    "near_and_far_arcade_mode": {
+      "name": "Full Atlas Completionist (All 11 Maps & Mines)",
+      "description": "An exhaustive expedition playing through every single map in the atlas plus the subterranean mine challenges."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Map 1",
+      "title": "Leaving Hope's End",
+      "phase": "Chapter 1 - Into the Wilderness",
+      "description": "Setting camp and recruiting pack birds and adventurers for the trek into uncharted lands."
+    },
+    {
+      "badgeText": "Map 3",
+      "title": "The Sunken Sands",
+      "phase": "Chapter 2 - Deserts & Secrets",
+      "description": "Surviving brutal sandstorms and discovering buried obsidian shrines in the deep dunes."
+    },
+    {
+      "badgeText": "Map 6",
+      "title": "The Highland Crossing",
+      "phase": "Chapter 3 - Perilous Peaks",
+      "description": "Scaling treacherous mountain passes and encountering enigmatic mountain tribes and ancient ruins."
+    },
+    {
+      "badgeText": "Map 8",
+      "title": "Whispering Swamp",
+      "phase": "Chapter 4 - The Murky Depths",
+      "description": "Navigating dense bayous and uncovering the key artifacts pointing toward the legendary sanctuary."
+    },
+    {
+      "badgeText": "Map 10",
+      "title": "The Last Ruin Found",
+      "phase": "Chapter 5 - The Heart's Desire",
+      "description": "Reaching the mythical Last Ruin, unlocking the final story paragraph, and fulfilling your traveler's ultimate quest."
+    }
+  ]
+}

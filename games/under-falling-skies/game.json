@@ -1,0 +1,104 @@
+{
+  "id": "under-falling-skies",
+  "title": "Under Falling Skies",
+  "releaseYear": 2020,
+  "designers": "Tomáš Uhlíř",
+  "playersMin": 1,
+  "playersMax": 1,
+  "bggRating": 7.7,
+  "bggWeight": 2.37,
+  "bggUrl": "https://boardgamegeek.com/boardgame/306735/under-falling-skies",
+  "baseScenarioMinutes": 30,
+  "setupTeardownMinutes": 10,
+  "unitType": "missions",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#38bdf8",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#f43f5e",
+    "backgroundGradient": "radial-gradient(ellipse at top, #0f172a 0%, #020617 60%, #000000 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.94)",
+    "borderColor": "rgba(56, 189, 248, 0.35)",
+    "glowColor": "rgba(56, 189, 248, 0.25)",
+    "headerFont": "'Orbitron', 'Chakra Petch', system-ui, sans-serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🛸",
+    "emblem": "🛸☄️",
+    "themeClass": "theme-under-falling-skies",
+    "activeThemeClass": "theme-under-falling-skies-active",
+    "roadmapClass": "roadmap-under-falling-skies",
+    "heroClass": "hero-under-falling-skies"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #306735)",
+    "Czech Games Edition (CGE) Official Rulebook & Campaign Comic",
+    "Golden Geek Best Solo Board Game Winner Archive"
+  ],
+  "scopes": [
+    {
+      "id": "under_falling_skies_full_campaign",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 30.0,
+      "isRecommended": true
+    },
+    {
+      "id": "under_falling_skies_first_chapter",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    },
+    {
+      "id": "under_falling_skies_hardcore_resistance",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 40.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🚨",
+      "badgeText": "Chapter 1",
+      "title": "The Mothership Arrives",
+      "phase": "Chapter 1 - Skyfall Over Roswell",
+      "description": "Deploying underground excavators and initial anti-air lasers as the alien mothership descends over the city."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🛰️",
+      "badgeText": "Chapter 2",
+      "title": "Defending Washington",
+      "phase": "Chapter 2 - Capitol Siege",
+      "description": "Unlocking specialized character abilities and defensive robot companions to stave off intense swarm incursions."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "📡",
+      "badgeText": "Chapter 3",
+      "title": "Subterranean Research Breakout",
+      "phase": "Chapter 3 - The Global Resistance",
+      "description": "Pushing scientific research tracks to decrypt alien tech and reverse-engineer heavy energy cannons."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "⚡",
+      "badgeText": "Chapter 4",
+      "title": "Assault on the Core",
+      "phase": "Chapter 4 - The Final Counterstrike",
+      "description": "Coordinating global city networks to launch an all-out offensive directly into the mothership's thermal reactor core."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "🌍",
+      "badgeText": "Victory",
+      "title": "Earth Reclaimed",
+      "phase": "Epilogue - Skies Cleared",
+      "description": "Detonating the mothership and freeing humanity's cities from extraterrestrial subjugation."
+    }
+  ]
+}

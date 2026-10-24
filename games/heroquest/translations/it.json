@@ -1,0 +1,61 @@
+{
+  "title": "HeroQuest",
+  "subtitle": "Classica Campagna Dungeon Crawl Fantasy e d'Avventura",
+  "tagline": "Rispondi alla chiamata di Mentor, varca la soglia delle tenebre e affronta le schiere di Zargon in 14 perigliose imprese.",
+  "loreSummary": "Le forze dell'Oscurità minacciano l'Impero. Guidati dal saggio Mentor, quattro valorosi eroi – il Barbaro, il Nano, l'Elfo e il Mago – scendono nelle segrete sotterranee per sconfiggere orchi, mummie e guerrieri del caos, accumulando monete d'oro per comprare equipaggiamento leggendario.",
+  "badgeCategory": "Classico Dungeon Crawl Fantasy",
+  "roadmapTitle": "Il Libro delle Imprese",
+  "roadmapBadge": "Imprese Eroiche",
+  "keyFeatures": [
+    "Il leggendario gioco da tavolo capostipite del dungeon crawl fantasy ideato da Stephen Baker",
+    "Campagna principale di 14 imprese progressive dall'Addestramento alla disfatta del Signore degli Stregoni",
+    "Giocabile 1 contro tutti con un giocatore nelle vesti di Zargon o cooperativo con la companion app ufficiale",
+    "Elementi scenici 3D, mobilio, porte, scrigni e iconiche miniature in plastica"
+  ],
+  "scopes": {
+    "heroquest_core_fourteen_quests": {
+      "name": "L'Adunata degli Eroi (Tutte le 14 Imprese)",
+      "description": "L'arco narrativo completo delle 14 imprese originali del libro delle avventure, da La Prova allo scontro a Barak Tor."
+    },
+    "heroquest_introductory_trial": {
+      "name": "La Prova dei Campioni (Imprese 1–4)",
+      "description": "Un percorso introduttivo di 4 imprese per apprendere combattimento, movimento e recupero dell'oro del Principe Magnus."
+    },
+    "heroquest_master_mentor": {
+      "name": "Campione del Reame (14 Imprese & Scenari Mitici)",
+      "description": "Una titanica maratona di dungeon crawl con tutte le imprese base e le sfide mitiche alla massima difficoltà."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Impresa 1",
+      "title": "La Prova",
+      "phase": "Atto I - La Soglia del Dungeon",
+      "description": "Varcare il pesante portale sotterraneo per affrontare orchi e goblin e sopravvivere al primo letale labirinto."
+    },
+    {
+      "badgeText": "Impresa 4",
+      "title": "L'Oro del Principe Magnus",
+      "phase": "Atto II - Tesori Reali",
+      "description": "Infiltrarsi nelle catacombe sotterranee per recuperare i forzieri reali sottratti dai guerrieri del Chaos."
+    },
+    {
+      "badgeText": "Impresa 8",
+      "title": "Il Mago del Fuoco",
+      "phase": "Atto III - Magia Incandescente",
+      "description": "Sfidare il piromante rinnegato Balur nella sua fortezza di lava prima che scateni il fuoco eterno."
+    },
+    {
+      "badgeText": "Impresa 11",
+      "title": "Il Bastione del Chaos",
+      "phase": "Atto IV - L'Ombra del Terrore",
+      "description": "Espugnare il santuario dei maghi oscuri per recuperare la leggendaria Lama dello Spirito."
+    },
+    {
+      "badgeText": "Impresa 14",
+      "title": "Ritorno a Barak Tor",
+      "phase": "Atto V - Il Destino del Signore degli Stregoni",
+      "description": "Impugnare la Lama dello Spirito contro il non-morto Signore degli Stregoni per salvare Mentor e l'Impero."
+    }
+  ]
+}

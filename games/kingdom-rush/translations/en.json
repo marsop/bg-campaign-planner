@@ -1,0 +1,61 @@
+{
+  "title": "Kingdom Rush: Rift in Time",
+  "subtitle": "Cooperative Tower Defense & Polyomino Puzzle Campaign",
+  "tagline": "Build towers, unleash heroic powers, and seal the mysterious Time Rift across 10 progressive scenarios.",
+  "loreSummary": "The kingdom of Linirea is under assault by the enigmatic Time Mage and his ravenous hordes. Work together to pass polyomino attack tiles to upgrade defense towers, cast devastating spells, and coordinate hero champions to hold the paths before the enemy breaks through to the realm.",
+  "badgeCategory": "Cooperative Tower Defense Campaign",
+  "roadmapTitle": "Campaign Defense of Linirea",
+  "roadmapBadge": "Story Scenarios",
+  "keyFeatures": [
+    "Tabletop adaptation of the mega-hit mobile tower defense video game by Ironhide Studios",
+    "Clever cooperative polyomino puzzle combat: cover monster spawn trays with polyomino attack tiles",
+    "Dynamic tower upgrading system: pass tower cards to teammates between rounds to level them up",
+    "10 progressive campaign scenarios featuring unique boss mechanics, portals, and iron challenges"
+  ],
+  "scopes": {
+    "kingdom_rush_full_campaign": {
+      "name": "The Time Rift Campaign (All 10 Scenarios)",
+      "description": "The complete 10-scenario campaign arc defending Linirea through evolving boss encounters and portal puzzles."
+    },
+    "kingdom_rush_first_defenses": {
+      "name": "The Outpost Defense (Scenarios 1–3)",
+      "description": "An introductory 3-scenario battle mastering tower placement, basic hero maneuvers, and Juggernaut defense."
+    },
+    "kingdom_rush_iron_challenge": {
+      "name": "Master Defender (10 Scenarios & Iron Challenges)",
+      "description": "An intense campaign run tackling all 10 core scenarios alongside heroic and iron challenge constraints."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Scenario 1",
+      "title": "The Rift Opens",
+      "phase": "Act I - The Border Outpost",
+      "description": "Building initial archer and militia towers while placing polyomino damage tiles on charging goblin hordes."
+    },
+    {
+      "badgeText": "Scenario 3",
+      "title": "Wrath of the Juggernaut",
+      "phase": "Act II - Armored Behemoths",
+      "description": "Upgrading artillery bombard towers and channeling hero special attacks to bring down the iron Juggernaut."
+    },
+    {
+      "badgeText": "Scenario 6",
+      "title": "The Corrupted Forest",
+      "phase": "Act III - Shifting Portals",
+      "description": "Navigating wandering time rifts that warp enemy horde trays across lane intersections."
+    },
+    {
+      "badgeText": "Scenario 8",
+      "title": "The Vez'nan Vanguard",
+      "phase": "Act IV - March of the Arch-Mage",
+      "description": "Holding the mountain pass against dark sorcerers, unsealing mystical spell cards, and shielding civilian hearts."
+    },
+    {
+      "badgeText": "Scenario 10",
+      "title": "The Time Mage Shattered",
+      "phase": "Act V - The King's Triumph",
+      "description": "Defeating the final Chronomancer boss, collapsing the Time Rift, and saving Linirea from oblivion."
+    }
+  ]
+}

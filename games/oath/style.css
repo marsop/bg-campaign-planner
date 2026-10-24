@@ -1,0 +1,29 @@
+/* Oath: Chronicles of Empire and Exile Scoped Styling */
+.theme-oath {
+  --oath-gold: #eab308;
+  --oath-rust: #7c2d12;
+  --oath-emerald: #059669;
+  --oath-dark: #1c1917;
+}
+
+.theme-oath .game-card-selected,
+.theme-oath-active {
+  border-color: var(--oath-gold) !important;
+  box-shadow: 0 0 20px rgba(234, 179, 8, 0.35) !important;
+}
+
+.roadmap-oath .roadmap-milestone-card {
+  border-left: 4px solid var(--oath-gold);
+  background: linear-gradient(135deg, rgba(69, 26, 3, 0.5) 0%, rgba(28, 25, 23, 0.8) 100%);
+}
+
+.roadmap-oath .milestone-badge {
+  background-color: var(--oath-gold);
+  color: #451a03;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+}
+
+.hero-oath {
+  border-bottom: 2px solid rgba(234, 179, 8, 0.4);
+}

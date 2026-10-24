@@ -1,0 +1,61 @@
+{
+  "title": "El Legado de Yu",
+  "subtitle": "Campaña en Solitario de Legado No Destructivo",
+  "tagline": "Domina las devastadoras crecidas del Río Amarillo y defiende los canales contra incursiones bárbaras.",
+  "loreSummary": "Ambientado en la China ancestral bajo el mandato del emperador Shun, asumes el rol de Yu el Grande. Tu misión imperial consiste en canalizar las catastróficas inundaciones del Río Amarillo construyendo diques y canales mientras defiendes las obras contra invasores bárbaros.",
+  "badgeCategory": "Campaña en Solitario de Legado",
+  "roadmapTitle": "Crónicas del Río Amarillo",
+  "roadmapBadge": "Campañas de Crecida",
+  "keyFeatures": [
+    "Diseño exclusivo en solitario de colocación de trabajadores y construcción de mazos por Shem Phillips",
+    "Campaña de legado no destructiva: completamente reiniciable sin pegatinas ni destrucción de componentes",
+    "Mazo narrativo autocompensado que introduce nuevas cartas y ajusta la dificultad tanto si ganas como si pierdes",
+    "Una carrera para lograr 7 victorias antes de sufrir 7 derrotas en una intensa saga histórica"
+  ],
+  "scopes": {
+    "legacy_of_yu_flood_campaign": {
+      "name": "El Dominio del Río Amarillo (7 a 10 Partidas)",
+      "description": "El arco completo de campaña en solitario disputando partidas consecutivas hasta alcanzar 7 victorias o 7 derrotas."
+    },
+    "legacy_of_yu_first_canals": {
+      "name": "Primeros Canales y Defensa (3 Partidas)",
+      "description": "Un recorrido introductorio de 3 partidas dominando el dragado de canales, el reclutamiento y la defensa básica."
+    },
+    "legacy_of_yu_master_engineer": {
+      "name": "Legendario Yu el Grande (Todas las Parábolas & Dificultad Máxima)",
+      "description": "Una prueba de maestría para activar todas las historias del mazo y vencer a las hordas bárbaras más letales."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Partida 1",
+      "title": "La Crecida de las Aguas",
+      "phase": "Era I - Desbordamiento de los Márgenes",
+      "description": "Excavar los primeros canales de drenaje, talar madera y repeler a los incursores bárbaros del río."
+    },
+    {
+      "badgeText": "Partida 3",
+      "title": "Aldeas de la Cuenca",
+      "phase": "Era II - Refugiando a la Población",
+      "description": "Construir graneros y atalayas para acoger a los refugiados e incorporar artesanos a las obras."
+    },
+    {
+      "badgeText": "Partida 5",
+      "title": "Cortando las Montañas",
+      "phase": "Era III - La Gran Garganta",
+      "description": "Retirar rocas gigantes y abrir desfiladeros en la Montaña de la Puerta del Dragón para desviar el torrente."
+    },
+    {
+      "badgeText": "Partida 7",
+      "title": "El Asedio del Señor de la Guerra",
+      "phase": "Acto IV - Defensa de las Compuertas",
+      "description": "Sobornar y batallar contra partidas de guerra bárbaras que amenazan con sabotear las esclusas del canal."
+    },
+    {
+      "badgeText": "Partida 8",
+      "title": "Las Aguas Pacificadas",
+      "phase": "Era V - Yu el Grande Entronizado",
+      "description": "Guiar el Río Amarillo hacia el Mar Oriental, conseguir siete victorias imperiales y fundar la Dinastía Xia."
+    }
+  ]
+}

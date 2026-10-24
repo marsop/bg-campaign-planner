@@ -1,0 +1,61 @@
+{
+  "title": "Warhammer Quest: Blackstone Fortress",
+  "subtitle": "Campagne d'Exploration de Donjon Sci-Fi Grimdark",
+  "tagline": "Guidez une bande hétéroclite d'aventuriers dans une station extraterrestre hostile et mouvante dans l'univers de Warhammer 40,000.",
+  "loreSummary": "Dans les confins obscurs de la galaxie dérive une Forteresse Noire : une mégastructure xenos colossale aux origines mystérieuses. Depuis la station sans foi ni loi de Precipice, menez un groupe d'explorateurs intrépides dans son dédale d'obsidienne pour piller des trésors d'archéotechnologie et ouvrir la Crypte Cachée.",
+  "badgeCategory": "Dungeon Crawl Sci-Fi Grimdark",
+  "roadmapTitle": "Expéditions vers la Crypte Cachée",
+  "roadmapBadge": "Bastions & Crypte",
+  "keyFeatures": [
+    "Aventure coopérative ou solo dans les ténèbres du 41e millénaire de Warhammer 40,000",
+    "Paquet d'exploration dynamique avec salles de combat tactiques, sentinelles xenos et dangers imprévisibles",
+    "Comptoir de Precipice : troquez de l'archéotechnologie, soignez vos blessures et achetez le soutien de vaisseaux",
+    "4 assauts de bastions lourdement fortifiés menant aux mystères terrifiants de la Crypte Centrale"
+  ],
+  "scopes": {
+    "blackstone_hidden_vault": {
+      "name": "La Crypte Cachée (Les 4 Bastions & la Crypte)",
+      "description": "La quête épique intégrale en 18 expéditions pour dénicher tous les indices, anéantir 4 bastions du Chaos et vaincre la Crypte."
+    },
+    "blackstone_first_stronghold": {
+      "name": "Première Incursion de Bastion (Bastion 1)",
+      "description": "Un arc d'introduction pour recruter vos explorateurs et prendre d'assaut le premier bastion hérétique."
+    },
+    "blackstone_master_explorer": {
+      "name": "Maître Explorateur de Precipice (Crypte & Quêtes d'Escalade)",
+      "description": "Un marathon de campagne complet incluant quêtes secondaires, renforts ennemis mortels et les profondeurs ultimes de la forteresse."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Expédition 1",
+      "title": "Arrivée à Precipice",
+      "phase": "Acte I - Au Bord du Néant",
+      "description": "Former une suite de mercenaires dans la station franche de Precipice et s'engager dans les couloirs mouvants de la Forteresse Noire."
+    },
+    {
+      "badgeText": "Bastion 1",
+      "title": "Assaut du Bastion du Chaos",
+      "phase": "Acte II - L'Incursion Impie",
+      "description": "Donner l'assaut au premier bastion fortifié défendu par des Gardes Traîtres et de féroces Hommes-Bêtes."
+    },
+    {
+      "badgeText": "Bastion 2",
+      "title": "L'Essaim de Drones Fuseaux",
+      "phase": "Acte III - Défenses Automatisées",
+      "description": "Désactiver les drones de sécurité de la station et récupérer des fragments d'archéotechnologie dans des chambres xenos."
+    },
+    {
+      "badgeText": "Bastion 4",
+      "title": "La Porte d'Obsidienne",
+      "phase": "Acte IV - L'Ombre de Mallex",
+      "description": "Affronter le Seigneur du Chaos Obsidius Mallex et arracher la clé de déchiffrement finale pour ouvrir le cœur de la station."
+    },
+    {
+      "badgeText": "Crypte Cachée",
+      "title": "Les Secrets des Précurseurs",
+      "phase": "Acte V - La Crypte Déverrouillée",
+      "description": "Braver les horreurs altérant la réalité au cœur de la Crypte pour s'emparer d'un pouvoir archéotechnologique sans égal avant l'effondrement."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Under Falling Skies",
+  "subtitle": "Solo Alien Invasion Dice-Placement Campaign",
+  "tagline": "Lead Earth's subterranean resistance against a descending alien mothership in a replayable comic campaign.",
+  "loreSummary": "The extraterrestrial mothership looms in the atmosphere, dropping hostile interceptors toward our besieged cities. As the commander of a subterranean bunker, place dice to excavate rooms, power anti-air lasers, advance vital research, and save the planet.",
+  "badgeCategory": "Solo Sci-Fi Defense Campaign",
+  "roadmapTitle": "Campaign Comic Arc",
+  "roadmapBadge": "Story Chapters",
+  "keyFeatures": [
+    "Award-winning solo dice placement game with ingenious multi-use mechanics",
+    "Branching 4-chapter narrative campaign book featuring comic cutscenes and unlockable scenarios",
+    "Unlockable city sheets, character leaders, and innovative scenario modifiers",
+    "Winner of the 2020 Golden Geek Award for Best Solitaire Board Game"
+  ],
+  "scopes": {
+    "under_falling_skies_full_campaign": {
+      "name": "The 4-Chapter Comic Campaign (16 Missions)",
+      "description": "The complete solo campaign arc across 4 sequential chapters with branching comic scenarios and unlockable base modules."
+    },
+    "under_falling_skies_first_chapter": {
+      "name": "Chapter 1: The Descent Begins (4 Missions)",
+      "description": "An introductory 4-mission story arc defending the first targeted cities and establishing basic bunker excavation lines."
+    },
+    "under_falling_skies_hardcore_resistance": {
+      "name": "Global Veteran Resistance (All Cities & Hardcore)",
+      "description": "A grueling extended challenge defending every worldwide metropolis at maximum mothership threat levels."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Chapter 1",
+      "title": "The Mothership Arrives",
+      "phase": "Chapter 1 - Skyfall Over Roswell",
+      "description": "Deploying underground excavators and initial anti-air lasers as the alien mothership descends over the city."
+    },
+    {
+      "badgeText": "Chapter 2",
+      "title": "Defending Washington",
+      "phase": "Chapter 2 - Capitol Siege",
+      "description": "Unlocking specialized character abilities and defensive robot companions to stave off intense swarm incursions."
+    },
+    {
+      "badgeText": "Chapter 3",
+      "title": "Subterranean Research Breakout",
+      "phase": "Chapter 3 - The Global Resistance",
+      "description": "Pushing scientific research tracks to decrypt alien tech and reverse-engineer heavy energy cannons."
+    },
+    {
+      "badgeText": "Chapter 4",
+      "title": "Assault on the Core",
+      "phase": "Chapter 4 - The Final Counterstrike",
+      "description": "Coordinating global city networks to launch an all-out offensive directly into the mothership's thermal reactor core."
+    },
+    {
+      "badgeText": "Victory",
+      "title": "Earth Reclaimed",
+      "phase": "Epilogue - Skies Cleared",
+      "description": "Detonating the mothership and freeing humanity's cities from extraterrestrial subjugation."
+    }
+  ]
+}

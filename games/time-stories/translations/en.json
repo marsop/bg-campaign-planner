@@ -1,0 +1,49 @@
+{
+  "title": "T.I.M.E Stories",
+  "subtitle": "Deck-Exploration Time Travel Agency Campaign",
+  "tagline": "Project your consciousness into historical receptacles and fix dangerous quantum paradoxes before time runs out.",
+  "loreSummary": "The T.I.M.E Agency protects humanity by preventing temporal faults and paradoxes that threaten the space-time continuum. As tactical temporal agents, project your minds into historical host bodies—receptacles—to investigate mysteries, solve puzzles, and preserve the integrity of history across multiple iterative runs.",
+  "badgeCategory": "Deck-Exploration Time Travel",
+  "roadmapTitle": "Temporal Loop Manifest",
+  "roadmapBadge": "Agency Runs",
+  "keyFeatures": [
+    "Pioneering deck-exploring system where panoramic panorama cards depict immersive rooms and locations",
+    "Time Unit (TU) expenditure clock: each action spends precious time, forcing tactical loop optimization",
+    "Branching narrative mystery with cryptic clues, locked passages, tests, and character-specific interactions",
+    "Modular system: the base game includes the acclaimed 1921 Paris 'Asylum' scenario"
+  ],
+  "scopes": {
+    "time_stories_asylum_mission": {
+      "name": "Mission 1: Asylum Temporal Resolution (3 Runs)",
+      "description": "The definitive base scenario experience resolving the 1921 Parisian asylum anomaly across 3 iterative loop runs."
+    },
+    "time_stories_first_loop": {
+      "name": "First Temporal Transfer & Recon (1 Run)",
+      "description": "An introductory reconnaissance loop learning the asylum layout and identifying key staff suspects."
+    },
+    "time_stories_agency_quadrilogy": {
+      "name": "The Agency White Cycle Quadrilogy (12 Runs)",
+      "description": "An extensive multi-mission campaign through the core White Cycle scenarios (Asylum, The Marcy Case, A Prophecy of Dragons)."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Run 1",
+      "title": "Tachyon Insertion: 1921 Paris",
+      "phase": "Loop I - First Receptacle Contact",
+      "description": "Transferring agency consciousness into patient receptacles inside the Roaring Twenties French psychiatric asylum."
+    },
+    {
+      "badgeText": "Run 2",
+      "title": "Unraveling the Temporal Tear",
+      "phase": "Loop II - The Hidden Crypts",
+      "description": "Leveraging memories from previous temporal loops to bypass lethal security traps and unlock the basement crypt."
+    },
+    {
+      "badgeText": "Run 3",
+      "title": "Closing the Quantum Paradox",
+      "phase": "Loop III - The Mission Cleared",
+      "description": "Confronting the temporal anomaly source before Time Units expire and reporting back to T.I.M.E Agency debriefing."
+    }
+  ]
+}

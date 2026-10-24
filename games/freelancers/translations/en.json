@@ -1,0 +1,55 @@
+{
+  "subtitle": "A Hilarious Post-Apocalyptic Fantasy RPG Experience",
+  "tagline": "Grab your dice, assemble a ragtag crew, and brave the hilarious perils of a ruined fantasy world.",
+  "loreSummary": "Freelancers: A Crossroads Game merges the vibrant storytelling of tabletop roleplaying games with the fast-paced accessibility of a modern board game. Set in a colorful post-apocalyptic fantasy realm where civilization crumbled centuries ago, players embody ambitious freelance mercenaries seeking loot and prestige. Guided by a fully voice-acted digital companion app, you will navigate branching narrative encounters, frantic time-pressured decisions, and hilarious party banter.",
+  "badgeCategory": "Crossroads RPG",
+  "roadmapTitle": "The Freelancer Hustle",
+  "roadmapBadge": "Contract Arc",
+  "keyFeatures": [
+    "Fully voice-acted companion web app delivering professional audio narration and dynamic encounters",
+    "Time-pressured worker placement mechanics requiring quick thinking under ticking timers",
+    "Crossroads storytelling system with comedic dilemmas, moral surprises, and unpredictable twists",
+    "Zero prep time with intuitive pick-up-and-play character creation and legacy sheets"
+  ],
+  "scopes": {
+    "intro-contract": {
+      "name": "First Contract (Tutorial Job)",
+      "description": "Introductory freelance contract introducing app audio narration, time-pressured worker placement, and gig scoring."
+    },
+    "core-campaign": {
+      "name": "The Big Score Campaign",
+      "description": "Standard narrative campaign featuring five distinct high-stakes freelance jobs through post-apocalyptic fantasy ruins."
+    },
+    "all-contracts": {
+      "name": "All Contracts & Expansion Jobs",
+      "description": "Complete run playing all included story scenarios with varied character builds and legacy character sheets."
+    }
+  },
+  "milestones": {
+    "first-payday": {
+      "title": "The First Payday",
+      "phase": "Gig I",
+      "description": "Complete your crew's first contract, level up quirky skills, and record titles on your character sheet."
+    },
+    "wasteland-notoriety": {
+      "title": "Wasteland Notoriety",
+      "phase": "Gig II",
+      "description": "Survive bizarre mutant encounters and build the party's infamous reputation among rival guilds."
+    },
+    "crossroads-reckoning": {
+      "title": "Crossroads Dilemma",
+      "phase": "Gig III",
+      "description": "Face difficult moral decisions triggered by Crossroads cards that pit personal greed against party survival."
+    },
+    "the-master-heist": {
+      "title": "The Grand Score",
+      "phase": "Gig IV",
+      "description": "Infiltrate a perilous corporate ruin to secure the ultimate treasure trove before the timer expires."
+    },
+    "hall-of-legends": {
+      "title": "Hall of Legends",
+      "phase": "Retirement",
+      "description": "Calculate lifetime plunder, cement your freelancer titles in folklore, and retire in outrageous luxury."
+    }
+  }
+}

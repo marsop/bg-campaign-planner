@@ -1,0 +1,55 @@
+{
+  "subtitle": "Un jeu de rôle narratif de héros et de mystères en Terrinoth",
+  "tagline": "Façonnez votre héros, choisissez votre voie et levez le voile sur les sombres mystères d'une baronnie divisée.",
+  "loreSummary": "Legacy of Dragonholt transporte les joueurs dans l'univers médiéval-fantastique de Terrinoth. En créant des personnages uniques dotés de compétences et de traits de caractère spécifiques, les aventuriers prennent part à une vaste fresque narrative coopérative sans maître de jeu. À travers des livres d'aventure à paragraphes richement illustrés, vous explorerez le village de Dragonholt, interrogerez les habitants, arpenterez de sombres donjons et forgerez le destin de la contrée grâce à vos choix moraux.",
+  "badgeCategory": "Jeu de Rôle Narratif",
+  "roadmapTitle": "Chroniques de Dragonholt",
+  "roadmapBadge": "Campagne Narrative",
+  "keyFeatures": [
+    "Aucun maître de jeu nécessaire ; système narratif coopératif fluide animé par le système Oracle",
+    "Création de personnages approfondie incluant lignages, classes, aptitudes et récits d'origine",
+    "Arborescences de dialogues et choix cornéliens aux répercussions durables sur la baronnie",
+    "Richesse narrative et univers d'heroic fantasy immersif dans les terres de Terrinoth"
+  ],
+  "scopes": {
+    "intro-quest": {
+      "name": "Vers Dragonholt (Quête d'initiation)",
+      "description": "Quête d'initiation servant de didacticiel et d'introduction aux personnages sur la route de Dragonholt."
+    },
+    "core-campaign": {
+      "name": "Le Mystère Principal de Dragonholt",
+      "description": "Enquête narrative intégrale sur la mort mystérieuse de Celyse et les troubles secouant la baronnie."
+    },
+    "completionist": {
+      "name": "Exploration Totale & Quêtes Secondaires",
+      "description": "Aventure exhaustive découvrant tous les lieux, saynètes d'habitants et intrigues secondaires."
+    }
+  },
+  "milestones": {
+    "arrival-dragonholt": {
+      "title": "Vers Dragonholt",
+      "phase": "Prologue",
+      "description": "Les héros repoussent les brigands sur la grand-route et atteignent sains et saufs le bourg de Dragonholt."
+    },
+    "village-investigation": {
+      "title": "Enquêtes à l'Auberge",
+      "phase": "Acte I",
+      "description": "Explorez le village, rencontrez des figures marquantes et découvrez de troublants indices sur l'héritier défunt."
+    },
+    "wilderness-excursion": {
+      "title": "Les Terres Sauvages",
+      "phase": "Acte II",
+      "description": "Aventurez-vous dans les forêts menaçantes, bravant brigands, apparitions et mystérieux cercles occultes."
+    },
+    "manor-confrontation": {
+      "title": "La Couronne Creuse",
+      "phase": "Acte III",
+      "description": "Pénétrez dans le manoir, démasquez la conspiration et prenez des résolutions cruciales pour le royaume."
+    },
+    "epilogue-destiny": {
+      "title": "Une Baronnie Reconstruite",
+      "phase": "Épilogue",
+      "description": "Accomplissez les quêtes personnelles restantes et lisez l'épilogue historique durable en Terrinoth."
+    }
+  }
+}

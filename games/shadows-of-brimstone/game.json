@@ -1,0 +1,104 @@
+{
+  "id": "shadows-of-brimstone",
+  "title": "Shadows of Brimstone: City of the Ancients",
+  "releaseYear": 2014,
+  "designers": "Jason C. Hill, Scott Purington",
+  "playersMin": 1,
+  "playersMax": 4,
+  "bggRating": 7.6,
+  "bggWeight": 3.32,
+  "bggUrl": "https://boardgamegeek.com/boardgame/146791/shadows-of-brimstone-city-of-the-ancients",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 20,
+  "unitType": "adventures",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#10b981",
+    "secondaryColor": "#78350f",
+    "accentColor": "#9333ea",
+    "backgroundGradient": "radial-gradient(ellipse at top, #2e1065 0%, #1c1917 60%, #0c0a09 100%)",
+    "cardBackground": "rgba(28, 25, 23, 0.94)",
+    "borderColor": "rgba(16, 185, 129, 0.35)",
+    "glowColor": "rgba(16, 185, 129, 0.25)",
+    "headerFont": "'Rye', 'Sancreek', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🤠",
+    "emblem": "🤠💎",
+    "themeClass": "theme-shadows-of-brimstone",
+    "activeThemeClass": "theme-shadows-of-brimstone-active",
+    "roadmapClass": "roadmap-shadows-of-brimstone",
+    "heroClass": "hero-shadows-of-brimstone"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #146791)",
+    "Flying Frog Productions Official Rulebook & Adventure Book",
+    "Brimstone Community Campaign Logs & Town Expansion Guides"
+  ],
+  "scopes": [
+    {
+      "id": "brimstone_ancient_city_saga",
+      "baseScenarioCount": 16,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": true
+    },
+    {
+      "id": "brimstone_greenhorn_mines",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "brimstone_master_gunslinger",
+      "baseScenarioCount": 24,
+      "estimatedFailRatePercent": 30.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "⛏️",
+      "badgeText": "Adventure 1",
+      "title": "Descent into the Abandoned Mine",
+      "phase": "Act I - The Gold Rush Nightmare",
+      "description": "Lighting torches and exploring dark mine shafts infested with mutated Void Spiders and Tentacles."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🐎",
+      "badgeText": "Adventure 4",
+      "title": "Rest & Resupply in Brimstone Town",
+      "phase": "Act II - Frontier Town Interlude",
+      "description": "Visiting the frontier saloon, blacksmith, and church to spend Darkstone, cure madness, and level up gear."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🌀",
+      "badgeText": "Adventure 8",
+      "title": "The Gateway to Targa Plateau",
+      "phase": "Act III - Into the Frozen Otherworld",
+      "description": "Stepping through a cosmic vortex into the freezing, alien cybernetic ruins of an ancient precursor civilization."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🤖",
+      "badgeText": "Adventure 12",
+      "title": "Awakening of the Custodians",
+      "phase": "Act IV - Metal & Madness",
+      "description": "Fighting off mechanical Custodian automatons and towering Goliath monstrosities guarding alien reactors."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 16,
+      "iconEmoji": "💎",
+      "badgeText": "Finale",
+      "title": "The Master Darkstone Cache",
+      "phase": "Act V - Legend of the Old West",
+      "description": "Defeating the void rift horrors and returning to town loaded with puritan Darkstone and legendary hero status."
+    }
+  ]
+}

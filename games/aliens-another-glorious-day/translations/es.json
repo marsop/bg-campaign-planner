@@ -1,0 +1,61 @@
+{
+  "title": "Aliens: Another Glorious Day in the Corps",
+  "subtitle": "Campaña Cooperativa de Miniaturas y Supervivencia Espacial",
+  "tagline": "Carga tu rifle de pulsos, enciende el detector de movimiento y sobrevive a la colmena xenomorfa de LV-426.",
+  "loreSummary": "Toma el mando de Ripley y su pelotón de curtidos Marines Coloniales (Hicks, Hudson, Vasquez y Gorman) en su misión para investigar el silencio en la colonia de Hadley's Hope. Gestiona tu mazo de aguante mientras la munición escasea y los xenomorfos acechan en los conductos de ventilación.",
+  "badgeCategory": "Supervivencia Cooperativa de Ciencia Ficción",
+  "roadmapTitle": "Operaciones en Hadley's Hope",
+  "roadmapBadge": "Misiones de Combate",
+  "keyFeatures": [
+    "Fiel recreación de tablero que traslada la asfixiante tensión de la película Aliens (1986) de James Cameron",
+    "Mecánica del Mazo de Aguante: las cartas sirven de munición, armas, suministros y salud del pelotón",
+    "Fichas de detector de movimiento que revelan abrazacaras al acecho, guerreros y emboscadas",
+    "Campaña cinematográfica progresiva desde el aterrizaje en la colonia hasta el duelo final con la Reina"
+  ],
+  "scopes": {
+    "aliens_hadleys_hope_campaign": {
+      "name": "Campaña de Supervivencia de Hadley's Hope (Misiones 1–4)",
+      "description": "La campaña cinematográfica completa guiando a los marines por la colonia, los subniveles de la colmena y la evacuación."
+    },
+    "aliens_airlock_incursion": {
+      "name": "Reconocimiento de la Zona de Desembarco (Misiones 1–2)",
+      "description": "Una incursión introductoria de 2 misiones instalando torretas centinela y reconociendo el complejo principal."
+    },
+    "aliens_ultimate_badasses": {
+      "name": "Maratón de Auténticos Duros (8 Misiones & Nido de la Reina)",
+      "description": "Un maratón implacable que incluye misiones de rescate, escapes por conductos y el enfrentamiento con la Reina Alien."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Misión 1",
+      "title": "Aterrizaje en Hadley's Hope",
+      "phase": "Acto I - El Pitido del Detector de Movimiento",
+      "description": "Forzar la esclusa exterior de la colonia terraformadora mientras los contactos se aproximan rápidamente."
+    },
+    {
+      "badgeText": "Misión 2",
+      "title": "Planta de Procesamiento Atmosférico",
+      "phase": "Acto II - En el Corazón de la Colmena",
+      "description": "Abrir fuego con lanzallamas y ametralladoras pesadas en los subniveles rezumantes de resina alienígena."
+    },
+    {
+      "badgeText": "Misión 3",
+      "title": "El Rescate de Newt",
+      "phase": "Acto III - Ningún Marine se Queda Atrás",
+      "description": "Descender por los conductos de ventilación y laboratorios médicos para encontrar a la única superviviente, Newt."
+    },
+    {
+      "badgeText": "Misión 4",
+      "title": "Evacuación de los Subniveles",
+      "phase": "Acto IV - Cuenta Atrás para la Fusión Nuclear",
+      "description": "Correr a través de corredores barricados hacia el transporte blindado antes de que el reactor estalle."
+    },
+    {
+      "badgeText": "Final",
+      "title": "¡Aléjate de Ella, Puerca!",
+      "phase": "Acto V - Ajuste de Cuentas con la Reina",
+      "description": "Manejar el exoesqueleto montacargas en la bodega del Sulaco para arrojar a la Reina Xenomorfa al vacío espacial."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "warhammer-quest-blackstone-fortress",
+  "title": "Warhammer Quest: Blackstone Fortress",
+  "releaseYear": 2018,
+  "designers": "Jervis Johnson, Simon Grant",
+  "playersMin": 1,
+  "playersMax": 5,
+  "bggRating": 7.6,
+  "bggWeight": 2.74,
+  "bggUrl": "https://boardgamegeek.com/boardgame/264196/warhammer-quest-blackstone-fortress",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 20,
+  "unitType": "expeditions",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#06b6d4",
+    "secondaryColor": "#111827",
+    "accentColor": "#f59e0b",
+    "backgroundGradient": "radial-gradient(ellipse at top, #0f172a 0%, #030712 60%, #000000 100%)",
+    "cardBackground": "rgba(17, 24, 39, 0.94)",
+    "borderColor": "rgba(6, 182, 212, 0.35)",
+    "glowColor": "rgba(6, 182, 212, 0.25)",
+    "headerFont": "'Orbitron', 'Cinzel', system-ui, sans-serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "⚔️",
+    "emblem": "⚔️💀",
+    "themeClass": "theme-blackstone-fortress",
+    "activeThemeClass": "theme-blackstone-fortress-active",
+    "roadmapClass": "roadmap-blackstone-fortress",
+    "heroClass": "hero-blackstone-fortress"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #264196)",
+    "Games Workshop Official Rulebook & Precipitation Guide",
+    "Warhammer Community Quest Expansion Chronicles"
+  ],
+  "scopes": [
+    {
+      "id": "blackstone_hidden_vault",
+      "baseScenarioCount": 18,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": true
+    },
+    {
+      "id": "blackstone_first_stronghold",
+      "baseScenarioCount": 6,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "blackstone_master_explorer",
+      "baseScenarioCount": 26,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🛸",
+      "badgeText": "Expedition 1",
+      "title": "Arrival at Precipice",
+      "phase": "Act I - Edge of the Void",
+      "description": "Assembling a mercenary retinue at the Precipice trading station and venturing into the shifting corridors of the Blackstone Fortress."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🛡️",
+      "badgeText": "Stronghold 1",
+      "title": "Breaching the Chaos Bastion",
+      "phase": "Act II - The Malign Incursion",
+      "description": "Assaulting the first fortified stronghold defended by Traitor Guardsmen and foul Chaos Beastmen."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 10,
+      "iconEmoji": "⚙️",
+      "badgeText": "Stronghold 2",
+      "title": "The Spindle Drone Swarm",
+      "phase": "Act III - Automated Defenses",
+      "description": "Deactivating automated fortress sentinels and retrieving archeotech clues from ancient alien machine vaults."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 14,
+      "iconEmoji": "💀",
+      "badgeText": "Stronghold 4",
+      "title": "The Obsidian Gateway",
+      "phase": "Act IV - Shadow of Mallex",
+      "description": "Confronting the Chaos Lord Obsidius Mallex and claiming the final cipher key to unlock the heart of the station."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 18,
+      "iconEmoji": "🌟",
+      "badgeText": "Hidden Vault",
+      "title": "Secrets of the Precursors",
+      "phase": "Act V - The Vault Unsealed",
+      "description": "Surviving the reality-bending horrors of the central Vault to claim supreme archeotech power before the fortress collapses."
+    }
+  ]
+}

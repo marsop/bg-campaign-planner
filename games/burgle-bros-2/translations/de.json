@@ -1,0 +1,61 @@
+{
+  "title": "Burgle Bros 2: The Casino Capers",
+  "subtitle": "Kooperative Casino-Raubzug- & Schleich-Kampagne",
+  "tagline": "Plane waghalsige Raubzüge in Luxus-Casinos, weiche Sicherheitskräften aus und entkomme mit dem Jackpot.",
+  "loreSummary": "Die Bande ist zurück und dieses Mal ist ein glamouröser Casino-Komplex das Ziel. Erkundet gemeinsam zwei Stockwerke voller Roulette-Tische, Spielautomaten und geheimer Tresore. Weicht Wachleuten aus, nutzt Spezialwerkzeuge und flieht, bevor der Alarm schrillt.",
+  "badgeCategory": "Kooperativer Schleich-Raubzug",
+  "roadmapTitle": "Casino-Raubzug-Operationen",
+  "roadmapBadge": "Casino-Coups",
+  "keyFeatures": [
+    "Fortsetzung des gefeierten kooperativen Heist-Spiels Burgle Bros von Spieleautor Tim Fowers",
+    "9-teilige Kampagne mit individuellen Türsteher-Fähigkeiten, Ereignisdecks und Ausrüstungs-Upgrades",
+    "Spektakulärer 3D-Tischaufbau mit zwei übereinanderliegenden Casino-Ebenen und Wachwürfeln",
+    "Hohe Team-Synergie: Akrobat, Hacker, Späher und Muskelmann kombinieren ihre Stärken"
+  ],
+  "scopes": {
+    "burgle_bros_2_casino_campaign": {
+      "name": "Die Große Casino-Kampagne (Alle 9 Coups)",
+      "description": "Die vollständige Kampagne über alle 9 einzigartigen Raubzüge von der Eröffnungsnacht bis zum Finale im Penthouse."
+    },
+    "burgle_bros_2_first_heists": {
+      "name": "Die Eröffnungsnacht (Coups 1–3)",
+      "description": "Ein einleitender 3-Coups-Bogen zur Infiltration der Haupträume und dem Knacken erster Safes."
+    },
+    "burgle_bros_2_master_thieves": {
+      "name": "Meister-Syndikat-Raubzüge (9 Coups & High-Roller-Finale)",
+      "description": "Ein herausfordernder krimineller Marathon gegen wachsame Wachhunde, Laserfallen und maximale Alarmstufe."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Coup 1",
+      "title": "Die High-Roller-Etage",
+      "phase": "Akt I - Infiltration des Casinos",
+      "description": "An den ersten Türstehern vorbeischleichen, den Roulette-Safe knacken und patrouillierenden Wachen ausweichen."
+    },
+    {
+      "badgeText": "Coup 3",
+      "title": "Die Show der Barsängerin",
+      "phase": "Akt II - Das Ablenkungsmanöver",
+      "description": "Verkleidete Teammitglieder einsetzen, um Fehlalarme auszulösen und den Überwachungsraum zu plündern."
+    },
+    {
+      "badgeText": "Coup 5",
+      "title": "Der Penthouse-Tresor",
+      "phase": "Akt III - Der große Coup",
+      "description": "Das synchronisierte Lasergitter im obersten Stockwerk überwinden und den Hauptgewinn sichern."
+    },
+    {
+      "badgeText": "Coup 7",
+      "title": "Doppeltes Spiel",
+      "phase": "Akt IV - Die Alarmabriegelung",
+      "description": "Aggressiven Saalchefs und Spürhunden entwischen, während der Fluchtfahrer zur Einschienenbahn eskortiert wird."
+    },
+    {
+      "badgeText": "Coup 9",
+      "title": "Flucht vom Hubschrauberlandeplatz",
+      "phase": "Akt V - Der finale Coup",
+      "description": "Den Casino-Besitzer austricksen, den Multi-Millionen-Jackpot raffen und in den Helikopter springen."
+    }
+  ]
+}

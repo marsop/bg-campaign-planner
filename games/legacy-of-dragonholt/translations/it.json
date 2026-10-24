@@ -1,0 +1,55 @@
+{
+  "subtitle": "Un gioco di ruolo narrativo di eroi e misteri a Terrinoth",
+  "tagline": "Forgia il tuo eroe, scegli il tuo cammino e svela gli oscuri enigmi di una baronia divisa.",
+  "loreSummary": "Legacy of Dragonholt conduce i giocatori nell'universo high-fantasy di Terrinoth. Creando personaggi personalizzati provvisti di abilità e tratti distintivi, gli avventurieri intraprendono una grande campagna cooperativa senza necessità di un game master. Attraverso suggestivi librigame a bivi narrativi, esplorerete il borgo di Dragonholt, interrogherete i popolani, sfiderete insidiosi sotterranei e influenzerete le sorti del regno con scelte morali decisive.",
+  "badgeCategory": "GDR Narrativo",
+  "roadmapTitle": "Cronache di Dragonholt",
+  "roadmapBadge": "Campagna a Bivi",
+  "keyFeatures": [
+    "Nessun Game Master richiesto; sistema narrativo cooperativo guidato dall'innovativo Oracle System",
+    "Profonda creazione del personaggio comprendente lignaggio, classe, competenze e background biografico",
+    "Dialoghi a bivi e bivi morali dalle ripercussioni permanenti sull'intera investigazione cittadina",
+    "Ricca ambientazione epica ambientata nel celebre e variegato mondo di Terrinoth"
+  ],
+  "scopes": {
+    "intro-quest": {
+      "name": "Verso Dragonholt (Missione Introduttiva)",
+      "description": "Missione iniziale che funge da tutorial e introduzione ai personaggi durante il tragitto verso Dragonholt."
+    },
+    "core-campaign": {
+      "name": "Mistero Principale di Dragonholt",
+      "description": "Indagine investigativa integrale sulla morte misteriosa di Celyse e sui disordini che scuotono la baronia."
+    },
+    "completionist": {
+      "name": "Esplorazione Totale & Missioni Secondarie",
+      "description": "Partita esaustiva visitando ogni luogo cittadino, capitoli biografici e trame secondarie."
+    }
+  },
+  "milestones": {
+    "arrival-dragonholt": {
+      "title": "Verso Dragonholt",
+      "phase": "Prologo",
+      "description": "Gli eroi respingono i briganti sulla via e raggiungono incolumi il villaggio di Dragonholt."
+    },
+    "village-investigation": {
+      "title": "Indagini alla Locanda",
+      "phase": "Atto I",
+      "description": "Esplorate la cittadina, interrogate i residenti chiave e scoprite indizi sospetti sull'erede scomparso."
+    },
+    "wilderness-excursion": {
+      "title": "Nelle Terre Selvagge",
+      "phase": "Atto II",
+      "description": "Avventuratevi nei boschi circostanti, affrontando banditi, spettri erranti e congreghe nascoste."
+    },
+    "manor-confrontation": {
+      "title": "La Corona Cava",
+      "phase": "Atto III",
+      "description": "Infiltratevi nella magione nobiliare, svelate la congiura e compite scelte fatidiche per il reame."
+    },
+    "epilogue-destiny": {
+      "title": "Una Baronia Rinata",
+      "phase": "Epilogo",
+      "description": "Concludete ogni missione personale residua e leggete l'epilogo storico durevole per Terrinoth."
+    }
+  }
+}

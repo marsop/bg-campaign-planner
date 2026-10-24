@@ -1,0 +1,61 @@
+{
+  "title": "Under Falling Skies",
+  "subtitle": "Solo-Alien-Invasions-Würfeleinsetzkampagne",
+  "tagline": "Führe den unterirdischen Widerstand der Menschheit gegen ein herabsinkendes Alien-Mutterschiff in einer Comic-Kampagne.",
+  "loreSummary": "Das gigantische außerirdische Mutterschiff verdunkelt den Himmel und entsendet Angriffswellen auf unsere belagerten Städte. Als Kommandant eines unterirdischen Bunkers setzt du Würfel ein, um Räume auszubauen, Flugabwehrlaser abzufeuern, Forschung voranzutreiben und die Erde zu retten.",
+  "badgeCategory": "Solo-Sci-Fi-Verteidigungskampagne",
+  "roadmapTitle": "Kampagnen-Comic-Bogen",
+  "roadmapBadge": "Story-Kapitel",
+  "keyFeatures": [
+    "Preisgekröntes Solo-Würfelplatzierungsspiel mit genialer Spaltenmechanik",
+    "Verzweigende 4-Kapitel-Kampagne mit Comic-Zwischensequenzen und neuen Szenarien",
+    "Freischaltbare Städtebögen, Anführer-Fähigkeiten und Szenariomodifikatoren",
+    "Gewinner des Golden Geek Awards 2020 für das beste Solospiel"
+  ],
+  "scopes": {
+    "under_falling_skies_full_campaign": {
+      "name": "Die 4-Kapitel-Comic-Kampagne (16 Missionen)",
+      "description": "Die vollständige Solokampagne über 4 fortlaufende Kapitel mit Comic-Szenarien und freischaltbaren Basiselementen."
+    },
+    "under_falling_skies_first_chapter": {
+      "name": "Kapitel 1: Der Abstieg beginnt (4 Missionen)",
+      "description": "Ein einleitender 4-Missionen-Bogen zur Verteidigung der ersten Städte und Etablierung des Bunkerbaus."
+    },
+    "under_falling_skies_hardcore_resistance": {
+      "name": "Globaler Veteranen-Widerstand (Alle Städte & Höchste Bedrohung)",
+      "description": "Eine zermürbende Herausforderung zur Verteidigung sämtlicher Metropolen weltweit bei maximaler Mutterschiffstärke."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Kapitel 1",
+      "title": "Die Ankunft des Mutterschiffs",
+      "phase": "Kapitel 1 - Alarm über Roswell",
+      "description": "Einsatz von Untergrundbaggern und ersten Flugabwehrlasern beim bedrohlichen Absinken des Mutterschiffs."
+    },
+    {
+      "badgeText": "Kapitel 2",
+      "title": "Verteidigung von Washington",
+      "phase": "Kapitel 2 - Belagerung der Hauptstadt",
+      "description": "Freischaltung spezialisierter Anführer-Fähigkeiten und Abwehrroboter zur Abwehr der massiven Invasionsschwärme."
+    },
+    {
+      "badgeText": "Kapitel 3",
+      "title": "Unterirdischer Forschungsdurchbruch",
+      "phase": "Kapitel 3 - Der globale Widerstand",
+      "description": "Vorantreiben wissenschaftlicher Forschungsreihen zur Entschlüsselung von Alien-Technologie und Energiekanonen."
+    },
+    {
+      "badgeText": "Kapitel 4",
+      "title": "Angriff auf den Reaktorkern",
+      "phase": "Kapitel 4 - Der finale Gegenschlag",
+      "description": "Koordination verbündeter Städte für einen gezielten Gegenangriff direkt in den thermischen Kern des Schiffs."
+    },
+    {
+      "badgeText": "Sieg",
+      "title": "Die Erde ist gerettet",
+      "phase": "Epilog - Klarer Himmel",
+      "description": "Zerstörung des außerirdischen Mutterschiffs und Befreiung der Menschheit von der Vernichtung."
+    }
+  ]
+}

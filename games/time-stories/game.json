@@ -1,0 +1,86 @@
+{
+  "id": "time-stories",
+  "title": "T.I.M.E Stories",
+  "releaseYear": 2015,
+  "designers": "Peggy Chassenet, Manuel Rozoy",
+  "playersMin": 2,
+  "playersMax": 4,
+  "bggRating": 7.4,
+  "bggWeight": 2.37,
+  "bggUrl": "https://boardgamegeek.com/boardgame/146508/time-stories",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "runs",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#0ea5e9",
+    "secondaryColor": "#1e293b",
+    "accentColor": "#a855f7",
+    "backgroundGradient": "radial-gradient(ellipse at top, #1e1b4b 0%, #0f172a 60%, #020617 100%)",
+    "cardBackground": "rgba(30, 41, 59, 0.94)",
+    "borderColor": "rgba(14, 165, 233, 0.35)",
+    "glowColor": "rgba(14, 165, 233, 0.25)",
+    "headerFont": "'Chakra Petch', 'Orbitron', system-ui, sans-serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "⏳",
+    "emblem": "⏳🌀",
+    "themeClass": "theme-time-stories",
+    "activeThemeClass": "theme-time-stories-active",
+    "roadmapClass": "roadmap-time-stories",
+    "heroClass": "hero-time-stories"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #146508)",
+    "Space Cowboys Official Rulebook & Asylum Mission Deck",
+    "T.I.M.E Agency White Cycle Case Archive"
+  ],
+  "scopes": [
+    {
+      "id": "time_stories_asylum_mission",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 35.0,
+      "isRecommended": true
+    },
+    {
+      "id": "time_stories_first_loop",
+      "baseScenarioCount": 1,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "time_stories_agency_quadrilogy",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 25.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🌀",
+      "badgeText": "Run 1",
+      "title": "Tachyon Insertion: 1921 Paris",
+      "phase": "Loop I - First Receptacle Contact",
+      "description": "Transferring agency consciousness into patient receptacles inside the Roaring Twenties French psychiatric asylum."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🔑",
+      "badgeText": "Run 2",
+      "title": "Unraveling the Temporal Tear",
+      "phase": "Loop II - The Hidden Crypts",
+      "description": "Leveraging memories from previous temporal loops to bypass lethal security traps and unlock the basement crypt."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "⏳",
+      "badgeText": "Run 3",
+      "title": "Closing the Quantum Paradox",
+      "phase": "Loop III - The Mission Cleared",
+      "description": "Confronting the temporal anomaly source before Time Units expire and reporting back to T.I.M.E Agency debriefing."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+/* Kingdom Rush Scoped Styling */
+.theme-kingdom-rush {
+  --kr-gold: #eab308;
+  --kr-blue: #1e3a8a;
+  --kr-purple: #9333ea;
+  --kr-dark: #0f172a;
+}
+
+.theme-kingdom-rush .game-card-selected,
+.theme-kingdom-rush-active {
+  border-color: var(--kr-gold) !important;
+  box-shadow: 0 0 20px rgba(234, 179, 8, 0.35) !important;
+}
+
+.roadmap-kingdom-rush .roadmap-milestone-card {
+  border-left: 4px solid var(--kr-gold);
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);
+}
+
+.roadmap-kingdom-rush .milestone-badge {
+  background-color: var(--kr-gold);
+  color: #1e3a8a;
+  font-family: 'Bungee', cursive, sans-serif;
+  font-weight: 700;
+}
+
+.hero-kingdom-rush {
+  border-bottom: 2px solid rgba(234, 179, 8, 0.4);
+}

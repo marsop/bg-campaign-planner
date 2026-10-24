@@ -1,0 +1,61 @@
+{
+  "title": "Oath: Crónicas de Imperio y Exilio",
+  "subtitle": "Campaña Estratégica Generacional de Legado y Fantasía",
+  "tagline": "Forja la historia viva de un reino a través de generaciones donde cada victoria transforma las cartas y el mundo.",
+  "loreSummary": "En Oath no hay historias preescritas. Un jugador gobierna como Canciller del Imperio mientras los demás conspiran como Ciudadanos leales o Exiliados rebeldes. Los desenlaces de cada partida dictan el mapa, los recursos y las condiciones de victoria de las generaciones venideras.",
+  "badgeCategory": "Campaña Estratégica Generacional",
+  "roadmapTitle": "Crónica de Generaciones",
+  "roadmapBadge": "Eras de Crónica",
+  "keyFeatures": [
+    "Revolucionario diseño de legado generacional por Cole Wehrle con narrativa emergente única",
+    "Mazo del Mundo dinámico donde las cartas entran, se archivan o se purgan según el vencedor",
+    "Roles políticos fluidos: rinde pleitesía como Ciudadano o lidera la revolución como Exiliado",
+    "Deslumbrante apartado artístico de estética de cuento ilustrado por Kyle Ferrin"
+  ],
+  "scopes": {
+    "oath_grand_dynasty": {
+      "name": "La Gran Dinastía de la Crónica (12 Partidas)",
+      "description": "Un épico legado generacional a lo largo de 12 partidas de monarcas derrocados, religiones cambiantes y alzamientos populares."
+    },
+    "oath_reign_of_chancellors": {
+      "name": "El Reinado de los Primeros Cancilleres (4 Partidas)",
+      "description": "Un arco introductorio para asentar el orden imperial y experimentar la primera sucesión dinástica."
+    },
+    "oath_immortal_empire": {
+      "name": "Siglo de Contiendas (18 Partidas de Crónica)",
+      "description": "Una crónica colosal de varios siglos que atestigua el apogeo y derrumbe absoluto de múltiples linajes imperiales."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Generación I",
+      "title": "El Juramento Inicial del Canciller",
+      "phase": "Era I - El Amanecer del Imperio",
+      "description": "Pronunciar el Juramento de Supremacía fundacional mientras los Exiliados traman rebeliones desde las provincias."
+    },
+    {
+      "badgeText": "Generación III",
+      "title": "Primera Sucesión Dinástica",
+      "phase": "Era II - La Crónica Reformada",
+      "description": "La visión del vencedor archiva cartas en el Mazo del Mundo, alterando cultos, secretos y tácticas bélicas."
+    },
+    {
+      "badgeText": "Generación VI",
+      "title": "Auge de la Vanguardia Ciudadana",
+      "phase": "Era III - Lealtades Fracturadas",
+      "description": "Antiguos exiliados obtienen la ciudadanía, corrompiendo reliquias imperiales y pugnando por usurpar la corona."
+    },
+    {
+      "badgeText": "Generación IX",
+      "title": "Ocaso de la Alta Dinastía",
+      "phase": "Era IV - La Era de los Secretos Oscuros",
+      "description": "Visiones arcanas olvidadas resurgen en las provincias mientras cartas de conspiración y herejía inundan la corte."
+    },
+    {
+      "badgeText": "Generación XII",
+      "title": "La Crónica Eterna",
+      "phase": "Era V - Un Legado Milenario",
+      "description": "Sellar la caja maestra de la Crónica, inmortalizando siglos de historia forjada por los jugadores."
+    }
+  ]
+}

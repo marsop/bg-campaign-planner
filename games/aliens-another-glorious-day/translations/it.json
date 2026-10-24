@@ -1,0 +1,61 @@
+{
+  "title": "Aliens: Another Glorious Day in the Corps",
+  "subtitle": "Campagna Cooperativa di Miniature e Sopravvivenza Sci-Fi",
+  "tagline": "Carica il fucile a impulsi, accendi il rilevatore di movimento e sopravvivi all'alveare di Xenomorfi su LV-426.",
+  "loreSummary": "Prendi il comando di Ripley e della sua squadra di Marine Coloniali (Hicks, Hudson, Vasquez e Gorman) per indagare sul silenzio piombato sulla colonia di Hadley's Hope. Gestisci il mazzo Resistenza mentre le munizioni scarseggiano e sciami di Xenomorfi strisciano nei condotti dell'aria.",
+  "badgeCategory": "Sopravvivenza Cooperativa Sci-Fi",
+  "roadmapTitle": "Operazioni su Hadley's Hope",
+  "roadmapBadge": "Missioni di Combattimento",
+  "keyFeatures": [
+    "Fedele e adrenalinica trasposizione da tavolo del leggendario film Aliens (1986) di James Cameron",
+    "Meccanica del Mazzo Resistenza: ogni carta funge da munizione, arma, supporto e riserva vitale della squadra",
+    "Segnalini rilevatore di movimento che celano stringifaccia in agguato, guerrieri adulti e imboscate",
+    "Campagna cinematografica progressiva dall'esplorazione del complesso al duello mortale con la Regina Aliena"
+  ],
+  "scopes": {
+    "aliens_hadleys_hope_campaign": {
+      "name": "Campagna di Sopravvivenza Hadley's Hope (Missioni 1–4)",
+      "description": "L'esperienza cinematografica integrale guidando i marine attraverso la colonia, l'alveare e l'evacuazione disperata."
+    },
+    "aliens_airlock_incursion": {
+      "name": "Ricognizione della Zona di Sbarco (Missioni 1–2)",
+      "description": "Una sortita iniziale di 2 missioni per approntare torrette sentinella e perlustrare le sale della base."
+    },
+    "aliens_ultimate_badasses": {
+      "name": "Maratona Veri Duri (8 Missioni & Tana della Regina)",
+      "description": "Una titanica prova di resistenza che include salvataggi nei condotti, fuga disperata e il duello contro la Regina."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Missione 1",
+      "title": "Atterraggio a Hadley's Hope",
+      "phase": "Atto I - Il Bip del Rilevatore",
+      "description": "Forzare il portellone della colonia mineraria abbandonata mentre echi minacciosi convergono sullo schermo."
+    },
+    {
+      "badgeText": "Missione 2",
+      "title": "Impianto di Trattamento Atmosferico",
+      "phase": "Atto II - Nel Cuore dell'Alveare",
+      "description": "Scaricare raffiche di smartgun e fiammate nei cunicoli claustrofobici ricoperti di secrezioni aliene."
+    },
+    {
+      "badgeText": "Missione 3",
+      "title": "Salvare Newt",
+      "phase": "Atto III - Nessun Marine Viene Lasciato Indietro",
+      "description": "Strisciare nei condotti di ventilazione per trarre in salvo l'unica superstite della colonia, la piccola Newt."
+    },
+    {
+      "badgeText": "Missione 4",
+      "title": "Evacuazione dei Sotterranei",
+      "phase": "Atto IV - Conto alla Rovescia per il Collasso",
+      "description": "Correre all'impazzata verso il mezzo corazzato prima che i reattori nucleari vadano in fusione critica."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Vattene Via da Lei, Brutta Troia!",
+      "phase": "Atto V - Duello con la Regina",
+      "description": "Indossare l'esoscheletro elevatore sull'hangar della Sulaco per scagliare la Regina Xenomorfa nel vuoto dello spazio."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Kingdom Rush: Rift in Time",
+  "subtitle": "Campagne Coopérative de Tower Defense et Puzzle Polyomino",
+  "tagline": "Érigez des tours, libérez vos pouvoirs héroïques et scellez la Faille Temporelle en 10 scénarios progressifs.",
+  "loreSummary": "Le royaume de Linirea est assiégé par l'énigmatique Mage du Temps et ses légions barbares. Coopérez en vous passant des cartes de tours pour les améliorer, lancez des sorts dévastateurs et positionnez vos héros pour barrer la route aux monstres avant qu'ils ne submergent la cité.",
+  "badgeCategory": "Campagne Coopérative Tower Defense",
+  "roadmapTitle": "Défense de Linirea",
+  "roadmapBadge": "Scénarios Narratifs",
+  "keyFeatures": [
+    "Adaptation fidèle du jeu vidéo mobile de tower defense phénomène développé par Ironhide Game Studio",
+    "Combats tactiques en puzzle : recouvrez les plateaux d'invasion ennemie avec des tuiles d'attaque polyominos",
+    "Système d'amélioration de tours collaboratif : transmettez vos cartes à vos partenaires pour les faire monter de niveau",
+    "10 scénarios évolutifs intégrant portails temporels, redoutables boss et défis de fer"
+  ],
+  "scopes": {
+    "kingdom_rush_full_campaign": {
+      "name": "La Campagne de la Faille (Les 10 Scénarios)",
+      "description": "L'arc narratif complet de 10 scénarios défendant Linirea à travers des batailles de boss et énigmes temporelles."
+    },
+    "kingdom_rush_first_defenses": {
+      "name": "Défense de l'Avant-Poste (Scénarios 1 à 3)",
+      "description": "Un parcours d'initiation de 3 scénarios pour appréhender la pose de tours et neutraliser le Titan de fer."
+    },
+    "kingdom_rush_iron_challenge": {
+      "name": "Défenseur Suprême (10 Scénarios & Défis de Fer)",
+      "description": "Une campagne impitoyable affrontant tous les scénarios sous les contraintes héroïques et le mode Défi de Fer."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Scénario 1",
+      "title": "La Faille s'Ouvre",
+      "phase": "Acte I - L'Avant-Poste Frontalier",
+      "description": "Bâtir les premières tours d'archers et de miliciens tout en posant des polyominos sur les hordes gobelines."
+    },
+    {
+      "badgeText": "Scénario 3",
+      "title": "La Colère du Mastodonte",
+      "phase": "Acte II - Colosses Cuirassés",
+      "description": "Améliorer les tours d'artillerie lourde et combiner attaques de héros pour abattre le géant mécanique."
+    },
+    {
+      "badgeText": "Scénario 6",
+      "title": "La Forêt Corrompue",
+      "phase": "Acte III - Portails Mouvants",
+      "description": "Gérer les failles temporelles fluctuantes qui téléportent les vagues ennemies entre les carrefours."
+    },
+    {
+      "badgeText": "Scénario 8",
+      "title": "L'Avant-Garde de Vez'nan",
+      "phase": "Acte IV - La Marche de l'Archimage",
+      "description": "Tenir le col de montagne contre les sorciers noirs et préserver les derniers cœurs civils du royaume."
+    },
+    {
+      "badgeText": "Scénario 10",
+      "title": "La Chute du Mage Temporel",
+      "phase": "Acte V - Le Triomphe du Roi",
+      "description": "Terrasser le Chronomancien suprême, refermer la Faille et sauver Linirea du néant."
+    }
+  ]
+}

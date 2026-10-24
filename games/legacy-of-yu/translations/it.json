@@ -1,0 +1,61 @@
+{
+  "title": "Legacy of Yu",
+  "subtitle": "Campagna Narrativa Legacy Non Distruttiva Esclusivamente Solitaria",
+  "tagline": "Doma le devastanti alluvioni del Fiume Giallo e respingi le scorrerie barbariche in una campagna solitaria bilanciata.",
+  "loreSummary": "Nell'antica Cina sotto il regno dell'imperatore Shun, vesti i panni di Yu il Grande. Incaricato dalla corte imperiale, devi convogliare le disastrose piene del Fiume Giallo costruendo una rete di canali, mentre difendi gli argini contro le incursioni delle tribù barbare.",
+  "badgeCategory": "Campagna Solitaria Legacy",
+  "roadmapTitle": "Cronache del Fiume Giallo",
+  "roadmapBadge": "Campagne delle Piene",
+  "keyFeatures": [
+    "Gioco per un solo giocatore incentrato su piazzamento lavoratori e deck-building ideato da Shem Phillips",
+    "Campagna legacy non distruttiva: completamente azzerabile e rigiocabile senza adesivi o carte distrutte",
+    "Mazzo narrativo a calibrazione dinamica che inserisce nuove carte e bilancia la difficoltà sia che si vinca o si perda",
+    "Una corsa avvincente per ottenere 7 vittorie prima di subire 7 sconfitte in una solenne saga epica"
+  ],
+  "scopes": {
+    "legacy_of_yu_flood_campaign": {
+      "name": "L'Argine del Fiume Giallo (7–10 Partite)",
+      "description": "L'arco narrativo completo in solitaria disputando partite consecutive fino al conseguimento di 7 vittorie o 7 disfatte."
+    },
+    "legacy_of_yu_first_canals": {
+      "name": "Primi Canali & Difesa (3 Partite)",
+      "description": "Un percorso introduttivo di 3 partite per apprendere lo scavo dei canali, il reclutamento dei contadini e la difesa."
+    },
+    "legacy_of_yu_master_engineer": {
+      "name": "Yu il Grande Leggendario (Tutte le Parabole & Massima Difficoltà)",
+      "description": "Una titanica sfida di maestria solitaria volta a sbloccare ogni parabola della storia e sconfiggere i barbari d'élite."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Partita 1",
+      "title": "La Piena del Fiume",
+      "phase": "Era I - Gli Argini Infranti",
+      "description": "Scavare i primi canali di scolo, raccogliere legname e respingere i predoni fluviali lungo le sponde."
+    },
+    {
+      "badgeText": "Partita 3",
+      "title": "Villaggi del Bacino",
+      "phase": "Era II - Rifugio per la Popolazione",
+      "description": "Erigere granai e avamposti per i profughi e arruolare artigiani ed esperti nel cantiere imperiale."
+    },
+    {
+      "badgeText": "Partita 5",
+      "title": "Squarciare la Montagna",
+      "phase": "Era III - La Grande Gola del Drago",
+      "description": "Frantumare massi ciclopici e scavare varchi nella roccia della Porta del Drago per deviare i flutti impetuosi."
+    },
+    {
+      "badgeText": "Partita 7",
+      "title": "L'Assedio del Signore della Guerra",
+      "phase": "Act IV - Difesa delle Dighe",
+      "description": "Corrompere e sgominare le schiere barbariche pronte a sabotare le chiuse e le paratie del canale."
+    },
+    {
+      "badgeText": "Partita 8",
+      "title": "Le Acque Placate",
+      "phase": "Era V - Yu il Grande Incoronato",
+      "description": "Condurre il Fiume Giallo fino al Mare Orientale, raggiungere sette vittorie imperiali e dare inizio alla Dinastia Xia."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Maracaibo",
+  "subtitle": "Campagna Strategica Marittima nei Caraibi del XVII Secolo",
+  "tagline": "Solca le insidiose rotte dei Caraibi lungo un'avvincente campagna narrativa evolutiva in 12 capitoli.",
+  "loreSummary": "Salpa nel XVII secolo nei panni di un intraprendente capitano nei Caraibi. Consegna merci, potenzia il tuo vascello, porta a termine audaci missioni e stringi alleanze con le potenze europee mentre il tabellone di gioco si trasforma permanentemente capitolo dopo capitolo.",
+  "badgeCategory": "Campagna Strategica Marittima",
+  "roadmapTitle": "Cronache dei Caraibi",
+  "roadmapBadge": "Capitoli della Storia",
+  "keyFeatures": [
+    "Capolavoro di alta strategia ideato da Alexander Pfister con dinamico rondel nautico di movimento",
+    "Campagna a bivi in 12 capitoli dove le carte storia modificano tessere e rotte sulla mappa",
+    "Profondo motore di gioco: potenzia la nave, arruola marinai ed esplora sentieri nella giungla",
+    "Punteggio multiforme con influenze geopolitiche in bilico tra Inghilterra, Francia e Spagna"
+  ],
+  "scopes": {
+    "maracaibo_full_chronicles": {
+      "name": "Le Cronache dei Caraibi (Tutti i 12 Capitoli)",
+      "description": "L'epopea narrativa completa attraverso i 12 capitoli con tessere mappa variabili, carte storia e verdetti imperiali."
+    },
+    "maracaibo_introductory_voyage": {
+      "name": "Il Viaggio Inaugurale (Capitoli 1–4)",
+      "description": "Un arco introduttivo per fondare la propria compagnia commerciale e padroneggiare la mappa dinamica."
+    },
+    "maracaibo_master_corsair": {
+      "name": "Corsaro Esperto (12 Capitoli + Sfide Avanzate)",
+      "description": "Una spedizione marittima totale esplorando tutti i bivi alternativi delle carte storia alla massima difficoltà."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Capitolo 1",
+      "title": "Salpando da L'Avana",
+      "phase": "Atto I - La Grande Rotta Mercantile",
+      "description": "Sfruttare gli alisei attraverso i Caraibi e consegnare le prime merci ai presidi coloniali."
+    },
+    {
+      "badgeText": "Capitolo 4",
+      "title": "Scontro tra Imperi",
+      "phase": "Atto II - Alleanze Instabili",
+      "description": "Le dispute di influenza tra Inghilterra, Francia e Spagna si infiammano nell'intero bacino caraibico."
+    },
+    {
+      "badgeText": "Capitolo 7",
+      "title": "I Segreti della Costa delle Perle",
+      "phase": "Atto III - Acque Inesplorate",
+      "description": "Addentrarsi lungo sentieri selvaggi e tra rovine misteriose oltre Maracaibo e Caracas."
+    },
+    {
+      "badgeText": "Capitolo 10",
+      "title": "Il Blocco dei Corsari",
+      "phase": "Atto IV - Tempesta sulle Antille",
+      "description": "Eludere pericolosi blocchi navali e flotte di filibustieri rinnegati che minacciano i convogli mercantili."
+    },
+    {
+      "badgeText": "Capitolo 12",
+      "title": "L'Eredità dei Caraibi",
+      "phase": "Atto V - Gran Finale della Flotta Commerciale",
+      "description": "Consacrare il predominio marittimo e consegnare la propria compagnia alla storia dei Caraibi."
+    }
+  ]
+}

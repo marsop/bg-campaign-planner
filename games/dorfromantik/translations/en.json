@@ -1,0 +1,61 @@
+{
+  "title": "Dorfromantik: The Board Game",
+  "subtitle": "Cooperative Pastoral Landscape Puzzle Campaign",
+  "tagline": "Piece together a peaceful idyllic countryside and unlock secret boxes across an uplifting campaign.",
+  "loreSummary": "Work together to lay hexagonal landscape tiles, matching sparkling rivers, golden wheat fields, and quaint cottages while fulfilling villagers' requests to unlock sealed achievement boxes.",
+  "badgeCategory": "Pastoral Cooperative Campaign",
+  "roadmapTitle": "Campaign Achievement Trail",
+  "roadmapBadge": "Secret Boxes",
+  "keyFeatures": [
+    "Cooperative tile-placement adaptation of the beloved tranquil video game",
+    "5 unlockable secret achievement boxes with new tiles, tasks, and scoring mechanics",
+    "Replayable campaign progression pad with evolving score thresholds and stars",
+    "Winner of the prestigious Spiel des Jahres 2023 award"
+  ],
+  "scopes": {
+    "dorfromantik_full_campaign": {
+      "name": "The Complete Countryside (All 5 Secret Boxes)",
+      "description": "The complete campaign arc, unlocking all 5 sealed achievement modules, special landscape tasks, and scoring cards."
+    },
+    "dorfromantik_first_achievements": {
+      "name": "First Village Horizons (First 2 Secret Boxes)",
+      "description": "A light introductory campaign journey opening the first two secret boxes to introduce railway and special challenge tiles."
+    },
+    "dorfromantik_master_high_score": {
+      "name": "Master Landscaper (Full Campaign & Target High Scores)",
+      "description": "An extensive campaign experience aiming to unlock every module and reach the pinnacle high-score tiers on the campaign achievement pad."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Box 1",
+      "title": "The First Flourishing Fields",
+      "phase": "Chapter 1 - Village Foundations",
+      "description": "Laying down initial riverways and matching forest borders to achieve the first regional campaign score threshold."
+    },
+    {
+      "badgeText": "Box 2",
+      "title": "Tracks Across the Valley",
+      "phase": "Chapter 2 - Expanding Horizons",
+      "description": "Unlocking the first puzzle boxes, introducing rail junctions, special landscape tasks, and steam train networks."
+    },
+    {
+      "badgeText": "Box 3",
+      "title": "River Confluences & Canals",
+      "phase": "Chapter 3 - Flowing Waterways",
+      "description": "Integrating harbour tiles and long water channels to unlock new achievement cards and scoring stars."
+    },
+    {
+      "badgeText": "Box 4",
+      "title": "Wonders of the Realm",
+      "phase": "Chapter 4 - Landmarks and Monuments",
+      "description": "Constructing grand landmarks, windmills, and watchtowers that reward dedicated placement strategies."
+    },
+    {
+      "badgeText": "Box 5",
+      "title": "The Master Harmonious Landscape",
+      "phase": "Chapter 5 - Campaign Grand Finale",
+      "description": "Opening the final secret achievement box and achieving the highest harmony score on the master campaign sheet."
+    }
+  ]
+}

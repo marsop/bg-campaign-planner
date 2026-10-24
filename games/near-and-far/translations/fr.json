@@ -1,0 +1,61 @@
+{
+  "title": "Near and Far",
+  "subtitle": "Campagne Narrative d'Aventure et Atlas de Voyage",
+  "tagline": "Recrutez des compagnons, préparez votre équipement et cherchez la mythique Dernière Ruine à travers un atlas illustré.",
+  "loreSummary": "Quatre vagabonds partent en quête de la Dernière Ruine, une cité légendaire abritant un artefact capable d'exaucer le vœu le plus cher de leur cœur. Parcourez un atlas de cartes magnifiquement illustrées, lisez des rencontres d'un livre d'histoires colossal, établissez des campements et guidez vos aventuriers.",
+  "badgeCategory": "Campagne Narrative d'Aventure",
+  "roadmapTitle": "Périple de l'Atlas vers la Dernière Ruine",
+  "roadmapBadge": "Cartes d'Atlas",
+  "keyFeatures": [
+    "Suite d'Above and Below, prenant place dans le monde enchanteur d'Arzium créé par Ryan Laukat",
+    "Atlas de 11 plateaux de cartes en couleur regorgeant de terrains singuliers et de choix narratifs",
+    "Mode Personnage avec cartes de quêtes dédiées explorant le passé et la destinée de chaque héros",
+    "Équilibre remarquable entre pose d'ouvriers, gestion de ressources et immersion narrative"
+  ],
+  "scopes": {
+    "near_and_far_story_campaign": {
+      "name": "La Quête de la Dernière Ruine (10 Sessions d'Atlas)",
+      "description": "L'arc narratif complet franchissant 10 cartes d'atlas successives pour lever le voile sur le mystère de la Dernière Ruine."
+    },
+    "near_and_far_character_quest": {
+      "name": "Arc de Quête Personnelle (4 Sessions)",
+      "description": "Un parcours resserré de 4 sessions centré sur l'accomplissement des quêtes intimes des personnages choisis."
+    },
+    "near_and_far_arcade_mode": {
+      "name": "Grand Explorateur de l'Atlas (11 Cartes & Mines)",
+      "description": "Une expédition totale découvrant l'ensemble des cartes de l'atlas ainsi que les défis de la mine souterraine."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Carte 1",
+      "title": "Départ de Bout-de-l'Espoir",
+      "phase": "Chapitre 1 - Dans les Terres Sauvages",
+      "description": "Établir le campement et recruter oiseaux de bât et mercenaires pour le grand départ vers l'inconnu."
+    },
+    {
+      "badgeText": "Carte 3",
+      "title": "Les Sables Engloutis",
+      "phase": "Chapitre 2 - Déserts et Arcanes",
+      "description": "Brouter les tempêtes de sable et mettre au jour des sanctuaires d'obsidienne enfouis dans les dunes."
+    },
+    {
+      "badgeText": "Carte 6",
+      "title": "Le Col des Hautes-Terres",
+      "phase": "Chapitre 3 - Cimes Périlleuses",
+      "description": "Franchir des défilés escarpés et rencontrer d'énigmatiques peuplades montagnardes et vestiges anciens."
+    },
+    {
+      "badgeText": "Carte 8",
+      "title": "Le Marais Chuchotant",
+      "phase": "Chapitre 4 - Les Profondeurs Troubles",
+      "description": "Explorer des marécages impénétrables pour rassembler les artefacts guidant vers le sanctuaire convoité."
+    },
+    {
+      "badgeText": "Carte 10",
+      "title": "La Découverte de la Dernière Ruine",
+      "phase": "Chapitre 5 - Le Désir du Cœur",
+      "description": "Atteindre l'ultime cité mythique, déchiffrer le paragraphe final et accomplir le vœu suprême de votre voyageur."
+    }
+  ]
+}

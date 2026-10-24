@@ -1,0 +1,61 @@
+{
+  "title": "Legends of Andor",
+  "subtitle": "Cooperative Fantasy Puzzle-Adventure Campaign",
+  "tagline": "Defend the realm of Rietburg and weave your own heroic tale across 5 progressive legends.",
+  "loreSummary": "The land of Andor is in grave peril. From the mountains and dark forests, savage beasts advance toward Castle Rietburg. As the realm's champion dwarf, archer, warrior, and wizard, you must coordinate your daylight hours and fulfill quests before the storyteller marker reaches letter N.",
+  "badgeCategory": "Cooperative Fantasy Campaign",
+  "roadmapTitle": "Chronicles of the Five Legends",
+  "roadmapBadge": "Legends of Andor",
+  "keyFeatures": [
+    "Winner of the prestigious Kennerspiel des Jahres 2013 award by renowned artist Michael Menzel",
+    "Dynamic Legend Deck: learn the rules seamlessly as you play without reading a complex manual first",
+    "Tense puzzle-like cooperative balance managing daylight hours and tactical monster defense",
+    "Double-sided illustrated game board spanning the verdant realm and deep subterranean mines"
+  ],
+  "scopes": {
+    "andor_five_legends_chronicle": {
+      "name": "The Five Legends of the Realm (Legends 1–5)",
+      "description": "The complete base game campaign arc progressing through all 5 sequential legends to the epic dragon finale."
+    },
+    "andor_introductory_legends": {
+      "name": "The Awakening of the Heroes (Legends 1–3)",
+      "description": "An introductory 3-legend journey mastering movement, the healing of the king, and witch trade."
+    },
+    "andor_master_guardians": {
+      "name": "Master Guardians of Rietburg (All Legends + Dark Variations)",
+      "description": "An extensive campaign experience confronting advanced difficulty cards, secret fates, and the dragon's wrath."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Legend 1",
+      "title": "The Arrival of the Heroes",
+      "phase": "Act I - The Warning Scrolls",
+      "description": "Carrying vital warning scrolls across the countryside to Castle Rietburg before invading Gors overrun the borders."
+    },
+    {
+      "badgeText": "Legend 2",
+      "title": "The Healing of the King",
+      "phase": "Act II - The Herb of Life",
+      "description": "Finding the medicinal medicinal plant in the misty forest to cure King Brandur while defending the castle."
+    },
+    {
+      "badgeText": "Legend 3",
+      "title": "Days of Resistance",
+      "phase": "Act III - The Witch of the Mist",
+      "description": "Locating the reclusive Witch, buying potent brew runes, and completing secret destiny cards across the realm."
+    },
+    {
+      "badgeText": "Legend 4",
+      "title": "The Jewel Mine of the Dwarves",
+      "phase": "Act IV - Depths of Cavernous Dark",
+      "description": "Descending into the subterranean dwarven mine shafts, battling Skrals, and retrieving the lost shield."
+    },
+    {
+      "badgeText": "Legend 5",
+      "title": "The Wrath of the Dragon",
+      "phase": "Act V - The Final Siege",
+      "description": "Uniting all heroes, four runestones, and the ancestral dragon weapon to slay the colossal dragon descending on Rietburg."
+    }
+  ]
+}

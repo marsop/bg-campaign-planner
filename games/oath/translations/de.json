@@ -1,0 +1,61 @@
+{
+  "title": "Oath: Das Reich der Chronik",
+  "subtitle": "Generationenübergreifende Fantasy-Strategie-Legacy-Kampagne",
+  "tagline": "Schreibe die lebendige Geschichte eines Reiches über Generationen, in dem jeder Sieg die Karten und die Welt neu formt.",
+  "loreSummary": "In Oath gibt es keine vorgefertigten Drehbücher. Ein Spieler herrscht als Kanzler über das Imperium, während andere als loyale Bürger oder verbannte Gesetzlose intrigieren. Jede Partie bestimmt den Spielplan, die Karten und die Siegbedingungen künftiger Generationen.",
+  "badgeCategory": "Generationen-Strategiekampagne",
+  "roadmapTitle": "Chronik der Generationen",
+  "roadmapBadge": "Chronik-Epochen",
+  "keyFeatures": [
+    "Bahnbrechendes generationenübergreifendes Legacy-Konzept von Cole Wehrle mit emergenter Erzählung",
+    "Dynamisches Weltdeck, in dem Karten je nach Sieger neu hinzukommen, archiviert oder verbannt werden",
+    "Wandelbare politische Rollen: Schwöre als Bürger Treue oder kämpfe als Ausgestoßener um den Thron",
+    "Einzigartige Märchenbuch-Ästhetik meisterhaft illustriert von Kyle Ferrin"
+  ],
+  "scopes": {
+    "oath_grand_dynasty": {
+      "name": "Die Große Chronik-Dynastie (12 Partien)",
+      "description": "Ein monumentales Mehrgenerationen-Erlebnis über 12 Partien mit wechselnden Herrschern, Religionen und Umstürzen."
+    },
+    "oath_reign_of_chancellors": {
+      "name": "Die Herrschaft des ersten Kanzlers (4 Partien)",
+      "description": "Ein kompakter Einstiegsbogen zur Festigung der imperialen Ordnung und der ersten dynastischen Thronfolge."
+    },
+    "oath_immortal_empire": {
+      "name": "Jahrhundert der Konflikte (18 Partien)",
+      "description": "Eine epische Chronik über Jahrhunderte hinweg, die Aufstieg und totalen Zerfall ganzer Dynastien dokumentiert."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Generation I",
+      "title": "Der Gründungseid des Kanzlers",
+      "phase": "Epoche I - Dämmerung des Imperiums",
+      "description": "Ablegen des Gründungseids der Vorherrschaft, während verbannte Gesetzlose in den Provinzen Rebellionen planen."
+    },
+    {
+      "badgeText": "Generation III",
+      "title": "Erster dynastischer Wechsel",
+      "phase": "Epoche II - Die Chronik im Wandel",
+      "description": "Die Vision des Siegers archiviert Karten im Weltdeck und verändert Kulte, Geheimnisse und Kriegskunst grundlegend."
+    },
+    {
+      "badgeText": "Generation VI",
+      "title": "Aufstieg der Bürgervanguard",
+      "phase": "Epoche III - Gebrochene Loyalitäten",
+      "description": "Ehemalige Ausgestoßene erhalten das Bürgerrecht, korrumpieren imperiale Relikte und trachten nach der Krone."
+    },
+    {
+      "badgeText": "Generation IX",
+      "title": "Abenddämmerung der Hohen Dynastie",
+      "phase": "Epoche IV - Zeitalter dunkler Geheimnisse",
+      "description": "Vergessene uralte Visionen greifen um sich, während Verschwörungs- und Mysterienkarten den Hof überschwemmen."
+    },
+    {
+      "badgeText": "Generation XII",
+      "title": "Die Ewige Chronik",
+      "phase": "Epoche V - Ein tausendjähriges Erbe",
+      "description": "Versiegeln der Chronik-Box und Verewigung von Jahrhunderten spielergetriebener Historie und Souveränität."
+    }
+  ]
+}

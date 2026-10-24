@@ -1,0 +1,61 @@
+{
+  "title": "Machi Koro Legacy",
+  "subtitle": "Evolutive Insel-Städtebau-Legacy-Kampagne",
+  "tagline": "Würfeln, Großprojekte bauen und zusehen, wie sich deine tropische Inselstadt in 10 Partien dauerhaft verändert.",
+  "loreSummary": "Konkurrierende Bürgermeister werden ernannt, um ein paradiesisches tropisches Archipel zu entwickeln. Würfelt, kassiert Einnahmen aus Bäckereien, Häfen und Festen und öffnet versiegelte Geheimschachteln, die eure Stadtpläne dauerhaft mit neuen Gebäuden und Regeln bereichern.",
+  "badgeCategory": "Städtebau-Würfel-Legacy",
+  "roadmapTitle": "Insel-Entwicklungs-Bogen",
+  "roadmapBadge": "Legacy-Partien",
+  "keyFeatures": [
+    "Legacy-Adaption des beliebten Würfel-Aufbauspiels, mitentwickelt von Rob Daviau (Risk Legacy, Pandemic Legacy)",
+    "10-Partien-Storykampagne mit fortlaufenden Handlungssträngen, Geheimfächern und dauerhaften Stickern",
+    "Erzeugt nach Abschluss der Kampagne ein einzigartiges, unbegrenzt wiederspielbares Machi Koro-Spiel",
+    "Leicht zugänglicher, heiterer Wettstreit – ideal für Familienrunden und feste Spielgruppen"
+  ],
+  "scopes": {
+    "machi_koro_ten_game_campaign": {
+      "name": "Das Vermächtnis des Insel-Bürgermeisters (Alle 10 Partien)",
+      "description": "Der vollständige 10-Partien-Bogen mit dem Öffnen aller Schachteln, Freischalten der Großprojekte und Kürung des Oberbürgermeisters."
+    },
+    "machi_koro_first_districts": {
+      "name": "Die Gründungssiedlungen (Partien 1–3)",
+      "description": "Ein einleitender 3-Partien-Bogen zur Gründung erster Küstenbetriebe mit einem einzelnen Würfel und Kennenlernen der Legacy-Regeln."
+    },
+    "machi_koro_metropolis_master": {
+      "name": "Meister-Inselentwickler (10 Partien & Endlos-Modus)",
+      "description": "Die vollständige 10-Partien-Kampagne gefolgt von dauerhaften Partien mit eurem maßgeschneiderten, voll ausgebauten Spielplan."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Partie 1",
+      "title": "Gründung der Inselstädte",
+      "phase": "Akt I - Die ersten Ernten",
+      "description": "Öffnen der ersten Schachtel, Bestellen von Weizenfeldern, Backen von Brot und Errichten der ersten vier Großprojekte."
+    },
+    {
+      "badgeText": "Partie 3",
+      "title": "Häfen & Werften",
+      "phase": "Akt II - Maritimer Handel",
+      "description": "Freischaltung maritimer Kartendecks, Fischerflotten und Fährverbindungen zwischen den Inseln des Archipels."
+    },
+    {
+      "badgeText": "Partie 6",
+      "title": "Feste & Tourismus",
+      "phase": "Akt III - Kulturelle Blüte",
+      "description": "Bau von Festplätzen, Vergnügungsparks und Ferienresorts, die Besucher vom Festland anlocken."
+    },
+    {
+      "badgeText": "Partie 8",
+      "title": "Schwerindustrie & Eisenbahnen",
+      "phase": "Akt IV - Moderne Infrastruktur",
+      "description": "Schnellzugtrassen, Bergwerke und High-Tech-Zentralen verbinden die konkurrierenden Stadtbezirke."
+    },
+    {
+      "badgeText": "Partie 10",
+      "title": "Die Große Inselmetropole",
+      "phase": "Akt V - Die Krönung des Bürgermeisters",
+      "description": "Vollendung des finalen Inseldenkmals, Abrechnung der Gesamtpunkte und feierliche Kürung des Oberbürgermeisters."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Aliens: Another Glorious Day in the Corps",
+  "subtitle": "Kooperative Sci-Fi-Überlebens-Miniaturenkampagne",
+  "tagline": "Waffen entsichern, Bewegungsmelder aktivieren und den tödlichen Xenomorph-Schwarm auf LV-426 überleben.",
+  "loreSummary": "Übernimm das Kommando über Ripley und ihre Truppe Colonial Marines (Hicks, Hudson, Vasquez und Gorman), um das Schweigen der Kolonie Hadley's Hope zu untersuchen. Verwalte dein Ausdauerdeck sorgsam, während Munition schwindet und Aliens in den Lüftungsschächten lauern.",
+  "badgeCategory": "Kooperatives Sci-Fi-Survival",
+  "roadmapTitle": "Einsätze auf Hadley's Hope",
+  "roadmapBadge": "Kampfmissionen",
+  "keyFeatures": [
+    "Packende Brettspiel-Adaption von James Camerons Filmklassiker Aliens (1986)",
+    "Innovatives Ausdauerdeck: Karten fungieren gleichzeitig als Waffen, Munition, Ausrüstung und Truppengesundheit",
+    "Bewegungsmelder-Marker, die lauernde Facehugger, Krieger und plötzliche Hinterhalte aufdecken",
+    "Filmreife, mehrteilige Kampagne von der Kolonielandung bis zum Showdown mit der Alien-Königin"
+  ],
+  "scopes": {
+    "aliens_hadleys_hope_campaign": {
+      "name": "Hadley's Hope Überlebenskampagne (Missionen 1–4)",
+      "description": "Die vollständige filmreife Kampagne der Marines durch die Kolonie, den Schwarmbau und die hektische Evakuierung."
+    },
+    "aliens_airlock_incursion": {
+      "name": "Landezonen-Aufklärung (Missionen 1–2)",
+      "description": "Ein kompakter 2-Missionen-Einstieg mit dem Aufbau von Wachgeschützen und der Erkundung des Hauptkomplexes."
+    },
+    "aliens_ultimate_badasses": {
+      "name": "Harte Hunde-Marathon (8 Missionen & Nest der Königin)",
+      "description": "Ein gnadenloser Großmarathon inklusive Rettungsmissionen, Schachtflucht und dem finalen Königinnen-Duell."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Mission 1",
+      "title": "Landung auf Hadley's Hope",
+      "phase": "Akt I - Der Bewegungsmelder piept",
+      "description": "Aufbrechen der äußeren Luftschleuse der Kolonie, während sich bedrohliche Echos auf dem Schirm nähern."
+    },
+    {
+      "badgeText": "Mission 2",
+      "title": "Atmosphären-Prozessorstation",
+      "phase": "Akt II - Mitten in den Bau",
+      "description": "Flammenwerferstöße und Smartgun-Salven in den feuchten, harzverklebten Gängen des Aliennestes entfesseln."
+    },
+    {
+      "badgeText": "Mission 3",
+      "title": "Rettet Newt",
+      "phase": "Akt III - Niemand bleibt zurück",
+      "description": "Hinabsteigen in die Lüftungsrohre und Med-Bays, um die einzige Überlebende, Newt, vor dem Kokon zu retten."
+    },
+    {
+      "badgeText": "Mission 4",
+      "title": "Evakuierung der Untergeschosse",
+      "phase": "Akt IV - Countdown zur Kernschmelze",
+      "description": "Sprint durch verbarrikadierte Flure zum gepanzerten Transporter, bevor die Kühltürme explodieren."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Weg von ihr, du Miststück!",
+      "phase": "Akt V - Showdown mit der Königin",
+      "description": "Im Power-Loader-Exoskelett auf dem Frachtdeck der Sulaco gegen die Alien-Königin kämpfen und sie ins All schleudern."
+    }
+  ]
+}

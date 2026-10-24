@@ -1,0 +1,61 @@
+{
+  "title": "This War of Mine: Das Brettspiel",
+  "subtitle": "Eindringliche zivile Überlebenskampagne",
+  "tagline": "Erlebe das schonungslose Schicksal von Zivilisten in einer belagerten Stadt durch verzweifelte Tage und gefährliche Nächte.",
+  "loreSummary": "Im Krieg ist nicht jeder ein Soldat. Gefangen in der zerstörten Stadt Pogoren müssen du und deine Gefährten nach Nahrung, Medizin und Brennstoff suchen, während ihr herzzerreißende moralische Entscheidungen treffen müsst, um den Waffenstillstand zu erleben.",
+  "badgeCategory": "Zivile Überlebenskampagne",
+  "roadmapTitle": "Tage der Belagerung",
+  "roadmapBadge": "Überlebenstage",
+  "keyFeatures": [
+    "Kompromisslose und bewegende Brettspiel-Adaption des Meisterwerks von 11 bit studios",
+    "Sofort spielbares Tagebuchsystem mit über 1.900 verzweigten Skriptabschnitten",
+    "Tag- und Nachtzyklus: Barrikadiere tagsüber die Unterkunft, durchsuche nachts die Ruinen",
+    "Dauerhafte Speicherkarten zur Erfassung von Wunden, Krankheiten, Elend und Traumata"
+  ],
+  "scopes": {
+    "this_war_of_mine_ceasefire": {
+      "name": "Bis zum Waffenstillstand (Vollständige Kampagne)",
+      "description": "Die vollständige 8-Tage-Überlebensprüfung, bei der Kälte, Nachtüberfälle und Mangel bis zum Friedensabkommen überstanden werden."
+    },
+    "this_war_of_mine_first_snow": {
+      "name": "Erster Schnee (Kurzer Überlebensbogen)",
+      "description": "Ein 4-Tage-Einstieg mit Fokus auf die anfängliche Befestigung der Zuflucht vor Einbruch des harten Winters."
+    },
+    "this_war_of_mine_ironman": {
+      "name": "Harter Winter (Alle Skripte & Höchste Härte)",
+      "description": "Ein unerbittlicher 12-Tage-Ausdauertest mit schweren Schneestürmen, Seuchenausbrüchen und brutalen Milizüberfällen."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Tag 1",
+      "title": "Sicherung der Zuflucht",
+      "phase": "Akt I - Das Trümmerhaus",
+      "description": "Schutt wegräumen, eingeschlagene Fenster verbarrikadieren und Notbetten bauen, um den ersten Beschuss zu überstehen."
+    },
+    {
+      "badgeText": "Tag 3",
+      "title": "Erste nächtliche Plünderung",
+      "phase": "Akt II - Durch die stillen Straßen",
+      "description": "Unter Scharfschützenfeuer in verlassene Apotheken und Läden schleichen, um Nahrung und Verbandszeug zu retten."
+    },
+    {
+      "badgeText": "Tag 5",
+      "title": "Der bittere Frost",
+      "phase": "Akt III - Überleben unter dem Gefrierpunkt",
+      "description": "Klirrende Kälte zwingt zu quälenden Entscheidungen zwischen dem Verbrennen von Büchern und der Suche nach Brennholz."
+    },
+    {
+      "badgeText": "Tag 7",
+      "title": "Verzweifelte Fremde an der Tür",
+      "phase": "Akt IV - Gewissenskonflikte",
+      "description": "Nachtangriffe und moralische Abgründe, wenn hungernde Nachbarn oder bewaffnete Milizen Einlass fordern."
+    },
+    {
+      "badgeText": "Tag 8",
+      "title": "Die Waffenstillstands-Sirene",
+      "phase": "Akt V - Der Morgen danach",
+      "description": "Ausharren bis die Friedensmeldung durch Pogoren schallt und die seelischen und menschlichen Verluste gezählt werden."
+    }
+  ]
+}

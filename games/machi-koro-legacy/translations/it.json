@@ -1,0 +1,61 @@
+{
+  "title": "Machi Koro Legacy",
+  "subtitle": "Campagna Legacy Evolutiva di Costruzione Cittadina Insulare",
+  "tagline": "Lancia i dadi, edifica monumenti e osserva la tua città arcipelago evolversi permanentemente in 10 partite.",
+  "loreSummary": "Sindaci rivali sono chiamati a urbanizzare e rendere prospero un idilliaco arcipelago tropicale. Lancia i dadi, riscuoti rendite da panetterie, porti turistici e parchi dei divertimenti e apri scatole segrete che introducono per sempre nuove carte, regole e tracciati sulle plance.",
+  "badgeCategory": "Campagna Legacy di Dadi e Città",
+  "roadmapTitle": "Sviluppo dell'Arcipelago",
+  "roadmapBadge": "Partite Legacy",
+  "keyFeatures": [
+    "Adattamento legacy del celebre gioco di dadi co-ideato da Rob Daviau (Risk Legacy, Pandemic Legacy)",
+    "Campagna narrativa in 10 partite con scomparti sigillati, carte storia ed elementi adesivi permanenti",
+    "Genera una copia personalizzata e rigiocabile all'infinito di Machi Koro al termine della campagna",
+    "Divertimento immediato, accessibile e scanzonato, perfetto per famiglie e gruppi affiatati"
+  ],
+  "scopes": {
+    "machi_koro_ten_game_campaign": {
+      "name": "L'Eredità del Sindaco dell'Isola (Tutte le 10 Partite)",
+      "description": "L'arco narrativo completo che apre tutte le scatole segrete, costruisce i monumenti e incorona il Sindaco Supremo."
+    },
+    "machi_koro_first_districts": {
+      "name": "I Borghi Fondatori (Partite 1–3)",
+      "description": "Un percorso introduttivo di 3 partite per allestire le prime attività costiere con un dado singolo e assimilare le regole legacy."
+    },
+    "machi_koro_metropolis_master": {
+      "name": "Mastro Urbanista dell'Isola (10 Partite & Partite Libere)",
+      "description": "La campagna completa di 10 partite seguita da partite libere utilizzando la propria plancia di gioco personalizzata."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Partita 1",
+      "title": "Fondazione dei Borghi Insulari",
+      "phase": "Atto I - I Primi Raccolti",
+      "description": "Aprire la scatola legacy, piantare campi di grano, avviare panetterie e gareggiare per edificare i primi quattro monumenti."
+    },
+    {
+      "badgeText": "Partita 3",
+      "title": "Porti & Cantieri Navali",
+      "phase": "Atto II - Commercio Marittimo",
+      "description": "Sbloccare mazzi nautici, flotte pescherecce e linee di traghetti che collegano le varie isole dell'arcipelago."
+    },
+    {
+      "badgeText": "Partita 6",
+      "title": "Feste & Turismo",
+      "phase": "Atto III - Splendore Culturale",
+      "description": "Costruire piazze per sagre, parchi giochi e resort di lusso che attirano visitatori dalla terraferma."
+    },
+    {
+      "badgeText": "Partita 8",
+      "title": "Industria Pesante & Ferrovie",
+      "phase": "Atto IV - Infrastrutture Moderne",
+      "description": "Collegare treni veloci comunali, miniere e quartier generali high-tech tra i distretti dei vari giocatori."
+    },
+    {
+      "badgeText": "Partita 10",
+      "title": "La Grande Metropoli dell'Isola",
+      "phase": "Atto V - L'Incoronazione del Sindaco",
+      "description": "Completare il monumento definitivo, calcolare il punteggio storico complessivo e proclamare il Sindaco Supremo."
+    }
+  ]
+}

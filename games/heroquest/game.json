@@ -1,0 +1,104 @@
+{
+  "id": "heroquest",
+  "title": "HeroQuest",
+  "releaseYear": 2021,
+  "designers": "Stephen Baker",
+  "playersMin": 2,
+  "playersMax": 5,
+  "bggRating": 7.3,
+  "bggWeight": 2.15,
+  "bggUrl": "https://boardgamegeek.com/boardgame/329584/heroquest",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "quests",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#dc2626",
+    "secondaryColor": "#78350f",
+    "accentColor": "#eab308",
+    "backgroundGradient": "radial-gradient(ellipse at top, #450a0a 0%, #1c1917 60%, #0c0a09 100%)",
+    "cardBackground": "rgba(28, 25, 23, 0.94)",
+    "borderColor": "rgba(220, 38, 38, 0.35)",
+    "glowColor": "rgba(220, 38, 38, 0.25)",
+    "headerFont": "'Cinzel', 'MedievalSharp', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "⚔️",
+    "emblem": "⚔️🛡️",
+    "themeClass": "theme-heroquest",
+    "activeThemeClass": "theme-heroquest-active",
+    "roadmapClass": "roadmap-heroquest",
+    "heroClass": "hero-heroquest"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #329584)",
+    "Avalon Hill / Hasbro Official Quest Book & Companion App",
+    "Stephen Baker HeroQuest Classic Adventure Anthology"
+  ],
+  "scopes": [
+    {
+      "id": "heroquest_core_fourteen_quests",
+      "baseScenarioCount": 14,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": true
+    },
+    {
+      "id": "heroquest_introductory_trial",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    },
+    {
+      "id": "heroquest_master_mentor",
+      "baseScenarioCount": 20,
+      "estimatedFailRatePercent": 20.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🚪",
+      "badgeText": "Quest 1",
+      "title": "The Trial",
+      "phase": "Act I - The Dungeon Threshold",
+      "description": "Stepping through the heavy dungeon doorway to battle Orcs and Goblins and survive your first deadly labyrinth."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🗝️",
+      "badgeText": "Quest 4",
+      "title": "Prince Magnus' Gold",
+      "phase": "Act II - Royal Treasures",
+      "description": "Infiltrating subterranean catacombs to recover stolen royal gold chests from Chaos warriors."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 8,
+      "iconEmoji": "🔥",
+      "badgeText": "Quest 8",
+      "title": "The Fire Mage",
+      "phase": "Act III - Blazing Sorcery",
+      "description": "Confronting the renegade pyromancer Balur within his subterranean magma fortress before he unleashes doom."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 11,
+      "iconEmoji": "⚔️",
+      "badgeText": "Quest 11",
+      "title": "Bastion of Chaos",
+      "phase": "Act IV - Shadow of Dread",
+      "description": "Breaching the outer sanctum of the Dread sorcerers and recovering the ancient Spirit Blade."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 14,
+      "iconEmoji": "👑",
+      "badgeText": "Quest 14",
+      "title": "Return to Barak Tor",
+      "phase": "Act V - The Witch Lord's Doom",
+      "description": "Unleashing the Spirit Blade against the undead Witch Lord to save Mentor and the realm of the Empire."
+    }
+  ]
+}

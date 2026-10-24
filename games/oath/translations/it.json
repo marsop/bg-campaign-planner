@@ -1,0 +1,61 @@
+{
+  "title": "Oath: Cronache di Impero ed Esilio",
+  "subtitle": "Campagna Strategica Generazionale di Fantasia ed Eredità",
+  "tagline": "Plasma la storia viva di un regno attraverso le generazioni dove ogni vittoria trasforma le carte e il mondo.",
+  "loreSummary": "In Oath non esistono trame prestabilite. Un giocatore regna come Cancelliere imperiale mentre gli altri tramano come Cittadini fedeli o Esuli ribelli. L'esito di ogni partita determina la mappa, le carte e le condizioni di vittoria delle generazioni future.",
+  "badgeCategory": "Campagna Strategica Generazionale",
+  "roadmapTitle": "Cronaca delle Generazioni",
+  "roadmapBadge": "Ere della Cronaca",
+  "keyFeatures": [
+    "Design rivoluzionario di eredità generazionale creato da Cole Wehrle con narrazione emergente",
+    "Mazzo del Mondo dinamico dove le carte vengono aggiunte, archiviate o bandite a seconda del vincitore",
+    "Ruoli politici mutevoli: giura fedeltà come Cittadino o guida la rivolta come Esule",
+    "Splendida veste artistica fiabesca magistralmente illustrata da Kyle Ferrin"
+  ],
+  "scopes": {
+    "oath_grand_dynasty": {
+      "name": "La Grande Dinastia della Cronaca (12 Partite)",
+      "description": "Un'epopea generazionale su 12 partite scandita da regnanti deposti, culti in mutamento e rivolte popolari."
+    },
+    "oath_reign_of_chancellors": {
+      "name": "Il Regno dei Primi Cancellieri (4 Partite)",
+      "description": "Un arco introduttivo per instaurare l'ordine imperiale e sperimentare la prima successione dinastica."
+    },
+    "oath_immortal_empire": {
+      "name": "Un Secolo di Contese (18 Partite)",
+      "description": "Una colossale cronaca plurisecolare che testimonia l'ascesa e la rovina totale di molteplici casate imperiali."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Generazione I",
+      "title": "Il Giuramento Iniziale del Cancelliere",
+      "phase": "Era I - L'Alba dell'Impero",
+      "description": "Pronunciare il Giuramento di Supremazia fondativo mentre gli Esuli tramano insurrezioni dalle province lontane."
+    },
+    {
+      "badgeText": "Generazione III",
+      "title": "Prima Successione Dinastica",
+      "phase": "Era II - La Cronaca Rinnovata",
+      "description": "La visione del vincitore archivia carte nel Mazzo del Mondo, trasformando credi, segreti e tattiche militari."
+    },
+    {
+      "badgeText": "Generazione VI",
+      "title": "Ascesa dell'Avanguardia Cittadina",
+      "phase": "Era III - Lealtà Infrante",
+      "description": "Ex ribelli ottengono la cittadinanza, corrompendo reliquie imperiali e insidiando la discendenza del cancelliere."
+    },
+    {
+      "badgeText": "Generazione IX",
+      "title": "Tramonto dell'Alta Dinastia",
+      "phase": "Era IV - L'Era dei Segreti Oscuri",
+      "description": "Antiche visioni dimenticate risorgono nelle province mentre cospirazioni ed eresie dilagano a corte."
+    },
+    {
+      "badgeText": "Generazione XII",
+      "title": "L'Eterna Cronaca",
+      "phase": "Era V - Un'Eredità Millenaria",
+      "description": "Sigillare la scatola della Cronaca, consacrando secoli di storia forgiata direttamente dai giocatori."
+    }
+  ]
+}

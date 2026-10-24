@@ -1,0 +1,28 @@
+/* T.I.M.E Stories Scoped Styling */
+.theme-time-stories {
+  --ts-cyan: #0ea5e9;
+  --ts-purple: #a855f7;
+  --ts-dark: #1e293b;
+}
+
+.theme-time-stories .game-card-selected,
+.theme-time-stories-active {
+  border-color: var(--ts-cyan) !important;
+  box-shadow: 0 0 20px rgba(14, 165, 233, 0.35) !important;
+}
+
+.roadmap-time-stories .roadmap-milestone-card {
+  border-left: 4px solid var(--ts-cyan);
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);
+}
+
+.roadmap-time-stories .milestone-badge {
+  background-color: var(--ts-cyan);
+  color: #0f172a;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 700;
+}
+
+.hero-time-stories {
+  border-bottom: 2px solid rgba(14, 165, 233, 0.4);
+}

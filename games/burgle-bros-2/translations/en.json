@@ -1,0 +1,61 @@
+{
+  "title": "Burgle Bros 2: The Casino Capers",
+  "subtitle": "Cooperative Casino Heist Stealth Campaign",
+  "tagline": "Pull off daring casino heists, dodge security bouncers, and escape with the jackpot across 9 sequential capers.",
+  "loreSummary": "The crew is back in town, and this time the target is an opulent casino strip. Work together to explore two modular floors of blackjack tables, roulette wheels, and hidden vaults. Avoid vigilant bouncers, leverage unique heist equipment, and escape before the alarm sounds.",
+  "badgeCategory": "Cooperative Stealth Heist",
+  "roadmapTitle": "Casino Heist Operations",
+  "roadmapBadge": "Casino Capers",
+  "keyFeatures": [
+    "Sequel to the hit cooperative heist game Burgle Bros by designer Tim Fowers",
+    "9-caper sequential campaign mode with unique bouncer abilities, event decks, and reward gear",
+    "Multi-floor 3D table presence featuring 2-story casino floor boards and surveillance dice",
+    "Rich crew synergy: coordinate acrobat, hacker, spotter, and muscle abilities to crack vaults"
+  ],
+  "scopes": {
+    "burgle_bros_2_casino_campaign": {
+      "name": "The Grand Casino Campaign (All 9 Capers)",
+      "description": "The complete campaign narrative mastering all 9 unique bouncer capers from opening night to the high-roller finale."
+    },
+    "burgle_bros_2_first_heists": {
+      "name": "The Opening Night (Capers 1–3)",
+      "description": "An introductory 3-caper heist arc infiltrating the main gambling floors and establishing your safe-cracking routine."
+    },
+    "burgle_bros_2_master_thieves": {
+      "name": "Master Syndicate Heists (9 Capers & High Roller Finale)",
+      "description": "An exhaustive criminal syndicate marathon taking on advanced bouncers, high-alert security, and maximum heat."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Caper 1",
+      "title": "The High Roller Floor",
+      "phase": "Act I - Infiltrating the Casino",
+      "description": "Sneaking past the first floor bouncers, cracking the roulette wheel safe, and dodging roaming security guards."
+    },
+    {
+      "badgeText": "Caper 3",
+      "title": "The Lounge Singer's Distraction",
+      "phase": "Act II - Setting the Grift",
+      "description": "Employing disguised crew members to trigger casino alarms and slip through the surveillance room."
+    },
+    {
+      "badgeText": "Caper 5",
+      "title": "The Penthouse Vault",
+      "phase": "Act III - Cracking the Big One",
+      "description": "Cracking the synchronized laser security grid on the upper penthouse floor to snatch the master payout."
+    },
+    {
+      "badgeText": "Caper 7",
+      "title": "Double Down Undercover",
+      "phase": "Act IV - The Bouncer Lockdown",
+      "description": "Evading aggressive pit bosses and security dogs while escorting the getaway driver to the monorail exit."
+    },
+    {
+      "badgeText": "Caper 9",
+      "title": "Rooftop Helipad Escape",
+      "phase": "Act V - The Final Score",
+      "description": "Outsmarting the Casino Owner, grabbing the grand jackpot, and leaping to the getaway chopper."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+/* Scoped styles for Freelancers: A Crossroads Game */
+
+.theme-freelancers {
+  --freelancers-orange: #e75a3c;
+  --freelancers-teal: #2a7b88;
+  --freelancers-yellow: #f5b700;
+  --freelancers-dark: #1e1822;
+  --freelancers-border: rgba(245, 183, 0, 0.4);
+}
+
+.roadmap-freelancers .roadmap-item::before {
+  border-left-color: var(--freelancers-orange);
+}
+
+.hero-freelancers {
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.75);
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Detective: City of Angels",
+  "subtitle": "1940s Noir Mystery & LAPD Homicide Campaign",
+  "tagline": "Step into the smoky, corrupt streets of 1940s Los Angeles and crack 9 gripping homicide cases.",
+  "loreSummary": "Welcome to Los Angeles in the late 1940s—a glittering city of cinema glamour, back-alley murder, and ruthless corruption. As LAPD homicide detectives, interrogate deceitful suspects, gather forensic evidence, bribe informants, and outwit 'The Chisel' to solve complex cases and close the casebook.",
+  "badgeCategory": "1940s Noir Mystery Campaign",
+  "roadmapTitle": "LAPD Homicide Case Files",
+  "roadmapBadge": "Solved Cases",
+  "keyFeatures": [
+    "Groundbreaking 'ARC System' (Adaptive Response Card) providing responsive suspect interrogations",
+    "Playable cooperatively, solo (Sleuth mode), or competitively with one player acting as 'The Chisel'",
+    "9 intricately plotted cases written by mystery novelist Evan Derrick with atmospheric crime art",
+    "Rich period atmosphere: search crime scenes, call in snitches, and bluff suspects into confessions"
+  ],
+  "scopes": {
+    "city_of_angels_complete_dossier": {
+      "name": "The Full LAPD Casebook (All 9 Core Cases)",
+      "description": "The complete narrative journey investigating all 9 intricate homicide cases across the seediest corners of Los Angeles."
+    },
+    "city_of_angels_rookie_investigator": {
+      "name": "Sunset Boulevard Starter Trilogy (Cases 1–3)",
+      "description": "An introductory 3-case investigation arc getting your badge dirty in the early Hollywood and motel homicides."
+    },
+    "city_of_angels_master_chisel": {
+      "name": "Homicide Division Master Detective (9 Cases & Smoke & Mirrors)",
+      "description": "An exhaustive investigative dossier covering all 9 base cases plus expansion mysteries at maximum difficulty."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Case 1",
+      "title": "The Big Squeeze",
+      "phase": "Act I - Rookie Beat",
+      "description": "Interrogating suspects across Hollywood motels, bribing snitches, and solving your first high-profile homicide."
+    },
+    {
+      "badgeText": "Case 3",
+      "title": "Deadly Reputation",
+      "phase": "Act II - Studio Lot Corruption",
+      "description": "Peeling back the glamorous facade of studio moguls and starlets to expose blackmail rings and mob ties."
+    },
+    {
+      "badgeText": "Case 5",
+      "title": "Blood on the Boulevard",
+      "phase": "Act III - Midnight Vice",
+      "description": "Confronting crooked cops and syndicate bookies across smoke-filled jazz clubs and underground casinos."
+    },
+    {
+      "badgeText": "Case 7",
+      "title": "A Bullet for the District Attorney",
+      "phase": "Act IV - City Hall Conspiracies",
+      "description": "Untangling high-level municipal corruption where municipal judges and syndicate bosses share bank accounts."
+    },
+    {
+      "badgeText": "Case 9",
+      "title": "City of Angels Final Ledger",
+      "phase": "Act V - The Chief's Commendation",
+      "description": "Delivering the final arrest warrants to the Chief of Police and cementing your reputation in LAPD legend."
+    }
+  ]
+}

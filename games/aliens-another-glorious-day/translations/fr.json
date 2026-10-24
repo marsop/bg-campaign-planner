@@ -1,0 +1,61 @@
+{
+  "title": "Aliens: Another Glorious Day in the Corps",
+  "subtitle": "Campagne Coopérative de Figurines et Survie Sci-Fi",
+  "tagline": "Armez vos fusils à impulsions, allumez le détecteur de mouvements et survivez à la ruche xénomorphe sur LV-426.",
+  "loreSummary": "Prenez les rênes de Ripley et de son escouade de Marines Coloniaux d'élite (Hicks, Hudson, Vasquez et Gorman) pour éclaircir le silence pesant sur la colonie de Hadley's Hope. Gérez votre deck d'endurance tandis que les munitions s'amenuisent et que les xénomorphes rôdent dans les gaines d'aération.",
+  "badgeCategory": "Survie Coopérative Sci-Fi",
+  "roadmapTitle": "Opérations sur Hadley's Hope",
+  "roadmapBadge": "Missions de Combat",
+  "keyFeatures": [
+    "Immersion totale restituant l'angoisse et la frénésie du chef-d'œuvre de James Cameron Aliens (1986)",
+    "Deck d'Endurance multifonction : chaque carte représente armes, munitions, équipement et points de vie de l'escouade",
+    "Pions de détecteur de mouvements cachant facehuggers embusqués, guerriers aliens et attaques surprises",
+    "Campagne scénarisée progressive, du premier assaut dans le complexe jusqu'au duel titanesque contre la Reine"
+  ],
+  "scopes": {
+    "aliens_hadleys_hope_campaign": {
+      "name": "Campagne de Survie Hadley's Hope (Missions 1–4)",
+      "description": "La reconstitution cinématographique intégrale menant les marines à travers la colonie, la ruche et l'évacuation d'urgence."
+    },
+    "aliens_airlock_incursion": {
+      "name": "Reconnaissance de la Zone de Largage (Missions 1–2)",
+      "description": "Une incursion courte de 2 missions pour déployer les tourelles automatiques et sonder les coursives principales."
+    },
+    "aliens_ultimate_badasses": {
+      "name": "Marathon Têtes Brûlées (8 Missions & Antre de la Reine)",
+      "description": "Un périple sans pitié englobant sauvetages dans les conduits, extraction sous haute tension et combat contre la Reine."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Mission 1",
+      "title": "Atterrissage à Hadley's Hope",
+      "phase": "Acte I - Les Échos du Détecteur",
+      "description": "Forcer le sas de la colonie de terraformation abandonnée alors que des signaux d'alerte convergent sur le radar."
+    },
+    {
+      "badgeText": "Mission 2",
+      "title": "Usine de Traitement Atmosphérique",
+      "phase": "Acte II - Au Cœur de la Ruche",
+      "description": "Arroser de flammes et de rafales de smartgun les coursives étouffantes tapissées de résine alien."
+    },
+    {
+      "badgeText": "Mission 3",
+      "title": "Sauver Newt",
+      "phase": "Acte III - Aucun Marine Abandonné",
+      "description": "Ramper dans les conduits de ventilation et les labos médicaux pour secourir l'unique rescapée, Newt."
+    },
+    {
+      "badgeText": "Mission 4",
+      "title": "Évacuation des Sous-Sols",
+      "phase": "Acte IV - Compte à Rebours d'Implosion",
+      "description": "Sprinter dans les couloirs barricadés vers le blindé APC avant l'explosion cataclysmique du réacteur."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Ne la Touche Pas, Sale Pute !",
+      "phase": "Acte V - Face-à-face avec la Reine",
+      "description": "Prendre les commandes de l'exosquelette de manutention sur le Sulaco pour expulser la Reine Xénomorphe dans l'espace."
+    }
+  ]
+}

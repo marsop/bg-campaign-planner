@@ -1,0 +1,104 @@
+{
+  "id": "oath",
+  "title": "Oath: Chronicles of Empire and Exile",
+  "releaseYear": 2021,
+  "designers": "Cole Wehrle",
+  "playersMin": 1,
+  "playersMax": 6,
+  "bggRating": 7.7,
+  "bggWeight": 4.10,
+  "bggUrl": "https://boardgamegeek.com/boardgame/291572/oath-chronicles-of-empire-and-exile",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 15,
+  "unitType": "chronicles",
+  "quality": "high",
+  "theme": {
+    "primaryColor": "#eab308",
+    "secondaryColor": "#451a03",
+    "accentColor": "#059669",
+    "backgroundGradient": "radial-gradient(ellipse at top, #451a03 0%, #1c1917 60%, #0c0a09 100%)",
+    "cardBackground": "rgba(28, 25, 23, 0.94)",
+    "borderColor": "rgba(234, 179, 8, 0.35)",
+    "glowColor": "rgba(234, 179, 8, 0.25)",
+    "headerFont": "'Cinzel', Georgia, serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "📜",
+    "emblem": "📜⚔️",
+    "themeClass": "theme-oath",
+    "activeThemeClass": "theme-oath-active",
+    "roadmapClass": "roadmap-oath",
+    "heroClass": "hero-oath"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #291572)",
+    "Leder Games Official Rulebook & Chronicle Guide",
+    "Cole Wehrle Designer Diary & Chronicle Archive"
+  ],
+  "scopes": [
+    {
+      "id": "oath_grand_dynasty",
+      "baseScenarioCount": 12,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": true
+    },
+    {
+      "id": "oath_reign_of_chancellors",
+      "baseScenarioCount": 4,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": false
+    },
+    {
+      "id": "oath_immortal_empire",
+      "baseScenarioCount": 18,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "👑",
+      "badgeText": "Generation I",
+      "title": "The Chancellor's Initial Oath",
+      "phase": "Era I - Dawn of the Empire",
+      "description": "Swearing the founding Oath of Supremacy while Exiles plot rebellions from the Hinterlands and Cradle."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "📜",
+      "badgeText": "Generation III",
+      "title": "First Dynastic Succession",
+      "phase": "Era II - The Chronicle Reshaped",
+      "description": "The victor's vision archives cards into the World Deck, fundamentally changing the realm's religions, secrets, and warfare."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "⚔️",
+      "badgeText": "Generation VI",
+      "title": "Rise of the Citizen Vanguard",
+      "phase": "Era III - Fractured Loyalties",
+      "description": "Former exiles are offered citizenship, corrupting imperial relics and vying to usurp the chancellor's bloodline."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🏛️",
+      "badgeText": "Generation IX",
+      "title": "Twilight of the High Dynasty",
+      "phase": "Era IV - Age of Dark Secrets",
+      "description": "Ancient forgotten visions take hold of the Provinces as secret arcana and conspiracy cards flood the court."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 12,
+      "iconEmoji": "🌟",
+      "badgeText": "Generation XII",
+      "title": "The Eternal Chronicle",
+      "phase": "Era V - A Thousand-Year Legacy",
+      "description": "Sealing the master Chronicle box, enshrining centuries of player-driven history, betrayal, and sovereign rule."
+    }
+  ]
+}

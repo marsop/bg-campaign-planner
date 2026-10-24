@@ -1,0 +1,49 @@
+{
+  "title": "T.I.M.E Stories",
+  "subtitle": "Campagne d'Exploration de Deck et Voyage Temporel",
+  "tagline": "Transférez votre esprit dans des réceptacles historiques et résolvez les paradoxes spatio-temporels avant la fin du décompte.",
+  "loreSummary": "L'Agence T.I.M.E protège l'humanité des failles temporelles qui menacent le continuum. En tant qu'agents d'élite, projetez votre conscience dans des hôtes d'époque (les réceptacles) pour enquêter, percer des énigmes et sauver l'Histoire à travers plusieurs boucles successives.",
+  "badgeCategory": "Exploration de Deck & Voyage Temporel",
+  "roadmapTitle": "Manifeste des Boucles Temporelles",
+  "roadmapBadge": "Runs d'Agence",
+  "keyFeatures": [
+    "Système novateur de Deck-Exploring utilisant des panoramas de cartes pour matérialiser les pièces et lieux",
+    "Jauge d'Unités de Temps (UT) : chaque action coûte de précieux crans, imposant une optimisation stratégique",
+    "Enquête narrative riche en passages secrets, énigmes cryptées et tests de compétences personnalisés",
+    "La boîte de base inclut le scénario culte et immersif 'Asylum' situé dans le Paris de 1921"
+  ],
+  "scopes": {
+    "time_stories_asylum_mission": {
+      "name": "Mission 1 : Résolution Temporelle d'Asylum (3 Runs)",
+      "description": "L'expérience intégrale du scénario de base résolvant la faille de l'asile parisien en 3 boucles d'exploration."
+    },
+    "time_stories_first_loop": {
+      "name": "Premier Transfert et Reconnaissance (1 Run)",
+      "description": "Une boucle de découverte pour appréhender la topographie de l'asile et repérer les premiers suspects."
+    },
+    "time_stories_agency_quadrilogy": {
+      "name": "Quadrilogie du Cycle Blanc (12 Runs)",
+      "description": "Une vaste campagne couvrant les scénarios emblématiques du Cycle Blanc (Asylum, The Marcy Case, La Prophétie des Dragons)."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Run 1",
+      "title": "Insertion Tachyonique : Paris 1921",
+      "phase": "Boucle I - Prise de Contact Réceptacle",
+      "description": "Projeter l'esprit des agents dans des patients d'un asile psychiatrique français des Années Folles."
+    },
+    {
+      "badgeText": "Run 2",
+      "title": "Démêler la Faille Temporelle",
+      "phase": "Boucle II - Les Cryptes Secrètes",
+      "description": "Exploiter la mémoire des boucles antérieures pour déjouer les pièges mortels et ouvrir la crypte du sous-sol."
+    },
+    {
+      "badgeText": "Run 3",
+      "title": "Résorption du Paradoxe Quantique",
+      "phase": "Boucle III - Mission Accomplie",
+      "description": "Éradiquer la source de la faille avant l'épuisement des Unités de Temps et regagner la base de l'Agence."
+    }
+  ]
+}

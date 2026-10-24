@@ -1,0 +1,28 @@
+/* Machi Koro Legacy Scoped Styling */
+.theme-machi-koro-legacy {
+  --mkl-gold: #f59e0b;
+  --mkl-blue: #0284c7;
+  --mkl-green: #16a34a;
+}
+
+.theme-machi-koro-legacy .game-card-selected,
+.theme-machi-koro-legacy-active {
+  border-color: var(--mkl-gold) !important;
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.35) !important;
+}
+
+.roadmap-machi-koro-legacy .roadmap-milestone-card {
+  border-left: 4px solid var(--mkl-gold);
+  background: linear-gradient(135deg, rgba(3, 105, 161, 0.6) 0%, rgba(2, 44, 34, 0.8) 100%);
+}
+
+.roadmap-machi-koro-legacy .milestone-badge {
+  background-color: var(--mkl-gold);
+  color: #0c4a6e;
+  font-family: 'Comfortaa', cursive, sans-serif;
+  font-weight: 700;
+}
+
+.hero-machi-koro-legacy {
+  border-bottom: 2px solid rgba(245, 158, 11, 0.4);
+}

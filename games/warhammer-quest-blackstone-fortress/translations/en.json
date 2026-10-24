@@ -1,0 +1,61 @@
+{
+  "title": "Warhammer Quest: Blackstone Fortress",
+  "subtitle": "Grimdark Sci-Fi Dungeon Crawl Campaign",
+  "tagline": "Lead an unlikely band of explorers into a hostile, ever-shifting alien space station in the Warhammer 40,000 universe.",
+  "loreSummary": "In the dark corners of the galaxy, a Blackstone Fortress drifts through the void—a gargantuan alien structure of forgotten origin. From the lawless outpost of Precipice, lead a disparate group of adventurers into its shifting obsidian labyrinth to plunder archaeotech and unseal the hidden Vault.",
+  "badgeCategory": "Grimdark Sci-Fi Dungeon Crawl",
+  "roadmapTitle": "Expeditions to the Vault",
+  "roadmapBadge": "Strongholds & Vaults",
+  "keyFeatures": [
+    "Cooperative or solo dungeon crawl adventure set in the iconic Warhammer 40,000 universe",
+    "Dynamic exploration deck with unpredictable combat chambers, wandering hostiles, and alien chambers",
+    "Precipice trading hub: barter archeotech, heal grievous wounds, and recruit starship support",
+    "4 climactic Stronghold assaults leading to the terrifying secrets of the Hidden Vault"
+  ],
+  "scopes": {
+    "blackstone_hidden_vault": {
+      "name": "The Hidden Vault Campaign (All 4 Strongholds & Vault)",
+      "description": "The complete epic quest spanning 18 expeditions to locate all clue cards, breach 4 Chaos strongholds, and conquer the central Vault."
+    },
+    "blackstone_first_stronghold": {
+      "name": "First Stronghold Incursion (Exploration & Stronghold 1)",
+      "description": "An introductory campaign arc establishing your explorer retinue and assaulting the first Chaos bastion."
+    },
+    "blackstone_master_explorer": {
+      "name": "Master Explorer of Precipice (Vault & Escalation Quests)",
+      "description": "An extensive campaign marathon including side quests, hostile reinforcements, and the deepest Vault chambers."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Expedition 1",
+      "title": "Arrival at Precipice",
+      "phase": "Act I - Edge of the Void",
+      "description": "Assembling a mercenary retinue at the Precipice trading station and venturing into the shifting corridors of the Blackstone Fortress."
+    },
+    {
+      "badgeText": "Stronghold 1",
+      "title": "Breaching the Chaos Bastion",
+      "phase": "Act II - The Malign Incursion",
+      "description": "Assaulting the first fortified stronghold defended by Traitor Guardsmen and foul Chaos Beastmen."
+    },
+    {
+      "badgeText": "Stronghold 2",
+      "title": "The Spindle Drone Swarm",
+      "phase": "Act III - Automated Defenses",
+      "description": "Deactivating automated fortress sentinels and retrieving archeotech clues from ancient alien machine vaults."
+    },
+    {
+      "badgeText": "Stronghold 4",
+      "title": "The Obsidian Gateway",
+      "phase": "Act IV - Shadow of Mallex",
+      "description": "Confronting the Chaos Lord Obsidius Mallex and claiming the final cipher key to unlock the heart of the station."
+    },
+    {
+      "badgeText": "Hidden Vault",
+      "title": "Secrets of the Precursors",
+      "phase": "Act V - The Vault Unsealed",
+      "description": "Surviving the reality-bending horrors of the central Vault to claim supreme archeotech power before the fortress collapses."
+    }
+  ]
+}

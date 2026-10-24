@@ -1,0 +1,61 @@
+{
+  "title": "Bajo Cielos de Ceniza",
+  "subtitle": "Campaña en Solitario de Colocación de Dados contra la Invasión Alienígena",
+  "tagline": "Lidera la resistencia subterránea de la Tierra contra una nodriza alienígena en una vibrante campaña de cómic.",
+  "loreSummary": "La gigantesca nave nodriza alienígena desciende sobre la atmósfera lanzando enjambres hostiles contra nuestras ciudades. Al mando de un búnker subterráneo, asigna dados para excavar salas, disparar baterías láser, investigar tecnología y salvar el planeta.",
+  "badgeCategory": "Campaña en Solitario de Ciencia Ficción",
+  "roadmapTitle": "Arco Narrativo de Cómic",
+  "roadmapBadge": "Capítulos de Historia",
+  "keyFeatures": [
+    "Aclamado diseño en solitario de colocación de dados con ingeniosa interacción de columnas",
+    "Campaña ramificada de 4 capítulos con viñetas de cómic y escenarios desbloqueables",
+    "Ciudades asediadas con habilidades únicas, personajes especiales y módulos tácticos",
+    "Ganador del premio Golden Geek 2020 al Mejor Juego de Mesa en Solitario"
+  ],
+  "scopes": {
+    "under_falling_skies_full_campaign": {
+      "name": "Campaña de Cómic Completa (16 Misiones)",
+      "description": "El arco completo de 4 capítulos con cómics narrativos, ciudades desbloqueables y contraataque final."
+    },
+    "under_falling_skies_first_chapter": {
+      "name": "Capítulo 1: El Descenso (4 Misiones)",
+      "description": "Un arco introductorio de 4 misiones defendiendo las primeras urbes y optimizando la excavación del búnker."
+    },
+    "under_falling_skies_hardcore_resistance": {
+      "name": "Resistencia Global Veterana (Todas las Ciudades & Dificultad Alta)",
+      "description": "Un desafío extremo defendiendo todas las metrópolis mundiales ante el máximo nivel de amenaza alienígena."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Capítulo 1",
+      "title": "La Llegada de la Nodriza",
+      "phase": "Capítulo 1 - Amenaza sobre Roswell",
+      "description": "Desplegar excavadoras subterráneas y baterías láser iniciales mientras la nave nodriza desciende sobre la ciudad."
+    },
+    {
+      "badgeText": "Capítulo 2",
+      "title": "Defendiendo Washington",
+      "phase": "Capítulo 2 - El Asedio a la Capital",
+      "description": "Desbloquear habilidades de personajes líderes y robots de apoyo para frenar las oleadas del enjambre invasor."
+    },
+    {
+      "badgeText": "Capítulo 3",
+      "title": "Avance Científico Subterráneo",
+      "phase": "Capítulo 3 - La Resistencia Global",
+      "description": "Impulsar las líneas de investigación para descifrar la tecnología alienígena y crear cañones de energía pesados."
+    },
+    {
+      "badgeText": "Capítulo 4",
+      "title": "Asalto al Núcleo",
+      "phase": "Capítulo 4 - El Contraataque Definitivo",
+      "description": "Coordinar las redes de ciudades libres para asestar un golpe letal directo al núcleo térmico de la nodriza."
+    },
+    {
+      "badgeText": "Victoria",
+      "title": "La Tierra Recuperada",
+      "phase": "Epílogo - Cielos Despejados",
+      "description": "Destruir la nave nodriza en órbita y liberar a las metrópolis terrestres de la opresión extraterrestre."
+    }
+  ]
+}

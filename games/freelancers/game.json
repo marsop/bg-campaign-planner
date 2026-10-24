@@ -1,0 +1,102 @@
+{
+  "id": "freelancers",
+  "title": "Freelancers: A Crossroads Game",
+  "releaseYear": 2023,
+  "designers": [
+    "Donald Shults"
+  ],
+  "playerCounts": [1, 2, 3, 4, 5, 6, 7],
+  "recommendedPlayerCounts": [3, 4, 5],
+  "idealPlayerCount": 4,
+  "bggRating": 7.6,
+  "bggRank": 1150,
+  "weight": 2.1,
+  "averageDurationMinutes": 120,
+  "unitType": "quests",
+  "quality": "mid",
+  "theming": {
+    "primaryColor": "#e75a3c",
+    "secondaryColor": "#2a7b88",
+    "accentColor": "#f5b700",
+    "fontFamily": "Space Grotesk, sans-serif",
+    "headerFont": "Bungee, cursive",
+    "emblem": "sword-bag"
+  },
+  "publicSources": [
+    "Plaid Hat Games official companion app, scenario guides, and rulebook",
+    "BoardGameGeek community campaign log and statistics"
+  ],
+  "scopes": [
+    {
+      "id": "intro-contract",
+      "name": "First Contract (Tutorial Job)",
+      "description": "Introductory freelance contract introducing app audio narration, time-pressured worker placement, and gig scoring.",
+      "units": 1,
+      "estimatedMinutesPerUnit": 90,
+      "isDefault": false
+    },
+    {
+      "id": "core-campaign",
+      "name": "The Big Score Campaign",
+      "description": "Standard narrative campaign featuring five distinct high-stakes freelance jobs through post-apocalyptic fantasy ruins.",
+      "units": 5,
+      "estimatedMinutesPerUnit": 120,
+      "isDefault": true
+    },
+    {
+      "id": "all-contracts",
+      "name": "All Contracts & Expansion Jobs",
+      "description": "Complete run playing all included story scenarios with varied character builds and legacy character sheets.",
+      "units": 7,
+      "estimatedMinutesPerUnit": 120,
+      "isDefault": false
+    }
+  ],
+  "milestones": [
+    {
+      "id": "first-payday",
+      "title": "The First Payday",
+      "phase": "Gig I",
+      "description": "Complete your crew's first contract, level up quirky skills, and record titles on your character sheet.",
+      "order": 1,
+      "targetUnitsCovered": 1,
+      "icon": "coin"
+    },
+    {
+      "id": "wasteland-notoriety",
+      "title": "Wasteland Notoriety",
+      "phase": "Gig II",
+      "description": "Survive bizarre mutant encounters and build the party's infamous reputation among rival guilds.",
+      "order": 2,
+      "targetUnitsCovered": 2,
+      "icon": "map"
+    },
+    {
+      "id": "crossroads-reckoning",
+      "title": "Crossroads Dilemma",
+      "phase": "Gig III",
+      "description": "Face difficult moral decisions triggered by Crossroads cards that pit personal greed against party survival.",
+      "order": 3,
+      "targetUnitsCovered": 4,
+      "icon": "crossroads"
+    },
+    {
+      "id": "the-master-heist",
+      "title": "The Grand Score",
+      "phase": "Gig IV",
+      "description": "Infiltrate a perilous corporate ruin to secure the ultimate treasure trove before the timer expires.",
+      "order": 4,
+      "targetUnitsCovered": 5,
+      "icon": "gem"
+    },
+    {
+      "id": "hall-of-legends",
+      "title": "Hall of Legends",
+      "phase": "Retirement",
+      "description": "Calculate lifetime plunder, cement your freelancer titles in folklore, and retire in outrageous luxury.",
+      "order": 5,
+      "targetUnitsCovered": 7,
+      "icon": "trophy"
+    }
+  ]
+}

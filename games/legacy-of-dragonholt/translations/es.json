@@ -1,0 +1,55 @@
+{
+  "subtitle": "Un juego de rol narrativo de héroes y misterios en Terrinoth",
+  "tagline": "Forja a tu héroe, elige tu camino y resuelve los oscuros misterios de una baronía dividida.",
+  "loreSummary": "Legacy of Dragonholt transporta a los jugadores al reino de fantasía heroica de Terrinoth. Creando personajes personalizados con habilidades y rasgos únicos, los aventureros se sumergen en una gran epopeya cooperativa sin necesidad de director de juego. A través de evocadores libros de relatos por párrafos, exploraréis la aldea de Dragonholt, interrogaréis a lugareños, os adentraréis en oscuras mazmorras y forjaréis el destino del reino con decisiones morales decisivas.",
+  "badgeCategory": "Rol Narrativo",
+  "roadmapTitle": "Crónicas de Dragonholt",
+  "roadmapBadge": "Campaña Narrativa",
+  "keyFeatures": [
+    "No requiere director de juego; sistema narrativo cooperativo impulsado por el innovador Oracle System",
+    "Profunda creación de personajes con linajes, clases, habilidades y trasfondos personalizados",
+    "Diálogos ramificados y decisiones con consecuencias duraderas a lo largo de la investigación",
+    "Ambientación de alta fantasía rica y detallada ambientada en el legendario mundo de Terrinoth"
+  ],
+  "scopes": {
+    "intro-quest": {
+      "name": "Rumbo a Dragonholt (Misión Introductoria)",
+      "description": "Misión introductoria que sirve de tutorial y presentación de personajes en el viaje hacia Dragonholt."
+    },
+    "core-campaign": {
+      "name": "Misterio Principal de Dragonholt",
+      "description": "Investigación narrativa completa sobre la misteriosa muerte de Celyse y las tensiones en la baronía."
+    },
+    "completionist": {
+      "name": "Exploración Completa y Misiones Secundarias",
+      "description": "Partida exhaustiva visitando cada rincón del pueblo, viñetas de personajes y tramas secundarias."
+    }
+  },
+  "milestones": {
+    "arrival-dragonholt": {
+      "title": "Rumbo a Dragonholt",
+      "phase": "Prólogo",
+      "description": "Los héroes sobreviven a los bandidos del camino y llegan sanos y salvos a la aldea de Dragonholt."
+    },
+    "village-investigation": {
+      "title": "Indagaciones en la Posada",
+      "phase": "Acto I",
+      "description": "Explorad la villa, conoced a personajes clave y descubrid indicios sospechosos sobre el heredero fallecido."
+    },
+    "wilderness-excursion": {
+      "title": "Las Tierras Salvajes",
+      "phase": "Acto II",
+      "description": "Adentraos en los peligrosos bosques circundantes, lidiando con forajidos, espíritus y aquelarres ocultos."
+    },
+    "manor-confrontation": {
+      "title": "La Corona Vacía",
+      "phase": "Acto III",
+      "description": "Infiltraos en la mansión, desenmascarad la conspiración y tomad decisiones determinantes para el reino."
+    },
+    "epilogue-destiny": {
+      "title": "Una Baronía Renacida",
+      "phase": "Epílogo",
+      "description": "Resolved todas las misiones personales restantes y presenciad el epílogo histórico en Terrinoth."
+    }
+  }
+}

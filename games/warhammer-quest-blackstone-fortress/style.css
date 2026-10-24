@@ -1,0 +1,29 @@
+/* Warhammer Quest: Blackstone Fortress Scoped Styling */
+.theme-blackstone-fortress {
+  --bf-cyan: #06b6d4;
+  --bf-dark: #111827;
+  --bf-gold: #f59e0b;
+  --bf-warp: #3b82f6;
+}
+
+.theme-blackstone-fortress .game-card-selected,
+.theme-blackstone-fortress-active {
+  border-color: var(--bf-cyan) !important;
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.35) !important;
+}
+
+.roadmap-blackstone-fortress .roadmap-milestone-card {
+  border-left: 4px solid var(--bf-cyan);
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.7) 0%, rgba(3, 7, 18, 0.9) 100%);
+}
+
+.roadmap-blackstone-fortress .milestone-badge {
+  background-color: var(--bf-cyan);
+  color: #111827;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+}
+
+.hero-blackstone-fortress {
+  border-bottom: 2px solid rgba(6, 182, 212, 0.4);
+}

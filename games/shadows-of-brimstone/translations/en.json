@@ -1,0 +1,61 @@
+{
+  "title": "Shadows of Brimstone: City of the Ancients",
+  "subtitle": "Weird-West Lovecraftian Dungeon Crawl Campaign",
+  "tagline": "Strap on your six-shooters and delve into cursed gold mines and alien Otherworlds in a classic dungeon-crawler.",
+  "loreSummary": "In the late 1890s, the boomtown of Brimstone struck the mother lode of Darkstone—a magical mineral that unleashed cosmic portals across the frontier. Create your custom Gunslinger, Saloon Girl, or US Marshal, battle eldritch abominations, and venture through tear rifts into ancient alien civilizations.",
+  "badgeCategory": "Weird-West Dungeon Crawl",
+  "roadmapTitle": "Expeditions into the Void",
+  "roadmapBadge": "Darkstone Missions",
+  "keyFeatures": [
+    "Vibrant fusion of classic Wild West gunplay and Lovecraftian cosmic horror",
+    "Deep character progression: gain experience, level up skill trees, and endure permanent physical/sanity injuries",
+    "Frontier Town interlude: visit saloons, gambling halls, doctors, and churches to craft gear and buy upgrades",
+    "Otherworld portals leading to the freezing robotic ruins of the Targa Plateau"
+  ],
+  "scopes": {
+    "brimstone_ancient_city_saga": {
+      "name": "The Targa Plateau Saga (All 12 Core Adventures + Otherworld)",
+      "description": "The complete campaign arc spanning 16 adventures delving through demon-infested mines, frontier town interludes, and alien gateways."
+    },
+    "brimstone_greenhorn_mines": {
+      "name": "Greenhorn Frontier Arc (First 4 Mine Adventures)",
+      "description": "An introductory 4-adventure campaign delving into initial gold mine shafts and visiting Brimstone Town for basic supplies."
+    },
+    "brimstone_master_gunslinger": {
+      "name": "Legendary Darkstone Outlaw (All Missions & Targa Overlord)",
+      "description": "An exhaustive extended campaign conquering all high-threat void gates, elite monstrosities, and the Precursor Overlord."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Adventure 1",
+      "title": "Descent into the Abandoned Mine",
+      "phase": "Act I - The Gold Rush Nightmare",
+      "description": "Lighting torches and exploring dark mine shafts infested with mutated Void Spiders and Tentacles."
+    },
+    {
+      "badgeText": "Adventure 4",
+      "title": "Rest & Resupply in Brimstone Town",
+      "phase": "Act II - Frontier Town Interlude",
+      "description": "Visiting the frontier saloon, blacksmith, and church to spend Darkstone, cure madness, and level up gear."
+    },
+    {
+      "badgeText": "Adventure 8",
+      "title": "The Gateway to Targa Plateau",
+      "phase": "Act III - Into the Frozen Otherworld",
+      "description": "Stepping through a cosmic vortex into the freezing, alien cybernetic ruins of an ancient precursor civilization."
+    },
+    {
+      "badgeText": "Adventure 12",
+      "title": "Awakening of the Custodians",
+      "phase": "Act IV - Metal & Madness",
+      "description": "Fighting off mechanical Custodian automatons and towering Goliath monstrosities guarding alien reactors."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "The Master Darkstone Cache",
+      "phase": "Act V - Legend of the Old West",
+      "description": "Defeating the void rift horrors and returning to town loaded with puritan Darkstone and legendary hero status."
+    }
+  ]
+}

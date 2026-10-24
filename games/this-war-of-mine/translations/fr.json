@@ -1,0 +1,61 @@
+{
+  "title": "This War of Mine : Le Jeu de Plateau",
+  "subtitle": "Campagne Déchirante de Survie Civile",
+  "tagline": "Endurez la dure réalité des civils piégés dans une ville assiégée au fil de jours angoissants et de nuits périlleuses.",
+  "loreSummary": "En temps de guerre, tout le monde n'est pas un soldat. Piégés dans la cité dévastée de Pogoren, vous et vos compagnons devez fouiller les ruines pour trouver vivres, médicaments et combustible tout en affrontant de déchirants dilemmes moraux pour survivre jusqu'au cessez-le-feu.",
+  "badgeCategory": "Campagne de Survie Civile",
+  "roadmapTitle": "Les Jours du Siège",
+  "roadmapBadge": "Jours de Survie",
+  "keyFeatures": [
+    "Adaptation fidèle et poignante du célèbre jeu vidéo de 11 bit studios",
+    "Système de journal direct sans temps mort comptant plus de 1 900 paragraphes narratifs",
+    "Cycle jour et nuit : sécurisez le refuge le jour, fouillez les rues en ruine la nuit",
+    "Feuilles de sauvegarde persistantes suivant blessures, faim, misère et traumatismes"
+  ],
+  "scopes": {
+    "this_war_of_mine_ceasefire": {
+      "name": "Jusqu'au Cessez-le-feu (Campagne Complète)",
+      "description": "L'épreuve définitive de 8 jours de survie, résistant au froid, aux pillards et aux privations jusqu'à la paix."
+    },
+    "this_war_of_mine_first_snow": {
+      "name": "Premières Neiges (Arc de Survie Court)",
+      "description": "Un parcours d'initiation de 4 jours axé sur la sécurisation du refuge avant les glaces mortelles de l'hiver."
+    },
+    "this_war_of_mine_ironman": {
+      "name": "Siège Hivernal Extrême (Tous Scénarios & Dureté Maximale)",
+      "description": "Une épreuve d'endurance éprouvante de 12 jours bravant blizzards destructeurs, épidémies et milices armées."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Jour 1",
+      "title": "Sécuriser le Refuge",
+      "phase": "Acte I - L'Immeuble Dévasté",
+      "description": "Déblayer les gravats, barricader les fenêtres brisées et fabriquer des lits de fortune pour essuyer les premiers tirs."
+    },
+    {
+      "badgeText": "Jour 3",
+      "title": "Première Fouille Nocturne",
+      "phase": "Acte II - Dans les Rues Silencieuses",
+      "description": "Fouiller pharmacies et commerces abandonnés sous la menace des tireurs d'élite pour ramener nourriture et pansements."
+    },
+    {
+      "badgeText": "Jour 5",
+      "title": "Le Froid Glacial",
+      "phase": "Acte III - Survie Sous Zéro",
+      "description": "Les températures s'effondrent, forçant des choix cruels entre brûler des livres précieux et braver les rues pour du bois."
+    },
+    {
+      "badgeText": "Jour 7",
+      "title": "Étrangers Désespérés à la Porte",
+      "phase": "Acte IV - Dilemmes Moraux",
+      "description": "Faire face aux pillages nocturnes et aux choix éthiques lorsque des voisins affamés ou des miliciens frappent à la porte."
+    },
+    {
+      "badgeText": "Jour 8",
+      "title": "La Sirène du Cessez-le-feu",
+      "phase": "Acte V - Le Lendemain Matin",
+      "description": "Tenir jusqu'à ce que la fin du siège soit proclamée dans Pogoren, mesurant le tribut humain de la survie."
+    }
+  ]
+}

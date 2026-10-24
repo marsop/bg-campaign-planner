@@ -1,0 +1,61 @@
+{
+  "title": "HeroQuest",
+  "subtitle": "Classic Fantasy Dungeon Crawl Adventure Campaign",
+  "tagline": "Answer Mentor's call, step into the torchlit depths, and battle the forces of Zargon across 14 perilous quests.",
+  "loreSummary": "The dark forces of Dread threaten the Empire. Guided by the wise sage Mentor, four valiant heroes—the Barbarian, Dwarf, Elf, and Wizard—descend into subterranean dungeons to battle orcs, mummies, and chaos sorcerers, earning gold to buy legendary artifacts between adventures.",
+  "badgeCategory": "Classic Fantasy Dungeon Crawl",
+  "roadmapTitle": "The Book of Quests",
+  "roadmapBadge": "Heroic Quests",
+  "keyFeatures": [
+    "The legendary, pioneering fantasy dungeon crawl board game originally created by Stephen Baker",
+    "Progressive 14-quest core campaign book following the gathering of the heroes to the Witch Lord",
+    "Playable 1-vs-many with a Zargon player or fully cooperatively via the official companion app",
+    "Detailed 3D furniture, doors, treasure chests, and iconic plastic miniature monsters"
+  ],
+  "scopes": {
+    "heroquest_core_fourteen_quests": {
+      "name": "The Gathering of the Heroes (All 14 Quests)",
+      "description": "The complete original 14-quest adventure book campaign from The Trial to the final confrontation in Barak Tor."
+    },
+    "heroquest_introductory_trial": {
+      "name": "The Trial of the Champions (Quests 1–4)",
+      "description": "An introductory 4-quest journey mastering combat, dungeon movement, and recovering Prince Magnus' gold."
+    },
+    "heroquest_master_mentor": {
+      "name": "Champion of the Realm (All 14 Quests & Mythic Scenarios)",
+      "description": "An exhaustive dungeon crawl marathon including core quests and bonus mythic challenges at peak difficulty."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Quest 1",
+      "title": "The Trial",
+      "phase": "Act I - The Dungeon Threshold",
+      "description": "Stepping through the heavy dungeon doorway to battle Orcs and Goblins and survive your first deadly labyrinth."
+    },
+    {
+      "badgeText": "Quest 4",
+      "title": "Prince Magnus' Gold",
+      "phase": "Act II - Royal Treasures",
+      "description": "Infiltrating subterranean catacombs to recover stolen royal gold chests from Chaos warriors."
+    },
+    {
+      "badgeText": "Quest 8",
+      "title": "The Fire Mage",
+      "phase": "Act III - Blazing Sorcery",
+      "description": "Confronting the renegade pyromancer Balur within his subterranean magma fortress before he unleashes doom."
+    },
+    {
+      "badgeText": "Quest 11",
+      "title": "Bastion of Chaos",
+      "phase": "Act IV - Shadow of Dread",
+      "description": "Breaching the outer sanctum of the Dread sorcerers and recovering the ancient Spirit Blade."
+    },
+    {
+      "badgeText": "Quest 14",
+      "title": "Return to Barak Tor",
+      "phase": "Act V - The Witch Lord's Doom",
+      "description": "Unleashing the Spirit Blade against the undead Witch Lord to save Mentor and the realm of the Empire."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "subtitle": "Ein narratives Rollenspiel voller Helden und Geheimnisse in Terrinoth",
+  "tagline": "Erschaffe deinen Helden, wähle deinen Pfad und lüfte die finsteren Geheimnisse einer geteilten Baronie.",
+  "loreSummary": "Legacy of Dragonholt entführt die Spieler in die High-Fantasy-Welt von Terrinoth. Mit maßgeschneiderten Charakteren voller unverwechselbarer Fertigkeiten und Wesenszüge erleben die Abenteurer eine kooperative epische Erzählung ganz ohne Spielleiter. Anhand stimmungsvoller Absatzbücher erkundet ihr das Dorf Dragonholt, verhört Bürger, bezwingt finstere Gewölbe und bestimmt mit moralischen Entscheidungen das Schicksal der gesamten Region.",
+  "badgeCategory": "Erzähl-Rollenspiel",
+  "roadmapTitle": "Chroniken von Dragonholt",
+  "roadmapBadge": "Story-Kampagne",
+  "keyFeatures": [
+    "Kein Spielleiter erforderlich; kooperatives narratives Regelsystem mit dem bewährten Oracle System",
+    "Tiefgehende Heldenerschaffung mit Abstammung, Klassen, Begabungen und persönlicher Hintergrundgeschichte",
+    "Verzweigte Dialoge und Entscheidungen mit spürbaren langfristigen Konsequenzen im Spielverlauf",
+    "Faszinierendes Weltenbauen in der traditionsreichen Fantasywelt Terrinoth"
+  ],
+  "scopes": {
+    "intro-quest": {
+      "name": "Auf nach Dragonholt (Einführungsquest)",
+      "description": "Einführende Quest als Tutorial und Heldenvorstellung auf der beschwerlichen Reise nach Dragonholt."
+    },
+    "core-campaign": {
+      "name": "Hauptgeheimnis von Dragonholt",
+      "description": "Vollständige narrative Ermittlung zum rätselhaften Tod von Celyse und den Unruhen in der Baronie."
+    },
+    "completionist": {
+      "name": "Vollständige Erkundung & Alle Nebenquests",
+      "description": "Umfassender Spieldurchgang mit allen Schauplätzen, persönlichen Vignettes und Nebenhandlungssträngen."
+    }
+  },
+  "milestones": {
+    "arrival-dragonholt": {
+      "title": "Auf nach Dragonholt",
+      "phase": "Prolog",
+      "description": "Die Helden trotzen den Banditen auf der Handelsstraße und erreichen wohlbehalten das Dorf Dragonholt."
+    },
+    "village-investigation": {
+      "title": "Nachforschungen im Gasthaus",
+      "phase": "Akt I",
+      "description": "Erkundet das Dorf, trefft wichtige Dorfbewohner und sammelt verdächtige Hinweise zum verstorbenen Erben."
+    },
+    "wilderness-excursion": {
+      "title": "Die wilde Wildnis",
+      "phase": "Akt II",
+      "description": "Wagt euch in die bedrohlichen Wälder, trotzt Wegelagerern, Geisterwesen und verborgenen Zirkeln."
+    },
+    "manor-confrontation": {
+      "title": "Die hohle Krone",
+      "phase": "Akt III",
+      "description": "Dringt in das Anwesen ein, deckt die Verschwörung auf und trefft wegweisende Entscheidungen für das Reich."
+    },
+    "epilogue-destiny": {
+      "title": "Eine neu erwachte Baronie",
+      "phase": "Epilog",
+      "description": "Schließt alle verbliebenen persönlichen Quests ab und erlebt den geschichtsträchtigen Epilog von Terrinoth."
+    }
+  }
+}

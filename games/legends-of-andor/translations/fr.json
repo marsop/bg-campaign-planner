@@ -1,0 +1,61 @@
+{
+  "title": "Les Légendes d'Andor",
+  "subtitle": "Campagne Coopérative de Casse-tête et Aventure Fantastique",
+  "tagline": "Défendez le royaume de Rietburg et forgez votre propre légende héroïque à travers 5 récits progressifs.",
+  "loreSummary": "Le royaume d'Andor est menacé par de terribles créatures. Depuis les montagnes et les forêts sombres, des hordes d'ennemis marchent vers le château de Rietburg. En tant que guerrier, nain, archère et magicienne, coordonnez vos heures du jour et accomplissez vos quêtes avant que le pion Narrateur n'atteigne la lettre N.",
+  "badgeCategory": "Campagne Coopérative Médiévale-Fantastique",
+  "roadmapTitle": "Chroniques des Cinq Légendes",
+  "roadmapBadge": "Légendes d'Andor",
+  "keyFeatures": [
+    "Lauréat du prestigieux Kennerspiel des Jahres 2013 créé et illustré par Michael Menzel",
+    "Paquet de Légende dynamique : apprenez les règles en jouant immédiatement sans lire un livret fastidieux",
+    "Tension coopérative intense mêlant gestion rigoureuse du temps et défense stratégique du royaume",
+    "Plateau recto-verso immersif représentant les plaines d'Andor et les mines oubliées des nains"
+  ],
+  "scopes": {
+    "andor_five_legends_chronicle": {
+      "name": "Les Cinq Légendes du Royaume (Légendes 1–5)",
+      "description": "L'arc narratif complet de la boîte de base progressant à travers les 5 légendes jusqu'à l'ultime assaut du dragon."
+    },
+    "andor_introductory_legends": {
+      "name": "L'Éveil des Héros (Légendes 1–3)",
+      "description": "Un parcours d'initiation de 3 légendes pour maîtriser les déplacements, guérir le roi et commercer avec la sorcière."
+    },
+    "andor_master_guardians": {
+      "name": "Maîtres Gardiens de Rietburg (Toutes Légendes & Épreuves Sombres)",
+      "description": "Une épreuve exigeante affrontant destins secrets, pierres runiques et la fureur destructrice du dragon géant."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Légende 1",
+      "title": "L'Arrivée des Héros",
+      "phase": "Acte I - Les Parchemins d'Alerte",
+      "description": "Acheminer les parchemins d'alerte vitaux au château de Rietburg avant que les Gors ne submergent les frontières."
+    },
+    {
+      "badgeText": "Légende 2",
+      "title": "La Guérison du Roi",
+      "phase": "Acte II - L'Herbe de Vie",
+      "description": "Retrouver la plante médicinale rare dans la forêt embrumée pour soigner le roi Brandur sous le siège ennemi."
+    },
+    {
+      "badgeText": "Légende 3",
+      "title": "Jours de Résistance",
+      "phase": "Acte III - La Sorcière des Brumes",
+      "description": "Découvrir le repaire de la Sorcière, acquérir des potions de runes et accomplir des cartes de destin secret."
+    },
+    {
+      "badgeText": "Légende 4",
+      "title": "La Mine de Joyaux des Nains",
+      "phase": "Acte IV - Dans les Gouffres Obscurs",
+      "description": "Descendre dans les galeries souterraines des nains, abattre les Skrals et rapporter le bouclier perdu."
+    },
+    {
+      "badgeText": "Légende 5",
+      "title": "La Colère du Dragon",
+      "phase": "Acte V - L'Ultime Siège",
+      "description": "Rassembler tous les héros, quatre pierres runiques et l'arme légendaire pour abattre le dragon fondant sur Rietburg."
+    }
+  ]
+}

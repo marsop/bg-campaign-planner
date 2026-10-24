@@ -1,0 +1,61 @@
+{
+  "title": "Welcome to the Moon",
+  "subtitle": "Campaña Narrativa Espacial de Voltear y Escribir",
+  "tagline": "Salva a la humanidad a lo largo de 8 aventuras lunares evolutivas, desde el despegue terrestre hasta la colonización.",
+  "loreSummary": "El tiempo en la Tierra se agota. Como director de vuelo, guía la audaz evacuación lunar a través de 8 tableros de aventuras evolutivos borrables. Voltea cartas de construcción, administra los sistemas del cohete, perfora cúpulas de hielo subterráneas y funda la primera metrópoli en la Luna.",
+  "badgeCategory": "Campaña de Voltear y Escribir",
+  "roadmapTitle": "Arco de Colonización Lunar",
+  "roadmapBadge": "Aventuras de Historia",
+  "keyFeatures": [
+    "La entrega culminante de la aclamada saga de juegos de mesa 'Welcome to...'",
+    "8 hojas de aventura completamente distintas con mecánicas, reglas y puntuaciones evolutivas",
+    "Libro de campaña narrativo con párrafos de historia ramificada, misiones y desbloqueos permanentes",
+    "Modo campaña en solitario contra la IA Astra o juego simultáneo para hasta 6 jugadores"
+  ],
+  "scopes": {
+    "welcome_moon_full_odyssey": {
+      "name": "Campaña Odisea Lunar (Las 8 Aventuras)",
+      "description": "La experiencia completa del libro de campaña jugando cada uno de los 8 tableros tres veces para resolver todas las elecciones narrativas."
+    },
+    "welcome_moon_direct_flight": {
+      "name": "Vuelo Directo (Aventuras 1 a 8)",
+      "description": "Una secuencia ágil jugando cada uno de los 8 tableros lunares una vez en orden cronológico de la historia."
+    },
+    "welcome_moon_master_colonizer": {
+      "name": "Maestro Colonizador Lunar (Campaña Completa & Desafíos Astra)",
+      "description": "Un maratón exhaustivo explorando todas las rutas narrativas alternativas y máxima dificultad con bots Astra."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Aventura 1",
+      "title": "Despegue desde la Tierra",
+      "phase": "Acto I - La Gran Evasión",
+      "description": "Voltear cartas de construcción para cargar combustible en las fases del cohete y escapar de la gravedad terrestre."
+    },
+    {
+      "badgeText": "Aventura 3",
+      "title": "Descenso y Alunizaje",
+      "phase": "Acto II - Aterrizaje en Tranquilidad",
+      "description": "Maniobrar los propulsores para establecer las primeras plataformas de asentamiento dentro de cráteres lunares."
+    },
+    {
+      "badgeText": "Aventura 5",
+      "title": "La Cúpula de Agua Subterránea",
+      "phase": "Acto III - Perforando por la Vida",
+      "description": "Bombear lagos de hielo fósil y conectar conductos de invernaderos para sustentar a las colonias humanas."
+    },
+    {
+      "badgeText": "Aventura 7",
+      "title": "Cuarentena del Virus Alienígena",
+      "phase": "Acto IV - Crisis en la Biosfera",
+      "description": "Aislar sectores infectados de la base y sintetizar vacunas antipatógenas en el laboratorio orbital."
+    },
+    {
+      "badgeText": "Aventura 8",
+      "title": "La República Independiente de la Luna",
+      "phase": "Acto V - Una Nueva Civilización",
+      "description": "Completar la megaestructura utópica final, lograr la autosuficiencia y proclamar la constitución lunar de la humanidad."
+    }
+  ]
+}

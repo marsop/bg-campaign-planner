@@ -1,0 +1,49 @@
+{
+  "title": "T.I.M.E Stories",
+  "subtitle": "Campaña de Viajes en el Tiempo y Exploración de Mazos",
+  "tagline": "Proyecta tu consciencia en receptáculos históricos y sella peligrosas paradojas cuánticas antes de que expire el tiempo.",
+  "loreSummary": "La Agencia T.I.M.E protege a la humanidad evitando fallas temporales que amenazan el continuo espaciotemporal. Como agentes de élite, transferid vuestras mentes a cuerpos anfitriones del pasado (receptáculos) para investigar misterios, resolver puzles y preservar la historia a través de bucles sucesivos.",
+  "badgeCategory": "Exploración de Mazos y Viajes Temporales",
+  "roadmapTitle": "Manifiesto de Bucles Temporales",
+  "roadmapBadge": "Incursiones de Agencia",
+  "keyFeatures": [
+    "Pionero sistema de exploración de mazos donde cartas panorámicas recrean habitaciones y estancias inmersivas",
+    "Reloj de Unidades de Tiempo (UT): cada acción consume valiosos minutos obligando a optimizar cada intento",
+    "Misterio narrativo ramificado con enigmas crípticos, pasajes bloqueados e interacciones de personaje",
+    "Juego base que incluye el célebre e inquietante caso 'Asylum' ambientado en el París de 1921"
+  ],
+  "scopes": {
+    "time_stories_asylum_mission": {
+      "name": "Misión 1: Resolución Temporal de Asylum (3 Incursiones)",
+      "description": "La experiencia completa del escenario base resolviendo la anomalía del psiquiátrico de París a través de 3 bucles iterativos."
+    },
+    "time_stories_first_loop": {
+      "name": "Primer Salto Temporal y Reconocimiento (1 Incursión)",
+      "description": "Un bucle introductorio para explorar las dependencias del manicomio e identificar a los primeros sospechosos."
+    },
+    "time_stories_agency_quadrilogy": {
+      "name": "Cuadrilogía del Ciclo Blanco de la Agencia (12 Incursiones)",
+      "description": "Una campaña extensa que abarca los escenarios principales del Ciclo Blanco (Asylum, The Marcy Case, Profecía de Dragones)."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Incursión 1",
+      "title": "Inserción Taquiónica: París 1921",
+      "phase": "Bucle I - Primer Contacto con Receptáculos",
+      "description": "Transferir la consciencia de los agentes a pacientes de un hospital psiquiátrico francés en los locos años veinte."
+    },
+    {
+      "badgeText": "Incursión 2",
+      "title": "Desenredando la Brecha Temporal",
+      "phase": "Bucle II - Las Criptas Ocultas",
+      "description": "Aprovechar la experiencia de bucles previos para sortear trampas mortales y descerrajar la cripta del sótano."
+    },
+    {
+      "badgeText": "Incursión 3",
+      "title": "Cerrando la Paradoja Cuántica",
+      "phase": "Bucle III - Misión Cumplida",
+      "description": "Neutralizar el foco de la distorsión temporal antes de que se agoten las Unidades de Tiempo y regresar a la base."
+    }
+  ]
+}

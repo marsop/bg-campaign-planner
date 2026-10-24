@@ -7,6 +7,206 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.97.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Freelancers: A Crossroads Game**, the hilarious post-apocalyptic fantasy RPG board game by Donald Shults (Plaid Hat Games, 2023; BGG #364867).
+    - 3 campaign scope presets: *The Big Score Campaign* (5 quests, recommended), *First Contract (Tutorial Job)* (1 quest), and *All Contracts & Expansion Jobs* (7 quests).
+    - 5 story milestones with spoiler mask protection: *The First Payday*, *Wasteland Notoriety*, *Crossroads Dilemma*, *The Grand Score*, and *Hall of Legends*.
+    - Vibrant comic fantasy theming (mercenary orange `#e75a3c`, teal `#2a7b88`, gold `#f5b700`, Bungee header font, sword-bag emblem).
+    - Scoped custom stylesheet (`games/freelancers/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.96.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Legacy of Dragonholt**, the narrative fantasy adventure RPG board game by Nikki Valens et al. (Fantasy Flight Games, 2017; BGG #234669).
+    - 3 campaign scope presets: *Dragonholt Main Mystery* (6 quests, recommended), *To Dragonholt (Intro Quest)* (1 quest), and *Full Exploration & All Side Quests* (8 quests).
+    - 5 narrative milestones with spoiler mask protection: *To Dragonholt*, *Inquiries at the Inn*, *The Wilds Beyond*, *The Hollow Crown*, and *A Barony Reborn*.
+    - High fantasy storybook theming (leather brown `#704828`, deep forest `#2b4837`, antique gold `#d4af37`, Cinzel serif typography, scroll-feather emblem).
+    - Scoped custom stylesheet (`games/legacy-of-dragonholt/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.95.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Machi Koro Legacy**, the cooperative town-building legacy board game by Rob Daviau and JR Honeycutt (Pandasaurus Games, 2019; BGG #258087).
+    - 3 campaign scope presets: *Full 10-Game Legacy Campaign* (10 games, recommended), *First Half of the Island* (5 games), and *Grand Island Finale* (10 games).
+    - 5 progressive island construction milestones with spoiler mask protection: *The First Flagship*, *Harbor Expansion*, *Community Unrest*, *The Astronomical Observatory*, and *Island Metropolis Complete*.
+    - Cheerful urban theming (sky blue `#2e86de`, sun orange `#ff9f43`, clover green `#10ac84`, Fredoka header font, town-hall emblem).
+    - Scoped custom stylesheet (`games/machi-koro-legacy/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.94.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Aliens: Another Glorious Day in the Corps**, the cooperative tactical survival miniatures game by Andrew Haught (Gale Force Nine, 2020; BGG #297920).
+    - 3 campaign scope presets: *Full Core Movie Campaign* (4 missions, recommended), *Rescue Mission Arc* (2 missions), and *The Ultimate Bug Hunt* (6 missions).
+    - 5 cinematic survival milestones with spoiler mask protection: *Drop into Hadley's Hope*, *Ambush in the Sub-Level*, *Holding the Operations Center*, *The Queen's Chamber*, and *Last Stand in the Airlock*.
+    - Grimdark sci-fi military theming (motion-tracker green `#22c55e`, corporate gunmetal `#334155`, caution yellow `#eab308`, Orbitron header typography, motion-tracker emblem).
+    - Scoped custom stylesheet (`games/aliens-another-glorious-day/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.93.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Burgle Bros 2: The Casino Capers**, the cooperative heist board game by Tim Fowers (Fowers Games, 2020; BGG #284489).
+    - 3 campaign scope presets: *Full 9-Casino Heist Campaign* (9 heists, recommended), *Starter Heist Arc* (3 heists), and *Master Heist Finale* (9 heists).
+    - 5 stealth casino milestones with spoiler mask protection: *The Golden Nugget*, *The Neon Mirage*, *Blackjack & High Rollers*, *The Penthouse Vault*, and *The Grand Heist Escape*.
+    - Retro mid-century neon casino theming (neon turquoise `#06d6a0`, casino crimson `#ef476f`, neon gold `#ffd166`, Righteous header font, neon-dice emblem).
+    - Scoped custom stylesheet (`games/burgle-bros-2/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.92.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Kingdom Rush: Rift in Time**, the cooperative tower defense puzzle campaign game by Helana Hope, Sen-Foong Lim, and Jessey Wright (Lucky Duck Games, 2020; BGG #272533).
+    - 3 campaign scope presets: *Full 10-Scenario Campaign* (10 scenarios, recommended), *The Green Valley Arc* (3 scenarios), and *Kingdom Heroic Mode* (10 scenarios).
+    - 5 tactical tower defense milestones with spoiler mask protection: *The Valley Under Siege*, *Juggernaut on the March*, *The Rift Portals Widen*, *General Vez'nan's Vengeance*, and *Peace Restored to the Kingdom*.
+    - Vibrant fantasy tower defense theming (kingdom royal blue `#2b5c8f`, mage purple `#6c3483`, gold `#f1c40f`, MedievalSharp header typography, tower-shield emblem).
+    - Scoped custom stylesheet (`games/kingdom-rush/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.91.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Legacy of Yu**, the solo non-resettable campaign game by Shem Phillips (Garphill Games, 2023; BGG #354921).
+    - 3 campaign scope presets: *Full Canal Campaign (7 Victories / 7 Defeats)* (10 games, recommended), *Introductory Flood Engineering* (4 games), and *Grand River Engineering Mastery* (14 games).
+    - 5 imperial flood mitigation milestones with spoiler mask protection: *Dredging the Basin*, *The Barbarian Vanguard*, *The Second Canal Embankment*, *Floods on the Horizon*, and *The Yellow River Tamed*.
+    - Ancient Chinese historical theming (terracotta jade `#2e7d32`, canal silt `#8d6e63`, imperial gold `#f57f17`, Noto Serif header font, canal-gate emblem).
+    - Scoped custom stylesheet (`games/legacy-of-yu/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.90.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Detective: City of Angels**, the competitive and cooperative 1940s noir detective game by Evan Derrick (Van Ryder Games, 2019; BGG #218079).
+    - 3 campaign scope presets: *Full 9-Case Detective Saga* (9 cases, recommended), *Rookie Detective Trilogy* (3 cases), and *Master Detective Anthology* (9 cases).
+    - 5 vintage noir detective milestones with spoiler mask protection: *Blood on the Boulevard*, *The Black Dahlia Whispers*, *Ransom in the Canyons*, *Hollywood Scandals*, and *The Chief's Commendation*.
+    - 1940s vintage Hollywood noir theming (detective sepia `#8c502b`, crime shadow `#261e1b`, neon amber `#e89b35`, Rye header typography, fedora-badge emblem).
+    - Scoped custom stylesheet (`games/detective-city-of-angels/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.89.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **T.I.M.E Stories**, the cooperative narrative time-travel mystery game by Manuel Rozoy and Peggy Chassenet (Space Cowboys, 2015; BGG #146508).
+    - 3 campaign scope presets: *Asylum Mystery (Base Scenario)* (3 runs, recommended), *Fast Tactical Loop* (2 runs), and *Deep Agency Investigation* (4 runs).
+    - 5 chrono-temporal milestones with spoiler mask protection: *Temporal Insertion*, *Uncovering the Asylum Horrors*, *Mapping the Paradoxes*, *The Core Temporal Rift*, and *Mission Debrief at the Agency*.
+    - Sleek sci-fi agency minimalist theming (T.I.M.E agency cyan `#00a8cc`, chronometer white `#ffffff`, deep void `#142850`, Orbitron header font, hourglass-agency emblem).
+    - Scoped custom stylesheet (`games/time-stories/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.88.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **HeroQuest**, the legendary dungeon crawl fantasy board game by Stephen Baker (Hasbro / Avalon Hill, 2021; BGG #329408).
+    - 3 campaign scope presets: *Main System Quest Book (14 Quests)* (14 quests, recommended), *The Gathering of Heroes (Quests 1–5)* (5 quests), and *Zargon's Defeat (Quests 6–14)* (9 quests).
+    - 5 iconic dungeon delve milestones with spoiler mask protection: *The Trial*, *The Rescue of Sir Ragnar*, *The Legacy of the Orc Warlord*, *Castle Mystery*, and *The Return to Barak Tor*.
+    - Classic 1980s retro dungeon crawl theming (blood ruby `#b91c1c`, dungeon stone `#334155`, quest gold `#f59e0b`, Cinzel header typography, broadsword-shield emblem).
+    - Scoped custom stylesheet (`games/heroquest/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.87.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Legends of Andor**, the cooperative fantasy strategy puzzle game by Michael Menzel (KOSMOS, 2012; Kennerspiel des Jahres 2013 Winner; BGG #117392).
+    - 3 campaign scope presets: *The 5 Legends of the Core Game* (5 legends, recommended), *The Arrival of Heroes (Legends 1–2)* (2 legends), and *The Dragon's Doom (Legends 3–5)* (3 legends).
+    - 5 heroic narrative milestones with spoiler mask protection: *The Arrival of the Heroes*, *The Healing of the King*, *The Days of Resistance*, *The Secret of the Mine*, and *The Wrath of the Dragon*.
+    - High fantasy storybook theming (Rietburg blue `#1e3a8a`, emerald forest `#047857`, hero gold `#d97706`, MedievalSharp header typography, castle-shield emblem).
+    - Scoped custom stylesheet (`games/legends-of-andor/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.86.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Near and Far**, the story-driven adventure game by Ryan Laukat (Red Raven Games, 2017; BGG #195421).
+    - 3 campaign scope presets: *Full 10-Session Campaign* (10 sessions, recommended), *Introductory Journey (Maps 1–3)* (3 sessions), and *Character Quest Mode* (8 sessions).
+    - 5 narrative exploration milestones with spoiler mask protection: *Leaving the Ruins*, *The Mystic Highlands*, *Encounters with the Nomads*, *The Shifting Desert*, and *The Last Ruin Discovered*.
+    - Whimsical storybook adventure theming (desert ochre `#d97706`, mountain twilight `#4338ca`, compass rose `#059669`, Cinzel header typography, atlas-compass emblem).
+    - Scoped custom stylesheet (`games/near-and-far/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.85.0] - 2026-10-24
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Shadows of Brimstone: City of the Ancients**, the weird-west dungeon crawl game by Jason C. Hill (Flying Frog Productions, 2014; BGG #146791).
+    - 3 campaign scope presets: *Frontier Expedition (12 Adventures)* (12 adventures, recommended), *Introductory Darkstone Delve* (4 adventures), and *Epic Targa Plateau Journey* (18 adventures).
+    - 5 eldritch Western milestones with spoiler mask protection: *The Darkstone Rush*, *Mutants in the Mines*, *Opening the Targa Portal*, *The Frozen Ancient City*, and *Brimstone Legend*.
+    - Weird West cosmic horror theming (Darkstone teal `#0d9488`, saloon mahogany `#78350f`, cosmic void `#4c1d95`, Rye vintage header typography, revolver-crystal emblem).
+    - Scoped custom stylesheet (`games/shadows-of-brimstone/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.84.0] - 2026-10-23
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Warhammer Quest: Blackstone Fortress**, the grimdark cooperative dungeon crawler by Jervis Johnson (Games Workshop, 2018; BGG #264198).
+    - 3 campaign scope presets: *The Hidden Vault Campaign (4 Strongholds + Vault)* (12 expeditions, recommended), *Introductory Salvage Run* (3 expeditions), and *Precipice Completionist Arc* (16 expeditions).
+    - 5 grimdark explorer milestones with spoiler mask protection: *First Clues in the Spire*, *The First Stronghold Pierced*, *Technological Wonders Recovered*, *The Dread Vault Breached*, and *The Secrets of the Blackstone*.
+    - Grimdark gothic obsidian sci-fi theming (plasma cobalt `#0284c7`, warp gold `#eab308`, obsidian void `#09090b`, Cinzel classical gothic header typography, gothic-fortress emblem).
+    - Scoped custom stylesheet (`games/warhammer-quest-blackstone-fortress/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.83.0] - 2026-10-23
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Welcome to the Moon**, the narrative flip-and-write campaign game by Alexis Allard and Benoît Turpin (Blue Cocker Games, 2021; BGG #339789).
+    - 3 campaign scope presets: *The 8-Mission Moon Campaign* (8 missions, recommended), *The Launch & Flight Arc (Missions 1–3)* (3 missions), and *The Deep Moon Exploration (Missions 4–8)* (5 missions).
+    - 5 lunar voyage milestones with spoiler mask protection: *Liftoff to the Stars*, *Lunar Orbit Achieved*, *Dome Construction Underway*, *Colonizing the Craters*, and *The New Lunar Frontier*.
+    - Retro-futuristic 1960s space-age theming (lunar orange `#ea580c`, earth-orbit cyan `#06b6d4`, starfield violet `#3b0764`, Righteous header font, rocket-moon emblem).
+    - Scoped custom stylesheet (`games/welcome-to-the-moon/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.82.0] - 2026-10-23
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Oath: Chronicles of Empire and Exile**, the generational strategy campaign game by Cole Wehrle (Leder Games, 2021; BGG #291572).
+    - 3 campaign scope presets: *Generational Chronicle (6 Games)* (6 games, recommended), *Rise & Fall of an Empire (3 Games)* (3 games), and *Grand Dynasty Saga (12 Games)* (12 games).
+    - 5 generational realm milestones with spoiler mask protection: *The Chancellor's Founding*, *The First Usurper*, *The Shifting World Deck*, *The Oathkeeper's Trial*, and *A Dynasty Sealed in History*.
+    - Imperial tapestry fantasy theming (imperial crimson `#be123c`, oathkeeper gold `#eab308`, exiled deep plum `#2e1065`, Alegreya SC header font, imperial-oath emblem).
+    - Scoped custom stylesheet (`games/oath/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.81.0] - 2026-10-23
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Under Falling Skies**, the solo alien invasion dice-placement campaign game by Tomáš Uhlíř (Czech Games Edition, 2020; BGG #306735).
+    - 3 campaign scope presets: *The 4-Chapter Alien Defense Campaign* (4 scenarios, recommended), *First City Defense Arc* (2 scenarios), and *Global Defense War (All Scenarios & Cities)* (6 scenarios).
+    - 5 planetary defense milestones with spoiler mask protection: *Mothership Detected*, *Underground Laboratories Operational*, *First Alien Tech Reversed*, *Repelling the Sky Swarm*, and *The Mothership Destroyed*.
+    - Sci-fi alien invasion bunker theming (alien neon purple `#9333ea`, defense cyan `#06b6d4`, deep bunker black `#09090b`, Orbitron futuristic header typography, alien-mothership emblem).
+    - Scoped custom stylesheet (`games/under-falling-skies/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.80.0] - 2026-10-23
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Maracaibo**, the 17th-century Caribbean sailing campaign strategy game by Alexander Pfister (dlp games / Capstone Games, 2019; BGG #276025).
+    - 3 campaign scope presets: *Full Caribbean Story Campaign* (12 games, recommended), *Early Voyages Arc* (4 games), and *Master Navigator Expedition* (16 games).
+    - 5 Caribbean voyage milestones with spoiler mask protection: *Maiden Voyage to Maracaibo*, *Imperial Navies Clash*, *Trade Route Expansion*, *The High Seas Treaty*, and *Governor of the Caribbean*.
+    - 17th-century maritime Caribbean theming (caribbean sea blue `#0284c7`, colonial galleon amber `#d97706`, naval deep navy `#0f172a`, Cinzel classical serif header font, galleon-anchor emblem).
+    - Scoped custom stylesheet (`games/maracaibo/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.79.0] - 2026-10-23
+
+### Added
+- **New Board Game Added**:
+  - Added support for **This War of Mine: The Board Game**, the gritty civilian survival board game by Jakub Wiśniewski and Michał Oracz (Galakta / Ares Games, 2017; BGG #188920).
+    - 3 campaign scope presets: *Pogoren Survival Campaign* (10 days, recommended), *First Week of Winter* (5 days), and *The Long Siege (Complete Book of Scripts)* (15 days).
+    - 5 civilian siege survival milestones with spoiler mask protection: *Day 1: Finding Shelter*, *Day 3: The Scavenger's Dilemma*, *Day 6: Bitter Cold Arrives*, *Day 9: The Last Barricade*, and *Ceasefire: Surviving the Siege*.
+    - Gritty war-torn urban survival theming (concrete gray `#475569`, survivor amber `#d97706`, bombed charcoal `#0f172a`, Special Elite typewriter font, ruined-shelter emblem).
+    - Scoped custom stylesheet (`games/this-war-of-mine/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
+## [0.78.0] - 2026-10-23
+
+### Added
+- **New Board Game Added**:
+  - Added support for **Dorfromantik: The Board Game**, the peaceful cooperative landscape-building game by Michael Palm and Lukas Zach (Pegasus Spiele, 2022; Spiel des Jahres 2023 Winner; BGG #370591).
+    - 3 campaign scope presets: *Full Campaign Sheet (All Modules Unlocked)* (10 games, recommended), *Starter Countryside Arc* (4 games), and *Master Countryside Architects* (15 games).
+    - 5 tranquil landscape milestones with spoiler mask protection: *First Golden Landscape*, *Connecting the Waterways*, *The Forest Expands*, *The High-Speed Railway*, and *The Grand Countryside Tapestry*.
+    - Pastoral cozy countryside theming (pastoral meadow green `#16a34a`, golden wheat `#eab308`, cottage cedar `#78350f`, Quicksand rounded typography, windmill-tree emblem).
+    - Scoped custom stylesheet (`games/dorfromantik/style.css`) and complete localized translations across English, Spanish, German, French, and Italian.
+
 ## [0.77.0] - 2026-10-23
 
 ### Added

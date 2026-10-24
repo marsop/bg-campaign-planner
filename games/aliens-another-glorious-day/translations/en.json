@@ -1,0 +1,61 @@
+{
+  "title": "Aliens: Another Glorious Day in the Corps",
+  "subtitle": "Cooperative Sci-Fi Survival Miniature Campaign",
+  "tagline": "Lock and load, fire up the motion trackers, and survive the terrifying Xenomorph hive of LV-426.",
+  "loreSummary": "Take command of Ripley and her squad of hardened Colonial Marines (Hicks, Hudson, Vasquez, and Gorman) investigating the silent terraforming colony of Hadley's Hope. Manage your Endurance Deck as ammo and stamina dwindle while Xenomorph swarms stalk the air ducts and steam vents.",
+  "badgeCategory": "Cooperative Sci-Fi Survival",
+  "roadmapTitle": "Hadley's Hope Operations",
+  "roadmapBadge": "Combat Missions",
+  "keyFeatures": [
+    "Faithful tabletop adaptation recreating the pulse-pounding tension of James Cameron's 1986 film Aliens",
+    "Endurance Deck mechanic: cards double as weapons, ammo, equipment, and group health",
+    "Motion tracker blip tokens that reveal lurking facehuggers, warriors, and alien ambushes",
+    "Progressive multi-stage campaign from the initial colony sweep to the climactic Alien Queen duel"
+  ],
+  "scopes": {
+    "aliens_hadleys_hope_campaign": {
+      "name": "Hadley's Hope Survival Campaign (Core Missions 1–4)",
+      "description": "The complete cinematic campaign following the Marines through the colony, hive levels, and final evacuation."
+    },
+    "aliens_airlock_incursion": {
+      "name": "Dropzone Reconnaissance (Missions 1–2)",
+      "description": "An introductory 2-mission survival breach setting up perimeter sentry guns and reconnoitering the main complex."
+    },
+    "aliens_ultimate_badasses": {
+      "name": "Ultimate Badasses Marathon (8 Missions & Queen's Lair)",
+      "description": "An unforgiving extended marathon incorporating rescue side missions, ventilation escapes, and the Queen duel."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Mission 1",
+      "title": "Touchdown at Hadley's Hope",
+      "phase": "Act I - The Motion Tracker Beeps",
+      "description": "Breaching the outer airlock doors of the abandoned terraforming colony as motion tracker blips close in."
+    },
+    {
+      "badgeText": "Mission 2",
+      "title": "Atmospheric Processing Plant",
+      "phase": "Act II - Into the Hive",
+      "description": "Delivering flamethrower bursts and smartgun suppression in the steamy, resin-walled hive sub-levels."
+    },
+    {
+      "badgeText": "Mission 3",
+      "title": "Rescue Newt",
+      "phase": "Act III - No Marine Left Behind",
+      "description": "Descending into the infested ventilation ducts and laboratory med-bays to locate the sole survivor, Rebecca 'Newt' Jorden."
+    },
+    {
+      "badgeText": "Mission 4",
+      "title": "Sublevel Evacuation",
+      "phase": "Act IV - Reactor Meltdown Countdown",
+      "description": "Racing back through barricaded corridors to the APC before the cooling towers go critical."
+    },
+    {
+      "badgeText": "Finale",
+      "title": "Get Away From Her!",
+      "phase": "Act V - Showdown with the Queen",
+      "description": "Donning the power loader exoskeleton on the Sulaco cargo deck to blast the Xenomorph Queen into the vacuum of space."
+    }
+  ]
+}

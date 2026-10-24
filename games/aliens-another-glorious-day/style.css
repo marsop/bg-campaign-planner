@@ -1,0 +1,28 @@
+/* Aliens: Another Glorious Day in the Corps Scoped Styling */
+.theme-aliens {
+  --aliens-tracker: #22c55e;
+  --aliens-tracer: #ef4444;
+  --aliens-dark: #0f172a;
+}
+
+.theme-aliens .game-card-selected,
+.theme-aliens-active {
+  border-color: var(--aliens-tracker) !important;
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.35) !important;
+}
+
+.roadmap-aliens .roadmap-milestone-card {
+  border-left: 4px solid var(--aliens-tracker);
+  background: linear-gradient(135deg, rgba(6, 78, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);
+}
+
+.roadmap-aliens .milestone-badge {
+  background-color: var(--aliens-tracker);
+  color: #052e16;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+}
+
+.hero-aliens {
+  border-bottom: 2px solid rgba(34, 197, 94, 0.4);
+}

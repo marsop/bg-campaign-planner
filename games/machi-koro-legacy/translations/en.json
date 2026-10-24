@@ -1,0 +1,61 @@
+{
+  "title": "Machi Koro Legacy",
+  "subtitle": "Evolving Island City-Building Legacy Campaign",
+  "tagline": "Roll dice, build landmarks, and watch your tropical archipelago city permanently evolve across 10 thrilling games.",
+  "loreSummary": "Competing mayors are appointed to develop a cluster of idyllic tropical islands. Roll the dice, collect income from bakeries, harbors, and festivals, and unlock sealed legacy secret boxes that permanently introduce new buildings, rules, and game mechanics to your unique city boards.",
+  "badgeCategory": "City-Building Dice Legacy",
+  "roadmapTitle": "Island Development Arc",
+  "roadmapBadge": "Legacy Games",
+  "keyFeatures": [
+    "Legacy adaptation of the beloved dice engine-building game co-designed by Rob Daviau (Risk Legacy, Pandemic Legacy)",
+    "10-game narrative campaign featuring progressive story cards, secret compartments, and permanent board upgrades",
+    "Creates an infinitely replayable, completely customized copy of Machi Koro at the conclusion of the campaign",
+    "Lighthearted, accessible competitive play perfect for family game nights and dedicated campaign groups alike"
+  ],
+  "scopes": {
+    "machi_koro_ten_game_campaign": {
+      "name": "The Island Mayor Legacy (All 10 Games)",
+      "description": "The complete 10-game narrative arc opening every legacy box, unlocking all landmark cards, and crowning the Supreme Mayor."
+    },
+    "machi_koro_first_districts": {
+      "name": "The Founding Towns (Games 1–3)",
+      "description": "An introductory 3-game arc establishing your first coastal establishments, rolling single dice, and learning legacy rules."
+    },
+    "machi_koro_metropolis_master": {
+      "name": "Master Island Developer (10 Games & Replay Mode)",
+      "description": "The complete 10-game campaign followed by ongoing post-campaign matches using your fully unlocked custom board."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Game 1",
+      "title": "Founding the Island Towns",
+      "phase": "Act I - The First Harvests",
+      "description": "Opening the legacy box, constructing wheat fields and bakeries, and racing to build your initial four landmarks."
+    },
+    {
+      "badgeText": "Game 3",
+      "title": "The Harbors & Shipyards",
+      "phase": "Act II - Maritime Commerce",
+      "description": "Unlocking nautical expansion decks, fishing fleets, and ferry routes connecting the archipelago."
+    },
+    {
+      "badgeText": "Game 6",
+      "title": "Festivals & Tourism",
+      "phase": "Act III - Cultural Flourish",
+      "description": "Introducing festival squares, amusement parks, and luxury resorts attracting mainland holidaymakers."
+    },
+    {
+      "badgeText": "Game 8",
+      "title": "Heavy Industry & Railways",
+      "phase": "Act IV - Modern Infrastructure",
+      "description": "Connecting municipal bullet trains, mines, and tech headquarters across competing player districts."
+    },
+    {
+      "badgeText": "Game 10",
+      "title": "The Grand Island Metropolis",
+      "phase": "Act V - The Mayor's Coronation",
+      "description": "Completing the final grand monument, tallying the overall campaign legacy score, and crowning the Supreme Mayor."
+    }
+  ]
+}

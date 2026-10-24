@@ -1,0 +1,104 @@
+{
+  "id": "aliens-another-glorious-day",
+  "title": "Aliens: Another Glorious Day in the Corps",
+  "releaseYear": 2020,
+  "designers": "Andrew Haught",
+  "playersMin": 1,
+  "playersMax": 6,
+  "bggRating": 7.5,
+  "bggWeight": 2.50,
+  "bggUrl": "https://boardgamegeek.com/boardgame/304245/aliens-another-glorious-day-in-the-corps",
+  "baseScenarioMinutes": 90,
+  "setupTeardownMinutes": 15,
+  "unitType": "missions",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#22c55e",
+    "secondaryColor": "#0f172a",
+    "accentColor": "#ef4444",
+    "backgroundGradient": "radial-gradient(ellipse at top, #064e3b 0%, #0f172a 60%, #020617 100%)",
+    "cardBackground": "rgba(15, 23, 42, 0.94)",
+    "borderColor": "rgba(34, 197, 94, 0.35)",
+    "glowColor": "rgba(34, 197, 94, 0.25)",
+    "headerFont": "'Orbitron', 'Chakra Petch', system-ui, sans-serif",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "👽",
+    "emblem": "👽🔫",
+    "themeClass": "theme-aliens",
+    "activeThemeClass": "theme-aliens-active",
+    "roadmapClass": "roadmap-aliens",
+    "heroClass": "hero-aliens"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #304245)",
+    "Gale Force Nine Official Rulebook & Mission Briefings",
+    "1986 James Cameron Aliens Official Tabletop Guide"
+  ],
+  "scopes": [
+    {
+      "id": "aliens_hadleys_hope_campaign",
+      "baseScenarioCount": 6,
+      "estimatedFailRatePercent": 30.0,
+      "isRecommended": true
+    },
+    {
+      "id": "aliens_airlock_incursion",
+      "baseScenarioCount": 2,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    },
+    {
+      "id": "aliens_ultimate_badasses",
+      "baseScenarioCount": 8,
+      "estimatedFailRatePercent": 40.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "📡",
+      "badgeText": "Mission 1",
+      "title": "Touchdown at Hadley's Hope",
+      "phase": "Act I - The Motion Tracker Beeps",
+      "description": "Breaching the outer airlock doors of the abandoned terraforming colony as motion tracker blips close in."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 2,
+      "iconEmoji": "🔥",
+      "badgeText": "Mission 2",
+      "title": "Atmospheric Processing Plant",
+      "phase": "Act II - Into the Hive",
+      "description": "Delivering flamethrower bursts and smartgun suppression in the steamy, resin-walled hive sub-levels."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "👧",
+      "badgeText": "Mission 3",
+      "title": "Rescue Newt",
+      "phase": "Act III - No Marine Left Behind",
+      "description": "Descending into the infested ventilation ducts and laboratory med-bays to locate the sole survivor, Rebecca 'Newt' Jorden."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 4,
+      "iconEmoji": "🚨",
+      "badgeText": "Mission 4",
+      "title": "Sublevel Evacuation",
+      "phase": "Act IV - Reactor Meltdown Countdown",
+      "description": "Racing back through barricaded corridors to the APC before the cooling towers go critical."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 6,
+      "iconEmoji": "👑",
+      "badgeText": "Finale",
+      "title": "Get Away From Her!",
+      "phase": "Act V - Showdown with the Queen",
+      "description": "Donning the power loader exoskeleton on the Sulaco cargo deck to blast the Xenomorph Queen into the vacuum of space."
+    }
+  ]
+}

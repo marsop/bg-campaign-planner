@@ -1,0 +1,61 @@
+{
+  "title": "Das Vermächtnis des Yu",
+  "subtitle": "Nicht-zerstörerische Solo-Legacy-Kampagne",
+  "tagline": "Bändige die gewaltigen Fluten des Gelben Flusses und verteidige die Kanäle gegen plündernde Barbarenstämme.",
+  "loreSummary": "Im alten China zur Regierungszeit von Kaiser Shun schlüpfst du in die Rolle von Yu dem Großen. Vom kaiserlichen Hof beauftragt, musst du die verheerenden Fluten des Gelben Flusses durch Kanäle bändigen, während du deine Deiche gegen einfallende Barbaren verteidigst.",
+  "badgeCategory": "Solo-Legacy-Kampagne",
+  "roadmapTitle": "Chroniken des Gelben Flusses",
+  "roadmapBadge": "Flut-Kampagnen",
+  "keyFeatures": [
+    "Reines Solo-Worker-Placement- und Deckbau-Spiel von Shem Phillips (Garphill Games)",
+    "Vollständig rücksetzbare Legacy-Kampagne: kein Zerstören von Material oder Bekleben des Spielplans",
+    "Selbstbalancierendes Story-Deck, das neue Karten ins Spiel bringt und sich Sieg und Niederlage anpasst",
+    "Wettlauf um 7 Siege vor 7 Niederlagen in einer packenden historischen Saga"
+  ],
+  "scopes": {
+    "legacy_of_yu_flood_campaign": {
+      "name": "Die Zähmung des Gelben Flusses (7–10 Partien)",
+      "description": "Die vollständige Solokampagne über fortlaufende Partien bis zum Erringen von 7 Siegen oder Erleiden von 7 Niederlagen."
+    },
+    "legacy_of_yu_first_canals": {
+      "name": "Erste Kanäle & Verteidigung (3 Partien)",
+      "description": "Ein kompakter 3-Partien-Einstieg mit Ausbaggern von Kanälen, Arbeitereinsatz und erster Barbarenabwehr."
+    },
+    "legacy_of_yu_master_engineer": {
+      "name": "Meister-Ingenieur Yu (Alle Parabeln & Höchste Härte)",
+      "description": "Eine anspruchsvolle Meisterprüfung mit dem Ziel, jede Storykarte zu aktivieren und schwerste Barbarenangriffe abzuwehren."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Partie 1",
+      "title": "Die steigenden Fluten",
+      "phase": "Epoche I - Bruch der Dämme",
+      "description": "Erste Entwässerungskanäle graben, Bauholz fällen und plündernde Flusspiraten zurückdrängen."
+    },
+    {
+      "badgeText": "Partie 3",
+      "title": "Dörfer des Flussbeckens",
+      "phase": "Epoche II - Zuflucht für das Volk",
+      "description": "Kornspeicher und Vorposten für Schutzsuchende errichten und Handwerker für die Kanalbauten anwerben."
+    },
+    {
+      "badgeText": "Partie 5",
+      "title": "Schnitt durch die Berge",
+      "phase": "Epoche III - Die Große Schlucht",
+      "description": "Felsbrocken sprengen und Kanäle durch das Drachentor-Gebirge meißeln, um die reißenden Wassermassen abzuleiten."
+    },
+    {
+      "badgeText": "Partie 7",
+      "title": "Die Belagerung der Warlords",
+      "phase": "Akt IV - Verteidigung der Wehre",
+      "description": "Einfallsheere der Barbaren bestechen und in die Flucht schlagen, um Sabotage an den Schleusen zu verhindern."
+    },
+    {
+      "badgeText": "Partie 8",
+      "title": "Die gebändigten Wasser",
+      "phase": "Epoche V - Yu der Große auf dem Thron",
+      "description": "Sichere Ableitung des Gelben Flusses ins Ostmeer, Erringung von sieben kaiserlichen Siegen und Begründung der Xia-Dynastie."
+    }
+  ]
+}

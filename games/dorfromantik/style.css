@@ -1,0 +1,28 @@
+/* Dorfromantik: The Board Game Scoped Styling */
+.theme-dorfromantik {
+  --dorfromantik-meadow: #16a34a;
+  --dorfromantik-wheat: #eab308;
+  --dorfromantik-river: #0284c7;
+  --dorfromantik-forest: #14532d;
+}
+
+.theme-dorfromantik .game-card-selected,
+.theme-dorfromantik-active {
+  border-color: var(--dorfromantik-meadow) !important;
+  box-shadow: 0 0 20px rgba(22, 163, 74, 0.35) !important;
+}
+
+.roadmap-dorfromantik .roadmap-milestone-card {
+  border-left: 4px solid var(--dorfromantik-meadow);
+  background: linear-gradient(135deg, rgba(20, 83, 45, 0.4) 0%, rgba(6, 78, 59, 0.2) 100%);
+}
+
+.roadmap-dorfromantik .milestone-badge {
+  background-color: var(--dorfromantik-wheat);
+  color: #14532d;
+  font-weight: 700;
+}
+
+.hero-dorfromantik {
+  border-bottom: 2px solid rgba(22, 163, 74, 0.4);
+}

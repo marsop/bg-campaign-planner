@@ -1,0 +1,61 @@
+{
+  "title": "Welcome to the Moon",
+  "subtitle": "Evolving Flip-and-Write Narrative Space Campaign",
+  "tagline": "Save humanity across 8 sequential, evolving lunar adventures from Earth liftoff to permanent colonization.",
+  "loreSummary": "Earth is running out of time. As the chief flight planner, lead humanity's daring lunar evacuation across 8 unique, evolving dry-erase adventure boards. Flip construction cards, manage spaceship systems, drill subterranean ice caves, and establish the Moon's first thriving utopian metropolis.",
+  "badgeCategory": "Flip-and-Write Narrative Campaign",
+  "roadmapTitle": "The Lunar Colonization Arc",
+  "roadmapBadge": "Story Adventures",
+  "keyFeatures": [
+    "The culminating installment of the acclaimed Welcome to... flip-and-write board game series",
+    "8 completely distinct, progressive adventure boards with evolving rules, mechanisms, and scoring",
+    "Rich narrative campaign book with branching story paragraphs, missions, and persistent unlocks",
+    "Solo Astra campaign mode or simultaneous group play for up to 6 players"
+  ],
+  "scopes": {
+    "welcome_moon_full_odyssey": {
+      "name": "The Lunar Odyssey Campaign (All 8 Adventures)",
+      "description": "The full campaign book experience playing through each of the 8 progressive lunar adventures three times to resolve narrative choices."
+    },
+    "welcome_moon_direct_flight": {
+      "name": "Direct Flight Arc (Adventures 1–8)",
+      "description": "A streamlined linear sequence playing through each of the 8 distinct lunar boards once in chronological story order."
+    },
+    "welcome_moon_master_colonizer": {
+      "name": "Master Lunar Colonizer (Full Campaign & Astra Variants)",
+      "description": "An exhaustive campaign marathon exploring every alternative story path, maximum difficulty milestones, and solo Astra bots."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Adventure 1",
+      "title": "Liftoff from Earth",
+      "phase": "Act I - The Great Escape",
+      "description": "Flipping construction cards to fuel rocket stages and break Earth's gravitational orbit."
+    },
+    {
+      "badgeText": "Adventure 3",
+      "title": "Lunar Descent & Landing",
+      "phase": "Act II - Touchdown at Tranquility",
+      "description": "Maneuvering thrusters and establishing the first pressurized lunar base pads inside craters."
+    },
+    {
+      "badgeText": "Adventure 5",
+      "title": "The Subterranean Water Dome",
+      "phase": "Act III - Drilling for Life",
+      "description": "Pumping ice lakes and connecting greenhouse conduits to sustain growing lunar communities."
+    },
+    {
+      "badgeText": "Adventure 7",
+      "title": "The Alien Virus Quarantine",
+      "phase": "Act IV - Crisis in the Biosphere",
+      "description": "Isolating infected sectors and synthesizing anti-pathogen vaccines in the high-tech lab."
+    },
+    {
+      "badgeText": "Adventure 8",
+      "title": "The Independent Moon Republic",
+      "phase": "Act V - A New Civilization",
+      "description": "Completing the final utopian megastructure, securing self-sufficiency, and writing humanity's lunar constitution."
+    }
+  ]
+}

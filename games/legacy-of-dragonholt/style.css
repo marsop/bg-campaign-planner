@@ -1,0 +1,17 @@
+/* Scoped styles for Legacy of Dragonholt */
+
+.theme-dragonholt {
+  --dragonholt-parchment: #f4ece1;
+  --dragonholt-leather: #704828;
+  --dragonholt-forest: #2b4837;
+  --dragonholt-gold: #d4af37;
+  --dragonholt-border: rgba(212, 175, 55, 0.35);
+}
+
+.roadmap-dragonholt .roadmap-item::before {
+  border-left-color: var(--dragonholt-leather);
+}
+
+.hero-dragonholt {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}

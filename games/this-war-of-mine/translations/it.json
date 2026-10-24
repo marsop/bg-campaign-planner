@@ -1,0 +1,61 @@
+{
+  "title": "This War of Mine: Il Gioco da Tavolo",
+  "subtitle": "Cruda Campagna di Sopravvivenza Civile",
+  "tagline": "Affronta la dura realtà dei civili intrappolati in una città sotto assedio tra giorni disperati e notti insidiose.",
+  "loreSummary": "In guerra, non tutti sono soldati. Intrappolati tra le macerie di Pogoren, tu e i tuoi compagni dovete cercare cibo, medicine e combustibile affrontando strazianti dilemmi morali per resistere fino al cessate il fuoco.",
+  "badgeCategory": "Campagna di Sopravvivenza Civile",
+  "roadmapTitle": "I Giorni dell'Assedio",
+  "roadmapBadge": "Giorni di Sopravvivenza",
+  "keyFeatures": [
+    "Fedele e toccante trasposizione da tavolo del celebre videogioco di 11 bit studios",
+    "Sistema a diario immediato senza tempi morti con oltre 1.900 bivi narrativi",
+    "Ciclo giorno e notte: barricate il rifugio di giorno, rovistate tra i ruderi cittadini di notte",
+    "Fogli di salvataggio persistenti che tengono traccia di ferite, malanni, disperazione e traumi"
+  ],
+  "scopes": {
+    "this_war_of_mine_ceasefire": {
+      "name": "Fino al Cessate il Fuoco (Campagna Completa)",
+      "description": "L'esperienza completa di 8 giorni di resistenza contro freddo, razziatori e fame fino all'accordo di pace."
+    },
+    "this_war_of_mine_first_snow": {
+      "name": "Prime Nevi (Arco Introduttivo)",
+      "description": "Un arco breve di 4 giorni focalizzato sul mettere in sicurezza il rifugio prima del gelo estremo."
+    },
+    "this_war_of_mine_ironman": {
+      "name": "Assedio Invernale Spietato (Tutti gli Script & Massima Difficoltà)",
+      "description": "Una logorante prova di 12 giorni tra bufere micidiali, epidemie e incursioni armate nemiche."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Giorno 1",
+      "title": "Mettere al Sicuro il Rifugio",
+      "phase": "Atto I - Il Condominio in Macerie",
+      "description": "Rimuovere detriti, sbarrare infissi infranti e improvvisare giacigli per resistere ai bombardamenti iniziali."
+    },
+    {
+      "badgeText": "Giorno 3",
+      "title": "Prima Ricognizione Notturna",
+      "phase": "Atto II - Nelle Strade Silenziose",
+      "description": "Infiltrarsi tra farmacie e negozi abbandonati schivando i cecchini per procurarsi cibo e bende."
+    },
+    {
+      "badgeText": "Giorno 5",
+      "title": "Il Gelo Spietato",
+      "phase": "Atto III - Sopravvivenza Sottozero",
+      "description": "Le temperature crollano, costringendo a scegliere se bruciare libri preziosi o sfidare la sorte per cercare legna."
+    },
+    {
+      "badgeText": "Giorno 7",
+      "title": "Disperati alla Porta",
+      "phase": "Atto IV - Dilemmi Morali",
+      "description": "Affrontare scorrerie notturne e conflitti di coscienza quando vicini moribondi o miliziani bussano all'ingresso."
+    },
+    {
+      "badgeText": "Giorno 8",
+      "title": "La Sirena del Cessate il Fuoco",
+      "phase": "Atto V - Il Giorno Dopo",
+      "description": "Resistere fino all'annuncio del cessate il fuoco a Pogoren, contando il doloroso prezzo della salvezza."
+    }
+  ]
+}

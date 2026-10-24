@@ -1,0 +1,61 @@
+{
+  "title": "HeroQuest",
+  "subtitle": "Klassische Fantasy-Dungeon-Crawl-Abenteuerkampagne",
+  "tagline": "Folge Mentors Ruf, steige in fackelerleuchtete Tiefen hinab und bezwinge Zargons Horden in 14 gefährlichen Herausforderungen.",
+  "loreSummary": "Die finsteren Mächte des Schreckens bedrohen das Kaiserreich. Unter der Führung des weisen Mentors steigen vier kühne Helden – Barbar, Zwerg, Alb und Zauberer – in finstere Verliese hinab, um Orks, Mumien und Chaos-Krieger zu bekämpfen und Gold für mächtige Artefakte zu sammeln.",
+  "badgeCategory": "Klassischer Fantasy-Dungeon-Crawl",
+  "roadmapTitle": "Das Buch der Herausforderungen",
+  "roadmapBadge": "Heroische Quests",
+  "keyFeatures": [
+    "Das legendäre, wegweisende Fantasy-Dungeon-Crawl-Brettspiel von Stephen Baker",
+    "Fortlaufende 14-Herausforderungen-Kampagne von der ersten Bewährungsprobe bis zum Hexen-Lord",
+    "Spielbar 1-gegen-Viele mit einem Zargon-Spielleiter oder vollkooperativ per offizieller Begleit-App",
+    "Detailreiches 3D-Mobiliar, Truhen, Türen und ikonische Miniaturen-Monster"
+  ],
+  "scopes": {
+    "heroquest_core_fourteen_quests": {
+      "name": "Die Versammlung der Helden (Alle 14 Herausforderungen)",
+      "description": "Die vollständige klassische 14-Quests-Kampagne von 'Die Bewährung' bis zum epischen Showdown in Barak Tor."
+    },
+    "heroquest_introductory_trial": {
+      "name": "Die Prüfung der Champions (Herausforderungen 1–4)",
+      "description": "Ein kompakter 4-Quests-Einstieg zur Beherrschung von Kampf, Fallen und der Rettung von Prinz Magnus' Gold."
+    },
+    "heroquest_master_mentor": {
+      "name": "Champion des Reiches (Alle 14 Quests & Mythische Szenarien)",
+      "description": "Ein epischer Dungeon-Marathon mit allen Grundquests und zusätzlichen mythischen Bonusszenarien auf höchster Stufe."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Quest 1",
+      "title": "Die Bewährung",
+      "phase": "Akt I - Die Pforte des Verlieses",
+      "description": "Durch die schwere Kerkertür treten, Orks und Goblins bezwingen und das erste tödliche Labyrinth überleben."
+    },
+    {
+      "badgeText": "Quest 4",
+      "title": "Prinz Magnus' Gold",
+      "phase": "Akt II - Königliche Schätze",
+      "description": "In unterirdische Katakomben vordringen, um gestohlene königliche Goldtruhen aus den Händen der Chaos-Krieger zu befreien."
+    },
+    {
+      "badgeText": "Quest 8",
+      "title": "Der Feuermagier",
+      "phase": "Akt III - Flammende Zauberei",
+      "description": "Den abtrünnigen Pyromanten Balur in seiner Magmafestung stellen, bevor er das Verderben entfesselt."
+    },
+    {
+      "badgeText": "Quest 11",
+      "title": "Bastion des Chaos",
+      "phase": "Akt IV - Schatten des Schreckens",
+      "description": "Das innere Heiligtum der Chaos-Zauberer stürmen und das uralte Geisterschwert bergen."
+    },
+    {
+      "badgeText": "Quest 14",
+      "title": "Rückkehr nach Barak Tor",
+      "phase": "Akt V - Das Ende des Hexen-Lords",
+      "description": "Das Geisterschwert gegen den untoten Hexen-Lord führen, um Mentor und das Kaiserreich vor der ewigen Nacht zu bewahren."
+    }
+  ]
+}

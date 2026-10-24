@@ -1,0 +1,61 @@
+{
+  "title": "This War of Mine: El Juego de Tablero",
+  "subtitle": "Campaña de Supervivencia Civil Cruda y Conmovedora",
+  "tagline": "Soporta la cruda realidad de los civiles en una ciudad sitiada a través de días angustiosos y noches peligrosas.",
+  "loreSummary": "En la guerra, no todos son soldados. Atrapados en la derruida ciudad de Pogoren, tus compañeros y tú debéis rebuscar alimentos, medicinas y combustible afrontando desgarradores dilemas morales en una lucha despiadada por llegar al alto el fuego.",
+  "badgeCategory": "Campaña de Supervivencia Civil",
+  "roadmapTitle": "Días del Asedio",
+  "roadmapBadge": "Días de Supervivencia",
+  "keyFeatures": [
+    "Fiel e impactante adaptación de tablero del aclamado videojuego de 11 bit studios",
+    "Sistema de diario narrativo directo con más de 1.900 párrafos y dilemas ramificados",
+    "Ciclo de día y noche: acondiciona tu refugio de día y rebusca en ruinas urbanas de noche",
+    "Hojas de guardado persistentes que registran heridas, enfermedad, miseria y trauma psicológico"
+  ],
+  "scopes": {
+    "this_war_of_mine_ceasefire": {
+      "name": "Hasta el Alto el Fuego (Campaña Completa)",
+      "description": "La odisea de supervivencia definitiva de 8 días, resistiendo el frío, asaltos nocturnos y escasez hasta la paz."
+    },
+    "this_war_of_mine_first_snow": {
+      "name": "Primeras Nieves (Arco de Supervivencia Breve)",
+      "description": "Un arco introductorio de 4 días centrado en fortificar el refugio inicial antes de la llegada de las heladas mortales."
+    },
+    "this_war_of_mine_ironman": {
+      "name": "Asedio Invernal Extremo (Todos los Guiones y Dureza)",
+      "description": "Una extenuante prueba de 12 días enfrentando ventiscas implacables, brotes epidémicos y milicias hostiles."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Día 1",
+      "title": "Asegurar el Refugio",
+      "phase": "Acto I - El Bloque en Ruinas",
+      "description": "Despejar escombros, tapiar ventanas rotas y construir camas improvisadas para resistir los bombardeos iniciales."
+    },
+    {
+      "badgeText": "Día 3",
+      "title": "Primera Incursión Nocturna",
+      "phase": "Acto II - En las Calles Silenciosas",
+      "description": "Esquivar francotiradores para adentrarse en farmacias y supermercados desiertos y traer comida y vendas."
+    },
+    {
+      "badgeText": "Día 5",
+      "title": "La Helada Invernal Letal",
+      "phase": "Acto III - Supervivencia Bajo Cero",
+      "description": "Las temperaturas caen en picado, forzando la amarga decisión de quemar libros valiosos o buscar leña desesperadamente."
+    },
+    {
+      "badgeText": "Día 7",
+      "title": "Extraños Desesperados a la Puerta",
+      "phase": "Acto IV - Dilemas Morales",
+      "description": "Afrontar incursiones nocturnas y encrucijadas éticas cuando vecinos moribundos o milicianos armados llaman a la puerta."
+    },
+    {
+      "badgeText": "Día 8",
+      "title": "La Sirena del Alto el Fuego",
+      "phase": "Acto V - La Mañana Siguiente",
+      "description": "Sobrevivir hasta que el anuncio de paz resuena en Pogoren, sopesando las cicatrices del alma y las pérdidas sufridas."
+    }
+  ]
+}

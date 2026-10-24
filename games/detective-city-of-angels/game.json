@@ -1,0 +1,104 @@
+{
+  "id": "detective-city-of-angels",
+  "title": "Detective: City of Angels",
+  "releaseYear": 2019,
+  "designers": "Evan Derrick",
+  "playersMin": 1,
+  "playersMax": 5,
+  "bggRating": 7.8,
+  "bggWeight": 2.87,
+  "bggUrl": "https://boardgamegeek.com/boardgame/218076/detective-city-of-angels",
+  "baseScenarioMinutes": 120,
+  "setupTeardownMinutes": 15,
+  "unitType": "cases",
+  "quality": "mid",
+  "theme": {
+    "primaryColor": "#f59e0b",
+    "secondaryColor": "#18181b",
+    "accentColor": "#ef4444",
+    "backgroundGradient": "radial-gradient(ellipse at top, #27272a 0%, #18181b 60%, #09090b 100%)",
+    "cardBackground": "rgba(24, 24, 27, 0.94)",
+    "borderColor": "rgba(245, 158, 11, 0.35)",
+    "glowColor": "rgba(245, 158, 11, 0.25)",
+    "headerFont": "'Special Elite', 'Courier New', monospace",
+    "bodyFont": "'Inter', system-ui, sans-serif",
+    "loreIcon": "🕵️",
+    "emblem": "🕵️🚬",
+    "themeClass": "theme-detective-city-of-angels",
+    "activeThemeClass": "theme-detective-city-of-angels-active",
+    "roadmapClass": "roadmap-detective-city-of-angels",
+    "heroClass": "hero-detective-city-of-angels"
+  },
+  "publicSourceReferences": [
+    "BoardGameGeek (BGG ID #218076)",
+    "Van Ryder Games Official Rulebook & Casebooks",
+    "Evan Derrick 1940s Los Angeles Noir Homicide Notes"
+  ],
+  "scopes": [
+    {
+      "id": "city_of_angels_complete_dossier",
+      "baseScenarioCount": 9,
+      "estimatedFailRatePercent": 10.0,
+      "isRecommended": true
+    },
+    {
+      "id": "city_of_angels_rookie_investigator",
+      "baseScenarioCount": 3,
+      "estimatedFailRatePercent": 5.0,
+      "isRecommended": false
+    },
+    {
+      "id": "city_of_angels_master_chisel",
+      "baseScenarioCount": 13,
+      "estimatedFailRatePercent": 15.0,
+      "isRecommended": false
+    }
+  ],
+  "milestones": [
+    {
+      "order": 1,
+      "atScenarioOrGameIndex": 1,
+      "iconEmoji": "🔍",
+      "badgeText": "Case 1",
+      "title": "The Big Squeeze",
+      "phase": "Act I - Rookie Beat",
+      "description": "Interrogating suspects across Hollywood motels, bribing snitches, and solving your first high-profile homicide."
+    },
+    {
+      "order": 2,
+      "atScenarioOrGameIndex": 3,
+      "iconEmoji": "🎬",
+      "badgeText": "Case 3",
+      "title": "Deadly Reputation",
+      "phase": "Act II - Studio Lot Corruption",
+      "description": "Peeling back the glamorous facade of studio moguls and starlets to expose blackmail rings and mob ties."
+    },
+    {
+      "order": 3,
+      "atScenarioOrGameIndex": 5,
+      "iconEmoji": "🍸",
+      "badgeText": "Case 5",
+      "title": "Blood on the Boulevard",
+      "phase": "Act III - Midnight Vice",
+      "description": "Confronting crooked cops and syndicate bookies across smoke-filled jazz clubs and underground casinos."
+    },
+    {
+      "order": 4,
+      "atScenarioOrGameIndex": 7,
+      "iconEmoji": "⚖️",
+      "badgeText": "Case 7",
+      "title": "A Bullet for the District Attorney",
+      "phase": "Act IV - City Hall Conspiracies",
+      "description": "Untangling high-level municipal corruption where municipal judges and syndicate bosses share bank accounts."
+    },
+    {
+      "order": 5,
+      "atScenarioOrGameIndex": 9,
+      "iconEmoji": "🏆",
+      "badgeText": "Case 9",
+      "title": "City of Angels Final Ledger",
+      "phase": "Act V - The Chief's Commendation",
+      "description": "Delivering the final arrest warrants to the Chief of Police and cementing your reputation in LAPD legend."
+    }
+  ]
+}

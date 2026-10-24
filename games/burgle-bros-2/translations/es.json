@@ -1,0 +1,61 @@
+{
+  "title": "Burgle Bros 2: The Casino Capers",
+  "subtitle": "Campaña Cooperativa de Atracos e Infiltración en Casinos",
+  "tagline": "Perpetra audaces golpes en casinos de lujo, elude a los gorilas de seguridad y escapa con el botín en 9 misiones.",
+  "loreSummary": "La banda ha vuelto y esta vez el objetivo es una opulenta avenida de casinos. Cooperad explorando dos plantas repletas de ruletas, mesas de juego y cajas fuertes. Esquivad a los implacables vigilantes y escapad antes de que suenen las sirenas.",
+  "badgeCategory": "Atraco Cooperativo de Sigilo",
+  "roadmapTitle": "Operaciones de Atraco al Casino",
+  "roadmapBadge": "Golpes de Casino",
+  "keyFeatures": [
+    "Secuela del aclamado juego cooperativo de robos de guante blanco de Tim Fowers",
+    "Modo campaña de 9 golpes con jefes de seguridad únicos, eventos y equipo desbloqueable",
+    "Presencia de mesa en 3D con dos plantas de casino superpuestas y dados de vigilancia",
+    "Sinergia de equipo: combina las destrezas del hacker, acróbata, oteador y músculo"
+  ],
+  "scopes": {
+    "burgle_bros_2_casino_campaign": {
+      "name": "Gran Campaña del Casino (Los 9 Golpes)",
+      "description": "El recorrido narrativo completo superando a los 9 gorilas del casino desde la noche de apertura hasta el gran golpe final."
+    },
+    "burgle_bros_2_first_heists": {
+      "name": "Noche de Inauguración (Golpes 1 a 3)",
+      "description": "Un arco introductorio de 3 atracos infiltrándose en las salas de juego principales y abriendo las primeras cajas."
+    },
+    "burgle_bros_2_master_thieves": {
+      "name": "Sindicato de Ladrones Maestros (9 Golpes & Gran Final)",
+      "description": "Un maratón criminal desafiando las máximas alertas de seguridad, perros guardianes y bouncers expertos."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Golpe 1",
+      "title": "La Planta de Grandes Apuestas",
+      "phase": "Acto I - Infiltrándose en el Casino",
+      "description": "Esquivar a los primeros porteros, forzar la caja fuerte de la ruleta y eludir a los guardias en patrulla."
+    },
+    {
+      "badgeText": "Golpe 3",
+      "title": "La Distracción de la Cantante",
+      "phase": "Acto II - El Gran Engaño",
+      "description": "Utilizar a miembros disfrazados para disparar alarmas falsas y colarse en la sala de vigilancia."
+    },
+    {
+      "badgeText": "Golpe 5",
+      "title": "La Cámara del Ático",
+      "phase": "Acto III - Desvalijando el Tesoro",
+      "description": "Descifrar la rejilla de láseres sincronizados de la planta superior para saquear la recaudación mayor."
+    },
+    {
+      "badgeText": "Golpe 7",
+      "title": "Doble o Nada Encubierto",
+      "phase": "Acto IV - Bloqueo de Seguridad",
+      "description": "Sortear a los jefes de sala y perros rastreadores escoltando al conductor de la fuga hacia el monorraíl."
+    },
+    {
+      "badgeText": "Golpe 9",
+      "title": "Huida en el Helipuerto",
+      "phase": "Acto V - El Gran Botín",
+      "description": "Burlar al magnate del casino, arrebatar el bote multimillonario y saltar al helicóptero de huida."
+    }
+  ]
+}

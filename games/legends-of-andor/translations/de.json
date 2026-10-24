@@ -1,0 +1,61 @@
+{
+  "title": "Die Legenden von Andor",
+  "subtitle": "Kooperative Fantasy-Abenteuer- und Rätsel-Kampagne",
+  "tagline": "Verteidigt das Land Rietburg und erlebt eure eigene Heldensage in 5 fortlaufenden Legenden.",
+  "loreSummary": "Das Land Andor ist in höchster Not. Aus den Bergen und dunklen Wäldern dringen feindliche Gors und Skrals auf die Rietburg vor. Als Krieger, Zwerg, Bogenschütze und Zauberin müsst ihr eure Tagesstunden weise nutzen und Aufträge erfüllen, bevor der Erzählerstein den Buchstaben N erreicht.",
+  "badgeCategory": "Kooperative Fantasy-Kampagne",
+  "roadmapTitle": "Chroniken der Fünf Legenden",
+  "roadmapBadge": "Legenden von Andor",
+  "keyFeatures": [
+    "Ausgezeichnet als Kennerspiel des Jahres 2013, meisterhaft erdacht und illustriert von Michael Menzel",
+    "Dynamisches Legenden-Kartendeck: Losspielen ohne langes Regellesen durch schrittweise Einführung",
+    "Fesselndes kooperatives Optimierungs- und Zeitmanagement-Puzzle um die Verteidigung der Rietburg",
+    "Doppelseitiger Spielplan mit der sonnigen Oberwelt Andors und den finsteren Minen der Zwerge"
+  ],
+  "scopes": {
+    "andor_five_legends_chronicle": {
+      "name": "Die Fünf Legenden des Reiches (Legenden 1–5)",
+      "description": "Der vollständige Kampagnenbogen des Grundspiels über alle 5 fortlaufenden Legenden bis zum Drachenfinale."
+    },
+    "andor_introductory_legends": {
+      "name": "Das Erwachen der Helden (Legenden 1–3)",
+      "description": "Ein einleitender 3-Legenden-Bogen mit Erlernen der Bewegungsregeln, Heilung des Königs und der Hexe."
+    },
+    "andor_master_guardians": {
+      "name": "Meister-Beschützer der Rietburg (Alle Legenden & Harte Varianten)",
+      "description": "Eine anspruchsvolle Kampagnenprüfung mit geheimen Schicksalskarten, Runensteinen und dem Zorn des Drachen."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Legende 1",
+      "title": "Die Ankunft der Helden",
+      "phase": "Akt I - Die Warnungs-Schriftrollen",
+      "description": "Wichtige Botschaften rechtzeitig zur Rietburg bringen, bevor anrückende Gors die Grenzlande überrennen."
+    },
+    {
+      "badgeText": "Legende 2",
+      "title": "Die Heilung des Königs",
+      "phase": "Akt II - Das Heilkraut des Lebens",
+      "description": "Das seltene Heilkraut im Nebelwald aufspüren, um König Brandur zu retten, während die Burg belagert wird."
+    },
+    {
+      "badgeText": "Legende 3",
+      "title": "Tage des Widerstands",
+      "phase": "Akt III - Die Hexe aus dem Nebel",
+      "description": "Die verborgene Hexe finden, mächtige Tränke erwerben und geheime Schicksalsaufgaben im Reich erfüllen."
+    },
+    {
+      "badgeText": "Legende 4",
+      "title": "Die Edelsteinmine der Zwerge",
+      "phase": "Akt IV - Tiefen der Dunkelheit",
+      "description": "In die unterirdischen Minen der Zwerge hinabsteigen, Skrals bezwingen und das verlorene Schild bergen."
+    },
+    {
+      "badgeText": "Legende 5",
+      "title": "Der Zorn des Drachen",
+      "phase": "Akt V - Die Letzte Belagerung",
+      "description": "Gemeinsam alle vier Runensteine und die Drachenwaffe vereinen, um den gewaltigen Drachen über der Rietburg zu fällen."
+    }
+  ]
+}

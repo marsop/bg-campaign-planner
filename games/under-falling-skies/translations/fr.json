@@ -1,0 +1,61 @@
+{
+  "title": "Under Falling Skies",
+  "subtitle": "Campagne Solo de Pose de Dés contre l'Invasion Extraterrestre",
+  "tagline": "Menez la résistance souterraine de la Terre contre un vaisseau-mère extraterrestre dans une campagne en bande dessinée.",
+  "loreSummary": "Le gigantesque vaisseau-mère extraterrestre obscurcit le ciel, déployant ses vagues d'intercepteurs sur nos villes assiégées. En tant que commandant d'un bunker souterrain, assignez vos dés pour creuser des salles, armer les lasers sol-air, accélérer les recherches vitales et sauver la planète.",
+  "badgeCategory": "Campagne Solo de Défense Sci-Fi",
+  "roadmapTitle": "L'Arc Narratif en BD",
+  "roadmapBadge": "Chapitres d'Histoire",
+  "keyFeatures": [
+    "Jeu solo de pose de dés plébiscité par la critique pour son ingénieux système de colonnes",
+    "Campagne scénarisée en 4 chapitres rythmée par des bandes dessinées et scénarios déblocables",
+    "Fiches de villes uniques, chefs d'opération aux pouvoirs dédiés et robots de soutien",
+    "Lauréat du Golden Geek Award 2020 du Meilleur Jeu de Société Solo"
+  ],
+  "scopes": {
+    "under_falling_skies_full_campaign": {
+      "name": "La Campagne Complète en BD (16 Missions)",
+      "description": "L'arc narratif complet de 4 chapitres avec bandes dessinées évolutives, villes inédites et assaut final."
+    },
+    "under_falling_skies_first_chapter": {
+      "name": "Chapitre 1 : La Descente (4 Missions)",
+      "description": "Un arc d'initiation de 4 missions pour repousser les premières incursions et organiser la base souterraine."
+    },
+    "under_falling_skies_hardcore_resistance": {
+      "name": "Résistance Mondiale Vétéran (Toutes les Villes & Menace Maximale)",
+      "description": "Un défi impitoyable consistant à défendre toutes les mégapoles du globe face au niveau d'assaut extraterrestre suprême."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Chapitre 1",
+      "title": "L'Arrivée du Vaisseau-Mère",
+      "phase": "Chapitre 1 - Alerte sur Roswell",
+      "description": "Déployer les foreuses souterraines et les premiers lasers sol-air alors que le vaisseau amiral descend sur la ville."
+    },
+    {
+      "badgeText": "Chapitre 2",
+      "title": "Défendre Washington",
+      "phase": "Chapitre 2 - Le Siège de la Capitale",
+      "description": "Débloquer les compétences de commandants et déployer des robots défensifs pour contrer les escadrilles ennemies."
+    },
+    {
+      "badgeText": "Chapitre 3",
+      "title": "Percée Scientifique Souterraine",
+      "phase": "Chapitre 3 - La Résistance Mondiale",
+      "description": "Accélérer la recherche scientifique pour décoder la technologie alien et concevoir de redoutables canons à énergie."
+    },
+    {
+      "badgeText": "Chapitre 4",
+      "title": "Assaut sur le Réacteur",
+      "phase": "Chapitre 4 - La Contre-Attaque Finale",
+      "description": "Coordonner le réseau mondial des villes alliées pour porter un coup fatal au cœur thermique du vaisseau-mère."
+    },
+    {
+      "badgeText": "Victoire",
+      "title": "La Terre Libérée",
+      "phase": "Épilogue - Ciels Dégagés",
+      "description": "Annihiler le vaisseau-mère en orbite et libérer l'humanité du joug de l'envahisseur."
+    }
+  ]
+}

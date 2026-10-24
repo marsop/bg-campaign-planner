@@ -1,0 +1,61 @@
+{
+  "title": "Legacy of Yu",
+  "subtitle": "Campagne Solo Narrative et Évolutive Non Destructive",
+  "tagline": "Domptez les crues dévastatrices du Fleuve Jaune et repoussez les assauts barbares dans une campagne solo équilibrée.",
+  "loreSummary": "Dans la Chine antique sous le règne de l'empereur Shun, vous incarnez Yu le Grand, mandaté pour canaliser les crues catastrophiques du Fleuve Jaune tout en défendant vos digues contre les raids barbares. Creusez des canaux, formez les villageois et découvrez les paraboles d'un deck d'histoire dynamique.",
+  "badgeCategory": "Campagne Solo Legacy",
+  "roadmapTitle": "Chroniques du Fleuve Jaune",
+  "roadmapBadge": "Campagnes de Crues",
+  "keyFeatures": [
+    "Jeu conçu exclusivement pour le jeu solo en pose d'ouvriers et deck-building par Shem Phillips",
+    "Campagne legacy non destructive : intégralement réinitialisable sans autocollants ni matériel altéré",
+    "Deck narratif auto-équilibré qui débloque de nouvelles cartes et calibre la difficulté après chaque partie",
+    "Course haletante pour obtenir 7 victoires avant d'essuyer 7 défaites dans une fresque historique"
+  ],
+  "scopes": {
+    "legacy_of_yu_flood_campaign": {
+      "name": "Le Domptage du Fleuve Jaune (7 à 10 Parties)",
+      "description": "L'arc narratif solo complet enchaînant les parties jusqu'à décrocher 7 victoires éclatantes ou 7 défaites cinglantes."
+    },
+    "legacy_of_yu_first_canals": {
+      "name": "Premiers Canaux & Défense (3 Parties)",
+      "description": "Un parcours d'initiation de 3 parties pour assimiler le terrassement, le recrutement et la défense contre les pillards."
+    },
+    "legacy_of_yu_master_engineer": {
+      "name": "Maître Ingénieur Yu (Toutes Paraboles & Difficulté Maximale)",
+      "description": "Une épreuve de maîtrise ultime visant à déclencher toutes les paraboles et à vaincre les plus redoutables barbares."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Partie 1",
+      "title": "La Montée des Eaux",
+      "phase": "Ère I - Rupture des Berges",
+      "description": "Creuser les premiers canaux de drainage, abattre du bois d'œuvre et repousser les pirates fluviaux."
+    },
+    {
+      "badgeText": "Partie 3",
+      "title": "Villages du Bassin",
+      "phase": "Ère II - Refuge pour le Peuple",
+      "description": "Bâtir des greniers et des postes avancés pour abriter les réfugiés et mobiliser des artisans pour les canaux."
+    },
+    {
+      "badgeText": "Partie 5",
+      "title": "Percer la Montagne",
+      "phase": "Ère III - La Gorge du Dragon",
+      "description": "Dégager les rochers titanesques et tailler des canaux dans la Porte du Dragon pour dévier le fleuve en furie."
+    },
+    {
+      "badgeText": "Partie 7",
+      "title": "L'Assaut du Chef de Guerre",
+      "phase": "Acte IV - Défense des Ouvrages",
+      "description": "Négocier et affronter les hordes barbares prêtes à saboter les vannes et les écluses des canaux."
+    },
+    {
+      "badgeText": "Partie 8",
+      "title": "Les Eaux Apaisées",
+      "phase": "Ère V - Yu le Grand Couronné",
+      "description": "Conduire sans encombre le Fleuve Jaune vers la Mer Orientale, cumuler sept triomphes et fonder la Dynastie Xia."
+    }
+  ]
+}

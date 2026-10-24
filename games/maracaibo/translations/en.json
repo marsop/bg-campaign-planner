@@ -1,0 +1,61 @@
+{
+  "title": "Maracaibo",
+  "subtitle": "17th-Century Caribbean Maritime Strategy Campaign",
+  "tagline": "Sail the treacherous waters of the Spanish Main across an evolving 12-chapter story campaign.",
+  "loreSummary": "Set sail in the 17th century as a skilled captain navigating the Caribbean. Deliver goods, upgrade your ship, complete adventurous quests, and ally with rival European empires as the political board landscape permanently shifts from chapter to chapter.",
+  "badgeCategory": "Maritime Strategy Campaign",
+  "roadmapTitle": "Chronicles of the Spanish Main",
+  "roadmapBadge": "Story Chapters",
+  "keyFeatures": [
+    "Masterful heavy strategy design by Alexander Pfister with dynamic round rondel movement",
+    "Branching 12-chapter campaign where story cards permanently alter board locations and quests",
+    "Deep engine-building: improve your ship, deliver goods, enlist crew, and explore wilderness trails",
+    "Multi-faceted scoring with shifting geopolitical influence among England, France, and Spain"
+  ],
+  "scopes": {
+    "maracaibo_full_chronicles": {
+      "name": "The Caribbean Story Chronicles (All 12 Chapters)",
+      "description": "The complete narrative saga traversing all 12 chapters with evolving board tiles, story cards, and geopolitical resolutions."
+    },
+    "maracaibo_introductory_voyage": {
+      "name": "The Maiden Voyage (Chapters 1–4)",
+      "description": "An introductory campaign arc establishing your trading syndicate and learning the shifting map mechanics."
+    },
+    "maracaibo_master_corsair": {
+      "name": "High Seas Completionist (12 Chapters + Mastery Variants)",
+      "description": "An exhaustive maritime expedition exploring all alternative story card branches and maximum difficulty challenges."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Chapter 1",
+      "title": "Setting Sail from Havana",
+      "phase": "Act I - The Great Trade Route",
+      "description": "Navigating the trade winds across the Spanish Main and delivering initial cargoes to colonial outposts."
+    },
+    {
+      "badgeText": "Chapter 4",
+      "title": "Clash of Empires",
+      "phase": "Act II - Shifting Alliances",
+      "description": "Influence battles between England, France, and Spain escalate across the Caribbean basin."
+    },
+    {
+      "badgeText": "Chapter 7",
+      "title": "The Pearl Coast Secrets",
+      "phase": "Act III - Uncharted Waters",
+      "description": "Delving into unexplored jungle trails and mysterious ruins beyond Maracaibo and Caracas."
+    },
+    {
+      "badgeText": "Chapter 10",
+      "title": "The Corsair Blockade",
+      "phase": "Act IV - Storm over the Antilles",
+      "description": "Navigating treacherous blockades and rogue pirate fleets threatening merchant convoys."
+    },
+    {
+      "badgeText": "Chapter 12",
+      "title": "Legacy of the Spanish Main",
+      "phase": "Act V - The Grand Trade Fleet Finale",
+      "description": "Securing maritime dominance and immortalizing your merchant company in Caribbean history."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Cerca y Lejos",
+  "subtitle": "Campaña de Aventuras Narrativas y Atlas de Viaje",
+  "tagline": "Recluta compañeros, equipa a tus aves de carga y busca la mítica Última Ruina a través de un atlas ilustrado.",
+  "loreSummary": "Cuatro vagabundos buscan la Última Ruina, una ciudad que oculta un artefacto capaz de conceder el deseo más profundo del corazón. Viaja a través de un atlas de mapas ilustrados, lee encuentros de un extenso libro de relatos, establece campamentos y gestiona a tus intrépidos aventureros.",
+  "badgeCategory": "Campaña de Aventuras Narrativas",
+  "roadmapTitle": "Viaje del Atlas hacia la Última Ruina",
+  "roadmapBadge": "Mapas del Atlas",
+  "keyFeatures": [
+    "Secuela de Arriba y Abajo, ambientada en el cautivador mundo fantástico de Arzium de Ryan Laukat",
+    "Atlas con 11 mapas a todo color con terrenos singulares y cientos de párrafos narrativos a elegir",
+    "Modo Personaje con misiones individuales que exploran el trasfondo de cada viajero",
+    "Fusión perfecta de colocación de trabajadores, gestión de recursos y narrativa de libro interactivo"
+  ],
+  "scopes": {
+    "near_and_far_story_campaign": {
+      "name": "En Busca de la Última Ruina (10 Sesiones de Atlas)",
+      "description": "El arco de campaña definitivo que recorre 10 mapas secuenciales del atlas hasta desvelar el secreto de la Última Ruina."
+    },
+    "near_and_far_character_quest": {
+      "name": "Arco de Misión Personal (4 Sesiones)",
+      "description": "Un viaje centrado de 4 sesiones siguiendo las misiones personales de los personajes y sus hitos biográficos."
+    },
+    "near_and_far_arcade_mode": {
+      "name": "Completista del Atlas (Los 11 Mapas y Minas)",
+      "description": "Una expedición exhaustiva que juega cada mapa del atlas y los desafíos de la mina subterránea."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Mapa 1",
+      "title": "Partiendo de Fin de la Esperanza",
+      "phase": "Capítulo 1 - Hacia Tierras Salvajes",
+      "description": "Establecer campamento y reclutar aves de carga y aventureros para la travesía hacia tierras desconocidas."
+    },
+    {
+      "badgeText": "Mapa 3",
+      "title": "Las Arenas Hundidas",
+      "phase": "Capítulo 2 - Desiertos y Secretos",
+      "description": "Sobrevivir a tormentas de arena y descubrir santuarios de obsidiana enterrados en las dunas profundas."
+    },
+    {
+      "badgeText": "Mapa 6",
+      "title": "El Paso de las Alturas",
+      "phase": "Capítulo 3 - Cumbres Peligrosas",
+      "description": "Escalar pasos montañosos escarpados y entrar en contacto con enigmáticas tribus y templos antiguos."
+    },
+    {
+      "badgeText": "Mapa 8",
+      "title": "El Pantano Susurrante",
+      "phase": "Capítulo 4 - Las Profundidades Turbias",
+      "description": "Atravesar ciénagas traicioneras y rescatar artefactos clave que guían hacia el santuario legendario."
+    },
+    {
+      "badgeText": "Mapa 10",
+      "title": "El Hallazgo de la Última Ruina",
+      "phase": "Capítulo 5 - El Deseo del Corazón",
+      "description": "Alcanzar la mítica Última Ruina, desvelar el párrafo final y cumplir el anhelo supremo de tu viajero."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "subtitle": "Un'esilarante avventura di ruolo fantasy post-apocalittica",
+  "tagline": "Afferrate i dadi, formate una sgangherata compagnia e sfidate gli assurdi pericoli di un mondo in rovina.",
+  "loreSummary": "Freelancers: A Crossroads Game unisce l'avvincente narrazione dei giochi di ruolo da tavolo all'immediatezza frenetica dei moderni giochi da tavolo. Ambientato in un variopinto scenario fantasy post-apocalittico dove l'antica civiltà è crollata da secoli, i giocatori vestono i panni di intraprendenti mercenari freelance a caccia di bottino e gloria. Guidati da un'applicazione digitale interamente doppiata da attori professionisti, affronterete bivi narrativi imprevisti, scelte fulminee contro il tempo ed esilaranti battute di gruppo.",
+  "badgeCategory": "GDR Crossroads",
+  "roadmapTitle": "L'Affare dei Freelance",
+  "roadmapBadge": "Contratti di Gilda",
+  "keyFeatures": [
+    "App digitale integrata interamente doppiata con narrazione vocale professionale ed eventi dinamici",
+    "Piazzamento lavoratori frenetico con countdown in tempo reale che richiede decisioni fulminee",
+    "Sistema narrativo Crossroads ricco di dilemmi comici, bivi morali e colpi di scena imprevedibili",
+    "Nessun tempo di preparazione con schede personaggio intuitive ad apprendimento immediato e formato legacy"
+  ],
+  "scopes": {
+    "intro-contract": {
+      "name": "Primo Contratto (Lavoro Tutorial)",
+      "description": "Contratto mercenario iniziale che introduce la narrazione vocale da app, il piazzamento a tempo e il punteggio del contratto."
+    },
+    "core-campaign": {
+      "name": "Campagna Il Grande Colpo",
+      "description": "Campagna narrativa standard composta da cinque contratti ad alto rischio attraverso affascinanti rovine post-apocalittiche."
+    },
+    "all-contracts": {
+      "name": "Tutti i Contratti e Missioni d'Espansione",
+      "description": "Avventura completa affrontando ogni scenario incluso con combinazioni assortite di personaggi e schede legacy."
+    }
+  },
+  "milestones": {
+    "first-payday": {
+      "title": "La Prima Busta Paga",
+      "phase": "Contratto I",
+      "description": "Portate a termine il primo ingaggio del gruppo, potenziate abilità stravaganti e registrate titoli altisonanti sulla scheda."
+    },
+    "wasteland-notoriety": {
+      "title": "Notorietà nelle Lande",
+      "phase": "Contratto II",
+      "description": "Sopravvivete a bizzarri mutanti e consolidate la famigerata reputazione della ciurma al cospetto delle gilde rivali."
+    },
+    "crossroads-reckoning": {
+      "title": "Dilemma al Bivio",
+      "phase": "Contratto III",
+      "description": "Affrontate difficili scelte morali generate dalle carte Bivio che mettono in contrasto avidità individuale e sopravvivenza della squadra."
+    },
+    "the-master-heist": {
+      "title": "Il Grande Colpo",
+      "phase": "Contratto IV",
+      "description": "Infiltratevi nelle pericolose rovine aziendali del passato per arraffare il tesoro supremo prima dello scadere del timer."
+    },
+    "hall-of-legends": {
+      "title": "Sala delle Leggende",
+      "phase": "Pensione",
+      "description": "Calcolate il bottino accumulato in una vita di avventure, incidete i vostri titoli nella leggenda e godetevi una pensione tra sfarzi smodati."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Dorfromantik: El Juego de Mesa",
+  "subtitle": "Campaña Cooperativa de Puzle y Paisaje Pastoral",
+  "tagline": "Construid juntos una campiña idílica y pacífica, desbloqueando cajas secretas a lo largo de una reconfortante campaña.",
+  "loreSummary": "Colaborad colocando losetas hexagonales de terreno, uniendo ríos resplandecientes, trigales dorados y pintorescas cabañas mientras cumplís los encargos de los lugareños para abrir cajas secretas con nuevos desafíos.",
+  "badgeCategory": "Campaña Cooperativa Pastoral",
+  "roadmapTitle": "Sendero de Logros de Campaña",
+  "roadmapBadge": "Cajas Secretas",
+  "keyFeatures": [
+    "Adaptación cooperativa de colocación de losetas del aclamado y relajante videojuego",
+    "5 cajas secretas desbloqueables con nuevas losetas, tareas y reglas de puntuación",
+    "Bloc de campaña rejugable con metas crecientes de puntuación y estrellas",
+    "Ganador del prestigioso premio Spiel des Jahres 2023"
+  ],
+  "scopes": {
+    "dorfromantik_full_campaign": {
+      "name": "La Campiña Completa (Las 5 Cajas Secretas)",
+      "description": "El arco completo de campaña, abriendo las 5 cajas selladas con tareas especiales de paisaje y cartas de puntuación."
+    },
+    "dorfromantik_first_achievements": {
+      "name": "Primeros Horizontes de la Aldea (Primeras 2 Cajas)",
+      "description": "Una relajada campaña introductoria abriendo las dos primeras cajas secretas con vías de ferrocarril y retos especiales."
+    },
+    "dorfromantik_master_high_score": {
+      "name": "Maestro Paisajista (Campaña y Máximas Puntuaciones)",
+      "description": "Una experiencia de campaña intensiva para desbloquear todos los módulos y alcanzar las máximas categorías de puntuación en la hoja de campaña."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Caja 1",
+      "title": "Los Primeros Campos Florecientes",
+      "phase": "Capítulo 1 - Cimientos de la Aldea",
+      "description": "Trazar los primeros cursos fluviales y conectar linderos forestales para alcanzar el primer umbral de puntuación regional."
+    },
+    {
+      "badgeText": "Caja 2",
+      "title": "Vías a Través del Valle",
+      "phase": "Capítulo 2 - Horizontes en Expansión",
+      "description": "Abrir las primeras cajas secretas, incorporando cruces ferroviarios, encargos de terreno y redes de trenes de vapor."
+    },
+    {
+      "badgeText": "Caja 3",
+      "title": "Confluencias Fluviales y Canales",
+      "phase": "Capítulo 3 - Aguas Corrientes",
+      "description": "Integrar losetas de puertos y extensos canales navegables para desbloquear nuevas cartas de logro y estrellas."
+    },
+    {
+      "badgeText": "Caja 4",
+      "title": "Maravillas del Reino",
+      "phase": "Capítulo 4 - Monumentos y Puntos de Interés",
+      "description": "Erigir molinos de viento, torres vigía y grandes monumentos que premian estrategias dedicadas de colocación."
+    },
+    {
+      "badgeText": "Caja 5",
+      "title": "El Paisaje Maestro Armonioso",
+      "phase": "Capítulo 5 - Gran Final de Campaña",
+      "description": "Abrir la última caja secreta y lograr la puntuación de armonía más alta en el bloc maestro de campaña."
+    }
+  ]
+}

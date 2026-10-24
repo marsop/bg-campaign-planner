@@ -1,0 +1,61 @@
+{
+  "title": "Shadows of Brimstone: City of the Ancients",
+  "subtitle": "Campaña Mazmorrera de Terror Cósmico en el Salvaje Oeste",
+  "tagline": "Cárgate tus revólveres y desciende a minas de oro malditas y mundos alienígenas en un clásico de mazmorreo.",
+  "loreSummary": "A finales del siglo XIX, la próspera ciudad minera de Brimstone descubrió la Piedra Oscura, un mineral cósmico que abrió portales interdimensionales en la frontera. Crea a tu Pistolero, Chica de Salón o Alguacil, enfréntate a abominaciones primigenias y cruza brechas hacia ruinas de civilizaciones alienígenas.",
+  "badgeCategory": "Mazmorreo en el Salvaje Oeste",
+  "roadmapTitle": "Expediciones hacia el Vacío",
+  "roadmapBadge": "Misiones de Piedra Oscura",
+  "keyFeatures": [
+    "Vibrante fusión de tiroteos clásicos del Lejano Oeste con el horror cósmico lovecraftiano",
+    "Profunda progresión de personajes: gana experiencia, sube en árboles de talentos y sobrevive a heridas y locura",
+    "Fase de Ciudad Fronteriza: visita salones, armerías, médicos e iglesias para fabricar equipo y mejorar armas",
+    "Portales a Otros Mundos que conducen a las gélidas ruinas mecánicas de la Meseta de Targa"
+  ],
+  "scopes": {
+    "brimstone_ancient_city_saga": {
+      "name": "La Saga de la Meseta de Targa (12 Aventuras + Otros Mundos)",
+      "description": "El arco narrativo completo a lo largo de 16 aventuras explorando minas infestadas, interludios urbanos y umbrales alienígenas."
+    },
+    "brimstone_greenhorn_mines": {
+      "name": "Arco del Novato de la Frontera (4 Primeras Aventuras)",
+      "description": "Una campaña introductoria de 4 aventuras explorando los primeros pozos mineros y visitando el pueblo de Brimstone."
+    },
+    "brimstone_master_gunslinger": {
+      "name": "Forajido Legendario de Piedra Oscura (Aventuras & Soberano de Targa)",
+      "description": "Una extensa campaña que desafía todas las puertas del vacío de máximo peligro y al Soberano Precursor."
+    }
+  },
+  "milestones": [
+    {
+      "badgeText": "Aventura 1",
+      "title": "Descenso a la Mina Abandonada",
+      "phase": "Acto I - La Pesadilla de la Fiebre del Oro",
+      "description": "Encender antorchas y explorar galerías oscuras infestadas de arañas del vacío y tentáculos mutantes."
+    },
+    {
+      "badgeText": "Aventura 4",
+      "title": "Descanso y Suministros en Brimstone",
+      "phase": "Acto II - Interludio en el Poblado",
+      "description": "Visitar el saloon, la herrería y la iglesia para gastar Piedra Oscura, curar la demencia y forjar equipo."
+    },
+    {
+      "badgeText": "Aventura 8",
+      "title": "El Portal a la Meseta de Targa",
+      "phase": "Acto III - En el Otro Mundo Helado",
+      "description": "Cruzar un vórtice cósmico hacia las gélidas ruinas cibernéticas de una civilización precursora alienígena."
+    },
+    {
+      "badgeText": "Aventura 12",
+      "title": "El Despertar de los Custodios",
+      "phase": "Acto IV - Metal y Locura",
+      "description": "Combatir a los autómatas mecánicos Custodios y a monstruosos Goliat que custodian generadores extraterrestres."
+    },
+    {
+      "badgeText": "Final",
+      "title": "El Alijo Maestro de Piedra Oscura",
+      "phase": "Acto V - Leyenda del Viejo Oeste",
+      "description": "Erradicar los horrores de la brecha y regresar a la ciudad colmados de gloria y Piedra Oscura purificada."
+    }
+  ]
+}
