@@ -835,4 +835,34 @@
   <data name="Banner.NewTag" xml:space="preserve">
     <value>NOUVEAU</value>
   </data>
+  <data name="Bgg.TokenPlaceholder" xml:space="preserve">
+    <value>Jeton d'API BGG (Bearer)</value>
+  </data>
+  <data name="Bgg.TokenLabel" xml:space="preserve">
+    <value>Jeton d'application de l'API BoardGameGeek</value>
+  </data>
+  <data name="Bgg.TokenToggleBtn" xml:space="preserve">
+    <value>Jeton d'API</value>
+  </data>
+  <data name="Bgg.TokenHelp" xml:space="preserve">
+    <value>BGG exige un jeton d'application pour accéder à l'API. Inscrivez-vous et générez un jeton sur</value>
+  </data>
+  <data name="Bgg.ImportCsvBtn" xml:space="preserve">
+    <value>Importer CSV</value>
+  </data>
+  <data name="Bgg.ImportCsvHelp" xml:space="preserve">
+    <value>Importez votre collection depuis un export CSV de BGG (aucun jeton requis)</value>
+  </data>
+  <data name="Bgg.Error401MissingToken" xml:space="preserve">
+    <value>BoardGameGeek requiert désormais un jeton d'application API (HTTP 401 Non autorisé). Veuillez saisir un jeton ci-dessous ou importer votre CSV de collection.</value>
+  </data>
+  <data name="Bgg.Error401InvalidToken" xml:space="preserve">
+    <value>BGG a rejeté le jeton d'API (HTTP 401 Non autorisé). Veuillez vérifier que votre jeton est valide et actif sur boardgamegeek.com/applications.</value>
+  </data>
+  <data name="Bgg.CsvSuccessMsg" xml:space="preserve">
+    <value>Collection importée depuis le CSV ! {0} jeu(x) possédé(s).</value>
+  </data>
+  <data name="Bgg.CsvEmptyOrInvalid" xml:space="preserve">
+    <value>Aucun jeu possédé trouvé dans le fichier CSV. Assurez-vous qu'il s'agit d'un export de BoardGameGeek.</value>
+  </data>
 </root>

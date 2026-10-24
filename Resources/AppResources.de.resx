@@ -835,4 +835,34 @@
   <data name="Banner.NewTag" xml:space="preserve">
     <value>NEU</value>
   </data>
+  <data name="Bgg.TokenPlaceholder" xml:space="preserve">
+    <value>BGG-API-Token (Bearer)</value>
+  </data>
+  <data name="Bgg.TokenLabel" xml:space="preserve">
+    <value>BoardGameGeek-API-Anwendungstoken</value>
+  </data>
+  <data name="Bgg.TokenToggleBtn" xml:space="preserve">
+    <value>API-Token</value>
+  </data>
+  <data name="Bgg.TokenHelp" xml:space="preserve">
+    <value>BGG erfordert ein Anwendungstoken für den API-Zugriff. Registrieren und erstellen Sie ein Token unter</value>
+  </data>
+  <data name="Bgg.ImportCsvBtn" xml:space="preserve">
+    <value>CSV importieren</value>
+  </data>
+  <data name="Bgg.ImportCsvHelp" xml:space="preserve">
+    <value>Importieren Sie Ihre Sammlung aus einem BGG-CSV-Export (kein Token erforderlich)</value>
+  </data>
+  <data name="Bgg.Error401MissingToken" xml:space="preserve">
+    <value>BoardGameGeek erfordert jetzt ein API-Anwendungstoken (HTTP 401 Nicht autorisiert). Bitte geben Sie unten ein Token ein oder importieren Sie Ihre Sammlungs-CSV.</value>
+  </data>
+  <data name="Bgg.Error401InvalidToken" xml:space="preserve">
+    <value>BGG hat das API-Token abgelehnt (HTTP 401 Nicht autorisiert). Bitte überprüfen Sie, ob Ihr Token unter boardgamegeek.com/applications gültig und aktiv ist.</value>
+  </data>
+  <data name="Bgg.CsvSuccessMsg" xml:space="preserve">
+    <value>Sammlung aus CSV importiert! {0} Spiel(e) im Besitz.</value>
+  </data>
+  <data name="Bgg.CsvEmptyOrInvalid" xml:space="preserve">
+    <value>Keine eigenen Brettspiele in der CSV-Datei gefunden. Bitte stellen Sie sicher, dass es sich um einen Export von BoardGameGeek handelt.</value>
+  </data>
 </root>

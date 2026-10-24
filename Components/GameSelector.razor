@@ -22,7 +22,7 @@
             }
         </div>
         <div class="bgg-bar-body mt-2">
-            <div class="d-flex flex-column flex-sm-row gap-2 align-items-stretch align-items-sm-center">
+            <div class="d-flex flex-column flex-sm-row gap-2 align-items-stretch align-items-sm-center flex-wrap">
                 <!-- Username input -->
                 <div class="bgg-input-wrapper flex-grow-1">
                     <input type="text"
@@ -34,6 +34,14 @@
                            @onkeydown="HandleBggKeyDown"
                            disabled="@(bggResult.State == BggSyncState.Loading)" />
                 </div>
+                <!-- Token toggle button -->
+                <button type="button"
+                        class="btn btn-bgg-token-toggle @(showTokenField ? "active" : "") @(bggUnauthorizedPrompt ? "has-warning" : "")"
+                        @onclick="ToggleTokenField"
+                        title="@Loc["Bgg.TokenLabel"]">
+                    <i class="bi bi-key-fill me-1"></i>
+                    @Loc["Bgg.TokenToggleBtn"]
+                </button>
                 <!-- Sync button -->
                 <button type="button"
                         class="btn btn-bgg-sync"
@@ -49,6 +57,13 @@
                     }
                     @Loc["Bgg.FetchBtn"]
                 </button>
+                <!-- CSV Import button -->
+                <label class="btn btn-bgg-csv m-0"
+                       title="@Loc["Bgg.ImportCsvHelp"]">
+                    <i class="bi bi-file-earmark-arrow-up me-1"></i>
+                    @Loc["Bgg.ImportCsvBtn"]
+                    <InputFile OnChange="HandleCsvSelected" accept=".csv" class="d-none" />
+                </label>
                 <!-- Disconnect button -->
                 @if (bggResult.State == BggSyncState.Success)
                 {
@@ -59,6 +74,39 @@
                     </button>
                 }
             </div>
+
+            <!-- Optional Collapsible Token Field -->
+            @if (showTokenField || bggUnauthorizedPrompt)
+            {
+                <div class="bgg-token-panel mt-2 p-2">
+                    <div class="d-flex flex-column flex-sm-row gap-2 align-items-stretch align-items-sm-center">
+                        <div class="bgg-token-input-wrapper flex-grow-1 position-relative">
+                            <input type="@(showTokenText ? "text" : "password")"
+                                   class="form-control bgg-token-input"
+                                   placeholder="@Loc["Bgg.TokenPlaceholder"]"
+                                   aria-label="@Loc["Bgg.TokenLabel"]"
+                                   @bind="bggTokenInput"
+                                   @bind:event="oninput"
+                                   @onkeydown="HandleBggKeyDown"
+                                   disabled="@(bggResult.State == BggSyncState.Loading)" />
+                            <button type="button" 
+                                    class="btn btn-link bgg-toggle-token-visibility"
+                                    @onclick="() => showTokenText = !showTokenText"
+                                    title="Toggle token visibility"
+                                    tabindex="-1">
+                                <i class="bi @(showTokenText ? "bi-eye-slash-fill" : "bi-eye-fill")"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bgg-token-help mt-1">
+                        <i class="bi bi-info-circle me-1"></i>
+                        @Loc["Bgg.TokenHelp"]
+                        <a href="https://boardgamegeek.com/applications" target="_blank" rel="noopener noreferrer" class="bgg-token-link ms-1">
+                            boardgamegeek.com/applications <i class="bi bi-box-arrow-up-right small"></i>
+                        </a>
+                    </div>
+                </div>
+            }
 
             <!-- Status row -->
             @if (bggResult.State == BggSyncState.Loading)
@@ -677,6 +725,10 @@
     // ── BGG Collection state ───────────────────────────────────────────────
     private BggCollectionResult bggResult = new();
     private string bggUsernameInput = string.Empty;
+    private string bggTokenInput = string.Empty;
+    private bool showTokenField = false;
+    private bool showTokenText = false;
+    private bool bggUnauthorizedPrompt = false;
     private bool filterOwnedOnly = false;
 
     /// <summary>
@@ -979,6 +1031,13 @@
     {
         try
         {
+            // Restore saved token from localStorage.
+            var savedToken = await JS.InvokeAsync<string?>("campaignPlanner.getBggToken");
+            if (!string.IsNullOrWhiteSpace(savedToken))
+            {
+                bggTokenInput = savedToken;
+            }
+
             // Restore saved username from localStorage.
             var savedUser = await JS.InvokeAsync<string?>("campaignPlanner.getBggUsername");
             if (!string.IsNullOrWhiteSpace(savedUser))
@@ -1025,11 +1084,12 @@
 
         bggResult = new BggCollectionResult { State = BggSyncState.Loading, Username = username };
         filterOwnedOnly = false;
+        bggUnauthorizedPrompt = false;
         StateHasChanged();
 
         try
         {
-            var items = await BggSvc.FetchUserCollectionAsync(username);
+            var items = await BggSvc.FetchUserCollectionAsync(username, bggTokenInput);
 
             bggResult = new BggCollectionResult
             {
@@ -1038,12 +1098,30 @@
                 Username = username,
                 FetchedAt = DateTime.UtcNow
             };
+            bggUnauthorizedPrompt = false;
             RebuildBggLookups();
 
             // Persist to localStorage for next page load.
             await JS.InvokeVoidAsync("campaignPlanner.setBggUsername", username);
+            if (!string.IsNullOrWhiteSpace(bggTokenInput))
+            {
+                await JS.InvokeVoidAsync("campaignPlanner.setBggToken", bggTokenInput.Trim());
+            }
             var json = JsonSerializer.Serialize(items);
             await JS.InvokeVoidAsync("campaignPlanner.setBggCollection", json);
+        }
+        catch (BggUnauthorizedException ex)
+        {
+            bggUnauthorizedPrompt = true;
+            showTokenField = true;
+            bggResult = new BggCollectionResult
+            {
+                State = BggSyncState.Error,
+                ErrorMessage = ex.IsTokenMissing
+                    ? Loc["Bgg.Error401MissingToken"]
+                    : Loc["Bgg.Error401InvalidToken"],
+                Username = username
+            };
         }
         catch (BggServiceException ex)
         {
@@ -1067,10 +1145,78 @@
         StateHasChanged();
     }
 
+    private async Task HandleCsvSelected(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+        if (file == null) return;
+
+        bggResult = new BggCollectionResult { State = BggSyncState.Loading };
+        filterOwnedOnly = false;
+        StateHasChanged();
+
+        try
+        {
+            using var stream = file.OpenReadStream(maxAllowedSize: 15 * 1024 * 1024);
+            using var reader = new System.IO.StreamReader(stream);
+            var csv = await reader.ReadToEndAsync();
+
+            var items = BggService.ParseCollectionCsv(csv);
+            if (items.Count == 0)
+            {
+                bggResult = new BggCollectionResult
+                {
+                    State = BggSyncState.Error,
+                    ErrorMessage = Loc["Bgg.CsvEmptyOrInvalid"]
+                };
+            }
+            else
+            {
+                var displayName = !string.IsNullOrWhiteSpace(bggUsernameInput)
+                    ? bggUsernameInput.Trim()
+                    : System.IO.Path.GetFileNameWithoutExtension(file.Name);
+
+                bggResult = new BggCollectionResult
+                {
+                    Items = items,
+                    State = BggSyncState.Success,
+                    Username = displayName,
+                    FetchedAt = DateTime.UtcNow
+                };
+                bggUnauthorizedPrompt = false;
+                RebuildBggLookups();
+
+                if (!string.IsNullOrWhiteSpace(bggUsernameInput))
+                {
+                    await JS.InvokeVoidAsync("campaignPlanner.setBggUsername", bggUsernameInput.Trim());
+                }
+                var json = JsonSerializer.Serialize(items);
+                await JS.InvokeVoidAsync("campaignPlanner.setBggCollection", json);
+            }
+        }
+        catch (Exception ex)
+        {
+            bggResult = new BggCollectionResult
+            {
+                State = BggSyncState.Error,
+                ErrorMessage = $"CSV import failed: {ex.Message}"
+            };
+        }
+
+        StateHasChanged();
+    }
+
+    private void ToggleTokenField()
+    {
+        showTokenField = !showTokenField;
+    }
+
     private async Task DisconnectBgg()
     {
         bggResult = new BggCollectionResult();
         bggUsernameInput = string.Empty;
+        bggTokenInput = string.Empty;
+        showTokenField = false;
+        bggUnauthorizedPrompt = false;
         filterOwnedOnly = false;
         _bggById.Clear();
         _bggByTitle.Clear();
@@ -1078,6 +1224,7 @@
         try
         {
             await JS.InvokeVoidAsync("campaignPlanner.clearBggUsername");
+            await JS.InvokeVoidAsync("campaignPlanner.clearBggToken");
             await JS.InvokeVoidAsync("campaignPlanner.clearBggCollection");
         }
         catch { /* ignore */ }

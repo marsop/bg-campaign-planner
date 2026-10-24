@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.99.0] - 2026-10-24
+
+### Fixed
+- **BGG HTTP 401 Unauthorized Error**:
+  - Resolved the persistent `Error: BGG returned HTTP 401. Please try again later` issue caused by BoardGameGeek's mandatory Bearer application token requirement on XML API2 endpoints.
+  - Implemented comprehensive Bearer token authentication support in `BggService` and `GameSelector`.
+  - Added specialized `BggUnauthorizedException` error handling that distinguishes between missing and rejected tokens, providing clear actionable explanations and direct links to `boardgamegeek.com/applications`.
+
+### Added
+- **BGG API Application Token Management**:
+  - Added an expandable API Token field in the BGG integration bar with toggle visibility and masked input.
+  - Automatic prompt & field focus when BGG returns HTTP 401 Unauthorized.
+  - Persisted BGG token in `localStorage` alongside the username for zero-friction re-syncing.
+- **BGG Collection CSV File Import**:
+  - Added an "Import CSV" button allowing users to directly import their collection export from BoardGameGeek without waiting for developer token approval.
+  - Robust CSV parser supporting standard BGG export headers (`objectid`, `objectname`, `own`, `rating`, `numplays`), quoted strings with commas, and escaped quotes.
+  - Instant catalog badge updates and "Owned in BGG" filtering from imported CSV data with `localStorage` caching.
+- **Internationalization**:
+  - Complete localized translations for token inputs, CSV import buttons, 401 error notices, and success messages across English, Spanish, German, French, and Italian.
+
 ## [0.98.0] - 2026-10-24
 
 ### Added

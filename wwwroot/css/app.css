@@ -2672,6 +2672,110 @@ body {
     border-color: rgba(239,68,68,0.5);
 }
 
+/* ── Token toggle & CSV buttons ── */
+.btn-bgg-token-toggle {
+    background: var(--input-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+.btn-bgg-token-toggle:hover {
+    background: var(--input-bg-focus);
+    border-color: var(--border-color-focus);
+    color: var(--text-main);
+}
+.btn-bgg-token-toggle.active {
+    background: rgba(245, 158, 11, 0.12);
+    border-color: rgba(245, 158, 11, 0.5);
+    color: var(--accent-gold-text);
+}
+.btn-bgg-token-toggle.has-warning {
+    border-color: #f87171 !important;
+    color: #f87171 !important;
+    animation: bggPulse 1.5s infinite;
+}
+@keyframes bggPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(248, 113, 113, 0.4); }
+    50% { box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.15); }
+}
+
+.btn-bgg-csv {
+    background: var(--input-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.2s;
+}
+.btn-bgg-csv:hover {
+    background: rgba(52, 211, 153, 0.12);
+    border-color: rgba(52, 211, 153, 0.45);
+    color: #34d399;
+}
+
+/* ── Collapsible Token Panel ── */
+.bgg-token-panel {
+    background: rgba(0, 0, 0, 0.22);
+    border: 1px solid var(--border-color-subtle);
+    border-radius: 8px;
+    padding: 10px 12px;
+}
+.bgg-token-input-wrapper {
+    position: relative;
+}
+.bgg-token-input {
+    background: var(--input-bg) !important;
+    border-color: var(--border-color) !important;
+    color: var(--text-main) !important;
+    border-radius: 8px !important;
+    font-size: 0.85rem;
+    height: 36px;
+    padding-right: 36px !important;
+}
+.bgg-token-input:focus {
+    background: var(--input-bg-focus) !important;
+    border-color: var(--border-color-focus) !important;
+    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.15) !important;
+}
+.bgg-toggle-token-visibility {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    padding: 0;
+    border: none;
+    background: transparent;
+    font-size: 0.9rem;
+    line-height: 1;
+}
+.bgg-toggle-token-visibility:hover {
+    color: var(--text-main);
+}
+.bgg-token-help {
+    font-size: 0.76rem;
+    color: var(--text-muted);
+}
+.bgg-token-link {
+    color: var(--accent-gold-text);
+    text-decoration: underline;
+    font-weight: 500;
+}
+.bgg-token-link:hover {
+    color: var(--accent-gold);
+}
+
 /* ── Status messages ── */
 .bgg-status-msg {
     font-size: 0.82rem;
@@ -2759,6 +2863,34 @@ body {
 [data-theme="light"] .btn-bgg-sync { color: #92400e; }
 [data-theme="light"] .bgg-success, [data-theme="light"] .bgg-connected-chip { color: #059669; background: rgba(5,150,105,0.08); }
 [data-theme="light"] .bgg-owned-pill, [data-theme="light"] .badge-bgg-owned, [data-theme="light"] .bgg-plays-pill { color: #059669 !important; }
+[data-theme="light"] .btn-bgg-token-toggle,
+[data-theme="light"] .btn-bgg-csv {
+    background: #fff;
+    border-color: #d1d5db;
+    color: #4b5563;
+}
+[data-theme="light"] .btn-bgg-token-toggle:hover,
+[data-theme="light"] .btn-bgg-csv:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+[data-theme="light"] .btn-bgg-token-toggle.active {
+    background: #fef3c7;
+    border-color: #f59e0b;
+    color: #92400e;
+}
+[data-theme="light"] .bgg-token-panel {
+    background: rgba(0, 0, 0, 0.03);
+    border-color: #e5e7eb;
+}
+[data-theme="light"] .bgg-token-input {
+    background: #fff !important;
+    border-color: #d1d5db !important;
+    color: #111827 !important;
+}
+[data-theme="light"] .bgg-token-link {
+    color: #b45309;
+}
 
 /* ==========================================================================
    RECENTLY ADDED GAMES BANNER & WHAT'S NEW TRIGGER

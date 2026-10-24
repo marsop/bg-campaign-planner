@@ -194,6 +194,15 @@
             clearBggUsername: function () {
                 try { localStorage.removeItem('bg_campaign_planner_bgg_user'); } catch (e) {}
             },
+            getBggToken: function () {
+                try { return localStorage.getItem('bg_campaign_planner_bgg_token') || ''; } catch (e) { return ''; }
+            },
+            setBggToken: function (token) {
+                try { localStorage.setItem('bg_campaign_planner_bgg_token', token || ''); } catch (e) {}
+            },
+            clearBggToken: function () {
+                try { localStorage.removeItem('bg_campaign_planner_bgg_token'); } catch (e) {}
+            },
             getBggCollection: function () {
                 try { return localStorage.getItem('bg_campaign_planner_bgg_collection') || ''; } catch (e) { return ''; }
             },

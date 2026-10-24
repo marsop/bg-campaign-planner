@@ -835,4 +835,34 @@
   <data name="Banner.NewTag" xml:space="preserve">
     <value>NEW</value>
   </data>
-</root>
+  <data name="Bgg.TokenPlaceholder" xml:space="preserve">
+    <value>BGG API Token (Bearer)</value>
+  </data>
+  <data name="Bgg.TokenLabel" xml:space="preserve">
+    <value>BoardGameGeek API Application Token</value>
+  </data>
+  <data name="Bgg.TokenToggleBtn" xml:space="preserve">
+    <value>API Token</value>
+  </data>
+  <data name="Bgg.TokenHelp" xml:space="preserve">
+    <value>BGG requires an application token for API access. Register and create a token at</value>
+  </data>
+  <data name="Bgg.ImportCsvBtn" xml:space="preserve">
+    <value>Import CSV</value>
+  </data>
+  <data name="Bgg.ImportCsvHelp" xml:space="preserve">
+    <value>Import your collection from a BGG CSV export (no token required)</value>
+  </data>
+  <data name="Bgg.Error401MissingToken" xml:space="preserve">
+    <value>BoardGameGeek now requires an API Application Token (HTTP 401 Unauthorized). Please provide a token below or import your collection CSV.</value>
+  </data>
+  <data name="Bgg.Error401InvalidToken" xml:space="preserve">
+    <value>BGG rejected the API Application Token (HTTP 401 Unauthorized). Please check that your token is valid and active at boardgamegeek.com/applications.</value>
+  </data>
+  <data name="Bgg.CsvSuccessMsg" xml:space="preserve">
+    <value>Collection imported from CSV! {0} game(s) owned.</value>
+  </data>
+  <data name="Bgg.CsvEmptyOrInvalid" xml:space="preserve">
+    <value>No owned board games found in the CSV file. Please make sure it is an export from BoardGameGeek.</value>
+  </data>
+</root>
