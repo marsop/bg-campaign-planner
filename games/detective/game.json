@@ -1,5 +1,6 @@
 {
   "id": "detective",
+  "addedAt": "2026-09-22T11:00:00Z",
   "title": "Detective: A Modern Crime Board Game",
   "releaseYear": 2018,
   "designers": "Przemysław Rymer, Ignacy Trzewiczek, Jakub Łapot",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "detective_core_campaign",
+  "addedAt": "2026-09-22T11:00:00Z",
       "baseScenarioCount": 5,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": true
     },
     {
       "id": "detective_prologue_arc",
+  "addedAt": "2026-09-22T11:00:00Z",
       "baseScenarioCount": 2,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "detective_complete_dossier",
+  "addedAt": "2026-09-22T11:00:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 22.0,
       "isRecommended": false

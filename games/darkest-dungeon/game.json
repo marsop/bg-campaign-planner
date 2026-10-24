@@ -1,5 +1,6 @@
 {
   "id": "darkest-dungeon",
+  "addedAt": "2026-09-14T09:55:00Z",
   "title": "Darkest Dungeon: The Board Game",
   "releaseYear": 2022,
   "designers": "Nick Niotis, Argyris Poungouras",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "dd_core",
+  "addedAt": "2026-09-14T09:55:00Z",
       "baseScenarioCount": 11,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "dd_intro",
+  "addedAt": "2026-09-14T09:55:00Z",
       "baseScenarioCount": 6,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false
     },
     {
       "id": "dd_grand",
+  "addedAt": "2026-09-14T09:55:00Z",
       "baseScenarioCount": 22,
       "estimatedFailRatePercent": 30.0,
       "isRecommended": false

@@ -1,5 +1,6 @@
 {
   "id": "destinies",
+  "addedAt": "2026-09-22T11:10:00Z",
   "title": "Destinies",
   "releaseYear": 2021,
   "designers": "Michał Gołębiowski, Filip Miłuński",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "destinies_core",
+  "addedAt": "2026-09-22T11:10:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": true
     },
     {
       "id": "destinies_full",
+  "addedAt": "2026-09-22T11:10:00Z",
       "baseScenarioCount": 5,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "destinies_expanded",
+  "addedAt": "2026-09-22T11:10:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false

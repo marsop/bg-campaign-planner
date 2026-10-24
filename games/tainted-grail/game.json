@@ -1,5 +1,6 @@
 {
   "id": "tainted-grail",
+  "addedAt": "2026-10-01T01:50:00Z",
   "title": "Tainted Grail: The Fall of Avalon",
   "releaseYear": 2019,
   "designers": "Krzysztof Piskorski, Marcin Świerkot",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "tg_core",
+  "addedAt": "2026-10-01T01:50:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": true
     },
     {
       "id": "tg_story",
+  "addedAt": "2026-10-01T01:50:00Z",
       "baseScenarioCount": 13,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": false
     },
     {
       "id": "tg_completionist",
+  "addedAt": "2026-10-01T01:50:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": false

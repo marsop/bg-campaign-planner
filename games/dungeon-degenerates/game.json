@@ -1,5 +1,6 @@
 {
   "id": "dungeon-degenerates",
+  "addedAt": "2026-09-20T10:35:00Z",
   "title": "Dungeon Degenerates: Hand of Doom",
   "releaseYear": 2017,
   "designers": "Sean Äaberg, Eric Radey",
@@ -37,12 +38,14 @@
   "scopes": [
     {
       "id": "dd_main_campaign",
+  "addedAt": "2026-09-20T10:35:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "dd_short_campaign",
+  "addedAt": "2026-09-20T10:35:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false

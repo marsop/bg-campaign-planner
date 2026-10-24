@@ -1,5 +1,6 @@
 {
   "id": "my-city",
+  "addedAt": "2026-09-22T11:05:00Z",
   "title": "My City",
   "releaseYear": 2020,
   "designers": "Reiner Knizia",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "mycity_campaign",
+  "addedAt": "2026-09-22T11:05:00Z",
       "baseScenarioCount": 24,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": true
     },
     {
       "id": "mycity_first_era",
+  "addedAt": "2026-09-22T11:05:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "mycity_industrial_era",
+  "addedAt": "2026-09-22T11:05:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false

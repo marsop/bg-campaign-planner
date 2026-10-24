@@ -1,5 +1,6 @@
 {
   "id": "dungeon-universalis",
+  "addedAt": "2026-09-24T11:55:00Z",
   "title": "Dungeon Universalis",
   "releaseYear": 2019,
   "designers": "Óscar Bribián",
@@ -37,24 +38,28 @@
   "scopes": [
     {
       "id": "dun_raazbal_campaign",
+  "addedAt": "2026-09-24T11:55:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "dun_regional_campaigns",
+  "addedAt": "2026-09-24T11:55:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": false
     },
     {
       "id": "dun_grand_saga",
+  "addedAt": "2026-09-24T11:55:00Z",
       "baseScenarioCount": 30,
       "estimatedFailRatePercent": 18.0,
       "isRecommended": false
     },
     {
       "id": "dun_completionist_chronicles",
+  "addedAt": "2026-09-24T11:55:00Z",
       "baseScenarioCount": 42,
       "estimatedFailRatePercent": 22.0,
       "isRecommended": false

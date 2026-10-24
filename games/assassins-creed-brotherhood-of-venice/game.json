@@ -1,5 +1,6 @@
 {
   "id": "assassins-creed-brotherhood-of-venice",
+  "addedAt": "2026-09-24T11:50:00Z",
   "title": "Assassin's Creed: Brotherhood of Venice",
   "releaseYear": 2021,
   "designers": "Thibaud de la Touanne, Fabrice Lamidey, Manuel Rozoy",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "acbov_full_campaign",
+  "addedAt": "2026-09-24T11:50:00Z",
       "baseScenarioCount": 26,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": true
     },
     {
       "id": "acbov_early_sequences",
+  "addedAt": "2026-09-24T11:50:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "acbov_master_sync",
+  "addedAt": "2026-09-24T11:50:00Z",
       "baseScenarioCount": 34,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false

@@ -1,5 +1,6 @@
 {
   "id": "divinity-original-sin",
+  "addedAt": "2026-09-24T12:00:00Z",
   "title": "Divinity Original Sin: The Board Game",
   "releaseYear": 2023,
   "designers": "Dylan Birtolo, Thomas M. Gofton, Josh Derksen",
@@ -37,24 +38,28 @@
   "scopes": [
     {
       "id": "dos_standard_path",
+  "addedAt": "2026-09-24T12:00:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": true
     },
     {
       "id": "dos_act1_escape",
+  "addedAt": "2026-09-24T12:00:00Z",
       "baseScenarioCount": 5,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "dos_extended_branches",
+  "addedAt": "2026-09-24T12:00:00Z",
       "baseScenarioCount": 24,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "dos_full_atlas",
+  "addedAt": "2026-09-24T12:00:00Z",
       "baseScenarioCount": 36,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false

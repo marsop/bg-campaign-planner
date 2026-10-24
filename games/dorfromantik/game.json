@@ -1,5 +1,6 @@
 {
   "id": "dorfromantik",
+  "addedAt": "2026-10-23T14:30:00Z",
   "title": "Dorfromantik: The Board Game",
   "releaseYear": 2022,
   "designers": "Michael Palm, Lukas Zach",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "dorfromantik_full_campaign",
+  "addedAt": "2026-10-23T14:30:00Z",
       "baseScenarioCount": 18,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": true
     },
     {
       "id": "dorfromantik_first_achievements",
+  "addedAt": "2026-10-23T14:30:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false
     },
     {
       "id": "dorfromantik_master_high_score",
+  "addedAt": "2026-10-23T14:30:00Z",
       "baseScenarioCount": 25,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

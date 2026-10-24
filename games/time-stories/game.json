@@ -1,5 +1,6 @@
 {
   "id": "time-stories",
+  "addedAt": "2026-10-24T15:25:00Z",
   "title": "T.I.M.E Stories",
   "releaseYear": 2015,
   "designers": "Peggy Chassenet, Manuel Rozoy",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "time_stories_asylum_mission",
+  "addedAt": "2026-10-24T15:25:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 35.0,
       "isRecommended": true
     },
     {
       "id": "time_stories_first_loop",
+  "addedAt": "2026-10-24T15:25:00Z",
       "baseScenarioCount": 1,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "time_stories_agency_quadrilogy",
+  "addedAt": "2026-10-24T15:25:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": false

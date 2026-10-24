@@ -1,5 +1,6 @@
 {
   "id": "betrayal-legacy",
+  "addedAt": "2026-09-14T09:30:00Z",
   "title": "Betrayal Legacy",
   "releaseYear": 2018,
   "designers": "Rob Daviau, Noah Cohen, JR Honeycutt, Ryan Miller, Brian Neff, Andrew Veen",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "betrayal_campaign",
+  "addedAt": "2026-09-14T09:30:00Z",
       "baseScenarioCount": 14,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": true
     },
     {
       "id": "betrayal_extended",
+  "addedAt": "2026-09-14T09:30:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "betrayal_completionist",
+  "addedAt": "2026-09-14T09:30:00Z",
       "baseScenarioCount": 26,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false

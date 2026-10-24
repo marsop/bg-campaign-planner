@@ -1,5 +1,6 @@
 {
   "id": "frosthaven",
+  "addedAt": "2026-10-01T00:10:00Z",
   "title": "Frosthaven",
   "releaseYear": 2022,
   "designers": "Isaac Childres",
@@ -36,18 +37,21 @@
   "scopes": [
     {
       "id": "fh_core",
+  "addedAt": "2026-10-01T00:10:00Z",
       "baseScenarioCount": 70,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "fh_extended",
+  "addedAt": "2026-10-01T00:10:00Z",
       "baseScenarioCount": 100,
       "estimatedFailRatePercent": 18.0,
       "isRecommended": false
     },
     {
       "id": "fh_completionist",
+  "addedAt": "2026-10-01T00:10:00Z",
       "baseScenarioCount": 138,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false

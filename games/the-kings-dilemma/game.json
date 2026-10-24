@@ -1,5 +1,6 @@
 {
   "id": "the-kings-dilemma",
+  "addedAt": "2026-09-24T12:30:00Z",
   "title": "The King's Dilemma",
   "releaseYear": 2019,
   "designers": "Lorenzo Silva, Hjalmar Hach",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "kings_dilemma_standard_chronicle",
+  "addedAt": "2026-09-24T12:30:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": true
     },
     {
       "id": "kings_dilemma_prologue_reigns",
+  "addedAt": "2026-09-24T12:30:00Z",
       "baseScenarioCount": 6,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "kings_dilemma_complete_archive",
+  "addedAt": "2026-09-24T12:30:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false

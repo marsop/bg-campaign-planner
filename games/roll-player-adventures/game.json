@@ -1,5 +1,6 @@
 {
   "id": "roll-player-adventures",
+  "addedAt": "2026-09-14T09:10:00Z",
   "title": "Roll Player Adventures",
   "releaseYear": 2021,
   "designers": "Keith Matejka, James Ryan, Peter Andrew Ryan",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "rpa_standard",
+  "addedAt": "2026-09-14T09:10:00Z",
       "baseScenarioCount": 11,
       "estimatedFailRatePercent": 4.0,
       "isRecommended": true
     },
     {
       "id": "rpa_extended",
+  "addedAt": "2026-09-14T09:10:00Z",
       "baseScenarioCount": 13,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false
     },
     {
       "id": "rpa_grand_saga",
+  "addedAt": "2026-09-14T09:10:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false

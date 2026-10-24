@@ -1,5 +1,6 @@
 {
   "id": "kinfire-chronicles",
+  "addedAt": "2026-09-14T10:30:00Z",
   "title": "Kinfire Chronicles: Night's Fall",
   "releaseYear": 2023,
   "designers": "Kevin Wilson, Darrell Hardy, Adela Kapuścińska, Brandon Perdue",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "kinfire_standard",
+  "addedAt": "2026-09-14T10:30:00Z",
       "baseScenarioCount": 21,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": true
     },
     {
       "id": "kinfire_story",
+  "addedAt": "2026-09-14T10:30:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 8.0,
       "isRecommended": false
     },
     {
       "id": "kinfire_completionist",
+  "addedAt": "2026-09-14T10:30:00Z",
       "baseScenarioCount": 25,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

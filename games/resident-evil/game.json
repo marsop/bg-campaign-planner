@@ -1,5 +1,6 @@
 {
   "id": "resident-evil",
+  "addedAt": "2026-09-24T12:20:00Z",
   "title": "Resident Evil: The Board Game",
   "releaseYear": 2023,
   "designers": "Sherwin Matthews, Steve Margetson",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "re_mansion_campaign",
+  "addedAt": "2026-09-24T12:20:00Z",
       "baseScenarioCount": 19,
       "estimatedFailRatePercent": 18.0,
       "isRecommended": true
     },
     {
       "id": "re_mansion_investigation",
+  "addedAt": "2026-09-24T12:20:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": false
     },
     {
       "id": "re_true_survivor",
+  "addedAt": "2026-09-24T12:20:00Z",
       "baseScenarioCount": 25,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": false

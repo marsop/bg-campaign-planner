@@ -1,5 +1,6 @@
 {
   "id": "maracaibo",
+  "addedAt": "2026-10-23T14:40:00Z",
   "title": "Maracaibo",
   "releaseYear": 2019,
   "designers": "Alexander Pfister",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "maracaibo_full_chronicles",
+  "addedAt": "2026-10-23T14:40:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": true
     },
     {
       "id": "maracaibo_introductory_voyage",
+  "addedAt": "2026-10-23T14:40:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false
     },
     {
       "id": "maracaibo_master_corsair",
+  "addedAt": "2026-10-23T14:40:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false

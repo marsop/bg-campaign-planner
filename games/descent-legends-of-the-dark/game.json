@@ -1,5 +1,6 @@
 {
   "id": "descent-legends-of-the-dark",
+  "addedAt": "2026-09-14T08:30:00Z",
   "title": "Descent: Legends of the Dark",
   "releaseYear": 2021,
   "designers": "Kara Centell-Dunk, Nathan I. Hajek",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "blood_and_flame_core",
+  "addedAt": "2026-09-14T08:30:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": true
     },
     {
       "id": "main_story_direct",
+  "addedAt": "2026-09-14T08:30:00Z",
       "baseScenarioCount": 14,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "full_chronicle_completionist",
+  "addedAt": "2026-09-14T08:30:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

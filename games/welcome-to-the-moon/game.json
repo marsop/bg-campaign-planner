@@ -1,5 +1,6 @@
 {
   "id": "welcome-to-the-moon",
+  "addedAt": "2026-10-23T14:55:00Z",
   "title": "Welcome to the Moon",
   "releaseYear": 2021,
   "designers": "Benoit Turpin, Alexis Allard",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "welcome_moon_full_odyssey",
+  "addedAt": "2026-10-23T14:55:00Z",
       "baseScenarioCount": 24,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": true
     },
     {
       "id": "welcome_moon_direct_flight",
+  "addedAt": "2026-10-23T14:55:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false
     },
     {
       "id": "welcome_moon_master_colonizer",
+  "addedAt": "2026-10-23T14:55:00Z",
       "baseScenarioCount": 32,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

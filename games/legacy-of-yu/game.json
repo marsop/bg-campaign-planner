@@ -1,5 +1,6 @@
 {
   "id": "legacy-of-yu",
+  "addedAt": "2026-10-24T15:35:00Z",
   "title": "Legacy of Yu",
   "releaseYear": 2023,
   "designers": "Shem Phillips",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "legacy_of_yu_flood_campaign",
+  "addedAt": "2026-10-24T15:35:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "legacy_of_yu_first_canals",
+  "addedAt": "2026-10-24T15:35:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "legacy_of_yu_master_engineer",
+  "addedAt": "2026-10-24T15:35:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 35.0,
       "isRecommended": false

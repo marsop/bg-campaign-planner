@@ -207,6 +207,7 @@ should be investigated.
 ## Step 7 — Checklist Before Finishing
 
 - [ ] games/{game-id}/game.json — valid JSON, all required fields present
+- [ ] games/{game-id}/game.json — "addedAt" timestamp up to seconds defined (e.g. ""YYYY-MM-DDTHH:mm:ssZ"")
 - [ ] games/{game-id}/game.json — "quality" defined ("high", "mid", or "low") according to asset/data completeness
 - [ ] games/{game-id}/cover.webp — 1:1 square WebP image exists
 - [ ] games/{game-id}/background.webp — 16:9 widescreen WebP image exists

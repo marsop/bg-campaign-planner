@@ -1,5 +1,6 @@
 {
   "id": "heroquest",
+  "addedAt": "2026-10-24T15:20:00Z",
   "title": "HeroQuest",
   "releaseYear": 2021,
   "designers": "Stephen Baker",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "heroquest_core_fourteen_quests",
+  "addedAt": "2026-10-24T15:20:00Z",
       "baseScenarioCount": 14,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "heroquest_introductory_trial",
+  "addedAt": "2026-10-24T15:20:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "heroquest_master_mentor",
+  "addedAt": "2026-10-24T15:20:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false

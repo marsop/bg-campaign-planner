@@ -21,10 +21,25 @@
          style="@BackgroundImageStyle" 
          aria-hidden="true"></div>
 
+    <!-- Recently Added Games Announcement Banner -->
+    <RecentlyAddedBanner @ref="recentBannerRef"
+                         RecentGames="@RecentGames"
+                         SelectedGameId="@(CurrentGame?.Id ?? string.Empty)"
+                         OnGameSelected="HandleBannerGameSelected"
+                         OnVisibilityChanged="HandleBannerVisibilityChanged" />
+
     <!-- Top Header -->
     <header class="app-hero-header py-3 py-md-4">
         <div class="container">
             <div class="d-flex justify-content-end align-items-center gap-2 mb-3">
+                <button type="button" 
+                        class="btn btn-whats-new @(isBannerOpen ? "is-active" : "")" 
+                        @onclick="ToggleRecentBanner"
+                        title="@Loc["Banner.WhatsNew"]"
+                        aria-label="@Loc["Banner.WhatsNew"]">
+                    <span aria-hidden="true">✨</span>
+                    <span class="d-none d-sm-inline">@Loc["Banner.WhatsNew"]</span>
+                </button>
                 <LanguageSelector />
                 <ThemeToggle />
             </div>
@@ -180,6 +195,9 @@
 </div>
 
 @code {
+private RecentlyAddedBanner? recentBannerRef;
+    private IReadOnlyList<BoardGame> RecentGames = Array.Empty<BoardGame>();
+    private bool isBannerOpen = false;
     private IReadOnlyList<BoardGame> AllGames = new List<BoardGame>();
     private BoardGame? CurrentGame;
     private PlannerInputModel PlannerInput = new();
@@ -215,6 +233,7 @@
     {
         var currentLang = LocService.CurrentLanguage;
         AllGames = DataService.GetAllGames(currentLang);
+        RecentGames = DataService.GetRecentlyAddedGames(5, currentLang);
         CurrentGame = DataService.GetGame(PlannerInput.SelectedGameId, currentLang);
         
         if (CurrentGame != null)
@@ -237,6 +256,25 @@
     {
         LoadGameData();
         InvokeAsync(StateHasChanged);
+    }
+
+private async Task HandleBannerGameSelected(BoardGame game)
+    {
+        CurrentStep = 1;
+        await HandleGameSelected(game.Id);
+    }
+
+    private async Task ToggleRecentBanner()
+    {
+        if (recentBannerRef != null)
+        {
+            await recentBannerRef.ToggleVisibility();
+        }
+    }
+
+    private void HandleBannerVisibilityChanged(bool isOpen)
+    {
+        isBannerOpen = isOpen;
     }
 
     private async Task HandleGameSelected(string gameId)

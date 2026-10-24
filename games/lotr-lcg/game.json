@@ -1,5 +1,6 @@
 {
   "id": "lotr-lcg",
+  "addedAt": "2026-10-23T14:10:00Z",
   "title": "The Lord of the Rings: The Card Game",
   "releaseYear": 2011,
   "designers": "Nate French",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "lotr_mirkwood_campaign",
+  "addedAt": "2026-10-23T14:10:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 28.0,
       "isRecommended": true
     },
     {
       "id": "lotr_core_trio",
+  "addedAt": "2026-10-23T14:10:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": false
     },
     {
       "id": "lotr_fellowship_saga",
+  "addedAt": "2026-10-23T14:10:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 32.0,
       "isRecommended": false

@@ -1,5 +1,6 @@
 {
   "id": "lotr-journeys-middle-earth",
+  "addedAt": "2026-09-14T09:45:00Z",
   "title": "The Lord of the Rings: Journeys in Middle-earth",
   "releaseYear": 2019,
   "designers": "Nathan I. Hajek, Grace Holdinghaus",
@@ -37,24 +38,28 @@
   "scopes": [
     {
       "id": "bones_of_arnor_campaign",
+  "addedAt": "2026-09-14T09:45:00Z",
       "baseScenarioCount": 14,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": true
     },
     {
       "id": "bones_of_arnor_direct",
+  "addedAt": "2026-09-14T09:45:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "shadowed_paths_campaign",
+  "addedAt": "2026-09-14T09:45:00Z",
       "baseScenarioCount": 13,
       "estimatedFailRatePercent": 14.0,
       "isRecommended": false
     },
     {
       "id": "spreading_war_campaign",
+  "addedAt": "2026-09-14T09:45:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

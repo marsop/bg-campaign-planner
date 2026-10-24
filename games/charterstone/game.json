@@ -1,5 +1,6 @@
 {
   "id": "charterstone",
+  "addedAt": "2026-09-24T12:50:00Z",
   "title": "Charterstone",
   "releaseYear": 2017,
   "designers": "Jamey Stegmaier",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "charterstone_full_campaign",
+  "addedAt": "2026-09-24T12:50:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": true
     },
     {
       "id": "charterstone_first_half",
+  "addedAt": "2026-09-24T12:50:00Z",
       "baseScenarioCount": 6,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "charterstone_full_plus_post",
+  "addedAt": "2026-09-24T12:50:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false

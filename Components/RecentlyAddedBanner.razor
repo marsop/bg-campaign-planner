@@ -1,0 +1,217 @@
+@using bg_campaign_planner.Models
+@using bg_campaign_planner.Services
+@inject IStringLocalizer<AppResources> Loc
+@inject IJSRuntime JS
+
+@if (IsOpen && RecentGames != null && RecentGames.Count > 0)
+{
+    <aside class="recent-games-banner" aria-label="@Loc["Banner.RecentlyAdded"]">
+        <div class="container-fluid px-3 px-md-4">
+            <div class="banner-inner-wrap d-flex flex-column flex-lg-row align-items-lg-center gap-2 py-2">
+                
+                <!-- Banner Header / Lead -->
+                <div class="banner-header-col d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="banner-sparkle-icon" aria-hidden="true">✨</span>
+                        <div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="banner-title fw-bold">@Loc["Banner.RecentlyAdded"]</span>
+                                <span class="badge banner-count-badge">@RecentGames.Count</span>
+                            </div>
+                            <span class="banner-subtitle d-none d-sm-inline">@Loc["Banner.Subtitle"]</span>
+                        </div>
+                    </div>
+
+                    <!-- Mobile close button -->
+                    <button type="button" 
+                            class="btn btn-sm banner-dismiss-btn d-lg-none" 
+                            @onclick="DismissBanner" 
+                            title="@Loc["Banner.Dismiss"]"
+                            aria-label="@Loc["Banner.Dismiss"]">
+                        <i class="bi bi-x-lg" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+                <!-- Horizontal Carousel of Mini Cards -->
+                <div class="banner-cards-scroll-container flex-grow-1" role="region" aria-label="@Loc["Banner.RecentlyAdded"]">
+                    <div class="banner-cards-track d-flex align-items-center gap-2">
+                        @foreach (var game in RecentGames)
+                        {
+                            var isSelected = string.Equals(game.Id, SelectedGameId, StringComparison.OrdinalIgnoreCase);
+                            <button type="button"
+                                    class="banner-game-card @(isSelected ? "is-selected" : "")"
+                                    @onclick="() => SelectGame(game)"
+                                    title="@Loc["Banner.SelectGame"]: @game.Title">
+                                <div class="banner-card-img-wrap">
+                                    <img src="@game.ImageUrl" 
+                                         alt="@game.Title cover" 
+                                         class="banner-card-img"
+                                         loading="lazy" />
+                                    <span class="banner-card-new-tag">@Loc["Banner.NewTag"]</span>
+                                </div>
+                                <div class="banner-card-info text-start">
+                                    <div class="banner-card-title text-truncate" title="@game.Title">
+                                        @game.Title
+                                    </div>
+                                    <div class="banner-card-meta d-flex align-items-center gap-1">
+                                        <span class="meta-item">
+                                            <i class="bi bi-people-fill me-1" aria-hidden="true"></i>
+                                            @(game.PlayersMin == game.PlayersMax ? $"{game.PlayersMin}" : $"{game.PlayersMin}-{game.PlayersMax}")
+                                        </span>
+                                        <span class="meta-dot">&bull;</span>
+                                        <span class="meta-item">@game.ReleaseYear</span>
+                                    </div>
+                                </div>
+                                @if (isSelected)
+                                {
+                                    <span class="banner-card-selected-icon ms-auto" aria-hidden="true">
+                                        <i class="bi bi-check-circle-fill text-warning"></i>
+                                    </span>
+                                }
+                            </button>
+                        }
+                    </div>
+                </div>
+
+                <!-- Desktop close button -->
+                <div class="banner-actions-col d-none d-lg-flex align-items-center">
+                    <button type="button" 
+                            class="btn btn-sm banner-dismiss-btn" 
+                            @onclick="DismissBanner" 
+                            title="@Loc["Banner.Dismiss"]"
+                            aria-label="@Loc["Banner.Dismiss"]">
+                        <i class="bi bi-x-lg" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </aside>
+}
+
+@code {
+    [Parameter]
+    public IReadOnlyList<BoardGame> RecentGames { get; set; } = Array.Empty<BoardGame>();
+
+    [Parameter]
+    public string? SelectedGameId { get; set; }
+
+    [Parameter]
+    public EventCallback<BoardGame> OnGameSelected { get; set; }
+
+    [Parameter]
+    public EventCallback<bool> OnVisibilityChanged { get; set; }
+
+    public bool IsOpen { get; private set; } = false;
+
+    private bool _initialized = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender && !_initialized)
+        {
+            _initialized = true;
+            await CheckDismissedStatusAsync();
+        }
+    }
+
+    private async Task CheckDismissedStatusAsync()
+    {
+        if (RecentGames == null || RecentGames.Count == 0)
+        {
+            IsOpen = false;
+            StateHasChanged();
+            return;
+        }
+
+        var latestGame = RecentGames.FirstOrDefault();
+        var latestTimestamp = latestGame?.AddedAt?.ToString("yyyy-MM-ddTHH:mm:ssZ") ?? string.Empty;
+
+        try
+        {
+            var dismissedTimestamp = await JS.InvokeAsync<string>("campaignPlannerInterop.getDismissedRecentGamesTimestamp");
+            
+            // If user never dismissed, or if the latest game added is newer than what was dismissed:
+            if (string.IsNullOrWhiteSpace(dismissedTimestamp) ||
+                string.Compare(latestTimestamp, dismissedTimestamp, StringComparison.Ordinal) > 0)
+            {
+                IsOpen = true;
+            }
+            else
+            {
+                IsOpen = false;
+            }
+        }
+        catch
+        {
+            // Fallback: show banner if JS interop fails
+            IsOpen = true;
+        }
+
+        StateHasChanged();
+        if (OnVisibilityChanged.HasDelegate)
+        {
+            await OnVisibilityChanged.InvokeAsync(IsOpen);
+        }
+    }
+
+    public async Task DismissBanner()
+    {
+        IsOpen = false;
+        var latestGame = RecentGames.FirstOrDefault();
+        var latestTimestamp = latestGame?.AddedAt?.ToString("yyyy-MM-ddTHH:mm:ssZ") ?? string.Empty;
+
+        try
+        {
+            await JS.InvokeVoidAsync("campaignPlannerInterop.setDismissedRecentGamesTimestamp", latestTimestamp);
+        }
+        catch
+        {
+            // Ignore storage errors
+        }
+
+        StateHasChanged();
+        if (OnVisibilityChanged.HasDelegate)
+        {
+            await OnVisibilityChanged.InvokeAsync(IsOpen);
+        }
+    }
+
+    public async Task ToggleVisibility()
+    {
+        IsOpen = !IsOpen;
+        StateHasChanged();
+        if (OnVisibilityChanged.HasDelegate)
+        {
+            await OnVisibilityChanged.InvokeAsync(IsOpen);
+        }
+    }
+
+    public async Task OpenBanner()
+    {
+        IsOpen = true;
+        StateHasChanged();
+        if (OnVisibilityChanged.HasDelegate)
+        {
+            await OnVisibilityChanged.InvokeAsync(IsOpen);
+        }
+    }
+
+    private async Task SelectGame(BoardGame game)
+    {
+        if (OnGameSelected.HasDelegate)
+        {
+            await OnGameSelected.InvokeAsync(game);
+        }
+
+        // Trigger smooth scroll to the planner or game details
+        try
+        {
+            await JS.InvokeVoidAsync("campaignPlannerInterop.scrollToGameSelector");
+        }
+        catch
+        {
+            // Ignore scroll errors
+        }
+    }
+}

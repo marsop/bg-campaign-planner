@@ -66,6 +66,7 @@ public class BoardGame
     public string Id { get; set; } = string.Empty;
     public string Title { get; set; } = string.Empty;
     public string Subtitle { get; set; } = string.Empty;
+    public DateTimeOffset? AddedAt { get; set; }
     public int ReleaseYear { get; set; }
     public string Designers { get; set; } = string.Empty;
     public int PlayersMin { get; set; } = 1;

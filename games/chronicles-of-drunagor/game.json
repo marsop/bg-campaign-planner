@@ -1,5 +1,6 @@
 {
   "id": "chronicles-of-drunagor",
+  "addedAt": "2026-09-14T09:10:00Z",
   "title": "Chronicles of Drunagor: Age of Darkness",
   "releaseYear": 2021,
   "designers": "Daniel Alves, Eurico Cunha Neto",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "drunagor_core",
+  "addedAt": "2026-09-14T09:10:00Z",
       "baseScenarioCount": 18,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": true
     },
     {
       "id": "drunagor_extended",
+  "addedAt": "2026-09-14T09:10:00Z",
       "baseScenarioCount": 22,
       "estimatedFailRatePercent": 14.0,
       "isRecommended": false
     },
     {
       "id": "drunagor_grand_saga",
+  "addedAt": "2026-09-14T09:10:00Z",
       "baseScenarioCount": 34,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

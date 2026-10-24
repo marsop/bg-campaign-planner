@@ -817,4 +817,22 @@
   <data name="Bgg.NotConnected" xml:space="preserve">
     <value>Nicht verbunden</value>
   </data>
+  <data name="Banner.Subtitle" xml:space="preserve">
+    <value>Entdecke die neuesten Kampagnenspiele im Planer</value>
+  </data>
+  <data name="Banner.WhatsNew" xml:space="preserve">
+    <value>Neuigkeiten</value>
+  </data>
+  <data name="Banner.RecentlyAdded" xml:space="preserve">
+    <value>Kürzlich hinzugefügt</value>
+  </data>
+  <data name="Banner.Dismiss" xml:space="preserve">
+    <value>Mitteilung schließen</value>
+  </data>
+  <data name="Banner.SelectGame" xml:space="preserve">
+    <value>Dieses Spiel auswählen</value>
+  </data>
+  <data name="Banner.NewTag" xml:space="preserve">
+    <value>NEU</value>
+  </data>
 </root>

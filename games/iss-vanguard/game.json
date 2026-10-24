@@ -1,5 +1,6 @@
 {
   "id": "iss-vanguard",
+  "addedAt": "2026-09-14T08:45:00Z",
   "title": "ISS Vanguard",
   "releaseYear": 2022,
   "designers": "Andrzej Betkiewicz, Krzysztof Piskorski, Marcin Świerkot, Paweł Samborski",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "issv_standard",
+  "addedAt": "2026-09-14T08:45:00Z",
       "baseScenarioCount": 22,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "issv_story",
+  "addedAt": "2026-09-14T08:45:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "issv_completionist",
+  "addedAt": "2026-09-14T08:45:00Z",
       "baseScenarioCount": 30,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false

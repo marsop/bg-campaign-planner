@@ -1,5 +1,6 @@
 {
   "id": "vagrantsong",
+  "addedAt": "2026-09-14T09:30:00Z",
   "title": "Vagrantsong",
   "releaseYear": 2022,
   "designers": "Matt Carter, Justin Gibbs, Kyle Rowan",
@@ -38,18 +39,21 @@
   "scopes": [
     {
       "id": "vagrantsong_core",
+  "addedAt": "2026-09-14T09:30:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "vagrantsong_standard",
+  "addedAt": "2026-09-14T09:30:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 28.0,
       "isRecommended": false
     },
     {
       "id": "vagrantsong_encore",
+  "addedAt": "2026-09-14T09:30:00Z",
       "baseScenarioCount": 35,
       "estimatedFailRatePercent": 30.0,
       "isRecommended": false

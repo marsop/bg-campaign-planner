@@ -1,5 +1,6 @@
 {
   "id": "boss-fighters-qr",
+  "addedAt": "2026-09-25T13:15:00Z",
   "title": "Boss Fighters QR",
   "releaseYear": 2025,
   "designers": "Michael Palm, Lukas Zach",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "bossfighters_standard",
+  "addedAt": "2026-09-25T13:15:00Z",
       "baseScenarioCount": 11,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "bossfighters_story",
+  "addedAt": "2026-09-25T13:15:00Z",
       "baseScenarioCount": 6,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "bossfighters_master",
+  "addedAt": "2026-09-25T13:15:00Z",
       "baseScenarioCount": 18,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": false

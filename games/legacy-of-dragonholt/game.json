@@ -1,5 +1,6 @@
 {
   "id": "legacy-of-dragonholt",
+  "addedAt": "2026-10-24T16:00:00Z",
   "title": "Legacy of Dragonholt",
   "releaseYear": 2017,
   "designers": [
@@ -33,6 +34,7 @@
   "scopes": [
     {
       "id": "intro-quest",
+  "addedAt": "2026-10-24T16:00:00Z",
       "name": "To Dragonholt (Intro Quest)",
       "description": "Introductory quest serving as tutorial and character introduction on the journey to Dragonholt.",
       "units": 1,
@@ -41,6 +43,7 @@
     },
     {
       "id": "core-campaign",
+  "addedAt": "2026-10-24T16:00:00Z",
       "name": "Dragonholt Main Mystery",
       "description": "Full narrative investigation into the mysterious death of Celyse and unrest brewing across the barony.",
       "units": 6,
@@ -49,6 +52,7 @@
     },
     {
       "id": "completionist",
+  "addedAt": "2026-10-24T16:00:00Z",
       "name": "Full Exploration & All Side Quests",
       "description": "Thorough playthrough visiting all town locations, character vignettes, and solving secondary questlines.",
       "units": 8,
@@ -59,6 +63,7 @@
   "milestones": [
     {
       "id": "arrival-dragonholt",
+  "addedAt": "2026-10-24T16:00:00Z",
       "title": "To Dragonholt",
       "phase": "Prologue",
       "description": "The heroes survive bandits on the road and arrive safely at the village of Dragonholt.",
@@ -68,6 +73,7 @@
     },
     {
       "id": "village-investigation",
+  "addedAt": "2026-10-24T16:00:00Z",
       "title": "Inquiries at the Inn",
       "phase": "Act I",
       "description": "Explore the village, meet key townspeople, and uncover suspicious clues regarding the deceased heir.",
@@ -77,6 +83,7 @@
     },
     {
       "id": "wilderness-excursion",
+  "addedAt": "2026-10-24T16:00:00Z",
       "title": "The Wilds Beyond",
       "phase": "Act II",
       "description": "Venture into the dangerous surrounding forest, dealing with bandits, spirits, and hidden covens.",
@@ -86,6 +93,7 @@
     },
     {
       "id": "manor-confrontation",
+  "addedAt": "2026-10-24T16:00:00Z",
       "title": "The Hollow Crown",
       "phase": "Act III",
       "description": "Infiltrate the manor, expose the conspiracy, and make fateful choices that decide the fate of the realm.",
@@ -95,6 +103,7 @@
     },
     {
       "id": "epilogue-destiny",
+  "addedAt": "2026-10-24T16:00:00Z",
       "title": "A Barony Reborn",
       "phase": "Epilogue",
       "description": "Resolve all remaining personal quests and read the lasting historical epilogue of Terrinoth.",

@@ -1,5 +1,6 @@
 {
   "id": "isofarian-guard",
+  "addedAt": "2026-09-14T09:30:00Z",
   "title": "The Isofarian Guard",
   "releaseYear": 2023,
   "designers": "Eric Bittermann",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "isg_full_chronicles",
+  "addedAt": "2026-09-14T09:30:00Z",
       "baseScenarioCount": 45,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": true
     },
     {
       "id": "isg_single_campaign",
+  "addedAt": "2026-09-14T09:30:00Z",
       "baseScenarioCount": 18,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "isg_master_completionist",
+  "addedAt": "2026-09-14T09:30:00Z",
       "baseScenarioCount": 70,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

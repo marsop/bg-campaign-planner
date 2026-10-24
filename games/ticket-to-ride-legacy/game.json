@@ -1,5 +1,6 @@
 {
   "id": "ticket-to-ride-legacy",
+  "addedAt": "2026-09-24T12:25:00Z",
   "title": "Ticket to Ride Legacy: Legends of the West",
   "releaseYear": 2023,
   "designers": "Rob Daviau, Matt Leacock, Alan R. Moon",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "ttr_legacy_full_campaign",
+  "addedAt": "2026-09-24T12:25:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": true
     },
     {
       "id": "ttr_legacy_frontier_half",
+  "addedAt": "2026-09-24T12:25:00Z",
       "baseScenarioCount": 6,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "ttr_legacy_campaign_plus_epilogue",
+  "addedAt": "2026-09-24T12:25:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false

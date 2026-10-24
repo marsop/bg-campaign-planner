@@ -1,5 +1,6 @@
 {
   "id": "gloomhaven-jaws-of-the-lion",
+  "addedAt": "2026-10-01T00:30:00Z",
   "title": "Gloomhaven: Jaws of the Lion",
   "releaseYear": 2020,
   "designers": "Isaac Childres",
@@ -37,12 +38,14 @@
   "scopes": [
     {
       "id": "jotl_standard",
+  "addedAt": "2026-10-01T00:30:00Z",
       "baseScenarioCount": 17,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": true
     },
     {
       "id": "jotl_completionist",
+  "addedAt": "2026-10-01T00:30:00Z",
       "baseScenarioCount": 25,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": false

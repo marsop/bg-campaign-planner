@@ -1,5 +1,6 @@
 {
   "id": "the-crew-planet-nine",
+  "addedAt": "2026-10-14T13:30:00Z",
   "title": "The Crew: The Quest for Planet Nine",
   "releaseYear": 2019,
   "designers": "Thomas Sing",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "crew_training_run",
+  "addedAt": "2026-10-14T13:30:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "crew_full_expedition",
+  "addedAt": "2026-10-14T13:30:00Z",
       "baseScenarioCount": 50,
       "estimatedFailRatePercent": 35.0,
       "isRecommended": true
     },
     {
       "id": "crew_master_astronaut",
+  "addedAt": "2026-10-14T13:30:00Z",
       "baseScenarioCount": 65,
       "estimatedFailRatePercent": 50.0,
       "isRecommended": false

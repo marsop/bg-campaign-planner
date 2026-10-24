@@ -1,5 +1,6 @@
 {
   "id": "detective-city-of-angels",
+  "addedAt": "2026-10-24T15:30:00Z",
   "title": "Detective: City of Angels",
   "releaseYear": 2019,
   "designers": "Evan Derrick",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "city_of_angels_complete_dossier",
+  "addedAt": "2026-10-24T15:30:00Z",
       "baseScenarioCount": 9,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": true
     },
     {
       "id": "city_of_angels_rookie_investigator",
+  "addedAt": "2026-10-24T15:30:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false
     },
     {
       "id": "city_of_angels_master_chisel",
+  "addedAt": "2026-10-24T15:30:00Z",
       "baseScenarioCount": 13,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

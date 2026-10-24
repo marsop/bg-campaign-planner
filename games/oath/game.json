@@ -1,5 +1,6 @@
 {
   "id": "oath",
+  "addedAt": "2026-10-23T14:50:00Z",
   "title": "Oath: Chronicles of Empire and Exile",
   "releaseYear": 2021,
   "designers": "Cole Wehrle",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "oath_grand_dynasty",
+  "addedAt": "2026-10-23T14:50:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": true
     },
     {
       "id": "oath_reign_of_chancellors",
+  "addedAt": "2026-10-23T14:50:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false
     },
     {
       "id": "oath_immortal_empire",
+  "addedAt": "2026-10-23T14:50:00Z",
       "baseScenarioCount": 18,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false

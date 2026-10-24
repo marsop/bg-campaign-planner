@@ -1,5 +1,6 @@
 {
   "id": "under-falling-skies",
+  "addedAt": "2026-10-23T14:45:00Z",
   "title": "Under Falling Skies",
   "releaseYear": 2020,
   "designers": "Tomáš Uhlíř",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "under_falling_skies_full_campaign",
+  "addedAt": "2026-10-23T14:45:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 30.0,
       "isRecommended": true
     },
     {
       "id": "under_falling_skies_first_chapter",
+  "addedAt": "2026-10-23T14:45:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false
     },
     {
       "id": "under_falling_skies_hardcore_resistance",
+  "addedAt": "2026-10-23T14:45:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 40.0,
       "isRecommended": false

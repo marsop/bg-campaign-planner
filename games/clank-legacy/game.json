@@ -1,5 +1,6 @@
 {
   "id": "clank-legacy",
+  "addedAt": "2026-09-24T11:45:00Z",
   "title": "Clank! Legacy: Acquisitions Incorporated",
   "releaseYear": 2019,
   "designers": "Andy Clautice, Paul Dennen",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "clank_campaign",
+  "addedAt": "2026-09-24T11:45:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": true
     },
     {
       "id": "clank_full_contracts",
+  "addedAt": "2026-09-24T11:45:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "clank_extended",
+  "addedAt": "2026-09-24T11:45:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false

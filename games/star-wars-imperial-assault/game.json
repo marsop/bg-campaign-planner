@@ -1,5 +1,6 @@
 {
   "id": "star-wars-imperial-assault",
+  "addedAt": "2026-09-24T11:45:00Z",
   "title": "Star Wars: Imperial Assault",
   "releaseYear": 2014,
   "designers": "Corey Konieczka, Justin Kemppainen, Jonathan Ying",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "ia_core_campaign",
+  "addedAt": "2026-09-24T11:45:00Z",
       "baseScenarioCount": 11,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": true
     },
     {
       "id": "ia_extended_campaign",
+  "addedAt": "2026-09-24T11:45:00Z",
       "baseScenarioCount": 13,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "ia_coop_app_campaign",
+  "addedAt": "2026-09-24T11:45:00Z",
       "baseScenarioCount": 5,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false

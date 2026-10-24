@@ -1,5 +1,6 @@
 {
   "id": "burgle-bros-2",
+  "addedAt": "2026-10-24T15:45:00Z",
   "title": "Burgle Bros 2: The Casino Capers",
   "releaseYear": 2021,
   "designers": "Tim Fowers",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "burgle_bros_2_casino_campaign",
+  "addedAt": "2026-10-24T15:45:00Z",
       "baseScenarioCount": 9,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": true
     },
     {
       "id": "burgle_bros_2_first_heists",
+  "addedAt": "2026-10-24T15:45:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "burgle_bros_2_master_thieves",
+  "addedAt": "2026-10-24T15:45:00Z",
       "baseScenarioCount": 14,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": false

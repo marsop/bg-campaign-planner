@@ -1,5 +1,6 @@
 {
   "id": "harakiri-blades-of-honor",
+  "addedAt": "2026-09-24T12:20:00Z",
   "title": "Harakiri: Blades of Honor",
   "releaseYear": 2025,
   "designers": "Fernando Gamero, Joel Torres",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "harakiri_full_chronicles",
+  "addedAt": "2026-09-24T12:20:00Z",
       "baseScenarioCount": 35,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "harakiri_act_1",
+  "addedAt": "2026-09-24T12:20:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": false
     },
     {
       "id": "harakiri_grand_saga",
+  "addedAt": "2026-09-24T12:20:00Z",
       "baseScenarioCount": 45,
       "estimatedFailRatePercent": 18.0,
       "isRecommended": false

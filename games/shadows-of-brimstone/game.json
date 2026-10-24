@@ -1,5 +1,6 @@
 {
   "id": "shadows-of-brimstone",
+  "addedAt": "2026-10-24T15:05:00Z",
   "title": "Shadows of Brimstone: City of the Ancients",
   "releaseYear": 2014,
   "designers": "Jason C. Hill, Scott Purington",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "brimstone_ancient_city_saga",
+  "addedAt": "2026-10-24T15:05:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "brimstone_greenhorn_mines",
+  "addedAt": "2026-10-24T15:05:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "brimstone_master_gunslinger",
+  "addedAt": "2026-10-24T15:05:00Z",
       "baseScenarioCount": 24,
       "estimatedFailRatePercent": 30.0,
       "isRecommended": false

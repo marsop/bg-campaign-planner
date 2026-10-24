@@ -1,5 +1,6 @@
 {
   "id": "mice-and-mystics",
+  "addedAt": "2026-09-22T11:30:00Z",
   "title": "Mice and Mystics",
   "releaseYear": 2012,
   "designers": "Jerry Hawthorne",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "mice_mystics_sorrow_remembrance",
+  "addedAt": "2026-09-22T11:30:00Z",
       "baseScenarioCount": 11,
       "estimatedFailRatePercent": 0.12,
       "isRecommended": true
     },
     {
       "id": "mice_mystics_act1",
+  "addedAt": "2026-09-22T11:30:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 0.10,
       "isRecommended": false
     },
     {
       "id": "mice_mystics_act2",
+  "addedAt": "2026-09-22T11:30:00Z",
       "baseScenarioCount": 7,
       "estimatedFailRatePercent": 0.12,
       "isRecommended": false

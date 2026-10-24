@@ -1,5 +1,6 @@
 {
   "id": "risk-legacy",
+  "addedAt": "2026-10-22T13:55:00Z",
   "title": "Risk Legacy",
   "releaseYear": 2011,
   "designers": "Rob Daviau, Chris Dupuis",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "risk_legacy_campaign",
+  "addedAt": "2026-10-22T13:55:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": true
     },
     {
       "id": "risk_legacy_opening",
+  "addedAt": "2026-10-22T13:55:00Z",
       "baseScenarioCount": 5,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "risk_legacy_chronicle",
+  "addedAt": "2026-10-22T13:55:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false

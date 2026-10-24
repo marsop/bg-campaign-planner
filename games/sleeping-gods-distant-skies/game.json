@@ -1,5 +1,6 @@
 {
   "id": "sleeping-gods-distant-skies",
+  "addedAt": "2026-10-01T01:40:00Z",
   "title": "Sleeping Gods: Distant Skies",
   "releaseYear": 2023,
   "designers": "Ryan Laukat",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "distant_skies_full_campaign",
+  "addedAt": "2026-10-01T01:40:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 8.0,
       "isRecommended": true
     },
     {
       "id": "distant_skies_maiden_flight",
+  "addedAt": "2026-10-01T01:40:00Z",
       "baseScenarioCount": 5,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false
     },
     {
       "id": "distant_skies_complete_atlas",
+  "addedAt": "2026-10-01T01:40:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": false

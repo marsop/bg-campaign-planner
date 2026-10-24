@@ -11,7 +11,11 @@ This file lives at `games/{game-id}/game.json`.
   // Required. Must exactly match the parent folder name.
   // Lowercase, alphanumeric, hyphens only.
   // Examples: "gloomhaven", "pandemic-season-1", "kingdom-death-monster"
-  "id": "your-game-id",
+  ""id"": ""your-game-id"",
+
+  // Required. ISO 8601 UTC timestamp up to seconds when the game was added.
+  // Format: ""YYYY-MM-DDTHH:mm:ssZ"" (e.g. ""2026-10-24T12:00:00Z"").
+  ""addedAt"": ""2026-10-24T12:00:00Z"",
 
   // Required. The official English title of the game exactly as printed on the box.
   "title": "Your Game Title",

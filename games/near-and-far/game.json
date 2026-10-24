@@ -1,5 +1,6 @@
 {
   "id": "near-and-far",
+  "addedAt": "2026-10-24T15:10:00Z",
   "title": "Near and Far",
   "releaseYear": 2017,
   "designers": "Ryan Laukat",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "near_and_far_story_campaign",
+  "addedAt": "2026-10-24T15:10:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": true
     },
     {
       "id": "near_and_far_character_quest",
+  "addedAt": "2026-10-24T15:10:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false
     },
     {
       "id": "near_and_far_arcade_mode",
+  "addedAt": "2026-10-24T15:10:00Z",
       "baseScenarioCount": 14,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false

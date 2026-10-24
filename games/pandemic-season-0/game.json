@@ -1,5 +1,6 @@
 {
   "id": "pandemic-season-0",
+  "addedAt": "2026-10-01T01:00:00Z",
   "title": "Pandemic Legacy: Season 0",
   "releaseYear": 2020,
   "designers": "Matt Leacock, Rob Daviau",
@@ -37,24 +38,28 @@
   "scopes": [
     {
       "id": "pandemic_standard",
+  "addedAt": "2026-10-01T01:00:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "pandemic_optimistic",
+  "addedAt": "2026-10-01T01:00:00Z",
       "baseScenarioCount": 14,
       "estimatedFailRatePercent": 8.0,
       "isRecommended": false
     },
     {
       "id": "pandemic_grind",
+  "addedAt": "2026-10-01T01:00:00Z",
       "baseScenarioCount": 21,
       "estimatedFailRatePercent": 40.0,
       "isRecommended": false
     },
     {
       "id": "pandemic_max",
+  "addedAt": "2026-10-01T01:00:00Z",
       "baseScenarioCount": 26,
       "estimatedFailRatePercent": 50.0,
       "isRecommended": false

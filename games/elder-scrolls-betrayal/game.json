@@ -1,5 +1,6 @@
 {
   "id": "elder-scrolls-betrayal",
+  "addedAt": "2026-09-14T08:40:00Z",
   "title": "The Elder Scrolls: Betrayal of the Second Era",
   "releaseYear": 2025,
   "designers": "Josh J. Carlson, Michael Gernes, Logan Giannini, Ryan Howard, Salem Scott, Josh Wielgus",
@@ -37,24 +38,28 @@
   "scopes": [
     {
       "id": "tes_single_adventure",
+  "addedAt": "2026-09-14T08:40:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": false
     },
     {
       "id": "tes_provincial_chronicle",
+  "addedAt": "2026-09-14T08:40:00Z",
       "baseScenarioCount": 9,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "tes_grand_tamriel",
+  "addedAt": "2026-09-14T08:40:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 18.0,
       "isRecommended": false
     },
     {
       "id": "tes_master_lorekeeper",
+  "addedAt": "2026-09-14T08:40:00Z",
       "baseScenarioCount": 24,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false

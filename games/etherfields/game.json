@@ -1,5 +1,6 @@
 {
   "id": "etherfields",
+  "addedAt": "2026-09-22T11:20:00Z",
   "title": "Etherfields",
   "releaseYear": 2020,
   "designers": "Michał Oracz",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "etherfields_core",
+  "addedAt": "2026-09-22T11:20:00Z",
       "baseScenarioCount": 22,
       "estimatedFailRatePercent": 0.10,
       "isRecommended": true
     },
     {
       "id": "etherfields_awakening",
+  "addedAt": "2026-09-22T11:20:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 0.08,
       "isRecommended": false
     },
     {
       "id": "etherfields_grand",
+  "addedAt": "2026-09-22T11:20:00Z",
       "baseScenarioCount": 32,
       "estimatedFailRatePercent": 0.12,
       "isRecommended": false

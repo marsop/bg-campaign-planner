@@ -1,5 +1,6 @@
 {
   "id": "aftermath",
+  "addedAt": "2026-09-24T12:20:00Z",
   "title": "Aftermath",
   "releaseYear": 2019,
   "designers": "Jerry Hawthorne",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "aftermath_colony_campaign",
+  "addedAt": "2026-09-24T12:20:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": true
     },
     {
       "id": "aftermath_core_story",
+  "addedAt": "2026-09-24T12:20:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "aftermath_full_chronicle",
+  "addedAt": "2026-09-24T12:20:00Z",
       "baseScenarioCount": 27,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

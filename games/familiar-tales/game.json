@@ -1,5 +1,6 @@
 {
   "id": "familiar-tales",
+  "addedAt": "2026-09-24T12:20:00Z",
   "title": "Familiar Tales",
   "releaseYear": 2022,
   "designers": "Jerry Hawthorne",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "familiar_grand_chronicle",
+  "addedAt": "2026-09-24T12:20:00Z",
       "baseScenarioCount": 9,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": true
     },
     {
       "id": "familiar_era_1",
+  "addedAt": "2026-09-24T12:20:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 8.0,
       "isRecommended": false
     },
     {
       "id": "familiar_complete_tales",
+  "addedAt": "2026-09-24T12:20:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": false

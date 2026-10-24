@@ -1,5 +1,6 @@
 {
   "id": "stuffed-fables",
+  "addedAt": "2026-10-22T13:50:00Z",
   "title": "Stuffed Fables",
   "releaseYear": 2018,
   "designers": "Jerry Hawthorne",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "stuffed_fables_core",
+  "addedAt": "2026-10-22T13:50:00Z",
       "baseScenarioCount": 7,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": true
     },
     {
       "id": "stuffed_fables_intro",
+  "addedAt": "2026-10-22T13:50:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 8.0,
       "isRecommended": false
     },
     {
       "id": "stuffed_fables_storybook_master",
+  "addedAt": "2026-10-22T13:50:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

@@ -1,5 +1,6 @@
 {
   "id": "warhammer-quest-blackstone-fortress",
+  "addedAt": "2026-10-23T15:00:00Z",
   "title": "Warhammer Quest: Blackstone Fortress",
   "releaseYear": 2018,
   "designers": "Jervis Johnson, Simon Grant",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "blackstone_hidden_vault",
+  "addedAt": "2026-10-23T15:00:00Z",
       "baseScenarioCount": 18,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": true
     },
     {
       "id": "blackstone_first_stronghold",
+  "addedAt": "2026-10-23T15:00:00Z",
       "baseScenarioCount": 6,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "blackstone_master_explorer",
+  "addedAt": "2026-10-23T15:00:00Z",
       "baseScenarioCount": 26,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": false

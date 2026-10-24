@@ -1,5 +1,6 @@
 {
   "id": "robinson-crusoe",
+  "addedAt": "2026-10-23T14:05:00Z",
   "title": "Robinson Crusoe: Adventures on the Cursed Island",
   "releaseYear": 2012,
   "designers": "Ignacy Trzewiczek",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "robinson_core_chronicles",
+  "addedAt": "2026-10-23T14:05:00Z",
       "baseScenarioCount": 7,
       "estimatedFailRatePercent": 35.0,
       "isRecommended": true
     },
     {
       "id": "robinson_introductory_arc",
+  "addedAt": "2026-10-23T14:05:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": false
     },
     {
       "id": "robinson_master_anthology",
+  "addedAt": "2026-10-23T14:05:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 40.0,
       "isRecommended": false

@@ -1,5 +1,6 @@
 {
   "id": "arydia",
+  "addedAt": "2026-09-14T10:05:00Z",
   "title": "Arydia: The Paths We Dare Tread",
   "releaseYear": 2025,
   "designers": "Cody Miller, Ira Fay",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "arydia_standard",
+  "addedAt": "2026-09-14T10:05:00Z",
       "baseScenarioCount": 24,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": true
     },
     {
       "id": "arydia_story",
+  "addedAt": "2026-09-14T10:05:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "arydia_completionist",
+  "addedAt": "2026-09-14T10:05:00Z",
       "baseScenarioCount": 36,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

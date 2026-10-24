@@ -1,5 +1,6 @@
 {
   "id": "artisans-of-splendent-vale",
+  "addedAt": "2026-09-22T10:50:00Z",
   "title": "Artisans of Splendent Vale",
   "releaseYear": 2022,
   "designers": "Nikki Valens",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "vale_standard",
+  "addedAt": "2026-09-22T10:50:00Z",
       "baseScenarioCount": 22,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": true
     },
     {
       "id": "vale_story",
+  "addedAt": "2026-09-22T10:50:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 8.0,
       "isRecommended": false
     },
     {
       "id": "vale_master_artisans",
+  "addedAt": "2026-09-22T10:50:00Z",
       "baseScenarioCount": 28,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": false

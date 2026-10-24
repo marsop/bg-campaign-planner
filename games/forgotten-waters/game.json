@@ -1,5 +1,6 @@
 {
   "id": "forgotten-waters",
+  "addedAt": "2026-09-24T12:45:00Z",
   "title": "Forgotten Waters",
   "releaseYear": 2020,
   "designers": "Mr. Bistro, J. Arthur Ellis, Isaac Vega",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "forgotten_waters_core_voyages",
+  "addedAt": "2026-09-24T12:45:00Z",
       "baseScenarioCount": 5,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": true
     },
     {
       "id": "forgotten_waters_introductory_voyage",
+  "addedAt": "2026-09-24T12:45:00Z",
       "baseScenarioCount": 2,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "forgotten_waters_extended_expeditions",
+  "addedAt": "2026-09-24T12:45:00Z",
       "baseScenarioCount": 7,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

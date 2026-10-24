@@ -1,5 +1,6 @@
 {
   "id": "aeon-trespass-odyssey",
+  "addedAt": "2026-09-14T08:35:00Z",
   "title": "Aeon Trespass: Odyssey",
   "releaseYear": 2022,
   "designers": "Marcin Wełnicki",
@@ -37,24 +38,28 @@
   "scopes": [
     {
       "id": "ato_core_trilogy",
+  "addedAt": "2026-09-14T08:35:00Z",
       "baseScenarioCount": 85,
       "estimatedFailRatePercent": 18.0,
       "isRecommended": true
     },
     {
       "id": "ato_cycle_1",
+  "addedAt": "2026-09-14T08:35:00Z",
       "baseScenarioCount": 28,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "ato_speedrun",
+  "addedAt": "2026-09-14T08:35:00Z",
       "baseScenarioCount": 65,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": false
     },
     {
       "id": "ato_completionist",
+  "addedAt": "2026-09-14T08:35:00Z",
       "baseScenarioCount": 110,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false

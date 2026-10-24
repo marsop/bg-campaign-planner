@@ -1,5 +1,6 @@
 {
   "id": "folklore-the-affliction",
+  "addedAt": "2026-09-14T09:40:00Z",
   "title": "Folklore: The Affliction",
   "releaseYear": 2017,
   "designers": "Nick Blain, Will Donovan",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "folklore_core",
+  "addedAt": "2026-09-14T09:40:00Z",
       "baseScenarioCount": 18,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": true
     },
     {
       "id": "folklore_quick",
+  "addedAt": "2026-09-14T09:40:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": false
     },
     {
       "id": "folklore_dark_tales",
+  "addedAt": "2026-09-14T09:40:00Z",
       "baseScenarioCount": 42,
       "estimatedFailRatePercent": 22.0,
       "isRecommended": false

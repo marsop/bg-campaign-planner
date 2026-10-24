@@ -1,5 +1,6 @@
 {
   "id": "kingdom-rush",
+  "addedAt": "2026-10-24T15:40:00Z",
   "title": "Kingdom Rush: Rift in Time",
   "releaseYear": 2020,
   "designers": "Helana Hope, Sen-Foong Lim, Jessey Wright",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "kingdom_rush_full_campaign",
+  "addedAt": "2026-10-24T15:40:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "kingdom_rush_first_defenses",
+  "addedAt": "2026-10-24T15:40:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "kingdom_rush_iron_challenge",
+  "addedAt": "2026-10-24T15:40:00Z",
       "baseScenarioCount": 18,
       "estimatedFailRatePercent": 35.0,
       "isRecommended": false

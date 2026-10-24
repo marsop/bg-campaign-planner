@@ -1,5 +1,6 @@
 {
   "id": "pandemic-season-2",
+  "addedAt": "2026-10-01T01:20:00Z",
   "title": "Pandemic Legacy: Season 2",
   "releaseYear": 2017,
   "designers": "Rob Daviau, Matt Leacock",
@@ -37,24 +38,28 @@
   "scopes": [
     {
       "id": "pandemic2_standard",
+  "addedAt": "2026-10-01T01:20:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "pandemic2_optimistic",
+  "addedAt": "2026-10-01T01:20:00Z",
       "baseScenarioCount": 14,
       "estimatedFailRatePercent": 8.0,
       "isRecommended": false
     },
     {
       "id": "pandemic2_grind",
+  "addedAt": "2026-10-01T01:20:00Z",
       "baseScenarioCount": 21,
       "estimatedFailRatePercent": 40.0,
       "isRecommended": false
     },
     {
       "id": "pandemic2_max",
+  "addedAt": "2026-10-01T01:20:00Z",
       "baseScenarioCount": 26,
       "estimatedFailRatePercent": 50.0,
       "isRecommended": false

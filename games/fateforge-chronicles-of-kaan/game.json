@@ -1,5 +1,6 @@
 {
   "id": "fateforge-chronicles-of-kaan",
+  "addedAt": "2026-09-14T10:10:00Z",
   "title": "Fateforge: Chronicles of Kaan",
   "releaseYear": 2024,
   "designers": "Gordon Calleja",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "fateforge_standard",
+  "addedAt": "2026-09-14T10:10:00Z",
       "baseScenarioCount": 30,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": true
     },
     {
       "id": "fateforge_story",
+  "addedAt": "2026-09-14T10:10:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 8.0,
       "isRecommended": false
     },
     {
       "id": "fateforge_completionist",
+  "addedAt": "2026-09-14T10:10:00Z",
       "baseScenarioCount": 42,
       "estimatedFailRatePercent": 14.0,
       "isRecommended": false

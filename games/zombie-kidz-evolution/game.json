@@ -1,5 +1,6 @@
 {
   "id": "zombie-kidz-evolution",
+  "addedAt": "2026-10-22T13:45:00Z",
   "title": "Zombie Kidz Evolution",
   "releaseYear": 2018,
   "designers": "Annick Lobet",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "zombiekidz_quick_arc",
+  "addedAt": "2026-10-22T13:45:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false
     },
     {
       "id": "zombiekidz_standard",
+  "addedAt": "2026-10-22T13:45:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": true
     },
     {
       "id": "zombiekidz_completionist",
+  "addedAt": "2026-10-22T13:45:00Z",
       "baseScenarioCount": 25,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

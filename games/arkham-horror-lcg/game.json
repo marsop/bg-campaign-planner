@@ -1,5 +1,6 @@
 {
   "id": "arkham-horror-lcg",
+  "addedAt": "2026-09-14T09:35:00Z",
   "title": "Arkham Horror: The Card Game",
   "releaseYear": 2016,
   "designers": "Nate French, MJ Newman",
@@ -38,24 +39,28 @@
   "scopes": [
     {
       "id": "ahcg_core",
+  "addedAt": "2026-09-14T09:35:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false
     },
     {
       "id": "ahcg_single_cycle",
+  "addedAt": "2026-09-14T09:35:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "ahcg_multi_cycle",
+  "addedAt": "2026-09-14T09:35:00Z",
       "baseScenarioCount": 24,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": false
     },
     {
       "id": "ahcg_full_collection",
+  "addedAt": "2026-09-14T09:35:00Z",
       "baseScenarioCount": 80,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false

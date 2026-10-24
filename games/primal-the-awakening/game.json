@@ -1,5 +1,6 @@
 {
   "id": "primal-the-awakening",
+  "addedAt": "2026-09-14T10:30:00Z",
   "title": "Primal: The Awakening",
   "releaseYear": 2024,
   "designers": "Tommaso Mondadori, Alberto Parisi",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "primal_standard",
+  "addedAt": "2026-09-14T10:30:00Z",
       "baseScenarioCount": 13,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "primal_story",
+  "addedAt": "2026-09-14T10:30:00Z",
       "baseScenarioCount": 11,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "primal_completionist",
+  "addedAt": "2026-09-14T10:30:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false

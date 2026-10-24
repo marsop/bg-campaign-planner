@@ -1,5 +1,6 @@
 {
   "id": "aeons-end-legacy",
+  "addedAt": "2026-09-14T09:50:00Z",
   "title": "Aeon's End: Legacy",
   "releaseYear": 2019,
   "designers": "Jenny Iglesias, Nick Little, Kevin Riley",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "aeons_end_core",
+  "addedAt": "2026-09-14T09:50:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "aeons_end_expedition",
+  "addedAt": "2026-09-14T09:50:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": false
     },
     {
       "id": "aeons_end_completionist",
+  "addedAt": "2026-09-14T09:50:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 30.0,
       "isRecommended": false

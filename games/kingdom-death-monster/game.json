@@ -1,5 +1,6 @@
 {
   "id": "kingdom-death-monster",
+  "addedAt": "2026-10-01T00:40:00Z",
   "title": "Kingdom Death: Monster",
   "releaseYear": 2015,
   "designers": "Adam Poots",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "kdm_standard",
+  "addedAt": "2026-10-01T00:40:00Z",
       "baseScenarioCount": 30,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "kdm_watcher",
+  "addedAt": "2026-10-01T00:40:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false
     },
     {
       "id": "kdm_extended",
+  "addedAt": "2026-10-01T00:40:00Z",
       "baseScenarioCount": 35,
       "estimatedFailRatePercent": 30.0,
       "isRecommended": false

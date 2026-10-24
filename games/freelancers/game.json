@@ -1,5 +1,6 @@
 {
   "id": "freelancers",
+  "addedAt": "2026-10-24T16:05:00Z",
   "title": "Freelancers: A Crossroads Game",
   "releaseYear": 2023,
   "designers": [
@@ -29,6 +30,7 @@
   "scopes": [
     {
       "id": "intro-contract",
+  "addedAt": "2026-10-24T16:05:00Z",
       "name": "First Contract (Tutorial Job)",
       "description": "Introductory freelance contract introducing app audio narration, time-pressured worker placement, and gig scoring.",
       "units": 1,
@@ -37,6 +39,7 @@
     },
     {
       "id": "core-campaign",
+  "addedAt": "2026-10-24T16:05:00Z",
       "name": "The Big Score Campaign",
       "description": "Standard narrative campaign featuring five distinct high-stakes freelance jobs through post-apocalyptic fantasy ruins.",
       "units": 5,
@@ -45,6 +48,7 @@
     },
     {
       "id": "all-contracts",
+  "addedAt": "2026-10-24T16:05:00Z",
       "name": "All Contracts & Expansion Jobs",
       "description": "Complete run playing all included story scenarios with varied character builds and legacy character sheets.",
       "units": 7,
@@ -55,6 +59,7 @@
   "milestones": [
     {
       "id": "first-payday",
+  "addedAt": "2026-10-24T16:05:00Z",
       "title": "The First Payday",
       "phase": "Gig I",
       "description": "Complete your crew's first contract, level up quirky skills, and record titles on your character sheet.",
@@ -64,6 +69,7 @@
     },
     {
       "id": "wasteland-notoriety",
+  "addedAt": "2026-10-24T16:05:00Z",
       "title": "Wasteland Notoriety",
       "phase": "Gig II",
       "description": "Survive bizarre mutant encounters and build the party's infamous reputation among rival guilds.",
@@ -73,6 +79,7 @@
     },
     {
       "id": "crossroads-reckoning",
+  "addedAt": "2026-10-24T16:05:00Z",
       "title": "Crossroads Dilemma",
       "phase": "Gig III",
       "description": "Face difficult moral decisions triggered by Crossroads cards that pit personal greed against party survival.",
@@ -82,6 +89,7 @@
     },
     {
       "id": "the-master-heist",
+  "addedAt": "2026-10-24T16:05:00Z",
       "title": "The Grand Score",
       "phase": "Gig IV",
       "description": "Infiltrate a perilous corporate ruin to secure the ultimate treasure trove before the timer expires.",
@@ -91,6 +99,7 @@
     },
     {
       "id": "hall-of-legends",
+  "addedAt": "2026-10-24T16:05:00Z",
       "title": "Hall of Legends",
       "phase": "Retirement",
       "description": "Calculate lifetime plunder, cement your freelancer titles in folklore, and retire in outrageous luxury.",

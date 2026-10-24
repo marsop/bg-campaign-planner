@@ -1,5 +1,6 @@
 {
   "id": "machi-koro-legacy",
+  "addedAt": "2026-10-24T15:55:00Z",
   "title": "Machi Koro Legacy",
   "releaseYear": 2019,
   "designers": "Rob Daviau, JR Honeycutt, Masao Suganuma",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "machi_koro_ten_game_campaign",
+  "addedAt": "2026-10-24T15:55:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": true
     },
     {
       "id": "machi_koro_first_districts",
+  "addedAt": "2026-10-24T15:55:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false
     },
     {
       "id": "machi_koro_metropolis_master",
+  "addedAt": "2026-10-24T15:55:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false

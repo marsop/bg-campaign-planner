@@ -1,5 +1,6 @@
 {
   "id": "sleeping-gods",
+  "addedAt": "2026-10-01T01:30:00Z",
   "title": "Sleeping Gods",
   "releaseYear": 2021,
   "designers": "Ryan Laukat",
@@ -37,12 +38,14 @@
   "scopes": [
     {
       "id": "sg_standard",
+  "addedAt": "2026-10-01T01:30:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": true
     },
     {
       "id": "sg_quick",
+  "addedAt": "2026-10-01T01:30:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 5.0,
       "isRecommended": false

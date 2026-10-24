@@ -202,6 +202,21 @@
             },
             clearBggCollection: function () {
                 try { localStorage.removeItem('bg_campaign_planner_bgg_collection'); } catch (e) {}
+            },
+            // ── Recent Games Banner localStorage helpers ─────────────────────
+            getDismissedRecentGamesTimestamp: function () {
+                try { return localStorage.getItem('bg_campaign_planner_dismissed_recent_game') || ''; } catch (e) { return ''; }
+            },
+            setDismissedRecentGamesTimestamp: function (timestamp) {
+                try { localStorage.setItem('bg_campaign_planner_dismissed_recent_game', timestamp || ''); } catch (e) {}
+            },
+            scrollToGameSelector: function () {
+                try {
+                    var el = document.getElementById('selected-game-hero') || document.querySelector('.wizard-step-section');
+                    if (el) {
+                        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                } catch (e) {}
             }
         };
     </script>

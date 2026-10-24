@@ -1,5 +1,6 @@
 {
   "id": "the-adventures-of-robin-hood",
+  "addedAt": "2026-09-24T13:00:00Z",
   "title": "The Adventures of Robin Hood",
   "releaseYear": 2021,
   "designers": "Michael Menzel",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "robin_hood_full_chronicle",
+  "addedAt": "2026-09-24T13:00:00Z",
       "baseScenarioCount": 9,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": true
     },
     {
       "id": "robin_hood_act_one",
+  "addedAt": "2026-09-24T13:00:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "robin_hood_master_outlaws",
+  "addedAt": "2026-09-24T13:00:00Z",
       "baseScenarioCount": 13,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

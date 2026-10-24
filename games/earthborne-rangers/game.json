@@ -1,5 +1,6 @@
 {
   "id": "earthborne-rangers",
+  "addedAt": "2026-09-14T08:50:00Z",
   "title": "Earthborne Rangers",
   "releaseYear": 2023,
   "designers": "Andrew Fischer, Brooks Flugaur-Leavitt, Andrew Navaro, Adam Sadler, Brady Sadler",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "ebr_standard",
+  "addedAt": "2026-09-14T08:50:00Z",
       "baseScenarioCount": 21,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": true
     },
     {
       "id": "ebr_story",
+  "addedAt": "2026-09-14T08:50:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 8.0,
       "isRecommended": false
     },
     {
       "id": "ebr_full_valley",
+  "addedAt": "2026-09-14T08:50:00Z",
       "baseScenarioCount": 30,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

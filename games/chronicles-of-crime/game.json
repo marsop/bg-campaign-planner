@@ -1,5 +1,6 @@
 {
   "id": "chronicles-of-crime",
+  "addedAt": "2026-09-22T11:35:00Z",
   "title": "Chronicles of Crime",
   "releaseYear": 2018,
   "designers": "David Cicurel",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "chronicles_of_crime_campaign",
+  "addedAt": "2026-09-22T11:35:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 0.05,
       "isRecommended": true
     },
     {
       "id": "chronicles_of_crime_base_archive",
+  "addedAt": "2026-09-22T11:35:00Z",
       "baseScenarioCount": 5,
       "estimatedFailRatePercent": 0.05,
       "isRecommended": false
     },
     {
       "id": "chronicles_of_crime_expanded",
+  "addedAt": "2026-09-22T11:35:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 0.05,
       "isRecommended": false

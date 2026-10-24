@@ -1,5 +1,6 @@
 {
   "id": "the-initiative",
+  "addedAt": "2026-10-22T14:00:00Z",
   "title": "The Initiative",
   "releaseYear": 2021,
   "designers": "Corey Konieczka",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "the_initiative_campaign",
+  "addedAt": "2026-10-22T14:00:00Z",
       "baseScenarioCount": 14,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": true
     },
     {
       "id": "the_initiative_early_chapters",
+  "addedAt": "2026-10-22T14:00:00Z",
       "baseScenarioCount": 6,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "the_initiative_complete_enigma",
+  "addedAt": "2026-10-22T14:00:00Z",
       "baseScenarioCount": 24,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false

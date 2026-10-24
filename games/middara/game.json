@@ -1,5 +1,6 @@
 {
   "id": "middara",
+  "addedAt": "2026-09-14T08:30:00Z",
   "title": "Middara: Unintentional Malum \u2014 Act 1",
   "releaseYear": 2019,
   "designers": "Clayton Helme, Brooklynn Lundberg, Brennon Moncur, Ian Tate",
@@ -36,12 +37,14 @@
   "scopes": [
     {
       "id": "core_campaign",
+  "addedAt": "2026-09-14T08:30:00Z",
       "baseScenarioCount": 60,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "completionist",
+  "addedAt": "2026-09-14T08:30:00Z",
       "baseScenarioCount": 70,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false

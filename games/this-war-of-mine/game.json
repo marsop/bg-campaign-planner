@@ -1,5 +1,6 @@
 {
   "id": "this-war-of-mine",
+  "addedAt": "2026-10-23T14:35:00Z",
   "title": "This War of Mine: The Board Game",
   "releaseYear": 2017,
   "designers": "Michał Oracz, Jakub Wiśniewski",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "this_war_of_mine_ceasefire",
+  "addedAt": "2026-10-23T14:35:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 35.0,
       "isRecommended": true
     },
     {
       "id": "this_war_of_mine_first_snow",
+  "addedAt": "2026-10-23T14:35:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false
     },
     {
       "id": "this_war_of_mine_ironman",
+  "addedAt": "2026-10-23T14:35:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 45.0,
       "isRecommended": false

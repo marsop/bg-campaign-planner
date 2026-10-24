@@ -35,6 +35,16 @@ public class CampaignDataService
             .ToList();
     }
 
+    public IReadOnlyList<BoardGame> GetRecentlyAddedGames(int count = 5, string lang = "en")
+    {
+        var all = GetAllGames(lang);
+        return all
+            .Where(g => g.AddedAt.HasValue)
+            .OrderByDescending(g => g.AddedAt!.Value)
+            .Take(count)
+            .ToList();
+    }
+
     public BoardGame GetGame(string id, string lang = "en")
     {
         var dict = GetDictionaryForLang(lang);
@@ -100,6 +110,7 @@ public class CampaignDataService
                 Id = baseDto.Id,
                 Title = !string.IsNullOrEmpty(trans?.Title) ? trans.Title : baseDto.Title,
                 Subtitle = trans?.Subtitle ?? string.Empty,
+                AddedAt = baseDto.AddedAt,
                 ReleaseYear = baseDto.ReleaseYear,
                 Designers = baseDto.Designers,
                 PlayersMin = baseDto.PlayersMin,
@@ -318,6 +329,7 @@ public class CampaignDataService
     {
         public string Id { get; set; } = string.Empty;
         public string Title { get; set; } = string.Empty;
+        public DateTimeOffset? AddedAt { get; set; }
         public int ReleaseYear { get; set; }
         public string Designers { get; set; } = string.Empty;
         public int PlayersMin { get; set; } = 1;

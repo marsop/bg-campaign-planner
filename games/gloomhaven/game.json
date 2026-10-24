@@ -1,5 +1,6 @@
 {
   "id": "gloomhaven",
+  "addedAt": "2026-10-01T00:20:00Z",
   "title": "Gloomhaven",
   "releaseYear": 2017,
   "designers": "Isaac Childres",
@@ -37,24 +38,28 @@
   "scopes": [
     {
       "id": "core_campaign",
+  "addedAt": "2026-10-01T00:20:00Z",
       "baseScenarioCount": 52,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "story_speedrun",
+  "addedAt": "2026-10-01T00:20:00Z",
       "baseScenarioCount": 42,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "extended_campaign",
+  "addedAt": "2026-10-01T00:20:00Z",
       "baseScenarioCount": 68,
       "estimatedFailRatePercent": 18.0,
       "isRecommended": false
     },
     {
       "id": "completionist",
+  "addedAt": "2026-10-01T00:20:00Z",
       "baseScenarioCount": 88,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false

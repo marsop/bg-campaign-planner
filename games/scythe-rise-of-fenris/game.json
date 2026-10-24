@@ -1,5 +1,6 @@
 {
   "id": "scythe-rise-of-fenris",
+  "addedAt": "2026-09-24T12:40:00Z",
   "title": "Scythe: The Rise of Fenris",
   "releaseYear": 2018,
   "designers": "Jamey Stegmaier, Ryan Lopez DeVinaspre",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "scythe_fenris_full_campaign",
+  "addedAt": "2026-09-24T12:40:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": true
     },
     {
       "id": "scythe_fenris_early_skirmishes",
+  "addedAt": "2026-09-24T12:40:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "scythe_fenris_expanded_chronicle",
+  "addedAt": "2026-09-24T12:40:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false

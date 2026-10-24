@@ -1,5 +1,6 @@
 {
   "id": "legends-of-andor",
+  "addedAt": "2026-10-24T15:15:00Z",
   "title": "Legends of Andor",
   "releaseYear": 2012,
   "designers": "Michael Menzel",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "andor_five_legends_chronicle",
+  "addedAt": "2026-10-24T15:15:00Z",
       "baseScenarioCount": 5,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "andor_introductory_legends",
+  "addedAt": "2026-10-24T15:15:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "andor_master_guardians",
+  "addedAt": "2026-10-24T15:15:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 30.0,
       "isRecommended": false

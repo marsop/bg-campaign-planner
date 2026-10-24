@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.98.0] - 2026-10-24
+
+### Added
+- **Recently Added Games Announcement Banner**:
+  - Implemented a dismissable, non-intrusive announcement banner at the top of the application highlighting the last 5 campaign games added to the catalog.
+  - Interactive mini-cards carousel with 1:1 box art thumbnails, player counts, release years, and a "NEW" tag. Clicking any card immediately selects that campaign game and smoothly scrolls into view.
+  - Smart persistence with `localStorage`: dismissing the banner remembers the latest game's timestamp and keeps the banner closed until a newer game is added to the catalog.
+  - Added a dedicated "✨ What's New" pill button in the top navigation header alongside Language and Theme toggles, allowing users to reopen the banner at any time.
+  - Added `addedAt` timestamp metadata (ISO 8601 up to seconds) across all board game configurations and updated `add-game` skill instructions and schema reference.
+  - Complete localized UI translations across English, Spanish, German, French, and Italian.
+
 ## [0.97.0] - 2026-10-24
 
 ### Added

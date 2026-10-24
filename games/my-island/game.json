@@ -1,5 +1,6 @@
 {
   "id": "my-island",
+  "addedAt": "2026-09-22T11:40:00Z",
   "title": "My Island",
   "releaseYear": 2023,
   "designers": "Reiner Knizia",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "my_island_campaign",
+  "addedAt": "2026-09-22T11:40:00Z",
       "baseScenarioCount": 24,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": true
     },
     {
       "id": "my_island_settlement_era",
+  "addedAt": "2026-09-22T11:40:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "my_island_monuments_era",
+  "addedAt": "2026-09-22T11:40:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false

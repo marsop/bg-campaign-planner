@@ -1,5 +1,6 @@
 {
   "id": "mechs-vs-minions",
+  "addedAt": "2026-09-24T12:35:00Z",
   "title": "Mechs vs. Minions",
   "releaseYear": 2016,
   "designers": "Chris Cantrell, Rick Ernst, Stone Librande, Prashant Saraswat, Nathan Tiras",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "mvm_full_campaign",
+  "addedAt": "2026-09-24T12:35:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "mvm_cadet_missions",
+  "addedAt": "2026-09-24T12:35:00Z",
       "baseScenarioCount": 5,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "mvm_master_mechanic",
+  "addedAt": "2026-09-24T12:35:00Z",
       "baseScenarioCount": 14,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false

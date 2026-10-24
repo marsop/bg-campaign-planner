@@ -1,5 +1,6 @@
 {
   "id": "sherlock-holmes-consulting-detective",
+  "addedAt": "2026-10-23T14:15:00Z",
   "title": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
   "releaseYear": 1981,
   "designers": "Raymond Edwards, Suzanne Goldberg, Gary Grady",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "sherlock_full_investigation",
+  "addedAt": "2026-10-23T14:15:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": true
     },
     {
       "id": "sherlock_introductory_trilogy",
+  "addedAt": "2026-10-23T14:15:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "sherlock_master_selection",
+  "addedAt": "2026-10-23T14:15:00Z",
       "baseScenarioCount": 6,
       "estimatedFailRatePercent": 12.0,
       "isRecommended": false

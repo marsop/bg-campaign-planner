@@ -1,5 +1,6 @@
 {
   "id": "descent-second-edition",
+  "addedAt": "2026-10-20T13:35:00Z",
   "title": "Descent: Journeys in the Dark (Second Edition)",
   "releaseYear": 2012,
   "designers": "Daniel Clark, Corey Konieczka, Adam Sadler, Kevin Wilson",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "shadow_rune_standard",
+  "addedAt": "2026-10-20T13:35:00Z",
       "baseScenarioCount": 20,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "act_one_short",
+  "addedAt": "2026-10-20T13:35:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "heirs_of_blood",
+  "addedAt": "2026-10-20T13:35:00Z",
       "baseScenarioCount": 32,
       "estimatedFailRatePercent": 18.0,
       "isRecommended": false

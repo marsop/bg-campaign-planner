@@ -1,5 +1,6 @@
 {
   "id": "perseverance",
+  "addedAt": "2026-09-22T11:15:00Z",
   "title": "Perseverance: Castaway Chronicles",
   "releaseYear": 2022,
   "designers": "Richard Amann, Thomas Vande Ginste, Viktor Peter, Dávid Turczi, Wolf Plancke",
@@ -37,24 +38,28 @@
   "scopes": [
     {
       "id": "perseverance_chronicles",
+  "addedAt": "2026-09-22T11:15:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": true
     },
     {
       "id": "perseverance_ep1",
+  "addedAt": "2026-09-22T11:15:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "perseverance_ep2",
+  "addedAt": "2026-09-22T11:15:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false
     },
     {
       "id": "perseverance_extended",
+  "addedAt": "2026-09-22T11:15:00Z",
       "baseScenarioCount": 12,
       "estimatedFailRatePercent": 0.0,
       "isRecommended": false

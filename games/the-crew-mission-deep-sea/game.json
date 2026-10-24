@@ -1,5 +1,6 @@
 {
   "id": "the-crew-mission-deep-sea",
+  "addedAt": "2026-10-20T13:40:00Z",
   "title": "The Crew: Mission Deep Sea",
   "releaseYear": 2021,
   "designers": "Thomas Sing",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "fast_dive_arc",
+  "addedAt": "2026-10-20T13:40:00Z",
       "baseScenarioCount": 15,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "deep_sea_logbook_standard",
+  "addedAt": "2026-10-20T13:40:00Z",
       "baseScenarioCount": 32,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "deep_sea_abyssal_mastery",
+  "addedAt": "2026-10-20T13:40:00Z",
       "baseScenarioCount": 40,
       "estimatedFailRatePercent": 40.0,
       "isRecommended": false

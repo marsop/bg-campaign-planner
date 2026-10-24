@@ -1,5 +1,6 @@
 {
   "id": "aliens-another-glorious-day",
+  "addedAt": "2026-10-24T15:50:00Z",
   "title": "Aliens: Another Glorious Day in the Corps",
   "releaseYear": 2020,
   "designers": "Andrew Haught",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "aliens_hadleys_hope_campaign",
+  "addedAt": "2026-10-24T15:50:00Z",
       "baseScenarioCount": 6,
       "estimatedFailRatePercent": 30.0,
       "isRecommended": true
     },
     {
       "id": "aliens_airlock_incursion",
+  "addedAt": "2026-10-24T15:50:00Z",
       "baseScenarioCount": 2,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "aliens_ultimate_badasses",
+  "addedAt": "2026-10-24T15:50:00Z",
       "baseScenarioCount": 8,
       "estimatedFailRatePercent": 40.0,
       "isRecommended": false

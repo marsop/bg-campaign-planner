@@ -1,5 +1,6 @@
 {
   "id": "harry-potter-hogwarts-battle",
+  "addedAt": "2026-09-24T12:55:00Z",
   "title": "Harry Potter: Hogwarts Battle",
   "releaseYear": 2016,
   "designers": "Forrest-Pruzan Creative, Kami Mandell, Andrew Wolf",
@@ -37,18 +38,21 @@
   "scopes": [
     {
       "id": "hp_hogwarts_seven_years",
+  "addedAt": "2026-09-24T12:55:00Z",
       "baseScenarioCount": 7,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": true
     },
     {
       "id": "hp_hogwarts_early_years",
+  "addedAt": "2026-09-24T12:55:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 10.0,
       "isRecommended": false
     },
     {
       "id": "hp_hogwarts_master_wizards",
+  "addedAt": "2026-09-24T12:55:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 20.0,
       "isRecommended": false
