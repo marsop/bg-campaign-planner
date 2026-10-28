@@ -12,7 +12,7 @@
   "baseScenarioMinutes": 75,
   "setupTeardownMinutes": 15,
   "unitType": "scenarios",
-  "quality": "mid",
+  "quality": "high",
   "theme": {
     "primaryColor": "#eab308",
     "secondaryColor": "#1e3a8a",
@@ -38,21 +38,21 @@
   "scopes": [
     {
       "id": "kingdom_rush_full_campaign",
-  "addedAt": "2026-10-24T15:40:00Z",
+      "addedAt": "2026-10-24T15:40:00Z",
       "baseScenarioCount": 10,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "kingdom_rush_first_defenses",
-  "addedAt": "2026-10-24T15:40:00Z",
+      "addedAt": "2026-10-24T15:40:00Z",
       "baseScenarioCount": 3,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "kingdom_rush_iron_challenge",
-  "addedAt": "2026-10-24T15:40:00Z",
+      "addedAt": "2026-10-24T15:40:00Z",
       "baseScenarioCount": 18,
       "estimatedFailRatePercent": 35.0,
       "isRecommended": false

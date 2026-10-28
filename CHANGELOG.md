@@ -8,7 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Changed
-- **Aliens: Another Glorious Day in the Corps**: Upgraded game quality to "high" with custom 16:9 atmospheric Hadley's Hope industrial corridor background artwork.
+- **Catalog Quality Overhaul**: Upgraded all 13 remaining campaign board games from `"mid"` to `"high"` quality with bespoke 16:9 widescreen atmospheric backgrounds, achieving 100% `"high"` quality across the entire 100-game catalog:
+  - **Aliens: Another Glorious Day in the Corps**: Custom 16:9 atmospheric Hadley's Hope colony industrial corridor illustration.
+  - **Burgle Bros 2: The Casino Capers**: Custom 16:9 retro midnight casino penthouse lounge background.
+  - **Detective: City of Angels**: Custom 16:9 rainy film noir 1940s Los Angeles streetscape.
+  - **Freelancers: A Crossroads Game**: 16:9 widescreen lush overgrown civilization ruins illustration.
+  - **HeroQuest**: 16:9 widescreen authentic medieval stone vaulted dungeon chamber background.
+  - **Kingdom Rush: Rift in Time**: 16:9 widescreen verdant medieval fortress and tower landscape.
+  - **Legacy of Dragonholt**: Custom 16:9 cozy twilight Dragonholt fantasy village background.
+  - **Legacy of Yu**: 16:9 widescreen dramatic Chinese mountain river gorge landscape.
+  - **Legends of Andor**: Custom 16:9 panoramic fantasy realm of Andor with Castle Rietburg at dawn.
+  - **Machi Koro Legacy**: 16:9 widescreen colorful miniature toy town model panorama.
+  - **Near and Far**: 16:9 widescreen glowing sunset desert canyon landscape.
+  - **Shadows of Brimstone: City of the Ancients**: 16:9 widescreen authentic desert ghost town mining headframe.
+  - **T.I.M.E Stories**: 16:9 widescreen futuristic high-tech Chrono-Agency spaceship corridor background.
 
 ## [0.99.0] - 2026-10-24
 

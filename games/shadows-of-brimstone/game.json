@@ -12,7 +12,7 @@
   "baseScenarioMinutes": 120,
   "setupTeardownMinutes": 20,
   "unitType": "adventures",
-  "quality": "mid",
+  "quality": "high",
   "theme": {
     "primaryColor": "#10b981",
     "secondaryColor": "#78350f",
@@ -38,21 +38,21 @@
   "scopes": [
     {
       "id": "brimstone_ancient_city_saga",
-  "addedAt": "2026-10-24T15:05:00Z",
+      "addedAt": "2026-10-24T15:05:00Z",
       "baseScenarioCount": 16,
       "estimatedFailRatePercent": 25.0,
       "isRecommended": true
     },
     {
       "id": "brimstone_greenhorn_mines",
-  "addedAt": "2026-10-24T15:05:00Z",
+      "addedAt": "2026-10-24T15:05:00Z",
       "baseScenarioCount": 4,
       "estimatedFailRatePercent": 15.0,
       "isRecommended": false
     },
     {
       "id": "brimstone_master_gunslinger",
-  "addedAt": "2026-10-24T15:05:00Z",
+      "addedAt": "2026-10-24T15:05:00Z",
       "baseScenarioCount": 24,
       "estimatedFailRatePercent": 30.0,
       "isRecommended": false

@@ -12,7 +12,7 @@
   "baseScenarioMinutes": 120,
   "setupTeardownMinutes": 15,
   "unitType": "cases",
-  "quality": "mid",
+  "quality": "high",
   "theme": {
     "primaryColor": "#f59e0b",
     "secondaryColor": "#18181b",

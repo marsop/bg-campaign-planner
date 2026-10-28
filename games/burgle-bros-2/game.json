@@ -12,7 +12,7 @@
   "baseScenarioMinutes": 60,
   "setupTeardownMinutes": 15,
   "unitType": "capers",
-  "quality": "mid",
+  "quality": "high",
   "theme": {
     "primaryColor": "#ec4899",
     "secondaryColor": "#1e1b4b",
