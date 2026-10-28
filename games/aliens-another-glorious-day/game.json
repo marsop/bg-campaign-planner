@@ -12,7 +12,7 @@
   "baseScenarioMinutes": 90,
   "setupTeardownMinutes": 15,
   "unitType": "missions",
-  "quality": "mid",
+  "quality": "high",
   "theme": {
     "primaryColor": "#22c55e",
     "secondaryColor": "#0f172a",

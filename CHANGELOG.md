@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- **Aliens: Another Glorious Day in the Corps**: Upgraded game quality to "high" with custom 16:9 atmospheric Hadley's Hope industrial corridor background artwork.
+
 ## [0.99.0] - 2026-10-24
 
 ### Fixed
