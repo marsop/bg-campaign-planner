@@ -38,9 +38,11 @@ Hosted and deployed serverless on **GitHub Pages**.
 
 ---
 
-## 📚 Public Data Sources & Game Reference
+## 📚 Public Data Sources & Attribution
 
-All campaign data and completion statistics are curated from public domain sources:
+[![Powered by BoardGameGeek](wwwroot/powered-by-bgg.png)](https://boardgamegeek.com)
+
+Game ratings, complexity weights, metadata, and collection sync are powered by the [BoardGameGeek XML API2](https://boardgamegeek.com/using_the_xml_api). Campaign milestones, scopes, and completion statistics are curated from public domain sources and official rulebooks:
 
 1. **Gloomhaven (Cephalofair Games - Designer: Isaac Childres)**:
    - 95 total scenarios in box.

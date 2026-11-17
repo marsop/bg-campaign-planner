@@ -1963,6 +1963,39 @@ body {
     transform: scale(1.15) rotate(-8deg);
 }
 
+.footer-bgg-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.22rem 0.65rem;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 9999px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.footer-bgg-badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(252, 80, 0, 0.35);
+    border-color: #fc5000;
+}
+
+.footer-bgg-badge:focus-visible {
+    outline: 2px solid #fc5000;
+    outline-offset: 2px;
+}
+
+.footer-bgg-logo {
+    height: 18px;
+    width: auto;
+    max-width: 110px;
+    display: block;
+    object-fit: contain;
+}
+
 /* ==========================================================================
    11. LANGUAGE SELECTOR
    ========================================================================== */
@@ -2616,6 +2649,39 @@ body {
     text-transform: uppercase;
     color: var(--accent-gold-text);
     opacity: 0.9;
+}
+
+.bgg-powered-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.22rem 0.65rem;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 9999px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.bgg-powered-badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(252, 80, 0, 0.35);
+    border-color: #fc5000;
+}
+
+.bgg-powered-badge:focus-visible {
+    outline: 2px solid #fc5000;
+    outline-offset: 2px;
+}
+
+.bgg-powered-logo {
+    height: 19px;
+    width: auto;
+    max-width: 115px;
+    display: block;
+    object-fit: contain;
 }
 
 /* ── Username input ── */

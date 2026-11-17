@@ -13,13 +13,18 @@
             <span class="bgg-bar-title">
                 <i class="bi bi-collection-fill me-1"></i>@Loc["Bgg.SectionTitle"]
             </span>
-            @if (bggResult.State == BggSyncState.Success && !string.IsNullOrEmpty(bggResult.Username))
-            {
-                <span class="bgg-connected-chip">
-                    <i class="bi bi-person-check-fill me-1"></i>
-                    @Loc.Get("Bgg.ConnectedAs", bggResult.Username)
-                </span>
-            }
+            <div class="d-flex align-items-center gap-2 flex-wrap">
+                @if (bggResult.State == BggSyncState.Success && !string.IsNullOrEmpty(bggResult.Username))
+                {
+                    <span class="bgg-connected-chip">
+                        <i class="bi bi-person-check-fill me-1"></i>
+                        @Loc.Get("Bgg.ConnectedAs", bggResult.Username)
+                    </span>
+                }
+                <a href="https://boardgamegeek.com" target="_blank" rel="noopener noreferrer" class="bgg-powered-badge" title="@Loc["Bgg.PoweredBy"]" aria-label="@Loc["Bgg.PoweredBy"]">
+                    <img src="powered-by-bgg.png" alt="Powered by BoardGameGeek" class="bgg-powered-logo" />
+                </a>
+            </div>
         </div>
         <div class="bgg-bar-body mt-2">
             <div class="d-flex flex-column flex-sm-row gap-2 align-items-stretch align-items-sm-center flex-wrap">

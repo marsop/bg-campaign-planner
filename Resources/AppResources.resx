@@ -865,4 +865,7 @@
   <data name="Bgg.CsvEmptyOrInvalid" xml:space="preserve">
     <value>No owned board games found in the CSV file. Please make sure it is an export from BoardGameGeek.</value>
   </data>
+  <data name="Bgg.PoweredBy" xml:space="preserve">
+    <value>Powered by BoardGameGeek</value>
+  </data>
 </root>

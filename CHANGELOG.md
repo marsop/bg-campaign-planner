@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **"Powered by BGG" Official Attribution Badge**:
+  - Added the required official "Powered by BGG" logo badge in compliance with the approved BoardGameGeek XML API non-commercial application terms.
+  - Prominently integrated into the application footer across all views and within the BGG Collection Integration bar header in the game selector.
+  - Linked directly to `https://boardgamegeek.com` with secure external link attributes (`target="_blank" rel="noopener noreferrer"`).
+  - High-resolution, retina-sharp official logo asset (`powered-by-bgg.png`) with clean theme-responsive pill styling and subtle hover elevation.
+  - Localized accessible tooltips and labels across English, Spanish, German, French, and Italian (`Bgg.PoweredBy`).
+
 ### Changed
 - **Catalog Quality Overhaul**: Upgraded all 13 remaining campaign board games from `"mid"` to `"high"` quality with bespoke 16:9 widescreen atmospheric backgrounds, achieving 100% `"high"` quality across the entire 100-game catalog:
   - **Aliens: Another Glorious Day in the Corps**: Custom 16:9 atmospheric Hadley's Hope colony industrial corridor illustration.
